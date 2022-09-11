@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/mugiwarafx/khan-academy-submit-shortcut-reworked/blob/master/assets/images/logo-center-rules-black-and-white.png"
+    <img src="https://github.com/international-accessibility-task-force/webpage/blob/master/assets/images/logo-center-rules-black-and-white.png"
         height="138">
 </p>
 <p align="center">
