@@ -31,7 +31,7 @@ git clone https://github.com/international-accessibility-task-force/iatf-webpage
 ### Running locally
 
 ```sh
-cd webpage
+cd iatf-webpage
 open index.html
 ```
 
@@ -44,7 +44,7 @@ open index.html
 
 then:
 ```sh
-cd webpage
+cd iatf-webpage
 git checkout development
 git remote add upstream https://github.com/international-accessibility-task-force/iatf-webpage.git
 git pull upstream development
