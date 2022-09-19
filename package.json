@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-minimizer-webpack-plugin": "^4.1.0",
+    "cypress": "^10.8.0",
+    "eslint": "^8.23.1",
+    "html-minimizer-webpack-plugin": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "build": "npx webpack build",
+    "cypress:open": "cypress open"
+  }
+}
