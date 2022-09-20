@@ -22,7 +22,7 @@ International Accessibility Task Force is an open-to-everyone community of: assi
 
 ## Installation
 
-**Requirements:** `git`
+**Requirements:** `git`, `node` and `npm`
 
 ```sh
 git clone https://github.com/international-accessibility-task-force/iatf-webpage.git
@@ -32,7 +32,8 @@ git clone https://github.com/international-accessibility-task-force/iatf-webpage
 
 ```sh
 cd iatf-webpage
-open index.html
+npm install
+npm build
 ```
 
 ## Contributing
