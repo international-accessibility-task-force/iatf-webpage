@@ -1,8 +1,6 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy webpack dist
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ['master']
 
@@ -21,7 +19,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     if: ${{ github.event_name == 'push' && !contains(github.event.head_commit.message, '#skip') }}
     environment:
@@ -47,6 +44,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
-          branch: master
-          folder: dist # The folder the action should deploy.
+          branch: gh-pages
+          folder: dist
           clean: true
+  tag_release:
+    if: ${{ github.event_name == 'push' && !contains(github.event.head_commit.message, '#skip') }}
+    needs: [simple_deployment_pipeline]
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Bump version and push tag
+        if: ${{ github.event_name == 'push' }}
+        uses: anothrNick/github-tag-action@1.36.0
+        env:
+          DEFAULT_BUMP: patch
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Test Info
+        if: ${{ success() }}
+        uses: rjstone/discord-webhook-notify@v1
+        with:
+          severity: info
+          details: A new version of IATF-BOT deployed.
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
