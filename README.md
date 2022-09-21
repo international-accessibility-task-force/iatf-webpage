@@ -60,6 +60,11 @@ git push origin the-name-of-your-branch
 
 finally, you can PR to the **development branch** 🎉
 
+### Special **thanks** to all our contributors! 
+
+[@mugiwarafx](https://github.com/mugiwarafx), [@yourgithubusername](https://github.com/international-accessibility-task-force).
+
+All PR merged on `development` or `master` are honored above. <3!
 
 ## License
 Code licensed [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/) by IATF.
