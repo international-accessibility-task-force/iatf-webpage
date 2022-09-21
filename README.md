@@ -62,7 +62,7 @@ finally, you can PR to the **development branch** 🎉
 
 ### Special **thanks** to all our contributors! 
 
-[@mugiwarafx](https://github.com/mugiwarafx), [@yourgithubusername](https://github.com/international-accessibility-task-force).
+[@mugiwarafx](https://github.com/mugiwarafx), [@NevilleMthw](https://github.com/NevilleMthw).
 
 All PR merged on `development` or `master` are honored above. <3!
 
