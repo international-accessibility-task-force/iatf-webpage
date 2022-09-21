@@ -5,6 +5,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-minimizer-webpack-plugin": "^4.1.0",
     "cypress": "^10.8.0",
+    "cypress-axe": "^1.0.0",
     "eslint": "^8.23.1",
     "html-minimizer-webpack-plugin": "^4.1.0",
     "html-webpack-plugin": "^5.5.0",
@@ -15,6 +16,6 @@
   "scripts": {
     "lint": "eslint .",
     "build": "npx webpack build",
-    "cypress:open": "cypress open"
+    "cy:run": "cypress run"
   }
 }
