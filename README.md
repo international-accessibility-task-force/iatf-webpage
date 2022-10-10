@@ -22,7 +22,7 @@ International Accessibility Task Force is an open-to-everyone community of: assi
 
 ## Installation
 
-**Requirements:** `git`, `node` and `npm`
+**Requirements:** `git`, `node` and `yarn`
 
 ```sh
 git clone https://github.com/international-accessibility-task-force/iatf-webpage.git
@@ -32,8 +32,8 @@ git clone https://github.com/international-accessibility-task-force/iatf-webpage
 
 ```sh
 cd iatf-webpage
-npm install
-npm build
+yarn install
+yarn build
 ```
 
 ## Contributing
@@ -44,6 +44,7 @@ npm build
 1. git clone of the forked repository on your local machine.
 
 then:
+
 ```sh
 cd iatf-webpage
 git checkout development
@@ -60,13 +61,14 @@ git push origin the-name-of-your-branch
 
 finally, you can PR to the **development branch** 🎉
 
-### Special **thanks** to all our contributors! 
+### Special **thanks** to all our contributors!
 
-[@mugiwarafx](https://github.com/mugiwarafx), [@NevilleMthw](https://github.com/NevilleMthw).
+[@Joshua-Nweze](https://github.com/Joshua-Nweze), [@mugiwarafx](https://github.com/mugiwarafx), [@NevilleMthw](https://github.com/NevilleMthw).
 
 All PR merged on `development` or `master` are honored above. <3!
 
 ## License
+
 Code licensed [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/) by IATF.
 
 Made with ❤️ from IATF.

@@ -28,16 +28,14 @@ jobs:
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: 'npm'
-          cache-dependency-path: ./package-lock.json
-
+      # https://github.com/Borales/actions-yarn
       - name: Install and Build 🔧
-        run: |
-          npm ci
-          npm run build
+      - uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: install # will run `yarn install` command
+      - uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: build # will run `yarn build` command
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
@@ -45,7 +43,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         with:
           branch: gh-pages
-          folder: dist
+          folder: build
           clean: true
   tag_release:
     if: ${{ github.event_name == 'push' && !contains(github.event.head_commit.message, '#skip') }}
