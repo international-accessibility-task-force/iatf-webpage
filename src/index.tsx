@@ -19,15 +19,15 @@ const router = createBrowserRouter([
         element: <Manifest />,
       },
       {
-        path: 'users',
+        path: '/users',
         element: <Users />,
       },
       {
-        path: 'developers',
+        path: '/developers',
         element: <Developers />,
       },
       {
-        path: 'join-us',
+        path: '/join-us',
         element: <Join />,
       },
     ],
