@@ -8,31 +8,34 @@ import { Users, Developers, Join, Manifest } from './pages/_all'
 import './scss/global.scss'
 
 // TODO: extract this logic outside of index.tsx
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Root />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: '/', // expert review wanted
-        element: <Manifest />,
-      },
-      {
-        path: '/users',
-        element: <Users />,
-      },
-      {
-        path: '/developers',
-        element: <Developers />,
-      },
-      {
-        path: '/join-us',
-        element: <Join />,
-      },
-    ],
-  },
-])
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Root />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          path: '/', // expert review wanted
+          element: <Manifest />,
+        },
+        {
+          path: '/users',
+          element: <Users />,
+        },
+        {
+          path: '/developers',
+          element: <Developers />,
+        },
+        {
+          path: '/join-us',
+          element: <Join />,
+        },
+      ],
+    },
+  ],
+  { basename: '/iatf-webpage' }
+)
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
