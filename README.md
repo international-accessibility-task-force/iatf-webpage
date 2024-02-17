@@ -33,7 +33,7 @@ git clone https://github.com/international-accessibility-task-force/iatf-webpage
 ```sh
 cd iatf-webpage
 npm install
-npm build
+npm run dev
 ```
 
 ## Contributing
