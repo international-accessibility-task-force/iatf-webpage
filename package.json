@@ -1,6 +1,6 @@
 {
-	"name": "my-app",
-	"version": "0.0.1",
+	"name": "iatf-web",
+	"version": "2.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
