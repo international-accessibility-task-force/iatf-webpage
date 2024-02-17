@@ -1,0 +1,151 @@
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+body {
+    font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+        roboto, oxygen, ubuntu, cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    max-width: 80%;
+    margin: auto;
+    font-size: larger;
+}
+
+nav a {
+    color: #0e0bff;
+    text-decoration: none;
+}
+
+a {
+    color: #0e0bff;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.skip-to-main-content-link:not(:focus) {
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+    padding: 0;
+    position: absolute
+}
+
+.skip-to-main-content-link:focus {
+    background-color: #4c00ff;
+    border: 10px solid #fff;
+    color: #fbff00;
+    margin-top: 5px;
+    padding: 1em;
+    position: absolute;
+    right: 10%;
+    top: 0
+}
+
+header h1 {
+    background: #FFA100;
+    padding: 1rem;
+}
+
+nav#main-menu {
+    margin-top: 1rem
+}
+
+nav#main-menu a:focus-visible,
+nav#main-menu a:hover,
+nav#main-menu a.active {
+    background-color: #4c00ff;
+    color: #fbff00;
+    outline: 6px solid #4c00ff;
+    outline-offset: 0px;
+}
+
+nav {
+    border-bottom: 1px solid #000 !important;
+    border-top: 1px solid #000 !important
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 1.2em
+}
+
+nav#accessibility-menu {
+    border: none !important;
+}
+
+main {
+    margin-bottom: 2.5em;
+    margin-top: 2em
+}
+
+section a:focus-visible,
+section a:hover {
+    background-color: #4c00ff;
+    color: #fbff00;
+    outline: 1px solid #4c00ff;
+    outline-offset: 0px;
+}
+
+section,
+article {
+    word-wrap: break-word;
+    margin-bottom: 60px;
+}
+
+#note-for-developers div {
+    border: 1px solid #000;
+    padding: 1rem;
+    margin-top: 2rem;
+    padding-top: initial;
+    background-color: #fbff00;
+}
+
+
+footer p {
+    word-wrap: break-word;
+    background: #4c00ff;
+    color: #fff;
+    padding: 1em;
+    text-align: center
+}
+
+footer a {
+    color: #fbff00
+}
+
+footer a:focus-visible,
+footer a:hover {
+    background-color: #fbff00;
+    color: #000;
+    outline: 3px solid #fbff00;
+    outline-offset: 0px;
+}
+
+@media(max-width: 1200px) {
+
+    nav ul li {
+        line-height: 48px;
+    }
+}
+
+@media(max-width: 800px) {
+
+    body {
+        max-width: 90%;
+    }
+
+    .skip-to-main-content-link:focus {
+        right: 5%
+    }
+
+    nav ul li {
+        line-height: 48px;
+    }
+}
