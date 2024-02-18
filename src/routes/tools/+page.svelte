@@ -209,28 +209,43 @@
 		<h2>A Kind Note to Our Tech-Savvy Friends</h2>
 		<div>
 			<p>
-				ITTAI is a special helper made for everyone, shining a light on pictures for those who might
-				not see them. It's powered by clever technology from a generous creator named ydshieh over
-				at Hugging Face, and guess what? It's shared freely.
+				ITTAI has evolved! Now, not only can you submit an image URL for description, but you can
+				also directly upload images. These images are securely hosted on Cloudinary's free tier
+				plan, ensuring accessibility for everyone. It’s a joint effort, powered by the innovative
+				technology from ydshieh at Hugging Face and the robust hosting capabilities of Cloudinary.
 			</p>
-			<p>Thinking of Using the Model? Here’s What You Need to Know:</p>
+			<p>Want to Dive Deeper? Here’s What You Should Know:</p>
 			<ul>
 				<li>
-					Roll Up Your Sleeves: Interested in deploying the model on your own? ydshieh has provided
-					detailed instructions on Hugging Face. Access the instructions
-					<a href="https://huggingface.co/ydshieh/vit-gpt2-coco-en">on the model card website</a> to
-					learn how you can set up the model in your environment.
+					For DIY Enthusiasts: If you're inclined to deploy the model yourself, ydshieh has
+					generously provided detailed instructions on Hugging Face. Discover how to integrate this
+					technology into your own projects by visiting <a
+						href="https://huggingface.co/ydshieh/vit-gpt2-coco-en"
+						target="_blank"
+						rel="noopener noreferrer">the model card on Hugging Face</a
+					>.
 				</li>
 				<li>
-					Direct API Use: If you prefer direct interaction with the model via API, Hugging Face
-					offers a comprehensive guide. Find out how to utilize the API by checking the
-					<a href="https://huggingface.co/docs/api-inference/">Hugging Face API documentation</a>.
+					API Integration: Prefer a direct API approach? Hugging Face offers extensive documentation
+					to guide you through utilizing their API. Dive into the <a
+						href="https://huggingface.co/docs/api-inference/"
+						target="_blank"
+						rel="noopener noreferrer">Hugging Face API documentation</a
+					> for more details.
+				</li>
+				<li>
+					Using Cloudinary: Images uploaded via ITTAI are hosted on Cloudinary. While this feature
+					is designed for ease of use within ITTAI, we recommend not using our Cloudinary upload
+					endpoint directly in your applications. For your image hosting needs, consider setting up
+					your own Cloudinary account.
 				</li>
 			</ul>
 
 			<p>
-				We believe in a world where sharing makes everything better. So, let's make sure ITTAI can
-				help as many people as possible, especially those who need it most!
+				Our vision with ITTAI is to foster a community where technology bridges gaps and enhances
+				accessibility for all. By sharing these tools and knowledge, we hope to empower more
+				creators and developers to build accessible and inclusive experiences. Let's work together
+				to make the digital world more accessible, one image at a time.
 			</p>
 		</div>
 	</section>
