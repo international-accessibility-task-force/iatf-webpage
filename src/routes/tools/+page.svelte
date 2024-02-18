@@ -27,7 +27,7 @@
 	}
 
 	// Keyboard event handler for the label
-	function handleLabelKeydown(event) {
+	function handleLabelKeydown(event: KeyboardEvent) {
 		// Trigger file input on Enter or Space
 		if (event.key === 'Enter' || event.key === ' ') {
 			triggerFileInput();
@@ -165,15 +165,16 @@
 					</label>
 				</div>
 				<div id="uploadFields" class={selectedOption === 'upload' ? '' : 'hidden'}>
-					<label
-						for="image"
+					<div
 						class="file-upload-trigger action"
 						tabindex="0"
 						role="button"
 						aria-describedby="file-note"
 						on:click={triggerFileInput}
-						on:keydown={handleLabelKeydown}>Upload Image:</label
+						on:keydown={handleLabelKeydown}
 					>
+						Select Image to Upload:
+					</div>
 					<input
 						type="file"
 						id="image"
@@ -302,7 +303,6 @@
 		margin-top: 1rem;
 	}
 
-	div#uploadFields label,
 	div#urlFields label {
 		text-decoration: underline;
 		cursor: pointer;
@@ -317,6 +317,9 @@
 
 	.file-upload-trigger {
 		cursor: pointer;
+		width: fit-content;
+		margin-bottom: 1rem;
+		text-decoration: underline;
 	}
 
 	.file-upload-trigger:hover,
