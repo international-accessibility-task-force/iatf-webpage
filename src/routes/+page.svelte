@@ -25,14 +25,14 @@
 		<p>At the heart of IATF, we bring together</p>
 		<ul>
 			<li>
-				Users of assistive technologies Those who rely on digital tools to navigate the web more
+				<b>Users of assistive technologies:</b> Those who rely on digital tools to navigate the web more
 				easily.
 			</li>
 			<li>
-				Open-source developers Visionaries who craft the building blocks of accessible technology.
+				<b>Open-source developers Visionaries:</b> who craft the building blocks of accessible technology.
 			</li>
 			<li>
-				Advocates for accessibility and inclusion Champions who believe in creating an equitable
+				<b>Advocates for accessibility and inclusion:</b> Champions who believe in creating an equitable
 				digital world.
 			</li>
 		</ul>
@@ -46,25 +46,29 @@
 		Openness and Freedom: All creations must be licensed under the GPL License to guarantee free,
 		universal access.
 		<ol>
-			<li>Empathy and Respect Treat yourself and others with kindness and understanding.</li>
-			<li>Focus and Dedication Engage in one project at a time to ensure meaningful progress.</li>
 			<li>
-				Openness and Freedom All creations must be licensed under the GPL License to guarantee free,
-				universal access.
+				<b>Empathy and Respect:</b> Treat yourself and others with kindness and understanding.
+			</li>
+			<li>
+				<b>Focus and Dedication:</b> Engage in one project at a time to ensure meaningful progress.
+			</li>
+			<li>
+				<b>Openness and Freedom:</b> All creations must be licensed under the GPL License to guarantee
+				free, universal access.
 			</li>
 		</ol>
 		<h2>Why These Principles Matter</h2>
 		<ol>
 			<li>
-				Fostering Respect Every individual deserves dignity and respect, a principle that guides all
-				interactions within our community.
+				<b>Fostering Respect:</b> Every individual deserves dignity and respect, a principle that guides
+				all interactions within our community.
 			</li>
 			<li>
-				Ensuring Completion By focusing on one project at a time, we aim to see ideas through to
-				fruition, making them available for the benefit of all.
+				<b>Ensuring Completion:</b> By focusing on one project at a time, we aim to see ideas through
+				to fruition, making them available for the benefit of all.
 			</li>
 			<li>
-				Promoting Openness The GPL License ensures our developments remain freely accessible,
+				<b>Promoting Openness:</b> The GPL License ensures our developments remain freely accessible,
 				supporting a culture of shared innovation.
 			</li>
 		</ol>
