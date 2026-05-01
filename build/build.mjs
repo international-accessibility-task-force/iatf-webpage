@@ -786,23 +786,37 @@ function renderFormSection(form) {
           data-proposal-subject-untitled="${escapeHtml(strings["proposal.subjectUntitled"] || "Untitled request")}"
           data-form-runtime-unavailable="${escapeHtml(strings["proposal.form.runtimeUnavailable"] || "Live submission is not configured in this environment. This form will open your email client instead.")}"
           data-form-loading-protection="${escapeHtml(strings["proposal.form.loadingProtection"] || "Loading spam protection...")}"
+          data-form-ready="${escapeHtml(strings["proposal.form.ready"] || "Secure submission is ready. When you send the request, IATF will create an intake record.")}"
           data-form-turnstile-required="${escapeHtml(strings["proposal.form.turnstileRequired"] || "Please complete the spam protection check before sending.")}"
+          data-form-turnstile-expired="${escapeHtml(strings["proposal.form.turnstileExpired"] || "Spam protection expired. Please complete the check again before sending.")}"
+          data-form-turnstile-error="${escapeHtml(strings["proposal.form.turnstileError"] || "Spam protection could not be verified right now. Please try again.")}"
+          data-form-turnstile-timeout="${escapeHtml(strings["proposal.form.turnstileTimeout"] || "Spam protection timed out. Please try the check again.")}"
           data-form-required-message="${escapeHtml(strings["proposal.form.requiredMessage"] || "Please complete the required fields before sending.")}"
           data-form-submitting="${escapeHtml(strings["proposal.form.submitting"] || "Sending request...")}"
+          data-form-success-title="${escapeHtml(strings["proposal.form.successTitle"] || "Request received")}"
           data-form-success="${escapeHtml(strings["proposal.form.success"] || "Thanks. Your request was received and will be reviewed.")}"
+          data-form-success-followup="${escapeHtml(strings["proposal.form.successFollowUp"] || "If you contact IATF again about this request, include the reference below.")}"
+          data-form-success-reference-label="${escapeHtml(strings["proposal.form.successReferenceLabel"] || "Reference")}"
+          data-form-success-record-label="${escapeHtml(strings["proposal.form.successRecordLabel"] || "Intake record")}"
+          data-form-success-link-label="${escapeHtml(strings["proposal.form.successLinkLabel"] || "View intake record")}"
+          data-form-success-summary-title="${escapeHtml(strings["proposal.form.successSummaryTitle"] || "What was sent")}"
+          data-form-reset-label="${escapeHtml(strings["proposal.form.reset"] || "Send another request")}"
           data-form-error-generic="${escapeHtml(strings["proposal.form.errorGeneric"] || "Something went wrong while sending the request. You can try again or use email instead.")}"
         >
-          <div class="form-grid">
-            ${form.fields.map(renderFormField).join("")}
+          <div class="proposal-form__content" data-form-content>
+            <div class="form-grid">
+              ${form.fields.map(renderFormField).join("")}
+            </div>
+            <div class="proposal-form__service">
+              <div class="proposal-form__turnstile" data-turnstile-root hidden></div>
+              <p class="form-status form-status--info" data-form-note hidden></p>
+              <p class="form-status" data-form-status role="status" aria-live="polite" hidden></p>
+            </div>
+            <div class="cluster proposal-form__actions">
+              <button class="button button--full" type="submit" disabled>${escapeHtml(strings["proposal.form.submit"])}</button>
+            </div>
           </div>
-          <div class="proposal-form__service">
-            <div class="proposal-form__turnstile" data-turnstile-root hidden></div>
-            <p class="form-status form-status--info" data-form-note hidden></p>
-            <p class="form-status" data-form-status role="status" aria-live="polite" hidden></p>
-          </div>
-          <div class="cluster proposal-form__actions">
-            <button class="button button--full" type="submit" disabled>${escapeHtml(strings["proposal.form.submit"])}</button>
-          </div>
+          <div class="form-result" data-form-result hidden tabindex="-1"></div>
           <noscript>
             <p class="note">${escapeHtml(strings["proposal.form.noscript"])}</p>
           </noscript>
@@ -813,41 +827,72 @@ function renderFormSection(form) {
 }
 
 function renderFormField(field) {
+  const requirement = getFieldRequirement(field);
   const fieldClass = field.fullWidth ? "field field--full" : "field";
   const textareaClass =
     field.fullWidth === false ? "field" : "field field--full";
+  const requiredAttr =
+    field.required === true ? ` required aria-required="true"` : "";
   switch (field.kind) {
     case "textarea":
-      return `<div class="${textareaClass}">
-        <label for="${field.name}">${escapeHtml(field.label)}</label>
-        ${field.helper ? `<p class="note">${expand(field.helper)}</p>` : ""}
+      return `<div class="${textareaClass}" data-field-name="${escapeHtml(field.name)}">
+        ${renderFieldLabel(field, requirement)}
+        ${renderFieldHelper(field)}
         <textarea id="${field.name}" name="${field.name}"${
           field.placeholder
             ? ` placeholder="${escapeHtml(field.placeholder)}"`
             : ""
-        }></textarea>
+        }${requiredAttr}></textarea>
       </div>`;
     case "select":
-      return `<div class="${fieldClass}">
-        <label for="${field.name}">${escapeHtml(field.label)}</label>
-        ${field.helper ? `<p class="note">${expand(field.helper)}</p>` : ""}
-        <select id="${field.name}" name="${field.name}">
+      return `<div class="${fieldClass}" data-field-name="${escapeHtml(field.name)}">
+        ${renderFieldLabel(field, requirement)}
+        ${renderFieldHelper(field)}
+        <select id="${field.name}" name="${field.name}"${requiredAttr}>
           ${field.options
             .map((option) => `<option>${escapeHtml(option)}</option>`)
             .join("")}
         </select>
       </div>`;
     default:
-      return `<div class="${fieldClass}">
-        <label for="${field.name}">${escapeHtml(field.label)}</label>
-        ${field.helper ? `<p class="note">${expand(field.helper)}</p>` : ""}
+      return `<div class="${fieldClass}" data-field-name="${escapeHtml(field.name)}">
+        ${renderFieldLabel(field, requirement)}
+        ${renderFieldHelper(field)}
         <input id="${field.name}" name="${field.name}" value="${escapeHtml(field.value || "")}"${
           field.placeholder
             ? ` placeholder="${escapeHtml(field.placeholder)}"`
             : ""
-        } />
+        }${requiredAttr} />
       </div>`;
   }
+}
+
+function getFieldRequirement(field) {
+  if (field.required === true) return "required";
+  if (field.required === "conditional") return "conditional";
+  return "optional";
+}
+
+function getFieldRequirementLabel(requirement) {
+  switch (requirement) {
+    case "required":
+      return strings["proposal.field.required"] || "Required";
+    case "conditional":
+      return strings["proposal.field.conditional"] || "Conditional";
+    default:
+      return strings["proposal.field.optional"] || "Optional";
+  }
+}
+
+function renderFieldLabel(field, requirement) {
+  return `<label class="field__label" for="${field.name}">
+    <span class="field__label-text" data-field-label-text>${escapeHtml(field.label)}</span>
+    <span class="field__badge field__badge--${requirement}" data-field-badge>${escapeHtml(getFieldRequirementLabel(requirement))}</span>
+  </label>`;
+}
+
+function renderFieldHelper(field) {
+  return field.helper ? `<p class="note" data-field-helper>${expand(field.helper)}</p>` : "";
 }
 
 function renderBaselineSection(baseline) {
@@ -1308,7 +1353,7 @@ function renderHeaders() {
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
-  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://challenges.cloudflare.com; connect-src 'self'; frame-src https://challenges.cloudflare.com; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:
 `;
 }
 

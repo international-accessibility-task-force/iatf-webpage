@@ -73,7 +73,16 @@
         "name": "contactRoute",
         "label": "Preferred contact route",
         "helper": "How should follow-up happen?",
-        "options": ["Email", "Web", "Discord"]
+        "required": true,
+        "options": ["Email", "Discord"]
+      },
+      {
+        "kind": "input",
+        "name": "contactDetails",
+        "label": "Contact details",
+        "helper": "Email address or Discord handle for follow-up.",
+        "placeholder": "Email address or Discord handle",
+        "required": true
       },
       {
         "kind": "input",
@@ -83,46 +92,24 @@
         "value": "English"
       },
       {
-        "kind": "input",
-        "name": "projectTitle",
-        "label": "Project title",
-        "helper": "A short working title is enough."
-      },
-      {
         "kind": "textarea",
         "name": "problem",
         "label": "What problem are you trying to solve?",
-        "helper": "Describe the barrier in plain language."
+        "helper": "Describe the barrier in plain language.",
+        "required": true
       },
       {
         "kind": "textarea",
         "name": "affectedUsers",
         "label": "Who is affected?",
-        "helper": "Who would this help?"
+        "helper": "Who would this help?",
+        "required": true
       },
       {
         "kind": "textarea",
-        "name": "whyItMatters",
-        "label": "Why does this matter?",
-        "helper": "Why is this worth building?"
-      },
-      {
-        "kind": "textarea",
-        "name": "softwareIdea",
-        "label": "What kind of software do you imagine?",
-        "helper": "A rough idea is enough."
-      },
-      {
-        "kind": "textarea",
-        "name": "references",
-        "label": "Examples, references, or existing materials",
-        "helper": "Share anything that helps explain the need."
-      },
-      {
-        "kind": "textarea",
-        "name": "urgency",
-        "label": "Urgency or timing constraint",
-        "helper": "Mention deadlines or time constraints if they matter."
+        "name": "extraContext",
+        "label": "Extra context",
+        "helper": "Share anything else that helps explain the need: why it matters, examples, references, a rough software idea, or timing constraints."
       },
       {
         "kind": "select",
@@ -130,6 +117,7 @@
         "label": "Comfortable with public open source development?",
         "helper": "Accepted projects are public repositories under IATF.",
         "fullWidth": true,
+        "required": true,
         "options": ["Yes", "No", "Not sure yet"]
       }
     ]

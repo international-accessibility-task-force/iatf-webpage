@@ -1,5 +1,6 @@
 const REQUIRED_FIELDS = [
   "contactRoute",
+  "contactDetails",
   "problem",
   "affectedUsers",
   "openSourceConsent"
@@ -14,14 +15,11 @@ const REDIRECT_HOSTS = new Set([
 const ISSUE_FIELDS = [
   ["Requester", "requester"],
   ["Preferred contact route", "contactRoute"],
+  ["Follow-up contact", "contactDetails"],
   ["Language", "language"],
-  ["Project title", "projectTitle"],
   ["Problem", "problem"],
   ["Who is affected", "affectedUsers"],
-  ["Why it matters", "whyItMatters"],
-  ["Possible software direction", "softwareIdea"],
-  ["References", "references"],
-  ["Urgency", "urgency"],
+  ["Extra context", "extraContext"],
   ["Public open source comfort", "openSourceConsent"]
 ];
 
@@ -132,7 +130,9 @@ async function handleRequestSubmission(request, env, ctx) {
 
   return jsonResponse({
     ok: true,
-    message: "Thanks. Your request was received and will be reviewed."
+    message: "Thanks. Your request was received and will be reviewed.",
+    requestNumber: issue.issue.number,
+    issueUrl: shouldShowIssueLink(env) ? issue.issue.html_url || "" : ""
   });
 }
 
@@ -158,14 +158,11 @@ function normalizePayload(input) {
   return {
     requester: normalizeText(input.requester),
     contactRoute: normalizeText(input.contactRoute),
+    contactDetails: normalizeText(input.contactDetails),
     language: normalizeText(input.language),
-    projectTitle: normalizeText(input.projectTitle),
     problem: normalizeText(input.problem),
     affectedUsers: normalizeText(input.affectedUsers),
-    whyItMatters: normalizeText(input.whyItMatters),
-    softwareIdea: normalizeText(input.softwareIdea),
-    references: normalizeText(input.references),
-    urgency: normalizeText(input.urgency),
+    extraContext: normalizeText(input.extraContext),
     openSourceConsent: normalizeText(input.openSourceConsent),
     pageUrl: normalizeText(input.pageUrl),
     turnstileToken: normalizeText(
@@ -209,10 +206,11 @@ async function validateTurnstileToken(request, env, token) {
     return result;
   }
 
+  const expectedHostname = normalizeExpectedHostname(env.TURNSTILE_EXPECTED_HOSTNAME);
   if (
-    env.TURNSTILE_EXPECTED_HOSTNAME &&
+    expectedHostname &&
     result.hostname &&
-    result.hostname !== env.TURNSTILE_EXPECTED_HOSTNAME
+    result.hostname !== expectedHostname
   ) {
     return { success: false };
   }
@@ -258,7 +256,7 @@ async function createGitHubIssue(env, data, request) {
 }
 
 function buildIssueTitle(data) {
-  const source = data.projectTitle || data.problem || "Untitled accessibility project request";
+  const source = data.problem || "Untitled accessibility project request";
   return `[Request] ${truncateLine(source, 96)}`;
 }
 
@@ -309,6 +307,26 @@ function parseLabels(value) {
     .split(",")
     .map((item) => item.trim())
     .filter(Boolean);
+}
+
+function shouldShowIssueLink(env) {
+  return isTruthyEnvValue(env.GITHUB_INTAKE_SHOW_ISSUE_LINK);
+}
+
+function isTruthyEnvValue(value) {
+  const normalized = String(value || "").trim().toLowerCase();
+  return normalized === "1" || normalized === "true" || normalized === "yes";
+}
+
+function normalizeExpectedHostname(value) {
+  const text = String(value || "").trim().toLowerCase();
+  if (!text) return "";
+
+  try {
+    return new URL(text.includes("://") ? text : `https://${text}`).hostname.toLowerCase();
+  } catch {
+    return text.split("/")[0].split(":")[0];
+  }
 }
 
 async function sendDiscordNotification(webhookUrl, issue) {

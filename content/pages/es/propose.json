@@ -78,7 +78,16 @@
         "name": "contactRoute",
         "label": "Vía de contacto preferida",
         "helper": "¿Cómo debería hacerse el seguimiento?",
-        "options": ["Correo electrónico", "Web", "Discord"]
+        "required": true,
+        "options": ["Correo electrónico", "Discord"]
+      },
+      {
+        "kind": "input",
+        "name": "contactDetails",
+        "label": "Datos de contacto",
+        "helper": "Correo electrónico o usuario de Discord para el seguimiento.",
+        "placeholder": "Correo electrónico o usuario de Discord",
+        "required": true
       },
       {
         "kind": "input",
@@ -88,46 +97,24 @@
         "value": "Español"
       },
       {
-        "kind": "input",
-        "name": "projectTitle",
-        "label": "Título del proyecto",
-        "helper": "Basta con un título breve de trabajo."
-      },
-      {
         "kind": "textarea",
         "name": "problem",
         "label": "¿Qué problema intentas resolver?",
-        "helper": "Describe la barrera con lenguaje sencillo."
+        "helper": "Describe la barrera con lenguaje sencillo.",
+        "required": true
       },
       {
         "kind": "textarea",
         "name": "affectedUsers",
         "label": "¿A quién afecta?",
-        "helper": "¿A quién ayudaría esto?"
+        "helper": "¿A quién ayudaría esto?",
+        "required": true
       },
       {
         "kind": "textarea",
-        "name": "whyItMatters",
-        "label": "¿Por qué importa?",
-        "helper": "¿Por qué merece la pena construirlo?"
-      },
-      {
-        "kind": "textarea",
-        "name": "softwareIdea",
-        "label": "¿Qué tipo de software imaginas?",
-        "helper": "Basta con una idea general."
-      },
-      {
-        "kind": "textarea",
-        "name": "references",
-        "label": "Ejemplos, referencias o materiales existentes",
-        "helper": "Comparte cualquier cosa que ayude a explicar la necesidad."
-      },
-      {
-        "kind": "textarea",
-        "name": "urgency",
-        "label": "Urgencia o restricción de tiempo",
-        "helper": "Menciona fechas límite o restricciones de tiempo si importan."
+        "name": "extraContext",
+        "label": "Contexto adicional",
+        "helper": "Comparte cualquier otra cosa que ayude a explicar la necesidad: por qué importa, ejemplos, referencias, una idea general de software o restricciones de tiempo."
       },
       {
         "kind": "select",
@@ -135,6 +122,7 @@
         "label": "¿Te sientes cómodo con un desarrollo público de código abierto?",
         "helper": "Los proyectos aceptados son repositorios públicos bajo IATF.",
         "fullWidth": true,
+        "required": true,
         "options": ["Sí", "No", "Aún no lo sé"]
       }
     ]
