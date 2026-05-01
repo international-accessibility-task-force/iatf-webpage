@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance and repository model",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance and repository model",
+    "lead": "IATF keeps accessibility projects public, legible, and maintainable.",
+    "support": [
+      "This page explains what qualifies, how repositories are held, and what repository-level responsibility applies after acceptance."
+    ],
+    "actions": [
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "primary" },
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "secondary" }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Rules",
+      "title": "Mission fit, ownership, licensing"
+    },
+    "cards": [
+      {
+        "title": "Mission fit",
+        "paragraphs": [
+          "IATF accepts work that addresses a real accessibility barrier and has clear public value.",
+          "A project should be useful beyond a single private workflow and workable as a public repository.",
+          "For web accessibility, IATF uses [W3C WAI](https://www.w3.org/WAI/) as its primary standards reference. The direct experience of users of assistive technologies is also practical evidence of what works in real use."
+        ]
+      },
+      {
+        "title": "Project acceptance",
+        "paragraphs": [
+          "A proposal may be accepted when review shows that:"
+        ],
+        "items": [
+          "it addresses a real accessibility need",
+          "the problem is clear enough to evaluate",
+          "the scope is realistic enough to launch",
+          "the work aligns with the IATF mission",
+          "there is a plausible path to maintenance or completion"
+        ]
+      },
+      {
+        "title": "Repository ownership",
+        "paragraphs": [
+          "Accepted projects are created under the IATF GitHub organization.",
+          "Repositories stay there so each project keeps a stable public home, even if maintainers later change."
+        ]
+      },
+      {
+        "title": "Licensing",
+        "paragraphs": [
+          "IATF projects use copyleft licensing unless a project states otherwise:"
+        ],
+        "items": [
+          "<strong>Code:</strong> AGPL-3.0",
+          "<strong>Documentation:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Responsible engineer or maintainer",
+      "paragraphs": [
+        "Each accepted project should have a named responsible engineer or maintainer. That person may receive admin access to the repository and is expected to:"
+      ],
+      "items": [
+        "guide development in public",
+        "maintain the repository structure",
+        "review or manage issues and pull requests",
+        "document important technical decisions",
+        "keep the project understandable for others"
+      ],
+      "footnote": "This is repository-level responsibility. Organizational ownership stays with IATF. Responsibility here is repository stewardship, technical direction, and public coordination — not unlimited private delivery, custom integrations, or service-level commitments outside the public roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Public development",
+      "paragraphs": [
+        "Projects launched through IATF are developed in public by default. The repository is the public source of truth for:"
+      ],
+      "items": [
+        "source code",
+        "issues",
+        "documentation",
+        "roadmap notes",
+        "release history"
+      ],
+      "footnote": "Important project knowledge should not live only in private chats or inboxes."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Public records",
+      "title": "Public request records"
+    },
+    "paragraphs": [
+      "IATF works in public by default. Requests that enter IATF through the website, email, Discord, GitHub, or other IATF channels may become public request records.",
+      "A public request record is not necessarily the original message. IATF may summarize, redact, or restructure a request before publication so the accessibility need can be reviewed without exposing unnecessary personal information.",
+      "Public request records may be stored in the IATF GitHub organization, on this website, or both.",
+      "Before publication, IATF removes unnecessary personal contact details, private addresses, and identifying details about individual users of assistive technologies unless publication is clearly intended and appropriate.",
+      "Discord is used for informal coordination. IATF does not separately archive Discord conversations by default, and message retention is controlled by Discord. Decisions made in Discord should be summarized into the public record on GitHub or on the relevant project page.",
+      "Request records are excluded from search engine indexing where technically practical. Public means reviewable and accountable. It does not mean optimized for discovery through name searches.",
+      "IATF can update or remove records from IATF-controlled public surfaces, but cannot guarantee removal from third-party caches, notifications, forks, screenshots, search engines, Discord, or other external systems.",
+      "If a message needs to remain private, do not send it through IATF public channels."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organizational role",
+      "title": "Chair"
+    },
+    "lead": "The chair holds organization-level stewardship of IATF. This is distinct from the per-project responsible engineer role: the chair is responsible for the organization as a whole, not for the day-to-day direction of any single repository.",
+    "duties": {
+      "title": "What the chair does",
+      "items": [
+        "Holds owner permissions on the IATF GitHub organization",
+        "Signs off on project acceptance and archival decisions",
+        "Acts as the public point of contact for IATF",
+        "Coordinates the annual election"
+      ],
+      "footnote": "The chair does not commit IATF to private delivery, paid work, or service-level agreements, and does not override per-repository maintainer decisions on technical direction."
+    },
+    "election": {
+      "title": "Annual election",
+      "paragraphs": [
+        "The chair is elected once a year. The election runs in the first two weeks of December, results are announced by December 15, and the new term begins on January 1.",
+        "Eligible voters are people who held a maintainer role on any IATF repository during the year and made at least one merged contribution to an IATF repository in that year. Each eligible voter has one vote. The candidate with the most votes wins; in the event of a tie, a runoff is held in the third week of December.",
+        "The election is run as a public GitHub Discussion in the designated IATF governance repository, so the candidates, the vote, and the result are all part of the public record."
+      ]
+    },
+    "continuity": {
+      "title": "Continuity",
+      "paragraphs": [
+        "If no election is held in a given year, the current chair continues in the role until the next election. This is an indefinite continuation, not a grace period — the model is designed to keep the organization stable when activity is low, not to force a transition that nobody is ready for.",
+        "The chair may step down at any time. Active maintainers may also call an extraordinary election with a stated reason, run under the same rules as the annual election."
+      ]
+    },
+    "current": {
+      "title": "Current chair",
+      "fields": [
+        { "label": "Chair", "value": "mugiwarafx", "href": "https://github.com/mugiwarafx" },
+        { "label": "Term", "value": "Until the December 2026 election" },
+        { "label": "Role formalized", "value": "2026" },
+        { "label": "First scheduled election", "value": "December 2026" }
+      ]
+    },
+    "footnote": "The chair role was formalized in 2026 to make organization-level stewardship explicit. Until then, organizational responsibility was held informally by the founder."
+  },
+  "continuity": {
+    "states": {
+      "title": "Project states",
+      "paragraphs": [
+        "Projects use a small set of public states:"
+      ],
+      "items": ["Proposal", "Accepted", "Active", "Stable", "Seeking maintainer", "Archived"],
+      "footnote": "These states keep the registry easy to scan."
+    },
+    "reassignment": {
+      "title": "Reassignment and archiving",
+      "paragraphs": [
+        "If a maintainer steps away or becomes inactive, IATF may reassign responsibility, pause development, or archive the project.",
+        "A project may also be archived when the original need has been met, maintenance has stopped, or continued work is no longer realistic."
+      ],
+      "footnote": "Archived projects remain publicly visible unless there is a compelling reason to do otherwise."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Boundary note",
+      "title": "What IATF does not guarantee"
+    },
+    "items": [
+      "private client delivery",
+      "service-level agreements",
+      "acceptance of every proposal",
+      "long-term maintenance for every project"
+    ],
+    "footnote": "IATF is a public repository model, not a private delivery service."
+  }
+}

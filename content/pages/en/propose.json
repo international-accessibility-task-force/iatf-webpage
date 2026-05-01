@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Request an accessibility project",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Request an accessibility project",
+    "lead": "IATF reviews requests for accessibility projects that start from a real need.",
+    "support": [
+      "You do not need a full specification. A clear problem, who it affects, and why it matters is enough to start."
+    ],
+    "actions": [
+      { "label": "Start a request", "href": "#request-form", "variant": "primary" },
+      { "label": "Use Discord instead", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Channels",
+      "title": "Choose the easiest route"
+    },
+    "intro": [
+      "All routes enter the same review."
+    ],
+    "items": [
+      {
+        "label": "Website",
+        "body": "Use the form below to submit a structured request."
+      },
+      {
+        "label": "Email",
+        "body": "Send the request directly to {{contact.requestsEmail}}. Email requests may become public request records after review and redaction."
+      },
+      {
+        "label": "Discord",
+        "body": "Start there if that is easiest. The request still moves into the same review."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Before you send a request",
+    "paragraphs": [
+      "IATF works in public. Requests may be summarized and published as public request records in the IATF GitHub organization, on this website, or both.",
+      "Do not include private addresses, phone numbers, medical details, or identifying information about individual users of assistive technologies unless it is necessary and you are comfortable with IATF reviewing it.",
+      "IATF removes unnecessary personal contact details before publishing request records."
+    ]
+  },
+  "review": {
+    "title": "Review expectations",
+    "paragraphs": [
+      "Submitting a request does not guarantee acceptance.",
+      "IATF reviews requests for mission fit, feasibility, usefulness, and whether the work belongs in a public repository.",
+      "Some requests may be declined, deferred, or reshaped before acceptance."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Request form",
+      "title": "Submit a request"
+    },
+    "fields": [
+      {
+        "kind": "input",
+        "name": "requester",
+        "label": "Your name or organization",
+        "helper": "Who is making the request?"
+      },
+      {
+        "kind": "select",
+        "name": "contactRoute",
+        "label": "Preferred contact route",
+        "helper": "How should follow-up happen?",
+        "options": ["Email", "Web", "Discord"]
+      },
+      {
+        "kind": "input",
+        "name": "language",
+        "label": "Language",
+        "helper": "Your preferred language, if relevant.",
+        "value": "English"
+      },
+      {
+        "kind": "input",
+        "name": "projectTitle",
+        "label": "Project title",
+        "helper": "A short working title is enough."
+      },
+      {
+        "kind": "textarea",
+        "name": "problem",
+        "label": "What problem are you trying to solve?",
+        "helper": "Describe the barrier in plain language."
+      },
+      {
+        "kind": "textarea",
+        "name": "affectedUsers",
+        "label": "Who is affected?",
+        "helper": "Who would this help?"
+      },
+      {
+        "kind": "textarea",
+        "name": "whyItMatters",
+        "label": "Why does this matter?",
+        "helper": "Why is this worth building?"
+      },
+      {
+        "kind": "textarea",
+        "name": "softwareIdea",
+        "label": "What kind of software do you imagine?",
+        "helper": "A rough idea is enough."
+      },
+      {
+        "kind": "textarea",
+        "name": "references",
+        "label": "Examples, references, or existing materials",
+        "helper": "Share anything that helps explain the need."
+      },
+      {
+        "kind": "textarea",
+        "name": "urgency",
+        "label": "Urgency or timing constraint",
+        "helper": "Mention deadlines or time constraints if they matter."
+      },
+      {
+        "kind": "select",
+        "name": "openSourceConsent",
+        "label": "Comfortable with public open source development?",
+        "helper": "Accepted projects are public repositories under IATF.",
+        "fullWidth": true,
+        "options": ["Yes", "No", "Not sure yet"]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "If accepted",
+      "title": "What acceptance means"
+    },
+    "items": [
+      "a public repository in the IATF GitHub organization",
+      "a responsible engineer assigned to the project",
+      "a copyleft license for the code and project materials",
+      "public development in the repository",
+      "a registry entry on the IATF site"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Start the conversation",
+      "title": "A short, clear request is enough to start"
+    },
+    "paragraphs": [
+      "If you have a real accessibility need and think it should become a public project, send it to us."
+    ],
+    "actions": [
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "primary" },
+      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+    ]
+  }
+}

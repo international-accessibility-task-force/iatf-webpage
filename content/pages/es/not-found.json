@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "No encontrada"
+  },
+  "hero": {
+    "eyebrow": "No encontrada",
+    "title": "No se encontró la página solicitada",
+    "lead": "Usa las rutas principales de abajo para volver al sitio público.",
+    "support": [],
+    "actions": [
+      { "label": "Inicio", "href": "/", "variant": "primary" },
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "secondary" }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "La ruta que solicitaste no existe."
+    ],
+    "items": [
+      { "label": "Inicio", "href": "/" },
+      { "label": "Proyectos", "href": "/projects/" },
+      { "label": "Proponer", "href": "/propose/" },
+      { "label": "Accesibilidad", "href": "/accessibility/" },
+      { "label": "Gobernanza", "href": "/governance/" },
+      { "label": "Acerca de", "href": "/about/" }
+    ]
+  }
+}

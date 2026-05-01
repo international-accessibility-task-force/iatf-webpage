@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Join IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Join IATF",
+    "lead": "Membership is open. There are several ways to take part, whether you rely on assistive technology, build accessible software, translate, test, or maintain a project. Discussions and decisions happen in public on GitHub and Discord.",
+    "support": [],
+    "actions": [
+      { "labelKey": "contact.github", "href": "{{contact.githubOrgUrl}}", "variant": "primary" },
+      { "labelKey": "contact.discord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Roles",
+      "title": "Ways to contribute"
+    },
+    "items": [
+      "<strong>Request a project.</strong> If you encounter an accessibility barrier that could be addressed by public open source software, send it through the request intake.",
+      "<strong>Test and review.</strong> Try IATF projects with the assistive technology you use, report what works and what does not, and file issues directly on the relevant repository.",
+      "<strong>Translate.</strong> Source content is published in plain English first. Translations are added as contributors are available, starting with Spanish.",
+      "<strong>Build.</strong> Pick up issues in any IATF repository, send pull requests, or take on a project as its responsible engineer.",
+      "<strong>Maintain.</strong> Existing projects sometimes need a new maintainer. Maintainer rotation is a normal part of the model, not an exception."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Channels",
+      "title": "Where IATF works in public"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issues, pull requests, releases, and project records.",
+      "<strong>Discord.</strong> Live discussion, coordination, and informal questions.",
+      "<strong>Email.</strong> Use <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> if neither GitHub nor Discord fits."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Next step",
+      "title": "Pick the channel that matches how you want to contribute"
+    },
+    "paragraphs": [
+      "All channels feed into the same public review and the same public repositories."
+    ],
+    "actions": [
+      { "labelKey": "actions.visitGithub", "href": "{{contact.githubOrgUrl}}", "variant": "primary" },
+      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+    ]
+  }
+}

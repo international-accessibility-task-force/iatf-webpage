@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyectos públicos de accesibilidad",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyectos públicos de accesibilidad",
+    "lead": "Este registro muestra los proyectos publicados a través de IATF. Cada proyecto aceptado vive en la organización de GitHub de IATF y se desarrolla en público bajo una licencia copyleft.",
+    "support": [],
+    "actions": [
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "primary" }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro actual"
+    },
+    "intro": [
+      "Los proyectos aceptados aparecen aquí una vez que se publican."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Presenta una necesidad",
+      "title": "Convierte una necesidad concreta de accesibilidad en un proyecto público"
+    },
+    "paragraphs": [
+      "IATF revisa necesidades concretas de accesibilidad que puedan convertirse en trabajo público útil de código abierto."
+    ],
+    "actions": [
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "primary" },
+      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+    ]
+  },
+  "emptyState": {
+    "title": "Todavía no hay proyectos publicados",
+    "paragraphs": [
+      "IATF está preparando su primer conjunto de proyectos públicos.",
+      "Aun así puedes enviar una propuesta si tienes una necesidad concreta de accesibilidad."
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "en": {
+    "nativeName": "English",
+    "englishName": "English",
+    "ietfBcp47": "en",
+    "iso639_1": "en",
+    "iso639_3": "eng",
+    "script": "Latn",
+    "nllb": "eng_Latn",
+    "emailAlias": "en",
+    "discordSlug": "en",
+    "displayLabel": "English",
+    "enabled": true
+  },
+  "ca": {
+    "nativeName": "Català",
+    "englishName": "Catalan",
+    "ietfBcp47": "ca",
+    "iso639_1": "ca",
+    "iso639_3": "cat",
+    "script": "Latn",
+    "nllb": "cat_Latn",
+    "emailAlias": "ca",
+    "discordSlug": "ca",
+    "displayLabel": "Català",
+    "enabled": false
+  },
+  "es": {
+    "nativeName": "Español",
+    "englishName": "Spanish",
+    "ietfBcp47": "es",
+    "iso639_1": "es",
+    "iso639_3": "spa",
+    "script": "Latn",
+    "nllb": "spa_Latn",
+    "emailAlias": "es",
+    "discordSlug": "es",
+    "displayLabel": "Español",
+    "enabled": true
+  },
+  "fr": {
+    "nativeName": "Français",
+    "englishName": "French",
+    "ietfBcp47": "fr",
+    "iso639_1": "fr",
+    "iso639_3": "fra",
+    "script": "Latn",
+    "nllb": "fra_Latn",
+    "emailAlias": "fr",
+    "discordSlug": "fr",
+    "displayLabel": "Français",
+    "enabled": false
+  },
+  "zh-Hans": {
+    "nativeName": "简体中文",
+    "englishName": "Chinese (Simplified)",
+    "ietfBcp47": "zh-Hans",
+    "iso639_1": "zh",
+    "iso639_3": "zho",
+    "script": "Hans",
+    "nllb": "zho_Hans",
+    "emailAlias": "zh-hans",
+    "discordSlug": "zh-hans",
+    "displayLabel": "简体中文",
+    "enabled": false
+  },
+  "zh-Hant": {
+    "nativeName": "繁體中文",
+    "englishName": "Chinese (Traditional)",
+    "ietfBcp47": "zh-Hant",
+    "iso639_1": "zh",
+    "iso639_3": "zho",
+    "script": "Hant",
+    "nllb": "zho_Hant",
+    "emailAlias": "zh-hant",
+    "discordSlug": "zh-hant",
+    "displayLabel": "繁體中文",
+    "enabled": false
+  }
+}

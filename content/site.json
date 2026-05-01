@@ -1,0 +1,28 @@
+{
+  "siteName": "IATF",
+  "siteTitle": "International Accessibility Task Force",
+  "siteUrl": "https://iatf.cc",
+  "defaultLanguage": "en",
+  "tagline": "From accessibility need to public repo",
+  "description": "IATF helps associations, groups, and individuals turn real accessibility needs into public open source projects.",
+  "organization": {
+    "legalName": "International Accessibility Task Force",
+    "shortName": "IATF"
+  },
+  "contact": {
+    "accessibilityEmail": "accessibility@iatf.cc",
+    "requestsEmail": "contact@iatf.cc",
+    "projectsEmail": "contact@iatf.cc",
+    "generalEmail": "contact@iatf.cc",
+    "discordInviteUrl": "https://discord.gg/iatf",
+    "githubOrgUrl": "https://github.com/international-accessibility-task-force"
+  },
+  "projectStates": [
+    "Proposal",
+    "Accepted",
+    "Active",
+    "Stable",
+    "Seeking maintainer",
+    "Archived"
+  ]
+}

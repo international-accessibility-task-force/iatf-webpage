@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Proponer un proyecto de accesibilidad",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Proponer un proyecto de accesibilidad",
+    "lead": "IATF revisa propuestas de proyectos de accesibilidad que parten de una necesidad real.",
+    "support": [
+      "No necesitas una especificación completa. Un problema claro, a quién afecta y por qué importa basta para empezar."
+    ],
+    "actions": [
+      { "label": "Iniciar una propuesta", "href": "#request-form", "variant": "primary" },
+      { "label": "Usar Discord en su lugar", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canales",
+      "title": "Elige la vía más fácil"
+    },
+    "intro": [
+      "Todas las vías entran en la misma revisión."
+    ],
+    "items": [
+      {
+        "label": "Sitio web",
+        "body": "Usa el formulario de abajo para enviar una propuesta estructurada."
+      },
+      {
+        "label": "Correo electrónico",
+        "body": "Envía la solicitud directamente a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>."
+      },
+      {
+        "label": "Discord",
+        "body": "Empieza por ahí si es lo más fácil. La propuesta aun así pasa a la misma revisión."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Antes de enviar",
+    "paragraphs": [
+      "Una propuesta es más fácil de revisar cuando es:"
+    ],
+    "items": [
+      "basada en un problema real de accesibilidad",
+      "lo bastante clara como para entenderse en lenguaje sencillo",
+      "lo bastante realista como para lanzarse públicamente",
+      "adecuada para un desarrollo público de código abierto",
+      "probable que ayude a más de un solo flujo privado aislado"
+    ]
+  },
+  "review": {
+    "title": "Qué esperar de la revisión",
+    "paragraphs": [
+      "Enviar una propuesta no garantiza su aceptación.",
+      "IATF revisa las propuestas según el encaje con la misión, la viabilidad, la utilidad y si el trabajo pertenece a un repositorio público.",
+      "Algunas propuestas pueden rechazarse, aplazarse o reformularse antes de aceptarse."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulario de propuesta",
+      "title": "Enviar una propuesta"
+    },
+    "fields": [
+      {
+        "kind": "input",
+        "name": "requester",
+        "label": "Tu nombre u organización",
+        "helper": "¿Quién hace la propuesta?"
+      },
+      {
+        "kind": "select",
+        "name": "contactRoute",
+        "label": "Vía de contacto preferida",
+        "helper": "¿Cómo debería hacerse el seguimiento?",
+        "options": ["Correo electrónico", "Web", "Discord"]
+      },
+      {
+        "kind": "input",
+        "name": "language",
+        "label": "Idioma",
+        "helper": "Tu idioma preferido, si es relevante.",
+        "value": "Español"
+      },
+      {
+        "kind": "input",
+        "name": "projectTitle",
+        "label": "Título del proyecto",
+        "helper": "Basta con un título breve de trabajo."
+      },
+      {
+        "kind": "textarea",
+        "name": "problem",
+        "label": "¿Qué problema intentas resolver?",
+        "helper": "Describe la barrera con lenguaje sencillo."
+      },
+      {
+        "kind": "textarea",
+        "name": "affectedUsers",
+        "label": "¿A quién afecta?",
+        "helper": "¿A quién ayudaría esto?"
+      },
+      {
+        "kind": "textarea",
+        "name": "whyItMatters",
+        "label": "¿Por qué importa?",
+        "helper": "¿Por qué merece la pena construirlo?"
+      },
+      {
+        "kind": "textarea",
+        "name": "softwareIdea",
+        "label": "¿Qué tipo de software imaginas?",
+        "helper": "Basta con una idea general."
+      },
+      {
+        "kind": "textarea",
+        "name": "references",
+        "label": "Ejemplos, referencias o materiales existentes",
+        "helper": "Comparte cualquier cosa que ayude a explicar la necesidad."
+      },
+      {
+        "kind": "textarea",
+        "name": "urgency",
+        "label": "Urgencia o restricción de tiempo",
+        "helper": "Menciona fechas límite o restricciones de tiempo si importan."
+      },
+      {
+        "kind": "select",
+        "name": "openSourceConsent",
+        "label": "¿Te sientes cómodo con un desarrollo público de código abierto?",
+        "helper": "Los proyectos aceptados son repositorios públicos bajo IATF.",
+        "fullWidth": true,
+        "options": ["Sí", "No", "Aún no lo sé"]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Si se acepta",
+      "title": "Qué significa la aceptación"
+    },
+    "items": [
+      "un repositorio público en la organización de GitHub de IATF",
+      "una persona ingeniera responsable asignada al proyecto",
+      "una licencia copyleft para el código y los materiales del proyecto",
+      "desarrollo público en el repositorio",
+      "una entrada en el registro del sitio de IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Inicia la conversación",
+      "title": "Una propuesta corta y clara basta para empezar"
+    },
+    "paragraphs": [
+      "Si tienes una necesidad real de accesibilidad y crees que debería convertirse en un proyecto público, envíanosla."
+    ],
+    "actions": [
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "primary" },
+      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+    ]
+  }
+}

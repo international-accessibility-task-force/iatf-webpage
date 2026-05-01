@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibility",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibility",
+    "lead": "IATF aims to keep this website simple, readable, keyboard-accessible, and compatible with assistive technologies.",
+    "support": [
+      "For web accessibility, IATF uses [W3C WAI](https://www.w3.org/WAI/) as its primary standards reference. Practical accessibility is also informed by the direct experience of users of assistive technologies."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Reporting",
+      "title": "Report an accessibility issue"
+    },
+    "paragraphs": [
+      "If you find an accessibility barrier on this website, please report it by email:",
+      "{{contact.accessibilityEmail}}",
+      "Useful reports include:"
+    ],
+    "items": [
+      "the page where the issue happened",
+      "what you were trying to do",
+      "what assistive technology, browser, or device you were using, if relevant",
+      "what went wrong",
+      "what would have helped"
+    ],
+    "footnote": "You do not need to write a formal bug report. A clear description is enough."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Handling",
+      "title": "Public issue handling"
+    },
+    "paragraphs": [
+      "Accessibility issues may be summarized in the relevant public repository so they can be fixed in the open. Personal contact details and unnecessary private information are removed before publication.",
+      "If your report includes private information, say so clearly in the message."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Current state",
+      "title": "Known limitations"
+    },
+    "paragraphs": [
+      "This site is intentionally small and mostly static. Some language versions may be incomplete while translations are being prepared."
+    ]
+  }
+}

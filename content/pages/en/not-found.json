@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Not found"
+  },
+  "hero": {
+    "eyebrow": "Not found",
+    "title": "The requested page was not found",
+    "lead": "Use the main routes below to return to the public site.",
+    "support": [],
+    "actions": [
+      { "label": "Home", "href": "/", "variant": "primary" },
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "secondary" }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "The route you requested does not exist."
+    ],
+    "items": [
+      { "label": "Home", "href": "/" },
+      { "label": "Projects", "href": "/projects/" },
+      { "label": "Join", "href": "/join/" },
+      { "label": "Accessibility", "href": "/accessibility/" },
+      { "label": "Governance", "href": "/governance/" },
+      { "label": "Transparency", "href": "/transparency/" }
+    ]
+  }
+}
