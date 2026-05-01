@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparency",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparency",
+    "lead": "IATF works in public by default. Project decisions, code changes, governance changes, and operating costs are recorded in public locations. This page lists where each kind of record lives and how to read it.",
+    "support": [],
+    "actions": [
+      { "labelKey": "actions.visitGithub", "href": "{{contact.githubOrgUrl}}", "variant": "primary" },
+      { "labelKey": "actions.readGovernance", "href": "/governance/", "variant": "secondary" }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Records",
+      "title": "Where the records live"
+    },
+    "items": [
+      "<strong>Project decisions.</strong> Acceptance, archival, and reassignment decisions are recorded as issues or releases in the relevant repository, and summarized in the public registry. View the public <a href=\"/projects/\">registry</a>.",
+      "<strong>Request records.</strong> Public request records are stored in the IATF GitHub organization, on this website, or both. Records may summarize, redact, or restructure the original request so the accessibility need can be reviewed without exposing unnecessary personal information. Discord decisions are summarized into the public record when they affect a project or governance decision. Request records are excluded from search engine indexing where technically practical. View request records: first publication pending.",
+      "<strong>Code changes.</strong> Every code change is a public commit on the relevant repository. View the IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub organization</a>.",
+      "<strong>Governance changes.</strong> Updates to the governance page are tracked as commits to the <code>iatf-webpage</code> repository. View the <a href=\"{{contact.githubOrgUrl}}/iatf-webpage/commits\">commit history</a> on GitHub.",
+      "<strong>Operating costs.</strong> IATF keeps operating costs low and records recurring public infrastructure expenses. Since 2022, the main recurring costs have been domain names. Hosting has used free-tier or low-cost infrastructure where possible. View the operating cost record below.",
+      "<strong>Coordination notes.</strong> Notes from any coordinated review or decision live in GitHub Discussions on the relevant repository — view <a href=\"{{contact.githubOrgUrl}}/iatf-webpage/discussions\">Discussions</a> on the <code>iatf-webpage</code> repository."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Costs",
+      "title": "Operating cost record"
+    },
+    "paragraphs": [
+      "IATF keeps its public infrastructure intentionally small. Since 2022, the main recurring operating costs have been domain names. Hosting has used free-tier or low-cost infrastructure where possible.",
+      "This record is not an audited financial statement. It is a public operating cost log for the infrastructure used to keep IATF online."
+    ],
+    "footnote": "Receipts may be referenced or published after redaction. Personal addresses, billing details, and unnecessary account information are not part of the public record.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          { "label": "Domain", "value": "<code>iatf.cc</code>" },
+          { "label": "Cost", "value": "USD 3.40" },
+          { "label": "Notes", "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure through Cloudflare. The project moved from Vercel to Cloudflare and began using the shorter <code>iatf.cc</code> domain." }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          { "label": "Domain", "value": "<code>internationalaccessibilitytaskforce.com</code>" },
+          { "label": "Cost", "value": "USD 18.68" },
+          { "label": "Notes", "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure." }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          { "label": "Domain", "value": "<code>internationalaccessibilitytaskforce.com</code>" },
+          { "label": "Cost", "value": "USD 17.06" },
+          { "label": "Notes", "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure through Vercel." }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          { "label": "Domain", "value": "<code>internationalaccessibilitytaskforce.com</code>" },
+          { "label": "Cost", "value": "USD 14.76" },
+          { "label": "Notes", "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure." }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          { "label": "Domain", "value": "<code>internationalaccessibilitytaskforce.com</code>" },
+          { "label": "Cost", "value": "USD 7.76" },
+          { "label": "Notes", "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure through GitHub Pages." }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Boundary note",
+      "title": "What is not public"
+    },
+    "paragraphs": [
+      "Some material is kept out of public records on purpose:"
+    ],
+    "items": [
+      "Personal contact details of proposers.",
+      "Private correspondence used only to clarify a request before it is accepted, declined, or summarized.",
+      "Private addresses, phone numbers, and unnecessary personal details.",
+      "Anything that would identify an individual user of assistive technology without consent.",
+      "Raw Discord conversations, unless a specific message is intentionally moved into a public project record."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Read more",
+      "title": "Governance is the rulebook behind these records"
+    },
+    "paragraphs": [
+      "If you want to understand how projects are accepted, archived, or reassigned, read the governance page."
+    ],
+    "actions": [
+      { "labelKey": "actions.readGovernance", "href": "/governance/", "variant": "primary" }
+    ]
+  }
+}

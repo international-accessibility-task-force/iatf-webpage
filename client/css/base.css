@@ -1,0 +1,126 @@
+:root {
+  --color-bg: #fcfcfd;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f6f6f8;
+  --color-text: #111111;
+  --color-text-soft: #404040;
+  --color-border: #1f1f1f;
+  --color-border-soft: #cfcfd6;
+  --color-accent: rebeccapurple;
+  --color-accent-soft: #ede7f6;
+  --content-width: 72rem;
+  --reading-width: 42rem;
+  --radius-sm: 0.35rem;
+  --radius-md: 0.65rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.14em;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: clamp(2.35rem, 5vw, 3.4rem);
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  text-wrap: balance;
+}
+
+h3 {
+  font-size: 1.1rem;
+  text-wrap: pretty;
+}
+
+p,
+ul,
+ol,
+dl,
+pre {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 1.25rem;
+}
+
+code,
+pre,
+.hero__eyebrow,
+.section-header__kicker,
+.brand__mark,
+.site-nav a,
+.step-card__index {
+  font-family: "SFMono-Regular", SFMono-Regular, Consolas, "Liberation Mono",
+    Menlo, monospace;
+}

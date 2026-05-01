@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Gobernanza y modelo de repositorios",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Gobernanza y modelo de repositorios",
+    "lead": "IATF mantiene los proyectos de accesibilidad públicos, legibles y mantenibles.",
+    "support": [
+      "Esta página explica qué encaja, cómo se mantienen los repositorios y qué responsabilidad a nivel de repositorio se aplica después de la aceptación."
+    ],
+    "actions": [
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "primary" },
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "secondary" }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reglas",
+      "title": "Encaje con la misión, propiedad y licencias"
+    },
+    "cards": [
+      {
+        "title": "Encaje con la misión",
+        "paragraphs": [
+          "IATF acepta trabajo que aborda una barrera real de accesibilidad y tiene un valor público claro.",
+          "Un proyecto debería ser útil más allá de un único flujo privado y funcionar bien como repositorio público."
+        ]
+      },
+      {
+        "title": "Aceptación de proyectos",
+        "paragraphs": [
+          "Una propuesta puede aceptarse cuando la revisión muestra que:"
+        ],
+        "items": [
+          "aborda una necesidad real de accesibilidad",
+          "el problema es lo bastante claro como para evaluarlo",
+          "el alcance es lo bastante realista como para lanzarlo",
+          "el trabajo encaja con la misión de IATF",
+          "hay un camino plausible hacia el mantenimiento o la finalización"
+        ]
+      },
+      {
+        "title": "Propiedad del repositorio",
+        "paragraphs": [
+          "Los proyectos aceptados se crean dentro de la organización de GitHub de IATF.",
+          "Los repositorios permanecen allí para que cada proyecto conserve una casa pública estable, aunque más adelante cambien las personas responsables."
+        ]
+      },
+      {
+        "title": "Licencias",
+        "paragraphs": [
+          "Los proyectos de IATF usan licencias copyleft salvo que un proyecto indique otra cosa:"
+        ],
+        "items": [
+          "<strong>Código:</strong> AGPL-3.0",
+          "<strong>Documentación:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Persona ingeniera o mantenedora responsable",
+      "paragraphs": [
+        "Cada proyecto aceptado debería tener una persona ingeniera o mantenedora responsable con nombre. Esa persona puede recibir acceso de administración al repositorio y se espera que:"
+      ],
+      "items": [
+        "guíe el desarrollo en público",
+        "mantenga la estructura del repositorio",
+        "revise o gestione incidencias y pull requests",
+        "documente las decisiones técnicas importantes",
+        "mantenga el proyecto comprensible para otras personas"
+      ],
+      "footnote": "Se trata de responsabilidad a nivel de repositorio. La propiedad organizativa sigue en IATF."
+    },
+    "publicDevelopment": {
+      "title": "Desarrollo público",
+      "paragraphs": [
+        "Los proyectos lanzados a través de IATF se desarrollan en público por defecto. El repositorio es la fuente pública de verdad para:"
+      ],
+      "items": [
+        "código fuente",
+        "incidencias",
+        "documentación",
+        "notas de ruta",
+        "historial de versiones"
+      ],
+      "footnote": "El conocimiento importante del proyecto no debería vivir solo en chats privados o buzones."
+    }
+  },
+  "continuity": {
+    "states": {
+      "title": "Estados del proyecto",
+      "paragraphs": [
+        "Los proyectos usan un conjunto pequeño de estados públicos:"
+      ],
+      "items": ["Propuesta", "Aceptado", "Activo", "Estable", "Se busca responsable", "Archivado"],
+      "footnote": "Estos estados hacen que el registro sea fácil de revisar."
+    },
+    "reassignment": {
+      "title": "Reasignación y archivado",
+      "paragraphs": [
+        "Si una persona responsable se aparta o se vuelve inactiva, IATF puede reasignar la responsabilidad, pausar el desarrollo o archivar el proyecto.",
+        "Un proyecto también puede archivarse cuando la necesidad original ya se ha cubierto, el mantenimiento se ha detenido o continuar ya no es realista."
+      ],
+      "footnote": "Los proyectos archivados siguen siendo visibles públicamente salvo que exista una razón de peso para hacer otra cosa."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota de límites",
+      "title": "Qué no garantiza IATF"
+    },
+    "items": [
+      "entrega privada para clientes",
+      "acuerdos de nivel de servicio",
+      "aceptación de todas las propuestas",
+      "mantenimiento a largo plazo para todos los proyectos"
+    ],
+    "footnote": "IATF es un modelo de repositorios públicos, no un servicio privado de entrega."
+  }
+}

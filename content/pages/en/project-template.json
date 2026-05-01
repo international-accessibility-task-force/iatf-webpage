@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "slug": "projects/template",
+    "currentPath": "/projects/template/",
+    "title": "Project detail template",
+    "description": "Reference layout for future IATF project detail pages."
+  },
+  "hero": {
+    "eyebrow": "Reference page",
+    "title": "Project detail template",
+    "lead": "This route shows the structure that future public project pages should follow.",
+    "support": [
+      "This file is a copy template for /projects/[slug] pages."
+    ],
+    "actions": [
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "primary" },
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "secondary" }
+    ]
+  },
+  "record": {
+    "header": {
+      "kicker": "Template record",
+      "title": "[Project name]"
+    },
+    "summary": "One-line summary of the project.",
+    "meta": [
+      { "label": "Status", "value": "Active" },
+      { "label": "Maintainer", "value": "[Name]" },
+      { "label": "Requested by", "value": "[Association, group, or individual]" },
+      { "label": "License", "value": "AGPL-3.0" },
+      { "label": "Repository", "value": "[GitHub link]" },
+      { "label": "Demo or release", "value": "[Link if available]" },
+      { "label": "Tags", "value": "[Web, Tooling, Prototype]" },
+      { "label": "Primary language", "value": "English" },
+      { "label": "Language notes", "value": "Plain English source, translations may be added later" },
+      { "label": "Last updated", "value": "[Date]" }
+    ]
+  },
+  "problemAndWhy": {
+    "problem": {
+      "title": "What problem this project solves",
+      "paragraphs": [
+        "Describe the accessibility problem in plain language.",
+        "Explain who is affected, what barrier exists today, and why the project matters.",
+        "This section should be understandable to a non-engineering audience."
+      ]
+    },
+    "why": {
+      "title": "Why this project exists",
+      "paragraphs": [
+        "This project was accepted by IATF because it addresses a concrete accessibility need and can be built usefully in the open.",
+        "The goal is not just to create a private solution for one case. The goal is to publish work that others can inspect, reuse, improve, and learn from."
+      ]
+    }
+  },
+  "scopeAndStatus": {
+    "scope": {
+      "title": "Scope",
+      "paragraphs": [
+        "This project currently focuses on the following:"
+      ],
+      "in": [
+        "scope item one",
+        "scope item two",
+        "scope item three"
+      ],
+      "outTitle": "Out of scope for now",
+      "out": [
+        "out-of-scope item one",
+        "out-of-scope item two"
+      ]
+    },
+    "status": {
+      "title": "Current status",
+      "paragraphs": [
+        "Summarize the current state of the project. Examples:"
+      ],
+      "items": [
+        "early repository setup",
+        "prototype under active development",
+        "stable first release available",
+        "looking for contributors or long-term maintainer",
+        "archived after reaching a natural stopping point"
+      ]
+    }
+  },
+  "repositoryAndLanguage": {
+    "repository": {
+      "title": "Repository and development model",
+      "paragraphs": [
+        "This project is developed in public in the IATF GitHub organization.",
+        "The repository is the main source of truth for code, issues, decisions, roadmap, and release history.",
+        "The assigned maintainer has repository-level responsibility, while IATF retains organizational ownership of the project space."
+      ]
+    },
+    "language": {
+      "title": "Language and accessibility notes",
+      "paragraphs": [
+        "The public project description should remain clear and easy to understand.",
+        "If translated versions are added later, the plain English source should remain the main editorial reference unless the project explicitly says otherwise.",
+        "If language-specific support or contact routes exist, list them here."
+      ]
+    }
+  },
+  "useAndValue": {
+    "use": {
+      "title": "How to use or evaluate it",
+      "paragraphs": [
+        "If the project already has something usable, explain how to try it. Examples:"
+      ],
+      "items": [
+        "visit the demo",
+        "clone the repository",
+        "read the installation instructions",
+        "test against a documented use case",
+        "report issues through GitHub"
+      ]
+    },
+    "value": {
+      "title": "Accessibility and public value",
+      "paragraphs": [
+        "Explain how this project contributes to accessibility in practice. Possible angles:"
+      ],
+      "items": [
+        "removes a concrete barrier",
+        "creates a reusable open implementation",
+        "supports associations or community groups",
+        "provides technical groundwork for future accessibility work"
+      ]
+    }
+  },
+  "contributingAndContact": {
+    "contributing": {
+      "title": "Contributing",
+      "paragraphs": [
+        "Contributions are welcome unless the project page explicitly states otherwise.",
+        "Please check the repository README, contribution guidelines, and open issues before starting work.",
+        "If you are interested in helping but are unsure where to begin, open an issue or contact the maintainer through the repository."
+      ]
+    },
+    "contact": {
+      "title": "Contact and links",
+      "items": [
+        { "label": "Repository", "href": "#" },
+        { "label": "Demo or release", "href": "#" },
+        { "label": "Issues", "href": "#" },
+        { "label": "Maintainer", "href": "#" }
+      ]
+    }
+  }
+}

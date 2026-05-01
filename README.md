@@ -1,74 +1,60 @@
-<p align="center">
-    <img src="https://github.com/international-accessibility-task-force/iatf-webpage/blob/master/assets/images/logo-center-rules-black-and-white.png"
-        height="138">
-</p>
-<p align="center">
-    <a href="https://github.com/international-accessibility-task-force/iatf-webpage/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/international-accessibility-task-force/iatf-webpage" /></a>
-    <a href="https://github.com/international-accessibility-task-force/iatf-webpage/pulse" alt="Activity">
-        <img src="https://img.shields.io/github/commit-activity/m/international-accessibility-task-force/iatf-webpage" /></a>
-    <a href="https://discord.gg/D8brSJSpaZ">
-        <img src="https://img.shields.io/discord/1014599739230130267?logo=discord"
-            alt="chat on Discord"></a>
-</p>
+# IATF Website
 
-# IATF's webpage
+Static multi-page site for `iatf.cc`, generated from JSON content and deployed
+with Cloudflare Workers Static Assets plus a small Worker for request intake.
 
-This is the official repository of the IATF's webpage https://internationalaccessibilitytaskforce.com.
+## Files That Matter
 
-## International Accessibility Task Force (IATF)
+- `build/build.mjs`: builds the site into `dist/`
+- `content/`: site config, page content, strings, and language metadata
+- `data/`: structured project registry data
+- `client/`: browser JS and CSS source files
+- `assets/`: favicons, icons, and manifest source files
+- `worker/index.js`: request intake API
+- `wrangler.jsonc`: Cloudflare Worker + assets configuration
 
-International Accessibility Task Force is an open-to-everyone community of: assistive technology users, open-source developers, and people interested in accessibility and inclusion.
+## Commands
 
-## Installation
-
-**Requirements:** `git`, `node` and `npm`
-
-```sh
-git clone https://github.com/international-accessibility-task-force/iatf-webpage.git
-```
-
-### Running locally
-
-```sh
-cd iatf-webpage
+```bash
 npm install
+npm run build
 npm run dev
+npm run dev:worker
+npm run deploy
 ```
 
-## Contributing
+- `npm run build`: regenerate `dist/`
+- `npm run dev`: rebuild static output while editing
+- `npm run dev:worker`: run the Worker locally against `dist/`
+- `npm run deploy`: deploy the Worker and static assets with Wrangler
 
-### How to create a Pull Request for the repository:
+## Manual Cloudflare Deploy
 
-1. fork of this repository.
-1. git clone of the forked repository on your local machine.
+1. Build the site with `npm run build`.
+2. Authenticate Wrangler or provide `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+3. Deploy with `npm run deploy`.
 
-then:
+## Request Intake Configuration
 
-```sh
-cd iatf-webpage
-git checkout development
-git remote add upstream https://github.com/international-accessibility-task-force/iatf-webpage.git
-git pull upstream development
-git checkout -b the-name-of-your-branch
-```
+The public request form uses `POST /api/request` when the Worker is configured.
+Otherwise it falls back to a `mailto:` draft.
 
-when you are done with the code:
+Required Worker vars:
 
-```sh
-git push origin the-name-of-your-branch
-```
+- `TURNSTILE_SITE_KEY`
+- `TURNSTILE_SECRET_KEY`
+- `GITHUB_TOKEN`
+- `GITHUB_INTAKE_REPO`
 
-finally, you can PR to the **development branch** 🎉
+Optional Worker vars:
 
-### Special **thanks** to all our contributors!
+- `GITHUB_INTAKE_LABELS`
+- `DISCORD_WEBHOOK_URL`
+- `TURNSTILE_EXPECTED_HOSTNAME`
 
-[@Joshua-Nweze](https://github.com/Joshua-Nweze), [@mugiwarafx](https://github.com/mugiwarafx), [@NevilleMthw](https://github.com/NevilleMthw).
+For local development, copy `.env.example` to `.env` and fill in the values.
 
-All PR merged on `development` or `master` are honored above. <3!
+## Licensing
 
-## License
-
-Code licensed [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/) by IATF.
-
-Made with ❤️ from IATF.
+- Code: `AGPL-3.0`
+- Content and documentation: `CC BY-SA 4.0`

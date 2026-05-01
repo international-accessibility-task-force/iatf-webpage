@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Public accessibility projects",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Public accessibility projects",
+    "lead": "This registry lists public projects maintained through IATF. Accepted accessibility projects, site infrastructure, and archived prototypes are kept visible here.",
+    "support": [],
+    "actions": [
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "primary" }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registry",
+      "title": "Current registry"
+    },
+    "intro": [
+      "Accepted projects are listed here once they are published."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Submit a need",
+      "title": "Turn a concrete accessibility need into a public project"
+    },
+    "paragraphs": [
+      "IATF reviews concrete accessibility needs that can be turned into useful public open source work."
+    ],
+    "actions": [
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "primary" },
+      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+    ]
+  },
+  "emptyState": {
+    "title": "No projects published yet",
+    "paragraphs": [
+      "IATF is preparing its first public project set.",
+      "You can still send a request if you have a concrete accessibility need."
+    ]
+  }
+}

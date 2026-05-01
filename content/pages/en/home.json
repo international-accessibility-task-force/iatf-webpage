@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "From accessibility need to public repo",
+    "lead": "IATF helps associations, groups, and individuals turn real accessibility needs into public open source projects.",
+    "support": [
+      "Accepted projects are published in the IATF GitHub organization under a copyleft license and developed in public by a responsible engineer."
+    ],
+    "actions": [
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "primary" },
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "secondary" }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Public operating model",
+      "title": "A simple public path for accessible software"
+    },
+    "paragraphs": [
+      "A real accessibility need is reviewed, and, if accepted, becomes a public GitHub repository under IATF stewardship.",
+      "Each accepted project has a clear public home for code, issues, documentation, and releases, with development led in the open by a responsible engineer."
+    ],
+    "specCard": {
+      "title": "Public operating model",
+      "terms": [
+        { "term": "Need", "definition": "Real accessibility problem" },
+        { "term": "Review", "definition": "Mission fit and practical feasibility" },
+        { "term": "Project space", "definition": "Public GitHub repository" },
+        { "term": "Stewardship", "definition": "IATF organizational ownership" }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Process",
+      "title": "How it works",
+      "intro": "The model stays intentionally small so the public path is easy to follow."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "A need is submitted",
+        "paragraphs": [
+          "An association, group, or individual can submit a request based on a real accessibility need.",
+          "Requests can start through the website, by email to <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, or through Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF reviews it",
+        "paragraphs": [
+          "We review mission fit, practical scope, and whether the work belongs in a public open source project."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "A public repository is created",
+        "paragraphs": [
+          "If a project is accepted, it is published in the IATF GitHub organization under a copyleft license.",
+          "The repository becomes the public home of the code, issues, documentation, and releases."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "A responsible engineer leads the project",
+        "paragraphs": [
+          "A responsible engineer is assigned to the project repository and development happens in public."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registry",
+      "title": "Public project registry"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Start here",
+      "title": "Browse current work or start a concrete project"
+    },
+    "paragraphs": [
+      "Use the registry to see what is public already, or start the intake if a concrete accessibility problem should become a project."
+    ],
+    "actions": [
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "primary" },
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "secondary" }
+    ]
+  }
+}
