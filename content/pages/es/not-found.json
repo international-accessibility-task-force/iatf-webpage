@@ -20,10 +20,10 @@
     "items": [
       { "label": "Inicio", "href": "/" },
       { "label": "Proyectos", "href": "/projects/" },
-      { "label": "Proponer", "href": "/propose/" },
+      { "label": "Únete", "href": "/join/" },
       { "label": "Accesibilidad", "href": "/accessibility/" },
       { "label": "Gobernanza", "href": "/governance/" },
-      { "label": "Acerca de", "href": "/about/" }
+      { "label": "Transparencia", "href": "/transparency/" }
     ]
   }
 }

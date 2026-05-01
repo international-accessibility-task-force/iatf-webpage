@@ -23,6 +23,7 @@ if (!enabledLanguages.includes(defaultLang)) {
 let lang = defaultLang;
 let strings = await loadStrings(lang);
 let content = await loadContent(lang);
+const publicDiscordUrl = site.contact.discordUrl || site.contact.discordInviteUrl;
 
 const rawTokens = {
   "contact.accessibilityEmail":
@@ -30,7 +31,8 @@ const rawTokens = {
   "contact.requestsEmail": site.contact.requestsEmail || site.contact.projectsEmail,
   "contact.projectsEmail": site.contact.projectsEmail,
   "contact.generalEmail": site.contact.generalEmail,
-  "contact.discordInviteUrl": site.contact.discordInviteUrl,
+  "contact.discordUrl": publicDiscordUrl,
+  "contact.discordInviteUrl": publicDiscordUrl,
   "contact.githubOrgUrl": site.contact.githubOrgUrl,
   "site.title": site.siteTitle,
   "site.short": site.siteName
@@ -41,6 +43,7 @@ const richTokens = {
   "contact.requestsEmail": `<a href="mailto:${rawTokens["contact.requestsEmail"]}">${rawTokens["contact.requestsEmail"]}</a>`,
   "contact.projectsEmail": `<a href="mailto:${rawTokens["contact.projectsEmail"]}">${rawTokens["contact.projectsEmail"]}</a>`,
   "contact.generalEmail": `<a href="mailto:${rawTokens["contact.generalEmail"]}">${rawTokens["contact.generalEmail"]}</a>`,
+  "contact.discordUrl": `<a href="${rawTokens["contact.discordUrl"]}" rel="external">${rawTokens["contact.discordUrl"]}</a>`,
   "contact.discordInviteUrl": `<a href="${rawTokens["contact.discordInviteUrl"]}" rel="external">${rawTokens["contact.discordInviteUrl"]}</a>`,
   "contact.githubOrgUrl": `<a href="${rawTokens["contact.githubOrgUrl"]}" rel="external">${rawTokens["contact.githubOrgUrl"]}</a>`
 };
@@ -107,6 +110,18 @@ await writeFile(
   noindex
     ? `User-agent: *\nDisallow: /\n`
     : `User-agent: *\nAllow: /\nSitemap: ${site.siteUrl}/sitemap.xml\n`
+);
+await writeFile(
+  path.join(outDir, "site-config.json"),
+  JSON.stringify(
+    {
+      contact: {
+        discordInviteUrl: site.contact.discordInviteUrl || publicDiscordUrl
+      }
+    },
+    null,
+    2
+  ) + "\n"
 );
 if (!noindex) {
   await writeFile(path.join(outDir, "sitemap.xml"), renderSitemap());
@@ -1011,7 +1026,7 @@ function renderContributingAndContact(block) {
 // ── Layout shell ────────────────────────────────────────────────────────────
 
 function renderFooterMeta() {
-  return ["footer.blurb", "footer.sources", "footer.source"]
+  return ["footer.blurb", "footer.source"]
     .map((key) => strings[key])
     .filter(Boolean)
     .map((item) => `<p>${expand(item)}</p>`)
@@ -1082,7 +1097,7 @@ function renderDocument({ pageData, body, documentTitle, description }) {
           <address class="site-footer__contact" aria-label="${escapeHtml(strings["contact.label"])}">
             <ul class="site-footer__links">
               <li><a href="${escapeHtml(site.contact.githubOrgUrl)}" rel="external">${escapeHtml(strings["contact.github"])}</a></li>
-              <li><a href="${escapeHtml(site.contact.discordInviteUrl)}" rel="external">${escapeHtml(strings["contact.discord"])}</a></li>
+              <li><a href="${escapeHtml(publicDiscordUrl)}" rel="external">${escapeHtml(strings["contact.discord"])}</a></li>
             </ul>
           </address>
         </div>

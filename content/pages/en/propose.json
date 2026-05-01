@@ -14,7 +14,7 @@
     ],
     "actions": [
       { "label": "Start a request", "href": "#request-form", "variant": "primary" },
-      { "label": "Use Discord instead", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+      { "label": "Use Discord instead", "href": "{{contact.discordUrl}}", "variant": "secondary" }
     ]
   },
   "channels": {
@@ -145,7 +145,7 @@
     ],
     "actions": [
       { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "primary" },
-      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordUrl}}", "variant": "secondary" }
     ]
   }
 }

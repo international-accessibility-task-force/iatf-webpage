@@ -12,7 +12,7 @@
     "support": [],
     "actions": [
       { "labelKey": "contact.github", "href": "{{contact.githubOrgUrl}}", "variant": "primary" },
-      { "labelKey": "contact.discord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+      { "labelKey": "contact.discord", "href": "{{contact.discordUrl}}", "variant": "secondary" }
     ]
   },
   "ways": {
@@ -49,7 +49,7 @@
     ],
     "actions": [
       { "labelKey": "actions.visitGithub", "href": "{{contact.githubOrgUrl}}", "variant": "primary" },
-      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordUrl}}", "variant": "secondary" }
     ]
   }
 }

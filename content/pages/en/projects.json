@@ -33,7 +33,7 @@
     ],
     "actions": [
       { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "primary" },
-      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordInviteUrl}}", "variant": "secondary" }
+      { "labelKey": "actions.joinDiscord", "href": "{{contact.discordUrl}}", "variant": "secondary" }
     ]
   },
   "emptyState": {

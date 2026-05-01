@@ -32,6 +32,10 @@ export default {
       return Response.redirect(url.toString(), 308);
     }
 
+    if (url.pathname === "/discord" || url.pathname === "/discord/") {
+      return handleDiscordRedirect(request, env);
+    }
+
     if (url.pathname === "/api/request-config") {
       return handleRequestConfig(request, env);
     }
@@ -48,6 +52,15 @@ export default {
   }
 };
 
+async function handleDiscordRedirect(request, env) {
+  const inviteUrl = await getDiscordInviteUrl(request, env);
+  if (!inviteUrl) {
+    return jsonResponse({ error: "Discord redirect is not configured." }, 404);
+  }
+
+  return Response.redirect(inviteUrl, 302);
+}
+
 async function handleRequestConfig(request, env) {
   if (request.method !== "GET") {
     return methodNotAllowed(["GET"]);
@@ -58,6 +71,25 @@ async function handleRequestConfig(request, env) {
     turnstileSiteKey: env.TURNSTILE_SITE_KEY || "",
     requiredFields: REQUIRED_FIELDS
   });
+}
+
+async function getDiscordInviteUrl(request, env) {
+  if (!env.ASSETS) {
+    return "";
+  }
+
+  const configUrl = new URL("/site-config.json", request.url);
+  const response = await env.ASSETS.fetch(new Request(configUrl.toString()));
+  if (!response.ok) {
+    return "";
+  }
+
+  try {
+    const config = await response.json();
+    return String(config?.contact?.discordInviteUrl || "").trim();
+  } catch {
+    return "";
+  }
 }
 
 async function handleRequestSubmission(request, env, ctx) {

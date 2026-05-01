@@ -1,17 +1,20 @@
 # IATF Website
 
 Static multi-page site for `iatf.cc`, generated from JSON content and deployed
-with Cloudflare Workers Static Assets plus a small Worker for request intake.
+with Cloudflare Workers Static Assets plus a small Worker for request intake
+and canonical-domain redirects.
 
-## Files That Matter
+## Layout
 
 - `build/build.mjs`: builds the site into `dist/`
-- `content/`: site config, page content, strings, and language metadata
-- `data/`: structured project registry data
-- `client/`: browser JS and CSS source files
-- `assets/`: favicons, icons, and manifest source files
-- `worker/index.js`: request intake API
-- `wrangler.jsonc`: Cloudflare Worker + assets configuration
+- `content/site.json`, `content/languages.json`: site config and language metadata
+- `content/pages/<lang>/`: per-language page content
+- `content/strings/<lang>.json`: per-language UI strings
+- `data/projects.json`: public project registry
+- `client/app.js`, `client/css/`: browser JS and CSS source
+- `assets/icons/`, `assets/site.webmanifest`: favicons, icons, web manifest
+- `worker/index.js`: request intake API and canonical-host redirect
+- `wrangler.jsonc`: Cloudflare Worker + static assets configuration
 
 ## Commands
 
@@ -28,6 +31,9 @@ npm run deploy
 - `npm run dev:worker`: run the Worker locally against `dist/`
 - `npm run deploy`: deploy the Worker and static assets with Wrangler
 
+Set `NOINDEX=1` when building a non-production environment to emit a
+disallow-all `robots.txt` and `noindex` meta tags, and to skip `sitemap.xml`.
+
 ## Manual Cloudflare Deploy
 
 1. Build the site with `npm run build`.
@@ -36,24 +42,35 @@ npm run deploy
 
 ## Request Intake Configuration
 
-The public request form uses `POST /api/request` when the Worker is configured.
-Otherwise it falls back to a `mailto:` draft.
+Most edits to the source, content, or styles do not require any environment
+variables. Run `npm install && npm run build` and you are good to go.
 
-Required Worker vars:
+The public request form posts to `POST /api/request` when the Worker is
+configured. Otherwise it falls back to a `mailto:` draft. The Worker also
+redirects `www.iatf.cc` and the legacy `internationalaccessibilitytaskforce.com`
+hosts to `iatf.cc`.
 
-- `TURNSTILE_SITE_KEY`
-- `TURNSTILE_SECRET_KEY`
-- `GITHUB_TOKEN`
-- `GITHUB_INTAKE_REPO`
+Env vars only matter when you want to debug the live submission path
+end-to-end. A free Cloudflare account (for Turnstile keys and Worker hosting)
+and a free GitHub account (for the intake repository) are enough.
 
-Optional Worker vars:
+| Variable                       | Where it runs        | Sensitivity | Purpose                                           |
+| ------------------------------ | -------------------- | ----------- | ------------------------------------------------- |
+| `TURNSTILE_SITE_KEY`           | Worker (public)      | Public      | Turnstile site key, returned to the client.       |
+| `TURNSTILE_SECRET_KEY`         | Worker               | **Secret**  | Verifies Turnstile tokens server-side.            |
+| `GITHUB_TOKEN`                 | Worker               | **Secret**  | Creates the intake issue.                         |
+| `GITHUB_INTAKE_REPO`           | Worker               | Public      | `owner/name` of the intake repository.            |
+| `GITHUB_INTAKE_LABELS`         | Worker (optional)    | Public      | Defaults to `request,status: received`.           |
+| `GITHUB_INTAKE_SHOW_ISSUE_LINK`| Worker (optional)    | Public      | Set to `1` to surface the issue URL on success.   |
+| `DISCORD_WEBHOOK_URL`          | Worker (optional)    | **Secret**  | Posts a notification when an issue is created.    |
+| `TURNSTILE_EXPECTED_HOSTNAME`  | Worker (optional)    | Public      | Pins Turnstile validation to a specific hostname. |
+| `NOINDEX`                      | Build (optional)     | Public      | When `1`, the build emits a noindex site.         |
 
-- `GITHUB_INTAKE_LABELS`
-- `GITHUB_INTAKE_SHOW_ISSUE_LINK`
-- `DISCORD_WEBHOOK_URL`
-- `TURNSTILE_EXPECTED_HOSTNAME`
-
-For local development, copy `.env.example` to `.env` and fill in the values.
+Only `TURNSTILE_SECRET_KEY`, `GITHUB_TOKEN`, and `DISCORD_WEBHOOK_URL` are
+secrets. Store them with `wrangler secret put` for the deployed Worker. The
+non-secret Worker vars can live in `wrangler.jsonc` under `vars` or in `.env`
+locally. For local development, copy `.env.example` to `.env` and fill in the
+values you need.
 
 ## Licensing
 
