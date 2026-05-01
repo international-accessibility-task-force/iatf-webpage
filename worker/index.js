@@ -4,6 +4,12 @@ const REQUIRED_FIELDS = [
   "affectedUsers",
   "openSourceConsent"
 ];
+const CANONICAL_HOST = "iatf.cc";
+const REDIRECT_HOSTS = new Set([
+  "www.iatf.cc",
+  "internationalaccessibilitytaskforce.com",
+  "www.internationalaccessibilitytaskforce.com"
+]);
 
 const ISSUE_FIELDS = [
   ["Requester", "requester"],
@@ -22,6 +28,11 @@ const ISSUE_FIELDS = [
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    if (REDIRECT_HOSTS.has(url.hostname)) {
+      url.hostname = CANONICAL_HOST;
+      return Response.redirect(url.toString(), 308);
+    }
 
     if (url.pathname === "/api/request-config") {
       return handleRequestConfig(request, env);
