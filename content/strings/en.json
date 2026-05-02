@@ -109,5 +109,6 @@
   "translation.source": "English is the canonical source language for this page.",
   "translation.humanReviewed": "This translation has been reviewed by a fluent speaker.",
   "translation.machineAssisted": "This translation is machine-assisted and has not yet been fully reviewed by a fluent speaker. Suggestions are welcome through GitHub.",
-  "translation.needsUpdate": "This translation was reviewed before the latest English source update and may need revision."
+  "translation.needsUpdate": "This translation was reviewed before the latest English source update and may need revision.",
+  "translation.report": "Report a translation issue: {{contact.i18nEmail}}."
 }

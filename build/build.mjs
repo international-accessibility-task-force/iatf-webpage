@@ -43,6 +43,7 @@ const rawTokens = {
   "contact.requestsEmail": site.contact.requestsEmail || site.contact.projectsEmail,
   "contact.projectsEmail": site.contact.projectsEmail,
   "contact.generalEmail": site.contact.generalEmail,
+  "contact.i18nEmail": site.contact.i18nEmail || site.contact.generalEmail,
   "contact.discordUrl": publicDiscordUrl,
   "contact.discordInviteUrl": publicDiscordUrl,
   "contact.githubOrgUrl": site.contact.githubOrgUrl,
@@ -55,6 +56,7 @@ const richTokens = {
   "contact.requestsEmail": `<a href="mailto:${rawTokens["contact.requestsEmail"]}">${rawTokens["contact.requestsEmail"]}</a>`,
   "contact.projectsEmail": `<a href="mailto:${rawTokens["contact.projectsEmail"]}">${rawTokens["contact.projectsEmail"]}</a>`,
   "contact.generalEmail": `<a href="mailto:${rawTokens["contact.generalEmail"]}">${rawTokens["contact.generalEmail"]}</a>`,
+  "contact.i18nEmail": `<a href="mailto:${rawTokens["contact.i18nEmail"]}">${rawTokens["contact.i18nEmail"]}</a>`,
   "contact.discordUrl": `<a href="${rawTokens["contact.discordUrl"]}" rel="external">${rawTokens["contact.discordUrl"]}</a>`,
   "contact.discordInviteUrl": `<a href="${rawTokens["contact.discordInviteUrl"]}" rel="external">${rawTokens["contact.discordInviteUrl"]}</a>`,
   "contact.githubOrgUrl": `<a href="${rawTokens["contact.githubOrgUrl"]}" rel="external">${rawTokens["contact.githubOrgUrl"]}</a>`
@@ -1158,8 +1160,10 @@ function renderTranslationStatus(code) {
   const label = strings["translation.label"] || "Translation status";
   const tone = status === "human-reviewed" ? "info" : "warning";
   const role = tone === "warning" ? "status" : "note";
+  const reportMessage = status !== "source" ? strings["translation.report"] : "";
+  const reportHtml = reportMessage ? ` ${expand(reportMessage)}` : "";
   return `<aside class="translation-status translation-status--${escapeHtml(status)} translation-status--${escapeHtml(tone)}" role="${role}" aria-label="${escapeHtml(label)}">
-    <p><strong>${escapeHtml(label)}:</strong> ${expand(message)}</p>
+    <p><strong>${escapeHtml(label)}:</strong> ${expand(message)}${reportHtml}</p>
   </aside>`;
 }
 

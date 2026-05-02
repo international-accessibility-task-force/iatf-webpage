@@ -107,7 +107,8 @@
   "contact.discord": "Discord",
   "translation.label": "Estat de la traducció",
   "translation.source": "L'anglès és la llengua de referència d'aquesta pàgina.",
-  "translation.humanReviewed": "Aquesta traducció ha estat revisada per una persona fluent.",
-  "translation.machineAssisted": "Aquesta traducció és assistida per IA i encara no ha estat revisada completament per una persona fluent.",
+  "translation.humanReviewed": "Aquesta traducció ha estat revisada per una persona amb domini de l'idioma.",
+  "translation.machineAssisted": "Aquesta traducció és assistida per IA i encara no ha estat revisada completament per una persona amb domini de l'idioma.",
+  "translation.report": "Informa d'una errada de traducció: {{contact.i18nEmail}}.",
   "translation.needsUpdate": "Aquesta traducció es va revisar abans de l'última actualització de la versió en anglès i pot necessitar una nova revisió."
 }
