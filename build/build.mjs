@@ -1060,6 +1060,12 @@ function renderDocument({ pageData, body, documentTitle, description }) {
   const pagePathForAlternates = currentPath === "/404.html" ? null : currentPath;
   const robotsTag = renderRobotsTag(lang);
   const alternateTags = renderAlternateLinkTags(pagePathForAlternates);
+  const translationStatusHtml = renderTranslationStatus(lang);
+  const showsTranslationStatus =
+    translationStatusHtml && getTranslationStatus(lang) !== "source";
+  const mainClass = showsTranslationStatus
+    ? "site-main site-main--has-translation-status"
+    : "site-main";
 
   return `<!doctype html>
 <html lang="${escapeHtml(htmlLang)}" dir="ltr">
@@ -1101,8 +1107,8 @@ function renderDocument({ pageData, body, documentTitle, description }) {
         </nav>
       </header>
 
-      <main id="content" class="site-main" tabindex="-1">
-        ${renderTranslationStatus(lang)}
+      <main id="content" class="${mainClass}" tabindex="-1">
+        ${translationStatusHtml}
         ${body}
       </main>
 

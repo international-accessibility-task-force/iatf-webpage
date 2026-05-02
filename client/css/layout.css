@@ -66,6 +66,10 @@
   padding: var(--space-7) 0;
 }
 
+.site-main--has-translation-status {
+  padding-top: var(--space-5);
+}
+
 .site-main:focus {
   outline: none;
 }
