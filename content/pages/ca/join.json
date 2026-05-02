@@ -7,8 +7,8 @@
   },
   "hero": {
     "eyebrowKey": "hero.join.eyebrow",
-    "title": "Unir-se a l'IATF",
-    "lead": "L'adhesió és oberta. Hi ha diverses maneres de participar, ja sigui que es basa en la tecnologia d'assistència, construir un programari accessible, traduir, provar o mantenir un projecte. Les discussions i les decisions ocorren públicament en GitHub i Discord.",
+    "title": "Uneix-te a l'IATF",
+    "lead": "L'adhesió és oberta. Hi ha diverses maneres de participar, tant si fas servir tecnologia assistiva com si construeixes programari accessible, tradueixes, proves o mantens un projecte. Les discussions i les decisions passen en obert a GitHub i Discord.",
     "support": [],
     "actions": [
       {
@@ -26,14 +26,14 @@
   "ways": {
     "header": {
       "kicker": "Roles",
-      "title": "Les maneres de contribuir"
+      "title": "Maneres de contribuir"
     },
     "items": [
-      "<strong>Demana un projecte.</strong> Si trobes una barrera d'accessibilitat que podria ser abordada per un programari de codi obert públic, envia-la a través de la entrada de la sol·licitud.",
-      "<strong>Test i revisió.</strong> Proveu projectes IATF amb la tecnologia d'assistència que utilitzeu, informeu què funciona i què no, i arxiu els problemes directament en el repositori pertinent.",
+      "<strong>Demana un projecte.</strong> Si trobes una barrera d'accessibilitat que es podria abordar amb programari públic de codi obert, envia-la pel formulari de sol·licitud.",
+      "<strong>Prova i revisa.</strong> Prova projectes de l'IATF amb la tecnologia assistiva que utilitzes, informa del que funciona i del que no, i obre incidències directament al repositori corresponent.",
       "<strong>Traduir.</strong> El contingut de la font es publica primer en anglès pla. Les traduccions s'afegeixen a mesura que els contribuents estan disponibles, començant pel castellà.",
-      "<strong>Construir.</strong> Recuperar problemes en qualsevol repositori de l'IATF, enviar sol·licituds de pujar, o assumir un projecte com a seu enginyer responsable.",
-      "<strong>Mantingueu-ho.</strong> Els projectes existents a vegades necessiten un nou mantenidor. La rotació de mantenidors és una part normal del model, no una excepció."
+      "<strong>Construeix.</strong> Agafa incidències de qualsevol repositori de l'IATF, envia sol·licituds de canvi o assumeix un projecte com a enginyer responsable.",
+      "<strong>Mantén.</strong> Els projectes existents de vegades necessiten un nou mantenidor. La rotació de mantenidors és una part normal del model, no una excepció."
     ]
   },
   "channels": {
@@ -44,16 +44,16 @@
     "items": [
       "<strong>GitHub.</strong> Problemes, sol·licituds de retirada, publicacions i registres de projectes.",
       "<strong>Discord.</strong> Discussió en viu, coordinació i preguntes informals.",
-      "<strong>E-mail.</strong> Utilització <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si ni GitHub ni Discord encaixen."
+      "<strong>Correu electrònic.</strong> Fes servir <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si ni GitHub ni Discord et van bé."
     ]
   },
   "closing": {
     "header": {
       "kicker": "El següent pas",
-      "title": "Seleccioneu el canal que correspon amb la manera en què voleu contribuir"
+      "title": "Tria el canal que encaixi amb com vols contribuir"
     },
     "paragraphs": [
-      "Tots els canals s'alimenten en la mateixa revisió pública i en els mateixos repositorios públics."
+      "Tots els canals desemboquen en la mateixa revisió pública i en els mateixos repositoris públics."
     ],
     "actions": [
       {

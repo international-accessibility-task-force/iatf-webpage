@@ -6,11 +6,11 @@
   "hero": {
     "eyebrow": "No s'ha trobat",
     "title": "La pàgina sol·licitada no es va trobar",
-    "lead": "Utilitzeu les principals rutes a continuació per tornar al lloc públic.",
+    "lead": "Fes servir les rutes principals de sota per tornar al lloc públic.",
     "support": [],
     "actions": [
       {
-        "label": "Casa",
+        "label": "Inici",
         "href": "/",
         "variant": "primary"
       },
@@ -23,11 +23,11 @@
   },
   "body": {
     "paragraphs": [
-      "La ruta que ha demanat no existeix."
+      "La ruta que has demanat no existeix."
     ],
     "items": [
       {
-        "label": "Casa",
+        "label": "Inici",
         "href": "/"
       },
       {
@@ -35,7 +35,7 @@
         "href": "/projects/"
       },
       {
-        "label": "Unir-se",
+        "label": "Uneix-te",
         "href": "/join/"
       },
       {

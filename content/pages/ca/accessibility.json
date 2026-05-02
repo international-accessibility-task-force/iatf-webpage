@@ -8,26 +8,26 @@
   "hero": {
     "eyebrowKey": "hero.accessibility.eyebrow",
     "title": "Accessibilitat",
-    "lead": "IATF té com a objectiu mantenir aquest lloc web simple, legible, accessible al teclat i compatible amb les tecnologies assistives.",
+    "lead": "L'IATF té com a objectiu mantenir aquest lloc web simple, llegible, accessible amb teclat i compatible amb les tecnologies assistives.",
     "support": [
-      "Per a l'accessibilitat a la web, l'IATF utilitza [W3C WAI](https://www.w3.org/WAI/) L'accessibilitat pràctica també es basa en l'experiència directa dels usuaris de les tecnologies d'assistència."
+      "Referències d'accessibilitat: [W3C WAI](https://www.w3.org/WAI/) i l'experiència de persones usuàries de tecnologies de suport."
     ],
     "actions": []
   },
   "report": {
     "header": {
-      "kicker": "Presentació de informes",
+      "kicker": "Informes",
       "title": "Reportar un problema d'accessibilitat"
     },
     "paragraphs": [
-      "Si trobes una barrera d'accessibilitat en aquest lloc web, si us plau, informeu-lo per correu electrònic:",
+      "Si trobes una barrera d'accessibilitat en aquest lloc web, informa'n per correu electrònic:",
       "{{contact.accessibilityEmail}}",
       "Entre els informes útils hi ha:"
     ],
     "items": [
       "la pàgina on es va produir el problema",
       "el que estàs intentant fer",
-      "quina tecnologia d'assistència, navegador o dispositiu estava utilitzant, si és pertinent",
+      "quina tecnologia assistiva, navegador o dispositiu utilitzaves, si escau",
       "el que va anar mal",
       "el que hauria ajudat"
     ],
@@ -36,11 +36,11 @@
   "publicIssueHandling": {
     "header": {
       "kicker": "Manipulació",
-      "title": "Tratament de qüestions públiques"
+      "title": "Gestió pública de les incidències"
     },
     "paragraphs": [
-      "Els problemes d'accessibilitat poden ser resumits en el repositori públic corresponent per tal que puguin ser corregits al públic.",
-      "Si el teu informe inclou informació privada, diguis-ho clarament en el missatge."
+      "Les incidències d'accessibilitat es poden resumir al repositori públic corresponent perquè es puguin corregir en obert. Abans de publicar, s'eliminen les dades de contacte personals i la informació privada innecessària.",
+      "Si el teu informe inclou informació privada, indica-ho clarament al missatge."
     ]
   },
   "knownLimitations": {

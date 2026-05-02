@@ -2,24 +2,24 @@
   "meta": {
     "slug": "propose",
     "currentPath": "/propose/",
-    "title": "Solicitar un projecte d'accessibilitat",
+    "title": "Sol·licitar un projecte d'accessibilitat",
     "descriptionKey": "meta.propose.description"
   },
   "hero": {
     "eyebrowKey": "hero.propose.eyebrow",
-    "title": "Solicitar un projecte d'accessibilitat",
+    "title": "Sol·licitar un projecte d'accessibilitat",
     "lead": "L'IATF revisa les sol·licituds de projectes d'accessibilitat que es basen en una necessitat real.",
     "support": [
-      "No necessites una especificació completa, basta amb un problema clar, a qui afecta i per què és important."
+      "No necessites una especificació completa, n'hi ha prou amb un problema clar, a qui afecta i per què és important."
     ],
     "actions": [
       {
-        "label": "Iniciar una petició",
+        "label": "Inicia una sol·licitud",
         "href": "#request-form",
         "variant": "primary"
       },
       {
-        "label": "Utilitzeu Discord en lloc",
+        "label": "Fes servir Discord en lloc del formulari",
         "href": "{{contact.discordUrl}}",
         "variant": "secondary"
       }
@@ -28,10 +28,10 @@
   "channels": {
     "header": {
       "kicker": "Canals",
-      "title": "Escollir la ruta més fàcil"
+      "title": "Escull la ruta més fàcil"
     },
     "intro": [
-      "Totes les rutes entren en la mateixa revisió."
+      "Totes les rutes passen pel mateix procés de revisió."
     ],
     "items": [
       {
@@ -40,11 +40,11 @@
       },
       {
         "label": "E-mail",
-        "body": "Enviar la sol·licitud directament a {{contact.requestsEmail}}Les sol·licituds per correu electrònic poden convertir-se en registres públics de sol·licituds després de revisar i redactar-les."
+        "body": "Envia la sol·licitud directament a {{contact.requestsEmail}}. Les sol·licituds per correu electrònic poden convertir-se en registres públics després de la revisió i la redacció."
       },
       {
-        "label": "Disconciliació",
-        "body": "Comencem aquí si és el més fàcil."
+        "label": "Discord",
+        "body": "Comença per aquí si et va millor. La sol·licitud seguirà el mateix procés de revisió."
       }
     ]
   },
@@ -52,7 +52,7 @@
     "title": "Abans d'enviar una petició",
     "paragraphs": [
       "L'IATF treballa en públic. Les sol·licituds poden ser resumides i publicades com a registres de sol·licituds públiques a l'organització GitHub de l'IATF, en aquest lloc web, o ambdós.",
-      "No incloure adreces privades, números de telèfon, detalls mèdics o informació d'identificació sobre els usuaris individuals de tecnologies assistives a menys que sigui necessari i vostè estigui còmode amb l'IATF revisant-ho.",
+      "No incloguis adreces privades, números de telèfon, detalls mèdics o informació d'identificació sobre persones usuàries de tecnologies assistives.",
       "L'IATF elimina dades de contacte personals innecessàries abans de publicar els registres de la sol·licitud."
     ]
   },
@@ -61,7 +61,7 @@
     "paragraphs": [
       "La presentació d'una sol·licitud no garanteix l'acceptació.",
       "L'IATF revisa les sol·licituds d'adaptació a la missió, viabilitat, utilitat i si l'obra pertany a un repositori públic.",
-      "Algunes sol·licituds poden ser rebutjades, posades enrere o reformades abans de ser acceptades."
+      "Algunes sol·licituds es poden rebutjar, ajornar o reformular abans d'acceptar-se."
     ]
   },
   "form": {
@@ -71,68 +71,68 @@
     },
     "fields": [
       {
-        "kind": "entrada",
-        "name": "sol·licitant",
-        "label": "El seu nom o organització",
+        "kind": "input",
+        "name": "requester",
+        "label": "El teu nom o organització",
         "helper": "Qui està fent la petició?"
       },
       {
-        "kind": "seleccionar",
-        "name": "ContactRoute",
+        "kind": "select",
+        "name": "contactRoute",
         "label": "Ruta de contacte preferida",
-        "helper": "Com s'ha d'aconseguir el seguiment?",
+        "helper": "Com vols que fem el seguiment?",
         "required": true,
         "options": [
           "E-mail",
-          "Disconciliació"
+          "Discord"
         ]
       },
       {
-        "kind": "entrada",
-        "name": "ContacteDetails",
+        "kind": "input",
+        "name": "contactDetails",
         "label": "Detalls de contacte",
-        "helper": "Direcció de correu electrònic o manalla Discord per al seguiment.",
-        "placeholder": "Direcció de correu electrònic o manipulació Discord",
+        "helper": "Adreça de correu electrònic o usuari de Discord per al seguiment.",
+        "placeholder": "Adreça de correu electrònic o usuari de Discord",
         "required": true
       },
       {
-        "kind": "entrada",
-        "name": "llengua",
+        "kind": "input",
+        "name": "language",
         "label": "Llengua",
-        "helper": "La seva llengua preferida, si és pertinent.",
+        "helper": "La teva llengua preferida, si escau.",
         "value": "Anglès"
       },
       {
-        "kind": "zona de text",
-        "name": "Problemàtica",
+        "kind": "textarea",
+        "name": "problem",
         "label": "Quin problema estàs tractant de resoldre?",
         "helper": "Descriu l'obstacle en llenguatge senzill.",
         "required": true
       },
       {
-        "kind": "zona de text",
-        "name": "Utilitzadors afectats",
+        "kind": "textarea",
+        "name": "affectedUsers",
         "label": "Qui està afectat?",
         "helper": "A qui ajudaria això?",
         "required": true
       },
       {
-        "kind": "zona de text",
+        "kind": "textarea",
         "name": "extraContext",
-        "label": "Contexte extra",
-        "helper": "Comparteix qualsevol altra cosa que ajuda a explicar la necessitat: per què és important, exemples, referències, una idea de programari o limitacions de temps."
+        "label": "Context extra",
+        "helper": "Comparteix qualsevol altra informació que ajudi a explicar la necessitat: per què és important, exemples, referències, una idea de programari o limitacions de temps."
       },
       {
-        "kind": "seleccionar",
-        "name": "openSourceConsens",
+        "kind": "select",
+        "name": "openSourceConsent",
         "label": "Estàs còmode amb el desenvolupament de codi obert públic?",
-        "helper": "Els projectes acceptats són repositorios públics sota l'IATF.",
+        "helper": "Els projectes acceptats són repositoris públics sota l'IATF.",
         "fullWidth": true,
         "required": true,
         "options": [
-          "Sí .",
-          "No, no.",
-          "Encara no ho sé."
+          "Sí",
+          "No",
+          "Encara no ho sé"
         ]
       }
     ]
@@ -140,14 +140,14 @@
   "accepted": {
     "header": {
       "kicker": "Si s'accepta",
-      "title": "Què significa acceptar"
+      "title": "Què significa l'acceptació"
     },
     "items": [
       "un repositori públic en l'organització GitHub de l'IATF",
       "un enginyer responsable assignat al projecte",
-      "Una llicència de copyleft per al codi i materials del projecte",
-      "Desenvolupament públic en el repositori",
-      "una inscripció en el registre del lloc web de l'IATF"
+      "una llicència copyleft per al codi i els materials del projecte",
+      "desenvolupament públic al repositori",
+      "una entrada al registre del lloc web de l'IATF"
     ]
   },
   "closing": {
@@ -156,7 +156,7 @@
       "title": "Una petició breu i clara és suficient per començar"
     },
     "paragraphs": [
-      "Si tens una necessitat real d'accessibilitat i creus que s'hauria de convertir en un projecte públic, envia-lo a nosaltres."
+      "Si tens una necessitat real d'accessibilitat i creus que s'hauria de convertir en un projecte públic, envia'ns la teva sol·licitud."
     ],
     "actions": [
       {

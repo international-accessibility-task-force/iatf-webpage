@@ -7,8 +7,8 @@
   },
   "hero": {
     "eyebrowKey": "hero.projects.eyebrow",
-    "title": "Projectes d'accessibilitat pública",
-    "lead": "Aquest registre enumera els projectes públics mantenits a través de l'IATF. Els projectes d'accessibilitat acceptats, la infraestructura del lloc i els protòtips archivats es mantenen visibles aquí.",
+    "title": "Projectes públics d'accessibilitat",
+    "lead": "Aquest registre recull els projectes públics mantinguts a través de l'IATF. Els projectes d'accessibilitat acceptats, la infraestructura del lloc i els prototips arxivats hi són visibles.",
     "support": [],
     "actions": [
       {
@@ -24,16 +24,16 @@
       "title": "Registre actual"
     },
     "intro": [
-      "Els projectes acceptats s'enumeren aquí una vegada que es publiquin."
+      "Els projectes acceptats s'enumeren aquí una vegada que s'hagin publicat."
     ]
   },
   "cta": {
     "header": {
-      "kicker": "Submitir una necessitat",
-      "title": "Convertir una necessitat concreta d'accessibilitat en un projecte públic"
+      "kicker": "Compartir una necessitat",
+      "title": "Converteix una necessitat concreta d'accessibilitat en un projecte públic"
     },
     "paragraphs": [
-      "L'IATF revisa les necessitats concretes d'accessibilitat que poden convertir-se en útils treballs públics de codi obert."
+      "L'IATF revisa necessitats concretes d'accessibilitat que es puguin convertir en treball útil de codi obert."
     ],
     "actions": [
       {

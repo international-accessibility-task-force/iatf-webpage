@@ -7,8 +7,8 @@
   },
   "hero": {
     "eyebrowKey": "hero.home.eyebrow",
-    "title": "Des de la necessitat d'accessibilitat fins al repo públic",
-    "lead": "IATF ajuda associacions, grups i individuals a convertir les necessitats reals d'accessibilitat en projectes públics de codi obert.",
+    "title": "Des de la necessitat d'accessibilitat fins a publicar el projecte",
+    "lead": "IATF ajuda associacions, grups i persones a convertir les necessitats reals d'accessibilitat en projectes públics de codi obert.",
     "support": [
       "Els projectes acceptats són publicats a l'organització GitHub de l'IATF sota una llicència copyleft i desenvolupats públicament per un enginyer responsable."
     ],
@@ -27,48 +27,48 @@
   },
   "model": {
     "header": {
-      "kicker": "Modell d'explotació pública",
-      "title": "Un camí públic senzill per al programari accessible"
+      "kicker": "Model operatiu",
+      "title": "Un camí simple per al programari accessible"
     },
     "paragraphs": [
-      "Es revisa una necessitat real d'accessibilitat, i, si és acceptada, es converteix en un repositori públic de GitHub sota la gestió de l'IATF.",
-      "Cada projecte acceptat té una llar pública clara per al codi, els temes, la documentació i les publicacions, amb el desenvolupament dirigit en obert per un enginyer responsable."
+      "A través d’un formulari, es pot presentar un problema d’accessibilitat a l’IATF. Si l’equip el pot assumir, s’obre un repositori públic de GitHub per treballar-hi.",
+      "Cada projecte acceptat té un espai públic per al codi, les incidències, la documentació i les versions, amb el desenvolupament dirigit en obert per un enginyer responsable."
     ],
     "specCard": {
-      "title": "Modell d'explotació pública",
+      "title": "Model operatiu",
       "terms": [
         {
           "term": "Necessitat",
-          "definition": "Problemes reals d'accessibilitat"
+          "definition": "Problemes d'accessibilitat"
         },
         {
           "term": "Revisió",
           "definition": "Adaptació a la missió i viabilitat pràctica"
         },
         {
-          "term": "Espaci del projecte",
+          "term": "Espai del projecte",
           "definition": "Repositori públic de GitHub"
         },
         {
-          "term": "Administració",
-          "definition": "Propietat de l'organització de l'IATF"
+          "term": "Tutela",
+          "definition": "Repositoris sota l'organització de l´IATF"
         }
       ]
     }
   },
   "process": {
     "header": {
-      "kicker": "Processos",
+      "kicker": "Procés",
       "title": "Com funciona",
-      "intro": "El model es manté intencionadament petit per tal que el camí públic sigui fàcil de seguir."
+      "intro": "El model es manté intencionadament petit per tal que el camí sigui fàcil de seguir."
     },
     "steps": [
       {
         "index": "01",
-        "title": "Presentació d'una necessitat",
+        "title": "Es presenta una necessitat",
         "paragraphs": [
-          "Una associació, un grup o una persona pot presentar una sol·licitud basada en una necessitat real d'accessibilitat.",
-          "Les sol·licituds poden començar a través del lloc web, per correu electrònic a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o a través de Discord."
+          "Una associació, un grup o una persona pot presentar una necessitat real d'accessibilitat.",
+          "Les necessitats poden començar a través del lloc web, per correu electrònic a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o a través de Discord."
         ]
       },
       {
@@ -83,14 +83,14 @@
         "title": "Es crea un repositori públic",
         "paragraphs": [
           "Si un projecte és acceptat, es publica a l'organització GitHub de l'IATF sota una llicència copyleft.",
-          "El repositori es converteix en la llar pública del codi, les issues, la documentació i les publicacions."
+          "El repositori es converteix en l'espai públic del codi, les incidències, la documentació i les publicacions."
         ]
       },
       {
         "index": "04",
         "title": "Un enginyer responsable dirigeix el projecte",
         "paragraphs": [
-          "Un enginyer responsable és assignat al repositori del projecte i el desenvolupament es produeix en públic."
+          "Un enginyer responsable és assignat al repositori del projecte i el desenvolupament es produeix en obert."
         ]
       }
     ]
@@ -104,10 +104,10 @@
   "closing": {
     "header": {
       "kicker": "Comença aquí.",
-      "title": "Explorar el treball actual o començar un projecte concret"
+      "title": "Descobreix els projectes actuals o comença un nou projecte"
     },
     "paragraphs": [
-      "Utilitza el registre per veure el que ja és públic, o començar l'admissió si un problema concret d'accessibilitat s'ha de convertir en un projecte."
+      "Utilitza el registre per veure altres projectes, o escriu una sol·licitud per transformar un problema d'accessibilitat en un projecte."
     ],
     "actions": [
       {
