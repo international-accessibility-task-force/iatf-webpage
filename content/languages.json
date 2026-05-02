@@ -10,7 +10,14 @@
     "emailAlias": "en",
     "discordSlug": "en",
     "displayLabel": "English",
-    "enabled": true
+    "enabled": true,
+    "translation": {
+      "status": "source",
+      "method": null,
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    }
   },
   "ca": {
     "nativeName": "Català",
@@ -23,7 +30,14 @@
     "emailAlias": "ca",
     "discordSlug": "ca",
     "displayLabel": "Català",
-    "enabled": false
+    "enabled": false,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    }
   },
   "es": {
     "nativeName": "Español",
@@ -36,7 +50,14 @@
     "emailAlias": "es",
     "discordSlug": "es",
     "displayLabel": "Español",
-    "enabled": true
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    }
   },
   "fr": {
     "nativeName": "Français",
@@ -49,7 +70,14 @@
     "emailAlias": "fr",
     "discordSlug": "fr",
     "displayLabel": "Français",
-    "enabled": false
+    "enabled": false,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    }
   },
   "zh-Hans": {
     "nativeName": "简体中文",
@@ -62,7 +90,14 @@
     "emailAlias": "zh-hans",
     "discordSlug": "zh-hans",
     "displayLabel": "简体中文",
-    "enabled": false
+    "enabled": false,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    }
   },
   "zh-Hant": {
     "nativeName": "繁體中文",
@@ -75,6 +110,13 @@
     "emailAlias": "zh-hant",
     "discordSlug": "zh-hant",
     "displayLabel": "繁體中文",
-    "enabled": false
+    "enabled": false,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    }
   }
 }

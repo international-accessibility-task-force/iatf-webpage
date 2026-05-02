@@ -20,6 +20,18 @@ if (!enabledLanguages.includes(defaultLang)) {
   enabledLanguages.unshift(defaultLang);
 }
 
+const INDEXABLE_TRANSLATION_STATUSES = new Set(["source", "human-reviewed"]);
+
+function getTranslationStatus(code) {
+  return languages[code]?.translation?.status || "machine-assisted";
+}
+
+function isIndexableLocale(code) {
+  return INDEXABLE_TRANSLATION_STATUSES.has(getTranslationStatus(code));
+}
+
+const indexableLanguages = enabledLanguages.filter(isIndexableLocale);
+
 let lang = defaultLang;
 let strings = await loadStrings(lang);
 let content = await loadContent(lang);
@@ -1045,6 +1057,9 @@ function renderDocument({ pageData, body, documentTitle, description }) {
     (meta.descriptionKey ? strings[meta.descriptionKey] : site.description);
   const canonical = `${site.siteUrl}${currentPath === "/404.html" ? "/" : currentPath}`;
   const htmlLang = languages[lang]?.ietfBcp47 || lang;
+  const pagePathForAlternates = currentPath === "/404.html" ? null : currentPath;
+  const robotsTag = renderRobotsTag(lang);
+  const alternateTags = renderAlternateLinkTags(pagePathForAlternates);
 
   return `<!doctype html>
 <html lang="${escapeHtml(htmlLang)}" dir="ltr">
@@ -1053,12 +1068,13 @@ function renderDocument({ pageData, body, documentTitle, description }) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>${escapeHtml(titleSource)}</title>
     <meta name="description" content="${escapeHtml(descriptionSource)}" />
-    ${noindex ? `<meta name="robots" content="noindex,nofollow,noarchive" />` : ""}
+    ${robotsTag}
     <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
     <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="canonical" href="${escapeHtml(canonical)}" />
+    ${alternateTags}
     <meta property="og:title" content="${escapeHtml(titleSource)}" />
     <meta property="og:description" content="${escapeHtml(descriptionSource)}" />
     <meta property="og:type" content="website" />
@@ -1086,6 +1102,7 @@ function renderDocument({ pageData, body, documentTitle, description }) {
       </header>
 
       <main id="content" class="site-main" tabindex="-1">
+        ${renderTranslationStatus(lang)}
         ${body}
       </main>
 
@@ -1119,6 +1136,46 @@ function renderDocument({ pageData, body, documentTitle, description }) {
     <script src="/app.js" defer></script>
   </body>
 </html>`;
+}
+
+function renderTranslationStatus(code) {
+  const status = getTranslationStatus(code);
+  const stringKey = {
+    "source": "translation.source",
+    "human-reviewed": "translation.humanReviewed",
+    "machine-assisted": "translation.machineAssisted",
+    "needs-update": "translation.needsUpdate"
+  }[status];
+  if (!stringKey) return "";
+  const message = strings[stringKey];
+  if (!message) return "";
+  const label = strings["translation.label"] || "Translation status";
+  return `<aside class="translation-status translation-status--${escapeHtml(status)}" aria-label="${escapeHtml(label)}">
+    <p><strong>${escapeHtml(label)}:</strong> ${expand(message)}</p>
+  </aside>`;
+}
+
+function renderRobotsTag(code) {
+  const indexable = !noindex && isIndexableLocale(code);
+  if (indexable) return "";
+  if (noindex) return `<meta name="robots" content="noindex,nofollow,noarchive" />`;
+  return `<meta name="robots" content="noindex,follow" />`;
+}
+
+function renderAlternateLinkTags(pathname) {
+  if (!pathname) return "";
+  const indexable = indexableLanguages;
+  if (indexable.length < 2) return "";
+  const lines = indexable.map((code) => {
+    const href = `${site.siteUrl}${localizePathname(pathname, code)}`;
+    const hreflang = languages[code]?.ietfBcp47 || code;
+    return `<link rel="alternate" hreflang="${escapeHtml(hreflang)}" href="${escapeHtml(href)}" />`;
+  });
+  const defaultHref = `${site.siteUrl}${localizePathname(pathname, defaultLang)}`;
+  lines.push(
+    `<link rel="alternate" hreflang="x-default" href="${escapeHtml(defaultHref)}" />`
+  );
+  return lines.join("\n    ");
 }
 
 function getPageTitle(meta, currentPath, titlePrefix) {
@@ -1350,7 +1407,7 @@ function renderSitemap() {
     "/transparency/",
     ...projects.map((project) => `/projects/${project.slug}/`)
   ];
-  const urls = enabledLanguages.flatMap((code) =>
+  const urls = indexableLanguages.flatMap((code) =>
     baseUrls.map((url) => localizePathname(url, code))
   );
 

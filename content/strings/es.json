@@ -103,5 +103,10 @@
   "footer.contactLabel": "Contacto",
   "contact.label": "Contacto",
   "contact.github": "GitHub",
-  "contact.discord": "Discord"
+  "contact.discord": "Discord",
+  "translation.label": "Estado de la traducción",
+  "translation.source": "El inglés es el idioma fuente canónico de esta página.",
+  "translation.humanReviewed": "Esta traducción ha sido revisada por una persona con dominio del idioma.",
+  "translation.machineAssisted": "Esta traducción es asistida por máquina y aún no ha sido revisada en su totalidad por una persona con dominio del idioma. Las sugerencias son bienvenidas a través de GitHub.",
+  "translation.needsUpdate": "Esta traducción fue revisada antes de la última actualización del texto en inglés y puede necesitar revisión."
 }
