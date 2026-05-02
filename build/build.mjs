@@ -1150,7 +1150,9 @@ function renderTranslationStatus(code) {
   const message = strings[stringKey];
   if (!message) return "";
   const label = strings["translation.label"] || "Translation status";
-  return `<aside class="translation-status translation-status--${escapeHtml(status)}" aria-label="${escapeHtml(label)}">
+  const tone = status === "human-reviewed" ? "info" : "warning";
+  const role = tone === "warning" ? "status" : "note";
+  return `<aside class="translation-status translation-status--${escapeHtml(status)} translation-status--${escapeHtml(tone)}" role="${role}" aria-label="${escapeHtml(label)}">
     <p><strong>${escapeHtml(label)}:</strong> ${expand(message)}</p>
   </aside>`;
 }

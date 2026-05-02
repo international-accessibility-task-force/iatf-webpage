@@ -276,25 +276,51 @@
 }
 
 .translation-status {
-  max-width: var(--reading-width);
-  margin: var(--space-3) auto var(--space-4);
-  padding: var(--space-2) var(--space-3);
-  border: 1px solid var(--color-border, currentColor);
-  border-radius: var(--radius-2, 0.5rem);
+  margin: 0 0 var(--space-5);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text);
   font-size: 0.95rem;
-  color: var(--color-text-soft);
+  line-height: 1.55;
 }
 
 .translation-status p {
   margin: 0;
+  max-width: var(--reading-width);
+}
+
+.translation-status strong {
+  display: inline-block;
+  margin-right: 0.35em;
+  font-weight: 700;
 }
 
 .translation-status--source {
   display: none;
 }
 
-.translation-status--needs-update {
-  border-color: var(--color-warning, currentColor);
+.translation-status--warning {
+  border-color: #f5d68a;
+  background: #fff8e1;
+  color: #422006;
+}
+
+.translation-status--warning a {
+  color: #7c2d12;
+  text-decoration-color: currentColor;
+}
+
+.translation-status--info {
+  border-color: var(--color-accent-soft);
+  background: var(--color-accent-soft);
+  color: #2e1a4a;
+}
+
+.translation-status--info a {
+  color: var(--color-accent);
+  text-decoration-color: currentColor;
 }
 
 .field {
