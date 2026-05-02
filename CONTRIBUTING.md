@@ -1,4 +1,4 @@
-# Contributing to iatf-webpage
+# Contributing to iatf-website
 
 This is the public source of `iatf.cc`. The site is intentionally small,
 static, and easy to read so that anyone can fix copy, improve accessibility,
@@ -34,7 +34,7 @@ To exercise the live path end-to-end you need:
 
 1. A free Cloudflare account with a Turnstile site/secret pair.
 2. A free GitHub account with a personal access token that can open issues
-   on the intake repository (`international-accessibility-task-force/iatf-requests`
+   on the intake repository (`international-accessibility-task-force/iatf-intake`
    in production, or any repo you control for testing).
 
 Copy `.env.example` to `.env`, fill in the values you need, then run:

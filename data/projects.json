@@ -1,12 +1,12 @@
 [
   {
-    "slug": "iatf-webpage",
+    "slug": "iatf-website",
     "title": "IATF webpage",
     "summary": "The public site for the International Accessibility Task Force.",
     "status": "Active",
     "maintainer": "mugiwarafx",
     "maintainerUrl": "https://github.com/mugiwarafx",
-    "repository": "https://github.com/international-accessibility-task-force/iatf-webpage",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
     "demo": "https://iatf.cc",
     "license": "AGPL-3.0",
     "primaryLanguage": "English",
@@ -28,13 +28,13 @@
     ]
   },
   {
-    "slug": "iatf-selfie",
+    "slug": "archived-iatf-selfie",
     "title": "IATF selfie",
     "summary": "An early IATF prototype, archived after reaching a natural stopping point.",
     "status": "Archived",
     "maintainer": "mugiwarafx",
     "maintainerUrl": "https://github.com/mugiwarafx",
-    "repository": "https://github.com/international-accessibility-task-force/iatf-selfie",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
     "license": "Apache-2.0",
     "primaryLanguage": "English",
     "problem": "Early exploration of an accessibility-focused tool under the IATF umbrella.",
@@ -49,13 +49,13 @@
     ]
   },
   {
-    "slug": "iatf-bot",
+    "slug": "archived-iatf-bot",
     "title": "IATF bot",
     "summary": "An IATF community bot, archived after reaching a natural stopping point.",
     "status": "Archived",
     "maintainer": "mugiwarafx",
     "maintainerUrl": "https://github.com/mugiwarafx",
-    "repository": "https://github.com/international-accessibility-task-force/iatf-bot",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
     "license": "GPL-3.0",
     "primaryLanguage": "English",
     "problem": "Automation around IATF community channels.",

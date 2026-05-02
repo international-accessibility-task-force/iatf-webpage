@@ -24,9 +24,9 @@
       "<strong>Project decisions.</strong> Acceptance, archival, and reassignment decisions are recorded as issues or releases in the relevant repository, and summarized in the public registry. View the public <a href=\"/projects/\">registry</a>.",
       "<strong>Request records.</strong> Public request records are stored in the IATF GitHub organization, on this website, or both. Records may summarize, redact, or restructure the original request so the accessibility need can be reviewed without exposing unnecessary personal information. Discord decisions are summarized into the public record when they affect a project or governance decision. Request records are excluded from search engine indexing where technically practical. View request records: first publication pending.",
       "<strong>Code changes.</strong> Every code change is a public commit on the relevant repository. View the IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub organization</a>.",
-      "<strong>Governance changes.</strong> Updates to the governance page are tracked as commits to the <code>iatf-webpage</code> repository. View the <a href=\"{{contact.githubOrgUrl}}/iatf-webpage/commits\">commit history</a> on GitHub.",
+      "<strong>Governance changes.</strong> Updates to the governance page are tracked as commits to the <code>iatf-website</code> repository. View the <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">commit history</a> on GitHub.",
       "<strong>Operating costs.</strong> IATF keeps operating costs low and records recurring public infrastructure expenses. Since 2022, the main recurring costs have been domain names. Hosting has used free-tier or low-cost infrastructure where possible. View the operating cost record below.",
-      "<strong>Coordination notes.</strong> Notes from any coordinated review or decision live in GitHub Discussions on the relevant repository — view <a href=\"{{contact.githubOrgUrl}}/iatf-webpage/discussions\">Discussions</a> on the <code>iatf-webpage</code> repository."
+      "<strong>Coordination notes.</strong> Notes from any coordinated review or decision live in GitHub Discussions on the relevant repository — view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Discussions</a> on the <code>iatf-website</code> repository."
     ]
   },
   "operatingCosts": {
