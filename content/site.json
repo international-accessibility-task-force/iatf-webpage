@@ -20,11 +20,11 @@
     "githubOrgUrl": "https://github.com/international-accessibility-task-force"
   },
   "projectStates": [
-    "Proposal",
-    "Accepted",
-    "Active",
-    "Stable",
-    "Seeking maintainer",
-    "Archived"
+    "proposal",
+    "accepted",
+    "active",
+    "stable",
+    "seeking-maintainer",
+    "archived"
   ]
 }

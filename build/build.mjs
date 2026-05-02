@@ -10,9 +10,52 @@ const defaultLang = site.defaultLanguage;
 const languages = await readJson(
   path.join(root, "content", "languages.json")
 );
-const projects = await readJson(
+const baseProjects = await readJson(
   path.join(root, "data", "projects.json")
 );
+let projects = baseProjects;
+
+const TRANSLATABLE_PROJECT_FIELDS = [
+  "title",
+  "summary",
+  "problem",
+  "why",
+  "scopeIn",
+  "scopeOut",
+  "languageNotes",
+  "primaryLanguage"
+];
+
+async function loadProjects(code) {
+  if (code === defaultLang) return baseProjects;
+  const overlayPath = path.join(root, "data", `projects.${code}.json`);
+  let overlay;
+  try {
+    overlay = await readJson(overlayPath);
+  } catch (error) {
+    if (error?.code === "ENOENT") return baseProjects;
+    throw error;
+  }
+  const overlayBySlug = Object.fromEntries(
+    overlay.map((entry) => [entry.slug, entry])
+  );
+  return baseProjects.map((project) => {
+    const entry = overlayBySlug[project.slug];
+    if (!entry) return project;
+    const merged = { ...project };
+    for (const field of TRANSLATABLE_PROJECT_FIELDS) {
+      if (Object.prototype.hasOwnProperty.call(entry, field)) {
+        merged[field] = entry[field];
+      }
+    }
+    return merged;
+  });
+}
+
+function localizeProjectStatus(status) {
+  if (!status) return "";
+  return strings[`project.status.${status}`] || status;
+}
 const languageCodes = Object.keys(languages);
 const enabledLanguages = languageCodes.filter((code) => languages[code]?.enabled);
 
@@ -97,6 +140,7 @@ for (const code of enabledLanguages) {
   lang = code;
   strings = await loadStrings(code);
   content = await loadContent(code);
+  projects = await loadProjects(code);
 
   const localeOutDir = getLocaleOutDir(code);
   await mkdir(localeOutDir, { recursive: true });
@@ -253,7 +297,7 @@ function renderTransparencyPage() {
 
 function renderProjectPage(project) {
   const meta = [
-    [strings["project.detail.field.status"] || "Status", project.status],
+    [strings["project.detail.field.status"] || "Status", localizeProjectStatus(project.status)],
     [
       strings["project.detail.field.maintainer"] || "Maintainer",
       project.maintainerUrl
@@ -579,7 +623,7 @@ function renderRegistry(emptyState, isHome) {
               <h3><a href="${escapeHtml(localizePathname(`/projects/${project.slug}/`))}">${escapeHtml(project.title)}</a></h3>
               <p>${escapeHtml(project.summary || "")}</p>
             </div>
-            <p>${escapeHtml(project.status || "")}</p>
+            <p>${escapeHtml(localizeProjectStatus(project.status))}</p>
             <p>${
               project.maintainerUrl
                 ? renderLink(project.maintainerUrl, project.maintainer || "")
