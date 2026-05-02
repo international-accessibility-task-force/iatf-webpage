@@ -9,7 +9,7 @@
   "scripts": {
     "build": "node build/build.mjs",
     "check": "npm run build",
-    "dev": "node --watch build/build.mjs",
+    "dev": "node --watch-path=build --watch-path=content --watch-path=data --watch-path=client --watch-path=assets build/build.mjs",
     "dev:worker": "wrangler dev",
     "deploy": "wrangler deploy"
   },
