@@ -35,7 +35,6 @@
   "actions.visitGithub": "Ir a GitHub",
   "actions.emailProjects": "Enviar correo al buzón de proyectos",
   "actions.joinDiscord": "Unirse a Discord",
-  "actions.viewTemplate": "Ver la plantilla de página de proyecto",
   "registry.empty.title": "Todavía no hay proyectos publicados",
   "registry.empty.body": "IATF está preparando su primer conjunto de proyectos públicos.",
   "registry.col.project": "Proyecto",

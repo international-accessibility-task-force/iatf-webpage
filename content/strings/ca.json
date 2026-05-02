@@ -35,7 +35,6 @@
   "actions.visitGithub": "Visita GitHub",
   "actions.emailProjects": "Correu de projectes",
   "actions.joinDiscord": "Uneix-te a Discord",
-  "actions.viewTemplate": "Veure la plantilla de pàgina de projecte",
   "registry.empty.title": "Encara no s'han publicat projectes",
   "registry.empty.body": "L'IATF està preparant el seu primer conjunt de projectes públics.",
   "registry.col.project": "Projecte",

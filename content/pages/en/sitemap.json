@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Sitemap",
+    "lead": "Every public page on iatf.cc, in one place."
+  },
+  "sections": [
+    {
+      "title": "Main pages",
+      "items": [
+        { "label": "Home", "href": "/" },
+        { "label": "Projects", "href": "/projects/" },
+        { "label": "Request a project", "href": "/propose/" },
+        { "label": "Governance", "href": "/governance/" },
+        { "label": "Join", "href": "/join/" },
+        { "label": "Accessibility", "href": "/accessibility/" },
+        { "label": "Transparency", "href": "/transparency/" }
+      ]
+    }
+  ],
+  "projectsTitle": "Projects",
+  "projectsEmpty": "No projects published yet."
+}
