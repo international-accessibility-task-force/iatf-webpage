@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "slug": "projects/template",
+    "currentPath": "/projects/template/",
+    "title": "Plantilla de detall del projecte",
+    "description": "Disseny de referència per a futures pàgines de detall de projectes de l'IATF."
+  },
+  "hero": {
+    "eyebrow": "Pàgina de referència",
+    "title": "Plantilla de detall del projecte",
+    "lead": "Aquesta ruta mostra l'estructura que han de seguir les futures pàgines de projectes públics.",
+    "support": [
+      "Aquest fitxer és una plantilla de còpia per a les pàgines /projects/[slug]."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "record": {
+    "header": {
+      "kicker": "Registre de plantilla",
+      "title": "[Nom del projecte]"
+    },
+    "summary": "Resum d'una línia del projecte.",
+    "meta": [
+      {
+        "label": "Estat",
+        "value": "Actiu"
+      },
+      {
+        "label": "Mantenedor",
+        "value": "[Nom]"
+      },
+      {
+        "label": "Sol·licitat per",
+        "value": "[Associació, grup o individu]"
+      },
+      {
+        "label": "Llicència",
+        "value": "AGPL-3.0"
+      },
+      {
+        "label": "Repositori",
+        "value": "[GitHub enllaç]"
+      },
+      {
+        "label": "Demo o llançament",
+        "value": "[Enllaç, si es disposa]"
+      },
+      {
+        "label": "Etiquetes",
+        "value": "[Web, Tooling, Prototip]"
+      },
+      {
+        "label": "Llengua principal",
+        "value": "Anglès"
+      },
+      {
+        "label": "Notes lingüístiques",
+        "value": "Font simple en anglès, les traduccions es poden afegir més tard"
+      },
+      {
+        "label": "Última actualització",
+        "value": "[Date]"
+      }
+    ]
+  },
+  "problemAndWhy": {
+    "problem": {
+      "title": "Quin problema resol aquest projecte",
+      "paragraphs": [
+        "Descriu el problema de l'accessibilitat en llenguatge senzill.",
+        "Explica qui està afectat, quin obstacle hi ha avui i per què el projecte és important.",
+        "Aquesta secció ha de ser comprensible per a un públic no enginyer."
+      ]
+    },
+    "why": {
+      "title": "Per què existeix aquest projecte",
+      "paragraphs": [
+        "Aquest projecte ha estat acceptat per l'IATF perquè aborda una necessitat concreta d'accessibilitat i pot ser construït útilment a l'aire lliure.",
+        "L'objectiu no és només crear una solució privada per a un cas, sinó publicar treballs que altres puguin inspeccionar, reutilitzar, millorar i aprendre."
+      ]
+    }
+  },
+  "scopeAndStatus": {
+    "scope": {
+      "title": "Abast",
+      "paragraphs": [
+        "Aquest projecte es centra actualment en el següent:"
+      ],
+      "in": [
+        "punt d'abast 1",
+        "punt d'abast 2",
+        "punt d'abast 3"
+      ],
+      "outTitle": "Fora d'abast per ara",
+      "out": [
+        "punt fora d'abast 1",
+        "punt fora d'abast 2"
+      ]
+    },
+    "status": {
+      "title": "Estat actual",
+      "paragraphs": [
+        "Resumeix l'estat actual del projecte. Per exemple:"
+      ],
+      "items": [
+        "configuració inicial del repositori",
+        "prototip en desenvolupament actiu",
+        "primer llançament estable disponible",
+        "cerca de contribuïdors o mantenidor a llarg termini",
+        "arxivat després d'arribar a un punt natural de tancament"
+      ]
+    }
+  },
+  "repositoryAndLanguage": {
+    "repository": {
+      "title": "Repositori i model de desenvolupament",
+      "paragraphs": [
+        "Aquest projecte es desenvolupa públicament en l'organització GitHub de l'IATF.",
+        "El repositori és la font principal de veritat per al codi, les incidències, les decisions, el full de ruta i l'historial de versions.",
+        "El mantenidor assignat té la responsabilitat a nivell de repositori, mentre que l'IATF conserva la propietat de l'organització de l'espai del projecte."
+      ]
+    },
+    "language": {
+      "title": "Notes de llengua i accessibilitat",
+      "paragraphs": [
+        "La descripció pública del projecte ha de mantenir-se clara i fàcil de comprendre.",
+        "Si s'afegeixen versions traduïdes més tard, la font simple en anglès ha de seguir sent la referència editorial principal, llevat que el projecte indiqui explícitament el contrari.",
+        "Si hi ha suport o canals de contacte específics per llengua, llista'ls aquí."
+      ]
+    }
+  },
+  "useAndValue": {
+    "use": {
+      "title": "Com utilitzar-lo o avaluar-lo",
+      "paragraphs": [
+        "Si el projecte ja té alguna cosa utilitzable, explica com provar-la. Per exemple:"
+      ],
+      "items": [
+        "visita la demo",
+        "clonar el repositori",
+        "llegir les instruccions d'instal·lació",
+        "prova contra un cas d'ús documentat",
+        "informar problemes a través de GitHub"
+      ]
+    },
+    "value": {
+      "title": "Accessibilitat i valor públic",
+      "paragraphs": [
+        "Explica com aquest projecte contribueix a l'accessibilitat en la pràctica. Alguns enfocaments possibles:"
+      ],
+      "items": [
+        "elimina una barrera concreta",
+        "crea una implementació oberta reutilitzable",
+        "dóna suport a associacions o grups comunitaris",
+        "proporciona base tècnica per a futurs treballs d'accessibilitat"
+      ]
+    }
+  },
+  "contributingAndContact": {
+    "contributing": {
+      "title": "Contribució",
+      "paragraphs": [
+        "Les contribucions són benvingudes, llevat que la pàgina del projecte indiqui expressament el contrari.",
+        "Consulta el README del repositori, les directrius de contribució i les incidències obertes abans de començar.",
+        "Si vols ajudar però no saps per on començar, obre una incidència o contacta amb el mantenidor a través del repositori."
+      ]
+    },
+    "contact": {
+      "title": "Contacte i enllaços",
+      "items": [
+        {
+          "label": "Repositori",
+          "href": "#"
+        },
+        {
+          "label": "Demo o llançament",
+          "href": "#"
+        },
+        {
+          "label": "Problemes",
+          "href": "#"
+        },
+        {
+          "label": "Mantenedor",
+          "href": "#"
+        }
+      ]
+    }
+  }
+}

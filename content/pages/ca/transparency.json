@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparència",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparència",
+    "lead": "L'IATF treballa en obert per defecte. Les decisions de projecte, els canvis de codi, els canvis de governança i els costos operatius es registren en espais públics. Aquesta pàgina explica on és cada tipus de registre i com consultar-lo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Registres",
+      "title": "On viuen els registres"
+    },
+    "items": [
+      "<strong>Decisions de projecte.</strong> Les decisions d'acceptació, arxivament i reassignació es registren com a incidències o versions al repositori corresponent, i se'n fa un resum al registre públic. Consulta el <a href=\"/projects/\">registre públic</a>.",
+      "<strong>Registres de sol·licituds.</strong> Els registres públics de sol·licituds s'emmagatzemen a l'organització de GitHub de l'IATF, en aquest lloc web, o en tots dos. Els registres poden resumir, redactar o reestructurar la sol·licitud original perquè la necessitat d'accessibilitat es pugui revisar sense exposar informació personal innecessària. Les decisions preses a Discord es resumeixen al registre públic quan afecten un projecte o una decisió de governança. Els registres de sol·licituds queden exclosos de la indexació dels cercadors quan és tècnicament viable.",
+      "<strong>Canvis de codi.</strong> Cada canvi de codi és un commit públic al repositori corresponent. Consulta l'<a href=\"{{contact.githubOrgUrl}}\">organització de GitHub</a> de l'IATF.",
+      "<strong>Canvis de governança.</strong> Les actualitzacions de la pàgina de governança queden registrades com a commits al repositori <code>iatf-website</code>. Consulta l'<a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">historial de commits</a> a GitHub.",
+      "<strong>Costos operatius.</strong> L'IATF manté baixos els costos operatius i registra les despeses recurrents d'infraestructura pública. Des del 2022, el cost recurrent principal han estat els dominis.",
+      "<strong>Notes de coordinació.</strong> Les notes de revisions coordinades o decisions es publiquen a GitHub Discussions del repositori corresponent. Consulta <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Discussions</a> al repositori <code>iatf-website</code>."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Costos",
+      "title": "Registre de costos operatius"
+    },
+    "paragraphs": [
+      "L'IATF manté la seva infraestructura pública intencionadament petita. Des del 2022, el cost operatiu recurrent principal han estat els dominis.",
+      "Aquest registre no és un informe financer auditat. És un registre públic de costos operatius de la infraestructura que manté l'IATF en línia."
+    ],
+    "footnote": "Es poden referenciar o publicar rebuts després de la redacció de dades sensibles.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domini",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Cost",
+            "value": "3,40 USD"
+          },
+          {
+            "label": "Notes",
+            "value": "Cost del domini finançat per mugiwarafx. L'allotjament va utilitzar infraestructura gratuïta o de baix cost a Cloudflare. El projecte es va moure de Vercel a Cloudflare i va començar a utilitzar el domini curt <code>iatf.cc</code>."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domini",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Cost",
+            "value": "18,68 USD"
+          },
+          {
+            "label": "Notes",
+            "value": "Cost del domini finançat per mugiwarafx. L'allotjament utilitza infraestructura gratuïta o de baix cost."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domini",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Cost",
+            "value": "17,06 USD"
+          },
+          {
+            "label": "Notes",
+            "value": "Cost del domini finançat per mugiwarafx. L'allotjament utilitza infraestructura gratuïta o de baix cost a través de Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domini",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Cost",
+            "value": "14,76 USD"
+          },
+          {
+            "label": "Notes",
+            "value": "Cost del domini finançat per mugiwarafx. L'allotjament utilitza infraestructura gratuïta o de baix cost."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domini",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Cost",
+            "value": "7,76 USD"
+          },
+          {
+            "label": "Notes",
+            "value": "Cost del domini finançat per mugiwarafx. L'allotjament utilitza infraestructura gratuïta o de baix cost a través de GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota de límits",
+      "title": "Què no és públic"
+    },
+    "paragraphs": [
+      "Alguns materials es mantenen fora dels registres públics de manera intencional:"
+    ],
+    "items": [
+      "Detalls personals de contacte dels proponents.",
+      "Correspondència privada utilitzada només per aclarir una sol·licitud abans que sigui acceptada, rebutjada o resumida.",
+      "Direccions privades, números de telèfon i dades personals innecessàries.",
+      "Qualsevol informació que identifiqui una persona usuària de tecnologia assistiva sense consentiment.",
+      "Converses en brut de Discord, tret que un missatge concret es traslladi intencionadament a un registre públic de projecte."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Llegeix més",
+      "title": "La governança és el llibre de regles darrere d'aquests registres"
+    },
+    "paragraphs": [
+      "Si vols entendre com s'accepten, s'arxiven o es reassignen projectes, llegeix la pàgina de governança."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

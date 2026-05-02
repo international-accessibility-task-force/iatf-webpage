@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governança i model de repositori",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governança i model de repositori",
+    "lead": "L'IATF manté els projectes d'accessibilitat públics, clars i mantenibles.",
+    "support": [
+      "Aquesta pàgina explica quins projectes compleixen els criteris, com es gestionen els repositoris i quina responsabilitat de repositori s'aplica després de l'acceptació."
+    ],
+    "actions": [
+      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "primary" },
+      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "secondary" }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regles",
+      "title": "Alineació amb la missió, propietat i llicència"
+    },
+    "cards": [
+      {
+        "title": "Alineació amb la missió",
+        "paragraphs": [
+          "L'IATF accepta treball que abordi una barrera real d'accessibilitat i tingui un valor públic clar.",
+          "Un projecte ha de ser útil més enllà d'un únic flux de treball privat i ha de poder mantenir-se com a repositori públic.",
+          "Referències d'accessibilitat: [W3C WAI](https://www.w3.org/WAI/) i l'experiència de persones usuàries de tecnologies de suport."
+        ]
+      },
+      {
+        "title": "Acceptació del projecte",
+        "paragraphs": [
+          "Una proposta pot ser acceptada quan la revisió mostra que:"
+        ],
+        "items": [
+          "aborda una necessitat real d'accessibilitat",
+          "el problema és prou clar per poder-lo avaluar",
+          "l'abast és prou realista per iniciar el projecte",
+          "el treball s'alinea amb la missió de l'IATF",
+          "hi ha un camí plausible cap al manteniment o la finalització"
+        ]
+      },
+      {
+        "title": "Propietat del repositori",
+        "paragraphs": [
+          "Els projectes acceptats es creen sota l'organització de GitHub de l'IATF.",
+          "Els repositoris s'hi mantenen perquè cada projecte tingui una llar pública estable, encara que els mantenidors canviïn més endavant."
+        ]
+      },
+      {
+        "title": "Llicències",
+        "paragraphs": [
+          "Els projectes de l'IATF utilitzen llicències copyleft, tret que un projecte indiqui el contrari:"
+        ],
+        "items": [
+          "<strong>Codi:</strong> AGPL-3.0",
+          "<strong>Documentació:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Enginyer o mantenidor responsable",
+      "paragraphs": [
+        "Cada projecte acceptat ha de tenir una persona responsable designada (enginyer o mantenidor). Aquesta persona pot rebre accés d'administració al repositori i s'espera que:"
+      ],
+      "items": [
+        "guiï el desenvolupament en obert",
+        "mantingui l'estructura del repositori",
+        "revisi o gestioni incidències i sol·licituds de canvi",
+        "documenti les decisions tècniques importants",
+        "mantingui el projecte comprensible per a la resta"
+      ],
+      "footnote": "Aquesta és una responsabilitat de repositori. La propietat organitzativa continua sent de l'IATF. La responsabilitat aquí és la tutela del repositori, la direcció tècnica i la coordinació pública, no pas lliuraments privats il·limitats, integracions a mida ni compromisos de nivell de servei fora del full de ruta públic."
+    },
+    "publicDevelopment": {
+      "title": "Desenvolupament en obert",
+      "paragraphs": [
+        "Els projectes impulsats a través de l'IATF es desenvolupen en obert per defecte. El repositori és la font pública de veritat per a:"
+      ],
+      "items": [
+        "codi font",
+        "incidències",
+        "documentació",
+        "notes del full de ruta",
+        "historial de versions"
+      ],
+      "footnote": "El coneixement important del projecte no ha de viure només en xats privats o bústies personals."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registres públics",
+      "title": "Registres públics de sol·licituds"
+    },
+    "paragraphs": [
+      "L'IATF treballa en obert per defecte. Les sol·licituds que arriben a l'IATF a través del web, correu electrònic, Discord, GitHub o altres canals poden convertir-se en registres públics.",
+      "Un registre públic de sol·licitud no és necessàriament el missatge original. L'IATF pot resumir, redactar o reestructurar una sol·licitud abans de publicar-la perquè la necessitat d'accessibilitat es pugui revisar sense exposar informació personal innecessària.",
+      "Els registres públics de sol·licituds es poden emmagatzemar a l'organització de GitHub de l'IATF, en aquest lloc web, o en tots dos.",
+      "Abans de publicar, l'IATF elimina dades de contacte personals innecessàries, adreces privades i dades identificatives sobre persones usuàries de tecnologies assistives, tret que la publicació sigui clarament intencionada i adequada.",
+      "Discord s'utilitza per a coordinació informal. L'IATF no arxiva separadament les converses de Discord per defecte, i la retenció de missatges depèn de Discord. Les decisions preses a Discord s'han de resumir al registre públic de GitHub o a la pàgina del projecte corresponent.",
+      "Els registres de sol·licituds queden exclosos de la indexació dels cercadors quan és tècnicament viable.",
+      "L'IATF pot actualitzar o eliminar registres de superfícies públiques sota control de l'IATF, però no pot garantir-ne l'eliminació de memòries cau de tercers, notificacions, forks, captures de pantalla, cercadors, Discord o altres sistemes externs.",
+      "Si un missatge ha de romandre privat, no l'enviïs a través dels canals públics de l'IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rol organitzatiu",
+      "title": "Presidència"
+    },
+    "lead": "La presidència exerceix la tutela a nivell d'organització de l'IATF. Això és diferent del rol d'enginyer responsable de cada projecte: la presidència respon per l'organització en conjunt, no per la direcció diària d'un únic repositori.",
+    "duties": {
+      "title": "Funcions de la presidència",
+      "items": [
+        "Té permisos de propietari a l'organització de GitHub de l'IATF",
+        "Dona conformitat a l'acceptació de projectes i a les decisions d'arxivament",
+        "Actua com a punt de contacte públic de l'IATF",
+        "Coordina l'elecció anual"
+      ],
+      "footnote": "La presidència no compromet l'IATF a lliuraments privats, feina remunerada ni acords de nivell de servei, i no anul·la les decisions tècniques dels mantenidors de cada repositori."
+    },
+    "election": {
+      "title": "Elecció anual",
+      "paragraphs": [
+        "L'elecció es fa durant les dues primeres setmanes de desembre, els resultats s'anuncien el 15 de desembre i el nou mandat comença l'1 de gener.",
+        "Poden votar les persones que han tingut un rol de manteniment en algun repositori de l'IATF durant l'any i han fet almenys una contribució fusionada en aquell mateix any. Cada persona elegible té un vot. Guanya la candidatura amb més vots; en cas d'empat, es fa una segona volta durant la tercera setmana de desembre.",
+        "L'elecció es fa com una discussió pública de GitHub al repositori de governança designat de l'IATF, de manera que candidatures, votació i resultat formen part del registre públic."
+      ]
+    },
+    "continuity": {
+      "title": "Continuïtat",
+      "paragraphs": [
+        "Si no se celebra cap elecció en un any determinat, la presidència actual continua en el càrrec fins a les següents eleccions. És una continuïtat indefinida, no un període de gràcia: el model està pensat per mantenir l'estabilitat quan l'activitat és baixa, no per forçar transicions.",
+        "La presidència pot dimitir en qualsevol moment. Els mantenidors actius també poden convocar una elecció extraordinària amb una justificació explícita, sota les mateixes regles que l'elecció anual."
+      ]
+    },
+    "current": {
+      "title": "Presidència actual",
+      "fields": [
+        { "label": "President", "value": "mugiwarafx", "href": "https://github.com/mugiwarafx" },
+        { "label": "Mandat", "value": "Fins a l'elecció de desembre de 2026" },
+        { "label": "Rol formalitzat", "value": "2026" },
+        { "label": "Primera elecció programada", "value": "Desembre de 2026" }
+      ]
+    },
+    "footnote": "El càrrec de presidència es va formalitzar el 2026 per fer explícita la tutela a nivell d'organització."
+  },
+  "continuity": {
+    "states": {
+      "title": "Estats del projecte",
+      "paragraphs": [
+        "Els projectes utilitzen un conjunt petit d'estats públics:"
+      ],
+      "items": ["Proposta", "Acceptat", "Actiu", "Estable", "Cerca de mantenidor", "Arxivat"],
+      "footnote": "Aquests estats fan que el registre sigui fàcil d'escanejar."
+    },
+    "reassignment": {
+      "title": "Reassignació i arxivament",
+      "paragraphs": [
+        "Si un mantenidor es retira o esdevé inactiu, l'IATF pot reassignar la responsabilitat, pausar el desenvolupament o arxivar el projecte.",
+        "Un projecte també es pot arxivar quan la necessitat original ja s'ha cobert, el manteniment s'ha aturat o continuar el treball ja no és realista."
+      ],
+      "footnote": "Els projectes arxivats continuen sent públicament visibles, tret que hi hagi una raó de pes per fer el contrari."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota de límits",
+      "title": "Què no garanteix l'IATF"
+    },
+    "items": [
+      "lliurament privat a clients",
+      "acords de nivell de servei",
+      "acceptació de totes les propostes",
+      "manteniment a llarg termini de tots els projectes"
+    ],
+    "footnote": "L'IATF és un model de repositori públic, no un servei de lliurament privat."
+  }
+}

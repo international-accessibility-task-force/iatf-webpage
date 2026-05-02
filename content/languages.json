@@ -30,7 +30,7 @@
     "emailAlias": "ca",
     "discordSlug": "ca",
     "displayLabel": "Català",
-    "enabled": false,
+    "enabled": true,
     "translation": {
       "status": "machine-assisted",
       "method": "nllb",

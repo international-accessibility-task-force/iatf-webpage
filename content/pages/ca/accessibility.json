@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilitat",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilitat",
+    "lead": "L'IATF té com a objectiu mantenir aquest lloc web simple, llegible, accessible amb teclat i compatible amb les tecnologies assistives.",
+    "support": [
+      "Referències d'accessibilitat: [W3C WAI](https://www.w3.org/WAI/) i l'experiència de persones usuàries de tecnologies de suport."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Informes",
+      "title": "Reportar un problema d'accessibilitat"
+    },
+    "paragraphs": [
+      "Si trobes una barrera d'accessibilitat en aquest lloc web, informa'n per correu electrònic:",
+      "{{contact.accessibilityEmail}}",
+      "Entre els informes útils hi ha:"
+    ],
+    "items": [
+      "la pàgina on es va produir el problema",
+      "el que estàs intentant fer",
+      "quina tecnologia assistiva, navegador o dispositiu utilitzaves, si escau",
+      "el que va anar mal",
+      "el que hauria ajudat"
+    ],
+    "footnote": "No cal escriure un informe formal de bugs. Una descripció clara és suficient."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipulació",
+      "title": "Gestió pública de les incidències"
+    },
+    "paragraphs": [
+      "Les incidències d'accessibilitat es poden resumir al repositori públic corresponent perquè es puguin corregir en obert. Abans de publicar, s'eliminen les dades de contacte personals i la informació privada innecessària.",
+      "Si el teu informe inclou informació privada, indica-ho clarament al missatge."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Estat actual",
+      "title": "Limitacions conegudes"
+    },
+    "paragraphs": [
+      "Aquest lloc web és intencionadament petit i principalment estàtic. Algunes versions lingüístiques poden ser incompletes mentre es preparen les traduccions."
+    ]
+  }
+}

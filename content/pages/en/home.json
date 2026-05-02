@@ -23,7 +23,7 @@
       "title": "A simple public path for accessible software"
     },
     "paragraphs": [
-      "A real accessibility need is reviewed, and, if accepted, becomes a public GitHub repository under IATF stewardship.",
+      "Through a form, anyone can submit an accessibility problem to IATF. If the team can take it on, a public GitHub repository is opened for the work.",
       "Each accepted project has a clear public home for code, issues, documentation, and releases, with development led in the open by a responsible engineer."
     ],
     "specCard": {

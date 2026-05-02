@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projectes d'accessibilitat pública",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projectes públics d'accessibilitat",
+    "lead": "Aquest registre recull els projectes públics mantinguts a través de l'IATF. Els projectes d'accessibilitat acceptats, la infraestructura del lloc i els prototips arxivats hi són visibles.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registre",
+      "title": "Registre actual"
+    },
+    "intro": [
+      "Els projectes acceptats s'enumeren aquí una vegada que s'hagin publicat."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Compartir una necessitat",
+      "title": "Converteix una necessitat concreta d'accessibilitat en un projecte públic"
+    },
+    "paragraphs": [
+      "L'IATF revisa necessitats concretes d'accessibilitat que es puguin convertir en treball útil de codi obert."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Encara no s'han publicat projectes",
+    "paragraphs": [
+      "L'IATF està preparant el seu primer conjunt de projectes públics.",
+      "Encara pots enviar una sol·licitud si tens una necessitat concreta d'accessibilitat."
+    ]
+  }
+}

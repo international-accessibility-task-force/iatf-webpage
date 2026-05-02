@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Des de la necessitat d'accessibilitat fins a publicar el projecte",
+    "lead": "IATF ajuda associacions, grups i persones a convertir les necessitats reals d'accessibilitat en projectes públics de codi obert.",
+    "support": [
+      "Els projectes acceptats són publicats a l'organització GitHub de l'IATF sota una llicència copyleft i desenvolupats públicament per un enginyer responsable."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Model operatiu",
+      "title": "Un camí simple per al programari accessible"
+    },
+    "paragraphs": [
+      "A través d’un formulari, es pot presentar un problema d’accessibilitat a l’IATF. Si l’equip el pot assumir, s’obre un repositori públic de GitHub per treballar-hi.",
+      "Cada projecte acceptat té un espai públic per al codi, les incidències, la documentació i les versions, amb el desenvolupament dirigit en obert per un enginyer responsable."
+    ],
+    "specCard": {
+      "title": "Model operatiu",
+      "terms": [
+        {
+          "term": "Necessitat",
+          "definition": "Problemes d'accessibilitat"
+        },
+        {
+          "term": "Revisió",
+          "definition": "Adaptació a la missió i viabilitat pràctica"
+        },
+        {
+          "term": "Espai del projecte",
+          "definition": "Repositori públic de GitHub"
+        },
+        {
+          "term": "Tutela",
+          "definition": "Repositoris sota l'organització de l´IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Procés",
+      "title": "Com funciona",
+      "intro": "El model es manté intencionadament petit per tal que el camí sigui fàcil de seguir."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Es presenta una necessitat",
+        "paragraphs": [
+          "Una associació, un grup o una persona pot presentar una necessitat real d'accessibilitat.",
+          "Les necessitats poden començar a través del lloc web, per correu electrònic a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o a través de Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF l'examina",
+        "paragraphs": [
+          "Revisem l'ajust a la missió, l'àmbit pràctic i si el treball pertany a un projecte de codi obert públic."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Es crea un repositori públic",
+        "paragraphs": [
+          "Si un projecte és acceptat, es publica a l'organització GitHub de l'IATF sota una llicència copyleft.",
+          "El repositori es converteix en l'espai públic del codi, les incidències, la documentació i les publicacions."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un enginyer responsable dirigeix el projecte",
+        "paragraphs": [
+          "Un enginyer responsable és assignat al repositori del projecte i el desenvolupament es produeix en obert."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registre",
+      "title": "Registre públic de projectes"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Comença aquí.",
+      "title": "Descobreix els projectes actuals o comença un nou projecte"
+    },
+    "paragraphs": [
+      "Utilitza el registre per veure altres projectes, o escriu una sol·licitud per transformar un problema d'accessibilitat en un projecte."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
