@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "No s'ha trobat"
+  },
+  "hero": {
+    "eyebrow": "No s'ha trobat",
+    "title": "La pàgina sol·licitada no es va trobar",
+    "lead": "Utilitzeu les principals rutes a continuació per tornar al lloc públic.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Casa",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "La ruta que ha demanat no existeix."
+    ],
+    "items": [
+      {
+        "label": "Casa",
+        "href": "/"
+      },
+      {
+        "label": "Projectes",
+        "href": "/projects/"
+      },
+      {
+        "label": "Unir-se",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilitat",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governança",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparència",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Unir-se a l'IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Unir-se a l'IATF",
+    "lead": "L'adhesió és oberta. Hi ha diverses maneres de participar, ja sigui que es basa en la tecnologia d'assistència, construir un programari accessible, traduir, provar o mantenir un projecte. Les discussions i les decisions ocorren públicament en GitHub i Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Roles",
+      "title": "Les maneres de contribuir"
+    },
+    "items": [
+      "<strong>Demana un projecte.</strong> Si trobes una barrera d'accessibilitat que podria ser abordada per un programari de codi obert públic, envia-la a través de la entrada de la sol·licitud.",
+      "<strong>Test i revisió.</strong> Proveu projectes IATF amb la tecnologia d'assistència que utilitzeu, informeu què funciona i què no, i arxiu els problemes directament en el repositori pertinent.",
+      "<strong>Traduir.</strong> El contingut de la font es publica primer en anglès pla. Les traduccions s'afegeixen a mesura que els contribuents estan disponibles, començant pel castellà.",
+      "<strong>Construir.</strong> Recuperar problemes en qualsevol repositori de l'IATF, enviar sol·licituds de pujar, o assumir un projecte com a seu enginyer responsable.",
+      "<strong>Mantingueu-ho.</strong> Els projectes existents a vegades necessiten un nou mantenidor. La rotació de mantenidors és una part normal del model, no una excepció."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canals",
+      "title": "On l'IATF treballa en públic"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problemes, sol·licituds de retirada, publicacions i registres de projectes.",
+      "<strong>Discord.</strong> Discussió en viu, coordinació i preguntes informals.",
+      "<strong>E-mail.</strong> Utilització <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si ni GitHub ni Discord encaixen."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "El següent pas",
+      "title": "Seleccioneu el canal que correspon amb la manera en què voleu contribuir"
+    },
+    "paragraphs": [
+      "Tots els canals s'alimenten en la mateixa revisió pública i en els mateixos repositorios públics."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
