@@ -70,7 +70,7 @@ const routes = [
   { slug: "join", render: () => renderJoinPage() },
   { slug: "accessibility", render: () => renderAccessibilityPage() },
   { slug: "transparency", render: () => renderTransparencyPage() },
-  { slug: "projects/template", render: () => renderProjectTemplatePage() }
+  { slug: "sitemap", render: () => renderSitemapPage() }
 ];
 
 await rm(outDir, { recursive: true, force: true });
@@ -251,28 +251,6 @@ function renderTransparencyPage() {
   });
 }
 
-function renderProjectTemplatePage() {
-  const c = content.template;
-  return renderDocument({
-    pageData: c,
-    body: `
-      ${renderHero(c.hero)}
-      ${renderTemplateRecord(c.record)}
-      ${renderTwoPanelSection(
-        c.problemAndWhy.problem,
-        c.problemAndWhy.why
-      )}
-      ${renderScopeAndStatus(c.scopeAndStatus)}
-      ${renderTwoPanelSection(
-        c.repositoryAndLanguage.repository,
-        c.repositoryAndLanguage.language
-      )}
-      ${renderTwoPanelSection(c.useAndValue.use, c.useAndValue.value)}
-      ${renderContributingAndContact(c.contributingAndContact)}
-    `
-  });
-}
-
 function renderProjectPage(project) {
   const meta = [
     [strings["project.detail.field.status"] || "Status", project.status],
@@ -406,6 +384,55 @@ function renderProjectPage(project) {
   });
 }
 
+function renderSitemapPage() {
+  const c = content.sitemap;
+  const projectItems = projects.map((project) => ({
+    label: project.title,
+    href: `/projects/${project.slug}/`
+  }));
+  const projectsSection = projectItems.length
+    ? {
+        title: c.projectsTitle || "Projects",
+        items: projectItems
+      }
+    : {
+        title: c.projectsTitle || "Projects",
+        emptyMessage: c.projectsEmpty || "No projects published yet."
+      };
+  const sections = [...(c.sections || []), projectsSection];
+  return renderDocument({
+    pageData: c,
+    body: `
+      ${renderHero(c.hero)}
+      ${renderSitemapSections(sections)}
+    `
+  });
+}
+
+function renderSitemapSections(sections) {
+  return sections
+    .map(
+      (section, index) => `
+        <section class="section" aria-labelledby="sitemap-section-${index}">
+          <header class="section-header">
+            <h2 id="sitemap-section-${index}">${escapeHtml(section.title)}</h2>
+          </header>
+          ${
+            section.items?.length
+              ? `<ul class="link-list">${section.items
+                  .map(
+                    (item) =>
+                      `<li><a href="${escapeHtml(localizeHref(item.href))}">${escapeHtml(item.label)}</a></li>`
+                  )
+                  .join("")}</ul>`
+              : `<p class="note">${escapeHtml(section.emptyMessage || "")}</p>`
+          }
+        </section>
+      `
+    )
+    .join("");
+}
+
 function renderNotFoundPage() {
   const c = content.notFound;
   return renderDocument({
@@ -483,48 +510,6 @@ function renderProcessSection(process) {
           )
           .join("")}
       </ol>
-    </section>
-  `;
-}
-
-function renderScopeSection(scope) {
-  return `
-    <section class="section" aria-labelledby="home-scope-heading">
-      ${renderSectionHeader(scope.header, "home-scope-heading")}
-      <div class="split">
-        <article class="panel">
-          ${renderParagraphs(scope.paragraphs)}
-        </article>
-        <article class="panel">
-          <h3>${escapeHtml(scope.examplesTitle)}</h3>
-          ${renderList(scope.examples, "doc-list")}
-        </article>
-      </div>
-    </section>
-  `;
-}
-
-function renderEditorialSection(editorial) {
-  return `
-    <section class="section" aria-labelledby="home-editorial-heading">
-      ${renderSectionHeader(editorial.header, "home-editorial-heading")}
-      <div class="split">
-        <article class="panel">
-          ${renderParagraphs(editorial.translation)}
-        </article>
-        <article class="panel">
-          <h3>${escapeHtml(editorial.channelsTitle)}</h3>
-          <p>${expand(editorial.channelsLead)}</p>
-          <ul class="link-list">
-            ${editorial.channels
-              .map(
-                (channel) =>
-                  `<li><strong>${escapeHtml(channel.label)}:</strong> ${expand(channel.body)}</li>`
-              )
-              .join("")}
-          </ul>
-        </article>
-      </div>
     </section>
   `;
 }
@@ -614,56 +599,6 @@ function renderRegistry(emptyState, isHome) {
         )
         .join("")}
     </div>
-  `;
-}
-
-function renderFiltersSection(filters) {
-  return `
-    <section class="section" aria-labelledby="projects-filters-heading">
-      ${renderSectionHeader(filters.header, "projects-filters-heading")}
-      <div class="split">
-        <article class="panel">
-          <h3>${escapeHtml(filters.main.title)}</h3>
-          ${renderList(filters.main.items, "token-list")}
-        </article>
-        <article class="panel">
-          <h3>${escapeHtml(filters.categories.title)}</h3>
-          ${renderList(filters.categories.items, "token-list")}
-          ${filters.categories.note ? `<p class="note">${expand(filters.categories.note)}</p>` : ""}
-        </article>
-      </div>
-    </section>
-  `;
-}
-
-function renderRegistryStructureSection(structure) {
-  const specimen = structure.specimen;
-  return `
-    <section class="section" aria-labelledby="projects-structure-heading">
-      ${renderSectionHeader(structure.header, "projects-structure-heading")}
-      <div class="split">
-        <article class="panel">
-          <h3>${escapeHtml(structure.fieldsTitle)}</h3>
-          ${renderList(structure.fields, "doc-list")}
-        </article>
-        <article class="panel">
-          <h3>${escapeHtml(structure.specimenTitle)}</h3>
-          <article class="registry-card registry-card--specimen">
-            <h4>${escapeHtml(specimen.title)}</h4>
-            <p>${expand(specimen.summary)}</p>
-            <ul class="meta-list">
-              ${specimen.meta
-                .map(
-                  (item) =>
-                    `<li><strong>${escapeHtml(item.label)}:</strong> ${escapeHtml(item.value)}</li>`
-                )
-                .join("")}
-            </ul>
-            <p>${renderLink(specimen.templateLink.href, specimen.templateLink.label)}</p>
-          </article>
-        </article>
-      </div>
-    </section>
   `;
 }
 
@@ -960,83 +895,6 @@ function renderClosingSection(closing) {
   `;
 }
 
-function renderPublicAndGovernance(block) {
-  return `
-    <section class="section">
-      <div class="split">
-        <article class="panel">
-          <h2>${escapeHtml(block.publicTitle)}</h2>
-          ${renderParagraphs(block.publicParagraphs)}
-        </article>
-        <article class="panel">
-          <h2>${escapeHtml(block.governanceTitle)}</h2>
-          ${renderParagraphs(block.governanceParagraphs)}
-          <div class="cluster">
-            ${renderAction(block.governanceAction)}
-          </div>
-        </article>
-      </div>
-    </section>
-  `;
-}
-
-function renderTemplateRecord(record) {
-  return `
-    <section class="section" aria-labelledby="template-record-heading">
-      ${renderSectionHeader(record.header, "template-record-heading")}
-      <div class="detail-record">
-        <p class="detail-record__summary">${expand(record.summary)}</p>
-        <dl class="detail-record__meta">
-          ${record.meta
-            .map(
-              (item) =>
-                `<div><dt>${escapeHtml(item.label)}</dt><dd>${expand(item.value)}</dd></div>`
-            )
-            .join("")}
-        </dl>
-      </div>
-    </section>
-  `;
-}
-
-function renderScopeAndStatus(block) {
-  return `
-    <section class="section">
-      <div class="split">
-        <article class="panel">
-          <h2>${escapeHtml(block.scope.title)}</h2>
-          ${renderParagraphs(block.scope.paragraphs)}
-          ${renderList(block.scope.in, "doc-list")}
-          <h3>${escapeHtml(block.scope.outTitle)}</h3>
-          ${renderList(block.scope.out, "doc-list")}
-        </article>
-        <article class="panel">
-          <h2>${escapeHtml(block.status.title)}</h2>
-          ${renderParagraphs(block.status.paragraphs)}
-          ${renderList(block.status.items, "doc-list")}
-        </article>
-      </div>
-    </section>
-  `;
-}
-
-function renderContributingAndContact(block) {
-  return `
-    <section class="section">
-      <div class="split">
-        <article class="panel">
-          <h2>${escapeHtml(block.contributing.title)}</h2>
-          ${renderParagraphs(block.contributing.paragraphs)}
-        </article>
-        <article class="panel">
-          <h2>${escapeHtml(block.contact.title)}</h2>
-          ${renderLinkList(block.contact.items)}
-        </article>
-      </div>
-    </section>
-  `;
-}
-
 // ── Layout shell ────────────────────────────────────────────────────────────
 
 function renderFooterMeta() {
@@ -1134,6 +992,8 @@ function renderDocument({ pageData, body, documentTitle, description }) {
           <a href="${escapeHtml(localizePathname("/accessibility/"))}">${escapeHtml(strings["footer.accessibility"] || "Accessibility")}</a>
           <span aria-hidden="true">·</span>
           <a href="${escapeHtml(localizePathname("/transparency/"))}">${escapeHtml(strings["nav.transparency"])}</a>
+          <span aria-hidden="true">·</span>
+          <a href="${escapeHtml(localizePathname("/sitemap/"))}">${escapeHtml(strings["footer.sitemap"] || "Sitemap")}</a>
           <span aria-hidden="true">·</span>
           <span>${escapeHtml(strings["footer.licenseContent"] || "Content CC BY-SA 4.0")}</span>
           <span aria-hidden="true">·</span>
@@ -1411,12 +1271,12 @@ function renderSitemap() {
   const baseUrls = [
     "/",
     "/projects/",
-    "/projects/template/",
     "/propose/",
     "/governance/",
     "/join/",
     "/accessibility/",
     "/transparency/",
+    "/sitemap/",
     ...projects.map((project) => `/projects/${project.slug}/`)
   ];
   const urls = indexableLanguages.flatMap((code) =>
@@ -1473,13 +1333,13 @@ async function loadContent(code) {
     join: await readJsonWithFallback(path.join(contentDir, "join.json"), path.join(defaultDir, "join.json")),
     accessibility: await readJsonWithFallback(path.join(contentDir, "accessibility.json"), path.join(defaultDir, "accessibility.json")),
     transparency: await readJsonWithFallback(path.join(contentDir, "transparency.json"), path.join(defaultDir, "transparency.json")),
-    template: await readJsonWithFallback(
-      path.join(contentDir, "project-template.json"),
-      path.join(defaultDir, "project-template.json")
-    ),
     notFound: await readJsonWithFallback(
       path.join(contentDir, "not-found.json"),
       path.join(defaultDir, "not-found.json")
+    ),
+    sitemap: await readJsonWithFallback(
+      path.join(contentDir, "sitemap.json"),
+      path.join(defaultDir, "sitemap.json")
     )
   };
 }
