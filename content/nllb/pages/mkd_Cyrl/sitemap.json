@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Карта на сајтот"
+  },
+  "hero": {
+    "eyebrow": "Индексот",
+    "title": "Карта на сајтот",
+    "lead": "Секоја јавна страница на IATF.CC, на едно место."
+  },
+  "sections": [
+    {
+      "title": "Главни страници",
+      "items": [
+        {
+          "label": "Домот",
+          "href": "/"
+        },
+        {
+          "label": "Проекти",
+          "href": "/projects/"
+        },
+        {
+          "label": "Барај проект",
+          "href": "/propose/"
+        },
+        {
+          "label": "Управување",
+          "href": "/governance/"
+        },
+        {
+          "label": "Приклучи се.",
+          "href": "/join/"
+        },
+        {
+          "label": "Пристапност",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Транспарентност",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Проекти",
+  "projectsEmpty": "Сеуште нема објавени проекти."
+}

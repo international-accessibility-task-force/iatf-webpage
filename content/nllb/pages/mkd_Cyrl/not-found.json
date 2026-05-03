@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Не е пронајден"
+  },
+  "hero": {
+    "eyebrow": "Не е пронајден",
+    "title": "Бараната страница не е пронајдена",
+    "lead": "Користете ги главните патишта подолу за да се вратите на јавното место.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Домот",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Рутата што ја баравте не постои."
+    ],
+    "items": [
+      {
+        "label": "Домот",
+        "href": "/"
+      },
+      {
+        "label": "Проекти",
+        "href": "/projects/"
+      },
+      {
+        "label": "Приклучи се.",
+        "href": "/join/"
+      },
+      {
+        "label": "Пристапност",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Управување",
+        "href": "/governance/"
+      },
+      {
+        "label": "Транспарентност",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

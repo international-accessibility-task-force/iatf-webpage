@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Проекти за пристапност на јавноста",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Проекти за пристапност на јавноста",
+    "lead": "Прифатените проекти за пристапност, инфраструктурата на локацијата и архивираните прототипи се чуваат видливи тука.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Регистар",
+      "title": "Тековниот регистар"
+    },
+    "intro": [
+      "Прифатените проекти се наведени тука откако ќе бидат објавени."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Поднесете ја вашата потреба.",
+      "title": "Превртете ја конкретната потреба за пристапност во јавен проект"
+    },
+    "paragraphs": [
+      "IATF ги разгледува конкретните потреби за пристапност кои можат да се претворат во корисна јавна работа со отворен извор."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Сеуште нема објавени проекти",
+    "paragraphs": [
+      "IATF го подготвува својот прв јавен проект.",
+      "Сепак можете да испратите барање ако имате конкретна потреба за пристапност."
+    ]
+  }
+}
