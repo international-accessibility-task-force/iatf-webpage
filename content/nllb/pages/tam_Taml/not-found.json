@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "காணப்படவில்லை"
+  },
+  "hero": {
+    "eyebrow": "காணப்படவில்லை",
+    "title": "கோரப்பட்ட பக்கம் காணப்படவில்லை",
+    "lead": "பொது இடத்திற்கு திரும்புவதற்கு கீழே உள்ள பிரதான பாதைகளைப் பயன்படுத்தவும்.",
+    "support": [],
+    "actions": [
+      {
+        "label": "வீடு",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "நீங்கள் கோரிய பாதை இல்லை."
+    ],
+    "items": [
+      {
+        "label": "வீடு",
+        "href": "/"
+      },
+      {
+        "label": "திட்டங்கள்",
+        "href": "/projects/"
+      },
+      {
+        "label": "சேரவும்",
+        "href": "/join/"
+      },
+      {
+        "label": "அணுகல்",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ஆளுகை",
+        "href": "/governance/"
+      },
+      {
+        "label": "வெளிப்படைத்தன்மை",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

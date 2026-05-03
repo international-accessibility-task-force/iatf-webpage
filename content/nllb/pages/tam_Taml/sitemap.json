@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "தள வரைபடம்"
+  },
+  "hero": {
+    "eyebrow": "குறியீடு",
+    "title": "தள வரைபடம்",
+    "lead": "IATF. C. C இல் உள்ள அனைத்து பொது பக்கங்களும், ஒரே இடத்தில்."
+  },
+  "sections": [
+    {
+      "title": "முதன்மை பக்கங்கள்",
+      "items": [
+        {
+          "label": "வீடு",
+          "href": "/"
+        },
+        {
+          "label": "திட்டங்கள்",
+          "href": "/projects/"
+        },
+        {
+          "label": "ஒரு திட்டத்தை கோருங்கள்",
+          "href": "/propose/"
+        },
+        {
+          "label": "ஆளுகை",
+          "href": "/governance/"
+        },
+        {
+          "label": "சேரவும்",
+          "href": "/join/"
+        },
+        {
+          "label": "அணுகல்",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "வெளிப்படைத்தன்மை",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "திட்டங்கள்",
+  "projectsEmpty": "இதுவரை வெளியிடப்பட்ட திட்டங்கள் இல்லை."
+}
