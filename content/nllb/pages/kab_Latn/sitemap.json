@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Asiẓreg n usmel"
+  },
+  "hero": {
+    "eyebrow": "Aḍris",
+    "title": "Asiẓreg n usmel",
+    "lead": "Yal asebter agejdan deg iatf.cc, deg yiwen umkan."
+  },
+  "sections": [
+    {
+      "title": "Isebtar imezwura",
+      "items": [
+        {
+          "label": "Axxam",
+          "href": "/"
+        },
+        {
+          "label": "Iseggasen",
+          "href": "/projects/"
+        },
+        {
+          "label": "Suter aɣawas",
+          "href": "/propose/"
+        },
+        {
+          "label": "Lḥekma",
+          "href": "/governance/"
+        },
+        {
+          "label": "Rnu-d",
+          "href": "/join/"
+        },
+        {
+          "label": "Aḥezzeb",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Aẓeṭṭa",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Iseggasen",
+  "projectsEmpty": "Mazal ur d-yeffeɣ ara kra n usenfaṛ."
+}

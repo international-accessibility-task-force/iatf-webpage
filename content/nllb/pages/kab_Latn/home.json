@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Seg uḥwaǧ n tuqqna ɣer yisekla aɣelnaw",
+    "lead": "IATF tettɛawan tiddukliwin, tarbaεin, d yimdanen akken ad rren iswiyen n tidet n tuqqna ɣer yisenfaren n ubrid ilelli.",
+    "support": [
+      "Iseḍfaren i yettwaqeblen ttwaseklesen deg tuddsa IATF GitHub ddaw n tlelli n copyleft yerna yettwasnulfa s wudem unnig."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Aḍris n uxeddim aɣelnaw",
+      "title": "Abrid n medden kan i uselkim yessawḍen"
+    },
+    "paragraphs": [
+      "S usebter, yal yiwen yezmer ad d-yessers ugur n tuqqna ɣer IATF. Ma tezmer terbaεt ad t-teṭṭef, ad yeldi yiwen n usenduq n GitHub i leqdic-nni.",
+      "Yal usenfaṛ yettwaqeblen yesεa axxam agdud i usebter, tiɣawsiwin, isefka, d yisenfaren, s usnulfu i d-yettawin deg berra sɣur yiwen n usinegger amesbaṭli."
+    ],
+    "specCard": {
+      "title": "Aḍris n uxeddim aɣelnaw",
+      "terms": [
+        {
+          "term": "Aḥwaǧ",
+          "definition": "Aɣbel n tuqqna n tidet"
+        },
+        {
+          "term": "Asmekti",
+          "definition": "Ahil n useqdec d wamek ara d-yili deg uxeddim"
+        },
+        {
+          "term": "Amkan n usenfaṛ",
+          "definition": "Aḍebsi aɣelnaw n GitHub"
+        },
+        {
+          "term": "Aɛessas",
+          "definition": "Taɣdemt n IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Ahil",
+      "title": "Amek i iteddu",
+      "intro": "Asenfar-nni yeqqim d amecṭuḥ akken ad yeshel uḍar n medden ad t-teḍfer."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Yettunefk-d usuter",
+        "paragraphs": [
+          "Tiddukla, tarbaεt, neɣ yiwen n umdan yezmer ad d-yefk asuter yebnan ɣef uḥwaǧ n tidet n tuqqna.",
+          "Isutren zemren ad bdun seg usmel, s yimayl ɣer <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, neɣ s umennuɣ."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF i tt-yettmuqulen",
+        "paragraphs": [
+          "Neḥseb ma yella leqdic-nni yelha i lmendad-is, ma yella d ayen izemren ad yexdem, yerna ma yella ixeddem deg yiwen n usenfaṛ n ubrid ilelli."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Yettwasnulfa-d usebter agdud",
+        "paragraphs": [
+          "Ma yettwaqbel usenfaṛ, ad d-yeffeɣ deg tuddsa n GitHub n IATF s yiwet n telɣa n copyleft.",
+          "Aḍebsi-a ad yuɣal d axxam agdud n unagraw, tiɣawsiwin, isekkilen, d isefka i d-yettunefken."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "D amsenǧer i d-yettawin leqdic ɣef usenfaṛ-nni.",
+        "paragraphs": [
+          "Yettunefk-d yiwen n yinegni amesbaṭli i usentel n usenfaṛ, yerna asnulfu yettwaxdem deg umkan n medden."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Aḍebsi",
+      "title": "Aḍebsi aɣelnaw n usenfaṛ"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bdu da",
+      "title": "Sfeḍ axeddim i yellan akka tura neɣ bdu-d aɣawas n umkan"
+    },
+    "paragraphs": [
+      "Seqdec anagraw akken ad teẓreḍ d acu yellan yakan d agdud, neɣ bdu asewwi ma yella kra n wugur n usiweḍ ad yuɣal d asenfaṛ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

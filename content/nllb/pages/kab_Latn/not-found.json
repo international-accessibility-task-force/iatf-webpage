@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ur tufiḍ ara"
+  },
+  "hero": {
+    "eyebrow": "Ur tufiḍ ara",
+    "title": "Asebter-nni i d-tessutreḍ ur yufi ara",
+    "lead": "Seqdec iberdan imeqqranen ddaw-a akken ad tuɣaleḍ ɣer umkan-nni n medden.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Axxam",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Abrid-nni i d-tessutreḍ ur yelli ara."
+    ],
+    "items": [
+      {
+        "label": "Axxam",
+        "href": "/"
+      },
+      {
+        "label": "Iseggasen",
+        "href": "/projects/"
+      },
+      {
+        "label": "Rnu-d",
+        "href": "/join/"
+      },
+      {
+        "label": "Aḥezzeb",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Lḥekma",
+        "href": "/governance/"
+      },
+      {
+        "label": "Aẓeṭṭa",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

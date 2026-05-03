@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Rnu ɣer IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Rnu ɣer IATF",
+    "lead": "Tameddakelt teldi. Llan waṭas n iberdan i wakken ad tettekkiḍ, ama tettkel ɣef teknasit tamɛawnant, tebniḍ-d aselkim yettwafen, tsuqleḍ-t, tettεerḍeḍ-t neɣ teṭṭfeḍ-t deg usenfaṛ. Timsaltin d tmuɣliwin tḍerru-d sdat n medden deg GitHub d Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Isekkilen",
+      "title": "Abrid i wakken ad d-tefkeḍ afus n tallelt"
+    },
+    "items": [
+      "<strong>Suter-d aɣawas.</strong> Ma tufiḍ-d kra n tɣawsiwin i d-yettaǧǧan ur d-tezmireḍ ara ad t-teṭṭfeḍ s uselkim agejdan, ceggeɛ-as-tt-id s usekcem n yisteqsiyen.",
+      "<strong>Ajeṛṛeb d tmuɣli.</strong> Ɛerḍet deg usenfaṛen n IATF s tesnilsit n tallalt i tesseqdacem, rret-d ayen ixeddmen d wayen ur nxeddem ara, terrem tiɣawsiwin srid ɣer usebter-nni yemsefhamen.",
+      "<strong>Ssuqel.</strong> Aḍris-a yettwasekles-d deg teglizit tamezwarut.",
+      "<strong>Bniɣ.</strong> Awi-d iɣeblan deg kra n usebter n IATF, ceggeɛ-d tiɣawsiwin n usekles, neɣ awi-d aɣawas d amsenǧer-is amatu.",
+      "<strong>Ḥrez iman-ik.</strong> Iseggasen i yellan tikwal ḥwaǧen amεellem amaynut."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Isennanen",
+      "title": "Anda ixeddem IATF deg umkan n medden"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Tiɣawsiwin, tiɣriwin n usekles, isefka, d isekkilen n usenfaṛ.",
+      "<strong>Ur nemsefham ara.</strong> Ameslay n tudert, aseɣti, d tuttriwin ur nelli d tinnaḍin.",
+      "<strong>Imeyili.</strong> Aseqdec <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ma ulac GitHub neɣ Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tazrawt i d-iteddun",
+      "title": "Fren tasna i d-yettemcabin d wamek i tebɣiḍ ad d-tefkeḍ afus n tallelt"
+    },
+    "paragraphs": [
+      "Ikanalen-nni merra ttawin-d ayen i d-yettawin ɣer yiwet n tmuɣli taɣelnawt akked yiwen n usebter aɣelnaw."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

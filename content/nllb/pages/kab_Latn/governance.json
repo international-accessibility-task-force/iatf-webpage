@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Anagraw n udabu d usebded n isefka",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Anagraw n udabu d usebded n isefka",
+    "lead": "IATF yettarra iswiyen n tuqqna d wid n medden, d wid i yzemren ad t-ɣren d wid izemren ad tt-ḥerzen.",
+    "support": [
+      "Asebter-a yessefhem d acu i d-yettwaḥsab, amek i ttwaḥerzen yisekla, d acu n temsalt i yellan deg uḍebsi n useklu deffir ma yettwaqbel."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Ilugan",
+      "title": "Taɣdemt n yizerfan, timanit, tilelli"
+    },
+    "cards": [
+      {
+        "title": "Ahil n usegmi",
+        "paragraphs": [
+          "IATF yettqebbel leqdic i d-yettmagaren tiɣawsiwin n tidet deg uḍris, yerna yesεa azal ifazen i medden.",
+          "Asenfar yessefk ad yesɛu lfayda nnig n uḥric n uxeddim weḥd-s, yerna ilaq ad yeddu d amḍan agdud.",
+          "I useqdec n web, IATF [W3C WAI](https://www.w3.org/WAI/) D tirmit i d-yefkan srid wid yessexdamen tiknulujiyin yettεawnen i d ttbut n wayen ixeddmen deg uxeddim n tidet."
+        ]
+      },
+      {
+        "title": "Aseqdec n usenfaṛ",
+        "paragraphs": [
+          "Asumer yezmer ad yettwaqbel mi ara d-ibin unadi belli:"
+        ],
+        "items": [
+          "d ayen i d-yettawin ɣer yiwet n teḥwaǧt n ṣṣeḥ n tuqqna.",
+          "Ugur-nni iban akken ilaq akken ad t-nwali",
+          "l'envergure d'assez réaliste pour lancer",
+          "leqdic-nni yeddukel d lmendad n IATF",
+          "yella ubrid i d-yettawin ɣer uḥezzeb neɣ aseɣzef."
+        ]
+      },
+      {
+        "title": "Tamanaɣt n usebter",
+        "paragraphs": [
+          "Iseḍfaren yettwaqeblen ttwasnulfan sɣur tuddsa n GitHub n IATF.",
+          "Iḍebsiyen ttɣimin din akken yal aɣawas ad yeṭṭef axxam agdud ibeddlen, ɣas ma ibeddel win i t-iḥerzen."
+        ]
+      },
+      {
+        "title": "Aḍebsi n yizerfan",
+        "paragraphs": [
+          "Iseggasen n IATF ssexdamen tizenzi n copyleft ma ur d-yenni ara wayeḍ deg usenfaṛ:"
+        ],
+        "items": [
+          "<strong>Aḍris:</strong> AGPL-3.0",
+          "<strong>Aḍris:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ajenyuṛ ama d win yettḥadaren",
+      "paragraphs": [
+        "Yal usenfaṛ yettwaqeblen ilaq ad yesɛu yiwen n usinag neɣ win yettḥadaren. Amdan-a yezmer ad yesεu azref n useḥbiber ɣer usebter yerna ilaq ad:"
+      ],
+      "items": [
+        "usnulfu n usihel deg tmetti",
+        "ḥerzen asebter n usebter",
+        "ad d-nεawed neɣ ad neḥrez iɣeblan d yisteqsiyen n usekles",
+        "ad d-ddmen tiɣawsiwin tisnernayin timeqranin",
+        "xdem lxedma-k akken ad tt-fehmen wiyaḍ."
+      ],
+      "footnote": "D aya i d tamsalt deg uḍebsi. Tamsalt n tnezduɣt teqqim deg IATF. Tamsalt da d aseḥbiber n usebter, asebter asnaddal, d usegmi n tmetti  mačči d asewwi aselkam ur nesεi azref, asdukel s wudem awurman, neɣ izerfan n uẓeṭṭa n yiseqdacen beṛṛa n tkarḍa n webrid."
+    },
+    "publicDevelopment": {
+      "title": "Asnulfu n tmetti",
+      "paragraphs": [
+        "Iseggasen i d-yettwaselken sɣur IATF ttwaddmen s wudem unṣib."
+      ],
+      "items": [
+        "Aḍris n uẓeṭṭa",
+        "timsal",
+        "isekkilen",
+        "Isebtaren i yellan deg tkarḍa n webrid",
+        "Amezruy n tuffɣa"
+      ],
+      "footnote": "Tamusni n usenfaṛ ur ilaq ara ad teqqim kan deg tceqqufin neɣ deg tbewwaṭ n tuffɣa."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Tiɣriwin tiɣelnawin",
+      "title": "Iḍebsiyen n usuter agdud"
+    },
+    "paragraphs": [
+      "IATF ixeddem s wudem agdudani s umata. Tiɣriwin i d-yettasen ɣer IAT F s web, imayl, Discord, GitHub, neɣ isefka-nniḍen n l'IAT F zemren ad uɣalen d isekkilen n tiɣriyin igdudaniyen.",
+      "Aḍebsi n usuter amatu mačči d izen n tazwara. IATF yezmer ad d-yefk agmuḍ, ad iseggem, neɣ ad yesbeddle asuter uqbel aselkim akken ad yezmer uḥwaǧ n tuqqna akken ur d-yettban ara isallen imdanen ur nelhi.",
+      "Iḍebsiyen n usuter n medden zemren ad ttwaḥerzen deg useqqamu n GitHub n IATF, deg usmel-agi, neɣ deg sin.",
+      "Qbel ad d-teffeɣ tesɣunt, IATF ad yekkes isefka n umsawal n umdan ur nelhi, tansawin n tnezduɣt, d isefkan i d-yettakken tamedyezt ɣef imseqdacen n teknulujiyin inehhanen, ala ma yella d ayen iwulmen d wayen ilaqen.",
+      "Discord yettwaseqdac i useggem ur nban ara. IATF ur d-yettak ara tiɣawsiwin n Discord s umata, d Discord i yettḥekmen ɣef uḥezzeb n yiznan. Tiwtilin i d-yeṭṭfen deg Discord ilaq ad d-ttwaseklesent deg uḍebsi aɣelnaw deg GitHub neɣ deg usebter n usenfaṛ.",
+      "Iḍebsiyen n usuter ur ttilin ara deg usebter n unadi ma yella d ayen izemren deg tikli. Agdud anamek-is yezmer ad yettwaḥseb. Ur d-yettak ara anamek i usnulfu s unadi n yismawen.",
+      "IATF yezmer ad d-yesseɣti neɣ ad yekkes isefka seg isebtaren i yettwaḥekmen sɣur-s, maca ur yezmir ara ad yefk tilelli i usekkes seg ixef wis tlata, tiɣriwin, tiferkiwin, isekkilen n usebter, imsuɣulen n unadi, Discord, neɣ isennanen-nniḍen ibeṛṛaniyen.",
+      "Ma ilaq ad yeqqim izen d awḥid, ur t-ttceggiḍ ara s yisekkilen n IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Amahil n tuddsa",
+      "title": "Aselway"
+    },
+    "lead": "Aselway yesεa aselway n IATF deg uḥric n taggayt.",
+    "duties": {
+      "title": "D acu i ixeddem ukersi-nni",
+      "items": [
+        "Yettaṭṭaf izerfan n bab ɣef tuddsa n GitHub n IATF",
+        "Isebtaren i sɛan azday ɣer \"acceptation des projets\" d \"archivage des décisions\"",
+        "Yettak-d iman-is d amkan n umsawal agdud i IATF.",
+        "Yettnadi ɣef tefranin-nni n yal aseggas."
+      ],
+      "footnote": "Aselway ur yeţţunefk ara i IATF ad d-yefk i yiman-is, ad ixdem axeddim s lexlaṣ, neɣ ad yexdem leεwayed n useqdec, yerna ur yezmir ara ad yekkes tiɣawsiwin n imḍebbren n umḍebber deg wayen yerzan aselway asertan."
+    },
+    "election": {
+      "title": "Tifranin n yal aseggas",
+      "paragraphs": [
+        "Aselway yettwafren yiwet n tikelt deg useggas.",
+        "Wid yesεan azref ad ssufren, d wid i d-yeṭṭfen amkan n useḥbiber deg kra n usebter n IATF deg useggas-nni, yerna xedmen ma drus yiwet n tesɣunt i usebtar n Iatf deg usegwas-nni. Yal amesbaṭli yesεa azref ɣur-s yiwen n uḍebsi. Amennay s waṭas n yiḍebsen i irebḥen; deg tegnit n uḥezzeb, ad d-yili usefrar wis tlata deg waggur n dujember.",
+        "Tifranin-a ttilint s wudem n umeslay n GitHub deg usebter n udabu n IATF i d-yettwasbaden, ihi imnadiyen, tuṭṭfa, d agmuḍ llan akk d aḥric seg uẓeṭṭa n medden."
+      ]
+    },
+    "continuity": {
+      "title": "Taɣdemt",
+      "paragraphs": [
+        "Ma ur d-ilint ara tefranin deg yiwen n useggas, aselway-nni n tura ad ikemmel deg umkan-is alamma d tifranin i d-iteddun.",
+        "Aselway yezmer ad yeǧǧ amkan-is di yal taswiεt."
+      ]
+    },
+    "current": {
+      "title": "Aselway n tura",
+      "fields": [
+        {
+          "label": "Aselway",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Asekkil",
+          "value": "Ar tefranin n dujember 2026"
+        },
+        {
+          "label": "Amur yettwaseggem s wudem unṣib",
+          "value": "2026"
+        },
+        {
+          "label": "Taggayt tamezwarut n tefranin",
+          "value": "Dujembeṛ 2026"
+        }
+      ]
+    },
+    "footnote": "Amur n uselway yettwasemres deg useggas n 2026 i wakken ad d-yili useḥbiber deg uẓeṭṭa n tkebbanit."
+  },
+  "continuity": {
+    "states": {
+      "title": "Talɣa n usenfaṛ",
+      "paragraphs": [
+        "Iswiyen ssexdamen-d yiwet n terbaɛt tamecṭuḥt n yiɣlanen n tmetti:"
+      ],
+      "items": [
+        "Asumer",
+        "Yettwaqbel",
+        "Aktif",
+        "Iṣeggem",
+        "Yettnadi win ara t-iḥerzen",
+        "Tazrawt"
+      ],
+      "footnote": "Tiɣawsiwin-a ttaǧǧant ad yeshel uḥeddad ad yettwasken."
+    },
+    "reassignment": {
+      "title": "Aεawed n useqdec d usekles",
+      "paragraphs": [
+        "Ma yella win i d-yettḥadar ad yeffeɣ neɣ ad yeqqim ur ixeddem ara, IATF yezmer ad d-yerr tamsalt, ad yeḥbes usnulfu, neɣ ad yerr asefru.",
+        "Asenfar yezmer daɣen ad yettwaseggem mi ara d-yeffeɣ wayen i d-teḥwaǧ tazwara, ma yeḥbes useggem, neɣ ma dayen ur yezmir ara ad ikemmel uxeddim."
+      ],
+      "footnote": "Iseggasen i d-yettwaḥerzen ttuɣalen ttwalin medden, ala ma tella ssebba taḥerṣant ara yeǧǧen aya ad yeḍru."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Aḍris n taggara",
+      "title": "Ayen ur d-tettak ara IATF"
+    },
+    "items": [
+      "asewwi n yimsaɣen n tnezduɣt",
+      "leεwayed n yiseqdacen",
+      "aseqbal n yal asumer",
+      "aseḥbiber n waṭas n wussan i yal asebter"
+    ],
+    "footnote": "IATF d amedya n usentel agejdan, mačči d aseqdec n usiweḍ s tugdut."
+  }
+}

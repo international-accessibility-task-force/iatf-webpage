@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Asuter n usenfaṛ n tuqqna",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Asuter n usenfaṛ n tuqqna",
+    "lead": "IATF yettnadi ɣef tsutwin n usenfaṛen n tuqqna i d-yettbeddlen seg uḥwaǧ n tidet.",
+    "support": [
+      "Ur teḥwaǧeḍ ara isefka meqqren. D aɣbel ifazen, anwa i t-yettaɣen, d acuɣer i yesεa azal, d ayen ara yebdun."
+    ],
+    "actions": [
+      {
+        "label": "Bdu asuter",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Seqdec Discord deg umkan-is",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Isennanen",
+      "title": "Xtiṛ abrid isehlen."
+    },
+    "intro": [
+      "Iberdan merra ad kecmen deg yiwet n tmuɣli."
+    ],
+    "items": [
+      {
+        "label": "Asebtar web",
+        "body": "Seqdec tifrat-a i d-yusan sdat akken ad d-tawiḍ asuter yettwahegga."
+      },
+      {
+        "label": "Asebter n yimayl",
+        "body": "Ceyyeε asuter-nni srid ɣer {{contact.requestsEmail}}Isutren s yimayl zemren ad uɣalen d isefra n usuter n medden deffir ma rzan-ten-id."
+      },
+      {
+        "label": "Amennuɣ",
+        "body": "Bdu-d syin ma d ayen isehlen. Asuter-nni mazal-it yettruḥ ɣer yiwet n tmuɣli."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Uqbel ad tazneḍ asuter",
+    "paragraphs": [
+      "IATF ixeddem s wudem awurman. Tiɣriwin zemrent ad d-ssumant u ad ttwaffɣent d isekkilen n tiɣriyin awurmen deg tdukli n GitHub n l'IATF, deg usmel-agi, neɣ deg sin-a.",
+      "Ur ttekki ara deg-s tansa, uṭṭunen n tilifun, isallen imsujjiyen, neɣ isallen i d-yettakken iman-nsen ɣef imseqdacen n teknulujiyin imεawnen ala ma yella d ayen ilaqen yerna ur tesεiḍ ara aɣilif akken IATF ad t-iεawed.",
+      "IATF itekkes isefka n umsawal imdanen ur neḥwaǧ uqbel ad d-ssuffɣen isekkilen n usuter."
+    ]
+  },
+  "review": {
+    "title": "Asirem n uḥezzeb",
+    "paragraphs": [
+      "Asekcem n usuter ur d-yettak ara lεali.",
+      "IATF yettnadi ɣef tiɣawsiwin i d-yettunefken ɣef lmendad n useqdec, tizemmar, lfayda, d ma yella leqdic-nni yella deg yiwen n usebter agejdan.",
+      "Kra n yisenfaren zemren ad ttwakksen, ad ttwaḥerzen, neɣ ad ttwabeddlen uqbel ad ten-qeblen."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Asebter n usuter",
+      "title": "Seɣti-d asuter"
+    },
+    "fields": [
+      {
+        "kind": "asekkil",
+        "name": "amseqdac",
+        "label": "Isem-ik neɣ taggayt-ik",
+        "helper": "Anwa i d-yessuturen?"
+      },
+      {
+        "kind": "xtiṛ",
+        "name": "Abrid n umsawal",
+        "label": "Abrid n umsawal yettwafernen",
+        "helper": "Amek i ilaq ad d-yili unadi?",
+        "required": true,
+        "options": [
+          "Asebter n yimayl",
+          "Amennuɣ"
+        ]
+      },
+      {
+        "kind": "asekkil",
+        "name": "Isebtaren i yellan ddaw-a:",
+        "label": "Timsal n umsawal",
+        "helper": "Tansa n yimayl neɣ tansa n Discord i unadi.",
+        "placeholder": "Tansa n yimayl neɣ tansa n usileɣ",
+        "required": true
+      },
+      {
+        "kind": "asekkil",
+        "name": "tutlayt",
+        "label": "Tutlayt",
+        "helper": "Tutlayt i k-iεeǧben, ma yella d ayen ilaqen.",
+        "value": "Taglizit"
+      },
+      {
+        "kind": "Tamnaḍt n uḍris",
+        "name": "ugur",
+        "label": "Acu n wugur i tettnadiḍ ad t-tefruḍ?",
+        "helper": "Mmeslay-d ɣef lbaṭel-nni s wawalen isehlen.",
+        "required": true
+      },
+      {
+        "kind": "Tamnaḍt n uḍris",
+        "name": "Imseqdacen yettwaḥerzen",
+        "label": "Anwa i yettwaεerḍen?",
+        "helper": "Anwa ara iεawen waya?",
+        "required": true
+      },
+      {
+        "kind": "Tamnaḍt n uḍris",
+        "name": "extraContext",
+        "label": "Aḍris-nniḍen",
+        "helper": "Rnu-d ayen nniḍen ara k-iεawnen ad d-tessegziḍ lebɣi-nni: acuɣer d ayen yesεan azal, imedyaten, isebtaren, tikti n uselkim, neɣ tiɣawsiwin n wakud."
+      },
+      {
+        "kind": "xtiṛ",
+        "name": "openSourceConsent",
+        "label": "Tḥulfuḍ s usnulfu n uẓeṭṭa ufella?",
+        "helper": "Iseḍfaren i yettwaqeblen d isefka i d-yettunefken sɣur IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ih",
+          "Xaṭi.",
+          "Mazal ur tḥeqqeɣ ara."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ma yettwaqbel",
+      "title": "D acu i d anamek n tqebleḍ"
+    },
+    "items": [
+      "aḍebsi aɣelnaw deg taggayt n GitHub n IATF",
+      "d amsenǧer i d-yettunefken i usenfaṛ",
+      "taggayt copyleft i uḍris d isental n usenfaṛ",
+      "usnulfu agdud deg usebter",
+      "aḍris n uḍebsi deg usmel n IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bdu ameslay",
+      "title": "Asuter yeqquren, yeṣfan, d ayen ara yebdun."
+    },
+    "paragraphs": [
+      "Ma yella tesɛiḍ yiwet n teḥwaǧt n tidet deg uḥezzeb yerna tettwaliḍ belli ilaq ad yuɣal d asenfaṛ agdud, ceggeɛ-aɣ-t-id."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

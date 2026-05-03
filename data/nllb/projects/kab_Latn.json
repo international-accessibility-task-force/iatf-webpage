@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Asmel n IATF",
+    "summary": "Asebtar-agi d win n International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF tella teḥwaǧ axxam aɣelnaw yeṣfan ara d-yessegziyen amedya, ad d-yefk umuɣ n yisenfaren, d wid ara yefken afus n lemεawna i uḍar i d-iteddun.",
+    "why": "Asmel-a d tawwurt n uqerru n IATF. Yettwabna-d d aɣawas amecṭuḥ akken ad yili yeshel ad iɣer, ad yessuqel, yerna ad iṭṭef deg lqanun.",
+    "scopeIn": [
+      "Isebtar n usiweḍ n medden i d-yesfehmen amedya n IATF",
+      "Aḍebsi aɣelnaw n yisenfaren IATF yettwaqeblen, i yellan deg ccɣel, d wid yettwaḥerzen s talɣa-nsen, wid i ten-yettḥadaren, asenduq d usekles.",
+      "Asebter d uḍebsi n usuter",
+      "Isebtar n udabu d tsekla",
+      "Taɣect n teglizit s unagraw yeldin i tsuqilt",
+      "Asenfaṛ amatu ɣef Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Timnaḍin n yilmeẓyen tiberkanin, isekkilen, neɣ izerfan n useqdec",
+      "Aḥezzeb n usekkil n usenfaṛ, yettidiren deg usebded n yal asenfaṛ s timmad-is",
+      "Ameslay deg teswiεt n tidet, i d-yezgan deg Discord",
+      "Aḍfar n yisenfaren i yal usenfar, i d-yezgan deg usebded n GitHub n yal asenfar"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "D anagraw amezwaru n IATF, yettwasekles mi yewweḍ ɣer yiwet n temnaḍt n uḥebbes.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Tazrawt tamezwarut n yiwen n wesnulfu i d-yettunefken ɣef uḥezzeb sɣur IATF.",
+    "why": "Aḍebsi-a yettwaḥrez d aɣelnaw, ɣas akken leqdic n usnulfu yeḥbes.",
+    "scopeIn": [
+      "Asnulfu amezwaru n yiwen n uselkin i d-yettunefken ɣef tuqqna yettwaḥerzen d aḍebsi aɣelnaw"
+    ],
+    "scopeOut": [
+      "Asnulfu neɣ axeddim n usekkil",
+      "Tiɣriwin n useḥbiber",
+      "Aseqdec i d-yettunefken deg usnulfu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot n tmetti n IATF, yettwasekles mi yewweḍ ɣer yiwet n temnaḍt n uḥebbes.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Tasenselkimt deg izerfan n tmetti n IATF.",
+    "why": "Aḍebsi-a yettwaḥrez d aɣelnaw, ɣas akken leqdic n usnulfu yeḥbes.",
+    "scopeIn": [
+      "Aselkim n umennuɣ ɣef izerfan n tmetti n IATF, yettwaḥerzen d aḍebsi aɣelnaw"
+    ],
+    "scopeOut": [
+      "Asnulfu neɣ axeddim n usekkil",
+      "Tiɣriwin n useḥbiber",
+      "Aseqdec i d-yettunefken deg usnulfu"
+    ]
+  }
+]

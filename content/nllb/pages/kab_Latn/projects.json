@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Iseḍfaren n tuqqna i yimeɣriyen",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Iseḍfaren n tuqqna i yimeɣriyen",
+    "lead": "Anagraw-a yeskanay-d iseḍfaren i d-yettwaḥerzen sɣur IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Aḍebsi",
+      "title": "Aḍebsi n tura"
+    },
+    "intro": [
+      "Iswiyen i yettwaqeblen ad d-yettunefk da mi ara d-ffɣen."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Seɣti-d ayen teḥwaǧeḍ.",
+      "title": "Ad d-yessuqel tuḥwaǧt n tuqqna ɣer usenfaṛ aɣelnaw"
+    },
+    "paragraphs": [
+      "IATF yettnadi ɣef yiḥwaǧen imesliyen i izemren ad uɣalen d leqdic n ubrid ilelli."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Mazal ur d-yeffeɣ ara kra n usenfaṛ",
+    "paragraphs": [
+      "IATF la d-yettheggi asebter-is amenzu n usenfaṛ agdud.",
+      "Mazal tzemreḍ ad d-tazneḍ asuter ma yella tesεiḍ kra n tɣawsiwin yessefken."
+    ]
+  }
+}

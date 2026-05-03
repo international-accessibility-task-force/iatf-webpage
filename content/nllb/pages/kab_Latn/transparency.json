@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Aẓeṭṭa",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Aẓeṭṭa",
+    "lead": "IATF ixeddem s wudem agejdan s umata. Tiɣawsiwin n usenfaṛ, ibeddlen n uḍebsi, ibeddel n udabu, d yiṣurdiyen n uxeddim ttwaḍefṛen deg imukan n tmetti. Asebter-a yeskan anda yettidir yal ṣṣenf n yizri d wamek ara t-nɣer.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Iḍebsiyen",
+      "title": "Anda ttilin yedlisen-nni"
+    },
+    "items": [
+      "<strong>Tiwtilin n usenfaṛ.</strong> Tiririt ɣef tuttriwin - ...tettwakkes-d s wudem n tiɣriwin deg usebter i d-yellan, yerna tettwafeggeṛ-d deg uḍebsi aɣelnaw. <a href=\"/projects/\">agemmay</a>D acu-t ?",
+      "<strong>Suter isekkilen.</strong> Iḍebsiyen n usuter n umdan ttwaḥerzen deg unagraw n GitHub n IATF, deg usmel-a, neɣ deg sin. Isekkilen zemren ad d-smektiyen, ad sbedden, neɣ ad ssuqqlen asuter amezwaru akken ad yezmer uḥwaǧ n useḥbiber ad yettwaẓer mebla ma d-yessekcem isallen imdanen ur nelhi ara.",
+      "<strong>Yettbeddil uḍebsi.</strong> Yal abeddel n unamek d asebded agejdan deg usebded ay d-yeqqimen. <a href=\"{{contact.githubOrgUrl}}\">Taggayt n GitHub</a>D acu-t ?",
+      "<strong>Ibeddlen leḥkem.</strong> Tiɣawsiwin n usebter n udabu ttwaḍefent akken i d-ttunefken i <code>Asebtar n IATF</code> Aḍebsi. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">umezruy n usekcem</a> deg GitHub.",
+      "<strong>Iṣurdiyen n uxeddim.</strong> IATF yeṭṭef isefka n uxeddim meẓẓiyen yerna yettarra-d isufka n lsas n twennaḍt taɣelnawt. Seg 2022, isefkan imeqqranen i d-yettuɣalen d ismawen n tnaḍin.",
+      "<strong>Tiɣriwin n usegmi.</strong> Tiɣriwin seg kra n tmuɣli neɣ tarrayt yettwaqqnen ttidiren deg GitHub Timlilit ɣef usentel-nni yemsefhamen  ẓer <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Imeslayen</a> ɣef <code>Asebtar n IATF</code> Aḍebsi."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Iṣurdiyen",
+      "title": "Aḍebsi n yiṣurdiyen n uxeddim"
+    },
+    "paragraphs": [
+      "IATF yeṭṭef tarakalt-is taɣelnawt d tamecṭuḥt. Seg useggas n 2022, isufar imeqranen i d-yettεawaden d ismawen n usaḍuf (domain).",
+      "Aḍebsi-ya mačči d unagraw n tedrimt yettwaḍebsen. D aɣmis n yiṣurdiyen n useqdec n twennaḍt i yettwaseqdacen akken ad teṭṭef IATF online."
+    ],
+    "footnote": "Tiɣawsiwin zemrent ad ttwaseklesent neɣ ad d-ssuffɣent deffir ma ttwaḥerzen. Tansawin n wemdan, isefka n uḥezzeb, d isallen n ukala ur nelli ara d aḥric seg uḍebsi aɣelnaw.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Tazrawt",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Azal",
+            "value": "3,40 n yidulaṛen n Marikan"
+          },
+          {
+            "label": "Tiɣriwin",
+            "value": "Azal n usmel s ufus n mugiwarafx. Aḥezzeb s useqdec n twennaḍt tilellit neɣ n usefru s wazal-is amecṭuḥ s Cloudflare. <code>iatf.cc</code> taggayt."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Tazrawt",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Azal",
+            "value": "18.68 USD"
+          },
+          {
+            "label": "Tiɣriwin",
+            "value": "Azal n usmel sɣur mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Tazrawt",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Azal",
+            "value": "17.06 n yidulaṛen n Marikan"
+          },
+          {
+            "label": "Tiɣriwin",
+            "value": "Azal n usmel s ufus n mugiwarafx. Aḥezzeb s useqdec n twennaḍt tilellit neɣ taḥerṣant s webrid n Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Tazrawt",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Azal",
+            "value": "14.76 USD"
+          },
+          {
+            "label": "Tiɣriwin",
+            "value": "Azal n usmel sɣur mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Tazrawt",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Azal",
+            "value": "7.76 USD"
+          },
+          {
+            "label": "Tiɣriwin",
+            "value": "Azal n usmel s ufus n mugiwarafx. Aḥezzeb s useqdec n twennaḍt tilellit neɣ taḥerṣant s usebter n GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Aḍris n taggara",
+      "title": "Ayen ur nelli d agdud"
+    },
+    "paragraphs": [
+      "Kra n tɣawsiwin ur ttwaḥerzen ara deg yedlisen n tmetti s unamek:"
+    ],
+    "items": [
+      "Timsalin n umsawal n wid i d-yefkan asumer.",
+      "Tabrat tadelsant i yettwaseqdacen kan i usegzi n usuter uqbel ad yettwaqbel, ad yugi, neɣ ad d-yessegzu.",
+      "Tansa, uṭṭunen n tilifun d wayen ur neḥwaǧ ara.",
+      "Kra n tɣawsa ara d-yesseknen amseqdac n tesnilsit n tallalt mebla ma yefka-d lebɣi-s.",
+      "Timsawalin n Raw Discord, ala ma yella yiwen n izen yettwaḥerrek s lebɣi ɣer yiwen n usebter n usenfaṛ agejdan."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ɣer ugar",
+      "title": "Lḥekma d adlis n yilugan i d-yezgan deffir yisenfaren-a."
+    },
+    "paragraphs": [
+      "Ma tebɣiḍ ad tfehmeḍ amek ttwaqeblen yisenfaren, amek ttwaḥerzen, neɣ amek ttwaseqdacen, ɣeṛ asebter n udabu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

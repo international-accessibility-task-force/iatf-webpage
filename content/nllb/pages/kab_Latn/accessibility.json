@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aḥezzeb",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aḥezzeb",
+    "lead": "IATF yebɣa ad yeǧǧ asmel-a ad yili d awezlan, ad yettwaɣ, ad d-yettwaḍer s tastawt, yerna ad yili yeddukel d tutlayin i d-iɛawnen.",
+    "support": [
+      "I useqdec n web, IATF [W3C WAI](https://www.w3.org/WAI/) D ayen i d-yettakken azal i useqdec n teknulujiyin n tallalt."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Aselkim",
+      "title": "Ssiwḍet-d aɣbel n tuqqna"
+    },
+    "paragraphs": [
+      "Ma tufiḍ aɣilif deg usmel-a, di leɛnaya-k ini-t-id s yimayl:",
+      "{{contact.accessibilityEmail}}",
+      "Iḍebsiyen inefεen deg-sen:"
+    ],
+    "items": [
+      "asebter anda i d-teḍra taluft",
+      "ayen i tettnadiḍ ad t-txedmeḍ",
+      "d acu-t tteknulujit n tallalt, iminig neɣ asnas i tesqedceḍ, ma yella d ayen ilaqen",
+      "d acu i yeɣlin diri-t",
+      "d acu ara d-yefken afus n tallelt"
+    ],
+    "footnote": "Ur teḥwaǧeḍ ara ad d-taruḍ kra n warraw n yiɣil."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Aseḥbiber",
+      "title": "Aḥezzeb n temsalt taɣelnawt"
+    },
+    "paragraphs": [
+      "Tiɣawsiwin n tuqqna zemrent ad ttwaseklesent deg usebter aɣelnaw yemsefhamen akken ad zemren ad ttwaḥerzen di tlelli.",
+      "Ma yella deg ungal-ik yella wayen yellan d aselkim, ini-t-id swaswa deg izen-nni."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Talɣa tatrart",
+      "title": "Isekkilen yettwasnen"
+    },
+    "paragraphs": [
+      "Asmel-a d amecṭuḥ s lebɣi-s yerna d win ur nettbeddil ara."
+    ]
+  }
+}
