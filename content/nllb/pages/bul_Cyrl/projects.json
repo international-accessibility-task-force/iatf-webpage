@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Проекти за обществена достъпност",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Проекти за обществена достъпност",
+    "lead": "Този регистър изброява публични проекти, поддържани чрез IATF. Приетите проекти за достъпност, инфраструктурата на сайта и архивираните прототипи се поддържат видими тук.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Регистър",
+      "title": "Настоящ регистър"
+    },
+    "intro": [
+      "Приетите проекти са изброени тук, след като бъдат публикувани."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Изпрати заявка",
+      "title": "Превръщане на конкретна нужда от достъпност в обществен проект"
+    },
+    "paragraphs": [
+      "IATF преразглежда конкретните нужди от достъпност, които могат да бъдат превърнати в полезна публична работа с отворен код."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Все още няма публикувани проекти",
+    "paragraphs": [
+      "IATF подготвя първия си публичен набор от проекти.",
+      "Все още можете да изпратите заявка, ако имате конкретна нужда от достъпност."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Карта на сайта"
+  },
+  "hero": {
+    "eyebrow": "Индекс",
+    "title": "Карта на сайта",
+    "lead": "Всички публични страници на IATF.CC, на едно място."
+  },
+  "sections": [
+    {
+      "title": "Основни страници",
+      "items": [
+        {
+          "label": "Домът.",
+          "href": "/"
+        },
+        {
+          "label": "Проекти",
+          "href": "/projects/"
+        },
+        {
+          "label": "Поискане на проект",
+          "href": "/propose/"
+        },
+        {
+          "label": "Управление",
+          "href": "/governance/"
+        },
+        {
+          "label": "Присъединете се.",
+          "href": "/join/"
+        },
+        {
+          "label": "Достъпност",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Прозрачност",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Проекти",
+  "projectsEmpty": "Все още няма публикувани проекти."
+}

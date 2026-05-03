@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Не е намерен."
+  },
+  "hero": {
+    "eyebrow": "Не е намерен.",
+    "title": "Исканата страница не е намерена",
+    "lead": "Използвайте основните маршрути по-долу, за да се върнете на обществената площадка.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Домът.",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Маршрутът, който поискахте, не съществува."
+    ],
+    "items": [
+      {
+        "label": "Домът.",
+        "href": "/"
+      },
+      {
+        "label": "Проекти",
+        "href": "/projects/"
+      },
+      {
+        "label": "Присъединете се.",
+        "href": "/join/"
+      },
+      {
+        "label": "Достъпност",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Управление",
+        "href": "/governance/"
+      },
+      {
+        "label": "Прозрачност",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
