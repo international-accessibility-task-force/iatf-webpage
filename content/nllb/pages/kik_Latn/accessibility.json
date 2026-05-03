@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Gũkinyanĩra",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Gũkinyanĩra",
+    "lead": "IATF ĩkoragwo na muoroto wa gũtũma website ĩno ĩkorũo ĩrĩ hũthũ gũthoma, ĩhotage kũhũthĩrũo na keyboard, na ĩkonana na tekinoronjĩ cia gũteithĩrĩria.",
+    "support": [
+      "IATF ĩhũthagĩra ũhoro wĩgiĩ kũhingũrwo kwa intaneti [W3C WAI](https://www.w3.org/WAI/) Ũndũ ũcio nĩ wonanagio nĩ ũrĩa andũ arĩa mahũthagĩra tekinolonjĩ cia gũteithĩrĩria mamenyerete ũhoro ũcio."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kũheana Riboti",
+      "title": "Kũruta riboti ĩgiĩ ũndũ ũtarĩ mũhũthũ gũkinyĩra andũ"
+    },
+    "paragraphs": [
+      "Ũngĩkora ũndũ ũragiria wĩtĩkĩrio kũhingũra website ĩno, no ũtũmenyithie kũgerera e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Riboti cia bata nĩ ta ici:"
+    ],
+    "items": [
+      "karatathi karĩa ũndũ ũcio wekĩkire",
+      "kĩrĩa ũrageragia gwĩka",
+      "nĩ tekinoronjĩ ĩrĩkũ ya gũteithĩrĩria, browser, kana mũbango ũrarũmĩrĩra, angĩkorũo nĩ ũrabatarania",
+      "nĩ kĩĩ kĩahĩtanire",
+      "ũrĩa ũngĩamũteithirie"
+    ],
+    "footnote": "Ndwagĩrĩirũo kwandĩka riboti ya kĩhumo ya mahĩtia macio."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kũhiũrania na Maũndũ",
+      "title": "Kũrũmbũiya maũndũ ma mũingĩ"
+    },
+    "paragraphs": [
+      "Ciũria ciĩgiĩ ũhotekeku wa gũtaũkĩrũo nĩ ũhoro ũcio no ciigwo icunjĩ-inĩ cia ũhoro ũcio nĩguo ũhote kũrũnga ũndũ ũcio ũtarĩ wa ndũire.",
+      "Angĩkorũo riboti yaku nĩ ĩhutĩtie ũhoro wa mũndũ kĩũmbe-rĩ, ĩtaarĩrie wega ndũmĩrĩri-inĩ ĩyo."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ũrĩa maũndũ matariĩ ũmũthĩ",
+      "title": "Mĩhaka ĩrĩa Ĩmenyekaga"
+    },
+    "paragraphs": [
+      "Gĩikaro gĩkĩ nĩ kĩnini na nĩ kĩrũmu mũno. Thiomi imwe no ikorũo itarĩ nginyanĩru rĩrĩa ũtaũri ũraharũrũkio."
+    ]
+  }
+}

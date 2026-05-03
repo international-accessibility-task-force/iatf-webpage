@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Kũmenyeka",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Kũmenyeka",
+    "lead": "IATF ĩrutaga wĩra kũndũ kwa mũingĩ kũringana na ũrĩa ĩkoragwo. Matua ma mĩbango, ũgarũrũku wa mawatho, ũcenjia wa ũtongoria, na ngarama ya kũruta wĩra ciandĩkagwo kũndũ gwa mũingĩ. Gĩcunjĩ gĩkĩ nĩ kĩronania harĩa ũhoro wa mũthemba o wothe ũkoragwo na ũrĩa ũngĩthomeka.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Rekondi cia Ũhoro",
+      "title": "Kũrĩa Rekondi Iikaraga"
+    },
+    "items": [
+      "<strong>Matua megiĩ mũbango.</strong> Itua rĩa gwĩtĩkĩra, kũiga marũa-inĩ, na gũcenjia wĩra rĩandĩkagĩrũo thĩinĩ wa kabuku karĩa gakonainie na ũhoro ũcio, na rĩgacokanĩrĩrio thĩinĩ wa rũthiomi rwa mũingĩ. <a href=\"/projects/\">mũtaratara</a>Nĩ wega mũno.",
+      "<strong>Kũhoya marũa ma marũa macio.</strong> Rekondi cia ihoya rĩa mũingĩ ciigagwo rũrendainĩ rwa IATF GitHub, website-inĩ ĩno, kana igĩrĩ. Rekondi no ikinyũkie, ithondeke, kana ithondekwo rĩngĩ kũringana na ihoya rĩrĩa rĩa kĩambĩrĩria nĩgetha ihoya rĩu rĩkinyanĩre no rĩcoke rĩthuthurwo hatarĩ kũmenyithania ũhoro ũtarĩ wa mũndũ kĩũmbe. Itua rĩa kwaga kũiguithania nĩ rĩcokagĩrio rekondi-inĩ ya mũingĩ rĩrĩa rĩhutia mũbango kana itua rĩa ũtongoria. Rekodi ya ihoya rĩtarĩ rĩa injini ya gũcaria kũrĩa kũngĩhoteka kĩhumo-inĩ. View records: first publication request pending.",
+      "<strong>Koode nĩ ĩcenjetie.</strong> Ũgarũrũku o wothe wa koode ũkoragwo ũrĩ wa mũingĩ thĩinĩ wa repository ĩrĩa ĩrabatarania. <a href=\"{{contact.githubOrgUrl}}\">Gĩikaro kĩa GitHub</a>Nĩ wega mũno.",
+      "<strong>Kũgarũrũka kwa ũtongoria.</strong> Ũhoro mwerũ ũrĩa ũthiũrũrũkĩirio karatathi-inĩ ka ũtuĩria wa ũtongoria ũroragwo o ta ũrĩa wĩkagĩrũo mũbango-inĩ ũcio. <code>Gĩtuo kĩa IATF</code> Wĩrorere ũhoro ũrĩa ũrĩ thĩinĩ <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">gũthondeka historĩ</a> thĩinĩ wa GitHub.",
+      "<strong>Mbeca cia kũruta wĩra.</strong> IATF ĩgũtũũria thogora wa ũhũthĩri ũtarĩ mũingĩ na ĩgathondeka rekondi cia thogora ũrĩa ũhũthĩkaga wa indo cia mũthingi cia mũingĩ. Kuuma mwaka wa 2022, thogora mũnene ũhũthĩrĩtwo nĩ marĩĩtwa ma domain. Kũnyita ũgeni nĩ kũhũthĩrĩte indo cia ũthingi cia goro kana cia goro harĩa kũngĩhoteka.",
+      "<strong>Marũa ma kũiguithania maũndũ.</strong> Ndũmĩrĩri kuuma kũrĩ mũbango wa gũthuthuria kana gũtua itua rĩerũ ikoragwo thĩinĩ wa GitHub <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Mĩario</a> nĩ ũndũ wa <code>Gĩtuo kĩa IATF</code> kĩhumo kĩa ũhoro ũcio."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Thogora wa Wĩra",
+      "title": "Rekondi cia ngarama ya ũhũthĩri"
+    },
+    "paragraphs": [
+      "IATF ĩigaga mĩtaratara yaayo ya mũingĩ na njĩra nini. Kuuma mwaka wa 2022, thogora ũrĩa mũnene wa kũruta wĩra ũkoretwo ũrĩ marĩĩtwa ma domain. Kũnyita ũgeni nĩ kũhũthĩrĩte mĩtabarĩre ya ũtarĩ marĩhi kana ya thogora wa thĩ harĩa kũngĩhoteka.",
+      "Rekondi ĩno ti mũtaratara wa kĩĩmbeca ũrĩa ũthuthuria wonanĩtie, no nĩ rũrenda rwa thogora wa ũhũthĩri wa indo iria ihũthagĩrũo gũthondeka IATF."
+    ],
+    "footnote": "Marĩhi macio no marũngwo kana matumbĩthwo thutha wa gũthondekwo. Marũa ma mũndũ kĩũmbe, maũndũ megiĩ kũrĩha, na maũndũ mangĩ matarĩ ma bata megiĩ akaunti matikoragwo thĩinĩ wa rekondi cia mũingĩ.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Gĩcigo kĩa wĩra",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Thogora wa Gũtwarithia",
+            "value": "Dola 3.40 cia Amerika"
+          },
+          {
+            "label": "Maũndũ Marĩa Marĩrĩirio",
+            "value": "Mũgũnda ũrutagwo na mbeca cia mugiwarafx. Kũnyita ũgeni kũhũthagĩrwo mũtabarĩre ũtarĩ marĩhi kana wa thogora wa thĩ kũgerera Cloudflare. <code>iatf.cc</code> gĩikaro."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Gĩcigo kĩa wĩra",
+            "value": "<code>kĩhũngĩro kĩa thĩ yothe kĩa ũkinyanĩria wa ũhoro gĩtagwo taskforce.com</code>"
+          },
+          {
+            "label": "Thogora wa Gũtwarithia",
+            "value": "Dolari 18.68 cia Amerika"
+          },
+          {
+            "label": "Maũndũ Marĩa Marĩrĩirio",
+            "value": "Thogora wa domain ũheanagwo nĩ mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Gĩcigo kĩa wĩra",
+            "value": "<code>kĩhũngĩro kĩa thĩ yothe kĩa ũkinyanĩria wa ũhoro gĩtagwo taskforce.com</code>"
+          },
+          {
+            "label": "Thogora wa Gũtwarithia",
+            "value": "Dola 17.06 cia Amerika"
+          },
+          {
+            "label": "Maũndũ Marĩa Marĩrĩirio",
+            "value": "Thogora wa domain ũrũgamagĩrĩrwo nĩ mugiwarafx. Kũnyita ũgeni kũhũthĩrĩtwo free-tier kana low-cost infrastructure kũgerera Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Gĩcigo kĩa wĩra",
+            "value": "<code>kĩhũngĩro kĩa thĩ yothe kĩa ũkinyanĩria wa ũhoro gĩtagwo taskforce.com</code>"
+          },
+          {
+            "label": "Thogora wa Gũtwarithia",
+            "value": "Dola 14.76 cia Amerika"
+          },
+          {
+            "label": "Maũndũ Marĩa Marĩrĩirio",
+            "value": "Thogora wa domain ũheanagwo nĩ mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Gĩcigo kĩa wĩra",
+            "value": "<code>kĩhũngĩro kĩa thĩ yothe kĩa ũkinyanĩria wa ũhoro gĩtagwo taskforce.com</code>"
+          },
+          {
+            "label": "Thogora wa Gũtwarithia",
+            "value": "Dola 7.76 cia Amerika"
+          },
+          {
+            "label": "Maũndũ Marĩa Marĩrĩirio",
+            "value": "Thogora wa domain ũheanagwo nĩ mugiwarafx."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Mũhaka",
+      "title": "Ũndũ ũrĩa ũtangĩmenyeka nĩ andũ othe"
+    },
+    "paragraphs": [
+      "Indo imwe itikoragwo thĩinĩ wa rekondi cia mũingĩ nĩ ũndũ wa itũmi ici:"
+    ],
+    "items": [
+      "Maratathi ma kwaranĩria na andũ arĩa marenda kũruta mũbango.",
+      "Marũa ma mũndũ kĩũmbe marĩa mahũthagĩrũo tu gũtaarĩria ũndũ mbere ya wĩtĩkĩrĩke, ũregwo, kana ũthondeketwo na njĩra nguhĩ.",
+      "Andirethi cia mũndũ kĩũmbe, namba cia thimũ, na maũndũ mangĩ matarĩ ma o mũhaka.",
+      "Kĩndũ o gĩothe kĩrĩa kĩngĩhota kuonania mũndũ ũrahũthĩra tekinolonjĩ cia gũteithĩrĩria atekũheo rũtha rwa gwĩka ũguo.",
+      "Mĩario ya Raw Discord, tiga hihi ndũmĩrĩri ĩmwe ĩngĩthamĩrio na mworoto thĩinĩ wa rekondi ya mũbango wa mũingĩ."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Thoma makĩria",
+      "title": "Thirikari nĩ yo ĩrutaga wĩra wa kũiga rekondi icio"
+    },
+    "paragraphs": [
+      "Angĩkorũo no wende gũtaũkĩrũo ũrĩa mĩbango ĩtĩkagĩrũo, ĩigagwo, kana ĩgaacenjio, thoma karatathi ka ũtongoria."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

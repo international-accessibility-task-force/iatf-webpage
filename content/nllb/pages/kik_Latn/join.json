@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kũnyitanĩra na IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kũnyitanĩra na IATF",
+    "lead": "Gũtuĩka mũrũmĩrĩri nĩ kũhingũrĩtwo. Nĩ kũrĩ njĩra nyingĩ cia kũnyitanĩra, kana wĩhokeete tekinoronjĩ cia gũteithĩrĩria, gwaka programu ĩngĩkinyĩrĩka, gũtaũra, gũthima, kana gũtũũria projeke. Mĩario na matua mekagwo mũingĩ thĩinĩ wa GitHub na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Itemi",
+      "title": "Njĩra cia gũteithĩrĩria"
+    },
+    "items": [
+      "<strong>Hoya mũbango.</strong> Angĩkorũo nĩ ũracemania na ũndũ ũragirĩrĩria andũ kũhũthĩra programu cia kompiuta, ũtũme kũgerera njĩra ya kũheana marũa.",
+      "<strong>Gũthuthuria na gũthuthuria rĩngĩ.</strong> Geria kũhũthĩra tekinoronjĩ cia gũteithĩrĩria iria ũhũthagĩra kũruta riboti ya maũndũ marĩa marathiĩ wega na marĩa matathiĩte wega, na ũige maũndũ marĩa ũracemania namo mbere ya IATF.",
+      "<strong>Taũra.</strong> Ũhoro wa kĩhumo ũcabĩtwo na rũthiomi rwa Gĩthũngũ mbere.",
+      "<strong>Wĩra wa gwaka.</strong> Thuthuria maũndũ marĩa marĩ thĩinĩ wa IATF, ũtũme marũa ma kũruta ũhoro, kana wĩtĩkĩre kũruta wĩra mũna ũrĩ mũtabania ũrĩa ũrutaga wĩra ũcio.",
+      "<strong>Gũthiĩ na mbere.</strong> Rĩmwe na rĩmwe mĩbango ĩrĩa ĩkoragwo kuo nĩ ĩbataraga mũndũ ũngĩ wa kũrũgamĩrĩra wĩra ũcio."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Njĩra",
+      "title": "Kũrĩa IATF ĩrutaga wĩra kũndũ kwa mũingĩ"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Mathĩna, kũruta marũa ma gwĩtĩkĩrĩka, gũtaarĩria, na marekodi ma wĩra.",
+      "<strong>Gũtirĩ ũiguano.</strong> Mĩario ya ĩmwe kwa ĩmwe, kũiguithania maũndũ, na ciũria itarĩ cia ndũire.",
+      "<strong>Twandĩkĩre marũa.</strong> Kũhũthĩra <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> angĩkorũo GitHub kana Discord itarĩ cia kũiganania."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ikinya Rĩrĩa Rĩrũmĩrĩire",
+      "title": "Thuura njĩra ĩrĩa ĩrũmagĩrĩra ũrĩa ũrenda gũteithĩrĩria"
+    },
+    "paragraphs": [
+      "Mĩtambo yothe ĩhũthagĩrũo gũthuthuria ũhoro na njĩra o ĩmwe na kũhũthĩra ũhoro ũrĩa ũkoragwo thĩinĩ wa mburogo o ĩmwe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

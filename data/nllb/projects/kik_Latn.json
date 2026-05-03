@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Gĩtuo kĩa IATF",
+    "summary": "Gĩcunjĩ kĩa mũingĩ kĩa International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF nĩ yabataraga mũciĩ mwega wa gũtaarĩria mũtaratara ũcio, kũgweta mĩbango, na kũmenyithia arĩa mekũruta itemi nĩ ũndũ wa ikinya rĩrĩa rĩagĩrĩire.",
+    "why": "Gĩikaro gĩkĩ nĩ kĩhingo kĩa mũingĩ kĩa IATF.",
+    "scopeIn": [
+      "Gĩikaro kĩa mũingĩ kĩrĩa kĩtaaragĩria mũhianĩre wa IATF",
+      "Registaru ya mũingĩ ya mĩbango ya IATF ĩrĩa ĩtĩkĩrĩkĩte, ĩrĩa ĩraruta wĩra, na ĩrĩa ĩigagwo icunjĩ-inĩ cia tene ĩrĩ na ũhoro wa ũrĩa ĩhaana, ũrĩa ĩrarũrũngwo, handũ harĩa ĩigagĩrwo, na mũbango wa kwĩyonania",
+      "Gĩcunjĩ gĩa kũũria na fomu ya kũũria",
+      "Mĩthemba ya ũtongoria na ũtuĩria",
+      "Kĩhumo gĩa Gĩthũngũ na mũbango wĩharĩirie gũtaũrũo",
+      "Gũtabania Static on Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Icunjĩ cia mũndũ kĩũmbe, mahũthĩro, kana mĩtaratara ya kũingĩra",
+      "Kũnyita na kũiga code ya project, ĩrĩa ĩikaraga thĩinĩ wa repository ya o projeke",
+      "Ndũmĩrĩri ya ihinda-inĩ rĩa ma, ĩrĩa ĩikaraga thĩinĩ wa Discord",
+      "Kũrũmĩrĩra maũndũ ma projeke ĩmwe kwa ĩmwe, marĩa makoragwo thĩinĩ wa GitHub ya projeki o yothe"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Kĩgeranio kĩa mbere kĩa IATF, kĩandĩkĩtwo thutha wa gũkinyĩra harĩa kĩagĩrĩire kũrũgama.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Mũbango wa IATF wa gũthuthuria kĩhumo kĩa ũhotekeki wa indo.",
+    "why": "Gĩikaro kĩu gĩkoretwo kĩrĩ kĩa mũingĩ ta rekondi ya wĩra ũcio, o na gũtuĩka ũrutani wa wĩra ũcio nĩ ũrũgamĩte.",
+    "scopeIn": [
+      "Kĩambĩrĩria kĩa kĩgeranio kĩa mũbango wa gũteithĩrĩria andũ gũkinya kũndũ gũtarĩ na ũgwati, ũrĩa ũigagwo thĩinĩ wa rekondi cia mũingĩ"
+    ],
+    "scopeOut": [
+      "Kũruta wĩra na kĩyo",
+      "Mĩhothi ya mabataro ma mũciari",
+      "Ũhũthĩri ũrĩa ũtanyitwo wa indo cia kũruga"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Kĩbungo kĩa IATF",
+    "summary": "Robot ya rũhonge rwa IATF, yathondeketwo thutha wa gũkinyĩra harĩa ĩrũgĩte.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kũhũthia njĩra cia ngwatanĩro cia IATF.",
+    "why": "Gĩikaro kĩu gĩkoretwo kĩrĩ kĩa mũingĩ ta rekondi ya wĩra ũcio, o na gũtuĩka ũrutani wa wĩra ũcio nĩ ũrũgamĩte.",
+    "scopeIn": [
+      "Kũhĩtania na njĩra ya gwĩthondekera IATF community channels, gũtwarwo ta rekondi ya mũingĩ"
+    ],
+    "scopeOut": [
+      "Kũruta wĩra na kĩyo",
+      "Mĩhothi ya mabataro ma mũciari",
+      "Ũhũthĩri ũrĩa ũtanyitwo wa indo cia kũruga"
+    ]
+  }
+]

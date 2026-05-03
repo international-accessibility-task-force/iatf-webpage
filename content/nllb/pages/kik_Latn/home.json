@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kuuma ũbataro-inĩ wa ũkinyanĩri nginya kũrĩ repo cia mũingĩ",
+    "lead": "IATF nĩ ĩteithagia ikundi, ikundi, na andũ kũgarũra mabataro mao ma kũgĩa na ũhoti wa kũingĩra mabũrũri-inĩ marĩa marakenera ũhoti ũcio.",
+    "support": [
+      "Mĩbango ĩrĩa ĩtĩkĩrĩkĩte ĩcabagwo thĩinĩ wa rũhonge rwa IATF rwa GitHub rungu rwa marũa ma copyleft na ĩgathondekwo na njĩra ya mũingĩ nĩ injinia ũrĩ na ũhoti."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mũhaano wa wĩra wa mũingĩ",
+      "title": "Ũndũ mũhũthũ wa gũteithĩrĩria programu cia kompiuta iria cionekaga nĩ andũ othe"
+    },
+    "paragraphs": [
+      "Kũgerera fomu, mũndũ o wothe no atũme kĩũria kĩgiĩ ũkinyanĩrĩria kũrĩ rũhonge rwa IATF. Angĩkorũo gĩkundi kĩu no kĩhote gũcokia kĩũria kĩu, ithandũkũ rĩa GitHub nĩ rĩhingũragwo nĩ ũndũ wa wĩra ũcio.",
+      "O mũbango ũrĩa wĩtĩkĩrĩtwo ũkoragwo na gĩikaro kĩa mũingĩ kĩrĩa kĩhũthagĩrũo gũthondeka code, issues, documentation, na releases, na ũrutani ũgatongorio nĩ injinia ũrĩ na ũmenyeru."
+    ],
+    "specCard": {
+      "title": "Mũhaano wa wĩra wa mũingĩ",
+      "terms": [
+        {
+          "term": "Kũbatarania",
+          "definition": "Thĩna wa ma Ũhoro-inĩ Wĩgiĩ Kũrigĩrĩria"
+        },
+        {
+          "term": "Gũthuthuria",
+          "definition": "Kũiganĩra wĩra-inĩ na kũhoteka kũna"
+        },
+        {
+          "term": "Gĩikaro kĩa mũbango",
+          "definition": "Gĩikaro kĩa GitHub kĩa mũingĩ"
+        },
+        {
+          "term": "Ũramati",
+          "definition": "Ũnene wa kĩama kĩa IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Mĩthiĩre",
+      "title": "Ũrĩa Ũrutaga Wĩra",
+      "intro": "Mũhaano ũcio ũkoragwo ũrĩ mũnini nĩguo mũndũ ahote kũrũmĩrĩra njĩra ĩrĩa ĩhũthagĩrũo nĩ andũ aingĩ."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ũbataro nĩ ũheanĩtwo",
+        "paragraphs": [
+          "Kĩama, gĩkundi, kana mũndũ ũmwe no atũme ihoya kũringana na mabataro ma ma.",
+          "Ciũria no ciambĩrĩrio kũhĩtũkĩra website, kũgerera e-mail: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kana kũgerera Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF nĩ ĩcũũranagia ũhoro ũcio",
+        "paragraphs": [
+          "Nĩ tũthuthuragia kana wĩra ũcio nĩ wagĩrĩire kũrutwo, kana nĩ ũhũthĩkaga, na kana no ũkorũo ũrutagĩrũo mũbango-inĩ wa andũ othe."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Gũgathondekwo Kĩhumo kĩa Ũhoro wa Gũtũũrithia",
+        "paragraphs": [
+          "Angĩkorũo wĩra nĩ wĩtĩkĩririo, ũcabagwo thĩinĩ wa rũhonge rwa IATF GitHub rungu rwa rũtha rwa copyleft.",
+          "Gĩikaro kĩu gĩgatuĩka gĩikaro kĩa mũingĩ kĩa code, issues, documentation, na releases."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Mũinjinia ũrĩ na ũmenyeru nĩwe ũtongoragia wĩra ũcio",
+        "paragraphs": [
+          "Mũhandisi ũrĩa ũrutaga wĩra ũcio nĩ aheagwo wĩra ũcio, na wĩra ũcio ũrutagwo handũ ha mũingĩ."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kĩrĩkanĩro",
+      "title": "Rũrenda rwa maũndũ ma mũbango ma mũingĩ"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Thoma haha",
+      "title": "Gũthuthuria wĩra ũrĩa ũrathiĩ na mbere kana kwambĩrĩria mũbango mũna"
+    },
+    "paragraphs": [
+      "Hũthĩra mburogo kuona kĩrĩa kĩrĩ kĩa mũingĩ, kana wambĩrĩrie gũthikĩrĩria angĩkorũo thĩna mũna wa ũkinyanĩrĩria no ũtuĩke mũbango."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

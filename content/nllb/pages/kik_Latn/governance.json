@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Ũtongoria na mũtaratara wa kũiga ũhoro",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Ũtongoria na mũtaratara wa kũiga ũhoro",
+    "lead": "IATF ĩgũtũũria mĩbango ya ũkinyanĩri ĩrĩ ya mũingĩ, ya gũthomeka, na ya kũmenyererũo.",
+    "support": [
+      "Thĩinĩ wa gĩcunjĩ gĩkĩ nĩ gũtaarĩirio maũndũ marĩa magĩrĩire kũhũthĩrũo, ũrĩa nduka cia kũiga ũhoro ikoragwo itwarĩtwo, na maũndũ marĩa mũndũ agĩrĩirũo nĩ kũhingia thutha wa gwĩtĩkĩra nduka ĩyo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Mawatho",
+      "title": "Kũiganĩra wĩra-inĩ, ũtongoria, kũheo marũa ma kũruta wĩra"
+    },
+    "cards": [
+      {
+        "title": "Kũhingia Wĩra Ũrĩa Wathondekirũo",
+        "paragraphs": [
+          "Ngwatanĩro ya IATF nĩ ĩtĩkagĩra wĩra ũrĩa ũhũthagĩrũo kũniina mũhĩnga wa kũhũthĩka na ũkoragwo na ũguni harĩ mũingĩ.",
+          "Mũbango wagĩrĩirũo gũkorũo ũrĩ wa kũguna makĩria ma mũtaratara wa wĩra wa mũndũ kĩũmbe na wa kũhũthĩka ta mũtambo wa ũhoro wa andũ othe.",
+          "IATF ĩhũthagĩra ũhoro wĩgiĩ kũhingũrwo kwa intaneti [W3C WAI](https://www.w3.org/WAI/) Ũmenyeru wa ĩmwe kwa ĩmwe wa arĩa mahũthagĩra tekinolonjĩ cia gũteithĩrĩria ningĩ nĩ ũira wa ũndũ ũrĩa ũrutaga wĩra ũhũthĩrĩ-inĩ wa ma."
+        ]
+      },
+      {
+        "title": "Gwĩtĩkĩra Mũbango",
+        "paragraphs": [
+          "Mũbango no wĩtĩkĩrĩke angĩkorũo ũthuthuria nĩ wonanĩtie atĩ:"
+        ],
+        "items": [
+          "nĩ ĩhotaga kũhingia mabataro ma kũhingĩrũo",
+          "kĩũria nĩ kĩhũthũ gũtaũkĩrũo nĩ kĩo",
+          "mũtaratara nĩ wa kĩhooto kũhingũra",
+          "wĩra ũratwarana na wĩra wa IATF",
+          "nĩ kũrĩ na njĩra njega ya kũrũgamĩrĩra kana kũrĩkia"
+        ]
+      },
+      {
+        "title": "Wĩyathi wa gwĩthuurĩra",
+        "paragraphs": [
+          "Mĩbango ĩrĩa ĩtĩkĩrĩkĩte ĩrutagwo rungu rwa rũhonge rwa IATF rwa GitHub.",
+          "Mabuku macio makoragwo kuo na kwoguo o mũbango ũkoragwo ũrĩ mũciĩ mwega wa mũingĩ, o na angĩkorũo thutha-inĩ andũ arĩa mamarũmbũyagia nĩ macenjagia."
+        ]
+      },
+      {
+        "title": "Kũheana Marũa ma Wĩra",
+        "paragraphs": [
+          "Mĩbango ya IATF ĩhũthagĩra rũthiomi rwa copyleft tiga mũbango ũronania ũndũ ũngĩ:"
+        ],
+        "items": [
+          "<strong>Kĩrĩkanĩro:</strong> AGPL-3.0",
+          "<strong>Ũhoro ũrĩa ũrĩ marũa-inĩ:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injinia kana mũndũ ũrĩa ũrutaga wĩra wa kũiga indo wega",
+      "paragraphs": [
+        "O mũbango ũrĩa wĩtĩkĩrĩtwo wagĩrĩirũo gũkorũo na mũndũ wĩtagwo ũrĩa ũrutaga wĩra wa gũthondeka kana wa kũrũgamĩrĩra ũhoro ũcio. Mũndũ ũcio no ahote kũheo mweke wa gũtongoria ũhoro ũcio na nĩ erĩgagĩrĩrũo:"
+      ],
+      "items": [
+        "gũtaarĩria maũndũ ma ũthii wa na mbere mũingĩ-inĩ",
+        "gũtũũria mũbango wa kũiga ũhoro",
+        "gũthuthuria kana kũrũgamĩrĩra maũndũ na kũruta ihoya",
+        "gũtaarĩria matua ma bata ma tekinolonjĩ",
+        "gũtigĩrĩra atĩ arĩa angĩ nĩ mataũkagĩrũo nĩ ũrĩa ũrathiĩ"
+      ],
+      "footnote": "Ũũ nĩ wĩra wa level ya repository. Ũnene wa rũhonge ũikaraga na IATF. Ũũru wa wĩra ũyũ nĩ wa ũtuĩria wa ũikaro, ũtongoria wa tekinoronjĩ, na mũbango wa mũingĩ  ti wa kũheana ũtugi ũtarĩ na mĩhaka, ũnyitanĩri wa mwanya, kana mĩbango ya level ya ũtungata ĩrĩa ĩtarĩ ya mũingĩ."
+    },
+    "publicDevelopment": {
+      "title": "Ũteithio wa mũingĩ",
+      "paragraphs": [
+        "Mĩbango ĩrĩa yambĩrĩirio kũgerera IATF ĩkoragwo ĩrĩ ya mũingĩ."
+      ],
+      "items": [
+        "kĩhumo kĩa ũhoro ũcio",
+        "maũndũ",
+        "ũhoro ũrĩa ũrĩ thĩinĩ wa marũa macio",
+        "Marũa ma mũbango wa rũgendo",
+        "hithitori ya kũrekererio"
+      ],
+      "footnote": "Ũmenyo ũrĩa wa bata wĩgiĩ mũbango ndwagĩrĩirũo kũigwo tu thĩinĩ wa ndũmĩrĩri kana ndemwa cia marũa."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Rekondi cia mũingĩ",
+      "title": "Rekondi cia marũa ma kũhoya andũ"
+    },
+    "paragraphs": [
+      "IATF ĩrutaga wĩra thĩiniĩ wa mũingĩ na njĩra ya gwĩthuurĩra. Ciũria iria ciingĩra IAT F kũgerera website, e-mail, Discord, GitHub, kana njĩra ingĩ cia IAT, no ikorwo irĩ rekondi cia mũingĩ.",
+      "IATF no ĩtaarĩrie na njĩra nguhĩ, ĩrũnge, kana ĩcokie ũhoro mbere ya kũrutwo nĩguo ũhote gũthuthuria bata wa kũhingũrwo hatarĩ ũhoro ũngĩ ũtarĩ wa mũndũ kĩũmbe.",
+      "Rekondi cia mahoya ma mũingĩ no ciigwo thĩinĩ wa kĩama kĩa IATF GitHub, thĩinĩ wa website ĩno, kana cierĩ.",
+      "Mbere ya gũcabwo, IATF nĩ ĩkũeheria maũndũ matarĩ ma o mũhaka ma kwaranĩria na andũ, andirethi cia mũndũ kĩũmbe, na maũndũ marĩa mangĩhota gũkũũrana mũndũ ũrĩa ũrahũthĩra tekinoronjĩ cia gũteithĩrĩria angĩkorũo gũcabithia ũhoro ũcio gũtiagĩrĩire na nĩ kwagĩrĩire.",
+      "Discord ĩhũthagĩrwo kũiguithania maũndũ na njĩra ĩtarĩ ya kĩwatho. IATF ndĩigagĩra mĩario ya Discord na njĩra nguhĩ, na ũhoro ũrĩa ũigagwo nĩ Discord. Itua rĩrĩa rĩtuĩtwo thĩinĩ wa Discord rĩagĩrĩirwo nĩ gũcokanĩrĩrio thĩinĩ wa rekondi ya mũingĩ thĩinĩ wa GitHub kana karatathi-inĩ ka kĩbungo kĩrĩa kĩhutĩtie.",
+      "Rekondi cia gwetha itikoragwo irĩ cia injini ya gũcaria harĩa kũngĩhoteka kũhũthĩra njĩra cia tekinoronjĩ.",
+      "IATF no ĩgarũre kana ĩrute rekondi kuuma icunjĩ cia ũingĩ iria ĩrũgamagĩrĩrũo nĩIATF, no ndĩhotaga kũheana ũgitĩri wa kũruta rekodi kuuma kũrĩ andũ angĩ, noticiations, forks, screenshots, search engines, Discord, kana indo ingĩ cia kuuma na nja.",
+      "Angĩkorũo ndũmĩrĩri no mũhaka ĩikare ĩrĩ ya mũndũ kĩũmbe, ndũkamĩtũme kũgerera njĩra cia IATF iria cionekaga nĩ andũ othe."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Itemi rĩa Ithondeka",
+      "title": "Kĩhaaro"
+    },
+    "lead": "Mũrũgamĩrĩri nĩ akoragwo na ũtongoria wa IATF thĩiniĩ wa rũhonge. Ũndũ ũyũ nĩ ngũrani na wĩra wa injinia ũrĩa ũrũgamĩrĩire projeke: mũrũgamĩri nĩ arũgamĩrĩire kĩama gĩothe, no ti ũtongoria ũrĩa ũrutagwo o mũthenya wa gĩikaro o gĩothe.",
+    "duties": {
+      "title": "Wĩra wa kĩgongoona kĩu",
+      "items": [
+        "Kũgwatithania ũheani wa mwene rũhonge rwa IATF GitHub",
+        "Kũnyita mbaru itua rĩa gwĩtĩkĩra mũbango na rĩa kũiga marũa ma kũiga",
+        "Kũruta wĩra ta kĩhũngĩro gĩa kwaranĩria na mũingĩ kĩa IATF",
+        "Kũbanga ithurano cia o mwaka"
+      ],
+      "footnote": "Mũrũgamĩrĩri ndagathondeka IATF kũheana indo na njĩra ya ũtuĩria, kũruta wĩra na mũcaara, kana kũgĩa na kĩrĩkanĩro kĩa ũhũthĩri wa indo, na ndakoragwo na ũhoti wa gũtua matua megiĩ ũtongoria wa tekinoronjĩ."
+    },
+    "election": {
+      "title": "Gũthuurwo o mwaka",
+      "paragraphs": [
+        "Mũrũgamĩrĩri athuuragwo o mwaka, na gĩthurano kĩu gĩthiaga na mbere ciumia igĩrĩ cia mbere cia mweri wa Dithemba, na moimĩrĩro makamenyekana mbere ya Dicemba 15, na gĩthomo kĩrĩa kĩerũ kĩambĩrĩria Janũarĩ 1.",
+        "Andũ arĩa marĩ na kĩhooto gĩa gũthuura nĩ andũ arĩa makoretwo na itemi rĩa kũrũgamia kĩhumo o gĩothe kĩa IATF mwaka-inĩ ũcio na magakorwo na mũhothi ũmwe wa kũnyitithanĩrio kĩhingo-inĩ kĩa ũtuĩria kĩa kĩo mwaka ũcio. O mũthuuri arĩ na gĩthimi kĩmwe. Mũrũgamĩrĩri ũrĩa ũkoragwo na mĩhothi mĩingĩ nĩwe ũhootanaga; angĩkorwo gũtikoragwo na ũiguano, gĩthurano gĩa kerĩ gĩekagwo kiumia gĩa gatatũ gĩa mweri wa Kanyua Hũngũ.",
+        "Ũthuurano ũcio ũrutagwo ta mũcemanio wa GitHub thĩinĩ wa IATF, kwoguo andũ arĩa magũcagĩrĩria, ũikia wa mĩtĩ, na moimĩrĩro mothe nĩ ma rekondi ya mũingĩ."
+      ]
+    },
+    "continuity": {
+      "title": "Gũthiĩ na Mbere",
+      "paragraphs": [
+        "Angĩkorũo gũtikoragwo na gĩthurano mwaka-inĩ mũna, ũrĩa ũratongoria no athiĩ na mbere wĩra-inĩ ũcio kinya gĩthurano kĩrĩa kĩrũmĩrĩire.",
+        "Mũikarĩri njũng'wa no atigane na gĩthurano kĩu hĩndĩ o yothe."
+      ]
+    },
+    "current": {
+      "title": "Mũtongoria wa mahinda maya",
+      "fields": [
+        {
+          "label": "Kĩhaaro",
+          "value": "mũgũgũta",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Kiugo",
+          "value": "Gũkinyĩria gĩthurano gĩa Dicemba 2026"
+        },
+        {
+          "label": "Wĩra Ũrĩa Wathondeketwo",
+          "value": "2026"
+        },
+        {
+          "label": "Gĩthuurano kĩa mbere gĩthondeketwo",
+          "value": "Dicemba 2026"
+        }
+      ]
+    },
+    "footnote": "Gĩikaro kĩa mũtongoria kĩambĩrĩirio mwaka wa 2026 nĩguo kũgĩe na ũtongoria mũbango-inĩ."
+  },
+  "continuity": {
+    "states": {
+      "title": "Mĩbango ya Mũbango",
+      "paragraphs": [
+        "Mĩbango ĩhũthagĩra gĩkundi kĩnini kĩa mabũrũri ma mũingĩ:"
+      ],
+      "items": [
+        "Itua rĩa Gũcokerithia",
+        "Ĩtĩkĩrĩkĩte",
+        "Kũruta Wĩra",
+        "Ũritũ",
+        "Gũcaria mũndũ wa kũrũgamĩrĩra maũndũ",
+        "Maũndũ Marĩa Marĩ Thĩinĩ wa Gũtũũrithia"
+      ],
+      "footnote": "Mawatho macio nĩ matũmaga ũhoro ũcio ũkorũo ũrĩ mũhũthũ gũthuthuria."
+    },
+    "reassignment": {
+      "title": "Gũcokereria na kũiga indo cia mũthithũ",
+      "paragraphs": [
+        "Angĩkorũo mũndũ ũrĩa ũrutaga wĩra wa kũrũmbũiya nĩ athiaga kana akaaga kũruta wĩra, IATF no ĩheane wĩra ũngĩ, ĩrũgamie wĩra ũcio, kana ĩrute wĩra ũcio.",
+        "Ningĩ mũbango no ũhithwo rĩrĩa bata wa kĩambĩrĩria ũhingĩtio, ũmenyeru wathira, kana wĩra wa gũthiĩ na mbere ũtarĩ wa kĩhooto."
+      ],
+      "footnote": "Mĩbango ĩrĩa ĩigagwo icunjĩ-inĩ cia mabuku ĩkoragwo ĩroragũo nĩ andũ othe, tiga angĩkorũo kũrĩ na gĩtũmi kĩega gĩa gwĩka ũguo."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Mũhaka",
+      "title": "Ũrĩa IATF ĩtetĩkĩrĩte"
+    },
+    "items": [
+      "kũheana kũrĩ mũndũ wa gwĩtĩkĩrĩka",
+      "kĩrĩkanĩro kĩa maundu ma ũtungata",
+      "gwĩtĩkĩra o mũbango",
+      "ũmenyeru wa ihinda iraya harĩ o mũbango"
+    ],
+    "footnote": "IATF nĩ mũhianĩre wa kũiga ũhoro mũingĩ-inĩ, no ti wa kũheana ũhoro na njĩra ya ũtuĩria."
+  }
+}

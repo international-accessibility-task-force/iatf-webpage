@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kũhoya mũbango wa gũteithĩka",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kũhoya mũbango wa gũteithĩka",
+    "lead": "IATF nĩ ĩcũũranagia ciũria cia kũhingia mĩbango ya ũkinyanĩria ĩrĩa yoimĩraga harĩ mabataro ma ma.",
+    "support": [
+      "Ndũbataraga gũtaarĩria maũndũ mothe ma mũrimũ ũcio, no mũhaka ũmenye mathĩna marĩa ũrehaga, arĩa ũhutagia, na kĩrĩa gĩtũmaga ũkorũo ũrĩ wa bata."
+    ],
+    "actions": [
+      {
+        "label": "Kwambĩrĩria kũũria",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Hũthĩra Discord handũ ha ũguo",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Njĩra",
+      "title": "Thuura njĩra ĩrĩa hũthũ"
+    },
+    "intro": [
+      "Mĩthiĩre yothe ĩkoragwo na ũthuthuria ũmwe."
+    ],
+    "items": [
+      {
+        "label": "Thĩinĩ wa Intaneti",
+        "body": "Hũthĩra fomu ĩrĩa ĩrĩ haha mũhuro kũheana ihoya rĩtaarĩirio wega."
+      },
+      {
+        "label": "Marũa ma Kĩrĩ Intaneti",
+        "body": "Twandĩkĩre marũa kũrĩ: {{contact.requestsEmail}}Marũa ma kũhoya kũgerera e-mail no matuĩke marũa ma kũũria ma kũguũrio thutha wa gũthuthuria na gũthondeka marũa macio."
+      },
+      {
+        "label": "Gũkararania",
+        "body": "Kwahoteka no wambĩrĩrie hau angĩkorũo ũcio nĩguo ũndũ ũrĩa mũhũthũ."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Mbere ya gũtũma ihoya",
+    "paragraphs": [
+      "IATF ĩrutaga wĩra thĩiniĩ wa mũingĩ.",
+      "Ndũkaahũthĩre marũa ma kũrĩa ũikaraga, namba cia thimũ, maũndũ megiĩ ũrigitani, kana ũhoro ũngĩgũteithia kũmenya mũndũ ũrĩa ũrahũthĩra indo cia gũteithĩrĩria, tiga angĩkorũo nĩ ũrabatara gwĩka ũguo na nĩ wĩtĩkĩrĩtie IATF ĩcirie ũhoro ũcio.",
+      "IATF nĩ yeheragia maũndũ matarĩ ma bata ma kwaranĩria na andũ ĩtanathondeka marũa ma kũhoya ũteithio."
+    ]
+  },
+  "review": {
+    "title": "Gũthuthuria maũndũ marĩa merĩgĩrĩirũo",
+    "paragraphs": [
+      "Kũheana marũa ma gwetha ũteithio ti kuuga atĩ nĩ ũkũheo ũteithio ũcio.",
+      "IATF nĩ ĩcũũranagia ciũria ciĩgiĩ ũhoti wa wĩra ũcio, ũhotekeku, ũhũthĩri, na kana wĩra ũcio nĩ wagĩrĩire kũrekererio kũrĩ andũ othe.",
+      "Ihoya rĩmwe no rĩregwo, rĩrũgamĩrio, kana rĩcenjio mbere ya gwĩtĩkĩrũo."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomu ya kũũria",
+      "title": "Hoya ũteithio"
+    },
+    "fields": [
+      {
+        "kind": "kĩhumo",
+        "name": "mũndũ ũrĩa ũrahoya ũteithio",
+        "label": "Rĩĩtwa rĩaku kana rĩa kĩama gĩaku",
+        "helper": "Nũũ ũrahoya ũndũ ũcio?"
+      },
+      {
+        "kind": "gũthuura",
+        "name": "njĩra ya kwaranĩria",
+        "label": "Njĩra ĩrĩa yagĩrĩire ya kwaranĩria",
+        "helper": "Twagĩrĩirũo kũrũmĩrĩra ũndũ ũcio atĩa?",
+        "required": true,
+        "options": [
+          "Marũa ma Kĩrĩ Intaneti",
+          "Gũkararania"
+        ]
+      },
+      {
+        "kind": "kĩhumo",
+        "name": "Ũhoro Makĩria",
+        "label": "Ũhoro wa kwaranĩria",
+        "helper": "Andirethi ya e-mail kana ndemwa ya Discord ya kũrũmĩrĩra.",
+        "placeholder": "Andirethi ya e-mail kana kĩhũngĩro kĩa Discord",
+        "required": true
+      },
+      {
+        "kind": "kĩhumo",
+        "name": "rũthiomi",
+        "label": "Rũthiomi",
+        "helper": "Rũthiomi rũrĩa wendete, angĩkorũo nĩ rũrabatarania.",
+        "value": "Gĩthũngũ"
+      },
+      {
+        "kind": "gĩcigo gĩa kwandĩkwo",
+        "name": "thĩna",
+        "label": "Nĩ thĩna ũrĩkũ ũrageria kũniina?",
+        "helper": "Taarĩria mũhĩnga ũcio na njĩra hũthũ.",
+        "required": true
+      },
+      {
+        "kind": "gĩcigo gĩa kwandĩkwo",
+        "name": "arĩa mahutĩtio nĩ ũndũ ũcio",
+        "label": "Nĩa magunĩkaga nĩ ũndũ ũcio?",
+        "helper": "Ũndũ ũcio ũngĩteithia ũ?",
+        "required": true
+      },
+      {
+        "kind": "gĩcigo gĩa kwandĩkwo",
+        "name": "extraŨhoro ũrĩa ũrĩ thĩinĩ wa gĩcunjĩ gĩkĩ",
+        "label": "Maũndũ mangĩ",
+        "helper": "Taarĩria ũndũ ũngĩ ũngĩgũteithia gũtaarĩria bata wa ũndũ ũcio: kĩrĩa gĩtũmaga ũkorũo ũrĩ wa bata, cionereria, ũhoro ũngĩhũthĩrũo, rĩciria inene rĩa programu, kana mĩhaka ya mahinda."
+      },
+      {
+        "kind": "gũthuura",
+        "name": "openSourceConsent (Wĩtĩkĩria)",
+        "label": "Hihi nĩ ũiguaga ũiganĩire nĩ ũndũ wa gũteithĩrĩria andũ arĩa angĩ?",
+        "helper": "Mĩbango ĩrĩa ĩtĩkĩrĩkĩte ĩkoragwo ĩrĩ ya ũiguano na IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ĩĩ",
+          "Aca, ti ũguo.",
+          "Ndirĩ na ma"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Angĩkorũo nĩ metĩkĩrĩte",
+      "title": "Ũrĩa gwĩtĩkĩrũo nĩ kuuga"
+    },
+    "items": [
+      "Gĩikaro kĩa mũingĩ thĩinĩ wa rũhonge rwa IATF GitHub",
+      "injinia ũrĩa ũrutaga wĩra mũbango-inĩ ũcio",
+      "rũthiomi rwa copyleft rwa code na indo cia projeke",
+      "ũtuĩria wa mũingĩ thĩinĩ wa mũtambo ũcio",
+      "mũtaratara-inĩ wa IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kwambĩrĩria ndeereti",
+      "title": "Kĩũria kĩhũthũ na kĩa ĩmwe kwa ĩmwe nĩ kĩiganu kwambĩrĩria"
+    },
+    "paragraphs": [
+      "Angĩkorũo nĩ ũrabatara ũteithio na nĩ ũrona atĩ no ũhũthĩrũo mũbango-inĩ wa andũ othe, no ũtũtũmĩre ũteithio ũcio."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

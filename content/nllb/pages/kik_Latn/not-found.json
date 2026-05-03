@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ndangĩonirwo"
+  },
+  "hero": {
+    "eyebrow": "Ndangĩonirwo",
+    "title": "Gĩcunjĩ kĩrĩa kĩragũrirwo gĩtiarĩ ho",
+    "lead": "Hũthĩra mĩthiĩre ĩrĩa ĩrĩ haha mũhuro nĩguo ũcokere gĩikaro-inĩ kĩa mũingĩ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Mũciĩ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Njĩra ĩrĩa woire ndĩrĩ kuo."
+    ],
+    "items": [
+      {
+        "label": "Mũciĩ",
+        "href": "/"
+      },
+      {
+        "label": "Mĩbango",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ũnyitanĩre",
+        "href": "/join/"
+      },
+      {
+        "label": "Gũkinyanĩra",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ũtongoria",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kũmenyeka",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

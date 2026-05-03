@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Mĩbango ya gũteithĩrĩria mũingĩ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Mĩbango ya gũteithĩrĩria mũingĩ",
+    "lead": "Ngathĩti ĩno ĩkoragwo na marũa ma maũndũ ma thirikari marĩa matongoretio nĩ rũhonge rwa IATF. Mĩbango ĩrĩa ĩtĩkĩrĩkĩte ya ũhotekeku wa gũkinyanĩra, mĩbango ya gĩikaro, na indo iria ciathondeketwo cia kĩambĩrĩria nĩ cionekaga haha.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kĩrĩkanĩro",
+      "title": "Rekondi ĩrĩa ĩrĩ ho"
+    },
+    "intro": [
+      "Mabuku marĩa metĩkĩrĩkĩte nĩ marĩrĩirio haha thutha wa gũcabwo."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Hoya ũteithio",
+      "title": "Kũgarũra ũndũ ũbataranagia ũtuĩke mũbango wa mũingĩ"
+    },
+    "paragraphs": [
+      "IATF nĩ ĩcũũranagia maũndũ marĩa mabataranagia nĩguo mũndũ agĩe na ũhoti wa kũhũthĩra ũhoro ũtarĩ mũtheru."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Gũtirĩ mĩbango ĩkoretwo ĩgĩcabwo",
+    "paragraphs": [
+      "IATF nĩ ĩraharĩria mũbango wayo wa mbere.",
+      "O na kũrĩ ũguo, no ũtũme marũa ma kũũria ũteithio angĩkorũo nĩ ũrabatara ũteithio mũna."
+    ]
+  }
+}

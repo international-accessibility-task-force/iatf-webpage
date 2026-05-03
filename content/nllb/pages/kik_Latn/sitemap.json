@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mũbango wa Gĩikaro"
+  },
+  "hero": {
+    "eyebrow": "Mũtaratara",
+    "title": "Mũbango wa Gĩikaro",
+    "lead": "Maũndũ mothe marĩa marĩ thĩinĩ wa iatf.cc, marĩ handũ hamwe."
+  },
+  "sections": [
+    {
+      "title": "Mĩrango ĩrĩa mĩnene",
+      "items": [
+        {
+          "label": "Mũciĩ",
+          "href": "/"
+        },
+        {
+          "label": "Mĩbango",
+          "href": "/projects/"
+        },
+        {
+          "label": "Hoya mũbango",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ũtongoria",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ũnyitanĩre",
+          "href": "/join/"
+        },
+        {
+          "label": "Gũkinyanĩra",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kũmenyeka",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Mĩbango",
+  "projectsEmpty": "Gũtirĩ mĩbango ĩcabĩtwo o na rĩu."
+}
