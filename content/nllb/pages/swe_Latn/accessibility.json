@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Tillgänglighet",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Tillgänglighet",
+    "lead": "IATF strävar efter att hålla denna webbplats enkel, läsbar, tangentbordstillgänglig och kompatibel med hjälpmedel.",
+    "support": [
+      "För webbtillgänglighet använder IATF [W3C WAI](https://www.w3.org/WAI/) Den praktiska tillgängligheten informeras också av användarnas direkta erfarenheter av hjälpmedelsteknik."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapportering",
+      "title": "Rapportera ett tillgänglighetsproblem"
+    },
+    "paragraphs": [
+      "Om du upptäcker ett tillgänglighetshinder på denna webbplats, vänligen rapportera det via e-post:",
+      "{{contact.accessibilityEmail}}",
+      "Användbara rapporter är bland annat följande:"
+    ],
+    "items": [
+      "Sidan där problemet inträffade",
+      "vad du försökte göra",
+      "vilken hjälpmedelsteknik, webbläsare eller enhet du använde, i förekommande fall",
+      "Vad gick fel?",
+      "Vad skulle ha hjälpt?"
+    ],
+    "footnote": "Du behöver inte skriva en formell buggrapport. En tydlig beskrivning räcker."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Hantering",
+      "title": "Hantering av offentliga frågor"
+    },
+    "paragraphs": [
+      "Tillgänglighetsproblem kan sammanfattas i det relevanta offentliga arkivet så att de kan åtgärdas öppet. Personliga kontaktuppgifter och onödig privat information tas bort före offentliggörandet.",
+      "Om din rapport innehåller privat information, säg det tydligt i meddelandet."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Aktuellt tillstånd",
+      "title": "Kända begränsningar"
+    },
+    "paragraphs": [
+      "Denna webbplats är avsiktligt liten och mestadels statisk. Vissa språkversioner kan vara ofullständiga medan översättningar förbereds."
+    ]
+  }
+}

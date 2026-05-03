@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ansluta sig till IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ansluta sig till IATF",
+    "lead": "Medlemskap är öppet. Det finns flera sätt att delta, oavsett om du förlitar dig på hjälpmedel, bygger tillgänglig programvara, översätter, testar eller underhåller ett projekt. Diskussioner och beslut sker offentligt på GitHub och Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Roller",
+      "title": "Sätt att bidra"
+    },
+    "items": [
+      "<strong>Be om ett projekt.</strong> Om du stöter på ett tillgänglighetshinder som kan åtgärdas med offentlig programvara med öppen källkod, skicka det via förfrågan.",
+      "<strong>Test och granskning.</strong> Prova IATF-projekt med den hjälpmedelsteknik du använder, rapportera vad som fungerar och vad som inte fungerar, och arkivera problem direkt i det relevanta repositoriet.",
+      "<strong>Översätt.</strong> Ursprungsinnehållet publiceras först i vanlig engelska. Översättningar läggs till när bidragsgivare är tillgängliga, med början på spanska.",
+      "<strong>Bygg.</strong> Hämta problem i någon IATF-databas, skicka pull-förfrågningar eller ta på dig ett projekt som dess ansvariga ingenjör.",
+      "<strong>Håll kvar.</strong> Existerande projekt behöver ibland en ny underhållare."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanaler",
+      "title": "Om IATF arbetar offentligt"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Frågor, pull-förfrågningar, utgåvor och projektregister.",
+      "<strong>Oenighet.</strong> Levande diskussion, samordning och informella frågor.",
+      "<strong>E-post.</strong> Användning <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> om varken GitHub eller Discord passar."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nästa steg",
+      "title": "Välj den kanal som matchar hur du vill bidra"
+    },
+    "paragraphs": [
+      "Alla kanaler matas in i samma offentliga granskning och samma offentliga databaser."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

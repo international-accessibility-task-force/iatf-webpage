@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Hittades inte"
+  },
+  "hero": {
+    "eyebrow": "Hittades inte",
+    "title": "Den önskade sidan hittades inte",
+    "lead": "Använd huvudvägarna nedan för att återvända till den offentliga platsen.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Hemma",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Den rutt du begärde existerar inte."
+    ],
+    "items": [
+      {
+        "label": "Hemma",
+        "href": "/"
+      },
+      {
+        "label": "Projekt",
+        "href": "/projects/"
+      },
+      {
+        "label": "Gå med",
+        "href": "/join/"
+      },
+      {
+        "label": "Tillgänglighet",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Styrelseformer",
+        "href": "/governance/"
+      },
+      {
+        "label": "Öppenhet",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

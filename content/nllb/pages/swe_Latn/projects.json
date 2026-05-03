@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projekt för tillgänglighet för allmänheten",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projekt för tillgänglighet för allmänheten",
+    "lead": "Detta register listar offentliga projekt som upprätthålls genom IATF. Godkända tillgänglighetsprojekt, webbplatsinfrastruktur och arkiverade prototyper hålls synliga här.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registret",
+      "title": "Aktuellt register"
+    },
+    "intro": [
+      "Godkända projekt redovisas här när de har offentliggjorts."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Överlämna ett behov",
+      "title": "Förvandla ett konkret tillgänglighetsbehov till ett offentligt projekt"
+    },
+    "paragraphs": [
+      "IATF granskar konkreta tillgänglighetsbehov som kan omvandlas till användbart offentligt öppet källkodsarbete."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Inga projekt publicerade ännu",
+    "paragraphs": [
+      "IATF förbereder sin första offentliga uppsättning projekt.",
+      "Du kan fortfarande skicka en begäran om du har ett konkret behov av tillgänglighet."
+    ]
+  }
+}

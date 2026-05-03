@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Från tillgänglighetsbehov till offentliga repos",
+    "lead": "IATF hjälper föreningar, grupper och individer att omvandla verkliga tillgänglighetsbehov till offentliga projekt med öppen källkod.",
+    "support": [
+      "Godkända projekt publiceras i IATFs GitHub-organisation under en copyleft-licens och utvecklas offentligt av en ansvarig ingenjör."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Offentlig verksamhetsmodell",
+      "title": "En enkel offentlig väg för tillgänglig programvara"
+    },
+    "paragraphs": [
+      "Genom ett formulär kan vem som helst skicka ett tillgänglighetsproblem till IATF.",
+      "Varje godkänd projekt har ett tydligt offentligt hem för kod, problem, dokumentation och utgåvor, med utveckling som leds i det öppna av en ansvarig ingenjör."
+    ],
+    "specCard": {
+      "title": "Offentlig verksamhetsmodell",
+      "terms": [
+        {
+          "term": "Behov",
+          "definition": "Verkliga problem med tillgängligheten"
+        },
+        {
+          "term": "Översyn",
+          "definition": "Uppdragets lämplighet och praktiska genomförbarhet"
+        },
+        {
+          "term": "Projektutrymme",
+          "definition": "Offentlig GitHub-databas"
+        },
+        {
+          "term": "Förvaltningsansvar",
+          "definition": "IATF:s organisatoriska ägarskap"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Förfarande",
+      "title": "Hur det fungerar",
+      "intro": "Modellen är avsiktligt liten så den allmänna vägen är lätt att följa."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ett behov lämnas in",
+        "paragraphs": [
+          "En förening, en grupp eller en enskild person kan lämna in en begäran som grundar sig på ett verkligt behov av tillgänglighet.",
+          "Förfrågningar kan startas via webbplatsen, via e-post till <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, eller genom Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF granskar den",
+        "paragraphs": [
+          "Vi granskar uppdragets lämplighet, praktiska räckvidd och om arbetet hör hemma i ett öppet källkodsprojekt."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ett offentligt arkiv skapas",
+        "paragraphs": [
+          "Om ett projekt accepteras publiceras det i IATF GitHub-organisationen under en copyleft-licens.",
+          "Repositoriet blir det offentliga hemmet för koden, frågor, dokumentation och utgåvor."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "En ansvarig ingenjör leder projektet",
+        "paragraphs": [
+          "En ansvarig ingenjör tilldelas projektregistret och utvecklingen sker offentligt."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registret",
+      "title": "Offentligt projektregister"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Börja här.",
+      "title": "Sök igenom aktuellt arbete eller starta ett konkret projekt"
+    },
+    "paragraphs": [
+      "Använd registret för att se vad som redan är offentligt tillgängligt, eller starta upptagningen om ett konkret tillgänglighetsproblem skulle bli ett projekt."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

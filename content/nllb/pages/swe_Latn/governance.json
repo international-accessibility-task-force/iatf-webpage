@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Förvaltnings- och registermodell",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Förvaltnings- och registermodell",
+    "lead": "IATF håller tillgänglighetsprojekt offentliga, läsbara och underhållsbara.",
+    "support": [
+      "På denna sida förklaras vad som kvalificerar, hur arkiv hålls och vilket ansvar på arkivnivå som gäller efter godkännande."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Föreskrifter",
+      "title": "Anpassning till uppdrag, ägarskap, licensiering"
+    },
+    "cards": [
+      {
+        "title": "Anpassad för uppdrag",
+        "paragraphs": [
+          "IATF accepterar arbete som tar itu med ett verkligt hinder för tillgänglighet och har ett tydligt offentligt värde.",
+          "Ett projekt bör vara användbart utöver ett enskilt privat arbetsflöde och fungera som ett offentligt arkiv.",
+          "För webbtillgänglighet använder IATF [W3C WAI](https://www.w3.org/WAI/) Den direkta erfarenheten från användarna av hjälpmedel är också ett praktiskt bevis på vad som fungerar i verklig användning."
+        ]
+      },
+      {
+        "title": "Godkännande av projekt",
+        "paragraphs": [
+          "Ett förslag kan godtas om en granskning visar att"
+        ],
+        "items": [
+          "Den tillgodoser ett verkligt behov av tillgänglighet.",
+          "Problemet är tillräckligt tydligt för att kunna utvärderas",
+          "Omfattningen är tillräckligt realistisk för att lansera",
+          "Arbetet överensstämmer med IATF:s uppdrag",
+          "det finns en rimlig väg till underhåll eller slutförande"
+        ]
+      },
+      {
+        "title": "Äganderätt till databas",
+        "paragraphs": [
+          "Godkända projekt skapas under IATF GitHub-organisationen.",
+          "Repositories stannar där så varje projekt håller ett stabilt allmänt hem, även om underhållare senare byter."
+        ]
+      },
+      {
+        "title": "Tillståndsgivning",
+        "paragraphs": [
+          "IATF-projekt använder copyleft-licenser om inte ett projekt anger något annat:"
+        ],
+        "items": [
+          "<strong>Kod:</strong> AGPL-3.0",
+          "<strong>Dokumentation:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ansvarig ingenjör eller underhållspersonal",
+      "paragraphs": [
+        "Varje godkänd projekt bör ha en namngiven ansvarig ingenjör eller underhållare."
+      ],
+      "items": [
+        "Guideutveckling i allmänhet",
+        "upprätthålla databasstrukturen",
+        "granska eller hantera problem och hämta förfrågningar",
+        "Dokumentera viktiga tekniska beslut",
+        "göra projektet förståeligt för andra"
+      ],
+      "footnote": "Detta är ansvar på lagringsnivå. Organisatoriskt ägande stannar hos IATF. Ansvaret här är lagringsförvaltning, teknisk ledning och offentlig samordning  inte obegränsad privat leverans, anpassade integrationer eller servicenivååtaganden utanför den offentliga färdplanen."
+    },
+    "publicDevelopment": {
+      "title": "Offentlig utveckling",
+      "paragraphs": [
+        "Projekt som lanseras genom IATF utvecklas i allmänhet som standard."
+      ],
+      "items": [
+        "Källkod",
+        "Frågor",
+        "dokumentation",
+        "Anmärkningar om färdplanen",
+        "Utgivningshistorik"
+      ],
+      "footnote": "Viktig projektkunskap bör inte bara finnas i privata chattar eller inkorgar."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Offentliga register",
+      "title": "Offentliga förfrågningsregister"
+    },
+    "paragraphs": [
+      "Förfrågningar som skickas till IATF via webbplatsen, e-post, Discord, GitHub eller andra kanaler kan bli offentliga förfrågningsregister.",
+      "Ett offentligt förfrågningsregister är inte nödvändigtvis det ursprungliga meddelandet. IATF kan sammanfatta, redigera eller omstrukturera en förfrågan före offentliggörandet så att tillgänglighetsbehovet kan ses över utan att exponera onödig personlig information.",
+      "Offentliga förfrågningsregister kan lagras i IATF:s GitHub-organisation, på denna webbplats eller båda.",
+      "Innan publikationen offentliggörs ska IATF ta bort onödiga personliga kontaktuppgifter, privata adresser och identifierande uppgifter om enskilda användare av hjälpmedel, såvida inte offentliggörandet är klart avsett och lämpligt.",
+      "Discord används för informell samordning. IATF arkiverar inte separata Discord-samtal som standard, och meddelandets lagring kontrolleras av Discord. Beslut som fattas i Discord bör sammanfattas i det offentliga registret på GitHub eller på den relevanta projektsidan.",
+      "Begäran poster är uteslutna från sökmotor indexering där tekniskt praktiskt. Offentlig betyder granskningsbar och ansvarig. Det betyder inte optimerad för upptäckt genom namn sökningar.",
+      "IATF kan uppdatera eller ta bort poster från offentliga ytor som kontrolleras av den, men kan inte garantera borttagning från cacher, meddelanden, gafflar, skärmdumpar, sökmotorer, Discord eller andra externa system från tredje part.",
+      "Om ett meddelande måste förbli privat ska det inte skickas via IATF:s offentliga kanaler."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisatorisk roll",
+      "title": "Ordförandeskap"
+    },
+    "lead": "Ordföranden har ansvar för IATF på organisationsnivå, vilket skiljer sig från rollen som projektansvarig ingenjör: ordföranden är ansvarig för organisationen som helhet, inte för den dagliga ledningen av ett enskilt arkiv.",
+    "duties": {
+      "title": "Vad stolen gör",
+      "items": [
+        "Håller ägartillstånd på IATF GitHub- organisationen",
+        "Undertecknar beslut om projektgodkännande och arkivering",
+        "Verkar som den offentliga kontaktpunkten för IATF",
+        "Samordnar det årliga valet"
+      ],
+      "footnote": "Ordföranden förbinder inte IATF till privata leveranser, betald arbete eller avtal om servicenivå, och har inte företräde över beslut som fattas per registeransvariga om teknisk ledning."
+    },
+    "election": {
+      "title": "Årliga val",
+      "paragraphs": [
+        "Ordföranden väljs en gång om året, valet äger rum under de två första veckorna i december, resultaten offentliggörs senast den 15 december och den nya mandatperioden börjar den 1 januari.",
+        "Kvalificerade väljare är personer som innehar en underhållsroll på någon IATF-databas under året och som har gjort minst ett sammanslagningsbidrag till en IAT F-database under det året.",
+        "Valet körs som en offentlig GitHub-diskussion i den utsedda IATF-styrningsplatsen, så kandidaterna, omröstningen och resultatet är alla en del av den offentliga dokumentationen."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitet",
+      "paragraphs": [
+        "Om inget val hålls under ett visst år fortsätter den nuvarande ordföranden i rollen fram till nästa val. Detta är en obestämd fortsättning, inte en grace period - modellen är utformad för att hålla organisationen stabil när aktiviteten är låg, inte för att tvinga en övergång som ingen är redo för.",
+        "Ordföranden kan när som helst avgå.Aktiva förvaltare kan också kalla till extraordinära val med angivna skäl, enligt samma regler som det årliga valet."
+      ]
+    },
+    "current": {
+      "title": "Nuvarande ordförande",
+      "fields": [
+        {
+          "label": "Ordförandeskap",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Uttryck",
+          "value": "Fram till valet i december 2026"
+        },
+        {
+          "label": "Formaliserad roll",
+          "value": "2026"
+        },
+        {
+          "label": "Första planerade valet",
+          "value": "december 2026"
+        }
+      ]
+    },
+    "footnote": "Ordförandens roll formaliserades år 2026 för att göra förvaltningen på organisationsnivå tydlig. Fram till dess hölls det organisatoriska ansvaret informellt av grundaren."
+  },
+  "continuity": {
+    "states": {
+      "title": "Projektets status",
+      "paragraphs": [
+        "Projekt använder en liten uppsättning offentliga stater:"
+      ],
+      "items": [
+        "Förslag",
+        "Godkänd",
+        "Aktivt",
+        "Stabil",
+        "Söker underhållare",
+        "Arkiverat"
+      ],
+      "footnote": "Dessa stater gör registret lätt att skanna."
+    },
+    "reassignment": {
+      "title": "Återanvändning och arkivering",
+      "paragraphs": [
+        "Om en underhållsansvarig avgår eller blir inaktiv kan IATF omfördela ansvaret, pausa utvecklingen eller arkivera projektet.",
+        "Ett projekt kan också arkiveras när det ursprungliga behovet har uppfyllts, underhållet har upphört eller det inte längre är realistiskt att fortsätta arbetet."
+      ],
+      "footnote": "Arkiverade projekt förblir allmänt synliga om det inte finns en tvingande anledning att göra annorlunda."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Gränsanmärkning",
+      "title": "Vad IATF inte garanterar"
+    },
+    "items": [
+      "leverans till privatkund",
+      "Tjänsteavtal",
+      "godtagande av varje förslag",
+      "långsiktigt underhåll för varje projekt"
+    ],
+    "footnote": "IATF är en offentlig databasmodell, inte en privat leveranstjänst."
+  }
+}

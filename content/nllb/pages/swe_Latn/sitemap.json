@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Karta över webbplatsen"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Karta över webbplatsen",
+    "lead": "Alla offentliga sidor på IATF.CC, på ett ställe."
+  },
+  "sections": [
+    {
+      "title": "Huvudsidor",
+      "items": [
+        {
+          "label": "Hemma",
+          "href": "/"
+        },
+        {
+          "label": "Projekt",
+          "href": "/projects/"
+        },
+        {
+          "label": "Begär ett projekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Styrelseformer",
+          "href": "/governance/"
+        },
+        {
+          "label": "Gå med",
+          "href": "/join/"
+        },
+        {
+          "label": "Tillgänglighet",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Öppenhet",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekt",
+  "projectsEmpty": "Inga projekt publicerade ännu."
+}

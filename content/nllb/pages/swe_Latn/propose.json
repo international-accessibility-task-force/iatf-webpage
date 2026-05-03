@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Begära ett tillgänglighetsprojekt",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Begära ett tillgänglighetsprojekt",
+    "lead": "IATF granskar ansökningar om tillgänglighetsprojekt som utgår från ett verkligt behov.",
+    "support": [
+      "Det räcker med ett tydligt problem, vem det påverkar och varför det är viktigt."
+    ],
+    "actions": [
+      {
+        "label": "Starta en förfrågan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Använd Discord istället",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanaler",
+      "title": "Välj den enklaste vägen."
+    },
+    "intro": [
+      "Alla rutter ingår i samma granskning."
+    ],
+    "items": [
+      {
+        "label": "Webbplats",
+        "body": "Använd formuläret nedan för att skicka in en strukturerad begäran."
+      },
+      {
+        "label": "E-postadress",
+        "body": "Skicka begäran direkt till {{contact.requestsEmail}}E-postförfrågningar kan bli offentliga förfrågningsregister efter granskning och redigering."
+      },
+      {
+        "label": "Oenighet",
+        "body": "Börja där om det är lättast."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Innan du skickar en begäran",
+    "paragraphs": [
+      "Förfrågningar kan sammanfattas och publiceras som offentliga förfrågningsregister i IATF GitHub-organisationen, på denna webbplats eller båda.",
+      "Ange inte privata adresser, telefonnummer, medicinska uppgifter eller identifierande information om enskilda användare av hjälpmedel såvida det inte är nödvändigt och du är bekväm med att IATF granskar det.",
+      "IATF tar bort onödiga personliga kontaktuppgifter innan de offentliggör uppgifter om förfrågningar."
+    ]
+  },
+  "review": {
+    "title": "Översyn av förväntningar",
+    "paragraphs": [
+      "Att en ansökan lämnas in garanterar inte att den godkänns.",
+      "IATF granskar förfrågningar om uppdragets lämplighet, genomförbarhet, användbarhet och om arbetet hör hemma i ett offentligt arkiv.",
+      "Vissa förfrågningar kan avvisas, skjutas upp eller omformas innan de godtas."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Ansökningsformulär",
+      "title": "Inlämna en begäran"
+    },
+    "fields": [
+      {
+        "kind": "Inmatning",
+        "name": "ansökande",
+        "label": "Ditt namn eller din organisation",
+        "helper": "Vem begär det?"
+      },
+      {
+        "kind": "Välj",
+        "name": "Kontaktväg",
+        "label": "Föredragna kontaktväg",
+        "helper": "Hur ska uppföljningen ske?",
+        "required": true,
+        "options": [
+          "E-postadress",
+          "Oenighet"
+        ]
+      },
+      {
+        "kind": "Inmatning",
+        "name": "Kontaktuppgifter",
+        "label": "Kontaktuppgifter",
+        "helper": "E-postadress eller Discord-adress för uppföljning.",
+        "placeholder": "E-postadress eller Discord-adress",
+        "required": true
+      },
+      {
+        "kind": "Inmatning",
+        "name": "språk",
+        "label": "Språk",
+        "helper": "Ditt föredragna språk, om det är relevant.",
+        "value": "Engelska"
+      },
+      {
+        "kind": "Textområde",
+        "name": "problem",
+        "label": "Vilket problem försöker du lösa?",
+        "helper": "Beskriv barriären med enkla ord.",
+        "required": true
+      },
+      {
+        "kind": "Textområde",
+        "name": "Påverkade användare",
+        "label": "Vilka påverkas?",
+        "helper": "Vem skulle det här hjälpa?",
+        "required": true
+      },
+      {
+        "kind": "Textområde",
+        "name": "extraKontext",
+        "label": "Ytterligare sammanhang",
+        "helper": "Dela något annat som hjälper till att förklara behovet: varför det är viktigt, exempel, referenser, en grov programvaruidé eller tidsbegränsningar."
+      },
+      {
+        "kind": "Välj",
+        "name": "openSourceConsent",
+        "label": "Är du bekväm med öppen källkod?",
+        "helper": "Godkända projekt är offentliga arkiv inom IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ja, det gör jag.",
+          "Nej, det gör jag inte.",
+          "Jag vet inte än."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Om det godkänns",
+      "title": "Vad acceptans innebär"
+    },
+    "items": [
+      "ett offentligt arkiv i IATF:s GitHub-organisation",
+      "en ansvarig ingenjör som tilldelats projektet",
+      "en copyleft-licens för koden och projektmaterialet",
+      "offentlig utveckling i databasen",
+      "En post i registret på IATF:s webbplats"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Börja konversationen",
+      "title": "En kort och tydlig begäran räcker för att börja"
+    },
+    "paragraphs": [
+      "Om du har ett verkligt behov av tillgänglighet och tycker att det borde bli ett offentligt projekt, skicka det till oss."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
