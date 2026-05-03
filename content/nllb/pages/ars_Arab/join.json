@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "انضم لـ IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "انضم لـ IATF",
+    "lead": "العضوية مفتوحة. هناك عدة طرق للمشاركة، سواء كنت تعتمد على التكنولوجيا المساعدة، أو بناء برامج متاحة، أو ترجمة، أو اختبار، أو صيانة مشروع. المناقشات والقرارات تحدث علناً على GitHub و Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "أدوار",
+      "title": "طرق للمساهمة"
+    },
+    "items": [
+      "<strong>اطلب مشروع.</strong> إذا واجهت حاجز الوصول الذي يمكن معالجته بواسطة برنامج مفتوح المصدر العام، ارسله من خلال استلام الطلب.",
+      "<strong>اختبار ومراجعة.</strong> جرب مشاريع IATF مع التكنولوجيا المساعدة التي تستخدمها، وأبلغ عن ما يعمل وما لا يعمل، وقم بتسجيل المشاكل مباشرة في المستودع ذي الصلة.",
+      "<strong>ترجم.</strong> المحتوى المصدر ينشر باللغة الإنجليزية أولاً. تتم إضافة الترجمات كلما كان المساهمون متاحين، بدءًا من الإسبانية.",
+      "<strong>بناء.</strong> اختر مشاكل في اي مخزن لـ IATF، ارسل طلبات سحب، او اتخذ مشروع كمهندس مسؤول عنه.",
+      "<strong>حافظ عليه.</strong> المشاريع الموجودة في بعض الأحيان تحتاج إلى عامل صيانة جديد. دورة عامل الصيانة هو جزء طبيعي من النموذج، وليس استثناء."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "قنوات",
+      "title": "وين يعمل الاتحاد الدولي للصناعات المعدنية في الأماكن العامة؟"
+    },
+    "items": [
+      "<strong>جيت هاب.</strong> قضايا، طلبات سحب، إصدارات، وسجلات المشروع.",
+      "<strong>الخلاف.</strong> مناقشة حية، تنسيق، وأسئلة غير رسمية.",
+      "<strong>بريد الالكتروني.</strong> استخدامه <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> اذا لا جيت هاب ولا ديسكورد تناسب."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "الخطوة التالية",
+      "title": "اختر القناة التي تتطابق مع الطريقة التي تريد المساهمة بها"
+    },
+    "paragraphs": [
+      "كل القنوات تتغذى على نفس المراجعة العامة ونفس المستودعات العامة."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "خريطة الموقع"
+  },
+  "hero": {
+    "eyebrow": "مؤشر",
+    "title": "خريطة الموقع",
+    "lead": "كل صفحة عامة على iatf.cc، في مكان واحد."
+  },
+  "sections": [
+    {
+      "title": "الصفحات الرئيسية",
+      "items": [
+        {
+          "label": "البيت",
+          "href": "/"
+        },
+        {
+          "label": "مشاريع",
+          "href": "/projects/"
+        },
+        {
+          "label": "اطلب مشروع",
+          "href": "/propose/"
+        },
+        {
+          "label": "الحوكمة",
+          "href": "/governance/"
+        },
+        {
+          "label": "انضم",
+          "href": "/join/"
+        },
+        {
+          "label": "إمكانية الوصول",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "الشفافية",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "مشاريع",
+  "projectsEmpty": "ما تم نشر أي مشاريع لحد الآن."
+}
