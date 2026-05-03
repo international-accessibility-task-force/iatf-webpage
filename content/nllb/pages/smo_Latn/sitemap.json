@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Faʻafanua o le Nofoaga"
+  },
+  "hero": {
+    "eyebrow": "Faasino Upu",
+    "title": "Faʻafanua o le Nofoaga",
+    "lead": "O itulau uma i luga o le iatf.cc, i le nofoaga e tasi."
+  },
+  "sections": [
+    {
+      "title": "Itulau autū",
+      "items": [
+        {
+          "label": "Aiga",
+          "href": "/"
+        },
+        {
+          "label": "Poloketi",
+          "href": "/projects/"
+        },
+        {
+          "label": "Talosagaina se galuega faatino",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pulega",
+          "href": "/governance/"
+        },
+        {
+          "label": "Auai",
+          "href": "/join/"
+        },
+        {
+          "label": "Avanoa",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Faalilolilo",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Poloketi",
+  "projectsEmpty": "E leai ni galuega faatino na lomia i le taimi nei."
+}

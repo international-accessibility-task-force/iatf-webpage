@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Auai i le IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Auai i le IATF",
+    "lead": "O le avea ma sui auai e tatala. E tele auala e auai ai, pe e te faalagolago i tekinolosi fesoasoani, fausia polokalama faigofie ona maua, faaliliu, tofotofoina, po o le tausia o se galuega faatino. O talanoaga ma faaiuga e faia i le lautele i GitHub ma Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Matafaioi",
+      "title": "Auala e faia ai se sao"
+    },
+    "items": [
+      "<strong>Talosagaina se galuega faatino.</strong> Afai e te fetaiaʻi ma se faʻafitauli e mafai ona foʻia e se polokalame tatala, ia auina atu e ala i le talosaga.",
+      "<strong>Suʻesuʻe ma toe iloilo.</strong> Taumafai IATF poloketi ma le fesoasoani tekonolosi o loʻo e faʻaaogaina, lipoti mea e aoga ma mea e le aoga, ma faila faʻafitauli saʻo i luga o le talafeagai faʻamaumauga.",
+      "<strong>Faaliliu.</strong> E lomia muamua mataupu i le gagana Peretania, ona faaopoopo lea o faaliliuga pe a maua e le au fai sao, e amata mai i le faa-Sipaniolo.",
+      "<strong>Ia atiaʻe.</strong> Filifili mataupu i so o se repository IATF, auina atu talosaga toso, po o le ave i luga o se galuega faatino e pei ona inisinia nafa.",
+      "<strong>Ia faatumauina.</strong> O galuega faatino o loo i ai i le taimi nei e manaʻomia ai i nisi taimi se tagata fou e tausia. O le fesuiaiga o le tagata e tausia o se vaega masani lea o le faataitaiga, ae le o se tuusaunoaga."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Ala o faasalalauga",
+      "title": "O fea e galue ai le IATF i nofoaga faitele"
+    },
+    "items": [
+      "<strong>O le GitHub.</strong> Faafitauli, aveese talosaga, faamalologa, ma faamaumauga o galuega faatino.",
+      "<strong>O se feeseeseaʻiga.</strong> Talanoaga tuusaʻo, faamaopoopoga, ma fesili lē aloaʻia.",
+      "<strong>Imeli.</strong> Faaaogā <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> pe afai e lē fetaui le GitHub po o le Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Laasaga e sosoo ai",
+      "title": "Filifili le auala e fetaui ma le ala e te manaʻo e saofaga ai"
+    },
+    "paragraphs": [
+      "O fesoʻotaʻiga uma lava e maua mai i le suʻesuʻega e tasi a tagata lautele, ma o loo iai foʻi i nofoaga e tasi e teu ai faamatalaga mo tagata lautele."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

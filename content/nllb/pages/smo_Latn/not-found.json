@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "E leʻi maua"
+  },
+  "hero": {
+    "eyebrow": "E leʻi maua",
+    "title": "E leʻi maua le itulau na talosagaina",
+    "lead": "Faaaogā auala autū o loo i lalo e toe foʻi atu ai i le nofoaga mo tagata lautele.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Aiga",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "E lē o iai le auala na e talosagaina."
+    ],
+    "items": [
+      {
+        "label": "Aiga",
+        "href": "/"
+      },
+      {
+        "label": "Poloketi",
+        "href": "/projects/"
+      },
+      {
+        "label": "Auai",
+        "href": "/join/"
+      },
+      {
+        "label": "Avanoa",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pulega",
+        "href": "/governance/"
+      },
+      {
+        "label": "Faalilolilo",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

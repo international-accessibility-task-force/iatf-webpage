@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Polokalame mo le faalauiloa atu i tagata lautele",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Polokalame mo le faalauiloa atu i tagata lautele",
+    "lead": "O lenei resitala lisiina poloketi lautele tausia e ala i le IATF. taliaina accessibility poloketi, nofoaga atinae eseese, ma archived prototypes o loʻo tausia vaʻaia iinei.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Tusi Resitala",
+      "title": "Tusi resitala o loo iai nei"
+    },
+    "intro": [
+      "O poloketi ua taliaina o loo lisiina atu i inei pe a uma ona lomia."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Auina mai se manaʻoga",
+      "title": "Faʻaliliuina se manaʻoga faʻapitoa mo le faʻaavanoaina i se poloketi lautele"
+    },
+    "paragraphs": [
+      "O loʻo iloiloina e le IATF manaʻoga faʻapitoa mo le faʻaavanoaina e mafai ona faʻaliliuina i ni galuega lautele lautele."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "E leai ni galuega faatino na lomia i le taimi nei",
+    "paragraphs": [
+      "O loo sauniunia e le IATF lana uluaʻi poloketi mo tagata lautele.",
+      "E mafai lava ona e auina mai se talosaga pe afai e iai se mea patino e te manaʻomia."
+    ]
+  }
+}

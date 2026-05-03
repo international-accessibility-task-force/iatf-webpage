@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Pulega ma le faʻataʻitaʻiga o faʻamaumauga",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Pulega ma le faʻataʻitaʻiga o faʻamaumauga",
+    "lead": "O le IATF o loʻo faʻaauauina galuega faʻafaigofie ona faʻasalalau, faʻamatalaina, ma mafai ona tausia.",
+    "support": [
+      "O lenei itulau o loʻo faʻamatalaina ai le mea e agavaʻa ai, faʻafefea ona teuina faʻamaumauga, ma o le a le tulaga o le faʻataʻitaʻiga e faʻaaoga pe a maeʻa le taliaina."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Tulafono Faafoe",
+      "title": "Fetaui lelei o le misiona, umiaina, laiseneina"
+    },
+    "cards": [
+      {
+        "title": "Fetaui lelei le misiona",
+        "paragraphs": [
+          "E talia e le IATF galuega e foʻia ai se faafitauli moni o le avanoa ma e iai sona aogā i tagata lautele.",
+          "O se galuega faatino e tatau ona aoga i tala atu o se tasi workflow tumaoti ma workable o se repository lautele.",
+          "Mo le avanoa i luga o le upega tafaʻilagi, e faʻaaogaina e le IATF [W3C WAI](https://www.w3.org/WAI/) O le poto masani tuusaʻo o tagata faʻaaoga o fesoasoani tekonolosi o se faʻamaoniga aoga foi o mea e aoga i le faʻaaogaina moni."
+        ]
+      },
+      {
+        "title": "Taliaina o galuega faatino",
+        "paragraphs": [
+          "E mafai ona talia se talosaga pe afai o le iloiloga e faaalia ai:"
+        ],
+        "items": [
+          "e foʻia ai se manaʻoga moni mo le faigofie ona maua",
+          "ua lava le manino o le faafitauli e iloilo ai",
+          "ua lava le talafeagai o le lautele e faalauiloa",
+          "o le galuega e ogatasi ma le misiona a le IATF",
+          "o loo i ai se ala talafeagai i le tausiga po o le faamaeaina"
+        ]
+      },
+      {
+        "title": "O le umiaina o le fale teu oloa",
+        "paragraphs": [
+          "O poloketi ua taliaina ua faia i lalo o le IATF GitHub faʻalapotopotoga.",
+          "O loo iai pea i inā fale e teu ai faamaumauga, ina ia tumau ai pea le tulaga mautu o galuega faatino taʻitasi, e tusa lava pe suia mulimuli ane ē e tausia."
+        ]
+      },
+      {
+        "title": "Laiseneina",
+        "paragraphs": [
+          "IATF poloketi faʻaaoga copyleft laisene seʻi vagana ua faʻapea mai se poloketi:"
+        ],
+        "items": [
+          "<strong>Faʻailoga:</strong> AGPL-3.0",
+          "<strong>Faʻamaumauga:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Inisinia poʻo le tagata e faia le tausiga",
+      "paragraphs": [
+        "O galuega faatino uma ua taliaina e tatau ona i ai se inisinia po o se tagata e tausia taua igoa. e mafai ona maua le avanoa admin lena tagata i le nofoaga autu o faamatalaga ma ua faamoemoe e:"
+      ],
+      "items": [
+        "atinaʻe taiala i nofoaga faitele",
+        "faatumauina le faatulagaga o le nofoaga autu o faamatalaga",
+        "iloiloina po o le puleaina o mataupu ma talosaga toso",
+        "faamaumauina o faaiuga taua tau tomai faapitoa",
+        "ia faafaigofie ona malamalama isi i le galuega"
+      ],
+      "footnote": "O le tiutetauave lenei i le tulaga o le nofoaga autu o faamatalaga. umia faalapotopotoga tumau pea i le IATF. O le matafaioi iinei o le tausiga o nofoaga autu, faatonuga faapitoa, ma le faamaopoopoina o tagata lautele  le faaooina atu tumaoti le faatapulaaina, tuufaatasia patino, po o tautinoga auaunaga-tulaga i fafo atu o le faafanua lautele."
+    },
+    "publicDevelopment": {
+      "title": "Atinae lautele",
+      "paragraphs": [
+        "O poloketi na faʻalauiloaina e ala i le IATF o loʻo atiaʻe i le lautele i le masani ai. O le fale teu oloa o le lautele faʻavae o le mea moni mo:"
+      ],
+      "items": [
+        "Faʻailoga faʻavae",
+        "mataupu",
+        "pepa aloaia",
+        "Faʻamatalaga o le faʻasologa o auala",
+        "faamatuu talafaasolopito"
+      ],
+      "footnote": "E lē tatau ona na o talatalanoaga patino po o pusa meli o loo iai faamatalaga tāua e faatatau i galuega faatino."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Faamaumauga a le Malo",
+      "title": "Faamaumauga o talosaga faalauaitele"
+    },
+    "paragraphs": [
+      "IATF galue i tagata lautele e ala i le faaletonu. talosaga e ulu atu i IAT F e auala i le uepisaite, imeli, feeseeseaiga, GitHub, po o isi auala e mafai ona avea faamaumauga talosaga tagata lautele.",
+      "O se faamaumauga talosaga lautele e le o le savali uluai. e mafai ona aoteleina IATF, redact, po o le toe faatulaga se talosaga i luma o le lomia ina ia mafai ona toe iloiloina le manaomia o le avanoa e aunoa ma le faaalia o faamatalaga patino e le manaomia.",
+      "O faamaumauga o talosaga a le lautele e mafai ona teuina i le IATF GitHub faʻalapotopotoga, luga o lenei 'upega tafaʻilagi, poʻo mea uma e lua.",
+      "Aʻo leʻi faʻasalalauina, e aveʻese e le IATF faʻamatalaga faʻafesoʻotaʻi a le tagata lava ia, tuatusi tumaoti, ma faʻamaumauga e faʻailoa ai tagata taʻitoʻatasi o loʻo faʻaaogaina tekonolosi fesoasoani, seʻi vagana ua manino le faʻamoemoe ma talafeagai le lolomiina.",
+      "Discord ua faaaogaina mo le faamaopoopoga lē aloaia. e le tuueseeseina IATF archive talanoaga Discord e faaletonu, ma ua pulea le faatumauina o savali e Discord. e tatau ona aoteleina faaiuga faia i Discord i le faamaumauga a le Malo i GitHub po o luga o le itulau galuega faatino talafeagai.",
+      "O faamaumauga o talosaga e le aofia ai i le faasino igoa o masini suʻesuʻe pe a talafeagai. O le lautele o lona uiga e mafai ona toe iloiloina ma tali atu. E le o le uiga o le faʻamautinoaina mo le mauaina e ala i sailiga igoa.",
+      "E mafai e le IATF ona faʻafou pe aveʻese faʻamaumauga mai luga o nofoaga faitele o loʻo faʻatonutonuina, ae le mafai ona mautinoa le aveʻesea mai cache a isi vaega, faʻasilasilaga, forks, screenshots, search engine, Discord, poʻo isi faiga i fafo.",
+      "Pe afai e manaʻomia ona lē faalauaiteleina se feʻau, aua neʻi auina atu e ala i auala o loo faaaogā e le IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Matafaioi faʻalapotopotoga",
+      "title": "Nofoa"
+    },
+    "lead": "O le nofoa umia faalapotopotoga-tulaga stewardship o IATF. e ese lenei mai le matafaioi inisinia e nafa i le galuega faatino: e nafa le taitaifono mo le faalapotopotoga atoa, e le mo le aso i lea aso taitaiga o so o se tasi repository.",
+    "duties": {
+      "title": "Galuega a le nofoa",
+      "items": [
+        "Umia pule faatagaga i luga o le faalapotopotoga GitHub IATF",
+        "Sainia o faaiuga i le taliaina o galuega faatino ma le teuina o faamaumauga",
+        "Galue o se fesootaiga lautele mo le IATF",
+        "Faamaopoopoina le faiga palota faaletausaga"
+      ],
+      "footnote": "O le taʻitaʻifono e le faʻamalosia le IATF i le tuʻuina atu i le tagata lava ia, totogi galuega, poʻo le tautua-tulaga maliega, ma e le mafai ona faʻaleaogaina taʻitasi-faʻamaumauga faʻamaumauga i luga o faʻatonuga faʻapitoa."
+    },
+    "election": {
+      "title": "Filifiliga faaletausaga",
+      "paragraphs": [
+        "E filifilia le taʻitaʻifono i le tausaga e tasi. O le palota e faia i le lua vaiaso muamua o Tesema, o iʻuga e faʻalauiloa ia Tesema 15, ma o le vaitaimi fou e amata ia Ianuari 1.",
+        "O tagata palota agavaa o tagata na umia se matafaioi faatumauina i luga o so o se repository IATF i le taimi o le tausaga ma faia ia le itiiti ifo i le tasi tuufaatasia saofaga i se repoteri IAT F i lena tausaga. e toatasi palota e agavaa palota uma se tasi palota. manumalo i le sui tauva ma le tele o palota; i le tulaga o se fusi, o se taamilosaga e faia i le vaiaso lona tolu o Tesema.",
+        "O le palota e tamoʻe o se lautele GitHub Talanoaga i le filifilia IATF pulega teuina, o lea o sui tauva, palota, ma le iʻuga o vaega uma o le lautele faʻamaumauga."
+      ]
+    },
+    "continuity": {
+      "title": "Faʻaauau pea",
+      "paragraphs": [
+        "Afai e leai se faiga palota e faia i se tausaga ua tuuina mai, o le taitaifono i le taimi nei faaauau pea i le matafaioi seia oo i le isi palota. o se faaauauina faatapulaaina lenei, e le o se vaitaimi o le alofa mutimutivale  ua fuafuaina le faataitaiga e tausia le faalapotopotoga fale o manu pe a maualalo gaoioiga, ae le e faamalosia ai se suiga o loo leai se tasi ua saunia mo.",
+        "E mafai e le taitaifono ona faamavae i soo se taimi. E mafai foi e tagata o lo o umia le tofi ona valaau se palota e le masani ai ma se mafuaaga ua taua, e faia i lalo o tulafono lava e tasi e pei o le palota faaletausaga."
+      ]
+    },
+    "current": {
+      "title": "Taitaifono i le taimi nei",
+      "fields": [
+        {
+          "label": "Nofoa",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Vaitaimi",
+          "value": "Se'ia o'o i le palota o Tesema 2026"
+        },
+        {
+          "label": "Ua aloaʻia le matafaioi",
+          "value": "2026"
+        },
+        {
+          "label": "Ulua'i palota fa'atulagaina",
+          "value": "Tesema 2026"
+        }
+      ]
+    },
+    "footnote": "O le taitaifono matafaioi na aloaia i le 2026 e faia faalapotopotoga-tulaga pulega manino. seia oo i lena taimi, faalapotopotoga tiutetauave sa faia aloaia e le faavaeina."
+  },
+  "continuity": {
+    "states": {
+      "title": "Faʻamatalaga o le Poloketi",
+      "paragraphs": [
+        "O poloketi e faʻaaogaina ai se vaega toʻaitiiti o setete lautele:"
+      ],
+      "items": [
+        "Fuafuaga",
+        "Taliaina",
+        "Gaoioiga",
+        "Tumau",
+        "Saʻili se tagata e tausia",
+        "Faamaumauga"
+      ],
+      "footnote": "O nei setete e faigofie ai ona suʻesuʻeina faamaumauga o faamaumauga."
+    },
+    "reassignment": {
+      "title": "Toe tuʻuina atu ma le teuina o faʻamaumauga",
+      "paragraphs": [
+        "Afai e alu ese se tagata e tausia pe lē toe galue, e mafai e le IATF ona toe tofia le tiute tauave, taofi le atinaʻeina, poʻo le teuina o le poloketi.",
+        "E mafai foʻi ona teuina se poloketi pe a faamalieina le manaʻoga muamua, ua taofia le tausiga, pe ua lē o toe talafeagai le faaauau pea o galuega."
+      ],
+      "footnote": "O galuega faatino o loo teuina, e mafai ona vaaia e tagata lautele, seʻi vaganā ua iai se māfuaaga malosi e lē mafai ai ona faia faapea."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Faʻamatalaga tuaoi",
+      "title": "O le a le mea e le o mautinoa e le IATF"
+    },
+    "items": [
+      "tuʻuina atu i tagata faʻatau tumaoti",
+      "maliega i le tulaga o auaunaga",
+      "taliaina o talosaga uma",
+      "tausiga mo se taimi umi mo galuega faatino taitasi"
+    ],
+    "footnote": "O le IATF o se faʻataʻitaʻiga o faʻamaumauga a le lautele, ae le o se tautua tuʻuina atu tumaoti."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Avanoa",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Avanoa",
+    "lead": "O le sini a le IATF o le faatumauina lea o se upega tafaʻilagi faigofie, e faigofie ona faitau, e mafai ona maua i le keyboard, ma e talafeagai ma tekinolosi fesoasoani.",
+    "support": [
+      "Mo le avanoa i luga o le upega tafaʻilagi, e faʻaaogaina e le IATF [W3C WAI](https://www.w3.org/WAI/) O le faʻatinoina o avanoa e faʻamatalaina foi e ala i le poto masani tuusaʻo o tagata faʻaaoga o fesoasoani tekonolosi."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Tuuina atu o Lipoti",
+      "title": "Faʻailoa se faʻafitauli i le faʻaavanoaina"
+    },
+    "paragraphs": [
+      "Afai e te maua se faalavelave i le avanoa i luga o lenei upega tafaʻilagi, faamolemole lipoti mai e ala i le imeli:",
+      "{{contact.accessibilityEmail}}",
+      "O lipoti aogā e aofia ai:"
+    ],
+    "items": [
+      "o le itulau lea na tupu ai le faafitauli",
+      "mea sa e taumafai e fai",
+      "o le a le tekinolosi fesoasoani, browser, poʻo le masini sa e faʻaaogaina, pe afai e talafeagai",
+      "o le ā le mea na tupu?",
+      "po o le ā e fesoasoani iā te aʻu"
+    ],
+    "footnote": "E lē manaʻomia ona e tusia se lipoti aloaʻia o se mea sesē."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Taulimaina",
+      "title": "Taulimaina o mataupu a le lautele"
+    },
+    "paragraphs": [
+      "E mafai ona aoteleina mataupu o le avanoa i totonu o le nofoaga faitele talafeagai ina ia mafai ona faʻaleleia i le avanoa. O faʻamatalaga faʻafesoʻotaʻi a le tagata lava ia ma faʻamaumauga tumaoti e le manaʻomia e aveʻese aʻo leʻi lolomiina.",
+      "Pe afai e aofia i lau lipoti ni faamatalaga patino, ia faailoa manino mai i le feʻau."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Tulaga i le taimi nei",
+      "title": "Faʻatapulaʻaina iloa"
+    },
+    "paragraphs": [
+      "O lenei 'upega tafaʻilagi e faʻamoemoe e laʻititi ma e tele lava ina tumau. O nisi gagana faʻaliliuga atonu e le maeʻa aʻo sauniuni faaliliuga."
+    ]
+  }
+}

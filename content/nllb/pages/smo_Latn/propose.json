@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Talosagaina se galuega faatino o le faigofie ona maua",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Talosagaina se galuega faatino o le faigofie ona maua",
+    "lead": "E iloiloina e le IATF talosaga mo poloketi mo le faigofie ona maua e amata mai i se manaʻoga moni.",
+    "support": [
+      "E te lē manaʻomia ni faamatalaga auʻiliʻili, ae o se faafitauli manino, po o ai e aafia ai, ma pe aiseā e tāua ai, ua lava lea e amata ai."
+    ],
+    "actions": [
+      {
+        "label": "Amata se talosaga",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Faʻaaoga le Discord nai lo lena",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Ala o faasalalauga",
+      "title": "Filifili le auala e sili ona faigofie"
+    },
+    "intro": [
+      "O auala uma lava e aofia ai i le iloiloga lava lea e tasi."
+    ],
+    "items": [
+      {
+        "label": "Upega Tafaʻilagi",
+        "body": "Faaaogā le pepa o loo i lalo e tuuina atu ai se talosaga ua faatulaga lelei."
+      },
+      {
+        "label": "Imeli",
+        "body": "Auina saʻo atu le talosaga i {{contact.requestsEmail}}. E mafai ona avea talosaga imeli faamaumauga talosaga lautele ina ua uma le iloiloga ma redaction."
+      },
+      {
+        "label": "Feeseeseaʻiga",
+        "body": "Amata mai i inā pe afai e sili atu ona faigofie."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "A o leʻi auina atu se talosaga",
+    "paragraphs": [
+      "IATF galue i le lautele. Talosaga e mafai ona aoteleina ma lomia faasalalau e pei o faamaumauga talosaga lautele i le faalapotopotoga GitHub IAT F, i luga o lenei website, po o uma e lua.",
+      "Aua neʻi aofia ai tuatusi patino, numera o telefoni, faamatalaga faafomaʻi, po o le faailoaina o faamatalaga e faatatau i tagata taʻitoʻatasi o loo faaaogāina tekinolosi fesoasoani, seʻi vaganā ua manaʻomia ma ua e malie i le iloiloina e le IATF.",
+      "O le IATF e aveʻese faʻamatalaga faʻafesoʻotaʻi e le manaʻomia aʻo leʻi faʻasalalauina faamaumauga o talosaga."
+    ]
+  },
+  "review": {
+    "title": "Iloiloga o faamoemoega",
+    "paragraphs": [
+      "O le tuuina atu o se talosaga e lē mautinoa ai le taliaina o le talosaga.",
+      "E iloiloina e le IATF talosaga mo le talafeagai o le misiona, le talafeagai, le aogā, ma pe e tatau ona tuu le galuega i se nofoaga e teu ai faamatalaga a tagata lautele.",
+      "O nisi talosaga e ono teena, tolopo, pe toe fetuunaʻi a o leʻi taliaina."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Pepa talosaga",
+      "title": "Tuuina atu o se talosaga"
+    },
+    "fields": [
+      {
+        "kind": "sao",
+        "name": "tagata talosaga",
+        "label": "Lou igoa po o le faalapotopotoga",
+        "helper": "O ai o loo faia le talosaga?"
+      },
+      {
+        "kind": "filifili",
+        "name": "FaʻafesoʻotaʻiRoute",
+        "label": "Auala e sili ona lelei e faafesootaʻi ai",
+        "helper": "E faapefea ona faia se suʻesuʻega mulimuli ane?",
+        "required": true,
+        "options": [
+          "Imeli",
+          "Feeseeseaʻiga"
+        ]
+      },
+      {
+        "kind": "sao",
+        "name": "Faʻamatalaga",
+        "label": "Faʻamatalaga faʻafesoʻotaʻi",
+        "helper": "Imeli tuatusi poʻo le Discord handle mo le tulitatao.",
+        "placeholder": "Tuatusi imeli poʻo le igoa o le Discord",
+        "required": true
+      },
+      {
+        "kind": "sao",
+        "name": "gagana",
+        "label": "Gagana",
+        "helper": "O lau gagana e fiafia i ai, pe afai e talafeagai.",
+        "value": "Faa-Peretania"
+      },
+      {
+        "kind": "vaega o tusitusiga",
+        "name": "faafitauli",
+        "label": "O le ā le faafitauli o loo e taumafai e foʻia?",
+        "helper": "Faamatala le faafitauli i se faaupuga faigofie.",
+        "required": true
+      },
+      {
+        "kind": "vaega o tusitusiga",
+        "name": "tagata e faaaogāina aafia",
+        "label": "O ai e aafia ai?",
+        "helper": "O ai o le a fesoasoani i ai lenei mea?",
+        "required": true
+      },
+      {
+        "kind": "vaega o tusitusiga",
+        "name": "Faʻaopoopoga",
+        "label": "Faʻamatalaga faaopoopo",
+        "helper": "Faasoa atu so o se isi lava mea e fesoasoani i le faamalamalamaina o le manaoga: aisea e taua ai, faataitaiga, mau, o se manatu polokalama mataʻutia, po o tapulaa taimi."
+      },
+      {
+        "kind": "filifili",
+        "name": "openSourceConsent",
+        "label": "Pe e te fiafia i le atinaʻeina o polokalame mo le lautele?",
+        "helper": "O poloketi ua taliaina o faletusi lautele i lalo o le IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ioe",
+          "E leai",
+          "Ou te leʻi mautinoa i le taimi nei"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Pe afai e talia",
+      "title": "Le uiga o le taliaina"
+    },
+    "items": [
+      "o se nofoaga faitele i totonu o le faalapotopotoga a le IATF GitHub",
+      "se inisinia e nafa ma le galuega faatino",
+      "se laisene copyleft mo le code ma mea faigaluega a le poloketi",
+      "atinaʻe lautele i totonu o le fale teu oloa",
+      "se tusi resitala i luga o le upega tafaʻilagi a le IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ia amata le talanoaga",
+      "title": "O se talosaga puupuu ma manino ua lava lea e amata ai"
+    },
+    "paragraphs": [
+      "Afai e iai sau mana'oga moni mo le fa'aavanoaina ma e te manatu e tatau ona avea ma poloketi a le lautele, lafo mai ia i matou."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

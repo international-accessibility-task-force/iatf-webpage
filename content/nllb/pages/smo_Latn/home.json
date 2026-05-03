@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Mai le manaʻomia o le faigofie ona maua i faletupe a le malo",
+    "lead": "E fesoasoani le IATF i faalapotopotoga, vaega, ma tagata taʻitoʻatasi e faaliliu manaʻoga moni mo le faigofie ona maua i galuega faatino mo tagata lautele.",
+    "support": [
+      "O poloketi ua taliaina ua lolomiina i le IATF GitHub faʻalapotopotoga i lalo o se laisene copyleft ma atiaʻe i le lautele e se inisinia nafa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Faʻataʻitaʻiga o le faʻagaioiga lautele",
+      "title": "O se auala lautele faigofie mo polokalame e faigofie ona maua"
+    },
+    "paragraphs": [
+      "E ala i se pepa faatumu, e mafai e so o se tasi ona tuuina atu se faafitauli avanoa i le IATF. Afai e mafai ona ave i luga o le au, o se repository GitHub lautele ua tatalaina mo le galuega.",
+      "O poloketi taʻitasi ua taliaina o loʻo i ai se fale lautele manino mo tulafono, mataupu, faʻamaumauga, ma faʻasalalauga, ma le atinaʻeina taʻitaʻia i le avanoa e se inisinia e nafa."
+    ],
+    "specCard": {
+      "title": "Faʻataʻitaʻiga o le faʻagaioiga lautele",
+      "terms": [
+        {
+          "term": "Manaʻomia",
+          "definition": "Faafitauli moni o le faigofie ona maua"
+        },
+        {
+          "term": "Iloiloga",
+          "definition": "Fetaui lelei o le misiona ma le talafeagai o le faatinoga"
+        },
+        {
+          "term": "Nofoaga o le poloketi",
+          "definition": "Faletusi lautele a le GitHub"
+        },
+        {
+          "term": "Pulega",
+          "definition": "IATF faʻalapotopotoga umiaina"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Faagasologa",
+      "title": "Auala e galue ai",
+      "intro": "O le faataʻitaʻiga e faia ina ia laʻitiiti, ina ia faigofie ai ona mulimuli i le auala o loo uia e tagata lautele."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ua tuuina mai se manaoga",
+        "paragraphs": [
+          "E mafai e se faalapotopotoga, o se vaega, po o se tagata taʻitoʻatasi ona faia se talosaga e faavae i se manaʻoga moni mo le faigofie ona maua.",
+          "Talosaga e mafai ona amata i luga o le upega tafailagi, e ala i le imeli i le <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, pe e ala mai i le Feeseeseaʻiga."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Iloiloina e le IATF",
+        "paragraphs": [
+          "E tatou te iloiloina le talafeagai o le galuega, le tulaga aogā, ma pe e talafeagai le galuega i se poloketi mo le lautele."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ua faatūina se nofoaga o faamatalaga mo tagata lautele",
+        "paragraphs": [
+          "Afai e talia se poloketi, e lolomiina i le IATF GitHub faʻalapotopotoga i lalo o se copyleft laisene.",
+          "O le fale teu oloa ua avea ma nofoaga faitele o le tulafono, lomiga, pepa aloaia, ma faasalalauga."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "O loo taʻitaʻia le galuega e se inisinia e iai le tiute tauave",
+        "paragraphs": [
+          "E tofia se inisinia e vaavaaia le poloketi, ma e faia le atinaʻe i nofoaga faitele."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Tusi Resitala",
+      "title": "Tusi Resitala o Poloketi a le Malo"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Amata mai i inei",
+      "title": "Sailiili i galuega o loo faia i le taimi nei po o le amataina o se galuega faatino patino"
+    },
+    "paragraphs": [
+      "Faaaogā le tusi resitala e vaai ai po o ā mea ua uma ona faalauiloa, pe amata le suʻesuʻega pe afai e tatau ona avea se faafitauli patino o le faigofie ona maua o se galuega faatino."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "'Upega tafaʻilagi a le IATF",
+    "summary": "O le nofoaga faitele mo le International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Sa manaʻomia e le IATF se fale mautotogi e faamalamalama ai le faataʻitaʻiga, lisi ai galuega faatino, ma taʻu atu ai i ē na faia le sao i le isi laasaga saʻo e sosoo ai.",
+    "why": "O le nofoaga o le faitotoʻa lautele o le IATF. Ua fausia e avea o se tamai poloketi static ina ia faigofie ona faitau, faaliliu, ma tausia i le avanoa.",
+    "scopeIn": [
+      "O itulau faalauiloa faalauaitele e faamatala ai le faataitaiga a le IATF",
+      "Faʻamaumauga a le lautele o poloketi a le IATF ua taliaina, o loʻo faʻagaoioia, ma teuina faʻamaumauga ma le tulaga, tausi, teuina, ma le faʻataʻitaʻiga",
+      "O se itulau e talia ai talosaga ma se pepa",
+      "Itulau o le pulega ma le manino",
+      "Faʻamatalaga i le gagana Peretania ma le fausaga ua sauni mo le faaliliuga",
+      "deployment Static i Cloudflare Tagata faigaluega Meatotino Static"
+    ],
+    "scopeOut": [
+      "Nofoaga o sui auai tumaoti, tala, poʻo faʻasologa o faʻamatalaga",
+      "Faʻafeiloaʻiga o le punavai o le poloketi, o loʻo nofo i totonu o faʻamaumauga a poloketi taʻitasi",
+      "Talanoaga i le taimi moni, lea e ola i Discord",
+      "Mataituina o mataupu mo galuega faatino taitasi, lea e ola i le GitHub repository o poloketi taitasi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "O se uluaʻi faʻataʻitaʻiga o le IATF, na faʻasaoina ina ua oʻo i se tulaga masani e taofi ai.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Suʻesuʻega vave o se mea faigaluega e taulaʻi i le faigofie ona maua i lalo o le faamalu a le IATF.",
+    "why": "O le fale teu oloa o loo tausia lautele o se faamaumauga o le galuega, e ui lava ua taofia atinae toaaga.",
+    "scopeIn": [
+      "Faʻataʻitaʻiga muamua o se mea faigaluega e taulaʻi atu i le faʻaavanoaina o loʻo teuina o se faʻamaumauga lautele"
+    ],
+    "scopeOut": [
+      "Gaoioiga atinaʻe poʻo galuega faʻapitoa",
+      "Tautinoga tau tausiga",
+      "Fautuaina le faʻaaogaina i le gaosiga"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Faʻataʻitaʻiga a le IATF",
+    "summary": "O se IATF alalafaga bot, teuina ina ua uma ona ausia se tulaga taofi masani.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Faʻaautomatika faataamilo IATF alalafaga auala.",
+    "why": "O le fale teu oloa o loo tausia lautele o se faamaumauga o le galuega, e ui lava ua taofia atinae toaaga.",
+    "scopeIn": [
+      "Faʻaautomatika o feeseeseaiga i luga o alalafaga a le IATF, tausia o se faʻamaumauga lautele"
+    ],
+    "scopeOut": [
+      "Gaoioiga atinaʻe poʻo galuega faʻapitoa",
+      "Tautinoga tau tausiga",
+      "Fautuaina le faʻaaogaina i le gaosiga"
+    ]
+  }
+]
