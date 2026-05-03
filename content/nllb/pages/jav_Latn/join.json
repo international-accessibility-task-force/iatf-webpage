@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Gabung karo IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Gabung karo IATF",
+    "lead": "Keanggotaan mbukak. Ana pirang-pirang cara kanggo melu, manawa sampeyan ngandelake teknologi bantu, nggawe piranti lunak sing bisa diakses, nerjemahake, nyoba, utawa njaga proyek. Diskusi lan keputusan kedadeyan ing publik ing GitHub lan Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Peran",
+      "title": "Cara kanggo nyumbang"
+    },
+    "items": [
+      "<strong>Nyuwun proyek.</strong> Yen sampeyan nemokake alangan aksesibilitas sing bisa ditangani dening piranti lunak open source umum, kirimake liwat panampa panjaluk.",
+      "<strong>Tes lan review.</strong> Coba proyek IATF kanthi teknologi bantu sing sampeyan gunakake, lapor apa sing bisa digunakake lan apa sing ora, lan file masalah langsung ing repositori sing relevan.",
+      "<strong>Terjemahaké.</strong> Konten sumber diterbitake ing basa Inggris biasa. Terjemahan ditambahake nalika kontributor kasedhiya, diwiwiti karo basa Spanyol.",
+      "<strong>Mbangun.</strong> Pick munggah masalah ing sembarang panyimpenan IATF, ngirim narik panjalukan, utawa njupuk ing project minangka engineer tanggung jawab sawijining.",
+      "<strong>Tetep.</strong> Proyek sing wis ana kadang-kadang mbutuhake pangopènan anyar. Rotasi pangurus minangka bagean normal saka model, dudu pangecualian."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Ing ngendi IATF makarya ing publik"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Masalah, narik panjaluk, rilis, lan cathetan proyek.",
+      "<strong>Bebantahan.</strong> Diskusi langsung, koordinasi, lan pitakon informal.",
+      "<strong>Kirim e-mail.</strong> Gunakake <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> yen ora cocog karo GitHub utawa Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Langkah sabanjure",
+      "title": "Pilih saluran sing cocog karo carane sampeyan pengin kontribusi"
+    },
+    "paragraphs": [
+      "Kabeh saluran feed menyang review umum padha lan repositori umum padha."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Nyuwun proyek aksesibilitas",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Nyuwun proyek aksesibilitas",
+    "lead": "IATF mriksa panjaluk kanggo proyek aksesibilitas sing diwiwiti saka kabutuhan nyata.",
+    "support": [
+      "Sampeyan ora perlu specification lengkap. masalah cetha, sing mengaruhi, lan apa iku penting cukup kanggo miwiti."
+    ],
+    "actions": [
+      {
+        "label": "Miwiti panjalukan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gunakake Discord tinimbang",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Pilih dalan sing paling gampang"
+    },
+    "intro": [
+      "Kabeh rute mlebu review sing padha."
+    ],
+    "items": [
+      {
+        "label": "Situs web",
+        "body": "Gunakake formulir ing ngisor iki kanggo ngirim panjaluk terstruktur."
+      },
+      {
+        "label": "E-mail (ing basa Inggris)",
+        "body": "Kirim panjaluk langsung menyang {{contact.requestsEmail}}Panjaluk email bisa dadi cathetan panjaluk umum sawise ditinjau lan disunting."
+      },
+      {
+        "label": "Bebantahan",
+        "body": "Mulai ana yen sing paling gampang. panjalukan isih gerakane menyang review padha."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sadurunge ngirim panjaluk",
+    "paragraphs": [
+      "Panjaluk bisa diringkes lan diterbitake minangka cathetan panjaluk umum ing organisasi IATF GitHub, ing situs web iki, utawa kalorone.",
+      "Aja kalebu alamat pribadi, nomer telpon, rincian medis, utawa ngenali informasi babagan pangguna individu teknologi bantu kajaba perlu lan sampeyan kepenak karo IATF mriksa.",
+      "IATF mbusak rincian kontak pribadi sing ora perlu sadurunge nerbitake cathetan panjaluk."
+    ]
+  },
+  "review": {
+    "title": "Priksa maneh pangarepan",
+    "paragraphs": [
+      "Ngirim panjaluk ora njamin panrimo.",
+      "IATF mriksa panjaluk kanggo cocog karo misi, kelayakan, kegunaan, lan apa karya kasebut ana ing repositori umum.",
+      "Sawetara panjaluk bisa uga ditolak, ditundha, utawa diowahi sadurunge ditampa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulir panjalukan",
+      "title": "Kirim panjalukan"
+    },
+    "fields": [
+      {
+        "kind": "input",
+        "name": "panyuwunan",
+        "label": "Jeneng utawa organisasi panjenengan",
+        "helper": "Sapa sing njaluk?"
+      },
+      {
+        "kind": "pilih",
+        "name": "kontakRoute",
+        "label": "Rute kontak sing disenengi",
+        "helper": "Kepiye tindak lanjut kudu ditindakake?",
+        "required": true,
+        "options": [
+          "E-mail (ing basa Inggris)",
+          "Bebantahan"
+        ]
+      },
+      {
+        "kind": "input",
+        "name": "KontakRincian",
+        "label": "Rincian kontak",
+        "helper": "Alamat email utawa alamat Discord kanggo tindak lanjut.",
+        "placeholder": "Alamat email utawa alamat Discord",
+        "required": true
+      },
+      {
+        "kind": "input",
+        "name": "basa",
+        "label": "Basa",
+        "helper": "Basa sing disenengi, yen relevan.",
+        "value": "Basa Inggris"
+      },
+      {
+        "kind": "wewengkon tèks",
+        "name": "masalah",
+        "label": "Masalah apa sing arep panjenengan rembug?",
+        "helper": "Jelasna alangan kuwi nganggo basa sing gampang dingertèni.",
+        "required": true
+      },
+      {
+        "kind": "wewengkon tèks",
+        "name": "Pangguna sing kena pengaruh",
+        "label": "Sapa sing kena pengaruh?",
+        "helper": "Sapa sing bakal ditulungi?",
+        "required": true
+      },
+      {
+        "kind": "wewengkon tèks",
+        "name": "extraContext",
+        "label": "Kontèks tambahan",
+        "helper": "Nuduhake apa wae liyane sing mbantu nerangake kabutuhan: kenapa penting, conto, referensi, ide piranti lunak kasar, utawa watesan wektu."
+      },
+      {
+        "kind": "pilih",
+        "name": "openSourceConsent",
+        "label": "Nyaman karo pangembangan open source umum?",
+        "helper": "Proyek sing ditampa minangka repositori umum ing IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ya wis",
+          "Ora",
+          "Durung yakin"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Yen ditampa",
+      "title": "Apa tegesé ditampa"
+    },
+    "items": [
+      "Repository umum ing organisasi IATF GitHub",
+      "insinyur tanggung jawab sing ditugasake kanggo proyek kasebut",
+      "lisensi copyleft kanggo kode lan materi proyek",
+      "pangembangan umum ing repositori",
+      "entri pendaptaran ing situs IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Miwiti rembugan",
+      "title": "Panjaluk sing ringkes lan jelas cukup kanggo miwiti"
+    },
+    "paragraphs": [
+      "Yen sampeyan duwe kebutuhan aksesibilitas nyata lan mikir kudu dadi proyek umum, kirimake menyang kita."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

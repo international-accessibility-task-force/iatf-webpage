@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyek aksesibilitas umum",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyek aksesibilitas umum",
+    "lead": "Daftar iki nyathet proyek umum sing dikelola liwat IATF. Proyek aksesibilitas sing ditampa, infrastruktur situs, lan prototipe sing diarsipake tetep katon ing kene.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaptaran",
+      "title": "Daftar saiki"
+    },
+    "intro": [
+      "Proyek sing ditampa didaftar ing kene sawise diterbitake."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Kirimake kabutuhan",
+      "title": "Nguripake kabutuhan aksesibilitas konkrit dadi proyek umum"
+    },
+    "paragraphs": [
+      "IATF mriksa kabutuhan aksesibilitas konkrit sing bisa diowahi dadi karya sumber terbuka umum sing migunani."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Durung ana proyek sing diterbitake",
+    "paragraphs": [
+      "IATF nyiapake proyek publik pisanan.",
+      "Sampeyan isih bisa ngirim panjaluk yen sampeyan duwe kabutuhan aksesibilitas tartamtu."
+    ]
+  }
+}

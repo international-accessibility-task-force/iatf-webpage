@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ora ditemokaké"
+  },
+  "hero": {
+    "eyebrow": "Ora ditemokaké",
+    "title": "Kaca sing dijaluk ora ditemokake",
+    "lead": "Gunakake rute utama ing ngisor iki kanggo bali menyang situs umum.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Omah",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Rute sing dijaluk ora ana."
+    ],
+    "items": [
+      {
+        "label": "Omah",
+        "href": "/"
+      },
+      {
+        "label": "Proyek",
+        "href": "/projects/"
+      },
+      {
+        "label": "Gabung",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibilitas",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pamaréntahan",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparansi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

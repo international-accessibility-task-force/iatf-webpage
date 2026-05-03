@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibilitas",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibilitas",
+    "lead": "IATF ngarahake supaya situs web iki gampang, bisa diwaca, bisa diakses keyboard, lan kompatibel karo teknologi bantu.",
+    "support": [
+      "Kanggo aksesibilitas web, IATF nggunakake [W3C WAI](https://www.w3.org/WAI/) aksesibilitas praktis uga informed dening pengalaman langsung saka kedhaftar teknologi ngewangi."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Pelaporan",
+      "title": "Laporake masalah aksesibilitas"
+    },
+    "paragraphs": [
+      "Yen sampeyan nemokake alangan aksesibilitas ing situs web iki, mangga laporake kanthi email:",
+      "{{contact.accessibilityEmail}}",
+      "Laporan sing migunani klebu:"
+    ],
+    "items": [
+      "kaca ngendi masalah kedaden",
+      "apa sing panjenengan coba lakoni",
+      "apa teknologi bantuan, browser, utawa piranti sing sampeyan gunakake, yen relevan",
+      "apa sing salah",
+      "apa sing isa mbantu"
+    ],
+    "footnote": "Sampeyan ora prelu nulis laporan bug resmi. Deskripsi sing jelas cukup."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Penanganan",
+      "title": "Penanganan masalah umum"
+    },
+    "paragraphs": [
+      "Masalah aksesibilitas bisa diringkes ing repositori umum sing relevan supaya bisa didandani kanthi terbuka. rincian kontak pribadi lan informasi pribadi sing ora perlu dicopot sadurunge diterbitake.",
+      "Yen laporan sampeyan kalebu informasi pribadi, ucapake kanthi jelas ing pesen kasebut."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kahanan saiki",
+      "title": "Watesan sing dingerteni"
+    },
+    "paragraphs": [
+      "Situs iki sengaja cilik lan umume statis. Sawetara versi basa bisa uga ora lengkap nalika terjemahan lagi disiapake."
+    ]
+  }
+}

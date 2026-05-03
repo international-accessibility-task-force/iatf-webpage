@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparansi",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparansi",
+    "lead": "IATF dianggo ing publik minangka standar. Keputusan proyek, owah-owahan kode, pangowahan pamrentahan, lan biaya operasi direkam ing lokasi umum. Kaca iki nyathet ing endi saben jinis cathetan urip lan cara maca.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Cathetan",
+      "title": "Panggonan nyimpen cathetan"
+    },
+    "items": [
+      "<strong>Keputusan proyek.</strong> Keputusan panrima, arsip, lan pangalihan direkam minangka masalah utawa rilis ing repositori sing relevan, lan diringkes ing pendaptaran umum. <a href=\"/projects/\">cathetan</a>. ing .",
+      "<strong>Nyuwun cathetan.</strong> Cathetan panjalukan umum disimpen ing organisasi IATF GitHub, ing situs web iki, utawa kalorone. Cathetane bisa ngringkes, nyunting, utawa nyusun ulang panjaluk asli supaya kebutuhan aksesibilitas bisa ditinjau tanpa mbukak informasi pribadi sing ora perlu. Keputusan perselisihan diringkesake menyang cathetan umum nalika mengaruhi keputusan proyek utawa pamrentahan. Rekaman permintaan ora kalebu indeksasi mesin telusuran yen praktis teknis. Ndeleng cathetane: panjaluka publikasi pisanan sing durung rampung.",
+      "<strong>Owah-owahan kodhe.</strong> Saben owah-owahan kode minangka publik ing repositori sing relevan. Deleng IATF <a href=\"{{contact.githubOrgUrl}}\">Organisasi GitHub</a>. ing .",
+      "<strong>Owah-owahan pamaréntahan.</strong> Pembaruan kanggo kaca governance dilacak minangka commits kanggo <code>iatf-website</code> Repository. Ndeleng <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">ngrekam riwayat</a> ing GitHub.",
+      "<strong>Biaya operasi.</strong> IATF njaga biaya operasi sing murah lan ngrekam biaya infrastruktur umum sing bola-bali. Wiwit taun 2022, biaya utama sing terus-terusan yaiku jeneng domain. Hosting wis nggunakake infrastruktur tingkat gratis utawa murah yen bisa. Deleng cathetan biaya operasi ing ngisor iki.",
+      "<strong>Cathetan koordinasi.</strong> Cathetan saka sembarang review utawa keputusan sing dikoordinasi urip ing GitHub Diskusi ing repositori sing relevan  ndeleng <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Rembugan</a> ing <code>iatf-website</code> panyimpenan."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Biaya",
+      "title": "Cathetan biaya operasional"
+    },
+    "paragraphs": [
+      "IATF njaga infrastruktur publik kanthi sengaja cilik. Wiwit taun 2022, biaya operasi sing terus-terusan utama yaiku jeneng domain. Hosting wis nggunakake infrastruktur tingkat gratis utawa murah yen bisa.",
+      "Cathetan iki dudu laporan keuangan sing diaudit. Iku log biaya operasi umum kanggo infrastruktur sing digunakake kanggo njaga IATF online."
+    ],
+    "footnote": "Resi bisa dirujuk utawa diterbitake sawise disunting. Alamat pribadi, rincian tagihan, lan informasi akun sing ora perlu ora dadi bagean saka cathetan umum.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Cathetan",
+            "value": "Biaya domain sing dibiayai dening mugiwarafx. Hosting nggunakake infrastruktur tingkat gratis utawa biaya murah liwat Cloudflare. Proyek kasebut pindhah saka Vercel menyang cloudflare lan wiwit nggunakake sing luwih cendhek <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>aksesibilitas internasionaltaskforce.com</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Cathetan",
+            "value": "Biaya domain dibiayai dening mugiwarafx. Hosting nggunakake infrastruktur tingkat gratis utawa murah."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>aksesibilitas internasionaltaskforce.com</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Cathetan",
+            "value": "Biaya domain dibiayai dening mugiwarafx. Hosting nggunakake infrastruktur tingkat gratis utawa murah liwat Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>aksesibilitas internasionaltaskforce.com</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Cathetan",
+            "value": "Biaya domain dibiayai dening mugiwarafx. Hosting nggunakake infrastruktur tingkat gratis utawa murah."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>aksesibilitas internasionaltaskforce.com</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Cathetan",
+            "value": "Biaya domain dibiayai dening mugiwarafx. Hosting nggunakake infrastruktur tingkat gratis utawa murah liwat Kaca GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Cathetan wates",
+      "title": "Apa sing ora umum"
+    },
+    "paragraphs": [
+      "Sawetara materi disimpen saka cathetan umum kanthi tujuan:"
+    ],
+    "items": [
+      "Rincian kontak pribadi saka sing ngusulake.",
+      "Korespondensi pribadi sing digunakake mung kanggo njlentrehake panjaluk sadurunge ditampa, ditolak, utawa diringkes.",
+      "Alamat pribadi, nomer telpon, lan rincian pribadi sing ora perlu.",
+      "Apa wae sing bakal ngenali pangguna individu teknologi asisten tanpa idin.",
+      "Obrolan Raw Discord, kajaba pesen tartamtu sengaja dipindhah menyang cathetan proyek umum."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Waca liyane",
+      "title": "Governance minangka buku aturan ing mburi cathetan kasebut"
+    },
+    "paragraphs": [
+      "Yen sampeyan pengin ngerti kepiye proyek ditampa, diarsipake, utawa ditugasake maneh, waca kaca governance."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

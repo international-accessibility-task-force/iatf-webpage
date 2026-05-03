@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Tata kelola lan model repositori",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Tata kelola lan model repositori",
+    "lead": "IATF njaga proyek aksesibilitas umum, bisa diwaca, lan bisa dikelola.",
+    "support": [
+      "Kaca iki nerangake apa sing cocog, kepiye repositori dianakake, lan tanggung jawab level repositori sing ditrapake sawise ditampa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Peraturan",
+      "title": "Misi sing cocog, kepemilikan, lisensi"
+    },
+    "cards": [
+      {
+        "title": "Misi sing cocog",
+        "paragraphs": [
+          "IATF nampa karya sing ngatasi alangan aksesibilitas nyata lan duwe nilai umum sing jelas.",
+          "Proyek kudu migunani ngluwihi siji alur kerja pribadi lan bisa digunakake minangka repositori umum.",
+          "Kanggo aksesibilitas web, IATF nggunakake [W3C WAI](https://www.w3.org/WAI/) pengalaman langsung saka kedhaftar teknologi ngewangi uga bukti praktis apa dianggo ing panggunaan nyata."
+        ]
+      },
+      {
+        "title": "Penerimaan proyek",
+        "paragraphs": [
+          "Usul bisa ditampa nalika review nuduhake:"
+        ],
+        "items": [
+          "ngatasi kebutuhan aksesibilitas sing nyata",
+          "masalah cukup cetha kanggo ngira-ngira",
+          "ruang lingkup punika cukup nyata kanggo miwiti",
+          "karya selaras karo misi IATF",
+          "ana dalan sing bisa ditindakake kanggo pangopènan utawa ngrampungake"
+        ]
+      },
+      {
+        "title": "Kepemilikan repositori",
+        "paragraphs": [
+          "Proyek sing ditampa digawe ing organisasi IATF GitHub.",
+          "Repositori tetep ana supaya saben proyek njaga omah umum sing stabil, sanajan pangopènan mengko ganti."
+        ]
+      },
+      {
+        "title": "Lisènsi",
+        "paragraphs": [
+          "Proyek IATF nggunakake lisensi copyleft kajaba proyek kasebut nyatakake:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Dokumentasi:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Insinyur utawa pangopènan sing tanggung jawab",
+      "paragraphs": [
+        "Saben proyek sing ditampa kudu duwe insinyur utawa pangopènan sing tanggung jawab. Wong kasebut bisa nampa akses admin menyang repositori lan diarepake:"
+      ],
+      "items": [
+        "pembangunan pandhuan ing umum",
+        "njaga struktur repositori",
+        "mriksa utawa ngatur masalah lan njaluk panjaluk",
+        "dokumen keputusan teknis sing penting",
+        "nggawé proyèk-proyèk kuwi isa dingertèni wong liya"
+      ],
+      "footnote": "Iki minangka tanggung jawab ing tingkat repositori. Kepemilikan organisasi tetep karo IATF. Tanggung jawab ing kene yaiku pengawasan repositori, arah teknis, lan koordinasi umum  dudu pangiriman pribadi tanpa wates, integrasi khusus, utawa komitmen level layanan ing sanjabane peta dalan umum."
+    },
+    "publicDevelopment": {
+      "title": "Pangembangan umum",
+      "paragraphs": [
+        "Proyek sing diluncurake liwat IATF dikembangake ing publik kanthi standar. Repository minangka sumber umum kanggo:"
+      ],
+      "items": [
+        "Kode sumber",
+        "masalah",
+        "dokumentasi",
+        "cathetan roadmap",
+        "Sajarah rilis"
+      ],
+      "footnote": "Kawruh proyek sing penting ora mung kudu urip ing obrolan pribadi utawa kothak mlebu."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Cathetan umum",
+      "title": "Cathetan panjaluk umum"
+    },
+    "paragraphs": [
+      "Panjaluk sing mlebu ing IATF liwat situs web, email, Discord, GitHub, utawa saluran IAT F liyane bisa dadi cathetan panjaluk umum.",
+      "Cathetan panjalukan umum ora mesthi pesen asli. IATF bisa ngringkes, nyunting, utawa nyusun ulang panjaluk sadurunge diterbitake supaya kebutuhan aksesibilitas bisa ditinjau tanpa mbukak informasi pribadi sing ora perlu.",
+      "Cathetan panjaluk umum bisa disimpen ing organisasi IATF GitHub, ing situs web iki, utawa kalorone.",
+      "Sadurunge publikasi, IATF mbusak rincian kontak pribadi sing ora perlu, alamat pribadi, lan rincian identifikasi babagan pangguna teknologi bantu individu kajaba publikasi kasebut jelas lan cocog.",
+      "Discord dipigunakaké kanggo koordinasi informal. IATF ora arsipake percakapan Discord kanthi kapisah kanthi standar, lan panyimpenan pesen dikontrol dening Discord. Keputusan sing digawe ing Discord kudu diringkes dadi cathetan umum ing GitHub utawa ing kaca proyek sing relevan.",
+      "Cathetan panjaluk ora kalebu ing indeksasi mesin telusuran yen praktis kanthi teknis. Publik tegese bisa ditinjau lan tanggung jawab. Ora ateges dioptimalake kanggo ditemokake liwat panelusuran jeneng.",
+      "IATF bisa nganyari utawa mbusak cathetan saka permukaan umum sing dikendhaleni IAT F, nanging ora bisa njamin ngilangi saka cache pihak katelu, kabar, garpu, tangkapan layar, mesin telusuran, Discord, utawa sistem eksternal liyane.",
+      "Yen pesen kudu tetep pribadi, aja ngirim liwat saluran umum IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Peran organisasi",
+      "title": "Kursi"
+    },
+    "lead": "Ketua nyekel pengelolaan tingkat organisasi IATF. Iki beda karo peran insinyur sing tanggung jawab saben proyek: ketua tanggung jawab kanggo organisasi kanthi sakabehe, dudu kanggo arah saben dinane repositori.",
+    "duties": {
+      "title": "Apa sing dilakoni kursi",
+      "items": [
+        "Nyekel ijin pemilik ing organisasi IATF GitHub",
+        "Tandha-tandha ing panrima proyek lan keputusan arsip",
+        "Tumindak minangka titik kontak umum kanggo IATF",
+        "Koordinasi pemilihan taunan"
+      ],
+      "footnote": "Ketua ora ngiket IATF menyang pangiriman pribadi, kerja sing dibayar, utawa perjanjian tingkat layanan, lan ora mbatalake keputusan pangopènan saben repositori babagan arah teknis."
+    },
+    "election": {
+      "title": "Pemilihan taunan",
+      "paragraphs": [
+        "Ketua dipilih setaun sepisan. Pemilihan mlaku ing rong minggu pisanan Desember, asil diumumake tanggal 15 Desember, lan periode anyar diwiwiti tanggal 1 Januari.",
+        "Pemilih sing layak yaiku wong sing nyekel peran pangopènan ing repositori IATF sajrone taun kasebut lan nggawe paling ora siji kontribusi gabungan menyang repositoriIATF ing taun kasebut. Saben pamilih sing layak duwe siji swara. Calon sing duwe swara paling akeh menang; yen ana dasi, putaran kapindho dianakake ing minggu katelu Desember.",
+        "Pemilihan kasebut ditindakake minangka Diskusi GitHub umum ing repositori governance IATF sing ditunjuk, saengga calon, swara, lan asile kabeh minangka bagean saka cathetan umum."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitas",
+      "paragraphs": [
+        "Yen ora ana pemilihan sing dianakake ing taun tartamtu, ketua saiki terus dadi peran nganti pemilihan sabanjure. Iki minangka kesinambungan tanpa wates, dudu periode sih-rahmat  model kasebut dirancang kanggo njaga organisasi tetep stabil nalika kegiyatan kurang, ora kanggo meksa transisi sing ora ana sing siap.",
+        "Ketua bisa mundur ing sembarang wektu. pangopènan aktif uga bisa nelpon pemilihan luar biasa karo alesan nyatakake, mbukak miturut aturan sing padha karo pemilihan taunan."
+      ]
+    },
+    "current": {
+      "title": "Ketua saiki",
+      "fields": [
+        {
+          "label": "Kursi",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Istilah",
+          "value": "Nganti pemilihan Desember 2026"
+        },
+        {
+          "label": "Peran diformalisasi",
+          "value": "2026"
+        },
+        {
+          "label": "Pemilihan pisanan sing dijadwalake",
+          "value": "Dhésèmber 2026"
+        }
+      ]
+    },
+    "footnote": "Peran ketua diresmikake ing taun 2026 kanggo nggawe manajemen tingkat organisasi kanthi eksplisit. Nganti saiki, tanggung jawab organisasi ditindakake kanthi ora resmi dening pangadeg."
+  },
+  "continuity": {
+    "states": {
+      "title": "Kahanan proyek",
+      "paragraphs": [
+        "Proyek nggunakake set cilik negara umum:"
+      ],
+      "items": [
+        "Usulan",
+        "Ditampa",
+        "Aktif",
+        "Stabil",
+        "Nggolèki pangopènan",
+        "Diarsipake"
+      ],
+      "footnote": "Negara-negara kasebut nggawe registrasi gampang dipindai."
+    },
+    "reassignment": {
+      "title": "Reassignment lan arsip",
+      "paragraphs": [
+        "Yen pangopènan mundur utawa ora aktif, IATF bisa menehi tanggung jawab maneh, nundha pangembangan, utawa arsip proyek kasebut.",
+        "Proyek uga bisa diarsipake nalika kabutuhan asli wis ditemokake, pangopènan wis mandheg, utawa kerja terus ora realistis maneh."
+      ],
+      "footnote": "Proyek sing diarsipake tetep bisa dideleng kanthi umum kajaba ana sebab sing penting kanggo nindakake liyane."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Cathetan wates",
+      "title": "Apa IATF ora njamin"
+    },
+    "items": [
+      "pangiriman klien pribadi",
+      "perjanjian tingkat layanan",
+      "panriman saka saben usulan",
+      "pangopènan jangka panjang kanggo saben proyek"
+    ],
+    "footnote": "IATF minangka model repositori umum, dudu layanan pangiriman pribadi."
+  }
+}
