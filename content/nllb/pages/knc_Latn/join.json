@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF ro kǝltǝ",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF ro kǝltǝ",
+    "lead": "Membership dә kәla fәlezәna. Lamarra kada mbeji nәm kәnasartәbe dәn, mowonzәna nasha nzunduwa banatәbe lan, kareya kәskabe sәdәna, fasari, jarabtә, au cida laa nzәlaro sәdin. Zande-a shawaria-a dә suro jamibe lan wajin suro GitHub-a Discord-a lan.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Cidawa",
+      "title": "Jiliwa banabe sadinma"
+    },
+    "items": [
+      "<strong>Cida laa sǝraana.</strong> Kәla awo laa fәlezәyin ma dәga fәlejin maa dә software fuwutәbe hawarbe dәye sәdәna maa, samno adәga diwal askәrәbe ro letәmin.",
+      "<strong>Jarabtǝ-a kuru waltǝ-ro.</strong> Cidawa IATFbe nzunduwa banabe faidatǝmin faidatin, awowa cidajin-a awowa faidatayin-a hawarra cin, kuru awowa kalkallo hawarro cin.",
+      "<strong>Fǝlezǝyin.</strong> Ka'ida asalbe dǝ buron tǝlam Nasarabe lan gǝnatǝ badijin.",
+      "<strong>Kǝlanzǝ sǝdin.</strong> Awowa suro IATF repositorybe lan gowotǝ, waltǝ kalaktǝ-a diwo-a sendǝ, au cida laa cida nzunduye ro walzǝyin.",
+      "<strong>Kǝlanzǝ gǝnatǝ.</strong> Cidawa kәlanzәye loktu laan cidawu nzәrtaliwu bәlin mәradәzәna."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kǝndawuwa",
+      "title": "Na IATFbe cidinzǝ jamabe lan cidajin"
+    },
+    "items": [
+      "<strong>GitHub dǝ.</strong> Issues, pull requests, releases, kuru project records.",
+      "<strong>Nǝm gade-gade.</strong> Zande kәnәngatәye, nәlewa-a, kuru korowa baa-a.",
+      "<strong>Email dǝ.</strong> Faidatǝ <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHub-a Discord-a kalkal gǝnyi maa."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kәla fuwunna dәn",
+      "title": "Zawal dǝwo futu kǝnasartǝmin dǝga kalkalro gozǝyin"
+    },
+    "paragraphs": [
+      "Fatowa sammasodǝ kǝla lamarra jamibe-a kuru karewa jamibe sammason faidatain."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap dǝ"
+  },
+  "hero": {
+    "eyebrow": "Index dǝ",
+    "title": "Sitemap dǝ",
+    "lead": "Kәrmadә samma kәla iatf.cc yen, na fal lan."
+  },
+  "sections": [
+    {
+      "title": "Fatowa kura-kurabe",
+      "items": [
+        {
+          "label": "Fatobe",
+          "href": "/"
+        },
+        {
+          "label": "Cidawa-a",
+          "href": "/projects/"
+        },
+        {
+          "label": "Cida laa ra'ayena sǝraana",
+          "href": "/propose/"
+        },
+        {
+          "label": "Kәrma-a kәrmai-a",
+          "href": "/governance/"
+        },
+        {
+          "label": "Karǝngǝma",
+          "href": "/join/"
+        },
+        {
+          "label": "Kǝnasartǝwu",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kǝlanzǝgǝ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Cidawa-a",
+  "projectsEmpty": "Futu cidanzǝbe sǝdǝnyi."
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Proyect accessibility ro kalakǝne",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Proyect accessibility ro kalakǝne",
+    "lead": "IATF dǝye kulashi sadǝna kǝla lamarǝwa kǝla fǝrǝm tǝdinna be ladǝn, sandi doni məradǝnzǝ jirebe ladǝn tuwondin.",
+    "support": [
+      "Nyiye bayanna sammaso mәradәmzәnyi. kaziyi bayanna laa, nduma sәkkәna-a, kuru abi nankaro faidazәna dә zauro kәjiwo."
+    ],
+    "actions": [
+      {
+        "label": "Bisket dǝga baditǝ",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Discord faidatǝ karǝngǝn",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kǝndawuwa",
+      "title": "Zawal zauro faidanzәna dә gozәyin"
+    },
+    "intro": [
+      "Diwalwa samma dǝ kulashi fal ro gozayin."
+    ],
+    "items": [
+      {
+        "label": "Website dǝ",
+        "body": "Kәrma dәn faidatә kәrmadә ro kalaktәgә dә gәnatә nankaro."
+      },
+      {
+        "label": "Email dǝ",
+        "body": "Askәr dә tәgәram ro zujiya {{contact.requestsEmail}}Awowa email lan notәna dә raksa bayanna ro waljin ngawo kulashin dәa gәnatә nankaro."
+      },
+      {
+        "label": "Kәrәgәnzә",
+        "body": "Na adǝ lan baditǝro waljiya adǝ zauro faidanzǝgǝnyi."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ngawo mәradәnәm gәnatәgәne",
+    "paragraphs": [
+      "IATF dә jama ro cidajin. Requests so dә raktә summarinzәna kuru rowotәna kәla public request records lan suro cidaram GitHub IATf ye dәn, website adәyen, au sandi indisoyen.",
+      "Adreswa kəlanzabe, lamba telefanbe, bayanwa kwasabe, au bayanna bayanbe kəla am faidatəwu nzunduwa banabe soye suron mbeji ba sai dai shi adǝ mǝradǝzǝna kuru IATF dǝye kulasǝdǝ kǝlanzǝro sǝdinro.",
+      "IATF dә bayan kәla kәlanzabe mәradәnzә ba dәga kolzәna kawu ruwowa rowotәnaben."
+    ]
+  },
+  "review": {
+    "title": "Kǝla awo tǝmazǝna dǝga waltǝyin",
+    "paragraphs": [
+      "Kәrәm dәga zәktәgәna dә nәm kәrawobe sәkkәnyi.",
+      "IATF ye kulashi sadin kəla cida də'a fit, feasibility, usefulness, kuru cida dəye suro public repository yen kara.",
+      "Awowa laa so dǝga gǝnyi ro waljin, gǝrtǝyin, au faltin kawu sha koltin ro."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fasal raayibe",
+      "title": "Kәrye dәga zәktәyin"
+    },
+    "fields": [
+      {
+        "kind": "kәrmuwa",
+        "name": "sǝkǝram",
+        "label": "Sunǝm-a karapka-a",
+        "helper": "Ndu dǝwo shawari dǝga sǝdǝna wo?"
+      },
+      {
+        "kind": "asutin",
+        "name": "contactRoute dǝ",
+        "label": "Diwal lamkate ra'ayinzǝdǝ",
+        "helper": "Jili kәndobe dәga diwo wa?",
+        "required": true,
+        "options": [
+          "Email dǝ",
+          "Kәrәgәnzә"
+        ]
+      },
+      {
+        "kind": "kәrmuwa",
+        "name": "Hawarra zortǝbe",
+        "label": "Bayanna nәm karәgәbe",
+        "helper": "Adadu emailye au Discordye cinna kәla fuwutәye nankaro.",
+        "placeholder": "Adəre emailbe au discord handlebe",
+        "required": true
+      },
+      {
+        "kind": "kәrmuwa",
+        "name": "təlamma",
+        "label": "Təlamma",
+        "helper": "Təlam donyi ra'ama dәn, ka'ida'a ro waljiya.",
+        "value": "tǝlam Nasarabe"
+      },
+      {
+        "kind": "na ruwobe",
+        "name": "kaziyi",
+        "label": "Kazǝyi jiliwi nyi ye sulhu sǝdin?",
+        "helper": "Kalma kǝske lan awo dǝga gǝrjin dǝ bayanna sǝdin.",
+        "required": true
+      },
+      {
+        "kind": "na ruwobe",
+        "name": "Am faidatǝbe sǝraana",
+        "label": "Nduwo sәkkәna dә?",
+        "helper": "Ndu adǝ banajin?",
+        "required": true
+      },
+      {
+        "kind": "na ruwobe",
+        "name": "extraContext",
+        "label": "Kalma gade",
+        "helper": "Awowa gade awowa mǝradǝtǝna dǝga bayanzǝyin: dalil sǝdǝna dǝ, misalnza so, hujjawa so, raayi softwarebe laa, au awowa loktuye so."
+      },
+      {
+        "kind": "asutin",
+        "name": "openSourceConsent",
+        "label": "Kǝla fǝrǝm fuwutǝbe jamabe lan kǝnǝngatǝmin wa?",
+        "helper": "Cidawa do letәgәna dә sandima kakkadi cidaye do IATF lan.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "A'a",
+          "Aayi",
+          "Kǝmaaro tawatkǝnyi."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Sa kasatsәna dәn",
+      "title": "Abi ma'ananzǝga kasatsǝgǝnadǝ"
+    },
+    "items": [
+      "sabtəram jamabe suro karapka IATF GitHubben",
+      "Injiniya kura do cida dǝro gǝnatǝnama",
+      "License copyleftbe cod-a karewa cidabe-a ro",
+      "fuwutǝ jamabe suro karewa gǝnatǝbe ladǝn",
+      "Registry entry kǝla site IATF be ladǝn"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hawar dǝ baditin",
+      "title": "Kәrawu gana laa, tawatkata laa dә tawatkәna badiyero."
+    },
+    "paragraphs": [
+      "Nyiye məradǝgǝnzǝ tawadǝa fǝlezǝmiya kuru nyiro tǝmazǝna ma adǝ cida jamabe ro waljinro waljiya, ande ro zuwune."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

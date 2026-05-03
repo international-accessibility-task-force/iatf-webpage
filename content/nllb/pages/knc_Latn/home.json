@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Futu məradǝgǝ kǝnzǝlibe-a nǝmngǝwu jamabe-aro",
+    "lead": "IATF ye jami'a, karapkawa, kuru amso'a banazəgə awo məradətəna tawadəro faidatə'a lamar cidaye'a fando nankaro.",
+    "support": [
+      "Cidawa do letәgәna dә suro cidaram IATF GitHub ye dәn copyleft licence lan bakkatә kuru amsoye cidaram nzәrtaliwuye dәye sәdәna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Fasal cidabe jamabe",
+      "title": "Kǝla fǝrǝm jamabe kǝskebe softwarebedǝro"
+    },
+    "paragraphs": [
+      "Fom lan, ndusoye kazǝyi letǝgǝbe IATF ro suwudin.",
+      "Cida do'a kasatsəna'a sammason fato jamabe mbeji code'a, lamarra, documentation-a, kuru releases-a nankaro, fuwutə də'a zahirro am ilmu nzunduye'a suwudin."
+    ],
+    "specCard": {
+      "title": "Fasal cidabe jamabe",
+      "terms": [
+        {
+          "term": "Awo mǝradǝtǝna",
+          "definition": "Kazǝyi tawatkatabe jirebe"
+        },
+        {
+          "term": "Kulashi",
+          "definition": "Mission fit-a practical feasibility-a"
+        },
+        {
+          "term": "Na cidabe dә",
+          "definition": "Karuwu jamibe GitHubbe"
+        },
+        {
+          "term": "Kәrma-a nәlewa-a",
+          "definition": "IATF-be cidaramnzǝ-a kǝlanzǝbe-a"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Kǝndobe",
+      "title": "Futu sǝdǝna dǝ",
+      "intro": "Model dә tawadә ro gana ro wallono adәye sәkkә letә jamabe dә fulezәna."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Awo mǝradǝtǝna dǝ suwudǝna",
+        "paragraphs": [
+          "Karapka, karapka, au kamme raksa raksa shawari sadin kəla məradənzə tawadəbe nəmngəlanzəro.",
+          "Shawaria so dǝ website lan badijin, email lan adres dǝro. <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, au kǝla Discord yen."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ye kulashi sǝdin.",
+        "paragraphs": [
+          "Kәla cida dәga kalkalzәyin, nәm faidatәbe-a, kuru cidanzә dә suro cidaram fuwutәbe jamabe lan kalkaljin-a."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Sabtəram jamabe dəga gənatəyin",
+        "paragraphs": [
+          "Cida laa dəga kasatsəna maa, sha IATF GitHub organization lan baktəyin shiro copyleft license lan.",
+          "Repository dǝ shima fato jamabe codebe-a, lamarra, documentation-a kuru releases-a ro waljin."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injiniya kura dǝ shima cida dǝga fuwuzǝyin.",
+        "paragraphs": [
+          "Ilmuwu nzundube cidabe shiro project repository gultinmadǝro cista kuru fuwutǝdǝ jamiso lan wajin."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registry dǝ",
+      "title": "Registaram cidabe jamabe dә"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Na adǝ lan baditin",
+      "title": "Cida cidabe kǝrmabe au cidaram kalkalbe baditin"
+    },
+    "paragraphs": [
+      "Registry dә faidatә awo do jamabe fәlezәna dәga asutin, au kәla lamar laa kalkallo faidatin dә cida ro waljin dә ro waltә badijin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

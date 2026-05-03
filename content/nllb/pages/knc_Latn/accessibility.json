@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Kǝnasartǝwu",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Kǝnasartǝwu",
+    "lead": "IATFbe məradənzə na shimadə zaumaro kaziyiya, kəratəgə-a, keyboard-a kuru nzunduwa banabe-a kəllata-a.",
+    "support": [
+      "Web accessibility nankaro, IATFye faidatin [W3C WAI](https://www.w3.org/WAI/) Nzunduwa banabe ngəlaro faidatəyedə waltə lamarra faidatayinma nasha nzunduwa banatəyedən."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Hawarra fǝlejin",
+      "title": "Wande lamar kǝnǝngatǝbe dǝga bayanna sǝdin"
+    },
+    "paragraphs": [
+      "Kәrma nyiye website adәro kәnәngatә kәlanzә fәlezәna maa, email lan hawarnәmin:",
+      "{{contact.accessibilityEmail}}",
+      "Hawar faidatǝbe suronzan:"
+    ],
+    "items": [
+      "hawar do lamardә wajin dә",
+      "awo nyi sǝdin dǝ",
+      "nzunduwa banabe, browser, au karewa do faidatǝmin ma, waneye tawadǝro",
+      "abi dǝ kalkal sǝdǝna",
+      "awo dǝ banazǝna ma dǝ"
+    ],
+    "footnote": "Nyiye hawar kalkal kǝla kwasa dǝga ruwozǝnyi. Bayan kalkal dǝ genyi."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kǝndobe",
+      "title": "Kәla lamar jamabe dәga kәlanzәgәna"
+    },
+    "paragraphs": [
+      "Ka'idawa kǝla kǝnǝngatǝbedǝ raktǝ bayantin suro naptǝ jamabe taganasbe ladǝn, daji sandiya kalkalzayin. Bayanna kǝla lamarra nǝlepabe-a kuru bayanna kǝlanzǝbe mǝradǝtǝnyibe-adǝ kawu bayanna sutulunaben.",
+      "Hawarnәm dәn hawar kәlanzәye mbeji maa, adә bayanna adә suro hawar dәyen sәdәna."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Lamar kәrmabe dә",
+      "title": "Kǝndaram donyi notǝna dǝ"
+    },
+    "paragraphs": [
+      "Na shimadə gana kuru ngəwusoro kalkal gənyi. Lardəwa laabe raksə kalkalgənyiro waljin loktu fasari təlammabe sadinlan."
+    ]
+  }
+}

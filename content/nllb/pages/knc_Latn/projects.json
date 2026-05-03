@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Cidawa amso'a letәgәbe dә",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Cidawa amso'a letәgәbe dә",
+    "lead": "Registry adəye cidaramma amsobe IATF men gənatəgənasodəga kulashin.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registry dǝ",
+      "title": "Registry kәrmabe dә"
+    },
+    "intro": [
+      "Cidawa letәgәna dә na adәn bayanzayin loktu sandiya ruotәna lan."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Awo mǝradǝnzǝye suwudǝ",
+      "title": "Futu məradətəna tawatkatəye cidaram jamabe ro kalaktəyin"
+    },
+    "paragraphs": [
+      "IATF dǝye awoa faida'a fǝlezayin sodǝa kǝla awoa faidata'a ro walzǝyin sodǝn kuntenro faidatin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Cidawa kulashiye gәnyi sәdәna",
+    "paragraphs": [
+      "IATF dә kәlanzә buro salakye kәla fәlezәna.",
+      "Nyiye kuwayaye sambisoro mowonzәyin maa nyiye məradәgәnzә taganasbe nәm mәradәnәm mbeji maa."
+    ]
+  }
+}

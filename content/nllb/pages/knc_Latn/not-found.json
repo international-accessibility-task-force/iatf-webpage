@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Gǝnyi sǝdǝna"
+  },
+  "hero": {
+    "eyebrow": "Gǝnyi sǝdǝna",
+    "title": "Lamba doni mǝradǝtǝna dǝ tuwondǝnyi",
+    "lead": "Na jamibe dǝro waltǝ nankaro diwal kura dǝ cidiya dǝ lan faidatin.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Fatobe",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Zawal dǝwo kulashin dǝ ba."
+    ],
+    "items": [
+      {
+        "label": "Fatobe",
+        "href": "/"
+      },
+      {
+        "label": "Cidawa-a",
+        "href": "/projects/"
+      },
+      {
+        "label": "Karǝngǝma",
+        "href": "/join/"
+      },
+      {
+        "label": "Kǝnasartǝwu",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Kәrma-a kәrmai-a",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kǝlanzǝgǝ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

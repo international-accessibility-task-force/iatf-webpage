@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance-a repository model-a dә",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance-a repository model-a dә",
+    "lead": "IATF dǝ cidawa kǝla fǝlangobe dǝga bayanna sadin, kǝlanzǝga sǝkǝ, kuru kǝrtǝro sǝdin.",
+    "support": [
+      "Hawar adǝye bayanna sǝdǝna kǝla awo do sǝtandǝnama dǝga, futu dawaria so dǝga wuzǝna dǝa, kuru awo do kǝla dawariya so dǝn faidatain ma ngawo sha kasatsǝna dǝn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Kaidawa",
+      "title": "Mission fit, ownership, licensing"
+    },
+    "cards": [
+      {
+        "title": "Mission fit",
+        "paragraphs": [
+          "IATF dǝ cidanzǝ dǝga kasatsǝyin shi donyi awo laa kǝnǝngatǝ-a kǝlzǝyinma dǝga kuru faida jamabe mbeji dǝga.",
+          "Cida laa dǝ awo faida-a kǝlanzǝ-a lan gǝnyi ro walzǝ kuru kǝla naptǝ jamabe lan cidajin.",
+          "Web accessibility nankaro, IATFye faidatin [W3C WAI](https://www.w3.org/WAI/) Nzunduwa banabe faidatəmasodə shima hujja jireye awo faidatainma dəwo faidatinma jireyedəwo."
+        ]
+      },
+      {
+        "title": "Cida cidabe dəga kasatsəyin",
+        "paragraphs": [
+          "Shawari laa kalkallo waljin sa kulashin dәye fәlezәna:"
+        ],
+        "items": [
+          "mǝradǝnzǝ tawadǝbe fǝlezǝna",
+          "kaziyi dә tawadә ro asuzәyin",
+          "faraskəram dә zauro awo jireye sәdәna dә letәgә nankaro",
+          "cida dә cida IATFye'a kalkalzәyin",
+          "diwal tawadəbe mbeji cistəgə-a gənatə-aro."
+        ]
+      },
+      {
+        "title": "Repositorybe ownershipbedə",
+        "paragraphs": [
+          "Cidawa do letәgәna dә IATF GitHub organization lan tuwandin.",
+          "Repositories dә na adәn kәnәngatәgә nankaro cida woso fato jamabe nәm ngәlabe dәga kәlanzәna, sonyayi am kәjibe dareye faltin maa."
+        ]
+      },
+      {
+        "title": "Licensing dә",
+        "paragraphs": [
+          "Cidawa IATFbedə copyleft licensing faidatayin, cidaa laa gade bayantənyi maa:"
+        ],
+        "items": [
+          "<strong>Kawu:</strong> AGPL-3.0",
+          "<strong>Futu ruwozǝnadǝ:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injinye au cidawu nzunduye",
+      "paragraphs": [
+        "Cida do'a kasatsəna samma so'a ilmuwu nzunduye au cidawu nzəliwobe mbeji. Kam do'adə raktə kərmai kəratəbe ro lejin kuru:"
+      ],
+      "items": [
+        "Kǝla fǝtǝram jamabe lan",
+        "fasal karewa karewabe dәga zәktәyin",
+        "lamar'a kulashiye'a kәla kәlanzә'a sәdәna",
+        "awowa nzundube faida'a ruotǝ",
+        "cida dәga am gade ro asuzәyin"
+      ],
+      "footnote": "Adə shima hakkinzə repositorybe-levelbewo. Kəndaramma ownershipbedə IATFlan kara. Kərmanzədə shima naptəram naptəbe-a, nzərawu nzunduye, kuru nəmkal jamabe - gənyi nəmkam kəlanzəbe kalkal gənyi, kəltə kəlanzaye, au cidaram-a kalkalgənyi suro public roadmapben."
+    },
+    "publicDevelopment": {
+      "title": "Fuwutǝ jamabe",
+      "paragraphs": [
+        "Cida'a do IATF lan baditənadə amsoye sadin."
+      ],
+      "items": [
+        "kaidan faidatǝbe",
+        "awowa gǝnatǝbe",
+        "hujjawa",
+        "notәwa kәla diwalbe dә",
+        "hawar kǝlanzǝbe"
+      ],
+      "footnote": "Ilmu cidabe zauro faida'a dǝ gǝnyi chat kǝlanzǝbe au inboxes lan kǝnǝngatǝyin."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ruwuwa hawarbe jamabe",
+      "title": "Ruwuwa do nәm kәla kәlanzәna dә"
+    },
+    "paragraphs": [
+      "IATF dә amso'a ro cidajin. Requests do'a suro website, email, Discord, GitHub, au awowa gade'a so'a lejin dә, raksa raksa amsoye ro waljin.",
+      "Hawar do amsoye rowotǝ dǝ hawar do buroye dǝro walzǝnyi. IATF dǝ raksa sumoyin, gǝrtǝyin, au waltǝ fasaljin kawu hawar dǝga sutuluyin dǝro, adǝye sǝkǝ hawar donyi kǝlanzǝro faidatinba dǝro hangal gǝrzǝyin ba.",
+      "Ruwuwa amsobe rowatadə raksa suro cidaram IATF GitHubben, website adən, au sandi indisoyen kasatəyin.",
+      "Ngawo bayandǝnadǝben, IATF dǝ bayanna nǝmngǝla kǝlanzǝbe mǝradǝnzǝ ba ma, adres kǝlanzabe, kuru bayanna bayanbe kǝla am faidatǝwu nzunduwa banabe-a falbe-adǝa sutuluwuna, bayanna bayantǝdǝ tawatkata-a ngǝla-a kalkal gǝnyi maa.",
+      "Discord də faidatə lamar kalkallo gənatəgəro. IATFye zande Discordbedə na fallin gərtəyin ba, kuru hawar dəga naptə Discordbe kaltəyin. Karapka Discordben tədəna dəga bayantəgə suro hawar jamabe suro GitHubben au hawar cidabe taganasben.",
+      "Request records dә search engine indexing dәn gәnatәgәnyi sa do nzәrtaliu lan faidatәna ma. Public ma'ananzә recensionable and accountable. Adә ma'anazәnyi optimized for discovery futu su'a kulashiye lan.",
+      "IATF dǝye raksa awowa ruwozǝna dǝa gǝnatǝ au kolzǝyin, amma raksa sandiya caches, notifications, forks, screenshots, search engines, Discord, au cidaram gade so lan koljin ba.",
+      "Sǝkǝ hawar dǝ kǝlanzǝro kalzǝyin maa, hawar do IATF be dǝro koltǝnyi."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Cida karapkabe",
+      "title": "Kurusi dә"
+    },
+    "lead": "Chair dǝ shima cidawu IATFbe-a, cidawu nzunduye-a gade-gade: shi chair dǝ shima cidaram sammasobedǝa, gǝnyi cidanzǝ kalkallo gǝnatǝ-a.",
+    "duties": {
+      "title": "Awo kursi dәye sәdin dә",
+      "items": [
+        "IATF GitHub organization lan kәrmai kәmbube sәdәna",
+        "Shawariwa kulashi cidabe-a archivbe-adәga ruwozәna",
+        "Kǝla cidaram IATFbe kǝla lamarra hawarbe lan cidajin",
+        "Kәrmai kurabe saabe dәga zortәyin"
+      ],
+      "footnote": "Chairdǝ IATFro cidanzǝ kǝlanzǝbe-a, cida kungǝna-a au kalkallo cidabe-aro gǝnatǝnyi, kuru shiye kazǝyi-a nzǝrtaliwu nzǝrifobe-abe-a kǝla lamarra nzundube-ayen gozǝnyi."
+    },
+    "election": {
+      "title": "Kәrmabe saa woson",
+      "paragraphs": [
+        "Kәrmai dә yim fal suro saa dәn fal kәltәyin. Kәriwu dә kәn indin buro salakye kәntawu Decemberben kalzәyin, kәnasar dә kawu kәtawu Decemberbe 15 ro hawarjin, kuru kәrma bәlin dә kəntawu Januarybe 1 lan badijin.",
+        "Am do sandima voters sandima sandima am do sandiro maintainer roles sadinma suro IATF repository lan suro saa dən kuru sandiye kam fallo sadin suro saa adən. Am do sandiye voters sadinmasodəye votes fal sadin.",
+        "Kәrye dә kәla kәlanzәna ro gәnatәgәna suro kәndawu IATFbe dәn, adәye sәkkә kandidowa dә, kәltәdә, kuru kәnasar dә samma kәntau jamabe ro walzayin."
+      ]
+    },
+    "continuity": {
+      "title": "Kǝla fuwunna",
+      "paragraphs": [
+        "Kәrmai dә suro saa laa dәn suwandәnyi maa, kura kura kәrmabe dә cida dәga fuwuzәyin. Adә fuwutu dә kalkal gәnyi, loktu kәnәngatәgәnyi ba  fasal dә tәmanzәna kungәna dә nәm ngәla ro walzә nankaro sa kәndo dә gana ro waljin dәro, ba faltә dә ro dunowa sәdin ba.",
+        "Kura dә loktu laan raksә kәlanzә koljin. Am kәla kәnәngatәna so dәye raksә kazәyiya kura kura fәlezәyin dalil laa bayanzәna lan, kaida'a fal kәrmai kurabe dәn kalkalzәyin."
+      ]
+    },
+    "current": {
+      "title": "Kәrmai kәrmabe kәlan",
+      "fields": [
+        {
+          "label": "Kurusi dә",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Kalmadǝ",
+          "value": "Kawu kǝntagǝ Decemberbe saa 2026-bedǝro"
+        },
+        {
+          "label": "Cidanzǝ cidaro sǝdǝna",
+          "value": "2026"
+        },
+        {
+          "label": "Kәrmai buro salakye kәla kәlanzәnaben",
+          "value": "Kǝntawu Decemberbe saa 2026"
+        }
+      ]
+    },
+    "footnote": "Suro saa 2026 lan cida kurabe dəga bayantəgəna, adəye səkə nəmngəla lamarra cidabedən faidatə bayantəna."
+  },
+  "continuity": {
+    "states": {
+      "title": "Kәla cidabe dәn",
+      "paragraphs": [
+        "Cidawa dǝye jami gana laa faidatayin:"
+      ],
+      "items": [
+        "Shawari dә",
+        "Karǝgǝ sǝdǝna",
+        "Kǝndobe",
+        "Kǝndaramma",
+        "Kәmbu gәnatәgәrye sәraana",
+        "Archive dǝ"
+      ],
+      "footnote": "Lardәwa adәye registry dә kәnәngatәro sәdәna."
+    },
+    "reassignment": {
+      "title": "Reassignment-a archiving-a falzəna",
+      "paragraphs": [
+        "Sa cidawu nzəliwobe laa banazəgə au cida baaro wallonowa, IATF ye hakkinzə waltə gənatəgə, fuwutəgə loktu gana laa ro kalaktəgə, au cida dəga gərzəgə.",
+        "Cida laa də raksa archive ro waljin sa mǝradǝnzǝ burosalakbedǝ fǝlangono, nzǝrifo-a kǝndotǝ-a, au cidanzǝ fuwutǝbe dǝ zauro banazǝnyi ro waljiya."
+      ],
+      "footnote": "Cidawa archivebe dә amsoye sәdin ba sai dalilla ngәla gade mbeji maa."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Bayan kalangaiyyabe",
+      "title": "Awo IATFye cinba dә"
+    },
+    "items": [
+      "am muskonzә kәlanzәye dә",
+      "hujjawa daraja cidabe-a",
+      "raayi ndusoye kasatsәna",
+      "cidawosobe nzәrtaliwu loktu kuruwube"
+    ],
+    "footnote": "IATF dǝ fasal gargambe jamaye, cida cidabedǝye gǝnyi."
+  }
+}

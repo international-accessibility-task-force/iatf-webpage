@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Website IATFbe dә",
+    "summary": "Kәnda jamibe do International Accessibility Task Force ye dәn.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF dә fato jamabe ngәlaro mәradәna shi donyi model dә bayanna sәdin ma, dawaria dәga bayanjin ma, kuru am cidaro banazәna sodәga goza kalkal ro waljin ma.",
+    "why": "Na shimadə shima amso'a fuwu IATF ye də'a. Shidoni garratə shima cida sənana, adəye səkə sha kəratə, fasartə-a, kuru nəmngəlanzə-a faidatə kəske'a ro wallono.",
+    "scopeIn": [
+      "Hawarra do amsoye faidatainma do IATF ye bayanna sadin ma",
+      "Rejistaram jamabe cidawa IATFbe kasattənabe, cidabe, kuru archivebe-a status, maintainer-a, repository-a kuru demo-a mbeji",
+      "Kәrye-a fasal-a nәm karәgәbe-a",
+      "Lardә-a nәlewa-a kәlanzabe",
+      "Lardә Ingilisbe-a fasalnzә fәlezәna fasarratә nankaro",
+      "Static deployment on Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Na'a amye kǝlanza'a, asutu so, au kәla kәlanzә ro lejinma so",
+      "Cida cidabe fuwutəbe, shi donyi suro cidabedən naptə kəlanzəbe lan kənəngatəyinma",
+      "Real-time chat, shi doni Discord lan kənəngatəyin",
+      "Issue tracking for individual projects, shi donyi suro project's GitHub repository yen kənəngatəyin"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie dǝ",
+    "summary": "Prototype IATF buro salakye, ngawo na do awowa ngәlaro dazәna dәro lezain dәn gәnatәgәna.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Kulashi buroye cidaram awowa faidatə-ro hangal gənatəgənama suro IATFben.",
+    "why": "Repository dә amso ro gәnatәgәna kәla cida dә ro, sonyayi fuwutә dә kәlanzә bannazәna dәn.",
+    "scopeIn": [
+      "Prototype buroye cidaram do hangal gənatəgə-a ro hangal gənazəna ma də, hawar do amsoye notin ma ro."
+    ],
+    "scopeOut": [
+      "Kǝla fuwutǝbe-a au cida nzǝlibe-aro",
+      "Kәla kәnәngatәbe dәn",
+      "Kǝndodǝro faidatǝbe shawari"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot lardǝ IATFbe, bayanzǝgǝ ngawo na shimadǝro lejinnaben.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation kǝla IATF community channels yen.",
+    "why": "Repository dә amso ro gәnatәgәna kәla cida dә ro, sonyayi fuwutә dә kәlanzә bannazәna dәn.",
+    "scopeIn": [
+      "Kǝndodǝro gǝnatǝgǝram IATF community channels ye lan, hawar jamabe ro gowotǝ"
+    ],
+    "scopeOut": [
+      "Kǝla fuwutǝbe-a au cida nzǝlibe-aro",
+      "Kәla kәnәngatәbe dәn",
+      "Kǝndodǝro faidatǝbe shawari"
+    ]
+  }
+]
