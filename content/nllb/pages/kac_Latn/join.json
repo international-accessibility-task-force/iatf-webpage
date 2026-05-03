@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF hta shang lawm u",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF hta shang lawm u",
+    "lead": "Membership gaw hpaw nga ai. shang lawm na matu lam amyu myu nga ai, nang gaw karum shingtau ai technology hta shamyet shanat nga ai rai yang, lu la mai ai software hpe gawgap ai, ga gale ai, chyam dinglik ai, shing n rai project langai hpe matut manoi galaw nga ai re. bawngban ai hte dawdan ai lam ni gaw, GitHub hte Discord hta shawa masha ni a man e byin wa ai.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Galaw ra ai magam bungli ni",
+      "title": "Alu jaw mai ai lam ni"
+    },
+    "items": [
+      "<strong>Bungli langai hpe hpyi shawn u.</strong> Public open source software hte hparan ya lu ai accessibility barrier hpe mu yang, request intake hku nna sa dat u.",
+      "<strong>Chyam dinglik nna bai maram yu u.</strong> Nang lang ai karum shingtau ai hpaji hte IATF masing ni hpe chyam yu u, gara gaw bungli galaw ai, n galaw ai hpe tsun dan u, hte seng ang ai laika dum hta manghkang ni hpe ading tawk file galaw u.",
+      "<strong>Ga gale u.</strong> Source content ni hpe English ga hte shawng shapraw da ai rai nna, ga gale da ai ni nga wa ai hte maren ga gale ai lam ni hpe mung shalawm da ai.",
+      "<strong>Hpan da ai.</strong> IATF repository ni kaw na manghkang ni hpe lata la u, shaw la na matu hpyi shawn dat u, shing nrai lit nga ai engineer hku nna project langai hpe lit la u.",
+      "<strong>Matut nna galaw u.</strong> Ya galaw taw nga ai masing ni hta, kalang lang, magam gun nnan ra wa ai. Magam gun galai ai lam gaw, laksan lam n re ai sha, dai kasi ningli hta lawm ai lam re."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Hkrun lam ni",
+      "title": "IATF gaw shawa masha ni hte arau bungli galaw ai shara"
+    },
+    "items": [
+      "<strong>GitHub kaw mai tam la ai.</strong> Issues, pull requests, releases, hte project records ni hte seng ai lam ni.",
+      "<strong>Myit n hkrum ai lam.</strong> Matut mahkai ai lam, jahkrup ai lam hte n tara ai ga san ni.",
+      "<strong>E-mail hte mai lu ai.</strong> Akyu jashawn ai lam <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHub hte Discord gaw n htap htuk yang gaw n mai ai."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hpang na lam",
+      "title": "Nang gara hku shang lawm mayu ai hte htap htuk ai channel hpe lata u"
+    },
+    "paragraphs": [
+      "Rung ni yawng gaw, masha yawng mu lu ai hte maren sha re."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

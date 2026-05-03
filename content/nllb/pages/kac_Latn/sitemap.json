@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap hpe yu u"
+  },
+  "hero": {
+    "eyebrow": "Matsing",
+    "title": "Sitemap hpe yu u",
+    "lead": "IATF.CC hta lawm ai laika man yawng hpe shara langai hta lu mai ai."
+  },
+  "sections": [
+    {
+      "title": "Madung laika man ni",
+      "items": [
+        {
+          "label": "Nta de sa ai",
+          "href": "/"
+        },
+        {
+          "label": "Hkaw Tsun Bungli Ni",
+          "href": "/projects/"
+        },
+        {
+          "label": "Bungli langai hpe hpyi shawn u",
+          "href": "/propose/"
+        },
+        {
+          "label": "Uphkang lam",
+          "href": "/governance/"
+        },
+        {
+          "label": "Hkaw Tsun U",
+          "href": "/join/"
+        },
+        {
+          "label": "Matut mahkai mai ai lam",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Htai ya lu ai lam",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Hkaw Tsun Bungli Ni",
+  "projectsEmpty": "Ya du hkra shapraw da ai masing ni n nga shi ai."
+}

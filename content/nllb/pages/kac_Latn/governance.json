@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Uphkang lam hte laika dum hkrang",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Uphkang lam hte laika dum hkrang",
+    "lead": "IATF gaw accessibility project ni hpe masha yawng chye hkra, hti mai hkra, lajang mai hkra galaw ya ai.",
+    "support": [
+      "Ndai laika man hta, gara lam ni hpe hkap la lu ai lam, gara hku repository ni hpe galaw da ai lam hte hkap la ngut ai hpang gara hku lit la ra ai lam hpe sang lang dan da ai."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Matut Mahkai Lam",
+      "title": "Magam lit hte seng ai, madu ai lam, ahkang jaw ai lam"
+    },
+    "cards": [
+      {
+        "title": "Magam bungli hta htap htuk ai",
+        "paragraphs": [
+          "IATF gaw, teng man ai shang lu ai lam pat shingdang ai lam ni hpe hparan ya nna, masha yawng a matu manu dan ai bungli ni hpe hkap la ai.",
+          "Project langai gaw private workflow hta n-ga, public repository hku nna mung akyu rawng ra ai.",
+          "Web accessibility a matu IATF gaw [W3C WAI](https://www.w3.org/WAI/) Garum shingtau ai hpaji ni hpe lang ai ni a mahkrum madup gaw, teng sha akyu jashawn ai shaloi, gara lam ni gaw akyu nga ai hpe madun nga ai."
+        ]
+      },
+      {
+        "title": "Hkaw Tsun Bungli Hpe hkap la ai lam",
+        "paragraphs": [
+          "Ndai lam ni hpe maram dinglik yu ai shaloi, hkap la mai ai:"
+        ],
+        "items": [
+          "teng sha ra kadawn nga ai lam hpe mahtai jaw ai",
+          "manghkang gaw asan sha mu lu na daram dan leng nga ai.",
+          "gap jahkring ai lam gaw teng man ai lam re ai majaw gap dat lu ai",
+          "bungli gaw IATF a lit hte maren re",
+          "Hkamja lam hte ngut kre hkra galaw lu ai lam nga ai"
+        ]
+      },
+      {
+        "title": "Repository madu ai lam",
+        "paragraphs": [
+          "hkap la da ai project ni gaw IATF GitHub uhpung a npu e hpaw da ai re.",
+          "Repository ni gaw dai shara hta nga nga ai majaw, masing langai hte langai gaw ngang kang ai masha ni a nta hpe madi shadaw ya ai."
+        ]
+      },
+      {
+        "title": "License jaw ai lam",
+        "paragraphs": [
+          "IATF project ni gaw copyleft licensing hpe jai lang nga ai."
+        ],
+        "items": [
+          "<strong>Shara:</strong> AGPL-3.0 hpe",
+          "<strong>Laika buk ni:</strong> CC BY-SA 4.0 hte seng ai"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Lit nga ai Engineer (sh) Maintenance galaw ai wa",
+      "paragraphs": [
+        "hkap la da ai project shagu hta, lit nga ai engineer (sh) maintainer langai ngai nga ra ai. Dai masha gaw, repository de admin shang lu na rai nna, lawu na lam ni hpe galaw na hpe myit mada ai:"
+      ],
+      "items": [
+        "masha ni a matu lam matsun",
+        "repository structure hpe matut manoi gram lajang na",
+        "manghkang ni hpe bai maram yu ai (sh) hparan ya ai hte hpyi shawn da ai lam ni hpe shaw la ai",
+        "ahkyak ai hpaji lam hte seng ai dawdan lam ni hpe ka da ai",
+        "Kaga masha ni chye na hkra galaw u"
+      ],
+      "footnote": "Ndai gaw repository-level responsibility rai nga ai. Organizational ownership gaw IATF hte matut nga ai re. Ndai shara hta lit la ai lam gaw repositories stewardship, technical direction, and public coordination  not unlimited private delivery, custom integrations, or service-level commitments outside the public roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Mung shawa rawt jat lam",
+      "paragraphs": [
+        "IATF hku nna hpaw hpang da ai project ni gaw, default hku nna, masha yawng a matu hpaw da ya ai re."
+      ],
+      "items": [
+        "npawt nhpang code",
+        "lam ni",
+        "laili laika",
+        "lam matsun ni",
+        "shapraw ai labau"
+      ],
+      "footnote": "Ahkyak ai project machye machyang gaw, tinang a chats (sh) inbox ni hta sha nga ra ai n re."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Mung shawa a jahpan ni",
+      "title": "Mungshawa ni hpyi shawn da ai laika ni"
+    },
+    "paragraphs": [
+      "IATF gaw default hku nna shawa a matu bungli galaw nga ai.IATF website, email, Discord, GitHub, shing nrai kaga iATF channel ni hku nna shang wa ai request ni gaw shawa a request record ni byin wa chye ai.",
+      "Public request record gaw original message n rai ra ai.IATF gaw n ra ai personal information ni hpe n shapraw ai sha, accessibility ra ai lam hpe bai maram yu lu na matu, request hpe summarize, redact, or restructure galaw mai ai.",
+      "Public request records ni hpe IATF GitHub uhpung hta, ndai website hta, shing nrai lahkawng yan hta mara da mai ai.",
+      "IATF gaw ndau shabra ai lam garai n galaw shi yang, n ra ai masha hte matut mahkai mai ai lam ni, tinang hte seng ai address ni hte, karum shingtau ai hpaji ni hpe lang ai masha langai hpra a lam hpe chye lu ai shiga ni hpe, ndau shana na matu yaw shada nna, jaw ai lam n nga yang, kau da ya ai.",
+      "Discord hpe informal coordination a matu jai lang nga ai. IATF gaw Discord hte seng ai ga shaga ai lam ni hpe default hku nna archive n galaw ai.",
+      "Request records ni hpe search engine indexing kaw na technically practical hku nna gaw n mai galaw ai. Public ngu ai gaw reviewable and accountable ngu ai lachyum rai nga ai. Dai gaw mying tam ai hku nna tam lu na matu optimized ngu ai hpe tsun mayu ai n re.",
+      "IATF gaw shi uphkang ai shawa shara ni kaw na record ni hpe update galaw mai ai (sh) shaw kau mai ai raitim, third party cache ni, notification ni, forks ni, screenshots ni, search engine ni, Discord ni hte kaga shinggan de na system ni kaw nna shaw kau ai hpe gaw garan kachyan ya lu ai n re.",
+      "Shiga langai gaw tinang hkrai matut mahkai ra ai rai yang, IATF a masha yawng chye ai ladat hku nna n sa ya u."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Wuhpung Wuhpawng a lit",
+      "title": "Hkaw Tsun Bungli"
+    },
+    "lead": "Tingnyang up gaw IATF a wuhpung wuhpawng madang lit hpe gunhpai nga ai. Ndai gaw masing hte seng ai lit nga ai engineer a lit hte shai nga ai: tingnyang up wa gaw uhpung ting a lit nga nna, repository langai ngai a shani shagu na lam woi awn ai lam n re.",
+    "duties": {
+      "title": "Tingnyang galaw ai lam",
+      "items": [
+        "IATF GitHub uhpung hta madu ahkang ni hpe lu ai",
+        "Project hkap la ai lam hte archive galaw na matu dawdan da ai lam ni hpe sen htu ai",
+        "IATF a matu mung shawa hte matut mahkai ai lam galaw ai",
+        "Shaning shagu galaw ai ra lata poi hpe woi awn ya ai"
+      ],
+      "footnote": "Chairman gaw IATF hpe private delivery, paid work, or service-level agreements hte seng nna lit n la ya ai sha n ga, technical direction hte seng ai repository langai hpra a maintainer a dawdan ai lam ni hpe mung n hprai kau ya ai."
+    },
+    "election": {
+      "title": "Shaning shagu galaw ai ra lata poi",
+      "paragraphs": [
+        "Ningbaw hpe laning mi hta kalang lata ai rai nna, ra lata poi hpe December shata a shawng na bat lahkawng hta galaw nna, mahtai hpe December 15 ya shani hta ndau shabra na re.",
+        "Eligible voters ngu ai gaw IATF repository ni hta lit nga ai masha ni rai nna, dai shaning hta IAT F repositories langai ngai hta shang lawm ai ni rai ma ai.",
+        "Dai ra lata poi hpe IATF uphkang ai laika dum hta masha yawng hte seng ai GitHub Discussion hku nna galaw ai re majaw, ra lata ai ni, vote bang ai lam hte mahtai ni yawng gaw masha yawng chye lu ai labau hta lawm nga ai."
+      ]
+    },
+    "continuity": {
+      "title": "Matut mahkai ai lam",
+      "paragraphs": [
+        "Dai ning hta ra lata poi n galaw ai rai yang, ya na ningbaw gaw du wa na ralata poi du hkra magam lit hpe matut gunhpai na rai nga ai. Ndai gaw aten n masat ai sha matut gun hpai ai lam rai nna, ahkaw ahkang jaw ai aten n re.",
+        "Ningbaw wa gaw aten shagu hta hkring sa mai ai.Active maintainer ni gaw, shaning shagu galaw ai ra lata poi hte maren, lawu na zawn re ai ladat hte galaw ai, malawm maga na ra lata ai lam hpe mung masat da ai lam ni hte shaga la mai nga ai."
+      ]
+    },
+    "current": {
+      "title": "Ya magam gun nga ai",
+      "fields": [
+        {
+          "label": "Hkaw Tsun Bungli",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Aten ladaw",
+          "value": "December 2026 ra lata poi du hkra"
+        },
+        {
+          "label": "Galaw ra ai lit ni",
+          "value": "2026"
+        },
+        {
+          "label": "Shawng nnan na ra lata poi",
+          "value": "December 2026 hta byin wa na."
+        }
+      ]
+    },
+    "footnote": "Dai ten du hkra, wuhpung wuhpawng a lit hpe n tara ai hku nna ningpawt ninghpang wa kaw nna gunhpai nga ai."
+  },
+  "continuity": {
+    "states": {
+      "title": "Hkaw Tsun Bungli",
+      "paragraphs": [
+        "Dai masing ni gaw, masha law ai mungdan ni hpe akyu jashawn ai:"
+      ],
+      "items": [
+        "Hpaji jaw ga",
+        "hkap la ai",
+        "Akyu rawng ai",
+        "Ngang kang ai",
+        "Hkamja lam tam ai wa",
+        "Matut mahkai da ai"
+      ],
+      "footnote": "Dai mungdan ni gaw, jahpan laika ni hpe asan sha sawk sagawn lu hkra galaw ya ai."
+    },
+    "reassignment": {
+      "title": "Bai ap ya ai hte matsing sumhting da ai lam",
+      "paragraphs": [
+        "Lama na, maintainer langai ngai bungli kaw na pru mat ai (sh) bungli n galaw mat ai rai yang, IATF gaw lit hpe bai lit la ya ai, galaw sa wa ai lam hpe jahkring kau ai, shing n rai project hpe archive galaw kau ai lam ni galaw mai ai.",
+        "Shawng npawt na ra kadawn ai lam ni hpe ngut kre hkra galaw ngut ai hpang, bungli hpe matut galaw na matu n mai byin mat ai shaloi, bungli langai hpe mung archive galaw kau mai ai."
+      ],
+      "footnote": "Grai ahkyak ai lam n nga yang gaw, laika dum ni hpe mung shawa ni mu lu na matu mara da ai."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Border note (n) ga jarit masat ai laika",
+      "title": "IATF gaw hpa hpe n madi shadaw ai"
+    },
+    "items": [
+      "laksan masha ni hpe sa ya ai",
+      "service-level agreement (n) magam bungli madang hte seng ai ga shaka.",
+      "lam shagu hpe hkap la ai lam",
+      "masing shagu a matu aten na na makawp maga ai lam"
+    ],
+    "footnote": "IATF gaw public repository model re, private delivery service nre."
+  }
+}

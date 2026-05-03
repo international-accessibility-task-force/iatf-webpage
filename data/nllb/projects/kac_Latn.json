@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF website hpe yu u",
+    "summary": "International Accessibility Task Force a matu masha yawng lu mai ai website re.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF gaw ngang grin ai shawa nta langai hpe ra nga ai. Dai gaw hkrangpan hpe sanglang dan ai, masing jahpan ni hpe madun dan ai hte karum shingtau ya ai ni hpe htawm hpang hta galaw ra na lam ni hpe matsun ya ai.",
+    "why": "Ndai website gaw IATF a masha yawng a matu chyinghka kaba rai nga ai. Ndai website hpe laika hti na matu, ga gale na matu hte wanglu wanglang bungli galaw na matu loi hkra galaw da ai.",
+    "scopeIn": [
+      "IATF model hpe sanglang dan ai shawa landing page ni",
+      "hkap la da ai, bungli galaw nga ai hte IATF project ni hpe status, maintainer, repository, hte demo ni hte seng ai shawa jahpan (public registry)",
+      "hpyi shawn laika man hte form",
+      "Uphkang lam hte ndau shabra laika ni",
+      "Ga gale na matu hkyen da ai hkrang hte Inglik ga madung",
+      "Static deployment on Cloudflare Workers Static Assets (Cloudflare bungli galaw ai ni a static arung arai ni hta shara jahkrat ai lam)"
+    ],
+    "scopeOut": [
+      "Private member areas, accounts, or login flows (private member area ni, account ni hte login galaw ai lam ni)",
+      "Project source code hpe hosting galaw ai, project shagu a tinang a repository hta rawng ai",
+      "Real-time chat, dai gaw Discord kaw nga ai",
+      "Project shagu a GitHub repository hta rawng ai, langai hte langai a project ni a matu issue tracking"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie hpe",
+    "summary": "Dai gaw IATF a shawng nnan na prototype re.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF a npu e accessibility hpe madung tawn ai ladat hpe shawng nnan tam sa wa na.",
+    "why": "Active development jahkring kau sai raitim, repository gaw bungli a jahpan hku nna masha yawng a matu mara nga ai.",
+    "scopeIn": [
+      "Public Record hku nna matsing da ai Accessibility-focused tool a shawng ningnan na hkrang sumla"
+    ],
+    "scopeOut": [
+      "Active development (sh) feature bungli hpe galaw nga ai",
+      "Hkamja lam hte seng ai lit ni",
+      "Hkai lu hkai sha lam hta akyu jashawn na matu hpaji jaw da ai lam"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot hpe",
+    "summary": "An IATF community bot, archived after reaching a natural stopping point. (natural stop point hpe du ai hpang htawng da ai)",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF community channel ni hpe automation galaw ai lam.",
+    "why": "Active development jahkring kau sai raitim, repository gaw bungli a jahpan hku nna masha yawng a matu mara nga ai.",
+    "scopeIn": [
+      "IATF community channel ni hte seng ai myit n hkrum ai lam ni hpe automation galaw nna, masha yawng chye hkra ka matsing da ai"
+    ],
+    "scopeOut": [
+      "Active development (sh) feature bungli hpe galaw nga ai",
+      "Hkamja lam hte seng ai lit ni",
+      "Hkai lu hkai sha lam hta akyu jashawn na matu hpaji jaw da ai lam"
+    ]
+  }
+]

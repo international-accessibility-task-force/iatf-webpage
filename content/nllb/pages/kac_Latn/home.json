@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Public repo de shang lu na matu ra kadawn ai lam",
+    "lead": "IATF gaw uhpung uhpawng ni, wuhpung ni hte masha langai hpra hpe madi shadaw ya ai.",
+    "support": [
+      "hkap la da ai project ni hpe IATF GitHub uhpung hta copyleft license npu e shapraw da nna, lit nga ai engineer ni hku nna mung shawa masha ni a matu hpaw da ya ai."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mung shawa magam bungli hkrang",
+      "title": "lang mai ai software ni a matu asan sha re ai, masha yawng lu mai ai lam"
+    },
+    "paragraphs": [
+      "Kadai mung IATF hpang de form langai hte accessibility manghkang shagun mai ai.",
+      "hkap la da ai project shagu gaw code, issues, documentation, hte releases ni a matu asan sha re ai public home nga ai."
+    ],
+    "specCard": {
+      "title": "Mung shawa magam bungli hkrang",
+      "terms": [
+        {
+          "term": "Ra kadawn ai lam",
+          "definition": "Teng man ai shang lu ai lam hte seng ai manghkang"
+        },
+        {
+          "term": "Matut Mahkai",
+          "definition": "Magam bungli hta htap htuk ai lam hte tatut hkan sa mai ai lam"
+        },
+        {
+          "term": "Hkaw Tsun Bungli",
+          "definition": "Mung shawa lang ai GitHub repository"
+        },
+        {
+          "term": "Hkamja Lam",
+          "definition": "IATF wuhpung wuhpawng madu ai lam"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Galaw ai lam",
+      "title": "Dai gaw gara hku bungli galaw ai kun?",
+      "intro": "Dai hku galaw ai gaw, shawa masha ni hkan sa na matu loi na matu re."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ra kadawn ai lam hpe tsun dan ai",
+        "paragraphs": [
+          "Nawku hpung, wuhpung (sh) masha langai ngai gaw, teng sha ra kadawn nga ai lam hpe madung tawn nna, hpyi shawn mai ai.",
+          "Ra ai lam ni hpe website kaw na hpang mai ai. <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>(sh) Shut shai ai lam hku nna re."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF gaw dai hpe bai maram yu ai.",
+        "paragraphs": [
+          "Hkaw tsun bungli hte seng ai lam, akyu jashawn mai ai lam hte masha yawng a matu hpaw da ai laika buk hta lawm ai kun ngu ai ni hpe anhte bai maram yu ai."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Public repository hpe galaw da ai",
+        "paragraphs": [
+          "Project langai hpe hkap la ai rai yang, dai hpe IATF GitHub uhpung hta copyleft license hte dip shabra dat ai.",
+          "Dai repository gaw code, issues, documentation, hte releases ni hpe masha yawng mu lu ai shara byin wa ai."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Hkaw tsun bungli hpe woi awn ai lit nga ai Engineer",
+        "paragraphs": [
+          "Project repository hta lit nga ai engineer langai hpe lit jaw nna, masha yawng a man hta galaw ai."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Hkaw Tsun Laika",
+      "title": "Mungkan ting hte seng ai masing jahkrat laika buk"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ndai kaw nna hpang u",
+      "title": "Ya galaw nga ai bungli ni hpe tam yu u (sh) tang du ai masing langai hpe hpang u"
+    },
+    "paragraphs": [
+      "Masha yawng mu lu sai lam ni hpe yu na matu registry hpe akyu jashawn u, shing nrai tang du ai mahkrum madup langai ngai gaw masing langai byin wa na nga yang, laika bang ai lam hpe hpang u."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

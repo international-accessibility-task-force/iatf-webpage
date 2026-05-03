@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Matut mahkai mai ai lam",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Matut mahkai mai ai lam",
+    "lead": "IATF gaw ndai website hpe asan sha, hti loi ai, keyboard hte lu mai ai hte, karum shingtau ai technology ni hte matut mahkai lu na matu yaw shada da ai.",
+    "support": [
+      "Web accessibility a matu IATF gaw [W3C WAI](https://www.w3.org/WAI/) Dai hta n ga, karum shingtau ai atsam ningja ni hpe lang ai ni a mahkrum madup kaw nna mung, tatut akyu jashawn mai ai lam hpe chye lu ai."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Shiga jaw ai lam",
+      "title": "Hkam sha lam hte seng ai manghkang hpe shiga jaw u"
+    },
+    "paragraphs": [
+      "Ndai website hta shang lu na matu pat shingdang ai lam nga ai hpe mu yang, ndai email kaw sa tsun dan u:",
+      "{{contact.accessibilityEmail}}",
+      "Akyu nga ai shiga ni gaw:"
+    ],
+    "items": [
+      "manghkang byin wa ai laika man",
+      "nang galaw mayu ai lam",
+      "nang gara karum shingtau ai hpaji (assistive technology), browser (browser) (sh) lang ai arung arai (device) hpe akyu jashawn nga ai kun?",
+      "Hpa majaw manghkang byin ai kun?",
+      "hpa gaw karum ya lu ai kun?"
+    ],
+    "footnote": "Formally bug report ka na matu n ra ai. asan sha tsun dan yang ram sai."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Hkam sharang ai lam",
+      "title": "Mung shawa hte seng ai manghkang ni hpe hparan ai"
+    },
+    "paragraphs": [
+      "Accessibility hte seng ai manghkang ni hpe seng ang ai public repository hta mahta nna, asan sha hparan ya mai ai. Tinang hte matut mahkai mai ai lam ni hte n ra ai laksan shiga ni hpe, n shapraw shi yang, shaw kau ya ai.",
+      "Na a shiga hta tinang hte seng ai lam ni lawm yang, dai lam hpe laika hta asan sha tsun u."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ya aten na masa",
+      "title": "Chye da ai pat shingdang ai lam ni"
+    },
+    "paragraphs": [
+      "Ndai site gaw yaw shada nna kaji ai hte law malawng gaw hkring nga ai. Ga gale laika ni hpe hkyen lajang nga ai laman, ga gale laika nkau gaw n hkum tsup na re."
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Htai ya lu ai lam",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Htai ya lu ai lam",
+    "lead": "IATF gaw default hku nna masha yawng a matu bungli galaw nga ai. Project decisions, code changes, governance changes, hte operating costs ni hpe masha yawng mu lu ai shara ni hta ka matsing da ai.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Matut mahkai ai lam",
+      "title": "Matut Mahkai Lu Hkra Shakut U"
+    },
+    "items": [
+      "<strong>Hkaw tsun bungli hte seng ai dawdan lam ni.</strong> Hkam sha lam hte seng nna dawdan da ai lam ni hpe, seng ang ai laika dum hta shapraw da ai dawdan lam ni hku nna ka matsing da nna, tara shang masat da ai laika buk (public registry) hta mahkawng da ai. <a href=\"/projects/\">jahpan hta bang ai</a>Hpa majaw kun?",
+      "<strong>Matut mahkai na matu hpyi shawn u.</strong> Public request records ni hpe IATF GitHub uhpung hta, ndai website hta, shing nrai lahkawng yan hta mara da ya ai. Records ni gaw original request hpe summarize, redact, or restructure galaw ya lu ai majaw accessibility ra ai lam hpe n ra ai personal information ni hpe n madun ai sha bai maram yu lu ai. Disagree decisions ni gaw project or governance decision ni hpe hkra machyi shangun ai shaloi, public record ni hta summarized galaw da ai. Request records ni gaw search engine indexing kaw na technically practicable nga yang n lawm ai. View records: first publication request pending.",
+      "<strong>Code ni galai shai wa ai.</strong> Code galai shai ai lam shagu gaw seng ang ai repository hta public commit galaw ai lam rai nga ai. IATF hpe yu u <a href=\"{{contact.githubOrgUrl}}\">GitHub uhpung uhpawng</a>Hpa majaw kun?",
+      "<strong>Uphkang lam galai shai wa ai.</strong> updates to the governance page are tracked as commits to the <code>iatf-website</code> Repository hpe yu u. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">commit labau hpe</a> GitHub hta mara da ai.",
+      "<strong>Hkamja lam hte seng ai manu jahpu ni.</strong> IATF gaw operating cost ni hpe jahpu n jaw ai sha galaw nga ai. 2022 ning kaw nna, madung gaw domain name ni re. Hosting gaw free-tier (sh) low-cost infrastructure ni hpe mai byin ai shara ni hta lang ai. Operating cost record hpe lawu na hte maren mu lu ai.",
+      "<strong>Matut mahkai ai lam hte seng ai matsun ni.</strong> Matut mahkai ai mahtai (sh) dawdan ai lam ni a matsun ni hpe GitHub hta mu lu na re. <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Zuphpawng Ni</a> hte seng ai <code>iatf-website</code> repository (n) mahkawng da ai shara."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Jahpu ni",
+      "title": "Hkamja lam manu jahpu jahpan (Operating cost record)"
+    },
+    "paragraphs": [
+      "IATF gaw shi a mung shawa infrastructure hpe yaw shada let n law ai hku galaw nga ai. 2022 ning kaw nna, lang hte lang byin wa ai operating cost ni gaw domain name ni re. Hosting gaw mai byin ai shara ni hta free-tier (sh) low-cost infrastructure ni hpe lang ai.",
+      "Ndai laika buk gaw, audit galaw da ai jahpan laika buk n re ai sha, IATF hpe online galaw na matu akyu jashawn ai lam hte seng nna, masha yawng chye hkra ka da ai labau laika buk re."
+    ],
+    "footnote": "Dai hta n-ga, tinang a personal address ni, billing details ni hte n ra ai account information ni hpe mung shawa ni mu lu na n re.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "domain (n) lamu ga ginra.",
+            "value": "<code>iatf.cc hpe</code>"
+          },
+          {
+            "label": "Jahpu",
+            "value": "US$ 3.40 rai nga ai."
+          },
+          {
+            "label": "Matsing",
+            "value": "Domain cost hpe mugiwarafx kaw na madi shadaw ya ai. Hosting gaw free-tier or low-cost infrastructure hpe Cloudflare hku nna lang ai. project gaw Vercel kaw na Cloudflate de htawt mat wa nna, grau loi ai <code>iatf.cc hpe</code> domain ngu ai rai nga ai."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "domain (n) lamu ga ginra.",
+            "value": "<code>internationalaccessibilitytaskforce.com hpe lang ai</code>"
+          },
+          {
+            "label": "Jahpu",
+            "value": "US$ 18.68 rai nga ai."
+          },
+          {
+            "label": "Matsing",
+            "value": "Domain cost hpe mugiwarafx kaw na madi shadaw ya ai. Hosting gaw free-tier or low-cost infrastructure hpe lang ai."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "domain (n) lamu ga ginra.",
+            "value": "<code>internationalaccessibilitytaskforce.com hpe lang ai</code>"
+          },
+          {
+            "label": "Jahpu",
+            "value": "US$ 17.06 re ai"
+          },
+          {
+            "label": "Matsing",
+            "value": "Domain cost hpe mugiwarafx kaw na madi shadaw ya ai. Hosting gaw Vercel hku na free-tier or low-cost infrastructure hpe lang ai."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "domain (n) lamu ga ginra.",
+            "value": "<code>internationalaccessibilitytaskforce.com hpe lang ai</code>"
+          },
+          {
+            "label": "Jahpu",
+            "value": "US$ 14.76 re ai"
+          },
+          {
+            "label": "Matsing",
+            "value": "Domain cost hpe mugiwarafx kaw na madi shadaw ya ai. Hosting gaw free-tier or low-cost infrastructure hpe lang ai."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "domain (n) lamu ga ginra.",
+            "value": "<code>internationalaccessibilitytaskforce.com hpe lang ai</code>"
+          },
+          {
+            "label": "Jahpu",
+            "value": "US$ 7.76 re ai"
+          },
+          {
+            "label": "Matsing",
+            "value": "Domain cost hpe mugiwarafx kaw na madi shadaw ya ai. Hosting gaw free-tier or low-cost infrastructure hpe GitHub Pages hku nna lang ai."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Border note (n) ga jarit masat ai laika",
+      "title": "Mungkan ting hte n seng ai lam"
+    },
+    "paragraphs": [
+      "Kaga laili laika ni gaw, ndai hku yaw shada nna tara shang ndau da ai:"
+    ],
+    "items": [
+      "Hkaw tsun masha ni hte matut mahkai mai ai lam ni.",
+      "Tinang a hpyi shawn ai lam hpe hkap la, ningdang kau, shing nrai kadun dawk tsun dan na matu sha lang ai laksan laika ni re.",
+      "Tinang hte seng ai hkringdat ni, phone number ni hte kaga n ra ai lam ni.",
+      "Ahkaw ahkang n nga ai sha, karum shingtau ai ladat ni hpe lang ai wa hpe chye ginhka lu ai lam ni.",
+      "Raw Discord ga shaga ai lam ni gaw, laksan message langai ngai hpe shawa project record de yaw shada let htawt bang da ai lam n nga yang she mai galaw ai."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Matut hti na matu",
+      "title": "Uphkang lam gaw ndai jahpan ni a shingdu na tara laika buk re"
+    },
+    "paragraphs": [
+      "Bungli ni hpe gara hku hkap la ai, gara hku ka matsing da ai (sh) gara hku bai lit la ai hpe chye mayu yang, uphkang lam hte seng ai laika man hpe hti u."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

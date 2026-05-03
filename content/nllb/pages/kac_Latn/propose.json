@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Hkawm chyai mai ai lam hte seng ai masing hpe hpyi shawn u",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Hkawm chyai mai ai lam hte seng ai masing hpe hpyi shawn u",
+    "lead": "IATF gaw, teng man ai ra kadawn ai lam kaw nna hpang wa ai, akyu jashawn mai ai lam hte seng ai masing ni a matu hpyi shawn da ai lam ni hpe bai maram yu ai.",
+    "support": [
+      "Hkum tsup ai lam n ra ai sha, manghkang hpe asan sha chye da nna, dai gaw kadai ni hpe hkra machyi ai hte hpa majaw ahkyak ai lam hpe tsun dan yang she hpang mai ai."
+    ],
+    "actions": [
+      {
+        "label": "Ra ai lam hpe hpang u",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "De a malai Discord hpe lang u",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Hkrun lam ni",
+      "title": "Grai loi ai lam hpe lata u"
+    },
+    "intro": [
+      "Hkrun lam yawng hpe maren sha maram yu ra ai."
+    ],
+    "items": [
+      {
+        "label": "Website ni",
+        "body": "Lawu na laika ngau hpe akyu jashawn nna hkrang shachyaw da ai hpyi shawn laika bang u."
+      },
+      {
+        "label": "E-mail hpe",
+        "body": "Matut mahkai na matu hpyi shawn u {{contact.requestsEmail}}Email hku nna hpyi shawn da ai lam ni hpe bai maram dinglik nna gram lajang ngut ai hpang, shawa n-gun madun ai laika buk (public request records) byin wa mai ai."
+      },
+      {
+        "label": "Myit n hkrum ai lam",
+        "body": "Dai hku galaw na matu loi ai nga yang dai kaw nna hpang u."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Shachyen shaga lam garai n galaw shi yang",
+    "paragraphs": [
+      "IATF gaw shawa hte seng ai bungli ni hpe galaw nga ai. Request ni hpe shingjawng nna, shawa request record ni hku nna, ndai website kaw, shing n rai, ndai lahkawng kaw dip shabra dat mai ai.",
+      "Tinang hte seng ai address, phone number, tsi gawn lajang ai lam hte karum shingtau ya ai hpaji ni hpe lang ai ni hte seng nna, ra ang ai lam n nga ai sha, dai hpe IATF kaw nna bai maram yu na matu myit hkrum yang she, kaga masha ni hpe chye hkra tsun dan mai ai.",
+      "IATF gaw n ra ai masha ni hte matut mahkai na lam ni hpe, hpyi shawn da ai jahpan ni hpe n shapraw shi yang, seng kau ya ai."
+    ]
+  },
+  "review": {
+    "title": "Myit mada da ai lam ni hpe bai sumru yu u",
+    "paragraphs": [
+      "Akyu hpyi ai hte sha, hkap la hkrum na ngu ai lam n nga ai.",
+      "IATF gaw, lit hte seng ai, byin mai ai lam, akyu rawng ai lam hte, bungli gaw mung shawa laika dum hta lawm ging ai kun ngu ai lam ni hpe san jep ai.",
+      "Akyu hpyi ai lam nkau mi hpe n hkap la shi yang, bai htawt sit kau ai (sh) galai shai kau ai hkrum chye ai."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "hpyi shawn laika hkrang",
+      "title": "Akyu hpyi ga"
+    },
+    "fields": [
+      {
+        "kind": "shang ai lam",
+        "name": "hpyi shawn ai wa",
+        "label": "Na a mying (sh) uhpung",
+        "helper": "Kadai ni hpyi shawn ai kun?"
+      },
+      {
+        "kind": "lata la ai",
+        "name": "matut mahkai lam",
+        "label": "Ahkyak ai matut mahkai lam",
+        "helper": "Matut mahkai ai lam gara hku galaw na kun?",
+        "required": true,
+        "options": [
+          "E-mail hpe",
+          "Myit n hkrum ai lam"
+        ]
+      },
+      {
+        "kind": "shang ai lam",
+        "name": "Matut Mahkai Lam Ni",
+        "label": "Matut mahkai mai ai lam ni",
+        "helper": "Matut mahkai na matu email address (sh) Discord handle hpe lang u.",
+        "placeholder": "Email address (sh) Discord lang na mying",
+        "required": true
+      },
+      {
+        "kind": "shang ai lam",
+        "name": "ga shaga ai",
+        "label": "Amyu ga",
+        "helper": "Ahkyak ai nga yang, na a ra sharawng ai ga hpe tsun u.",
+        "value": "Inglik ga hte"
+      },
+      {
+        "kind": "textarea (n) laika ginra.",
+        "name": "manghkang",
+        "label": "Gara manghkang hpe nang hparan mayu ai kun?",
+        "helper": "Dai lam hpe asan sha tsun dan u.",
+        "required": true
+      },
+      {
+        "kind": "textarea (n) laika ginra.",
+        "name": "akyu jashawn ai ni",
+        "label": "Kadai ni hkra machyi ai kun?",
+        "helper": "Kadai hpe karum ya lu na kun?",
+        "required": true
+      },
+      {
+        "kind": "textarea (n) laika ginra.",
+        "name": "extraContext (Lawu na lam ni)",
+        "label": "Matut mahkai ai lam",
+        "helper": "Ra kadawn ai lam hpe sanglang dan lu ai kaga lam ni hpe mung tsun dan u: hpa majaw ahkyak ai lam, ga shadawn ni, madung lam ni, software lam hte seng ai ningmu ni (sh) aten masat da ai lam ni."
+      },
+      {
+        "kind": "lata la ai",
+        "name": "openSourceConsent hpe",
+        "label": "Myu sha ni a matu hpaw da ai software ni hte seng nna nang myit pyaw ai kun?",
+        "helper": "hkap la da ai project ni gaw IATF a npu na public repository ni re.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Rai nga ai.",
+          "N mai byin ai.",
+          "Ya du hkra n chye lu shi ai."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "hkap la ai nga yang",
+      "title": "Hkap la ai ngu ai gaw hpa lachyum rai kun?"
+    },
+    "items": [
+      "IATF GitHub uhpung kaw na mung shawa lang ai laika dum (repository)",
+      "masing hta lit nga ai engineer langai",
+      "code hte project arung arai ni a matu copyleft license",
+      "public development in the repository (jinghpawkasa hta masha yawng chye na hkra galaw ai lam)",
+      "IATF website hta ka da ai jahpan"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hkaw tsun hpang u",
+      "title": "Aten kadun, asan sha hpyi shawn yang she hpang mai ai"
+    },
+    "paragraphs": [
+      "Lama na, nang teng sha ra kadawn ai lam nga nna, ndai lam gaw masha yawng a matu akyu rawng ai masing byin wa hkra galaw ra ai ngu shadu yang, anhte hpang de sa ya rit."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "N mu lu ai"
+  },
+  "hero": {
+    "eyebrow": "N mu lu ai",
+    "title": "Ra ai laika ngau hpe n mu lu ai",
+    "lead": "Mungshawa ni nga ai shara de bai du wa na matu, lawu na lam madung ni hpe hkan sa u.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Nta de sa ai",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Nang hpyi ai hkrun lam gaw n nga ai."
+    ],
+    "items": [
+      {
+        "label": "Nta de sa ai",
+        "href": "/"
+      },
+      {
+        "label": "Hkaw Tsun Bungli Ni",
+        "href": "/projects/"
+      },
+      {
+        "label": "Hkaw Tsun U",
+        "href": "/join/"
+      },
+      {
+        "label": "Matut mahkai mai ai lam",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Uphkang lam",
+        "href": "/governance/"
+      },
+      {
+        "label": "Htai ya lu ai lam",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Mung shawa ni shang lu ai lam hte seng ai masing ni",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Mung shawa ni shang lu ai lam hte seng ai masing ni",
+    "lead": "Ndai register gaw IATF hku nna lajang da ai shawa project ni hpe jahpan bang da ai. hkap la da ai accessibility project ni, site infrastructure ni hte archived prototypes ni hpe ndai kaw mu lu na re.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Hkaw Tsun Laika",
+      "title": "Ya galaw nga ai jahpan laika"
+    },
+    "intro": [
+      "Hkam la hkrum ai masing ni hpe, shapraw ngut ai hpang, ndai laika buk hta madun da ai."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ra kadawn ai lam hpe tsun dan u",
+      "title": "Kaja wa ra kadawn nga ai lam ni hpe shawa masha ni a matu akyu jashawn ai lam byin hkra galaw u"
+    },
+    "paragraphs": [
+      "IATF gaw, akyu rawng ai open source hte seng ai bungli ni hpe galaw lu na matu, tang du ai ra kadawn ai lam ni hpe maram yu ai."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Laika buk garai n shapraw shi ai",
+    "paragraphs": [
+      "IATF gaw shi a shawng nnan na masha yawng a matu masing jahkrat da ai laika buk hpe hkyen lajang nga ai.",
+      "Nang ra kadawn ai lam ni nga yang, matut nna hpyi shawn mai ai."
+    ]
+  }
+}
