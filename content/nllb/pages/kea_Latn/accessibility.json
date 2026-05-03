@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Asesível pa tudu algen",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Asesível pa tudu algen",
+    "lead": "Objetivu di IATF é pa es pájina di internet ser sinplis, ledu, asesuvel pa tecladu y konpativel ku teknolojia di asisténsia.",
+    "support": [
+      "Pa asesibilidadi na internet, IATF ta uza [W3C WAI](https://www.w3.org/WAI/) Asesivel prátiku ta ser informadu tanbe pa spiriénsa diretu di utilizadoris di téknologias di asisténsia."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Raprizentason",
+      "title": "Raporta un prubléma di aksesibilidadi"
+    },
+    "paragraphs": [
+      "Si bu atxa un difikuldadi di asesu na es pájina di internet, pur favor raporta-l pa e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Alguns informason ki pode djuda-nu é:"
+    ],
+    "items": [
+      "pájina na undi ki kel asuntu kontise",
+      "kel ki bu staba ta tenta faze",
+      "ki tekinolojia di asisténsia, navegador ô aparelhu ki bu sta ta uza, si kel-li é inportanti",
+      "kuzê ki kontise?",
+      "ki ta djudaba"
+    ],
+    "footnote": "Bu ka meste skrebe un raprizentason formal di prubléma."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Modi ki es ta uzadu",
+      "title": "Kuida di asuntus públiku"
+    },
+    "paragraphs": [
+      "Asuntu asesibilidadi pode ser resumidu na repositóriu públiku pertinenti pa es pode ser fixadu na abértu. Detalhes di kontaktu pesoal y informason privadu ki ka ten nisisidadi é retiradu antis di publikason.",
+      "Si bu raportu ta inklui informason privadu, fla-l klaru na mensaji."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Stadu atual",
+      "title": "Limitason konxedu"
+    },
+    "paragraphs": [
+      "Kel site li é pikinoti intensionadamenti i é statiku. Alguns verson di língua podi sta incompletu enkuantu traduson sta ser preparadu."
+    ]
+  }
+}

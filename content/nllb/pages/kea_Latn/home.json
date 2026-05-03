@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Di nisisidadi di asesibilidadi pa repó públiku",
+    "lead": "IATF ta djuda asosiasons, grupus, i indivíduos transforma nesesidadis di asesibilidadi na prujetus públiku di fonte aberta.",
+    "support": [
+      "Projetu ki é aprovadu é publikadu na organizason IATF GitHub sob lisensa di copyleft y é dizenvolvidu pa públiku pa un enjenheru responsável."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modelu di operason públiku",
+      "title": "Un kaminhu públiku sinplis pa prugramas asesivel"
+    },
+    "paragraphs": [
+      "Através di un formuláriu, kualker algen pode envia un prubléma di aksesibilidadi pa IATF. Si ekipa pode toma-l, un repozitóriu públiku di GitHub é abértu pa trabadju.",
+      "Kada prujétu aseitadu ten un kaza públiku klaru pa kódigu, asuntus, dokumentason, y publikasons, ku dizenvolvimentu lideradu na abértu pa un enjenheru rasponsável."
+    ],
+    "specCard": {
+      "title": "Modelu di operason públiku",
+      "terms": [
+        {
+          "term": "nesesidadi",
+          "definition": "Prubléma di aseitason verdaderu"
+        },
+        {
+          "term": "Revizita",
+          "definition": "Ser adekuadu pa un mison i viabilidadi na prátika"
+        },
+        {
+          "term": "Spasu di prujétu",
+          "definition": "Repozitóriu públiku di GitHub"
+        },
+        {
+          "term": "Administrason",
+          "definition": "Propiedadi di organizason di IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prosésu",
+      "title": "Modi ki el ta funsiona",
+      "intro": "Modelu ta fika pikinoti pabia kaminhu públiku é fásil di sigi."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Un nisisidadi é apresentadu",
+        "paragraphs": [
+          "Un asosiason, un grupu ô un indivídu pode faze un pedidu ku bazi na un nesesidadi di asesibilidadi.",
+          "Pedidu pode ser enviadu pa site, pa e-mail pa: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ô através di Discórdia."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ta reviza-l",
+        "paragraphs": [
+          "Nu ta djobe si trabadju sta dretu, si el pode ser uzadu i si el ta faze párti di un prujétu públiku di kódigu abertu."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Un arkivu públiku é kriadu",
+        "paragraphs": [
+          "Si un prujétu é aseitadu, el ta publikadu na organizason IATF GitHub ku un lisensa di copyleft.",
+          "Repozitóriu ta bira kaza públiku di kódigu, asuntus, dokumentason, y publikasons."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un enjenheru responsável ta lidera prujétu",
+        "paragraphs": [
+          "Un enjenheru responsável é atribuídu pa repositoriu di prujétu y dizenvolvimentu ta kontise na públiku."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejistu",
+      "title": "Rejistu públiku di projetu"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kumesa li",
+      "title": "Odja trabadju ki sta fazedu ô kumesa un prujétu konkretu"
+    },
+    "paragraphs": [
+      "Uza rejistu pa odja kuzê ki dja sta publikadu, ô kumesa ta djobe si un prubléma konkretu di asesibilidadi debe bira un projétu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

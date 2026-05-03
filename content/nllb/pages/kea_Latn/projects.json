@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projetu di aksesibilidadi pa públiku",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projetu di aksesibilidadi pa públiku",
+    "lead": "Es rejistu ta lista prujetus públiku mantudu através di IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejistu",
+      "title": "Rejistu atual"
+    },
+    "intro": [
+      "Prugramas aprovadu ta sta na es pájina óras ki es é publikadu."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Manda un informason",
+      "title": "Transforma un nisisidadi konkretu di aksesibilidadi na un projetu públiku"
+    },
+    "paragraphs": [
+      "IATF ta analiza nesesidadis konkretu di asesibilidadi ki pode ser transformadu na un trabadju públiku di fonte aberta útil."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Inda ka publikadu ninhun projetu",
+    "paragraphs": [
+      "IATF sta ta pripara se primeru grupu di prujetus públiku.",
+      "Inda bu pode manda un pedidu si bu ten un nisisidadi konkretu di asesibilidadi."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nu ka atxa-l"
+  },
+  "hero": {
+    "eyebrow": "Nu ka atxa-l",
+    "title": "Kel pájina ki bu pidi ka foi atxadu",
+    "lead": "Uza kes kaminhu prinsipal ki sta dibaxu pa bu volta pa kel lugar públiku.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Na kaza",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Kel kaminhu ki bu pidi ka ta izisti."
+    ],
+    "items": [
+      {
+        "label": "Na kaza",
+        "href": "/"
+      },
+      {
+        "label": "Projetu",
+        "href": "/projects/"
+      },
+      {
+        "label": "Nu djunta",
+        "href": "/join/"
+      },
+      {
+        "label": "Asesível pa tudu algen",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governason",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparénsia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

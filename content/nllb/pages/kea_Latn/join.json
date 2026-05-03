@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Adjunta-u a IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Adjunta-u a IATF",
+    "lead": "Asosiason é abértu. Ten txeu manera di partisipa, si bu ta konfia na tekinolojia di asisténsia, konstrui un software di asesu, traduzi, testa, o mante un prujétu. Diskuson y disizons ta kontisi na públiku na GitHub y Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Papel ki es ten",
+      "title": "Modi di kontribui"
+    },
+    "items": [
+      "<strong>Pidi un prugrama.</strong> Si bu atxa un difikuldadi di asesu ki pode ser rezolvidu ku software públiku di font abértu, manda-l através di reseita di pididu.",
+      "<strong>Teste i faze revizon.</strong> Tenta projetu IATF ku teknolojia di asisténsia ki bu ta uza, raporta kuzé ki ta funsiona i kuzê ki ka ta funciona, i arquiva prublemas diretamenti na repositóriu relevante.",
+      "<strong>Traduson.</strong> Konteúdu di fonti é publikadu na purtugês primeru.",
+      "<strong>Nu ten ki faze-l.</strong> Odja prublémas na kalker arxiu di informasons di IATF, manda pididus di tiru, o toma un prujétu komu enjenheru rasponsável.",
+      "<strong>Kontinua ta faze kel-li.</strong> Projetu ki dja sta na vigor, alvês ta meste di un novu mantenedor."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanal di konbérsu",
+      "title": "Na undi ki IATF ta trabadja na públiku"
+    },
+    "items": [
+      "<strong>Na GitHub.</strong> Asuntus, pedidu di tiru, publikasons, i arquivos di prujétu.",
+      "<strong>Nu ka ta konkorda.</strong> Diskursu en diretu, koordinason i perguntas informal.",
+      "<strong>Manda un mensaji pa e-mail.</strong> Utilizason <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si nen GitHub nen Discórdia ka ta konbina."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Prósimu pasu",
+      "title": "Skodje kel kanal ki ta konbina ku modi ki bu krê kontribui"
+    },
+    "paragraphs": [
+      "Tudu kanal ta entra na mesmu publikason y na mesmu arkivu públiku."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

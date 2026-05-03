@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pidi un projétu di aksesibilidadi",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pidi un projétu di aksesibilidadi",
+    "lead": "IATF ta analiza pedidus pa prujetus di aksesibilidadi ki ta kumesa ku un nesesidadi di verdadi.",
+    "support": [
+      "Bu ka meste un splikason konpletu, un prubléma klaru, kenha ki el ta afeta i pamodi ki el é inportanti é sufisienti pa kumesa."
+    ],
+    "actions": [
+      {
+        "label": "Kumesa un pedidu",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Uza Diskursu envês di kel-li",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanal di konbérsu",
+      "title": "Skodje kaminhu más faxi"
+    },
+    "intro": [
+      "Tudu kaminhu ta partisipa na kel mésmu revizon."
+    ],
+    "items": [
+      {
+        "label": "Pájina di internet",
+        "body": "Uza kel formuláriu li dibaxu pa manda un pididu struturadu."
+      },
+      {
+        "label": "E-mail ki bu ta manda",
+        "body": "Manda pedidu diretamenti pa: {{contact.requestsEmail}}Pedidu di e-mail pode ser publikadu dipôs di revizon y redason."
+      },
+      {
+        "label": "Nu ka ta konkorda",
+        "body": "Kumesa la si kel-li é más faxi."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Antis di bu manda un pedidu",
+    "paragraphs": [
+      "IATF ta trabadja na públiku. Kes pedidu pode ser resumidu y publikadu komu rekordis di pedidu públiku na organizason GitHub di iATF, na es sítiu, ô tudu dôs.",
+      "Ka bu inskreve direitus privadu, númerus di telefóni, informasons médiku, ô informasons di identidadi di utilizadoris individual di teknolojia di asisténsia, sikrê kel-li é nesesariu i bu sta kontenti ku revison di IATF.",
+      "IATF ta retira detalis di kontaktu pesoal ki ka ten nisisidadi antis di publikason di rekordis di pedidu."
+    ]
+  },
+  "review": {
+    "title": "Revizita kuzas ki nu ta spéra",
+    "paragraphs": [
+      "Enviadu di un pididu ka ta garanti ma kel pididu ta ser aseitadu.",
+      "IATF ta reviza pedidus pa fitxa misson, viabilidadi, utilidadi, y si trabadju ta pertense na un repositoriu públiku.",
+      "Alguns pididu pode ser rejeitadu, diferidu ô mudadu antis di ser aseitadu."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formuláriu di pedidu",
+      "title": "Manda un pedidu"
+    },
+    "fields": [
+      {
+        "kind": "input di input",
+        "name": "algen ki pidi",
+        "label": "Bu nómi ô organizason",
+        "helper": "Kenha ki sta faze kel pididu?"
+      },
+      {
+        "kind": "skodje",
+        "name": "kontatuRota",
+        "label": "Perkursu di kontatu preferidu",
+        "helper": "Modi ki nu debe faze kel-li?",
+        "required": true,
+        "options": [
+          "E-mail ki bu ta manda",
+          "Nu ka ta konkorda"
+        ]
+      },
+      {
+        "kind": "input di input",
+        "name": "Kontatu Detalhes",
+        "label": "Detalhes di kontatu",
+        "helper": "Adrésu di e-mail ô nómi di kontatu di Discord pa sigintis informason.",
+        "placeholder": "Adresu di e-mail ô nómi di konputador di Discord",
+        "required": true
+      },
+      {
+        "kind": "input di input",
+        "name": "língua",
+        "label": "Língua",
+        "helper": "Lingua ki bu krê, si é pertinenti.",
+        "value": "Lingua kabuverdianu"
+      },
+      {
+        "kind": "artigu di testu",
+        "name": "prubléma",
+        "label": "Ki prubléma bu sta tenta rezolve?",
+        "helper": "Pâpia di kel situason di manera sinplis.",
+        "required": true
+      },
+      {
+        "kind": "artigu di testu",
+        "name": "utilizadoris afetadu",
+        "label": "Ken ki ta sérba afetadu?",
+        "helper": "Kenha ki kel-li ta djudaba?",
+        "required": true
+      },
+      {
+        "kind": "artigu di testu",
+        "name": "extraKontextu",
+        "label": "Kontextu adisiunal",
+        "helper": "Konpartilha kalker otu kuza ki ta djuda splika nesesidadi: pamodi ki el é inportanti, izénplus, referênsias, un ideia rudimentáriu di software, ô limitason di ténpu."
+      },
+      {
+        "kind": "skodje",
+        "name": "openSourceConsent (konsentimentu di fonti abértu)",
+        "label": "Bu sta kontenti ku dizenvolvimentu di fonti abértu?",
+        "helper": "Projetu sira ne'ebé aseitadu hanesan repositóriu públiku iha IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "É si ki bu krê.",
+          "É ka si ki bu sta.",
+          "Inda N ka sabe."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Si el é aseitadu",
+      "title": "Kuzê ki siginifika seta?"
+    },
+    "items": [
+      "un repositoriu públiku na organizason GitHub di IATF",
+      "Un enjenheru responsável ki ta trabadja na prujétu",
+      "un lisensa di direitu di kópia pa kódigu i material di prujétu",
+      "dizenvolvimentu públiku na repozitóriu",
+      "un entrada di rejistu na sítiu di IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kumesa un konbérsu",
+      "title": "Un pididu kurtu i klaru é sufisienti pa kumesa"
+    },
+    "paragraphs": [
+      "Si bu ten un real nisisidadi di aksesibilidadi y bu ta atxa ma el debe ser un projetu públiku, manda-l pa nos."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

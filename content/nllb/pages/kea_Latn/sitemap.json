@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapa di situason"
+  },
+  "hero": {
+    "eyebrow": "Indizadu",
+    "title": "Mapa di situason",
+    "lead": "Tudu pájina públiku na iatf.cc, na un lugar."
+  },
+  "sections": [
+    {
+      "title": "Pájinas prinsipal",
+      "items": [
+        {
+          "label": "Na kaza",
+          "href": "/"
+        },
+        {
+          "label": "Projetu",
+          "href": "/projects/"
+        },
+        {
+          "label": "Pidi un projetu",
+          "href": "/propose/"
+        },
+        {
+          "label": "Governason",
+          "href": "/governance/"
+        },
+        {
+          "label": "Nu djunta",
+          "href": "/join/"
+        },
+        {
+          "label": "Asesível pa tudu algen",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparénsia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projetu",
+  "projectsEmpty": "Inda ka publikadu ninhun prugetu."
+}

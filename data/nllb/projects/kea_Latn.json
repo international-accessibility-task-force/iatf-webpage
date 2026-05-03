@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Pájina di internet di IATF",
+    "summary": "Site públiku di International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF mesteba un lugar públiku stabil ki ta splikaba kel mudelu, ta listaba prujetus i ta orientaba kes algen ki ta kontribui pa fazeba kel própi pasu.",
+    "why": "Site é porta di entrada públiku di IATF. El é konstruídu komu un prujétu statiku pikinoti pa el fika fásil di lé, traduzi, y mante na abertu.",
+    "scopeIn": [
+      "Pájinas di obijetivu públiku ki ta splika mudélu di IATF",
+      "Rejistu públiku di prujetus di IATF aprovadu, ativu y arkivadu ku stadu, mantenedor, repozitóriu y dimonstrason",
+      "Un pájina di resebe un pididu i un formuláriu",
+      "Pájinas sobri guvernason i transparénsia",
+      "Fonti na inglês ku strutura prontu pa traduson",
+      "Dezenvolvimentu estátiku na Ativus Estátiku di Trabadjadoris di Cloudflare"
+    ],
+    "scopeOut": [
+      "Áreas privadu di menbru, kontas ô flus di login",
+      "Hostia di kódigu fonti di prujétu, ki ta fika na repositóriu di kada prujéttu",
+      "Diskursu na ténpu sértu, ki ta vive na Discórdia",
+      "Rastreamentu di prublemas pa prujetus individual, ki ta fika na repositoriu di GitHub di kada prujetu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF ki ta faze selfi",
+    "summary": "Un primeru prototipu di IATF, arquivadu dipôs ki el txiga un pontu di para natural.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Investimentu préviu iha instrumentu ida ne'ebé konsentra iha aksesibilidade iha ámbitu IATF.",
+    "why": "Repozitóriu é mantudu públiku komu un rejistu di trabadju, mésmu ki dizenvolvimentu ativu sta paradu.",
+    "scopeIn": [
+      "Protótipu di un feraméntu orientadu pa asesibilidadi ki ta guardadu komu un rejistu públiku"
+    ],
+    "scopeOut": [
+      "Dezenvolvimentu ativu ô trabadju di funsionamentu",
+      "Konpromisus di mantenha",
+      "Uza rekumendadu na produson"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Bot di IATF",
+    "summary": "Un robot di kumunidadi di IATF, arquivadu dipôs ki el txiga un pontu di para natural.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Otomatika na kanal di komunidadi di IATF.",
+    "why": "Repozitóriu é mantudu públiku komu un rejistu di trabadju, mésmu ki dizenvolvimentu ativu sta paradu.",
+    "scopeIn": [
+      "Automatika di diskórdia na kanal di kumunidadi di IATF, mantudu komu un rejistu públiku"
+    ],
+    "scopeOut": [
+      "Dezenvolvimentu ativu ô trabadju di funsionamentu",
+      "Konpromisus di mantenha",
+      "Uza rekumendadu na produson"
+    ]
+  }
+]

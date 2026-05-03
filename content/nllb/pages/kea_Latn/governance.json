@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governasaun no rejistóriu modelu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governasaun no rejistóriu modelu",
+    "lead": "IATF ta mante prujetus di aksesibilidadi públiku, lejível, y mantidavel.",
+    "support": [
+      "Kel pájina li ta splika kuzê ki é kualifikadu, modi ki repositóriu ta guardadu i ki responsabilidadi di nível di repositório ta aplika dipôs di aseitason."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Régras",
+      "title": "Adekadu pa un obijetivu, direitu di propriedadi, lisénsas"
+    },
+    "cards": [
+      {
+        "title": "Mison ta kunpri",
+        "paragraphs": [
+          "IATF ta aseita trabadju ki ta aborda un real bariera di asesibilidadi y ki ten klaru valor públiku.",
+          "Un prujétu debe ser útil más di ki un úniku workflow privadu y pode ser uzadu komu un repositoriu públiku.",
+          "Pa asesibilidadi na internet, IATF ta uza [W3C WAI](https://www.w3.org/WAI/) di utilizadoris di téknologias di asisténsia é tanbê un próva prátiku di kuzê ki ta funsiona na uzu real."
+        ]
+      },
+      {
+        "title": "Asesoramentu di projetu",
+        "paragraphs": [
+          "Un proposta pode ser aseitadu óras ki revizon mostra ma:"
+        ],
+        "items": [
+          "el ta rezolve un nisisidadi verdaderu di asesibilidadi",
+          "kel prubléma é sufisientimenti klaru pa el pode ser avaliadu",
+          "kel pontu di vista é sufisienti pa lansa",
+          "trabadju sta alinhadu ku mison di IATF",
+          "ten un kaminhu plausível pa mantenimentu ô konkluzon"
+        ]
+      },
+      {
+        "title": "Propriedadi di arxiu di informasons",
+        "paragraphs": [
+          "Projetu ki ta ser aseitadu ta ser kriadu sob organizason IATF GitHub.",
+          "Repositorios ta fika la pa kada projetu mante un kaza públiku stável, mésmu si mantenedoris más tardi muda."
+        ]
+      },
+      {
+        "title": "Lisensas di trabadju",
+        "paragraphs": [
+          "Projetu di IATF ta uza lisensiamentu di copyleft, a menos ki un projetu ta fla otu kuza:"
+        ],
+        "items": [
+          "<strong>Kódigu:</strong> AGPL-3.0",
+          "<strong>Dokumentu:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Enjenheru ô enkaregadu di mantenimentu",
+      "paragraphs": [
+        "Kada prujétu ki é aseitadu debe ten un enjenheru ô un algen ki ta kuida di el ki debe ser nómiadu. Kel algen pode resebe asesu di administrason pa arkivu i el debe:"
+      ],
+      "items": [
+        "dizenvolvimentu di guia na públiku",
+        "mante strutura di repositóriu",
+        "revizaun ka jestaun asuntu sira no rekerimentu sira",
+        "Dokumenta disizons tékniku inportanti",
+        "djuda otus algen ntende kuzê ki bu sta ta faze"
+      ],
+      "footnote": "Kel-li é risponsabilidadi di nível di repozitóriu. Propriedadi di organizason ta fika na IATF. Responsável li é administrason di repositoriu, direson tékniku, y koordenason públiku  ka livreza privadu illimitadu, integrason personalizadu, ô konpromisus di nivel di servisu fora di roteiru públiku."
+    },
+    "publicDevelopment": {
+      "title": "Dezenvolvimentu públiku",
+      "paragraphs": [
+        "Projetu lansadu atraves di IATF ta ser dizenvolvidu na públiku di forma padronizadu."
+      ],
+      "items": [
+        "kódigu di fonti",
+        "asuntus",
+        "dokumentason",
+        "nótas di planu di viaji",
+        "stória di publikason"
+      ],
+      "footnote": "Konhisimentu inportanti di projetu ka debe fika só na chats privadu ô na inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registras públiku",
+      "title": "Registras di pedidu públiku"
+    },
+    "paragraphs": [
+      "IATF ta trabadja na públiku pa difisiênsia.",
+      "IATF pode resumi, edita, ô restrutura un pididu antis di publikason, di manera ki nesesidadi di asesibilidadi pode ser revizuadu sen mostra informason pesoal ki ka ten nisisidadi.",
+      "Registras di pedidu públiku pode ser guardadu na organizason GitHub di IATF, na es site, ô tudu dôs.",
+      "Antis di publikason, IATF ta retira detalis di kontaktu pesoal ki ka ten nisisidadi, endirisis privadu, y detalis ki ta identifika utilizadoris individual di teknolojia di asisténsia, a nun ser ki publikason ten un intenson klaru y é apropriadu.",
+      "Diskursu é uzadu pa koordinason informal. IATF ka ta arquiva separadu diskursus di diskursu di forma padronizadu, y retenson di mensaji é kontroladu pa diskurso.",
+      "Rekord di pedidu é skluzidu di indexa di motor di buska undi é teknikamenti prátiku. Públiku signifika revisível y responsabilizável. El ka signifika optimizadu pa diskubertu através di buskas di nómi.",
+      "IATF pode atualiza ô retira arquivos di superfisis públiku kontroladu pa iATF, má ka pode garanti retirason di caches, notifikason, forks, screenshots, motores di buska, Discord, ô otus sistema externus di terserus partis.",
+      "Si un mensaji meste fika privadu, ka bu manda-l pa kanal públiku di IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rolu di organizason",
+      "title": "Xéfi di Konselhu"
+    },
+    "lead": "Kel-li é diferenti di funson di enjenheru responsável pa kada prujétu: el é responsável pa organizason na se totalidadi, i non pa direson di kada repositóriu.",
+    "duties": {
+      "title": "Kuzê ki kel karru ta faze?",
+      "items": [
+        "Ten autorizason di pruprietariu na organizason GitHub di IATF",
+        "Asinatura di disison di aseitason di prugetu i di arkivason",
+        "Ta funsiona komu pontu di kontaktu públiku pa IATF",
+        "Koordenason di eleison anual"
+      ],
+      "footnote": "Prezidente ka ta obriga IATF a entrega privadu, trabadju pagadu, ô akordus di nível di servisu, y ka ta anula disizons di mantenedor di repositóriu pa direson tékniku."
+    },
+    "election": {
+      "title": "Vota tudu anu",
+      "paragraphs": [
+        "Prezidente é eleitu un bês pa anu, el ta ser eleitu na primeru dôs simana di Dizénbru, rezultadu ta ser anunsia na 15 di Dizenbru, y novu mandatu ta kumesa na 1 di Janeru.",
+        "Kada kandidatu ku mas votus ta ganha; na kazu di empatamentu, un segunda volta ta fazedu na terseru simana di Dizenbru.",
+        "Es eleison ta ser organizadu komu un Diskuson Públiku na GitHub na Repositoriu di Governu di IATF, pur isu, kandidatus, votu, y rezultadu ta faze parti di rejistu públiku."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuidadi",
+      "paragraphs": [
+        "Si ka ten ninhun eleison na un anu, prizidenti atual ta kontinua na funson ti prósimu eleison. Kel-li é un kontinuason indefinidu, y é ka un periudu di graça  es mudélu foi dizenhadu pa mante organizason stabilizadu óras ki atividadi é poku, y ka pa obriga un tranzison ki ningen ka sta priparadu pa el.",
+        "Prezidente podi dimiti na kualker mumentu. mantenedoris ativu podi txoma un eleison ekstraordináriu ku un motivu diklaradu, fetu di akordu ku mesmu regras ki eleison anual."
+      ]
+    },
+    "current": {
+      "title": "Prezidénsia atual",
+      "fields": [
+        {
+          "label": "Xéfi di Konselhu",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Térma di siginifikadu",
+          "value": "Ti eleison di Dizénbru di 2026"
+        },
+        {
+          "label": "Rolu ofisializadu",
+          "value": "2026"
+        },
+        {
+          "label": "Primeru eleison programadu",
+          "value": "Dizénbru di 2026"
+        }
+      ]
+    },
+    "footnote": "Papel di prizidenti foi formalizadu na 2026 pa faze administrason na nível di organizason splisitamenti."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stadu di projetu",
+      "paragraphs": [
+        "Projetu ta uza un grupu pikinoti di stadu públiku:"
+      ],
+      "items": [
+        "Proposta di Konselhu",
+        "N ta aseita",
+        "Atívu",
+        "Stabilizadu",
+        "Ta buska un algen pa kuida di el",
+        "Arkivadu"
+      ],
+      "footnote": "Kes stadu li ta fasilita skaneamentu di rejistu."
+    },
+    "reassignment": {
+      "title": "Reasignason i arkivason",
+      "paragraphs": [
+        "Si un algen ki ta faze mantenimentu dexa di faze kel trabadju ô el fika inativu, IATF pode da-l otu responsabilidadi, para di faze prugrésu ô arxiva kel projétu.",
+        "Un prujétu tanbê pode ser arquivadu óras ki nesesidadi orijinal sta satisfetu, mantenimentu sta paradu ô kontinuason di trabadju dja ka é realístiku más."
+      ],
+      "footnote": "Projetu arquivadu ta kontinua publikamenti visível a non ser ki ten un motivu konvinenti pa faze otu kuza."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nóta di limiti",
+      "title": "Kuzê ki IATF ka ta garanti"
+    },
+    "items": [
+      "livrezaun ba kliente privadu",
+      "akordus di nível di servisu",
+      "aseitason di tudu pruposta",
+      "mantenimentu a longu prazu pa kada projetu"
+    ],
+    "footnote": "IATF é un modelo di repositoriu públiku, é ka un servisu privadu di distribuison."
+  }
+}
