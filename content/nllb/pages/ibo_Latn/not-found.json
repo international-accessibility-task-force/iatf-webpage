@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Achọtaghị ya"
+  },
+  "hero": {
+    "eyebrow": "Achọtaghị ya",
+    "title": "Enweghi ike ịchọta peeji a rịọrọ",
+    "lead": "Jiri ụzọ ndị bụ́ isi dị n'okpuru laghachi n'ebe ọha na eze na-anọ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ụlọ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ụzọ ị rịọrọ adịghị adị."
+    ],
+    "items": [
+      {
+        "label": "Ụlọ",
+        "href": "/"
+      },
+      {
+        "label": "Atụmatụ",
+        "href": "/projects/"
+      },
+      {
+        "label": "Jikọọ",
+        "href": "/join/"
+      },
+      {
+        "label": "Ịnweta ya",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ọchịchị",
+        "href": "/governance/"
+      },
+      {
+        "label": "Nkọwapụta",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

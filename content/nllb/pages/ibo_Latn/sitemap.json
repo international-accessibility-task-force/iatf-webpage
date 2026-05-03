@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Ebe a na-edebe ihe n'Ịntanet"
+  },
+  "hero": {
+    "eyebrow": "Nkọwapụta",
+    "title": "Ebe a na-edebe ihe n'Ịntanet",
+    "lead": "Peeji ọ bụla ọha na eze na iatf.cc, n'otu ebe."
+  },
+  "sections": [
+    {
+      "title": "Peeji ndị bụ́ isi",
+      "items": [
+        {
+          "label": "Ụlọ",
+          "href": "/"
+        },
+        {
+          "label": "Atụmatụ",
+          "href": "/projects/"
+        },
+        {
+          "label": "Rịọ maka oru ngo",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ọchịchị",
+          "href": "/governance/"
+        },
+        {
+          "label": "Jikọọ",
+          "href": "/join/"
+        },
+        {
+          "label": "Ịnweta ya",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Nkọwapụta",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Atụmatụ",
+  "projectsEmpty": "O nwebeghi ọrụ e bipụtara."
+}

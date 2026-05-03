@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Ihe oru ngo ndi mmadu nwere ike inweta",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Ihe oru ngo ndi mmadu nwere ike inweta",
+    "lead": "Ndebanye aha a na-edepụta ọrụ ọha na eze na-elekọta site na IATF. A nabatara ọrụ nnweta, akụrụngwa saịtị, na prototypes echekwara na-ahụ anya ebe a.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ndebanye aha",
+      "title": "Ndebanye aha ugbu a"
+    },
+    "intro": [
+      "A na-edepụta ọrụ ndị a nakweere ebe a ozugbo e bipụtara ha."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Nyefee ihe dị gị mkpa",
+      "title": "Gbanwee mkpa a kapịrị ọnụ maka nnweta n'ime ọrụ ọha na eze"
+    },
+    "paragraphs": [
+      "IATF na-enyocha mkpa nnweta dị mkpa nke nwere ike ịghọ ọrụ mepere emepe ọha na eze bara uru."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "E bipụtabeghị ọrụ ọ bụla",
+    "paragraphs": [
+      "IATF na-akwadebe ya mbụ ọha oru ngo set.",
+      "Ị ka nwere ike iziga arịrịọ ma ọ bụrụ na i nwere mkpa doro anya maka nnweta."
+    ]
+  }
+}

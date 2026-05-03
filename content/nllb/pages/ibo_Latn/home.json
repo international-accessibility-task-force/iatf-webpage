@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Site na mkpa maka nnweta na repo ọha na eze",
+    "lead": "IATF na-enyere ndị otu aka, ndị otu, na ndị mmadụ aka ịgbanwe ezigbo mkpa nnweta n'ime ọrụ ọha na eze mepere emepe.",
+    "support": [
+      "A na-ebipụta ọrụ ndị a nabatara na nzukọ IATF GitHub n'okpuru akwụkwọ ikike copyleft ma mepụtara n'ihu ọha site n'aka onye injinia nwere ọrụ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Ụdị ọrụ ọha na eze",
+      "title": "Ụzọ dị mfe ọha na eze maka ngwanrọ nwere ike ịnweta"
+    },
+    "paragraphs": [
+      "Site na mpempe akwụkwọ, onye ọ bụla nwere ike itinye nsogbu nnweta na IATF. Ọ bụrụ na ndị otu nwere ike iwere ya, a na-emeghe ebe nchekwa GitHub ọha na eze maka ọrụ ahụ.",
+      "Ọrụ ọ bụla a nabatara nwere ebe ọha na eze doro anya maka koodu, mbipụta, akwụkwọ, na ntọhapụ, yana mmepe nke onye injinia nwere ọrụ na-eduzi na-emeghe."
+    ],
+    "specCard": {
+      "title": "Ụdị ọrụ ọha na eze",
+      "terms": [
+        {
+          "term": "Mkpa",
+          "definition": "Nsogbu nnweta n'ezie"
+        },
+        {
+          "term": "Nyochaa",
+          "definition": "Ọrụ kwesịrị ekwesị na ime ihe bara uru"
+        },
+        {
+          "term": "Ebe a na-arụ ọrụ",
+          "definition": "Ebe nchekwa GitHub ọha"
+        },
+        {
+          "term": "Ilekọta Ihe",
+          "definition": "IATF nhazi nwe"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Usoro",
+      "title": "Otú o si arụ ọrụ",
+      "intro": "Ihe nlereanya ahụ na-anọgide na-adị obere ka ụzọ ọha na eze wee dị mfe ịgbaso."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "A na-arịọ arịrịọ",
+        "paragraphs": [
+          "Otu mkpakọrịta, otu, ma ọ bụ onye ọ bụla nwere ike itinye akwụkwọ arịrịọ dabere na ezigbo mkpa nnweta.",
+          "Arịrịọ nwere ike ịmalite site na ebe nrụọrụ weebụ, site na email na <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ma ọ bụ site na Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF na-enyocha ya",
+        "paragraphs": [
+          "Anyị na-enyocha ma ọrụ ahụ ò kwekọrọ n'ihe e bu n'obi nye ya, ma ọ̀ ga-ekwe omume, nakwa ma ò so n'ọrụ a na-arụ n'ebe ọha na eze ga-ahụ ya."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "A na-emepụta ebe nchekwa ọha na eze",
+        "paragraphs": [
+          "Ọ bụrụ na a nabatara ọrụ, a na-ebipụta ya na nzukọ IATF GitHub n'okpuru ikikere copyleft.",
+          "Ebe nchekwa ahụ na-aghọ ebe obibi ọha na eze nke koodu, mbipụta, akwụkwọ, na ntọhapụ."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Onye injinia nwere ibu ọrụ na-eduzi ọrụ ahụ",
+        "paragraphs": [
+          "A na-ekenye onye injinia nwere ọrụ na ebe nchekwa ọrụ na mmepe na-eme n'ihu ọha."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ndebanye aha",
+      "title": "Ndebanye aha ọha na eze"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Malite ebe a",
+      "title": "Na-agagharị na-arụ ọrụ ugbu a ma ọ bụ na-amalite a kpọmkwem oru ngo"
+    },
+    "paragraphs": [
+      "Jiri ndekọ ahụ iji hụ ihe ndị ọha na eze nwere, ma ọ bụ malite ntinye ma ọ bụrụ na nsogbu nnweta doro anya ga-aghọ ọrụ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

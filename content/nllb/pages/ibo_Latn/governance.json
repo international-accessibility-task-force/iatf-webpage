@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Ọchịchị na nchekwa nchekwa",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Ọchịchị na nchekwa nchekwa",
+    "lead": "IATF na-eme ka ọrụ nnweta dị n'ihu ọha, nwee ike ịgụ ya, ma nwee ike idozi ya.",
+    "support": [
+      "Peeji a na-akọwa ihe ruru eru, otu esi ejide ebe nchekwa, na ihe ọrụ nchekwa nchekwa na-emetụta mgbe anabatara."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Ụkpụrụ",
+      "title": "Ọrụ kwesịrị ekwesị, nwe, ikikere"
+    },
+    "cards": [
+      {
+        "title": "Ọrụ Kwesịrị Ekwesị",
+        "paragraphs": [
+          "IATF na-anabata ọrụ nke na-edozi ezigbo ihe mgbochi nnweta ma nwee uru ọha na eze doro anya.",
+          "Ihe oru ngo kwesiri ibu ihe bara uru karia otu oru nke onwe ya ma nwee ike ịrụ ọrụ dị ka ebe nchekwa ọha.",
+          "Maka nnweta weebụ, IATF na-eji [W3C WAI](https://www.w3.org/WAI/) Ahụmahụ kpọmkwem nke ndị ọrụ nke teknụzụ enyemaka bụkwa ihe akaebe dị irè nke ihe na-arụ ọrụ n'iji ya eme ihe n'ezie."
+        ]
+      },
+      {
+        "title": "Ịnakwere ọrụ ahụ",
+        "paragraphs": [
+          "Enwere ike ịnakwere atụmatụ mgbe nyocha gosipụtara na:"
+        ],
+        "items": [
+          "ọ na-aza ezigbo mkpa maka nnweta",
+          "nsogbu ahụ doro anya iji nyochaa",
+          "ihe a na-eme bụ ihe ezi uche dị na ya iji malite",
+          "ọrụ ahụ kwekọrọ na ọrụ IATF",
+          "enwere ụzọ ezi uche dị na ya maka mmezi ma ọ bụ mmecha"
+        ]
+      },
+      {
+        "title": "Onye nwe ụlọ nkwakọba ihe",
+        "paragraphs": [
+          "A na-emepụta ọrụ ndị a nabatara n'okpuru nzukọ IATF GitHub.",
+          "Ebe nchekwa na-anọ ebe ahụ ka ọrụ ọ bụla wee nwee ụlọ ọha na eze na-adịgide adịgide, ọbụlagodi ma ọ bụrụ na ndị na-elekọta ya gbanwere mgbe e mesịrị."
+        ]
+      },
+      {
+        "title": "Inye ikikere",
+        "paragraphs": [
+          "IATF oru ngo na-eji copyleft ikikere ọ gwụla ma a oru ngo kwuru n'ụzọ ọzọ:"
+        ],
+        "items": [
+          "<strong>Koodu:</strong> AGPL-3.0",
+          "<strong>Akwụkwọ:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injinia ma ọ bụ onye na-ahụ maka ọrụ",
+      "paragraphs": [
+        "Onye ọrụ ọ bụla a nabatara ga-enwe onye ọrụ injinia ma ọ bụ onye na-elekọta ya. Onye ahụ nwere ike ịnweta ohere nchịkwa na ebe nchekwa ahụ ma a na-atụ anya ya:"
+      ],
+      "items": [
+        "na-eduzi mmepe n'ihu ọha",
+        "na-ejigide usoro nchekwa data",
+        "nyochaa ma ọ bụ jikwaa nsogbu na ịdọrọ arịrịọ",
+        "dee mkpebi ndị dị mkpa gbasara nkà na ụzụ",
+        "mee ka ndị ọzọ ghọta ihe ị chọrọ ime"
+      ],
+      "footnote": "Nke a bụ ọrụ nchekwa nchekwa. Njikwa ụlọ ọrụ na-anọgide na IATF. Ibu ọrụ ebe a bụ njikwa nchekwa, nduzi teknụzụ, na nhazi ọha na eze  ọ bụghị nnyefe onwe onye na-akparaghị ókè, njikọta omenala, ma ọ bụ nkwekọrịta ọkwa ọrụ n'èzí okporo ụzọ ọha."
+    },
+    "publicDevelopment": {
+      "title": "Mmepe ọha na eze",
+      "paragraphs": [
+        "A na-emepe oru ngo site na IATF na ọha na eze site na ndabara. Ebe nchekwa ahụ bụ isi iyi nke eziokwu maka:"
+      ],
+      "items": [
+        "koodu isi iyi",
+        "nsogbu",
+        "akwụkwọ",
+        "ihe ndị e dere na roadmap",
+        "akụkọ ihe mere eme"
+      ],
+      "footnote": "Ihe ọmụma dị mkpa banyere ọrụ ekwesịghị ibi naanị na nkata nzuzo ma ọ bụ igbe mbata."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ihe ndekọ ọha",
+      "title": "Ihe ndekọ arịrịọ ọha na eze"
+    },
+    "paragraphs": [
+      "IATF na-arụ ọrụ n'ihu ọha site na ndabara. arịrịọ ndị na-abanye na iATF site na ebe nrụọrụ weebụ, email, Discord, GitHub, ma ọ bụ ọwa ndị ọzọ nke iatf nwere ike ịghọ ihe ndekọ ọha na eze.",
+      "Ihe ndekọ arịrịọ ọha na eze abụghị ozi mbụ. IATF nwere ike ichikota, dezie, ma ọ bụ mezigharị arịọ tupu mbipụta ya ka enwere ike nyochaa mkpa nnweta na-enweghị ikpughe ozi nkeonwe na-adịghị mkpa.",
+      "Enwere ike ịchekwa ndekọ arịrịọ ọha na IATF GitHub nzukọ, na weebụsaịtị a, ma ọ bụ ha abụọ.",
+      "Tupu mbipụta, IATF na-ewepu ozi kọntaktị onwe onye na-enweghị isi, adreesị nkeonwe, na nkọwa njirimara banyere ndị ọrụ ọ bụla nke teknụzụ na-enyere aka ọ gwụla ma edepụtara ya n'ụzọ doro anya ma dabara adaba.",
+      "A na-eji esemokwu eme ihe maka nhazi na-enweghị isi. IATF anaghị edebe mkparịta ụka esemokwu iche iche site na ndabara, na njigide ozi na-achịkwa Discord. Mkpebi ndị e mere na Discord kwesịrị ichikota na ndekọ ọha na eze na GitHub ma ọ bụ na ibe ọrụ dị mkpa.",
+      "A na-ewepu ihe ndekọ arịrịọ site na ntinye akwụkwọ ọchụchọ ebe ọ bụ na ọ ga-ekwe omume. Ọha pụtara na a ga-enyocha ya ma na-aza ajụjụ. Ọ pụtaghị na ọ kachasị maka nchọpụta site na nchọta aha.",
+      "IATF nwere ike imelite ma ọ bụ wepu ihe ndekọ site na IATT na-achịkwa ihu ọha, mana enweghị ike ịkwado wepụ site na caches nke ndị ọzọ, ọkwa, forks, screenshots, engines ọchụchọ, Discord, maọbụ sistemụ ndị ọzọ dị na mpụga.",
+      "Ọ bụrụ na ozi ga-anọgide na-onwe, adịghị eziga ya site na IATF ọha ọwa."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ọrụ nhazi",
+      "title": "Onye isi oche"
+    },
+    "lead": "Onye isi oche na-ejide nhazi nhazi nke IATF. Nke a dị iche na ọrụ onye injinia na-ahụ maka ọrụ ọ bụla: onye isi oche bụ maka nzukọ ahụ dum, ọ bụghị maka nduzi kwa ụbọchị nke nchekwa ọ bụla.",
+    "duties": {
+      "title": "Ihe oche ahụ na-eme",
+      "items": [
+        "Na-ejide ikikere onye nwe na nzukọ IATF GitHub",
+        "Ntinye aka na nnabata oru ngo na mkpebi archival",
+        "Na-arụ ọrụ dị ka ọha na eze na-akpọtụrụ maka IATF",
+        "Na-ahazi ntuliaka kwa afọ"
+      ],
+      "footnote": "Onye isi oche anaghị ekwenye na IATF na nnyefe nkeonwe, ọrụ akwụ ụgwọ, ma ọ bụ nkwekọrịta ọkwa ọrụ, ọ naghịkwa emegide mkpebi ndị na-ahụ maka nchekwa data na ntuziaka teknụzụ."
+    },
+    "election": {
+      "title": "Ntuliaka kwa afọ",
+      "paragraphs": [
+        "A na-ahọpụta onye isi oche otu ugboro n'afọ. Ntuli aka na-agba ọsọ n'izu abụọ mbụ nke ọnwa Disemba, a na-ekwupụta nsonaazụ ya na Disemba 15, na oge ọhụụ na-amalite na Jenụwarị 1.",
+        "Ndị tozuru oke na-eme ntuli aka bụ ndị nwere ọrụ nlekọta na ebe nchekwa IATF ọ bụla n'afọ ma mee ma ọ dịkarịa ala otu onyinye jikọtara ọnụ na ebe ndebe IAT F na afọ ahụ. Onye ọ bụla nwere ikike ịtụ vootu nwere otu votu. Onye mmeri nwere ọtụtụ vootu na-emeri; n'ọnọdụ nke tie, a na-enwe agba nke atọ n'izu nke atọ nke ọnwa Disemba.",
+        "A na-eme ntuli aka ahụ dịka Mkparịta ụka GitHub n'ihu ọha na ebe nchekwa IATF a họpụtara, yabụ ndị na-aga ime, votu, na nsonaazụ niile bụ akụkụ nke ndekọ ọha na eze."
+      ]
+    },
+    "continuity": {
+      "title": "Ịga n'ihu",
+      "paragraphs": [
+        "Ọ bụrụ na emeghị ntuli aka n'otu afọ, onye isi oche ugbu a na-aga n'ihu na ọrụ ruo mgbe ntuliaka ọzọ. Nke a bụ ihe na-enweghị njedebe, ọ bụghị oge amara  a haziri ihe nlereanya ahụ iji mee ka nzukọ ahụ kwụsie ike mgbe ọrụ dị ala, ka ọ ghara ịmanye mgbanwe nke na ọ dịghị onye dị njikere.",
+        "Onye isi oche nwere ike ịla ezumike nká n'oge ọ bụla. Ndị na-arụsi ọrụ ike nwekwara ike ịkpọ nhọpụta pụrụ iche na ihe kpatara ya, na-agba ọsọ n'okpuru otu iwu dị ka ntuli aka kwa afọ."
+      ]
+    },
+    "current": {
+      "title": "Onye isi oche ugbu a",
+      "fields": [
+        {
+          "label": "Onye isi oche",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Okwu",
+          "value": "Ruo mgbe a ga-eme ntuliaka n'ọnwa Disemba afọ 2026"
+        },
+        {
+          "label": "Ọrụ e mere ka ọ bụrụ ihe iwu kwadoro",
+          "value": "2026"
+        },
+        {
+          "label": "Ntuliaka nke mbụ e mere atụmatụ ime",
+          "value": "Disemba 2026"
+        }
+      ]
+    },
+    "footnote": "A kwadoro ọrụ oche ahụ na 2026 iji mee ka njikwa nhazi nke ụlọ ọrụ pụta ìhè. Ruo mgbe ahụ, onye guzobere ụlọ ọrụ ahụ nwere ọrụ nhazi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Ọdịdị nke ọrụ ahụ",
+      "paragraphs": [
+        "Ihe oru ngo na-eji obere setịpụ nke steeti ọha na eze:"
+      ],
+      "items": [
+        "Nkwupụta",
+        "A nabatara ya",
+        "Na-arụsi ọrụ ike",
+        "Na-adịgide adịgide",
+        "Na-achọ onye na-elekọta ya",
+        "E debere ya n'ebe a na-edebe ihe ochie"
+      ],
+      "footnote": "Ọnọdụ ndị a na-eme ka ndekọ ahụ dị mfe iji nyochaa."
+    },
+    "reassignment": {
+      "title": "Ntughari na archiving",
+      "paragraphs": [
+        "Ọ bụrụ na onye na-arụ ọrụ na-apụ ma ọ bụ na-adịghị arụ ọrụ, IATF nwere ike ịnyeghachi ọrụ, kwụsịtụ mmepe, maọbụ chekwaa ọrụ ahụ.",
+        "A pụkwara idebe ihe owuwu mgbe e mezuru mkpa mbụ ahụ, mmezi akwụsịla, ma ọ bụ ọrụ na-aga n'ihu abụghịzi ihe ezi uche dị na ya."
+      ],
+      "footnote": "Ihe ndị e debere n'archive na-anọgide na-apụta ìhè n'ihu ọha ọ gwụla ma e nwere ezigbo ihe mere a ga-eji mee ihe ọzọ."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ihe edeturu",
+      "title": "Ihe IATF anaghị ekwe nkwa"
+    },
+    "items": [
+      "nnyefe ndị ahịa",
+      "nkwekọrịta ọkwa ọrụ",
+      "ịnakwere atụmatụ ọ bụla",
+      "ogologo oge mmezi maka ọrụ ọ bụla"
+    ],
+    "footnote": "IATF bụ ụdị nchekwa ọha, ọ bụghị ọrụ nnyefe nkeonwe."
+  }
+}

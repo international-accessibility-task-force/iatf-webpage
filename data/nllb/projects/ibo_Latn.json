@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Ebe nrụọrụ weebụ IATF",
+    "summary": "Ebe ọha na eze maka International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF chọrọ ụlọ ọha na eze kwụsiri ike nke na-akọwa ihe nlereanya ahụ, depụta ọrụ, ma gosi ndị na-atụnye ụtụ na nzọụkwụ ọzọ ziri ezi.",
+    "why": "Ebe nrụọrụ ahụ bụ ọnụ ụzọ ihu ọha nke IATF. E wuru ya dị ka obere ọrụ na-adịgide adịgide nke mere na ọ dị mfe ịgụ, ịsụgharị, na ịnọgide na-emeghe.",
+    "scopeIn": [
+      "Ibe ọdịda ọha na-akọwa ụdị IATF",
+      "Ndebanye aha ọha nke ọrụ IATF a nabatara, nke na-arụ ọrụ, na nke echekwara na ọnọdụ, onye na-elekọta, ebe nchekwa, na ngosi",
+      "Mpempe akwụkwọ na mpempe akwụkwọ ntinye arịrịọ",
+      "Ọchịchị na nghọta peeji nke",
+      "Isi mmalite Bekee nwere usoro dị njikere maka ntụgharị",
+      "Ntinye static na Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Mpaghara ndị otu nkeonwe, akaụntụ, ma ọ bụ usoro nbanye",
+      "Nchịkọta nke koodu isi mmalite nke ọrụ ahụ, nke na-ebi n'ụlọ nkwakọba ihe nke ọrụ ọ bụla",
+      "Mkparịta ụka oge, nke bi na Discord",
+      "Nchịkọta nsogbu maka ọrụ ọ bụla, nke na-ebi n'ụlọ nkwakọba ihe GitHub nke ọ bụla"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Ihe ngosi IATF mbụ, echekwara mgbe ọ ruru ebe nkwụsị nke okike.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Nnyocha mbụ nke ngwá ọrụ na-elekwasị anya na accessibility n'okpuru nche anwụ nke IATF.",
+    "why": "A na-edebe ebe nchekwa ahụ n'ihu ọha dị ka ihe ndekọ nke ọrụ ahụ, ọ bụ ezie na mmepe mmepe akwụsịla.",
+    "scopeIn": [
+      "Nlele mbụ nke ngwá ọrụ na-elekwasị anya na nnweta nke a na-edebe dị ka ihe ndekọ ọha na eze"
+    ],
+    "scopeOut": [
+      "Ọganihu na-arụsi ọrụ ike ma ọ bụ ọrụ atụmatụ",
+      "Nkwekọrịta mmezi",
+      "Na-atụ aro iji na mmepụta"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF obodo bot, echekwara mgbe ọ ruru ebe a na-akwụsị akwụsị.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation gburugburu IATF obodo ọwa.",
+    "why": "A na-edebe ebe nchekwa ahụ n'ihu ọha dị ka ihe ndekọ nke ọrụ ahụ, ọ bụ ezie na mmepe mmepe akwụsịla.",
+    "scopeIn": [
+      "Akpaghị aka nke esemokwu gburugburu ọwa obodo IATF, echekwara dị ka ihe ndekọ ọha na eze"
+    ],
+    "scopeOut": [
+      "Ọganihu na-arụsi ọrụ ike ma ọ bụ ọrụ atụmatụ",
+      "Nkwekọrịta mmezi",
+      "Na-atụ aro iji na mmepụta"
+    ]
+  }
+]

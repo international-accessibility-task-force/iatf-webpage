@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Nkọwapụta",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Nkọwapụta",
+    "lead": "IATF na-arụ ọrụ n'ihu ọha site na ndabara. A na-edekọ mkpebi oru ngo, mgbanwe koodu, mgbanwe ọchịchị, na ụgwọ ọrụ na ebe ọha na eze. Peeji a depụtara ebe ụdị ndekọ ọ bụla dị na otu esi agụ ya.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Ihe ndekọ",
+      "title": "Ebe ihe ndekọ ndị ahụ dị"
+    },
+    "items": [
+      "<strong>Mkpebi oru ngo.</strong> A na-edekọ mkpebi nnabata, archival, na ntụgharị dị ka mbipụta ma ọ bụ ntọhapụ na ebe nchekwa dị mkpa, ma chịkọta ya na ndekọ ọha na eze. <a href=\"/projects/\">ndekọ</a>Ọ dị mma .",
+      "<strong>Rịọ ka e nye gị ihe ndekọ.</strong> A na-echekwa ihe ndekọ arịrịọ ọha na eze na nzukọ IATF GitHub, na weebụsaịtị a, ma ọ bụ ha abụọ. Ihe ndekọ nwere ike ichikota, dezie, maọbụ mezigharịa ihe mbụ achọrọ ka enwere ike nyochaa mkpa nnweta ahụ na-enweghị ikpughe ozi nkeonwe na-adịghị mkpa. A chịkọtara mkpebi esemokwu n'ime ndekọ ọha mgbe ha na-emetụta mkpebi ọrụ ma ọ bụkwanụ mkpebi nchịkwa. A naghị etinye ihe ndekọ ọchụchọ site na ntinye akwụkwọ search engine ebe ọ ga-ekwe omume. Lee ihe ndekọ: ntinye akwụkwọ mbụ na-eche.",
+      "<strong>Koodu gbanwere.</strong> Ntughari koodu ọ bụla bụ nkwenye ọha na eze na ebe nchekwa dị mkpa. Lee IATF <a href=\"{{contact.githubOrgUrl}}\">Òtù GitHub</a>Ọ dị mma .",
+      "<strong>Ọchịchị gbanwere.</strong> A na-enyocha mmelite na peeji nke ọchịchị dịka ọ na-etinye aka na <code>IATF-weebụsaịtị</code> Ebe nchekwa. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">dee akụkọ ihe mere eme</a> na GitHub.",
+      "<strong>Akwụ ụgwọ ọrụ.</strong> IATF na-eme ka mmefu ọrụ dị ala ma na-edekọ mmefu akụrụngwa ọha na eze na-aga n'ihu. Kemgbe 2022, isi mmefu na-agbanwe agbanwe bụ aha ngalaba. Bochum ejirila ihe eji arụ ọrụ n'efu ma ọ bụ nke dị ọnụ ala ebe enwere ike.",
+      "<strong>Ihe ndetu nhazi.</strong> Ihe edeturu site na nyocha ọ bụla ma ọ bụ mkpebi ọ bụla dị na GitHub Mkparịta ụka na ebe nchekwa dị mkpa  lee <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Mkparịta ụka</a> na <code>IATF-weebụsaịtị</code> ebe nchekwa."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Akwụ ụgwọ",
+      "title": "Ihe ndekọ nke mmefu ego"
+    },
+    "paragraphs": [
+      "IATF na-eme ka akụrụngwa ọha na eze ya dị obere. Kemgbe afọ 2022, isi ihe na-akwụ ụgwọ na-aga n'ihu bụ aha ngalaba. Nchịkọta ejirila ihe eji arụ ọrụ n'efu ma ọ bụ nke dị ọnụ ala ebe enwere ike.",
+      "Ihe ndekọ a abụghị nkwupụta ego a na-enyocha. Ọ bụ akwụkwọ ndekọ ụgwọ ọrụ ọha na eze maka akụrụngwa ejiri mee ka IATF nọrọ n'ịntanetị."
+    ],
+    "footnote": "Enwere ike ịkọwa ma ọ bụ bipụta akwụkwọ nnata mgbe edechara ya. Adreesị nkeonwe, nkọwa ịgba ụgwọ, na ozi akaụntụ na-enweghị isi abụghị akụkụ nke ndekọ ọha na eze.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Ngalaba",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Ọnụ ego",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Ihe edeturu",
+            "value": "Ọnụahịa ngalaba nke mugiwarafx kwadoro. Bochum jiri akụrụngwa n'efu ma ọ bụ nke dị ọnụ ala site na Cloudflare. Ihe oru ngo ahụ si na Vercel gaa na CloudFlare wee malite iji mkpụmkpụ <code>iatf.cc</code> ngalaba."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Ngalaba",
+            "value": "<code>nke mba ụwa accessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Ọnụ ego",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Ihe edeturu",
+            "value": "Ọnụ ego ngalaba nke mugiwarafx kwadoro. Bochum ejirila akụrụngwa n'efu ma ọ bụ nke dị ọnụ ala."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Ngalaba",
+            "value": "<code>nke mba ụwa accessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Ọnụ ego",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Ihe edeturu",
+            "value": "Ọnụ ego ngalaba nke mugiwarafx kwadoro. Bochum ejirila akụrụngwa n'efu ma ọ bụ nke dị ọnụ ala site na Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Ngalaba",
+            "value": "<code>nke mba ụwa accessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Ọnụ ego",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Ihe edeturu",
+            "value": "Ọnụ ego ngalaba nke mugiwarafx kwadoro. Bochum ejirila akụrụngwa n'efu ma ọ bụ nke dị ọnụ ala."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Ngalaba",
+            "value": "<code>nke mba ụwa accessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Ọnụ ego",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Ihe edeturu",
+            "value": "Ngalaba ego site mugiwarafx. Bochum eji free-tier ma ọ bụ ala-na-eri akụrụngwa site GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Ihe edeturu",
+      "title": "Ihe na-abụghị nke ọha na eze"
+    },
+    "paragraphs": [
+      "A na-edebe ụfọdụ ihe n'èzí ihe ndekọ ọha na eze n'ebumnuche:"
+    ],
+    "items": [
+      "Nkọwa kọntaktị nke ndị na-atụ aro.",
+      "A na-eji akwụkwọ ozi nzuzo eme ihe nanị iji kọwaa arịrịọ tupu a nabata ya, jụ ya, ma ọ bụ chịkọta ya.",
+      "Adreesị onwe onye, nọmba telifon, na nkọwa onwe onye ndị na-adịghị mkpa.",
+      "Ihe ọ bụla nke ga-amata onye ọrụ nke teknụzụ enyemaka na-enweghị nkwenye.",
+      "Mkparịta ụka Raw Discord, ọ gwụla ma a na-ebugharị ozi a kapịrị ọnụ n'ime ihe ndekọ ọrụ ọha na eze."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Gụkwuo",
+      "title": "Ọchịchị bụ akwụkwọ iwu n'azụ ndekọ ndị a"
+    },
+    "paragraphs": [
+      "Ọ bụrụ na ịchọrọ ịghọta etu esi anabata ọrụ, chekwaa ya, ma ọ bụ nyeghachi ya, gụọ peeji ọchịchị."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

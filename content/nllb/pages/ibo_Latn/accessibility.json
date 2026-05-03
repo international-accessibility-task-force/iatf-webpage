@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ịnweta ya",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ịnweta ya",
+    "lead": "IATF na-achọ ime ka ebe nrụọrụ weebụ a dị mfe, na-agụ, keyboard-accessible, na dakọtara na teknụzụ enyemaka.",
+    "support": [
+      "Maka nnweta weebụ, IATF na-eji [W3C WAI](https://www.w3.org/WAI/) A na-ejikwa ahụmịhe nke ndị na-eji teknụzụ enyemaka eme ihe."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Akụkọ",
+      "title": "Na-akọ nsogbu nnweta"
+    },
+    "paragraphs": [
+      "Ọ bụrụ na ịchọta ihe mgbochi ịnweta na weebụsaịtị a, biko kọọ ya site na email:",
+      "{{contact.accessibilityEmail}}",
+      "Akụkọ ndị bara uru gụnyere:"
+    ],
+    "items": [
+      "peeji ebe nsogbu ahụ mere",
+      "ihe ị na-achọ ime",
+      "teknụzụ enyemaka, ihe nchọgharị, ma ọ bụ ngwaọrụ ị na-eji, ọ bụrụ na ọ dị mkpa",
+      "kedụ ihe mebiri?",
+      "ihe gaara enyere ya aka"
+    ],
+    "footnote": "Ọ dịghị mkpa ka ị dee akụkọ ahụhụ. Nkọwa doro anya ezuola."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ijikwa",
+      "title": "Ijikwa okwu ọha na eze"
+    },
+    "paragraphs": [
+      "Enwere ike ichikota nsogbu nnweta na ebe nchekwa ọha na eze dị mkpa ka enwere ike idozi ha n'ihu ọha. A na-ewepụ nkọwa kọntaktị nkeonwe na ozi nzuzo na-enweghị isi tupu mbipụta.",
+      "Ọ bụrụ na akụkọ gị gụnyere ihe nzuzo, kwuo ya n'ụzọ doro anya n'ozi ahụ."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ọnọdụ ugbu a",
+      "title": "Mmachibido iwu ndị a ma ama"
+    },
+    "paragraphs": [
+      "Ebe a bụ ụma obere na ọtụtụ static. Ụfọdụ asụsụ nsụgharị nwere ike ịbụ na-ezughị ezu mgbe nsụgharị na-akwadebe."
+    ]
+  }
+}

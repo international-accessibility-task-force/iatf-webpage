@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Jikọọ IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Jikọọ IATF",
+    "lead": "Ndị otu na-emeghe. Enwere ọtụtụ ụzọ iji sonye, ma ị dabere na teknụzụ na-enyere aka, wuo ngwanrọ dị mfe, sụgharịa, nwalee, ma ọ bụ debe ọrụ. Mkparịta ụka na mkpebi na-eme n'ihu ọha na GitHub na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ọrụ",
+      "title": "Ụzọ e si enye onyinye"
+    },
+    "items": [
+      "<strong>Rịọ maka ọrụ.</strong> Ọ bụrụ na ị na-ezute ihe mgbochi nnweta nke enwere ike idozi ya site na ngwanrọ mepere emepe ọha na eze, zigara ya na ntinye arịrịọ.",
+      "<strong>Nwale na nyochaa.</strong> Gbalịa ọrụ IATF na teknụzụ enyemaka ị na-eji, kọọ ihe na-arụ ọrụ na ihe anaghị arụ ọrụ, ma tinye nsogbu ozugbo na ebe nchekwa dị mkpa.",
+      "<strong>Sụgharịa ya.</strong> A na-ebu ụzọ ebipụta isi mmalite n'asụsụ Bekee, a na-agbakwunye nsụgharị ka ndị na-enye aka dị, na-amalite na Spanish.",
+      "<strong>Na-ewuli elu.</strong> Chọta nsogbu na ebe nchekwa IATF ọ bụla, zipụ arịrịọ ịdọrọ, ma ọ bụ were ọrụ dị ka onye injinia ya.",
+      "<strong>Nọgide na-enwe.</strong> Ọrụ ndị dị ugbu a na-achọ onye nlekọta ọhụrụ mgbe ụfọdụ. Ntughari onye nlekọta bụ akụkụ nkịtị nke ihe nlereanya ahụ, ọ bụghị ihe dị iche."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Ọwa mmiri",
+      "title": "Ebe IATF na-arụ ọrụ n'ihu ọha"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Nsogbu, wepụ arịrịọ, ntọhapụ, na ndekọ oru ngo.",
+      "<strong>Esemokwu.</strong> Mkparịta ụka dị ndụ, nhazi, na ajụjụ ndị a na-akwadoghị.",
+      "<strong>Ozi ịntanetị.</strong> Jiri <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ma ọ bụrụ na GitHub ma ọ bụ Discord adabaghị."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nzọụkwụ ọzọ",
+      "title": "Họrọ ọwa nke kwekọrọ n'otú ị chọrọ isi nye aka"
+    },
+    "paragraphs": [
+      "Ọwa niile na-eri nri n'otu nyocha ọha na eze na otu ebe nchekwa ọha."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

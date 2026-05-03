@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Rịọ maka ọrụ nnweta",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Rịọ maka ọrụ nnweta",
+    "lead": "IATF na-enyocha arịrịọ maka ọrụ nnweta nke na-amalite site na ezigbo mkpa.",
+    "support": [
+      "Ị chọghị nkọwa zuru ezu. Nsogbu doro anya, onye ọ na-emetụta, na ihe mere o ji dị mkpa ezuola ịmalite."
+    ],
+    "actions": [
+      {
+        "label": "Malite arịrịọ",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Jiri Discord kama",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Ọwa mmiri",
+      "title": "Họrọ ụzọ kachasị mfe"
+    },
+    "intro": [
+      "Ụzọ niile na-abanye n'otu nnyocha ahụ."
+    ],
+    "items": [
+      {
+        "label": "Ebe nrụọrụ weebụ",
+        "body": "Jiri mpempe akwụkwọ dị n'okpuru ebe a iji nyefee arịrịọ a haziri ahazi."
+      },
+      {
+        "label": "E-mail",
+        "body": "Ziga arịrịọ ahụ ozugbo na {{contact.requestsEmail}}Arịrịọ email nwere ike ịghọ ihe ndekọ arịrịọ ọha na eze mgbe enyochachara ma dezie ya."
+      },
+      {
+        "label": "Esemokwu",
+        "body": "Malite ebe ahụ ma ọ bụrụ na nke ahụ dị mfe. Arịrịọ ahụ ka na-aga n'otu nyocha ahụ."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Tupu i zipụ arịrịọ",
+    "paragraphs": [
+      "IATF na-arụ ọrụ n'ihu ọha. Enwere ike ichikota arịrịọ ma bipụtara dị ka ihe ndekọ arịọ ọha na nzukọ IATT GitHub, na weebụsaịtị a, ma ọ bụ ha abụọ.",
+      "Ejila adreesị nkeonwe, nọmba ekwentị, nkọwa ahụike, ma ọ bụ ozi njirimara banyere ndị ọrụ nke teknụzụ enyemaka ọ gwụla ma ọ dị mkpa ma ị dị mma na IATF na-enyocha ya.",
+      "IATF na-ewepu nkọwa kọntaktị nke onwe onye na-adịghị mkpa tupu ị na-ebipụta ndekọ arịrịọ."
+    ]
+  },
+  "review": {
+    "title": "Nyochaa ihe ndị a na-atụ anya ha",
+    "paragraphs": [
+      "Ịzite arịrịọ adịghị eme ka e jide n'aka na a ga-anakwere ya.",
+      "IATF na-enyocha arịrịọ maka ebumnuche, mmezu, uru, na ma ọrụ ahụ ọ dị na ebe nchekwa ọha.",
+      "Enwere ike ịjụ ụfọdụ arịrịọ, yigharịa, ma ọ bụ gbanwee tupu a nabata ha."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Mpempe akwụkwọ arịrịọ",
+      "title": "Tinye arịrịọ"
+    },
+    "fields": [
+      {
+        "kind": "ntinye",
+        "name": "onye na-arịọ arịrịọ",
+        "label": "Aha gị ma ọ bụ nzukọ gị",
+        "helper": "Ònye na-arịọ arịrịọ ahụ?"
+      },
+      {
+        "kind": "họrọ",
+        "name": "kọntaktị",
+        "label": "Ụzọ kọntaktị a họọrọ",
+        "helper": "Olee otú e kwesịrị isi na-eme nchọpụta?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Esemokwu"
+        ]
+      },
+      {
+        "kind": "ntinye",
+        "name": "kọntaktị",
+        "label": "Nkọwa kọntaktị",
+        "helper": "Adreesị ozi-e ma ọ bụ njikwa Discord maka ịgbaso.",
+        "placeholder": "Adreesị ozi-e ma ọ bụ aha njirimara Discord",
+        "required": true
+      },
+      {
+        "kind": "ntinye",
+        "name": "asụsụ",
+        "label": "Asụsụ",
+        "helper": "Asụsụ ị na-ahọrọ, ma ọ bụrụ na ọ dị mkpa.",
+        "value": "Asụsụ Bekee"
+      },
+      {
+        "kind": "mpaghara ederede",
+        "name": "nsogbu",
+        "label": "Olee nsogbu ị na-achọ idozi?",
+        "helper": "Jiri okwu ndị dị mfe kọwaa ihe mgbochi ahụ.",
+        "required": true
+      },
+      {
+        "kind": "mpaghara ederede",
+        "name": "ndị na-emetụta ndị ọrụ",
+        "label": "Ole ndị ka ọ na-emetụta?",
+        "helper": "Ònye ka nke a ga-enyere aka?",
+        "required": true
+      },
+      {
+        "kind": "mpaghara ederede",
+        "name": "extra Ihe gbara ya gburugburu",
+        "label": "Ihe ndị ọzọ",
+        "helper": "Kekọrịta ihe ọ bụla ọzọ na-enyere aka ịkọwa mkpa: ihe mere o ji dị mkpa, ihe atụ, ntụaka, echiche ngwanrọ, ma ọ bụ oge oge."
+      },
+      {
+        "kind": "họrọ",
+        "name": "openSourceConsent",
+        "label": "Ọ dị mma na mmepe ọha na eze mepere emepe?",
+        "helper": "Ọrụ ndị a nabatara bụ ebe nchekwa ọha na eze n'okpuru IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ee , ọ bụ",
+          "Ee e",
+          "Amaghị m"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ọ bụrụ na a nabatara ya",
+      "title": "Ihe Nnabata Pụtara"
+    },
+    "items": [
+      "ebe nchekwa ọha na IATF GitHub nzukọ",
+      "onye injinia na-ahụ maka ọrụ e kenyere ọrụ ahụ",
+      "akwụkwọ ikike copyleft maka koodu na ihe oru ngo",
+      "mmepe ọha na eze na ebe nchekwa",
+      "ihe ndekọ ndekọ na saịtị IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Malite mkparịta ụka",
+      "title": "Arịrịọ dị mkpirikpi ma doo anya ezuola ịmalite"
+    },
+    "paragraphs": [
+      "Ọ bụrụ na ị nwere ezigbo mkpa maka nnweta ma chee na ọ kwesịrị ịghọ ọrụ ọha, zitere anyị ya."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
