@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "වෙබ් අඩවි සිතියම"
+  },
+  "hero": {
+    "eyebrow": "දර්ශකය",
+    "title": "වෙබ් අඩවි සිතියම",
+    "lead": "IATF.CC එකේ හැම පොදු පිටුවක්ම එක තැනක."
+  },
+  "sections": [
+    {
+      "title": "ප් රධාන පිටු",
+      "items": [
+        {
+          "label": "නිවස",
+          "href": "/"
+        },
+        {
+          "label": "ව් යාපෘති",
+          "href": "/projects/"
+        },
+        {
+          "label": "ව් යාපෘතියක් ඉල්ලන්න",
+          "href": "/propose/"
+        },
+        {
+          "label": "පාලනය",
+          "href": "/governance/"
+        },
+        {
+          "label": "එකතු වෙන්න",
+          "href": "/join/"
+        },
+        {
+          "label": "ප් රවේශවීමේ හැකියාව",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "විනිවිදභාවය",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ව් යාපෘති",
+  "projectsEmpty": "තවම ප් රකාශයට පත්කරන ලද ව් යාපෘති නොමැත."
+}

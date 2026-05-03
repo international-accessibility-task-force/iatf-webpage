@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ප් රසිද්ධියේ ප් රවේශ විය හැකි ව් යාපෘති",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ප් රසිද්ධියේ ප් රවේශ විය හැකි ව් යාපෘති",
+    "lead": "මෙම ලේඛනයේ IATF හරහා පවත්වාගෙන යනු ලබන පොදු ව් යාපෘති ලැයිස්තුගත කර ඇත. පිළිගත් ප් රවේශවීමේ ව් යාපාර, අඩවි යටිතල පහසුකම් සහ සංරක්ෂිත මූලාකෘති මෙහි දෘශ් යමාන ලෙස තබා ඇත.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "ලේඛනාගාරය",
+      "title": "වර්තමාන ලේඛනය"
+    },
+    "intro": [
+      "පිළිගත් ව් යාපෘති ප් රකාශයට පත් කිරීමෙන් පසු මෙහි ලැයිස්තුගත කර ඇත."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "අවශ් යතාවයක් ඉදිරිපත් කරන්න",
+      "title": "ප් රවේශවීමේ අවශ් යතාවක් ප් රසිද්ධ ව් යාපෘතියක් බවට පත් කිරීම"
+    },
+    "paragraphs": [
+      "IATF සමාලෝචනය කරන්නේ ප් රයෝජනවත් පොදු විවෘත මූලාශ් ර කාර්යයක් බවට පත් කළ හැකි නිශ්චිත ප් රවේශවීමේ අවශ් යතා."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "තවමත් කිසිදු ව් යාපෘතියක් ප් රකාශයට පත් කර නොමැත",
+    "paragraphs": [
+      "IATF සිය ප් රථම පොදු ව් යාපෘති කට්ටලය සකස් කරමින් සිටී.",
+      "ඔබට තවමත් ඉල්ලීමක් යැවිය හැක ඔබට නිශ්චිත ප් රවේශවීමේ අවශ් යතාවයක් ඇත්නම්."
+    ]
+  }
+}

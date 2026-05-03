@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "සොයාගත නොහැක"
+  },
+  "hero": {
+    "eyebrow": "සොයාගත නොහැක",
+    "title": "ඉල්ලූ පිටුව සොයාගත නොහැක",
+    "lead": "පහල තියෙන ප් රධාන මාර්ග වලින් ප් රසිද්ධ ස්ථානයට යන්න.",
+    "support": [],
+    "actions": [
+      {
+        "label": "නිවස",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ඔයා ඉල්ලපු මාර්ගය නෑ."
+    ],
+    "items": [
+      {
+        "label": "නිවස",
+        "href": "/"
+      },
+      {
+        "label": "ව් යාපෘති",
+        "href": "/projects/"
+      },
+      {
+        "label": "එකතු වෙන්න",
+        "href": "/join/"
+      },
+      {
+        "label": "ප් රවේශවීමේ හැකියාව",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "පාලනය",
+        "href": "/governance/"
+      },
+      {
+        "label": "විනිවිදභාවය",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
