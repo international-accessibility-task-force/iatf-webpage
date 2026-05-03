@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ha e fumanoe"
+  },
+  "hero": {
+    "eyebrow": "Ha e fumanoe",
+    "title": "Leqephe le batloang ha lea fumanoa",
+    "lead": "Sebelisa litsela tse khōlō tse ka tlaase mona ho khutlela setšeng sa sechaba.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Lehae",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Tsela eo u e kōpileng ha e eo."
+    ],
+    "items": [
+      {
+        "label": "Lehae",
+        "href": "/"
+      },
+      {
+        "label": "Merero",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ikopanye le 'na",
+        "href": "/join/"
+      },
+      {
+        "label": "Ho fihlella",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Tsamaiso",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ho hlaka",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

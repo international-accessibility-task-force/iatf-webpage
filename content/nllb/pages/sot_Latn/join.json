@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Eba setho sa IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Eba setho sa IATF",
+    "lead": "Ho ba setho ho bulehile. Ho na le litsela tse 'maloa tsa ho nka karolo, ebang u itšetleha ka theknoloji e thusang, ho haha software e fumanehang, ho fetolela, ho leka, kapa ho boloka morero. Lipuisano le liqeto li etsahala phatlalatsa ho GitHub le Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Mesebetsi",
+      "title": "Mekhoa ea ho kenya letsoho"
+    },
+    "items": [
+      "<strong>Kopa morero.</strong> Haeba u thulana le tšitiso ea phihlello e ka rarolloang ke software ea mohloli o bulehileng ea sechaba, e romelle ka kopo ea kamohelo.",
+      "<strong>Teko le tlhahlobo.</strong> Leka merero ea IATF ka theknoloji e thusang eo u e sebelisang, tlaleha se sebetsang le se sa sebetseng, 'me u tlalehe litaba ka ho toba polokelong e loketseng.",
+      "<strong>Fetolela.</strong> Litaba tsa mohloli li hatisoa ka Senyesemane pele. Liphetolelo li eketsoa ha bafani ba fumaneha, ho qala ka Sepanishe.",
+      "<strong>Ho haha.</strong> Khetha litaba leha e le life tsa polokelo ea IATF, romela likōpo tsa ho hula, kapa nka morero e le moenjiniere oa oona ea ikarabellang.",
+      "<strong>Boloka.</strong> Ka linako tse ling merero e seng e ntse e le teng e hloka mohlokomeli e mocha."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Litsela",
+      "title": "Moo IATF e sebetsang phatlalatsa"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Litaba, ho ntša likōpo, ho lokolla, le litlaleho tsa morero.",
+      "<strong>Ho se lumellane.</strong> Puisano e phelang, tšebelisano-'moho le lipotso tse sa reroang.",
+      "<strong>E-mail.</strong> Tšebeliso <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> haeba GitHub kapa Discord li sa lumellane."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mohato o latelang",
+      "title": "Khetha mocha o lumellanang le kamoo u batlang ho kenya letsoho kateng"
+    },
+    "paragraphs": [
+      "Litsela tsohle li kenella ka har'a tlhahlobo e tšoanang ea sechaba le litsing tse tšoanang tsa polokelo ea sechaba."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

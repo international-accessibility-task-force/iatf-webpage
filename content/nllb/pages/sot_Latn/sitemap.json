@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "'Mapa oa Sebaka"
+  },
+  "hero": {
+    "eyebrow": "Lethathamo",
+    "title": "'Mapa oa Sebaka",
+    "lead": "Leqephe le leng le le leng la sechaba ho iatf.cc, le sebakeng se le seng."
+  },
+  "sections": [
+    {
+      "title": "Maqephe a ka sehloohong",
+      "items": [
+        {
+          "label": "Lehae",
+          "href": "/"
+        },
+        {
+          "label": "Merero",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kopa morero",
+          "href": "/propose/"
+        },
+        {
+          "label": "Tsamaiso",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ikopanye le 'na",
+          "href": "/join/"
+        },
+        {
+          "label": "Ho fihlella",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ho hlaka",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Merero",
+  "projectsEmpty": "Ha ho na merero e phatlalalitsoeng ho fihlela joale."
+}

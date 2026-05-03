@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ho tloha tlhokahalong ea ho fihlella ho li-repo tsa sechaba",
+    "lead": "IATF e thusa mekhatlo, lihlopha le batho ka bomong ho fetola litlhoko tsa 'nete tsa phihlello hore e be merero ea sechaba e bulehileng.",
+    "support": [
+      "Merero e amoheloang e phatlalatsoa mokhatlong oa IATF GitHub tlasa laesense ea copyleft mme e ntlafatsoa phatlalatsa ke moenjineri ea ikarabellang."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mokhoa oa ho sebetsa oa sechaba",
+      "title": "Tsela e bonolo ea sechaba bakeng sa software e fumanehang"
+    },
+    "paragraphs": [
+      "Ka foromo, mang kapa mang a ka romela bothata ba ho fihlella ho IATF. Haeba sehlopha se ka e nka, polokelo ea sechaba ea GitHub e buloa bakeng sa mosebetsi.",
+      "Morero o mong le o mong o amoheloang o na le lehae le hlakileng la sechaba bakeng sa khoutu, litaba, litokomane le litokollo, ka nts'etsopele e etelletsoeng pele pepeneneng ke moenjiniere ea ikarabellang."
+    ],
+    "specCard": {
+      "title": "Mokhoa oa ho sebetsa oa sechaba",
+      "terms": [
+        {
+          "term": "Tlhokahalo",
+          "definition": "Bothata ba sebele ba ho fihlella"
+        },
+        {
+          "term": "Tlhahlobo",
+          "definition": "Ho tšoaneleha ha morero le ho khoneha ha oona"
+        },
+        {
+          "term": "Sebaka sa morero",
+          "definition": "Setsi sa polokelo sa GitHub"
+        },
+        {
+          "term": "Tlhokomelo",
+          "definition": "Boikarabelo ba mokhatlo oa IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Tsamaiso",
+      "title": "Kamoo e sebetsang kateng",
+      "intro": "Mohlala ona o lula o le monyane ka boomo e le hore ho be bonolo ho latela tsela ea sechaba."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ho hlahisoa tlhoko",
+        "paragraphs": [
+          "Mokhatlo, sehlopha, kapa motho ka mong a ka etsa kōpo e thehiloeng tlhoko ea sebele ea ho fihlella.",
+          "Likōpo li ka qala ka websaeteng, ka imeile ho <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kapa ka ho se lumellane."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ea e hlahloba",
+        "paragraphs": [
+          "Re hlahloba ho tšoaneleha ha morero, ho sebetsa ha oona, le hore na mosebetsi oo ke oa morero oa mohloli o bulehileng oa sechaba."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ho bōptjoa polokelo ea sechaba",
+        "paragraphs": [
+          "Haeba projeke e amoheloa, e phatlalatsoa mokhatlong oa IATF GitHub tlasa laesense ea copyleft.",
+          "Polokelo e fetoha lehae la sechaba la khoutu, litaba, litokomane le litokollo."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Moenjiniere ea nang le boikarabelo ke eena ea tsamaisang morero",
+        "paragraphs": [
+          "Moenjiniere ea ikarabellang o abeloa polokelong ea merero 'me nts'etsopele e etsahala phatlalatsa."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ngoliso",
+      "title": "Lethathamo la merero ea sechaba"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Qala mona",
+      "title": "Hlahloba mosebetsi o ntseng o etsoa hona joale kapa qala morero o tobileng"
+    },
+    "paragraphs": [
+      "Sebelisa registry ho bona hore na ke eng e seng e ntse e le teng sechabeng, kapa qala ho kenya haeba bothata bo tobileng ba ho fihlella bo lokela ho fetoha morero."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

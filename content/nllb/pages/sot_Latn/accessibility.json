@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ho fihlella",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ho fihlella",
+    "lead": "IATF e ikemiselitse ho boloka sebaka sena sa marang-rang se le bonolo, se baleha habonolo, se fumaneha ka keyboard, 'me se lumellana le theknoloji e thusang.",
+    "support": [
+      "Bakeng sa ho fihlella websaeteng, IATF e sebelisa [W3C WAI](https://www.w3.org/WAI/) Boiphihlelo bo tobileng ba basebelisi ba theknoloji e thusang bo boetse bo fana ka leseli mabapi le mokhoa o sebetsang oa ho fihlella."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Tlaleho",
+      "title": "Tlaleha bothata ba ho fihlella"
+    },
+    "paragraphs": [
+      "Haeba u fumana tšitiso ea phihlello webosaeteng ena, ka kopo e tlalehe ka lengolo-tsoibila:",
+      "{{contact.accessibilityEmail}}",
+      "Litlaleho tse molemo li akarelletsa:"
+    ],
+    "items": [
+      "leqephe leo bothata bo etsahetseng ho lona",
+      "seo u neng u leka ho se etsa",
+      "theknoloji e thusang, sebatli, kapa sesebelisoa seo u neng u se sebelisa, haeba ho hlokahala",
+      "ke'ng se ileng sa senyeha",
+      "u ka be u thusitsoe ke'ng"
+    ],
+    "footnote": "Ha ho hlokahale hore u ngole tlaleho ea semmuso ea liphoso. Tlhaloso e hlakileng e lekane."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ho sebetsana le eona",
+      "title": "Ho sebetsana le litaba tsa sechaba"
+    },
+    "paragraphs": [
+      "Litaba tsa phihlello li ka akaretsoa polokelongtshedimosetso e amehang ea sechaba e le hore li ka lokisoa pepeneneng. Lintlha tsa puisano tsa botho le tlhaiso-leseling e sa hlokahaleng ea lekunutu lia tlosoa pele e phatlalatsoa.",
+      "Haeba tlaleho ea hao e akarelletsa boitsebiso ba lekunutu, e bolele ka ho hlaka molaetseng."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Boemo ba hona joale",
+      "title": "Mefokolo e tsejoang"
+    },
+    "paragraphs": [
+      "Sebaka sena sa marang-rang ke se senyenyane ka boomo 'me boholo ba sona ha se sebetse. Liphetolelo tsa lipuo tse ling li ka 'na tsa se ke tsa phethoa ha ho ntse ho lokisetsoa liphetolelo."
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Ho hlaka",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Ho hlaka",
+    "lead": "IATF e sebetsa phatlalatsa ka boiketsetso. liqeto tsa projeke, liphetoho tsa khoutu, phetoho ea puso, le litšenyehelo tsa ts'ebetso li tlalehiloe libakeng tsa sechaba. Leqephe lena le thathamisa moo mofuta o mong le o mong oa rekoto o lulang teng le hore na o ka o bala joang.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Litlaleho",
+      "title": "Moo litlaleho li lulang teng"
+    },
+    "items": [
+      "<strong>Liqeto tsa morero.</strong> Liqeto tsa ho amohela, ho boloka litokomane, le ho fana hape li tlalehiloe e le litaba kapa litokollo polokelong e amehang, 'me li akaretsoa ka har'a ngoliso ea sechaba. <a href=\"/projects/\">ngodiso</a>Ha ke tsebe .",
+      "<strong>Kopa litlaleho.</strong> Litlaleho tsa likopo tsa sechaba li bolokiloe mokhatlong oa IATF GitHub, webosaeteng ena, kapa ka bobeli. Litlaleho li ka akaretsa, tsa hlophisa, kapa tsa nchafatsa kopo ea mantlha e le hore tlhoko ea phihlello e ka hlahlojoa ntle le ho pepesa tlhaiso-leseling e sa hlokahaleng. Liqeto tsa ho se lumellane li akaretsoa tlalehong ea sechaba ha li ama projeke kapa qeto ea puso. Lirekoto tsa kopo ha li kenyelelitsoe ho indexing ea enjine ea patlo moo ho ka sebetsang ka tekheniki. Sheba lirekoto: kopo ea phatlalatso ea pele e emetse.",
+      "<strong>Liphetoho tsa khoutu.</strong> Phetoho e 'ngoe le e' ngoe ea khoutu ke boitlamo ba sechaba polokelong e amehang. Bona IATF <a href=\"{{contact.githubOrgUrl}}\">Mokhatlo oa GitHub</a>Ha ke tsebe .",
+      "<strong>Phetoho ea puso.</strong> Lintlafatso tsa leqephe la tsamaiso li lateloa e le boitlamo ho <code>websaete ea iatf</code> Sheba sebaka sa polokelo. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">etsa histori</a> ho GitHub.",
+      "<strong>Litšenyehelo tsa ho sebetsa.</strong> IATF e boloka litšenyehelo tsa ts'ebetso li le tlase 'me e tlaleha litšenyehalo tse iphetang tsa meralo ea motheo ea sechaba. Ho tloha ka 2022, litjeo tse ka sehloohong tse phetoang e bile mabitso a marang-rang. Ho amohela ho sebelisitse meralo-motheo ea mahala kapa ea theko e tlase moo ho khonehang.",
+      "<strong>Lintlha tsa ho hokahanya.</strong> Lintlha tse tsoang tlhahlobisong efe kapa efe e hokahaneng kapa qeto e phela ho GitHub Lipuisano ka polokelo e amehang  pono <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Lipuisano</a> mabapi le <code>websaete ea iatf</code> polokelo."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Litšenyehelo",
+      "title": "Rekoto ea litšenyehelo tsa ts'ebetso"
+    },
+    "paragraphs": [
+      "IATF e boloka meralo ea eona ea sechaba e le nyane ka boomo. Ho tloha ka 2022, litšenyehelo tse ka sehloohong tse iphetang tsa ts'ebetso e bile mabitso a marang-rang.",
+      "Tlaleho ena hase tlaleho ea lichelete e hlahlojoang. ke tlaleho e bulehileng ea litšenyehelo tsa tšebetso bakeng sa mekhoa ea motheo e sebelisetsoang ho boloka IATF inthaneteng."
+    ],
+    "footnote": "Li risiti li ka boleloa kapa tsa phatlalatsoa ka mor'a hore li hlakoloe. Liaterese tsa botho, lintlha tsa ho lefisa, le tlhaiso-leseling e sa hlokahaleng ea ak'haonte ha se karolo ea rekoto ea sechaba.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Sebaka",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Litšenyehelo",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Lintlha",
+            "value": "Litšenyehelo tsa sebaka sa marang-rang se tšehelitsoeng ke mugiwarafx. Hosting e sebelisitse meralo ea motheo ea mahala kapa e theko e tlase ka Cloudflare. Morero o ile oa tloha Vercel ho ea CloudFlare mme oa qala ho sebelisa nako e khuts'oane <code>iatf.cc</code> sebaka."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Sebaka",
+            "value": "<code>ea machaba ea phihlellotaskforce.com</code>"
+          },
+          {
+            "label": "Litšenyehelo",
+            "value": "USD 18,68"
+          },
+          {
+            "label": "Lintlha",
+            "value": "Litšenyehelo tsa domain tse tšehelitsoeng ke mugiwarafx. Hosting e sebelisitse lisebelisoa tsa mahala kapa tse theko e tlase."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Sebaka",
+            "value": "<code>ea machaba ea phihlellotaskforce.com</code>"
+          },
+          {
+            "label": "Litšenyehelo",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Lintlha",
+            "value": "Litšenyehelo tsa sebaka sa marang-rang se tšehelitsoeng ke mugiwarafx. Hosting e sebelisitse meralo ea motheo ea mahala kapa e theko e tlase ka Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Sebaka",
+            "value": "<code>ea machaba ea phihlellotaskforce.com</code>"
+          },
+          {
+            "label": "Litšenyehelo",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Lintlha",
+            "value": "Litšenyehelo tsa domain tse tšehelitsoeng ke mugiwarafx. Hosting e sebelisitse lisebelisoa tsa mahala kapa tse theko e tlase."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Sebaka",
+            "value": "<code>ea machaba ea phihlellotaskforce.com</code>"
+          },
+          {
+            "label": "Litšenyehelo",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Lintlha",
+            "value": "Litšenyehelo tsa domain tse tšehelitsoeng ke mugiwarafx. Hosting e sebelisitse meralo ea motheo ea mahala kapa e theko e tlase ka maqephe a GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Tsebiso ea moeli",
+      "title": "Seo e seng sa sechaba"
+    },
+    "paragraphs": [
+      "Boitsebiso bo bong ha bo kenngoe litlalehong tsa sechaba ka morero:"
+    ],
+    "items": [
+      "Lintlha tsa botho tsa ho ikopanya le ba fanang ka litlhahiso.",
+      "Lengolo la sephiri le sebelisetsoang feela ho hlakisa kōpo pele e amoheloa, e haneloa, kapa e akaretsoa.",
+      "Liaterese tsa botho, linomoro tsa thelefono, le lintlha tsa botho tse sa hlokahaleng.",
+      "Ntho leha e le efe e ka khethollang motho ea sebelisang theknoloji e thusang ntle le tumello ea hae.",
+      "Lipuisano tsa Raw Discord, ntle le haeba molaetsa o itseng o fetisetsoa ka boomo tlalehong ea morero oa sechaba."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bala ho eketsehileng",
+      "title": "Tsamaiso ke buka ea melao e tšehetsang litlaleho tsena"
+    },
+    "paragraphs": [
+      "Haeba u batla ho utloisisa hore na merero e amoheloa joang, e bolokoa joang, kapa e abeloa mosebetsi o mong, bala leqephe la tsamaiso."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

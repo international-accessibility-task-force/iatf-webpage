@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kopa morero oa phihlello",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kopa morero oa phihlello",
+    "lead": "IATF e hlahloba likopo tsa merero ea phihlello e qalang ka tlhoko ea 'nete.",
+    "support": [
+      "Ha u hloke tlhaloso e feletseng. Bothata bo hlakileng, hore na bo ama mang, le hore na ke hobane'ng ha bo le bohlokoa bo lekane ho qala."
+    ],
+    "actions": [
+      {
+        "label": "Qala kopo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Sebelisa Discord ho e-na le hoo",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Litsela",
+      "title": "Khetha tsela e bonolo ka ho fetisisa"
+    },
+    "intro": [
+      "Litsela tsohle li hlahlojoa ka tsela e tšoanang."
+    ],
+    "items": [
+      {
+        "label": "Sebaka sa marang-rang",
+        "body": "Sebelisa foromo e ka tlaase mona ho romela kōpo e hlophisitsoeng."
+      },
+      {
+        "label": "E-mail",
+        "body": "Romela kopo ka ho toba ho {{contact.requestsEmail}}Likōpo tsa melaetsa ea elektronike li ka fetoha litlaleho tsa sechaba tsa likōpo ka mor'a hore li hlahlojoe le ho hlakoloa."
+      },
+      {
+        "label": "Ho se lumellane",
+        "body": "Qala moo haeba ho le bonolo. Kopo e ntse e fetela tlhahlobisong e tšoanang."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Pele u romela kōpo",
+    "paragraphs": [
+      "Likopo li ka akaretsoa le ho phatlalatsoa e le litlaleho tsa likopo tsa sechaba mokhatlong oa IATF GitHub, webosaeteng ena, kapa ka bobeli.",
+      "U se ke ua kenyelletsa liaterese tsa botho, linomoro tsa thelefono, lintlha tsa bongaka, kapa boitsebiso bo khethollang motho ka mong ea sebelisang theknoloji e thusang ntle le haeba ho hlokahala 'me u lumellana le hore IATF e bo hlahlobe.",
+      "IATF e tlosa lintlha tse sa hlokahaleng tsa ho ikopanya le batho pele e phatlalatsa litlaleho tsa likopo."
+    ]
+  },
+  "review": {
+    "title": "Litebello tsa tlhahlobo",
+    "paragraphs": [
+      "Ho romela kōpo ha ho tiise hore e tla amoheloa.",
+      "IATF e hlahloba likōpo tsa ho tšoaneleha ha mosebetsi, ho khoneha ha oona, molemo oa oona, le hore na mosebetsi oo ke oa polokelo ea sechaba.",
+      "Likōpo tse ling li ka' na tsa haneloa, tsa chechisetsoa morao, kapa tsa fetoloa pele li amoheloa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Foromo ea kopo",
+      "title": "Romela kopo"
+    },
+    "fields": [
+      {
+        "kind": "ho kenya",
+        "name": "mokopi",
+        "label": "Lebitso la hao kapa la mokgatlo wa hao",
+        "helper": "Ke mang ea etsang kōpo eo?"
+      },
+      {
+        "kind": "khetha",
+        "name": "tsela ea ho ikopanya",
+        "label": "Tsela e khethiloeng ea ho ikopanya",
+        "helper": "Ho latela-pele ho lokela ho etsahala joang?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Ho se lumellane"
+        ]
+      },
+      {
+        "kind": "ho kenya",
+        "name": "ho ikopanyaDintlha",
+        "label": "Lintlha tsa puisano",
+        "helper": "Aterese ea lengolo-tsoibila kapa lebitso la Discord bakeng sa ho latela.",
+        "placeholder": "Aterese ea lengolo-tsoibila kapa lebitso la Discord",
+        "required": true
+      },
+      {
+        "kind": "ho kenya",
+        "name": "puo",
+        "label": "Puo e buuoang",
+        "helper": "Puo eo u e ratang, haeba ho hlokahala.",
+        "value": "Senyesemane"
+      },
+      {
+        "kind": "sebaka sa mongolo",
+        "name": "bothata",
+        "label": "U leka ho rarolla bothata bofe?",
+        "helper": "Hlalosa tšitiso eo ka mantsoe a bonolo.",
+        "required": true
+      },
+      {
+        "kind": "sebaka sa mongolo",
+        "name": "Basebedisi ba amehileng",
+        "label": "Ke bo-mang ba amehileng?",
+        "helper": "See se ne se tla thusa mang?",
+        "required": true
+      },
+      {
+        "kind": "sebaka sa mongolo",
+        "name": "moelelo oa extraContext",
+        "label": "Moelelo o eketsehileng",
+        "helper": "Fana ka ntho leha e le efe e 'ngoe e thusang ho hlalosa tlhokahalo: hore na ke hobane'ng ha e le ea bohlokoa, mehlala, litšupiso, khopolo e thata ea software, kapa lithibelo tsa nako."
+      },
+      {
+        "kind": "khetha",
+        "name": "openSourceConsent",
+        "label": "Na u ikutloa u phutholohile ka nts'etsopele ea mohloli o bulehileng oa sechaba?",
+        "helper": "Merero e amoheloang ke polokelo ea sechaba tlas'a IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "E, ho joalo",
+          "Che",
+          "Ha ke tsebe hantle"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Haeba e amoheloa",
+      "title": "Seo ho amohela ho se bolelang"
+    },
+    "items": [
+      "polokelo ea sechaba mokhatlong oa IATF GitHub",
+      "moenjiniere ea ikarabellang ea abetsoeng morero",
+      "laesense ea copyleft bakeng sa khoutu le thepa ea projeke",
+      "ntshetsopele ya setjhaba polokelongtshedimosetso",
+      "ngodiso setsing sa IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Qala moqoqo",
+      "title": "Kopo e khutšoanyane, e hlakileng e lekane ho qala"
+    },
+    "paragraphs": [
+      "Haeba u e-na le tlhoko ea sebele ea phihlello 'me u nahana hore e lokela ho ba morero oa sechaba, e romelle ho rōna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

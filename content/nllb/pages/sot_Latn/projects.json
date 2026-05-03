@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Merero ea ho fihlella sechaba",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Merero ea ho fihlella sechaba",
+    "lead": "Lethathamo lena le thathamisa merero ea sechaba e bolokiloeng ka IATF. Merero e amoheloang ea phihlello, lits'ebeletso tsa sebaka sa marang-rang le li-prototypes tse bolokiloeng li bolokiloe mona.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ngoliso",
+      "title": "Lethathamo la hona joale"
+    },
+    "intro": [
+      "Merero e amoheloang e thathamisitsoe mona hang ha e phatlalatsoa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Romela tlhoko",
+      "title": "Fetola tlhoko ea sebele ea phihlello hore e be morero oa sechaba"
+    },
+    "paragraphs": [
+      "IATF e hlahloba litlhoko tse tobileng tsa phihlello tse ka fetoloang mosebetsi o sebetsang oa mohloli o bulehileng oa sechaba."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ha ho merero e phatlalalitsoeng hajoale",
+    "paragraphs": [
+      "IATF e lokisetsa sehlopha sa eona sa pele sa merero ea sechaba.",
+      "U ntse u ka romela kōpo haeba u e-na le tlhokahalo e tobileng ea ho fumaneha."
+    ]
+  }
+}

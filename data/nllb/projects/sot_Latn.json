@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Websaete ea IATF",
+    "summary": "Sebaka sa sechaba sa International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF e ne e hloka ntlo ea sechaba e tsitsitseng e hlalosang mohlala, e thathamisang merero, 'me e supa ba tlatsetsang mohatong o latelang o nepahetseng.",
+    "why": "Sebaka sena sa marang-rang ke monyako o ka pele oa sechaba oa IATF. E hahiloe e le projeke e nyane e sa fetoheng e le hore ho be bonolo ho e bala, ho e fetolela le ho e boloka e butsoe.",
+    "scopeIn": [
+      "Maqephe a sechaba a hlalosang mohlala oa IATF",
+      "Rejistara ea sechaba ea merero ea IATF e amoheloang, e sebetsang le e bolokiloeng e nang le boemo, mohlokomeli, polokelo le ponts'o",
+      "Leqephe la ho amohela kopo le foromo",
+      "Maqephe a tsamaiso le ponaletso",
+      "Mohloli oa Senyesemane o nang le sebopeho se lokiselitsoeng ho fetoleloa",
+      "Static deployment on Cloudflare Workers Static Assets Tsamaiso e tsitsitseng"
+    ],
+    "scopeOut": [
+      "Libaka tsa litho tsa poraefete, litlaleho, kapa phallo ea ho kena",
+      "Ho amohela khoutu ea mohloli oa morero, e lulang polokelong ea projeke ka 'ngoe",
+      "Puisano ea nako ea sebele, e lulang ho Discord",
+      "Tsamaiso ea litaba bakeng sa merero ka bomong, e lulang polokelong ea projeke ka 'ngoe ea GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Setšoantšo sa pele sa IATF, se bolokiloeng ka mor'a ho fihla sebakeng sa tlhaho sa ho emisa.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Tlhahlobo ea pele ea sesebelisoa se shebaneng le phihlello tlasa sekhele sa IATF.",
+    "why": "Sebaka sa polokelo se bolokiloe phatlalatsa e le tlaleho ea mosebetsi, leha nts'etsopele e sebetsang e emisitse.",
+    "scopeIn": [
+      "Mohlala oa pele oa sesebelisoa se tsepamisitseng maikutlo ho fumaneha se bolokiloeng e le rekoto ea sechaba"
+    ],
+    "scopeOut": [
+      "Mosebetsi o sebetsang oa nts'etsopele kapa tšobotsi",
+      "Boitlamo ba tlhokomelo",
+      "Tšebeliso e khothalletsoang tlhahisong"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot ea sechaba ea IATF, e bolokiloeng ka mor'a ho fihla sebakeng sa tlhaho sa ho emisa.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Boiketsetso bo potolohileng litsela tsa sechaba tsa IATF.",
+    "why": "Sebaka sa polokelo se bolokiloe phatlalatsa e le tlaleho ea mosebetsi, leha nts'etsopele e sebetsang e emisitse.",
+    "scopeIn": [
+      "Ho se lumellane ka boiketsetso ho potoloha metjha ea sechaba ea IATF, e bolokiloeng e le rekoto ea sechaba"
+    ],
+    "scopeOut": [
+      "Mosebetsi o sebetsang oa nts'etsopele kapa tšobotsi",
+      "Boitlamo ba tlhokomelo",
+      "Tšebeliso e khothalletsoang tlhahisong"
+    ]
+  }
+]

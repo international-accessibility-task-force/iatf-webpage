@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Tsamaiso le mohlala oa polokelo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Tsamaiso le mohlala oa polokelo",
+    "lead": "IATF e boloka merero ea phihlello e le pepeneneng, e baleha habonolo ebile e ka hlokomeloa.",
+    "support": [
+      "Leqephe lena le hlalosa hore na ke eng e tšoanelehang, hore na libaka tsa polokelo li tšoaroa joang, le hore na boikarabelo ba boemo ba polokelo bo sebetsa joang ka mor'a ho amoheloa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Melao",
+      "title": "Ho tšoaneleha ha thomo, ho ba mong'a eona, ho fana ka laesense"
+    },
+    "cards": [
+      {
+        "title": "Ho tšoaneleha bakeng sa thomo",
+        "paragraphs": [
+          "IATF e amohela mosebetsi o sebetsanang le tšitiso ea 'nete ea phihlello' me o na le boleng bo hlakileng ba sechaba.",
+          "Morero o lokela ho ba molemo ho feta mosebetsi o le mong oa poraefete 'me o sebetse joalo ka polokelo ea sechaba.",
+          "Bakeng sa ho fihlella websaeteng, IATF e sebelisa [W3C WAI](https://www.w3.org/WAI/) Boiphihlelo bo tobileng ba basebelisi ba theknoloji e thusang le bona ke bopaki bo sebetsang ba hore na ke eng e sebetsang tšebelisong ea sebele."
+        ]
+      },
+      {
+        "title": "Ho amoheloa ha morero",
+        "paragraphs": [
+          "Tlhahiso e ka amoheloa ha tlhahlobo e bontša hore:"
+        ],
+        "items": [
+          "e sebetsana le tlhoko ea sebele ea phihlello",
+          "bothata bo hlakile ka ho lekaneng hore bo ka hlahlojoa",
+          "boholo ba eona bo nepahetse ka ho lekaneng hore e ka qala",
+          "mosebetsi o lumellana le thomo ea IATF",
+          "ho na le tsela e utloahalang ea ho boloka kapa ho phethela"
+        ]
+      },
+      {
+        "title": "Boikarabello ba polokelo",
+        "paragraphs": [
+          "Merero e amoheloang e thehoa tlas'a mokhatlo oa IATF GitHub.",
+          "Libaka tsa polokelo li lula moo e le hore morero o mong le o mong o lule o tsitsitse lehaeng la sechaba, esita le haeba hamorao bahlokomeli ba fetoha."
+        ]
+      },
+      {
+        "title": "Ho fana ka laesense",
+        "paragraphs": [
+          "Merero ea IATF e sebelisa laesense ea copyleft ntle le haeba morero o bolela ho seng joalo:"
+        ],
+        "items": [
+          "<strong>Khoutu:</strong> AGPL-3.0",
+          "<strong>Litokomane:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Moenjiniere kapa mohlokomeli ea ikarabellang",
+      "paragraphs": [
+        "Morero o mong le o mong o amoheloang o lokela ho ba le moenjiniere kapa mohlokomeli ea ikarabellang ea bitsoang. Motho eo a ka fumana phihlello ea motsamaisi polokelong mme o lebelletsoe ho:"
+      ],
+      "items": [
+        "tataiso ntshetsopeleng setjhaba",
+        "ho boloka sebopeho sa polokelo",
+        "ho hlahloba kapa ho laola litaba le ho hula likopo",
+        "ho ngola liqeto tsa bohlokoa tsa theknoloji",
+        "etsa hore morero o utloisisehe ho ba bang"
+      ],
+      "footnote": "Sena ke polokelo-boemo ba boikarabelo. mokhatlo o fanang ka beng lula le IATF. Boikarabelo mona e polokelo botsamaisi, tataiso botekgeniki, le ho hokahanya setjhaba  se se nang moeli nehelano ea poraefete, ikopanya le tloaelo eo, kapa litšebeletso tsa boemo ba boitlamo ka ntle ho roadmap setjhaba."
+    },
+    "publicDevelopment": {
+      "title": "Nts'etsopele ea sechaba",
+      "paragraphs": [
+        "Merero e phatlalalitsoeng ka IATF e hlahisoa phatlalatsa ka boiketsetso. Sebaka sa polokelo ke mohloli oa 'nete oa sechaba bakeng sa:"
+      ],
+      "items": [
+        "khoutu ea mohloli",
+        "litaba",
+        "litokomane",
+        "lintlha tsa 'mapa oa tsela",
+        "histori ea ho lokolloa"
+      ],
+      "footnote": "Tsebo ea bohlokoa ea morero ha ea lokela ho lula feela lipuisanong tsa lekunutu kapa mabokoseng a inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Litlaleho tsa sechaba",
+      "title": "Litlaleho tsa likopo tsa sechaba"
+    },
+    "paragraphs": [
+      "Likopo tse kenang IATF ka webosaete, lengolo-tsoibila, Discord, GitHub, kapa liteishene tse ling tsa iATF e ka ba litlaleho tsa likopo tsa sechaba.",
+      "Rekoto ea kopo ea sechaba ha se molaetsa oa mantlha. IATF e ka akaretsa, ea hlophisa, kapa ea nchafatsa kopo pele e phatlalatsoa e le hore tlhoko ea phihlello e ka hlahlojoa ntle le ho pepesa tlhaiso-leseling e sa hlokahaleng ea motho ka mong.",
+      "Lirekoto tsa likopo tsa sechaba li ka bolokoa mokhatlong oa IATF GitHub, webosaeteng ena, kapa ka bobeli.",
+      "Pele e phatlalatsoa, IATF e tlosa lintlha tse sa hlokahaleng tsa ho ikopanya le batho, liaterese tsa poraefete, le lintlha tse khethollang basebelisi ka bomong ba theknoloji e thusang ntle le haeba phatlalatso e reretsoe ka ho hlaka ebile e loketse.",
+      "Ho se lumellane ho sebelisetsoa ho hokahanya ka mokhoa o sa reroang. IATF ha e boloke lipuisano tsa ho se utloane ka thoko ka boiketsetso, 'me ho bolokoa ha melaetsa ho laoloa ke Discord. Liqeto tse entsoeng ho Discord li lokela ho akaretsoa tlalehong ea sechaba ho GitHub kapa leqepheng la projeke le amehang.",
+      "Lirekoto tsa likopo ha li kenyelelitsoe lenaneng la enjine ea ho batla moo ho sebetsang ka mokhoa o sebetsang. Sechaba se bolela ho hlahlojoa le ho ikarabella. Ha e bolele ho ntlafatsoa bakeng sa ho sibolloa ka lipatlisiso tsa mabitso.",
+      "IATF e ka ntlafatsa kapa ea tlosa litlaleho ho tsoa libakeng tsa sechaba tse laoloang ke iATF, empa e ke ke ea netefatsa ho tlosoa ho tsoa ho li-cache tsa motho oa boraro, tsebiso, liforoko, li-skrini, lienjineri tsa ho batla, Discord, kapa litsamaiso tse ling tsa kantle.",
+      "Haeba molaetsa o lokela ho lula e le sephiri, u se ke ua o romela ka litsela tsa sechaba tsa IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Karolo ea mokhatlo",
+      "title": "Setulo"
+    },
+    "lead": "Molula-setulo o na le botsamaisi ba mokhatlo oa IATF. Sena se fapane le karolo ea moenjiniere ea ikarabellang ka morero: molula setulo o ikarabella bakeng sa mokhatlo o hlophisitsoeng ka kakaretso, eseng bakeng sa tataiso ea letsatsi le letsatsi ea polokelo efe kapa efe.",
+    "duties": {
+      "title": "Seo setulo se se etsang",
+      "items": [
+        "E na le litumello tsa mong'a eona mokhatlong oa IATF GitHub",
+        "Ho saena ha ho amoheloa ha morero le liqeto tsa polokelo ea litokomane",
+        "E sebetsa joalo ka ntlha ea puisano ea sechaba bakeng sa IATF",
+        "Ho hokahanya likhetho tsa selemo le selemo"
+      ],
+      "footnote": "Molula-setulo ha a ikemisetse ho IATF bakeng sa phano ea poraefete, mosebetsi o lefuoang, kapa litumellano tsa boemo ba ts'ebeletso, mme ha a hatelle liqeto tsa motsamaisi oa polokelo ea polokelo mabapi le tataiso ea tekheniki."
+    },
+    "election": {
+      "title": "Khetho ea selemo le selemo",
+      "paragraphs": [
+        "Molula-setulo o khethoa hang ka selemo. Khetho e etsahala libekeng tse peli tsa pele tsa December, liphetho li phatlalatsoa ka la 15 December, 'me nako e ncha e qala ka la 1 Pherekhong.",
+        "Bakhethoa ba nang le tokelo ea ho vouta ke batho ba neng ba e-na le karolo ea tlhokomelo polokelong efe kapa efe ea IATF selemong mme ba entse bonyane monehelo o le mong o kopantsoeng polokelong ea IATA selemong seo. Mokhethoa e mong le e mong ea tšoanelehang o na le lentsoe le le leng.",
+        "Likhetho li tsamaisoa e le Lipuisano tsa sechaba tsa GitHub polokelong ea taolo ea IATF e khethiloeng, ka hona likhetho, likhetho le sephetho kaofela ke karolo ea rekoto ea sechaba."
+      ]
+    },
+    "continuity": {
+      "title": "Tsoelo-pele",
+      "paragraphs": [
+        "Haeba ho se na likhetho selemong se itseng, molulasetulo oa hona joale o tsoela pele ka karolo ho fihlela likhethong tse latelang. Ena ke ts'ebetso e sa lekanyetsoang, eseng nako ea kamohelo  mohlala o etselitsoe ho boloka mokhatlo o tsitsitse ha mosebetsi o le tlase, eseng ho qobella phetoho eo ho seng motho ea e lokiselitseng.",
+        "Molula-setulo a ka itokolla mosebetsing neng kapa neng. Basebetsi ba sebetsang ba ka boela ba bitsa likhetho tse sa tloaelehang ka lebaka le boletsoeng, ba tsamaisoa tlas'a melao e tšoanang le likhetho tsa selemo le selemo."
+      ]
+    },
+    "current": {
+      "title": "Molula-setulo oa hona joale",
+      "fields": [
+        {
+          "label": "Setulo",
+          "value": "li-mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Nako",
+          "value": "Ho fihlela likhethong tsa December 2026"
+        },
+        {
+          "label": "Karolo e hlophisitsoeng ka molao",
+          "value": "2026"
+        },
+        {
+          "label": "Khetho ea pele e reriloeng",
+          "value": "December 2026"
+        }
+      ]
+    },
+    "footnote": "Karolo ea molulasetulo e ile ea etsoa semmuso ka 2026 ho etsa botsamaisi bo hlakileng ba mokhatlo. Ho fihlela ka nako eo, boikarabello ba mokhatlo bo ne bo ts'oaroa ka mokhoa o sa reroang ke mothehi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Boemo ba projeke",
+      "paragraphs": [
+        "Merero e sebelisa sehlopha se senyenyane sa linaha tsa sechaba:"
+      ],
+      "items": [
+        "Tlhahiso",
+        "E amohetse",
+        "E sebetsang",
+        "E tsitsitse",
+        "Ho batla mohlokomeli",
+        "E bolokiloe"
+      ],
+      "footnote": "Mebuso ena e etsa hore ho be bonolo ho bala litokomane tsa ngoliso."
+    },
+    "reassignment": {
+      "title": "Ho nehelana hape le ho boloka litokomane",
+      "paragraphs": [
+        "Haeba mohlokomeli a tlohela mosebetsi kapa a se a sa sebetse, IATF e ka 'na ea abela motho e mong boikarabelo, ea emisa mosebetsi oa nts'etsopele, kapa ea hlakola morero.",
+        "Morero o ka boela oa bolokoa ha tlhokahalo ea pele e khotsofalitsoe, tlhokomelo e emisitsoe, kapa mosebetsi o tsoelang pele ha e sa le oa sebele."
+      ],
+      "footnote": "Merero e bolokiloeng polokelong e lula e bonoa ke sechaba ntle le haeba ho e-na le lebaka le matla la ho etsa se fapaneng."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Tsebiso ea moeli",
+      "title": "Seo IATF e sa se tiisetseng"
+    },
+    "items": [
+      "ho tsamaisoa ha moreki oa poraefete",
+      "litumellano tsa boemo ba tšebeletso",
+      "ho amoheloa ha tlhahiso e 'ngoe le e' ngoe",
+      "tlhokomelo ea nako e telele bakeng sa morero o mong le o mong"
+    ],
+    "footnote": "IATF ke mohlala oa polokelo ea boitsebiso ea sechaba, eseng tšebeletso ea ho fana e ikemetseng."
+  }
+}
