@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ना मिलल"
+  },
+  "hero": {
+    "eyebrow": "ना मिलल",
+    "title": "अनुरोधित पन्ना ना मिलल",
+    "lead": "सार्वजनिक स्थल पर वापस आवे खातिर नीचे दिहल मुख्य मार्ग के उपयोग करीं.",
+    "support": [],
+    "actions": [
+      {
+        "label": "आपन घर",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "राउर अनुरोधित मार्ग मौजूद नइखे।"
+    ],
+    "items": [
+      {
+        "label": "आपन घर",
+        "href": "/"
+      },
+      {
+        "label": "परियोजनाएं बदलें",
+        "href": "/projects/"
+      },
+      {
+        "label": "सम्मिलित होइ जा",
+        "href": "/join/"
+      },
+      {
+        "label": "सुलभता (एक्सेसिबिलिटी)",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "शासन-प्रणाली",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शिता खातिर",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "सार्वजनिक सुलभता परियोजनासब",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "सार्वजनिक सुलभता परियोजनासब",
+    "lead": "ई रजिस्ट्री आईएटीएफ के माध्यम से रखल जाए वाला पब्लिक प्रोजेक्ट सभ के लिस्ट बाटे। स्वीकृत एक्सेसिबिलिटी प्रोजेक्ट, साइट इंफ्रास्ट्रक्चर, आ आर्काइव कइल गइल प्रोटोटाइप इहाँ देखल जा सके लें।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "रजिस्ट्री कइल गइल",
+      "title": "वर्तमान रजिस्ट्री"
+    },
+    "intro": [
+      "स्वीकृत परियोजना सभ के प्रकाशन के बाद इहाँ सूचीबद्ध कइल गइल बा।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "आपन अनुरोध लिख भेजीं",
+      "title": "एक्सेसिबिलिटी के ठोस जरूरत के सार्वजनिक परियोजना में बदलल"
+    },
+    "paragraphs": [
+      "आईएटीएफ ठोस सुलभता के जरूरत के समीक्षा करेला जेकरा के उपयोगी सार्वजनिक खुला स्रोत कार्य में बदलल जा सकेला."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "अभी तक कौनों प्रोजेक्ट पर काम नइखे भइल",
+    "paragraphs": [
+      "आईएटीएफ आपन पहिला सार्वजनिक परियोजना सेट तइयार कर रहल बा.",
+      "आप अभियो आपन अनुरोध भेज सकत बानी अगर आपके कौनों खास सुबिधा के जरूरत बा।"
+    ]
+  }
+}

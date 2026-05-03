@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइटमैप"
+  },
+  "hero": {
+    "eyebrow": "सूचकांक",
+    "title": "साइटमैप",
+    "lead": "आई.ए.टी.एफ.सी. के हर सार्वजनिक पन्ना, एगो जगह पर."
+  },
+  "sections": [
+    {
+      "title": "मुख्य पन्ना",
+      "items": [
+        {
+          "label": "आपन घर",
+          "href": "/"
+        },
+        {
+          "label": "परियोजनाएं बदलें",
+          "href": "/projects/"
+        },
+        {
+          "label": "एगो परियोजना के अनुरोध करीं",
+          "href": "/propose/"
+        },
+        {
+          "label": "शासन-प्रणाली",
+          "href": "/governance/"
+        },
+        {
+          "label": "सम्मिलित होइ जा",
+          "href": "/join/"
+        },
+        {
+          "label": "सुलभता (एक्सेसिबिलिटी)",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शिता खातिर",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "परियोजनाएं बदलें",
+  "projectsEmpty": "अभी तक कौनो प्रोजेक्ट के प्रकाशन नइखे भइल।"
+}
