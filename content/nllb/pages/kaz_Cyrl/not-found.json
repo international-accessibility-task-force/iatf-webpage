@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Табылған жоқ"
+  },
+  "hero": {
+    "eyebrow": "Табылған жоқ",
+    "title": "Сұралған бет табылмады",
+    "lead": "Жалпыға ортақ алаңға қайту үшін төмендегі негізгі жолдарды пайдаланыңыз.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Үйге",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Сұраған бағытыңыз жоқ."
+    ],
+    "items": [
+      {
+        "label": "Үйге",
+        "href": "/"
+      },
+      {
+        "label": "Жобалар",
+        "href": "/projects/"
+      },
+      {
+        "label": "Қосылу",
+        "href": "/join/"
+      },
+      {
+        "label": "Қолжетімділік",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Басқару",
+        "href": "/governance/"
+      },
+      {
+        "label": "Жариялылық",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

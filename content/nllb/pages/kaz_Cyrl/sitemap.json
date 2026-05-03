@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Сайттың картасы"
+  },
+  "hero": {
+    "eyebrow": "Көрсеткіш",
+    "title": "Сайттың картасы",
+    "lead": "IATF.CC сайтындағы барлық парақтар бір жерде."
+  },
+  "sections": [
+    {
+      "title": "Негізгі беттер",
+      "items": [
+        {
+          "label": "Үйге",
+          "href": "/"
+        },
+        {
+          "label": "Жобалар",
+          "href": "/projects/"
+        },
+        {
+          "label": "Жобаны сұрау",
+          "href": "/propose/"
+        },
+        {
+          "label": "Басқару",
+          "href": "/governance/"
+        },
+        {
+          "label": "Қосылу",
+          "href": "/join/"
+        },
+        {
+          "label": "Қолжетімділік",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Жариялылық",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Жобалар",
+  "projectsEmpty": "Жобалар әлі жарияланбаған."
+}

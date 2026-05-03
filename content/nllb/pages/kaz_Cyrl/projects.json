@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Қоғамдық қолжетімділік жобалары",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Қоғамдық қолжетімділік жобалары",
+    "lead": "Бұл тізілім IATF арқылы жүргізілетін қоғамдық жобаларды тізімдейді. Қабылданған қолжетімділік жобалары, сайт инфрақұрылымы және мұрағатталған прототиптер осы жерде көрінеді.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Тіркеу",
+      "title": "Қазіргі реестр"
+    },
+    "intro": [
+      "Қабылданған жобалар жарияланғаннан кейін осы жерде тізімделеді."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Қажеттілігін көрсету",
+      "title": "Конкретті қолжетімділік қажеттілігін қоғамдық жобаға айналдыру"
+    },
+    "paragraphs": [
+      "IATF қолжетімділіктің нақты қажеттіліктерін қарастырады, оларды пайдалы ашық кодты жұмыстарға айналдыруға болады."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Жобалар әлі жарияланбаған",
+    "paragraphs": [
+      "IATF өзінің алғашқы жобалық топтамасын әзірлеп жатыр.",
+      "Егер қол жетімділікке қатысты нақты қажеттіліктеріңіз болса, өтінішіңізді әлі де жіберуге болады."
+    ]
+  }
+}
