@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Карта сајта"
+  },
+  "hero": {
+    "eyebrow": "Индекс",
+    "title": "Карта сајта",
+    "lead": "Свака јавна страница на ИАТФЦЦ-у, на једном месту."
+  },
+  "sections": [
+    {
+      "title": "Главне странице",
+      "items": [
+        {
+          "label": "Кућа",
+          "href": "/"
+        },
+        {
+          "label": "Пројекти",
+          "href": "/projects/"
+        },
+        {
+          "label": "Тражити пројекат",
+          "href": "/propose/"
+        },
+        {
+          "label": "Управљање",
+          "href": "/governance/"
+        },
+        {
+          "label": "Придружите се",
+          "href": "/join/"
+        },
+        {
+          "label": "Приступачност",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Транспарентност",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Пројекти",
+  "projectsEmpty": "Ниједан пројекат још није објављен."
+}
