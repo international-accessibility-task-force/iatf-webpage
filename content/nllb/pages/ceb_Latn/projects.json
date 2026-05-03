@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Mga proyekto sa pag-access sa publiko",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Mga proyekto sa pag-access sa publiko",
+    "lead": "Kini nga rehistro naglista sa publiko nga mga proyekto nga gihuptan pinaagi sa IATF. Gidawat accessibility mga proyekto, site imprastraktura, ug archived prototypes gitipigan makita dinhi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Kasamtangang rehistro"
+    },
+    "intro": [
+      "Ang gidawat nga mga proyekto gilista dinhi sa dihang kini gipatik."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ipadangat ang panginahanglan",
+      "title": "Ipasangil ang usa ka konkretong panginahanglan sa pag-access ngadto sa usa ka publikong proyekto"
+    },
+    "paragraphs": [
+      "Ang IATF nag-usisa sa konkreto nga mga panginahanglan sa pag-access nga mahimong mahimong mapuslanon nga publikong buhat sa bukas nga tinubdan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Walay mga proyekto nga gipatik pa",
+    "paragraphs": [
+      "Ang IATF nag-andam sa unang publikong han-ay sa mga proyekto.",
+      "Mahimo gihapon nimong ipadala ang usa ka hangyo kon duna kay espesipikong panginahanglan sa pag-access."
+    ]
+  }
+}

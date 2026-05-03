@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indise",
+    "title": "Sitemap",
+    "lead": "Ang tanang publikong panid sa iatf.cc, diha sa usa ka dapit."
+  },
+  "sections": [
+    {
+      "title": "Pangunang mga panid",
+      "items": [
+        {
+          "label": "Balay",
+          "href": "/"
+        },
+        {
+          "label": "Mga Proyekto",
+          "href": "/projects/"
+        },
+        {
+          "label": "Paghangyo ug proyekto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pagdumala",
+          "href": "/governance/"
+        },
+        {
+          "label": "Pag-apil",
+          "href": "/join/"
+        },
+        {
+          "label": "Pag-access",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparensya",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Mga Proyekto",
+  "projectsEmpty": "Walay mga proyekto nga gipatik pa."
+}

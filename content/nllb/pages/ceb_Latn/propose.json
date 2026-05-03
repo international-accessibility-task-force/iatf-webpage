@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Paghangyo ug usa ka proyekto sa pag-access",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Paghangyo ug usa ka proyekto sa pag-access",
+    "lead": "Gisusi sa IATF ang mga hangyo alang sa mga proyekto sa pag-access nga nagsugod gikan sa tinuod nga panginahanglan.",
+    "support": [
+      "Dili nimo gikinahanglan ang bug-os nga espisipikasyon. Ang usa ka tin-awng suliran, kon kinsay maapektohan niini, ug kon nganong hinungdanon kini igo na aron magsugod."
+    ],
+    "actions": [
+      {
+        "label": "Pagsugod sa usa ka hangyo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gamita ang Pagkasumpaki sa baylo",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mga kanal",
+      "title": "Pilia ang labing sayon nga ruta"
+    },
+    "intro": [
+      "Ang tanang ruta mosulod sa samang pagrepaso."
+    ],
+    "items": [
+      {
+        "label": "Website",
+        "body": "Gamita ang porma sa ubos aron ipadala ang usa ka istruktura nga hangyo."
+      },
+      {
+        "label": "Email",
+        "body": "Ipadala ang hangyo direkta sa {{contact.requestsEmail}}Ang mga hangyo sa e-mail mahimong publikong mga rekord sa hangyo human sa pagrepaso ug pag-edit."
+      },
+      {
+        "label": "Pagkasumpaki",
+        "body": "Magsugod didto kon kana mao ang labing sayon. Ang hangyo padayong molihok ngadto sa samang pagrepaso."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sa dili ka pa magpadala ug hangyo",
+    "paragraphs": [
+      "IATF nagtrabaho sa publiko. mga hangyo mahimong summarized ug gipatik ingon sa publiko nga hangyo talaan sa Iatf GitHub organisasyon, sa niini nga website, o sa duha.",
+      "Ayaw ilakip ang pribadong mga adres, numero sa telepono, medikal nga mga detalye, o makaila nga impormasyon bahin sa indibiduwal nga mga tiggamit sa mga teknolohiya sa pagtabang gawas kon kini gikinahanglan ug ikaw komportable nga susihon kini sa IATF.",
+      "Giwagtang sa IATF ang dili kinahanglanon nga personal nga mga detalye sa kontak sa dili pa ipahayag ang mga rekord sa hangyo."
+    ]
+  },
+  "review": {
+    "title": "Pagrepaso sa mga pagdahom",
+    "paragraphs": [
+      "Ang pagsumite ug hangyo wala maggarantiya sa pagdawat.",
+      "Gisusi sa IATF ang mga hangyo alang sa pagkaangay sa misyon, katakos, kapuslanan, ug kon ang trabaho naa ba sa usa ka publikong repository.",
+      "Ang ubang mga hangyo mahimong dili dawaton, i-postpone, o usbon sa dili pa madawat."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Pormat sa hangyo",
+      "title": "Pagsumite ug hangyo"
+    },
+    "fields": [
+      {
+        "kind": "pagsulod",
+        "name": "tigpangayo",
+        "label": "Ang imong ngalan o organisasyon",
+        "helper": "Kinsay naghimo sa hangyo?"
+      },
+      {
+        "kind": "pagpili",
+        "name": "kontak nga ruta",
+        "label": "Gihangyo nga ruta sa pagkontak",
+        "helper": "Sa unsang paagi angayng himoon ang pag-follow-up?",
+        "required": true,
+        "options": [
+          "Email",
+          "Pagkasumpaki"
+        ]
+      },
+      {
+        "kind": "pagsulod",
+        "name": "Detalye sa Kontak",
+        "label": "Mga detalye sa pagkontak",
+        "helper": "Email address o Discord handle alang sa follow-up.",
+        "placeholder": "Email nga adres o Discord handle",
+        "required": true
+      },
+      {
+        "kind": "pagsulod",
+        "name": "pinulongan",
+        "label": "Pinulongan",
+        "helper": "Ang imong gipili nga pinulongan, kon may kalabutan.",
+        "value": "Iningles"
+      },
+      {
+        "kind": "textarea",
+        "name": "problema",
+        "label": "Unsang suliran ang imong gisulayan sa pagsulbad?",
+        "helper": "Ihulagway ang babag sa yanong mga pulong.",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "naapektohan nga mga tiggamit",
+        "label": "Kinsa ang apektado?",
+        "helper": "Kinsay makatabang niini?",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "extraKonteksto",
+        "label": "Dugang nga konteksto",
+        "helper": "Ipaambit ang bisan unsang butang nga makatabang sa pagpatin-aw sa panginahanglan: nganong hinungdanon kini, mga pananglitan, mga reperensiya, usa ka garbo nga ideya sa software, o mga limitasyon sa panahon."
+      },
+      {
+        "kind": "pagpili",
+        "name": "openSourceConsent",
+        "label": "Komportable ka ba sa publikong pag-uswag sa bukas nga tinubdan?",
+        "helper": "Ang gidawat nga mga proyekto maoy publikong mga repository ubos sa IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Oo nga",
+          "Dili",
+          "Dili pa sigurado"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Kon dawaton",
+      "title": "Kon unsay kahulogan sa pagdawat"
+    },
+    "items": [
+      "usa ka publikong repository sa IATF GitHub nga organisasyon",
+      "usa ka responsable nga inhenyero nga giasayn sa proyekto",
+      "usa ka copyleft nga lisensya alang sa code ug mga materyales sa proyekto",
+      "publikong kalamboan diha sa repository",
+      "usa ka entry sa rehistro sa site sa IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sugdi ang panag-estorya",
+      "title": "Ang usa ka mubo, tin-aw nga hangyo igo na sa pagsugod"
+    },
+    "paragraphs": [
+      "Kon duna kay tinuod nga panginahanglan sa pag-access ug nagtuo nga kini angayng mahimong publikong proyekto, ipadala kini kanamo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

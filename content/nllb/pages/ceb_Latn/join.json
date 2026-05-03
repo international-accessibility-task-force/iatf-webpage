@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Pag-apil sa IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Pag-apil sa IATF",
+    "lead": "Membership mao ang bukas. Adunay pipila ka mga paagi sa pag-apil, kon kamo mosalig sa tabang sa teknolohiya, sa pagtukod sa accessible software, paghubad, pagsulay, o sa pagmentinar sa usa ka proyekto. mga panaghisgot ug mga desisyon mahitabo sa publiko sa GitHub ug Pagkasumpaki.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Mga Papel",
+      "title": "Mga Paagi sa Pagtamod"
+    },
+    "items": [
+      "<strong>Pangayo ug proyekto.</strong> Kon imong makita ang usa ka babag sa accessibility nga masulbad pinaagi sa publiko nga open source software, ipadala kini pinaagi sa request intake.",
+      "<strong>Pagsulay ug pagrepaso.</strong> Sulayi ang mga proyekto sa IATF uban sa tabangang teknolohiya nga imong gigamit, isumbong kon unsay molihok ug kon unsay dili, ug i-file ang mga isyu direkta diha sa maylabot nga repository.",
+      "<strong>Paghubad.</strong> Ang tinubdan nga sulod gipatik una sa yano nga Iningles. Ang mga hubad gidugang samtang ang mga tig-amot anaa, sugod sa Kinatsila.",
+      "<strong>Pagtukod.</strong> Pagpili ug mga isyu sa bisan unsang IATF repository, pagpadala sa mga hangyo sa pagkuha, o pagkuha sa usa ka proyekto ingon nga responsable nga inhenyero niini.",
+      "<strong>Pagpadayon.</strong> Ang naglungtad na nga mga proyekto usahay nagkinahanglan ug bag-ong tigmintinar. Ang pag-rotar sa tagmintinar maoy normal nga bahin sa modelo, dili eksepsiyon."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mga kanal",
+      "title": "Kon ang IATF molihok sa publiko"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Mga isyu, mga hangyo sa pagkuha, mga pagpagawas, ug mga rekord sa proyekto.",
+      "<strong>Pagkasumpaki.</strong> Buhi nga panaghisgot, koordinasyon, ug dili pormal nga mga pangutana.",
+      "<strong>E-mail.</strong> Paggamit <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> kon dili mohaum ang GitHub ni Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sunod nga Lakang",
+      "title": "Pilia ang channel nga katumbas sa imong gusto nga moamot"
+    },
+    "paragraphs": [
+      "Ang tanan nga mga kanal magpakaon ngadto sa samang publikong pagrepaso ug sa samang publiko nga mga repository."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

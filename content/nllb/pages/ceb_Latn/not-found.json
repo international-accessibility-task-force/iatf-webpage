@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Wala makita"
+  },
+  "hero": {
+    "eyebrow": "Wala makita",
+    "title": "Ang gipangayo nga panid wala makaplagan",
+    "lead": "Gamita ang pangunang mga ruta sa ubos aron makabalik sa publikong dapit.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Balay",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ang ruta nga imong gihangyo wala maglungtad."
+    ],
+    "items": [
+      {
+        "label": "Balay",
+        "href": "/"
+      },
+      {
+        "label": "Mga Proyekto",
+        "href": "/projects/"
+      },
+      {
+        "label": "Pag-apil",
+        "href": "/join/"
+      },
+      {
+        "label": "Pag-access",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pagdumala",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparensya",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

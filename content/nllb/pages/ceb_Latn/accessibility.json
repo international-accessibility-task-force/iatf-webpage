@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Pag-access",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Pag-access",
+    "lead": "Ang IATF nagtinguha sa paghimo niini nga website nga simple, mabasa, ma-access pinaagi sa keyboard, ug mahiuyon sa mga teknolohiya sa pagtabang.",
+    "support": [
+      "Alang sa web accessibility, gigamit sa IATF [W3C WAI](https://www.w3.org/WAI/) Ang praktikal nga pagka-aksesible gipahibalo usab pinaagi sa direktang kasinatian sa mga tiggamit sa mga teknolohiya sa pagtabang."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Pagreport",
+      "title": "Ireport ang usa ka isyu sa accessibility"
+    },
+    "paragraphs": [
+      "Kon imong makita ang usa ka babag sa accessibility sa niini nga website, palihug sa pagreport niini pinaagi sa email:",
+      "{{contact.accessibilityEmail}}",
+      "Ang mapuslanong mga taho naglakip sa:"
+    ],
+    "items": [
+      "ang panid diin nahitabo ang isyu",
+      "kon unsay imong gipaningkamotan nga buhaton",
+      "unsa ka tabang nga teknolohiya, browser, o aparato nga imong gigamit, kon may kalabutan",
+      "unsay nasayop",
+      "unsay nakatabang"
+    ],
+    "footnote": "Dili ka kinahanglang mosulat ug pormal nga bug report. Igo na ang tin-aw nga paghubit."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Pagdumala",
+      "title": "Pagdumala sa publikong isyu"
+    },
+    "paragraphs": [
+      "Ang mga isyu sa accessibility mahimo'g masumaryo sa may kalabutan nga publikong repository aron kini masulbad sa abli. Ang personal nga mga detalye sa pagkontak ug dili kinahanglan nga pribado nga kasayuran gikuha sa wala pa ma-publish.",
+      "Kon ang imong taho naglakip ug pribadong impormasyon, isulti kana sa tin-aw diha sa mensahe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kasamtangang kahimtang",
+      "title": "Nailhan nga mga limitasyon"
+    },
+    "paragraphs": [
+      "Kini nga site mao ang tinuyo nga gamay ug kadaghanan static. Ang pipila ka mga bersyon sa pinulongan mahimong dili kompleto samtang giandam ang mga hubad."
+    ]
+  }
+}

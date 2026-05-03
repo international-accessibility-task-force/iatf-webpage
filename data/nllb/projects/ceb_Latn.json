@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Website sa IATF",
+    "summary": "Ang publikong dapit alang sa International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ang IATF nagkinahanglag usa ka lig-on nga publikong balay nga nagpatin-aw sa modelo, naglista sa mga proyekto, ug nagpunting sa mga tig-amot ngadto sa hustong sunod nga lakang.",
+    "why": "Ang site mao ang publiko nga pultahan sa atubangan sa IATF. Kini gitukod ingon nga usa ka gamay nga static proyekto mao nga kini magpabilin sayon sa pagbasa, paghubad, ug sa pagmentinar sa bukas nga.",
+    "scopeIn": [
+      "Mga publikong landing page nga nagpatin-aw sa modelo sa IATF",
+      "Publiko nga rehistro sa gidawat, aktibo, ug gi-archive nga mga proyekto sa IATF nga adunay kahimtang, tigpadayon, repositoryo, ug demo",
+      "Usa ka panid sa pagdawat ug porma sa hangyo",
+      "Mga panid sa pagdumala ug transparency",
+      "Iningles nga tinubdan uban sa istruktura nga andam sa paghubad",
+      "Static deployment sa Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Pribado nga mga dapit sa mga miyembro, mga asoy, o mga agianan sa pag-login",
+      "Pag-host sa source code sa proyekto, nga nagpuyo sa kaugalingong repository sa matag proyekto",
+      "Real-time chat, nga nagpuyo sa Pagkasumpaki",
+      "Pagsubay sa isyu alang sa tagsa-tagsa nga mga proyekto, nga nagpuyo sa GitHub repository sa matag proyekto"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Usa ka sayo IATF prototype, archived human sa pagkab-ot sa usa ka natural nga punto sa paghunong.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Sayo nga pagsusi sa usa ka himan nga naka-focus sa accessibility ubos sa payong sa IATF.",
+    "why": "Ang repository gitipigan sa publiko ingon nga usa ka talaan sa buhat, bisan kon ang aktibo nga kalamboan nahunong na.",
+    "scopeIn": [
+      "Sayo nga prototype sa usa ka himan nga naka-focus sa accessibility nga gitipigan ingong publikong rekord"
+    ],
+    "scopeOut": [
+      "Aktibo nga pag-uswag o bahin sa trabaho",
+      "Mga pasalig sa pagmentinar",
+      "Girekomendar nga paggamit sa produksyon"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Usa ka bot sa komunidad sa IATF, gi-archive human makaabot sa usa ka natural nga punto sa paghunong.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation sa palibot sa IATF community channels.",
+    "why": "Ang repository gitipigan sa publiko ingon nga usa ka talaan sa buhat, bisan kon ang aktibo nga kalamboan nahunong na.",
+    "scopeIn": [
+      "Awtomatikong pagdiskord sa palibot sa mga kanal sa komunidad sa IATF, nga gitipigan ingong publikong rekord"
+    ],
+    "scopeOut": [
+      "Aktibo nga pag-uswag o bahin sa trabaho",
+      "Mga pasalig sa pagmentinar",
+      "Girekomendar nga paggamit sa produksyon"
+    ]
+  }
+]

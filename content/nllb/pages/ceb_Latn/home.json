@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Gikan sa panginahanglan sa pag-access ngadto sa publikong repo",
+    "lead": "Ang IATF motabang sa mga asosasyon, mga grupo, ug mga indibiduwal sa pagbalhin sa tinuod nga mga panginahanglan sa pag-access ngadto sa publiko nga mga proyekto sa bukas nga tinubdan.",
+    "support": [
+      "Ang gidawat nga mga proyekto gipatik sa IATF GitHub organisasyon ubos sa usa ka copyleft lisensya ug naugmad sa publiko pinaagi sa responsable nga engineer."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Publiko nga modelo sa pag-operate",
+      "title": "Usa ka yano nga publiko nga agianan alang sa maabtik nga software"
+    },
+    "paragraphs": [
+      "Pinaagi sa usa ka porma, bisan kinsa makahimo sa pagsumite sa problema sa accessibility ngadto sa IATF. Kon ang team makahimo niini, usa ka publiko nga GitHub repository ang gibuksan alang sa trabaho.",
+      "Ang matag gidawat nga proyekto adunay tin-aw nga publiko nga balay alang sa code, mga isyu, dokumentasyon, ug mga pagpagawas, uban ang pag-uswag nga gipangulohan sa abli sa usa ka responsable nga inhenyero."
+    ],
+    "specCard": {
+      "title": "Publiko nga modelo sa pag-operate",
+      "terms": [
+        {
+          "term": "Gikinahanglan",
+          "definition": "Tinuod nga problema sa pagkadawat"
+        },
+        {
+          "term": "Pagrepaso",
+          "definition": "Ang pagkaangay sa misyon ug praktikal nga pagkahimo"
+        },
+        {
+          "term": "Espasyo sa proyekto",
+          "definition": "Publiko GitHub repository"
+        },
+        {
+          "term": "Pagdumala",
+          "definition": "Pagpanag-iya sa organisasyon sa IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proseso",
+      "title": "Kon sa unsang paagi kini molihok",
+      "intro": "Ang modelo tinuyo nga gamay aron masayon ang pagsunod sa dalan sa publiko."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Usa ka panginahanglan gipasaka",
+        "paragraphs": [
+          "Ang usa ka asosasyon, grupo, o indibiduwal mahimong mosumiter ug hangyo base sa tinuod nga panginahanglan sa pag-access.",
+          "Ang mga hangyo mahimong sugdan pinaagi sa website, pinaagi sa e-mail sa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o pinaagi sa Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Gisusi kini sa IATF",
+        "paragraphs": [
+          "Atong susihon ang pagkaangay sa misyon, praktikal nga sukod, ug kon ang buhat angay ba sa usa ka publikong proyekto sa bukas nga tinubdan."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Gihimo ang usa ka publikong repository",
+        "paragraphs": [
+          "Kon ang usa ka proyekto gidawat, kini gipatik sa IATF GitHub organisasyon ubos sa usa ka copyleft lisensya.",
+          "Ang repository mahimong publikong pinuy-anan sa kodigo, mga isyu, dokumentasyon, ug mga pagpagawas."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Usa ka responsableng inhenyero ang nanguna sa proyekto",
+        "paragraphs": [
+          "Ang usa ka responsableng inhenyero giasayn sa project repository ug ang pag-uswag mahitabo sa publiko."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Publiko nga rehistro sa proyekto"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sugdi dinhi",
+      "title": "Pag-browse sa kasamtangan nga trabaho o pagsugod sa usa ka konkreto nga proyekto"
+    },
+    "paragraphs": [
+      "Gamita ang rehistro sa pagtan-aw kon unsay anaa na sa publiko, o sugdi ang pagsulod kon ang usa ka konkreto nga problema sa pag-access mahimong usa ka proyekto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

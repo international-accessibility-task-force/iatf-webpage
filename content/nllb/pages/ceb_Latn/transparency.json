@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparensya",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparensya",
+    "lead": "Ang IATF nagtrabaho sa publiko pinaagi sa default. ang mga desisyon sa proyekto, code changes, governance changes, and operating costs are recorded in public locations. kini nga panid naglista diin ang matag matang sa rekord nagpuyo ug kung giunsa kini mabasa.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Mga rekord",
+      "title": "Kon Asa Magpuyo ang mga Rekord"
+    },
+    "items": [
+      "<strong>Mga Desisyon sa Proyekto.</strong> Ang mga desisyon sa pagdawat, pag-archive, ug pag-asign girekord ingong mga isyu o mga pagpagawas diha sa may kalabotan nga repository, ug gisumaryo diha sa publikong rehistro. <a href=\"/projects/\">rehistro</a>. sa mga bata .",
+      "<strong>Pangayo ug mga rekord.</strong> Public request records are stored in the IATF GitHub organization, on this website, or both. Records may summarize, redact, or restructure the original request so the accessibility need can be reviewed without exposing unnecessary personal information. Disagree decisions are summarized into the public record when they affect a project or governance decision. Request records are excluded from search engine indexing where technically practical. View records: first publication request pending.",
+      "<strong>Nagbag-o ang kodigo.</strong> Ang matag pagbag-o sa code mao ang usa ka publiko nga commit sa may kalabutan nga repository. Tan-awa ang IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub organisasyon</a>. sa mga bata .",
+      "<strong>Ang mga kausaban sa pagdumala.</strong> Ang mga pag-update sa panid sa pagdumala gisubay ingon nga nagkomit sa <code>iatf-website</code> Tan-awa ang <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">pagkomit sa kasaysayan</a> sa GitHub.",
+      "<strong>Mga gasto sa pagpadagan.</strong> IATF naghupot sa operating gasto ubos ug mga talaan balik balik sa publiko nga mga gasto sa imprastraktura. Sukad sa 2022, ang mga nag-unang balik balik nga gasto nga mga domain nga mga ngalan. Hosting gigamit free-tier o ubos nga-gasto imprastruktura kon mahimo. Tan-awa ang operating gasto talaan sa ubos.",
+      "<strong>Mga nota sa koordinasyon.</strong> Mga nota gikan sa bisan unsang koordinado nga pagrepaso o desisyon nga buhi sa GitHub Mga panaghisgot sa may kalabutan nga repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Mga Diskusyon</a> sa <code>iatf-website</code> repository."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Gasto",
+      "title": "Pagrehistro sa gasto sa pag-operate"
+    },
+    "paragraphs": [
+      "Ang IATF naghupot sa publiko nga imprastraktura nga tinuyo nga gamay. Sukad sa 2022, ang nag-unang balik-balik nga gasto sa pag-operate mao ang mga ngalan sa domain.",
+      "Kini nga rekord dili usa ka audited nga pinansyal nga pahayag. Kini usa ka publikong rekord sa gasto sa pag-operate alang sa imprastruktura nga gigamit sa pagpadayon sa IATF online."
+    ],
+    "footnote": "Ang personal nga mga adres, mga detalye sa pagbayad, ug dili kinahanglan nga impormasyon sa account dili bahin sa publikong rekord.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Gasto",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain gasto pinondohan sa mugiwarafx. Hosting gigamit free-tier o ubos nga gasto sa imprastruktura pinaagi sa Cloudflare. Ang proyekto mibalhin gikan sa Vercel ngadto sa CloudFlare ug nagsugod sa paggamit sa mas mubo nga <code>iatf.cc</code> teritoryo."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Gasto",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain gasto pinondohan sa mugiwarafx. Hosting gigamit free-tier o ubos nga gasto sa imprastraktura."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Gasto",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain gasto pinondohan sa mugiwarafx. Hosting gigamit free-tier o ubos nga gasto sa imprastraktura pinaagi sa Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Gasto",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain gasto pinondohan sa mugiwarafx. Hosting gigamit free-tier o ubos nga gasto sa imprastraktura."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Gasto",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain gasto pinondohan sa mugiwarafx. Hosting gigamit free-tier o low-cost nga imprastraktura pinaagi sa GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Talaan sa utlanan",
+      "title": "Kon unsa ang dili publiko"
+    },
+    "paragraphs": [
+      "Ang pipila ka materyal dili makita sa publikong mga rekord tungod kay:"
+    ],
+    "items": [
+      "Personal nga mga detalye sa kontak sa mga tigplano.",
+      "Pribadong sulat nga gigamit lamang sa pagpatin-aw sa usa ka hangyo sa dili pa kini dawaton, isalikway, o isumaryo.",
+      "Pribadong mga adres, numero sa telepono, ug dili-kinahanglanong personal nga mga detalye.",
+      "Bisan unsa nga makaila sa usa ka indibiduwal nga tiggamit sa tabangang teknolohiya nga walay pagtugot.",
+      "Raw Discord panag-istoryahanay, gawas kon ang usa ka piho nga mensahe mao ang tinuyo nga gibalhin ngadto sa usa ka publiko nga rekord sa proyekto."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Basaha ang dugang",
+      "title": "Ang pagdumala mao ang kasulatan sa mga rekord"
+    },
+    "paragraphs": [
+      "Kon gusto nimong masabtan kon sa unsang paagi ang mga proyekto gidawat, gi-archive, o giasayn pag-usab, basaha ang panid sa pagdumala."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

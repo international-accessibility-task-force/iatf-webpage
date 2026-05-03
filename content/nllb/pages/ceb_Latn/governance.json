@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Pagdumala ug modelo sa repository",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Pagdumala ug modelo sa repository",
+    "lead": "Ang IATF nagbantay sa mga proyekto sa pag-access sa publiko, mabasa, ug mapadayon.",
+    "support": [
+      "Kini nga panid nagsaysay kon unsa ang kwalipikado, kon sa unsang paagi ang mga repositories gihuptan, ug unsa nga responsibilidad sa lebel sa repository nga magamit human sa pagdawat."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Mga Lagda",
+      "title": "Ang pagkaangay sa misyon, pagpanag-iya, paglisensyado"
+    },
+    "cards": [
+      {
+        "title": "Husto sa Misyon",
+        "paragraphs": [
+          "Gidawat sa IATF ang trabaho nga nag-atubang sa usa ka tinuod nga babag sa pag-access ug adunay tin-aw nga bili sa publiko.",
+          "Ang usa ka proyekto angay nga mapuslanon gawas sa usa ka pribado nga workflow ug magamit ingon nga usa ka publikong repository.",
+          "Alang sa web accessibility, gigamit sa IATF [W3C WAI](https://www.w3.org/WAI/) Ang direktang kasinatian sa mga tiggamit sa mga teknolohiya sa pagtabang maoy praktikal usab nga pamatuod kon unsay molihok sa tinuod nga paggamit."
+        ]
+      },
+      {
+        "title": "Pagdawat sa proyekto",
+        "paragraphs": [
+          "Ang usa ka sugyot mahimong dawaton kon ang pagsusi nagpakita nga:"
+        ],
+        "items": [
+          "nagtagbo kini sa tinuod nga panginahanglan sa pag-access",
+          "ang suliran klaro na sa pagtimbang-timbang",
+          "ang sakup mao ang realistiko nga igo sa paglansad",
+          "ang trabaho nahiuyon sa misyon sa IATF",
+          "adunay posible nga dalan ngadto sa pagmentinar o pagkompleto"
+        ]
+      },
+      {
+        "title": "Pagpanag-iya sa repository",
+        "paragraphs": [
+          "Ang gidawat nga mga proyekto gihimo ubos sa IATF GitHub organisasyon.",
+          "Ang mga repository magpabilin didto mao nga ang matag proyekto maghupot sa usa ka lig-on nga balay sa publiko, bisan kon ang mga tig-atiman sa ulahi magbag-o."
+        ]
+      },
+      {
+        "title": "Paghatag ug Lisensya",
+        "paragraphs": [
+          "Ang mga proyekto sa IATF mogamit sa copyleft licensing gawas kon ang usa ka proyekto nag-ingon sa laing paagi:"
+        ],
+        "items": [
+          "<strong>Kodigo:</strong> AGPL-3.0",
+          "<strong>Dokumentasyon:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Responsable nga inhenyero o tigmintinar",
+      "paragraphs": [
+        "Ang matag gidawat nga proyekto kinahanglan nga adunay usa ka ngalan nga responsable nga inhenyero o tigmintinar. Kana nga tawo mahimong makadawat sa pag-access sa admin sa repository ug gilauman nga:"
+      ],
+      "items": [
+        "giya sa pagpalambo sa publiko",
+        "pagmentinar sa istruktura sa repository",
+        "pagrepaso o pagdumala sa mga isyu ug pagkuha sa mga hangyo",
+        "pagdokumento sa mahinungdanong teknikal nga mga desisyon",
+        "himoa nga masabtan sa uban ang proyekto"
+      ],
+      "footnote": "Kini mao ang repository-level nga responsibilidad. Organisasyonal nga pagpanag-iya magpabilin uban sa IATF. responsibilidad dinhi mao ang Repository stewardship, teknikal nga direksyon, ug publiko nga koordinasyon  dili walay kinutoban nga pribado nga paghatud, kustom nga integrasyon, o sa pag-alagad-level sa mga pasalig sa gawas sa publiko nga roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Publiko nga kalamboan",
+      "paragraphs": [
+        "Mga proyekto nga gilunsad pinaagi sa IATF nga naugmad sa publiko pinaagi sa default. Ang repository mao ang publiko nga tinubdan sa kamatuoran alang sa:"
+      ],
+      "items": [
+        "tinubdan nga kodigo",
+        "mga isyu",
+        "dokumentasyon",
+        "mga nota sa roadmap",
+        "kasaysayan sa pagpagawas"
+      ],
+      "footnote": "Ang hinungdanong kahibalo sa proyekto dili angayng magpuyo lamang diha sa pribadong mga chat o mga inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Publiko nga mga rekord",
+      "title": "Mga rekord sa publiko nga hangyo"
+    },
+    "paragraphs": [
+      "Ang mga hangyo nga mosulod sa IATF pinaagi sa website, email, Discord, GitHub, o uban pang mga kanal sa Iatf mahimong publikong mga talaan sa hangyo.",
+      "Ang usa ka publikong rekord sa hangyo dili kinahanglan ang orihinal nga mensahe. Ang IATF mahimong magsumaryo, mag-edit, o mag-restructure sa usa ka hangyo sa wala pa ang publikasyon aron ang panginahanglan sa pag-access mahimo'g susihon nga wala'y pagbutyag sa dili kinahanglan nga personal nga kasayuran.",
+      "Public request rekord mahimong gitipigan sa IATF GitHub organisasyon, sa niini nga website, o sa duha.",
+      "Sa dili pa ang publikasyon, ang IATF magwagtang sa dili-kinahanglanong personal nga mga detalye sa kontak, pribadong mga adres, ug mga detalye nga makaila bahin sa tagsatagsa ka tiggamit sa mga teknolohiya sa pagtabang gawas kon klaro ang katuyoan ug angayan nga publikasyon.",
+      "Discord gigamit alang sa dili pormal nga koordinasyon. IATF dili sa linain nga pag-archive Discord panag-istoryahanay pinaagi sa default, ug mensahe sa pagtipig kontrolado sa Discord. mga desisyon nga gihimo sa Pagkasumpaki kinahanglan nga summarized ngadto sa publiko nga rekord sa GitHub o sa mga may kalabutan nga panid sa proyekto.",
+      "Ang mga rekord sa hangyo wala ilakip sa pag-index sa search engine diin kini praktikal sa teknikal. Ang publiko nagpasabut nga ma-review ug ma-accountable. Wala kini gipasabut nga gi-optimize alang sa pagkadiskobre pinaagi sa mga pagpangita sa ngalan.",
+      "Ang IATF mahimong mag-update o magwagtang sa mga rekord gikan sa kontrolado nga mga public surface, apan dili garantiya ang pagtangtang gikan sa third-party caches, notifications, forks, screenshots, search engines, Discord, o uban pang mga eksternal nga sistema.",
+      "Kon ang usa ka mensahe kinahanglang magpabilin nga pribado, ayaw kini ipadala pinaagi sa publikong mga kanal sa IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisasyonal nga papel",
+      "title": "Lingkuranan"
+    },
+    "lead": "Kini mao ang lahi gikan sa matag-project responsable engineer papel: ang chair mao ang responsable sa organisasyon ingon sa usa ka bug-os, dili alang sa adlaw-adlaw nga direksyon sa bisan unsa nga usa ka repository.",
+    "duties": {
+      "title": "Kon unsay himoon sa lingkoranan",
+      "items": [
+        "Naghupot sa mga katungod sa tag-iya sa IATF GitHub organisasyon",
+        "Pagpirma sa pagdawat sa proyekto ug mga desisyon sa pag-archive",
+        "Naglihok isip publikong punto sa kontak alang sa IATF",
+        "Nagkoordinar sa tinuig nga eleksiyon"
+      ],
+      "footnote": "Ang presidente dili magsaad sa IATF sa pribadong paghatud, bayad nga trabaho, o mga kasabutan sa lebel sa serbisyo, ug dili mag-override sa matag-repository maintainer nga mga desisyon sa teknikal nga direksyon."
+    },
+    "election": {
+      "title": "Tuig-tuig nga eleksyon",
+      "paragraphs": [
+        "Ang presidente mapili kausa sa usa ka tuig. Ang eleksyon molungtad sa unang duha ka semana sa Disyembre, ang mga resulta ipahibalo sa Disyembre 15, ug ang bag-ong termino magsugod sa Enero 1.",
+        "Ang mga eligible voters mao ang mga tawo nga naghupot sa usa ka maintainer papel sa bisan unsa nga IATF repository sa panahon sa tuig ug naghimo sa labing menos usa ka gihiusa nga kontribusyon sa usa sa mga repositoryo sa IAT F sa maong tuig. Ang matag eligible botante adunay usa ka boto. Ang kandidato nga adunay labing daghan nga mga boto modaog; sa higayon nga ang usa ka tie, usa ka run-off gihimo sa ikatulo nga semana sa Disyembre.",
+        "Ang eleksyon gipadagan ingon usa ka publiko nga Diskusyon sa GitHub sa gitudlo nga IATF governance repository, busa ang mga kandidato, ang boto, ug ang sangputanan tanan kabahin sa publiko nga rekord."
+      ]
+    },
+    "continuity": {
+      "title": "Pagpadayon",
+      "paragraphs": [
+        "Kon walay eleksyon nga gipahigayon sa usa ka gihatag nga tuig, ang karon nga chair nagpadayon sa papel hangtud sa sunod nga eleksyon. Kini mao ang usa ka indefinite nga pagpadayon, dili usa ka panahon sa kaluoy  ang modelo gidisenyo sa pagbantay sa organisasyon nga lig-on sa diha nga ang kalihokan mao ang ubos, dili sa pagpugos sa mga transisyon nga walay usa nga andam alang sa.",
+        "Ang presidente mahimong mobiya sa bisan unsang panahon. Ang aktibo nga mga tig-atiman mahimo usab nga magpatawag ug usa ka ekstraordinaryong eleksyon nga adunay gipahayag nga hinungdan, nga gipahigayon ubos sa samang mga lagda sama sa tinuig nga eleksyon."
+      ]
+    },
+    "current": {
+      "title": "Kasamtangang presidente",
+      "fields": [
+        {
+          "label": "Lingkuranan",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termino",
+          "value": "Hangtod sa eleksyon sa Disyembre 2026"
+        },
+        {
+          "label": "Pormal nga papel",
+          "value": "2026"
+        },
+        {
+          "label": "Unang gikatakda nga eleksyon",
+          "value": "Disyembre 2026"
+        }
+      ]
+    },
+    "footnote": "Ang papel sa chair gi-formalize sa 2026 sa paghimo sa organisasyon-level stewardship tin-aw. hangtud unya, organisasyonal nga responsibilidad gihimo sa dili pormal nga sa founder."
+  },
+  "continuity": {
+    "states": {
+      "title": "Mga kahimtang sa proyekto",
+      "paragraphs": [
+        "Ang mga proyekto naggamit sa usa ka gamay nga hugpong sa publiko nga mga estado:"
+      ],
+      "items": [
+        "Proposisyon",
+        "Gidawat",
+        "Aktibo",
+        "Lig-on",
+        "Nangita ug tig-atiman",
+        "Na-arkibo"
+      ],
+      "footnote": "Kini nga mga estado maghimo sa rehistro nga sayon i-scan."
+    },
+    "reassignment": {
+      "title": "Pag-atras ug pag-archive",
+      "paragraphs": [
+        "Kon ang usa ka tigmintinar mobiya o dili na aktibo, ang IATF mahimong moasayn pag-usab sa responsibilidad, mohunong sa pag-uswag, o mag-archive sa proyekto.",
+        "Ang usa ka proyekto mahimong i-archive usab sa dihang ang orihinal nga panginahanglan natuman na, ang pagmentinar nahunong na, o ang pagpadayon sa trabaho dili na realistiko."
+      ],
+      "footnote": "Ang na-archive nga mga proyekto magpabilin nga makita sa publiko gawas kon adunay mapugosong katarongan sa pagbuhat sa laing paagi."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Talaan sa utlanan",
+      "title": "Unsa ang dili garantiyahan sa IATF"
+    },
+    "items": [
+      "pribadong kliyente nga paghatud",
+      "mga kasabotan sa lebel sa pag-alagad",
+      "pagdawat sa matag sugyot",
+      "long-term maintenance alang sa matag proyekto"
+    ],
+    "footnote": "Ang IATF maoy modelo sa publikong repository, dili pribadong serbisyo sa paghatod."
+  }
+}
