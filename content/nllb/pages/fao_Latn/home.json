@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Frá at hava tørv á atgongd til almenn repo",
+    "lead": "IATF hjálpir felagsskapum, bólkum og einstaklingum at broyta veruliga tørvin á atkomu til almennar open source verkætlanir.",
+    "support": [
+      "Tyktar verkætlanir verða kunngjørdar í IATF GitHub organisatiónini undir einum copyleft loyvi og framleiddar alment av einum ábyrgdarfullum verkfrøðingi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Almenni virkismodellurin",
+      "title": "Ein einfaldur almennur vegur fyri atkomuligum forritum"
+    },
+    "paragraphs": [
+      "Við einum skjali kann ein og hvør senda IATF ein trupulleika við atgongdini. Um liðið kann taka tað upp, verður eitt alment GitHub goymslur latið upp til arbeiðið.",
+      "Hvør góðkend verkætlan hevur eitt greitt alment heim til koddir, viðurskifti, dokumentatión og útgávur, har menningin verður leidd av einum ábyrgdarfullum verkfrøðingi."
+    ],
+    "specCard": {
+      "title": "Almenni virkismodellurin",
+      "terms": [
+        {
+          "term": "Tørvur",
+          "definition": "Veruliga trupulleiki við atgongdini"
+        },
+        {
+          "term": "Grannskoðan",
+          "definition": "Uppgávuførleiki og praktiskur møguleiki"
+        },
+        {
+          "term": "Verkætlanarpláss",
+          "definition": "Almenni goymsla á GitHub"
+        },
+        {
+          "term": "Umsiting",
+          "definition": "IATF-skipanarligur ognarrættur"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Tilgongd",
+      "title": "Hvussu tað virkar",
+      "intro": "Modellið verður tilvitað lítið, soleiðis at almenna vegurin er lættur at fylgja."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Tørvur verður lagdur fram",
+        "paragraphs": [
+          "Ein felagsskapur, ein bólkur ella ein persónur kann senda eina áheitan, sum er grundað á ein veruligan tørv á at fáa atgongd.",
+          "Umsóknir kunnu byrja á heimasíðuni, við at senda teldupost til <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>ella gjøgnum Ósemjurnar."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF viðger tað",
+        "paragraphs": [
+          "Vit kanna, um arbeiðið hóskar til uppgávuna, um tað er praktiskt, og um tað hoyrir heima í einum almennum open source verkætlanum."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Eitt alment goymslupláss verður stovnað",
+        "paragraphs": [
+          "Um ein verkætlan verður góðtikin, verður hon kunngjørd í IATF GitHub organisatiónini undir einum copyleft loyvi.",
+          "Skjalasavnið verður almenna heimstaðurin fyri koduna, útgávurnar, dokumentatiónina og frágreiðingarnar."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Ein ábyrgdarfullur verkfrøðingur leiðir verkætlanina",
+        "paragraphs": [
+          "Ein ábyrgdarfullur verkfrøðingur verður settur til verkætlanargoymsluna, og menningin fer fram alment."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Skráseting",
+      "title": "Alment verkætlanarskjal"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Byrja her",
+      "title": "Browse í verandi arbeiði ella byrja á eini ítøkiligari verkætlan"
+    },
+    "paragraphs": [
+      "Brúka skránna fyri at síggja, hvat longu er alment, ella byrja innsavningina, um ein ítøkiligur atkomuligheitstrupulleiki skal gerast ein verkætlan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

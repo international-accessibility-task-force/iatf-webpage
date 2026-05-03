@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Atkomuligheit",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Atkomuligheit",
+    "lead": "IATF hevur til endamáls at halda hesa heimasíðuna einfalda, lesiliga, atkomuliga við telduposti, og at hon er kompatibel við hjálpandi tøkni.",
+    "support": [
+      "Fyri at fáa atgongd til heimasíðuna, brúkar IATF [W3C WAI](https://www.w3.org/WAI/) Praktisk atkomuleiki verður eisini upplýstur av beinleiðis royndum hjá brúkarum av hjálpandi tøkni."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Frágreiðing",
+      "title": "Ber til at siga frá um ein trupulleika við atgongdini"
+    },
+    "paragraphs": [
+      "Um tú finnur eina forðing fyri atgongd á hesi heimasíðu, vinarliga boða frá hesum við telduposti:",
+      "{{contact.accessibilityEmail}}",
+      "Nýttu frásagnirnar eru m.a.:"
+    ],
+    "items": [
+      "síðuna, har trupulleikin hendi",
+      "hvat tú royndi at gera",
+      "hvat fyri hjálpandi tøkni, browsara ella skipan tú brúkti, um tað er viðkomandi",
+      "hvat gekk galið",
+      "hvat hevði hjálpt"
+    ],
+    "footnote": "Tær nýtist ikki at skriva eina formliga feilfrágreiðing. Ein greið lýsing er nóg mikið."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Handfaring",
+      "title": "Umsiting av almennum viðurskiftum"
+    },
+    "paragraphs": [
+      "Atgongumerkir kunnu takast saman í viðkomandi almennum goymslu, soleiðis at teir kunnu verða rættaðir á opnum øki.",
+      "Um tín frágreiðing inniheldur privatar upplýsingar, skalt tú gera tað greitt í boðskapinum."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Núverandi støða",
+      "title": "Kendu avmarkingar"
+    },
+    "paragraphs": [
+      "Hendan heimasíðan er tilvitað lítil og fyri tað mesta statisk. Onkrar málsligar útgávur kunnu vera ófullfíggjaðar, meðan umsetingar verða gjørdar."
+    ]
+  }
+}

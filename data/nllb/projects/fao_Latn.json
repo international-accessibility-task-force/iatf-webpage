@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Heimasíða hjá IATF",
+    "summary": "Almenna heimasíðan hjá Arbeiðsbólkinum fyri altjóða atkomu.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF hevði brúk fyri einum støðugum almenna húsi, sum forkláraði fyrimyndina, nevndi verkætlanir, og vísti teimum, sum vóru við til at taka rætta næsta stigið.",
+    "why": "Heimasíðan er almenna inngangurin til IATF. Hon er bygd sum ein lítil statisk verkætlan, so hon er løtt at lesa, umseta og viðlíkahalda í opnum umhvørvi.",
+    "scopeIn": [
+      "Almennar landingssíður, sum greiða frá IATF-modellinum",
+      "Almenni skránni yvir góðkendar, virknar og goymdar IATF-verkætlanir við støði, viðhaldsfólki, goymslu og próvtøku",
+      "Ein innsavningarsíða og eitt oyðublað",
+      "Síður um stýri og gjøgnumskygni",
+      "Engelska keldan við struktur, sum er klár til týðing",
+      "Statisk útbreiðsla á statiskum tilfeingi hjá Cloudflare Workers"
+    ],
+    "scopeOut": [
+      "Privatið limarøki, kontur ella innritanarrørslur",
+      "Hýsing av keldu-kodi í verkætlanini, sum verður goymd í hvørjari egnari goymslu",
+      "Chat í veruliga tíð, sum livir í Discord",
+      "Útgávusporing fyri einstakar verkætlanir, sum er í GitHub goymsluni hjá hvørjari verkætlan"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Ein tíðligur IATF-prototypur, skrásettur eftir at hava rokkið einum natúrligum steðgi.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Fyrstu kanningar av einum tilfar, sum hevur fokus á atkomu, undir IATF.",
+    "why": "Skjalasavnið verður varðveitt alment sum ein skrá yvir arbeiðið, sjálvt um aktiv menning er steðgað.",
+    "scopeIn": [
+      "Fyrsti fyrimyndin av einum tilfar, sum snýr seg um atkomuligheit, varðveitt sum ein almennur skráur"
+    ],
+    "scopeOut": [
+      "Virkin menning ella arbeiðsuppgáva",
+      "Avgreiðslur um viðlíkahald",
+      "Mælt til at nýta í framleiðsluni"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF botur",
+    "summary": "Ein IATF-samfelagsbotur, goymdur eftir at hava rokkið einum natúrligum steðgi.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatisering kring IATF-samfelagsrásir.",
+    "why": "Skjalasavnið verður varðveitt alment sum ein skrá yvir arbeiðið, sjálvt um aktiv menning er steðgað.",
+    "scopeIn": [
+      "Ósemja um automatisering kring IATF-samfelagskanallir, varðveitt sum ein almennur skráur"
+    ],
+    "scopeOut": [
+      "Virkin menning ella arbeiðsuppgáva",
+      "Avgreiðslur um viðlíkahald",
+      "Mælt til at nýta í framleiðsluni"
+    ]
+  }
+]

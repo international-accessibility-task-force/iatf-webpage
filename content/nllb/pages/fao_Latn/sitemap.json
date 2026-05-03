@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Heimasíðukort"
+  },
+  "hero": {
+    "eyebrow": "Indeksur",
+    "title": "Heimasíðukort",
+    "lead": "Allar almennar síður á IATF.CC, á einum stað."
+  },
+  "sections": [
+    {
+      "title": "Høvuðssíður",
+      "items": [
+        {
+          "label": "Heimið",
+          "href": "/"
+        },
+        {
+          "label": "Verkætlanir",
+          "href": "/projects/"
+        },
+        {
+          "label": "Bið um eina verkætlan",
+          "href": "/propose/"
+        },
+        {
+          "label": "Umsiting",
+          "href": "/governance/"
+        },
+        {
+          "label": "Set teg í samband við",
+          "href": "/join/"
+        },
+        {
+          "label": "Atkomuligheit",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Týdningurin",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Verkætlanir",
+  "projectsEmpty": "Enn eru ongar verkætlanir kunngjørdar."
+}

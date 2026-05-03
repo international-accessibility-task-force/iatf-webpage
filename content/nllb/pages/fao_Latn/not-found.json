@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ikki funnið"
+  },
+  "hero": {
+    "eyebrow": "Ikki funnið",
+    "title": "Væntað síða var ikki funnin",
+    "lead": "Brúka høvuðsleiðirnar niðanfyri fyri at koma aftur til almenna støðuna.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Heimið",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Leiðin, sum tú hevur biðið um, finst ikki."
+    ],
+    "items": [
+      {
+        "label": "Heimið",
+        "href": "/"
+      },
+      {
+        "label": "Verkætlanir",
+        "href": "/projects/"
+      },
+      {
+        "label": "Set teg í samband við",
+        "href": "/join/"
+      },
+      {
+        "label": "Atkomuligheit",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Umsiting",
+        "href": "/governance/"
+      },
+      {
+        "label": "Týdningurin",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

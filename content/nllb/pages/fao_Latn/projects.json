@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Almenna atgongd til verkætlanir",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Almenna atgongd til verkætlanir",
+    "lead": "Í hesum skránni eru listar yvir almennar verkætlanir, sum verða varðveittar ígjøgnum IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Skráseting",
+      "title": "Núverandi skráseting"
+    },
+    "intro": [
+      "Veldu verkætlanirnar verða nevndar her, tá ið tær eru kunngjørdar."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Legg fram ein tørv",
+      "title": "At gera ein ítøkiligan tørv á atkomuligheit til eina almenna verkætlan"
+    },
+    "paragraphs": [
+      "IATF viðger ítøkilig tørvur á atkomuligheit, sum kann broytast til gagnligt alment opið kelduarbeiði."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Enn eru ongar verkætlanir kunngjørdar",
+    "paragraphs": [
+      "IATF er við at fyrireika sín fyrsta almenna verkætlanarsett.",
+      "Tú kanst framvegis senda eina áheitan, um tú hevur ein ítøkiligan tørv á atgongd."
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Umsiting og goymslumyndir",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Umsiting og goymslumyndir",
+    "lead": "IATF heldur atkomuligar verkætlanir almennar, lesandi og viðlíkahaldandi.",
+    "support": [
+      "Á hesi síðu verður greitt frá, hvat er kravt, hvussu goymslur verða hildnar, og hvør ábyrgd á goymsluøki er galdandi eftir góðkenning."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reglur",
+      "title": "Uppgávuførleiki, ognarrættur, loyvir"
+    },
+    "cards": [
+      {
+        "title": "Uppgávan er nøktandi",
+        "paragraphs": [
+          "IATF góðkennir arbeiði, sum loysir eina veruliga forðing fyri atkomuligheitini og hevur greitt alment virði.",
+          "Ein verkætlan eigur at vera gagnlig umframt eina einstøku privata arbeiðsgongd og virka sum eitt alment tilfar.",
+          "Fyri at fáa atgongd til heimasíðuna, brúkar IATF [W3C WAI](https://www.w3.org/WAI/) Tann beinleiðis upplivingin hjá brúkarunum av hjálpandi tøkni er eisini eitt ítøkiligt prógv um, hvat virkar í veruliga nýtsluni."
+        ]
+      },
+      {
+        "title": "Átøka av verkætlanini",
+        "paragraphs": [
+          "Eitt uppskot kann góðkennast, tá ið kanningin vísir, at:"
+        ],
+        "items": [
+          "tað loysir ein veruligan tørv á atgongd",
+          "Trupulleikin er nóg greiður til at meta um",
+          "økið er nóg realistiskt til at seta í gongd",
+          "arbeiðið samsvarar við uppgávuna hjá IATF",
+          "tað er ein sannlíkur vegur til viðlíkahald ella fullførslu"
+        ]
+      },
+      {
+        "title": "Eigarar av goymsluni",
+        "paragraphs": [
+          "góðkendar verkætlanir verða gjørdar undir GitHub-skipanini hjá IATF.",
+          "Her verða goymslur goymdar, so hvør verkætlan varðveitir eitt støðugt alment heim, sjálvt um viðlíkahaldarar seinni skifta."
+        ]
+      },
+      {
+        "title": "Loyvisbræv",
+        "paragraphs": [
+          "IATF-verkætlanir brúka copyleft-loyvi, uttan so at ein verkætlan sigur annað:"
+        ],
+        "items": [
+          "<strong>Koddur:</strong> AGPL-3.0",
+          "<strong>Skjalprógv:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ábyrgdur maskinmeistari ella viðlíkahaldsfólk",
+      "paragraphs": [
+        "Hvør góðkend verkætlan eigur at hava ein nevndan ábyrgdarverkfrøðing ella viðlíkahaldsfólk."
+      ],
+      "items": [
+        "leiðbeiningar um menning í almennum",
+        "at varðveita goymsluskipanina",
+        "at endurskoða ella umsita viðurskifti og heinta áheitanir",
+        "at skjalfesta týðandi tøkniligar avgerðir",
+        "at gera verkætlanina týðiliga fyri onnur"
+      ],
+      "footnote": "Hetta er ábyrgdin á goymslustøði. Organisatiónarliga ognarrætturin verður verandi hjá IATF. Ábyrgdin her er goymsluumsjón, tøknilig leiðsla og almenn samskipan  ikki óavmarkað privat avhending, tillagaðar integratiónir ella tænastustøðuførleikar uttan fyri almenna vegakervið."
+    },
+    "publicDevelopment": {
+      "title": "Almenna menning",
+      "paragraphs": [
+        "Verkætlanir, sum verða settar í verk ígjøgnum IATF, verða vanliga gjørdar almennar."
+      ],
+      "items": [
+        "keldukóði",
+        "viðurskifti",
+        "skjalprógv",
+        "vegakort viðmerkingar",
+        "útgávusøga"
+      ],
+      "footnote": "Týdningarmikil vitan um verkætlanir eigur ikki bert at vera í privatum kjakum ella innbakkum."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Almenni skráseting",
+      "title": "Alment eftirspurningarskjal"
+    },
+    "paragraphs": [
+      "IATF virkar í almenna rúminum sum sjálvfylgja. Kærur, sum koma inn í IATA gjøgnum heimasíðuna, teldupost, Discord, GitHub, ella aðrar IATA-kanaler, kunnu gerast almennar kravskjøl.",
+      "Ein almenn áheitan er ikki neyðturviliga tann upprunaligi boðskapurin. IATF kann taka samanum, redigera ella umskipa eina áheiting áðrenn hon verður almannakunngjørd, soleiðis at tørvurin á atgongd kann verða viðgjørdur, uttan at óneyðugar persónligar upplýsingar verða avdúkaðar.",
+      "Almenni áheitanarskjøl kunnu verða goymd í GitHub-skipanini hjá IATF, á hesi heimasíðuni ella báðum.",
+      "Áðrenn útgávan verður gjørd, tekur IATF burtur óneyðugar persónligar kontaktupplýsingar, privatar adressur og eyðkennandi upplýsingar um einstøku brúkararnar av hjálpandi tøkni, uttan so at tað er greitt, at ætlanin er at gera útgávuna tilætlað og hóskandi.",
+      "Discord verður brúkt til óformliga samráðing. IATF arkivar ikki Discord samrøður av sær sjálvum sum standard, og boðini verða varðveitt av Discord. Avgerðir, sum verða tiknar í Discord, eiga at verða summariseraðar í almenna skránni á GitHub ella á viðkomandi verkætlanarsíðu.",
+      "Upptøkurnar eru ikki indexeraðar av leitimaskinunum, har tað er tekniskt gjørligt. Alment merkir at tær kunnu endurskoðast og roknast. Tað merkir ikki at tær eru optimeraðar til upptøku við navnaskoðanum.",
+      "IATF kann dagføra ella strika skrásetingar frá almennum støðum, sum eru undir hansara eftirliti, men kann ikki tryggja, at tær verða strikaðar frá third-party caches, fráboðanum, forks, screenshots, leitiskipanum, Discord ella øðrum uttanhýsis skipanum.",
+      "Um ein boðskapur eigur at verða verandi privatur, skalt tú ikki senda hann umvegis almennu IATF-kanallirnar."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Skipanarligur leiklutur",
+      "title": "Stólur"
+    },
+    "lead": "Formaðurin hevur ábyrgdina av IATF á organisatiónarligum støði.",
+    "duties": {
+      "title": "Hvat stólurin ger",
+      "items": [
+        "Heldur eigara loyvi á IATF GitHub organisatiónini",
+        "Undirskrivingar av verkætlanaruppgávum um góðkenning og arkivering",
+        "Virkar sum almennur kontaktpunktur fyri IATF",
+        "Samstýrir árliga valinum"
+      ],
+      "footnote": "Formaðurin bindur ikki IATF til privatar veitingar, lønt arbeiði ella avtalur um tænastustøði, og hann hevur ikki ræði á avgerðum, sum umsjónarmaðurin fyri hvørt goymslumið tekur um tekniskar leiðbeiningar."
+    },
+    "election": {
+      "title": "Árliga valið",
+      "paragraphs": [
+        "Nevndarformaðurin verður valdur einaferð um árið, og valini eru fyrstu tvær vikurnar í desember, úrslitini verða kunngjørd 15. desember, og nýggja valskeiðið byrjar 1. januar.",
+        "Rætt til at atkvøða hava fólk, sum hava havt ein viðlíkahaldandi leiklut á einum IATF goymslu ígjøgnum árið og hava gjørt í minsta lagi eitt samansett íkast til eitt IAT F goymslur í tí árinum.",
+        "Valið fer fram sum ein almentur GitHub-diskusjónur í ávísa IATF-stýrisskipanargoymsluni, so at valevnini, atkvøðugreiðslan og úrslitið eru øll partur av almenna skránni."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitetur",
+      "paragraphs": [
+        "Um eingin val verður hildin í einum ávísum ári, heldur verandi formaður fram í starvinum til næsta val. Hetta er ein óavmarkað framhald, ikki ein frítíð  modellið er gjørt fyri at halda organisatiónina stabil, tá ið virksemið er lágt, ikki fyri at tvinga eina yvirgongd, sum eingin er til reiðar til.",
+        "Formaðurin kann til eina og hvørja tíð siga seg úr starvi, og aktivir umsjónarmenn kunnu eisini boða til undantaksval við ávístari orsøk, sum verður skipað eftir somu reglum sum árliga valið."
+      ]
+    },
+    "current": {
+      "title": "Núverandi nevndarformaður",
+      "fields": [
+        {
+          "label": "Stólur",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tiltakið",
+          "value": "Fram til val í desember í 2026"
+        },
+        {
+          "label": "Formligur leiklutur",
+          "value": "2026"
+        },
+        {
+          "label": "Fyrsta ætlaða valið",
+          "value": "desember í 2026"
+        }
+      ]
+    },
+    "footnote": "Leiðsluturin sum formaður varð formaliseraður í 2026 fyri at gera stýrisskipanina á organisatiónsstøði týðandi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Umstøður í verkætlanini",
+      "paragraphs": [
+        "Verkætlanir brúka eitt lítið sett av almennum støðum:"
+      ],
+      "items": [
+        "Uppskot um broyting",
+        "Góðkendur",
+        "Virkin",
+        "Stabilur",
+        "Roynir at fáa viðlíkahaldsfólk",
+        "Hildið í skjalasavni"
+      ],
+      "footnote": "Hesi londini gera tað lætt at skanna skránna."
+    },
+    "reassignment": {
+      "title": "Endurnýtsla og arkivering",
+      "paragraphs": [
+        "Um ein viðlíkahaldari fer frá ella verður óvirkin, kann IATF umskipa ábyrgd, steðga menningini ella goyma verkætlanina.",
+        "Ein verkætlan kann eisini verða goymd, tá ið upprunaliga tørvurin er nøktaður, viðlíkahald er steðgað ella framhaldandi arbeiði ikki longur er realistiskt."
+      ],
+      "footnote": "Uppgávur, sum eru goymdar í arkivi, eru alment at síggja, uttan so at tað er neyvar orsøkir til at gera øðrvísi."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Avmarkingarorð",
+      "title": "Hvat váttar IATF ikki"
+    },
+    "items": [
+      "privatar kundatilboð",
+      "avtalur um tænastustøði",
+      "góðkenning av øllum uppskotum",
+      "langtíðar viðlíkahald fyri hvørja verkætlan"
+    ],
+    "footnote": "IATF er ein almennur goymslumyndalur, ikki ein privat veitingartænasta."
+  }
+}

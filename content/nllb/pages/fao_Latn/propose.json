@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Bið um eitt tilgongdsprojekt",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Bið um eitt tilgongdsprojekt",
+    "lead": "IATF viðger umsóknir um atkomuligar verkætlanir, sum taka støði í einum veruligum tørvi.",
+    "support": [
+      "Tær nýtist ikki at hava eina fulla lýsing, men ein greiðan trupulleika, hvør hann er, og hví hann hevur týdning, er nokk til at byrja við."
+    ],
+    "actions": [
+      {
+        "label": "Byrja við eini áheitan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Brúka Discord ístaðin",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Rásir",
+      "title": "Vel tann lættasta vegin"
+    },
+    "intro": [
+      "Allar farleiðir verða kannaðar á sama hátt."
+    ],
+    "items": [
+      {
+        "label": "Heimasíða",
+        "body": "Brúka skjalið niðanfyri fyri at senda eina struktureraða áheitan."
+      },
+      {
+        "label": "Teldupostur",
+        "body": "Send áheitanina beinleiðis til {{contact.requestsEmail}}Tørvur á telduposti kann gerast alment eftirspurningsskjal eftir at hava verið viðgjørt og avgreitt."
+      },
+      {
+        "label": "Ósemja",
+        "body": "Byrja har, um tað er lættast."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Áðrenn tú sendir eina áheitan",
+    "paragraphs": [
+      "IATF arbeiðir almannakunngjørt. Upptøkurnar kunnu verða samlaðar og kunngjørdar sum almennar upptøkuuppgávur á GitHub, á hesari heimasíðuni ella báðum.",
+      "Set ikki persónligar adressur, telefonnummar, sjúkuupplýsingar ella upplýsingar um einstakar brúkarar av hjálpandi tøkni við, uttan so at tað er neyðugt, og tú ert nøgdur við, at IATF kannar tað.",
+      "IATF strikar óneyðugar persónligar kontaktupplýsingar, áðrenn umsóknir verða almannakunngjørdar."
+    ]
+  },
+  "review": {
+    "title": "Væntanir um at endurskoða",
+    "paragraphs": [
+      "At senda inn eina áheitan tryggjar ikki, at hon verður góðtikin.",
+      "IATF viðger umsóknir um, at verkini passa til uppgávuna, um tey eru gjørlig, gagnlig, og um tey hoyra heima í einum almennum goymsluhúsi.",
+      "Nakrar áheitanir kunnu verða avvístar, útsettar ella broyttar, áðrenn tær verða játtaðar."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Umsóknareyðkenni",
+      "title": "Skriva eina áheitan"
+    },
+    "fields": [
+      {
+        "kind": "inngangur",
+        "name": "umsøkjarin",
+        "label": "Navn ella felagsskapur",
+        "helper": "Hvør ger áheitanina?"
+      },
+      {
+        "kind": "at velja",
+        "name": "sambandsleið",
+        "label": "Fyrimunur at hava sambandsleið",
+        "helper": "Hvussu skal eftirlit fara fram?",
+        "required": true,
+        "options": [
+          "Teldupostur",
+          "Ósemja"
+        ]
+      },
+      {
+        "kind": "inngangur",
+        "name": "sambandsuppgávur",
+        "label": "Samskiftisuppgávur",
+        "helper": "Teldupostadressu ella Discord-nummar til eftirlit.",
+        "placeholder": "Teldupostadressu ella Discord- navn",
+        "required": true
+      },
+      {
+        "kind": "inngangur",
+        "name": "mál",
+        "label": "Mál",
+        "helper": "Tín uppáhaldsmál, um tað er viðkomandi.",
+        "value": "Svøríki"
+      },
+      {
+        "kind": "tekstøki",
+        "name": "trupulleiki",
+        "label": "Hvønn trupulleika roynir tú at loysa?",
+        "helper": "Lýs forðingina við vanligum orðum.",
+        "required": true
+      },
+      {
+        "kind": "tekstøki",
+        "name": "ávirkaðir brúkarar",
+        "label": "Hvør er ávirkaður?",
+        "helper": "Hvørjum skuldi hetta hjálpa?",
+        "required": true
+      },
+      {
+        "kind": "tekstøki",
+        "name": "extraKontekstur",
+        "label": "Aðrar umstøður",
+        "helper": "Deil okkurt annað, sum hjálpir at greiða frá tørvinum: hví tað hevur týdning, dømi, tilvísingar, eitt grovt hugskot til forrit ella tíðartrot."
+      },
+      {
+        "kind": "at velja",
+        "name": "openSourceConsent[rætta _ rætta wikitekst]",
+        "label": "Trýst tú væl á at hava alment opið keldutilfar?",
+        "helper": "Átaluð verkætlanir eru almennar goymslur undir IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ja, tað er tað.",
+          "Nei",
+          "Tað veit eg ikki enn."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Um tað verður góðkent",
+      "title": "Hvat merkir góðkenning"
+    },
+    "items": [
+      "eitt alment goymslupláss í GitHub-skipanini hjá IATF",
+      "ein ábyrgdarfullur verkfrøðingur, sum er settur at arbeiða við verkætlanini",
+      "eitt copyleft loyvi til koduna og verkætlanartilfar",
+      "almennari menning í goymsluni",
+      "ein skráseting á heimasíðuni hjá IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fara í gongd við samrøðuna",
+      "title": "Ein stutt og greið áheitan er nóg mikið til at byrja"
+    },
+    "paragraphs": [
+      "Um tú hevur ein veruligan tørv á atgongd og heldur, at tað eigur at gerast ein almenn verkætlan, so send okkum tað."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

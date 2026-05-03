@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Set teg í samband við IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Set teg í samband við IATF",
+    "lead": "Limirskapurin er opin. Tað eru fleiri mátar at luttaka, um tú trýstir á hjálpandi tøkni, byggir atkomuligan forrit, týðir, roynir ella viðger eina verkætlan. Samrøður og avgerðir verða almannakunngjørdar á GitHub og Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Leiklutir",
+      "title": "Møguleikar at stuðla"
+    },
+    "items": [
+      "<strong>Bið um eina verkætlan.</strong> Um tú finnur eina forðing fyri atgongd, sum kundi verið loyst við almennum, opnum kelduforritum, send tað ígjøgnum innsavningina.",
+      "<strong>Roynd og endurskoðan.</strong> Royn IATF-verkætlanir við hjálpandi tøkni, sum tú brúkar, sig frá, hvat riggar og hvat ikki riggar, og skráset trupulleikar beinleiðis á viðkomandi goymslu.",
+      "<strong>Umset tað.</strong> Keldurætturin verður fyrst útgivin á vanligum enskum, og umsetingar verða lagdar afturat, so hvørt sum tilber, og byrjað verður við spanskum.",
+      "<strong>Byggið upp.</strong> At taka upp trupulleikar í einum IATF goymslu, senda pull request, ella at átaka sær eina verkætlan sum ábyrgdarverkfrøðingur.",
+      "<strong>Halt fram við tí.</strong> Verandi verkætlanir hava viðhvørt tørv á nýggjum viðlíkahaldsfólki."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Rásir",
+      "title": "Har IATF arbeiðir alment"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Útgávur, heintaheftir, útgávum og verkætlanarskjølum.",
+      "<strong>Ósemja.</strong> Livandi samrøður, samskipan og óformligar spurningar.",
+      "<strong>Sí teldupost.</strong> Nýtsla <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> um hvørki GitHub ella Discord passa."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Næsta stig",
+      "title": "Vel kanningin, sum samsvarar við, hvussu tú ynskir at stuðla"
+    },
+    "paragraphs": [
+      "Allar rásir koma í sama almenna yvirlit og somu almennu goymslur."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
