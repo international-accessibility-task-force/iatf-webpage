@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapa del lloc"
+  },
+  "hero": {
+    "eyebrow": "Índex",
+    "title": "Mapa del lloc",
+    "lead": "Totes les pàgines públiques d'iatf.cc, en un sol lloc."
+  },
+  "sections": [
+    {
+      "title": "Pàgines principals",
+      "items": [
+        { "label": "Inici", "href": "/" },
+        { "label": "Projectes", "href": "/projects/" },
+        { "label": "Sol·licita un projecte", "href": "/propose/" },
+        { "label": "Governança", "href": "/governance/" },
+        { "label": "Uneix-te", "href": "/join/" },
+        { "label": "Accessibilitat", "href": "/accessibility/" },
+        { "label": "Transparència", "href": "/transparency/" }
+      ]
+    }
+  ],
+  "projectsTitle": "Projectes",
+  "projectsEmpty": "Encara no s'han publicat projectes."
+}
