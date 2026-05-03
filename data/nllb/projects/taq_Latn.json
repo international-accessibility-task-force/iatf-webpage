@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Website wan IATF",
+    "summary": "Site n addinat i International Accessibility Task Force",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ila derhan n ehan n addinat wa eɣnan s almaɣna n dumu , isalan n addabara tan d titbaqqa n imuzaran s edag wa olaɣan",
+    "why": "Edag eqal ehan wa maqaran ən IATF. Eqal atiwagan sund ehan ogaran təmidrit ye adigriwnat taɣare, afanaz əd ugiš dǎɣ edag ahusken.",
+    "scopeIn": [
+      "Iɣanni n isuj win ijjit n almaɣna n dumu wan IATF",
+      "Rejistir n addinat n haratan ijjan IATF, wi axdamnen d wi iknanen alxidmat s talɣa, maintainer, repository d demo",
+      "Tabarat d dumu n asidu n addaror",
+      "Iɣanni tan n alxakum d tijittawt",
+      "Eɣanni n tangilist id edey iknan s afissar",
+      "Amsədu iknan fal Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Ihandagan win addinat wi war n ila alxakum, account tan meɣ login flows",
+      "Ahanay ən əmik wan santo ən əšiɣil, wa izzaɣan dǎɣ edag ən huk ən əšəɣil kul",
+      "Majrad daɣ azzaman wan tiditt izzaɣ daɣ Discord",
+      "Issue tracking fal haratan n awadim izzaɣan daɣ repository n haratan fuk daɣ GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Almital wa ezzaran n IATF, ijjan darat ijjuch n titbaqqet",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Akayad ezzaran n asuj ijjan fal tudabat n ijjuch daɣ IATF",
+    "why": "Repository eqqal a ijrawan i addinat chund akatab n alxidmat kuddeɣ as efes net ikfa turhajat",
+    "scopeIn": [
+      "Almital wa ezzaran n asuj ijjan fal tudabat n ijjuch ijjan chund akayad n addinat"
+    ],
+    "scopeOut": [
+      "Ašiɣil n efes meɣ alxidmat tan samalan",
+      "Achareɣa tan n azruf",
+      "Alxidmat tan ijjanen daɣ intaj"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF ǝššǝɣǝb",
+    "summary": "Robot n tawset n IATF, ijjanen darat ijjuch n titbaqqet",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatisation edes n ikannan n tawset n IATF",
+    "why": "Repository eqqal a ijrawan i addinat chund akatab n alxidmat kuddeɣ as efes net ikfa turhajat",
+    "scopeIn": [
+      "Amukən ən assənəhəj jar ikannan ən tartit ən IATF, atiwəja sund alkadan adinat."
+    ],
+    "scopeOut": [
+      "Ašiɣil n efes meɣ alxidmat tan samalan",
+      "Achareɣa tan n azruf",
+      "Alxidmat tan ijjanen daɣ intaj"
+    ]
+  }
+]

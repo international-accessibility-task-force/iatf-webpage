@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Anmizlay",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Anmizlay",
+    "lead": "IATF itaj alxidmat net daɣ addinat s almaɣna net. addabara tan n addabara, imutiyan n kod, imuttiyan n alxakum d alqim tan n axadam iktaban daɣ idagan n addinat",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Ikitban",
+      "title": "Ehan wan alkadan"
+    },
+    "items": [
+      "<strong>Ikayadan win ašəɣəlan</strong> Alxidmaten tin ijjuch, aɣazan d asimmuti n addabara tan iktaban chund muchakil tan meɣ ifukkiran daɣ edag n isuj win alxidmat tolas ikf-an akayad daɣ rejisir n addinat <a href=\"/projects/\">ašareɣa</a>Eqal awendǎɣ .",
+      "<strong>Əlkaman ən alkadan.</strong> Ikitban win aduniyat iknanen aɣazan daɣ taggayt tan IATF GitHub, fal website wen, meɣ fuk nasan. ikitban addoben afissar, amukin meɣ asammuti n arɣum wan alasal i ad ajjin akayad n derhan n ijjuch n isalan n awadim war n ilkem i isalan wi war n oɣed",
+      "<strong>Əmik eqal amutayan.</strong> Hak amutti n kod eqqal commit n addinat fal repository <a href=\"{{contact.githubOrgUrl}}\">Taggayt tan GitHub</a>Eqal awendǎɣ .",
+      "<strong>Imuttiyan n alxakum</strong> Isuj win ašrut wan axakam ijjan fal akarach n alxidmat n awadim <code>iatf-website</code> Akayad ən ehan wan alkadan. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Tanfust ən assəməsədəw</a> fal GitHub",
+      "<strong>Alqim tan n alxidmat</strong> IATF itaj alqim tan n alxidmat andarran tolas iktab alqim n asidu n isalan win alxakum ijjanen har ajjudi. ɣur awatay wan 2022, alqim wa ezzaran eqqalan ismawan n ifrinkittan",
+      "<strong>Əmigridan wən təmotayen.</strong> Ikitban n akayad meɣ addabara fuk ehan daɣ GitHub majrad fal repository olaɣan  akayad <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Majrad tan</a> Daɣ <code>iatf-website</code> ehan wan alkadan."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Alqim tan",
+      "title": "Akatab n alqim wan alxidmat"
+    },
+    "paragraphs": [
+      "IATF ikna iddikud andarran n tijittawen net. ɣur awatay wan 2022, alqim wa maqqoran n alxidmat eqqal ismawan n tawset. hosting exdam s free-tier megh low-cost infrastructure alwaq wa id addobat awen",
+      "Akatab wen war eqqel addabara n azruf iknan audit eqqal log n alxidmat n alxakum i edey wa s exdam IATF online"
+    ],
+    "footnote": "Receipt tan addoben ad ikrichan ismawan meɣ ad ijjichan darat amukin nasan. ihandagan win addinat, isalan win azruf d isalan wi war n ila alxidmat war aqqel nat achrut n alisteɣmar n addinat",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Edag wan isalan",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Alqim",
+            "value": "3,40 n dollar wan Amerik"
+          },
+          {
+            "label": "Ikitban",
+            "value": "Domain cost ijjan mugiwarafx. Hosting exdam s free-tier meɣ low-cost infrastructure s Cloudflare <code>iatf.cc</code> Edag wan tamăšɣult"
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Edag wan isalan",
+            "value": "<code>International accessibility taskforce.com</code>"
+          },
+          {
+            "label": "Alqim",
+            "value": "18.68 n dollar tan n Amrik"
+          },
+          {
+            "label": "Ikitban",
+            "value": "Domain cost ikf-a mugiwarafx. Hosting exdam s free-tier meɣ low-cost infrastructure"
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Edag wan isalan",
+            "value": "<code>International accessibility taskforce.com</code>"
+          },
+          {
+            "label": "Alqim",
+            "value": "17.06 n dollar tan n Amrik"
+          },
+          {
+            "label": "Ikitban",
+            "value": "Domain cost ikf-a mugiwarafx. Hosting exdam s free-tier meɣ low-cost infrastructure s Vercel"
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Edag wan isalan",
+            "value": "<code>International accessibility taskforce.com</code>"
+          },
+          {
+            "label": "Alqim",
+            "value": "14.76 n dollar tan n Amrik"
+          },
+          {
+            "label": "Ikitban",
+            "value": "Domain cost ikf-a mugiwarafx. Hosting exdam s free-tier meɣ low-cost infrastructure"
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Edag wan isalan",
+            "value": "<code>International accessibility taskforce.com</code>"
+          },
+          {
+            "label": "Alqim",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Ikitban",
+            "value": "Domain cost ikf-a mugiwarafx. Hosting exdam s free-tier meɣ low-cost infrastructure s GitHub Pages"
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Isalan win alxadud",
+      "title": "Awa war n amos n addinat fuk"
+    },
+    "paragraphs": [
+      "Iyad haratan aqalan aygmadan daɣ alkadan ən adinat dǎɣ əšiɣil:"
+    ],
+    "items": [
+      "Isalan win isikilan n awadim wa ijjan addabara tan",
+      "Akatab wan awadim exdam ɣas i asifham n arori data ijjuch net, asabbahu net meɣ afissar net",
+      "Adriš tan win awadim, ismawan n telefon d isalan n awadim war n ila derhan",
+      "Harat kul wa s addobat awadim musnat n awadim axadam n teknoloji tan tin alɣidmaten war n ila turhajat",
+      "Əmigridan wən Raw Discord, afal əšiɣilan iyad aqalan atiwasanan fal alkad ən tartit tan adinat."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Awen eɣra hullan",
+      "title": "Alxakum eqqal alkittab n achareɣa tan win isuj win"
+    },
+    "paragraphs": [
+      "A fal arha ad afhaman immik wa s it ijjan timašɣulen, arxiv tan meɣ amutti nasnat, teɣare n achrut wan axakam"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance d dumu n repository",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance d dumu n repository",
+    "lead": "IATF itaj tikarsiwen tin ijjuch n awadim ijjanen i addinat, addobat nen teɣare d ag-az",
+    "support": [
+      "Tabarat ten tisalmad awa olahan, immik wa s ijjan repository tan d awa id eqqalan timašɣulen n repositori tan darat taridawt"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Achareɣa tan",
+      "title": "Eɣanni n alxidmat, emel, ijji n turhajat"
+    },
+    "cards": [
+      {
+        "title": "Alxidmat taqqalat",
+        "paragraphs": [
+          "IATF ijraw alxidmat ta tikma titbaqqet n ijjuch n tiditt tolas tila alqim n addinat",
+          "Ašəɣəlan adəqəlnen atwətkəl as ajət ən assəməsədəw imdan izar adobat ijji sund amsədu adinat kul.",
+          "I web accessibility, IATF itkal [W3C WAI](https://www.w3.org/WAI/) Musnat tadutet ən imasaɣaran ən təmusnawen anilkamnen taqal deɣ tənna taśohet ən awa itajən dǎɣ atkul aduten."
+        ]
+      },
+      {
+        "title": "Achareɣa wan addabara",
+        "paragraphs": [
+          "Əmik adobat adiqilan atiwagrawan afal akayad isaknen as:"
+        ],
+        "items": [
+          "Ijja fal derhan wan tiditt n ijjuch",
+          "Muchakil eqqal a olaɣan i amiyiz",
+          "Tamɣare taqal ayknan tidit ye iji",
+          "Alxidmat t oɣad alxidmat tan IATF",
+          "ille abara i ag-az meɣ amukin"
+        ]
+      },
+      {
+        "title": "Tamɣare n repository",
+        "paragraphs": [
+          "Ašəɣəlan atiwazaynen aqalan aygan daw tartit tan IATF ən GitHub.",
+          "Repository tan aqqalan harkuk ehan n addinat i ad eqqim harkuk kuddeɣ as imidiwan nasan amutayan darat awa"
+        ]
+      },
+      {
+        "title": "Ijji n turhajat",
+        "paragraphs": [
+          "Alxidmaten tin IATF axdaman s copyleft license alwaq wa id war ijja addabara daɣ alxidmat"
+        ],
+        "items": [
+          "<strong>Əmik:</strong> AGPL-3.0",
+          "<strong>Isuj win isalan:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Engineer meɣ maintainer wan alxakum",
+      "paragraphs": [
+        "Ašəɣəlan kul ertayan adəqəl atwəsəkən as musnat ən musnat meɣ amsədu. Awadəm wen adobat ajaraw ən ugiš ən emashaɣal ye alɣayal ad eqal atwəjan ye:"
+      ],
+      "items": [
+        "efes n tasassaɣrawt daɣ addinat",
+        "ijjit n edey wan repository",
+        "asiwil meɣ amukin n muchakil tan d asidu n aratan",
+        "alkad n addabara tan wi maqqornen",
+        "asifham n alxidmat i wi yadnen"
+      ],
+      "footnote": "Awen eqqal alxakum n edag wan repository. tila n taggayt taqqim id IATF. Alxakum daɣ awen eqqal awikkal n ehan wan alkittaban, tikarsay tan teknik d aharoj olaɣan n addinat  war eqqel asuj n awadim war n ila alxadud, ijjuch tan n alxidmat meɣ alxidmaten tin edag wan alxaq daɣ ajjama n abara wan addinat"
+    },
+    "publicDevelopment": {
+      "title": "Tiw-at n addinat",
+      "paragraphs": [
+        "Tiɣir tin ijjan s IATF iknanat daɣ addinat s almaɣna net repository eqqal edaj n tiditt i:"
+      ],
+      "items": [
+        "Code wan eɣaf",
+        "muchakil tan",
+        "alkad wan isalan",
+        "Tabaraten fal Roadmap",
+        "Tanfust ən assənəhəj"
+      ],
+      "footnote": "Musnat maqqorat n addabara tan war addobat ad izzaɣ ɣas daɣ chat tan meɣ inbox tan"
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ikitban win alxakum",
+      "title": "Ikitban n aratan win alxakum"
+    },
+    "paragraphs": [
+      "IATF itaj alxidmat net daɣ ijjit s almaɣna net. aratan win ijjanen IAT F s website, e-mail, Discord, GitHub, meɣ ikannan iyyad n IATf addoben ad aqqilan ikitban n aratan n alɣalim",
+      "Iritan ən adakal adobatnen adiqilan ayertayan, amutayan meɣ asimusuɣil ən asostanan dat akayad, fal as tarha ən ugiš adobat adiqil ayktaban dǎɣ iba nagaraw ən magrad winan itigiš isalan ən nadinat winan eqel ayfan.",
+      "Ikitban n asistan win addinat addoben ad aɣzanan daɣ taggayt tan IATF daɣ GitHub, fal website wen meɣ fuk nasan",
+      "Dat azəzjar, IATF itaj tarədawt ən isalan ən assəmutiy waren atwətkəl, imsədəwən iyad ad isalan atiwazaynen fal iməssədawan iyad ən tamusne tan assedən, afal azajor eqal ayknan atwəzizjar ad oɣadan.",
+      "Discord atiwətkal ye assəməsədəw waren ikna. IATF war ikna arəhive ən magradan ən Discord as alməɣna atiwəjan, izar akayad ən alkad atiwəlkəm as Discord. Alməɣnatan artaynen dǎɣ Discord anihaga adiqilan ayktaban daɣ alkadan adinat fal GitHub meɣ fal ašəbəl ən ašəɣəl iknan.",
+      "Ikitban wən adakal aqalan aygmadan dǎɣ afanaz ən moteran ən umaɣ dǎɣ edag wa eqalan ayfan dǎɣ təmusne. Adinat amosnen adoben adiqilan atiwaɣran əd atiwazayan. Wǎr eqel ayfan fal agaraw fal umaɣ ən əsim.",
+      "IATF addobat asimutiy meɣ asisiɣid n ikitban daɣ ihandagan win alxakum ijjanen fal axakam n iATF mucham war addobat ad ikfu asisifir n third-party caches, notifications, forks, screenshots, search engines, Discord meɣ sistem tan iyyad n ajjama",
+      "A fal mesaj ilzam ad eqqil a war n aqqel n awadim, war ittus s ikannan n addinat n IATF"
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Alxidmat tan taggayt",
+      "title": "Ehan wan alkadan"
+    },
+    "lead": "Awen izlay id alxidmat tan inhinnie tan win addabara tan: Awatay eqqal alxakum n taggayt fuk net, war eqqel alxakam i awikkal n repository iyyan",
+    "duties": {
+      "title": "Awa ijjan ehan wan alkittaban",
+      "items": [
+        "Eha turhajaten ən emashaɣal fal tartit tan GitHub tan IATF",
+        "Ijji n addabara tan fal ijjuch n tikarsiwen d addabara n archiving",
+        "Eqqal edag n asidu n addinat i IATF",
+        "Ijji n taggayt n nefran wan awatay"
+      ],
+      "footnote": "Iddikud n iddikud n alxidmat tan IATF i ad eqqil amšǝkki n tiɣaymaten ti war n oɣed tolas war issewadan addabara tan n awikkal n repository fal tasirun tan tin musnat"
+    },
+    "election": {
+      "title": "Nefran wan awatay",
+      "paragraphs": [
+        "Əmigridan aqalan atiwanhayan agud iyan dǎɣ awatay, dǎɣ əsin hadan wi dazarnen ən décembre, əšiɣilan aqalan adizgaran dǎɣ 15 décembre, əd azaman aynayan asintan dǎɣ 1er janvier.",
+        "Addinat wi ilanen eɣaf aqqalan addinat wi ahanen edag n awadim daɣ repository n IATF daɣ awatay tolas ikf-an iddikud iyyan daɣ awatay wen. awadim fuk ilan wote iyyan",
+        "Nefran eqal aygan sund magrad ən aljamaɣat fal GitHub dǎɣ ehan wan alkadan ən tanhat ən IATF atiwazayan, dǎɣ awen, əndinat wi əknanen, ən votan əd agaraw aqalan daknasan ašrut ən alkadan wi adinat."
+      ]
+    },
+    "continuity": {
+      "title": "Tamɣare",
+      "paragraphs": [
+        "A fal war ilen nefran daɣ awatay iyyan, awadim wa ehan edag har nefran wa ijjan daɣ iwityan wi yadnen. awen eqqal a war n ila samdo, war eqqel azzaman n afanaz - dumu eɣnan i ag-az n taggayt alwaq wa id ifnaz alxidmat, wadden i afor n tamatikwayt s war t illa awadim iknan",
+        "Əmigridan adobatnen intanedǎɣ adiqilan adizgaran fal əliɣitan winan eqel atiwagrawan fal tidit ən tidit, atiwagan fal iyad əmikan wən əliliɣitan ən awatay."
+      ]
+    },
+    "current": {
+      "title": "Edag wan amarad",
+      "fields": [
+        {
+          "label": "Ehan wan alkadan",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Isim",
+          "value": "Har tefranen tin Decembre 2026"
+        },
+        {
+          "label": "Əšiɣil atiwakasan",
+          "value": "2026"
+        },
+        {
+          "label": "Nefran wa ezzaran eɣran",
+          "value": "December wan 2026"
+        }
+      ]
+    },
+    "footnote": "Əšiɣil wan anamokal eqal aygan daɣ 2026 fal igi ən tanhat ən tədawt dǎɣ edag wan tartit. Harwa, tanhat tan tartit taqal aygan dǎɣ əmik winan atwazay fal emasehi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Talɣiwen n addabara",
+      "paragraphs": [
+        "Froje tan axdaman s taqqimt andarrat n addawla tan:"
+      ],
+      "items": [
+        "Anasjum",
+        "Eqal atiwanhayan",
+        "Dǎɣ aśuhu",
+        "Eqal ahusken",
+        "Eɣri n awadim wa ijjanen alxidmat",
+        "Arkiv tan"
+      ],
+      "footnote": "Addawla tan win aɣazan ijjanen i rejisir i scanning"
+    },
+    "reassignment": {
+      "title": "Ašanzi d aɣazan n alkittaban",
+      "paragraphs": [
+        "A fal maintainer ifal meɣ war eha ach-ak , IATF addobat asissiki n alxakum, ad isammuti efes meɣ ad issilmadan froje",
+        "Əšiɣil adobat deɣqanen adiqilan ayktaban agud wadǎɣ anihaga adiqil ayknan, agudiyan asigyik, meɣ əšiɣilan winan eqel aśohen."
+      ],
+      "footnote": "Əšiɣilan wən archivetan aqalnen adizgaran dǎɣ atwigaz ən adinat, ahuskat as tila əmik iyandǎɣ aśohen."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Isalan win alxadud",
+      "title": "Awa IATF war eha ach-ak"
+    },
+    "items": [
+      "awikkal n alxidmat wan awadim",
+      "Aɣirman n iddikud n alxidmat",
+      "emel n addabara fuk",
+      "alxidmat n ag-az daɣ azzaman chajren i addabara fuk"
+    ],
+    "footnote": "IATF eqqal dumu n repository n addinat, war eqqel alxidmat n ijji n azruf"
+  }
+}

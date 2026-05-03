@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Eha IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Eha IATF",
+    "lead": "Adubin eqal ayknan. Illan ti əmikan ajotnen ən tartit, ahuskat fal təmusne tan tədawt, təmuqunt ən əšiɣilan atiwafanen, afanaz, irum meɣ asihigi ən əšəɣil. Əmigridan əd liɣitan aqalan aygan dǎɣ aljamaɣat fal GitHub əd Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Alxidmaten",
+      "title": "Dumu tan n afanaz"
+    },
+    "items": [
+      "<strong>Asistan ən ašəɣəl.</strong> A fal tijjach alxadud n ijjuch s addobat asuj net open-source software, issiwilan daɣ asidu n aratan",
+      "<strong>Irum ad akayad.</strong> Iruman ən IATF dər təmusne tatiwasanat tagu, alilan awa ifalnen əd awa winan ifel, əd isalan ən əšiɣilan ogdahan dǎɣ edag wa ogaran aśuhu.",
+      "<strong>Aliɣi.</strong> Ajaraw ən edaj eqal adizgaran dǎɣ magrad ən anglais wašaran. Asimutiyan aqalan atiwajan dǎɣ ugud wa adobatnen adiqilan aygan, dǎɣ santo ən espagnol.",
+      "<strong>Eɣan.</strong> Ajjawi fal muchakil tan daɣ IATF repository fuk, asissiki n isistanan win afanaz meɣ ijji n tasanfut chund emašaɣil net",
+      "<strong>Ikf-i alɣalamat</strong> Alxidmaten ti illanen amarad ilzam nat alwaqqan iyyad awadim eynayan i ag-az n alxidmat"
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Tišangiwen",
+      "title": "Edag wa id axdam IATF daɣ addinat"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Muchakil tan, isistanan n asidu, isuj d iɣazanan n alxidmat",
+      "<strong>Anmizlay n addinat</strong> Majrad ijjan daɣ tamazduq, aharoj olaɣan d isistanan war n aqqel isalan",
+      "<strong>E-mail tan</strong> Atkul <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> A fal war eha GitHub meɣ Discord"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Edag wa hin okayan",
+      "title": "Əssəbdad əmik wa ogdahən ad alməɣna was tarha ad təšəšəl"
+    },
+    "paragraphs": [
+      "Channel tan fuk ijjan fal akayad olahan n addinat d repository tan olahan"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

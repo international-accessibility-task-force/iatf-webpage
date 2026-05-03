@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Tikarsiwen tin ijjuch n addinat",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Tikarsiwen tin ijjuch n addinat",
+    "lead": "Rejistir wen ehay alisteɣmar n haratan win addinat ijjanen s IATF",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ehan wan alkadan",
+      "title": "Rejistre wan amarad"
+    },
+    "intro": [
+      "Froje tan wi at-w-axdaman iknanen alisteɣmar daɣ edag wen alwaq wa id ijjan efes nasan"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Isilmad fal derhan",
+      "title": "Ijjit n derhan n tudabat n ijjuch daɣ addabara n addinat"
+    },
+    "paragraphs": [
+      "IATF itaj akayad n derhan n ijjuch addoben ad eqqil alxidmat tan alɣalim n open source"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "War illenat har ajjudi addabara tan",
+    "paragraphs": [
+      "IATF eɣna id tartit net ta tazzarat n alxidmat tan addinat",
+      "Addobat har ajjudi asissiki n addaror n data a fal ille derhan n ijjuch"
+    ]
+  }
+}

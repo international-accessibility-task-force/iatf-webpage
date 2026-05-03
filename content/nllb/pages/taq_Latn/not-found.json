@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Wǎr atwagrawan"
+  },
+  "hero": {
+    "eyebrow": "Wǎr atwagrawan",
+    "title": "Iɣaf war eqqel a ijrawan",
+    "lead": "Issexdam abara tan wi maqqornen daɣ ihandagan win ajjama i ad aj in i sit wan addinat",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ehan",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Tabarat ta tətawat wǎr tila."
+    ],
+    "items": [
+      {
+        "label": "Ehan",
+        "href": "/"
+      },
+      {
+        "label": "Tikarsiwen",
+        "href": "/projects/"
+      },
+      {
+        "label": "Əmigridan",
+        "href": "/join/"
+      },
+      {
+        "label": "Aśahat ən ugiš",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Alxakum n alxakum",
+        "href": "/governance/"
+      },
+      {
+        "label": "Anmizlay",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

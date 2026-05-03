@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index wan",
+    "title": "Sitemap",
+    "lead": "Isuj fuk ijjanen i addinat fal iatf.cc, daɣ edag iyyan"
+  },
+  "sections": [
+    {
+      "title": "Iɣirman wi maqqornen",
+      "items": [
+        {
+          "label": "Ehan",
+          "href": "/"
+        },
+        {
+          "label": "Tikarsiwen",
+          "href": "/projects/"
+        },
+        {
+          "label": "Asistan ən ašəɣəl",
+          "href": "/propose/"
+        },
+        {
+          "label": "Alxakum n alxakum",
+          "href": "/governance/"
+        },
+        {
+          "label": "Əmigridan",
+          "href": "/join/"
+        },
+        {
+          "label": "Aśahat ən ugiš",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Anmizlay",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Tikarsiwen",
+  "projectsEmpty": "War illenat har ajjudi addabara tan"
+}

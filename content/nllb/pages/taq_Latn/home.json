@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Daɣ derhan n ijjuch s repo tan win alxakum",
+    "lead": "IATF t ikfa turhajat i tagayen, taqqimen d addinat i asammuti n derhan wan tiditt n ijjuch daɣ addabara tan n addinat",
+    "support": [
+      "Əšiɣilan atiwazaynen aqalnen adizgaran dǎɣ tartit tan IATF GitHub daw əmik wan copyleft əd atiwagan dǎɣ aljamaɣat fal amusan atiwazayan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Išikil n alxidmat n alxakum",
+      "title": "Tabarat maqarat ən adinat ye adabaratan atiwəsanen"
+    },
+    "paragraphs": [
+      "Dǎɣ əmik, awadəm dak adobat ihuk ən tarədawt ən ugiš ye IATF. A fal tartit tadobat assuhu, edag ən aljamaɣat ən GitHub eqal ayktaban ye ašəɣəl.",
+      "Ašəɣəlan kul ertayan ilan edag ahusken ən aljamaɣat ye əmik, haratan, alkadan ad təzart, dər təwaƭ tatiwənhay dǎɣ edag asohat as musnat."
+    ],
+    "specCard": {
+      "title": "Išikil n alxidmat n alxakum",
+      "terms": [
+        {
+          "term": "Ihuk n derhan",
+          "definition": "Muchakil wan tiditt n tudabat"
+        },
+        {
+          "term": "Akayad",
+          "definition": "Alxidmat n alxidmat d tikarsay"
+        },
+        {
+          "term": "Ehan wan musnat",
+          "definition": "Repository n addinat daɣ GitHub"
+        },
+        {
+          "term": "Ijji n alxidmat",
+          "definition": "Alisteɣmar n taggayt tan IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Tamăšɣult",
+      "title": "Awen immik wa s itaj alxidmat",
+      "intro": "Almital eqqim iddikud andarran s immik wa s raqqisan addinat ijjuch net"
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ahil ijjan",
+        "paragraphs": [
+          "Taggayt, taqqimt meɣ awadim addoben ad issiwilan aratan ijjanen fal derhan wan tiditt n tudabat",
+          "Talɣiwen addobat nat ad issintan s website, s e-mail s <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, meɣ s Discord"
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF isassaɣra-t",
+        "paragraphs": [
+          "Nassikna anmijar n alxidmat, edag n axadam tolas kud inta alxidmăt taqqal daɣ froje n alɣalim n open source"
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Eɣanni n repository n addinat",
+        "paragraphs": [
+          "Afal əšiɣil eqalan atiwagrawan, eqalan adizgaran dǎɣ tartit tan IATF GitHub daw licensee ən copyleft.",
+          "Repository eqqal ehan n addinat n kod, muchakil tan, isuj d releases"
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Əmusanan atiwazayan itawanhayan əšiɣil wan təmusne",
+        "paragraphs": [
+          "Əmusanan atiwazaynen aqalan atiwafan fal edag wan almaɣna ən əšiɣil əd təwaƭ taqalat atiwagan dǎɣ aljamaɣat."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ehan wan alkadan",
+      "title": "Rejistre n addabara tan win addinat"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Assənta da",
+      "title": "Eɣaf fal alxidmat tan amarad meɣ asinti n addabara"
+    },
+    "paragraphs": [
+      "Atkul ən alkadan ye ajaraw ən awa eqalan harwa ayhan adinat meɣ ye assəməsədəw ən asjət ən assuhu iyan atiwəjan ad eqqəl ašəɣəl."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

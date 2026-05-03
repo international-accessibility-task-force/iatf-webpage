@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aśahat ən ugiš",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aśahat ən ugiš",
+    "lead": "IATF erha i ad ijji sit wen raqqis, eɣran, addobat ijjuch n keyboard tolas ogdah id teknoloji tan tin alxidmat",
+    "support": [
+      "I web accessibility, IATF itkal [W3C WAI](https://www.w3.org/WAI/) Aśuhu ən aśahat eqal deɣqanen atiwazayan fal musnat taśohet ən adakal ən adinat ən təmusnawen atiwafanen."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ijji n isalan",
+      "title": "Aɣil ən asostanan ən aśahat ən ugiš"
+    },
+    "paragraphs": [
+      "A fal ijrawan aɣafal n ijjuch fal website wen, alxer isaknin s e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Isalan wi assohat nen eha:"
+    ],
+    "items": [
+      "Page wa id ijja muchakil",
+      "awa tarhaɣ a t-əge",
+      "awa id axdaman teknoloji tan, browser meɣ device, a fal ila derhan",
+      "awa eɣšadan",
+      "awa addoben ad idhil"
+    ],
+    "footnote": "War ilkem ad ektabu takardat n bug wan alxidmat. afissar ifnaz ijjit"
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ijji n alxidmat",
+      "title": "Ijji n muchakil n addinat"
+    },
+    "paragraphs": [
+      "Muchakil tan win ijjuch addoben ad ijjichan ta-ite daɣ repository n addinat i ad addoben afissar nasan",
+      "A fal report- n-ik ehay isalan n addinat iyyad, issikna awen daɣ mesaj"
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Talɣa tan amarad",
+      "title": "Alxadudan atiwazaynen"
+    },
+    "paragraphs": [
+      "Site wen eqqal andarran tolas s ijjit eqqal a ehan iddikud n isalan iyyad addoben ad war imdachan alwaq wa id iknan afissar net"
+    ]
+  }
+}

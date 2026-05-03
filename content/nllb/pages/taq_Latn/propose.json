@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Iddikud n addabara wan ijjuch n awadim",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Iddikud n addabara wan ijjuch n awadim",
+    "lead": "IATF ikyad tiɣir n addabara tan tin ijjuch n accessibility id izjaran daɣ derhan n tiditt",
+    "support": [
+      "War t ilkem i almaɣna n harat fuk mucham muchakil n tiditt, wi id ifal nen d awa ijjan awen harat eqqalan harat n asinti"
+    ],
+    "actions": [
+      {
+        "label": "Assəbdad ən anəzgum",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Ašanzi ən Discord dǎɣ edag ənes",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Tišangiwen",
+      "title": "Eket s abara wa raqqisan"
+    },
+    "intro": [
+      "Izarajan fuk ijjan fal akayad olahan"
+    ],
+    "items": [
+      {
+        "label": "Ehan wan intaned",
+        "body": "Adakal ən əmik wan daw-iyan fal adigiš adabaratan atiwasanan."
+      },
+      {
+        "label": "E-mail tan",
+        "body": "Əktab tarədawt as: {{contact.requestsEmail}}Talɣiwen tin e-mail addobat nat ad aqqil nat ikitban n addinat darat akayad d amukin"
+      },
+      {
+        "label": "Anmizlay",
+        "body": "Assənta da, afal awen eqal hulen asohen.Adarat ən assəməsədəw eqal harwa dǎɣ edag iyan ən akayad."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Dat asissiki ən adabarat",
+    "paragraphs": [
+      "IATF itaj alxidmat net daɣ addinat, aratan addoben a tan ijjichan tolas ad aqqilan ikitban n aratan n addinat daɣ taggayt tan GitHub, fal website wen meɣ fuk nasan",
+      "War eha achareɣa tan win awadim, ismawan n telefon, isalan win assexat meɣ isalan n musnat n awadim fal addinat wi axdam nen s teknoloji tan alɣidmaten a fal war eha derhan tolas war t addobat IATF asiwil net",
+      "IATF itaj isalan n awadim war n ila derhan data n afissar n isalan win addaror"
+    ]
+  },
+  "review": {
+    "title": "Ikayadan ən haratan",
+    "paragraphs": [
+      "Asukni n arɣum war eha ach-ak fal ijjuch net",
+      "IATF isawadan tiɣir fal alxidmat, tudabat, alfayda d as alxidmăt taqqal daɣ repository n addinat",
+      "Tiɣir tiyyad addobat nat ankur, asidu meɣ amutti data ijjuch"
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Əmik wan adabaratan",
+      "title": "Eket n derhan"
+    },
+    "fields": [
+      {
+        "kind": "ijji n isalan",
+        "name": "awadim wa ijjan addaror",
+        "label": "Isim meɣ taggayt",
+        "helper": "Ma imos awedan wa das-izammazalan?"
+      },
+      {
+        "kind": "afăhăm",
+        "name": "ContactRoute",
+        "label": "Tajililwăyt n ihăndăgan",
+        "helper": "Daɣ immik wa s addobat akarach n akayad?",
+        "required": true,
+        "options": [
+          "E-mail tan",
+          "Anmizlay"
+        ]
+      },
+      {
+        "kind": "ijji n isalan",
+        "name": "Isalan win tartit",
+        "label": "Isalan win tartit",
+        "helper": "Alkad wan e-mail meɣ Discord i akayad",
+        "placeholder": "Email meɣ Discord handle",
+        "required": true
+      },
+      {
+        "kind": "ijji n isalan",
+        "name": "awal",
+        "label": "Daɣ awal",
+        "helper": "Daɣ awalan n afor n awadim, a fal ijja awen",
+        "value": "Daɣ tangilist"
+      },
+      {
+        "kind": "edag wan akatab",
+        "name": "tamăšɣult",
+        "label": "Əššəɣəl wa dasan-təmosa?",
+        "helper": "Əlkəttab aɣalay dǎɣ magrad iknan.",
+        "required": true
+      },
+      {
+        "kind": "edag wan akatab",
+        "name": "Imusanan wi idasnen",
+        "label": "Ma imos awedan wa das-izammazalan?",
+        "helper": "Eqal awen ayfan?",
+        "required": true
+      },
+      {
+        "kind": "edag wan akatab",
+        "name": "ExtraContext",
+        "label": "Taɣelit ta maqqorat",
+        "helper": "Asibdad haratan iyad dak wi taganen aliɣi ən tarha: awa fal eqal ayfan, almitalan, isalan, aniyat iknan ən əšiɣil, meɣ alɣisaban ən alwaq."
+      },
+      {
+        "kind": "afăhăm",
+        "name": "openSourceConsent",
+        "label": "Eqal ahusken dǎɣ təwaƭ tan open source tan adinat?",
+        "helper": "Dumu tan wi ardahan aqqalan repository tan n addinat daɣ IATF",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ewayan",
+          "War t illa",
+          "War eha ach-ak as ijja awen"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "A fal at-w-axdam",
+      "title": "Awa amos taridawt"
+    },
+    "items": [
+      "Repository n addinat daɣ taggayt tan IATF GitHub",
+      "Engineer wa iknan alxidmat ikrasan ehan wan musnat",
+      "Licence tan copyleft i kod d isuj win addabara",
+      "efes n addinat daɣ repository",
+      "Edag wan rejisir fal sit n IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Assənta majrad",
+      "title": "Tamadilt təknat adatu taqal ayknan dǎɣ santo."
+    },
+    "paragraphs": [
+      "A fal tila derhan n tiditt n ijjuch tolas aɣil as ilzam ad eqqil harat n alxakum, azilzam i aɣ"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
