@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Hökümdarlyk we maglumatlary saklamak nusgasy",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Hökümdarlyk we maglumatlary saklamak nusgasy",
+    "lead": "IATF elýeterlilik proyektlerini açyk, okalýan we saklanylýan edip saklaýar.",
+    "support": [
+      "Bu sahypada näme talap edilýändigi, depo nähili tutulýandygy we kabul edileninden soň depo derejesinde nähili jogapkärçiligiň ulanylýandygy düşündirilýär."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Täze düzgünler",
+      "title": "Wezipä laýyk gelmek, mülkiýet, rugsat"
+    },
+    "cards": [
+      {
+        "title": "Wezipä laýyk gelmek",
+        "paragraphs": [
+          "IATF elýeterliligiň hakyky päsgelçiliklerini çözýän we ictimaiyyýet üçin gymmatly bolan işi kabul edýär.",
+          "Bir proýektiň şahsy iş meýilnamasyndan daşary peýdasy bolmaly we umumy depo hökmünde işläp bilmeli.",
+          "Internetiň elýeterliligi üçin, IATF ulanýar [W3C WAI](https://www.w3.org/WAI/) kömekçi tehnologiýalary ulanýanlaryň öz tejribesi hakyky durmuşda nämeleriň işleýändiginiň praktiki subutnamasydyr."
+        ]
+      },
+      {
+        "title": "Gurluşygyň kabul edilmegi",
+        "paragraphs": [
+          "Önergi kabul edilmegi mümkin, eger barlag geçirilip, şular görkezilse:"
+        ],
+        "items": [
+          "edilýän işiň netijesinde edilýän işlere seredilýär.",
+          "meseläni bahalamak üçin ýeterlik derejede düşnükli",
+          "serhet başlatmak üçin ýeterlik derejede realdyr",
+          "iş IATF missiýasyna gabat gelýär",
+          "abatlaýyş ýa-da tamamlaýyş üçin netijeli ýol bar"
+        ]
+      },
+      {
+        "title": "Gaýdanyň mülkiýeti",
+        "paragraphs": [
+          "Kabul edilen proyektler IATF GitHub guramasy astynda niýetlenýär.",
+          "Gaýdalanmalar ol ýerde galýar şonuň üçin her bir proyekt durnukly bir ilat öýüni saklaýar, hatda eger saklaýjylar soňra üýtgese-de."
+        ]
+      },
+      {
+        "title": "Lisanslaşdyrmak",
+        "paragraphs": [
+          "IATF proýektleri copyleft lisansiýasyny ulanýar eger bir proýekte başgaça beýan edilmese:"
+        ],
+        "items": [
+          "<strong>Kod:</strong> AGPL-3.0",
+          "<strong>Edebiýatlar:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Soragly inžener ýa-da sakçy",
+      "paragraphs": [
+        "Her bir kabul edilen proýektde jogapkärli injener ýa-da gözegçi bolmalydyr."
+      ],
+      "items": [
+        "jemgyýetçilikde tälim",
+        "depderhananyň gurluşyny saklamak",
+        "meseleleri barlamak ýa-da bejermek we soragy çekmek",
+        "möhüm tehnik kararlary belgelemek",
+        "edilýän işiň başgalara - da düşnükli bolmagy"
+      ],
+      "footnote": "Bu depo derejesindäki jogapkärçilikdir. Guramaçylyk mülkiýeti IATF-de galýar. Bu ýerde jogapkärçilik depo dolandyryjylygy, tehnik görkezmesi we halkara koordinasiýasydyr."
+    },
+    "publicDevelopment": {
+      "title": "Halkyň ösüşi",
+      "paragraphs": [
+        "IATF arkaly başlatylýan gurluşyklar öň bellenen tärde köpçülik tarapyndan işläp çykarylýar."
+      ],
+      "items": [
+        "çeşme kodu",
+        "meseleler",
+        "gollanma",
+        "Ýolagçylaryň hatlary",
+        "çykarylyş taryhy"
+      ],
+      "footnote": "Wajyp proýekt bilimi diňe şahsy gürrüňlerde ýa-da inboklarda ýaşamaly däl."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Köpçülik arhiwleri",
+      "title": "Açyk soragyň ýazgylary"
+    },
+    "paragraphs": [
+      "IATF açyk meýdançada işleýär. Internet sahypasy, elektron poçtasy, Discord, GitHub ýa-da başga kanallar arkaly girýän haýyşlar açyk talaplar ýazgysyna öwrülip biler.",
+      "Açyk bir soragyň ýazgysy aslynda bir habar bolmaly däl. IATF soragyny jemlemek, düzeltmek ýa-da täzeden gurluşdyrmak mümkin, şonuň üçin gerekmejek şahsy maglumaty açyklandyrman, elýeterlilik zerurlygyny barlap geçmek mümkin.",
+      "Açyk soragyň ýazgylary IATF GitHub guramasynda, bu web-saytda ýa-da ikisinde hem saklanyp biler.",
+      "Çap edilmezden öň, IATF gerekli bolmadyk şahsy kontakt maglumatlaryny, şahsy adresleri we kömekçi tehnologiýalaryň her bir ulanjysy hakynda aýratyn maglumatlary aýyrýar, eger çap edilmegiň maksatly we ýerlikli bolmasa.",
+      "Diskord resmi däl koordinasiýa üçin ulanylýar. IATF diskord gürrüňleri aýry-aýry arhiwlemeýär we habar saklanmagy diskord tarapyndan gözegçilik edilýär.",
+      "Arama motorynyň indeksleýşinden soragyň ýazgysy çykarylmaýar. Açyk gözden geçirilip, hasabat berilmegi aňladýar. Bu at gözleýşi arkaly tapmak üçin optimallaşdyrylmagy aňlatmaýar.",
+      "IATF täzeden bejermek ýa-da aýyrmak bilen meşgullanýar.",
+      "Eger habaryň gizlin galmagy gerek bolsa, ony IATF halkara kanallary arkaly iberme."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Guramaçylykly rol",
+      "title": "Başlyk"
+    },
+    "lead": "Başlyk IATF-yň gurama derejesinde gözegçiligi ýerine ýetirýär. Bu her bir proýekt üçin jogapkärli inžiner rolundan tapawutlanýar: başlyk guramanyň bütindünýä üçin jogapkärdir, ýeke-täk hazynanyň gün-günden görkezmesine däl.",
+    "duties": {
+      "title": "Sandalyň ähmiýeti",
+      "items": [
+        "IATF GitHub guramasynda eýesi rugsatlaryny sakla",
+        "Gurluşygyň kabul edilmegi we arhiwlenilmegi hakynda kararlar",
+        "IATF üçin halkara kontakt noktasy hökmünde hereket edýär",
+        "Ýyllyk saýlaw koordinasiýasy"
+      ],
+      "footnote": "Ýolbaşçy IATF-a şahsy ýük, hak tölenýän iş, ýa-da hyzmat derejesine laýyklaşyklary baglaşmaýar, we tehniki görkezme bilen baglanyşykly arhiw saklaýjynyň her bir kararyny ýatyrmaýar."
+    },
+    "election": {
+      "title": "Ýyllyk saýlaw",
+      "paragraphs": [
+        "Ýolbaşçy ýylda bir gezek saýlanýar. saýlaw dekabr aýynyň ilkinji iki hepdesinde geçirilýär, netijeler 15 dekabrda yglan edilýär we täze möhlet 1-nji ýanwarda başlaýar.",
+        "Saýlaw hakyna eýe bolan saýlawçylar bir ýylyň dowamynda IATF-yň bir ýerinde işleýän we iň bolmanda bir gezek birleşdirilen rola giren adamlardyr. Her bir saýlawçysynyň bir sesi bar.",
+        "Saýlaw umumy GitHub Diskusiýa hökmünde bellenen IATF hökümeti ýerinde geçirilýär, şonuň üçin kandidatlar, seslenme we netije hemmeler umumy rekordyň bir bölegi hasaplanýar."
+      ]
+    },
+    "continuity": {
+      "title": "dowamlylyk",
+      "paragraphs": [
+        "Eger bir ýylyň dowamynda saýlaw bolmasa, indiki başlyk indiki saýlawlara çenli öz wezipesinde dowam edýär. Bu belli bir wagtlaýyn dowam etmekdir, geçilmezlik döwri däl. Bu nusga guramanyň durnuklylygyny saklamak üçin niýetlenen, eger hereket az bolsa, hiç kimiň taýyn bolmadyk geçişini mejbur etmek üçin däl.",
+        "Başlyk islendik wagt öz wezipesinden çykyp biler.Aktyw sakçylar hem aýratyn bir saýlaw çagyryp bilerler, aýry bir sebäbe görä, ýyllyk saýlawlar ýaly düzgünler esasynda."
+      ]
+    },
+    "current": {
+      "title": "Häzirki başlyk",
+      "fields": [
+        {
+          "label": "Başlyk",
+          "value": "mugywarafks",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ady",
+          "value": "2026-njy ýylyň dekabr aýynda geçiriljek saýlawlara çenli"
+        },
+        {
+          "label": "Roly resmileşdirildi",
+          "value": "2026"
+        },
+        {
+          "label": "Ilkinji bellenen saýlawlar",
+          "value": "Dekabr 2026"
+        }
+      ]
+    },
+    "footnote": "2026-njy ýylda guramamyzda başlyk borjy resmileşdirildi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Gurluşyk meýdançalary",
+      "paragraphs": [
+        "Proýektler kiçi bir jemgyýet ýagdaýlaryny ulanýarlar:"
+      ],
+      "items": [
+        "Teklip",
+        "Kabul edildi",
+        "Aktyw",
+        "Durnukly",
+        "Ýolbaşçy gözleýär",
+        "Arşiw edildi"
+      ],
+      "footnote": "Bu ştatlar rejestri skan etmek aňsatlyk bilen saklaýarlar."
+    },
+    "reassignment": {
+      "title": "Täzeden ýerleşdirmek we arhiwlenmek",
+      "paragraphs": [
+        "Eger seredýän adam aýrylsa ýa-da hereketsiz gelse, IATF jogapkärçiligi başga birine bermegi, işi togtadyp, arhiwde goýmagy mümkin.",
+        "Ilkinji zerurlyk ýerine ýetirilende, bejeriş işi togtadylanda, ýa-da işi dowam etdirmek mümkin däl wagty hem bir gurluşygyň arhiwlenmegi mümkin."
+      ],
+      "footnote": "Arşiw edilen proyektler, eger başgaça etmek üçin mejburly sebäp bolmasa, hemmelere görünýän bolup galýar."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Çäk haty",
+      "title": "IATF nämä kepillik etmeýär"
+    },
+    "items": [
+      "şahsy müşteriň ugradylmagy",
+      "hyzmat derejesine laýyklaşyklar",
+      "her bir teklibiň kabul edilmegi",
+      "her bir proyekt üçin uzak möhletli bejergi"
+    ],
+    "footnote": "IATF bir umumy depo nusgasy, şahsy berilýän hyzmat däl."
+  }
+}

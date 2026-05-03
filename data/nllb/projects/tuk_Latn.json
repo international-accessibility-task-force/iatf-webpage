@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF sahypasy",
+    "summary": "Halkara Elýeterlilik Iş Birliginiň ictimaýy meýdançasynda.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF örnegi düşündirýän, proyektleri görkezýän we kömekçileri dogry ädim ätmek üçin görkezýän durnukly jemgyýet öýüne mätäçdi.",
+    "why": "Bu meýdança IATF-yň jemgyýetiň öňki gapysy bolup, kiçi statik bir proyekt hökmünde gurulýar, şonuň üçin açyk ýerde okamak, terjime etmek we saklamak aňsat.",
+    "scopeIn": [
+      "IATF nusgasyny düşündirýän açyk açylýan sahypalar",
+      "IATF-yň kabul edilen, hereketli we arhiwlenýän proýektleriniň hal-ahwallary, sakçylary, ýerleşdirilen we görkezilen resmi rejestri",
+      "Bir soragy alyş sahypasy we nusgasy",
+      "Hökümdarlyk we açyklyk sahypalary",
+      "Iňlis dilinde terjime edilmäge taýyn gurluşykly çeşme",
+      "&amp; quot; Static deployment on Cloudflare Workers Static Assets (iňlisçe) &amp: quot; faýly açylyp başlandy ."
+    ],
+    "scopeOut": [
+      "Şahsy agza meýdançalary, hekaýalar, ýa-da giriş akymy",
+      "Her bir proýektiň öz repozitoriýasynda ýaşaýan proýekt çeşme kodyny ýerleşdirmek",
+      "Real-time chat, ol Discord-da ýaşaýar",
+      "Her bir proýektiň GitHub depoýtariýasynda ýaşaýan aýratyn proýektler üçin meseleleri yzlamak"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Ilkinji IATF nusgasy, bir tebigy durmak noktasyna ýetenden soň arhiwlenýär.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF çadyrynyň astynda elýeterlilige ünsli bir guralyň ilkinji seredilmegi.",
+    "why": "Aktyw işleýş dursa-da, işleriň ýazgysy hökmünde arhiw açyk saklanýar.",
+    "scopeIn": [
+      "Açyk ýazgy hökmünde saklanýan elýeterlilik bilen baglanyşykly guralyň ilkinji nusgasy"
+    ],
+    "scopeOut": [
+      "Aktyw ösüş ýa-da aýratynlyk işi",
+      "Ömrüňi saklamak borçlary",
+      "Işlemede maslahat berilýän ulanyş"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bir IATF jemgyýet boty, bir adaty durmak noktasyna ýetenden soň arhiwlenýär.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF jemgyýet kanallary töwereginde awtomatika.",
+    "why": "Aktyw işleýş dursa-da, işleriň ýazgysy hökmünde arhiw açyk saklanýar.",
+    "scopeIn": [
+      "IATF jemgyýet kanallary bilen baglanyşykly jedel edişmezligiň avtomatlaşdyrylmagy, umumy maglumat hökmünde saklanýar"
+    ],
+    "scopeOut": [
+      "Aktyw ösüş ýa-da aýratynlyk işi",
+      "Ömrüňi saklamak borçlary",
+      "Işlemede maslahat berilýän ulanyş"
+    ]
+  }
+]

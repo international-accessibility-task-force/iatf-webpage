@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Halkyň elýeterliligi proýektleri",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Halkyň elýeterliligi proýektleri",
+    "lead": "Bu registr IATF arkaly saklanýan ictimaiy proýektleri sanaýar.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Faýlyň ýazgysy",
+      "title": "Häzirki rejestr"
+    },
+    "intro": [
+      "Kabul edilen proyektler çap edilenden soň, bu ýerde görkezilýär."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Gerekli maglumaty ber",
+      "title": "Elýeterliligiň konkret zerurlygyny halkara proýektine öwrenişdirmek"
+    },
+    "paragraphs": [
+      "IATF elýeterliligiň konkret zerurlyklaryny gözden geçirýär."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Heniz neşir edilmedik proyektler",
+    "paragraphs": [
+      "IATF ilkinji halkara proýekt toparyny taýýarlaýar.",
+      "Eger siziň aýratyn bir elýeterlilik zerurlygyňyz bar bolsa bir talabyňyzy ýene-de ugradyp bilersiňiz."
+    ]
+  }
+}

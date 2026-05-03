@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sahypa nusgasy"
+  },
+  "hero": {
+    "eyebrow": "Indeksi",
+    "title": "Sahypa nusgasy",
+    "lead": "IATF.CC-de ähli açyk sahypalar, bir ýerde."
+  },
+  "sections": [
+    {
+      "title": "Esasy sahypalar",
+      "items": [
+        {
+          "label": "Öý",
+          "href": "/"
+        },
+        {
+          "label": "Gurluşyklar",
+          "href": "/projects/"
+        },
+        {
+          "label": "Bir proýekt sora",
+          "href": "/propose/"
+        },
+        {
+          "label": "Hökümdarlyk",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ilkileş",
+          "href": "/join/"
+        },
+        {
+          "label": "Elýeterlilik",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Açyklyk",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Gurluşyklar",
+  "projectsEmpty": "Heniz hiç bir çykarylan proyekt ýok."
+}

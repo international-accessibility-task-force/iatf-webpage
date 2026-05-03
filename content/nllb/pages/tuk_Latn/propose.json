@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Elýeterlilik proýektini talap et",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Elýeterlilik proýektini talap et",
+    "lead": "IATF hakyky zerurlykdan başlanýan elýeterlilik proyektleri üçin talabyna seredýär.",
+    "support": [
+      "Size doly maglumat gerek däl.Kimlere täsir edýändigi we näme üçin möhümdigi barada aýdyň problemanyň bolmagy başlamak üçin ýeterlik."
+    ],
+    "actions": [
+      {
+        "label": "Bir soragy başla",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Diskord ýeryny ullan",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanallar",
+      "title": "Iň aňsat ýoly saýlaň"
+    },
+    "intro": [
+      "Hemme ýollar bir barlagda geçirilýär."
+    ],
+    "items": [
+      {
+        "label": "Internet sahypasy",
+        "body": "Guramaçylykly soragy bermek üçin aşakdaky formany ulanyň."
+      },
+      {
+        "label": "Elektron poçta",
+        "body": "Dilemegiň adresine ýüz tut {{contact.requestsEmail}}Elektron poçta arkaly edilýän soragalar seredilenden we redaksiýa edilenden soň,açyk soragyň ýazgysyna öwrülip biler."
+      },
+      {
+        "label": "Adalatsyzlyk",
+        "body": "Şol ýerden başlaň eger bu has amatly bolsa. sorag entek şol bir teklibiň içine geçýär."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Talabyňy ibermezden öň",
+    "paragraphs": [
+      "IATF jemgyýet üçin işleýär. Talaplar umumy soragyň ýazgysy hökmünde jemgyýetiň GitHub guramasynda, bu websaýtda ýa-da ikisinde-de çap edilmegi mümkin.",
+      "Şahsy adresleri, telefon nomeralaryny, medisina maglumatlaryny, ýa-da kömekçi tehnologiýalary ulanýanlar hakynda gerekli maglumatlary girmäň, eger gerek bolmasa we siz IATF-yň barlamagyna razy bolsaňyz.",
+      "IATF talabyny çap etmezden öň gerekmejek şahsy kontakt maglumatlaryny aýyrýar."
+    ]
+  },
+  "review": {
+    "title": "Gözleýşleri gözden geçiriň",
+    "paragraphs": [
+      "Talabyň berilmegi onuň kabul ediljekdigini aňlatmaýar.",
+      "IATF işiň maksadyna laýyklygy, mümkinçiligi, peýdalydygy we işiň jemgyýetlik arhiwinde goýulmagyny barlaýar.",
+      "Käbir haýyşlar kabul edilmezden öň ret edilmegi, gaýra goýulmagy ýa-da täzeden şekillendirilmegi mümkin."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Talap nusgasy",
+      "title": "Talabyny ber"
+    },
+    "fields": [
+      {
+        "kind": "girdewi",
+        "name": "talap edýän",
+        "label": "Siziň adyňyz ýa-da guramaňyz",
+        "helper": "Bu talaby kim berýär?"
+      },
+      {
+        "kind": "saýla",
+        "name": "habarlaşmak ýoly",
+        "label": "Gowy görlen habarlaşyş ýoly",
+        "helper": "Nähili yzly-yzyna seretmeli?",
+        "required": true,
+        "options": [
+          "Elektron poçta",
+          "Adalatsyzlyk"
+        ]
+      },
+      {
+        "kind": "girdewi",
+        "name": "kontaktiň maglumaty",
+        "label": "Kontakt maglumaty",
+        "helper": "Ykdaryş üçin elektron poçta adresi ýa-da Discord adresi.",
+        "placeholder": "Elektron Poçta Adresi Ýada Diskord Adresi",
+        "required": true
+      },
+      {
+        "kind": "girdewi",
+        "name": "dil",
+        "label": "Dili",
+        "helper": "Siziň gowy görýän diliňiz, eger gerekli bolsa.",
+        "value": "Iňlisçe"
+      },
+      {
+        "kind": "metin meýdança",
+        "name": "mesele",
+        "label": "Haýsy meseläni çözjek bolýarsyň?",
+        "helper": "Aýatlary ýönekeý dilde düşündiriň.",
+        "required": true
+      },
+      {
+        "kind": "metin meýdança",
+        "name": "täsirliUserler",
+        "label": "Bu kime täsir edýär?",
+        "helper": "Bu kime kömek eder?",
+        "required": true
+      },
+      {
+        "kind": "metin meýdança",
+        "name": "aýratyn kontekst",
+        "label": "Ekstra kontekst",
+        "helper": "Gerekliligi düşündirmäge kömek edýän islendik zady paýlaň: näme üçin wajyp, mysallar, maglumatlar, çylşyrymly bir programma pikiri, ýa-da wagt çäklendirmeleri."
+      },
+      {
+        "kind": "saýla",
+        "name": "openSourceConsent",
+        "label": "Açyk çeşme bilen işläp tapmakdan keýp alýarsyňmy?",
+        "helper": "Kabul edilen proyektler IATF-yň astyndaky umumy depozitory.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Hawa",
+          "Ýok",
+          "Heniz anyk däl"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Eger kabul edilse",
+      "title": "Söýgi nämäni aňladýar ?"
+    },
+    "items": [
+      "IATF GitHub guramasynda bir ullakan depo",
+      "gurluşyga bellenen jogapkär inžener",
+      "kod we proyektiň materiallary üçin copyleft lisansiýa",
+      "arhiwde jemgyýet üçin ulanylýan ösüşler",
+      "IATF sahypasyndaky rejestr ýazgysy"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Gürrüň aç",
+      "title": "Başlamak üçin gysga we anyk bir haýyş ýeterlik"
+    },
+    "paragraphs": [
+      "Eger size hakykatdanam gerekli bolan elýeterlilik bar bolsa we siz bu proýekti ictimaýy ulgam bolmalydyr diýip pikir etseňiz bize ýollaň."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

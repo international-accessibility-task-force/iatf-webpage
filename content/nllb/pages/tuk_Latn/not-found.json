@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Tapylmady"
+  },
+  "hero": {
+    "eyebrow": "Tapylmady",
+    "title": "Arza edilen sahypa tapylmady",
+    "lead": "Daşky meýdança dolanmak üçin aşakdaky esasy ýollary ulanyň.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Öý",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Siziň soran ýoluňyz ýok."
+    ],
+    "items": [
+      {
+        "label": "Öý",
+        "href": "/"
+      },
+      {
+        "label": "Gurluşyklar",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ilkileş",
+        "href": "/join/"
+      },
+      {
+        "label": "Elýeterlilik",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Hökümdarlyk",
+        "href": "/governance/"
+      },
+      {
+        "label": "Açyklyk",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

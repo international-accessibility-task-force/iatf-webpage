@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Elýeterlilik zerurlygyndan halkara repo",
+    "lead": "IATF birleşmelere, toparlara we aýratyn adamlara açyk çeşme proýektlerine hakyky elýeterlik zerurlyklaryny üýtgetmäge kömek edýär.",
+    "support": [
+      "Kabul edilen proyektler IATF GitHub guramasynda copyleft lisansiýa astynda çap edilýär we jogapkärli inžener tarapyndan köpçülik üçin taýýarlanylýar."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Halkyň işleýşi nusgasy",
+      "title": "Elýeterli programma üçin sada halk ýoly"
+    },
+    "paragraphs": [
+      "Her bir adam bir nusga arkaly, IATF-a elýeterlilik meselesini bermegi başarar. Eger topar bu meseläni çözüp bilse, işiň geçirilişi üçin bir jemgyýet GitHub depo açylýar.",
+      "Her bir kabul edilen proýektde kod, meseleler, dokumentler we çykyşlar üçin açyk bir halkara öý bar, jogapkärli inžener tarapyndan açyklykda işleýiş bilen."
+    ],
+    "specCard": {
+      "title": "Halkyň işleýşi nusgasy",
+      "terms": [
+        {
+          "term": "Gerekli",
+          "definition": "Hakyky elýeterlilik kynçylygy"
+        },
+        {
+          "term": "Gözleg",
+          "definition": "Wezipä laýyk gelmekligi we praktik mümkinçiligi"
+        },
+        {
+          "term": "Gurluşyk meýdançasy",
+          "definition": "GitHub halkara deposiýasy"
+        },
+        {
+          "term": "Iş dolandyryjy",
+          "definition": "IATF guramasynyň mülkiýeti"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Edilme",
+      "title": "Nädip işleýär",
+      "intro": "Bu nusga kassatlyk bilen kiçi tutulýar, şonuň üçin hem köpçüligiň ýolundan ýöremek aňsat."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Bir talap edilýär",
+        "paragraphs": [
+          "Bir birleşik, topar ýa-da şahsy şahsyýet elýeterliligiň hakyky zerurlygyna esaslanan bir talaby berip biler.",
+          "Soraglar web-saytdan başlap, elektron poçtasy bilen: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ýa-da Discord arkaly."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ony barlaýar",
+        "paragraphs": [
+          "Hemme zada laýyk gelýändigini, mümkinçiligiň bardygyny we işiň açyk çeşme proýektine degişlidigini barlaýarys."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Açyk gaýd edara açylýar",
+        "paragraphs": [
+          "Eger bir proyekt kabul edilse, ol IATF GitHub guramasynda copyleft lisansiýa astynda çap edilýär.",
+          "Gaýd edilýän ýer kodyň, çykyşlaryň, dokumentasiýanyň we çykarylýan zatlaryň umumy öýüne öwrülýär."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Gurluşyga jogapkärli inžener ýolbaşçylyk edýär",
+        "paragraphs": [
+          "Soragly inžener proýekt arhiwinde goýulýar we öňe sürme işi hemmeleriň öňünde geçirilýär."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Faýlyň ýazgysy",
+      "title": "Halykaýyş rejestri"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bu ýerden başla",
+      "title": "Häzirki işlere seretmek ýa-da konkret bir proyekti başlamak"
+    },
+    "paragraphs": [
+      "Edebiýatlaryñ eýýäm köpçülige äkidilişini görmek üçin ýa-da elýeterlilik bilen baglanyşykly möhüm bir mesele bir proýeke öwrülip biläýse, alnyp başlamak üçin registri ulanyň."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

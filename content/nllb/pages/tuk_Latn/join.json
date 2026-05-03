@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF-a goşul",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF-a goşul",
+    "lead": "Özgerişmek açyk.GitHub we Discord-da gürrüňler we kararlar jemagat üçin geçirilýär.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rollary",
+      "title": "Ömrüňi goşmagyň usullary"
+    },
+    "items": [
+      "<strong>Bir proýekt soraň.</strong> Eger siz açyk çeşme programmasy bilen çözülip biljek bir elýeterlilik bölegi bilen duş gelseňiz, ony soragy kabul etmek bölümi arkaly ugratyň.",
+      "<strong>Synalmak we barlamak.</strong> IATF proýektlerini ulanylýan kömekçi tehnologiýalar bilen synlap görüň, näme işledigiňizi we näme işlemeýändigiňizi habar beriň, we meseleleri derrew gerekli depareýterde görkeziň.",
+      "<strong>Terjime et.</strong> Asl nusga ilki iňlis dilinde çap edilýär.",
+      "<strong>Gurmak.</strong> Herhangi bir IATF depderisinden meseleleri al, çekil soragyny iber ýa-da bir proyektde jogapkär injener bolup işe başla.",
+      "<strong>Saklaň.</strong> Häzirki proýektlere käwagt täze seredýän gerek bolýar. Seredýänleriň aýyrylmagy nusganyň adaty bölegi, çäklendirmändir."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanallar",
+      "title": "IATF-yň jemagatda işleýän ýerleri"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Soraglar, soragalar, çykyşlar, we gurluşyk rekordlary.",
+      "<strong>Agzalalyk.</strong> Canly gürrüňdeşlik, koordinasiýa, we resmi däl soraglar.",
+      "<strong>Elektron poçta.</strong> Ulanmak <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> eger GitHub we Discord-a laýyk gelmese."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Indiki ädim",
+      "title": "Siziň nähili goşant goşmak isleýändigiňize laýyk gelýän kanaly saýlaň"
+    },
+    "paragraphs": [
+      "Hemme kanallar bir jemagat seredilýän we bir jemgyýet arhiwlerine girizilýär."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

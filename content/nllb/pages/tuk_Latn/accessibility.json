@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Elýeterlilik",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Elýeterlilik",
+    "lead": "IATF bu websaýty sada, okalýan, klaviaturaly we kömekçi tehnologiýalar bilen baglanyşykly tutmagy maksat edinýär.",
+    "support": [
+      "Internetiň elýeterliligi üçin, IATF ulanýar [W3C WAI](https://www.w3.org/WAI/) elýeterlilik kömekçi tehnologiýalary ulanýanlaryň öz tejribesinden ybarat."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Hasabat bermek",
+      "title": "Elýeterlilik meselesini habar ber"
+    },
+    "paragraphs": [
+      "Eger siz bu web-saytda bir elýeterlilik bölegi tapsaňyz, onda bu barada elektron poçta arkaly habar bermegiňizi haýyş edýäris:",
+      "{{contact.accessibilityEmail}}",
+      "Peýdaly maglumatlara şular degişli:"
+    ],
+    "items": [
+      "mesele bolan sahypa",
+      "sen näme etmäge synanyşýardyň",
+      "nähili kömekçi tehnologiýa, brauzer ýa-da enjam ulanyp otyrdyňyz, eger gerekli bolsa",
+      "Nähili ýalňyşlyk boldy ?",
+      "näme kömek ederdi ?"
+    ],
+    "footnote": "Sen resmi bir hata hasabatyny ýazmak gerek däl. Aýtmak üçin düşnükli bir suratlandyrma ýeterlik."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "El tutmak",
+      "title": "Halkyň meselesini çözmek"
+    },
+    "paragraphs": [
+      "Elýeterlilik meseleleri netijeli bejerilmegi üçin has giňişleýin bejerilmegi mümkin. Şahsy kontakt maglumatlary we gerekmejek şahsy maglumatlar çap edilmezden öň aýrylyp çykarylýar.",
+      "Eger siziň habaryňyz şahsy maglumaty öz içine alsa, habaryňyzda açyk-açyk aýdyň."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Häzirki ýagdaý",
+      "title": "Tanalýan çäklendirmeler"
+    },
+    "paragraphs": [
+      "Bu sayt bilgeşleýin kiçi we köplenç statik."
+    ]
+  }
+}
