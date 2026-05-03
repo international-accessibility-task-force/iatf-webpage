@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Spletni zemljevid"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Spletni zemljevid",
+    "lead": "Vsaka javna stran na IATF.CC, na enem mestu."
+  },
+  "sections": [
+    {
+      "title": "Glavne strani",
+      "items": [
+        {
+          "label": "Domov",
+          "href": "/"
+        },
+        {
+          "label": "Projekti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Zahtevek za projekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Upravljanje",
+          "href": "/governance/"
+        },
+        {
+          "label": "Pridružite se.",
+          "href": "/join/"
+        },
+        {
+          "label": "Dostopnost",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Preglednost",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekti",
+  "projectsEmpty": "Projektov še ni objavljenih."
+}

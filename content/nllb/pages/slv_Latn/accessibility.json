@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Dostopnost",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Dostopnost",
+    "lead": "IATF si prizadeva, da bo ta spletna stran preprosta, berljiva, dostopna s tipkovnico in združljiva z asistentnimi tehnologijami.",
+    "support": [
+      "Za dostopnost spleta IATF uporablja [W3C WAI](https://www.w3.org/WAI/) Praktična dostopnost temelji tudi na neposrednih izkušnjah uporabnikov pomožnih tehnologij."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Poročanje",
+      "title": "Poročanje o težavah z dostopnostjo"
+    },
+    "paragraphs": [
+      "Če na tej spletni strani najdete oviro za dostopnost, to sporočite po elektronski pošti:",
+      "{{contact.accessibilityEmail}}",
+      "Koristna poročila vključujejo:"
+    ],
+    "items": [
+      "stran, na kateri se je zgodila težava",
+      "Kaj si poskušal narediti?",
+      "katero pomožno tehnologijo, brskalnik ali napravo ste uporabljali, če je ustrezno",
+      "Kaj je šlo narobe?",
+      "Kaj bi pomagalo?"
+    ],
+    "footnote": "Ni vam treba napisati uradnega poročila o napaki."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Upravljanje",
+      "title": "Obvladovanje javnih vprašanj"
+    },
+    "paragraphs": [
+      "Težave z dostopnostjo se lahko povzamejo v ustreznem javnem repozitoriju, tako da jih je mogoče popraviti na odprtem.",
+      "Če vaše poročilo vsebuje zasebne podatke, to v sporočilu jasno navedite."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Trenutno stanje",
+      "title": "Znane omejitve"
+    },
+    "paragraphs": [
+      "Ta spletna stran je namenoma majhna in večinoma statična."
+    ]
+  }
+}

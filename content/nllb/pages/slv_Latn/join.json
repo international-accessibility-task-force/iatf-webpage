@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Pridružite se IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Pridružite se IATF",
+    "lead": "Članstvo je odprto. Obstaja več načinov za sodelovanje, ne glede na to, ali se zanašate na pomočno tehnologijo, ustvarjate dostopno programsko opremo, prevajate, testirate ali vzdržujete projekt. Razprave in odločitve potekajo javno na GitHub in Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Vloge",
+      "title": "Načini prispevanja"
+    },
+    "items": [
+      "<strong>Zahtevajte projekt.</strong> Če naletite na oviro dostopnosti, ki bi jo lahko rešila javna odprtokodna programska oprema, jo pošljite prek sprejemnika zahtevkov.",
+      "<strong>Preizkus in pregled.</strong> Preizkusite projekte IATF z pomožno tehnologijo, ki jo uporabljate, poročajte o tem, kaj deluje in kaj ne, ter zadeve vložite neposredno v ustrezni repozitorij.",
+      "<strong>Prevedite.</strong> Izvirna vsebina je najprej objavljena v preprostem angleškem jeziku, prevodi pa se dodajajo, ko so prispevki na voljo, začenši s španščino.",
+      "<strong>Zgraditi.</strong> Poizvedite težave v katerem koli repozitoriju IATF, pošljite zahteve za izvlečenje ali prevzemite projekt kot njegov odgovorni inženir.",
+      "<strong>Vzdržujte.</strong> Obstoječi projekti včasih potrebujejo novega vzdrževalca."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanali",
+      "title": "Kadar IATF deluje na javnih mestih"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Vprašanja, zahteve za izvlečenje, objave in projektne zapise.",
+      "<strong>Nesoglasje.</strong> Živa razprava, usklajevanje in neformalna vprašanja.",
+      "<strong>E-poštno sporočilo.</strong> Uporaba <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> če se ne ujemajo niti GitHub niti Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Naslednji korak",
+      "title": "Izberite kanal, ki ustreza temu, kako želite prispevati"
+    },
+    "paragraphs": [
+      "Vsi kanali se hranijo z istim javnim pregledom in istimi javnimi repozitoriji."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

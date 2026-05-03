@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Model upravljanja in repozitorija",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Model upravljanja in repozitorija",
+    "lead": "IATF ohranja projekte dostopnosti javne, čitljive in vzdržljive.",
+    "support": [
+      "Na tej strani je pojasnjeno, kaj izpolnjuje pogoje, kako se hranijo repozitoriji in kakšna odgovornost na ravni skladišča velja po sprejetju."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Pravila",
+      "title": "Primernost naloge, lastništvo, izdajanje dovoljenj"
+    },
+    "cards": [
+      {
+        "title": "Primeren za nalogo",
+        "paragraphs": [
+          "IATF sprejema delo, ki odpravlja resnične ovire za dostopnost in ima jasno javno vrednost.",
+          "Projekt mora biti uporaben izven posameznega zasebnega poteka dela in delovati kot javno zbirko podatkov.",
+          "Za dostopnost spleta IATF uporablja [W3C WAI](https://www.w3.org/WAI/) Neposredne izkušnje uporabnikov pomožnih tehnologij so tudi praktični dokazi o tem, kaj deluje pri dejanski uporabi."
+        ]
+      },
+      {
+        "title": "Sprejemanje projekta",
+        "paragraphs": [
+          "Predlog se lahko sprejme, če je iz pregleda razvidno, da:"
+        ],
+        "items": [
+          "obravnava resnično potrebo po dostopnosti;",
+          "problem je dovolj jasen za oceno",
+          "obseg je dovolj realističen za izstrelitev",
+          "delo je usklajeno z nalogo IATF",
+          "obstaja verjetna pot do vzdrževanja ali dokončanja"
+        ]
+      },
+      {
+        "title": "Lastništvo zbirke podatkov",
+        "paragraphs": [
+          "Sprejeti projekti so ustvarjeni pod organizacijo IATF GitHub.",
+          "Repozitoriji ostanejo tam, tako da vsak projekt ohranja stabilen javni dom, tudi če se vzdrževalci kasneje spremenijo."
+        ]
+      },
+      {
+        "title": "Licenciranje",
+        "paragraphs": [
+          "Projekti IATF uporabljajo copyleft licenciranje, razen če projekt določa drugače:"
+        ],
+        "items": [
+          "<strong>Šifra:</strong> AGPL-3.0",
+          "<strong>Dokumentacija:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Odgovorni inženir ali vzdrževalec",
+      "paragraphs": [
+        "Vsak sprejet projekt mora imeti imenovanega odgovornega inženirja ali vzdrževalca."
+      ],
+      "items": [
+        "razvoj priročnika v javnem",
+        "vzdrževanje strukture zbirke podatkov",
+        "pregled ali upravljanje vprašanj in zahtevkov za izvlečenje",
+        "dokumentirati pomembne tehnične odločitve,",
+        "da je projekt razumljiv za druge"
+      ],
+      "footnote": "To je odgovornost na ravni repozitorija. Organizacijsko lastništvo ostane pri IATF-u. Odgovornost tukaj je skrbništvo za repozitorium, tehnična usmeritev in javno usklajevanje  ne neomejena zasebna dobava, prilagojene integracije ali zaveze na ravni storitev zunaj javnega načrta."
+    },
+    "publicDevelopment": {
+      "title": "Javni razvoj",
+      "paragraphs": [
+        "Projekti, ki se začnejo prek IATF, se privzeto razvijajo javno. Repozitorij je javni vir resnice za:"
+      ],
+      "items": [
+        "izvorna koda",
+        "zadeve",
+        "dokumentacija",
+        "Opombe o načrtu",
+        "zgodovina izdaje"
+      ],
+      "footnote": "Pomembno projektno znanje ne bi smelo živeti samo v zasebnih klepetih ali nabiralnikih."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Javni zapisi",
+      "title": "Javni zapisi zahtevkov"
+    },
+    "paragraphs": [
+      "Zahtevki, ki vstopijo v IATF prek spletnega mesta, e-pošte, Discord, GitHub ali drugih kanalov, lahko postanejo javni zapisi zahtevkov.",
+      "Javni zapis zahtevka ni nujno izvirno sporočilo. IATF lahko pred objavo povzame, urediti ali prestrukturirati zahtevo, tako da je mogoče pregledati potrebo po dostopnosti, ne da bi izpostavljali nepotrebne osebne podatke.",
+      "Javni zapisi zahtevkov so lahko shranjeni v organizaciji IATF GitHub, na tej spletni strani ali na obeh.",
+      "Pred objavo IATF odstrani nepotrebne osebne kontaktne podatke, zasebne naslove in identifikacijske podatke o posameznih uporabnikih podpornih tehnologij, razen če je objava jasno predvidena in ustrezna.",
+      "Discord se uporablja za neformalno usklajevanje. IATF diskordne pogovore privzeto ne arhivira ločeno, ohranjanje sporočil pa nadzira Discord. Odločitve, sprejete v Discordu, je treba povzeti v javni zapis na GitHub ali na ustrezni strani projekta.",
+      "Zapisi zahtevkov so izključeni iz indeksiranja iskalnikov, kjer je to tehnično praktično. Javno pomeni pregledljivo in odgovorno. Ne pomeni, da je optimizirano za odkrivanje prek iskanja po imenih.",
+      "IATF lahko posodobi ali odstrani zapise iz javnih površin, ki jih nadzoruje, vendar ne more zagotoviti odstranjevanja iz predpomnilnikov, obvestil, vilic, posnetkov zaslona, iskalnikov, Discorda ali drugih zunanjih sistemov tretjih oseb.",
+      "Če mora sporočilo ostati zasebno, ga ne pošljite prek javnih kanalov IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organizacijska vloga",
+      "title": "Predsednik"
+    },
+    "lead": "Predsednik ima vodstvo IATF na organizacijski ravni. To se razlikuje od vloge inženirja, odgovornega za posamezni projekt: predsednik je odgovoren za organizacijo kot celoto, ne pa za vsakodnevno vodenje katerega koli posameznega repozitorija.",
+    "duties": {
+      "title": "Kaj stol počne",
+      "items": [
+        "Ima dovoljenja lastnika v organizaciji IATF GitHub",
+        "Podpiše sprejemanje projektov in odločitve o arhiviranju",
+        "Deluje kot javna kontaktna točka za IATF",
+        "Koordinira letne volitve"
+      ],
+      "footnote": "Predsednik ne zavezuje IATF do zasebne dostave, plačanega dela ali sporazumov o ravni storitev in ne nadomešča odločitev vzdrževalcev posameznega repozitorija o tehničnem vodstvu."
+    },
+    "election": {
+      "title": "Vsakoletne volitve",
+      "paragraphs": [
+        "Predsednik se izvoli enkrat letno. Volitve potekajo v prvih dveh tednih decembra, rezultati se objavijo do 15. decembra, novi mandat pa se začne 1. januarja.",
+        "Upravičeni volivci so ljudje, ki so imeli vlogo vzdrževalca na katerem koli repozitoriju IATF v letu in so v tem letu naredili vsaj en združeni prispevek v repozitorium IAT F. Vsak upravičen volivc ima en glas. Kandidat z največ glasov zmaga; v primeru neenakosti se drugi krog odvija v tretjem tednu decembra.",
+        "Volitve potekajo kot javna razprava na GitHubu v imenovanem repozitoriju upravljanja IATF, tako da so kandidati, glasovanje in rezultat del javnega zapisa."
+      ]
+    },
+    "continuity": {
+      "title": "Nadaljnost",
+      "paragraphs": [
+        "Če v danem letu ni volitev, je trenutni predsednik še naprej v vlogi do naslednjih volitev. To je neomejeno nadaljevanje, ne pa odlogno obdobje - model je zasnovan tako, da ohranja stabilnost organizacije, ko je dejavnost nizka, ne da bi silil prehod, za katerega nihče ni pripravljen.",
+        "Predsednik lahko kadarkoli odstopi.Aktivni vzdrževalci lahko prav tako razglasijo izredne volitve z navedenim razlogom, ki se izvajajo po istih pravilih kot letni volitve."
+      ]
+    },
+    "current": {
+      "title": "Trenutni predsednik",
+      "fields": [
+        {
+          "label": "Predsednik",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Izraz",
+          "value": "Do volitev decembra 2026"
+        },
+        {
+          "label": "Formalizirana vloga",
+          "value": "2026"
+        },
+        {
+          "label": "Prve predvidene volitve",
+          "value": "december 2026"
+        }
+      ]
+    },
+    "footnote": "Do takrat je organizacijsko odgovornost neformalno nosil ustanovitelj."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stanje projekta",
+      "paragraphs": [
+        "Projekti uporabljajo majhen sklop javnih stanj:"
+      ],
+      "items": [
+        "Predlog",
+        "Sprejeta",
+        "Aktivno",
+        "Stabilna",
+        "Iščem vzdrževalca",
+        "Arhivirano"
+      ],
+      "footnote": "V teh državah je register enostaven za skeniranje."
+    },
+    "reassignment": {
+      "title": "Ponovna dodelitev in arhiviranje",
+      "paragraphs": [
+        "Če vzdrževalec odstopi ali postane neaktiven, lahko IATF prenese odgovornost, ustavi razvoj ali arhivira projekt.",
+        "Projekt se lahko arhivira tudi, ko je bila prvotna potreba izpolnjena, je vzdrževanje prenehalo ali pa nadaljevanje dela ni več realno."
+      ],
+      "footnote": "Arhivirani projekti ostajajo javno vidni, razen če obstaja prepričljiv razlog za nasprotno."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Mejna opomba",
+      "title": "Kaj IATF ne jamči"
+    },
+    "items": [
+      "dobava zasebnim strankam",
+      "sporazumi o ravni storitev",
+      "sprejetje vsakega predloga",
+      "dolgoročno vzdrževanje za vsak projekt"
+    ],
+    "footnote": "IATF je model javnega repozitorija, ne zasebna storitev dostave."
+  }
+}

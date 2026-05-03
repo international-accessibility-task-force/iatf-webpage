@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ne najdemo"
+  },
+  "hero": {
+    "eyebrow": "Ne najdemo",
+    "title": "Zahtevana stran ni bila najdena",
+    "lead": "Uporabite glavne poti spodaj, da se vrnete na javno mesto.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Domov",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Pot, ki ste jo zahtevali, ne obstaja."
+    ],
+    "items": [
+      {
+        "label": "Domov",
+        "href": "/"
+      },
+      {
+        "label": "Projekti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Pridružite se.",
+        "href": "/join/"
+      },
+      {
+        "label": "Dostopnost",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Upravljanje",
+        "href": "/governance/"
+      },
+      {
+        "label": "Preglednost",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

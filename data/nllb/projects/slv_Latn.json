@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Spletna stran IATF",
+    "summary": "Javna spletna stran Mednarodne delovne skupine za dostopnost.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF je potreboval stabilen javni dom, ki pojasnjuje model, navaja projekte in usmerja prispevalce k naslednjemu koraku.",
+    "why": "Spletna stran je javna vhodna vrata IATF-a. Zgrajena je kot majhen statični projekt, zato je enostaven za branje, prevajanje in vzdrževanje na odprtem.",
+    "scopeIn": [
+      "Javne ciljne strani, ki pojasnjujejo model IATF",
+      "Javni register sprejetih, aktivnih in arhiviranih projektov IATF s statusom, vzdrževalcem, repozitorijem in demonstracijo",
+      "Stran za sprejem zahtevka in obrazec",
+      "Strani o upravljanju in preglednosti",
+      "Angleški vir z strukturo, pripravljeno za prevod",
+      "Statična namestitev na statičnih sredstvih Cloudflare Workers"
+    ],
+    "scopeOut": [
+      "Zasebna območja članov, računi ali tokovi prijave",
+      "Gostovanje izvorne kode projekta, ki se nahaja v lastnem repozitoriju vsakega projekta",
+      "Pogovor v realnem času, ki živi v Discord",
+      "Spremljanje izdaj za posamezne projekte, ki se nahaja v zbirki GitHub vsakega projekta"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Zgodnji prototip IATF, arhiviran po doseganju naravne točke zaustavitve.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Zgodnje raziskovanje orodja, osredotočenega na dostopnost, pod okriljem IATF.",
+    "why": "Repozitorij je javno dostopen kot evidenca dela, čeprav je aktivni razvoj prenehal.",
+    "scopeIn": [
+      "Zgodnji prototip orodja, osredotočenega na dostopnost, ki se hrani kot javni zapis"
+    ],
+    "scopeOut": [
+      "Aktivni razvoj ali delo na funkciji",
+      "Obveznosti za preživnino",
+      "Priporočena uporaba v proizvodnji"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF skupnostni bot, arhiviran po doseganju naravne točke zaustavitve.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Avtomatizacija na kanalih skupnosti IATF.",
+    "why": "Repozitorij je javno dostopen kot evidenca dela, čeprav je aktivni razvoj prenehal.",
+    "scopeIn": [
+      "Avtomatizacija nesoglasja okoli kanalov skupnosti IATF, ki se hrani kot javni zapis"
+    ],
+    "scopeOut": [
+      "Aktivni razvoj ali delo na funkciji",
+      "Obveznosti za preživnino",
+      "Priporočena uporaba v proizvodnji"
+    ]
+  }
+]

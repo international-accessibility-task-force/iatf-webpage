@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Zahtevek za projekt dostopnosti",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Zahtevek za projekt dostopnosti",
+    "lead": "IATF pregleduje zahteve za projekte dostopnosti, ki izhajajo iz resnične potrebe.",
+    "support": [
+      "Za začetek je dovolj jasen problem, kdo je prizadet in zakaj je to pomembno."
+    ],
+    "actions": [
+      {
+        "label": "Začnite zahtevo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Namesto tega uporabite Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanali",
+      "title": "Izberi najlažjo pot."
+    },
+    "intro": [
+      "Vse poti so vključene v isti pregled."
+    ],
+    "items": [
+      {
+        "label": "Spletna stran",
+        "body": "Za predložitev strukturirane zahteve uporabite spodnji obrazec."
+      },
+      {
+        "label": "E-poštna številka",
+        "body": "Zahtevek pošljite neposredno: {{contact.requestsEmail}}Zahteve po elektronski pošti lahko postanejo javni zapisi zahtevkov po pregledu in urejanju."
+      },
+      {
+        "label": "Nesoglasje.",
+        "body": "Začnite tam, če je to najlažje."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Preden pošljete zahtevo",
+    "paragraphs": [
+      "Zahteve se lahko povzamejo in objavijo kot javni zapisi zahtevkov v organizaciji IATF GitHub, na tej spletni strani ali na obeh.",
+      "Ne vključite zasebnih naslovov, telefonskih številk, zdravstvenih podatkov ali identifikacijskih podatkov o posameznih uporabnikih pomožnih tehnologij, razen če je to potrebno in ste zadovoljni s tem, da jih IATF pregleda.",
+      "IATF pred objavo evidenc zahtevkov odstrani nepotrebne osebne kontaktne podatke."
+    ]
+  },
+  "review": {
+    "title": "Pričakovanja glede pregleda",
+    "paragraphs": [
+      "Predložitev zahtevka ne zagotavlja sprejetja.",
+      "IATF pregleduje zahteve glede primernosti poslanstva, izvedljivosti, uporabnosti in ali delo spada v javni repozitorij.",
+      "Nekatere prošnje se lahko zavrnejo, odložijo ali spremenijo, preden jih sprejmemo."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Obrazec zahtevka",
+      "title": "Predložitev zahtevka"
+    },
+    "fields": [
+      {
+        "kind": "vnos",
+        "name": "prosilec",
+        "label": "Vaše ime ali organizacija",
+        "helper": "Kdo je to zahteval?"
+      },
+      {
+        "kind": "izberite",
+        "name": "Kontaktna pot",
+        "label": "Prednostna kontaktna pot",
+        "helper": "Kako naj poteka nadaljnje spremljanje?",
+        "required": true,
+        "options": [
+          "E-poštna številka",
+          "Nesoglasje."
+        ]
+      },
+      {
+        "kind": "vnos",
+        "name": "Kontaktni podatki",
+        "label": "Kontaktni podatki",
+        "helper": "E-poštni naslov ali Discord naslov za nadaljnje informacije.",
+        "placeholder": "E-poštni naslov ali Discord naslov",
+        "required": true
+      },
+      {
+        "kind": "vnos",
+        "name": "jezik",
+        "label": "Jezik",
+        "helper": "Vaš najljubši jezik, če je ustrezno.",
+        "value": "Angleščina"
+      },
+      {
+        "kind": "Območje besedila",
+        "name": "Težava",
+        "label": "Kakšno težavo poskušaš rešiti?",
+        "helper": "Opišite oviro v preprostih besedah.",
+        "required": true
+      },
+      {
+        "kind": "Območje besedila",
+        "name": "prizadeti uporabniki",
+        "label": "Kdo je prizadet?",
+        "helper": "Komu bi to pomagalo?",
+        "required": true
+      },
+      {
+        "kind": "Območje besedila",
+        "name": "extraKontekst",
+        "label": "Dodatni kontekst",
+        "helper": "Delite še kaj drugega, kar pomaga razložiti potrebo: zakaj je to pomembno, primere, reference, grobe ideje o programski opremi ali časovne omejitve."
+      },
+      {
+        "kind": "izberite",
+        "name": "openSourceConsent",
+        "label": "Si zadovoljen z javnim odprtokodnim razvojem?",
+        "helper": "Sprejeti projekti so javni repozitoriji v okviru IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "-Ja. -Prav.",
+          "Ne, nisem.",
+          "Nisem še prepričan."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Če je sprejeta",
+      "title": "Kaj pomeni sprejemanje"
+    },
+    "items": [
+      "javni repozitorij v organizaciji IATF GitHub",
+      "odgovorni inženir, dodeljen projektu",
+      "copyleft licenco za kodo in projektne materiale",
+      "javni razvoj v repozitoriju",
+      "vpis v register na spletnem mestu IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Začnite pogovor.",
+      "title": "Za začetek je dovolj kratka in jasna prošnja."
+    },
+    "paragraphs": [
+      "Če imate resnično potrebo po dostopnosti in menite, da bi moral postati javni projekt, nam ga pošljite."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
