@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ئاممىغا قولايلىق يارىتىش تۈرلىرى",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ئاممىغا قولايلىق يارىتىش تۈرلىرى",
+    "lead": "بۇ تىزىملىك IATF ئارقىلىق ساقلانغان ئاممىۋى تۈرلەرنى تىزىملىتىدۇ. قوبۇل قىلىنغان قولايلىق تۈرلىرى، بىكەت ئۇل ئەسلىھەلىرى ۋە ئارخىپلانغان نۇسخىلار بۇ يەردە كۆرۈنۈپ تۇرىدۇ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "تىزىملىك",
+      "title": "نۆۋەتتىكى تىزىملىك"
+    },
+    "intro": [
+      "ماقۇللانغان تۈرلەر ئېلان قىلىنغاندىن كېيىن بۇ يەرگە تىزىملىنىدۇ."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ئىھتىياجىڭىزنى ئوتتۇرىغا قويۇڭ",
+      "title": "كونكرېت كىرىشچانلىق ئېھتىياجىنى ئاممىۋى تۈرگە ئايلاندۇرۇش"
+    },
+    "paragraphs": [
+      "IATF ئېچىۋېتىلگەن مەنبەدە ئىشلىتىلىدىغان ئاممىۋى ماتېرىيالغا ئايلاندۇرالايدىغان كونكرېت تورغا چىقىش ئېھتىياجىنى كۆزدىن كەچۈرىدۇ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "تېخى ئېلان قىلىنمىغان تۈرلەر",
+    "paragraphs": [
+      "IATF دىتالى تۇنجى قېتىملىق جامائەت پىلانىنى لايىھىلەشكە تەييارلىق قىلماقتا",
+      "ئەگەر سىزدە ئېنىق بولغان ئىھتىياجىڭىز بولسا، داۋاملىق ئىلتىماس قىلىپ تۇرسىڭىز بولىدۇ"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "تېپىلمىدى"
+  },
+  "hero": {
+    "eyebrow": "تېپىلمىدى",
+    "title": "ئىزدىگەن بەت تېپىلمىدى",
+    "lead": "ئاممىۋى ئورۇنغا قايتىش ئۈچۈن تۆۋەندىكى ئاساسلىق يوللاردىن پايدىلىنىڭ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "ئۆي",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "سىز تەلەپ قىلغان يول مەۋجۇت ئەمەس."
+    ],
+    "items": [
+      {
+        "label": "ئۆي",
+        "href": "/"
+      },
+      {
+        "label": "تۈرلەر",
+        "href": "/projects/"
+      },
+      {
+        "label": "قوشۇل",
+        "href": "/join/"
+      },
+      {
+        "label": "قوللىنىشچانلىق",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ھاكىمىيەت يۈرگۈزۈش",
+        "href": "/governance/"
+      },
+      {
+        "label": "ئوچۇق-ئاشكارا بولۇش",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

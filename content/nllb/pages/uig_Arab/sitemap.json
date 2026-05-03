@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "تور بېكەت خەرىتىسى"
+  },
+  "hero": {
+    "eyebrow": "كۆرسەتكۈچ",
+    "title": "تور بېكەت خەرىتىسى",
+    "lead": ".ھەممە ئاممىباب بەتلەر بىر ئورۇندا: iatf.cc"
+  },
+  "sections": [
+    {
+      "title": "باش بەتلەر",
+      "items": [
+        {
+          "label": "ئۆي",
+          "href": "/"
+        },
+        {
+          "label": "تۈرلەر",
+          "href": "/projects/"
+        },
+        {
+          "label": "بىر تۈرنى ئىلتىماس قىلىڭ",
+          "href": "/propose/"
+        },
+        {
+          "label": "ھاكىمىيەت يۈرگۈزۈش",
+          "href": "/governance/"
+        },
+        {
+          "label": "قوشۇل",
+          "href": "/join/"
+        },
+        {
+          "label": "قوللىنىشچانلىق",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ئوچۇق-ئاشكارا بولۇش",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "تۈرلەر",
+  "projectsEmpty": "تېخىچە ئېلان قىلىنمىغان تۈرلەر"
+}
