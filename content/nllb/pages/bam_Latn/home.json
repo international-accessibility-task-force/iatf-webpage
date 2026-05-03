@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ka bɔ sɔrɔli mako la ka se forobaciyɛnw ma",
+    "lead": "IATF bɛ dɛmɛ don jɛkuluw, jɛnkuluw ani mɔgɔ kelen-kelenw ma u ka se ka u makoɲɛfɛnw yɛlɛma ka kɛ forobaciyɛnw ye.",
+    "support": [
+      "Baara minnu minɛna, olu bɛ sɔrɔ IATF GitHub tɔnba kɔnɔ ka kɛɲɛ ni copyleft yamaruya ye ani ka yiriwa forobaciyɛn ɲɛmɔgɔ dɔ fɛ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Jamanadenw ka baara kɛcogo",
+      "title": "Porogaramu lakodɔnnen sɔrɔli sira nɔgɔman"
+    },
+    "paragraphs": [
+      "Mɔgɔ o mɔgɔ bɛ se ka kɛ sababu ye ka gɛlɛya dɔ lase IATF ma, o bɛ kɛ cogoya dɔ fɛ. Ni jɛkulu bɛ se k'a ta, forobaciyɛn dɔ bɛ dayɛlɛ baara kama GitHub kan.",
+      "Baara min bɛ sɔn, o bɛɛ bɛ sɔrɔ forobaciyɛn kɛnɛ dɔ kɔnɔ ka ɲɛsin kodenw ma, gafew, sɛbɛnw, ani kunnafoniw, ka sɔrɔ yiriwali bɛ kɛ kɛnɛ kan, o min bɛ kɛ injinɛri ɲɛmɔgɔ dɔ fɛ."
+    ],
+    "specCard": {
+      "title": "Jamanadenw ka baara kɛcogo",
+      "terms": [
+        {
+          "term": "Bangebaliya",
+          "definition": "Faratiba bɛ se sɔrɔli la"
+        },
+        {
+          "term": "Ɲininkali",
+          "definition": "Baara bɛnnenya ani baara kɛcogo"
+        },
+        {
+          "term": "Porogaramu yɔrɔ",
+          "definition": "Jamanadenw ka GitHub marayɔrɔ"
+        },
+        {
+          "term": "Ɲɛmɔgɔya",
+          "definition": "IATF jɛkulu ka yɛrɛmahɔrɔnya"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Sɛgɛsɛgɛli",
+      "title": "A bɛ baara kɛ cogo min na",
+      "intro": "Nin model in bɛ to ka kɛ fitini ye walasa jama ka sira bɛ se ka tugu nɔgɔya la."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "A mako bɛ min na, a bɛ o jira",
+        "paragraphs": [
+          "Jɛkulu, jɛkulu, walima mɔgɔ kelen-kelen bɛɛ bɛ se ka ɲininkali dɔ kɛ ka da a kan u mako bɛ fɛn kɛrɛnkɛrɛnnen min na.",
+          "Ɲininkaliw bɛ se ka daminɛ ɛntɛrinɛti yɔrɔ la, i n'a fɔ ka e-mail ci an ma. <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, walima Discord fɛ."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF bɛ a lajɛ",
+        "paragraphs": [
+          "An b'a lajɛ ni baara bɛnnen don, n'a bɛ se ka kɛ, ani ni baara ka kan ni forobaciyɛn dayɛlɛlen ye."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Jamanakuntigi dɔ bɛ dilan",
+        "paragraphs": [
+          "Ni baara dɔ minɛna, a bɛ bɔ IATF GitHub jɛkulu kɔnɔ ni copyleft yamaruya ye.",
+          "Kunnafonisira bɛ kɛ forobaciyɛnw ka so ye, gafew, sɛbɛnw, ani kunnafoniw."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Baarakɛla ɲɛmɔgɔ bɛ baara in kun na",
+        "paragraphs": [
+          "Ɛngeniyɛri ɲɛmɔgɔ dɔ bɛ bila baara kɛli la ani yiriwali bɛ kɛ mɔgɔw bɛɛ ɲɛ na."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Sεbεnni",
+      "title": "Jamanadenw ka baaraw tɔgɔ sɛbɛnni"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "A daminɛ yan",
+      "title": "Baara min bɛ kɛ sisan walima ka baara kɛrɛnkɛrɛnnen dɔ daminɛ"
+    },
+    "paragraphs": [
+      "Aw bɛ baara kɛ ni tɔgɔsɛbɛnni ye walasa ka fɛn minnu bɛ forobaciyɛn na, olu ye aw ye, walima aw bɛ donni daminɛ ni gɛlɛya kɛrɛnkɛrɛnnen dɔ kɛra baara dɔ ye."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

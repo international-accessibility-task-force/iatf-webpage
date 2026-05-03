@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Ɛndɛkisi",
+    "title": "Sitemap",
+    "lead": "Iatf.cc ka kunnafoniw bɛɛ, yɔrɔ kelen na."
+  },
+  "sections": [
+    {
+      "title": "Yɔrɔ fɔlɔw",
+      "items": [
+        {
+          "label": "So kɔnɔ",
+          "href": "/"
+        },
+        {
+          "label": "Projètiw",
+          "href": "/projects/"
+        },
+        {
+          "label": "Ka baaraɲini ɲini",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ɲɛmɔgɔya",
+          "href": "/governance/"
+        },
+        {
+          "label": "Fara ɲɔgɔn kan",
+          "href": "/join/"
+        },
+        {
+          "label": "Sigiyɔrɔ sɔrɔli",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kɛnɛya sabatili",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projètiw",
+  "projectsEmpty": "Baaraw ma bɔ fɔlɔ."
+}

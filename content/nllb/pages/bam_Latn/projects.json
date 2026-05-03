@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Jamanadenw ka se sɔrɔli baaraw",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Jamanadenw ka se sɔrɔli baaraw",
+    "lead": "O sɛbɛn in bɛ forobaciyɛnw kofɔ minnu bɛ mara IATF fɛ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Sεbεnni",
+      "title": "Bi tile tɔgɔsɛbɛn"
+    },
+    "intro": [
+      "Baara minnu minɛna, olu sɛbɛnna yan n'u sera ka bɔ kɛnɛ kan."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "I mako bɛ min na, i k'o jira an na",
+      "title": "Ka se ka se sɔrɔli mako kɛrɛnkɛrɛnnen yɛlɛma ka kɛ forobaciyɛn baara ye"
+    },
+    "paragraphs": [
+      "IATF bɛ sɛgɛsɛgɛli kɛ ka ɲɛsin mako kɛrɛnkɛrɛnnenw ma minnu bɛ se ka yɛlɛma ka kɛ baaraw ye minnu bɛ kɛ forobaciyɛnw kɔnɔ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Baaraw ma bɔ fɔlɔ",
+    "paragraphs": [
+      "IATF bɛ a ka porojɛkiti fɔlɔ labɛn.",
+      "I bɛ se ka ɲininkali kɛ halibi n'i mako bɛ fɛn kɛrɛnkɛrɛnnen na."
+    ]
+  }
+}

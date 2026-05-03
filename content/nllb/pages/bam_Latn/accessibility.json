@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Sigiyɔrɔ sɔrɔli",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Sigiyɔrɔ sɔrɔli",
+    "lead": "IATF ka laɲini ye ka nin ɛntɛrinɛti yɔrɔ in nɔgɔya, a kalanni ka nɔgɔn, a bɛ se ka kɛ ni keyboard ye, ani a bɛ bɛn ni dɛmɛni fɛɛrɛw ye.",
+    "support": [
+      "Walasa ka se ka baara kɛ ni ɛntɛrinɛti ye, IATF bɛ baara kɛ [W3C WAI](https://www.w3.org/WAI/) A ka baara kɛcogoya fana bɛ sɔrɔ dɛmɛ kɛli fɛɛrɛw baarakɛlaw ka waleɲumandɔnw fɛ."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kunnafoni laseli",
+      "title": "Walasa ka se ka taa yɔrɔ la, aw bɛ nin waleya:"
+    },
+    "paragraphs": [
+      "Ni aw ye fɛn dɔ ye min bɛ se ka kɛ sababu ye aw kana se ka don nin yɔrɔ la, aw bɛ se k'o jira an na i n'a fɔ:",
+      "{{contact.accessibilityEmail}}",
+      "Kunnafoni nafama dɔw ye nin ye:"
+    ],
+    "items": [
+      "Kunnafonisira kɛra yɔrɔ min na",
+      "i tun b'a fɛ ka min kɛ",
+      "Aw tun bɛ dɛmɛ don ni fɛɛrɛ min ye, aw tun bɛ baara kɛ ni fɛn min ye walima fɛn min bɛ se ka aw dɛmɛ, n'aw bɛ se k'o dɔn",
+      "fɛn min kɛra jugu ye",
+      "mun de tun bɛna a dɛmɛ"
+    ],
+    "footnote": "I man kan ka fili ko sɛbɛ sɛbɛn. A ɲɛfɔli jɛlen bɛ se ka kɛ."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ka baara kɛ n'a ye",
+      "title": "Jamanadenw ka ko ɲɛnabɔli"
+    },
+    "paragraphs": [
+      "Sɛgɛsɛgɛliw bɛ se ka kɛ ka ɲɛsin mɔgɔw ka se ka kunnafoniw sɔrɔli ma. Ɲɔgɔnkunbɛn kunnafoni ani kunnafoni kɛrɛnkɛrɛnnen minnu tɛ mako ɲɛ, olu bɛ bɔ yen sani u ka bɔ kɛnɛ kan.",
+      "Ni aw ka kunnafoni bɛ kunnafoni kɛrɛnkɛrɛnnenw na, aw y'o fɔ k'a jɛya aw ka sɛbɛn kɔnɔ."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Bi cogoya",
+      "title": "Danfaraw dɔnnenw"
+    },
+    "paragraphs": [
+      "Nin yɔrɔ in ka c'a la a ka dɔgɔ wa a ka ca a la a jɔlen don tuma bɛɛ. Kan dɔw bayɛlɛmaniw bɛ se ka kɛ dafabali ye k'a sɔrɔ bayɛlɛmaliw bɛ ka labɛn."
+    ]
+  }
+}

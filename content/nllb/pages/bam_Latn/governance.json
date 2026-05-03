@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Kunnafoniw marali n'u marali modɛli",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Kunnafoniw marali n'u marali modɛli",
+    "lead": "IATF b'a to baaraw ka kɛ jama ye, u ka se ka kalan, ani u bɛ se ka mara.",
+    "support": [
+      "Nin gafe in bɛ ɲɛfɔli kɛ fɛn minnu ka kan, fɛn mara cogo min na, ani fɛn mara jɔyɔrɔ bɛ min na sɔnni kɔfɛ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Sariyaw",
+      "title": "Baara bɛnnen, yɛrɛmahɔrɔnya, yamaruya"
+    },
+    "cards": [
+      {
+        "title": "Baara bɛnnen",
+        "paragraphs": [
+          "IATF bɛ sɔn ka baara kɛ min bɛ se ka jɔyɔrɔ sɔrɔli bali ani min nafa ka bon jama ye.",
+          "Baara ka kan ka kɛ ka tɛmɛ baara kɛ cogo kelen kan ani ka baara kɛ i n'a fɔ forobaciyɛn.",
+          "Walasa ka se ka baara kɛ ni ɛntɛrinɛti ye, IATF bɛ baara kɛ [W3C WAI](https://www.w3.org/WAI/) Fɛɛrɛw dɛmɛbagaw ka waleɲumandɔnw fana ye daliluw ye minnu b'a jira k'u bɛ baara kɛ cogo min na tigitigi."
+        ]
+      },
+      {
+        "title": "Baarakɛta sɔnni",
+        "paragraphs": [
+          "Sugandili bɛ se ka minɛ ni sɛgɛsɛgɛli y'a jira ko:"
+        ],
+        "items": [
+          "a bɛ se sɔrɔli makoba ɲɛɲini",
+          "Ɲininkali jɛlen don ka se ka jateminɛ kɛ",
+          "la scope est assez réaliste pour lancer",
+          "baara bɛ bɛn ni IATF ka baara ye",
+          "sira ɲuman bɛ yen min bɛ se ka taa ɲɛ ka se ka marali kɛ walima ka a dafa"
+        ]
+      },
+      {
+        "title": "Kunnafoni mara yɔrɔ tigiya",
+        "paragraphs": [
+          "Baara min bɛ sɔn ka kɛ, o bɛ kɛ IATF GitHub jɛkulu kɔnɔ.",
+          "Repozitoriw bɛ to yen walasa porojɛkiti kelen-kelen bɛɛ ka forobaciyɛn sigi sen kan, hali n'a y'a sɔrɔ a tigilamɔgɔw bɛ yɛlɛma kɔfɛ."
+        ]
+      },
+      {
+        "title": "Sariya donni",
+        "paragraphs": [
+          "IATF baaraw bɛ baara kɛ ni copyleft yamaruya ye fo ni baara dɔ y'a fɔ cogo wɛrɛ la:"
+        ],
+        "items": [
+          "<strong>Kunnafoni:</strong> AGPL-3.0",
+          "<strong>Sɛbɛnni:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Masini ɲɛmɔgɔ walima baarakɛla",
+      "paragraphs": [
+        "Baara min bɛ sɔn ka kɛ, o baara kelen o kelen bɛɛ ka kan ka kɛ ni ɲɛmɔgɔ dɔ ye min tɔgɔ ye ko \"engineer responsable\" walima \"maintenant responsable\"."
+      ],
+      "items": [
+        "ɲɛjirali yiriwali forobaciyɛnko la",
+        "ka sɛbɛnmarayɔrɔ labɛncogo mara",
+        "ka ɲininkaliw lajɛ walima ka u ɲɛnabɔ ani ka ɲinini kɛ",
+        "ka fɛɛrɛw sugandi minnu nafa ka bon",
+        "k'a to mɔgɔw ka se k'u ka baaraw faamu"
+      ],
+      "footnote": "Nin ye nafolo marayɔrɔ jɔyɔrɔ ye. Jɛkulu ka yɛrɛmahɔrɔnya bɛ to IATF bolo. Nin jɔyɔrɔ in bɛ sɔrɔ nafolo marayɔrɔw marali la, fɛɛrɛsiraw, ani forobaciyɛnko labɛnni  a tɛ danbali sɔrɔli kɛli kɛ, laadalakow lakanani, walima baara kɛli jɔyɔrɔ minnu tɛ jama ka siraw kan."
+    },
+    "publicDevelopment": {
+      "title": "Jamanadenw ka yiriwali",
+      "paragraphs": [
+        "Projets lancé par l'IATF sont développés dans le public par défaut. Repositorio ye tiɲɛ sɔrɔyɔrɔ ye:"
+      ],
+      "items": [
+        "kunnafonisira",
+        "gɛlɛyaw",
+        "kunnafoniw",
+        "sirabakan sɛbɛnw",
+        "bilali tariku"
+      ],
+      "footnote": "Baara nafama dɔnniya man kan ka kɛ sigida kumaɲɔgɔnyaw dɔrɔn kɔnɔ walima aw ka sɛbɛnw kɔnɔ."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Jamanadenw ka sɛbɛnw",
+      "title": "Jamanadenw ka ɲinini sɛbɛnw"
+    },
+    "paragraphs": [
+      "IATF bɛ baara kɛ forobaciyɛn na ka kɛɲɛ n'a cogoya ye. Ɲininkaliw minnu bɛ don iATF fɛ ɛntɛrinɛti yɔrɔ la, e-mail, Discord, GitHub, walima iatf tɛmɛsira wɛrɛw bɛ se ka kɛ jama ka ɲinini sɛbɛnw ye.",
+      "IATF bɛ se ka ɲininkaliw sumaya, ka u labɛn, walima k'u labɛn ka ɲɛ sani u ka bɔ kɛnɛ kan walasa u ka se ka jateminɛ k'a sɔrɔ u ma kunnafoni kɛrɛnkɛrɛnnenw di mɔgɔw ma.",
+      "Jama ka ɲinini sɛbɛnw bɛ se ka mara IATF GitHub jɛkulu kɔnɔ, nin ɛntɛrinɛti yɔrɔ in kan, walima u fila bɛɛ.",
+      "Sanni a ka bɔ kɛnɛ kan, IATF bɛ mɔgɔ ka kunnafoniw, mɔgɔw ka ladɛrɛsiw, ani kunnafoni minnu bɛ se ka dɛmɛ di fɛɛrɛsiraw baarakɛlaw ma, n'o tɛ a ka c'a la a labɛnnen don ani a bɛnnen don.",
+      "Discord bɛ labaara walasa ka kunnafolifalen kɛ. IATF t'a kɛ ko Discord ka kumaɲɔgɔnyaw bɛ mara ka ɲɛ, ani kumalasetaw marali bɛ kɛ ni Discord ye. Ko latigɛ minnu bɛ kɛ Discord kɔnɔ, olu ka kan ka fara ɲɔgɔn kan ka kɛ forobaciyɛnw ye GitHub kan walima porojɛkiti ɲɛɛ kan.",
+      "Sɛgɛsɛgɛri sɛbɛnw tɛ sɔrɔ ɲinini kɛyɔrɔ la yɔrɔ min na o bɛ se ka kɛ fɛɛrɛ ye. Jamanadenw kɔrɔ ye ka se ka lajɛ ani ka jaabi di. A kɔrɔ tɛ ka ɲɛsin sɔrɔli ma tɔgɔ ɲinili fɛ.",
+      "IATF bɛ se ka kunnafoni di walima ka sɛbɛnw bɔ kɛnɛ kan, nka a tɛ se ka jɔsi ka bɔ mɔgɔ wɛrɛw ka fɛn dɔw la, i n'a fɔ cachew, kunnafoniw, forokow, sɛbɛnw, ɲinini motɛriw, Discord, walima sisitɛmu wɛrɛw.",
+      "Ni kunnafoni dɔ ka kan ka kɛ gundo ye, aw kana a ci IATF ka foroba siraw fɛ."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Jɛkulu jɔyɔrɔ",
+      "title": "Sigilan"
+    },
+    "lead": "Jɛkulu ɲɛmɔgɔ bɛ IATF ɲɛmaya kɛ jɛkulu ka baaraw la. O tɛ kelen ye ni porojɛkiti ɲɛmɔkɔ jɔyɔrɔ ye: a bɛ jɛkulu bɛɛ kun na, a tɛ don o don baara kɛli ɲɛ.",
+    "duties": {
+      "title": "Sigilan bɛ min kɛ",
+      "items": [
+        "A bɛ marabagaw ka siraw mara IATF GitHub jɛkulu kan",
+        "Sɛgɛsɛgɛliw kɛli baaraw sɔnni kan ani sɛbɛn mara latigɛli kan",
+        "A bɛ baara kɛ i n'a fɔ IATF ka kunnafonidila",
+        "A bɛ ɲɔgɔndanw labɛn san o san"
+      ],
+      "footnote": "Jɛkulu ɲɛmɔgɔ tɛ IATF wajibiya k'a yɛrɛkun di, ka baara sara, walima ka baara hakɛ bɛnkanw kɛ, ani a tɛ se ka fɛn kelen-kelenna marabagaw ka latigɛliw yɛlɛma dɔnniyaw sira kan."
+    },
+    "election": {
+      "title": "San o san sugandili",
+      "paragraphs": [
+        "Jamanakuntigi bɛ sugandi siɲɛ kelen san kɔnɔ. sugandili bɛ kɛ desanburukalo dɔgɔkun fila fɔlɔw kɔnɔ, jaabiw bɛ lase desanburu tile 15, ani fanga kura bɛ daminɛ zanwuyekalo tile fɔlɔ.",
+        "Mɔgɔ minnu bɛ se ka sugandi, olu ye mɔgɔw ye minnu ye baara kɛ IATF ka sɛbɛnmarayɔrɔ dɔ la san kɔnɔ ani u ye dɔ fara ɲɔgɔn kan ka don a la o san na.",
+        "O sugandili bɛ kɛ i n'a fɔ jama ka GitHub Discussion IATF ka marali so kɔnɔ, o de la, mɔgɔ sugandilenw, sugandili, ani jaabiw bɛɛ bɛ jama ka sɛbɛn kɔnɔ."
+      ]
+    },
+    "continuity": {
+      "title": "Kɔrɔɲɔgɔnmaya",
+      "paragraphs": [
+        "Ni sugandili ma kɛ san dɔ la, ɲɛmɔgɔ min bɛ baara la sisan, o bɛ to jɔyɔrɔ la fo ka se sugandili nata ma. O ye kuntaalajan ye, o tɛ waati wɛrɛ ye  o modɛli labɛnnen don walasa ka jɛkulu sigi sen kan ni baara ka dɔgɔ, a ma kɛ ka yɛlɛma dɔ wajibiya mɔgɔ si labɛnnen tɛ min kama.",
+        "Jɛkulu ɲɛmɔgɔ bɛ se ka bɔ a ka baara la tuma o tuma.Jɛkulu ka ɲɛmɔgɔw bɛ se fana ka sugandili kɛrɛnkɛrɛnnen dɔ bila sen kan ni dalilu dɔ ye, o bɛ kɛ ka kɛɲɛ ni sariya kelenw ye i n'a fɔ san o san sugandili."
+      ]
+    },
+    "current": {
+      "title": "Ɲɛmɔgɔ min bɛ yen sisan",
+      "fields": [
+        {
+          "label": "Sigilan",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Daɲɛ",
+          "value": "Fɔ ka se 2026 Desanburukalo ka sugandili ma"
+        },
+        {
+          "label": "Baarakɛyɔrɔ labɛnnen",
+          "value": "2026"
+        },
+        {
+          "label": "Jatikɛ wale fɔlɔ",
+          "value": "Desanburukalo san 2026"
+        }
+      ]
+    },
+    "footnote": "Ɲɛmɔgɔya jɔyɔrɔ sigira senkan san 2026 walasa ka jɛkulu ka ɲɛminɛli kɛ ka ɲɛ."
+  },
+  "continuity": {
+    "states": {
+      "title": "Porogaramu bɛ cogoya min na",
+      "paragraphs": [
+        "Baɲumankɛtɔnw bɛ baara kɛ ni forobaciyɛn suguya fitini dɔ ye:"
+      ],
+      "items": [
+        "Proposition",
+        "A bɛ sɔn",
+        "A bɛ baara kɛ",
+        "Sigiyɔrɔ",
+        "A bɛ mako ɲɛ tigi ɲini",
+        "Arkibɔw"
+      ],
+      "footnote": "Nin jamana ninnu b'a to a ka nɔgɔ ka sɛbɛnw sɛgɛsɛgɛ."
+    },
+    "reassignment": {
+      "title": "Sigiyɔrɔ kura ani sɛbɛn marali",
+      "paragraphs": [
+        "Ni ɲɛmɔgɔ dɔ bɔra baara la walima a tɛ baara kɛ, IATF bɛ se ka jɔyɔrɔ wɛrɛ di, ka baara jɔ, walima ka baara bila.",
+        "Baara dɔ fana bɛ se ka mara waati min na a daminɛ mako tun bɛ min na, n'a kɔlɔsili banna, walima ni baara tun tɛ se ka kɛ tuguni."
+      ],
+      "footnote": "Baara minnu maralen don, olu bɛ to mɔgɔw ɲɛ na fo ni sababu gɛlɛn dɔ bɛ yen min b'a to a tɛ se ka kɛ o cogo la."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Danfarali kunnafoni",
+      "title": "IATF tɛ fɛn minnu d'i ma"
+    },
+    "items": [
+      "client privé deliverié yé yé yé",
+      "baarakɛnafolo bɛnkanw",
+      "hakilina kelen kelen bɛɛ sɔnni",
+      "Jago kuntaalajan baara kɛli baara o baara kama"
+    ],
+    "footnote": "IATF ye forobaciyɛn lakodɔnnen dɔ ye, a tɛ fɛn dilannen dɔ ye."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "A ma sɔrɔ"
+  },
+  "hero": {
+    "eyebrow": "A ma sɔrɔ",
+    "title": "Kunnafoni min ɲinina, o ma sɔrɔ",
+    "lead": "Aw bɛ tɛmɛ sirabaw fɛ ka segin ka taa foroba yɔrɔ la.",
+    "support": [],
+    "actions": [
+      {
+        "label": "So kɔnɔ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "I ye sira min ɲini, o tɛ yen."
+    ],
+    "items": [
+      {
+        "label": "So kɔnɔ",
+        "href": "/"
+      },
+      {
+        "label": "Projètiw",
+        "href": "/projects/"
+      },
+      {
+        "label": "Fara ɲɔgɔn kan",
+        "href": "/join/"
+      },
+      {
+        "label": "Sigiyɔrɔ sɔrɔli",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ɲɛmɔgɔya",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kɛnɛya sabatili",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

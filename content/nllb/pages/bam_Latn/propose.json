@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Walasa ka se ka baara kɛ ka ɲɛ",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Walasa ka se ka baara kɛ ka ɲɛ",
+    "lead": "IATF bɛ ɲininkaliw sɛgɛsɛgɛ ka ɲɛsin porojɛliw ma minnu bɛ bɔ mago kɛrɛnkɛrɛnnen dɔ la.",
+    "support": [
+      "Aw mako t'a la k'a ɲɛfɔ ka ɲɛ, nka aw b'a fɛ ka gɛlɛya dɔ dɔn, a bɛ mɔgɔ minnu minɛ ani a nafa bɛ mun na, o de bɛ se ka kɛ aw ka baara daminɛ sababu ye."
+    ],
+    "actions": [
+      {
+        "label": "Ka ɲininkali daminɛ",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "I bɛ se ka Discord kɛ a nɔ na",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanw",
+      "title": "Sira min ka nɔgɔn, i bɛ o ta"
+    },
+    "intro": [
+      "Siraw bɛɛ bɛ don sɛgɛsɛgɛli kelen na."
+    ],
+    "items": [
+      {
+        "label": "Ɛntɛrinɛti yɔrɔ",
+        "body": "Sɛbɛn ɲɛsinnen bɛ o ma, aw bɛ se k'aw ka ɲininkali labɛn ka ɲɛ."
+      },
+      {
+        "label": "E-mail tɔgɔsɛbɛn",
+        "body": "Aw bɛ ɲininkali bila ka taa nin yɔrɔ la: {{contact.requestsEmail}}E-mail ɲininkaliw bɛ se ka kɛ forobaciyɛn ɲininkali sɛbɛnw ye sɛgɛsɛgɛli ni sɛbɛnni kɔfɛ."
+      },
+      {
+        "label": "Bɛnbaliya",
+        "body": "Ni o ka nɔgɔn, aw bɛ daminɛ yen. O ɲininkali bɛ taa ɲɛɲinini kelen na."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sani i ka fɛn dɔ deli",
+    "paragraphs": [
+      "IATF bɛ baara kɛ jama ɲɛfɛ. I bɛ se ka ɲininkaliw fara ɲɔgɔn kan ani k'u bɔ kɛnɛ kan i n'a fɔ jama ka ɲinini sɛbɛnw IAT F GitHub jɛkulu kɔnɔ, nin ɛntɛrinɛti yɔrɔ la, walima u fila bɛɛ.",
+      "Aw kana mɔgɔw ka ladɛrɛsiw, telefɔni nimɔrɔw, kɛnɛyako kunnafoniw, walima kunnafoni minnu bɛ se ka mɔgɔ kelen-kelenw dɛmɛ ka baara kɛ ni fɛɛrɛw ye, fɔ n'a kɛra wajibi ye ani ni IATF bɛ se k'a lajɛ.",
+      "IATF bɛ banakɔtaayɔrɔ kunnafoniw jɔ sani a ka ɲinini sɛbɛnw bɔ kɛnɛ kan."
+    ]
+  },
+  "review": {
+    "title": "Kunnafoni kura sɔrɔli ɲɛnafilɛw",
+    "paragraphs": [
+      "Ni i ye ɲininkali kɛ, o tɛ se k'a jira ko a minɛna i fɛ.",
+      "IATF bɛ ɲininkaliw lajɛ baara bɛnnenya, waleyali, nafa, ani ni baara ka kan ka kɛ forobaciyɛn dɔ kɔnɔ.",
+      "Laɲini dɔw bɛ se ka ban, ka u bila waati wɛrɛ la, walima ka u yɛlɛma ka sɔrɔ ka sɔn u ma."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Kunnafonisirali",
+      "title": "Ka ɲininkali kɛ"
+    },
+    "fields": [
+      {
+        "kind": "kunnafolifalen",
+        "name": "ɲininikɛla",
+        "label": "I tɔgɔ walima i ka jɛkulu",
+        "helper": "Jɔni de bɛ o ɲininkali kɛ?"
+      },
+      {
+        "kind": "sugandili",
+        "name": "sira min b'a to a bɛ se ka taa yɔrɔ la",
+        "label": "Kunnafoni sira min ka fisa",
+        "helper": "A ka kan ka segin cogo jumɛn na?",
+        "required": true,
+        "options": [
+          "E-mail tɔgɔsɛbɛn",
+          "Bɛnbaliya"
+        ]
+      },
+      {
+        "kind": "kunnafolifalen",
+        "name": "Kunnafoniw",
+        "label": "Sigiyɔrɔ kunnafoniw",
+        "helper": "Email address wali Discord handle ka follow-up ke liye.",
+        "placeholder": "Adrɛsi ɛntɛrɛnɛti la walima Discord tɔgɔla",
+        "required": true
+      },
+      {
+        "kind": "kunnafolifalen",
+        "name": "bamanankan",
+        "label": "Bamanankan",
+        "helper": "Aw ka kan min ka di aw ye, ni o bɛ se ka kɛ.",
+        "value": "bamanankan"
+      },
+      {
+        "kind": "sɛbɛn yɔrɔ",
+        "name": "gɛlɛya",
+        "label": "I b'a fɛ ka gɛlɛya jumɛn furakɛ?",
+        "helper": "A ɲɛfɔ ni kuma nɔgɔmanw ye.",
+        "required": true
+      },
+      {
+        "kind": "sɛbɛn yɔrɔ",
+        "name": "mɔgɔ minnu degunnen don",
+        "label": "A bɛ jɔn de minɛ?",
+        "helper": "Nin bɛ se ka jɔn dɛmɛ?",
+        "required": true
+      },
+      {
+        "kind": "sɛbɛn yɔrɔ",
+        "name": "extraContext[yɛlɛma _ modifier le wikicode]",
+        "label": "Kunnafoni wɛrɛw",
+        "helper": "Fɛn wɛrɛ fɔ min bɛ dɛmɛ ka mako ɲɛ ɲɛfɔ: mun na a nafa ka bon, misaliw, ɲɛjiraliw, porogaramu hakilina gɛlɛn, walima waati dantigɛlenw."
+      },
+      {
+        "kind": "sugandili",
+        "name": "openSourceConsent[yɛlɛma _ modifier le wikicode]",
+        "label": "I bɛ se ka baara kɛ ni forobaciyɛn dayɛlɛlen ye wa?",
+        "helper": "Baara minnu minɛna, olu ye forobaciyɛnw ye minnu bɛ sɔrɔ IATF fɛ.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ɔnhɔn",
+          "Ɔn-ɔn",
+          "An ma a dɔn fɔlɔ"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ni a minɛna",
+      "title": "Ka sɔnni kɔrɔ ye min ye"
+    },
+    "items": [
+      "IATF ka GitHub jɛkulu ka forobaciyɛn lakodɔnnen",
+      "Engineer ɲɛmɔgɔ min bɛ baara kɛ ni o ye",
+      "copyleft yamaruya code ani porojɛ materialw kama",
+      "yiriwali forobaciyɛn kɔnɔ",
+      "IATF sigida la tɔgɔ sɛbɛnni"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kuma daminɛ",
+      "title": "A ka c'a la, i ka deliliw ka surun ani k'a jɛya, o bɛ se ka kɛ a daminɛ ye."
+    },
+    "paragraphs": [
+      "N'i b'a fɛ k'i ka baara kɛ ka ɲɛ ani n'i y'a ye ko a ka kan ka kɛ foroba baara ye, i k'a ci an ma."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

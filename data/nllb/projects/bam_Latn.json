@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF ka Ɛntɛrinɛti yɔrɔ",
+    "summary": "International Accessibility Task Force ka yɔrɔ forobaciyɛn.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF mago tun bɛ forobaciyɛn lakanani la min bɛ misali ɲɛfɔ, ka baaraw sɛbɛn, ani ka dɛmɛ donbaaw bila sira ɲuman kan ka taa ɲɛ.",
+    "why": "O yɔrɔ in ye IATF ka forobaciyɛnba ye. A jɔra i n'a fɔ porojɛkiti fitinin, o la a ka nɔgɔn ka kalan, ka bayɛlɛma, ani k'a mara kɛnɛ kan.",
+    "scopeIn": [
+      "Jamanadenw ka baraw munnu bɛ IATF modɛli ɲɛfɔ",
+      "IATF ka porojɛkitiw lakodɔnnenw, minnu bɛ baara la, ani minnu maralen don, ni u cogoya, u marabaga, u marayɔrɔ ani u jirali ye",
+      "Ɲininkali sɔrɔli kɛnɛ ani forobakalan",
+      "Ɲɛmɔgɔya ani kɛnɛya sigidaw",
+      "Bamanankan bɔyɔrɔ n'a jɔcogo labɛnnen don bayɛlɛmani kama",
+      "Static deployment on Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Sigiyɔrɔ jɛkuluw, jatew, walima donni siraw",
+      "Baarakɛyɔrɔ min bɛ forobaciyɛnw ka kodɔn mara, min bɛ sɔrɔ baara kelen-kelen bɛɛ ka sɛbɛnmarayɔrɔ la",
+      "Kumaɲɔgɔnya waati yɛrɛ la, min bɛ kɛ ni Discord ye",
+      "Gɛlɛya tuguli baara kelen-kelenw kama, min sigilen don baara kelen kelen bɛɛ ka GitHub marayɔrɔ la"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF ka selfie",
+    "summary": "IATF ka prototip fɔlɔ dɔ, min maralen kɔ ka sɔrɔ ka se a jɔyɔrɔ la.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Sɛgɛsɛgɛri daminɛni ka ɲɛsin fɛɛrɛ dɔ ma min ɲɛsinnen don nɔgɔya ma IATF ka fanga kɔrɔ.",
+    "why": "A bɛ to ka mara i n'a fɔ baara sɛbɛn, hali ni a ka yiriwali jɔra.",
+    "scopeIn": [
+      "Baara min ɲɛsinnen bɛ sɔrɔli ma n'a bɛ mara forobaciyɛnw kɔnɔ"
+    ],
+    "scopeOut": [
+      "Ka baara kɛ ka ɲɛsin yiriwali ma walima ka baara kɛ ni fɛn ye",
+      "Ɲɛnɛmaya juru donni",
+      "Ka baara kɛ ni minɛn min ye"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF sigida bot, archived after reaching a natural stopping point.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation around IATF community channels (IATF sigida taabolow sira fɛ).",
+    "why": "A bɛ to ka mara i n'a fɔ baara sɛbɛn, hali ni a ka yiriwali jɔra.",
+    "scopeIn": [
+      "Discord automation around IATF community channels, kept as a public record, min bɛ mara i n'a fɔ jama ka sɛbɛn"
+    ],
+    "scopeOut": [
+      "Ka baara kɛ ka ɲɛsin yiriwali ma walima ka baara kɛ ni fɛn ye",
+      "Ɲɛnɛmaya juru donni",
+      "Ka baara kɛ ni minɛn min ye"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ka fara IATF kan",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ka fara IATF kan",
+    "lead": "Mɔgɔ bɛ se ka don a la cogo caman na, i n'a fɔ ka dɛmɛ don fɛɛrɛsiraw la, ka porogaramuw dilan, ka u bayɛlɛma, k'u sɛgɛsɛgɛ, walima ka baara dɔ kɛ. Ɲininkaliw ni latigɛliw bɛ kɛ jama ɲɛfɛ GitHub ni Discord kan.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Baaraw",
+      "title": "Mɔgɔ bɛ se ka dɛmɛ don cogo min na"
+    },
+    "items": [
+      "<strong>Baara dɔ ɲini.</strong> Ni aw ye se sɔrɔli baliya ye min bɛ se ka ɲɛnabɔ ni forobaciyɛn dayɛlɛlen ye, aw bɛ o ci ɲininkali kɛyɔrɔ fɛ.",
+      "<strong>Kɔrɔbɔli ni sɛgɛsɛgɛli.</strong> I bɛ IATF ka baaraw kɛ ni dɛmɛdɛmɛ fɛɛrɛw ye i bɛ minnu labaara, ka kunnafoni di min bɛ baara kɛ ani min tɛ baara kɛ, ani ka filiw bila ka ɲɛsin ɲɔgon ma.",
+      "<strong>A bayɛlɛma.</strong> Kunnafonisiraw bɛ sɔrɔ angilɛkan na fɔlɔ. bayɛlɛmaliw bɛ fara u kan tuma min na sɛbɛnnikɛlaw bɛ sɔrɔ, ka daminɛ ni espagnolkan ye.",
+      "<strong>I bɛ jɔli kɛ.</strong> I bɛ se ka ɲininkaliw sɔrɔ IATF ka fɛn mara yɔrɔ o yɔrɔ la, ka ɲininiw ci, walima ka baara dɔ kɛ i yɛrɛ ye i n'a fɔ o baara ɲɛmɔgɔ.",
+      "<strong>Aw bɛ to a kan.</strong> Baara kɛlen bɛ minnu na, tuma dɔw la, u mako bɛ baarakɛla kura la."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanw",
+      "title": "Ni IATF bɛ baara kɛ foroba la"
+    },
+    "items": [
+      "<strong>GitHub kɔnɔ.</strong> Ɲininkaliw, ka ɲinini kɛ, ka forobaciyɛnw bɔ kɛnɛ kan, ani ka porojɛkitiw sɛbɛn.",
+      "<strong>Bɛnbaliya.</strong> Ɲininkali ɲɛnama, labɛnni, ani ɲininkaliw.",
+      "<strong>I bɛ se ka e-mail ci.</strong> Ka baara kɛ n'a ye <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ni GitHub walima Discord tɛ bɛn."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fɛɛrɛ wɛrɛ",
+      "title": "I b'a fɛ ka donni kɛ cogo min na, o sugandi"
+    },
+    "paragraphs": [
+      "Kanw bɛɛ bɛ don forobaciyɛn kelen na ani forobakɛnɛ kelen na."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
