@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF web sitesi",
+    "summary": "Uluslararası Erişilebilirlik Görev Gücü'nün halka açık sitesi.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF, modeli açıklayan, projeleri listeleyen ve katılımcıları doğru bir sonraki adıma yönlendiren istikrarlı bir kamu evine ihtiyaç duyuyordu.",
+    "why": "Site, IATF'in halka açık ön kapısıdır. Küçük bir statik proje olarak inşa edilmiştir, böylece açıkta okumak, çevirmek ve bakım yapmak kolaydır.",
+    "scopeIn": [
+      "IATF modelini açıklayan halka açık açılış sayfaları",
+      "Durum, bakıcı, depo ve demo ile kabul edilen, aktif ve arşivlenmiş IATF projelerinin kamu kayıt defteri",
+      "Bir başvuru giriş sayfası ve formu",
+      "Yönetim ve şeffaflık sayfaları",
+      "Çeviri için hazır yapı ile İngilizce kaynak",
+      "Cloudflare Workers Static Assets üzerinde statik dağıtım"
+    ],
+    "scopeOut": [
+      "Özel üye alanları, hesaplar veya giriş akışları",
+      "Her projenin kendi depolarında yaşayan proje kaynak kodunun barındırılması",
+      "Discord'da yaşayan gerçek zamanlı sohbet",
+      "Her projenin GitHub deposunda yaşayan bireysel projeler için sorun izleme"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Doğal bir durma noktasına ulaştıktan sonra arşivlenmiş erken bir IATF prototipi.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF şemsiyesi altında erişilebilirliğe odaklanan bir aracın erken araştırılması.",
+    "why": "Depo, aktif geliştirme durdurulmasına rağmen, çalışmanın bir kaydı olarak halka açık tutulur.",
+    "scopeIn": [
+      "Kamusal bir kayıt olarak tutulan erişilebilirlik odaklı bir aracın erken prototipi"
+    ],
+    "scopeOut": [
+      "Aktif geliştirme veya özellik çalışması",
+      "Bakım yükümlülükleri",
+      "Üretimde önerilen kullanım"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bir IATF topluluğu botu, doğal bir durma noktasına ulaştıktan sonra arşivlendi.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF topluluk kanalları etrafında otomasyon.",
+    "why": "Depo, aktif geliştirme durdurulmasına rağmen, çalışmanın bir kaydı olarak halka açık tutulur.",
+    "scopeIn": [
+      "IATF topluluk kanalları etrafındaki anlaşmazlık otomasyonu, kamuya açık bir kayıt olarak tutulur"
+    ],
+    "scopeOut": [
+      "Aktif geliştirme veya özellik çalışması",
+      "Bakım yükümlülükleri",
+      "Üretimde önerilen kullanım"
+    ]
+  }
+]
