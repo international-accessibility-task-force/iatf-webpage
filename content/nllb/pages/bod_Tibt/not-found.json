@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "རྙེད་མ་སོང་།"
+  },
+  "hero": {
+    "eyebrow": "རྙེད་མ་སོང་།",
+    "title": "འཚོལ་བའི་ཤོག་ངོས་མ་རྙེད་པས།",
+    "lead": "འོག་གི་ལམ་ཆེན་པོའ ་ི སྟེང་ནས་ས་ཁུལ་ཡོངས་ལ་བསྐྱར་དུ་འགྲོ་དགོས།",
+    "support": [],
+    "actions": [
+      {
+        "label": "ཁོར་ཡུག",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ཁྱེད་ཀྱིས་ཞུས་པའི་ལམ་ནི་མེད་པ་ཡིན།"
+    ],
+    "items": [
+      {
+        "label": "ཁོར་ཡུག",
+        "href": "/"
+      },
+      {
+        "label": "ལས་འགུལ་ཁག་",
+        "href": "/projects/"
+      },
+      {
+        "label": "འབྲེལ་གཏུགས།",
+        "href": "/join/"
+      },
+      {
+        "label": "འགྲུལ་སྐྱོད་བྱེད་ཐབས།",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "སྲིད་སྐྱོང་།",
+        "href": "/governance/"
+      },
+      {
+        "label": "གསལ་བསྒྲགས།",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

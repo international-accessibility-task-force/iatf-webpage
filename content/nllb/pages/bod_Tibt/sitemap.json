@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ས་གནས་ཀྱི་ས་ཁྲ།"
+  },
+  "hero": {
+    "eyebrow": "ཚད་གཞི།",
+    "title": "ས་གནས་ཀྱི་ས་ཁྲ།",
+    "lead": "IATF.CC ཡི་སྤྱི་ཁྱབ་ཤོག་ངོས་ཚང་མ་གནས་གཅིག་ཏུ་ཡོད།"
+  },
+  "sections": [
+    {
+      "title": "ཤོག་ངོས་གཙོ་བོ།",
+      "items": [
+        {
+          "label": "ཁོར་ཡུག",
+          "href": "/"
+        },
+        {
+          "label": "ལས་འགུལ་ཁག་",
+          "href": "/projects/"
+        },
+        {
+          "label": "ལས་འགུལ་ཞིག་སློང་བ།",
+          "href": "/propose/"
+        },
+        {
+          "label": "སྲིད་སྐྱོང་།",
+          "href": "/governance/"
+        },
+        {
+          "label": "འབྲེལ་གཏུགས།",
+          "href": "/join/"
+        },
+        {
+          "label": "འགྲུལ་སྐྱོད་བྱེད་ཐབས།",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "གསལ་བསྒྲགས།",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ལས་འགུལ་ཁག་",
+  "projectsEmpty": "ད་ལྟའི་བར་ལས་འཆར་གསལ་བསྒྲགས།"
+}
