@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Phihlelelo",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Phihlelelo",
+    "lead": "IATF e ikemišeditše go boloka Wepesaete ye e le bonolo, e balega gabonolo, e kgona go fihlelelwa ka go diriša keyboard e bile e dirišana le thekinolotši ya go thuša.",
+    "support": [
+      "Bakeng sa phihlelelo ya webo, IATF e diriša [W3C WAI](https://www.w3.org/WAI/) Go fihlelela ga kgonthe gape go laolwa ke phihlelo e lebanyago ya badiriši ba ditheknolotši tše di thušago."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Go bega",
+      "title": "Go bega bothata bja phihlelelo"
+    },
+    "paragraphs": [
+      "Ge e ba o hwetša lepheko la go fihlelela Wepesaeteng ye, hle bega ka e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Dipego tše di holago di akaretša:"
+    ],
+    "items": [
+      "letlakala leo bothata bo diregilego go lona",
+      "seo o bego o leka go se dira",
+      "gore o be o diriša thekinolotši efe ya go thuša, sebadi goba sedirišwa sefe, ge e ba go le bohlokwa",
+      "Ke'ng seo se ilego sa senyega?",
+      "seo se ka bego se thušitše"
+    ],
+    "footnote": "Ga go nyakege gore o ngwale pego ya semmušo ya phošo. Tlhaloso e kwagalago e lekane."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Go swara",
+      "title": "Go swaragana le ditaba tša setšhaba"
+    },
+    "paragraphs": [
+      "Ditaba tša phihlelelo di ka akaretšwa bobolokelong bjo bo swanetšego bja setšhaba e le gore di ka lokišwa phatlalatša. Dintlha tša motho ka noši tša go ikgokaganya le tsebišo e sa nyakegego ya ka sephiring di a tlošwa pele ga phatlalatšo.",
+      "Ge e ba pego ya gago e akaretša tsebišo ya motho ka noši, e bolele ka mo go kwagalago molaetšeng."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Boemo bja gona bjale",
+      "title": "Dithibelo tše di tsebjago"
+    },
+    "paragraphs": [
+      "Wepesaete ye ke e nyenyane ka boomo e bile e dula e le gona. Diphetolelo tša maleme a mangwe di ka ba di sa felela ge go lokišetšwa diphetolelo."
+    ]
+  }
+}

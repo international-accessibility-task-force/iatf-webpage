@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ikopanye le IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ikopanye le IATF",
+    "lead": "Boleloko bo buletšwe. Go na le ditsela tše mmalwa tša go tšea karolo, go sa šetšwe gore o ithekga ka theknolotši ya go thuša, go aga software yeo e hwetšagalago, go fetolela, go leka goba go hlokomela protšeke. Dipoledišano le diphetho di direga phatlalatša go GitHub le Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Mediro",
+      "title": "Ditsela tša go tsenya letsogo"
+    },
+    "items": [
+      "<strong>Kgopela mošomo.</strong> Ge e ba o kopana le lepheko la go fihlelela leo le ka rarollwago ke mananeo a batho bohle ao a nago le mothopo o bulegilego, le romele ka go amogela kgopelo.",
+      "<strong>Hlahloba le go hlahloba.</strong> Leka diprotšeke tša IATF ka theknolotši ya go thuša yeo o e dirišago, bega seo se šomago le seo se sa šomego, gomme o bege mathata ka go lebanya bobolokelong bjo bo swanetšego.",
+      "<strong>Fetolela.</strong> Tshedimošo ya mothopo e gatišwa ka Seisemane sa motheo pele. Difetolelo di a okeletšwa ge badiriši ba hwetšagala, go thoma ka Sepaniši.",
+      "<strong>Go aga.</strong> Kgetha mathata ka gare ga bobolokelo le ge e le bofe bja IATF, romela dikgopelo tša go goga, goba tšea protšeke e le moentšeneare wa yona yo a ikarabelago.",
+      "<strong>Kgomarela.</strong> Diprotšeke tšeo di šetšego di le gona ka dinako tše dingwe di nyaka mohlokomedi yo mofsa."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Dikanale",
+      "title": "Moo IATF e šomago phatlalatša"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Ditaba, dikgopelo tša go goga, dikgatišo le direkoto tša projeke.",
+      "<strong>Go se kwane.</strong> Poledišano e phelago, thulaganyo le dipotšišo tše di sa rulaganyetšwago.",
+      "<strong>Go romela melaetša ka e-mail.</strong> Diriša <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ge e ba GitHub goba Discord di sa swane."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kgato e Latelago",
+      "title": "Kgetha kanegelo yeo e sepedišanago le kamoo o nyakago go tsenya letsogo ka gona"
+    },
+    "paragraphs": [
+      "Dikanale ka moka di tsenya tshedimošo e swanago ya phatlalatša le bobolokelo bjo bo swanago bja phatlalatša."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

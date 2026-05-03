@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Wepsaete ya IATF",
+    "summary": "Wepesaete ya phatlalatša ya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF e be e nyaka legae la setšhaba leo le tsepamego leo le hlalosago mohlala, le lokeletšago diporotšeke le go bontšha bao ba thušago gore ba gate mogato o latelago o nepagetšego.",
+    "why": "Wepesaete ye ke mojako wa ka pele wa IATF. E agilwe bjalo ka projeke e nyenyane e sa fetogego ka gona e dula e le bonolo go e bala, go e fetolela le go e hlokomela ka ntle.",
+    "scopeIn": [
+      "Matlakala a go fihlelela a setšhaba ao a hlalosago mohlala wa IATF",
+      "Rejistara ya setšhaba ya diprotšeke tša IATF tšeo di dumeletšwego, tšeo di šomago le tšeo di bolokilwego ka gare ga diakhaebe tšeo di nago le maemo, mohlokomedi, bobolokelo le ponagatšo",
+      "Letlakala la go amogela kgopelo le foromo",
+      "Matlakala a pušo le ponagatšo",
+      "Mothopo wa Seisemane o na le sebopego seo se lokišeditšwego go fetolelwa",
+      "Tšhomišo ya Static go Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Mafelo a maloko a poraebete, diakhaonte, goba melapo ya go tsena",
+      "Go boloka khoutu ya mothopo wa protšeke, yeo e dulago ka bobolokelong bja projeke e nngwe le e nngwe",
+      "Poledišano ya nako ya kgonthe, yeo e phelago ka go se kwane",
+      "Tshepetšo ya ditaba bakeng sa diprotšeke tša motho ka o tee, yeo e dulago polokelong ya projeke ye nngwe le ye nngwe ya GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie ya IATF",
+    "summary": "Seswantšho sa pele sa IATF, seo se bolokilwego ka morago ga go fihla lefelong la tlhago la go ema.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Nyakišišo ya pele ya sedirišwa seo se theilwego godimo ga phihlelelo ka tlase ga sekgoba sa IATF.",
+    "why": "Polokelo e bolokwa phatlalatša e le pego ya mošomo, gaešita le ge tlhabollo e tšwelago pele e kgaoditše.",
+    "scopeIn": [
+      "Mohlala wa mathomo wa sedirišwa seo se theilwego go fihleleleleng seo se bolokilwego bjalo ka rekoto ya phatlalatša"
+    ],
+    "scopeOut": [
+      "Tšwetšopele yeo e tšwelago pele goba mošomo wa sebopego",
+      "Ditlamego tša tlhokomelo",
+      "Tšhomišo ye e šišintšwego tšweletšong"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot ya setšhaba ya IATF, yeo e bolokilwego ka morago ga go fihla lefelong la go ema la tlhago.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Go itiriša go dikanale tša setšhaba tša IATF.",
+    "why": "Polokelo e bolokwa phatlalatša e le pego ya mošomo, gaešita le ge tlhabollo e tšwelago pele e kgaoditše.",
+    "scopeIn": [
+      "Boithomedi bja go se kwane go dikanale tša setšhaba sa IATF, bo bolokilwe bjalo ka rekoto ya setšhaba"
+    ],
+    "scopeOut": [
+      "Tšwetšopele yeo e tšwelago pele goba mošomo wa sebopego",
+      "Ditlamego tša tlhokomelo",
+      "Tšhomišo ye e šišintšwego tšweletšong"
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Go tloga go nyakegong ya go hwetšagala go ya go di-repo tša setšhaba",
+    "lead": "IATF e thuša mekgatlo, dihlopha le batho gore ba fetole dinyakwa tša kgonthe tša go fihlelela go ba diprotšeke tša setšhaba tša mothopo o bulegilego.",
+    "support": [
+      "Diprotšeke tšeo di amogetšwego di gatišwa ka mokgatlong wa IATF GitHub ka tlase ga laesense ya copyleft gomme di tšweletšwa phatlalatša ke moentšeneare yo a ikarabelago."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mokgwa wa go šoma wa setšhaba",
+      "title": "Tsela e bonolo ya phatlalatša ya mananeo ao a hwetšagalago"
+    },
+    "paragraphs": [
+      "Ka foromo, motho yo mongwe le yo mongwe a ka romela bothata bja phihlelelo go IATF. Ge sehlopha se ka bo tšea, polokelo ya setšhaba ya GitHub e a bulwa bakeng sa mošomo.",
+      "Porojeke e nngwe le e nngwe yeo e amogetšwego e na le legae la phatlalatša leo le lego molaleng bakeng sa khoutu, ditaba, ditokumente le ditokollo, ka tšwelopele yeo e eteletšwego pele ka ntle ke moentšeneare yo a ikarabelago."
+    ],
+    "specCard": {
+      "title": "Mokgwa wa go šoma wa setšhaba",
+      "terms": [
+        {
+          "term": "Go nyakega",
+          "definition": "Bothata bja kgonthe bja go fihlelela"
+        },
+        {
+          "term": "Tshekatsheko",
+          "definition": "Go swanelega ga thomo le kgonagalo ya tirišo"
+        },
+        {
+          "term": "Lefelo la projeke",
+          "definition": "Polokelo ya setšhaba ya GitHub"
+        },
+        {
+          "term": "Taolo",
+          "definition": "Boikarabelo bja mokgatlo wa IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Tshepedišo",
+      "title": "Kamoo e šomago ka gona",
+      "intro": "Mohlala o dula o le o monyenyane ka maikemišetšo e le gore go be bonolo go latela tsela ya batho bohle."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Go romelwa kgopelo",
+        "paragraphs": [
+          "Mokgatlo, sehlopha goba motho yo mongwe le yo mongwe a ka romela kgopelo yeo e theilwego go nyakegong ya kgonthe ya go fihlelela.",
+          "Dikgopelo di ka thoma ka wepesaete, ka e-meile go <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, goba ka go diriša go se kwane."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF e a lekola",
+        "paragraphs": [
+          "Re hlahloba go swanelega ga modiro, tekanyo ya tirišo, le ge e ba modiro o swanetše go ba ka gare ga modiro wa phatlalatša wa mothopo o bulegilego."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Polokelo ya setšhaba e a hlongwa",
+        "paragraphs": [
+          "Ge e ba projeke e amogelwa, e gatišwa ka mokgatlong wa IATF GitHub ka tlase ga laesense ya copyleft.",
+          "Polokelo e ba legae la phatlalatša la khoutu, ditaba, ditokumente le ditokollo."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Moentšeneare yo a ikarabelago o etelela pele modiro",
+        "paragraphs": [
+          "Moentšeneare yo a ikarabelago o abelwa polokelong ya polane gomme tšwelopele e direga phatlalatša."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ngwadišo",
+      "title": "Rejistara ya setšhaba ya diprotšeke"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Thoma mo",
+      "title": "Hlahloba mošomo wo o lego gona goba o thome projeke ya kgonthe"
+    },
+    "paragraphs": [
+      "Diriša ngwadišo go bona seo e šetšego e le sa bohle, goba thoma go tsenya ge e ba bothata bjo itšego bja go fihlelela bo swanetše go fetoga projeke."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

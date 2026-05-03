@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Diprotšeke tša phihlelelo ya setšhaba",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Diprotšeke tša phihlelelo ya setšhaba",
+    "lead": "Rejistara ye e lokeletša diprotšeke tša setšhaba tšeo di hlokomelwago ka IATF. Diprotšake tše di dumeletšwego tša phihlelelo, mananeokgoparara a lefelo, le diprototšope tšeo di bolokilwego di dula di bonagala mo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ngwadišo",
+      "title": "Rejistara ya gona bjale"
+    },
+    "intro": [
+      "Diprotšeke tšeo di amogetšwego di lokeleditšwe mo ge di šetše di gatišitšwe."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Romela kgopelo",
+      "title": "Fetoša senyakwa sa kgonthe sa phihlelelo go ba protšeke ya setšhaba"
+    },
+    "paragraphs": [
+      "IATF e hlahloba dinyakwa tša kgonthe tša phihlelelo tšeo di ka fetolelwago go ba mošomo o holago wa mothopo o bulegilego wa bohle."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ga go na diprotšeke tšeo di sa tšwago go gatišwa",
+    "paragraphs": [
+      "IATF e lokišetša sehlopha sa yona sa mathomo sa merero ya phatlalatša.",
+      "O sa dutše o ka romela kgopelo ge e ba o e nyaka ka go lebanya."
+    ]
+  }
+}

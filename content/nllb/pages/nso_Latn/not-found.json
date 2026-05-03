@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ga se ya hwetšwa"
+  },
+  "hero": {
+    "eyebrow": "Ga se ya hwetšwa",
+    "title": "Letlakala leo le kgopetšwego ga se la hwetšwa",
+    "lead": "Diriša ditsela tše dikgolo tšeo di lego ka mo tlase go boela lefelong la batho bohle.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Legae",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Tsela yeo o e kgopetšego ga e gona."
+    ],
+    "items": [
+      {
+        "label": "Legae",
+        "href": "/"
+      },
+      {
+        "label": "Diprotšeke",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ikopanye le rena",
+        "href": "/join/"
+      },
+      {
+        "label": "Phihlelelo",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pušo",
+        "href": "/governance/"
+      },
+      {
+        "label": "Go ba le ponagatšo",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

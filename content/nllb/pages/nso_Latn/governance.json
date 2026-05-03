@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Taolo le mohlala wa bobolokelo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Taolo le mohlala wa bobolokelo",
+    "lead": "IATF e boloka diprotšeke tša phihlelelo e le tša phatlalatša, di balega gabotse e bile di kgona go hlokomelwa.",
+    "support": [
+      "Letlakala le le hlalosa seo se swanelegago, kamoo bobolokelo bo swarwago ka gona, le gore ke boikarabelo bofe bjo bo lego boemong bja bobolokelong bjo bo šomago ka morago ga go amogelwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Melao",
+      "title": "Go swanelega ga thomo, go ba mong, go fana ka laesense"
+    },
+    "cards": [
+      {
+        "title": "Go swanelega ga thomo",
+        "paragraphs": [
+          "IATF e amogela mošomo wo o rarollago lepheko la kgonthe la go fihlelela gomme o na le mohola wa phatlalatša o lego molaleng.",
+          "Projeke e swanetše go ba le mohola go feta mokgwa o tee wa go šoma wa praebete le go šoma bjalo ka bobolokelo bja phatlalatša.",
+          "Bakeng sa phihlelelo ya webo, IATF e diriša [W3C WAI](https://www.w3.org/WAI/) Phihlelo e lebanyago ya badiriši ba ditheknolotši tše di thušago le yona ke bohlatse bjo bo šomago bja seo se šomago tirišong ya kgonthe."
+        ]
+      },
+      {
+        "title": "Kamogelo ya protšeke",
+        "paragraphs": [
+          "Kgopelo e ka amogelwa ge e le gore tshekatsheko e bontšha gore:"
+        ],
+        "items": [
+          "e rarolla senyakwa sa kgonthe sa go fihlelela",
+          "bothata bo molaleng ka mo go lekanego go ka bo hlahloba",
+          "tekanyetšo e nepagetše ka mo go lekanego go ka thoma",
+          "mošomo o sepelelana le thomo ya IATF",
+          "go na le tsela ya maleba ya go hlokomela goba go feleletša"
+        ]
+      },
+      {
+        "title": "Botho bja bobolokelo",
+        "paragraphs": [
+          "Diprotšeke tše di amogetšwego di hlolwa ka tlase ga mokgatlo wa IATF GitHub.",
+          "Dipolokelo di dula moo e le gore modiro o mongwe le o mongwe o boloke legae la setšhaba le le tsepamego, gaešita le ge bahlokomedi ba ka fetoga ka morago."
+        ]
+      },
+      {
+        "title": "Go fana ka laesense",
+        "paragraphs": [
+          "Diprotšeke tša IATF di diriša laesense ya copyleft ka ntle le ge protšeke e bolela ka tsela e nngwe:"
+        ],
+        "items": [
+          "<strong>Khoutu:</strong> AGPL-3.0",
+          "<strong>Ditokumente:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Moentšeneare yo a ikarabelago goba mohlokomedi",
+      "paragraphs": [
+        "Projeke e nngwe le e nngwe yeo e dumelelwago e swanetše go ba le moentšeneare yo a nago le boikarabelo goba mohlokomedi. Motho yoo a ka fiwa phihlelelo ya taolo go bobolokelo gomme go letetšwe gore:"
+      ],
+      "items": [
+        "tšwetšopele ya tlhahlo ya setšhaba",
+        "hlokomela sebopego sa bobolokelo",
+        "go lekola goba go laola ditaba le dikgopelo tša go goga",
+        "ngwala diphetho tše bohlokwa tša sethekniki",
+        "dira gore modiro o kwešišege go ba bangwe"
+      ],
+      "footnote": "Se ke boikarabelo bja maemo a bobolokelo. Botho bja mokgatlo bo dula le IATF. Boikarabelo mo ke taolo ya polokelo, tlhahlo ya tša setegeniki, le tirišano ya setšhaba  e sego kabo ya poraebete ye e se nago mellwane, kopanyo ya setlwaedi, goba ditlamego tša maemo a tirelo ka ntle ga mmapa wa tsela wa setšhaba."
+    },
+    "publicDevelopment": {
+      "title": "Tlhabollo ya setšhaba",
+      "paragraphs": [
+        "Diprotšeke tšeo di thongwago ka IATF di tšweletšwa phatlalatša ka go se lebanye. Polokelo ke mothopo wa phatlalatša wa nnete ya:"
+      ],
+      "items": [
+        "Khoutu ya mothopo",
+        "ditaba",
+        "ditokomane",
+        "Ditšhupetšo tša tsela",
+        "Histori ya go lokollwa"
+      ],
+      "footnote": "Tsebo e bohlokwa ya projeke ga se ya swanela go dula feela dipoledišanong tša ka sephiring goba mapokising a go romelwa melaetša."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Direkoto tša setšhaba",
+      "title": "Direkoto tša kgopelo ya setšhaba"
+    },
+    "paragraphs": [
+      "Dikgopelo tšeo di tsenago ka IATF ka websaete, emeile, Discord, GitHub, goba dikanale tše dingwe di ka ba direkoto tša kgopelo tša setšhaba.",
+      "Rekoto ya kgopelo ya phatlalatša ga se gore ke molaetša wa mathomo. IATF e ka akaretša, ya phumola, goba ya rulaganya kgopelo pele e phatlalatšwa gore dinyakwa tša phihlelelo di ka lekolwa ntle le go utolla tshedimošo ya motho ka noši yeo e sa nyakegego.",
+      "Direkoto tša kgopelo ya setšhaba di ka bolokwa ka mokgatlong wa IATF GitHub, mo websaeteng ye, goba ka bobedi.",
+      "Pele ga phatlalatšo, IATF e tloša tshedimošo yeo e sa nyakegego ya go ikgokaganya le batho, diaterese tša poraebete le dintlha tšeo di hlaolago tša mabapi le badiriši ba bangwe le ba bangwe ba ditheknolotši tše di thušago ka ntle le ge phatlalatšo e tloga e ikemišeditše e bile e swanetše.",
+      "Diphetho tšeo di tšewago ka Discord di swanetše go akaretšwa ka gare ga rekoto ya setšhaba mo go GitHub goba mo letlakaleng la projeke la maleba.",
+      "Direkoto tša kgopelo ga di akaretšwe ka gare ga enjine ya go nyaka moo e lego gore go a kgonega. Setšhaba se ra gore se ka hlahlobja le go ikarabela. Ga se ra go re e beakantšwe go hwetšwa ka go nyaka ka maina.",
+      "IATF e ka mpshafatša goba ya tloša direkoto go tšwa go mafelo a setšhaba ao a laolwago ke yona, eupša e ka se kgone go tiišetša gore di tlošitšwe go di-cache tša batho ba bangwe, ditsebišo, diforoko, di-screenshot, dienjini tša go nyaka, Discord, goba mananeong a mangwe a ka ntle.",
+      "Ge e ba molaetša o swanetše go dula e le wa sephiri, o se ke wa o romela ka mekero ya phatlalatša ya IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Tema yeo e kgathwago ke mokgatlo",
+      "title": "Modulasetulo"
+    },
+    "lead": "Modulasetulo o na le taolo ya IATF ya maemo a mokgatlo. Se se fapana le tema ya moentšeneere yo a ikarabelago ka projeke: modulasetilo o ikarabelela go mokgatlo ka kakaretšo, e sego go taolo ya letšatši le letšatši ya bobolokelo bjo bongwe le bjo bongwe.",
+    "duties": {
+      "title": "Seo setulo se se dirago",
+      "items": [
+        "E swara ditumelelo tša mong ka mokgatlong wa IATF GitHub",
+        "Go saena ditumelelano tša go amogela diprotšeke le diphetho tša go boloka difaele",
+        "E šoma bjalo ka lefelo la setšhaba la kgokagano la IATF",
+        "O rulaganya dikgetho tša ngwaga le ngwaga"
+      ],
+      "footnote": "Modulasetulo ga a tleme IATF go fana ka ditirelo tša poraebete, mošomo wo o lefelwago, goba ditumelelano tša maemo a tirelo, le gona ga a tšeele godimo diphetho tša molaodi wa polokelo ye nngwe le ye nngwe ka ga tlhahlo ya sethekniki."
+    },
+    "election": {
+      "title": "Kgetho ya ngwaga le ngwaga",
+      "paragraphs": [
+        "Modulasetulo o kgethwa gatee ka ngwaga. Kgetho e direga dibekeng tše pedi tša pele tša December, mafelelo a tsebišwa ka December 15, gomme nako e mpsha e thoma ka January 1.",
+        "Batho bao ba nago le maswanedi a go bouta ke batho bao ba bego ba na le tema ya go hlokomela polokelong efe goba efe ya IATF mo ngwageng woo gomme ba dirile bonnyane kabelo e tee ya go kopanywa polokelong ya Iatf ngwageng wo. Mokgopedi yo mongwe le yo mongwe yo a nago le tokelo ya bouto o na le bouto e tee. Mokgathatema yo a hweditšego dibouto tše ntši o a fenya; ge go ka ba le tie, go ba le kgetho ya bobedi mo bekeng ya boraro ya Desemere.",
+        "Kgetho e sepedišwa bjalo ka poledišano ya phatlalatša ya GitHub ka gare ga polokelo ya taolo ya IATF yeo e kgethilwego, ka gona bonkgetheng, go bouta le dipoelo ka moka ke karolo ya rekoto ya setšhaba."
+      ]
+    },
+    "continuity": {
+      "title": "Tšwelopele",
+      "paragraphs": [
+        "Ge e le gore ga go na dikgetho tše di swarwago ka ngwaga wo o itšego, modulasetulo wa bjale o tšwela pele ka karolo go fihla ka dikgetho tša go latela. Se ke go tšwela pele go sa felego, e sego nako ya kgaugelo  mohlala o hlamilwe go boloka mokgatlo o tiile ge mošomo o le fase, go se gapeletše phetogo yeo go se nago yo a itokišeditšego yona.",
+        "Modulasetulo a ka rola modiro ka nako le ge e le efe. Bahlokomedi bao ba šomago gape ba ka bitša dikgetho tše di sa tlwaelegago ka lebaka leo le boletšwego, tšeo di swarwago ka tlase ga melao e swanago le ya dikgetho tša ngwaga le ngwaga."
+      ]
+    },
+    "current": {
+      "title": "Modulasetulo wa gona bjale",
+      "fields": [
+        {
+          "label": "Modulasetulo",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Nako ya go šoma",
+          "value": "Go fihla ka dikgetho tša December 2026"
+        },
+        {
+          "label": "Karolo yeo e dirilwego semmušo",
+          "value": "2026"
+        },
+        {
+          "label": "Kgetho ya pele yeo e rulagantšwego",
+          "value": "Disemere 2026"
+        }
+      ]
+    },
+    "footnote": "Mošomo wa modulasetulo o ile wa dirwa semmušo ka 2026 go dira gore taolo ya maemo a mokgatlo e be molaleng. Go fihla ka nako yeo, maikarabelo a mokgatlo a be a swarwa ka tsela yeo e sego ya molao ke mothomi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Maemo a projeke",
+      "paragraphs": [
+        "Diprotšeke di diriša sehlopha se senyenyane sa dinaga tša setšhaba:"
+      ],
+      "items": [
+        "Kgopelo",
+        "E amogetšwe",
+        "Tšeo di Šomago",
+        "Boemo bjo bo tsepamego",
+        "Go nyaka mohlokomedi",
+        "E bolokilwe"
+      ],
+      "footnote": "Maemo a a dira gore go be bonolo go hlahloba direkoto."
+    },
+    "reassignment": {
+      "title": "Go abela lefsa le go boloka difaele",
+      "paragraphs": [
+        "Ge e ba mohlokomedi a tlogela mošomo goba a se sa šoma, IATF e ka abela motho yo mongwe boikarabelo, ya kgaotša go tšweletša goba ya boloka projeke.",
+        "Morero o ka bolokwa gape ge senyakwa sa mathomo se kgotsofaditšwe, tlhokomelo e kgaoditše goba mošomo o tšwelago pele e se sa hlwa e le wa kgonthe."
+      ],
+      "footnote": "Diprotšeke tšeo di bolokilwego di dula di bonagala phatlalatša ka ntle le ge go e-na le lebaka le le kwagalago la go dira se se fapanego."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Tsebišo ya mollwane",
+      "title": "Seo IATF e sa se kgonthišetšego"
+    },
+    "items": [
+      "go romelwa ga moreki wa poraebete",
+      "ditumelelano tša maemo a tirelo",
+      "go amogelwa ga tšhišinyo e nngwe le e nngwe",
+      "tlhokomelo ya lebaka le letelele ya projeke e nngwe le e nngwe"
+    ],
+    "footnote": "IATF ke mohlala wa bobolokelo bja phatlalatša, e sego tirelo ya go aba ya poraebete."
+  }
+}

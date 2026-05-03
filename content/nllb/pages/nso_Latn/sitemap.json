@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Lenaneo",
+    "title": "Sitemap",
+    "lead": "Letlakala le lengwe le le lengwe la phatlalatša go iatf.cc, le le lefelong le tee."
+  },
+  "sections": [
+    {
+      "title": "Matlakala a magolo",
+      "items": [
+        {
+          "label": "Legae",
+          "href": "/"
+        },
+        {
+          "label": "Diprotšeke",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kgopela projeke",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pušo",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ikopanye le rena",
+          "href": "/join/"
+        },
+        {
+          "label": "Phihlelelo",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Go ba le ponagatšo",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Diprotšeke",
+  "projectsEmpty": "Ga go na mediro yeo e sa tšwago go gatišwa."
+}
