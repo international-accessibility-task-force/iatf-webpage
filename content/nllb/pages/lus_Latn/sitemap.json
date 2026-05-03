@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Sitemap",
+    "lead": "IATF.CC-a public page zawng zawng, hmun khatah."
+  },
+  "sections": [
+    {
+      "title": "Lehkhabu pawimawh berte",
+      "items": [
+        {
+          "label": "In lamah",
+          "href": "/"
+        },
+        {
+          "label": "Project-te",
+          "href": "/projects/"
+        },
+        {
+          "label": "Project dil rawh",
+          "href": "/propose/"
+        },
+        {
+          "label": "Rorêlna",
+          "href": "/governance/"
+        },
+        {
+          "label": "Lo tel ve rawh",
+          "href": "/join/"
+        },
+        {
+          "label": "Hlawhtlin theihna",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Inlârna",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Project-te",
+  "projectsEmpty": "Eng project mah tihchhuah a la ni lo."
+}

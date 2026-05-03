@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Public Accessibility Project-te chu",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Public Accessibility Project-te chu",
+    "lead": "He register-ah hian IATF kaltlanga public project enkawlte tarlan a ni a. Accessibility project pawmte, site infrastructure leh archived prototypes te chu hetah hian hmuh theihin a awm reng a ni.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registry",
+      "title": "Register kalpui mek"
+    },
+    "intro": [
+      "Project pawmte chu an chhuah veleh hetah hian tarlan a ni ang."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "A ṭûl thu hrilh rawh",
+      "title": "Accessibility mamawh tak tak chu public project-a chantîr"
+    },
+    "paragraphs": [
+      "IATF chuan mipuite tâna open source hna ṭangkai taka siam theih tûr, mi tinin an mamawh tak takte chu a enfiah ṭhîn a ni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Project tihchhuah a la awm lo",
+    "paragraphs": [
+      "IATF chuan a public project set hmasa ber chu a buatsaih mek a ni.",
+      "Accessibility mamawh tak tak i neih chuan dilna i thawn thei reng a ni."
+    ]
+  }
+}

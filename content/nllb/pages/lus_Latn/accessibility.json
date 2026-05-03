@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Hlawhtlin theihna",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Hlawhtlin theihna",
+    "lead": "IATF chuan he website hi a awlsam a, a chhiar theih a, keyboard hmanga hman theih a ni a, ṭanpuitu technology-te nêna inmil a ni tih a tum a ni.",
+    "support": [
+      "Web accessibility-ah chuan IATF chuan [W3C WAI](https://www.w3.org/WAI/) Accessibility hi hman tangkai tak a nih theih nan a hmangtu ten direct experience an neih a ngai bawk a ni."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Reporting",
+      "title": "Accessibility issue report rawh"
+    },
+    "paragraphs": [
+      "He website-a in luh theih lohna in hmuh chuan e-mail hmangin lo hrilh rawh u:",
+      "{{contact.accessibilityEmail}}",
+      "Report ṭangkai tak takte chu:"
+    ],
+    "items": [
+      "buaina a thlenna page",
+      "i tih tum chu",
+      "A pawimawh a nih chuan, eng ṭanpuitu technology, browser, emaw hmanrua nge i hman?",
+      "Engin nge a kal sual?",
+      "eng nge min ṭanpui ang?"
+    ],
+    "footnote": "Bug report ziah kher a ngai lo a. Thuziak fiah tak ziah mai chu a tâwk a ni."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Hnathawhna",
+      "title": "Public issue enkawlna"
+    },
+    "paragraphs": [
+      "Accessibility issue-te chu a huam chhunga siamthat theih turin public repository-ah summarized a ni thei a. Personal contact details leh private information ngai lo te chu tihchhuah hmaa paih a ni.",
+      "I report-ah hian private information a tel a nih chuan, thuchah-ah chiang takin sawi rawh."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Tunlai dinhmun",
+      "title": "Hriat theih chin"
+    },
+    "paragraphs": [
+      "He site hi a tlêm hle a, a tam zâwk chu a awm reng a ni. Ṭhenkhat ṭawng version chu lehlin a nih lai hian a kim lo mai thei a."
+    ]
+  }
+}

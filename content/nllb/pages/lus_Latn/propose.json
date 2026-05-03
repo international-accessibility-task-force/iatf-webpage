@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Accessibility project dil rawh",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Accessibility project dil rawh",
+    "lead": "IATF chuan mamawhna dik tak aṭanga ṭan lâk, inawm theihna project dilte chu a enfiah ṭhîn a ni.",
+    "support": [
+      "Hriat chianna kimchang i mamawh lo va, harsatna chiang tak, tu nge a nghawng a, engvângin nge a pawimawh tih i hriat phawt chuan a tâwk a ni."
+    ],
+    "actions": [
+      {
+        "label": "Dilna siam",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Chu ai chuan Discord hmang ang che",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Channels",
+      "title": "Kawng awlsam ber thlang rawh"
+    },
+    "intro": [
+      "Kawng tinte chu ennawn khatah an tel vek a ni."
+    ],
+    "items": [
+      {
+        "label": "Website",
+        "body": "A hnuaia form-ah hian dilna chi hrang hrang thehluh theih a ni."
+      },
+      {
+        "label": "Email",
+        "body": "Dilna hi direct-a thawn ang che {{contact.requestsEmail}}E-mail request-te chu enfiah leh tihdanglam a nih hnuin public request record-ah a chang thei ang."
+      },
+      {
+        "label": "Inlaichînna",
+        "body": "A awlsam ber a nih chuan chuta ṭang chuan ṭan la."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Dilna i thawn hmain",
+    "paragraphs": [
+      "IATF chuan mipui hmaah hna a thawk a. Dilna te chu a summary siam a, a public request records-ah te, he website ah te, a nih loh leh a pahnihah te chhuah theih a ni.",
+      "A ṭûl a, IATF-in a enchhin a rem tih loh chuan, mi mal address te, phone number te, damdawi lam chanchin kimchang te, leh ṭanpuitu technology hmangtu mi mal chanchin hriat theih te chu dah suh.",
+      "IATF chuan request record a chhuah hmain personal contact details a ṭûl loh chu a la bo ṭhîn a ni."
+    ]
+  },
+  "review": {
+    "title": "Rinhlelhna ennawn",
+    "paragraphs": [
+      "Dilna thehluh chuan pawm a ni ngei dâwn tihna a ni lo.",
+      "IATF chuan an thil dilte chu an thil tum a tlinzia, an thil tih theihzia, a ṭangkaina, leh an thil siamte chu public repository-a dah a nih leh nih loh a enfiah a ni.",
+      "Dilna ṭhenkhat chu pawm a nih hma chuan hnawl a ni mai thei a, tihtawp emaw, tihdanglam emaw a ni thei bawk."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Dilna form",
+      "title": "Dilna thehluh"
+    },
+    "fields": [
+      {
+        "kind": "entîrna",
+        "name": "diltu",
+        "label": "I hming emaw, i pawl hming emaw",
+        "helper": "A diltu chu tu nge ni?"
+      },
+      {
+        "kind": "thlan",
+        "name": "contactRoute",
+        "label": "Inkalpawhna kawng duh ber",
+        "helper": "Engtin nge chhui zui a nih ang?",
+        "required": true,
+        "options": [
+          "Email",
+          "Inlaichînna"
+        ]
+      },
+      {
+        "kind": "entîrna",
+        "name": "ContactDetails",
+        "label": "Inbiakpawh theih dân",
+        "helper": "Email address emaw, Discord handle emaw chu follow-up atan hmang ang che.",
+        "placeholder": "Email address emaw, Discord handle emaw",
+        "required": true
+      },
+      {
+        "kind": "entîrna",
+        "name": "ṭawng",
+        "label": "Ṭawng",
+        "helper": "I ṭawng duh ber, a pawimawh a nih chuan.",
+        "value": "Mizo"
+      },
+      {
+        "kind": "textarea",
+        "name": "buaina",
+        "label": "Eng harsatna nge chinfel i tum?",
+        "helper": "Harsatna chu ṭawngkam awlsam takin sawifiah rawh.",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "A tuartute",
+        "label": "Tute nge a nghawng?",
+        "helper": "Hei hian tu nge a ṭanpui ang?",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "extraContext",
+        "label": "Thupui dang",
+        "helper": "A ṭûlzia hrilhfiah thei thil dang: a pawimawh chhan te, entîrna te, reference te, software idea thûk te, a hun tiam chin te chu han sawi ve teh."
+      },
+      {
+        "kind": "thlan",
+        "name": "openSourceConsent",
+        "label": "Public open source development chu nuam i ti em?",
+        "helper": "Project pawmte chu IATF hnuaia public repository a ni.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ni e",
+          "Ni lo",
+          "Hriat chian a la ni lo."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "pawm a nih chuan",
+      "title": "A awmzia chu pawm a ni"
+    },
+    "items": [
+      "IATF GitHub organization chhunga public repository",
+      "project-a engineer mawhphurtu ruat",
+      "a copy-left license code leh project material-te",
+      "public development in the repository (Repository-a mipuite tana hmasawnna)",
+      "IATF site-a register entry"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Inbiakna ṭan",
+      "title": "A bul tan nân, dîlna tawi leh chiang tak chu a tâwk a ni"
+    },
+    "paragraphs": [
+      "Accessibility ngai tak tak in nei a, mipuite project a nih tur nia in ngaih chuan min rawn thawn rawh u."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

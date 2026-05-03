@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Inlârna",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Inlârna",
+    "lead": "IATF-in mipuite hmuh theihin a thawk a. Project thutlukna te, code change te, governance change te leh operation cost te chu mipuite hriat theihin hmun hrang hrangah chhinchhiah a ni a. He page-ah hian record chi tinte awmna leh chhiar dante tarlan a ni.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Record-te",
+      "title": "Record-te awmna hmun"
+    },
+    "items": [
+      "<strong>Project thutlûkna.</strong> Acceptance, archiving, leh reassignment thutlukna te chu issue emaw, release emaw angin a pawimawhna depotory-ah chhinchhiah a ni a, public registry-ah summarized a ni. View the public <a href=\"/projects/\">chhinchhiah</a>A va lawmawm ve .",
+      "<strong>Record-te phût rawh.</strong> Public request records hi IATF GitHub organization-ah, he website-ah emaw, a pahnihah emaw dah a ni a. Record-te hian original request chu summarize, redact emaw, restructure emaw a ni thei a, chuvangin accessibility mamawh chu a tul lohva mimal hriatna dah chhuah lovin ennawn theih a ni. Discord decision-te hi project emaw, governance decision emaw a nghawng a nih chuan public record-ah summarized a ni ang. Request records hi search engine indexing-ah hian technically practicable-a dah theih loh. View records: first publication request pending.",
+      "<strong>Code a danglam a.</strong> Code thlakna tinte hi a pawimawhna depotary-a public commit a ni a. IATF en rawh <a href=\"{{contact.githubOrgUrl}}\">GitHub inrelbawlna</a>A va lawmawm ve .",
+      "<strong>Rorêlna inthlâkthleng a ni.</strong> Governance page-a update-te chu <code>iatf-website</code> Repository. View the <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">commit history</a> GitHub-ah a awm a.",
+      "<strong>Operating cost-te pawh.</strong> IATF chuan operating cost a hniam a, public infrastructure expenses a record a. Kum 2022 atang khan a recurring cost lian ber chu domain name a ni a. Hosting chuan free-tier or low-cost infrastructure a hmang a. A hnuaia operating cost record hi en rawh.",
+      "<strong>Coordination note-te chu.</strong> Coordinated review emaw, thutlukna emaw note chu GitHub-ah a awm a. Discussions on the relevant repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Inbiakremna</a> chungchângah <code>iatf-website</code> dahkhawmna hmun (repository)."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Chhiah",
+      "title": "Operating cost chhinchhiah"
+    },
+    "paragraphs": [
+      "IATF chuan a public infrastructure chu a tumruhin a ti tlem a. Kum 2022 atang khan, operating cost lian ber chu domain name a ni a. Hosting-ah chuan free-tier infrastructure emaw, low-cost infrastructure emaw chu a theih chin chinah a hmang a ni.",
+      "He record hi audited financial statement a ni lo a, IATF online-a a hmanna tur infrastructure-a operating cost public log a ni."
+    ],
+    "footnote": "Receipt-te chu tihdanglam a nih hnuah tarlan leh chhuah theih a ni a. Personal address te, billing details te, leh account information mamawh loh te chu public record-ah a tel lo a ni.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Hlawh",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Hriattîrna",
+            "value": "Domain cost chu mugiwarafx-in a pe a. Hosting-ah chuan free-tier emaw, low-cost infrastructure emaw chu Cloudflare-ah a hmang a. Project chu Vercel aṭangin CloudFlare lamah a insawn a, a tawi zawk chu a hmang ṭan ta a. <code>iatf.cc</code> ram a ni."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationallaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Hlawh",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Hriattîrna",
+            "value": "Domain man chu mugiwarafx-in a pe a. Hosting-ah hian free-tier emaw, low-cost infrastructure emaw hman a ni."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationallaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Hlawh",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Hriattîrna",
+            "value": "Domain man chu mugiwarafx-in a pe a. Vercel hmangin free-tier emaw, low-cost infrastructure emaw hman a ni."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationallaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Hlawh",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Hriattîrna",
+            "value": "Domain man chu mugiwarafx-in a pe a. Hosting-ah hian free-tier emaw, low-cost infrastructure emaw hman a ni."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationallaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Hlawh",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Hriattîrna",
+            "value": "Domain man chu mugiwarafx-in a pe a. Hosting-ah hian free-tier infrastructure emaw, low-cost infrastructure emaw chu GitHub Pages hmanga hman a ni."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Ramri chhinchhiahna",
+      "title": "Mipui hriat theih loh"
+    },
+    "paragraphs": [
+      "Thu leh hla ṭhenkhat chu:"
+    ],
+    "items": [
+      "Diltute personal inbiakpawhna chi hrang hrang.",
+      "Private lehkhathawn chu pawm a nih hmain, pawm loh a nih hma emaw, summarized a nih hmâ emaw thil dîl chu hrilhfiah nân chauh hman a ni.",
+      "Private address te, phone number te, leh mimal chanchin pawimawh lo te.",
+      "Thlawptu thiamna hmangtu chu a remtihna tel lovin a hriat theih thil engpawh.",
+      "Raw Discord inbiakna te, a bik takin project record-a thawn luh a nih loh chuan."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Chhiar belh",
+      "title": "Heng record-te hnungah hian Governance hi rulebook a ni a."
+    },
+    "paragraphs": [
+      "Project pawm dân te, archive dânte, leh assign dân te i hriat duh chuan governance page hi chhiar ang che."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance leh repository model",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance leh repository model",
+    "lead": "IATF chuan accessibility project-te chu mipui hmuh theih, chhiar theih leh enkawl theihin a siam a ni.",
+    "support": [
+      "He page-ah hian eng nge tling tih te, repository neih dan te, pawm a nih hnu-a repo-pository level-a mawhphurhna hman a nih dan te tarlan a ni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Thu tlûkna",
+      "title": "Mission fit, ownership, licensing"
+    },
+    "cards": [
+      {
+        "title": "Mission fit",
+        "paragraphs": [
+          "IATF chuan hna thawh theih lohna dik tak leh mipuite tâna hlutna chiang tak nei chu a pawm a ni.",
+          "Project chu private workflow chauh ni lo, public repository anga hman theih a ni tur a ni.",
+          "Web accessibility-ah chuan IATF chuan [W3C WAI](https://www.w3.org/WAI/) Assistive technology hmangtute direct experience pawh hi hman tangkai tak tak a thil tangkai tih finfiahna a ni bawk."
+        ]
+      },
+      {
+        "title": "Project pawm",
+        "paragraphs": [
+          "Enchhinna chuan a hnuaia mi ang hi a târ lan chuan rawtna chu pawm theih a ni:"
+        ],
+        "items": [
+          "Accessibility mamawhna dik tak chu a phuhruk a ni",
+          "harsatna chu a chiang khawp a, chhût theih a ni",
+          "a thlawna chhuah theih chin chu a awm tak tak a ni",
+          "hna hi IATF mission nen a inmil a ni",
+          "maintenance emaw, completion emaw thlenna kawng a awm a rinawm"
+        ]
+      },
+      {
+        "title": "Repository neitu nihna",
+        "paragraphs": [
+          "Project pawmte chu IATF GitHub organization hnuaiah siam a ni a.",
+          "Repositories-te chu chutah chuan an awm reng a, chuvângin project tinin mipuite chênna hmun nghet tak an nei a, a hnua enkawltute'n an thlak a nih pawhin."
+        ]
+      },
+      {
+        "title": "Licensing",
+        "paragraphs": [
+          "IATF project-te hian a dang a sawi loh chuan copyleft licensing an hmang a:"
+        ],
+        "items": [
+          "<strong>Code:</strong> AGPL-3.0",
+          "<strong>Thuziak:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Engineer leh maintainer mawhphurtu",
+      "paragraphs": [
+        "Project pawm apiangte chuan engineer emaw, maintainer emaw an nei tûr a ni a. Chu mi chuan repository-ah admin access a nei thei ang a, a hnuaia mite chu a beisei:"
+      ],
+      "items": [
+        "mipuite hmalakna kaihhruaina",
+        "Repository structure chu vawng tha zel rawh",
+        "thil awmte ennawn emaw enkawl emaw, pull request-te",
+        "Technical decision pawimawh tak takte ziak",
+        "mi dangte'n an hriatthiam theih nân"
+      ],
+      "footnote": "Hei hi repository level-a mawhphurhna a ni a. Organizational ownership chu IATF-ah a awm reng a ni. Hetah hian mawhphurtu chu repositories stewardship, technical direction, leh public coordination  ni lovin unlimited private delivery, custom integrations, or service-level commitments out of the public roadmap an ni."
+    },
+    "publicDevelopment": {
+      "title": "Khawtlang hmasawnna",
+      "paragraphs": [
+        "IATF kaltlanga project kalpui te chu mipuite hriat theihin siam a ni a. He repository hi a hnuaia mite hriat theihna bulpui a ni:"
+      ],
+      "items": [
+        "source code chu",
+        "chungchângah",
+        "chhinchhiah",
+        "roadmap chhinchhiah",
+        "chhuah hmasâwn"
+      ],
+      "footnote": "Project-a thil pawimawh hriatna chu private chat leh inbox-ah chauh awm tûr a ni lo."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Public record-te",
+      "title": "Public request record-te chu"
+    },
+    "paragraphs": [
+      "IATF-in a hnathawhna hmun chu mipui hmuh theih a ni a. Website, email, Discord, GitHub, emaw IAT F channel dang atanga IAT-a request lutte chu mipui hriat theih record a lo ni thei a ni.",
+      "Public request record hi original message a ni kher lo a. IATF chuan a chhuah hmain a request a summarize, a redact emaw, a structure a tihdanglam thei a, chutichuan a ngaihna a hriat theih a, a ngai lo a personal information a chhuah loh theih a ni.",
+      "Public request records chu IATF GitHub organization-ah, he website-ah emaw, an pahnihah emaw dah theih a ni.",
+      "IATF chuan a tihchhuah hmain mi mal contact details, private address te, leh assistive technology hmangtu hrang hrangte chanchin kimchang hriat theih thilte chu tihchhuah a tum chiang a, a remchang a nih loh chuan a paih bo a ni.",
+      "Discord hi informal coordination atan hman a ni a. IATF chuan Discord inbiakna hi a hranpahin a archive lo a, message retention hi Discord-in a thunun a ni.",
+      "Request records hi search engine indexing-ah chuan a hman theih chin a awm lo. Public tih chu review theih leh accountable tihna a ni. Name search hmanga hmuh theih tura optimized tih a ni lo.",
+      "IATF-in a thunun public surfaces-a record-te a update thei a, a paih thei bawk a; mahse, third-party cache, notification, fork, screenshot, search engine, Discord, emaw, external system-ahte chuan a paih theih a ni lo.",
+      "Thuchah chu private a nih reng a ngai a nih chuan, IATF public channel kaltlangin thawn suh."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Inrelbawlna chanvo",
+      "title": "Chair"
+    },
+    "lead": "He chair hian IATF chu organization-level stewardship a nei a. Hei hi project-a engineer mawhphurhna atanga danglam a ni: chair hi organization pum huapa mawhphurtu a ni a, repository pakhat day-to-day kaihhruaina a ni lo.",
+    "duties": {
+      "title": "Chair chuan eng nge a tih?",
+      "items": [
+        "IATF GitHub organization-ah a neitu phalna a nei",
+        "Project pawm leh archiving chungchanga thutlukna siam",
+        "IATF-in mipuite a biak theihna hmun a ni",
+        "Kum tina inthlanpui buatsaih"
+      ],
+      "footnote": "Chairman chuan IATF chu private delivery, paid work, or service-level agreements-ah a phuhru lo a, technical direction chungchanga repository-per-maintainer thutlukna chu a thunun lo bawk."
+    },
+    "election": {
+      "title": "Kum tin inthlanna",
+      "paragraphs": [
+        "Chairman hi kum khatah vawi khat thlan tlin a ni a. Inthlan hi December thla chawlhkar hnih hmasa berah a awm a, result chu December ni 15 thleng puan a ni ang a, term thar chu January ni 1-ah a ṭan ang.",
+        "Voters eligible te hi kum khat chhunga IATF repository-a maintainer role chelh tawh leh kum khatah IAT F repositoriy-a merged contribution vawi khat tal pe tawh te an ni. Voter eligible tin hian vote khat an nei ṭheuh a. Vote nei tam ber chuan a hneh a; a tluk loh chuan December thla chawlhkar thumnaah run-off neih a ni ang.",
+        "Inthlan hi IATF governance repository-a public GitHub Discussion anga kalpui a ni a, chuvangin candidate te, vote te, leh result te chu public record a ni vek a ni."
+      ]
+    },
+    "continuity": {
+      "title": "Hlawhtlingna",
+      "paragraphs": [
+        "Kum khat chhunga inthlan neih a nih loh chuan Chairman-in a nihna a chelh chhunzawm zel ang a, inthlan leh a nih hma chuan a la chelh reng ang.",
+        "Chairman chu engtik lai pawhin a inhnukdawk thei a. Active maintainer-te chuan a chhan sawiin extraordinary election an ko thei bawk a, annual election ang bawkin an thlang thei a ni."
+      ]
+    },
+    "current": {
+      "title": "Tûn laia chairman",
+      "fields": [
+        {
+          "label": "Chair",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Thupêk",
+          "value": "December 2026 inthlan thlengin"
+        },
+        {
+          "label": "A chanvo tihhmasawn a ni",
+          "value": "2026"
+        },
+        {
+          "label": "Inthlanpui neih hmasak ber",
+          "value": "December 2026"
+        }
+      ]
+    },
+    "footnote": "Chairman chanvo chu kum 2026-ah siam a ni a, chutih hun hma chuan a dintu chuan a mawhphurhna a chelh ṭhin a ni."
+  },
+  "continuity": {
+    "states": {
+      "title": "Project dinhmun",
+      "paragraphs": [
+        "Project-te hian public state tlemte an hmang a:"
+      ],
+      "items": [
+        "Thu rawtna",
+        "pawm a ni",
+        "Hlawhtling",
+        "Rilru nghet",
+        "Rawngbâwltu zawn",
+        "Archive-a dah"
+      ],
+      "footnote": "Hêng state-te hian registry chu scan a awlsam a ni."
+    },
+    "reassignment": {
+      "title": "Puan lehna leh archive-na",
+      "paragraphs": [
+        "Maintainer-a'n hna a bansan emaw, a thawk lo emaw a nih chuan, IATF chuan mawhphurhna a pe leh thei a, hmasawnna a tihtawp emaw, project a archive thei a ni.",
+        "Project pakhat chu a ṭûlna bulpui chu tihhlawhtlin a nih chuan, a enkawlna chu tihtawp a nih pawhin, a thawh chhunzawm theih a nih loh pawhin, archive a ni thei bawk a ni."
+      ],
+      "footnote": "Sawrkâr siamte chu chhan ṭha tak a awm loh chuan mipuite hmuh theihin a awm reng a ni."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ramri chhinchhiahna",
+      "title": "IATF-in a tiam loh"
+    },
+    "items": [
+      "private client-te hnên aṭanga pêk chhuah",
+      "service level agreement-te chu",
+      "rawtna tinte pawm",
+      "project tinte tan hun rei tak enkawlna"
+    ],
+    "footnote": "IATF hi public repository model a ni a, private delivery service a ni lo."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Accessibility mamawhna aṭangin public repo thlengin",
+    "lead": "IATF chuan pawlte, pâwlte leh mimal tinte chu mipuite tâna open source project-a an mamawh tak takte siam tûrin a ṭanpui a ni.",
+    "support": [
+      "Project pawmte chu IATF GitHub organization-ah copyleft license hnuaiah tihchhuah an ni a, engineer mawhphurhna neite'n an siam chhuak a ni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Sawrkar hnathawh dân",
+      "title": "Accessible software-a mipuite hmuh theihna kawng awlsam tak"
+    },
+    "paragraphs": [
+      "Form hmangin, tu pawhin IATF-ah accessibility problem an thehlut thei a. Team-in an buaipui thei a nih chuan, hnathawhna atana public GitHub repository hawn a ni ang.",
+      "Project pawm apiangte chuan code, issue, documentation, leh release-te tân public home chiang tak an nei a, engineer mawhphurhna neitute kaihhruaina hnuaiah development an nei bawk a ni."
+    ],
+    "specCard": {
+      "title": "Sawrkar hnathawh dân",
+      "terms": [
+        {
+          "term": "mamawh",
+          "definition": "Accessibility buaina tak tak"
+        },
+        {
+          "term": "Ennawn",
+          "definition": "Mission fit leh practical feasibility"
+        },
+        {
+          "term": "Project hmun",
+          "definition": "Public GitHub repository"
+        },
+        {
+          "term": "Inrelbawlna",
+          "definition": "IATF organizational ownership"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Rawngbâwl dân",
+      "title": "A hnathawh dân",
+      "intro": "Model chu a tlêm hle a, chumi avâng chuan mipui kalna kawng chu zawh a awlsam a ni."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "mamawhna a thlen",
+        "paragraphs": [
+          "Association emaw, pawl emaw, mimal emaw chuan Accessibility mamawh tak tak avânga dilna an thehlût thei a ni.",
+          "Dilna chu website kaltlangin emaw, <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, a nih loh leh Discord kaltlangin."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF-in a enfiah",
+        "paragraphs": [
+          "Mission fitna te, practical scope te, leh hnathawh hi open source project-a dah a nih leh nih loh te kan enfiah a."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Public repository siam a ni",
+        "paragraphs": [
+          "Project pawm a nih chuan, IATF GitHub organization-ah copyleft license hnuaiah chhuah a ni ang.",
+          "Repository-ah hian code, issue, documentation, leh release-te a awm a."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Engineer mawhphurhna nei chuan he project hi a kaihruai a ni",
+        "paragraphs": [
+          "Project repository-ah chuan engineer mawhphurtu ruat a ni a, development chu mipui hmuh theihin a awm a ni."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registry",
+      "title": "Public project registry chu"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hetah hian ṭan rawh",
+      "title": "Hnathawh mek enfiah emaw, project tak tak ṭan emaw"
+    },
+    "paragraphs": [
+      "Register-ah hian mipui hriat theih thil awm tawh zawng zawng en theih a ni a, a nih loh leh project-a tangkai theih lohna harsatna a awm chuan inthah ṭan mai tur a ni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

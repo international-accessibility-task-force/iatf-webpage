@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF website",
+    "summary": "International Accessibility Task Force-a mipuite hmuh theih website.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF chuan model hrilhfiahtu, project târ langtu, leh a dawta hma lâk tûr dikte hriattîrtu public home nghet tak a mamawh a ni.",
+    "why": "He site hi IATF-a mipuite luhna kawngkhar a ni a. He project hi static project-ah siam a ni bawk a, a chhiarna, lehlin leh enkawl a awlsam hle a ni.",
+    "scopeIn": [
+      "IATF model hrilhfiahtu public landing pages",
+      "State, maintainer, repository leh demo neiin IATF project pawm tawh, active leh archived te public registry",
+      "Dilna dawngna page leh form",
+      "Governance leh transparency page-te",
+      "English source leh structure lehlin peih tawh",
+      "Static deployment chu Cloudflare Workers Static Assets-ah hman theih a ni"
+    ],
+    "scopeOut": [
+      "Private member area te, account te, a nih loh leh login flows te",
+      "Project source code dahkhawmna, project tinte mahni repository-a awm",
+      "Real-time chat, Discord-a awm",
+      "Project tinte GitHub repository-a awm, project hrang hrang issue tracking"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "IATF prototype hmasa ber a ni a, natural stop point a thlen hnuah archived a ni.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF hnuaiah Accessibility-focused tool zirchianna hmasa ber.",
+    "why": "Repository chu hnathawh chhinchhiah ang chi a ni a, active development chu tihtawp tawh mah se, mipui hriat theihin a awm reng a ni.",
+    "scopeIn": [
+      "Accessibility-focused tool prototype hmasa ber chu public record-a dah a ni"
+    ],
+    "scopeOut": [
+      "Active development or feature hna thawk",
+      "Maintenance-a inhnamhnawihna",
+      "Production-a hman tura rawtna"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF khawtlang bot, natural stop point a thlen hnuah archive a ni.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF khawtlang channel-a automation.",
+    "why": "Repository chu hnathawh chhinchhiah ang chi a ni a, active development chu tihtawp tawh mah se, mipui hriat theihin a awm reng a ni.",
+    "scopeIn": [
+      "IATF khawtlang channel-a inthlahdahna automation, public record-a dah"
+    ],
+    "scopeOut": [
+      "Active development or feature hna thawk",
+      "Maintenance-a inhnamhnawihna",
+      "Production-a hman tura rawtna"
+    ]
+  }
+]

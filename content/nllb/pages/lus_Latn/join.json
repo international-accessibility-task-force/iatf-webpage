@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF zawm",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF zawm",
+    "lead": "Membership hi a inhawng a. Assistive technology-a in innghat emaw, accessible software siam emaw, project lehlin emaw, enchhin emaw, enkawl emaw pawh ni se, tel theih dan kawng hrang hrang a awm a. Inbiakna leh thutlukna te hi GitHub leh Discord-ah hian mipui hmaah a awm thin a.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "A chanvo",
+      "title": "Ṭanpuina kawngte"
+    },
+    "items": [
+      "<strong>Project pakhat dîl rawh.</strong> Public open source software-in a tihbo theih theih theih lohna a awm chuan, request intake hmangin thawn rawh.",
+      "<strong>Enchhinna leh ennawnna.</strong> IATF project-te chu i hman ṭanpuitu thiamna hmanga hmang chhin la, a ṭangkai leh ṭangkaih loh chu han report la, harsatna awmte chu a ṭul anga repository-a file rawh.",
+      "<strong>A lehlin rawh.</strong> Source content hi plain English-a chhuah hmasak a ni a. A lehlin te hi Spanish-a ṭan a, a ziaktu te an awm veleh dah belh a ni ang.",
+      "<strong>Din chhuah rawh.</strong> IATF repository-a harsatna awmte zawng chhuak la, pull request thawn la, project engemaw chu engineer-in a enkawl ang che.",
+      "<strong>Tihnghehin awm rawh se.</strong> Project awm tawhte hian maintainer thar an mamawh fo a. Maintainer rotation hi model pangngai a ni a, a danglamna a ni lo."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Channels",
+      "title": "IATF-in mipui hmunah hna a thawhna hmun"
+    },
+    "items": [
+      "<strong>GitHub-ah.</strong> Issue te, pull request te, release te, leh project record te.",
+      "<strong>Inlaichînna a awm lo.</strong> Inlaichînna, inremna, leh zawhna mumal lo te.",
+      "<strong>E-mail hmangin.</strong> A hman dân <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHub emaw, Discord emaw a inmil lo a nih chuan."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "A hnuai lam",
+      "title": "I thawhpui duh ang chi channel chu thlang rawh"
+    },
+    "paragraphs": [
+      "Channels zawng zawng chu mipuite ennawnna hmun leh public repository-ahte a inlet vek a ni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

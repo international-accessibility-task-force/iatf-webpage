@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Hmuh theih a ni lo"
+  },
+  "hero": {
+    "eyebrow": "Hmuh theih a ni lo",
+    "title": "A page duh chu hmuh theih a ni lo",
+    "lead": "A hnuaia kawngpui lian berte chu mipuite awmna hmun pan tûrin hmang ang che.",
+    "support": [],
+    "actions": [
+      {
+        "label": "In lamah",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "I zawhna kawng chu a awm lo."
+    ],
+    "items": [
+      {
+        "label": "In lamah",
+        "href": "/"
+      },
+      {
+        "label": "Project-te",
+        "href": "/projects/"
+      },
+      {
+        "label": "Lo tel ve rawh",
+        "href": "/join/"
+      },
+      {
+        "label": "Hlawhtlin theihna",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Rorêlna",
+        "href": "/governance/"
+      },
+      {
+        "label": "Inlârna",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
