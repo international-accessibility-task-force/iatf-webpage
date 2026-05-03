@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Dagiti proyekto ti publiko a pannakaidanon",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Dagiti proyekto ti publiko a pannakaidanon",
+    "lead": "Ilista daytoy a rehistro dagiti publiko a proyekto a tinartaripato babaen ti IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Aktual a rehistro"
+    },
+    "intro": [
+      "Nailista ditoy dagiti naaprobaran a proyekto apaman a maipablaakda."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Mangipatulod iti kasapulan",
+      "title": "Pagbalinen a maysa a proyekto ti publiko ti maysa a kasapulan a pannakabalin nga umasideg"
+    },
+    "paragraphs": [
+      "Sukimaten ti IATF dagiti espesipiko a kasapulan iti accessibility a mabalin a pagbalinen a makagunggona a publikon open source a trabaho."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Awan pay a naipablaak a proyekto",
+    "paragraphs": [
+      "Isagsagana ti IATF ti umuna a publiko a proyekto.",
+      "Mabalinmo latta ti agkiddaw no adda espesipiko a kasapulam."
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Agkiddaw iti proyekto ti kinalaka a magun-odan",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Agkiddaw iti proyekto ti kinalaka a magun-odan",
+    "lead": "Sukimaten ti IATF dagiti kiddaw para kadagiti proyekto a mainaig iti pannakabalin nga umasideg a mangrugi iti pudno a kasapulan.",
+    "support": [
+      "Saanmo a kasapulan ti naan-anay nga espesipikasion. Umdasen ti nalawag a parikut, no siasino ti apektaranna, ken no apay a napateg dayta."
+    ],
+    "actions": [
+      {
+        "label": "Irugi ti panagkiddaw",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Usaren ti Discord imbes a",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Dagiti kanal",
+      "title": "Piliem ti kasayaatan a dalan"
+    },
+    "intro": [
+      "Agpapada ti pannakausig ti amin a ruta."
+    ],
+    "items": [
+      {
+        "label": "Website",
+        "body": "Usarenyo ti porma iti baba tapno makaipatulodkayo iti naurnos a kiddaw."
+      },
+      {
+        "label": "Email",
+        "body": "Ipatulodmo ti kiddaw a direkta iti {{contact.requestsEmail}}Dagiti kiddaw iti e-mail ket mabalin nga agbalin a publiko a rekord ti kiddaw kalpasan a mabasada ken mabaliwanda."
+      },
+      {
+        "label": "Di panagkikinnaawatan",
+        "body": "Mangrugi dita no dayta ti kasayaatan. Ti kiddaw ket agtultuloy iti isu met laeng a panangrepaso."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sakbay nga agkiddawka",
+    "paragraphs": [
+      "Dagiti kiddaw ket mabalin a sumario ken maipablaak a kas dagiti publiko a rekord ti kiddaw iti IATF GitHub nga organisasion, iti daytoy a website, wenno dagiti dua.",
+      "Saanmo nga iraman dagiti personal nga adres, numero ti telepono, medikal nga impormasion, wenno pakabigbigan ti indibidual nga agar-aramat iti tulong a teknolohia malaksid no dayta ti kasapulan ken kayatmo a sukimaten dayta ti IATF.",
+      "Ikkaten ti IATF dagiti di kasapulan a personal a detalye ti kontak sakbay a maipablaak dagiti rekord ti kiddaw."
+    ]
+  },
+  "review": {
+    "title": "Panangrepaso kadagiti ekspektasion",
+    "paragraphs": [
+      "Ti panangidatag iti kiddaw dina ipasigurado ti pannakaawat.",
+      "Sukimaten ti IATF dagiti kiddaw para iti panagandar, pannakabael, kinapateg, ken no ti obra ket mairaman iti publiko a repositorio.",
+      "Mabalin a saan a maawat ti dadduma a kiddaw, maiyallatiw, wenno mabaliwan sakbay a mapalubosan."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Pormat ti kiddaw",
+      "title": "Agkiddaw"
+    },
+    "fields": [
+      {
+        "kind": "pammaneknek",
+        "name": "agkiddaw",
+        "label": "Ti nagan wenno organisasionmo",
+        "helper": "Siasino ti agkiddaw?"
+      },
+      {
+        "kind": "agpili",
+        "name": "Kontak a ruta",
+        "label": "Nasaysayaat a ruta ti kontak",
+        "helper": "Kasano ti rumbeng a panangsurot?",
+        "required": true,
+        "options": [
+          "Email",
+          "Di panagkikinnaawatan"
+        ]
+      },
+      {
+        "kind": "pammaneknek",
+        "name": "KontakDagiti Detalye",
+        "label": "Dagiti detalye ti kontak",
+        "helper": "Adres ti e-mail wenno nagan ti Discord para iti panangsurot.",
+        "placeholder": "Adres ti e-surat wenno nagan ti Discord",
+        "required": true
+      },
+      {
+        "kind": "pammaneknek",
+        "name": "pagsasao",
+        "label": "Pagsasao",
+        "helper": "Ti kaykayatmo a lengguahe, no maitutop.",
+        "value": "Ingles"
+      },
+      {
+        "kind": "textarea (taray ti teksto)",
+        "name": "parikut",
+        "label": "Ania a parikut ti padpadasem a risuten?",
+        "helper": "Deskribirem ti lapped iti simple a sasao.",
+        "required": true
+      },
+      {
+        "kind": "textarea (taray ti teksto)",
+        "name": "naapektaran nga agar-aramat",
+        "label": "Siasino ti maapektaran?",
+        "helper": "Asino ti matulongan daytoy?",
+        "required": true
+      },
+      {
+        "kind": "textarea (taray ti teksto)",
+        "name": "extraKonteksto",
+        "label": "Ad-adu pay a konteksto",
+        "helper": "Ibagam ti aniaman a makatulong a mangilawlawag iti kasapulan: no apay a napateg dayta, dagiti pagarigan, dagiti reperensia, ti gagangay a kapanunotan iti software, wenno dagiti limitasion ti tiempo."
+      },
+      {
+        "kind": "agpili",
+        "name": "openSourceConsent",
+        "label": "Komportableka kadi iti publiko nga open source a panagrang-ay?",
+        "helper": "Dagiti maawat a proyekto ket publiko a repositorio iti sidong ti IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Wen",
+          "Saan",
+          "Diak pay sigurado"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "No maawat",
+      "title": "Ti kaipapanan ti panangawat"
+    },
+    "items": [
+      "maysa a publiko a repositorio iti organisasion ti IATF GitHub",
+      "maysa a responsable nga inheniero a naituding iti proyekto",
+      "maysa a copyleft a lisensia para iti kodigo ken dagiti materiales ti proyekto",
+      "publiko a panagrang-ay iti repository",
+      "maysa a listaan ti rehistro iti site ti IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Irugi ti saritaan",
+      "title": "Ti ababa, nalawag a kiddaw ti umdas a mangirugi"
+    },
+    "paragraphs": [
+      "No pudno a kasapulam ti pannakabalin a makadanon ken pampanunotem a rumbeng nga agbalin dayta a publiko a proyekto, ipatulodmo kadakami."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

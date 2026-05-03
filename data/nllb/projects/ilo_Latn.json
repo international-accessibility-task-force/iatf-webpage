@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Website ti IATF",
+    "summary": "Ti publiko a website ti International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kasapulan ti IATF ti natalged a publiko a pagtaengan a mangilawlawag iti modelo, mangilista kadagiti proyekto, ken mangiturong kadagiti makiraman iti umiso a sumaruno nga addang.",
+    "why": "Ti site ket isu ti publiko a ridaw ti IATF. Naibangon daytoy a kas bassit a statiko a proyekto tapno nalaka a mabasa, maipatarus, ken masaluadan iti silulukat.",
+    "scopeIn": [
+      "Dagiti publiko a landing page a mangilawlawag iti modelo ti IATF",
+      "Publiko a rehistro dagiti naaprobaran, aktibo, ken na-arkibo a proyekto ti IATF nga addaan iti kasasaad, maintainer, repository, ken demo",
+      "Maysa a panid ken pormat ti panagidatag ti kiddaw",
+      "Dagiti panid ti gobierno ken transparensia",
+      "Ingles a taudan a nakasagana a maipatarus",
+      "Dagiti statiko a deployment iti Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Dagiti pribado a paset ti miembro, dagiti pakabilangan, wenno dagiti panaglukat ti panag-login",
+      "Panag-host ti source code ti proyekto, nga agnanaed iti bukod a repositorio ti tunggal proyekto",
+      "Real-time a chat, nga agbibiag iti Discord",
+      "Tracking ti isyu para kadagiti agmaymaysa a proyekto, nga agnaed iti GitHub repository ti tunggal proyekto"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Maysa a nasapa a prototipo ti IATF, na-archive kalpasan a nakadanon iti natural a punto ti panagsardeng.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Nasapa nga eksplorasion ti maysa a tool a nakasentro iti accessibility iti sidong ti IATF.",
+    "why": "Ti repository ket maidulin a publiko a kas rekord ti trabaho, uray no nagsardeng ti aktibo a panagrang-ay.",
+    "scopeIn": [
+      "Nasapa a prototipo ti maysa nga alikamen a naipamaysa iti pannakabalin a magun-od a kas publiko a rekord"
+    ],
+    "scopeOut": [
+      "Aktibo a panagrang-ay wenno panagaramid ti tampok",
+      "Dagiti obligasion ti maintenance",
+      "Nairekomenda a panagusar iti panagpataud"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF a bot",
+    "summary": "Maysa a bot ti komunidad ti IATF, na-archive kalpasan a nakadanon iti natural a punto ti panagsardeng.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation iti aglawlaw dagiti IATF community channels.",
+    "why": "Ti repository ket maidulin a publiko a kas rekord ti trabaho, uray no nagsardeng ti aktibo a panagrang-ay.",
+    "scopeIn": [
+      "Awtomatiko a panagsusuppiat kadagiti kanal ti komunidad ti IATF, a maidulin a kas publiko a rekord"
+    ],
+    "scopeOut": [
+      "Aktibo a panagrang-ay wenno panagaramid ti tampok",
+      "Dagiti obligasion ti maintenance",
+      "Nairekomenda a panagusar iti panagpataud"
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Saan a nasarakan"
+  },
+  "hero": {
+    "eyebrow": "Saan a nasarakan",
+    "title": "Ti kiniddaw a panid ket saan a nasarakan",
+    "lead": "Usarenyo dagiti kangrunaan a ruta iti baba tapno makasubli iti publiko a lugar.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Pagtaengan",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ti ruta a kiniddawmo ket awan."
+    ],
+    "items": [
+      {
+        "label": "Pagtaengan",
+        "href": "/"
+      },
+      {
+        "label": "Dagiti proyekto",
+        "href": "/projects/"
+      },
+      {
+        "label": "Agtitinnulong",
+        "href": "/join/"
+      },
+      {
+        "label": "Pannakabalin a magun-odan",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Panagturay",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparensia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

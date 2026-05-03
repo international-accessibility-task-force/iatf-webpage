@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Pagannurotan ken modelo ti repositorio",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Pagannurotan ken modelo ti repositorio",
+    "lead": "Ti IATF taginayonenna dagiti proyekto ti accessibility a publiko, mabasa, ken mataginayon.",
+    "support": [
+      "Ilawlawag daytoy a panid no ania ti kualipikado, no kasano a maangay dagiti repositories, ken no ania a responsibilidad ti repository ti maipakat kalpasan ti panangawat."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Dagiti Pagannurotan",
+      "title": "Mision a maitutop, panagtagikua, lisensia"
+    },
+    "cards": [
+      {
+        "title": "Mision a maitutop",
+        "paragraphs": [
+          "Awaten ti IATF ti trabaho a mangsolbar iti pudpudno a lapped iti pannaka-access ken addaan iti nalawag a publiko a pateg.",
+          "Ti maysa a proyekto ket nasken a mausar iti labes ti maymaysa a pribado a workflow ken mausar a kas publiko a repositorio.",
+          "Para iti web accessibility, usaren ti IATF [W3C WAI](https://www.w3.org/WAI/) Ti direkta a kapadasan dagiti agar-aramat kadagiti makatulong a teknolohia ket praktikal met a pammaneknek no ania ti agkurri iti pudno a panagusar."
+        ]
+      },
+      {
+        "title": "Awaten ti proyekto",
+        "paragraphs": [
+          "Ti maysa a singasing ket mabalin a maakseptar no ti panagrepaso ket mangipakita a:"
+        ],
+        "items": [
+          "sungbatanna ti pudpudno a kasapulan iti pannakabalin nga umasideg",
+          "ti parikut ket nalawag nga umdas a mangtingiting",
+          "ti sakup ket umdas a realistiko a mangirugi",
+          "ti trabaho ket maitunos iti misyon ti IATF",
+          "adda ti posible a dalan nga agturong iti maintenance wenno completion"
+        ]
+      },
+      {
+        "title": "Panagtagikua ti repositorio",
+        "paragraphs": [
+          "Dagiti maawat a proyekto ket napartuat babaen ti IATF GitHub nga organisasion.",
+          "Agtalinaed sadiay dagiti repositorio tapno mataginayon ti tunggal proyekto ti natalged a pagtaengan ti publiko, uray no agbaliw dagiti mangmantener kalpasanna."
+        ]
+      },
+      {
+        "title": "Panagipatulod iti Lisensia",
+        "paragraphs": [
+          "Dagiti proyekto ti IATF ket agus-usar kadagiti lisensia ti copyleft malaksid no ti maysa a proyekto ket mangibaga iti sabali:"
+        ],
+        "items": [
+          "<strong>Kodigo:</strong> AGPL-3.0",
+          "<strong>Dokumentasion:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Responsable nga inheniero wenno mangmantener",
+      "paragraphs": [
+        "Tunggal maakseptar a proyekto ket nasken nga adda ti nainaganan a responsable nga inheniero wenno mangmantener. Mabalin a maited iti dayta a tao ti administrador a panagserrek iti repositorio ken manamnama nga:"
+      ],
+      "items": [
+        "panangiturong iti panagrang-ay iti publiko",
+        "salimetmetan ti estruktura ti repositorio",
+        "kitaen wenno tamingen dagiti isyu ken mangala kadagiti kiddaw",
+        "dokumento dagiti napateg a teknikal a desision",
+        "ipakaammom a nalaka a maawatan ti dadduma ti proyekto"
+      ],
+      "footnote": "Daytoy ket repository-level a responsibilidad. Ti panagtagikua ti organisasion ket agtalinaed iti IATF. Ti responsibilidad ditoy ket ti panangaywan ti repositorio, teknikal a direksion, ken publiko a koordinasion  saan nga awan ti limitasion ti pribado a panangiyawat, dagiti naituding a panagtipon, wenno dagiti service-level commitment iti ruar ti publiko a roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Publiko a panagrang-ay",
+      "paragraphs": [
+        "Dagiti proyekto a nairugi babaen ti IATF ket naparang-ay iti publiko babaen ti default. Ti repositorio ket ti publiko a taudan ti kinapudno para iti:"
+      ],
+      "items": [
+        "kodigo ti taudan",
+        "dagiti isyu",
+        "dokumentasion",
+        "dagiti nota ti roadmap",
+        "pakasaritaan ti pannakairuar"
+      ],
+      "footnote": "Ti napateg a pannakaammo maipapan iti proyekto ket saan laeng koma nga adda iti pribado a chat wenno inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Dagiti publiko a rekord",
+      "title": "Dagiti publiko a rekord ti kiddaw"
+    },
+    "paragraphs": [
+      "Dagiti kiddaw a sumrek iti IATF babaen ti website, e-mail, Discord, GitHub, wenno dadduma pay a kanal ti Iatf ket mabalin nga agbalin a publiko a rekord ti kiddaw.",
+      "Ti publiko a rekord ti kiddaw ket saan a nasken a ti kasisigud a mensahe.",
+      "Dagiti publiko a rekord ti kiddaw ket mabalin a maidulin iti organisasion ti IATF GitHub, iti daytoy a website, wenno agpadpada.",
+      "Sakbay a maipablaak, ikkaten ti IATF dagiti di kasapulan a personal a detalye ti kontak, pribado nga adres, ken dagiti pakailasinan a detalye maipapan kadagiti indibidual nga agar-aramat iti makatulong a teknolohia malaksid no nalawag a nairanta ken maitutop ti pannakaipablaakna.",
+      "Ti Discord ket inus-usar para iti saan a pormal a koordinasion. Ti IATF ket saan a nagsina nga agi-arkibo kadagiti panagsasarita ti Discord babaen ti default, ken ti panagidulin ti mensahe ket kontrolado babaen ti Diskord. Dagiti pangngeddeng a naaramid iti Discord a nasken a mairaman iti publiko a rekord iti GitHub wenno iti maipanggep a panid ti proyekto.",
+      "Dagiti rekord ti kiddaw ket saan a mairaman iti panag-indeks ti pagbiruk a makina no praktikal iti teknikal. Ti publiko ket kayatna a sawen ti mabalin a masukimat ken maibaga. Saanna a kayat a sawen a na-optimize para iti pannakaduktal babaen ti panagsapul ti nagan.",
+      "Ti IATF ket mabalin a mang-update wenno mangikkat kadagiti rekord manipud kadagiti publiko a rabaw a kontrolado ti Iatf, ngem saanna a masigurado ti pannakaikkat manipud kadagiti third-party caches, notifications, forks, screenshots, search engines, Discord, wenno dadduma pay a makinruar a sistema.",
+      "No masapul nga agtalinaed a pribado ti mensahe, saanmo nga ibaon dayta babaen kadagiti publiko a kanal ti IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisado a papel",
+      "title": "Tugaw"
+    },
+    "lead": "Ti tsirko ket addaan ti organisasion a panagturay ti IATF. Daytoy ket naiduma manipud ti tunggal proyekto a responsable nga inheniero a papel: ti tserko ket responsable para iti sibubukel nga organisasion, saan a para iti inaldaw a panangiwanwan ti aniaman a maymaysa a repositorio.",
+    "duties": {
+      "title": "Ti ar-aramiden ti tugaw",
+      "items": [
+        "Agtengngel kadagiti pammalubos ti akinkukua iti organisasion ti IATF GitHub",
+        "Agpirma kadagiti desision iti panangawat ti proyekto ken panag-arkibo",
+        "Agakem a kas ti publiko a punto ti kontak para iti IATF",
+        "Urnosenna ti tinawen nga eleksion"
+      ],
+      "footnote": "Ti presidente ket saanna a pagrebbengan ti IATF iti pribado a panangipaay, mabayadan a trabaho, wenno dagiti katulagan ti service-level, ken saanna nga ikaskaso dagiti tunggal-repository a mangsansantipikar kadagiti pangngeddeng iti teknikal a panangiwanwan."
+    },
+    "election": {
+      "title": "Tinawen nga eleksion",
+      "paragraphs": [
+        "Ti presidente ket mabutosan iti maminsan iti makatawen.",
+        "Dagiti kualipikado a botante ket dagiti tattao nga adda ti akemda a mangmantener iti aniaman a repositorio ti IATF iti las-ud ti tawen ken nangaramid ti saan a basbassit ngem maysa a pinagtipon a kontribusion iti maysa a repository ti Iatf iti dayta a tawen.",
+        "Ti eleksion ket maisayangkat a kas publiko a Diskusion ti GitHub iti naituding nga IATF governance repository, isu a dagiti kandidato, ti botos, ken ti resulta ket paset amin ti publiko a rekord."
+      ]
+    },
+    "continuity": {
+      "title": "Panagtultuloy",
+      "paragraphs": [
+        "No awan ti eleksion a maangay iti maysa a naited a tawen, ti agdama a presidente ket agtultuloy iti akem agingga iti sumaruno nga eleksion. Daytoy ket maysa nga awan patinggana a panagtultuloy, saan a maysa a panawen ti gracia  ti modelo ket nadisenio tapno agtalinaed ti organisasion a natalinaay no ti aktibidad ket basbassit, a saan a mangpilit iti panagbaliw nga awan ti nakasagana.",
+        "Ti presidente ket mabalin nga agikkat iti aniaman a panawen. Dagiti aktibo a mangsansantipikar ket mabalin pay a mangawag ti maysa nga ekstraordinario nga eleksion nga addaan ti naibaga a rason, a maurnos iti babaen dagiti isu met laeng a paglintegan a kas ti tinawen nga eleksyon."
+      ]
+    },
+    "current": {
+      "title": "agdama a katurayan",
+      "fields": [
+        {
+          "label": "Tugaw",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termino",
+          "value": "Agingga iti eleksion iti Disiembre 2026"
+        },
+        {
+          "label": "Nairehistro ti akemna",
+          "value": "2026"
+        },
+        {
+          "label": "Umuna a naituding nga eleksion",
+          "value": "Disiembre 2026"
+        }
+      ]
+    },
+    "footnote": "Ti akem ti tsirman ket napormal idi 2026 tapno agbalin a nalawag ti panangimaton iti organisasion."
+  },
+  "continuity": {
+    "states": {
+      "title": "Dagiti estado ti proyekto",
+      "paragraphs": [
+        "Usaren dagiti proyekto ti bassit a grupo dagiti publiko nga estado:"
+      ],
+      "items": [
+        "Pagannurotan",
+        "Naawat",
+        "Aktibo",
+        "Natibker",
+        "Panangbirok iti mangmantener",
+        "Naikabil iti arkibo"
+      ],
+      "footnote": "Dagitoy nga estado pagbalinenda a nalaka a ma-scan ti rehistro."
+    },
+    "reassignment": {
+      "title": "Pannakaited manen ken panagi-arkibo",
+      "paragraphs": [
+        "No agikkat wenno saanen nga aktibo ti maysa a mangmantener, mabalin a mangituding manen ti IATF iti responsabilidad, agsardeng iti panagrang-ay, wenno i-archive ti proyekto.",
+        "Mabalin met a mai-archive ti maysa a proyekto no nalpasen ti orihinal a kasapulan, nagsardengen ti pannakamantener, wenno saanen a realistiko ti agtultuloy a trabaho."
+      ],
+      "footnote": "Dagiti naikabil iti arkibo a proyekto ket agtultuloy a makita ti publiko malaksid no adda nabileg a rason a saan a kasta."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Pagbeddengan a nota",
+      "title": "Ti saan nga ipalubos ti IATF"
+    },
+    "items": [
+      "panangipaay iti pribado a kliente",
+      "dagiti katulagan ti service-level",
+      "panangawat iti tunggal singasing",
+      "napaut a panagmantener para iti tunggal proyekto"
+    ],
+    "footnote": "Ti IATF ket modelo ti publiko a repositorio, saan a pribado a serbisio ti panangipaay."
+  }
+}

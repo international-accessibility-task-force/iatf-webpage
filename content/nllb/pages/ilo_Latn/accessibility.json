@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Pannakabalin a magun-odan",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Pannakabalin a magun-odan",
+    "lead": "Ikagkagumaan ti IATF a pagbalinen daytoy a website a simple, nalaka a basaen, mausar babaen ti keyboard, ken maitutop kadagiti makatulong a teknolohia.",
+    "support": [
+      "Para iti web accessibility, usaren ti IATF [W3C WAI](https://www.w3.org/WAI/) Ti praktikal nga accessibility ket nailanad met babaen ti direkta a kapadasan dagiti agar-aramat kadagiti makatulong a teknolohia."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Panagreport",
+      "title": "Ireport ti maysa a parikut iti aksesibilidad"
+    },
+    "paragraphs": [
+      "No adda makitam a lapped iti pannaka-access iti daytoy a website, pangngaasim ta ipakaammom dayta babaen ti e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Dagiti makatulong a report iramanna ti:"
+    ],
+    "items": [
+      "ti panid a nakaaramidan ti isyu",
+      "no ania ti padpadasem nga aramiden",
+      "no ania a katulongan a teknolohia, browser, wenno aparato ti inusarmo, no maitutop",
+      "ania ti dakes a napasamak?",
+      "no ania koma ti nakatulong"
+    ],
+    "footnote": "Saanmo a kasapulan nga isurat ti pormal a report ti bug. Umdasen ti nalawag a deskripsion."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Panangiggem",
+      "title": "Panangtaming kadagiti isyu iti publiko"
+    },
+    "paragraphs": [
+      "Dagiti parikut iti pannaka-access ket mabalin a sumario iti maitutop a publiko a repositorio tapno masolbar dagitoy iti nawaya.",
+      "No karaman iti reportyo ti pribado nga impormasion, silalawag nga ibagayo dayta iti mensahe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "agdama a kasasaad",
+      "title": "Pagaammo a limitasion"
+    },
+    "paragraphs": [
+      "Daytoy a sitio ket naigagara a bassit ken kaaduanna ket statiko. Dadduma a bersion ti pagsasao ket mabalin a saan a kompleto bayat a maisagsagana dagiti patarus."
+    ]
+  }
+}

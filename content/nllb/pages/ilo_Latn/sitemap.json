@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indise",
+    "title": "Sitemap",
+    "lead": "Tunggal publiko a panid iti iatf.cc, iti maymaysa a lugar."
+  },
+  "sections": [
+    {
+      "title": "Kangrunaan a panid",
+      "items": [
+        {
+          "label": "Pagtaengan",
+          "href": "/"
+        },
+        {
+          "label": "Dagiti proyekto",
+          "href": "/projects/"
+        },
+        {
+          "label": "Agkiddaw iti proyekto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Panagturay",
+          "href": "/governance/"
+        },
+        {
+          "label": "Agtitinnulong",
+          "href": "/join/"
+        },
+        {
+          "label": "Pannakabalin a magun-odan",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparensia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Dagiti proyekto",
+  "projectsEmpty": "Awan pay ti naipablaak a proyekto."
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Makipaset iti IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Makipaset iti IATF",
+    "lead": "Ti panagkameng ket silulukat. Adda dagiti nadumaduma a pamay-an a makipaset, no agpannurayka iti katulongan a teknolohia, agaramid ti nalaka a magun-odan a software, agipatarus, agsubok, wenno mangmantener ti maysa a proyekto. Dagiti diskusion ken dagiti pangngeddeng ket mapaspasamak iti publiko iti GitHub ken Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Dagiti akem",
+      "title": "Dagiti pamay-an ti panagkontribusion"
+    },
+    "items": [
+      "<strong>Agkiddawka iti proyekto.</strong> No adda masarakam a lapped iti accessibility a mabalin a masolbar babaen ti publiko nga open source a software, ipatulodmo dayta babaen ti request intake.",
+      "<strong>Padasen ken repasuen.</strong> Padasenyo dagiti proyekto ti IATF nga addaan iti katulongan a teknolohia nga us-usarenyo, ireportyo no ania ti epektibo ken saan, ken direksionanyo dagiti parikut iti maitutop a repositorio.",
+      "<strong>Agipatarus.</strong> Ti taudan a linaon ket naipablaak iti simple nga Ingles nga umuna. Dagiti patarus ket nainayon a kas dagiti nagkontribusion ket magun-odan, a nangrugi iti Espaniol.",
+      "<strong>Agbangonkayo.</strong> Mangsapul kadagiti parikut iti aniaman a repositorio ti IATF, mangibaon kadagiti kiddaw a mangala, wenno mangala iti maysa a proyekto kas ti responsable nga inheniero.",
+      "<strong>Agtalinaed.</strong> Dagiti agdama a proyekto no dadduma kasapulanda ti baro a mangmantener."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Dagiti kanal",
+      "title": "No agtrabtrabaho ti IATF iti publiko"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issues, pull requests, releases, ken dagiti rekord ti proyekto.",
+      "<strong>Di panagkikinnaawatan.</strong> Ti direkta a panagsasarita, koordinasion, ken di pormal a salsaludsod.",
+      "<strong>Ti e-mail.</strong> Panagusar <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> no saan a maitutop ti GitHub wenno ti Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sumaruno nga addang",
+      "title": "Piliem ti channel a maitutop iti kayatmo a pagkontribusion"
+    },
+    "paragraphs": [
+      "Amin a kanal ket magun-odan iti isu met laeng a publiko a panagrepaso ken kadagiti isu met la a publikon a repositorio."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

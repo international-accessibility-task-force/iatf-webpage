@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Manipud iti panagkasapulan iti pannakaidanon iti publiko a repo",
+    "lead": "Tultulongan ti IATF dagiti asosasion, grupo, ken indibidual a mangbalbaliw kadagiti pudno a kasapulan iti accessibility kadagiti publiko a proyekto nga open source.",
+    "support": [
+      "Dagiti maawat a proyekto ket maipablaak iti IATF GitHub nga organisasion babaen ti copyleft a lisensia ken mapartuat iti publiko babaen ti maysa a responsable nga inheniero."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modelo ti panagandar ti publiko",
+      "title": "Simple a publiko a dalan para iti nalaka a magun-odan a software"
+    },
+    "paragraphs": [
+      "Babaen ti maysa a pormat, ti asinoman ket mabalin a mangipatulod ti maysa nga accessibility a parikut iti IATF. No ti grupo ket mabalinna daytoy, ti publiko a repositorio ti GitHub ket maluktan para iti trabaho.",
+      "Tunggal maakseptar a proyekto ket addaan iti nalawag a publiko a pagtaengan para iti kodigo, dagiti isyu, dokumentasion, ken dagiti pannakairuar, a ti panagrang-ay ket idadauluan iti nawaya babaen ti maysa a responsable nga inheniero."
+    ],
+    "specCard": {
+      "title": "Modelo ti panagandar ti publiko",
+      "terms": [
+        {
+          "term": "Kasapulan",
+          "definition": "Pudno a parikut iti pannakabalin nga umasideg"
+        },
+        {
+          "term": "Panangrepaso",
+          "definition": "Mision a maitutop ken praktikal a pannakabael"
+        },
+        {
+          "term": "Lugar ti proyekto",
+          "definition": "Publiko a repositorio ti GitHub"
+        },
+        {
+          "term": "Panangaywan",
+          "definition": "Organisasional a panagtagikua ti IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proseso",
+      "title": "No kasano nga agkurri dayta",
+      "intro": "Ti modelo ket nainkalintegan a bassit tapno nalaka a suroten ti publiko a dalan."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Naipatulod ti kasapulan",
+        "paragraphs": [
+          "Ti maysa nga asosasion, grupo, wenno indibidual ket mabalin a mangidatag iti kiddaw a naibatay iti pudno a kasapulan iti pannakabalin nga umasideg.",
+          "Dagiti kiddaw ket mabalin a mangrugi iti website, babaen ti e-mail iti <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, wenno babaen ti Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Sukimaten ti IATF",
+        "paragraphs": [
+          "Sukimatentayo no maitutop ti mision, praktikal a saklawen, ken no ti trabaho ket paset ti maysa a publiko a proyekto nga open source."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Naaramid ti publiko a repositorio",
+        "paragraphs": [
+          "No maawat ti maysa a proyekto, maipablaak daytoy iti organisasion ti IATF GitHub babaen ti lisensia ti copyleft.",
+          "Ti repositorio ket agbalin a publiko a pagtaengan ti kodigo, dagiti isyu, dokumentasion, ken dagiti pannakairuar."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Ti maysa a responsable nga inheniero ti mangidaulo iti proyekto",
+        "paragraphs": [
+          "Ti maysa a responsable nga inheniero ket naituding iti repository ti proyekto ken ti panagrang-ay ket mapaspasamak iti publiko."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Publiko a rehistro ti proyekto"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Irugi ditoy",
+      "title": "I-browse ti agdama a trabaho wenno mangrugi iti konkreto a proyekto"
+    },
+    "paragraphs": [
+      "Usaren ti rehistro tapno makitam no ania ti publiko, wenno rugiam ti agpalista no ti maysa a konkreto a parikut iti pannakabalin a sumrek ket agbalin a proyekto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
