@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Sitemap",
+    "lead": "Všechny veřejné stránky na iatf.cc, na jednom místě."
+  },
+  "sections": [
+    {
+      "title": "Hlavní stránky",
+      "items": [
+        {
+          "label": "Domov .",
+          "href": "/"
+        },
+        {
+          "label": "Projekty",
+          "href": "/projects/"
+        },
+        {
+          "label": "Žádost o projekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Správa",
+          "href": "/governance/"
+        },
+        {
+          "label": "Přidej se.",
+          "href": "/join/"
+        },
+        {
+          "label": "Přístupnost",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Průhlednost",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekty",
+  "projectsEmpty": "Žádné projekty ještě zveřejněné."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Internetová stránka IATF",
+    "summary": "Veřejná stránka Mezinárodní pracovní skupiny pro přístupnost.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF potřebovala stabilní veřejný domov, který by vysvětloval model, seznamoval projekty a ukazoval přispěvatelům správný další krok.",
+    "why": "Stránka je veřejnou vstupní branou IATF. Je postavena jako malý statický projekt, takže zůstává snadno čitelná, překládána a udržována na otevřeném místě.",
+    "scopeIn": [
+      "Veřejné vstupní stránky, které vysvětlují model IATF",
+      "Veřejný rejstřík přijatých, aktivních a archivovaných projektů IATF se statusem, údržbářem, úložištěm a demonstrací",
+      "Stránka pro přijímání žádosti a formulář",
+      "Stránky týkající se správy a transparentnosti",
+      "Anglický zdroj se strukturou připravenou k překladu",
+      "Statické nasazení na Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Soukromé členské oblasti, účty nebo přihlašovací toky",
+      "Hosting zdrojového kódu projektu, který se nachází ve vlastním úložišti každého projektu",
+      "Chat v reálném čase, který žije v Discord",
+      "Sledování problémů pro jednotlivé projekty, které se nacházejí v úložišti GitHub každého projektu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Prvotní prototyp IATF, archivovaný po dosažení přirozeného bodu zastavení.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Počáteční zkoumání nástroje zaměřeného na přístupnost v rámci IATF.",
+    "why": "Repozitář je uchováván veřejně jako záznam o práci, i když aktivní vývoj byl zastaven.",
+    "scopeIn": [
+      "První prototyp nástroje zaměřeného na přístupnost, který se uchovává jako veřejný záznam"
+    ],
+    "scopeOut": [
+      "Aktivní vývoj nebo funkční práce",
+      "Závazky týkající se výživného",
+      "Doporučené použití ve výrobě"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Komunitní bot IATF, archivovaný po dosažení přirozeného bodu zastavení.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatizace komunitních kanálů IATF.",
+    "why": "Repozitář je uchováván veřejně jako záznam o práci, i když aktivní vývoj byl zastaven.",
+    "scopeIn": [
+      "Automatizace sporů kolem komunitních kanálů IATF, uchovávána jako veřejný záznam"
+    ],
+    "scopeOut": [
+      "Aktivní vývoj nebo funkční práce",
+      "Závazky týkající se výživného",
+      "Doporučené použití ve výrobě"
+    ]
+  }
+]

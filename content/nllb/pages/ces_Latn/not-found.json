@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nenalezeno"
+  },
+  "hero": {
+    "eyebrow": "Nenalezeno",
+    "title": "Žádná stránka nebyla nalezena",
+    "lead": "Použijte hlavní trasy níže, abyste se vrátili na veřejné místo.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Domov .",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Trasa, kterou jste požadoval, neexistuje."
+    ],
+    "items": [
+      {
+        "label": "Domov .",
+        "href": "/"
+      },
+      {
+        "label": "Projekty",
+        "href": "/projects/"
+      },
+      {
+        "label": "Přidej se.",
+        "href": "/join/"
+      },
+      {
+        "label": "Přístupnost",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Správa",
+        "href": "/governance/"
+      },
+      {
+        "label": "Průhlednost",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projekty veřejného zpřístupnění",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projekty veřejného zpřístupnění",
+    "lead": "V tomto registru jsou uvedeny veřejné projekty, které jsou udržovány prostřednictvím IATF. Přijaté projekty přístupnosti, infrastruktura webu a archivované prototypy jsou zde viditelné.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Účetní dvůr",
+      "title": "Současný rejstřík"
+    },
+    "intro": [
+      "Přijaté projekty jsou uvedeny zde po jejich zveřejnění."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Předložit žádost",
+      "title": "Přeměnit konkrétní potřebu přístupnosti na veřejný projekt"
+    },
+    "paragraphs": [
+      "IATF přezkoumává konkrétní potřeby v oblasti přístupnosti, které lze přeměnit na užitečné veřejné dílo s otevřeným zdrojovým kódem."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Žádné projekty dosud zveřejněné",
+    "paragraphs": [
+      "IATF připravuje svůj první veřejný projektový soubor.",
+      "Stále můžete zaslat žádost, pokud máte konkrétní potřeby týkající se přístupnosti."
+    ]
+  }
+}
