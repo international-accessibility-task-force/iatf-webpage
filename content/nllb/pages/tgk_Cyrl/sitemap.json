@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Харитаи сомона"
+  },
+  "hero": {
+    "eyebrow": "Нишондиҳанда",
+    "title": "Харитаи сомона",
+    "lead": "Ҳар як саҳифаи оммавии iatf.cc, дар як ҷо."
+  },
+  "sections": [
+    {
+      "title": "Саҳифаҳои асосӣ",
+      "items": [
+        {
+          "label": "Хонаи истиқоматӣ",
+          "href": "/"
+        },
+        {
+          "label": "Лоиҳаҳо",
+          "href": "/projects/"
+        },
+        {
+          "label": "Дархости лоиҳа",
+          "href": "/propose/"
+        },
+        {
+          "label": "Идоракунӣ",
+          "href": "/governance/"
+        },
+        {
+          "label": "Пайвастшавӣ",
+          "href": "/join/"
+        },
+        {
+          "label": "Дастрасӣ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Шаффофият",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Лоиҳаҳо",
+  "projectsEmpty": "Ҳанӯз ягон лоиҳа нашр нашудааст."
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Лоиҳаҳои дастрасии оммавӣ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Лоиҳаҳои дастрасии оммавӣ",
+    "lead": "Ин феҳрист лоиҳаҳои оммавиро, ки тавассути IATF нигоҳ дошта мешаванд, номбар мекунад. Лоиҳаи дастрасии қабулшуда, инфрасохтори сайт ва прототипҳои бойгонӣ дар ин ҷо намоён мебошанд.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Бақайдгирӣ",
+      "title": "Феҳристи ҷорӣ"
+    },
+    "intro": [
+      "Лоиҳаҳои қабулшуда пас аз нашр дар ин ҷо номбар карда мешаванд."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Талаботро пешниҳод кунед",
+      "title": "Талаботи дастрасии мушаххасро ба лоиҳаи ҷамъиятӣ табдил диҳед"
+    },
+    "paragraphs": [
+      "IATF ниёзҳои мушаххаси дастрасиро баррасӣ мекунад, ки метавонанд ба кори манбаи кушоди ҷамъиятӣ табдил ёбанд."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ҳанӯз ягон лоиҳа нашр нашудааст",
+    "paragraphs": [
+      "IATF аввалин маҷмӯи лоиҳаҳои оммавиро омода мекунад.",
+      "Агар шумо ниёзҳои мушаххаси дастрасӣ дошта бошед, шумо метавонед дархост фиристед."
+    ]
+  }
+}

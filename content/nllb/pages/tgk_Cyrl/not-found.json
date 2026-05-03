@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Дарёфт нашудааст"
+  },
+  "hero": {
+    "eyebrow": "Дарёфт нашудааст",
+    "title": "Саҳифаи дархостшуда ёфт нашуд",
+    "lead": "Барои баргаштан ба макони ҷамъиятӣ аз роҳҳои асосии дар поён овардашуда истифода баред.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Хонаи истиқоматӣ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Роҳи дархосткардаи шумо вуҷуд надорад."
+    ],
+    "items": [
+      {
+        "label": "Хонаи истиқоматӣ",
+        "href": "/"
+      },
+      {
+        "label": "Лоиҳаҳо",
+        "href": "/projects/"
+      },
+      {
+        "label": "Пайвастшавӣ",
+        "href": "/join/"
+      },
+      {
+        "label": "Дастрасӣ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Идоракунӣ",
+        "href": "/governance/"
+      },
+      {
+        "label": "Шаффофият",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
