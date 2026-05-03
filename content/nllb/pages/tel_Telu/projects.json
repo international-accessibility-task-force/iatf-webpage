@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "పబ్లిక్ యాక్సెసిబిలిటీ ప్రాజెక్టులు",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "పబ్లిక్ యాక్సెసిబిలిటీ ప్రాజెక్టులు",
+    "lead": "ఈ రిజిస్ట్రీ IATF ద్వారా నిర్వహించబడుతున్న పబ్లిక్ ప్రాజెక్టులను జాబితా చేస్తుంది. ఆమోదించబడిన ప్రాప్యత ప్రాజెక్టులు, సైట్ మౌలిక సదుపాయాలు మరియు ఆర్కైవ్ చేయబడిన నమూనాలు ఇక్కడ కనిపిస్తాయి.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "రిజిస్ట్రీ",
+      "title": "ప్రస్తుత రిజిస్ట్రీ"
+    },
+    "intro": [
+      "ఆమోదించబడిన ప్రాజెక్టులు ప్రచురించబడిన తర్వాత ఇక్కడ ఇవ్వబడ్డాయి."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ఒక అవసరాన్ని సమర్పించండి",
+      "title": "యాక్సెసిబిలిటీ అవసరాన్ని పబ్లిక్ ప్రాజెక్టుగా మార్చడం"
+    },
+    "paragraphs": [
+      "ఉపయోగకరమైన పబ్లిక్ ఓపెన్ సోర్స్ పనిగా మార్చగల నిర్దిష్ట ప్రాప్యత అవసరాలను IATF సమీక్షిస్తుంది."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ఇంకా ప్రచురించిన ప్రాజెక్టులు లేవు",
+    "paragraphs": [
+      "IATF తన మొదటి పబ్లిక్ ప్రాజెక్ట్ సమితిని సిద్ధం చేస్తోంది.",
+      "మీకు ప్రత్యేకమైన యాక్సెసిబిలిటీ అవసరమైతే మీరు ఇప్పటికీ అభ్యర్థనను పంపవచ్చు."
+    ]
+  }
+}

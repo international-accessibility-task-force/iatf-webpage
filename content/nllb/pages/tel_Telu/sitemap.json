@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "సైట్ మ్యాప్"
+  },
+  "hero": {
+    "eyebrow": "సూచిక",
+    "title": "సైట్ మ్యాప్",
+    "lead": "IATFCC లో ప్రతి పబ్లిక్ పేజీ, ఒకే చోట."
+  },
+  "sections": [
+    {
+      "title": "ప్రధాన పేజీలు",
+      "items": [
+        {
+          "label": "ఇల్లు",
+          "href": "/"
+        },
+        {
+          "label": "ప్రాజెక్టులు",
+          "href": "/projects/"
+        },
+        {
+          "label": "ప్రాజెక్టును అభ్యర్థించండి",
+          "href": "/propose/"
+        },
+        {
+          "label": "పాలన",
+          "href": "/governance/"
+        },
+        {
+          "label": "చేరండి",
+          "href": "/join/"
+        },
+        {
+          "label": "యాక్సెసిబిలిటీ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "పారదర్శకత",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ప్రాజెక్టులు",
+  "projectsEmpty": "ఇంకా ప్రచురించిన ప్రాజెక్టులు లేవు."
+}

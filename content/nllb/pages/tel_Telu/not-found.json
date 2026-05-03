@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "కనుగొనబడలేదు"
+  },
+  "hero": {
+    "eyebrow": "కనుగొనబడలేదు",
+    "title": "అభ్యర్థించిన పేజీ కనుగొనబడలేదు",
+    "lead": "పబ్లిక్ సైట్ కు తిరిగి రావడానికి క్రింద ఉన్న ప్రధాన మార్గాలను ఉపయోగించండి.",
+    "support": [],
+    "actions": [
+      {
+        "label": "ఇల్లు",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "మీరు కోరిన మార్గం ఉనికిలో లేదు."
+    ],
+    "items": [
+      {
+        "label": "ఇల్లు",
+        "href": "/"
+      },
+      {
+        "label": "ప్రాజెక్టులు",
+        "href": "/projects/"
+      },
+      {
+        "label": "చేరండి",
+        "href": "/join/"
+      },
+      {
+        "label": "యాక్సెసిబిలిటీ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "పాలన",
+        "href": "/governance/"
+      },
+      {
+        "label": "పారదర్శకత",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
