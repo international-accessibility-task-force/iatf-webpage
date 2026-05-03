@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Repos públicos nisqaman yaykunankupaq necesitanku",
+    "lead": "IATF nisqaqa asociacionkunata, grupokunata, runakunatapas yanapan, chaykunatapas yanapayta atin, chaykunawantaq tukuy runakunapaq llamk'anapaq llamk'ananku tiyan.",
+    "support": [
+      "Aceptasqa proyectokunaqa IATF GitHub nisqapi publicacionta ruwanku copyleft licenciawan, hinallataqmi huk ingeniero publicopi llamk'achin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modelo de funcionamiento público nisqa",
+      "title": "Software accesible nisqapaq hukllachasqa llaqtapi puririy"
+    },
+    "paragraphs": [
+      "IATF nisqamanqa, mayk'a runapas, huk formulariowan, ima sasachakuytapas apachiyta atinman, chaytaq, chay llank'aypaq, GitHub nisqapi kicharisqa kanqa.",
+      "Tukuy chaskisqa proyectokunaqa maypichus code, documentokuna, publicacionkuna ima kashan, chaypitaq allin yuyaywan llamk'achiyta qallarichinku."
+    ],
+    "specCard": {
+      "title": "Modelo de funcionamiento público nisqa",
+      "terms": [
+        {
+          "term": "Ima necesitasqaykita",
+          "definition": "Rikuyta atipanapaq sasachakuykuna"
+        },
+        {
+          "term": "Ñawinchay",
+          "definition": "Misiónpaq allin kaynin, practicable kaynin"
+        },
+        {
+          "term": "Proyecto nisqapaq musuqchasqapura wakin kaynin",
+          "definition": "Repositorio público GitHub nisqapi"
+        },
+        {
+          "term": "Mayordomía",
+          "definition": "IATF organizacionkunaq kikin kaynin"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proceso",
+      "title": "Imaynatam ruwakun",
+      "intro": "Kay modeloqa juchʼuypipuni kashan, chayrayku tukuy runas purinanku tiyan."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ima necesitakusqanta willakun",
+        "paragraphs": [
+          "Juk qutuchakuy, uj qutuchakuyta, chayri uj runata ima, chay qutuchakuykunaman yaykunankupaj wajyarinanku tiyan.",
+          "Chaypaqqa internetpi, correo electrónicopi kayman apachikuwaq: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, chayri Discord nisqawan."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF qhawachin",
+        "paragraphs": [
+          "Ñoqanchispas chay llank'aymanta yachakunchis, imaynapichus llank'ayta ruwayta atinchis, imachus chay llamk'ayqa, manachayqa maypichus llamk'ayta atinchis chayta."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Commons nisqapi suyukunata uyarinakunatapas tarinki kaymantam:",
+        "paragraphs": [
+          "Sichus huk proyecto chaskisqa kanman chayqa, IATF GitHub organizacionpi copyleft licenciawan publicasqa kanqa.",
+          "Repositorio nisqaqa, código, publicacionkuna, documentokuna, publicaciones ima, maypichus tarikusqanta rikuchin."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Chaypaqqa, ingenierokunan llankʼananku tiyan.",
+        "paragraphs": [
+          "Chaypaqqa, uj ingeniero llankʼanan tiyan, chaytaj tukuy runaspa ñawpaqenpi ruwakun."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro nisqamanta",
+      "title": "Registrador público de proyectos nisqapaq musuqchasqapura"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kaymanta qallariy.",
+      "title": "Ruraqkunapa llamk'ayninmanta yachanapaq utaq proyectota qallarichinapaq"
+    },
+    "paragraphs": [
+      "Kay registro nisqamanta qhaway imakunachus publicacionpi kashan chayta, chayri chaymanta qhawayta qallariy, sichus uj problema accesible kanman chayqa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

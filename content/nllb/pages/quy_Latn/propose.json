@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Proyecto de accesibilidad nisqata mañakuy",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Proyecto de accesibilidad nisqata mañakuy",
+    "lead": "IATF nisqaqa, maypichus chiqap necesitakunamanta parlanku, chayman chayanankupaq mañakusqankuta qhawarin.",
+    "support": [
+      "Chaypaqqa, mayqen problemachus kasqanta sutʼita entiendenayki tiyan, pichus chayman chayan, imaraykutaj chay chʼampay kasqanta ima."
+    ],
+    "actions": [
+      {
+        "label": "Rikuyta qallariy",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Discord sutiyuq p'anqaman t'inkimuqkuna",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Channels nisqakuna",
+      "title": "Mana chʼampay atina ñanpi puriy."
+    },
+    "intro": [
+      "Tukuy ñankunaqa kikillanpi qhawakunanku tiyan."
+    ],
+    "items": [
+      {
+        "label": "Página web",
+        "body": "Kay folletota utilizaspaykiqa, imamantachus mañakusqaykita apachiy."
+      },
+      {
+        "label": "Email nisqamanta",
+        "body": "Kay tapuyta apachiy: {{contact.requestsEmail}}Imaynatapuni willanaykipaq mañakuykusqaykimantaqa, chay willakuykunaqa ñawinchasqallataqmi kanqa."
+      },
+      {
+        "label": "Ch'aqway",
+        "body": "Chaymanta qallariy, chayqa aswan allin kanman chayqa."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Manaraq imatapis mañakuspayki",
+    "paragraphs": [
+      "IATFqa tukuypaqmi llamk'an. P'anqaykunataqa qhawarichinmanku hinaspataq publicanmanku publicanpaq qelqakunaman hina, chaykunataq kay GitHub nisqapi, kay sitio web nisqapi icha iskayninpipas.",
+      "Chaypaqqa, ama qelqakunamanta, telefononmanta, doctormanta ima willakuykunatachu apachiychu, nitaq imamantapas willakuychu, mana chayqa necesitakunchu, chaymantapas IATF nisqaman willakuyta atiy.",
+      "IATFqa mana necesitakunchu personalespa willakuyninkunata, manaraj publicacionta ruwashaspa."
+    ]
+  },
+  "review": {
+    "title": "Revisar suyakuykuna",
+    "paragraphs": [
+      "Chaypaq mañakuyqa mana allinchu kanman.",
+      "IATF nisqaqa llamk'anapaq allin kayninmanta, ruwanapaq atiyninmanta, yanapakuyninmantawan, imachus llamk'aykunapaq allin kasqanta ima qhawachin.",
+      "Wakin mañakusqankuqa mana jaykʼaq japʼisqa kanmanchu, chayri pisi tiempollamanta japʼiqasqa kanman, chayri mana chayman jinachu kanman."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "P'anqata mañakuy",
+      "title": "Rikuyta mañakuy"
+    },
+    "fields": [
+      {
+        "kind": "willakuy",
+        "name": "mañakuq",
+        "label": "Sutisniyki, utaq qutuchasqayki",
+        "helper": "¿Pitaq chayta mañakun?"
+      },
+      {
+        "kind": "akllay",
+        "name": "ContactRoute sutiyuq p'anqaman t'inkimuqkuna",
+        "label": "Runaswan tinkukuyta munaspa",
+        "helper": "¿Imaynatan chaykunata qhawarinanchis?",
+        "required": true,
+        "options": [
+          "Email nisqamanta",
+          "Ch'aqway"
+        ]
+      },
+      {
+        "kind": "willakuy",
+        "name": "Contact Details",
+        "label": "Rikunapaq willakuykuna",
+        "helper": "Email icha Discord sutiyuq ruraqqa kay qatiq p'anqakunam t'inkimun:",
+        "placeholder": "Email icha Discord sutiyuq ruraqqa p'anqakunam t'inkimun:",
+        "required": true
+      },
+      {
+        "kind": "willakuy",
+        "name": "qhichwa simi",
+        "label": "Runasimi",
+        "helper": "Ima simitachus parlanki chayta.",
+        "value": "Qhichwa simi"
+      },
+      {
+        "kind": "qillqa t'aqa",
+        "name": "ch'ampay",
+        "label": "¿Ima sasachakuytataq allichayta munanki?",
+        "helper": "¿Imataq chay jarkʼana kasqanta sutʼinchanman?",
+        "required": true
+      },
+      {
+        "kind": "qillqa t'aqa",
+        "name": "utilizasqakuna",
+        "label": "¿Pikunataq chayman chayanku?",
+        "helper": "¿Pitaq chaywan yanapachikunman?",
+        "required": true
+      },
+      {
+        "kind": "qillqa t'aqa",
+        "name": "extraContext",
+        "label": "Rimanakuy",
+        "helper": "Imatachus necesitasqaykita sutʼinchanaykipaq, ejemplosta, referenciasta, software nisqata, tiempo nisqata ima willanayki tiyan."
+      },
+      {
+        "kind": "akllay",
+        "name": "openSourceConsent nisqapaq musuqchasqapura wakin kaynin",
+        "label": "¿Allinchu kanman qelqakunawan llamkʼayqa?",
+        "helper": "Chaypaqqa IATF nisqamanta publicacionesta japʼinchik.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Arí",
+          "Mana",
+          "Manaraq yachanichu."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Rikuchkaptinqa",
+      "title": "¿Imatam ninku allinpaq qhawasqa kayqa?"
+    },
+    "items": [
+      "Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa: IATF GitHub.",
+      "Proyectota ruwakunanpaq encargado kaq ingeniero",
+      "Commons nisqapi suyukunata uyarinakunatapas tarinki kaymantam:",
+      "Publicaciones nisqapi publicacionkuna",
+      "IATF nisqapi qillqasqa"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Parlayta qallariy",
+      "title": "Qallarinanpaqqa, pisi tiempollapi, sutʼita mañakuy."
+    },
+    "paragraphs": [
+      "Sichus chiqaptapuni necesitakunki chayman chayanapaq, jinaspataq qankuna yuyankichis chayqa, apawaykuwayku."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

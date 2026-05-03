@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Sitemap",
+    "lead": "IATF.CC nisqapi tukuy publicacionkuna, uj lugarllapi."
+  },
+  "sections": [
+    {
+      "title": "Qhapaq p'anqakuna",
+      "items": [
+        {
+          "label": "Wasinman",
+          "href": "/"
+        },
+        {
+          "label": "Proyectos",
+          "href": "/projects/"
+        },
+        {
+          "label": "Proyectota mañakuy",
+          "href": "/propose/"
+        },
+        {
+          "label": "Umalliq kay",
+          "href": "/governance/"
+        },
+        {
+          "label": "Rimanakuy",
+          "href": "/join/"
+        },
+        {
+          "label": "Rikuyta atiy",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparencia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyectos",
+  "projectsEmpty": "Manan hayk'aqpas qillqasqachu."
+}

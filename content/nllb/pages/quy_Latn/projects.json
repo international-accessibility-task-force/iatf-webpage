@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyectos de accesibilidad pública nisqakuna",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyectos de accesibilidad pública nisqakuna",
+    "lead": "Kay qillqapiqa IATF nisqawan llamk'achisqa llamk'aykunatam rikuchinchik.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro nisqamanta",
+      "title": "Kunanpi qillqasqa"
+    },
+    "intro": [
+      "Kaypi willasun chaskisqa proyectos publicacionta chaskisqankumanta."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ima necesitasqaykita willamuy",
+      "title": "Commons nisqapi suyukunata uyarinakunatapas tarinki kaymantam:"
+    },
+    "paragraphs": [
+      "IATF nisqaqa, ima llamk'aykunatapas rikuchin, chaykunatataq llamk'achin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Manaraq publicacionkuna kanchu",
+    "paragraphs": [
+      "IATF nisqa, ñaupajta publicacionta wakichin.",
+      "Chaypaqqa, imachus necesitasqaykimanta mañakuyta atinki."
+    ]
+  }
+}

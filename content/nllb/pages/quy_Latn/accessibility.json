@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Rikuyta atiy",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Rikuyta atiy",
+    "lead": "IATF nisqaqa, kay web p'anqata, allin ñawinchayniyuq, t'ikrayllapi qhawayta atiyniyuq, yanapakuyniyuq ima, kananpaq kallpachakun.",
+    "support": [
+      "IATF nisqaqa Internetpi llamk'anapaq, [W3C WAI](https://www.w3.org/WAI/) Runakunapa yanapakuyninkunata utilizasqankuman hinam, chay yanapakuykunamanta yachananku tiyan."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rimanakuy",
+      "title": "Ruraq kaymanta willakuy"
+    },
+    "paragraphs": [
+      "Sichus kay web p'anqata mana atinaykipaq tarinki chayqa, kay e-mailman willamuy:",
+      "{{contact.accessibilityEmail}}",
+      "Kay willakuykunam yanapawasun:"
+    ],
+    "items": [
+      "maypichus chay ch'usaqyachina ruwakurqan",
+      "ima ruwayta munasqaykita",
+      "ima yanapakuyniyuq tecnologíata, browserta, utaq aparatotachus apaykachashasqaykita, sichus allin kanman",
+      "¿Imatataq mana allinta ruwarqanku?",
+      "¿Imatá ruwana karqa?"
+    ],
+    "footnote": "Mana necesitakunchu willakuyta qelqanankipaq, aswanqa sutʼita sutʼinchanaykipaq."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ruraq kaynin",
+      "title": "Runakunapa yachayninmanta willakuykuna"
+    },
+    "paragraphs": [
+      "Runakunapa yanapakuyninwan qillqasqa qillqasqakunaqa, chay qillqasqasqakunap qillqasqanpi qelqasqa kanan tiyan, chayraykutaq qelqakunatapas allichananku tiyan.",
+      "Imaptinchus willayniykipi imamantapis willashanki chayqa, willaypi sutʼita sutʼinchanayki tiyan."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kunan tiempopi",
+      "title": "Riqsisqa ch'usaqchaykuna"
+    },
+    "paragraphs": [
+      "Kay p'anqaqa juch'uymi, astawanqa ch'usaqmi, wakin simikunapiqa mana junt'asqachu kanman, qhichwa simiman tikrachinankupaq wakichikushaqtin."
+    ]
+  }
+}

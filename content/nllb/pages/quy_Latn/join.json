@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF nisqaman yaykunapaq",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF nisqaman yaykunapaq",
+    "lead": "Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa: Commons nisqapi suyukunata uyarinakunatapas tarinki kaymantam: Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ruwakuna",
+      "title": "Imaynatataq yanapakuyta atiwaq"
+    },
+    "items": [
+      "<strong>Proyectota ruwanapaq mañakuy.</strong> Sichus mana chay softwarewan atipayta atinki chayqa, chay softwareta apachiy.",
+      "<strong>Pruebawan qhawarina.</strong> IATF nisqapi llamk'anapaq wakichiy, imachus llamk'asqanta willanaykipaq, imakunachus mana llank'asqanmanta willanaykipaq.",
+      "<strong>Tikray.</strong> Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa: Commons nisqapi suyukunata uyarinakunatapas tarinki kaymantam:",
+      "<strong>Tʼukurina.</strong> Imaymana IATF repository nisqapi problemakunata tarinaykipaq, pull request nisqakunata apachiy, utaq huk proyectota ruwakunaykipaq.",
+      "<strong>Kallpachakuy.</strong> Wakin kutiqa, ñaupaqta ruwasqa proyectokunaqa mosoq llank'aqta necesitanku, chayraykutaq llamk'aqkunaq t'ikrasqa kayninqa allinpuni."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Channels nisqakuna",
+      "title": "Maypichus IATF llank'an"
+    },
+    "items": [
+      "<strong>GitHub nisqapi.</strong> Imakunamanta, mañakuykunamanta, willakuykunamanta hinaspa proyectokunamanta willakuykuna.",
+      "<strong>Mana allin yuyayniyuq kay.</strong> Tʼukuriy, yuyaymanay, chʼinlla tapuykuna ima.",
+      "<strong>Email nisqata apachiy.</strong> Imaynatam servichikun <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHub, Discord nisqaqa mana allinchu."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Qhepaman",
+      "title": "Imaynatam yanapayta munanki chay canalta akllay"
+    },
+    "paragraphs": [
+      "Llapan canalkunan chay kikin revistanpi, chay kikin public repository nisqapi tarikunku."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

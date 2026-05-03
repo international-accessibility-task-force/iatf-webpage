@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Umalliqkunapa kamachiynin",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Umalliqkunapa kamachiynin",
+    "lead": "IATF nisqaqa tukuy runasman willan, ñawiriyta atinku, qhawana atinku ima.",
+    "support": [
+      "Kay p'anqapiqa, imakunachus, imaynapi ima ima ima repository nisqakuna kasqanta, ima responsabilidadkunachus repositorio nisqakunapi kasqanta ima, sut'inchan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Kamachiykuna",
+      "title": "Ruraq kamachiy, propiedad, permiso"
+    },
+    "cards": [
+      {
+        "title": "Misiónpaq allin",
+        "paragraphs": [
+          "IATF nisqaqa, llamkʼaykunata japʼin, mayqenchus cheqanchiskunawan chʼampaykunata chinkarichin, tukuy runaspajtaj sumajpaj qhawasqa kananpaj.",
+          "Proyectoqa aswan allin kanan tiyan, maypichus astawan llank'ananku tiyan.",
+          "IATF nisqaqa Internetpi llamk'anapaq, [W3C WAI](https://www.w3.org/WAI/) Runakunapa yanapakuyninkunata utilizasqankum qawachin imakunachus cheqap kawsayninkupi yanapasqanta."
+        ]
+      },
+      {
+        "title": "Proyectota chaskiy",
+        "paragraphs": [
+          "Chaypaqqa kaykunata qhawananchik tiyan:"
+        ],
+        "items": [
+          "Rikuyta atipanapaq yanapaykuna",
+          "Kay problemaqa sutʼita entiendenapaj jina.",
+          "maypichus imatapis ruwayta atisunman",
+          "llank'ayqa IATF llank'ayninwan tupan",
+          "maypichus mana allinchu kanman chayman chayananpaq."
+        ]
+      },
+      {
+        "title": "Repositorio propiedadnin",
+        "paragraphs": [
+          "IATF GitHub nisqapi llamk'achinapaq akllasqa llamk'aykuna.",
+          "Repositoriosqa chaypi kashan, chayraykutaj sapa proyectoqa uj sumaj wasipipuni kashan, qhepamantaj chay wasipi llankʼajkuna cambiashanku chaypis."
+        ]
+      },
+      {
+        "title": "Licenciakuna",
+        "paragraphs": [
+          "IATF proyectokunaqa copyleft licencia nisqawan ruwakun, manachus proyecto nisqan jinachu:"
+        ],
+        "items": [
+          "<strong>Qhichwa simi:</strong> AGPL-3.0",
+          "<strong>Documentación:</strong> Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa:"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingeniero o mantenimiento ruwaq",
+      "paragraphs": [
+        "Cada proyecto chaskisqa kananpaqqa, huk ingeniero o mantenedor responsable kanan tiyan, chay runataqa administradorman repositoryman yaykunan tiyan, hinaspataq:"
+      ],
+      "items": [
+        "willakuypi yuyaychaykuna",
+        "Repositorio ukhunta waqaychan",
+        "revisar o manejar problemas y retirar pedidos",
+        "Documentos de decisiones técnicas importantes nisqakuna",
+        "Proyectota allinta entiendenankupaq"
+      ],
+      "footnote": "Kayqa repository level responsability. Organizational ownership is with IATF. Repository stewardship, technical direction, and public coordination  not unlimited private delivery, custom integrations, or service-level commitments outside the public roadmap. kayqa repositorio nivel responsabilidadmi. organizacional propiedadqa IATAF-wanpuni kashan. kaypiqa responsabilidadqa repositorio manejo, dirección técnica, y coordinación pública  mana chaniyuq privado entrega, integraciones personalizadas, ni servicio-nivel compromisos fuera de la hoja de ruta pública."
+    },
+    "publicDevelopment": {
+      "title": "Runakunapa yanapaynin",
+      "paragraphs": [
+        "IATF nisqapi llamk'achisqa llamk'apusqakunaqa tukuy runakunapaqmi."
+      ],
+      "items": [
+        "código de origen nisqa",
+        "chʼampaykuna",
+        "qillqasqa",
+        "Plan de Ruta nisqamanta willakuykuna",
+        "qhichwa simipi qillqasqa"
+      ],
+      "footnote": "Proyectopi allin yachaytaqa, mana chʼujllapichu, nitaj imapipis chʼajllasqallapichu tarinan tiyan."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Public records nisqakuna",
+      "title": "Requisitos públicos nisqamanta willakuykuna"
+    },
+    "paragraphs": [
+      "IATF nisqaqa tukuypaqmi llamk'achin. Imaymana mañakuykunapas Internetpi, emailpi, Discordpi, GitHubpi, utaq huk chaninchaykunapipas yaykunqa.",
+      "Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa: Commons nisqapi suyukunata uyarinakunatapas tarinki kay qatiq p'anqakunapi.",
+      "Commons nisqapi suyukunata uyarinakunatapas tarinki kaymantam:",
+      "Manaraq publicacionta ruwachkaptinqa, IATFqa mana necesitakunchu contacto personalmanta willakuykunata, privadopi tarikuykunata, manachus chay willakuyqa sut'ita rikuchinman chayqa, chaykunatapas chinkachin.",
+      "Discord nisqaqa llamk'achinapaqmi. IATF nisqaqa Discord rimanakuykunatam mana t'aqwinchu, chantapis discord nisqam willakuykunata waqaychan.",
+      "Requests records are excluded from search engine indexing where technically practical. Public nisqaqa revisaq, cuentata qokunayuq nisqam. Mana optimizasqallachu nisqaqa sutillata maskanapaq.",
+      "IATF nisqaqa, kay qillqasqakunata llamk'achinman utaq chinkachinman, ichaqa manam garantiyanmanchu, kaykunatapas chinkachinanta, manachayqa hukkunapa caches, notificaciones, forks, screenshots, motores de búsqueda, Discord, utaq huk sistemas externos nisqakunamanta.",
+      "Imaptinchus willakuyqa privadopi kanan tiyan chayqa, ama chay willakuyta IATF nisqamanta apachiychu."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ruraq ruwaynin",
+      "title": "Umalliq"
+    },
+    "lead": "IATF tantanakuypa umalliqninmi kachkan, chaytaq mana kikinchu mayqin proyectotapas ruwaq ingenieropichu: umalliqa tukuy tantanakuykunatam ruwaq, manam mayqin repositorytapas sapa p'unchaw ruwaqchu.",
+    "duties": {
+      "title": "¿Imatataj chay silla ruwan?",
+      "items": [
+        "IATF GitHub nisqapi llamk'apusqakuna",
+        "Proyectota chaskiymanta, archivaymanta ima kamachiykuna",
+        "IATF nisqapaq llamk'apusqankuna",
+        "Sapa wata ajllasqa kananku"
+      ],
+      "footnote": "IATF kamachiymanjina, kay kamachiyqa, imallapichus llamk'achinamanta, imachus llank'anamanta ima, kamachiyta churanqa."
+    },
+    "election": {
+      "title": "Sapa wata ajllasqa",
+      "paragraphs": [
+        "Piruwpa umalliqninqa sapa wata huk kuti akllasqa kanqa.",
+        "IATF repository nisqapi llamk'aqkunam kananku, chay watapipas huk kaq kaqnin contribución nisqawanpas, chay votopi, mayqin votopipas aswan kuraq kaq candidato atipasqa kanqa, hinaptinqa, diciembre killapi kimsa kaq semanapi iskay kaq kutipi atipanqa.",
+        "IATF kamachiy wasikunapiqa, kay akllasqakuna, voto, kaykunapas, tukuy rikurimunanpaqmi kachkan."
+      ]
+    },
+    "continuity": {
+      "title": "Llamkay",
+      "paragraphs": [
+        "Sichus mana akllasqa kanchu huk watapiqa, ñawpaq umalliqninqa qhipa akllasqakama llank'ashanpuni. Kayqa mana tukukuyniyuqmi, manan huk tiempochu.",
+        "Mayk'aqchus mayk'a kutipis, umalliqninqa sayariyta atinman."
+      ]
+    },
+    "current": {
+      "title": "Ñawpaq umalliq",
+      "fields": [
+        {
+          "label": "Umalliq",
+          "value": "Mugiwarafx sutiyuq p'anqaman t'inkimuqkuna",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tiempo",
+          "value": "2026 watapa Diciembre killanpi akllasqa kanankama"
+        },
+        {
+          "label": "Ruraq kaynin",
+          "value": "2026"
+        },
+        {
+          "label": "Ñawpaqta akllasqa",
+          "value": "Diciembre killapi 2026 watapi"
+        }
+      ]
+    },
+    "footnote": "Kay 2026 watapi, umalliq kamachikunapaq akllasqa kasqa, chaymantataq umalliqta kamachiq kamachiq kasqa."
+  },
+  "continuity": {
+    "states": {
+      "title": "Proyecto nisqapaq musuqchasqapura wakin kaynin",
+      "paragraphs": [
+        "Proyectos nisqapiqa pisilla Estado nisqakunatam utilizanku:"
+      ],
+      "items": [
+        "Propuesta",
+        "Qhepanchasqa",
+        "Rurasqa",
+        "Mana chʼampaykunchu",
+        "Kʼumuykukuq runata maskʼay",
+        "Archivasqa"
+      ],
+      "footnote": "Kay estadopi kajkunataj, chay registrota ñawiriyta atillanku."
+    },
+    "reassignment": {
+      "title": "Musuqman churay, archivay",
+      "paragraphs": [
+        "Sichus mayqen llank'aqpas mana llank'ayta atinkuchu chayqa, IATFqa llamk'aykunata kutichinman, llamk'achiyta ch'usaqyachinman utaq llamk'ayta chinkachinman.",
+        "Chantapis, maykʼajchus ñaupajta ruwakusqanta juntʼayta atinchej, manañataj imatapis ruwakunchejchu chayri manaña ruwakunanchejchu chayqa, qhelli ruwaykunamanta karunchakunchej."
+      ],
+      "footnote": "Archivasqa proyectosqa tukuy runas rikunanku tiyan, mana chayqa mana allinchu kanman."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Qhawariq qillqa",
+      "title": "Imatachus IATF mana garantizanchu"
+    },
+    "items": [
+      "qutuchasqakunaman willakuy",
+      "Servicio nisqata qhawana",
+      "mayqen proposicionpas chaskisqa kananpaq",
+      "mayk'a tiempota llamk'achinapaq"
+    ],
+    "footnote": "IATF nisqaqa huk public repository modelmi, manam huk servicio privadochu."
+  }
+}

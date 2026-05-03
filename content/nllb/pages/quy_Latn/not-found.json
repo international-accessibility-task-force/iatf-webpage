@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Mana tarisqachu"
+  },
+  "hero": {
+    "eyebrow": "Mana tarisqachu",
+    "title": "Mana tarikunchu mañasqa p'anqa",
+    "lead": "Chay lugarman kutimunaykipaqqa, kaypi sutʼinchasqata utilizay.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Wasinman",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Qampa mañakusqayki rutaqa mana kanchu."
+    ],
+    "items": [
+      {
+        "label": "Wasinman",
+        "href": "/"
+      },
+      {
+        "label": "Proyectos",
+        "href": "/projects/"
+      },
+      {
+        "label": "Rimanakuy",
+        "href": "/join/"
+      },
+      {
+        "label": "Rikuyta atiy",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Umalliq kay",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparencia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

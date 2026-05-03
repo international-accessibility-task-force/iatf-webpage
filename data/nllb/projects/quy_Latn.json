@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF nisqapaq musuqchasqapura wakin kaynin",
+    "summary": "Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa: International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF nisqa organizacionqa necesitaranmi allin publicacionta, chaypin ejemplosta sutʼinchanman, proyectosmanta willanman, chantá imachus kananpi yuyaychanman.",
+    "why": "Kay sitioqa IATF nisqapaq ñawpaq punkunmi.",
+    "scopeIn": [
+      "Commons nisqapi suyukunata uyarinakunatapas tarinki kaymantam:",
+      "Registrado público de proyectos IATF aceptados, activos, y archivados con estado, mantenedor, repositorio, y demostración nisqawan",
+      "Qhichwa simipi qillqasqa",
+      "Gobierno y transparencia nisqapaq musuqchasqapura wakin p'anqakuna",
+      "Qhichwa simipi qillqasqa, qhichwa simiman t'ikrasqa",
+      "Cloudflare Workers Static Assets nisqapaq musuqchasqapura wakin kaynin"
+    ],
+    "scopeOut": [
+      "Privado kaqkuna, cuentokuna, utaq yaykunanku (login flows)",
+      "Proyecto nisqapaq musuqchasqapura wakin kaynin (hosting of project source code, which lives in each project's own repository)",
+      "Tikraynin tiempo real kaqmanta Qullasuyu qhichwa kaqpi",
+      "Proyectos individualespaq, sapa proyectoq GitHub repository-ninpi tarikuq problema qatikunanpaq"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "IATF nisqa qallariy prototipo, archivado q'ala tukukuqman chayasqan qhepaman.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF nisqawan llamk'achiyta qallarisqa chhasku p'unchawkuna.",
+    "why": "Kay archivokunaqa tukuypaqmi kachkan, llamk'aymanta willakunanpaq, chaywanpas llamk'achinakuyqa tukukuchkanña.",
+    "scopeIn": [
+      "Ñawpaq kaq prototipo de una herramienta enfocada en la accesibilidad, que se mantiene como registro público"
+    ],
+    "scopeOut": [
+      "Ruwachinapaq utaq llamk'achinapaq llamk'apusqakuna",
+      "Mantenimiento nisqapi llank'aykuna",
+      "Producción nisqapi apaykachanapaq"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF sutiyuq p'anqaman t'inkimuqkuna",
+    "summary": "IATF llaqtapi huk bot, archivado chayaramuptin.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation around IATF community channels (Automatización de los canales de la comunidad de la FTAI) nisqapi llamk'anapaq.",
+    "why": "Kay archivokunaqa tukuypaqmi kachkan, llamk'aymanta willakunanpaq, chaywanpas llamk'achinakuyqa tukukuchkanña.",
+    "scopeIn": [
+      "Discord automation around IATF community channels, public record jina waqaychasqa"
+    ],
+    "scopeOut": [
+      "Ruwachinapaq utaq llamk'achinapaq llamk'apusqakuna",
+      "Mantenimiento nisqapi llank'aykuna",
+      "Producción nisqapi apaykachanapaq"
+    ]
+  }
+]
