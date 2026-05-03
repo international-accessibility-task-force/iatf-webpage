@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapa del sitiu"
+  },
+  "hero": {
+    "eyebrow": "Indicador",
+    "title": "Mapa del sitiu",
+    "lead": "Cada páxina pública na IATF.CC, nun solu llugar."
+  },
+  "sections": [
+    {
+      "title": "Páxines principales",
+      "items": [
+        {
+          "label": "Na casa.",
+          "href": "/"
+        },
+        {
+          "label": "Proyeutos",
+          "href": "/projects/"
+        },
+        {
+          "label": "Solicitar un proyectu",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gobernanza",
+          "href": "/governance/"
+        },
+        {
+          "label": "Xúntense.",
+          "href": "/join/"
+        },
+        {
+          "label": "Accesibilidá",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparencia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyeutos",
+  "projectsEmpty": "Hasta agora nun se publicaron proyeutos."
+}

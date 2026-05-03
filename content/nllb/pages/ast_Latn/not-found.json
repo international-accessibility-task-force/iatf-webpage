@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nun s'atopó."
+  },
+  "hero": {
+    "eyebrow": "Nun s'atopó.",
+    "title": "La páxina solicitada nun foi atopada.",
+    "lead": "Les rutes principales son les siguientes pa volver al sitiu públicu.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Na casa.",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "La ruta que pediste nun esiste."
+    ],
+    "items": [
+      {
+        "label": "Na casa.",
+        "href": "/"
+      },
+      {
+        "label": "Proyeutos",
+        "href": "/projects/"
+      },
+      {
+        "label": "Xúntense.",
+        "href": "/join/"
+      },
+      {
+        "label": "Accesibilidá",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gobernanza",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparencia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

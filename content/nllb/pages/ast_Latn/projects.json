@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyeutos d'accesibilidá pública",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyeutos d'accesibilidá pública",
+    "lead": "Esta llista de rexistros inclúi los proyectos públicos alministraos pola IATF, los proyectos d'accesibilidá aceptaos, la infraestructura del sitiu y los prototipos archivados.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Archiváu dende l'orixinal.",
+      "title": "Registru actual"
+    },
+    "intro": [
+      "Los proyectos aceptaos amuésense aquí una vegada publicaos."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Presentar una necesidá.",
+      "title": "Convertir una necesidá concreta d'accesibilidá nun proyectu públicu"
+    },
+    "paragraphs": [
+      "La IATF revisa les necesidaes concretes d'accesibilidá que pueden ser convertíes n'obres públiques de códigu abiertu útiles."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Hasta agora nun se publicaron proyeutos.",
+    "paragraphs": [
+      "La IATF ta preparando'l so primer grupu de proyectos públicos.",
+      "Si hai una necesidá concreta d'accesibilidá, sigue siendo posible unviar una solicitú."
+    ]
+  }
+}

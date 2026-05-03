@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accesibilidá",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accesibilidá",
+    "lead": "La IATF tien como oxetivu caltener esti sitiu web senciellu, llexible, accesible col tecladu y compatible con tecnoloxíes d'ayuda.",
+    "support": [
+      "Pa la accesibilidá web, l'IATF usa [W3C WAI](https://www.w3.org/WAI/) L'accesibilidá práctica tamién se basa na esperiencia directa de los usuarios de les tecnoloxíes d'asistencia."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Información",
+      "title": "Reportar un problema d'accesibilidá"
+    },
+    "paragraphs": [
+      "Si atopa una barrera d'accesibilidá nesta páxina web, por favor reporte-y por e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Los informes útiles inclúin:"
+    ],
+    "items": [
+      "La páxina onde se produció'l problema",
+      "Lo que intentabas facer",
+      "¿Qué tecnoloxía d'ayuda, navegador o dispositivu usaba, si ye relevante?",
+      "¿Qué salió mal?",
+      "¿Qué ayudaría?"
+    ],
+    "footnote": "Nun hai necesidá d'escribir un informe formal d'errores."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Tratamientu",
+      "title": "Tratamientu d'asuntos públicos"
+    },
+    "paragraphs": [
+      "Los problemes d'accesibilidá pueden resumise nel repositoriu públicu correspondiente pa que puedan ser resueltos de forma abierta; los datos de contactu personales y la información privada innecesaria son esaniciaos enantes de la so publicación.",
+      "Si'l reporte inclúi información privada, dielo claramente nel mensaxe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "La situación actual",
+      "title": "Les limitaciones conocíes"
+    },
+    "paragraphs": [
+      "Esti sitiu ye intencionalmente pequeñu y en gran parte estáticu. Algunes versiones d'idiomes puen tar incompletes mientres se preparan les traducciones."
+    ]
+  }
+}

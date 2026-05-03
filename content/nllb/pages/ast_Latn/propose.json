@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Solicitar un proyectu d'accesibilidá",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Solicitar un proyectu d'accesibilidá",
+    "lead": "La IATF revisa les solicitúes de proyectos d'accesibilidá que parten d'una necesidá real.",
+    "support": [
+      "Nun hai necesidá d'especificaciones completes, basta con un problema claru, a quién afecta y por qué ye importante pa empezar."
+    ],
+    "actions": [
+      {
+        "label": "Empezar una solicitú",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Utiliza Discord en llugar d'esto.",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Los canales",
+      "title": "Escueya la ruta más fácil."
+    },
+    "intro": [
+      "Toles rutes entamen la mesma revisión."
+    ],
+    "items": [
+      {
+        "label": "Páxina web",
+        "body": "Utiliza'l formulariu siguiente pa presentar una solicitú estructurada."
+      },
+      {
+        "label": "Corréu electrónicu",
+        "body": "Enviar la solicitú directamente a: {{contact.requestsEmail}}Les solicitúes de correos electrónicos pueden convertise en rexistros públicos de solicitú dempués de la revisión y redacción."
+      },
+      {
+        "label": "La discordia.",
+        "body": "La solicitú sigue moviéndose a la mesma revisión."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Antes d'enviar una solicitú",
+    "paragraphs": [
+      "Les solicitúes pueden ser resumíes y publicaes como rexistros de solicitú pública na organización IATF GitHub, nesta páxina web, o en dambos.",
+      "Nun incluya direcciones privaes, númberos de teléfonu, datos médicos, o información d'identificación sobre usuarios individuales de tecnoloxíes d'ayuda a menos que seya necesariu y que se sienta cómodu con que l'IATF la revise.",
+      "La IATF elimina datos de contactu personales innecesarios enantes de publicar los rexistros de les solicitúes."
+    ]
+  },
+  "review": {
+    "title": "Esperances de revisión",
+    "paragraphs": [
+      "La presentación d'una solicitú nun garantiza la aceptación.",
+      "La IATF revisa les solicitúes d'adecuación a la misión, viabilidá, utilidá y si'l trabayu pertenez a un repositoriu públicu.",
+      "Delles solicitúes pueden ser denegadas, aplazaes o reformulaes enantes de ser aceptaes."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Forma de solicitú",
+      "title": "Presentación d'una solicitú"
+    },
+    "fields": [
+      {
+        "kind": "entamu",
+        "name": "Solicitante",
+        "label": "El nome o organización",
+        "helper": "¿Quién fai la solicitú?"
+      },
+      {
+        "kind": "Seleccionar",
+        "name": "La ruta de contautu",
+        "label": "Ruta de contactu preferida",
+        "helper": "¿Cómo se debe facer el seguimientu?",
+        "required": true,
+        "options": [
+          "Corréu electrónicu",
+          "La discordia."
+        ]
+      },
+      {
+        "kind": "entamu",
+        "name": "Detalles de contactu",
+        "label": "Detalles de contautu",
+        "helper": "Direición d'e-mail o contraseña de Discord pa el seguimientu.",
+        "placeholder": "Direición de corréu electrónicu o contraseña de Discord",
+        "required": true
+      },
+      {
+        "kind": "entamu",
+        "name": "Idioma",
+        "label": "Idioma",
+        "helper": "L'idioma preferíu, si ye pertinente.",
+        "value": "N'inglés"
+      },
+      {
+        "kind": "Área de testu",
+        "name": "Ye un problema.",
+        "label": "¿Qué problema intentes solucionar?",
+        "helper": "Describa la barrera en llinguaxe senciellu.",
+        "required": true
+      },
+      {
+        "kind": "Área de testu",
+        "name": "Los usuarios afeutaos",
+        "label": "¿A quién afecta?",
+        "helper": "¿A quién ayudaría esto?",
+        "required": true
+      },
+      {
+        "kind": "Área de testu",
+        "name": "extraContextu",
+        "label": "Contextu adicional",
+        "helper": "Compartir cualquier otra cosa qu'ayude a esplicar la necesidá: por qué ye importante, exemplos, referencies, una idea aproximada de software, o restricciones de tiempu."
+      },
+      {
+        "kind": "Seleccionar",
+        "name": "Wikimedia Commons acueye conteníu multimedia sobre Actores y actrices de cine d'Estaos Xuníos .",
+        "label": "¿Confortáu col desendolcu de códigu abiertu?",
+        "helper": "Los proyectos aceptaos son repositorios públicos del IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Sí .",
+          "Nun.",
+          "Todavía nun sé."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Si ye aceptáu.",
+      "title": "Lo que significa l'aceptación"
+    },
+    "items": [
+      "Un repositoriu públicu na organización IATF GitHub.",
+      "Un inxenieru responsable asignáu al proyectu.",
+      "Una llicencia copyleft pal códigu y materiales del proyectu.",
+      "El desenvolvimientu públicu nel repositoriu",
+      "Una entrada de rexistru nel sitiu web de la IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Empezar la conversación.",
+      "title": "Una petición curtia y clara ye abondo pa empezar."
+    },
+    "paragraphs": [
+      "Si tienes una necesidá real d'accesibilidá y crees que debería convertise nun proyectu públicu, envía-y a nós."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

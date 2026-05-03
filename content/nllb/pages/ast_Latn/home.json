@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "De la necesidá d'accesibilidá a los repos públicos",
+    "lead": "La IATF ayuda a asociaciones, grupos y persones a convertir necesidaes reales d'accesibilidá en proyectos públicos de códigu abiertu.",
+    "support": [
+      "Los proyectos aceptaos son publicaos na organización IATF GitHub baxo una llicencia copyleft y desenvueltos públicamente por un inxenieru responsable."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modelu operativu públicu",
+      "title": "Un camín públicu senciellu pal software accesible"
+    },
+    "paragraphs": [
+      "A través d'un formulariu, cualquiera puede presentar un problema d'accesibilidá a IATF.",
+      "Cada proyectu aceptáu tien una casa pública clara pa códigos, cuestiones, documentación y versiones, col desenvolvimientu dirixíu al aire llibre por un inxenieru responsable."
+    ],
+    "specCard": {
+      "title": "Modelu operativu públicu",
+      "terms": [
+        {
+          "term": "Necesidá",
+          "definition": "El problema real de l'accesibilidá"
+        },
+        {
+          "term": "Revista",
+          "definition": "L'adecuación a la misión y la viabilidá práctica"
+        },
+        {
+          "term": "Espaciu del proyectu",
+          "definition": "Repositoriu públicu de GitHub"
+        },
+        {
+          "term": "Alministrador",
+          "definition": "La propiedá organizacional del IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Procesu",
+      "title": "¿Cómo funciona?",
+      "intro": "El modelu permanez intencionalmente pequeñu pa que'l camín públicu seya fácil de siguir."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Presentación d'una necesidá",
+        "paragraphs": [
+          "Una asociación, un grupu o un individuu pueden presentar una solicitú basada nuna necesidá real d'accesibilidá.",
+          "Les solicitúes puen entamar al traviés del sitiu web, por e-mail a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o al traviés de Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "L'IATF revisa'l trabayu.",
+        "paragraphs": [
+          "Revisamos l'adecuación a la misión, l'alcance prácticu, y si'l trabayu pertenez a un proyectu de códigu abiertu públicu."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Crear un repositoriu públicu",
+        "paragraphs": [
+          "Si un proyectu ye aceptáu, ye publicáu na organización IATF GitHub baxo una llicencia copyleft.",
+          "El repositoriu conviértese na casa pública del códigu, los problemes, la documentación y les versiones."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un inxenieru responsable dirixe'l proyectu.",
+        "paragraphs": [
+          "Un inxenieru responsable ye asignáu al repositoriu del proyectu y el desenvolvimientu faise públicamente."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Archiváu dende l'orixinal.",
+      "title": "Registru públicu de proyectos"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Empezar d'aquí.",
+      "title": "Na actualidá, l'Asociación d'Investigadores de la Universidá d'Utrecht (AIEU) ye una de les más importantes instituciones europees d'investigación."
+    },
+    "paragraphs": [
+      "L'usu del rexistru pa ver lo que yá ye públicu, o entamar la toma si un problema concretu d'accesibilidá convertir nun proyectu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Modelu de gobernación y repositoriu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Modelu de gobernación y repositoriu",
+    "lead": "La IATF caltién los proyectos d'accesibilidá públicos, llexibles y mantenibles.",
+    "support": [
+      "Esta páxina esplica qué califica, cómo se lleven a cabu los repositorios y qué responsabilidá a nivel de repositoriu s'aplica dempués de la aceptación."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regles",
+      "title": "Alcuentru de misión, propiedá, llicenciación"
+    },
+    "cards": [
+      {
+        "title": "Alcuéntrase en misión.",
+        "paragraphs": [
+          "La IATF acepta trabayos qu'aborden una barrera real d'accesibilidá y que tengan un valor públicu claru.",
+          "Un proyectu debe ser útil más allá d'un únicu fluxu de trabayu priváu y viable como repositoriu públicu.",
+          "Pa la accesibilidá web, l'IATF usa [W3C WAI](https://www.w3.org/WAI/) La esperiencia directa de los usuarios de les tecnoloxíes d'asistencia ye tamién una evidencia práctica de lo que funciona nel usu real."
+        ]
+      },
+      {
+        "title": "Aceptación del proyectu",
+        "paragraphs": [
+          "Puede aceptase una propuesta cuando l'análisis demuestre que:"
+        ],
+        "items": [
+          "Abordar una necesidá real d'accesibilidá",
+          "El problema ye lo suficientemente claru como pa evalualo.",
+          "El ámbitu ye lo suficientemente realista como pa llanzar",
+          "El trabayu alinea cola misión de l'IATF.",
+          "Hai un camín plausible al mantenimientu o a la finalización."
+        ]
+      },
+      {
+        "title": "Propiedá del repositoriu",
+        "paragraphs": [
+          "Los proyectos aceptaos son creaos so la organización IATF GitHub.",
+          "Los repositorios permanecen allí pa que cada proyectu mantenga una casa pública estable, inclusive si'l mantenedor cambia más tarde."
+        ]
+      },
+      {
+        "title": "La concesión de llicencies",
+        "paragraphs": [
+          "Los proyectos IATF usen llicencies copyleft a menos qu'un proyectu afirme otra cosa:"
+        ],
+        "items": [
+          "<strong>Códigu:</strong> AGPL-3.0 (enllaz rotu disponible n'Internet Archive)",
+          "<strong>Documentación:</strong> Wikimedia Commons acueye conteníu multimedia sobre Actores y actrices de cine d'Estaos Xuníos ."
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "L'inxenieru o l'encargáu del mantenimientu responsable",
+      "paragraphs": [
+        "Cada proyectu aceptáu debe tener un nome d'inxenieru o d'encargáu del mantenimientu."
+      ],
+      "items": [
+        "El desenvolvimientu d'una guía pública",
+        "Mantenimientu de la estructura del repositoriu",
+        "Revisar o xestionar problemes y solicitúes d'atracción",
+        "Documentar decisiones técniques importantes.",
+        "Tener el proyectu comprensible pa los demás."
+      ],
+      "footnote": "Esta ye la responsabilidá a nivel de repositoriu. La propiedá de la organización permanez con IATF. La responsabilidá ye la xestión de los repositorios, la dirección técnica y la coordinación pública  non entrega privada ilimitada, integraciones personalizaes o compromisos de nivel de serviciu fora del mapa de ruta públicu."
+    },
+    "publicDevelopment": {
+      "title": "Desarrollu públicu",
+      "paragraphs": [
+        "El repositoriu ye la fonte pública de la verdá pa:"
+      ],
+      "items": [
+        "Códigu fonte",
+        "Cuestiones",
+        "Documentación",
+        "Noticies del plan de ruta",
+        "Historial de llanzamientu"
+      ],
+      "footnote": "La conocencia importante del proyectu nun debe vivir solo en chats o caxes de entrada privaos."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Archivos públicos",
+      "title": "Archivos públicos de solicitú"
+    },
+    "paragraphs": [
+      "Les solicitúes que entren a IATF al traviés del sitiu web, correos electrónicos, Discord, GitHub, u otros canales de la organización pueden convertise en rexistros públicos de solicitú.",
+      "Un rexistru públicu de solicitú nun ye necesariamente'l mensaxe orixinal. L'IATF puede resumir, redactar o reestructurar una solicitú enantes de la so publicación pa que la necesidá d'accesibilidá pueda ser revisada ensin esponer información personal innecesaria.",
+      "Los rexistros de solicitúes públiques pueden ser almacenaos na organización IATF GitHub, nesta páxina web, o en dambos.",
+      "Antes de la so publicación, la IATF retira datos de contactu personales innecesarios, direcciones privaes y datos d'identificación sobre usuarios individuales de tecnoloxíes d'asistencia, a nun ser que la publicación tenga clara intención y seya apropiada.",
+      "Discord ye utilizáu pa coordinación informal. IATF nun archiva separadamente les conversaciones de Discord por defectu, y la retención de mensaxes ye controlada por Discord.",
+      "Los rexistros de solicitú son escluyíos de la indexación de motores de busca cuando ye técnicamente prácticu.",
+      "L'IATF puede actualizar o esaniciar rexistros de superficies públiques controlaes pol IATF, pero nun puede garantizar la eliminación de caches de terceros, notificaciones, forks, captures de pantalla, motores de busca, Discord, u otros sistemes esternos.",
+      "Si un mensaxe tien de siguir siendo priváu, nun l'enviar a través de los canales públicos de la IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "El papel de la organización",
+      "title": "Presidenta"
+    },
+    "lead": "El presidente ye responsable a nivel d'organización de l'IATF. Esto ye distintu del papel d'inxenieru responsable de cada proyectu: el presidente ye responsable de la organización nel so conxuntu, non de la dirección del día a día d'un repositoriu individual.",
+    "duties": {
+      "title": "Lo que fai la silla",
+      "items": [
+        "Tien permisos de propietariu na organización IATF GitHub",
+        "La firma de les decisiones d'aceptación de proyectos y d'archivamientu",
+        "Actua como'l puntu de contactu públicu del IATF.",
+        "Coordena les elecciones anuales."
+      ],
+      "footnote": "El presidente nun compromete a la IATF con entrega privada, trabayu remuneráu o acuerdos de nivel de serviciu, y nun anula les decisiones de mantenimientu de cada repositoriu sobre la dirección técnica."
+    },
+    "election": {
+      "title": "Les eleiciones anuales",
+      "paragraphs": [
+        "El presidente ye elexíu una vegada al añu, les eleiciones tienen llugar nes dos primeres selmanes de Diciembre, los resultaos son anunciaos el 15 d'avientu, y el nuevu mandatu empieza'l 1 de xineru.",
+        "Los votantes elegibles son les persones que desempeñaron un rol de mantenedor en cualesquier repositoriu IATF mientres l'añu y fixeron al menos una contribución conxunta a un repositorio IAT F nel mesmu añu.",
+        "L'eleición ye executada como una discusión pública de GitHub nel repositoriu de gobernación IATF designáu, polo que los candidatos, el votu y el resultáu son parte del rexistru públicu."
+      ]
+    },
+    "continuity": {
+      "title": "Continuidá",
+      "paragraphs": [
+        "El modelu foi diseñáu pa caltener l'organización estable cuando l'actividá ye baxa, non pa forzar una transición a la que nadie ta preparáu.",
+        "El presidente puede dimitir en cualquier momentu y los miembros activos tamién pueden convocar elecciones estraordinaries con una razón declarada, según les mesmes regles que les elecciones anuales."
+      ]
+    },
+    "current": {
+      "title": "Presidenta actual",
+      "fields": [
+        {
+          "label": "Presidenta",
+          "value": "Esti ye'l casu de Mugiwarafx.",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Términu",
+          "value": "Hasta les elecciones de Diciembre de 2026"
+        },
+        {
+          "label": "El papel formalizáu",
+          "value": "2026"
+        },
+        {
+          "label": "Primeres elecciones programaes",
+          "value": "Diciembre de 2026"
+        }
+      ]
+    },
+    "footnote": "El rol de presidente foi formalizáu en 2026 pa facer explícitu l'alministración a nivel d'organización."
+  },
+  "continuity": {
+    "states": {
+      "title": "Los estados del proyectu",
+      "paragraphs": [
+        "Los proyeutos usen un pequeñu conxuntu d'estáu públicos:"
+      ],
+      "items": [
+        "Propuesta",
+        "Acceptáu",
+        "Activu",
+        "Estabilízase.",
+        "Buscando un mantenedor.",
+        "Archiváu"
+      ],
+      "footnote": "Estos estaos faen que'l rexistru seya fácil d'escanear."
+    },
+    "reassignment": {
+      "title": "Reasignación y archivamientu",
+      "paragraphs": [
+        "Si un mantenedor abandona o queda inactivu, l'IATF puede reasignar responsabilidá, detener el desenvolvimientu o archivar el proyectu.",
+        "Un proyectu tamién puede ser archiváu cuando la necesidá orixinal foi satisfecha, el mantenimientu detuvióse o la continuación del trabayu ya nun ye realista."
+      ],
+      "footnote": "Los proyectos archivados siguen siendo visibles pol públicu a menos que haya una razón imperiosa pa facer lo contrario."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota de llende",
+      "title": "Lo que l'IATF nun garantiza"
+    },
+    "items": [
+      "Entregamientu al cliente priváu",
+      "Acordos de nivel de serviciu",
+      "Aceptación de toles propuestes.",
+      "Mantenimientu a llargu plazu de cada proyectu"
+    ],
+    "footnote": "IATF ye un modelu de repositoriu públicu, non un serviciu de tresmisión priváu."
+  }
+}

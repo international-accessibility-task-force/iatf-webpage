@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Unir a la IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Unir a la IATF",
+    "lead": "L'aprobación ye abierta. Hai delles maneres de participar, yá sía que te apoyes na tecnoloxía d'ayuda, construyes software accesible, traduces, pruebes o mantenes un proyectu.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Los roles",
+      "title": "Formes de contribución"
+    },
+    "items": [
+      "<strong>Solicitar un proyectu.</strong> Si atopes una barrera d'accesibilidá que pueda ser afitada por software de códigu abiertu públicu, envíala al traviés de la entrada de solicitú.",
+      "<strong>Prueba y revisión.</strong> Pruebe los proyectos IATF cola tecnoloxía d'ayuda que usa, reporte lo que funciona y lo que nun funciona, y archive los problemes directamente nel repositoriu correspondiente.",
+      "<strong>Traducir.</strong> El conteníu de la fonte ye publicáu primeramente n'inglés, y les traducciones añedir a midida que los contribuyentes tán disponibles, empezando col castellanu.",
+      "<strong>Construyir.</strong> Recuperar problemes en cualesquier repositoriu IATF, enviar solicitúes de retiru, o asumir un proyectu como'l so inxenieru responsable.",
+      "<strong>Mantenelo.</strong> Los proyeutos esistentes necesiten a veces un nuevu mantenedor, y la rotación del mantenedor ye una parte normal del modelu, non una esceición."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Los canales",
+      "title": "Cuando l'IATF trabaya en públicu"
+    },
+    "items": [
+      "<strong>Wikimedia Commons acueye conteníu multimedia sobre persones finaes</strong> Asuntos, solicitúes, publicaciones y rexistros del proyectu.",
+      "<strong>La discordia.</strong> Les conversaciones, la coordinación y les preguntes informales.",
+      "<strong>El corréu electrónicu.</strong> Utilización <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> Si nin GitHub nin Discord encaxen."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "El siguiente pasu",
+      "title": "Escueya'l canal que coincida cola forma en que quies contribuyir"
+    },
+    "paragraphs": [
+      "Todos los canales alimentábense de la mesma revisión pública y los mesmos repositorios públicos."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
