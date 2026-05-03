@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Bi IATF re bibin yek",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Bi IATF re bibin yek",
+    "lead": "Endamtî vekirî ye. Gelek rêyên beşdarbûnê hene, ka hûn li ser teknolojiya alîkariyê girêdayî ne, nivîsbariyeke gihîştî çêbikin, wergerînin, ceribînin, an projeyê biparêzin. Gotûbêj û biryarên li ser giştî li ser GitHub û Discord çêdibin.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rolan",
+      "title": "Şêwazên alîkariyê"
+    },
+    "items": [
+      "<strong>Daxwaza projeyekê bikin.</strong> Heke hûn astengiyeke gihîştinê bibînin ku dikare bi nivîsbariya çavkaniya vekirî ya giştî were çareserkirin, ew bi rêya daxwaza daxwazê bişînin.",
+      "<strong>Test û nirxandin.</strong> Projeyên IATF bi teknolojiya alîkariyê ya ku hûn bikar tînin biceribînin, rapor bikin ka çi dixebite û çi ne, û pirsgirêkên rasterast di depoya têkildar de qeyd bikin.",
+      "<strong>Wergerin.</strong> Naveroka çavkaniyê pêşî bi zimanê îngilîzî tê weşandin.",
+      "<strong>Avakirin.</strong> Hilbijêre pirsgirêkên di her depoya IATF de, daxwazên vekişandinê bişîne, an jî wekî endezyarê berpirsiyar projeyekê bigire.",
+      "<strong>Biparêzin.</strong> Projeyên heyî hin caran pêdiviya xwedîderkevek nû heye. Veguherîna xwedîderkê parçeyek normal a modela ye, ne derfetek e."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalên",
+      "title": "Cihê ku IATF di raya giştî de dixebite"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Mijar, daxwazên kişandinê, belavkirin, û qeydên projeyê.",
+      "<strong>Nakokî.</strong> Gotûbêjên zindî, koordînasyon, û pirsên nefermî.",
+      "<strong>Email.</strong> Bikaranîn <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> Ger ne GitHub û ne jî Discord têk neçe."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Gavê din",
+      "title": "Kanala ku li gor çawa tu dixwazî ji bo alîkarîya hilbijêre"
+    },
+    "paragraphs": [
+      "Hemû kanalên xwarinê di heman nirxandina giştî û di heman depoyên giştî de ne."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

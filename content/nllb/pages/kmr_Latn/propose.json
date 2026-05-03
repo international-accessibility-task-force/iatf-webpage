@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Daxwaza projeya gihîþtinê bike",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Daxwaza projeya gihîþtinê bike",
+    "lead": "IATF daxwazên ji bo projeyên gihîştina ku ji pêdiviyeke rastîn dest pê dikin dinirxîne.",
+    "support": [
+      "Hûn hewce ne ku taybetmendiyên temam bikin. Pirsgirêkek zelal, ku ew bandor dike, û çima ew girîng e, bes e ku dest pê bike."
+    ],
+    "actions": [
+      {
+        "label": "Daxwazê dest pê bike",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Li şûna wê Discord bikar bînin",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalên",
+      "title": "Rêya herî hêsan hilbijêre"
+    },
+    "intro": [
+      "Hemû rê di heman lêkolînê de cih digirin."
+    ],
+    "items": [
+      {
+        "label": "Malpera malperê",
+        "body": "Ji bo pêşkêşkirina daxwazek strukturkirî, forma jêrîn bikar bînin."
+      },
+      {
+        "label": "Email",
+        "body": "Daxwazê rasterast bişînin {{contact.requestsEmail}}Daxwazên e-nameyê dibe ku piştî lêkolîn û redaksîyonê bibin qeydên daxwazên giştî."
+      },
+      {
+        "label": "Nakokî",
+        "body": "Ger ku ew hêsan e, li wir dest pê bike. Daxwaz hê jî di heman nirxandinê de derbas dibe."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Berî ku hûn daxwazekê bişînin",
+    "paragraphs": [
+      "IATF di raya giştî de dixebite. Daxwazên dikarin werin berhevkirin û wekî qeydên daxwazên giştî di rêxistina IATT GitHub de, di vê malperê de, an herduyan de werin weşandin.",
+      "Ne navnîşana taybet, hejmarên telefonê, hûrgilîyên bijîşkî, an naskirina agahiyên li ser bikarhênerên şexsî yên teknîkên alîkarî ne, heta ku pêwîst be û hûn bi IATF re binirxînin.",
+      "IATF berî ku tomarên daxwazê weşîne, agahîyên têkiliyên şexsî yên ne hewce derdixe."
+    ]
+  },
+  "review": {
+    "title": "Hêviyên nirxandinê",
+    "paragraphs": [
+      "Pêşkêşkirina daxwazek garantiya qebûlkirinê nade.",
+      "IATF daxwazên ji bo wezîfeya fit, feasibility, kêrhatî, û ka kar di depoyek giştî de cih digire, dinirxîne.",
+      "Hin daxwazên dikarin bên red kirin, paşvexistin, an jî berî qebûlkirinê werin guhertin."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formê daxwaznameyê",
+      "title": "Daxwazê pêşkêş bike"
+    },
+    "fields": [
+      {
+        "kind": "input",
+        "name": "daxwazker",
+        "label": "Navê te an rêxistina te",
+        "helper": "Kî daxwaznameyê dide?"
+      },
+      {
+        "kind": "hilbijêre",
+        "name": "contactRoute",
+        "label": "Rêya têkiliyê ya tercîhkirî",
+        "helper": "Çawa divê şopandin çêbibe?",
+        "required": true,
+        "options": [
+          "Email",
+          "Nakokî"
+        ]
+      },
+      {
+        "kind": "input",
+        "name": "têkilîRêzikname",
+        "label": "Daneyên têkiliyê",
+        "helper": "Navnîşana e-nameyê an navnîşana Discord ji bo şopandinê.",
+        "placeholder": "Navnîşana Email an navnîşana Discord",
+        "required": true
+      },
+      {
+        "kind": "input",
+        "name": "ziman",
+        "label": "Ziman",
+        "helper": "Zimanê we yê tercîhkirî, eger pêwendîdar be.",
+        "value": "Îngilîzî"
+      },
+      {
+        "kind": "textarea",
+        "name": "pirsgirêk",
+        "label": "Hûn hewl didin kîjan pirsgirêkê çareser bikin?",
+        "helper": "Astengiyê bi zimanekî zelal rave bike.",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "bikarhênerên bandorkirî",
+        "label": "Kî tê bandor kirin?",
+        "helper": "Ev ê alîkarîya kê bike?",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "extraContext",
+        "label": "Konteksteke din",
+        "helper": "Her tiştekî din parve bikin ku alîkarî dide ku pêdiviyê rave bike: çima girîng e, mînak, referans, fikrek bernameya bernameyê, an sînordarkirinên wextê."
+      },
+      {
+        "kind": "hilbijêre",
+        "name": "openSourceConsent",
+        "label": "Bi pêşvebirina çavkaniya vekirî ya giştî re rehet e?",
+        "helper": "Projeyên ku hatine qebûlkirin di bin IATF de depoyên giştî ne.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Erê",
+          "Na",
+          "Hîn ne piştrast e"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Heke were qebûlkirin",
+      "title": "Qebûlkirin tê çi wateyê"
+    },
+    "items": [
+      "depoyek giştî di rêxistina IATF GitHub de",
+      "endezyarekî berpirsiyar ku ji bo projeyê hatiye destnîşankirin",
+      "lîsansa copyleft ji bo kod û materyalên projeyê",
+      "pêşketina giştî di depoyê de",
+      "tomareke qeydê li ser malpera IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Dest bi gotûbêjê bikin",
+      "title": "Ji bo destpêkirinê daxwazek kurt û zelal bes e"
+    },
+    "paragraphs": [
+      "Heke hewcedarîyeke rastîn a gihîştina we hebe û hûn difikirin ku divê ev bibe projeyeke giştî, ew ji me re bişînin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Rêveberî û modela depoyê",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Rêveberî û modela depoyê",
+    "lead": "IATF projeyên gihîştina giştî, xwendin û parastinê diparêze.",
+    "support": [
+      "Di vê rûpelê de tê zelalkirin ku çi tê qebûlkirin, çawa depo têne girtin, û çi berpirsyariya asta depoyê piştî qebûlkirinê derbas dibe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Rêzikname",
+      "title": "Misyon Fit, xwediyê, Licensing"
+    },
+    "cards": [
+      {
+        "title": "Mîsyona Fit",
+        "paragraphs": [
+          "IATF karê ku astengiyeke rastîn a gihîştina çareser dike û nirxa giştî ya zelal heye qebûl dike.",
+          "Projeyek divê ji bilî herikîna karê taybet bikêrhatî be û wek depoyek giştî kar bike.",
+          "Ji bo gihîştina malperê, IATF bikar tîne [W3C WAI](https://www.w3.org/WAI/) Tecrûbeya rasterast a bikarhênerên teknolojiyên alîkariyê jî delîlên pratîk ên ku di bikaranîna rastîn de kar dikin."
+        ]
+      },
+      {
+        "title": "Pejirandina projeyê",
+        "paragraphs": [
+          "Pêşniyarek dikare were qebûlkirin, dema ku lêkolîn nîşan dide ku:"
+        ],
+        "items": [
+          "ew pêdiviya rastîn a gihîştina çareseriyê ye",
+          "pirsgirêk ji bo nirxandina pir zelal e",
+          "di çarçoveya bes realîst ji bo destpêkirina e",
+          "kar bi erka IATF'ê ve girêdayî ye",
+          "rêyeke pêbawer ji bo parastin an temamkirinê heye"
+        ]
+      },
+      {
+        "title": "Xweseriya depoyê",
+        "paragraphs": [
+          "Projeyên qebûlkirî di bin rêxistina IATF GitHub de tên çêkirin.",
+          "Repositories li wir bimînin da ku her projeyek mala giştî ya stabîl diparêze, her çiqas parêzerên paşê jî biguherin."
+        ]
+      },
+      {
+        "title": "Destûrname",
+        "paragraphs": [
+          "Projeyên IATF Licenseyên copyleft bikar tînin, heta ku projeyeke din diyar neke:"
+        ],
+        "items": [
+          "<strong>Kod:</strong> AGPL-3.0",
+          "<strong>Belge:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Endezyarê berpirsiyar an karmendê parastinê",
+      "paragraphs": [
+        "Her projeya pejirandî divê xwedî endezyarekî berpirsiyar be. Ew kes dikare destûra rêveberî ji depoyê bistîne û tê çaverê kirin ku:"
+      ],
+      "items": [
+        "pêşketina rêber di raya giştî de",
+        "avahiya depoyê biparêze",
+        "pirsgirêkên binirxînin an birêvebirin û daxwazên vekişandinê",
+        "biryarên teknîkî yên girîng belge bikin",
+        "projeyê ji bo kesên din fêm bikin"
+      ],
+      "footnote": "Ev berpirsyariya li ser asta depo ye. xwediyê rêxistinî li gel IATF dimîne. Berpirsiyariya li vir rêveberiya depo ye, rêbertiya teknîkî û koordînasyona giştî ye  ne radestkirina taybet a bêsînor, entegrasyonên xwerû, an sozên asta xizmetê li derveyî nexşeya rê ya giştî."
+    },
+    "publicDevelopment": {
+      "title": "Pêşveçûna giştî",
+      "paragraphs": [
+        "Projeyên ku bi rêya IATF'ê hatine destpêkirin bi awayekî asayî di raya giştî de tên pêşxistin."
+      ],
+      "items": [
+        "kodê çavkaniyê",
+        "mijarên",
+        "belgefîlm",
+        "notên nexşeya rê",
+        "dîroka serbestberdanê"
+      ],
+      "footnote": "Zanîna projeyê ya girîng divê ne tenê di sohbetên taybet an di qutiyên înternetê de bijî."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "tomarên giştî",
+      "title": "Dosyayên daxwazên giştî"
+    },
+    "paragraphs": [
+      "Daxwazên ku di malpera IATF, e-nameyê, Discord, GitHub an kanalên din ên IAT F de têkevin, dibe ku bibin qeydên daxwazên giştî.",
+      "IATF dikare daxwazek berî weşandinê bi kurtasî, redaktîv bike, an jî ji nû ve ava bike da ku pêdiviya gihîştina bêyî ku agahdariya kesane ya ne hewce were dîtin.",
+      "Dibe ku qeydên daxwazên giştî di rêxistina IATF GitHub de, di vê malperê de, an herduyan de bên veşartin.",
+      "Berî weşandinê, IATF daneyên têkiliyên kesane yên ne hewce, navnîşanên taybet, û daneyên naskirina li ser bikarhênerên takekesî yên teknolojîyên alîkarî derdixe, heta ku weşandina bi awayekî zelal neyarî û guncaw be.",
+      "Discord ji bo koordînasyona nefermî tê bikar anîn. IATF bi awayekî asayî hevdîtinên Discord cuda arşîv nake, û parastina peyamê ji hêla Discord ve tê kontrol kirin. Biryarên ku di Discord de hatine girtin divê di qeydên giştî de li ser GitHub an li ser rûpela projeya têkildar de werin berhevkirin.",
+      "Rekordên daxwaznameyê ji endeksekirina motorê lêgerînê têne dûrxistin ku di warê teknîkî de pêkan e. Giştî tê wateya ku dikare were nirxandin û hesab bê dayîn. Ev nayê wê wateyê ku ji bo vedîtina bi rêya lêgerînên navê ve têne çêkirin.",
+      "IATF dikare qeydên ji rûpelên giştî yên IAT F kontrolkirî nûve bike an jê rake, lê nikare garantîya rakirina ji cacheyên partiya sêyemîn, agahdarkirin, forks, screenshots, motorên lêgerînê, Discord, an sîstemên din ên derve bike.",
+      "Ger peyamek divê taybet bimîne, ew bi rêya kanalên giştî yên IATF neşînin."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rola rêxistinî",
+      "title": "Serokatî"
+    },
+    "lead": "Serok di asta rêxistinê de rêveberiya IATF-ê digire. Ev ji rola endezyarê berpirsa projeyê cuda ye: serok berpirsiyar e ji bo rêxistina bi tevahî, ne ji bo birêvebirina rojane ya her depokeyekê.",
+    "duties": {
+      "title": "Tiştê ku kursiyê dike",
+      "items": [
+        "Destûrên xwediyê li ser rêxistina IATF GitHub digire",
+        "Peymana li ser pejirandina projeyê û biryarên arşîvkirinê",
+        "Wek xalê têkiliyê yê giştî ji bo IATF dixebite",
+        "Hilbijartina salane koordîne dike"
+      ],
+      "footnote": "Serokê IATFê ji bo peydakirina taybetî, karên bi pere, an peymanên asta xizmetê ve girêdayî nake û biryarên pargîdaniyê yên li ser rêveberên teknîkî li ser rêberê teknîkî derbas nake."
+    },
+    "election": {
+      "title": "Hilbijartina salane",
+      "paragraphs": [
+        "Serok salê carekê tê hilbijartin. Hilbijartin di du hefteyên pêşîn ên meha Kanûnê de pêk tê, encam di 15'ê Kanûna Paşiyê de têne ragihandin û dema nû di 1'ê Çileyê de destpêdike.",
+        "Berbijêrên mafdar ew kes in ku di salekê de roleke parastinê li ser her depoya IATF-ê pêk anîn û di wê salê de herî kêm yek beşdarî hevbeş a depoya iATF kirin. Her berbijêrê mafdar yek deng heye. Berbijarê ku herî zêde deng werdigire qezenc dike; di bûyera wekhev de, di hefteya sêyemîn a Kanûna Paşiyê de hilbijartin tê lidarxistin.",
+        "Hilbijartin wekî Gotûbêjeke Giştî ya GitHubê di depoya rêveberiya IATF ya destnîşankirî de tê birêvebirin, ji ber vê yekê namzet, dengdan û encam hemî beşek ji qeydên giştî ne."
+      ]
+    },
+    "continuity": {
+      "title": "Berdewamiya",
+      "paragraphs": [
+        "Ger di salekê de hilbijartin pêk neyê, serokê heyî heta hilbijartina pêşî di rolê de dimîne. Ev berdewamiyeke bêdawî ye, ne dema rehmetê ye  model ji bo ku rêxistinê aram bike dema ku çalakî kêm e, ne ku veguhestina ku kes amade ne.",
+        "Serok dikare di her wextê de dest ji kar berde.Mafdarên çalak jî dikarin hilbijartineke derveyî bi sedemek diyarkirî, bi heman rêbazên hilbijartina salane re birêve bibin."
+      ]
+    },
+    "current": {
+      "title": "Serokê niha",
+      "fields": [
+        {
+          "label": "Serokatî",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Term",
+          "value": "Heta hilbijartina Berfanbara 2026"
+        },
+        {
+          "label": "Rola fermîkirî",
+          "value": "2026"
+        },
+        {
+          "label": "Hilbijartina yekem a plankirî",
+          "value": "Berfanbara 2026"
+        }
+      ]
+    },
+    "footnote": "Rola serokê di 2026 de hate fermî kirin da ku rêvebiriya asta rêxistinê eşkere bike."
+  },
+  "continuity": {
+    "states": {
+      "title": "Rewşa projeyê",
+      "paragraphs": [
+        "Projeyên bi kar tînin a set biçûk ji dewletên giştî:"
+      ],
+      "items": [
+        "Pêşniyar",
+        "Pejirandin",
+        "Çalakî",
+        "Bi îstîqrar",
+        "Daxwazkarê parastinê",
+        "Arşîvkirin"
+      ],
+      "footnote": "Van dewletan tomarkirina qeydê hêsan digirin."
+    },
+    "reassignment": {
+      "title": "Ji nû ve destnîşankirin û arşîvkirin",
+      "paragraphs": [
+        "Heke parêzerek xwe vekişîne an bê çalak bibe, IATF dikare berpirsyariyê ji nû ve bide, pêşveçûnê rawestîne, an arşîv bike.",
+        "Dibe ku projeyek jî were arşîvkirin dema ku hewcedariya destpêkê hatiye bicîh anîn, parastin hatiye rawestandin, an jî karê berdewam êdî realîst nîne."
+      ],
+      "footnote": "Projeyên arşîvkirî ji bo raya giştî berbiçav dimînin, heta ku sedemeke neyênî hebe ku tiştekî din bike."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nîşeya sînor",
+      "title": "IATF çi garantî nake"
+    },
+    "items": [
+      "teslîmkirina xerîdarê taybet",
+      "peymanên asta xizmetê",
+      "qebûlkirina her pêşniyarê",
+      "parastina demdirêj ji bo her projeyê"
+    ],
+    "footnote": "IATF modeleke veşartinê ya giştî ye, ne xizmeta radestkirinê ya taybet e."
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparansî",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparansî",
+    "lead": "IATF bi rêkûpêk di raya giştî de dixebite. Biryarên projeyê, guhertinên kodê, guherînên rêveberiyê û mesrefên xebitandinê li cihên giştî tên tomar kirin.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Diyarname",
+      "title": "Cihê ku qeydên dijîn"
+    },
+    "items": [
+      "<strong>Biryarên projeyê.</strong> Biryarên qebûlkirinê, arşîvkirinê û nûvekirinê wekî mijar an belavkirinên di depoya têkildar de têne tomar kirin û di rejîsta giştî de bi kurtî têne nirxandin. <a href=\"/projects/\">lîsteya</a>.",
+      "<strong>Daxuyaniyên daxwaznameyê.</strong> Daxuyaniyên daxwazên giştî di rêxistina IATF GitHub de, di vê malperê de, an herduyan de têne veşartin. Dibe ku qeydên daxwaza resmî, redaktîv bikin, an jî daxwaza orjînal ji nû ve saz bikin da ku pêwîstiya gihîştinê bêyî ku agahdariya şexsî ya ne hewce were nirxandin. Biryarên nakokiyê di qeydên giþtî de tên berhevkirin dema ku ew bandorê li projeyek an biryara rêveberiyê dikin. Daxûyaniyên daxwaznameyê ji endeksekirina motorên lêgerînê têne dûrxistin ku teknîkî pêkan e. Dîtina qeydan: daxwaza weşanê ya yekem li benda ye.",
+      "<strong>Guhertinên kodê.</strong> Her guhertina kodê li ser depoya têkildar a giştî ye. <a href=\"{{contact.githubOrgUrl}}\">Rêxistina GitHub</a>.",
+      "<strong>Guhertinên rêveberiyê.</strong> Nûvekirinên ji bo rûpelê rêveberiyê tên şopandin wek ku ji bo <code>iatf-website</code> Repository. View the <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">dîroka pêkanînê</a> li ser GitHub.",
+      "<strong>Mesrefên operasyonê.</strong> IATF mesrefên xebitandinê kêm digire û mesrefa binesaziya giştî ya berdewam tomar dike.",
+      "<strong>Notên koordînasyonê.</strong> Notên ji her nirxandina koordîne an biryara zindî li GitHub Diyaloga li ser depoya têkildar  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Gotûbêj</a> li ser <code>iatf-website</code> depo."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Mesrefên",
+      "title": "tomarkirina mesrefên operasyonê"
+    },
+    "paragraphs": [
+      "IATF binesaziya xwe ya giştî bi zanebûn biçûk digire.",
+      "Ev tomar ne daxuyaniyek fînansî ya kontrolkirî ye. Ew lîga giştî ya mesrefên operasyonê ye ji bo binesaziya ku ji bo parastina IATF online tê bikaranîn."
+    ],
+    "footnote": "Daxuyaniyên şexsî, agahîyên fîlan û agahîyên hesabê yên ne hewce ne beşek ji tomarên giştî ne.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Mesrefa",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Notên",
+            "value": "Lêçûna domainê ku ji hêla mugiwarafx ve tê fînansekirin. Hostingê bi rêya Cloudflare binesaziya belaş an kêm-bihayê bikar anî. <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationallaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Mesrefa",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Notên",
+            "value": "Lêçûna domainê ji hêla mugiwarafx ve tê fînansekirin."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationallaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Mesrefa",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Notên",
+            "value": "Lêçûna domainê ji hêla mugiwarafx ve tê fînansekirin."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationallaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Mesrefa",
+            "value": "14.76 Dolarê Amerîkî"
+          },
+          {
+            "label": "Notên",
+            "value": "Lêçûna domainê ji hêla mugiwarafx ve tê fînansekirin."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationallaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Mesrefa",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Notên",
+            "value": "Lêçûna domainê ya ku ji hêla mugiwarafx ve tê fînansekirin. Hostingê bi rêya Rûpelên GitHubê binesaziya belaş an kêm-bihayê bikar anî."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nîşeya sînor",
+      "title": "Çi ne giştî ye"
+    },
+    "paragraphs": [
+      "Hinek materyal bi armanc ji tomarên giştî têne veşartin:"
+    ],
+    "items": [
+      "Daneyên têkiliyên şexsî yên pêşniyarkeran.",
+      "Peywendîyên taybet bi tenê ji bo zelalkirina daxwazek berî ku ew were qebûlkirin, red kirin, an jî bi kurtasî.",
+      "navnîşanên taybet, hejmarên telefonê, û hûrgiliyên şexsî yên ne pêwîst.",
+      "Her tiştek ku bikarhênerek yekser a teknolojiya alîkariyê bêyî razîbûnê nas bike.",
+      "Hevpeyvînên Raw Discord, ji bilî ku peyamek taybet bi zanebûn di tomareke projeya giştî de tê veguhestin."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Zêde bixwîne",
+      "title": "Rêveberî pirtûka rêziknameya li pişt van qeydan e"
+    },
+    "paragraphs": [
+      "Heke tu dixwazî fêm bikî ka proje çawa têne qebûlkirin, arşîvkirin, an ji nû ve têne erkdarkirin, rûpela rêveberiyê bixwîne."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

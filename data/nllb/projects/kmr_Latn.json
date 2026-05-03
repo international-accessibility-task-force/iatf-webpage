@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Malpera IATF",
+    "summary": "Malpera giştî ya Koma Xebatê ya Têkeliyê ya Navneteweyî.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF hewcedarî mala giştî ya aram bû ku modelê eşkere bike, lîsteyên projeyan, û alîkarên alîkarî ji bo gava rastîn ya pêşîn.",
+    "why": "Ev malper deriyê pêşîn a giştî ya IATF e. Ew wekî projeyeke statîk a biçûk hatiye avakirin da ku ew bi hêsanî bixwîne, wergerîne û di vekirî de biparêze.",
+    "scopeIn": [
+      "Rûpelên daxistina giştî ku modela IATF'ê rave dikin",
+      "Rejîstra giştî ya projeyên IATF yên qebûlkirî, çalak û arşîvkirî bi statû, parastvan, depo û demo",
+      "Rûpel û formeke wergirtina daxwaznameyê",
+      "Rêveberî û rûpelên şefaetê",
+      "Çavkaniya îngilîzî bi avahiya amade ji bo wergerandinê",
+      "Pêşkêşkirina statîk li ser Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Herêmên endamên taybet, hesab, an herikên têketinê",
+      "Mêvandariya kodê çavkaniyê ya projeyê, ku di depoya xwe ya her projeyê de dijî",
+      "Di dema rast de sohbet, ku di Discord de dijî",
+      "Şopandina pirsgirêkê ji bo projeyên şexsî, ku di depoya GitHub ya her projeyê de dijî"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Prototîpek destpêkê ya IATF, piştî gihîştina xala rawestandina xwezayî, arşîv kirin.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Di bin banê IATF de lêkolîneke zû ya amûreke ku li ser gihîştina girseyî ye.",
+    "why": "Repository wek qeydek ji xebata giştî tê parastin, her çiqas ku pêşveçûna çalak rawestiyaye jî.",
+    "scopeIn": [
+      "Prototîpeke zû ya amûreke ku li ser gihîştina girseyî ye, wekî tomareke giştî tê parastin"
+    ],
+    "scopeOut": [
+      "Pêşveçûna çalak an karê taybetmendiyê",
+      "Hevpeymanên parastinê",
+      "Bikaranîna pêşniyarkirî di hilberînê de"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "A bot civaka IATF, piştî gihîştina xala rawestandina xwezayî arşîvkirin.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation li dora kanalên civaka IATF.",
+    "why": "Repository wek qeydek ji xebata giştî tê parastin, her çiqas ku pêşveçûna çalak rawestiyaye jî.",
+    "scopeIn": [
+      "Otomatîkkirina nakokiyê li dora kanalên civaka IATF, wekî tomareke giştî tê parastin"
+    ],
+    "scopeOut": [
+      "Pêşveçûna çalak an karê taybetmendiyê",
+      "Hevpeymanên parastinê",
+      "Bikaranîna pêşniyarkirî di hilberînê de"
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ji pêdiviya gihîştina ji bo repo ya giştî",
+    "lead": "IATF alîkariya komele, komele û takekes dike ku pêdiviyên rastîn ên gihîştinê veguherînin projeyên çavkaniya vekirî ya giştî.",
+    "support": [
+      "Projeyên qebûlkirî di rêxistina IATF GitHub de di bin lîsansa copyleft de têne weşandin û ji hêla endezyarekî berpirsiyar ve di raya giştî de tên pêşxistin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modela xebatê ya giştî",
+      "title": "Rêya giştî ya hêsan a ji bo nivîsbariyê"
+    },
+    "paragraphs": [
+      "Bi rêya formekê, her kes dikare pirsgirêka gihîştina IATF-ê pêşkêş bike. Eger tîma bikaribe ew bistîne, ji bo xebatê depoyeke giştî ya GitHub tê vekirin.",
+      "Her projeya pejirandî xwedî mala giştî ya zelal e ji bo kod, pirsgirêk, belge û belavkirin, bi pêşveçûnê re di vekirî de ji hêla endezyarekî berpirsiyar ve tê birêvebirin."
+    ],
+    "specCard": {
+      "title": "Modela xebatê ya giştî",
+      "terms": [
+        {
+          "term": "Pêdivî",
+          "definition": "Pirsgirêka gihîştina rastîn"
+        },
+        {
+          "term": "Lêkolîn",
+          "definition": "Pêdiviya wezîfeyê û pêkanîna pratîk"
+        },
+        {
+          "term": "Cihê projeyê",
+          "definition": "Depoya GitHub a giştî"
+        },
+        {
+          "term": "Berpirsyarî",
+          "definition": "Xweseriya rêxistinî ya IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Pêvajo",
+      "title": "Ew çawa dixebite",
+      "intro": "Model bi zanebûn biçûk dimîne da ku rêya giştî bi hêsanî were şopandin."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Pêwîstiyek tê pêşkêşkirin",
+        "paragraphs": [
+          "Yekîtî, komek an kesek dikare daxwazekê li ser bingeha pêdiviyek rastîn a gihîştina pêşkêş bike.",
+          "Daxwazên dikarin bi rêya malperê, bi emailê dest pê bikin <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, an jî bi rêya Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ew dinirxîne",
+        "paragraphs": [
+          "Em hevsengiya wezîfeyê dinirxînin, çarçoveya pratîk, û ka gelo kar di projeya çavkaniya vekirî ya giştî de cih digire."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Depoya giştî tê afirandin",
+        "paragraphs": [
+          "Ger projeyek were qebûlkirin, ew di rêxistina IATF GitHub de di bin lîsansa copyleft de tê weşandin.",
+          "Repository dibe mala giştî ya kod, pirsgirêk, belge û belavkirin."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Endezyarekî berpirsiyar projeyê birêve dibe",
+        "paragraphs": [
+          "Endezyarekî berpirsiyar ji depoya projeyê re tê erkdar kirin û pêşveçûn di raya giştî de pêk tê."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejîma",
+      "title": "Rejîma projeyên giştî"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ji vir dest pê bike",
+      "title": "Xebatên heyî binirxînin an jî projeyek konkret bidin destpêkirin"
+    },
+    "paragraphs": [
+      "Ji bo dîtina tiştên ku ji niha ve giştî ne, an jî dest bi wergirtinê bikin eger pirsgirêka gihiştinê ya taybet bibe projeyek, qeydê bikar bînin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

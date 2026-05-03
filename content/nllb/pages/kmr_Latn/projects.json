@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projeyên gihîştina giştî",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projeyên gihîştina giştî",
+    "lead": "Ev lîsteya projeyên giştî yên ku bi IATF ve têne parastin. Projeyên gihîştina qebûlkirî, binesaziya malperê, û prototipên arşîvkirî li vir tên dîtin.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejîma",
+      "title": "Rejîsta heyî"
+    },
+    "intro": [
+      "Projeyên ku hatine qebûlkirin, piştî ku hatine weşandin, li vir tên lîstin."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Pêwîstiyek pêşkêş bikin",
+      "title": "Pêwîstiya berbiçavbûnê ya konkret veguherîne projeyeke giştî"
+    },
+    "paragraphs": [
+      "IATF pêdiviyên berbiçav ên gihîştina ku dikare bibe karê çavkaniya vekirî ya giştî ya bikêrhatî dinirxîne."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Heta niha tu proje nehatine weşandin",
+    "paragraphs": [
+      "IATF yekem projeya xwe ya giştî amade dike.",
+      "Tu dikarî hê jî daxwazekê bişînî eger hewcedarîya te ya berbiçav heye."
+    ]
+  }
+}

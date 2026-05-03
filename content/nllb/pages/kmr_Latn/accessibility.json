@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Têgihîştina",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Têgihîştina",
+    "lead": "IATF hewl dide ku vê malpera hêsan, xwendin, bi klavyeyê ve têkeve, û bi teknolojiyên alîkariyê ve girêdayî be.",
+    "support": [
+      "Ji bo gihîştina malperê, IATF bikar tîne [W3C WAI](https://www.w3.org/WAI/) Herwiha bi tecrûbeya rasterast ya bikarhênerên teknolojîyên alîkar re tê zanîn."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Raportkirin",
+      "title": "Pirsgirêka gihîştina ragihandinê"
+    },
+    "paragraphs": [
+      "Heke hûn li ser vê malperê astengiyeke gihîştinê bibînin, ji kerema xwe re bi e-nameyê ragihînin:",
+      "{{contact.accessibilityEmail}}",
+      "Raportên kêrhatî di nav de:"
+    ],
+    "items": [
+      "rûpela ku pirsgirêk çêbûye",
+      "tişta ku tu dixwest bikî",
+      "kîjan teknolojiya alîkariyê, browser, an amûrê ku hûn bikar anîn, eger têkildar be",
+      "çi xerab bû",
+      "çi alîkarî kiribû"
+    ],
+    "footnote": "Hûn ne hewce ne ku rapora bug a fermî binivîsin. Dîyarkirina zelal bes e."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Hilgirtin",
+      "title": "Birêvebirina mijarên giştî"
+    },
+    "paragraphs": [
+      "Pirsgirêkên berbiçavbûnê dikarin di depoya giştî ya têkildar de werin berhevkirin da ku ew dikarin di vekirî de bên çareserkirin. Daneyên têkiliyên kesane û agahiyên taybet ên ne pêwîst berî weşandinê tên rakirin.",
+      "Heke rapora we agahiyên taybet dihewîne, di peyamê de bi zelalî bibêje."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Rewşa niha",
+      "title": "Sînorên naskirî"
+    },
+    "paragraphs": [
+      "Ev malper bi zanebûn biçûk e û bi piranî statîk e. Dibe ku hin wergerên zimanî ne temam bin dema ku werger tên amadekirin."
+    ]
+  }
+}

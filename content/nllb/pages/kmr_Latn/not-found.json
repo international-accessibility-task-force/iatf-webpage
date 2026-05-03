@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nehat dîtin"
+  },
+  "hero": {
+    "eyebrow": "Nehat dîtin",
+    "title": "Rûpela xwestin nehat dîtin",
+    "lead": "Ji bo vegera malpera giştî, rêyên sereke yên jêrîn bikar bînin.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Mal",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Rêya ku te xwestiye tune ye."
+    ],
+    "items": [
+      {
+        "label": "Mal",
+        "href": "/"
+      },
+      {
+        "label": "Projeyên",
+        "href": "/projects/"
+      },
+      {
+        "label": "Tevlî bibin",
+        "href": "/join/"
+      },
+      {
+        "label": "Têgihîştina",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Rêveberiyê",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparansî",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

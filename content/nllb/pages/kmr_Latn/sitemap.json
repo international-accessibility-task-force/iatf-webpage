@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Sitemap",
+    "lead": "Hemû rûpelên giştî li ser iatf.cc, li cihekî."
+  },
+  "sections": [
+    {
+      "title": "Rûpelên sereke",
+      "items": [
+        {
+          "label": "Mal",
+          "href": "/"
+        },
+        {
+          "label": "Projeyên",
+          "href": "/projects/"
+        },
+        {
+          "label": "Daxwaza projeyê bike",
+          "href": "/propose/"
+        },
+        {
+          "label": "Rêveberiyê",
+          "href": "/governance/"
+        },
+        {
+          "label": "Tevlî bibin",
+          "href": "/join/"
+        },
+        {
+          "label": "Têgihîştina",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparansî",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projeyên",
+  "projectsEmpty": "Heta niha tu proje nehatine weşandin."
+}
