@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ڤروجيک اكسيۏيليتي ڤوڤولر",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ڤروجيک اكسيۏيليتي ڤوڤولر",
+    "lead": "ريجستري ڽو مروڤاكن ڤروجيک عموم يڠ دڤاوڬيت دري IATF. ڤروڬيك اكسيليتي يڠ تله دتوكر، اينفراستروكتور سيتوس، ڠن ڤروتوتيڤ يڠ دراچيڤت دڤاوتومڤت نيبق ڽن.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "ريجيستر",
+      "title": "ريجستير يڠ كالي ڽن"
+    },
+    "intro": [
+      "ڤروجيک يڠ دتربيتكن دتوليس د لوار ڽن سيوجق جيه دڤوبليكسيكن."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "مروڤاكن ڤرلوكن",
+      "title": "مروڤاكن ڤرلوكن اكسيۏيليتي يڠ كونكرت منجادي ڤروجيک ڤوبليك"
+    },
+    "paragraphs": [
+      "IATF منچريتاكن ڤرلوكن اكسيۏيليتي كونكرت يڠ جاوت كاو كاريا اوڤن سورس عموم يڠ ڤنتيڠ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "تيدق اد ڤروجيک يڠ دڤوستاكن",
+    "paragraphs": [
+      "IATF مروڤاكن ڤروجيک ڤرتام يڠ دڤاوڬيت.",
+      "اكو ماسيه بوليه مڠمبيل ڤرسوالن جك اكو ممڤوڽاءي ڤرلوكن اكسيليتي يڠ كونتريك."
+    ]
+  }
+}

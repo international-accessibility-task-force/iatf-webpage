@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ڤىتا سايتى"
+  },
+  "hero": {
+    "eyebrow": "اينديكس",
+    "title": "ڤىتا سايتى",
+    "lead": "ستياڤ لامن ڤوڤليك د iatf.cc، د ساتو جاڠن."
+  },
+  "sections": [
+    {
+      "title": "لامن اوتام",
+      "items": [
+        {
+          "label": "رومه",
+          "href": "/"
+        },
+        {
+          "label": "ڤروجيك",
+          "href": "/projects/"
+        },
+        {
+          "label": "منريما ڤروجيک",
+          "href": "/propose/"
+        },
+        {
+          "label": "ڤمرينتاهن",
+          "href": "/governance/"
+        },
+        {
+          "label": "جاوت كاو",
+          "href": "/join/"
+        },
+        {
+          "label": "اكسيسيبيليتي",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ترانسڤرانسي",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ڤروجيك",
+  "projectsEmpty": "تيدق اد ڤروجيک يڠ دڤوستاكن."
+}

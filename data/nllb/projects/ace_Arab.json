@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "ويب سايت IATF",
+    "summary": "سايت عموم اونتوق تاسق فورس اكسيليتي انترناسيونل.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ممرلوكن رومه رعيت يڠ ستابيل يڠ منونجوقكن موديل، مڠلواركن ڤروجيک، دان منچاتتكن ڤڠونجوڠ كڤد تيندقن يڠ ترتنتو.",
+    "why": "سايت ڽن اداله دري ڤوست عموم IATF. جيه دباڠون سيوباڬواي ڤروجيک ستاتيق ليڠكوڠ اونتوق ماوسواي دباچ، دترجمه، ڠن دڤاوڠاروه دالم ڤاوڠكتن.",
+    "scopeIn": [
+      "لامن ليندينگ ڤوبليك يڠ منونجوقكن موديل IATF",
+      "ريجيستر ڤوبليك دري ڤروجيک IATF يڠ دتوكوڤ، اكتيۏ، دان دأركيۏي داوڠان ستاتوس، ماينتاينر، ريڤوسيتوري، ڠن ديمو",
+      "سابوه لامن ڤنوليسن ڤرتاڽان ڠن بنتوق",
+      "لامن ڤمرينته ڠن ترانسڤرانسي",
+      "سورس بهاس ايڠڬريس داوڠان ستروكتور يڠ چوكوڤ اونتوق دترجمه",
+      "ڤمباڠونن ستاتيك اونتوق Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "ايريا اورڠ ڤريبادي، اكاون، اتاو جالن لوڬين",
+      "ڤڠومڤولن كود سومبر ڤروجيك، يڠ هيدوڤ دالم ريڤوسيتوري ستياڤ ڤروجيق",
+      "چات ريال-تايم، يڠ هيدوڤ د ديسكورد",
+      "ڤڠتاهوان ايسي اونتوق ڤروجيک ساتو-ساتوڽ، يڠ هيدوڤ دالم ريڤوزيتوري GitHub ستياڤ ڤروجيك"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF سيلفي",
+    "summary": "سابوه ڤروتوتيڤ IATF اواا، دأرکيۏي لڤس مروڤاكن تيتيق ڤرتومبوهن.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "ڤنچاڤاين اواي اونتوق ڤڠڬونأن يڠ دڤوكوسكن دالم اكسيۏيليتي د دالم اوڤراسي IATF.",
+    "why": "ريڤوسيتوري دڤاوڬيت سباڬاي ريكود دري كاريا، والاوڤون ڤڠمبڠن اكتيۏ سوده تڤت.",
+    "scopeIn": [
+      "ڤروتوتيڤ اواا دري سابوه تولوڠ يڠ فوكوس دڠن اكسيۏيليتي يڠ دڤاوڬيت سباڬاي ريكود ڤوبليك"
+    ],
+    "scopeOut": [
+      "ڤركمبڠن اكتيۏ اتاو ڤكرجا فيچر",
+      "ڤڠتاهوان ڤڠواتكواسا ?? ن",
+      "ڤڠڬونأن يڠ دڤرلوكن دالم ڤرودوكسي"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "بوتا IATF",
+    "summary": "سأورڠ روبوت كومونيتس IATF، يڠ دأرسيڤ سيوجق ستله مروڤاكن تيتيق تومڤت يڠ بياسا.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "أوتوماتيساسي دڠن چانل كومونيتس IATF.",
+    "why": "ريڤوسيتوري دڤاوڬيت سباڬاي ريكود دري كاريا، والاوڤون ڤڠمبڠن اكتيۏ سوده تڤت.",
+    "scopeIn": [
+      "اوتوماتيساسي ديسكورد دڠن چانل كومونيتس IATF، دڤاوڬيت سباڬاي ريكود ڤوبليك"
+    ],
+    "scopeOut": [
+      "ڤركمبڠن اكتيۏ اتاو ڤكرجا فيچر",
+      "ڤڠتاهوان ڤڠواتكواسا ?? ن",
+      "ڤڠڬونأن يڠ دڤرلوكن دالم ڤرودوكسي"
+    ]
+  }
+]

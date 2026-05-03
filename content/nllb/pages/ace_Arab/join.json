@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "برلڠسوڠ كڤد IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "برلڠسوڠ كڤد IATF",
+    "lead": "ڤڠݢوناءن اوڤن. ترداڤت ببراڤ چارا اونتوق برلاکو، اڤابيلا کامي برتڠݢوڠجواب دڠن تيکنولوݢي اسيستيۏي، ممبينا سوفتوير يڠ دکلوارکن، مڠترجمه، ممباچ، اتاو مڠمبيل ڤروجيک. ڤرکاتاءن دان کڤوتوسن دلاکوکن سچارا ڤوڤولر د GitHub دان Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "ڤركارا-ڤركارا",
+      "title": "چارا اونتوق ممباوا"
+    },
+    "items": [
+      "<strong>منريما ڤروجيک.</strong> اڤابيلا كامو مڠهادڤي سستڠه اكسيۏيليتي يڠ موڠكن دڤركنلكن اوليه سوفتوير اوڤن سورس ڤوبليك، اكن مڽاتاكنڽ ملالوءي ڤڠمبيلن ڤرتاڽان.",
+      "<strong>ڤڠتاهوان دان ڤنوليسن.</strong> جربو ڤروجيک IATF داوڠان تيكنولوڬي اسيسيڤي يڠ كامو ڤاكاي، ريڤورت اڤ يڠ باڬو ڠن اڤا يڠ كادا، ڠن فايل ڤركارا سيوريڠ دالم ريڤوسيتوري يڠ ترتنتو.",
+      "<strong>منترجمه.</strong> تومڤت سورس دڤوستاكن دالم بهاس ايڠڬريس ڤولا. ڤرچاتورن دڤاودڠ سيوباڬاي ڤنوليس دلوڤاكن، مولاي دڠن بهاس ڤيڠڬيرن.",
+      "<strong>ممباڠون.</strong> مڠمبيل مسئله دالم ستياڤ ريڤوسيتوري IATF، مڠلواركن ڤرلوكن ڤنوليسن، اتاو مڠڬوناكن ڤروجيک سباڬاي اينجينيور يڠ برتڠڬوڠجواب.",
+      "<strong>ممڤرتاهنكن.</strong> ڤروجيک يڠ اد كادڠ-كادڠ جيه ڤرلو ڤمباڠونن بارو. ڤرتوبوهن ڤمبنتو اداله باڬين نورمل دري مودل، هان ايكسيسيڤسي."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "چانيل-چانيل",
+      "title": "دمان IATF بكرجا د دالم ڤوڤولر"
+    },
+    "items": [
+      "<strong>جيته هاب.</strong> ايسي، ڤڠڬيلن ڤرلو، ريليس، ڠن ريكود ڤروجيک.",
+      "<strong>ديسورد.</strong> ڤرجواڠن ليوى، كؤرديناسي، ڠن ڤرسوالن يڠ كادڠ-كادڠ.",
+      "<strong>ايميل.</strong> ڤڠڬوناان <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> اڤابيلا تياد GitHub اتاو Discord يڠ برلاكو."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "ڤرکارا يڠ لالو",
+      "title": "ڤيليه چانل يڠ ماچم چارا يڠ اندا ڤرلو مڽمڤورناكن"
+    },
+    "paragraphs": [
+      "سموا چانل مروڤاكن ڤمباچ رعيت يڠ سام ڠن ريڤوسيتوري رعيت نڠ سام."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
