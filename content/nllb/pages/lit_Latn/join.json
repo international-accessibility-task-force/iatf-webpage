@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Prisijungti prie IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Prisijungti prie IATF",
+    "lead": "Narystė yra atvira. Yra keletas būdų dalyvauti, nesvarbu, ar pasikliaujate pagalbinėmis technologijomis, kuriate prieinamą programinę įrangą, verčiate, testuojate ar prižiūrite projektą. Diskusijos ir sprendimai vyksta viešai GitHub ir Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Veiksmai",
+      "title": "Dalyvavimo būdai"
+    },
+    "items": [
+      "<strong>Prašyti projekto.</strong> Jei susiduriate su prieinamumo kliūtimi, kurį galėtų išspręsti viešoji atviro kodo programinė įranga, išsiųskite ją per prašymų priėmimo sistemą.",
+      "<strong>Bandymas ir peržiūra.</strong> Išbandykite IATF projektus su jūsų naudojamomis pagalbinėmis technologijomis, praneškite, kas veikia, o kas ne, ir tiesiogiai pateikite problemas į atitinkamą saugyklą.",
+      "<strong>Išversk.</strong> Šaltinis turinys pirmiausia skelbiamas paprastąja anglų kalba, o vertimai pridedami, kai jie yra prieinami, pradedant ispanų kalba.",
+      "<strong>Statyti.</strong> Pasirinkite problemas bet kurioje IATF saugykloje, išsiųskite \"pull\" prašymus arba imkitės projekto kaip atsakingo inžinieriaus.",
+      "<strong>Laikykis.</strong> Egzistuojantiems projektams kartais reikalingas naujas techninės priežiūros darbuotojas."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalai",
+      "title": "Kai IATF dirba viešose vietose"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problemos, ištraukimo prašymai, išleidimai ir projekto įrašai.",
+      "<strong>Nesutarimai.</strong> Gyva diskusija, koordinavimas ir neformalūs klausimai.",
+      "<strong>Elektroninis laiškas.</strong> Naudojimas <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> jei nei \"GitHub\", nei \"Discord\" neatitinka."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kitas žingsnis",
+      "title": "Pasirinkite kanalą, kuris atitinka, kaip norite prisidėti"
+    },
+    "paragraphs": [
+      "Visi kanalai patenka į tą pačią viešąją peržiūrą ir tas pačias viešąsias duomenų bazes."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

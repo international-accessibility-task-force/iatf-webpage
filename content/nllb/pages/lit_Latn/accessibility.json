@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Prieinamumas",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Prieinamumas",
+    "lead": "IATF siekia, kad ši svetainė būtų paprasta, skaitoma, prieinama klaviatūra ir suderinama su pagalbinėmis technologijomis.",
+    "support": [
+      "Interneto prieinamumo srityje IATF naudoja [W3C WAI](https://www.w3.org/WAI/) Praktinis prieinamumas taip pat pagrįstas tiesiogine pagalbinės technologijos naudotojų patirtimi."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Pranešimas",
+      "title": "Pranešti apie prieinamumo problemą"
+    },
+    "paragraphs": [
+      "Jei šiame tinklalapyje pastebite prieinamumo kliūtis, praneškite apie tai el. paštu:",
+      "{{contact.accessibilityEmail}}",
+      "Tarp naudingų pranešimų yra:"
+    ],
+    "items": [
+      "puslapis, kuriame įvyko problema",
+      "ką jūs bandėte padaryti",
+      "kokią pagalbinę technologiją, naršyklę ar įrenginį naudojote, jei taikytina",
+      "kas atsitiko negerai",
+      "kas būtų padėjo"
+    ],
+    "footnote": "Jums nereikia rašyti oficialios klaidos ataskaitos. Pakanka aiškaus aprašymo."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Apdorojimas",
+      "title": "Viešojo pobūdžio klausimų nagrinėjimas"
+    },
+    "paragraphs": [
+      "Prieinamumo problemos gali būti apibendrinamos atitinkamoje viešojoje duomenų saugykloje, kad jas būtų galima išspręsti viešai.",
+      "Jei jūsų pranešime pateikiama asmeninė informacija, pranešime tai aiškiai nurodykite."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Dabartinė padėtis",
+      "title": "Žinomi apribojimai"
+    },
+    "paragraphs": [
+      "Ši svetainė yra sąmoningai maža ir daugiausia statinė. Kai kurių kalbų versijos gali būti neišsamūs, o vertimai yra rengiami."
+    ]
+  }
+}

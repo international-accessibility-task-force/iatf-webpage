@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Nuo prieinamumo poreikio iki viešojo repo",
+    "lead": "IATF padeda asociacijoms, grupėms ir asmenims paversti realius prieinamumo poreikius į viešuosius atviro kodo projektus.",
+    "support": [
+      "Priimtini projektai skelbiami IATF GitHub organizacijoje pagal copyleft licenciją ir yra kuriami viešai atsakingo inžinieriaus."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Viešojo sektoriaus veiklos modelis",
+      "title": "Paprastas viešas kelias prieinamoms programoms"
+    },
+    "paragraphs": [
+      "Naudodamas formą, kiekvienas gali pateikti prieinamumo problemą IATF. Jei komanda gali ją priimti, šiam darbui bus atverta vieša GitHub saugykla.",
+      "Kiekvienas priimtas projektas turi aiškią viešą kodą, problemas, dokumentaciją ir išleidimus, o plėtrą atviroje erdvėje vadovauja atsakingas inžinierius."
+    ],
+    "specCard": {
+      "title": "Viešojo sektoriaus veiklos modelis",
+      "terms": [
+        {
+          "term": "Reikalavimai",
+          "definition": "Tikroji prieinamumo problema"
+        },
+        {
+          "term": "Peržiūra",
+          "definition": "Misijos tinkamumas ir praktinis įgyvendinamumas"
+        },
+        {
+          "term": "Projekto erdvė",
+          "definition": "Viešoji GitHub saugykla"
+        },
+        {
+          "term": "Valdyba",
+          "definition": "IATF organizacinė nuosavybė"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Procesas",
+      "title": "Kaip jis veikia",
+      "intro": "Modelis yra tyčia nedidelis, kad būtų lengva sekti viešuoju keliu."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Pateikiamas poreikis",
+        "paragraphs": [
+          "Asociacija, grupė ar asmuo gali pateikti prašymą, pagrįstą tikrais prieinamumo poreikiais.",
+          "Prašymai gali būti teikiami per interneto svetainę arba el. paštu adresu: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, arba per Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF jį peržiūri",
+        "paragraphs": [
+          "Mes peržiūrime misijos tinkamumą, praktinę aprėptį ir ar darbas priklauso viešajam atviro kodo projektui."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Sukurta vieša duomenų bazė",
+        "paragraphs": [
+          "Jei projektas yra priimtas, jis skelbiamas IATF GitHub organizacijoje pagal copyleft licenciją.",
+          "Ši saugykla tampa viešuoju kodu, problemomis, dokumentais ir išleidimais."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Projektą vadovauja atsakingas inžinierius",
+        "paragraphs": [
+          "Projekto saugyklai priskiriamas atsakingas inžinierius, o plėtra vyksta viešai."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registras",
+      "title": "Viešasis projektų registras"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Pradėk čia.",
+      "title": "Peržiūrėti esamą darbą arba pradėti konkretų projektą"
+    },
+    "paragraphs": [
+      "Naudokite registrą, kad pamatytumėte, kas jau yra viešai prieinama, arba pradėkite rinkti, jei konkreti prieinamumo problema turėtų tapti projektu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

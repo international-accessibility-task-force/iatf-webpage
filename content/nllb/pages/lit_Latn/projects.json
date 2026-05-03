@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Visuomenės prieinamumo projektai",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Visuomenės prieinamumo projektai",
+    "lead": "Šiame registre išvardyti viešieji projektai, prižiūrimi per IATF. Čia yra matomi patvirtinti prieinamumo projektai ir saugomi prototipai.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registras",
+      "title": "Dabartinis registras"
+    },
+    "intro": [
+      "Priimtini projektai pateikiami čia, kai tik jie paskelbiami."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Pateikite prašymą",
+      "title": "Konkretų prieinamumo poreikį paversti viešuoju projektu"
+    },
+    "paragraphs": [
+      "IATF peržiūri konkrečius prieinamumo poreikius, kurie gali būti paversti naudingais viešaisiais atviro kodo darbais."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Dar nepaskelbti projektai",
+    "paragraphs": [
+      "IATF rengia pirmąjį viešų projektų rinkinį.",
+      "Vis dar galite siųsti prašymą, jei turite konkrečių prieinamumo poreikių."
+    ]
+  }
+}

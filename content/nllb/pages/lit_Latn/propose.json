@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Prašyti įgyvendinti prieinamumo projektą",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Prašyti įgyvendinti prieinamumo projektą",
+    "lead": "IATF nagrinėja prašymus dėl prieinamumo projektų, kurių pagrindas yra realus poreikis.",
+    "support": [
+      "Jums nereikia išsamios specifikacijos, pakanka aiškios problemos, su kuo ji susijusi ir kodėl ji svarbi."
+    ],
+    "actions": [
+      {
+        "label": "Pradėti užklausą",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Vietoj to naudokite Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalai",
+      "title": "Pasirinkite lengviausią kelią."
+    },
+    "intro": [
+      "Visi maršrutai įeina į tą pačią apžvalgą."
+    ],
+    "items": [
+      {
+        "label": "Interneto svetainė",
+        "body": "Norėdami pateikti struktūrizuotą prašymą, naudokite žemiau pateiktą formą."
+      },
+      {
+        "label": "E. pašto adresas",
+        "body": "Prašymą siųskite tiesiogiai {{contact.requestsEmail}}Elektroninio pašto prašymai gali tapti viešaisiais prašymų įrašais po peržiūros ir redagavimo."
+      },
+      {
+        "label": "Nesutarimai",
+        "body": "Pradėkite ten, jei tai yra lengviausia. Prašymas vis tiek pereina į tą patį peržiūrą."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Prieš siunčiant prašymą",
+    "paragraphs": [
+      "IATF veikia viešai. Prašymai gali būti apibendrinami ir skelbiami kaip viešieji prašymų įrašai \"IATF GitHub\" organizacijoje, šioje svetainėje arba abiejuose.",
+      "Neįtraukite asmeninių adresų, telefonų numerių, medicininių duomenų ar identifikuojančios informacijos apie atskirus pagalbinių technologijų naudotojus, nebent tai būtina ir jūs sutinkate, kad tai peržiūrės IATF.",
+      "IATF prieš skelbdama prašymų įrašus pašalina nereikalingus asmeninius kontaktinius duomenis."
+    ]
+  },
+  "review": {
+    "title": "Peržiūros lūkesčiai",
+    "paragraphs": [
+      "Prašymo pateikimas negarantuoja, kad jis bus priimtas.",
+      "IATF peržiūri prašymus dėl misijos tinkamumo, įgyvendinamumo, naudingumo ir ar darbas priklauso viešajai saugyklai.",
+      "Kai kurie prašymai gali būti atmesti, atidėlioti arba pakeisti, kol jie bus priimti."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Prašymo forma",
+      "title": "Pateikti prašymą"
+    },
+    "fields": [
+      {
+        "kind": "įvesties",
+        "name": "prašytojas",
+        "label": "Jūsų pavadinimas arba organizacija",
+        "helper": "Kas pateikia prašymą?"
+      },
+      {
+        "kind": "pasirinkimas",
+        "name": "Kontaktinis maršrutas",
+        "label": "pageidaujamas kontaktinis maršrutas",
+        "helper": "Kaip turėtų vykti tolesnis tyrimas?",
+        "required": true,
+        "options": [
+          "E. pašto adresas",
+          "Nesutarimai"
+        ]
+      },
+      {
+        "kind": "įvesties",
+        "name": "Kontaktiniai duomenys",
+        "label": "Kontaktiniai duomenys",
+        "helper": "E. pašto adresas arba \"Discord\" paskyros adresas tolesniam naudojimui.",
+        "placeholder": "El. pašto adresas arba \" Discord \" paskyros adresas",
+        "required": true
+      },
+      {
+        "kind": "įvesties",
+        "name": "kalba",
+        "label": "Kalba",
+        "helper": "Jūsų mėgstama kalba, jei taikoma.",
+        "value": "Anglų kalba"
+      },
+      {
+        "kind": "Tekstinė sritis",
+        "name": "problema",
+        "label": "Kokią problemą bandote išspręsti?",
+        "helper": "Apibūdinkite kliūtį paprastomis kalbomis.",
+        "required": true
+      },
+      {
+        "kind": "Tekstinė sritis",
+        "name": "Pažeidžiami vartotojai",
+        "label": "Kas nukentėjo?",
+        "helper": "Kam tai padėtų?",
+        "required": true
+      },
+      {
+        "kind": "Tekstinė sritis",
+        "name": "extraKontextas",
+        "label": "Papildomas kontekstas",
+        "helper": "Pasidalinkite bet kuo kitu, kas padeda paaiškinti poreikį: kodėl tai svarbu, pavyzdžiais, nuorodomis, šiurkštomis programinės įrangos idėjomis ar laiko apribojimais."
+      },
+      {
+        "kind": "pasirinkimas",
+        "name": "openSourceConsent (atviras šaltinis)",
+        "label": "Gerai jaučiatės su viešuoju atviro kodo kūrimu?",
+        "helper": "Priimtini projektai yra viešieji IATF saugyklos.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Taip.",
+          "Ne",
+          "Kol kas nežinau."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Jei priimtas",
+      "title": "Ką reiškia pripažinimas"
+    },
+    "items": [
+      "IATF GitHub organizacijos viešoji saugykla",
+      "atsakingas inžinierius, paskirtas projektui",
+      "copyleft licencija kodui ir projekto medžiagoms",
+      "viešasis vystymasis duomenų saugykloje",
+      "Registro įrašas IATF svetainėje"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Pradėkite pokalbį",
+      "title": "Trumpas, aiškus prašymas yra pakankamas norint pradėti"
+    },
+    "paragraphs": [
+      "Jei turite realių prieinamumo poreikių ir manote, kad tai turėtų tapti viešuoju projektu, atsiųskite mums."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nėra"
+  },
+  "hero": {
+    "eyebrow": "Nėra",
+    "title": "Prašomas puslapis nerastas",
+    "lead": "Norėdami grįžti į viešąją vietą, naudokite žemiau esančius pagrindinius maršrutus.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Namuose",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Jūsų prašomas maršrutas neegzistuoja."
+    ],
+    "items": [
+      {
+        "label": "Namuose",
+        "href": "/"
+      },
+      {
+        "label": "Projektai",
+        "href": "/projects/"
+      },
+      {
+        "label": "Prisijunkite",
+        "href": "/join/"
+      },
+      {
+        "label": "Prieinamumas",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Valdymas",
+        "href": "/governance/"
+      },
+      {
+        "label": "Skaidrumas",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

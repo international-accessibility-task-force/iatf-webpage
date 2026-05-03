@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF interneto svetainė",
+    "summary": "Tarptautinės prieinamumo darbo grupės viešoji svetainė.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF reikėjo stabilaus viešojo namo, kuris paaiškintų modelį, išvardintų projektus ir nurodytų dalyviams tinkamą kitą žingsnį.",
+    "why": "Ši svetainė yra IATF viešoji durys. Ji yra pastatyta kaip mažas statinis projektas, todėl ją lengva skaityti, versti ir prižiūrėti atviroje erdvėje.",
+    "scopeIn": [
+      "Vieši tinklalapiai, kuriuose paaiškinamas IATF modelis",
+      "Atitinkamų, aktyvių ir archyvuotų IATF projektų viešasis registras su statusu, tvarkytoju, saugykla ir demonstracija",
+      "Prašymo priėmimo puslapis ir forma",
+      "Valdymo ir skaidrumo puslapiai",
+      "Anglų šaltinis, kurio struktūra paruošta vertimui",
+      "\"Cloudflare Workers Static Assets\" statinis diegimas"
+    ],
+    "scopeOut": [
+      "Privatūs narių planai, sąskaitos arba prisijungimo srautai",
+      "Projekto šaltinio kodo, esančio kiekvieno projekto saugykloje, prieglobstė",
+      "Realaus laiko pokalbis, kuris gyvena \"Discord\"",
+      "Atskirų projektų klausimų stebėjimas, kuris yra kiekvieno projekto GitHub saugykloje"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF \"selfie\"",
+    "summary": "Ankstyvas IATF prototipas, archyvuotas pasiekus natūralų sustojimo tašką.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Ankstyvas prieinamumo įrankio naudojimas pagal IATF programą.",
+    "why": "Duomenų saugykla yra viešai prieinama kaip darbo įrašas, net jei aktyvi plėtra buvo sustabdyta.",
+    "scopeIn": [
+      "Ankstyvas prieinamumo įrankio, saugomo kaip viešas įrašas, prototipas"
+    ],
+    "scopeOut": [
+      "Aktyvus kūrimas ar funkcijų kūrimas",
+      "Išlaikymo įsipareigojimai",
+      "Rekomenduojamas naudojimas gamyboje"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF botas",
+    "summary": "IATF bendruomenės botas, archyvuotas pasiekus natūralų sustojimo tašką.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF bendruomenės kanalų automatizavimas.",
+    "why": "Duomenų saugykla yra viešai prieinama kaip darbo įrašas, net jei aktyvi plėtra buvo sustabdyta.",
+    "scopeIn": [
+      "Diskordų automatizavimas per IATF bendruomenės kanalus, saugomas kaip viešas įrašas"
+    ],
+    "scopeOut": [
+      "Aktyvus kūrimas ar funkcijų kūrimas",
+      "Išlaikymo įsipareigojimai",
+      "Rekomenduojamas naudojimas gamyboje"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Svetainės žemėlapis"
+  },
+  "hero": {
+    "eyebrow": "Indeksas",
+    "title": "Svetainės žemėlapis",
+    "lead": "Visi vieši IATF.CC puslapiai vienoje vietoje."
+  },
+  "sections": [
+    {
+      "title": "Pagrindiniai puslapiai",
+      "items": [
+        {
+          "label": "Namuose",
+          "href": "/"
+        },
+        {
+          "label": "Projektai",
+          "href": "/projects/"
+        },
+        {
+          "label": "Prašyti projekto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Valdymas",
+          "href": "/governance/"
+        },
+        {
+          "label": "Prisijunkite",
+          "href": "/join/"
+        },
+        {
+          "label": "Prieinamumas",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Skaidrumas",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projektai",
+  "projectsEmpty": "Dar nėra paskelbtų projektų."
+}

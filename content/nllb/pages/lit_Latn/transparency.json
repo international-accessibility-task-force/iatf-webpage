@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Skaidrumas",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Skaidrumas",
+    "lead": "IATF veikia viešai pagal numatytuosius nustatymus. Projekto sprendimai, kodų pakeitimai, valdymo pakeitimai ir veiklos išlaidos registruojami viešose vietose. Šiame puslapyje nurodoma, kur yra kiekvieno tipo įrašai ir kaip juos perskaityti.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Įrašai",
+      "title": "Kur yra įrašai"
+    },
+    "items": [
+      "<strong>Projekto sprendimai.</strong> Priėmimo, archyvavimo ir perskirstymo sprendimai registruojami atitinkamoje saugykloje kaip išdavimai arba išleidimai ir apibendrinami viešajame registre. <a href=\"/projects/\">registras</a>- Taip.",
+      "<strong>Prašome įrašų.</strong> Viešųjų prašymų įrašai yra saugomi IATF GitHub organizacijoje, šioje svetainėje arba abiejuose. Įrašai gali apibendrinti, redaguoti ar restruktūrizuoti pradinį prašymą, kad prieinamumo poreikis galėtų būti peržiūrėtas neatskleidžiant nereikalingos asmeninės informacijos. Nesutarimų sprendimai apibendrinami į viešąjį įrašą, kai jie turi įtakos projekto ar valdymo sprendimui. Prašymo įrašai neįtraukiami į paieškos sistemos indeksavimą, kai tai techniškai įmanoma. Peržiūrėti įrašus: laukia pirmojo publikavimo prašymas.",
+      "<strong>Kodas keičiasi.</strong> Kiekvienas kodo pakeitimas yra viešas patvirtinimas atitinkamoje saugykloje. <a href=\"{{contact.githubOrgUrl}}\">GitHub organizacija</a>- Taip.",
+      "<strong>Valdymo pokyčiai.</strong> Valdymo puslapio atnaujinimai stebimi kaip įsipareigojimai <code>IATF interneto svetainė</code> Apžiūrėkite <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Komiteto istorija</a> \"GitHub\".",
+      "<strong>Veiklos išlaidos.</strong> IATF išlaiko mažas veiklos sąnaudas ir registruoja pasikartojančias viešosios infrastruktūros išlaidas.",
+      "<strong>Koordinacijos pastabos.</strong> Visų koordinuotų peržiūrų ar sprendimų pastabos tiesiogiai GitHub tinklalapyje Diskusijos apie atitinkamą saugyklą  žiūrėti <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Diskusijos</a> dėl <code>IATF interneto svetainė</code> duomenų saugykla."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Išlaidos",
+      "title": "Veiklos sąnaudų įrašas"
+    },
+    "paragraphs": [
+      "Nuo 2022 m. pagrindinės pasikartojančios veiklos išlaidos buvo domenų vardai.",
+      "Šis įrašas yra ne audituota finansinė ataskaita, o viešas infrastruktūros, naudojamos IATF veiklai užtikrinti, eksploatavimo sąnaudų registras."
+    ],
+    "footnote": "Personaliai adresai, atsiskaitymo duomenys ir nereikalingos sąskaitos informacija nėra viešojo įrašo dalis.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Kaina",
+            "value": "3,40 JAV dolerių"
+          },
+          {
+            "label": "Pastabos",
+            "value": "Domenų kaina finansuojama mugiwarafx. Tinklalapiuose naudojamos nemokamos arba pigios infrastruktūros per Cloudflare. Projektas persikėlė iš Vercel į CloudFlare ir pradėjo naudoti trumpesnį <code>iatf.cc</code> domenas."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>Tarptautinė prieinamumo tarnyba</code>"
+          },
+          {
+            "label": "Kaina",
+            "value": "18,68 JAV dolerių"
+          },
+          {
+            "label": "Pastabos",
+            "value": "Domenų kaina, finansuojama mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>Tarptautinė prieinamumo tarnyba</code>"
+          },
+          {
+            "label": "Kaina",
+            "value": "17,06 JAV dolerių"
+          },
+          {
+            "label": "Pastabos",
+            "value": "Domenų kaina finansuojama mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>Tarptautinė prieinamumo tarnyba</code>"
+          },
+          {
+            "label": "Kaina",
+            "value": "14,76 JAV dolerių"
+          },
+          {
+            "label": "Pastabos",
+            "value": "Domenų kaina, finansuojama mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>Tarptautinė prieinamumo tarnyba</code>"
+          },
+          {
+            "label": "Kaina",
+            "value": "7,76 JAV dolerių"
+          },
+          {
+            "label": "Pastabos",
+            "value": "Domenų kaina finansuojama mugiwarafx."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Ribinė pastaba",
+      "title": "Kas nėra viešas"
+    },
+    "paragraphs": [
+      "Kai kurios medžiagos yra saugomos nuo viešųjų įrašų tam tikru tikslu:"
+    ],
+    "items": [
+      "Pareiškėjų asmens kontaktiniai duomenys.",
+      "Asmeninė korespondencija naudojama tik prašymui paaiškinti prieš jį priimant, atmetant ar apibendrinant.",
+      "Asmeniniai adresai, telefono numeriai ir nereikalingos asmeninės informacijos.",
+      "Viskas, kas galėtų identifikuoti atskirą pagalbinės technologijos naudotoją be jo sutikimo.",
+      "\"Raw Discord\" pokalbiai, nebent specifinis pranešimas yra tyčia perkeltas į viešą projekto įrašą."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Skaityti toliau",
+      "title": "Šių įrašų pagrindas yra valdymas"
+    },
+    "paragraphs": [
+      "Jei norite suprasti, kaip projektai priimami, archyvuojami ar perskirstomi, perskaitykite valdymo puslapį."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

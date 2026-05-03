@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Valdymo ir duomenų saugyklos modelis",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Valdymo ir duomenų saugyklos modelis",
+    "lead": "IATF užtikrina, kad prieinamumo projektai būtų vieši, suprantami ir tvarkomi.",
+    "support": [
+      "Šiame puslapyje paaiškinama, kas atitinka reikalavimus, kaip saugomos saugyklės ir kokia saugyklos lygmens atsakomybė taikoma po priėmimo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Taisyklės",
+      "title": "Misijos atitiktis, nuosavybė, licencijavimas"
+    },
+    "cards": [
+      {
+        "title": "Misijos tinkamumas",
+        "paragraphs": [
+          "IATF priima darbus, kurie išsprendžia realias prieinamumo kliūtis ir turi aiškią viešąją vertę.",
+          "Projektas turėtų būti naudingas ne tik kaip vienas privatus darbo srautas, bet ir naudingas kaip vieša duomenų saugykla.",
+          "Interneto prieinamumo srityje IATF naudoja [W3C WAI](https://www.w3.org/WAI/) Pagalbinės technologijos naudotojų tiesioginė patirtis taip pat yra praktinis įrodymas, kas veikia realiame naudojime."
+        ]
+      },
+      {
+        "title": "Projekto priėmimas",
+        "paragraphs": [
+          "Pasiūlymas gali būti priimtas, jei peržiūros metu paaiškėja, kad:"
+        ],
+        "items": [
+          "tenkinamas tikras prieinamumo poreikis",
+          "problema yra pakankamai aiški, kad ją būtų galima įvertinti",
+          "skersmuo yra pakankamai realus, kad būtų galima paleisti",
+          "darbo suderinamumas su IATF misija;",
+          "yra įmanomas kelias iki techninės priežiūros arba užbaigimo"
+        ]
+      },
+      {
+        "title": "Duomenų saugyklos nuosavybė",
+        "paragraphs": [
+          "Priimtini projektai yra sukurti pagal IATF GitHub organizaciją.",
+          "Sandėliai lieka ten, kad kiekvienas projektas išlaikytų stabilų viešąjį namus, net jei vėliau keičiasi prižiūrėtojai."
+        ]
+      },
+      {
+        "title": "Licencijos išdavimas",
+        "paragraphs": [
+          "IATF projektai naudoja copyleft licencijas, išskyrus atvejus, kai projekte nurodyta kitaip:"
+        ],
+        "items": [
+          "<strong>Kodas:</strong> AGPL-3.0",
+          "<strong>Dokumentai:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Atsakingas inžinierius arba techninės priežiūros darbuotojas",
+      "paragraphs": [
+        "Kiekvienas priimtas projektas turėtų turėti atsakingą inžinierį ar prižiūrėtoją. Šis asmuo gali gauti administracinę prieigą prie duomenų saugyklos ir tikimasi, kad:"
+      ],
+      "items": [
+        "gairių rengimas viešojoje erdvėje",
+        "išsaugoti duomenų saugyklos struktūrą;",
+        "peržiūrėti ar tvarkyti problemas ir ištraukti prašymus",
+        "dokumentuoti svarbius techninius sprendimus;",
+        "užtikrinti, kad projektas būtų suprantamas kitiems"
+      ],
+      "footnote": "Tai yra saugyklos lygio atsakomybė. Organizacinė nuosavybė lieka IATF. Čia atsakomybė yra saugyklų valdymas, techninis vadovavimas ir viešas koordinavimas, o ne neribotas privatus pristatymas, pritaikytos integracijos ar paslaugų lygio įsipareigojimai už viešojo kelio žemėlapio ribų."
+    },
+    "publicDevelopment": {
+      "title": "Viešojo sektoriaus plėtra",
+      "paragraphs": [
+        "Projektai, inicijuojami per IATF, pagal numatytuosius nustatymus yra viešai prieinami."
+      ],
+      "items": [
+        "Šaltinis kodas",
+        "klausimai",
+        "dokumentai",
+        "kelio plano pastabos",
+        "Išleidimo istorija"
+      ],
+      "footnote": "Svarbios projekto žinios neturėtų būti saugomos tik privačiuose pokalbiuose ar pašto dėžutėse."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Viešieji įrašai",
+      "title": "Viešieji prašymų įrašai"
+    },
+    "paragraphs": [
+      "IATF veikia viešai pagal numatytuosius nustatymus.",
+      "Viešasis prašymo įrašas nebūtinai yra originalus pranešimas. IATF gali apibendrinti, redaguoti ar restruktūrizuoti prašymą prieš paskelbiant, kad prieinamumo poreikis galėtų būti peržiūrėtas neatskleidžiant nereikalingos asmeninės informacijos.",
+      "Viešieji prašymų įrašai gali būti saugomi IATF GitHub organizacijoje, šioje svetainėje arba abiejuose.",
+      "Prieš paskelbiant, IATF pašalina nereikalingus asmeninius kontaktinius duomenis, asmeninius adresus ir informaciją apie atskirus pagalbinės technologijos naudotojus, išskyrus atvejus, kai skelbimas yra aiškiai numatytas ir tinkamas.",
+      "Diskordas naudojamas neformaliam koordinavimui. IATF pagal numatytuosius nustatymus atskirai archyvuoja diskordų pokalbius, o pranešimų saugojimą kontroliuoja diskordas. Diskorde priimami sprendimai turėtų būti apibendrinti viešajame įraše GitHub arba atitinkamame projekto puslapyje.",
+      "Reikalavimų įrašai nėra indeksuojami paieškos sistemose, jei tai techniškai įmanoma. Viešas reiškia peržiūrimas ir atskaitingas. Tai nereiškia, kad jis yra optimizuotas ieškant vardų.",
+      "IATF gali atnaujinti ar pašalinti įrašus iš IAT F kontroliuojamų viešųjų paviršių, tačiau negali garantuoti, kad jie bus pašalinti iš trečiųjų šalių talpyklų, pranešimų, šakų, ekrano vaizdų, paieškos sistemų, \"Discord\" ar kitų išorinių sistemų.",
+      "Jei pranešimas turi likti privatus, nesiųskite jo per IATF viešuosius kanalus."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organizacinis vaidmuo",
+      "title": "Kėdė"
+    },
+    "lead": "Pirmininkas yra atsakingas už IATF organizacinį lygmenį. Tai skiriasi nuo kiekvieno projekto atsakingo inžinieriaus vaidmens: pirmininkas atsako už visą organizaciją, o ne už bet kurios atskiros saugyklos kasdienį valdymą.",
+    "duties": {
+      "title": "Ką daro kėdė",
+      "items": [
+        "Turi savininko teises į IATF GitHub organizaciją",
+        "Projekto priėmimo ir archyvavimo sprendimų patvirtinimas",
+        "Veikia kaip IATF viešojo ryšio centras",
+        "Koordinuoja kasmetinius rinkimus"
+      ],
+      "footnote": "Pirmininkas neįpareigoja IATF vykdyti privačių pristatymo, mokamo darbo ar paslaugų lygio susitarimų ir nepakeičia kiekvienos saugyklos tvarkytojo sprendimų dėl techninio vadovavimo."
+    },
+    "election": {
+      "title": "Metiniai rinkimai",
+      "paragraphs": [
+        "Pirmininkas renkasi kartą per metus.Rinkimai vyksta pirmosiomis dviejų gruodžio savaičių, rezultatai skelbiami iki gruodžio 15 d., o naujasis laikotarpis prasideda sausio 1 d.",
+        "Tinkami rinkėjai yra žmonės, kurie per metus buvo IATF duomenų saugyklos prižiūrėtojai ir per tą metus padarė bent vieną sujungtą įnašą į IAT F saugyklą. Kiekvienas tinkamas rinkėjas turi vieną balsą. Kandidatas, gavęs daugiausiai balsų, laimi; lygiateisės atveju antrasis turnyras vyksta gruodžio trečią savaitę.",
+        "Rinkimai vyksta kaip vieša GitHub diskusija paskirtoje IATF valdymo saugykloje, todėl kandidatai, balsavimas ir rezultatas yra viešojo įrašo dalis."
+      ]
+    },
+    "continuity": {
+      "title": "Nuolatumas",
+      "paragraphs": [
+        "Tai yra neribotas tęsinys, o ne lengvatinis laikotarpis - modelis skirtas išlaikyti organizaciją stabilią, kai aktyvumas yra mažas, ne priversti pereiti prie pereinamojo laikotarpio, kuriam niekas nėra pasirengęs.",
+        "Pirmininkas gali atsistatydinti bet kuriuo metu. Aktyvūs valdytojai taip pat gali paskelbti neeilinius rinkimus dėl nurodytos priežasties pagal tas pačias taisykles kaip ir metiniai rinkimai."
+      ]
+    },
+    "current": {
+      "title": "Dabartinis pirmininkas",
+      "fields": [
+        {
+          "label": "Kėdė",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Terminas",
+          "value": "Iki 2026 m. gruodžio mėn. rinkimų"
+        },
+        {
+          "label": "Formalizuotas vaidmuo",
+          "value": "2026"
+        },
+        {
+          "label": "Pirmieji numatyti rinkimai",
+          "value": "2026 m. gruodžio mėn."
+        }
+      ]
+    },
+    "footnote": "2026 m. pirmininko vaidmuo buvo formalizuotas, kad būtų aiškiai apibrėžta organizacijos lygmens vadovybė."
+  },
+  "continuity": {
+    "states": {
+      "title": "Projekto būklė",
+      "paragraphs": [
+        "Projektai naudoja nedidelį viešųjų valstybių rinkinį:"
+      ],
+      "items": [
+        "Pasiūlymas",
+        "Priimta",
+        "Aktyvus",
+        "Stabilus",
+        "Ieško tvarkytojo",
+        "Archyvavimas"
+      ],
+      "footnote": "Šiose valstijose registras yra lengvai nuskaitomas."
+    },
+    "reassignment": {
+      "title": "Perskirstymas ir archyvavimas",
+      "paragraphs": [
+        "Jei techninės priežiūros darbuotojas atsitraukia arba tampa neaktyvus, IATF gali paskirti atsakomybę, sustabdyti plėtrą arba archyvuoti projektą.",
+        "Projektas taip pat gali būti archyvuojamas, kai tenkinamas pradinis poreikis, sustabdyta techninė priežiūra arba nebėra realus tęsti darbą."
+      ],
+      "footnote": "Archyvuoti projektai lieka viešai matomi, nebent yra įtikinamų priežasčių kitaip."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ribinė pastaba",
+      "title": "Tai, ko IATF negarantuoja"
+    },
+    "items": [
+      "privačiojo kliento pristatymas",
+      "paslaugų lygio susitarimai",
+      "kiekvieno pasiūlymo priėmimas",
+      "ilgalaikė kiekvieno projekto techninė priežiūra"
+    ],
+    "footnote": "IATF yra viešojo duomenų saugyklos modelis, o ne privačios pristatymo paslauga."
+  }
+}
