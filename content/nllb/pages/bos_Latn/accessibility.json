@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Pristupnost",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Pristupnost",
+    "lead": "IATF ima za cilj da održi ovu web stranicu jednostavnom, čitljivom, dostupnom tastaturom i kompatibilnom sa pomoćnim tehnologijama.",
+    "support": [
+      "Za web pristupačnost, IATF koristi [W3C WAI](https://www.w3.org/WAI/) Praktična pristupačnost je takođe informisana direktnim iskustvom korisnika pomoćnih tehnologija."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Izvještavanje",
+      "title": "Izvještaj o problemu pristupačnosti"
+    },
+    "paragraphs": [
+      "Ako nađete prepreku pristupačnosti na ovoj web stranici, molimo vas da je prijavite putem e-maila:",
+      "{{contact.accessibilityEmail}}",
+      "Korisni izveštaji uključuju:"
+    ],
+    "items": [
+      "stranicu na kojoj se problem dogodio",
+      "Šta si pokušavao da uradiš?",
+      "koju pomoćnu tehnologiju, pretraživač ili uređaj koristite, ako je relevantno",
+      "Šta je pošlo po zlu?",
+      "Šta bi pomoglo?"
+    ],
+    "footnote": "Ne morate da napišete zvanični izveštaj o grešci."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Rukovanje",
+      "title": "Rješavanje javnih pitanja"
+    },
+    "paragraphs": [
+      "Pitanja pristupačnosti mogu se sažeti u odgovarajućem javnom repozitoriju kako bi se mogla riješiti u otvorenom.",
+      "Ako vaš izveštaj uključuje privatne informacije, to jasno navedi u poruci."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Trenutno stanje",
+      "title": "Poznata ograničenja"
+    },
+    "paragraphs": [
+      "Ova stranica je namjerno mala i uglavnom statična. Neke jezičke verzije mogu biti nepotpune dok se priprema prevod."
+    ]
+  }
+}

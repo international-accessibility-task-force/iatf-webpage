@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Karta sajta"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Karta sajta",
+    "lead": "Svaka javna stranica na iatf.cc, na jednom mjestu."
+  },
+  "sections": [
+    {
+      "title": "Glavne stranice",
+      "items": [
+        {
+          "label": "Kuća",
+          "href": "/"
+        },
+        {
+          "label": "Projekti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Traži projekat",
+          "href": "/propose/"
+        },
+        {
+          "label": "Upravljanje",
+          "href": "/governance/"
+        },
+        {
+          "label": "Pridruži se.",
+          "href": "/join/"
+        },
+        {
+          "label": "Pristupnost",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparentnost",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekti",
+  "projectsEmpty": "Još nema objavljenih projekata."
+}

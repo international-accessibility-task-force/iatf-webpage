@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparentnost",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparentnost",
+    "lead": "IATF radi u javnosti podrazumevano. Odluke o projektu, promjene kodova, promjene u upravljanju i operativni troškovi bilježe se na javnim lokacijama. Ova stranica navodi gdje se nalazi svaka vrsta zapisa i kako ih čitati.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Zapisi",
+      "title": "Gde se nalaze zapisi"
+    },
+    "items": [
+      "<strong>Odluke o projektu.</strong> Odluke o prihvatanju, arhiviranju i preraspodjeli bilježe se kao izdanja ili objavljivanja u odgovarajućem repozitoriju i sumiraju se u javnom registru. <a href=\"/projects/\">registar</a>- Šta?",
+      "<strong>Zahtijevaju evidenciju.</strong> Javni zapisi zahtjeva se čuvaju u IATF GitHub organizaciji, na ovoj web stranici ili na oba. Zapisi mogu sažeti, urediti ili restrukturirati izvorni zahtjev tako da se potreba za pristupačnošću može pregledati bez izlaganja nepotrebnih ličnih podataka. Odluke o neslaganju su sažete u javni zapis kada utiču na projekt ili odluku o upravljanju.",
+      "<strong>Kod se menja.</strong> Svaka promena koda je javna obaveza na odgovarajućem repozitoriju. <a href=\"{{contact.githubOrgUrl}}\">GitHub organizacija</a>- Šta?",
+      "<strong>Promene u upravljanju.</strong> Ažuriranja na stranici upravljanja se prate kao obaveze na <code>Stranica IATF-a</code> Pogledajte repozitorij. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Istorija prijave</a> na GitHub-u.",
+      "<strong>Operativni troškovi.</strong> IATF održava niske operativne troškove i bilježi ponavljajuće troškove javne infrastrukture.",
+      "<strong>Koordinacijske bilješke.</strong> Napomene iz bilo kog koordiniranog pregleda ili odluke žive u GitHub raspravama o relevantnom repozitoriju  pogled <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Rasprave</a> na <code>Stranica IATF-a</code> Repozitorij."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Troškovi",
+      "title": "Zapisi o operativnim troškovima"
+    },
+    "paragraphs": [
+      "IATF održava svoju javnu infrastrukturu namjerno malom. Od 2022. godine, glavni ponavljajući operativni troškovi bili su imena domena. Hosting je koristio besplatnu ili jeftinu infrastrukturu gdje je to moguće.",
+      "Ovaj zapis nije revidirani finansijski izveštaj, već javni dnevnik troškova rada infrastrukture koja se koristi za održavanje IATF-a na mreži."
+    ],
+    "footnote": "Lične adrese, detalji za naplatu i nepotrebni podaci o računu nisu dio javnog spisa.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Troškovi",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Napomene",
+            "value": "Projekat je prešao sa Vercela na Cloudflare i počeo je da koristi kraće <code>iatf.cc</code> Domena."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>Međunarodna pristupačnost</code>"
+          },
+          {
+            "label": "Troškovi",
+            "value": "18,68 američkih dolara"
+          },
+          {
+            "label": "Napomene",
+            "value": "Troškovi domena finansirani od strane mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>Međunarodna pristupačnost</code>"
+          },
+          {
+            "label": "Troškovi",
+            "value": "17,06 američkih dolara"
+          },
+          {
+            "label": "Napomene",
+            "value": "Troškovi domena finansirani od strane mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>Međunarodna pristupačnost</code>"
+          },
+          {
+            "label": "Troškovi",
+            "value": "14,76 američkih dolara"
+          },
+          {
+            "label": "Napomene",
+            "value": "Troškovi domena finansirani od strane mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domena",
+            "value": "<code>Međunarodna pristupačnost</code>"
+          },
+          {
+            "label": "Troškovi",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Napomene",
+            "value": "Troškovi domena su finansirani od strane mugiwarafx-a. Hosting je koristio besplatnu ili jeftinu infrastrukturu putem GitHub stranica."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Granična nota",
+      "title": "Šta nije javno"
+    },
+    "paragraphs": [
+      "Neki materijal se zadržava izvan javnih zapisa u svrhu:"
+    ],
+    "items": [
+      "Lični podaci za kontakt predlagača.",
+      "Privatna korespondencija koja se koristi samo za razjašnjenje zahtjeva prije nego što se prihvati, odbije ili sažme.",
+      "Privatne adrese, telefonski brojevi i nepotrebni lični podaci.",
+      "Sve što bi identifikovalo pojedinačnog korisnika pomoćne tehnologije bez pristanka.",
+      "Raw Discord razgovori, osim ako određena poruka nije namjerno premještena u javni projektni zapis."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Pročitajte više",
+      "title": "Upravljanje je pravila koja stoje iza ovih zapisa."
+    },
+    "paragraphs": [
+      "Ako želite da razumete kako se projekti prihvataju, arhiviraju ili preraspodeljuju, pročitajte stranicu o upravljanju."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

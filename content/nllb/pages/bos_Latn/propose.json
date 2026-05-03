@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Tražiti projekat pristupačnosti",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Tražiti projekat pristupačnosti",
+    "lead": "IATF razmatra zahtjeve za projektima pristupačnosti koji počinju od stvarne potrebe.",
+    "support": [
+      "Za početak je dovoljan jasan problem, na koga on utiče i zašto je važan."
+    ],
+    "actions": [
+      {
+        "label": "Pokrenuti zahtjev",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Umesto toga koristite Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanali",
+      "title": "Izaberite najlakši put."
+    },
+    "intro": [
+      "Svi putevi ulaze u isti pregled."
+    ],
+    "items": [
+      {
+        "label": "Internet stranica",
+        "body": "Koristite sledeći obrazac za podnošenje strukturiranog zahtjeva."
+      },
+      {
+        "label": "E-mail adresa",
+        "body": "Pošalji zahtjev direktno: {{contact.requestsEmail}}Zahtjevi putem e-pošte mogu postati javni zapisi zahtjeva nakon pregleda i redaciranja."
+      },
+      {
+        "label": "Neslaganje",
+        "body": "Počni tamo, ako je to najlakše."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Pre nego što pošaljete zahtev",
+    "paragraphs": [
+      "Zahtjevi se mogu sažeti i objaviti kao javni zapisi zahtjeva u organizaciji IATF GitHub, na ovoj web stranici ili na oba.",
+      "Ne uključujte privatne adrese, telefonske brojeve, medicinske podatke ili identifikacione informacije o pojedinačnim korisnicima pomoćnih tehnologija osim ako je to neophodno i ako ste zadovoljni da ih IATF pregleda.",
+      "IATF uklanja nepotrebne lične kontakt podatke prije objavljivanja zapisa zahtjeva."
+    ]
+  },
+  "review": {
+    "title": "Očekivanja pregleda",
+    "paragraphs": [
+      "Podnošenje zahtjeva ne garantuje prihvatanje.",
+      "IATF pregleda zahtjeve za prikladnost misije, izvodljivost, korisnost i da li delo pripada u javni repozitorij.",
+      "Neki zahtjevi mogu biti odbijeni, odloženi ili preoblikovani pre prihvatanja."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Obrazac zahtjeva",
+      "title": "Podneti zahtev"
+    },
+    "fields": [
+      {
+        "kind": "ulazni",
+        "name": "podnosilac zahtjeva",
+        "label": "Vaše ime ili organizacija",
+        "helper": "Ko je podnio zahtjev?"
+      },
+      {
+        "kind": "izabrati",
+        "name": "Kontaktna ruta",
+        "label": "Preferentna ruta kontakta",
+        "helper": "Kako bi trebalo da se nastavi?",
+        "required": true,
+        "options": [
+          "E-mail adresa",
+          "Neslaganje"
+        ]
+      },
+      {
+        "kind": "ulazni",
+        "name": "Detalji kontakta",
+        "label": "Podaci za kontakt",
+        "helper": "E-mail adresa ili Discord adresa za praćenje.",
+        "placeholder": "E-mail adresa ili Discord korisnički naziv",
+        "required": true
+      },
+      {
+        "kind": "ulazni",
+        "name": "jezik",
+        "label": "Jezik",
+        "helper": "Vaš omiljeni jezik, ako je relevantno.",
+        "value": "Engleski"
+      },
+      {
+        "kind": "tekstna zona",
+        "name": "Problemi",
+        "label": "Koji problem pokušavaš da rešiš?",
+        "helper": "Opiši barijeru jednostavnim jezikom.",
+        "required": true
+      },
+      {
+        "kind": "tekstna zona",
+        "name": "Pogođeni korisnici",
+        "label": "Ko je pogođen?",
+        "helper": "Kome bi ovo pomoglo?",
+        "required": true
+      },
+      {
+        "kind": "tekstna zona",
+        "name": "extraKontext",
+        "label": "Dodatni kontekst",
+        "helper": "Podijelite bilo šta drugo što pomaže objasniti potrebu: zašto je važno, primjere, reference, grubu ideju softvera ili vremenska ograničenja."
+      },
+      {
+        "kind": "izabrati",
+        "name": "openSourceConsent",
+        "label": "Komforan sa javnim otvorenim izvorom razvoja?",
+        "helper": "Prihvaćeni projekti su javni repozitoriji u okviru IATF-a.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Da, jeste.",
+          "Ne, ne mogu.",
+          "Još nisam siguran."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ako je prihvaćen",
+      "title": "Šta prihvatanje znači"
+    },
+    "items": [
+      "javni repozitorij u IATF GitHub organizaciji",
+      "odgovorni inženjer dodijeljen projektu",
+      "copyleft licencu za kod i projektne materijale",
+      "javni razvoj u repozitoriju",
+      "Upis u registar na sajtu IATF-a"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Počni razgovor.",
+      "title": "Kratak, jasan zahtjev je dovoljan za početak"
+    },
+    "paragraphs": [
+      "Ako imate stvarnu potrebu za pristupačnošću i mislite da bi trebao postati javni projekat, pošaljite nam ga."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

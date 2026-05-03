@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Pridruži se IATF-u",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Pridruži se IATF-u",
+    "lead": "Članstvo je otvoreno. Postoji nekoliko načina da učestvujete, bilo da se oslanjate na pomoćnu tehnologiju, gradite pristupačan softver, prevodite, testirate ili održavate projekat.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Uloga",
+      "title": "Načini doprinosa"
+    },
+    "items": [
+      "<strong>Traži projekat.</strong> Ako naiđete na prepreku pristupačnosti koja bi se mogla riješiti javnim softverom otvorenog koda, pošaljite je putem prijema zahtjeva.",
+      "<strong>Test i revizija.</strong> Probajte IATF projekte sa pomoćnom tehnologijom koju koristite, prijavite šta radi a šta ne, i dostavite probleme direktno na odgovarajuće repozitorije.",
+      "<strong>Prevodilac.</strong> Izvorni sadržaj se prvo objavljuje na jednostavnom engleskom jeziku.",
+      "<strong>Izgradnja.</strong> Preuzmite probleme u bilo kojem IATF repozitoriju, pošaljite zahtjeve za povlačenje ili preuzmite projekat kao odgovorni inženjer.",
+      "<strong>Održavanje.</strong> Postojećim projektima ponekad treba novi održavač. rotacija održavača je normalan dio modela, a ne izuzetak."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanali",
+      "title": "Kada IATF radi u javnosti"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issues, pull requests, releases, i projektni zapisi.",
+      "<strong>Neslaganje.</strong> Diskusije uživo, koordinacija i neformalna pitanja.",
+      "<strong>E-pošta.</strong> Upotreba <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ako se ni GitHub ni Discord ne uklapaju."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sledeći korak",
+      "title": "Izaberite kanal koji odgovara načinu na koji želite da doprinesete"
+    },
+    "paragraphs": [
+      "Svi kanali ulaze u isti javni pregled i iste javne repozitorije."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
