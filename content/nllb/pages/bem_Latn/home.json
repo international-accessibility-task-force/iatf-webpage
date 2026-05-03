@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ukufuma ku kufwaya ukufikapo ukufika ku fya kukumbushanya pa cintubwingi",
+    "lead": "Akabungwe ka IATF kalafwilisha ifilonganino, amabumba, na bantu abafwaya ukwalula ifyebo pa kuti fibe ifyo abantu bonse bengabomfya.",
+    "support": [
+      "Amapekanyo ayasuminishiwa yapangwa mu kabungwe ka IATF aka GitHub mwi funde lya copyleft kabili yapangwa ku cintubwingi kuli injiniya uwabomba uyu mulimo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Imilimo ya ku cintubwingi",
+      "title": "Inshila iyayanguka iyo abantu bonse bengabomfya pa kupanga programu ya pa kompyuta"
+    },
+    "paragraphs": [
+      "Ukupitila mu fomu, umuntu onse kuti atuma ubwafya ku kabungwe ka IATF.",
+      "Iciputulwa conse ico basuminisha cakwata icifulo ca cintubwingi ica code, ifipusho, ifyebo, ne fiputulwa, ukupitila mu kulunduluka ukuletungululwa mu lubuuto kuli injenila uwasuminishiwa."
+    ],
+    "specCard": {
+      "title": "Imilimo ya ku cintubwingi",
+      "terms": [
+        {
+          "term": "Ukukabila",
+          "definition": "Ubwafya bwa kwishiba bwino ifya kubomfya ifitabo"
+        },
+        {
+          "term": "Ukupituluka",
+          "definition": "Ukufikapo pa mulimo no kubomba kwa kubomba"
+        },
+        {
+          "term": "Icifulo ca mulimo",
+          "definition": "Akabungwe ka bantu bonse aka GitHub"
+        },
+        {
+          "term": "Ukuteeka",
+          "definition": "IATF organizational ownership (Ukuteka mu kabungwe)"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Umulimo",
+      "title": "Ifyo ciba",
+      "intro": "Icilangililo cileba icacepa pa kuti abantu bale-endela mu musebo."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ukukabila kwapeelwa",
+        "paragraphs": [
+          "Icilonganino, ibumba, nelyo umuntu fye umo kuti alemba ifyo alefwaya.",
+          "Ifyakwipusha kuti fyatuminwa pa webusaiti, ukupitila pali email kuli: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, nelyo ukupitila muli Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ilapitulukamo",
+        "paragraphs": [
+          "Tulapituluka mu fyo twapangile, ifyo twingabomfya, e lyo no kumona nga ca kuti ifyo twapanga kuti fyaba fye pa cintubwingi."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ifyebo fya pa cintubwingi fyapangwa",
+        "paragraphs": [
+          "Nga ca kuti umulimo wapokelelwa, ulapulintwa mu kabungwe ka IATF aka GitHub mwi funde lya copyleft.",
+          "Ici icikuulwa e cifulo ca kusungilamo ifyebo, ifisolobelo, ifyebo na fimbi."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Uwasambilila ifya makuule e utungulula uyu mulimo",
+        "paragraphs": [
+          "Ba engineer abalebomba uyu mulimo balabapeela icifulo ca kubika ifyebo kabili balapanga ifyebo pa cintubwingi."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Icalembwa",
+      "title": "Akabungwe ka Public Project Registry"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tendeka apa",
+      "title": "Mulebelenga ifyebo pa mulimo mubomba nelyo pa mulimo mulebomba"
+    },
+    "paragraphs": [
+      "Mulebomfya ifyebo pa kuti mwishibe ifyo abantu bonse bengabomfya, nelyo ukutendeka ukufwaya ifyebo nga ca kuti kuli ubwafya ubukalamba ubulelenga abantu ukufilwa ukufikilisha ifyo balefwaya."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

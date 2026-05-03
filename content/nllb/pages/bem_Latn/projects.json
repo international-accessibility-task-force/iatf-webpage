@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Amapekanyo ayalenga abantu bonse ukuba abantungwa",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Amapekanyo ayalenga abantu bonse ukuba abantungwa",
+    "lead": "Ici citabo calembelepo amaprogramu ya pa cintubwingi ayasungilwa ukupitila mu kabungwe ka IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Icalembwa",
+      "title": "Icitabo icilipo pali ino nshita"
+    },
+    "intro": [
+      "Amapekanyo ayasuminishiwa yalondololwa pano panuma ya kusabankanya aya mapekanyo."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Lembeni ifyo mulekabila",
+      "title": "Ukupilibula ukukabila ukwafikapo ukuba umulimo wa cintubwingi"
+    },
+    "paragraphs": [
+      "Akabungwe ka IATF kalafwaya ifyebo ifingalenga abantu baishiba ifya kubomfya ifitabo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Takuli amaprogramu ayapulintwa",
+    "paragraphs": [
+      "IATF ilepekanya amaprogramu ya kubalilapo aya kubomfya pa cintubwingi.",
+      "Kuti mwatwalilila ukutuma ukwipusha nga ca kuti kuli ifyo mulekabila."
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Ukuteeka ne nshila ya kubika ifyebo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Ukuteeka ne nshila ya kubika ifyebo",
+    "lead": "IATF ilacita ifingalenga abantu bonse baishiba ifyebo pa fintu ifyaba mu ciNgeleshi, ifyo bengomfwa, e lyo ne fyo bengasunga.",
+    "support": [
+      "Ici cipande cilelondolola ifisuminishiwa, ifyo ifiputulwa fyasungilwa, ne fyo umulimo wa ciputulwa ca fiputulwa ufikilishiwa panuma ya kusuminishiwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Amafunde",
+      "title": "Ukufikapo pa mulimo, ukukwata abene, ukupeela insambu"
+    },
+    "cards": [
+      {
+        "title": "Ukubomba bwino",
+        "paragraphs": [
+          "IATF ilasuminisha ukulemba ifitabo ifilanda pa fintu ifilenga abantu ukukanaba na maka ya kubelenga kabili ifyo abantu bonse bengabelenga.",
+          "Umulimo ulingile ukuba uwacindama sana ukucila fye pa mulimo wa muntu umwine e lyo ufwile no kulabomba bwino nga icikuulwa ca kusungilamo ifyebo ica bantu bonse.",
+          "IATF ilabomfya ifyebo fyaba pa web [W3C WAI](https://www.w3.org/WAI/) Ifyacitike ku babomfya ifisolobelo fya kwafwilisha na fyo filalangilila ukuti ifyo babomfya fyawama."
+        ]
+      },
+      {
+        "title": "Ukupokelela amapulani",
+        "paragraphs": [
+          "Iciputulwa kuti casuminishiwa nga caishibikwa ukuti:"
+        ],
+        "items": [
+          "ilanda pa fintu ifyo abantu balingile fye ukwishiba",
+          "Ubwafya bwalishibikwa bwino bwino",
+          "icifulo ca mulimo ca cine cine icingalenga ukutendeka",
+          "Umulimo ulelingana no mulimo wa ba IATF",
+          "pali inshila iisuma iya kupwishishamo ukuwamya nelyo ukupwisha"
+        ]
+      },
+      {
+        "title": "Ubuyantanshi bwa cifulo ca kubika ifyebo",
+        "paragraphs": [
+          "Amapekanyo ayasuminishiwa yapangwa mwi bumba lya IATF GitHub.",
+          "Ifikuulwa fya kubika ifyebo fyaba kulya pa kuti umulimo onse wingaba fye bwino, nangu fye nga ca kuti bakangalila balyaluka."
+        ]
+      },
+      {
+        "title": "Ukusuminisha",
+        "paragraphs": [
+          "Amaprojekti ya IATF yalabomfya copyleft licensing kano fye nga ca kuti amaprojekti yalanda fimbi:"
+        ],
+        "items": [
+          "<strong>Inambala:</strong> AGPL-3.0",
+          "<strong>Ifya kulembapo:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injini nelyo uwalebomba umulimo wa kulungisha ifintu",
+      "paragraphs": [
+        "Iciputulwa conse icasuminishiwa cifwile ukukwata injenila nangu uwabomba umulimo wa kusunga. Uyu muntu kuti apeelwa insambu sha kutungulula ku cifulo ca kusungilamo ifyebo kabili alafwaikwa:"
+      ],
+      "items": [
+        "ukupangwa kwa fya kutungulula mu cintubwingi",
+        "ukusunga icikuulwa ca kubika ifyebo",
+        "ukupitulukamo nangu ukuwamya amepusho elyo no kufumya ifipusho",
+        "ukulemba ifyacindama ifyo bapingwilepo",
+        "Mulecita ifingalenga abantu bambi ukumfwikisha ifyo mulebomba"
+      ],
+      "footnote": "Uyu mulimo uli pa cipimo ca cifulo ca kusungilamo ifyebo. Ubuyantanshi bwa kabungwe bwikala na IATF. Umulimo pano uli pa kukwata icikuulwa ca kusungila ifyebo, ubutungulushi bwa tekiniki, no kutantika kwa cintubwingi  te kupeela kwa cifyalilwa ukwabula umupaka, ukuikuminyanisha kwa musango, nangu ukuipeelesha kwa cipimo cakubombela kunse ya nshila ya cintu bwingi."
+    },
+    "publicDevelopment": {
+      "title": "Ukulunduluka kwa cintubwingi",
+      "paragraphs": [
+        "Amapange ayaletungululwa ukupitila muli IATF yacitwa pa cintubwingi mu kushininkisha."
+      ],
+      "items": [
+        "Icitabo ca ntendekelo",
+        "ifipusho",
+        "ifyebo",
+        "Ifyebo ifilanda pali uyu mulimo",
+        "ilyashi lya kale"
+      ],
+      "footnote": "Ukwishiba kwacindama ukwa mulimo takulingile ukwikala fye mu malyashi ya pa cintubwingi nangu mu ma inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ifyalembwa fya ku cintubwingi",
+      "title": "Ifyebo fya pa cintubwingi ifyo abantu balefwaya"
+    },
+    "paragraphs": [
+      "IATF ilabomba pa cintubwingi mu kushininkisha. Amapepusho ayaingila mu cipatala ukupitila mu webusaiti, email, Discord, GitHub, nangu inshila shimbi sha cipatala kuti yaba ama rekodi ya mapepo aya cintu bwingi.",
+      "IATF kuti yapilibula, ukwalula, nelyo ukupanga cipya cipya ifyebo ilyo tabalafilemba pa kuti ifyebo fyabo fibe ifyayanguka ukubomfya.",
+      "Ifyalembwa fya pa cintubwingi kuti fyasungilwa mu kabungwe ka IATF aka GitHub, pali iyi webusaiti, nangu fyonse fibili.",
+      "Ilyo tabalapulinta, IATF ilafumyapo ifyebo fya kubomfya pa kulanshanya na bantu, ama adresi ya pa ng'anda, ne fyebo fya kwishibilako umuntu umo umo uubomfya ifisolobelo fya kwafwilisha, kano fye nga caishibikwa bwino ukuti bafwaya ukufilemba no kuti e fyo cifwile ukuba.",
+      "Discord ilabomfiwa pa kusuminishanya. IATF tayasunga bwino ifyebo pa malyashi ya Discord, kabili ukusunga ifyebo kulacitwa na Discord. Amapingulo ayacitwa mu Discord yalingile ukulembwa bwino pa GitHub nangu pe bula lya mulimo.",
+      "Ifyalembwa fya ukufwaya tafyapeelwa kuli injini ya kufwaya nga ca kuti fyabomfiwa bwino. Ifya cintubwingi fipilibula ukuti kuti fyasuminishiwa no kushininkishiwa. Tafipilibula ukutila kuti fyasangululwa ukupitila mu kufwaya amashina.",
+      "IATF kuti yapilibula nelyo ukufumya ifyebo mu ncende sha cintubwingi, lelo te kuti ilande ukuti ifyo ifyebo fikapilibulwa ku bantu bambi, ku ma notices, ku forks, ku screenshots, ku search engines, ku Discord, nelyo ku fintu fimbi.",
+      "Nga ca kuti ilyashi mulefwaya ukulanda lifwile ukuba ilya pa cintubwingi, mwilatuma ili lyashi ukupitila mu tubungwe twa kabungwe ka IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Umulimo wa kuteyanya",
+      "title": "Icipuna"
+    },
+    "lead": "Umukalamba wa kabungwe alateeka akabungwe ka IATF. Uyu mulimo walipusanako no mulimo wa mainjiniya uubomba pa mulimo umo: uyu mukalamba e ulebomba pa kabungwe konse, te kubomba umulimo wa cila bushiku uwa kabungwe kamo.",
+    "duties": {
+      "title": "Ifyo ici cipuna cicita",
+      "items": [
+        "Ilasunga ifisuminisho fya mwine pa kabungwe ka IATF GitHub",
+        "Ukusuminisha ukupokelela amaprogramu e lyo no kusunga ifyebo mu fipepala fya kusungilapo ifyebo",
+        "Akabungwe ka IATF",
+        "Aletantika ukusala kwa pa mwaka"
+      ],
+      "footnote": "Icilye tacisuminisha IATF ukupeela abantu incito, ukubombako incito ya kufolesha indalama, nelyo ukupanga ifipangano fya mulimo, kabili tacilinganya ifyo umuntu uubomba umulimo wa kusunga ifyebo apingulapo ukukonka."
+    },
+    "election": {
+      "title": "Ukusala kwa pa mwaka",
+      "paragraphs": [
+        "Icilye cilasala kateka umuku umo mu mwaka, mu milungu ibili iya kubalilapo mu December, e lyo pa 15 December e lyo babilisha ifyo bapingwilepo, kabili pa 1 January e lyo batendeka ukuteka.",
+        "Umuntu onse uwakwata insambu yakupingula kuti apingula pa cintu cimo. Umuntu onse uwaba ne nsambu ya kupingula alacimfya; nga ca kuti amavoti yalyampana, ukulongana kwa kulekeleshako kulacitwa mu mulungu walenga butatu mu mweshi wa December.",
+        "Isubilo lyaba nge lyashi lya cintubwingi ilya pa GitHub mu cipao ca IATF, eico abasalwa, ukuvota, ne fyapwa fyonse fyaba mu fyalembwa fya bantu bonse."
+      ]
+    },
+    "continuity": {
+      "title": "Ukutwalilila",
+      "paragraphs": [
+        "Nga takuli ukusala mu mwaka uuli onse, kateka uuleteeka atwalilila mu mulimo wakwe ukufika ilyo kukaba ukusala kukakonkapo. Uku kutwalilila kwa nshita ya muyayaya, te nshita ya cikonsolwelo  umusango wapangilwa ukusunga icilonganino icakosa ilyo imilimo yacepa, ukukanapatikisha ukupilibuka uko takuli uwaipekanya.",
+        "Umulashi kuti afuma pa cifulo cakwe inshita iili yonse, kabili ababomfi nabo kuti babilisha ukuti kube ukusansa mu nshita ya bushiku pa mulandu fye uwalondololwa bwino, ukulingana ne funde limo line nga filya fine ciba ku kusala kwa pa mwaka."
+      ]
+    },
+    "current": {
+      "title": "Icifulo ca ntungulushi",
+      "fields": [
+        {
+          "label": "Icipuna",
+          "value": "umutondo",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Inshiku",
+          "value": "Ukufikila ilyo kukaba ukulongana kwa mu December mu 2026"
+        },
+        {
+          "label": "Imilimo ya pa Ng'anda ya Bufumu",
+          "value": "2026"
+        },
+        {
+          "label": "Ukusala kwa ntanshi",
+          "value": "Ukutendeka December 2026"
+        }
+      ]
+    },
+    "footnote": "Mu mwaka wa 2026 e lyo batendeke ukupanga icifulo ca ntungulushi pa kuti abantu bonse beshibe bwino bwino ifyo icilonganino cifwile ukulabomba."
+  },
+  "continuity": {
+    "states": {
+      "title": "Ifilecitika pa mulimo",
+      "paragraphs": [
+        "Amapekanyo yabomfya utubungwe utunono utwa buteko:"
+      ],
+      "items": [
+        "Iciputulwa",
+        "Ukupokelela",
+        "Ifibomfiwa",
+        "Ifintu fyaba fye bwino",
+        "Ukufwaya uwa kutungilila",
+        "Ifyalembwa"
+      ],
+      "footnote": "Aya mabuteko yalenga cayanguka ukusanga ifyebo mu fipepala fya buteko."
+    },
+    "reassignment": {
+      "title": "Ukubweseshamo no kubika ifipe mu kabokoshi",
+      "paragraphs": [
+        "Nga ca kuti uubomba uyu mulimo aleka ukubomba, IATF kuti yapoka uyu mulimo kuli umbi, kuti yapwisha ukuwamya, nelyo kuti yaonaula uyu mulimo.",
+        "Umulimo kuti wapilwa na kabili nga ca kuti ifyo balefwaya fyafikilishiwa, ukuwamya kuti kwapwa, nelyo nga ca kutila te kuti batwalilile ukuubomba."
+      ],
+      "footnote": "Amabuuku ayaba mu fipepala yalasangwa ku bantu bonse, kano fye nga ca kuti kuli umulandu uukalamba uwa kucitapo cimo."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Icishibilo ca mupaka",
+      "title": "Ifyo IATF ishasuminisha"
+    },
+    "items": [
+      "ukupeela abene",
+      "ifipangano fya fipimo fya mulimo",
+      "ukusuminisha ukwasuminisha konse",
+      "ukuwamya pa nshita iitali pa mulimo onse"
+    ],
+    "footnote": "Akabungwe ka IATF kabombela fye abantu bonse, te kabungwe ka kupeela ifyebo."
+  }
+}

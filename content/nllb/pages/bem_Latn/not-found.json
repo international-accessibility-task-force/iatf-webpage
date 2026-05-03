@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Takwaba"
+  },
+  "hero": {
+    "eyebrow": "Takwaba",
+    "title": "Ibula ilyo mulefwaya talisangwa",
+    "lead": "Mulebomfya imisebo iikalamba iili pe samba pa kubwelela ku cintubwingi.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Pa Ng'anda",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Inshila mwaipwishe tailipo."
+    ],
+    "items": [
+      {
+        "label": "Pa Ng'anda",
+        "href": "/"
+      },
+      {
+        "label": "Amapekanyo",
+        "href": "/projects/"
+      },
+      {
+        "label": "Tumineni",
+        "href": "/join/"
+      },
+      {
+        "label": "Ukufikapo",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ukuteeka",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ukubuulishisha bwino",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

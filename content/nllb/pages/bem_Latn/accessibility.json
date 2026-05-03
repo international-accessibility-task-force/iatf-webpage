@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ukufikapo",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ukufikapo",
+    "lead": "IATF ilafwaya ukulalundulula iyi webusaiti pa kuti ileba fye bwino, ilebelenga bwino, kabili kuti mwaibomfya na ku maprogramu ya pa kompyuta.",
+    "support": [
+      "IATF ilabomfya ifyebo fyaba pa web [W3C WAI](https://www.w3.org/WAI/) Ukufikapo kwa kubomfya ifisolobelo nako kwashintilila pa fyacitike ku babomfya inshila sha kwafwilishishamo abantu."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ukulandapo",
+      "title": "Ukushimikila pa bwafya bwaba mu kubomfya ifyebo"
+    },
+    "paragraphs": [
+      "Nga mwasanga ukuti pali aka webusaiti tapali ifyo mwingacita, tumeni kalata kuli:",
+      "{{contact.accessibilityEmail}}",
+      "Amalyashi yacindama pamo nga:"
+    ],
+    "items": [
+      "Pe bula apo ifyabipa fyacitikiile",
+      "Ifyo mulefwaya ukucita",
+      "ifyo mwalebomfya pa kusanga ifyebo, ifyo mulebelenga pa webusaiti, ne fyo mulebomfya, nga ca kuti nacilinga",
+      "finshi fyabipile?",
+      "ifyali no kubafwa"
+    ],
+    "footnote": "Tamulingile ukulemba lipoti pa cilubo, mufwile fye ukulemba ifyo icilubo caciba."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ukubomfya",
+      "title": "Ukubombela pa milandu ya cintubwingi"
+    },
+    "paragraphs": [
+      "Amashiwi ayalelanda pa fya kusanga ifyebo kuti yalondololwa bwino bwino mu cipatala ca pa cintubwingi pa kuti bengafikonkanya bwino. Ifyebo fya muntu umwine e lyo ne fyebo fya pa ng'anda ifyo tushilefwaya filafumishiwapo ilyo tushilapulinta.",
+      "Nga ca kuti mu lyashi mulelemba mwaliba ifyebo fyenu, mufwile ukufilemba bwino bwino mu meseji."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ifilecitika pali ino nshita",
+      "title": "Amafya ayo twingeshiba"
+    },
+    "paragraphs": [
+      "Iyi webusaiti yalipangwa mu nshila ya kuti ifyebo fibe ifinono kabili tafilipo bwino. AmaBaibolo ayapilibulwa mu ndimi shimo kuti yafililwa ukupilibula."
+    ]
+  }
+}

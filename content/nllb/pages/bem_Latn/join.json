@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ukwingila mu kabungwe ka IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ukwingila mu kabungwe ka IATF",
+    "lead": "Kuli inshila ishingi isho mwingaibikamo, nampo nga mulebomfya ifisolobelo fya kwafwilisha, ukupangamo software, ukupilibula, ukuceeceeta, nelyo ukuwamya amaprogramu.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Imilimo",
+      "title": "Inshila sha Kutungwilamo"
+    },
+    "items": [
+      "<strong>Mulelomba umulimo wa kubomba.</strong> Nga ca kuti mwasanga ubwafya ubwingalenga mwafilwa ukubomfya programu ya pa kompyuta, kuti mwabomfya icipepala ca pa kompyuta pa kutuma ifyo mulefwaya.",
+      "<strong>Tontonkanyeni pa fyo mwingacita.</strong> Mulebomfya ifya kupangapanga ifyo mulebomfya pa kupekanya amaprogramu ya IATF, mulebika ifyo filebomba ne fishalebomba bwino, kabili mulebikamo amepusho yonse ayo mwingakwata.",
+      "<strong>Ukupilibula.</strong> Ifyebo fyaba mu lulimi lwa ciNgeleshi e lyo fyayalulwa nga ca kuti kuli abalefwaya ukufipilibula, ukutendekela mu ciSpanish.",
+      "<strong>Ukupanga.</strong> Mulebomfya IATF pa kufwaya ifishili bwino, ukutuma ifyebo ifyo mulefwaya, nelyo ukulabomba umulimo wa kupanga ifisolobelo.",
+      "<strong>Twalilileni.</strong> Amapekanyo ayalipo limo limo yalakabila umuntu umbi uwakuwamya.Ukwaluka kwa wawamya cintu ca cifyalilwa mu musango, te cintu ca kupusanako."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Imisebo",
+      "title": "Uko IATF ibombela pa cintubwingi"
+    },
+    "items": [
+      "<strong>Icitabo ca GitHub.</strong> Ifipusho, ifipusho fya kukopolola, ifisolobelo, ne fyebo fya mulimo.",
+      "<strong>Ukukanaumfwana.</strong> Ukulanshanya, ukulanshanya, no kwipusha amepusho.",
+      "<strong>Tutumineni amameseji.</strong> Ukubomfya <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ngacakuti GitHub nangu Discord tafikapo."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Iciputulwa Cimbi",
+      "title": "Saleni inshila iyo mulefwaya ukubomfya pa kupeela ubupe"
+    },
+    "paragraphs": [
+      "Amalyashi yonse ayaba pa webusaiti yesu yaba pa mpapulo isho abantu bonse bengabomfya."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

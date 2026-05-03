@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF webusaiti",
+    "summary": "Pa webusaiti ya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF yalekabila icifulo ca kusambilishishamo abantu ico bengalondolwela ifyo bapanga, ukulondolola amaprogramu, e lyo no kulangilila ababomfi ifyo balingile ukucita.",
+    "why": "Iyi webusaiti yaba pa mpongolo ya IATF, kabili yalipangwa mu nshila ya kuti cibe icayanguka ukubelengamo, ukupilibula e lyo no kuwamya ifyebo.",
+    "scopeIn": [
+      "Impapulo ishilondolola ifyo IATF yapanga ifisolobelo",
+      "Icisontelelo ca pa cintubwingi ica milimo ya IATF iyasuminishiwa, iyalebomba, ne yalembwa mu fipe pamo ne cifulo, uwakusunga, icikuulwa, ne cilangililo",
+      "Ipepala lya kupokelelapo ukulomba ne fomu",
+      "Amapepala ayalanda pa mitekele no bulondoloshi",
+      "Ulupapulo lwa ciNgeleshi ulwakwata ifyebo ifingapilibulwa",
+      "Ukutumika kwa Static pa Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Ifilundwa fya pa cintubwingi, amaakaunti, nangu ukwingila",
+      "Ukusunga ifyebo fya mulimo, ifiba mu cipao ca mulimo cila muntu",
+      "Ukutumishanya mu nshita ya cine, ukwaba mu Discord",
+      "Ukulandelela amepusho ku milimo imo imo, iikala mu cifulo ca milimo yonse pa GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Icilangililo ca IATF ica kale, icalembwa pa numa ya kufika pa cifulo ca kuimininako.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Ukufwailisha pa nshita inono pa fya kubomfya insamushi ukupitila mu kabungwe ka IATF.",
+    "why": "Ici citabo caba pa cintubwingi, nangu ca kuti abantu balileka ukucipanga.",
+    "scopeIn": [
+      "Icilangililo ca pa kutendeka ica kubomfya inshila imo iya kusangilamo ifyebo ifibomfiwa ku cintubwingi"
+    ],
+    "scopeOut": [
+      "Ukubombako umulimo wa kukuula nelyo uwa kuwamya ifikope",
+      "Imilimo ya kusakamana abana",
+      "Ifya kubomfya mu mulimo wa kupanga"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Akabungwe ka IATF",
+    "summary": "IATF community bot, archived after reaching a natural stopping point.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ukubomfya fye amaprogramu ya IATF.",
+    "why": "Ici citabo caba pa cintubwingi, nangu ca kuti abantu balileka ukucipanga.",
+    "scopeIn": [
+      "Ukubomfya fye amalyashi ayalekanalekana pa milabasa ya cilonganino ca IATF, ukuibika pa cintubwingi"
+    ],
+    "scopeOut": [
+      "Ukubombako umulimo wa kukuula nelyo uwa kuwamya ifikope",
+      "Imilimo ya kusakamana abana",
+      "Ifya kubomfya mu mulimo wa kupanga"
+    ]
+  }
+]

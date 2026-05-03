@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Mulelomba ukuti balemupeela impapulo ishilanda pa fyo mwingacita pa kuti mulebafwa",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Mulelomba ukuti balemupeela impapulo ishilanda pa fyo mwingacita pa kuti mulebafwa",
+    "lead": "Akabungwe ka IATF kalabelenga amepusho ayalefwaikwa pa kuti abantu baleba abafikapo.",
+    "support": [
+      "Tamulekabila fye ukubalondolwela fyonse, lelo mulingile no kubalondolwela ubwafya bwaba muli ubo bwafya e lyo no mulandu bwacindamina."
+    ],
+    "actions": [
+      {
+        "label": "Tumineni icakwipusha",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Ukubomfya Discord mu cifulo cakwe",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Imisebo",
+      "title": "Saleni inshila iyayanguka"
+    },
+    "intro": [
+      "Inshila shonse shaba fye cimo cine."
+    ],
+    "items": [
+      {
+        "label": "Webu saiti",
+        "body": "Mulebomfya ifyebo ifili pe bula ilili pe samba pa kuti mulembe ifyo mulefwaya."
+      },
+      {
+        "label": "E-mail",
+        "body": "Tumeni ukwipusha kwenu kuli: {{contact.requestsEmail}}Ifyakwipusha fya pa email kuti fyaba ifyebo fya pa cintubwingi pa numa ya kubelenga no kufisangulula."
+      },
+      {
+        "label": "Ukukanaumfwana",
+        "body": "Ukutendekela kulya ngacakuti calyanguka. ukulomba kucili ku cituntulu kuya mu kutontonkanya kumo kwine."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ilyo tamulacita ifyo mulefwaya",
+    "paragraphs": [
+      "IATF ilabomba pa cintubwingi. Ukufwaya kuti kwalondololwa mu bwipi no kusabankanishiwa nga ifyebo fya kwipusha pa cintu bwingi mu kabungwe ka GitHub, pali iyi webusaiti, nangu fyonse fibili.",
+      "Mwilalemba ama adresi, amanambala ya foni, ifyebo fya pa cipatala, nelyo ifyebo ifingalenga mwishibe umuntu uubomfya ifya kupangapanga, kano fye nga ca kuti nacilinga kabili mwalisuminisha ba IATF ukufitontonkanyapo.",
+      "Akabungwe ka IATF kalafumyapo ifyebo fyonse ifyo abantu bengabomfya pa kulanshanya na bo ilyo tacilalemba ifyo balefwaya."
+    ]
+  },
+  "review": {
+    "title": "Ukupituluka mu fyo tuleenekela",
+    "paragraphs": [
+      "Ukulemba fye kalata ya kulomba ukupeelwa ubutumikishi te kuti kulenge abantu ukusumina.",
+      "IATF ilabebeta ifipepo ifilanda pa mulimo babomba, nga kuti fyabomba, nga fyafwaikwa, e lyo no kumona nga ca kuti incito bafwile ukuibika mu cipao ca cintubwingi.",
+      "Ifya kulomba fimo kuti fyakaana, kuti fyasuminishiwa pa nshita imbi, nelyo kuti fyayalulwa pa kuti fye bakasuminishe."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Ifya kulomba",
+      "title": "Peeleni ubulondoloshi"
+    },
+    "fields": [
+      {
+        "kind": "ifya kubikamo",
+        "name": "uulefwaya",
+        "label": "Ishina lyenu nelyo akabungwe",
+        "helper": "Ni nani aleipusha?"
+      },
+      {
+        "kind": "ukusala",
+        "name": "Inshila ya kukuminapo",
+        "label": "Inshila ya kukuminishishishamo",
+        "helper": "Kuti mwacita shani pa kuti mulelanshanya bwino na bena mwenu?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Ukukanaumfwana"
+        ]
+      },
+      {
+        "kind": "ifya kubikamo",
+        "name": "Ifyebo na Fimbi",
+        "label": "Ifyebo fya kubomfya pa kulanshanya na bantu",
+        "helper": "E-mail address or Discord handle for follow-up.",
+        "placeholder": "Email Address or Discord handle [Amashiwi aya kutuminapo ifyebo]",
+        "required": true
+      },
+      {
+        "kind": "ifya kubikamo",
+        "name": "ululimi",
+        "label": "Ululimi",
+        "helper": "Ululimi mulefwaya, nga kuti mwafwaya.",
+        "value": "IciNgeleshi"
+      },
+      {
+        "kind": "Iciputulwa ca Malembo",
+        "name": "ubwafya",
+        "label": "Bwafya nshi mulefwaya ukupwisha?",
+        "helper": "Londololeni mu mashiwi fye ayayanguka.",
+        "required": true
+      },
+      {
+        "kind": "Iciputulwa ca Malembo",
+        "name": "Abasendamo Ulubali",
+        "label": "Ni bani baponenwa?",
+        "helper": "Ni bani ici kuti ca-afwa?",
+        "required": true
+      },
+      {
+        "kind": "Iciputulwa ca Malembo",
+        "name": "ifyebo na fimbi",
+        "label": "Ifyebo na Fimbi",
+        "helper": "Landenipo na fimbi ifingamwafwa ukulondolola ifyo mulekabila: umulandu cacindamina, ifilangililo, ifyebo fya kubomfya, ifyo mwingabomfya pa kupanga programu ya kompyuta, nelyo ifya kubomfya pa nshita iili yonse."
+      },
+      {
+        "kind": "ukusala",
+        "name": "openSourceConsent",
+        "label": "Bushe mwalitemwa ukubomfya ifyebo ifyo abantu bonse bengabomfya?",
+        "helper": "Amapekanyo ayasuminishiwa yaba pa mpapulo sha pa cintubwingi mu ciputulwa ca IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ca cine",
+          "Awe",
+          "Nshashininkishapo."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Nga basumina",
+      "title": "Ifyo ukupokelela bambi kwalola"
+    },
+    "items": [
+      "icifulo ca kusungilamo ifyebo mu kabungwe ka IATF aka GitHub",
+      "injenieri uwabomba uyu mulimo",
+      "Icisuminisho ca copyleft pa ma code na pa fipe fya mulimo",
+      "ukulunduluka kwa cintubwingi mu cifulo ca kusungilamo ifyebo",
+      "ifyebo ifyalembwa pa webusaiti ya IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mulelanshanya na bena mwenu",
+      "title": "Icipusho fye icipi kabili icaumfwika bwino e cingamwafwa ukutendeka ukulongana"
+    },
+    "paragraphs": [
+      "Nga namukwata ubufwayo bwa kwishiba ifyo mwingacita pa kuti mwingaba abafikapo, kuti mwatutumina."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

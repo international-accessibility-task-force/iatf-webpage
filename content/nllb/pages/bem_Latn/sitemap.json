@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Icilangililo",
+    "title": "Sitemap",
+    "lead": "Ifyebo fyonse ifyaba pa webusaiti ya IATF.CC, fyaba fye pa ncende imo."
+  },
+  "sections": [
+    {
+      "title": "Impapulo Ishikalamba",
+      "items": [
+        {
+          "label": "Pa Ng'anda",
+          "href": "/"
+        },
+        {
+          "label": "Amapekanyo",
+          "href": "/projects/"
+        },
+        {
+          "label": "Lomba icikope ca mulimo",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ukuteeka",
+          "href": "/governance/"
+        },
+        {
+          "label": "Tumineni",
+          "href": "/join/"
+        },
+        {
+          "label": "Ukufikapo",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ukubuulishisha bwino",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Amapekanyo",
+  "projectsEmpty": "Pali ino nshita takwaba amabuuku ayapulintwa."
+}
