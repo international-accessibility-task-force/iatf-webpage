@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Anforderung eines Projekts zur Barrierefreiheit",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Anforderung eines Projekts zur Barrierefreiheit",
+    "lead": "Die IATF prüft Anträge auf Projekte im Bereich der Barrierefreiheit, die auf einem echten Bedarf beruhen.",
+    "support": [
+      "Sie benötigen keine vollständigen Spezifikationen, sondern ein klares Problem, wer davon betroffen ist und warum es wichtig ist."
+    ],
+    "actions": [
+      {
+        "label": "Eine Anfrage starten",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Verwenden Sie stattdessen Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanäle",
+      "title": "Wählen Sie den einfachsten Weg."
+    },
+    "intro": [
+      "Alle Strecken werden in die gleiche Überprüfung einbezogen."
+    ],
+    "items": [
+      {
+        "label": "Webseite",
+        "body": "Verwenden Sie das nachstehende Formular, um einen strukturierten Antrag einzureichen."
+      },
+      {
+        "label": "E-Mail-Adresse",
+        "body": "Senden Sie den Antrag direkt an: {{contact.requestsEmail}}E-Mail-Anfragen können nach Überprüfung und Redaktion öffentliche Anforderungsunterlagen werden."
+      },
+      {
+        "label": "Zwietracht",
+        "body": "Beginnen Sie dort, wenn das am einfachsten ist. Der Antrag geht immer noch in die gleiche Überprüfung."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Bevor Sie eine Anfrage senden",
+    "paragraphs": [
+      "IATF arbeitet in der Öffentlichkeit. Anfragen können zusammengefasst und als öffentliche Anforderungsdateien in der GitHub-Organisation, auf dieser Website oder auf beiden veröffentlicht werden.",
+      "Geben Sie keine privaten Adressen, Telefonnummern, medizinischen Daten oder identifizierende Informationen über einzelne Benutzer von assistierenden Technologien ein, es sei denn, dies ist notwendig und Sie sind damit einverstanden, dass die IATF diese überprüft.",
+      "Die IATF entfernt unnötige persönliche Kontaktdaten, bevor die Antragsunterlagen veröffentlicht werden."
+    ]
+  },
+  "review": {
+    "title": "Überprüfung der Erwartungen",
+    "paragraphs": [
+      "Die Einreichung eines Antrags garantiert nicht die Annahme.",
+      "Die IATF prüft Anträge auf Zweckmäßigkeit, Durchführbarkeit, Nützlichkeit und ob die Arbeit in ein öffentliches Repository gehört.",
+      "Einige Anträge können abgelehnt, aufgeschoben oder umgestaltet werden, bevor sie angenommen werden."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Antragsformular",
+      "title": "Einreichung eines Antrags"
+    },
+    "fields": [
+      {
+        "kind": "Eingabe",
+        "name": "Antragsteller",
+        "label": "Ihr Name oder Ihre Organisation",
+        "helper": "Wer stellt den Antrag?"
+      },
+      {
+        "kind": "auswählen",
+        "name": "Kontaktroute",
+        "label": "Bevorzugter Kontaktweg",
+        "helper": "Wie sollte die Nachuntersuchung erfolgen?",
+        "required": true,
+        "options": [
+          "E-Mail-Adresse",
+          "Zwietracht"
+        ]
+      },
+      {
+        "kind": "Eingabe",
+        "name": "Kontaktdetails",
+        "label": "Kontaktdaten",
+        "helper": "E-Mail-Adresse oder Discord-Kennzeichen für weitere Informationen.",
+        "placeholder": "E-Mail-Adresse oder Discord-Name",
+        "required": true
+      },
+      {
+        "kind": "Eingabe",
+        "name": "Sprache",
+        "label": "Sprache",
+        "helper": "Ihre bevorzugte Sprache, falls relevant.",
+        "value": "Englisch"
+      },
+      {
+        "kind": "Textfläche",
+        "name": "Schwierigkeiten",
+        "label": "Welches Problem wollen Sie lösen?",
+        "helper": "Beschreiben Sie die Barriere in einfachen Worten.",
+        "required": true
+      },
+      {
+        "kind": "Textfläche",
+        "name": "Betroffene Benutzer",
+        "label": "Wer ist betroffen?",
+        "helper": "Wem würde das helfen?",
+        "required": true
+      },
+      {
+        "kind": "Textfläche",
+        "name": "extraKontext",
+        "label": "Zusätzlicher Kontext",
+        "helper": "Teilen Sie alles, was dazu beiträgt, die Notwendigkeit zu erklären: warum es wichtig ist, Beispiele, Referenzen, eine grobe Software-Idee oder zeitliche Einschränkungen."
+      },
+      {
+        "kind": "auswählen",
+        "name": "openSourceConsent (eingewilligt)",
+        "label": "Komfortabel mit öffentlicher Open-Source-Entwicklung?",
+        "helper": "Akzeptierte Projekte sind öffentliche Repositorien im Rahmen der IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ja, das stimmt.",
+          "Nein .",
+          "Ich bin mir noch nicht sicher ."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Wenn akzeptiert",
+      "title": "Was Akzeptanz bedeutet"
+    },
+    "items": [
+      "ein öffentliches Repository in der IATF-GitHub-Organisation",
+      "ein verantwortlicher Ingenieur, der dem Projekt zugeordnet ist",
+      "eine Copyleft-Lizenz für den Code und das Projektmaterial",
+      "öffentliche Entwicklung im Repository",
+      "ein Eintrag im Register auf der IATF-Website"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Beginnen Sie das Gespräch.",
+      "title": "Eine kurze, eindeutige Anfrage genügt, um zu beginnen"
+    },
+    "paragraphs": [
+      "Wenn Sie ein echtes Bedürfnis nach Zugänglichkeit haben und denken, dass es zu einem öffentlichen Projekt werden sollte, senden Sie es an uns."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

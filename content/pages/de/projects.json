@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Öffentlich zugängliche Projekte",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Öffentlich zugängliche Projekte",
+    "lead": "Dieses Register listet öffentliche Projekte auf, die über die IATF geführt werden. Akzeptierte Projekte zur Erreichbarkeit, die Infrastruktur des Standorts und archivierte Prototypen werden hier sichtbar gehalten.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrierung",
+      "title": "Aktuelles Register"
+    },
+    "intro": [
+      "Die angenommenen Projekte werden nach ihrer Veröffentlichung hier aufgelistet."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Beantragung eines Bedarfs",
+      "title": "Umwandlung eines konkreten Erreichbarkeitsbedarfs in ein öffentliches Projekt"
+    },
+    "paragraphs": [
+      "Die IATF überprüft konkrete Zugänglichkeitsbedürfnisse, die in nützliche öffentliche Open-Source-Arbeiten umgewandelt werden können."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Noch keine Projekte veröffentlicht",
+    "paragraphs": [
+      "Die IATF bereitet ihr erstes öffentliches Projekt vor.",
+      "Sie können dennoch einen Antrag stellen, wenn Sie einen konkreten Zugangsbedarf haben."
+    ]
+  }
+}

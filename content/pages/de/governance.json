@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance- und Datenspeichermodell",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance- und Datenspeichermodell",
+    "lead": "Die IATF hält Projekte zur Barrierefreiheit öffentlich, lesbar und pflegbar.",
+    "support": [
+      "Auf dieser Seite wird erläutert, was qualifiziert ist, wie Repositories gehalten werden und welche Verantwortung auf Repository-Ebene nach der Akzeptanz anwendbar ist."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regeln",
+      "title": "Erfüllung des Auftrags, Eigentumsverhältnisse, Lizenzen"
+    },
+    "cards": [
+      {
+        "title": "Einsatzbereitschaft",
+        "paragraphs": [
+          "Die IATF akzeptiert Arbeiten, die eine echte Barriere für die Zugänglichkeit beseitigen und einen klaren öffentlichen Wert haben.",
+          "Ein Projekt sollte über einen einzelnen privaten Workflow hinaus nützlich sein und als öffentliches Repository arbeitsfähig sein.",
+          "Für die Web-Zugänglichkeit verwendet die IATF [W3C WAI](https://www.w3.org/WAI/) Die direkte Erfahrung der Benutzer von assistierenden Technologien ist auch ein praktischer Beweis dafür, was im realen Einsatz funktioniert."
+        ]
+      },
+      {
+        "title": "Akzeptanz des Projekts",
+        "paragraphs": [
+          "Ein Vorschlag kann angenommen werden, wenn sich aus der Prüfung ergibt, dass"
+        ],
+        "items": [
+          "Sie deckt ein echtes Bedürfnis nach Barrierefreiheit ab.",
+          "Das Problem ist klar genug, um es zu bewerten.",
+          "der Umfang ist realistisch genug, um zu starten",
+          "die Arbeit mit der IATF-Mission übereinstimmt,",
+          "es gibt einen plausiblen Weg zur Wartung oder Fertigstellung"
+        ]
+      },
+      {
+        "title": "Eigentum am Datenspeicher",
+        "paragraphs": [
+          "Akzeptierte Projekte werden unter der IATF-GitHub-Organisation erstellt.",
+          "Repositories bleiben dort, so dass jedes Projekt ein stabiles öffentliches Zuhause behält, auch wenn die Instandhalter später wechseln."
+        ]
+      },
+      {
+        "title": "Lizenzierung",
+        "paragraphs": [
+          "IATF-Projekte verwenden Copyleft-Lizenzierung, sofern in einem Projekt nicht anders angegeben ist:"
+        ],
+        "items": [
+          "<strong>Der Code lautet:</strong> AGPL-3.0",
+          "<strong>Unterlagen:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Verantwortlicher Ingenieur oder Instandhalter",
+      "paragraphs": [
+        "Jedes akzeptierte Projekt sollte einen verantwortlichen Ingenieur oder Instandhalter benennen, der Admin-Zugriff auf das Repository erhält und"
+      ],
+      "items": [
+        "Entwicklung eines Leitfadens in der Öffentlichkeit",
+        "Aufrechterhaltung der Repository-Struktur",
+        "Überprüfung oder Verwaltung von Problemen und Pull-Anfragen",
+        "Dokumentation wichtiger technischer Entscheidungen",
+        "das Projekt für andere verständlich zu machen"
+      ],
+      "footnote": "Dies ist die Verantwortung auf Repository-Ebene. Organisatorisches Eigentum bleibt bei der IATF. Die Verantwortung hier liegt in der Verwaltung des Repositoriums, der technischen Leitung und der öffentlichen Koordination  nicht in unbegrenzter privater Bereitstellung, benutzerdefinierten Integrationen oder Verpflichtungen auf Serviceniveau außerhalb der öffentlichen Roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Öffentliche Entwicklung",
+      "paragraphs": [
+        "Projekte, die über die IATF gestartet werden, werden standardmäßig öffentlich entwickelt."
+      ],
+      "items": [
+        "Quellcode",
+        "Fragen",
+        "Dokumentation",
+        "Anmerkungen zur Fahrpläne",
+        "Veröffentlichungshistorie"
+      ],
+      "footnote": "Wichtige Projektkenntnisse sollten nicht nur in privaten Chats oder Inboxen liegen."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Öffentliche Aufzeichnungen",
+      "title": "Öffentliche Antragsunterlagen"
+    },
+    "paragraphs": [
+      "IATF arbeitet standardmäßig öffentlich. Anfragen, die über die Website, E-Mail, Discord, GitHub oder andere Kanäle eingehen, können öffentliche Anforderungsdatensätze werden.",
+      "Eine öffentliche Anforderungsdatei ist nicht unbedingt die ursprüngliche Nachricht. Die IATF kann eine Anforderung vor der Veröffentlichung zusammenfassen, redigieren oder umstrukturieren, damit der Zugänglichkeitsbedarf überprüft werden kann, ohne unnötige persönliche Informationen preiszugeben.",
+      "Öffentliche Anforderungsdatensätze können in der IATF-GitHub-Organisation, auf dieser Website oder beidem gespeichert werden.",
+      "Vor der Veröffentlichung entfernt die IATF unnötige persönliche Kontaktdaten, private Adressen und identifizierende Angaben über einzelne Benutzer von assistierenden Technologien, es sei denn, die Veröffentlichkeit ist eindeutig beabsichtigt und angemessen.",
+      "Discord wird zur informellen Koordination verwendet. Die IATF archiviert Discord-Gespräche standardmäßig nicht separat, und die Nachrichtenspeicherung wird von Discord kontrolliert. Entscheidungen, die in Discord getroffen werden, sollten in den öffentlichen Datensatz auf GitHub oder auf der entsprechenden Projektseite zusammengefasst werden.",
+      "Öffentlich bedeutet überprüfbar und rechenschaftspflichtig. Es bedeutet nicht optimiert für die Entdeckung durch Namenssuchen.",
+      "Die IATF kann Datensätze von von ihr kontrollierten öffentlichen Oberflächen aktualisieren oder entfernen, kann jedoch nicht garantieren, dass sie aus Caches, Benachrichtigungen, Forks, Screenshots, Suchmaschinen, Discord oder anderen externen Systemen von Drittanbietern entfernt werden.",
+      "Wenn eine Nachricht privat bleiben muss, senden Sie sie nicht über die öffentlichen Kanäle der IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisatorische Rolle",
+      "title": "Vorsitzender"
+    },
+    "lead": "Der Vorsitzende übernimmt die Organisationsebene der IATF. Dies unterscheidet sich von der Rolle des pro-Projekt verantwortlichen Ingenieurs: Er ist für die Organisation als Ganzes verantwortlich, nicht für die tägliche Leitung eines einzelnen Repositoriums.",
+    "duties": {
+      "title": "Was der Stuhl tut",
+      "items": [
+        "Behält Eigentümerberechtigungen auf der IATF-GitHub-Organisation",
+        "Abschluss der Projektakzeptanz und der Archivierungsentscheidungen",
+        "Funktioniert als öffentliche Anlaufstelle für die IATF",
+        "Koordiniert die jährlichen Wahlen"
+      ],
+      "footnote": "Der Vorsitz verpflichtet die IATF nicht zu privaten Lieferungen, bezahlten Arbeiten oder Service-Level-Vereinbarungen und überschreitet nicht die Entscheidungen des jeweiligen Instandhalters über die technische Leitung."
+    },
+    "election": {
+      "title": "Jährliche Wahl",
+      "paragraphs": [
+        "Der Vorsitzende wird einmal im Jahr gewählt, die Wahl findet in den ersten zwei Dezemberwochen statt, die Ergebnisse werden bis zum 15. Dezember bekannt gegeben und die neue Amtszeit beginnt am 1. Januar.",
+        "Berechtigte Wähler sind Personen, die im Laufe des Jahres eine Aufrechterhalterrolle in einem IATF-Repository innehatten und in diesem Jahr mindestens einen zusammengeschlossenen Beitrag zu einem Repository geleistet haben. Jeder berechtigte Wahlberechtigte hat eine Stimme. Der Kandidat mit den meisten Stimmen gewinnt; im Falle eines Unentschieden wird in der dritten Dezemberwoche ein zweiter Wahlgang abgehalten.",
+        "Die Wahl wird als öffentliche GitHub-Diskussion im benannten IATF-Governance-Repository durchgeführt, so dass die Kandidaten, die Abstimmung und das Ergebnis alle Teil des öffentlichen Datensatzes sind."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuität",
+      "paragraphs": [
+        "Wenn in einem bestimmten Jahr keine Wahl stattfindet, bleibt der derzeitige Vorsitzende bis zur nächsten Wahl im Amt. Dies ist eine unbestimmte Fortsetzung, keine Nachfrist  das Modell wurde entwickelt, um die Organisation stabil zu halten, wenn die Aktivität gering ist, und nicht, um einen Übergang zu erzwingen, für den niemand bereit ist.",
+        "Der Vorsitzende kann jederzeit zurücktreten, und die aktiven Träger können ausdrücklich eine außerordentliche Wahl ausrufen, die nach den gleichen Regeln wie die jährlichen Wahlen abgehalten wird."
+      ]
+    },
+    "current": {
+      "title": "Aktueller Vorsitzender",
+      "fields": [
+        {
+          "label": "Vorsitzender",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Begriff",
+          "value": "Bis zur Wahl im Dezember 2026"
+        },
+        {
+          "label": "Rolle formalisiert",
+          "value": "2026"
+        },
+        {
+          "label": "Erste geplante Wahl",
+          "value": "Dezember 2026"
+        }
+      ]
+    },
+    "footnote": "Die Rolle des Vorsitzenden wurde im Jahr 2026 formalisiert, um die Führung auf Organisationsebene ausdrücklich zu machen. Bis dahin wurde die organisatorische Verantwortung informell vom Gründer übernommen."
+  },
+  "continuity": {
+    "states": {
+      "title": "Zustände des Projekts",
+      "paragraphs": [
+        "Die Projekte verwenden eine kleine Anzahl von öffentlichen Zuständen:"
+      ],
+      "items": [
+        "Vorschlag",
+        "Akzeptiert",
+        "Aktiv",
+        "Stabil",
+        "Suche nach einem Unterhalter",
+        "Archiviert"
+      ],
+      "footnote": "Diese Staaten halten die Registrierung leicht zu scannen."
+    },
+    "reassignment": {
+      "title": "Neuzuweisung und Archivierung",
+      "paragraphs": [
+        "Wenn ein Instandhalter zurücktritt oder inaktiv wird, kann die IATF die Verantwortung neu zuweisen, die Entwicklung pausieren oder das Projekt archivieren.",
+        "Ein Projekt kann auch archiviert werden, wenn der ursprüngliche Bedarf erfüllt wurde, die Wartung eingestellt wurde oder die fortgesetzte Arbeit nicht mehr realistisch ist."
+      ],
+      "footnote": "Archivierte Projekte bleiben öffentlich sichtbar, es sei denn, es gibt einen zwingenden Grund, etwas anderes zu tun."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Grenznoten",
+      "title": "Was die IATF nicht garantiert"
+    },
+    "items": [
+      "Lieferung an Privatkunden",
+      "Dienstleistungsvereinbarungen",
+      "Annahme jedes Vorschlags",
+      "langfristige Wartung für jedes Projekt"
+    ],
+    "footnote": "IATF ist ein öffentliches Repository-Modell, kein privater Lieferdienst."
+  }
+}

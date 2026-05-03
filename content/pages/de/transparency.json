@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparenz",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparenz",
+    "lead": "IATF arbeitet standardmäßig in der Öffentlichkeit. Projektentscheidungen, Codeänderungen, Governanceänderungen und Betriebskosten werden an öffentlichen Orten aufgezeichnet. Auf dieser Seite wird aufgelistet, wo jede Art von Aufzeichnung lebt und wie sie gelesen werden kann.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Aufzeichnungen",
+      "title": "Wo die Aufzeichnungen leben"
+    },
+    "items": [
+      "<strong>Projektentscheidungen.</strong> Die Akzeptanz-, Archivierung- und Neuzuweisungsentscheidungen werden als Ausgaben oder Veröffentlichungen im entsprechenden Repository aufgezeichnet und im öffentlichen Register zusammengefasst. <a href=\"/projects/\">Registrierung</a>- Ja .",
+      "<strong>Die Aufzeichnungen anfordern.</strong> Öffentliche Anfrage-Aufzeichnungen werden in der IATF GitHub-Organisation, auf dieser Website oder beidem gespeichert. Aufzeichnungen können die ursprüngliche Anforderung zusammenfassen, redigieren oder umstrukturieren, so dass der Zugänglichkeitsbedarf überprüft werden kann, ohne unnötige persönliche Informationen preiszugeben. Unstimmige Entscheidungen werden in die öffentliche Aufzeichnung zusammengefasst, wenn sie sich auf ein Projekt oder eine Governance-Entscheidung auswirken. Anfrageaufzeichnungen sind von der Suchmaschinenindexierung ausgeschlossen, wenn dies technisch praktikabel ist. Ansicht von Aufzeichnissen: erste Veröffentlichungsanforderung aussteht.",
+      "<strong>Der Code ändert sich.</strong> Jede Codeänderung ist ein öffentliches Commit auf dem entsprechenden Repository. <a href=\"{{contact.githubOrgUrl}}\">GitHub-Organisation</a>- Ja .",
+      "<strong>Regierungsveränderungen.</strong> Aktualisierungen auf der Governance-Seite werden verfolgt, wenn die <code>IATF-Website</code> Anzeige der <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Veröffentlichungshistorie</a> auf GitHub.",
+      "<strong>Betriebskosten.</strong> Die IATF hält die Betriebskosten niedrig und zeichnet wiederkehrende öffentliche Infrastrukturkosten auf. Seit 2022 sind die wichtigsten wiederkehrenden Kosten Domain-Namen.",
+      "<strong>Koordinierungsnotizen.</strong> Notizen aus einer koordinierten Überprüfung oder Entscheidung live in GitHub Diskussionen über das relevante Repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Aussprache</a> auf dem <code>IATF-Website</code> Aufbewahrungsort."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Kosten",
+      "title": "Registrierung der Betriebskosten"
+    },
+    "paragraphs": [
+      "Die IATF hält ihre öffentliche Infrastruktur absichtlich klein. Seit 2022 sind die hauptsächlichen wiederkehrenden Betriebskosten Domain-Namen.",
+      "Diese Aufzeichnung ist kein geprüfter Abschluss, sondern ein öffentliches Betriebskostenprotokoll für die Infrastruktur, mit der die IATF online gehalten wird."
+    ],
+    "footnote": "Quittungen können nach der Redaktion verwiesen oder veröffentlicht werden. Persönliche Adressen, Rechnungsdaten und unnötige Kontoinformationen sind nicht Teil des öffentlichen Datensatzes.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domäne",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Kosten",
+            "value": "3,40 US-Dollar"
+          },
+          {
+            "label": "Anmerkungen",
+            "value": "Das Projekt wurde von Vercel auf Cloudflare umgestellt und begann mit dem kürzeren <code>iatf.cc</code> Domäne."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domäne",
+            "value": "<code>Internationale Zugänglichkeit von Taskforce.com</code>"
+          },
+          {
+            "label": "Kosten",
+            "value": "18,68 US-Dollar"
+          },
+          {
+            "label": "Anmerkungen",
+            "value": "Die Kosten für die Domain werden von mugiwarafx finanziert. Das Hosting verwendet eine kostenlose oder kostengünstige Infrastruktur."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domäne",
+            "value": "<code>Internationale Zugänglichkeit von Taskforce.com</code>"
+          },
+          {
+            "label": "Kosten",
+            "value": "17,06 US-Dollar"
+          },
+          {
+            "label": "Anmerkungen",
+            "value": "Die Kosten für die Domain werden von mugiwarafx finanziert. Das Hosting verwendet eine kostenlose oder kostengünstige Infrastruktur über Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domäne",
+            "value": "<code>Internationale Zugänglichkeit von Taskforce.com</code>"
+          },
+          {
+            "label": "Kosten",
+            "value": "14,76 US-Dollar"
+          },
+          {
+            "label": "Anmerkungen",
+            "value": "Die Kosten für die Domain werden von mugiwarafx finanziert. Das Hosting verwendet eine kostenlose oder kostengünstige Infrastruktur."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domäne",
+            "value": "<code>Internationale Zugänglichkeit von Taskforce.com</code>"
+          },
+          {
+            "label": "Kosten",
+            "value": "7,76 US-Dollar"
+          },
+          {
+            "label": "Anmerkungen",
+            "value": "Die Kosten für die Domain wurden von mugiwarafx finanziert. Das Hosting nutzte eine kostenlose oder kostengünstige Infrastruktur über GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Grenznoten",
+      "title": "Was nicht öffentlich ist"
+    },
+    "paragraphs": [
+      "Einige Unterlagen werden aus folgenden Gründen nicht öffentlich zugänglich gemacht:"
+    ],
+    "items": [
+      "Persönliche Kontaktdaten der Antragsteller.",
+      "Privater Briefwechsel, der nur verwendet wird, um eine Anfrage zu klären, bevor sie angenommen, abgelehnt oder zusammengefasst wird.",
+      "Privaten Adressen, Telefonnummern und unnötige persönliche Daten.",
+      "Alles, was einen einzelnen Benutzer von assistierender Technologie ohne Zustimmung identifizieren würde.",
+      "Raw Discord-Gespräche, es sei denn, eine bestimmte Nachricht wird absichtlich in einen öffentlichen Projektdatensatz verschoben."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Weiterlesen",
+      "title": "Regierungsführung ist das Regelwerk hinter diesen Aufzeichnungen"
+    },
+    "paragraphs": [
+      "Wenn Sie verstehen möchten, wie Projekte akzeptiert, archiviert oder neu zugewiesen werden, lesen Sie die Governance-Seite."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

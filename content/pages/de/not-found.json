@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nicht gefunden"
+  },
+  "hero": {
+    "eyebrow": "Nicht gefunden",
+    "title": "Die gewünschte Seite wurde nicht gefunden",
+    "lead": "Verwenden Sie die Hauptstrecken unten, um zum öffentlichen Gelände zurückzukehren.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Zuhause",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Die gewünschte Route existiert nicht."
+    ],
+    "items": [
+      {
+        "label": "Zuhause",
+        "href": "/"
+      },
+      {
+        "label": "Projekte",
+        "href": "/projects/"
+      },
+      {
+        "label": "Schließen Sie sich an",
+        "href": "/join/"
+      },
+      {
+        "label": "Zugänglichkeit",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Regierungsführung",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparenz",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

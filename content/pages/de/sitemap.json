@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Verzeichnis",
+    "title": "Sitemap",
+    "lead": "Jede öffentliche Seite auf iatf.cc, an einem Ort."
+  },
+  "sections": [
+    {
+      "title": "Hauptseiten",
+      "items": [
+        {
+          "label": "Zuhause",
+          "href": "/"
+        },
+        {
+          "label": "Projekte",
+          "href": "/projects/"
+        },
+        {
+          "label": "Beantragung eines Projekts",
+          "href": "/propose/"
+        },
+        {
+          "label": "Regierungsführung",
+          "href": "/governance/"
+        },
+        {
+          "label": "Schließen Sie sich an",
+          "href": "/join/"
+        },
+        {
+          "label": "Zugänglichkeit",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparenz",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekte",
+  "projectsEmpty": "Noch keine Projekte veröffentlicht."
+}

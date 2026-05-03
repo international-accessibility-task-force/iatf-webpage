@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Beitritt zur IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Beitritt zur IATF",
+    "lead": "Die Mitgliedschaft ist offen. Es gibt mehrere Möglichkeiten, teilzunehmen, egal ob Sie sich auf assistierende Technologie verlassen, zugängliche Software entwickeln, übersetzen, testen oder ein Projekt pflegen. Diskussionen und Entscheidungen finden in der Öffentlichkeit auf GitHub und Discord statt.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rollen",
+      "title": "Möglichkeiten, einen Beitrag zu leisten"
+    },
+    "items": [
+      "<strong>Bitten Sie um ein Projekt.</strong> Wenn Sie auf eine Barriere für die Zugänglichkeit stoßen, die durch öffentliche Open-Source-Software behoben werden könnte, senden Sie sie über die Anforderungseinnahme.",
+      "<strong>Test und Überprüfung.</strong> Versuchen Sie IATF-Projekte mit der von Ihnen verwendeten assistierenden Technologie, melden Sie, was funktioniert und was nicht, und archivieren Sie Probleme direkt im entsprechenden Repository.",
+      "<strong>Übersetzen.</strong> Ursprüngliche Inhalte werden zuerst in einfachem Englisch veröffentlicht. Übersetzungen werden hinzugefügt, wenn Mitarbeiter verfügbar sind, beginnend mit Spanisch.",
+      "<strong>Bauen.</strong> Aufsuchen von Problemen in einem beliebigen IATF-Repository, Senden von Pull-Anfragen oder Übernahme eines Projekts als verantwortlicher Ingenieur.",
+      "<strong>Aufrechterhalten.</strong> Bestehende Projekte benötigen manchmal einen neuen Instandhalter. Die Rotation des Instandhalters ist ein normaler Bestandteil des Modells, keine Ausnahme."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanäle",
+      "title": "Wo die IATF in der Öffentlichkeit arbeitet"
+    },
+    "items": [
+      "<strong>Das ist GitHub.</strong> Probleme, Pull-Anfragen, Veröffentlichungen und Projektunterlagen.",
+      "<strong>Zwietracht.</strong> Live-Diskussion, Koordination und informelle Fragen.",
+      "<strong>E-Mails.</strong> Verwendung <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> wenn weder GitHub noch Discord passen."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nächster Schritt",
+      "title": "Wählen Sie den Kanal aus, der zu Ihrem Beitrag passt"
+    },
+    "paragraphs": [
+      "Alle Kanäle fließen in die gleiche öffentliche Überprüfung und die gleichen öffentlichen Datenspeicher ein."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

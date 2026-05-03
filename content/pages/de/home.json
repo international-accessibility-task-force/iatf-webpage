@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Von der Notwendigkeit der Barrierefreiheit zu öffentlichen Repos",
+    "lead": "Die IATF hilft Verbänden, Gruppen und Einzelpersonen, echte Zugänglichkeitsbedürfnisse in öffentliche Open-Source-Projekte umzuwandeln.",
+    "support": [
+      "Akzeptierte Projekte werden in der IATF-GitHub-Organisation unter einer Copyleft-Lizenz veröffentlicht und von einem verantwortlichen Ingenieur öffentlich entwickelt."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Öffentliches Betriebsmodell",
+      "title": "Ein einfacher öffentlicher Weg für zugängliche Software"
+    },
+    "paragraphs": [
+      "Durch ein Formular kann jeder ein Zugänglichkeitsproblem bei der IATF einreichen. Wenn das Team es übernehmen kann, wird ein öffentliches GitHub-Repository für die Arbeit eröffnet.",
+      "Jedes akzeptierte Projekt verfügt über eine klare öffentliche Website für Code, Probleme, Dokumentation und Veröffentlichungen, wobei die Entwicklung von einem verantwortlichen Ingenieur in der Öffentlichkeit geleitet wird."
+    ],
+    "specCard": {
+      "title": "Öffentliches Betriebsmodell",
+      "terms": [
+        {
+          "term": "Notwendigkeit",
+          "definition": "Wirkliches Problem der Barrierefreiheit"
+        },
+        {
+          "term": "Überprüfung",
+          "definition": "Zweckmäßigkeit und praktische Durchführbarkeit"
+        },
+        {
+          "term": "Projektfläche",
+          "definition": "Öffentliches GitHub-Repository"
+        },
+        {
+          "term": "Verwalter",
+          "definition": "Eigentumsverhältnis der IATF-Organisation"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Verfahren",
+      "title": "Wie es funktioniert",
+      "intro": "Das Modell bleibt absichtlich klein, so dass der öffentliche Weg leicht zu folgen ist."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ein Bedarf wird eingereicht",
+        "paragraphs": [
+          "Ein Verein, eine Gruppe oder eine Einzelperson kann einen Antrag stellen, der auf einem tatsächlichen Zugangsbedarf beruht.",
+          "Anfragen können über die Website, per E-Mail an <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>oder durch Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF überprüft es",
+        "paragraphs": [
+          "Wir überprüfen die Zweckmäßigkeit, den praktischen Umfang und ob die Arbeit zu einem öffentlichen Open-Source-Projekt gehört."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ein öffentliches Repository wird erstellt",
+        "paragraphs": [
+          "Wenn ein Projekt akzeptiert wird, wird es in der IATF-GitHub-Organisation unter einer Copyleft-Lizenz veröffentlicht.",
+          "Das Repository wird zur öffentlichen Heimat des Codes, der Ausgaben, der Dokumentation und der Veröffentlichungen."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Ein verantwortungsvoller Ingenieur leitet das Projekt",
+        "paragraphs": [
+          "Ein verantwortlicher Ingenieur wird dem Projektarchiv zugewiesen und die Entwicklung erfolgt öffentlich."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrierung",
+      "title": "Öffentliches Projektregister"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fangen Sie hier an .",
+      "title": "Durchsuchen Sie laufende Arbeiten oder starten Sie ein konkretes Projekt"
+    },
+    "paragraphs": [
+      "Verwenden Sie das Register, um zu sehen, was bereits öffentlich ist, oder beginnen Sie mit der Aufnahme, wenn ein konkretes Zugänglichkeitsproblem zu einem Projekt wird."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

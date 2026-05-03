@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Zugänglichkeit",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Zugänglichkeit",
+    "lead": "Die IATF strebt an, diese Website einfach, lesbar, tastaturgerecht und kompatibel mit assistierenden Technologien zu halten.",
+    "support": [
+      "Für die Web-Zugänglichkeit verwendet die IATF [W3C WAI](https://www.w3.org/WAI/) Die praktische Barrierefreiheit wird auch durch die direkten Erfahrungen der Benutzer von assistierenden Technologien beeinflusst."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Berichterstattung",
+      "title": "Meldung eines Zugänglichkeitsproblems"
+    },
+    "paragraphs": [
+      "Wenn Sie auf dieser Website eine Barriere für die Zugänglichkeit feststellen, melden Sie dies bitte per E-Mail an:",
+      "{{contact.accessibilityEmail}}",
+      "Zu den nützlichen Berichten gehören:"
+    ],
+    "items": [
+      "die Seite, auf der das Problem aufgetreten ist",
+      "Was haben Sie vor?",
+      "welche unterstützende Technologie, welchen Browser oder welches Gerät Sie verwendet haben, falls zutreffend",
+      "Was ist schief gelaufen ?",
+      "Was hätte geholfen?"
+    ],
+    "footnote": "Sie müssen keinen formellen Fehlerbericht erstellen. Eine klare Beschreibung genügt."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Handhabung",
+      "title": "Handhabung öffentlicher Angelegenheiten"
+    },
+    "paragraphs": [
+      "Zugänglichkeitsprobleme können im entsprechenden öffentlichen Repository zusammengefasst werden, so dass sie in der Öffentlichkeit behoben werden können.Persönliche Kontaktdaten und unnötige private Informationen werden vor der Veröffentlichung entfernt.",
+      "Wenn Ihre Meldung private Informationen enthält, geben Sie dies in der Nachricht deutlich an."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Aktueller Zustand",
+      "title": "Bekannte Einschränkungen"
+    },
+    "paragraphs": [
+      "Diese Seite ist absichtlich klein und meist statisch. Einige Sprachversionen sind möglicherweise unvollständig, während Übersetzungen vorbereitet werden."
+    ]
+  }
+}
