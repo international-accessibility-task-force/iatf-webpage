@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Página web di IATF",
+    "summary": "E sitio públiko pa e International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF tabatin mester di un lugá públiko stabil ku ta splika e modelo, ta enumera proyektonan, i ta indiká esnan ku ta kontribuí na e siguiente paso korekto.",
+    "why": "E sitio ta e porta di entrada publico di IATF. E ta construi como un proyecto chikito pa asina e ta keda facil pa lesa, traduci y mantene den un ambiente habri.",
+    "scopeIn": [
+      "Paginan di aterisahe públiko ku ta splika e modelo IATF",
+      "Registro publico di proyectonan IATF acepta, activo y archiva cu status, mantenedor, repositorio y demo",
+      "Un página i un formulario pa risibí petishon",
+      "Página di gobernashon i transparensia",
+      "Fuente Ingles ku struktura kla pa tradukshon",
+      "Implementacion Estatica en Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Áreanan privá pa miembronan, kuentanan òf fluho di login",
+      "Hosting di e kodigo fuente di e proyekto, ku ta biba den e repositorio propio di kada proyekto",
+      "Chat den tempu real, ku ta biba den Discord",
+      "Tracking di problemanan pa proyectonan individual, cu ta biba den e repositorio di GitHub di cada proyecto"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Un prototipo tempran di IATF, archivá despues di yega na un punto natural di para.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Investigacion tempran di un herment enfoca riba accesibilidad bou di IATF.",
+    "why": "E repositorio ta keda publiká komo un registro di e trabou, aunke e desaroyo aktivo a stòp.",
+    "scopeIn": [
+      "Prototipo tempran di un herramienta enfoca riba accesibilidad cu ta wordo mantene como un registro publico"
+    ],
+    "scopeOut": [
+      "Trabounan aktivo di desaroyo òf karakterístika",
+      "Kompromiso di mantenshon",
+      "Uso rekomendá den produkshon"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Un bot di komunidat di IATF, arkivá despues di yega na un punto natural di para.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatisashon rond di kanalnan komunitario di IATF.",
+    "why": "E repositorio ta keda publiká komo un registro di e trabou, aunke e desaroyo aktivo a stòp.",
+    "scopeIn": [
+      "Automatisacion di discordia rond di canalnan di comunidad di IATF, manteni como un registro publico"
+    ],
+    "scopeOut": [
+      "Trabounan aktivo di desaroyo òf karakterístika",
+      "Kompromiso di mantenshon",
+      "Uso rekomendá den produkshon"
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyectonan di aksesibilidat pa públiko",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyectonan di aksesibilidat pa públiko",
+    "lead": "E registro aki ta lista proyectonan publico manteni pa medio di IATF. Proyectonan di accesibilidad acepta, infrastructura di e sitio, y prototiponan archiviá ta keda visibel aki.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro aktual"
+    },
+    "intro": [
+      "Proyectonan aseptá ta wòrdu indiká aki ora nan ta publiká."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Enviá un nesesidat",
+      "title": "Transformá un nesesidat konkreto di aksesibilidat den un proyekto públiko"
+    },
+    "paragraphs": [
+      "IATF ta analisá nesesidatnan konkreto di aksesibilidat ku por wòrdu transformá den trabou públiko di fuente habrí útil."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "No tin proyekto publiká ainda",
+    "paragraphs": [
+      "IATF ta preparando su prome proyecto publico.",
+      "Bo por manda un petishon si bo tin un nesesidat konkreto di aksesibilidat."
+    ]
+  }
+}

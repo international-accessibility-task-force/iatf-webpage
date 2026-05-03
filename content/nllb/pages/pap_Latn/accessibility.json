@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibel",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibel",
+    "lead": "E meta di IATF ta pa e website aki ta simpel, lesabel, accesibel via teclado y compatible cu tecnologia di asistencia.",
+    "support": [
+      "Pa aksesibilidat riba web, IATF ta usa [W3C WAI](https://www.w3.org/WAI/) tambe ta informá dor di e eksperensia direkto di usuarionan di teknologia asistido."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Informashon",
+      "title": "Informá un problema di aksesibilidat"
+    },
+    "paragraphs": [
+      "Si bo haña un barera di aksesibilidat riba e wèpsait aki, por fabor informá via e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Entre e informashonnan útilnan por menshoná:"
+    ],
+    "items": [
+      "e página kaminda e problema a sosodé",
+      "loke bo tabata purba di hasi",
+      "kiko ta e teknologia di asistensia, e browser, òf e aparato ku bo a usa, si ta relevante",
+      "kiko a bai robes",
+      "loke lo a yuda"
+    ],
+    "footnote": "No ta nesesario pa skirbi un rapòrt formal di fayo. Un deskripshon kla ta sufisiente."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Maneho",
+      "title": "Maneho di asuntunan públiko"
+    },
+    "paragraphs": [
+      "Problemanan di aksesibilidat por ser resumí den e repositorio públiko relevante pa asina nan por wòrdu solushoná den públiko. E detayenan di kontakto personal i informashon privá innecesario ta ser eliminá promé ku publikashon.",
+      "Si bo relato ta inkluí informashon privá, bisa esei kla den e mensahe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Estado aktual",
+      "title": "Limitashonnan konosí"
+    },
+    "paragraphs": [
+      "E sitio aki ta intencionalmente chikito y mayoria di su contenido ta statico. Algun version den idioma por ta incompleto mientras cu ta preparando traduccion."
+    ]
+  }
+}

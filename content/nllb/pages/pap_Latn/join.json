@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ingresá a IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ingresá a IATF",
+    "lead": "Miembronan ta habri. Tin diferente manera pa partisipá, sea ku bo ta dependé di teknologia asistivo, traha software aksesibel, tradusí, tèst, òf mantené un proyekto. Diskushon i desishonnan ta tuma lugá den públiko riba GitHub i Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Papelnan",
+      "title": "Formanan pa kontribuí"
+    },
+    "items": [
+      "<strong>Hasi un petishon pa un proyekto.</strong> Si bo topa ku un barera di aksesibilidat ku por wòrdu solushoná dor di software di fuente habrí públiko, manda esaki via e entrada di petishon.",
+      "<strong>Hasi tèst i repasá.</strong> Prueba proyectonan di IATF ku e teknologia asistivo ku bo ta usa, raporta kiko ta funshoná i kiko no, i archiva problemanan direktamente riba e repositorio relevante.",
+      "<strong>Tradusí.</strong> E kontenido di e fuente ta publiká promé den ingles i tradukshonnan ta wòrdu añadí ora e kontribuentenan ta disponibel, kuminsando ku e idioma spaño.",
+      "<strong>Konstruí.</strong> Pick up issues in any IATF repository, send pull requests, or take on a project as its responsible engineer. Buska problemanan den kualke repositorio di Iatf, manda petishonnan di pull, òf asumi un proyekto komo su ingeniero responsabel.",
+      "<strong>Mantené.</strong> Proyectonan existente tin biaha mester di un maintainer nobo. Rotashon di maintainer ta un parti normal di e modelo, no un eksepshon."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalnan",
+      "title": "Donde IATF ta traha den publico"
+    },
+    "items": [
+      "<strong>riba GitHub.</strong> Asuntunan, petishonnan di retiro, publikashonnan i dokumentonan di proyekto.",
+      "<strong>Diskòrdio.</strong> Diskushon, koordinashon i preguntanan informal.",
+      "<strong>E-mail.</strong> Uso <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si ni GitHub ni Discord ta pega."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Siguiente paso",
+      "title": "Skohe e kanal ku ta korespondé ku e forma ku bo ke kontribuí"
+    },
+    "paragraphs": [
+      "Tur e kanalnan ta drenta den e mesun publikashon i e mesun repositorionan públiko."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "For di nesesidat di aksesibilidat pa repo públiko",
+    "lead": "IATF ta yuda asosiashonnan, gruponan i personanan individual pa transformá nesesidatnan real di aksesibilidat den proyektonan públiko di fuente habrí.",
+    "support": [
+      "Proyectonan aseptá ta publiká den e organisashon IATF GitHub bou di un lisensia di copyleft i ta desaroyá den públiko dor di un ingeniero responsabel."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modelo di funshonamentu públiko",
+      "title": "Un caminda publico simpel pa software accesibel"
+    },
+    "paragraphs": [
+      "Pa medio di un formulario, kualke persona por entregá un problema di aksesibilidat na IATF. Si e tim por asumi e tarea, un repositorio públiko riba GitHub ta habri pa e trabou.",
+      "Kada proyekto aseptá tin un lugá públiko kla pa kodigo, asuntunan, dokumentashon, i publikashonnan, ku desaroyo dirigí den abertura pa un ingeniero responsabel."
+    ],
+    "specCard": {
+      "title": "Modelo di funshonamentu públiko",
+      "terms": [
+        {
+          "term": "Necesidad",
+          "definition": "Problema real di aksesibilidat"
+        },
+        {
+          "term": "Repaso",
+          "definition": "Adekushon na e mishon i viabilidat práktiko"
+        },
+        {
+          "term": "Espacio di Proyecto",
+          "definition": "Repositorio Públiko di GitHub"
+        },
+        {
+          "term": "Administrashon",
+          "definition": "Propiedat di organisashon di IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proceso",
+      "title": "Kon e ta funshoná",
+      "intro": "E modelo ta keda intencionalmente chikitu pa asina e kaminda públiko ta fásil pa sigui."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ta presentá un nesesidat",
+        "paragraphs": [
+          "Un asosiashon, grupo òf individuo por entregá un petishon basá riba un nesesidat real di aksesibilidat.",
+          "Solicitudnan por cuminsa via e website, via e-mail na <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, òf dor di Discordia."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ta revis'é",
+        "paragraphs": [
+          "Nos ta revisá si e obra ta kuadra ku e mishon, si e tin un alcance práktiko, i si e trabou ta pertenesé na un proyekto públiko di fuente habrí."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ta krea un repositorio públiko",
+        "paragraphs": [
+          "Si un proyekto ta ser aseptá, e ta wòrdu publiká den e organisashon IATF GitHub bou di un lisensia di copyleft.",
+          "E repositorio ta bira e lugá públiko di e kódigo, edicionnan, dokumentashon i publikashonnan."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un ingeniero responsabel ta guia e proyekto",
+        "paragraphs": [
+          "Un ingeniero responsabel ta asigna na e repositorio di e proyecto y e desaroyo ta tuma luga den publico."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro Públiko di Proyekto"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kuminsá aki",
+      "title": "Buska trabou aktual òf kuminsá un proyekto konkreto"
+    },
+    "paragraphs": [
+      "Usa e registro pa wak kiko ya ta públiko, òf kuminsá e entrada si un problema konkreto di aksesibilidat mester bira un proyekto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

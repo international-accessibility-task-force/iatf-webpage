@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "No a haña"
+  },
+  "hero": {
+    "eyebrow": "No a haña",
+    "title": "No por a haña e página rekerí",
+    "lead": "Usa e rotanan prinsipal aki abou pa bai bèk na e lugá públiko.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Kas",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "E ruta ku bo a pidi no ta eksistí."
+    ],
+    "items": [
+      {
+        "label": "Kas",
+        "href": "/"
+      },
+      {
+        "label": "Proyectonan",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kòrda",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibel",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gobernashon",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparencia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

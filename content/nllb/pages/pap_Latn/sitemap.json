@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Sitemap",
+    "lead": "Tur página públiko riba iatf.cc, den un lugá."
+  },
+  "sections": [
+    {
+      "title": "Página principal",
+      "items": [
+        {
+          "label": "Kas",
+          "href": "/"
+        },
+        {
+          "label": "Proyectonan",
+          "href": "/projects/"
+        },
+        {
+          "label": "Solicita un proyecto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gobernashon",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kòrda",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksesibel",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparencia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyectonan",
+  "projectsEmpty": "No tin proyekto publiká ainda."
+}

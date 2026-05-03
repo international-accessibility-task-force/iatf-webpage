@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Solicitá un proyekto di aksesibilidat",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Solicitá un proyekto di aksesibilidat",
+    "lead": "IATF ta analisá petishonnan pa proyektonan di aksesibilidat ku ta sali for di un nesesidat real.",
+    "support": [
+      "Bo no mester di un splikashon kompleto, pero un problema kla, ken e ta afektá i dikon e ta importante, ta sufisiente pa kuminsá."
+    ],
+    "actions": [
+      {
+        "label": "Kuminsá un petishon",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Usa Discord na su lugá",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalnan",
+      "title": "Skohe e ruta mas fásil"
+    },
+    "intro": [
+      "Tur ruta ta partisipá na e mesun investigashon."
+    ],
+    "items": [
+      {
+        "label": "Página web",
+        "body": "Usa e formulario aki bou pa manda un petishon strukturá."
+      },
+      {
+        "label": "E-mail",
+        "body": "Enviá e petishon direktamente na: {{contact.requestsEmail}}Solicitudnan via e-mail por bira registro publico di peticion despues di revishon y redaccion."
+      },
+      {
+        "label": "Diskòrdio",
+        "body": "E petishon ta sigui den e mesun revision."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Promé ku bo manda un petishon",
+    "paragraphs": [
+      "IATF ta traha den publico. E peticionnan por ser resumi y publica como record di peticion publico den e organisacion di IATf GitHub, riba e website aki, of tur dos.",
+      "No inkluí adres privá, number di telefòn, detaye médiko, òf informashon di identifikashon di usuarionan individual di teknologia asistido, a ménos ku ta nesesario i bo ta konfortabel ku IATF ta revis'é.",
+      "IATF ta eliminá detayenan di kontakto personal innecesario promé ku publiká registrashon di petishon."
+    ]
+  },
+  "review": {
+    "title": "Revisá expectativanan",
+    "paragraphs": [
+      "Enviá un petishon no ta garantisá ku e petishon lo wòrdu aseptá.",
+      "IATF ta revisá petishonnan pa mishon, viabilidat, utilidat, i si e obra ta pertenesé na un repositorio públiko.",
+      "Algun petishon por wòrdu nenga, posponé òf adaptá promé ku ser aseptá."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulario di petishon",
+      "title": "Entrega un petishon"
+    },
+    "fields": [
+      {
+        "kind": "entrada",
+        "name": "peticionario",
+        "label": "Bo nòmber òf organisashon",
+        "helper": "Ken ta hasi e petishon?"
+      },
+      {
+        "kind": "skohe",
+        "name": "Ruta di kontakto",
+        "label": "Ruta di kontakto preferí",
+        "helper": "Kon mester sigui ku e investigashon?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Diskòrdio"
+        ]
+      },
+      {
+        "kind": "entrada",
+        "name": "Detayonan di kontakto",
+        "label": "Detalhenan di kontakto",
+        "helper": "Adresa di e-mail òf number di Discord pa informashon.",
+        "placeholder": "Adresa di e-mail òf number di kontakto di Discord",
+        "required": true
+      },
+      {
+        "kind": "entrada",
+        "name": "idioma",
+        "label": "Idioma",
+        "helper": "Bo idioma preferí, si ta relevante.",
+        "value": "Ingles"
+      },
+      {
+        "kind": "textarea",
+        "name": "problema",
+        "label": "Ki problema bo ta trata di solushoná?",
+        "helper": "Deskribi e barera den un forma simpel.",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "Usuarionan afektá",
+        "label": "Ken ta wòrdu afektá?",
+        "helper": "Ken esaki lo yuda?",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "extraKontexto",
+        "label": "Kontexto Extra",
+        "helper": "Kompartí kualke otro kos ku ta yuda splika e nesesidat: dikon e ta importante, ehèmpel, referensia, un idea rudimentario di software, òf limitashonnan di tempu."
+      },
+      {
+        "kind": "skohe",
+        "name": "openSourceConsent",
+        "label": "Bo ta konfortabel ku desaroyo di fuente habrí públiko?",
+        "helper": "Proyectonan acepta ta repositorio publico bou di IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Sí",
+          "No",
+          "No ta sigur ainda"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Si ta aseptá",
+      "title": "Kiko aseptashon ta nifiká"
+    },
+    "items": [
+      "un repositorio públiko den e organisashon IATF GitHub",
+      "un ingeniero responsabel asigná na e proyekto",
+      "un lisensia di copyleft pa e kodigo i materialnan di e proyekto",
+      "desaroyo publico den e repositorio",
+      "un entrada di registro riba e sitio di IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kuminsá e kombersashon",
+      "title": "Un petishon kòrtiku i kla ta sufisiente pa kuminsá"
+    },
+    "paragraphs": [
+      "Si bo tin un nesesidat real di aksesibilidat i bo ta kere ku esaki mester bira un proyekto públiko, manda esaki na nos."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

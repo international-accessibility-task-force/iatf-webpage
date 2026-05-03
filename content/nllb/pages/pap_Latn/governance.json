@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Modelo di gobernashon i repositorio",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Modelo di gobernashon i repositorio",
+    "lead": "IATF ta mantené proyektonan di aksesibilidat públiko, leibel i mantené.",
+    "support": [
+      "E página aki ta splika kiko ta kualifiká, kon repositorionan ta wòrdu mantené, i ki responsabilidat na nivel di repositorio ta apliká despues di aseptashon."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reglanan",
+      "title": "Mision Fit, Ownership, Licensing"
+    },
+    "cards": [
+      {
+        "title": "Mishon fit",
+        "paragraphs": [
+          "IATF ta aseptá trabounan ku ta solushoná un barera real pa aksesibilidat i ku tin un balor públiko kla.",
+          "Un proyekto mester ta útil mas aleu di un solo workflow privá i por funshoná komo un repositorio públiko.",
+          "Pa aksesibilidat riba web, IATF ta usa [W3C WAI](https://www.w3.org/WAI/) E eksperensia direkto di usuarionan di teknologia asistivo tambe ta un prueba práktiko di loke ta funshoná den uso real."
+        ]
+      },
+      {
+        "title": "Aceptacion di proyecto",
+        "paragraphs": [
+          "Un proposishon por wòrdu aseptá ora un investigashon ta mustra ku:"
+        ],
+        "items": [
+          "e ta atendé un nesesidat real di aksesibilidat",
+          "e problema ta sufisiente kla pa evaluá",
+          "e eskala ta sufisiente realista pa lansá",
+          "e trabou ta aliná ku e mishon di IATF",
+          "tin un kaminda plausibel pa mantenshon òf kompleto"
+        ]
+      },
+      {
+        "title": "Propiedat di e repositorio",
+        "paragraphs": [
+          "Proyectonan aseptá ta wòrdu kreá bou di e organisashon IATF GitHub.",
+          "E repositorionan ta keda aya pa asina kada proyekto por mantené un kas públiko stabil, asta si e mantenidónan despues ta kambia."
+        ]
+      },
+      {
+        "title": "Licenciamento",
+        "paragraphs": [
+          "Proyectonan di IATF ta usa licencia di copyleft a menos cu un proyecto ta bisa otro:"
+        ],
+        "items": [
+          "<strong>Kòrda:</strong> AGPL-3.0",
+          "<strong>Documentacion:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingeniero Responsable o Mantenedor",
+      "paragraphs": [
+        "Kada proyekto ku ta wòrdu aseptá mester tin un ingeniero òf mantenidó responsabel ku por risibí akseso administrativo na e repositorio i ta spera di:"
+      ],
+      "items": [
+        "desaroyo di guia den publico",
+        "mantene e struktura di e repositorio",
+        "revisá òf manehá asuntunan i rekisitonan di 'pull'",
+        "dokumentá desishonnan tékniko importante",
+        "tene e proyekto komprendibel pa otronan"
+      ],
+      "footnote": "Esaki ta responsabilidad na nivel di repositorio. e propiedad di e organisacion ta keda cu IATF. e responsabilidad aki ta e custodia, direccion tecnico y coordinacion publico di e repositorio  no entrega priva ilimitado, integracion personaliza, of compromiso di nivel di servicio pafo di e roadmap publico."
+    },
+    "publicDevelopment": {
+      "title": "Desaroyo Públiko",
+      "paragraphs": [
+        "Proyectonan lansa dor di IATF ta desaroyá den públiko pa default. E repositorio ta e fuente públiko di bèrdat pa:"
+      ],
+      "items": [
+        "kodigo di fuente",
+        "asuntunan",
+        "Documentacion",
+        "nota di e mapa di ruta",
+        "historia di liberashon"
+      ],
+      "footnote": "Konosementu importante di e proyekto no mester keda solamente den chats privá òf inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registro Públiko",
+      "title": "Registranan di petishon públiko"
+    },
+    "paragraphs": [
+      "IATF ta funshoná den públiko pa default.",
+      "Un registro publico di peticion no necesariamente ta e mensahe original. IATF por resumi, redacta of reestructura un peticion prome cu publicacion pa asina por revisa e necesidad di accesibilidad sin expone informacion personal innecesario.",
+      "Rekordnan di petishon públiko por wòrdu warda den e organisashon IATF GitHub, riba e website aki, òf tur dos.",
+      "Promé ku publikashon, IATF ta eliminá detayenan di kontakto personal innecesario, adrès privá i detaye di identifikashon di usuarionan individual di teknologia asistivo, a ménos ku publikashón ta klaramente intenshoná i apropiá.",
+      "Discord ta usa pa coordinacion informal. IATF no ta archiva separadamente conversacionnan di Discord pa default, y e retencion di mensahe ta controla pa Discord.",
+      "Rekordnan di petishon ta ekskluí for di indekshon di motor di buskeda kaminda ta tékniko praktikamente. Publiko ta nifiká revisabel i responsabel. E no ta nifika optimizá pa deskubrimentu via buskeda di nòmber.",
+      "IATF por aktualisá òf kita registrashonnan for di superfisanan públiko kontrolá dor di iATF, pero no por garantisá eliminashon for di cache, notifikashon, forks, screenshots, search engine, Discord, òf otro sistema eksternonan di terser parti.",
+      "Si un mensahe mester keda privá, no mand'é via kanalnan públiko di IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ròl di organisashon",
+      "title": "Presidensia"
+    },
+    "lead": "Esaki ta distinto for di e rol di ingeniero responsabel pa proyecto: e presidente ta responsabel di e organisacion den su totalidad, no pa e direccion di cada dia di un solo repositorio.",
+    "duties": {
+      "title": "Kiko e stul ta hasi",
+      "items": [
+        "Ta tene pèrmit di doño riba e organisashon IATF GitHub",
+        "Firma di akseptashon di proyekto i desishonnan di archivo",
+        "Aktua komo e punto di kontakto públiko pa IATF",
+        "Koordiná e elekshon anual"
+      ],
+      "footnote": "E presidente no ta obligá IATF na entregashon privá, trabou pagá, òf akuerdo di nivel di servisio, i no ta anulá desishonnan di mantenidónan di kada repositorio riba direkshon tékniko."
+    },
+    "election": {
+      "title": "Elekshon anual",
+      "paragraphs": [
+        "E elekshon ta tuma lugá den e promé dos simannan di desèmber, e resultadonan ta wòrdu anunsiá promé ku 15 di december, i e término nobo ta kuminsá riba 1 di yanüari.",
+        "Votadornan eligibel ta personanan ku a mantené un ròl di mantenedor riba kualke repositorio di IATF durante e aña i a hasi por lo ménos un kontribushon combiná na un repositoriu di Iatf den e aña ei. Kada votador eligibel tin un voto. E kandidato ku mas voto ta gana; den kaso di empate, ta tene un segunda ronda den e di tres siman di desèmber.",
+        "E eleccion ta tuma luga como un discusion publico riba GitHub den e repositorio di gobernacion di IATF, asina e candidatonan, e voto y e resultado ta parti di e registro publico."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuidat",
+      "paragraphs": [
+        "Si no tin elekshon den un dado aña, e presidente aktual ta keda den e funshon te na e siguiente elekshon. Esaki ta un kontinuashon indefiní, no un periodo di grasia  e modelo ta diseñá pa mantené e organisashon stabil ora aktividat ta abou, no pa forsa un transishon ku niun hende no ta kla p'e.",
+        "E presidente por dimití na kualke momentu, e mantenidónan aktivo tambe por yama un elekshon ekstraordinario ku un motibu deklará, ku ta tuma lugá bou di e mesun reglanan ku e elekshon anual."
+      ]
+    },
+    "current": {
+      "title": "Presidensia aktual",
+      "fields": [
+        {
+          "label": "Presidensia",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tèrmino",
+          "value": "Te ku elekshon di desèmber 2026"
+        },
+        {
+          "label": "Ròl formalizá",
+          "value": "2026"
+        },
+        {
+          "label": "E promé elekshon programá",
+          "value": "Desèmber 2026"
+        }
+      ]
+    },
+    "footnote": "E rol di presidente a ser formaliza na 2026 pa haci e maneho na nivel di organisacion explícito."
+  },
+  "continuity": {
+    "states": {
+      "title": "Estado di e proyekto",
+      "paragraphs": [
+        "Proyectonan ta usa un grupo chikito di estado publico:"
+      ],
+      "items": [
+        "Proposishon",
+        "Aksepshon",
+        "Aktivo",
+        "Stabel",
+        "Buscando mantenedor",
+        "Archivo"
+      ],
+      "footnote": "E estadonan aki ta hasi e registro fásil pa scaneá."
+    },
+    "reassignment": {
+      "title": "Reasignacion y archivo",
+      "paragraphs": [
+        "Si un maintainer ta kita of bira inaktivo, IATF por reasigna responsabilidad, para desaroyo, of archiva e proyecto.",
+        "Un proyekto tambe por wòrdu archivá ora e nesesidat original a ser kumpli, mantenshon a stòp, òf kontinuashon di trabou no ta realista mas."
+      ],
+      "footnote": "Proyectonan archiviá ta keda visibel pa públiko, a ménos ku tin un motibu konvensente pa hasi otro kos."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota di frontera",
+      "title": "Loke IATF no ta garantisa"
+    },
+    "items": [
+      "entregashon na kliente privá",
+      "akuerdo di nivel di servisio",
+      "aseptashon di tur proposishon",
+      "mantenshon a largu plaso pa kada proyekto"
+    ],
+    "footnote": "IATF ta un modelo di repositorio publico, no un servicio di entrega priva."
+  }
+}
