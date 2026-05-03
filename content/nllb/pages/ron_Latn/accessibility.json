@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accesibilă",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accesibilă",
+    "lead": "IATF își propune să mențină acest site web simplu, lizibil, accesibil prin tastatură și compatibil cu tehnologiile de asistență.",
+    "support": [
+      "Pentru accesibilitatea web, IATF utilizează [W3C WAI](https://www.w3.org/WAI/) Accessibilitatea practică este, de asemenea, influenţată de experienţa directă a utilizatorilor tehnologiilor de asistenţă."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Raportarea",
+      "title": "Raportați o problemă de accesibilitate"
+    },
+    "paragraphs": [
+      "Dacă găsiți o barieră de accesibilitate pe acest site, vă rugăm să raportați prin e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Printre rapoartele utile se numără:"
+    ],
+    "items": [
+      "pagina unde s-a produs problema",
+      "Ce încercai să faci ?",
+      "ce tehnologie de asistență, browser sau dispozitiv utilizați, dacă este cazul",
+      "Ce s-a întâmplat ?",
+      "ce ar fi ajutat"
+    ],
+    "footnote": "Nu este necesar să scrieţi un raport formal de bug. O descriere clară este suficientă."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipularea",
+      "title": "Gestionarea problemelor publice"
+    },
+    "paragraphs": [
+      "Datele de contact personale și informațiile private inutile sunt eliminate înainte de publicare.",
+      "Dacă raportul dvs. include informaţii private, spuneţi-o clar în mesaj."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Starea actuală",
+      "title": "Limitări cunoscute"
+    },
+    "paragraphs": [
+      "Acest site este intenționat mic și în mare parte static. Unele versiuni lingvistice pot fi incomplete în timp ce traducerile sunt pregătite."
+    ]
+  }
+}

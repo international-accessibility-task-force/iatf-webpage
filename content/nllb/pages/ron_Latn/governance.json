@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Modelul de guvernanță și de depozitare",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Modelul de guvernanță și de depozitare",
+    "lead": "IATF menține proiectele de accesibilitate publice, lizibile și menținute.",
+    "support": [
+      "Această pagină explică ce se califică, cum sunt deținute depozitoarele și ce responsabilitate la nivelul depozitarului se aplică după acceptare."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regulile",
+      "title": "Adecvarea misiunii, proprietatea, acordarea licențelor"
+    },
+    "cards": [
+      {
+        "title": "Misiune adecvată",
+        "paragraphs": [
+          "IATF acceptă lucrări care abordează un obstacol real al accesibilității și care au o valoare publică clară.",
+          "Un proiect ar trebui să fie util dincolo de un singur flux de lucru privat și să funcționeze ca un depozit public.",
+          "Pentru accesibilitatea web, IATF utilizează [W3C WAI](https://www.w3.org/WAI/) Experienţa directă a utilizatorilor tehnologiilor de asistenţă este, de asemenea, o dovadă practică a ceea ce funcţionează în utilizarea reală."
+        ]
+      },
+      {
+        "title": "Acceptarea proiectului",
+        "paragraphs": [
+          "O propunere poate fi acceptată atunci când examinarea arată că:"
+        ],
+        "items": [
+          "răspunde unei nevoi reale de accesibilitate",
+          "problema este suficient de clară pentru a evalua",
+          "domeniul de aplicare este suficient de realist pentru a lansa",
+          "activitățile sunt aliniate cu misiunea IATF;",
+          "există o cale plauzibilă către întreținere sau finalizare"
+        ]
+      },
+      {
+        "title": "Proprietatea depozitarului",
+        "paragraphs": [
+          "Proiectele acceptate sunt create în cadrul organizației IATF GitHub.",
+          "Depozitele rămân acolo astfel încât fiecare proiect păstrează o casă publică stabilă, chiar dacă întreținătorii se schimbă mai târziu."
+        ]
+      },
+      {
+        "title": "Licențiere",
+        "paragraphs": [
+          "Proiectele IATF utilizează licențe copyleft, cu excepția cazului în care un proiect prevede altfel:"
+        ],
+        "items": [
+          "<strong>Codul:</strong> AGPL-3.0",
+          "<strong>Documentație:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Inginerul sau lucrătorul de întreținere responsabil",
+      "paragraphs": [
+        "Fiecare proiect acceptat ar trebui să aibă un inginer sau un operator de întreținere responsabil. Această persoană poate beneficia de acces de administrare la depozit și se așteaptă ca aceasta să:"
+      ],
+      "items": [
+        "dezvoltarea ghidului în public",
+        "menținerea structurii depozitului;",
+        "revizuirea sau gestionarea problemelor și a cererilor de extragere",
+        "documentează deciziile tehnice importante",
+        "să păstreze proiectul ușor de înțeles pentru ceilalți"
+      ],
+      "footnote": "Aceasta este responsabilitatea la nivel de depozit. Proprietatea organizațională rămâne la IATF. Responsabilitatea aici este administrarea depozitarului, direcția tehnică și coordonarea publică  nu livrarea privată nelimitată, integrările personalizate sau angajamentele de nivel de serviciu în afara foaia de parcurs publică."
+    },
+    "publicDevelopment": {
+      "title": "Dezvoltarea publică",
+      "paragraphs": [
+        "Proiectele lansate prin intermediul IATF sunt dezvoltate în mod public în mod implicit."
+      ],
+      "items": [
+        "Codul sursă",
+        "problemele",
+        "documentele",
+        "note privind harta de parcurs",
+        "istoric de eliberare"
+      ],
+      "footnote": "Cunoașterea importantă a proiectului nu ar trebui să trăiască doar în chat-uri private sau în căsuțele de e-mail."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Înregistrări publice",
+      "title": "Înregistrări publice ale cererilor"
+    },
+    "paragraphs": [
+      "Solicitările care intră în IATF prin intermediul site-ului web, e-mail, Discord, GitHub sau alți canale IAT F pot deveni înregistrări publice de solicitări.",
+      "O înregistrare publică a cererii nu este neapărat mesajul original. IATF poate rezuma, redacta sau restructura o cerere înainte de publicare, astfel încât nevoia de accesibilitate să poată fi revizuită fără a expune informații personale inutile.",
+      "Înregistrările de solicitări publice pot fi stocate în organizația IATF GitHub, pe acest site web sau pe ambele.",
+      "Înainte de publicare, IATF elimină datele de contact personale inutile, adresele private și datele care permit identificarea utilizatorilor individuali de tehnologii de asistență, cu excepția cazului în care publicarea este în mod clar intenționată și adecvată.",
+      "Discord este folosit pentru coordonare informală. IATF nu arhivează separat conversațiile Discord în mod implicit, iar păstrarea mesajelor este controlată de Discord. Deciziile luate în Discord ar trebui să fie rezumate în înregistrarea publică de pe GitHub sau pe pagina de proiect relevantă.",
+      "Înregistrările cererilor sunt excluse din indexarea motoarelor de căutare acolo unde este practic din punct de vedere tehnic. Public înseamnă revizibil și responsabil. Nu înseamnă optimizat pentru descoperire prin căutări de nume.",
+      "IATF poate actualiza sau șterge înregistrările de pe suprafețele publice controlate de aceasta, dar nu poate garanta eliminarea din cache-uri, notificări, furci, capturi de ecran, motoare de căutare, Discord sau alte sisteme externe.",
+      "Dacă un mesaj trebuie să rămână privat, nu-l trimiteți prin canalele publice ale IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rolul organizațional",
+      "title": "Scaunul"
+    },
+    "lead": "Acest lucru este distinct de rolul inginerului responsabil de proiect: președintele este responsabil pentru organizație în ansamblu, nu pentru direcția de zi cu zi a unui singur depozit.",
+    "duties": {
+      "title": "Ce face scaunul",
+      "items": [
+        "Reține permisiunile proprietarului pe organizația IATF GitHub",
+        "Semnarea deciziilor de acceptare a proiectului și de arhivare",
+        "Funcționează ca punct de contact public pentru IATF",
+        "Coordonează alegerile anuale"
+      ],
+      "footnote": "Președintele nu angajează IATF cu privire la livrări private, lucrări plătite sau acorduri de nivel de servicii și nu anulează deciziile privind direcția tehnică luate de întreținătorii de depozite."
+    },
+    "election": {
+      "title": "Alegeri anuale",
+      "paragraphs": [
+        "Președintele este ales o dată pe an.Alegerile se desfășoară în primele două săptămâni ale lunii decembrie, rezultatele sunt anunțate până la 15 decembrie și noul mandat începe la 1 ianuarie.",
+        "Candidații cu cele mai multe voturi câștigă; în cazul unei egalități, se desfășoară un tur al doilea în a treia săptămână din decembrie.",
+        "Alegerea se desfășoară ca o discuție publică pe GitHub în depozitul de guvernanță IATF desemnat, astfel încât candidații, votul și rezultatul fac parte din înregistrarea publică."
+      ]
+    },
+    "continuity": {
+      "title": "Continuitate",
+      "paragraphs": [
+        "Dacă nu se desfășoară alegeri într-un anumit an, președintele actual continuă în funcție până la următoarele alegeri.",
+        "Președintele poate demisiona în orice moment.Mantenitorii activi pot, de asemenea, să convoace alegeri extraordinare cu un motiv specificat, care se desfășoară în conformitate cu aceleași reguli ca și alegerile anuale."
+      ]
+    },
+    "current": {
+      "title": "Președintele actual",
+      "fields": [
+        {
+          "label": "Scaunul",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termenul",
+          "value": "Până la alegerile din decembrie 2026"
+        },
+        {
+          "label": "Rolul formalizat",
+          "value": "2026"
+        },
+        {
+          "label": "Primele alegeri programate",
+          "value": "Decembrie 2026"
+        }
+      ]
+    },
+    "footnote": "Rolul de președinte a fost formalizat în 2026 pentru a face explicită administrarea la nivel de organizație. Până atunci, responsabilitatea organizațională a fost deținută în mod informal de către fondator."
+  },
+  "continuity": {
+    "states": {
+      "title": "Starea proiectului",
+      "paragraphs": [
+        "Proiectele utilizează un mic set de stări publice:"
+      ],
+      "items": [
+        "Propunere",
+        "Acceptat",
+        "Activă",
+        "Stabil",
+        "Căutare de întreţinere",
+        "Arhivă"
+      ],
+      "footnote": "Aceste state păstrează registrul uşor de scanat."
+    },
+    "reassignment": {
+      "title": "Realocarea și arhivarea",
+      "paragraphs": [
+        "În cazul în care un operator de întreținere se retrage sau devine inactiv, IATF poate reasigna responsabilitatea, poate opri dezvoltarea sau poate arhiva proiectul.",
+        "Un proiect poate fi, de asemenea, arhivat atunci când nevoia inițială a fost îndeplinită, întreținerea s-a oprit sau continuarea lucrărilor nu mai este realistă."
+      ],
+      "footnote": "Proiectele arhivate rămân vizibile publicului, cu excepția cazului în care există un motiv convingător de a face altfel."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota de frontieră",
+      "title": "Ce nu garantează IATF"
+    },
+    "items": [
+      "livrare pentru clienți privați",
+      "acorduri privind nivelul serviciilor",
+      "acceptarea fiecărei propuneri",
+      "întreținerea pe termen lung pentru fiecare proiect"
+    ],
+    "footnote": "IATF este un model de depozit public, nu un serviciu de livrare privat."
+  }
+}

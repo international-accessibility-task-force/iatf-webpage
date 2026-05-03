@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparență",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparență",
+    "lead": "IATF funcționează în public în mod implicit. Deciziile de proiect, modificările codului, schimbările de guvernanță și costurile de operare sunt înregistrate în locuri publice.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Înregistrări",
+      "title": "În cazul în care înregistrările trăiesc"
+    },
+    "items": [
+      "<strong>Deciziile proiectului.</strong> Deciziile de acceptare, arhivare și redistribuire sunt înregistrate ca emisiuni sau comunicări în depozitul relevant și rezumate în registrul public. <a href=\"/projects/\">înregistrare</a>- Da , domnule .",
+      "<strong>Solicită înregistrări.</strong> Înregistrările de solicitări publice sunt stocate în organizația IATF GitHub, pe acest site web sau pe ambele. înregistrările pot rezuma, redacta sau restructura cererea inițială, astfel încât nevoia de accesibilitate să poată fi revizuită fără a expune informații personale inutile. Deciziile de neînțelegere sunt rezumate în înregistrarea publică atunci când afectează un proiect sau o decizie de guvernanță.",
+      "<strong>Codul se schimbă.</strong> Fiecare modificare a codului este un angajament public pe depozitul relevant. <a href=\"{{contact.githubOrgUrl}}\">Organizația GitHub</a>- Da , domnule .",
+      "<strong>Schimbări de guvernare.</strong> Actualizările la pagina de guvernanță sunt urmărite ca angajamente la <code>site-ul IATF</code> Vizualizarea repozitoarelor. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Istoricul comiterii</a> pe GitHub.",
+      "<strong>Costuri de exploatare.</strong> IATF menține costurile de operare scăzute și înregistrează cheltuielile recurente pentru infrastructura publică.",
+      "<strong>Notă de coordonare.</strong> Notă de la orice revizuire sau decizie coordonată în direct pe GitHub Discuții despre depozitul relevant  vizualizare <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Discuții</a> cu privire la <code>site-ul IATF</code> depozitar."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Costuri",
+      "title": "Înregistrarea costurilor de exploatare"
+    },
+    "paragraphs": [
+      "IATF își păstrează în mod intenționat infrastructura publică mică. Din 2022, principalele costuri operaționale recurente au fost numele de domenii.",
+      "Această înregistrare nu este o situație financiară auditată, ci un registru public al costurilor de exploatare pentru infrastructura utilizată pentru a menține IATF online."
+    ],
+    "footnote": "Facturile pot fi publicate după redactare. Adresele personale, detaliile de facturare și informațiile despre conturi inutile nu fac parte din înregistrarea publică.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domeniul",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Costuri",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Notă",
+            "value": "Costul domeniului finanțat de mugiwarafx. Hosting-ul a folosit infrastructură gratuită sau low-cost prin Cloudflare. <code>iatf.cc</code> Domeniul."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domeniul",
+            "value": "<code>Accessibilitate internaţionalăaskforce.com</code>"
+          },
+          {
+            "label": "Costuri",
+            "value": "18,68 dolari SUA"
+          },
+          {
+            "label": "Notă",
+            "value": "Costul domeniului finanțat de mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domeniul",
+            "value": "<code>Accessibilitate internaţionalăaskforce.com</code>"
+          },
+          {
+            "label": "Costuri",
+            "value": "17,06 dolari SUA"
+          },
+          {
+            "label": "Notă",
+            "value": "Costul domeniului finanțat de mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domeniul",
+            "value": "<code>Accessibilitate internaţionalăaskforce.com</code>"
+          },
+          {
+            "label": "Costuri",
+            "value": "14,76 dolari SUA"
+          },
+          {
+            "label": "Notă",
+            "value": "Costul domeniului finanțat de mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domeniul",
+            "value": "<code>Accessibilitate internaţionalăaskforce.com</code>"
+          },
+          {
+            "label": "Costuri",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Notă",
+            "value": "Costul domeniului finanțat de mugiwarafx."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota de frontieră",
+      "title": "Ce nu este public"
+    },
+    "paragraphs": [
+      "Unele materiale sunt păstrate în afara arhivelor publice în scopuri:"
+    ],
+    "items": [
+      "Datele de contact personale ale propunerilor.",
+      "Correspondență privată folosită doar pentru a clarifica o cerere înainte de a fi acceptată, respinsă sau rezumată.",
+      "Adrese private, numere de telefon, şi detalii personale inutile.",
+      "Orice care ar identifica un utilizator individual de tehnologie de asistență fără consimțământ.",
+      "Conversații Raw Discord, cu excepția cazului în care un mesaj specific este mutat intenționat într-o înregistrare publică a proiectului."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Citește mai mult",
+      "title": "Guvernarea este cartea de reguli din spatele acestor înregistrări"
+    },
+    "paragraphs": [
+      "Dacă doriți să înțelegeți modul în care proiectele sunt acceptate, arhivate sau redistribuite, citiți pagina de guvernanță."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

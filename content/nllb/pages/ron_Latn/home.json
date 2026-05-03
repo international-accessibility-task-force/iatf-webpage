@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "De la necesitatea accesibilităţii la repo-urile publice",
+    "lead": "IATF ajută asociații, grupuri și indivizi să transforme nevoile reale de accesibilitate în proiecte publice open source.",
+    "support": [
+      "Proiectele acceptate sunt publicate în organizația IATF GitHub sub o licență copyleft și dezvoltate în public de un inginer responsabil."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Model de funcționare publică",
+      "title": "O cale publică simplă pentru software-ul accesibil"
+    },
+    "paragraphs": [
+      "Printr-un formular, oricine poate depune o problemă de accesibilitate la IATF. Dacă echipa poate să o preia, se deschide un depozit public GitHub pentru lucrare.",
+      "Fiecare proiect acceptat are o casă publică clară pentru cod, probleme, documentație și lansări, cu dezvoltarea condusă în mod deschis de un inginer responsabil."
+    ],
+    "specCard": {
+      "title": "Model de funcționare publică",
+      "terms": [
+        {
+          "term": "Nevoie",
+          "definition": "Problema reală a accesibilităţii"
+        },
+        {
+          "term": "Revizuire",
+          "definition": "Adecvarea la misiune și fezabilitatea practică"
+        },
+        {
+          "term": "Spațiul proiectului",
+          "definition": "Depozitul public GitHub"
+        },
+        {
+          "term": "Supravegherea",
+          "definition": "Proprietatea organizațională a IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Procesul",
+      "title": "Cum funcţionează",
+      "intro": "Modelul rămâne în mod intenționat mic, astfel încât calea publică este ușor de urmat."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "O cerere este depusă",
+        "paragraphs": [
+          "O asociație, un grup sau o persoană fizică poate depune o cerere bazată pe o necesitate reală de accesibilitate.",
+          "Cererile pot începe prin intermediul site-ului web, prin e-mail la <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, sau prin Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF îl revizuiește",
+        "paragraphs": [
+          "Analizăm adecvarea misiunii, domeniul de aplicare practic și dacă lucrarea face parte dintr-un proiect public open source."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Se creează un depozit public",
+        "paragraphs": [
+          "Dacă un proiect este acceptat, acesta este publicat în organizația IATF GitHub sub o licență copyleft.",
+          "Depozitul devine casa publică a codului, a problemelor, a documentației și a lansărilor."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un inginer responsabil conduce proiectul",
+        "paragraphs": [
+          "Un inginer responsabil este atribuit depozitului de proiecte și dezvoltarea are loc în public."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Înregistrare",
+      "title": "Registrul public al proiectelor"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Începe de aici.",
+      "title": "Căutaţi lucrări în curs de desfăşurare sau începeţi un proiect concret"
+    },
+    "paragraphs": [
+      "Utilizaţi registrul pentru a vedea ce este deja public, sau începeţi admisia dacă o problemă concretă de accesibilitate ar trebui să devină un proiect."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

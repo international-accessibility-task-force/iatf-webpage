@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proiecte de accesibilitate publică",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proiecte de accesibilitate publică",
+    "lead": "Acest registru listează proiectele publice menținute prin intermediul IATF. Proiectele de accesibilitate acceptate, infrastructura site-ului și prototipurile arhivate sunt păstrate vizibile aici.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Înregistrare",
+      "title": "Registrul curent"
+    },
+    "intro": [
+      "Proiectele acceptate sunt enumerate aici de îndată ce sunt publicate."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Trimite o cerere",
+      "title": "Transformarea unei nevoi concrete de accesibilitate într-un proiect public"
+    },
+    "paragraphs": [
+      "IATF analizează nevoile concrete de accesibilitate care pot fi transformate în lucrări publice cu sursă deschisă utile."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Încă nu au fost publicate proiecte",
+    "paragraphs": [
+      "IATF pregătește primul set de proiecte publice.",
+      "Puteți încă să trimiteți o cerere dacă aveți o nevoie concretă de accesibilitate."
+    ]
+  }
+}

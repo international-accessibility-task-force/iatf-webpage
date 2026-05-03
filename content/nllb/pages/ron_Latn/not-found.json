@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nu s-a găsit."
+  },
+  "hero": {
+    "eyebrow": "Nu s-a găsit.",
+    "title": "Pagina solicitată nu a fost găsită",
+    "lead": "Folosiţi rutele principale de mai jos pentru a reveni la locul public.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Acasă",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ruta pe care ai cerut-o nu există."
+    ],
+    "items": [
+      {
+        "label": "Acasă",
+        "href": "/"
+      },
+      {
+        "label": "Proiecte",
+        "href": "/projects/"
+      },
+      {
+        "label": "Alăturaţi-vă.",
+        "href": "/join/"
+      },
+      {
+        "label": "Accesibilă",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Guvernare",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparență",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

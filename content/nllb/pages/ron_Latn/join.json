@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Alăturați-vă IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Alăturați-vă IATF",
+    "lead": "Apartenența este deschisă. Există mai multe modalități de participare, indiferent dacă vă bazați pe tehnologie de asistență, construiți software accesibil, traduceți, testați sau întrețineți un proiect. Discuțiile și deciziile au loc în public pe GitHub și Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rolul",
+      "title": "Moduri de a contribui"
+    },
+    "items": [
+      "<strong>Cere un proiect.</strong> Dacă întâlniți o barieră de accesibilitate care ar putea fi abordată de software-ul public cu sursă deschisă, trimiteți-o prin recepția de solicitări.",
+      "<strong>Test şi revizuire.</strong> Încercați proiectele IATF cu tehnologia de asistență pe care o utilizați, raportați ce funcționează și ce nu și depuneți problemele direct în depozitul relevant.",
+      "<strong>Traducerea.</strong> Conținutul sursă este publicat mai întâi în limba engleză obișnuită. Traducerile sunt adăugate pe măsură ce contribuitorii sunt disponibili, începând cu limba spaniolă.",
+      "<strong>Construieşte.</strong> Alegeți probleme în orice depozit IATF, trimiteți solicitări de extragere sau preluați un proiect ca inginer responsabil.",
+      "<strong>Menţine.</strong> Proiectele existente au nevoie uneori de un nou operator de întreținere, iar rotația operatorilor este o parte normală a modelului, nu o excepție."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canale",
+      "title": "În cazul în care IATF lucrează în public"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Probleme, solicitări de extragere, comunicări și înregistrări de proiect.",
+      "<strong>Discordie.</strong> Discuţii în direct, coordonare şi întrebări informale.",
+      "<strong>E-mail.</strong> Utilizare <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> dacă nici GitHub, nici Discord nu se potrivesc."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Următorul pas",
+      "title": "Alegeţi canalul care se potriveşte cu modul în care doriţi să contribuiţi"
+    },
+    "paragraphs": [
+      "Toate canalele se alimentează în aceeași revizuire publică și în aceleași depozite publice."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Solicitarea unui proiect de accesibilitate",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Solicitarea unui proiect de accesibilitate",
+    "lead": "IATF examinează cererile de proiecte de accesibilitate care pornesc de la o necesitate reală.",
+    "support": [
+      "Nu aveţi nevoie de specificaţii complete, ci de o problemă clară, pe cine afectează şi de ce este importantă, pentru a începe."
+    ],
+    "actions": [
+      {
+        "label": "Începe o cerere",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Foloseşte Discord în schimb.",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canale",
+      "title": "Alege calea cea mai uşoară."
+    },
+    "intro": [
+      "Toate rutele intră în aceeaşi analiză."
+    ],
+    "items": [
+      {
+        "label": "Site-ul web",
+        "body": "Utilizați formularul de mai jos pentru a depune o cerere structurată."
+      },
+      {
+        "label": "Adresa de e-mail",
+        "body": "Trimiteţi cererea direct la: {{contact.requestsEmail}}Solicitările prin e-mail pot deveni înregistrări publice de solicitare după revizuire și redactare."
+      },
+      {
+        "label": "Discordie",
+        "body": "Începeţi de acolo, dacă e mai uşor. Cererea se mută în aceeaşi revizuire."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Înainte de a trimite o cerere",
+    "paragraphs": [
+      "Cererile pot fi rezumate și publicate ca înregistrări publice de cereri în organizația IATF GitHub, pe acest site sau pe ambele.",
+      "Nu includeți adrese private, numere de telefon, detalii medicale sau informații de identificare despre utilizatorii individuali de tehnologii de asistență, cu excepția cazului în care este necesar și vă simțiți confortabil cu revizuirea acestora de către IATF.",
+      "IATF elimină datele de contact personale inutile înainte de publicarea înregistrărilor cererilor."
+    ]
+  },
+  "review": {
+    "title": "Așteptări de revizuire",
+    "paragraphs": [
+      "Trimiterea unei cereri nu garantează acceptarea.",
+      "IATF revizuiește cererile de adecvare a misiunii, fezabilitate, utilitate și dacă lucrarea aparține unui depozit public.",
+      "Unele cereri pot fi respinse, amânate sau modificate înainte de acceptare."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formularul de cerere",
+      "title": "Trimiterea unei cereri"
+    },
+    "fields": [
+      {
+        "kind": "date de intrare",
+        "name": "solicitantul",
+        "label": "Numele sau organizaţia dvs.",
+        "helper": "Cine face cererea?"
+      },
+      {
+        "kind": "selectaţi",
+        "name": "Traseul de contact",
+        "label": "Ruta de contact preferată",
+        "helper": "Cum ar trebui să se desfășoare urmărirea?",
+        "required": true,
+        "options": [
+          "Adresa de e-mail",
+          "Discordie"
+        ]
+      },
+      {
+        "kind": "date de intrare",
+        "name": "Detalii de contact",
+        "label": "Detalii de contact",
+        "helper": "Adresa de e-mail sau adresa Discord pentru urmărire.",
+        "placeholder": "Adresa de e-mail sau adresa Discord",
+        "required": true
+      },
+      {
+        "kind": "date de intrare",
+        "name": "limbă",
+        "label": "Limba",
+        "helper": "Limba preferată, dacă este relevantă.",
+        "value": "Engleză"
+      },
+      {
+        "kind": "zonă de text",
+        "name": "Cea mai mare problemă",
+        "label": "Ce problemă încerci să rezolvi?",
+        "helper": "Descrie bariera în limbaj simplu.",
+        "required": true
+      },
+      {
+        "kind": "zonă de text",
+        "name": "Utilizatorii afectaţi",
+        "label": "Cine este afectat?",
+        "helper": "Pe cine ar ajuta asta?",
+        "required": true
+      },
+      {
+        "kind": "zonă de text",
+        "name": "extraContext",
+        "label": "Context suplimentar",
+        "helper": "Împărtășiți orice altceva care ajută la explicarea necesității: de ce este important, exemple, referințe, o idee brută de software sau constrângeri de timp."
+      },
+      {
+        "kind": "selectaţi",
+        "name": "openSourceConsent",
+        "label": "Te simţi confortabil cu dezvoltarea open source?",
+        "helper": "Proiectele acceptate sunt depozite publice în cadrul IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "- Da , domnule .",
+          "Nu , nu .",
+          "Nu sunt sigur încă."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Dacă este acceptat",
+      "title": "Ce înseamnă acceptarea"
+    },
+    "items": [
+      "un depozit public în organizația IATF GitHub",
+      "un inginer responsabil alocat proiectului",
+      "o licență copyleft pentru cod și materiale de proiect",
+      "dezvoltarea publică în depozit",
+      "o intrare în registru pe site-ul IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Începe conversaţia.",
+      "title": "O cerere scurtă şi clară este suficientă pentru a începe"
+    },
+    "paragraphs": [
+      "Dacă aveți o nevoie reală de accesibilitate și credeți că ar trebui să devină un proiect public, trimiteți-l la noi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indicele",
+    "title": "Sitemap",
+    "lead": "Fiecare pagină publică de pe IATF.CC, într-un singur loc."
+  },
+  "sections": [
+    {
+      "title": "Pagini principale",
+      "items": [
+        {
+          "label": "Acasă",
+          "href": "/"
+        },
+        {
+          "label": "Proiecte",
+          "href": "/projects/"
+        },
+        {
+          "label": "Solicitarea unui proiect",
+          "href": "/propose/"
+        },
+        {
+          "label": "Guvernare",
+          "href": "/governance/"
+        },
+        {
+          "label": "Alăturaţi-vă.",
+          "href": "/join/"
+        },
+        {
+          "label": "Accesibilă",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparență",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proiecte",
+  "projectsEmpty": "Încă nu au fost publicate proiecte."
+}

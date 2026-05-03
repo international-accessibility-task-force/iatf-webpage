@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Site-ul web al IATF",
+    "summary": "Site-ul public al Grupului de lucru pentru accesibilitate internațională.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF avea nevoie de o casă publică stabilă care să explice modelul, să listeze proiectele și să indice contribuitorii la următorul pas corect.",
+    "why": "Site-ul este ușa de intrare publică a IATF. Este construit ca un proiect static mic, astfel încât să fie ușor de citit, tradus și întreținut în aer liber.",
+    "scopeIn": [
+      "Pagini publice de destinație care explică modelul IATF",
+      "Registrul public al proiectelor IATF acceptate, active și arhivate cu statut, întreținere, depozit și demo",
+      "O pagină și un formular de primire a cererilor",
+      "Pagini privind guvernanța și transparența",
+      "Sursa engleză cu structura pregătită pentru traducere",
+      "Implementarea statică pe activele statice ale lucrătorilor Cloudflare"
+    ],
+    "scopeOut": [
+      "Zonele private ale membrilor, conturile sau fluxurile de conectare",
+      "găzduirea codului sursă al proiectului, care se află în propriul depozit al fiecărui proiect",
+      "Chat în timp real, care trăiește în Discord",
+      "Urmărirea problemelor pentru proiectele individuale, care se află în depozitul GitHub al fiecărui proiect"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Un prototip IATF timpuriu, arhivat după atingerea unui punct de oprire natural.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Explorarea timpurie a unui instrument axat pe accesibilitate în cadrul IATF.",
+    "why": "Depozitul este păstrat public ca o înregistrare a lucrării, chiar dacă dezvoltarea activă s-a oprit.",
+    "scopeIn": [
+      "Prototipul timpuriu al unui instrument axat pe accesibilitate, păstrat ca înregistrare publică"
+    ],
+    "scopeOut": [
+      "Dezvoltare activă sau lucrări de caracteristică",
+      "Angajamentele de întreținere",
+      "Utilizarea recomandată în producție"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Un robot comunitar IATF, arhivat după atingerea unui punct natural de oprire.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatizarea canalelor comunitare IATF.",
+    "why": "Depozitul este păstrat public ca o înregistrare a lucrării, chiar dacă dezvoltarea activă s-a oprit.",
+    "scopeIn": [
+      "Automatizarea discordiei în jurul canalelor comunității IATF, menținută ca înregistrare publică"
+    ],
+    "scopeOut": [
+      "Dezvoltare activă sau lucrări de caracteristică",
+      "Angajamentele de întreținere",
+      "Utilizarea recomandată în producție"
+    ]
+  }
+]
