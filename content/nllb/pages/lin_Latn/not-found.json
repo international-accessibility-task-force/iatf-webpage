@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Emonani te"
+  },
+  "hero": {
+    "eyebrow": "Emonani te",
+    "title": "Lokasa oyo olingi ezwami te",
+    "lead": "Salelá banzela minene oyo ezali na nse mpo na kozonga na esika ya bato nyonso.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ndako",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Nzela oyo osengaki ezali te."
+    ],
+    "items": [
+      {
+        "label": "Ndako",
+        "href": "/"
+      },
+      {
+        "label": "Misala",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kokɔta na molɔngɔ",
+        "href": "/join/"
+      },
+      {
+        "label": "Ndenge ya kozwa yango",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Boyangeli",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kolimbola makambo polele",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

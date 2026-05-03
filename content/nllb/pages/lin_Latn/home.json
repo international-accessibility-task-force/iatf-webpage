@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kobanda na mposa ya kozala na likoki ya kokɔta na bakompanyi ya Leta",
+    "lead": "IATF esungaka bibongiseli, bituluku, mpe bato mpo na kobongola bosenga ya bosolo ya bosengi na misala ya bato banso.",
+    "support": [
+      "Misala oyo endimami ebimisami na kati ya ebongiseli ya IATF GitHub na nse ya ndingisa ya copyleft mpe ebongisami na miso ya bato nyonso na moto ya mayele oyo azali na mokumba."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Lolenge ya kosala ya Leta",
+      "title": "Nzela ya polele mpo na ba logiciels oyo ekoki kosalelama"
+    },
+    "paragraphs": [
+      "Na nzela ya formulaire, moto nyonso akoki kotinda likambo na IATF. Soki ekipi ekoki kozwa yango, esika ya kobomba na GitHub efungwamaka mpo na mosala.",
+      "Projet nyonso oyo endimami ezali na ndako ya polele mpo na code, makambo, mikanda, mpe kobimisa, na bokóli oyo etambwisami na polele na ingénieur oyo azali na mokumba."
+    ],
+    "specCard": {
+      "title": "Lolenge ya kosala ya Leta",
+      "terms": [
+        {
+          "term": "Mposa",
+          "definition": "Mokakatano ya solo ya kozala na likoki ya kokɔta"
+        },
+        {
+          "term": "Bozongeli",
+          "definition": "Kokokisama ya mosala mpe lolenge ya kosalela yango"
+        },
+        {
+          "term": "Esika ya misala",
+          "definition": "Esika ya kobomba makambo na GitHub"
+        },
+        {
+          "term": "Boyangeli",
+          "definition": "Bokangami na bibongiseli ya IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Mosala",
+      "title": "Mosala na yango",
+      "intro": "Ndakisa yango ezali moke mpenza mpo na kosalisa bato bálanda nzela ya bato nyonso."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Bazali na mposa ya lisalisi",
+        "paragraphs": [
+          "Lisangá moko, etuluku moko, to moto moko akoki kotinda mokanda oyo emonisi ete azali mpenza na mposa ya lisalisi.",
+          "Basengi bakoki kobanda na site internet, na nzela ya e-mail na <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, to na nzela ya kowelana."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF etalelaka yango",
+        "paragraphs": [
+          "Totalelaka soki mosala yango eyokani na mokano na yango, soki ekoki kosalelama, mpe soki esengeli kozala na kati ya programɛ moko oyo bato nyonso bakoki kosalela."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Bazali kosala esika ya kobomba mikanda mpo na bato nyonso",
+        "paragraphs": [
+          "Soki mosala moko endimami, ekobimisama na ebongiseli ya IATF GitHub na nse ya ndingisa ya copyleft.",
+          "Esika yango ekómaka ndako ya bato nyonso ya code, ya makambo, ya mikanda, mpe ya mikanda oyo ebimaka."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Moto moko ya mayele nde azali kotambwisa mosala yango",
+        "paragraphs": [
+          "Moto moko ya mayele aponami mpo na mosala yango mpe mosala yango esalemaka na miso ya bato nyonso."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Mokanda",
+      "title": "Mokanda ya misala ya Leta"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bandá awa",
+      "title": "Luká mosala oyo ozali kosala to bandá mosala moko ya sikisiki"
+    },
+    "paragraphs": [
+      "Salelá mikanda mpo na komona makambo oyo bato nyonso bayebi, to bandá kotánga yango soki likambo moko ya sikisiki oyo etali likoki ya kokɔta na Internet ekómi mosala."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

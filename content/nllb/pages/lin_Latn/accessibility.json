@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ndenge ya kozwa yango",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ndenge ya kozwa yango",
+    "lead": "Mokano ya IATF ezali ya kosala ete site oyo ezala ya mindɔndɔ te, oyo ekoki kotángama, oyo moto akoki kosalela na ordinatɛrɛ, mpe oyo ekoki kosalelama na baaparɛyi ya mikolo oyo.",
+    "support": [
+      "Mpo na kozala na Internet, IATF esalelaka: [W3C WAI](https://www.w3.org/WAI/) Ndenge oyo bato oyo basalelaka baaparɛyi oyo esalisaka mpo na kokɔtisa bato na Internet bazali kosalela yango ezali mpe kosalisa mpo na koyeba ndenge ya kosalela yango."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kopesa lapolo",
+      "title": "Koyebisa likambo ya kozala na likoki ya kokoma"
+    },
+    "paragraphs": [
+      "Soki omoni eloko moko oyo ezali kopekisa moto akɔta na site oyo, tosɛngi yo otindela biso yango na nzela ya e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Masolo oyo ekoki kosalisa yo ezali oyo:"
+    ],
+    "items": [
+      "lokasa oyo likambo yango esalemaki",
+      "oyo ozalaki komeka kosala",
+      "technologie nini ya kosunga, navigateur, to masini nini ozalaki kosalela, soki ezali na ntina",
+      "nini elekaki mabe",
+      "nini elingaki kosalisa"
+    ],
+    "footnote": "Ezali na ntina te ete okoma lapolo ya libunga. Ndimbola ya polele ekoki."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ndenge ya kosalela yango",
+      "title": "Kosala makambo na miso ya bato"
+    },
+    "paragraphs": [
+      "Bakoki kokoma na mokuse makambo nyonso oyo etali likoki ya kokɔta na site yango mpo na kobongisa yango.",
+      "Soki na kati ya lapolo na yo ezali na makambo ya moto ye moko, yebisá yango polele na maloba na yo."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ndenge makambo ezali lelo oyo",
+      "title": "Bandelo oyo eyebani"
+    },
+    "paragraphs": [
+      "Site oyo ezali moke na mokano mpe mingi na yango etɛlɛmi esika moko. Babiblia mosusu ekoki kozala ya mobimba te ntango tozali kobongisa mabongoli."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Lokasa ya Internet ya IATF",
+    "summary": "Site ya bato nyonso ya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ezalaki na mposa ya ndako ya bato nyonso oyo ekolimbola ndakisa yango, ekotya liste ya misala, mpe ekomonisa bato oyo bazali kopesa mabɔkɔ na likambo oyo esengeli kosalema na nsima.",
+    "why": "Esika yango ezali ekuke ya liboso ya IATF. Etongami lokola projet moko ya moke mpo ete ezala pete ya kotanga, kobongola, mpe kobatela na esika ya polele.",
+    "scopeIn": [
+      "Lokasa ya bato nyonso oyo elimbolaka modèle ya IATF",
+      "Registre ya bato nyonso ya misala ya IATF oyo endimami, oyo ezali kosala mosala, mpe oyo ebombami na esika ya kobomba makambo na yango",
+      "Lokasa ya bosengi mpe formulaire",
+      "Lokasa ya boyangeli mpe ya polele",
+      "Lisoló ya Lingelesi elongo na molɔngɔ́ oyo esili kobongisama mpo na kobongolama",
+      "Kotindama ya statike na Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Bisika ya basangani, ba comptes, to ba flux ya ba logins",
+      "Kobomba code source ya projet, oyo ezali na kati ya référentiel ya projet moko na moko",
+      "Lisoló na ntango ya solo, oyo ezali na kati ya Discord",
+      "Kolanda likambo mpo na misala ya moto na moto, oyo ezali na kati ya GitHub ya mosala moko na moko"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie ya IATF",
+    "summary": "Ndakisa ya liboso ya IATF, ebombamaki nsima ya kokóma na esika oyo esengelaki kosuka.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Bolukiluki ya ebandeli ya esaleli oyo etaleli makoki ya kokoma na nse ya IATF.",
+    "why": "Bazali kobomba yango mpo bato nyonso báyeba yango, ata soki mosala ya kobongisa yango esili.",
+    "scopeIn": [
+      "Ndakisa ya liboso ya esaleli mpo na kosalisa bato bákanga ntina ya makambo oyo ezali na kati"
+    ],
+    "scopeOut": [
+      "Mosala ya bokóli ya makasi to mosala ya bilembo",
+      "Mikano ya mbongo ya kofuta",
+      "Ndenge ya kosalela yango na mosala ya kobimisa biloko"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Bot ya IATF",
+    "summary": "Bot ya lisanga ya IATF, ebombami nsima ya kokoma na esika ya kosuka.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatisation na ba canaux ya communauté ya IATF.",
+    "why": "Bazali kobomba yango mpo bato nyonso báyeba yango, ata soki mosala ya kobongisa yango esili.",
+    "scopeIn": [
+      "Automatisation ya discord na ba canaux ya communauté ya IATF, ebombami lokola dossier public"
+    ],
+    "scopeOut": [
+      "Mosala ya bokóli ya makasi to mosala ya bilembo",
+      "Mikano ya mbongo ya kofuta",
+      "Ndenge ya kosalela yango na mosala ya kobimisa biloko"
+    ]
+  }
+]

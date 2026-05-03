@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kosenga projet ya accessibilité",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kosenga projet ya accessibilité",
+    "lead": "IATF etalelaka ba demandes ya ba projets ya accessibilité oyo ebandaka na mposa ya solo.",
+    "support": [
+      "Ezali na ntina te oyeba makambo nyonso oyo etali likambo yango, kasi soki oyebi malamu moto oyo likambo yango etali mpe mpo na nini ezali na ntina, yango ekoki mpo na kobanda."
+    ],
+    "actions": [
+      {
+        "label": "Kobimisa bosengi",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Salela Discord na esika na yango",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Banzela",
+      "title": "Poná nzela oyo eleki pɛtɛɛ"
+    },
+    "intro": [
+      "Banzela nyonso ezali kotalelama ndenge moko."
+    ],
+    "items": [
+      {
+        "label": "Lokasa ya Internet",
+        "body": "Salelá formilɛrɛ oyo ezali awa na nse mpo na kotinda mokanda."
+      },
+      {
+        "label": "E-mail na yo",
+        "body": "Tinda bosengi mbala moko na: {{contact.requestsEmail}}. Masengi ya e-mail ekoki kokóma mikanda ya bosengi ya bato nyonso nsima ya kotalela yango mpe kolongola yango."
+      },
+      {
+        "label": "Kozanga boyokani",
+        "body": "Kobanda na esika wana soki yango ezali pete. Kosenga ezali kaka kokende na bozongeli moko."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Liboso ya kotinda mokanda",
+    "paragraphs": [
+      "IATF esalaka na miso ya bato nyonso. Basengi ekoki kozwama na mokuse mpe kobimisama lokola mikanda ya bosengi ya bato banso na kati ya ebongiseli ya GitHub, na site oyo, to nyonso mibale.",
+      "Kokotisa adrɛsi ya moto te, nimero ya telefone te, makambo ya monganga te, to makambo oyo ekoki kosalisa yo oyeba moto oyo asalelaka baaparɛyi ya mikolo oyo te, longola kaka soki ezali na ntina mpe ondimi ete IATF etalela yango.",
+      "IATF ekolongola bansango ya bato oyo ezali na ntina te liboso ya kobimisa ba records ya bosengi."
+    ]
+  },
+  "review": {
+    "title": "Makambo oyo tozali kozela",
+    "paragraphs": [
+      "Kotinda mokanda ezali ndanga te ete bakondima yango.",
+      "IATF etalelaka makambo oyo moto asɛngi mpo na koyeba soki mosala na ye ebongi, soki ekoki kosalema, soki ezali na ntina, mpe soki mosala yango esengeli kozala na esika ya kobomba makambo ya bato nyonso.",
+      "Masɛngami mosusu makoki koboyama, kozongisama nsima, to kobongisama lisusu liboso ya kondima yango."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formule ya bosengi",
+      "title": "Kotinda mokanda"
+    },
+    "fields": [
+      {
+        "kind": "makambo ya kokɔtisa",
+        "name": "mosengi",
+        "label": "Nkombo na yo to ya ebongiseli na yo",
+        "helper": "Nani azali kosɛnga yango?"
+      },
+      {
+        "kind": "kopona",
+        "name": "nzela ya boyokani",
+        "label": "Nzela ya malamu mpo na kokutana na bato",
+        "helper": "Lolenge nini kolandela esengeli kosalema?",
+        "required": true,
+        "options": [
+          "E-mail na yo",
+          "Kozanga boyokani"
+        ]
+      },
+      {
+        "kind": "makambo ya kokɔtisa",
+        "name": "contactMaloba ya ntina",
+        "label": "Banimero ya telefone",
+        "helper": "Adresse e-mail to adresse ya Discord mpo na kolanda.",
+        "placeholder": "Adresse e-mail to adresse ya Discord",
+        "required": true
+      },
+      {
+        "kind": "makambo ya kokɔtisa",
+        "name": "lokótá",
+        "label": "Monɔkɔ",
+        "helper": "Lokótá oyo olingi, soki ezali na ntina.",
+        "value": "Lingelesi"
+      },
+      {
+        "kind": "esika ya makomi",
+        "name": "mokakatano",
+        "label": "Mokakatano nini ozali koluka kosilisa?",
+        "helper": "Limbolá mokakatano yango na maloba ya pɛtɛɛ.",
+        "required": true
+      },
+      {
+        "kind": "esika ya makomi",
+        "name": "baUtilisateurs oyo bamoni mpasi",
+        "label": "Yango etali banani?",
+        "helper": "Yango ekosalisa nani?",
+        "required": true
+      },
+      {
+        "kind": "esika ya makomi",
+        "name": "extraMotó ya likambo",
+        "label": "Makambo mosusu",
+        "helper": "Pesá eloko mosusu oyo ekoki kosalisa mpo na kolimbola ntina ya likambo yango: mpo na nini ezali na ntina, bandakisa, ba références, likanisi ya logiciel, to makambo oyo esengeli kosalema na ntango oyo esengeli."
+      },
+      {
+        "kind": "kopona",
+        "name": "openSourceConsent[kokoma _ kobɔngisa mosólo]",
+        "label": "Ozalaka na esengo ya kosala programɛ ya ordinatɛrɛ oyo bato nyonso bakoki kosalela?",
+        "helper": "Ba projets oyo endimami ezali ba référentiels publics ya IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ɛɛ",
+          "Te",
+          "Nayebi naino te"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Soki endimami",
+      "title": "Kondima elimboli nini?"
+    },
+    "items": [
+      "esika ya kobomba mikanda ya bato nyonso na kati ya ebongiseli ya IATF GitHub",
+      "ingénieur oyo azali na mokumba na mosala yango",
+      "ndingisa ya copyleft mpo na code mpe biloko ya projet",
+      "bokóli ya bato nyonso na esika ya kobomba makambo",
+      "makomi ya bokomisi na site ya IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bandá lisolo",
+      "title": "Mpo na kobanda, esengeli kaka kosɛnga na mokuse mpe na ndenge ya polele"
+    },
+    "paragraphs": [
+      "Soki ozali mpenza na mposa ya kozala na likoki ya kosolola na bato mpe okanisi ete esengeli ete mosala yango ekóma mosala ya bato nyonso, tindá yango epai na biso."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

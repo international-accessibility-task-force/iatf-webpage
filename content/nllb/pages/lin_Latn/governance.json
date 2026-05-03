@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Boyangeli mpe lolenge ya kobomba makambo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Boyangeli mpe lolenge ya kobomba makambo",
+    "lead": "IATF ebatelaka ba projets ya accessibilité ya bato banso, ya kotanga, mpe ya kobatelama.",
+    "support": [
+      "Lokasa oyo ezali kolimbola nini ekokisi masɛngami, ndenge nini ba référentiels ezali kobatelama, mpe mokumba nini ya nivo ya répertoire ezali kosalelama nsima ya kondima."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Mitinda",
+      "title": "Kokokisama ya mosala, lotomo ya kozala na yango, kopesa ndingisa"
+    },
+    "cards": [
+      {
+        "title": "Esengeli na mosala",
+        "paragraphs": [
+          "IATF endimaka mosala oyo ezali kosilisa mokakatano ya solo ya kozala na likoki ya kokɔta mpe ezali na ntina mingi na miso ya bato.",
+          "Mosala esengeli kozala na ntina koleka kaka mosala ya moto ye moko mpe esengeli kosalelama lokola esika ya kobomba makambo ya bato nyonso.",
+          "Mpo na kozala na Internet, IATF esalelaka: [W3C WAI](https://www.w3.org/WAI/) Makambo oyo bato oyo basalelaka baaparɛyi ya mikolo oyo bazali kokutana na yango ezali mpe elembeteli ya solosolo oyo ezali komonisa ete basalelaka yango malamu."
+        ]
+      },
+      {
+        "title": "Kondimama ya mosala",
+        "paragraphs": [
+          "Kopesa makanisi ekoki kondimama soki kotalela yango emonisi ete:"
+        ],
+        "items": [
+          "ezali kokokisa mposa ya solo ya kozala na likoki ya kokɔta na Internet",
+          "Mokakatano ezali polele mpo na kotalela yango",
+          "scope ezali ya solo mpo na ko lancer",
+          "mosala yango eyokani na mosala ya IATF",
+          "nzela ya malamu ezali mpo na kobongisa to kosilisa yango"
+        ]
+      },
+      {
+        "title": "Kozala na esika ya kobomba makambo",
+        "paragraphs": [
+          "Misala oyo endimami esalemi na nse ya ebongiseli ya IATF GitHub.",
+          "Bibombelo ya mikanda etikalaka kuna mpo ete misala nyonso mizala na ndako ya bato nyonso, ata soki babateli na yango bakobaluka na nsima."
+        ]
+      },
+      {
+        "title": "Kopesa ndingisa",
+        "paragraphs": [
+          "Projets ya IATF basalelaka copyleft, soki projet moko elobi mosusu te:"
+        ],
+        "items": [
+          "<strong>Nkombo:</strong> AGPL-3.0",
+          "<strong>Mokanda:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingénieur oyo azali na mokumba to moto oyo abatelaka biloko",
+      "paragraphs": [
+        "Projet nyonso oyo endimami esengeli kozala na ingénieur to moto oyo azali na mokumba ya kobatela yango. Moto yango akoki kozwa ndingisa ya kozala mokambi ya esika ya kobomba makambo mpe asengeli:"
+      ],
+      "items": [
+        "kolakisa bato ndenge ya kosala na esika ya bato nyonso",
+        "kobomba esika ya kobomba makambo",
+        "kotala to kokamba makambo mpe kosenga",
+        "kokoma bikateli ya ntina ya tekiniki",
+        "salá ete bato mosusu bákanga ntina ya mosala oyo ozali kosala"
+      ],
+      "footnote": "Yango ezali mokumba ya niveau ya référentiel. Organisation eza na bokonzi ya IATF. Responsabilité awa ezali bokengi ya répertoire, direction technique, mpe coordination publique  te livraison privée illimitée, intégrations personnalisées, to ba engagements na niveau ya service libanda ya feuille de route publique."
+    },
+    "publicDevelopment": {
+      "title": "Bokoli ya bato",
+      "paragraphs": [
+        "Misala oyo ebandaka na nzela ya IATF esalemaka na miso ya bato nyonso."
+      ],
+      "items": [
+        "kode ya ebandeli",
+        "makambo",
+        "mikanda",
+        "makomi ya nzela",
+        "lisolo ya kobimisama"
+      ],
+      "footnote": "Boyebi ya ntina ya mosala esengeli te kozala kaka na masolo to na ba boîte de réception."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Mikanda ya Leta",
+      "title": "Mikanda ya bosengi ya bato banso"
+    },
+    "paragraphs": [
+      "IATF esalaka na miso ya bato nyonso. Masengi oyo ekotaka na nzela ya site internet, email, Discord, GitHub, to ba canaux mosusu ya Iatf ekoki kokoma ba records ya masengi ya bato banso.",
+      "Mokanda ya bosengi ya bato nyonso ezali kaka nsango ya ebandeli te. IATF ekoki kokomisa na mokuse, kobongisa, to kobongisa lisusu bosengi liboso ya kobimisa yango na boye ete bosenga ya kozala na bosengi ekoki kotalelama kozanga kobimisa bansango ya ntina te.",
+      "Makomi ya bosengi ya bato nyonso ekoki kobombama na ebongiseli ya IATF GitHub, na site oyo, to nyonso mibale.",
+      "Liboso ya kobimisa yango, IATF ekolongola makambo ya ntina te mpo na kokutana na moto, adrɛsi ya moto ye moko, mpe makambo oyo ekoki kosalisa mpo na koyeba moto oyo asalelaka baaparɛyi ya mikolo oyo, longola kaka soki mokano na yango ezali polele mpe ebongi kobimisa yango.",
+      "Discord esalelamaka mpo na coordination informelle. IATF e archivaka te masolo ya Discord na ndenge na yango moko, mpe kobomba nsango etambwisamaka na Discord. Bikateli oyo ezwamaka na kati ya discord esengeli ko resumer yango na ba archives publiques na GitHub to na page ya projet oyo etali yango.",
+      "Ba records ya ba requêtes eza exclus de l'indexation ya ba moteur ya recherche soki ekoki kosalema. Public elakisi reviewable mpe accountable. Elingi koloba te optimisé mpo na découverte na nzela ya ba recherches ya kombo.",
+      "IATF ekoki ko actualiser to kolongola ba enregistrements na ba surfaces publiques oyo eza na nse ya contrôle ya yango, kasi ekoki te ko garantir kolongolama na ba caches ya bato misusu, ba notifications, ba forks, ba screenshots, ba moteurs de recherche, ba Discord, to ba systèmes misusu ya libanda.",
+      "Soki nsango esengeli kozala ya moto ye moko, kotindela yango na nzela ya IATF te."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Mokumba ya ebongiseli",
+      "title": "Esika ya kofanda"
+    },
+    "lead": "Mokambi azali na mokumba ya kokamba misala ya IATF. Yango ekeseni na mosala ya ingénieur oyo azalaka na mokumba na misala: mokambi azali mokonzi ya ebongiseli mobimba, kasi te ya kotambwisa misala ya mokolo na mokolo ya esika moko ya kobomba makambo.",
+    "duties": {
+      "title": "Mosala ya kiti ya bokonzi",
+      "items": [
+        "Esimbi ba ndingisa ya nkolo na lisanga ya IATF GitHub",
+        "Bazali kokoma mokanda mpo na kondima mosala mpe kozwa bikateli mpo na kobomba makambo",
+        "Asalaka lokola esika ya kosolola na bato nyonso mpo na IATF",
+        "Azali kotambwisa maponami ya mbula na mbula"
+      ],
+      "footnote": "Mokambi ya IATF azali te na mokumba ya kokabola biloko na bato mosusu, ya kosala mosala oyo bafutaka ye, to ya kosala boyokani mpo na ndenge ya kosalela biloko, mpe azali na bokonzi te likoló ya bikateli ya moto oyo abatelaka esika ya kobomba biloko mpo na oyo etali malako ya tekiniki."
+    },
+    "election": {
+      "title": "Maponami ya mbula na mbula",
+      "paragraphs": [
+        "Mokambi aponamaka mbala moko na mbula, baponaka ye na bapɔsɔ mibale ya liboso ya sanza ya zomi na mibale, bapesaka ye biyano na mokolo ya 15 Desɛ́mbɛ, mpe mosala ya sika ebandaka mokolo ya 1 Yanuáli.",
+        "Bato oyo bazali na ndingisa ya ko voter bazali bato oyo bazalaki na mokumba ya kobatela na esika moko ya bokundoli ya IATF na boumeli ya mobu mpe basalaki contribution moko ya kosangana na esika ya kobomba ya Iatf na mobu wana.",
+        "Koponama ezali kotambwisama lokola lisoló ya bato banso na GitHub na esika ya kobomba makambo ya IATF, na yango bakandida, voti, mpe mbuma na yango nyonso ezali na kati ya mikanda ya bato nyonso."
+      ]
+    },
+    "continuity": {
+      "title": "Kozala ntango nyonso na molɔngɔ",
+      "paragraphs": [
+        "Soki maponami masalemi te na mbula moko, mokambi ya sika akotikala na mosala na ye kino na maponama oyo ekolanda.",
+        "Mokambi akoki kotika mosala na ye na ntango nyonso. Bakambi ya misala bakoki mpe kobenga maponami ya sanza na sanza mpo na ntina oyo eyebisami, oyo ekosalema na kolanda mibeko ndenge moko na oyo ya maponama ya mbula na mbula."
+      ]
+    },
+    "current": {
+      "title": "Mokambi ya sika",
+      "fields": [
+        {
+          "label": "Esika ya kofanda",
+          "value": "mbɛ́ngɛ́lɛ",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Liloba",
+          "value": "Kino na maponami ya sanza ya zomi na mibale ya mobu 2026"
+        },
+        {
+          "label": "Mokumba na ye ekomami na mikanda",
+          "value": "2026"
+        },
+        {
+          "label": "Maponami ya liboso",
+          "value": "Sanza ya zomi na mibale 2026"
+        }
+      ]
+    },
+    "footnote": "Mokumba ya mokambi ekomisamaki na molongo na mobu 2026 mpo na kosala ete bokambi ezala polele. Kino ntango wana, mokumba ya bokambi ezalaki na maboko ya mobandisi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Ndenge oyo mosala yango ezali kosalema",
+      "paragraphs": [
+        "Misala misusu mizali kosalela mwa ndambo moke ya maloba ya bato banso:"
+      ],
+      "items": [
+        "Motángo ya bato",
+        "Kondimama",
+        "Mosala",
+        "Esika na yango",
+        "Nazali koluka moto oyo akosalisa ngai",
+        "Biloko oyo ebombami"
+      ],
+      "footnote": "Na bamboka yango, mikanda ya Leta ezalaka mpasi te mpo na kotánga yango."
+    },
+    "reassignment": {
+      "title": "Kopesa esika mosusu mpe kobomba makambo",
+      "paragraphs": [
+        "Soki moto oyo azali kosala mosala ya kobatela yango atiki mosala na ye to azali lisusu kosala mosala te, IATF ekoki kopesa moto mosusu mokumba, kopekisa mosala ya kobongisa yango, to kobomba yango.",
+        "Mosala moko ekoki mpe kobombama ntango mposa na yango ya ebandeli ekokisami, ntango bazali lisusu kobatela yango te, to ntango mosala ezali lisusu na ntina te."
+      ],
+      "footnote": "Bibongiseli oyo bibombami bizali komonana na miso ya bato nyonso, longola bobele soki ezali na ntina monene ya kosala bongo te."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ndimbola ya ndelo",
+      "title": "Oyo IATF epesi ndanga te"
+    },
+    "items": [
+      "kotindama ya client privé",
+      "boyokani ya niveau ya mosala",
+      "kondima makanisi nyonso",
+      "kobatelama ya ntango molai mpo na misala nyonso"
+    ],
+    "footnote": "IATF ezali esika ya kobomba biloko ya bato nyonso, kasi te esika ya kopesa yango na bato."
+  }
+}

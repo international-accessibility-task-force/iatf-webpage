@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Misala ya kopesa nzela na bato banso",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Misala ya kopesa nzela na bato banso",
+    "lead": "Mokanda oyo ezali na liste ya misala ya bato nyonso oyo esalemi na nzela ya IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Mokanda",
+      "title": "Mokanda ya sika"
+    },
+    "intro": [
+      "Babuku oyo endimami ezali awa nsima ya kobimisama na yango."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Komonisa mposa na yo",
+      "title": "Kosala ete likambo moko ya ntina ekóma mosala ya bato nyonso"
+    },
+    "paragraphs": [
+      "IATF etalelaka bosenga ya bosengi oyo ekoki kobongolama na misala ya ntina ya bato banso."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Mikano mibimisami naino te",
+    "paragraphs": [
+      "IATF ezali kobongisa mosala na yango ya liboso mpo na bato nyonso.",
+      "Okoki kaka kotinda bosengi soki ozali na bosenga ya bosengi."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index na yango",
+    "title": "Sitemap",
+    "lead": "Lokasa nyonso ya bato nyonso na IATF.CC, na esika moko."
+  },
+  "sections": [
+    {
+      "title": "Nkasa ya ebandeli",
+      "items": [
+        {
+          "label": "Ndako",
+          "href": "/"
+        },
+        {
+          "label": "Misala",
+          "href": "/projects/"
+        },
+        {
+          "label": "Sɛngá mosala",
+          "href": "/propose/"
+        },
+        {
+          "label": "Boyangeli",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kokɔta na molɔngɔ",
+          "href": "/join/"
+        },
+        {
+          "label": "Ndenge ya kozwa yango",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kolimbola makambo polele",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Misala",
+  "projectsEmpty": "Mikano ebimisami naino te."
+}

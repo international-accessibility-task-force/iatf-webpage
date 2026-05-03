@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kokɔta na IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kokɔta na IATF",
+    "lead": "Kozala mosangani ezali polele. Ezali na banzela mingi ya kosangana, ezala osaleli ba technologies ya kosunga, osali ba logiciels, obongoli, omeki, to obateli projet moko. Masolo mpe bikateli ekosalema na miso ya bato banso na GitHub mpe na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Mikumba",
+      "title": "Lolenge ya kopesa makabo"
+    },
+    "items": [
+      "<strong>Sɛngá mosala moko.</strong> Soki okutani na eloko moko oyo ekoki kopekisa yo okóma na programɛ ya ordinatɛrɛ oyo bato nyonso bakoki kosalela, tindá yango na nzela ya esika oyo basɛngaka makambo.",
+      "<strong>Komeka mpe kotalela.</strong> Meká misala ya IATF na lisalisi ya tekinoloji oyo ozali kosalela, yebisá oyo ezali kosala malamu mpe oyo ezali malamu te, mpe komá makambo oyo ezali kotungisa yo mbala moko na esika oyo esengeli.",
+      "<strong>Kobongola.</strong> Makambo ya ebandeli ebimisamaka liboso na lokota ya Anglais. Ba traductions ezali kobakisama ntango bato bazali na makoki ya kosala yango, kobanda na Espagnol.",
+      "<strong>Kotonga.</strong> Kozwa makambo na esika nyonso ya kobomba ya IATF, kotinda bosengi ya kobenda, to kozwa mosala lokola ingénieur oyo azali na mokumba na yango.",
+      "<strong>Kobatela yango.</strong> Mbala mosusu misala oyo ezali kosalema esɛngaka moto ya sika mpo na kobatela yango."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Banzela",
+      "title": "Esika oyo IATF ezali kosala na esika ya bato nyonso"
+    },
+    "items": [
+      "<strong>Bazali kosalela GitHub.</strong> Mikakatano, bosengi ya kobenda, bobimisi, mpe makomi ya misala.",
+      "<strong>Kozanga boyokani.</strong> Kosolola, koyokanisa makambo, mpe kotuna mituna.",
+      "<strong>Na nzela ya e-mail.</strong> Kosalela <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> soki GitHub to Discord eyokani te."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Likambo oyo elandi",
+      "title": "Poná nzela oyo ekokani na ndenge oyo olingi kopesa"
+    },
+    "paragraphs": [
+      "Ba chaînes nyonso ekɔtaka na esika oyo bato nyonso batalaka mpe na bisika oyo batyaka makambo na bango."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
