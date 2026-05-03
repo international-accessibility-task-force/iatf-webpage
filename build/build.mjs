@@ -1,4 +1,14 @@
-import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import {
+  cp,
+  mkdir,
+  readFile,
+  readdir,
+  rename,
+  rm,
+  stat,
+  writeFile
+} from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import {
   getFeaturedDraftCodes,
@@ -12,11 +22,19 @@ import {
 } from "../shared/routes.js";
 
 const root = process.cwd();
-const outDir = path.join(root, "dist");
+const liveOutDir = path.join(root, "dist");
+const buildRunId = String(process.pid);
+const stagingOutDir = path.join(root, `.dist-build-${buildRunId}`);
+const previousOutDir = path.join(root, `.dist-prev-${buildRunId}`);
+const outDir = stagingOutDir;
+const buildMetaFile = ".build-meta.json";
+const isFastDevBuild = process.argv.includes("--dev-fast");
 const noindex = process.env.NOINDEX === "1" || process.env.NOINDEX === "true";
 
 const site = await readJson(path.join(root, "content", "site.json"));
 const defaultLang = site.defaultLanguage;
+const defaultStringsPath = path.join(root, "content", "strings", `${defaultLang}.json`);
+const currentDefaultStrings = await readJson(defaultStringsPath);
 const languages = await readJson(
   path.join(root, "content", "languages.json")
 );
@@ -38,6 +56,290 @@ const TRANSLATABLE_PROJECT_FIELDS = [
   "languageNotes",
   "primaryLanguage"
 ];
+const RETRYABLE_RM_CODES = new Set(["ENOTEMPTY", "EBUSY", "EPERM"]);
+const copiedStaticOutputs = [
+  ["client/css/base.css", "base.css"],
+  ["client/css/layout.css", "layout.css"],
+  ["client/css/components.css", "components.css"],
+  ["client/css/utilities.css", "utilities.css"],
+  ["client/app.js", "app.js"],
+  ["assets/icons/favicon.svg", "favicon.svg"],
+  ["assets/icons/favicon.ico", "favicon.ico"],
+  ["assets/icons/favicon-16x16.png", "favicon-16x16.png"],
+  ["assets/icons/favicon-32x32.png", "favicon-32x32.png"],
+  ["assets/icons/apple-touch-icon.png", "apple-touch-icon.png"],
+  ["assets/site.webmanifest", "site.webmanifest"],
+  ["assets/icons/language-icon.svg", "language-icon.svg"]
+];
+
+async function removeDirWithRetry(directory, maxRetries = 8) {
+  for (let attempt = 0; attempt <= maxRetries; attempt += 1) {
+    try {
+      await rm(directory, { recursive: true, force: true });
+      return;
+    } catch (error) {
+      const retryable =
+        RETRYABLE_RM_CODES.has(error?.code) && attempt < maxRetries;
+      if (!retryable) {
+        throw error;
+      }
+
+      const waitMs = 40 * (attempt + 1);
+      await new Promise((resolve) => setTimeout(resolve, waitMs));
+    }
+  }
+}
+
+async function renameDirWithRetry(
+  source,
+  target,
+  { allowMissingSource = false, maxRetries = 8 } = {}
+) {
+  for (let attempt = 0; attempt <= maxRetries; attempt += 1) {
+    try {
+      await rename(source, target);
+      return;
+    } catch (error) {
+      if (allowMissingSource && error?.code === "ENOENT") {
+        return;
+      }
+
+      const retryable =
+        RETRYABLE_RM_CODES.has(error?.code) && attempt < maxRetries;
+      if (!retryable) {
+        throw error;
+      }
+
+      const waitMs = 40 * (attempt + 1);
+      await new Promise((resolve) => setTimeout(resolve, waitMs));
+    }
+  }
+}
+
+async function pathExists(targetPath) {
+  try {
+    await stat(targetPath);
+    return true;
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return false;
+    }
+    throw error;
+  }
+}
+
+async function collectSignatureEntries(
+  targetPath,
+  entries,
+  { exclude = () => false } = {}
+) {
+  if (exclude(targetPath)) {
+    return;
+  }
+
+  let targetStat;
+  try {
+    targetStat = await stat(targetPath);
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return;
+    }
+    throw error;
+  }
+
+  if (targetStat.isDirectory()) {
+    const children = await readdir(targetPath, { withFileTypes: true });
+    children.sort((a, b) => a.name.localeCompare(b.name));
+    for (const child of children) {
+      await collectSignatureEntries(path.join(targetPath, child.name), entries, {
+        exclude
+      });
+    }
+    return;
+  }
+
+  if (!targetStat.isFile()) {
+    return;
+  }
+
+  entries.push(
+    `${path.relative(root, targetPath)}:${targetStat.size}:${Math.trunc(
+      targetStat.mtimeMs
+    )}`
+  );
+}
+
+async function createBuildSnapshot(
+  targets,
+  { exclude = () => false } = {}
+) {
+  const entries = [];
+  for (const target of targets) {
+    await collectSignatureEntries(target, entries, { exclude });
+  }
+
+  const hash = createHash("sha256");
+  entries.sort();
+  for (const entry of entries) {
+    hash.update(entry);
+    hash.update("\n");
+  }
+  return {
+    entries,
+    hash: hash.digest("hex")
+  };
+}
+
+async function readBuildMeta(directory) {
+  try {
+    return JSON.parse(await readFile(path.join(directory, buildMetaFile), "utf8"));
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return null;
+    }
+    throw error;
+  }
+}
+
+function diffSignatureEntries(previousEntries, currentEntries) {
+  if (!Array.isArray(previousEntries) || !Array.isArray(currentEntries)) {
+    return null;
+  }
+
+  const previousMap = new Map(
+    previousEntries.map((entry) => {
+      const firstSeparator = entry.indexOf(":");
+      return [entry.slice(0, firstSeparator), entry.slice(firstSeparator + 1)];
+    })
+  );
+  const currentMap = new Map(
+    currentEntries.map((entry) => {
+      const firstSeparator = entry.indexOf(":");
+      return [entry.slice(0, firstSeparator), entry.slice(firstSeparator + 1)];
+    })
+  );
+  const changed = new Set();
+
+  for (const [relativePath, currentSignature] of currentMap) {
+    if (previousMap.get(relativePath) !== currentSignature) {
+      changed.add(relativePath);
+    }
+  }
+
+  for (const relativePath of previousMap.keys()) {
+    if (!currentMap.has(relativePath)) {
+      changed.add(relativePath);
+    }
+  }
+
+  return [...changed].sort();
+}
+
+function diffObjectKeys(previousObject, currentObject) {
+  if (
+    !previousObject ||
+    !currentObject ||
+    typeof previousObject !== "object" ||
+    typeof currentObject !== "object"
+  ) {
+    return null;
+  }
+
+  const keys = new Set([
+    ...Object.keys(previousObject),
+    ...Object.keys(currentObject)
+  ]);
+
+  return [...keys]
+    .filter((key) => previousObject[key] !== currentObject[key])
+    .sort();
+}
+
+function isProcessAlive(pid) {
+  if (!Number.isInteger(pid) || pid <= 0) {
+    return false;
+  }
+
+  try {
+    process.kill(pid, 0);
+    return true;
+  } catch (error) {
+    if (error?.code === "ESRCH") {
+      return false;
+    }
+    return true;
+  }
+}
+
+async function cleanupStaleBuildDirs() {
+  const entries = await readdir(root, { withFileTypes: true });
+
+  for (const entry of entries) {
+    if (!entry.isDirectory()) {
+      continue;
+    }
+
+    const match = entry.name.match(/^\.dist-(?:build|prev)-(\d+)$/);
+    if (!match) {
+      continue;
+    }
+
+    const pid = Number.parseInt(match[1], 10);
+    if (pid === process.pid || isProcessAlive(pid)) {
+      continue;
+    }
+
+    await removeDirWithRetry(path.join(root, entry.name));
+  }
+}
+
+function isPublicSignatureExcluded(targetPath) {
+  const relative = path.relative(root, targetPath).replaceAll("\\", "/");
+  return (
+    relative === "data/languages.nllb.json" ||
+    relative.startsWith("content/nllb/") ||
+    relative.startsWith("data/nllb/")
+  );
+}
+
+async function replaceLiveOutDir({ reusePaths = [] } = {}) {
+  await removeDirWithRetry(previousOutDir);
+  await renameDirWithRetry(liveOutDir, previousOutDir, {
+    allowMissingSource: true
+  });
+
+  for (const relativePath of reusePaths) {
+    await renameDirWithRetry(
+      path.join(previousOutDir, relativePath),
+      path.join(outDir, relativePath),
+      { allowMissingSource: true }
+    );
+  }
+
+  await renameDirWithRetry(outDir, liveOutDir);
+  await removeDirWithRetry(previousOutDir);
+}
+
+async function syncLiveOutDirInPlace({ managedFiles = [] } = {}) {
+  await mkdir(liveOutDir, { recursive: true });
+
+  for (const relativePath of managedFiles) {
+    const sourcePath = path.join(outDir, relativePath);
+    const targetPath = path.join(liveOutDir, relativePath);
+
+    if (await pathExists(sourcePath)) {
+      await mkdir(path.dirname(targetPath), { recursive: true });
+      await cp(sourcePath, targetPath, { force: true });
+    } else {
+      await rm(targetPath, { force: true });
+    }
+  }
+
+  await removeDirWithRetry(outDir);
+  await removeDirWithRetry(previousOutDir);
+}
+
+await cleanupStaleBuildDirs();
 
 async function loadProjects(code) {
   if (code === defaultLang) return baseProjects;
@@ -87,6 +389,40 @@ const longTailNllbCodes = Object.keys(nllbLanguages).filter(
 
 if (!enabledLanguages.includes(defaultLang)) {
   enabledLanguages.unshift(defaultLang);
+}
+
+function isEnabledPublicLocale(code) {
+  return enabledLanguages.includes(code);
+}
+
+const nllbIndependentPublicSourcePaths = new Set();
+
+function isNllbSignatureExcluded(targetPath) {
+  const relative = path.relative(root, targetPath).replaceAll("\\", "/");
+
+  if (nllbIndependentPublicSourcePaths.has(relative)) {
+    return true;
+  }
+
+  const pageMatch = /^content\/pages\/([^/]+)\/[^/]+\.json$/.exec(relative);
+  if (pageMatch) {
+    const code = pageMatch[1];
+    return code !== defaultLang && isEnabledPublicLocale(code);
+  }
+
+  const stringsMatch = /^content\/strings\/([^/]+)\.json$/.exec(relative);
+  if (stringsMatch) {
+    const code = stringsMatch[1];
+    return code !== defaultLang && isEnabledPublicLocale(code);
+  }
+
+  const projectOverlayMatch = /^data\/projects\.([^/]+)\.json$/.exec(relative);
+  if (projectOverlayMatch) {
+    const code = projectOverlayMatch[1];
+    return code !== defaultLang && isEnabledPublicLocale(code);
+  }
+
+  return false;
 }
 
 const INDEXABLE_TRANSLATION_STATUSES = new Set(["source", "human-reviewed"]);
@@ -361,101 +697,877 @@ const routes = [
   { key: "languages", render: () => renderLanguagesPage() }
 ];
 const nllbRoutes = routes.filter((route) => route.key !== "languages");
+const NOT_FOUND_ROUTE_KEY = "__not_found__";
+const routeByKey = new Map(routes.map((route) => [route.key, route]));
+const allPublicRouteKeys = routes.map((route) => route.key);
+const allNllbRouteKeys = nllbRoutes.map((route) => route.key);
+const projectDependentPublicRouteKeys = ["", "projects", "sitemap"];
+const publicContentPageToRouteKey = new Map([
+  ["home", ""],
+  ["projects", "projects"],
+  ["propose", "propose"],
+  ["governance", "governance"],
+  ["join", "join"],
+  ["accessibility", "accessibility"],
+  ["transparency", "transparency"],
+  ["sitemap", "sitemap"],
+  ["not-found", NOT_FOUND_ROUTE_KEY]
+]);
 
-await rm(outDir, { recursive: true, force: true });
-await mkdir(outDir, { recursive: true });
-
-for (const [source, target] of [
-  ["client/css/base.css", "base.css"],
-  ["client/css/layout.css", "layout.css"],
-  ["client/css/components.css", "components.css"],
-  ["client/css/utilities.css", "utilities.css"],
-  ["client/app.js", "app.js"],
-  ["assets/icons/favicon.svg", "favicon.svg"],
-  ["assets/icons/favicon.ico", "favicon.ico"],
-  ["assets/icons/favicon-16x16.png", "favicon-16x16.png"],
-  ["assets/icons/favicon-32x32.png", "favicon-32x32.png"],
-  ["assets/icons/apple-touch-icon.png", "apple-touch-icon.png"],
-  ["assets/site.webmanifest", "site.webmanifest"],
-  ["assets/icons/language-icon.svg", "language-icon.svg"]
-]) {
-  await cp(path.join(root, source), path.join(outDir, target));
+function createOutputImpact() {
+  return {
+    allPages: false,
+    routeKeys: new Set(),
+    includeNotFound: false,
+    includeProjectPages: false
+  };
 }
 
-for (const code of enabledLanguages) {
+function markAllPagesImpact(impact) {
+  impact.allPages = true;
+  impact.includeNotFound = true;
+  impact.includeProjectPages = true;
+  return impact;
+}
+
+function mergeOutputImpact(target, source) {
+  if (!source) {
+    return target;
+  }
+
+  if (source.allPages) {
+    markAllPagesImpact(target);
+  }
+
+  for (const routeKey of source.routeKeys || []) {
+    target.routeKeys.add(routeKey);
+  }
+
+  if (source.includeNotFound) {
+    target.includeNotFound = true;
+  }
+
+  if (source.includeProjectPages) {
+    target.includeProjectPages = true;
+  }
+
+  return target;
+}
+
+function hasOutputImpact(impact) {
+  return Boolean(
+    impact?.allPages ||
+      impact?.includeNotFound ||
+      impact?.includeProjectPages ||
+      impact?.routeKeys?.size
+  );
+}
+
+function createRouteOnlyImpact(routeKey) {
+  const impact = createOutputImpact();
+  if (routeKey === NOT_FOUND_ROUTE_KEY) {
+    impact.includeNotFound = true;
+  } else {
+    impact.routeKeys.add(routeKey);
+  }
+  return impact;
+}
+
+function collectActionLabelKeys(value, keys = new Set()) {
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      collectActionLabelKeys(item, keys);
+    }
+    return keys;
+  }
+
+  if (!value || typeof value !== "object") {
+    return keys;
+  }
+
+  if (typeof value.labelKey === "string" && value.labelKey.startsWith("actions.")) {
+    keys.add(value.labelKey);
+  }
+
+  for (const child of Object.values(value)) {
+    collectActionLabelKeys(child, keys);
+  }
+
+  return keys;
+}
+
+const defaultActionRouteMap = new Map();
+for (const [pageName, routeKey] of publicContentPageToRouteKey.entries()) {
+  const contentKey = pageName === "not-found" ? "notFound" : pageName;
+  const pageContent = content[contentKey];
+  if (!pageContent) {
+    continue;
+  }
+
+  for (const actionKey of collectActionLabelKeys(pageContent)) {
+    if (!defaultActionRouteMap.has(actionKey)) {
+      defaultActionRouteMap.set(actionKey, new Set());
+    }
+    defaultActionRouteMap.get(actionKey).add(routeKey);
+  }
+}
+defaultActionRouteMap.set(
+  "actions.proposeProject",
+  new Set([
+    ...(defaultActionRouteMap.get("actions.proposeProject") || []),
+    "",
+    "projects"
+  ])
+);
+
+function getDefaultStringKeyImpact(key) {
+  const impact = createOutputImpact();
+
+  if (key === "site.tagline") {
+    return impact;
+  }
+
+  if (
+    key.startsWith("site.") ||
+    key.startsWith("nav.") ||
+    key === "skip.toContent" ||
+    key.startsWith("footer.") ||
+    key.startsWith("contact.") ||
+    key.startsWith("translation.") ||
+    key.startsWith("languages.switcher.") ||
+    key.startsWith("languages.status.")
+  ) {
+    return markAllPagesImpact(impact);
+  }
+
+  const heroMatch = /^hero\.([^.]+)\./.exec(key);
+  if (heroMatch) {
+    const routeKey = publicContentPageToRouteKey.get(heroMatch[1]);
+    return routeKey !== undefined
+      ? createRouteOnlyImpact(routeKey)
+      : markAllPagesImpact(impact);
+  }
+
+  const metaMatch = /^meta\.([^.]+)\.description$/.exec(key);
+  if (metaMatch) {
+    const routeKey = publicContentPageToRouteKey.get(metaMatch[1]);
+    return routeKey !== undefined
+      ? createRouteOnlyImpact(routeKey)
+      : markAllPagesImpact(impact);
+  }
+
+  if (key.startsWith("registry.")) {
+    impact.routeKeys.add("");
+    impact.routeKeys.add("projects");
+    return impact;
+  }
+
+  if (key.startsWith("proposal.")) {
+    return createRouteOnlyImpact("propose");
+  }
+
+  if (key.startsWith("project.detail.")) {
+    impact.includeProjectPages = true;
+    return impact;
+  }
+
+  if (key.startsWith("project.status.")) {
+    impact.routeKeys.add("");
+    impact.routeKeys.add("projects");
+    impact.includeProjectPages = true;
+    return impact;
+  }
+
+  if (key.startsWith("languages.page.")) {
+    impact.routeKeys.add("languages");
+    impact.routeKeys.add("sitemap");
+    return impact;
+  }
+
+  if (
+    key.startsWith("languages.hero.") ||
+    key.startsWith("languages.overview.") ||
+    key.startsWith("languages.directory.") ||
+    key.startsWith("languages.search.") ||
+    key.startsWith("languages.region.")
+  ) {
+    return createRouteOnlyImpact("languages");
+  }
+
+  if (key.startsWith("actions.")) {
+    const actionRoutes = defaultActionRouteMap.get(key);
+    if (!actionRoutes?.size) {
+      return markAllPagesImpact(impact);
+    }
+    for (const routeKey of actionRoutes) {
+      if (routeKey === NOT_FOUND_ROUTE_KEY) {
+        impact.includeNotFound = true;
+      } else {
+        impact.routeKeys.add(routeKey);
+      }
+    }
+    return impact;
+  }
+
+  return markAllPagesImpact(impact);
+}
+
+function getDefaultStringImpact(changedKeys) {
+  const impact = createOutputImpact();
+  for (const key of changedKeys || []) {
+    mergeOutputImpact(impact, getDefaultStringKeyImpact(key));
+  }
+  return impact;
+}
+
+const publicLocalizedStringKeysCache = new Map();
+async function getPublicLocalizedStringKeys(code) {
+  if (publicLocalizedStringKeysCache.has(code)) {
+    return publicLocalizedStringKeysCache.get(code);
+  }
+
+  let keys = new Set();
+  if (code !== defaultLang) {
+    try {
+      keys = new Set(
+        Object.keys(
+          await readJson(path.join(root, "content", "strings", `${code}.json`))
+        )
+      );
+    } catch (error) {
+      if (error?.code !== "ENOENT") {
+        throw error;
+      }
+    }
+  }
+
+  publicLocalizedStringKeysCache.set(code, keys);
+  return keys;
+}
+
+const nllbLocalizedStringKeysCache = new Map();
+async function getNllbLocalizedStringKeys(code) {
+  if (nllbLocalizedStringKeysCache.has(code)) {
+    return nllbLocalizedStringKeysCache.get(code);
+  }
+
+  let keys = new Set();
+  try {
+    keys = new Set(
+      Object.keys(
+        await readJson(
+          path.join(root, "content", "nllb", "strings", `${code}.json`)
+        )
+      )
+    );
+  } catch (error) {
+    if (error?.code !== "ENOENT") {
+      throw error;
+    }
+  }
+
+  nllbLocalizedStringKeysCache.set(code, keys);
+  return keys;
+}
+
+async function getPublicLocalesAffectedByDefaultStringKeys(changedKeys) {
+  if (!changedKeys?.length) {
+    return [];
+  }
+
+  const affectedCodes = [defaultLang];
+  const localizedResults = await Promise.all(
+    enabledLanguages
+      .filter((code) => code !== defaultLang)
+      .map(async (code) => {
+        const localizedKeys = await getPublicLocalizedStringKeys(code);
+        return changedKeys.some((key) => !localizedKeys.has(key)) ? code : null;
+      })
+  );
+
+  return [...affectedCodes, ...localizedResults.filter(Boolean)];
+}
+
+async function getNllbCodesAffectedByDefaultStringKeys(changedKeys) {
+  if (!changedKeys?.length) {
+    return [];
+  }
+
+  const localizedResults = await Promise.all(
+    longTailNllbCodes.map(async (code) => {
+      const localizedKeys = await getNllbLocalizedStringKeys(code);
+      return changedKeys.some((key) => !localizedKeys.has(key)) ? code : null;
+    })
+  );
+
+  return localizedResults.filter(Boolean);
+}
+
+async function getSelectiveDefaultStringPlans(changedPaths, previousBuildMeta) {
+  const relativeDefaultStringsPath = path
+    .relative(root, defaultStringsPath)
+    .replaceAll("\\", "/");
+
+  if (
+    !Array.isArray(changedPaths) ||
+    changedPaths.length !== 1 ||
+    changedPaths[0] !== relativeDefaultStringsPath
+  ) {
+    return { publicPlan: null, nllbPlan: null };
+  }
+
+  const changedKeys = diffObjectKeys(
+    previousBuildMeta?.defaultStrings,
+    currentDefaultStrings
+  );
+  if (!changedKeys) {
+    return { publicPlan: null, nllbPlan: null };
+  }
+
+  const impact = getDefaultStringImpact(changedKeys);
+  const [publicCodes, nllbCodes] = hasOutputImpact(impact)
+    ? await Promise.all([
+        getPublicLocalesAffectedByDefaultStringKeys(changedKeys),
+        getNllbCodesAffectedByDefaultStringKeys(changedKeys)
+      ])
+    : [[], []];
+
+  return {
+    publicPlan: {
+      kind: "default-strings",
+      changedPath: relativeDefaultStringsPath,
+      changedKeys,
+      impact,
+      codes: publicCodes
+    },
+    nllbPlan: {
+      kind: "default-strings",
+      changedPath: relativeDefaultStringsPath,
+      changedKeys,
+      impact,
+      codes: nllbCodes
+    }
+  };
+}
+
+async function getDefaultPublicPageAffectedCodes(pageName) {
+  const affectedCodes = [defaultLang];
+
+  for (const code of enabledLanguages) {
+    if (code === defaultLang) {
+      continue;
+    }
+
+    const localizedPagePath = path.join(root, "content", "pages", code, `${pageName}.json`);
+    if (!(await pathExists(localizedPagePath))) {
+      affectedCodes.push(code);
+    }
+  }
+
+  return affectedCodes;
+}
+
+for (const pageName of publicContentPageToRouteKey.keys()) {
+  let allNllbPagesExist = true;
+
+  for (const code of longTailNllbCodes) {
+    const nllbPagePath = path.join(root, "content", "nllb", "pages", code, `${pageName}.json`);
+    if (!(await pathExists(nllbPagePath))) {
+      allNllbPagesExist = false;
+      break;
+    }
+  }
+
+  if (allNllbPagesExist) {
+    nllbIndependentPublicSourcePaths.add(
+      path.join("content", "pages", defaultLang, `${pageName}.json`).replaceAll("\\", "/")
+    );
+  }
+}
+
+function getPublicRouteOutputPath(code, routeKey) {
+  const localePrefix = code === defaultLang ? "" : code;
+
+  if (routeKey === NOT_FOUND_ROUTE_KEY) {
+    return localePrefix ? path.join(localePrefix, "404.html") : "404.html";
+  }
+
+  if (!routeKey) {
+    return localePrefix ? path.join(localePrefix, "index.html") : "index.html";
+  }
+
+  return path.join(localePrefix, getRouteSlug(routeKey, code), "index.html");
+}
+
+function getPublicProjectOutputPaths(code, projectList) {
+  return projectList.map((project) =>
+    path.join(
+      code === defaultLang ? "" : code,
+      getRouteSlug("projects", code),
+      project.slug,
+      "index.html"
+    )
+  );
+}
+
+function getAllPublicLocaleOutputPaths(code, projectList) {
+  return [
+    ...allPublicRouteKeys.map((routeKey) => getPublicRouteOutputPath(code, routeKey)),
+    getPublicRouteOutputPath(code, NOT_FOUND_ROUTE_KEY),
+    ...getPublicProjectOutputPaths(code, projectList)
+  ];
+}
+
+function getProjectRelatedPublicOutputPaths(code, projectList) {
+  return [
+    ...projectDependentPublicRouteKeys.map((routeKey) =>
+      getPublicRouteOutputPath(code, routeKey)
+    ),
+    ...getPublicProjectOutputPaths(code, projectList)
+  ];
+}
+
+function getNllbOutputSlug(code) {
+  return nllbLanguages[code]?.slug || String(code).toLowerCase().replaceAll("_", "-");
+}
+
+function getNllbRouteOutputPath(code, routeKey) {
+  const localePrefix = path.join("nllb", getNllbOutputSlug(code));
+
+  if (routeKey === NOT_FOUND_ROUTE_KEY) {
+    return path.join(localePrefix, "404.html");
+  }
+
+  if (!routeKey) {
+    return path.join(localePrefix, "index.html");
+  }
+
+  return path.join(localePrefix, getRouteSlug(routeKey, code), "index.html");
+}
+
+function getNllbProjectOutputPaths(code, projectList) {
+  return projectList.map((project) =>
+    path.join(
+      "nllb",
+      getNllbOutputSlug(code),
+      getRouteSlug("projects", code),
+      project.slug,
+      "index.html"
+    )
+  );
+}
+
+function getRouteKeysForImpact(impact, allowedRouteKeys) {
+  return impact.allPages
+    ? allowedRouteKeys
+    : allowedRouteKeys.filter((routeKey) => impact.routeKeys.has(routeKey));
+}
+
+function getSelectivePublicBuildPlan(changedPaths) {
+  if (!Array.isArray(changedPaths) || changedPaths.length !== 1) {
+    return null;
+  }
+
+  const [changedPath] = changedPaths;
+
+  const pageMatch = /^content\/pages\/([^/]+)\/([^.]+)\.json$/.exec(changedPath);
+  if (pageMatch) {
+    const [, code, pageName] = pageMatch;
+    const routeKey = publicContentPageToRouteKey.get(pageName);
+    if (routeKey !== undefined && code === defaultLang) {
+      return {
+        kind: "default-page",
+        pageName,
+        routeKey,
+        changedPath
+      };
+    }
+
+    if (
+      code !== defaultLang &&
+      isEnabledPublicLocale(code) &&
+      routeKey !== undefined
+    ) {
+      return {
+        kind: "page",
+        code,
+        routeKey,
+        changedPath
+      };
+    }
+  }
+
+  const stringsMatch = /^content\/strings\/([^/]+)\.json$/.exec(changedPath);
+  if (stringsMatch) {
+    const [, code] = stringsMatch;
+    if (code !== defaultLang && isEnabledPublicLocale(code)) {
+      return {
+        kind: "locale",
+        code,
+        changedPath
+      };
+    }
+  }
+
+  const projectOverlayMatch = /^data\/projects\.([^/]+)\.json$/.exec(changedPath);
+  if (projectOverlayMatch) {
+    const [, code] = projectOverlayMatch;
+    if (code !== defaultLang && isEnabledPublicLocale(code)) {
+      return {
+        kind: "projects",
+        code,
+        changedPath
+      };
+    }
+  }
+
+  return null;
+}
+
+async function loadPublicLocaleState(code) {
   currentRouteMode = "public";
   currentNllbCode = "";
   currentNllbSlug = "";
   lang = code;
-  ({ values: strings, localizedKeys: localizedStringKeys } = await loadStrings(code));
+  ({ values: strings, localizedKeys: localizedStringKeys } =
+    await loadStrings(code));
   content = await loadContent(code);
   projects = await loadProjects(code);
-
-  const localeOutDir = getLocaleOutDir(code);
-  await mkdir(localeOutDir, { recursive: true });
-  await mkdir(
-    path.join(localeOutDir, getRouteSlug("projects", code)),
-    { recursive: true }
-  );
-
-  for (const route of routes) {
-    const pageDir = route.key
-      ? path.join(localeOutDir, getRouteSlug(route.key, code))
-      : localeOutDir;
-    await mkdir(pageDir, { recursive: true });
-    await writeFile(path.join(pageDir, "index.html"), route.render());
-  }
-
-  for (const project of projects) {
-    const projectDir = path.join(
-      localeOutDir,
-      getRouteSlug("projects", code),
-      project.slug
-    );
-    await mkdir(projectDir, { recursive: true });
-    await writeFile(
-      path.join(projectDir, "index.html"),
-      renderProjectPage(project)
-    );
-  }
-
-  await writeFile(path.join(localeOutDir, "404.html"), renderNotFoundPage());
 }
 
-const nllbOutDir = path.join(outDir, "nllb");
-await mkdir(nllbOutDir, { recursive: true });
-
-for (const code of longTailNllbCodes) {
+async function loadNllbLocaleState(code) {
   currentRouteMode = "nllb";
   currentNllbCode = code;
-  currentNllbSlug = nllbLanguages[code]?.slug || code.toLowerCase().replaceAll("_", "-");
+  currentNllbSlug = getNllbOutputSlug(code);
   lang = code;
-  ({ values: strings, localizedKeys: localizedStringKeys } = await loadNllbStrings(code));
+  ({ values: strings, localizedKeys: localizedStringKeys } =
+    await loadNllbStrings(code));
   content = await loadNllbContent(code);
   projects = await loadNllbProjects(code);
+}
 
-  const localeOutDir = path.join(nllbOutDir, currentNllbSlug);
+async function writePublicRouteOutput(code, routeKey) {
+  const localeOutDir = getLocaleOutDir(code);
   await mkdir(localeOutDir, { recursive: true });
-  await mkdir(path.join(localeOutDir, "projects"), { recursive: true });
 
-  for (const route of nllbRoutes) {
-    const pageDir = route.key
-      ? path.join(localeOutDir, route.key)
-      : localeOutDir;
-    await mkdir(pageDir, { recursive: true });
-    await writeFile(path.join(pageDir, "index.html"), route.render());
+  if (routeKey === NOT_FOUND_ROUTE_KEY) {
+    await writeFile(path.join(localeOutDir, "404.html"), renderNotFoundPage());
+    return;
   }
 
-  for (const project of projects) {
-    const projectDir = path.join(localeOutDir, "projects", project.slug);
+  const route = routeByKey.get(routeKey);
+  if (!route) {
+    throw new Error(`Unknown public route key: ${routeKey}`);
+  }
+
+  const pageDir = route.key
+    ? path.join(localeOutDir, getRouteSlug(route.key, code))
+    : localeOutDir;
+  await mkdir(pageDir, { recursive: true });
+  await writeFile(path.join(pageDir, "index.html"), route.render());
+}
+
+async function writePublicProjectOutputs(code, projectList = projects) {
+  const localeOutDir = getLocaleOutDir(code);
+  const projectsOutDir = path.join(localeOutDir, getRouteSlug("projects", code));
+  await mkdir(projectsOutDir, { recursive: true });
+
+  for (const project of projectList) {
+    const projectDir = path.join(projectsOutDir, project.slug);
     await mkdir(projectDir, { recursive: true });
-    await writeFile(
-      path.join(projectDir, "index.html"),
-      renderProjectPage(project)
-    );
+    await writeFile(path.join(projectDir, "index.html"), renderProjectPage(project));
+  }
+}
+
+async function writeNllbRouteOutput(code, routeKey) {
+  const localeOutDir = path.join(outDir, "nllb", getNllbOutputSlug(code));
+  await mkdir(localeOutDir, { recursive: true });
+
+  if (routeKey === NOT_FOUND_ROUTE_KEY) {
+    await writeFile(path.join(localeOutDir, "404.html"), renderNotFoundPage());
+    return;
   }
 
-  await writeFile(path.join(localeOutDir, "404.html"), renderNotFoundPage());
+  const route = routeByKey.get(routeKey);
+  if (!route || route.key === "languages") {
+    throw new Error(`Unknown NLLB route key: ${routeKey}`);
+  }
+
+  const pageDir = route.key
+    ? path.join(localeOutDir, getRouteSlug(route.key, code))
+    : localeOutDir;
+  await mkdir(pageDir, { recursive: true });
+  await writeFile(path.join(pageDir, "index.html"), route.render());
+}
+
+async function writeNllbProjectOutputs(code, projectList = projects) {
+  const localeOutDir = path.join(outDir, "nllb", getNllbOutputSlug(code));
+  const projectsOutDir = path.join(localeOutDir, getRouteSlug("projects", code));
+  await mkdir(projectsOutDir, { recursive: true });
+
+  for (const project of projectList) {
+    const projectDir = path.join(projectsOutDir, project.slug);
+    await mkdir(projectDir, { recursive: true });
+    await writeFile(path.join(projectDir, "index.html"), renderProjectPage(project));
+  }
+}
+
+async function writePublicOutputsForImpact(code, impact, projectList = projects) {
+  const managedPaths = [];
+
+  for (const routeKey of getRouteKeysForImpact(impact, allPublicRouteKeys)) {
+    await writePublicRouteOutput(code, routeKey);
+    managedPaths.push(getPublicRouteOutputPath(code, routeKey));
+  }
+
+  if (impact.allPages || impact.includeProjectPages) {
+    await writePublicProjectOutputs(code, projectList);
+    managedPaths.push(...getPublicProjectOutputPaths(code, projectList));
+  }
+
+  if (impact.allPages || impact.includeNotFound) {
+    await writePublicRouteOutput(code, NOT_FOUND_ROUTE_KEY);
+    managedPaths.push(getPublicRouteOutputPath(code, NOT_FOUND_ROUTE_KEY));
+  }
+
+  return managedPaths;
+}
+
+async function writeNllbOutputsForImpact(code, impact, projectList = projects) {
+  const managedPaths = [];
+
+  for (const routeKey of getRouteKeysForImpact(impact, allNllbRouteKeys)) {
+    await writeNllbRouteOutput(code, routeKey);
+    managedPaths.push(getNllbRouteOutputPath(code, routeKey));
+  }
+
+  if (impact.allPages || impact.includeProjectPages) {
+    await writeNllbProjectOutputs(code, projectList);
+    managedPaths.push(...getNllbProjectOutputPaths(code, projectList));
+  }
+
+  if (impact.allPages || impact.includeNotFound) {
+    await writeNllbRouteOutput(code, NOT_FOUND_ROUTE_KEY);
+    managedPaths.push(getNllbRouteOutputPath(code, NOT_FOUND_ROUTE_KEY));
+  }
+
+  return managedPaths;
+}
+
+async function buildSelectivePublicOutputs(plan) {
+  if (plan.kind === "default-page") {
+    const affectedCodes = await getDefaultPublicPageAffectedCodes(plan.pageName);
+    const managedPaths = [];
+
+    for (const code of affectedCodes) {
+      await loadPublicLocaleState(code);
+      await writePublicRouteOutput(code, plan.routeKey);
+      managedPaths.push(getPublicRouteOutputPath(code, plan.routeKey));
+    }
+
+    return managedPaths;
+  }
+
+  if (plan.kind === "default-strings") {
+    const managedPaths = [];
+
+    for (const code of plan.codes) {
+      await loadPublicLocaleState(code);
+      managedPaths.push(...(await writePublicOutputsForImpact(code, plan.impact)));
+    }
+
+    return managedPaths;
+  }
+
+  await loadPublicLocaleState(plan.code);
+
+  if (plan.kind === "page") {
+    await writePublicRouteOutput(plan.code, plan.routeKey);
+    return [getPublicRouteOutputPath(plan.code, plan.routeKey)];
+  }
+
+  if (plan.kind === "locale") {
+    for (const routeKey of allPublicRouteKeys) {
+      await writePublicRouteOutput(plan.code, routeKey);
+    }
+    await writePublicProjectOutputs(plan.code, projects);
+    await writePublicRouteOutput(plan.code, NOT_FOUND_ROUTE_KEY);
+    return getAllPublicLocaleOutputPaths(plan.code, projects);
+  }
+
+  if (plan.kind === "projects") {
+    for (const routeKey of projectDependentPublicRouteKeys) {
+      await writePublicRouteOutput(plan.code, routeKey);
+    }
+    await writePublicProjectOutputs(plan.code, projects);
+    return getProjectRelatedPublicOutputPaths(plan.code, projects);
+  }
+
+  return [];
+}
+
+async function buildSelectiveNllbOutputs(plan) {
+  if (plan?.kind !== "default-strings") {
+    return [];
+  }
+
+  const managedPaths = [];
+
+  for (const code of plan.codes) {
+    await loadNllbLocaleState(code);
+    managedPaths.push(...(await writeNllbOutputsForImpact(code, plan.impact)));
+  }
+
+  return managedPaths;
+}
+
+const signatureInputs = [
+  path.join(root, "build", "build.mjs"),
+  path.join(root, "shared"),
+  path.join(root, "content"),
+  path.join(root, "data")
+];
+const previousBuildMeta = await readBuildMeta(liveOutDir);
+const publicSnapshot = await createBuildSnapshot(signatureInputs, {
+  exclude: isPublicSignatureExcluded
+});
+const nllbSnapshot = await createBuildSnapshot(signatureInputs, {
+  exclude: isNllbSignatureExcluded
+});
+const buildMeta = {
+  mode: isFastDevBuild ? "dev-fast" : "full",
+  publicSignature: publicSnapshot.hash,
+  publicEntries: publicSnapshot.entries,
+  nllbSignature: nllbSnapshot.hash,
+  nllbEntries: nllbSnapshot.entries,
+  defaultStrings: currentDefaultStrings
+};
+const changedPublicPaths = diffSignatureEntries(
+  previousBuildMeta?.publicEntries,
+  publicSnapshot.entries
+);
+const defaultStringPlans = await getSelectiveDefaultStringPlans(
+  changedPublicPaths,
+  previousBuildMeta
+);
+const selectivePublicBuildPlan =
+  getSelectivePublicBuildPlan(changedPublicPaths) || defaultStringPlans.publicPlan;
+const selectiveNllbBuildPlan = defaultStringPlans.nllbPlan;
+const reusablePublicOutputPaths = [
+  "index.html",
+  "404.html",
+  ...routes
+    .filter((route) => route.key)
+    .map((route) => getRouteSlug(route.key, defaultLang)),
+  ...enabledLanguages.filter((code) => code !== defaultLang)
+];
+const hasLivePublicOutput = await pathExists(path.join(liveOutDir, "index.html"));
+const hasLiveNllbOutput = await pathExists(path.join(liveOutDir, "nllb"));
+const reuseExistingPublic =
+  isFastDevBuild &&
+  previousBuildMeta?.publicSignature === buildMeta.publicSignature &&
+  hasLivePublicOutput;
+const reuseExistingNllb =
+  isFastDevBuild &&
+  previousBuildMeta?.nllbSignature === buildMeta.nllbSignature &&
+  hasLiveNllbOutput;
+const canSelectivelyBuildNllb =
+  isFastDevBuild && Boolean(selectiveNllbBuildPlan) && hasLiveNllbOutput;
+const canSelectivelyBuildPublic =
+  isFastDevBuild &&
+  Boolean(selectivePublicBuildPlan) &&
+  hasLivePublicOutput &&
+  (reuseExistingNllb || canSelectivelyBuildNllb);
+let selectivePublicManagedPaths = [];
+let selectiveNllbManagedPaths = [];
+const canUpdateLiveOutDirInPlace =
+  (reuseExistingPublic || canSelectivelyBuildPublic) &&
+  (reuseExistingNllb || canSelectivelyBuildNllb);
+const liveManagedFiles = [
+  ...copiedStaticOutputs.map(([, target]) => target),
+  "robots.txt",
+  "site-config.json",
+  "sitemap.xml",
+  "_headers",
+  buildMetaFile
+];
+
+await removeDirWithRetry(outDir);
+await removeDirWithRetry(previousOutDir);
+await mkdir(outDir, { recursive: true });
+
+for (const [source, target] of copiedStaticOutputs) {
+  await cp(path.join(root, source), path.join(outDir, target));
+}
+
+if (canSelectivelyBuildPublic) {
+  selectivePublicManagedPaths = await buildSelectivePublicOutputs(
+    selectivePublicBuildPlan
+  );
+}
+
+if (canSelectivelyBuildNllb) {
+  selectiveNllbManagedPaths = await buildSelectiveNllbOutputs(
+    selectiveNllbBuildPlan
+  );
+}
+
+if (!reuseExistingPublic && !canSelectivelyBuildPublic) {
+  for (const code of enabledLanguages) {
+    await loadPublicLocaleState(code);
+
+    for (const routeKey of allPublicRouteKeys) {
+      await writePublicRouteOutput(code, routeKey);
+    }
+    await writePublicProjectOutputs(code, projects);
+    await writePublicRouteOutput(code, NOT_FOUND_ROUTE_KEY);
+  }
+}
+
+if (!reuseExistingNllb && !canSelectivelyBuildNllb) {
+  const nllbOutDir = path.join(outDir, "nllb");
+  await mkdir(nllbOutDir, { recursive: true });
+
+  for (const code of longTailNllbCodes) {
+    currentRouteMode = "nllb";
+    currentNllbCode = code;
+    currentNllbSlug =
+      nllbLanguages[code]?.slug || code.toLowerCase().replaceAll("_", "-");
+    lang = code;
+    ({ values: strings, localizedKeys: localizedStringKeys } =
+      await loadNllbStrings(code));
+    content = await loadNllbContent(code);
+    projects = await loadNllbProjects(code);
+
+    const localeOutDir = path.join(nllbOutDir, currentNllbSlug);
+    await mkdir(localeOutDir, { recursive: true });
+    await mkdir(path.join(localeOutDir, getRouteSlug("projects", code)), {
+      recursive: true
+    });
+
+    for (const route of nllbRoutes) {
+      const pageDir = route.key
+        ? path.join(localeOutDir, getRouteSlug(route.key, code))
+        : localeOutDir;
+      await mkdir(pageDir, { recursive: true });
+      await writeFile(path.join(pageDir, "index.html"), route.render());
+    }
+
+    for (const project of projects) {
+      const projectDir = path.join(
+        localeOutDir,
+        getRouteSlug("projects", code),
+        project.slug
+      );
+      await mkdir(projectDir, { recursive: true });
+      await writeFile(
+        path.join(projectDir, "index.html"),
+        renderProjectPage(project)
+      );
+    }
+
+    await writeFile(path.join(localeOutDir, "404.html"), renderNotFoundPage());
+  }
 }
 
 currentRouteMode = "public";
@@ -483,6 +1595,46 @@ if (!noindex) {
   await writeFile(path.join(outDir, "sitemap.xml"), renderSitemap());
 }
 await writeFile(path.join(outDir, "_headers"), renderHeaders());
+await writeFile(
+  path.join(outDir, buildMetaFile),
+  `${JSON.stringify(buildMeta, null, 2)}\n`
+);
+const reusePaths = [
+  ...(reuseExistingPublic ? reusablePublicOutputPaths : []),
+  ...(reuseExistingNllb ? ["nllb"] : [])
+];
+if (reuseExistingPublic) {
+  console.log("[dev-fast] Reusing existing public HTML output.");
+} else if (canSelectivelyBuildPublic) {
+  const selectiveTargetLabel =
+    selectivePublicBuildPlan.kind === "default-page"
+      ? `fallback public routes for ${selectivePublicBuildPlan.pageName}`
+      : selectivePublicBuildPlan.kind === "default-strings"
+        ? "default string dependents"
+      : selectivePublicBuildPlan.code;
+  console.log(
+    `[dev-fast] Rebuilding ${selectiveTargetLabel} for ${selectivePublicBuildPlan.changedPath}.`
+  );
+}
+if (reuseExistingNllb) {
+  console.log("[dev-fast] Reusing existing NLLB output.");
+} else if (canSelectivelyBuildNllb) {
+  console.log(
+    `[dev-fast] Rebuilding ${selectiveNllbBuildPlan.codes.length} NLLB locale(s) for ${selectiveNllbBuildPlan.changedPath}.`
+  );
+}
+if (canUpdateLiveOutDirInPlace) {
+  console.log("[dev-fast] Updating live dist in place.");
+  await syncLiveOutDirInPlace({
+    managedFiles: [
+      ...liveManagedFiles,
+      ...selectivePublicManagedPaths,
+      ...selectiveNllbManagedPaths
+    ]
+  });
+} else {
+  await replaceLiveOutDir({ reusePaths });
+}
 
 // ── Page renderers ──────────────────────────────────────────────────────────
 
