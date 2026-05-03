@@ -1482,6 +1482,7 @@ function renderDocument({ pageData, body, documentTitle, description }) {
   const mainClass = showsTranslationStatus
     ? "site-main site-main--has-translation-status"
     : "site-main";
+  const navHtml = renderNav(currentPath);
 
   return `<!doctype html>
 <html lang="${escapeHtml(htmlLang)}" dir="${escapeHtml(htmlDir)}">
@@ -1511,16 +1512,50 @@ function renderDocument({ pageData, body, documentTitle, description }) {
     <a class="skip-link" href="#content">${escapeHtml(strings["skip.toContent"])}</a>
     <div class="site-shell">
       <header class="site-header" role="banner">
-        <a class="brand" href="${escapeHtml(localizePathname("/"))}" aria-label="${escapeHtml(strings["site.title"])}">
-          <span class="brand__mark">${escapeHtml(strings["site.short"])}.cc</span>
-          <span class="brand__meta">${escapeHtml(strings["site.title"])}</span>
-        </a>
-        <nav class="site-nav" aria-label="${escapeHtml(strings["nav.label"])}">
-          <ul class="site-nav__list">
-            ${renderNav(currentPath)}
+        <div class="site-header__top">
+          <a class="brand" href="${escapeHtml(localizePathname("/"))}" aria-label="${escapeHtml(strings["site.title"])}">
+            <span class="brand__mark">${escapeHtml(strings["site.short"])}.cc</span>
+            <span class="brand__meta">${escapeHtml(strings["site.title"])}</span>
+          </a>
+          <div class="site-header__menu">
+            <button
+              class="site-nav-toggle"
+              type="button"
+              aria-controls="site-primary-nav-mobile"
+              aria-expanded="false"
+              data-mobile-nav-toggle
+              hidden
+            >
+              <span class="site-nav-toggle__label">${escapeHtml(strings["nav.menu"] || "Menu")}</span>
+              <span class="site-nav-toggle__icon" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+            <nav
+              id="site-primary-nav-mobile"
+              class="site-nav site-nav--mobile"
+              aria-label="${escapeHtml(strings["nav.label"])}"
+              data-mobile-nav
+              hidden
+            >
+              <ul class="site-nav__list">
+                ${navHtml}
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="site-header__controls">
+          <nav class="site-nav site-nav--desktop" aria-label="${escapeHtml(strings["nav.label"])}">
+            <ul class="site-nav__list">
+              ${navHtml}
+            </ul>
+          </nav>
+          <div class="site-header__language">
             ${renderLanguageSwitcher(currentPath)}
-          </ul>
-        </nav>
+          </div>
+        </div>
       </header>
 
       <main id="content" class="${mainClass}" tabindex="-1">
@@ -1741,7 +1776,7 @@ function renderLanguageSwitcher(currentPath) {
   const browseLabelWithCount =
     hiddenLanguageCount > 0 ? `${browseLabel} (+${hiddenLanguageCount})` : browseLabel;
 
-  return `<li class="lang-switcher-item"><details class="lang-switcher" data-lang-switcher>
+  return `<details class="lang-switcher" data-lang-switcher>
     <summary aria-label="${escapeHtml(menuLabel)}: ${escapeHtml(countLabel)}">
       <img class="lang-switcher__icon" src="/language-icon.svg" alt="" width="24" height="24" />
       <span class="lang-switcher__label">${escapeHtml(countLabel)}</span>
@@ -1764,7 +1799,7 @@ function renderLanguageSwitcher(currentPath) {
         <a class="lang-switcher__browse" href="${escapeHtml(getLanguageBrowserPageHref())}">${escapeHtml(browseLabelWithCount)}</a>
       </div>
     </div>
-  </details></li>`;
+  </details>`;
 }
 
 function stripLangPrefix(pathname, codes) {

@@ -563,6 +563,7 @@ textarea {
 
 .lang-switcher {
   position: relative;
+  display: inline-block;
 }
 
 .lang-switcher > summary {
@@ -910,11 +911,26 @@ textarea {
     grid-template-columns: 1fr;
   }
 
+  .lang-switcher {
+    max-width: 100%;
+  }
+
+  .lang-switcher > summary {
+    max-width: 100%;
+  }
+
   .lang-switcher__panel {
+    inset-inline-end: 0;
     width: min(30rem, calc(100vw - 1rem));
   }
 
   .language-browser__list {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .lang-switcher {
+    max-width: 100%;
   }
 }

@@ -1,10 +1,110 @@
+const mobileNavToggle = document.querySelector("[data-mobile-nav-toggle]");
+const mobileNav = document.querySelector("[data-mobile-nav]");
+const mobileNavMedia =
+  typeof window.matchMedia === "function"
+    ? window.matchMedia("(max-width: 960px)")
+    : null;
+
+if (mobileNavToggle && mobileNav && mobileNavMedia) {
+  const closeMobileNav = ({ restoreFocus = false } = {}) => {
+    mobileNav.hidden = true;
+    mobileNavToggle.setAttribute("aria-expanded", "false");
+    if (restoreFocus) {
+      mobileNavToggle.focus();
+    }
+  };
+
+  const openMobileNav = () => {
+    mobileNav.hidden = false;
+    mobileNavToggle.setAttribute("aria-expanded", "true");
+  };
+
+  const syncMobileNav = () => {
+    const isMobile = mobileNavMedia.matches;
+    mobileNavToggle.hidden = !isMobile;
+
+    if (!isMobile) {
+      mobileNav.hidden = true;
+      mobileNavToggle.setAttribute("aria-expanded", "false");
+      return;
+    }
+
+    mobileNav.hidden = mobileNavToggle.getAttribute("aria-expanded") !== "true";
+  };
+
+  mobileNavToggle.addEventListener("click", () => {
+    if (mobileNav.hidden) {
+      openMobileNav();
+      return;
+    }
+
+    closeMobileNav({ restoreFocus: true });
+  });
+
+  mobileNav.addEventListener(
+    "keydown",
+    (event) => {
+      if (event.key !== "Escape" || mobileNav.hidden) return;
+      event.preventDefault();
+      event.stopPropagation();
+      closeMobileNav({ restoreFocus: true });
+    },
+    true
+  );
+
+  document.addEventListener(
+    "pointerdown",
+    (event) => {
+      if (mobileNav.hidden || !mobileNavMedia.matches) return;
+      if (
+        mobileNav.contains(event.target) ||
+        mobileNavToggle.contains(event.target)
+      ) {
+        return;
+      }
+
+      closeMobileNav();
+    },
+    true
+  );
+
+  mobileNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      if (mobileNavMedia.matches) {
+        closeMobileNav();
+      }
+    });
+  });
+
+  if (typeof mobileNavMedia.addEventListener === "function") {
+    mobileNavMedia.addEventListener("change", syncMobileNav);
+  } else if (typeof mobileNavMedia.addListener === "function") {
+    mobileNavMedia.addListener(syncMobileNav);
+  }
+
+  syncMobileNav();
+}
+
 document.querySelectorAll("[data-lang-switcher]").forEach((switcher) => {
   const input = switcher.querySelector("[data-lang-search-input]");
   const resultItems = switcher.querySelectorAll("[data-lang-search-result]");
   const empty = switcher.querySelector("[data-lang-empty]");
   const defaultView = switcher.querySelector("[data-lang-default-view]");
   const resultsView = switcher.querySelector("[data-lang-results]");
-  if (!input || !resultItems.length) return;
+  const summary = switcher.querySelector("summary");
+  if (!input || !resultItems.length || !summary) return;
+
+  const closeSwitcher = () => {
+    if (!switcher.open) return;
+    switcher.open = false;
+    summary.focus();
+  };
+  const handleEscape = (event) => {
+    if (event.key !== "Escape" || !switcher.open) return;
+    event.preventDefault();
+    event.stopPropagation();
+    closeSwitcher();
+  };
 
   const filter = () => {
     const q = input.value.trim().toLowerCase();
@@ -35,6 +135,7 @@ document.querySelectorAll("[data-lang-switcher]").forEach((switcher) => {
       switcher.open = false;
     });
   });
+  switcher.addEventListener("keydown", handleEscape, true);
   switcher.addEventListener("toggle", () => {
     if (switcher.open) {
       input.value = "";

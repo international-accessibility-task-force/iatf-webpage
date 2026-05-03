@@ -3,6 +3,7 @@
   "site.short": "IATF",
   "site.tagline": "From accessibility need to public repo",
   "nav.label": "Primary",
+  "nav.menu": "Menu",
   "nav.projects": "Projects",
   "nav.request": "Request",
   "nav.join": "Join",
