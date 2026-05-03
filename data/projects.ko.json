@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF 웹사이트",
+    "summary": "국제 접근성 태스크 포스 (International Accessibility Task Force) 의 공공 사이트입니다.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF는 모델을 설명하고, 프로젝트를 나열하고, 기여자들을 올바른 다음 단계로 안내하는 안정적인 공공 홈이 필요했습니다.",
+    "why": "이 사이트는 IATF의 공개적인 정문입니다. 그것은 작은 정적 프로젝트로 만들어져 개방된 상태에서 읽기, 번역 및 유지보수를 쉽게 할 수 있습니다.",
+    "scopeIn": [
+      "IATF 모델을 설명하는 공공 랜딩 페이지",
+      "상태, 유지 관리자, 저장소 및 데모를 가진 승인 된, 활동 중인 및 보관 된 IATF 프로젝트의 공개 레지스터",
+      "요청 접수 페이지와 양식",
+      "거버넌스 및 투명성 페이지",
+      "번역 준비 된 구조 를 가진 영어 출처",
+      "클라우드 플레어 작업자 정적 자산에 대한 정적 배포"
+    ],
+    "scopeOut": [
+      "개인 회원 영역, 계정 또는 로그인 흐름",
+      "각 프로젝트의 자체 저장소에 존재하는 프로젝트 소스 코드의 호스팅",
+      "디스코드 (Discord) 에 있는 실시간 채팅",
+      "각 프로젝트의 GitHub 저장소에 존재하는 개별 프로젝트의 이슈 추적"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF 셀카",
+    "summary": "초기 IATF 프로토타입으로, 자연적인 정지점에 도달한 후 보관되었습니다.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF  아래 접근성에 초점을 맞춘 도구의 초기 탐색.",
+    "why": "저장소는 활발한 개발이 중단되었음에도 불구하고 작업의 기록으로 공개됩니다.",
+    "scopeIn": [
+      "공공 기록으로 보관되는 접근성에 초점을 맞춘 도구의 초기 프로토타입"
+    ],
+    "scopeOut": [
+      "활발한 개발 또는 기능 작업",
+      "유지보수 의무",
+      "생산에서의 권장 사용"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF 봇",
+    "summary": "IATF 커뮤니티 봇, 자연적인 정지점에 도달한 후 보관되었습니다.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF 커뮤니티 채널의 자동화.",
+    "why": "저장소는 활발한 개발이 중단되었음에도 불구하고 작업의 기록으로 공개됩니다.",
+    "scopeIn": [
+      "IATF 커뮤니티 채널에 대한 불일치 자동화, 공개 기록으로 유지"
+    ],
+    "scopeOut": [
+      "활발한 개발 또는 기능 작업",
+      "유지보수 의무",
+      "생산에서의 권장 사용"
+    ]
+  }
+]
