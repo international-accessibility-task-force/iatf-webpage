@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF वेबसाइट",
+    "summary": "\"अन्तर्राष्ट्रीय सुलभता कार्यदलस्य\" सार्वजनिकः जालस्थलः।",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF-संस्थायाः आवश्यकता आसीत् स्थिरः सार्वजनिक-गृहः, येन मॉडलः व्याख्यातः, परियोजनाः सूचीकृतानि, तथा योगदानकर्तारः उचितम् अग्रे गमनं कर्तुं समर्थः भवेयुः ।",
+    "why": "अयं जालस्थलः आय.ए.टी.एफ. इत्यस्य सार्वजनिकः प्रवेशद्वारः अस्ति ।",
+    "scopeIn": [
+      "IATF-आदर्शस्य स्पष्टीकरणं ददाति पब्लिक लैंडिंग पेज",
+      "स्वीकृतं, सक्रियं, अभिलेपितं च IATF-प्रकल्पानां सार्वजनिकं रजिस्ट्रं स्थितिः, रखरखावकर्ता, भण्डारः, प्रदर्शनं च युक्तम् अस्ति ।",
+      "अनुरोधप्रवेशपृष्ठं च प्रपत्रं च",
+      "शासनम्, पारदर्शिता च",
+      "अङ्ग्रेजी स्रोतसंरचना अनुवादार्थं तत्परः अस्ति",
+      "Cloudflare Workers Static Assets इत्यनेन सह अधो लिखितानां पृष्ठानां परिसन्धिं करोतुः"
+    ],
+    "scopeOut": [
+      "निजी सदस्यक्षेत्रः, लेखाः, अथवा प्रवेशप्रवाहः",
+      "प्रकल्पस्य स्रोतकोडस्य होस्टिङ्गं भवति, यत् प्रत्येकं प्रकल्पः स्वस्य रिपोजिटरीमध्ये वसति ।",
+      "रीयल्-टाइम् वार्तालापः, यः डिस्कोर्द्-मध्ये निवसति",
+      "प्रत्येकं प्रकल्पस्य गिटहब-स्थाने विद्यमानः एकस्मिन् प्रकल्पे विषये अनुगमनं क्रियते"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF सेल्फी",
+    "summary": "एकं प्रारम्भिकं IATF प्रोटोटाइपं, एकं प्राकृतिकं स्थानं प्राप्त्यन्तरं अभिलेखनं कृतम्।",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "आयएटीएफ-संस्थायाः अन्तर्गतं सुलभता-आधारितस्य साधनस्य प्रारम्भिक अन्वेषणम्।",
+    "why": "कार्यस्य रेकर्डस्य रूपे अस्य अभिलेखालयं सार्वजनिकं भवति, यद्यपि सक्रियः विकासः स्थगितः अस्ति ।",
+    "scopeIn": [
+      "अभिगम्यता-आधारितस्य साधनस्य प्रारम्भिकं प्रतिरूपं सार्वजनिकं रेकर्डरूपेण रक्षितम् अस्ति ।"
+    ],
+    "scopeOut": [
+      "सक्रियः विकासः अथवा विशेषणकार्यम्",
+      "रखरखाव सम्बन्धि वचनबद्धता",
+      "उत्पादने अनुशंसितः उपयोगः"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF बोटः",
+    "summary": "IATF community bot, archived after reaching a natural stopping point. एकं आईएटीएफ-समुदाय-बोटम्, एकं नैसर्गिकं स्थानं प्राप्त्यन्तरं अभिलेखनं कृतम्।",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF-समुदायस्य च्यानलानां स्वचालनम् ।",
+    "why": "कार्यस्य रेकर्डस्य रूपे अस्य अभिलेखालयं सार्वजनिकं भवति, यद्यपि सक्रियः विकासः स्थगितः अस्ति ।",
+    "scopeIn": [
+      "IATF-समुदायस्य च्यानलेषु असमञ्जस्यतायाः स्वचालनम्, सार्वजनिकं अभिलेखं वर्तते"
+    ],
+    "scopeOut": [
+      "सक्रियः विकासः अथवा विशेषणकार्यम्",
+      "रखरखाव सम्बन्धि वचनबद्धता",
+      "उत्पादने अनुशंसितः उपयोगः"
+    ]
+  }
+]

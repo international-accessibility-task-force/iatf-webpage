@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "जनानां सुलभतायाः परियोजनाः",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "जनानां सुलभतायाः परियोजनाः",
+    "lead": "अत्र आय.ए.टी.एफ.द्वारा सम्पादितानि सार्वजनिकप्रयोजनाः सूचीबद्धानि सन्ति। स्वीकृतानि अभिगम्यताप्रयोजनानि, स्थलसंरचनाः, अभिलेपितानि प्रोटोटाइपानि च अत्र दृश्यन्ते।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "अभिलेखालय",
+      "title": "वर्तमानः अभिलेखागारः"
+    },
+    "intro": [
+      "स्वीकृतानि परियोजनाः प्रकाशनकाले अत्र सूचीबद्धानि सन्ति ।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "आवश्यकतां दर्शयतु",
+      "title": "अभिगम्यतायाः विशिष्टं आवश्यकतां सार्वजनिकप्रयोजनायां परिवर्तयतु"
+    },
+    "paragraphs": [
+      "आय.ए.टी.एफ. इत्यनेन सह अधो लिखितानां पृष्ठानां परिसन्धिं करोतुः"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "अद्यापि परियोजनाः प्रकाशितानि न सन्ति",
+    "paragraphs": [
+      "आय.ए.टी.एफ.ः स्वस्य प्रथमं सार्वजनिकं परियोजना-सङ्घं तयारं करोति।",
+      "यदि भवता विशिष्टाः सुलभतायाः आवश्यकताः सन्ति, तर्हि भवता अपि अनुरोधः प्रेषितुं शक्यते।"
+    ]
+  }
+}

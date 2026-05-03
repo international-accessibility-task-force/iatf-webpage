@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइटमैपः"
+  },
+  "hero": {
+    "eyebrow": "अनुक्रमणिका",
+    "title": "साइटमैपः",
+    "lead": "IATF.CC. इत्यस्य सर्वाणि पृष्ठानि एकस्मिन् स्थाने सन्ति।"
+  },
+  "sections": [
+    {
+      "title": "मुखपृष्ठम्",
+      "items": [
+        {
+          "label": "गृहम्",
+          "href": "/"
+        },
+        {
+          "label": "परियोजनाः",
+          "href": "/projects/"
+        },
+        {
+          "label": "परियोजनां निवेदयतु",
+          "href": "/propose/"
+        },
+        {
+          "label": "शासनम्",
+          "href": "/governance/"
+        },
+        {
+          "label": "सम्मिलनं कुरुत",
+          "href": "/join/"
+        },
+        {
+          "label": "अभिगम्यता",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शिता",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "परियोजनाः",
+  "projectsEmpty": "अद्यापि परियोजनाः प्रकाशितानि न सन्ति।"
+}

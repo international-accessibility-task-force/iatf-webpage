@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "न प्राप्नोति"
+  },
+  "hero": {
+    "eyebrow": "न प्राप्नोति",
+    "title": "निवेदितं पृष्ठं न लब्धम्",
+    "lead": "अधोलिखितानां मुख्यमार्गानाम् उपयोगं कुर्वन् भवन्तः सार्वजनिकस्थाने आगन्तुं शक्नुवन्ति।",
+    "support": [],
+    "actions": [
+      {
+        "label": "गृहम्",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "भवद्भिः निवेदितः मार्गः न अस्ति।"
+    ],
+    "items": [
+      {
+        "label": "गृहम्",
+        "href": "/"
+      },
+      {
+        "label": "परियोजनाः",
+        "href": "/projects/"
+      },
+      {
+        "label": "सम्मिलनं कुरुत",
+        "href": "/join/"
+      },
+      {
+        "label": "अभिगम्यता",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "शासनम्",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शिता",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
