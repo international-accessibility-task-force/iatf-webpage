@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance en repository model",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance en repository model",
+    "lead": "IATF hèlt toegankelikheidsprojecte openbaar, leesbaar en beheersbaar.",
+    "support": [
+      "Op dees pagina weurt verklaord waat gekwalificeerd is, wie repositoria gehawwe weure en welke verantwoordelikheid op repository-niveau geldt nao acceptatie."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regele",
+      "title": "Missie fit, eigendom, licentie"
+    },
+    "cards": [
+      {
+        "title": "missie fit",
+        "paragraphs": [
+          "IATF accepteert werk dat 'n echte toegankelikheidsbarrière oplost en 'n dudeleke publieke waarde haet.",
+          "'n Projek moot gebroekelek zeen boete 'n inkel privé-workflow en gebruukbaar zeen es 'n publieke repository.",
+          "Foar webtoeganklikheid brûkt de IATF [W3C WAI](https://www.w3.org/WAI/) De directe ervaring vaan gebroekers vaan hulptechnologie is ouch 'n praktisch bewies vaan wat in 't echte gebruuk wèrk."
+        ]
+      },
+      {
+        "title": "Aanvaarding vaan 't project",
+        "paragraphs": [
+          "'n Aanbod kan weure geaccepteerd es oonderzeuk toont tot:"
+        ],
+        "items": [
+          "d'r is sprake van 'n echte toegankelikheidsbehoefte",
+          "'t probleem is helder genóg um te evaluere",
+          "de scope is realistisch genóg um te lanceere",
+          "'t werk is in lijn mèt de missie vaan de IATF",
+          "d'r is 'n plausibel paad nao onderhoud of voltooiing"
+        ]
+      },
+      {
+        "title": "Eigendom vaan 't register",
+        "paragraphs": [
+          "Geaccepteerde projekte weure gemaak oonder de IATF GitHub organisatie.",
+          "Repositories blieve d'r dus eder project hèlt 'n stabiel gemeinsjappelek hoesje, zelfs es de instandhouders later verangere."
+        ]
+      },
+      {
+        "title": "Licensing",
+        "paragraphs": [
+          "IATF-projekte gebruke copyleft-licenties, tenzij 'n project aanders verklaort:"
+        ],
+        "items": [
+          "<strong>Code:</strong> AGPL-3.0",
+          "<strong>Documentatie:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Verantwoordelike ingenieur of onderhouder",
+      "paragraphs": [
+        "Ieder geaccepteerd project moot 'n naam höbbe vaan 'ne verantwoordeleke ingenieur of onderhouder."
+      ],
+      "items": [
+        "gidsontwikkeling in 't openbaar",
+        "de repository-structuur in stand te houden;",
+        "Review of manage issues en pull requests",
+        "Belangrieke technische beslissinge te documenteere",
+        "make 't project veur aandere begriepelik"
+      ],
+      "footnote": "Dit is 'n verantwoordelikheid op 't niveau vaan 't repository. 't Organisatiege bezit blief bij 't IATF. De verantwoordelikheid is 't beheer van 't repositorium, de technische richting en de publieke coördinatie  neet onbegrensde private levering, aangepaste integraties of service-level verbintenis boete 't publieke roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Publieke oontwikkeling",
+      "paragraphs": [
+        "Projekte die via de IATF waere gelanceerd, weure standaard in 't openbaar oontwikkeld. 't Repozitorium is de publieke bron vaan waarheid veur:"
+      ],
+      "items": [
+        "broncode",
+        "kwesties",
+        "documentatie",
+        "roadmap notes",
+        "versjèl tösje versies"
+      ],
+      "footnote": "Belangrieke projekkènnis zouw neet allein in privé-chats of inbox's mote ligke."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Publieke registers",
+      "title": "Publiek aanvraagregister"
+    },
+    "paragraphs": [
+      "IATF wèrkt standaard in 't openbaar. Verzoeke die via de website, e-mail, Discord, GitHub of andere IAT F-kanalen in I AT F terechkomme, kinne publieke verzoeksrecords weure.",
+      "'n Publiek aanvraagregister is neet per se 't oersprunkelek berich. 't IATF kan 'n aanvraag resumeere, redigeere of herstructureere veur de publicatie, zoedat de toegankelijkheidsbehoefte kan weure beoordeild zoonder onnodige persoonsgegevens te óntdekke.",
+      "Publike oanfraachregisters kinne opslein wurde yn 'e IATF GitHub-organisaasje, op dizze webside, of beide.",
+      "Veur de publicatie verwydert de IATF onnodige persoeneleke contactgegevens, privé-adressen en identificeerbare details euver individuele gebroekers vaan hulptechnologieë, tenzij de publikatie dudelek is bedoeld en passend.",
+      "Discord weurt gebruuk veur informele coördinatie. IATF archiveert Discord-gesjprekke standaard neet apaart, en 't behawwe vaan berichte weurt gecontroleerd door Discord. Besjlisse die in Discord gehawwe zeen, mote samengevat weure in 't openbaar register op GitHub of op de relevante projectpagina.",
+      "Verzoeksregisters weure oetgesjlote vaan 't indexeer vaan de zoeker, boe 't technisch praktisch is. 'Public' beteikent herziechbaar en verantwoordbaar. 't Betekent neet geoptimaliseerd veur oontdèkking door naomzoeke.",
+      "IATF kan records updaten of verwyderen oet door 't instituut gecontroleerde openbare oppervlakken, meh kan neet garandere verwydering oet caches, meldinge, forks, screenshots, zoekmachines, Discord of aander externe systemen van derden.",
+      "Es 'n berich privaot mós blieve, stuur 't neet via IATF-publieke kanale."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisatorische rol",
+      "title": "Stool"
+    },
+    "lead": "De veurzitter haet 't bestuur vaan de IATF op organisatieniveau. Dit is versjèllend vaan de rol vaan de per-project verantwoordeleke ingenieur: de veurzitter is verantwoordelek veur de organisatie es geheel, neet veur de daag-op-daag leiding vaan 'n eige repository.",
+    "duties": {
+      "title": "Wat de stool doet",
+      "items": [
+        "Halt eigenaer permissies op de IATF GitHub organisatie",
+        "Aanvaardingsprojekte en archiefbesluite",
+        "Acteert es publiek contactpunt veur de IATF",
+        "Koördineert de jaorlikse verkiezing"
+      ],
+      "footnote": "De veurzitter verplich de IATF neet tot privé-levering, betaald werk of service-level-akkoorde, en haet gein euverheersing op per-repositorium-onderhoudersbesluite euver technische richting."
+    },
+    "election": {
+      "title": "Jaorlikse verkiezing",
+      "paragraphs": [
+        "De veurzitter weurt einmaol per jaor gekoze, de verkiezing kump in de ierste twie waeke vaan december, de resultaten weure op 15 december bekendgemaakt en de nuuje termijn begint op 1 jannewarie.",
+        "Elke kiezer haet ein stum. 't Kandidaat mit de meiste stumme wint; in geval van tied wirt 'n ronde gehawwe in de derde waek van december.",
+        "De verkiezing weurt oetgeveurd es 'n publieke GitHub Discussion in de aangezeen IATF governance repository, dus de kandidate, de stemming en 't resultaat zien allemaol deil vaan 't publieke register."
+      ]
+    },
+    "continuity": {
+      "title": "Continuïteit",
+      "paragraphs": [
+        "Es in 'n bepaold jaor gein verkiezing weurt gehawwe, blief de huidige veurzitter in de rol tot de volgende verkezinge. 't Is 'n ónbepaolde vervolg, neet 'n gratieperiode  't model is ontworpe um de organisatie stabiel te hure es d'n activiteit neet väöl is, en neet um 'n euvergang op te dwinge boe-op me neet klaor is.",
+        "De veurzitter kan op eeder moment trök trèkke. 't Actieve bestuur kan ouch 'n buitengewone verkiezing oproepe mèt 'n oetgesjreve reden, volgens dezelfde regels es de jaorlikse verkezinge."
+      ]
+    },
+    "current": {
+      "title": "Huidige veurzitter",
+      "fields": [
+        {
+          "label": "Stool",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termijn",
+          "value": "Tot de verkiezinge vaan december 2026"
+        },
+        {
+          "label": "Rol geformaliseerd",
+          "value": "2026"
+        },
+        {
+          "label": "Ierste geplande verkiezing",
+          "value": "december 2026"
+        }
+      ]
+    },
+    "footnote": "De rol vaan de veurzitter woort in 2026 geformaliseerd um 't bestuur op organisatieniveau expliciet te make."
+  },
+  "continuity": {
+    "states": {
+      "title": "Projektoestand",
+      "paragraphs": [
+        "Projekte hanteere 'n klein aantal publieke staote:"
+      ],
+      "items": [
+        "Aanbeveling",
+        "Geaccepteerd",
+        "Actief",
+        "Stabiel",
+        "Zoeker onderhouder",
+        "Archief"
+      ],
+      "footnote": "Dees staote make 't register makkelik te scanne."
+    },
+    "reassignment": {
+      "title": "Hertoewijzing en archivering",
+      "paragraphs": [
+        "Es 'ne maintainer trök trèk of inactief weurt, kin de IATF de verantwoording verplaots, de oontwikkeling pauzeere of 't project archiveer.",
+        "'n Projek kin ouch weure gearchiveerd es de oersprunkeleke behoefte is vervuld, 't onderhoud is gestopt of 't doorgaon vaan 't werk neet mie realistisch is."
+      ],
+      "footnote": "Archiefprojecte blieve publiek zichtbaar, tenzij d'r 'n dwingende reden is om 't aanders te doen."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Grensnoot",
+      "title": "Wat de IATF neet garandeert"
+    },
+    "items": [
+      "private klantlevering",
+      "service-level agreements",
+      "aanvaarding van eder veurstel",
+      "langetermijnonderhoud veur eder project"
+    ],
+    "footnote": "IATF is 'n publiek repository model, neet 'n privaot bezörgingsservice."
+  }
+}

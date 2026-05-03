@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "doorzichtigheid",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "doorzichtigheid",
+    "lead": "IATF wèrkt standaard in 't openbaar. Projekbesluite, codeveranderinge, governanceverangeringe en exploitatiekoste weure geregistreerd op publieke plaotse.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Dossiers",
+      "title": "Waor 't archief woont"
+    },
+    "items": [
+      "<strong>Projectbesluite.</strong> De beslissinge euver aanvaarding, archivering en hertoewijzing weure geregistreerd es issues of releases in 't relevante register en samengevat in de publieke register. <a href=\"/projects/\">register</a>Waat is ' t ?",
+      "<strong>Verzoek registers.</strong> Publieke verzeukrecords weure opgeslage in de IATF GitHub organisatie, op deze website, of allebei. Records kinne de oersprunkeleke aanvraog samevatte, redigeere of herstructurere, zodat de toegankelijkheidsbehoefte kan weure beoordeild zoonder onnodige persoonsgegevens bloot te lieke. Discordbesluite weure samengevat in 't publieke register es ze 'n projek of bestuursbeslissing beïnvloede. Verzeukregister weure oetgesjlote oet de indexeering vaan zoeker, boe 't technisch praktisch is. Bekiekrecords: ierste publicatieverzeuk hangend.",
+      "<strong>Code verandert.</strong> Iedere codeverandering is 'n publieke commit op de relevante repository. <a href=\"{{contact.githubOrgUrl}}\">GitHub organisatie</a>Waat is ' t ?",
+      "<strong>Verangeringe in 't bestuur.</strong> Updates to the governance page are tracked as commits to the <code>iatf-website</code> Bekijk de repository. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">commit gesjiedenis</a> op GitHub.",
+      "<strong>Operatiekosten.</strong> IATF houwt bedriuwskosten laag en registreert herhaolege koste veur publieke infrastructuur.",
+      "<strong>Coördinatienota's.</strong> Notities oet 'n gecoördineerde review of beslissing live in GitHub Discussies over de relevante repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Besprekinge</a> op de <code>iatf-website</code> opslagplaats."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "koste",
+      "title": "Registratie van exploitatie-kosten"
+    },
+    "paragraphs": [
+      "IATF hèlt zien publieke infrastructuur opzettelek klein.",
+      "Dit register is gein gecontroleerd financieel statement. 't Is 'n openbaar exploitatie-kostenlogboek veur de infrastructuur die gebruuk weurt um de IATF online te houwe."
+    ],
+    "footnote": "Recepte kinne nao redaksie verwieze weure of gepubliceerd weure. Persoonleke adresse, factureringsgegevens en onnodige rekeninginformatie make gein deil oet vaan 't publiek register.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domein",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "koste",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Nootjes",
+            "value": "Domeinkoste gefinancierd door mugiwarafx. Hosting gebruuk gratis-tier of low-cost infrastructuur via Cloudflare. 't Project verplaatsde ziech van Vercel nao CloudFlare en begós 't kortere <code>iatf.cc</code> domein."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domein",
+            "value": "<code>Internationaal toegankelikheidskrachte.com</code>"
+          },
+          {
+            "label": "koste",
+            "value": "USD 18,68"
+          },
+          {
+            "label": "Nootjes",
+            "value": "Domeinkoste gefinancierd door mugiwarafx. Hosting gebruuk gratis-tier of low-cost infrastructuur."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domein",
+            "value": "<code>Internationaal toegankelikheidskrachte.com</code>"
+          },
+          {
+            "label": "koste",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Nootjes",
+            "value": "Domeinkoste gefinancierd door mugiwarafx. Hosting gebruuk gratis-tier of low-cost infrastructuur via Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domein",
+            "value": "<code>Internationaal toegankelikheidskrachte.com</code>"
+          },
+          {
+            "label": "koste",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Nootjes",
+            "value": "Domeinkoste gefinancierd door mugiwarafx. Hosting gebruuk gratis-tier of low-cost infrastructuur."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domein",
+            "value": "<code>Internationaal toegankelikheidskrachte.com</code>"
+          },
+          {
+            "label": "koste",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Nootjes",
+            "value": "Domeinkoste gefinancierd door mugiwarafx. Hosting gebruuk gratis-tier of low-cost infrastructuur via GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Grensnoot",
+      "title": "Waat is neet publiek"
+    },
+    "paragraphs": [
+      "Sommige materiaal weurt neet mèt 't publiek geregistreerd:"
+    ],
+    "items": [
+      "Persoonlijke contactgegevens van veurstellers.",
+      "Prive korrespondentie die allein weurt gebruuk um 'n verzoek te verduideile veur 't geaccepteerd, geweigerd of samengevat weurt.",
+      "Prive adressen, telefoonnummers en onnodige persoonsgegevens.",
+      "Alles wat 'n individuele gebroeker van hulptechnologie identificeert zónder toestemming.",
+      "Raw Discord-gesjprekke, tenzij 'n specifiek berich opzettelek weurt verplaats nao 'n publiek projectrecord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Lês mear oer",
+      "title": "Bestuur is 't regelbook achter dees registers"
+    },
+    "paragraphs": [
+      "Es geer wilt begriepe wie projekte weure geaccepteerd, gearchiveerd of verplaats, leest geer de governance-pagina."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap[bewirk  brón bewèrke]"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Sitemap[bewirk  brón bewèrke]",
+    "lead": "Alle publieke pagina's op iatf.cc, op ein plaots."
+  },
+  "sections": [
+    {
+      "title": "Hoofpagina's",
+      "items": [
+        {
+          "label": "Thuis",
+          "href": "/"
+        },
+        {
+          "label": "Projekte",
+          "href": "/projects/"
+        },
+        {
+          "label": "Vraog 'n projek aan",
+          "href": "/propose/"
+        },
+        {
+          "label": "Bestuur",
+          "href": "/governance/"
+        },
+        {
+          "label": "Sjoch foarby",
+          "href": "/join/"
+        },
+        {
+          "label": "Toegankelikheid",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "doorzichtigheid",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekte",
+  "projectsEmpty": "Nog gein projekte gepubliceerd."
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Publieke toegankelikheidsprojecte",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Publieke toegankelikheidsprojecte",
+    "lead": "Dit register liest publieke projekte die via de IATF weure gehawwe. Geaccepteerde accessibiliteitsprojecte, infrastructuur op de site en gearchiveerde prototypen weure hei zichtbaar.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registraasje",
+      "title": "Huidig register"
+    },
+    "intro": [
+      "Geaccepteerde projekte weure hie gelist zodet ze gepubliceerd zeen."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Behoefte indienen",
+      "title": "Concrete toegankelijkheidsbehoefte omzetten in 'n publiek project"
+    },
+    "paragraphs": [
+      "IATF beoordeilt concrete toegankelijkheidsbehoefte die in nuttig publiek open source-werk kunnen weure omgezat."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nog gein gepubliceerde projekte",
+    "paragraphs": [
+      "IATF bereidt zien ierste publieke projekset veur.",
+      "Geer kint nog 'n vraog stèlle es geer 'n concreet toegankelikheidsbehoefte haet."
+    ]
+  }
+}

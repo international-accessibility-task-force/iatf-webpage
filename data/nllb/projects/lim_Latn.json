@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF website",
+    "summary": "De publieke site veur de International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF zoog 'n stabiel publiek hoes dat 't model oetlegde, projecten opnoomde en bijdragers aan de volgende stap wies.",
+    "why": "De site is de publieke veurpoort van IATF. 't Is opgebouwd es 'n klein statisch project, dus 't is makkelik te leze, te vertaole en te behawwe in 't ope.",
+    "scopeIn": [
+      "Publieke landingspagina's die 't IATF-model verklaore",
+      "Publiek register vaan geaccepteerde, actieve en gearchiveerde IATF-projecte mèt status, maintainer, repository en demo",
+      "'n Aanvraag intakepagina en formulier",
+      "Bestuur en transparantiepagina's",
+      "Ingelse bron mèt structuur klaor veur vertaling",
+      "Static deployment on Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Prive lidgebiede, accounts of inlogflow's",
+      "Hosting vaan de broncode vaan 't project, die in 't eige repository vaan eder project woont",
+      "Echte-tied chat, die woont in Discord",
+      "Issue tracking foar yndividuele projekten, dy't leeft yn elk projekt's GitHub repository"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "E vreug IATF-prototype, gearchiveerd nao 't bereike vaan 'n natuurlek stoppunt.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Vroege verkenning van 'n op toegankelijkheid gefocust gereedschap oonder de paraplu van de IATF.",
+    "why": "De repository weurt publiekelik bewaord es 'n register vaan 't werk, ouch al is de actieve oontwikkeling gestopt.",
+    "scopeIn": [
+      "Vroege prototype van 'n op toegankelijkheid gefocust gereedschap dat es publiek register weurt bewaard"
+    ],
+    "scopeOut": [
+      "Actieve oontwikkeling of functiewerk",
+      "Onderhoudsverplichtinge",
+      "Aanbeveild gebruuk in de productie"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "'n IATF-gemeinsjapsbot, gearchiveerd nao 't bereike vaan 'n natuurlek stoppunt.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatisering rond IATF community kanalen.",
+    "why": "De repository weurt publiekelik bewaord es 'n register vaan 't werk, ouch al is de actieve oontwikkeling gestopt.",
+    "scopeIn": [
+      "Discord automation around IATF community channels, kept as a public record"
+    ],
+    "scopeOut": [
+      "Actieve oontwikkeling of functiewerk",
+      "Onderhoudsverplichtinge",
+      "Aanbeveild gebruuk in de productie"
+    ]
+  }
+]

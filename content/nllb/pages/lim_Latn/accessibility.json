@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Toegankelikheid",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Toegankelikheid",
+    "lead": "IATF wil dees website simpel, leesbaar, toetsenbaar en compatibel make mèt hulptechnologie.",
+    "support": [
+      "Foar webtoeganklikheid brûkt de IATF [W3C WAI](https://www.w3.org/WAI/) De praktische toegankelijkheid weurt ouch geïnformeerd door de directe ervaring vaan gebroekers vaan hulptechnologie."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapportaasje",
+      "title": "Meld 'n probleem mèt toegankelijkheid"
+    },
+    "paragraphs": [
+      "Es geer 'n toegankelikheidsbarrière op dees website vindt, meld 't dan bv. via e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Nuttige berichte zien:"
+    ],
+    "items": [
+      "de pagina waor 't probleem gebeurde",
+      "waat geer probeerde te doon",
+      "welke hulptechnologie, browser of apparaat geer gebroek haet, indien relevant",
+      "waat ging neet good",
+      "waat zouw geholpe höbbe"
+    ],
+    "footnote": "Geer moot gein formeel bugreport sjrieve. 'n Dudeleke besjrieving is genóg."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "hantering",
+      "title": "Beheersing vaan publieke kwesties"
+    },
+    "paragraphs": [
+      "Toeganklikheidskwesties kinne samengevat weure in de relevante publieke repository, zoadat ze in 't ope kinne weure opgelos. Persoonleke contactgegevens en ónnötzige privé-informatie weure veur de publicatie aafgehaold.",
+      "Es d'r in d'n berich privé-informatie is, zèg 't dan dudelek in 't berich."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Huidige toestandj",
+      "title": "Bekinde beperkinge"
+    },
+    "paragraphs": [
+      "Dees site is opzettelek klein en veural statisch."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Neet aangetroffe"
+  },
+  "hero": {
+    "eyebrow": "Neet aangetroffe",
+    "title": "De gevraogde pagina is neet te vinde",
+    "lead": "Gebroek de hoofroutes ónger óm terug te kómme nao de publieke plaats.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Thuis",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "De route die ge vraog besteit neet."
+    ],
+    "items": [
+      {
+        "label": "Thuis",
+        "href": "/"
+      },
+      {
+        "label": "Projekte",
+        "href": "/projects/"
+      },
+      {
+        "label": "Sjoch foarby",
+        "href": "/join/"
+      },
+      {
+        "label": "Toegankelikheid",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Bestuur",
+        "href": "/governance/"
+      },
+      {
+        "label": "doorzichtigheid",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

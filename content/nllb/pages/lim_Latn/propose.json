@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Vraog 'n toegankelikheidsprojek",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Vraog 'n toegankelikheidsprojek",
+    "lead": "IATF beoordeilt aanvraoge veur toegankelikheidsprojecte die beginne oet 'n echte behoefte.",
+    "support": [
+      "D'r is neet genóg 'n volledige specificatie. 'n Duidelik probleem, wie 't beïnvloedt en waorum 't belangriek is, is genóg um te beginne."
+    ],
+    "actions": [
+      {
+        "label": "Begin 'n aanvraog",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gebroek in plaatsj van Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanale",
+      "title": "Kies de gemakkelikste route"
+    },
+    "intro": [
+      "Alle routes goon in dezelfde review."
+    ],
+    "items": [
+      {
+        "label": "Website[bewirk  brón bewèrke]",
+        "body": "Gebroek 't óngerstaonde formulier óm 'n gestructureerd verzoek in te zètte."
+      },
+      {
+        "label": "E-mailadres",
+        "body": "Verzend 't verzoek direk nao: {{contact.requestsEmail}}. E-mailverzoeke kènne nao herziening en redaksie publieke verzoeksrecords weure."
+      },
+      {
+        "label": "Versjèl tösje",
+        "body": "Begin daor as dat 't makkelikste is. 't Verzoek verplaots ziech nog ummer in dezelfde review."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Veurdat geer 'n vraog verstuurt",
+    "paragraphs": [
+      "IATF wèrk in 't openbaar. Verzochte kènne waere samengevat en gepubliceerd es publieke verzoeksregisters in de GitHub-organisaasje van de iATF, op deze website, of allebei.",
+      "Doe't jo ynformaasje hawwe oer persoanlike adressen, tillefoannummers, medyske gegevens of identifisearjen fan yndividuele brûkers fan assistive technologyen, moat it nedich wêze en jo kinne de IATF net meitsje om it te besjen.",
+      "IATF verwydert onnodige persoonlijke contactgegevens veur 't publiceere van aanvraaggegevens."
+    ]
+  },
+  "review": {
+    "title": "Overzichtsverwachting",
+    "paragraphs": [
+      "'t Inzendjen van 'n aanvraog garandeert neet 'n aanvaarding.",
+      "IATF beoordeilt verzoeke veur missiepassendheid, haalbaarheid, gebruukbaarheid en of 't werk in 'n publieke repository hoort.",
+      "Sommige verzoeke kinne weure geweigerd, aafgesjtèld of verangerd veur acceptatie."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Aanvraagformulier",
+      "title": "Zet 'n aanvraog in"
+    },
+    "fields": [
+      {
+        "kind": "ingang",
+        "name": "aanvrager",
+        "label": "Jouw naam of organisatie",
+        "helper": "Wie vraogt 't?"
+      },
+      {
+        "kind": "selecteer",
+        "name": "Contactroute",
+        "label": "Veurkeurige contactroute",
+        "helper": "Hoe moet de follow-up plaatsvinden?",
+        "required": true,
+        "options": [
+          "E-mailadres",
+          "Versjèl tösje"
+        ]
+      },
+      {
+        "kind": "ingang",
+        "name": "ContactDetails",
+        "label": "Contactgegevens",
+        "helper": "E-mailadres of Discord adres veur opvolging.",
+        "placeholder": "E-mailadres of Discord- handle",
+        "required": true
+      },
+      {
+        "kind": "ingang",
+        "name": "taol",
+        "label": "Taol",
+        "helper": "Je veurkeurstaal, indien relevant.",
+        "value": "Ingelsj"
+      },
+      {
+        "kind": "teksgebied",
+        "name": "probleem",
+        "label": "Wat veur probleem wilt geer oplosse?",
+        "helper": "Besjrief de hindernis in plain taal.",
+        "required": true
+      },
+      {
+        "kind": "teksgebied",
+        "name": "Betrokke gebroekers",
+        "label": "Wie waere es?",
+        "helper": "Wie zou dit helpe?",
+        "required": true
+      },
+      {
+        "kind": "teksgebied",
+        "name": "extraContext",
+        "label": "Extra context",
+        "helper": "Deel nog get wat de behoefte helpt verklaore: waorum is 't belangriek, veurbeelde, referenties, 'n grof software-idee of timingbeperkinge."
+      },
+      {
+        "kind": "selecteer",
+        "name": "openSourceConsent",
+        "label": "Comfortabel mèt publieke open source-ontwikkeling?",
+        "helper": "Geaccepteerde projekte zien publieke repositories oonder de IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Jao",
+          "neet",
+          "Nog neet zeker."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Indien geaccepteerd",
+      "title": "Wat acceptatie beteikent"
+    },
+    "items": [
+      "'n publieke repository in de IATF GitHub organisatie",
+      "'ne verantwoordelike ingenieur die aan 't project is toegewijd",
+      "'n copyleft licentie veur de code en 't projectmateriaal",
+      "publieke oontwikkeling in 't register",
+      "'n registerinvoer op de IATF-site"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Begin 't gesprek",
+      "title": "Ein kort, dudelik verzoek is genóg um te beginne"
+    },
+    "paragraphs": [
+      "Es geer 'n echte toegankelikheidsbehoefte haet en meint det 't 'n publiek project mós waere, stuur 't dan nao ós."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

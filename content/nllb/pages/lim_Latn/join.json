@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Sjtèl dich bie IATF aan",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Sjtèl dich bie IATF aan",
+    "lead": "'t Lidmaotsjap is oetgebreid. D'r zeen versjèllende maniere om deil te numme, of geer op hulptechnologie steit, toegankeleke software bouwt, vertaolt, toetst of 'n project onderhoudt. De discussie en beslute zeen in 't openbaar op GitHub en Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rollen",
+      "title": "Maniere om bij te dragen"
+    },
+    "items": [
+      "<strong>Vraog 'n project.</strong> Es geer 'n toegankelikheidsbarrière haet die door openbare open-source-software zouw kinne weure opgelos, zend 't dan door de aanvraoginvoer.",
+      "<strong>Test en review.</strong> Probear IATF-projekten mei de assistieve technology dy't jo brûke, rapportearje wat wurket en wat noch, en filearje problemen direkt op de relevante repository.",
+      "<strong>Vertaol.</strong> Oersprunkeleke inhoud weurt veur 't iers in 't gewone Ingels gepubliceerd.",
+      "<strong>Bouw.</strong> Haol probleme op in e IATF-repozitorium, stuur pull-aanvraoge, of neem 'n project aan es de verantwoordeleke ingenieur.",
+      "<strong>Bewaer.</strong> Bestaonde projekte höbbe soms 'n nuuj maintainer nodig. 't Rotere vaan de maintainer is 'n normaal deil vaan 't model, neet 'n oetzundering."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanale",
+      "title": "Waor de IATF in 't openbaar wèrkt"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issues, pull requests, releases, en project records.",
+      "<strong>Versjille.</strong> Live discussie, coördinatie en informele vraoge.",
+      "<strong>E-mail.</strong> Gebroek <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> es noch GitHub noch Discord pas."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Volgende stap",
+      "title": "Kies 't kanaal dat geit mèt wie geer wilt bijdrage"
+    },
+    "paragraphs": [
+      "Alle kanale voere in dezelfde publieke review en dezelfde openbare repositories."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
