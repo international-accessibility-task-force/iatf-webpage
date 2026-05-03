@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "የ IATF ድረ ገጽ",
+    "summary": "ለዓለም አቀፍ ተደራሽነት ግብረ ኃይል የህዝብ ጣቢያ ።",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "አይኤቲኤፍ ሞዴሉን የሚያብራራ ፣ ፕሮጀክቶችን የሚዘረዝር እና አስተዋፅዖ ያላቸውን ሰዎች ወደ ቀጣዩ ትክክለኛ እርምጃ የሚጠቁም የተረጋጋ የህዝብ ቤት ፈልጎ ነበር ።",
+    "why": "ጣቢያው የ IATF የሕዝብ መግቢያ በር ነው። እንደ ትንሽ የማይንቀሳቀስ ፕሮጀክት የተገነባ ነው ስለዚህ ክፍት ሆኖ ለማንበብ ፣ ለመተርጎም እና ለማቆየት ቀላል ነው።",
+    "scopeIn": [
+      "የ IATF ሞዴልን የሚያብራሩ የህዝብ ማረፊያ ገጾች",
+      "ተቀባይነት ያገኙ ፣ ንቁ እና የተቀመጡ የ IATF ፕሮጀክቶች ሁኔታ ፣ አስተዳዳሪ ፣ ማከማቻ እና ማሳያ ያለው የህዝብ መዝገብ ቤት",
+      "የጥያቄ መቀበያ ገጽ እና ቅጽ",
+      "አስተዳደር እና ግልጽነት ገጾች",
+      "ለትርጉም ዝግጁ የሆነ መዋቅር ያለው የእንግሊዝኛ ምንጭ",
+      "በ Cloudflare ሰራተኞች ላይ የማይንቀሳቀስ ማሰማራት"
+    ],
+    "scopeOut": [
+      "የግል የአባል አካባቢዎች፣ መለያዎች ወይም የመግቢያ ፍሰቶች",
+      "የፕሮጀክት ምንጭ ኮድ ማስተናገድ ፣ ይህም በእያንዳንዱ ፕሮጀክት የራሱ ማከማቻ ውስጥ ይኖራል",
+      "በእውነተኛ ጊዜ ውይይት ፣ በ Discord ውስጥ የሚኖር",
+      "በእያንዳንዱ ፕሮጀክት GitHub ማከማቻ ውስጥ የሚኖር የግለሰብ ፕሮጀክቶች ጉዳይ መከታተል"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF የራስ ፎቶ",
+    "summary": "የተፈጥሮ ማቆሚያ ቦታ ላይ ከደረሰ በኋላ የተከማቸ የ IATF የመጀመሪያ ምሳሌ።",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "በአይኤቲኤፍ ጥላ ስር ተደራሽነት ላይ ያተኮረ መሳሪያ ቀደም ብሎ ማሰስ ።",
+    "why": "ማከማቻው የስራው መዝገብ ሆኖ ይፋ ሆኖ ይቆያል ፣ ምንም እንኳን ንቁ ልማት ቢቆምም ።",
+    "scopeIn": [
+      "እንደ ህዝባዊ መዝገብ የተቀመጠ ተደራሽነት ላይ ያተኮረ መሳሪያ የመጀመሪያ ምሳሌ"
+    ],
+    "scopeOut": [
+      "ንቁ ልማት ወይም ባህሪ ሥራ",
+      "የጥገና ግዴታዎች",
+      "በምርት ውስጥ የሚመከር አጠቃቀም"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "አይኤቲኤፍ ቦት",
+    "summary": "የአይኤቲኤፍ ማህበረሰብ ቦት ፣ የተፈጥሮ ማቆሚያ ቦታ ከደረሰ በኋላ ተመዝግቧል ።",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "በ IATF ማህበረሰብ ሰርጦች ዙሪያ አውቶሜሽን ።",
+    "why": "ማከማቻው የስራው መዝገብ ሆኖ ይፋ ሆኖ ይቆያል ፣ ምንም እንኳን ንቁ ልማት ቢቆምም ።",
+    "scopeIn": [
+      "በአይኤቲኤፍ ማህበረሰብ ሰርጦች ዙሪያ አለመግባባት አውቶማቲክ ፣ እንደ የህዝብ መዝገብ ሆኖ ይቀመጣል"
+    ],
+    "scopeOut": [
+      "ንቁ ልማት ወይም ባህሪ ሥራ",
+      "የጥገና ግዴታዎች",
+      "በምርት ውስጥ የሚመከር አጠቃቀም"
+    ]
+  }
+]

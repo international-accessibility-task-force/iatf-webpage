@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "ተደራሽነት አስፈላጊነት ከህዝብ ሪፖ",
+    "lead": "አይኤቲኤፍ ማህበራት ፣ ቡድኖች እና ግለሰቦች እውነተኛ ተደራሽነት ፍላጎቶችን ወደ ህዝባዊ ክፍት ምንጭ ፕሮጀክቶች እንዲቀይሩ ይረዳል ።",
+    "support": [
+      "ተቀባይነት ያላቸው ፕሮጀክቶች በ IATF GitHub ድርጅት ውስጥ በ copyleft ፈቃድ ስር የታተሙ እና በኃላፊነት ኢንጂነር በአደባባይ የተገነቡ ናቸው ።"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "የህዝብ ኦፕሬቲንግ ሞዴል",
+      "title": "ተደራሽ ለሆኑ ሶፍትዌሮች ቀላል የህዝብ መንገድ"
+    },
+    "paragraphs": [
+      "በቅጽ አማካኝነት ማንኛውም ሰው ተደራሽነት ችግርን ለ IATF ማቅረብ ይችላል ። ቡድኑ ሊወስድበት ከቻለ ለስራው የህዝብ የ GitHub ማከማቻ ይከፈታል ።",
+      "እያንዳንዱ ተቀባይነት ያለው ፕሮጀክት ለኮድ ፣ ለጉዳዮች ፣ ለሰነዶች እና ለልቀቶች ግልፅ የሆነ የህዝብ ቤት አለው ፣ ልማትም በአስተማማኝ መሐንዲስ ይመራል ።"
+    ],
+    "specCard": {
+      "title": "የህዝብ ኦፕሬቲንግ ሞዴል",
+      "terms": [
+        {
+          "term": "አስፈላጊነት",
+          "definition": "እውነተኛ ተደራሽነት ችግር"
+        },
+        {
+          "term": "ግምገማ",
+          "definition": "ተልዕኮ ተስማሚነት እና ተግባራዊ አዋጭነት"
+        },
+        {
+          "term": "የፕሮጀክት ቦታ",
+          "definition": "የህዝብ GitHub ማከማቻ"
+        },
+        {
+          "term": "አስተዳዳሪነት",
+          "definition": "የ IATF ድርጅታዊ ባለቤትነት"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "ሂደት",
+      "title": "እንዴት እንደሚሰራ",
+      "intro": "ሞዴሉ ሆን ተብሎ ትንሽ ሆኖ ይቆያል ስለዚህ የህዝብ መንገዱ ለመከተል ቀላል ነው ።"
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "አንድ ፍላጎት ቀርቧል",
+        "paragraphs": [
+          "አንድ ማህበር ፣ ቡድን ወይም ግለሰብ በእውነተኛ ተደራሽነት ፍላጎት ላይ የተመሠረተ ጥያቄ ማቅረብ ይችላል ።",
+          "ማመልከቻዎች በድር ጣቢያው በኩል ሊጀምሩ ይችላሉ ፣ በኢሜል ወደ <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>፣ ወይም በዲስኮርድ በኩል ።"
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ይገመግመዋል",
+        "paragraphs": [
+          "ተልዕኮው ተገቢነት፣ ተግባራዊነት፣ እና ስራው የህዝብ ክፍት ምንጭ ፕሮጀክት መሆን አለመሆኑን እንገመግማለን።"
+        ]
+      },
+      {
+        "index": "03",
+        "title": "የህዝብ ማከማቻ ቦታ ተፈጥሯል",
+        "paragraphs": [
+          "አንድ ፕሮጀክት ተቀባይነት ካገኘ በኮፒ ሌፍት ፈቃድ በ IATF GitHub ድርጅት ውስጥ ይታተማል ።",
+          "ማከማቻው የኮድ ፣ ጉዳዮች ፣ ሰነዶች እና ልቀቶች የህዝብ መኖሪያ ይሆናል ።"
+        ]
+      },
+      {
+        "index": "04",
+        "title": "ኃላፊነት የሚሰማው መሐንዲስ ፕሮጀክቱን ይመራል",
+        "paragraphs": [
+          "አንድ ኃላፊነት ያለው መሐንዲስ ለፕሮጀክቱ ማከማቻ ተመድቧል እና ልማት በአደባባይ ይከናወናል ።"
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "መዝገብ ቤት",
+      "title": "የፕሮጀክት መዝገብ ቤት"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "እዚህ ጀምር",
+      "title": "የአሁኑን ስራ ይጎብኙ ወይም ተጨባጭ ፕሮጀክት ይጀምሩ"
+    },
+    "paragraphs": [
+      "ቀድሞውኑ ይፋ የሆነውን ለማየት መዝገቡን ይጠቀሙ ፣ ወይም ተጨባጭ ተደራሽነት ችግር ፕሮጀክት መሆን ካለበት መውሰዱን ይጀምሩ ።"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

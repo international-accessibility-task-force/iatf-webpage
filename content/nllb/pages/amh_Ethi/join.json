@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "ወደ IATF ይቀላቀሉ",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "ወደ IATF ይቀላቀሉ",
+    "lead": "አባልነት ክፍት ነው። በረዳት ቴክኖሎጂ ላይ በመመካት ፣ ተደራሽ ሶፍትዌር በመገንባት ፣ በመተርጎም ፣ በመሞከር ወይም በፕሮጀክት ጥገና ላይ በመመርኮዝ ለመሳተፍ በርካታ መንገዶች አሉ ። ውይይቶች እና ውሳኔዎች በይፋ በ GitHub እና Discord ላይ ይከሰታሉ ።",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "ሚናዎች",
+      "title": "አስተዋጽኦ ማድረግ የሚቻልባቸው መንገዶች"
+    },
+    "items": [
+      "<strong>ፕሮጀክት መጠየቅ</strong> በአደባባይ ክፍት ምንጭ ሶፍትዌር ሊስተካከል የሚችል የመዳረስ እንቅፋት ካጋጠምዎት, በጥያቄ መቀበያ በኩል ይላኩት.",
+      "<strong>ሙከራና ግምገማ</strong> የ IATF ፕሮጀክቶችን እርስዎ በሚጠቀሙት ረዳት ቴክኖሎጂ ይሞክሩ ፣ የሚሰራውን እና የማይሰራውን ሪፖርት ያድርጉ እና ጉዳዮችን በቀጥታ በሚመለከተው ማከማቻ ላይ ያቅርቡ ።",
+      "<strong>መተርጎም</strong> ምንጭ ይዘት በመጀመሪያ በቀላል እንግሊዝኛ ይታተማል ። ትርጉሞች በስፓኒሽ በመጀመር አስተዋፅዖ አበርካቾች ሲገኙ ይታከላሉ ።",
+      "<strong>መገንባት</strong> ከማንኛውም IATF ማከማቻ ውስጥ ጉዳዮችን ይምረጡ ፣ የመውጣት ጥያቄዎችን ይላኩ ፣ ወይም እንደ ኃላፊነት ያለው መሐንዲስ አንድ ፕሮጀክት ይውሰዱ ።",
+      "<strong>ጠብቁ።</strong> ነባር ፕሮጀክቶች አንዳንድ ጊዜ አዲስ ጠባቂ ያስፈልጋቸዋል ። የጥገና ተለዋዋጭነት የሞዴሉ መደበኛ አካል ነው ፣ ለየት ያለ አይደለም ።"
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "ሰርጦች",
+      "title": "IATF በአደባባይ የሚሰራበት ቦታ"
+    },
+    "items": [
+      "<strong>ጂትሀብ.</strong> ጉዳዮች፣ የመውጣት ጥያቄዎች፣ መልቀቂያዎች እና የፕሮጀክት መዝገቦች።",
+      "<strong>አለመግባባት</strong> የቀጥታ ውይይት ፣ ቅንጅት እና መደበኛ ያልሆኑ ጥያቄዎች ።",
+      "<strong>የኢሜይል አድራሻ</strong> አጠቃቀም <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHubም ሆነ Discord የማይስማሙ ከሆነ።"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "ቀጣዩ እርምጃ",
+      "title": "እንዴት ማበርከት እንደሚፈልጉ የሚስማማውን ሰርጥ ይምረጡ"
+    },
+    "paragraphs": [
+      "ሁሉም ሰርጦች ወደ ተመሳሳይ የህዝብ ግምገማ እና ተመሳሳይ የሕዝብ ማከማቻዎች ይመገባሉ ።"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

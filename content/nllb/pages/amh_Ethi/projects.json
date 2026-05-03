@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "የህዝብ ተደራሽነት ፕሮጀክቶች",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "የህዝብ ተደራሽነት ፕሮጀክቶች",
+    "lead": "ይህ መዝገብ በ IATF አማካይነት የሚተዳደሩ የህዝብ ፕሮጀክቶችን ይዘረዝራል ። ተቀባይነት ያላቸው ተደራሽነት ፕሮጄክቶች ፣ የጣቢያ መሠረተ ልማት እና የተቀመጡ ፕሮቶታይፖች እዚህ ይታያሉ ።",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "መዝገብ ቤት",
+      "title": "የአሁኑ መዝገብ ቤት"
+    },
+    "intro": [
+      "ተቀባይነት ያገኙት ፕሮጀክቶች ከታተሙ በኋላ እዚህ ተዘርዝረዋል ።"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ጥያቄ ማቅረብ",
+      "title": "ተጨባጭ ተደራሽነት ፍላጎትን ወደ ህዝባዊ ፕሮጀክት ይለውጡ"
+    },
+    "paragraphs": [
+      "አይኤቲኤፍ ወደ ጠቃሚ የህዝብ ክፍት ምንጭ ስራ ሊለወጡ የሚችሉ ተጨባጭ ተደራሽነት ፍላጎቶችን ይገመግማል ።"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "እስካሁን የታተሙ ፕሮጀክቶች የሉም",
+    "paragraphs": [
+      "አይኤቲኤፍ የመጀመሪያውን የህዝብ ፕሮጀክት ስብስቡን እያዘጋጀ ነው ።",
+      "በተጨባጭ ተደራሽነት ፍላጎት ካለዎት አሁንም ጥያቄ መላክ ይችላሉ ።"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "የጣቢያ ካርታ"
+  },
+  "hero": {
+    "eyebrow": "መረጃ ጠቋሚ",
+    "title": "የጣቢያ ካርታ",
+    "lead": "IATFCC ላይ ያሉ ሁሉም የህዝብ ገጾች በአንድ ቦታ ላይ።"
+  },
+  "sections": [
+    {
+      "title": "ዋና ገጾች",
+      "items": [
+        {
+          "label": "ቤት",
+          "href": "/"
+        },
+        {
+          "label": "ፕሮጀክቶች",
+          "href": "/projects/"
+        },
+        {
+          "label": "ፕሮጀክት መጠየቅ",
+          "href": "/propose/"
+        },
+        {
+          "label": "አስተዳደር",
+          "href": "/governance/"
+        },
+        {
+          "label": "ተቀላቀል",
+          "href": "/join/"
+        },
+        {
+          "label": "ተደራሽነት",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ግልጽነት",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ፕሮጀክቶች",
+  "projectsEmpty": "እስካሁን የታተሙ ፕሮጀክቶች የሉም።"
+}
