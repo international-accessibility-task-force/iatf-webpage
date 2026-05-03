@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Oku Pondola Oku Kuata Elomboloko",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Oku Pondola Oku Kuata Elomboloko",
+    "lead": "Ocimunga co IATF ci kuete ocimãho coku leluisa olonumbi vi sangiwa vo Internet kuenda oku vi lombolola lonjila yimue ya leluka haiyo yi leluka oku kuata elomboloko.",
+    "support": [
+      "Oco ku lingiwe esokiyo lioku talavaya vo Internet, Ocisoko Coku Tetulula Ovitangi Violombongo, ca eca onumbi yokuti: [W3C WAI](https://www.w3.org/WAI/) Handi vali, omanu vana va siata oku talavaya lovoloño aco, va siatavo oku longisiwa ndomo va pondola oku kuata elomboloko liovina viaco."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Oku sapula ulandu",
+      "title": "Sapula ocitangi coku sanga eteku"
+    },
+    "paragraphs": [
+      "Nda wa sanga ocitangi cimue vo Internet, tu ku vetiya oku sonehela kofiliale yofeka yove ale konumbi yi sangiwa vo Internet www.jw.org.",
+      "{{contact.accessibilityEmail}}",
+      "Ovolandu a kuãimo a pondola oku ku kuatisa:"
+    ],
+    "items": [
+      "kemẽla kua pita ocitangi caco",
+      "Ceci wa kala oku seteka oku linga",
+      "Uloño wa siata oku ku kuatisa oku tala ovina vimue vo kombutador ale vo Televisãu",
+      "Nye ca lueyiwa?",
+      "Nye nda ca ndi kuatisa oku yula ocitangi caco?"
+    ],
+    "footnote": "Ka ci sukila oku soneha ondaka yimue vukanda waco, pole o sukila lika oku lombolola ulandu waco."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Oku talavaya lovimãleho viaco",
+      "title": "Oku tetulula ovitangi viomanu"
+    },
+    "paragraphs": [
+      "Atosi osi atiamẽla kokuecelela citava okuti a kongeliwa vovipama violohongele okuti a konomuisiwa ciwa oco a limbukiwe lomanu vosi.",
+      "Nda ondaka o kasi oku vokiyako ya tatama, teta onimbu."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ekalo Lioloneke Vilo",
+      "title": "Ka ca lelukile oku ci linga"
+    },
+    "paragraphs": [
+      "Ocitumãlo cilo citito kuenda ka ci kuete alomboluilo alua."
+    ]
+  }
+}

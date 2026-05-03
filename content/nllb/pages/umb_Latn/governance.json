@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Esokiyo liuviali kuenda ocitumãlo coku seleka olonumbi",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Esokiyo liuviali kuenda ocitumãlo coku seleka olonumbi",
+    "lead": "Ocisoko co IATF ca siata oku eca olonumbi vi ecelela okuti olohueli vi lianja poku sapela, oku sapela, kuenda oku likuata omunga.",
+    "support": [
+      "Onepa eyi yi lombolola eci ci taviwa, ndomo ocitumãlo caco ci tatiwa, kuenda ovikele viocitumãlo caco noke yoku taviwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Olonumbi",
+      "title": "Ocikele ca velapo cupange woku kunda, oku kala muẽle oñuatisi yakulu vekongelo kuenda oku tambula ovikanda viuvangi"
+    },
+    "cards": [
+      {
+        "title": "Oku Tẽlisa Ocikele Cetu",
+        "paragraphs": [
+          "Ocisoko ca IATF, ca siata oku tava ovopange osi a ecelela oku kuata ekalo liwa.",
+          "Upange waco ka citava okuti u lingiwa lika lomanu vamue. Pole, citava okuti, u lingiwavo lomanu vosi.",
+          "Oco ku lingiwe esokiyo lioku talavaya vo Internet, Ocisoko Coku Tetulula Ovitangi Violombongo, ca eca onumbi yokuti: [W3C WAI](https://www.w3.org/WAI/) Uloño waco u pondolavo oku kuatisa vana va fetika ndopo oku talavaya lolomakina viaco, oco va loñolohe koku linga ovopange akuavo."
+        ]
+      },
+      {
+        "title": "Oku tava upange",
+        "paragraphs": [
+          "Epingilo ci tava okuti li taviwa nda kuli uvangi u lekisa okuti:"
+        ],
+        "items": [
+          "Eliangiliyo liaco lia lingiwila oku kuatisa omanu oco va kuate ukũlĩhĩso Wembimbiliya.",
+          "Ocitangi caco ca tetuluiwa ciwa",
+          "Ocimãleho caco, ci pondola oku kuata uloño woku kapa ocinyi lofela vombalãu.",
+          "Upange waco u likuata lupange u kasi oku lingiwa locisoko ci tukuiwa hati, IATF",
+          "ci tava oku yi semulũla ale oku yi tunga vali ciwa"
+        ]
+      },
+      {
+        "title": "Eliangiliyo Lioku Kongeliwa Kuolonduko Viava va Kuete Ocikele Coku Soneha",
+        "paragraphs": [
+          "Alivulu a taviwa oku kongeliwa vovipama violohongele, a sandekiwila vo GitHub.",
+          "Volonjo viaco, omo omanu va siata oku soleka ovina vi kuete esilivilo lia velapo. Handi vali, ovina viaco via siatavo oku kuatisa koku landa ovikuata vioku tunga olonjo viokaliye."
+        ]
+      },
+      {
+        "title": "Oku Eca Ovikele",
+        "paragraphs": [
+          "Ocimunga co IATF ca siata oku eca elianjo komanu vana va yongola oku tambula ocicapa caco:"
+        ],
+        "items": [
+          "<strong>Osapi yaco yeyi:</strong> Okalivulu kaco ka tukuiwa hati: AGPL-3.0",
+          "<strong>Olonumbi vi Sangiwa Vombrochura:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Uloño woku tunga kuenda woku semulũla ovina via nyõleha",
+      "paragraphs": [
+        "Omunu waco eye lika o kuete omoko yoku nõla nda o tava ale ka tava ombanjaile yaco."
+      ],
+      "items": [
+        "eliangiliyo lioku kuatisa omanu kupange woku kunda",
+        "Oku yelisa onjo yoku soleka ovina viosimbu",
+        "oku konomuisa loku tetulula ovitangi kuenda oku nõla onjila yi kuamiwa poku vi tetulula",
+        "Poku nõla onjila yi kuamiwa",
+        "▪ oku lombolola ndomo upange u kasi oku lingiwa"
+      ],
+      "footnote": "Ocikele caco oku tata ocitumãlo caco, oku endisa upange waco kuenda oku songuila upange waco pokati komanu."
+    },
+    "publicDevelopment": {
+      "title": "Eliangiliyo Lioku Kuatisa Omanu",
+      "paragraphs": [
+        "O IATF ya siata oku kuatisa koku pongiya ovipama via siata oku sandekiwa vovingungu viasapulo."
+      ],
+      "items": [
+        "ocicapa ci lekisa onduko",
+        "atosi a velapo",
+        "alomboluilo",
+        "Atosi a Velapo",
+        "Ulandu Wovipama Viohongele"
+      ],
+      "footnote": "Ukũlĩhĩso wa velapo watiamẽla kupange ka citava okuti u kala lika vo telefone ale vo kombutador."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Alivulu a siata oku eciwa komanu",
+      "title": "Apulilo a siata oku tambuluiwa latavo"
+    },
+    "paragraphs": [
+      "IATF yi talavaya vowiñi omo ka ya kapiwileko. apingilo a kapiwa vo Internet vo Internet, vo e-mail, vo Discord, vo GitHub, ale vovingungu vikuavo via siata oku tumiwa ko Internet, a pondola oku linga apingilo owiñi.",
+      "IATF yi pondola oku lombolola loku teta onimbu, oku linga apongoloko, ale oku linga epongoloko limue kesapulo limue osimbu ka lia sandekiwile, oco li kũlĩhĩsiwe ciwa okuti ka mu sangiwa asapulo amue ka a kuete esilivilo.",
+      "Olopapelo viaco vi pondola oku kapiwa vonumbi yetu yo Internet, vo GitHub, ale vo Internet.",
+      "IATF yi yuvula oku sandeka asapulo osi ka a kuete esilivilo ndeci, olonduko viomanu kuenda olonduko violonduko viotelefone vi kuamiwa la vakuakulekisa oviluvialuvia viomanu va kasi epolõla lava va linga ukahonga.",
+      "O Discord ya siata oku kuamiwa oco ku lingiwe esokiyo limue ka lia sokiyiwile. O IATF ka yi pongiya olonepa viosi via siata oku tangiwa vo Discord, kuenje esapulo lia siata oku tatiwa la Discord.",
+      "Oku sandiliya asapulo ka ci lomboloka okuti asapulo aco a sandekiwila lika oku tala omanu va kasi epolõla.",
+      "O IATF yi pondola oku vokiya ale oku upa asapulo vovipama violo computador vi kasi vemẽhi liosungu yolombangi via Yehova. Pole, ka va pondola oku eca uvangi wokuti asapulo aco a tunda vo Internet, vovikanda viasapulo, vo komputador, vo Internet search engine, vo Discord, ale vovimalẽho vikuavo.",
+      "Nda wa tuma esapulo limue ku vakuene, ku ka li tumise lekuatiso lio Internet."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ocikele Cukuenje wa Lunguka",
+      "title": "Ombiali"
+    },
+    "lead": "Ocimunga caco, ci kuete ocikele coku songuila upange Wocisoko Coku Tetulula Ovitangi Viuhukũi Voluali Luosi, oku kongelamo upange woku tunga olonjo vioku seleka ovina viosimbu.",
+    "duties": {
+      "title": "Ocimãleho Cimue ci Kuete Esilivilo Liocili",
+      "items": [
+        "Oku kuata omoko yomanu vocisoko co IATF vo GitHub",
+        "Oku tava apingilo kuenda oku nõla onjila yi kuamiwa poku seleka ulandu waco",
+        "Ocimunga caco ci tukuiwa hati, IATF.",
+        "Ocisoko ci songuila oku nõliwa kuovitunda viofeka"
+      ],
+      "footnote": "Ombiali ka yi kisika IATF oku eca komunu umue, oku feta upange umue ale oku linga ohuminyo yimue yatiamẽla kupange waco, kuenda ka yi tateka onjila omunu lomunu ukuacikele coku tata vociseleko caco a nõla yatiamẽla kovopange."
+    },
+    "election": {
+      "title": "Oku nõliwa Kuolombangi Via Yehova Unyamo Lunyamo",
+      "paragraphs": [
+        "Ombiali yi nõliwa lika onjanja yimosi vunyamo vokuenda kuolosemana vivali viatete viosãi ya Cembanima.",
+        "Omunu wosi wa nõliwila oku kala onumiwa yocisoko caco, o tambula lika ombanjaile yimosi ya nõliwa vokuenda kuolosemana vitatu via sulako viosãi ya Cembanima.",
+        "Oku nõliwa kuaco, ku lingiwa ndeci ca siata oku lingiwa vovingungu viasapulo vi tukuiwa hati, GitHub Discussion ale IATF Governance Repository. Omo liaco, omanu vana va nõliwa, ovo va nõla, kuenda onima yi tunda koku nõliwa kuavo, yi sangiwa Vembimbiliya."
+      ]
+    },
+    "continuity": {
+      "title": "Oku Amamako",
+      "paragraphs": [
+        "Nda unyamo lunyamo ka ku lingiwa vali ocela, usongui woseketa yupange waco o ka amamako oku kala kocikele caye toke eci ku lingiwa ocela cikuavo.",
+        "Ocimunga comanu vaco ci kuete omoko yoku nõla onjila yi kuamiwa vokuenda kuotembo yosi va kasi vocisoko caco."
+      ]
+    },
+    "current": {
+      "title": "Manji o songola ohongele yaco",
+      "fields": [
+        {
+          "label": "Ombiali",
+          "value": "ombuanja",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Otembo yi Tumãla",
+          "value": "Toke kosãi ya Cembanima wo 2026 eci ku ka lingiwa ocela"
+        },
+        {
+          "label": "Ocikele Cukuenje wa Lunguka",
+          "value": "2026"
+        },
+        {
+          "label": "Eliangiliyo Lioku Nõla Ombiali yatete",
+          "value": "Kosãi ya Cembanima yunyamo wo 2026"
+        }
+      ]
+    },
+    "footnote": "Ocikele coku kala usongui, ca tumbikiwa kunyamo wo 2026, oco ku lekisiwe okuti, usongui o kuete ocikele coku songuila ocisoko."
+  },
+  "continuity": {
+    "states": {
+      "title": "Ndomo upange waco u kasi oku lingiwa",
+      "paragraphs": [
+        "Ovopange aco, a siata oku kuama olonjila via litepa."
+      ],
+      "items": [
+        "Epingilo Lia Lingiwa",
+        "Ocisimĩlo ca Sunguluka",
+        "Ovina vi Kuete Esilivilo",
+        "Ka ca pongolokele",
+        "Oku Sandiliya Omunu Umue o Kuete Ocikele Coku Tata Ovikele Viaye",
+        "[Olondaka vielitalatu kemẽla 26]"
+      ],
+      "footnote": "Nda tua kuama olonumbi viaco, ci tu kuatisa oku sanga ulandu wovina via sonehiwa valivulu etu."
+    },
+    "reassignment": {
+      "title": "Oku kapa ulandu waco velivulu limue, ci lekisa okuti, ulandu waco u sangiwa valivulu etu.",
+      "paragraphs": [
+        "Nda umue pokati kavo wa liwekapo oku linga upange waco, IATF yi nõla usongui ukuavo.",
+        "Ci tavavo okuti upange waco u nyõliwa nda u sukiliwa ndeci, oku tunga onjo yaco, oku yi semulula, ale pamue nda upange waco ka u lingiwa vali."
+      ],
+      "footnote": "Ovipama vikuavo vielilongiso vi sangiwamo, via siata oku sandekiwa valivulu etu, pole, ka kuli uvangi u lekisa okuti, kuli alivulu akuavo."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Elomboluilo lietepiso",
+      "title": "Ceci ocisoko ca IATF ka ci pondola oku eca uvangi"
+    },
+    "items": [
+      "Oku Eca Ovikanda Konjo Yomanu",
+      "Ovipama violohongele viofeka",
+      "Oku tava apingilo osi",
+      "Upange woku tata ovitumãlo viaco vokuenda kuotembo yalua"
+    ],
+    "footnote": "O IATF ociseveto cimue comanu, okuti upange woku eca olonumbi hawoko."
+  }
+}

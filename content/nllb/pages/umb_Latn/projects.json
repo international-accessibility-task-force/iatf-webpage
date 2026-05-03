@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Eliangiliyo Lioku Kuatisa Omanu",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Eliangiliyo Lioku Kuatisa Omanu",
+    "lead": "Onumbi eyi yi lekisa upange wa siata oku lingiwa locisoko co IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ukanda Wuvangi",
+      "title": "Ocikasia ci Kuete Esilivilo Liocili"
+    },
+    "intro": [
+      "Ovipama violohongele via siata oku sandekiwa Vutala Wondavululi weciwa komanu vosi."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Pinga ekuatiso",
+      "title": "Oku linga upange woku kuatisa omanu oco va kuate ekalo liwa"
+    },
+    "paragraphs": [
+      "Ocisoko co IATF ca siata oku konomuisa ovina vi sukiliwa oco upange waco u lingiwe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Toke cilo ka kua sandekiwile esapulo lalimue.",
+    "paragraphs": [
+      "Ocisoko caco ci tukuiwa hati, IATF, ca siata oku pongiya ovipama violohongele viofeka.",
+      "Pole, nda o yongola, o pondola oku linga epingilo liove vo Internet."
+    ]
+  }
+}

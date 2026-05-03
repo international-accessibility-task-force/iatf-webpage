@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Oku Sandiliya Atambululo Kapulilo Atiamẽla Koku Sandiliya Ombiali",
+    "lead": "Ocisoko caco ca siata oku kuatisa ovisoko vimue, ovisoko vikuavo kuenda omanu oku linga apongoloko a sukiliwa koku leluisa upange woku kunda.",
+    "support": [
+      "Alivulu osi a taviwa oku kongeliwa vovipama violohongele, a sandekiwila vo GitHub yocisoko co IATF lekuatiso lielivulu li tukuiwa hati, copyleft."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Eliangiliyo Lioku Kuatisa Omanu",
+      "title": "O Internet Ocimãleho Cimue ci Kuete Esilivilo Komanu Vosi"
+    },
+    "paragraphs": [
+      "Nda ocimunga ci tava oku linga upange waco, ocimalẽho cimue cowiñi ci tukuiwa hati, GitHub, ci yikuiwa oco ci kuatise kupange waco.",
+      "Ocimãho cosi ci taviwa ci kuete ocitumãlo cimue omanu va pondola oku sanga olonumbi, asapulo, ovicapa kuenda ovina vikuavo via velapo, okuti ci kasi oku songuiwa luloño wolonoño."
+    ],
+    "specCard": {
+      "title": "Eliangiliyo Lioku Kuatisa Omanu",
+      "terms": [
+        {
+          "term": "Oku Sukila Ekuatiso",
+          "definition": "Ocitangi Coku Kundila Vakualimi Akuavo"
+        },
+        {
+          "term": "Oku Pitulula",
+          "definition": "Oku Tẽlisiwa Kuocimãho Cimue ci Kuete Esilivilo Liocili"
+        },
+        {
+          "term": "Ocitumãlo Cupange",
+          "definition": "Ocimalẽho cowiñi co GitHub"
+        },
+        {
+          "term": "Oku Songuiwa la Suku",
+          "definition": "Esunga lieci ocisoko co IATF ci kuetele omoko yoku songola"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Oku Pongiya",
+      "title": "Ndomo o Pondola Oku Kuata Ekalo Liwa",
+      "intro": "Ocimãleho caco ka ca kapiwileko calua oco ci kuatise omanu oku pitĩla kuna va yongola oku enda."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Epingilo Lia Lingiwa",
+        "paragraphs": [
+          "Ocisoko cimue, ocimunga cimue ale omunu umue, citava oku linga epingilo lioku eca ekuatiso liaco.",
+          "Ci tava oku linga epingilo liove vo Internet ale oku tuma e-mail konumbi yilo: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ale lo Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Ocisoko Coku Tetulula Ovitangi Violombongo, ca kũlĩhĩsa ulandu waco.",
+        "paragraphs": [
+          "Tu kũlĩhĩsavo nda upange waco u litava locipango ca Suku, nda u kuete esilivilo, kuenda nda u pondola oku kuatisa omanu."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Kua sokiyiwa ociseveto cimue comanu vosi",
+        "paragraphs": [
+          "Nda upange waco wa taviwa, weciwa kocisoko co IATF ci tukuiwa hati, GitHub lekuatiso liocihandeleko co copyleft.",
+          "Ociseleko caco ci pondola oku kala ocitumãlo comanu vosi."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Ulongisi umue ukuoloño woku tunga, eye o kasi oku songuila upange waco.",
+        "paragraphs": [
+          "Kua nõliwa umue ukuoloño oco a songuile upange waco kuenda upange waco u lingiwila powiñi."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ukanda Wuvangi",
+      "title": "Esokiyo Lioku Kongeliwa Kuolofiliale"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fetika palo",
+      "title": "Sandiliya upange u kasi oku lingiwa ale sanda upange o yongola oku fetika"
+    },
+    "paragraphs": [
+      "Sandiliya velivulu ovina viosi via siata oku sandekiwa valivulu etu, ale soneha osapi yovipama o yongola oku nõla oco yi kongeliwe vovipama vikuavo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

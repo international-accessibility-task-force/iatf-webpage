@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Onumbi yo Internet yo IATF",
+    "summary": "Ocitumãlo caco ci tukuiwa hati, International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ocisoko ca IATF ca sukilile ocitumãlo cimue ca sunguluka okuti ceca alomboluilo atiamẽla kolomapalo viaco, lovopange a kasi oku lingiwa, kuenda ci lekisa onjila omunu lomunu a sukila oku kuama.",
+    "why": "Ocitumãlo caco ca tungiwa ndocitumãlo cimue citito, okuti ka ci sukila oku semuluiwa, oku pongoluiwa, kuenda ca leluka oku ci yelisa.",
+    "scopeIn": [
+      "Ovipama vikuavo vi lombolola olonumbi viocisoko Coku Tetulula Ovitangi Violombongo (IATF)",
+      "Ociseleko co IATF ci lekisa ndomo upange wa siata oku lingiwa kuenda ndomo u kasi oku songuiwa",
+      "Epingilo lioku tambula ombanjaile kuenda ukanda wuvangi",
+      "Olopapelo vi lekisa oku kuamiwa kuviali kuenda oku koleliwa kuomanu",
+      "O Tradução do Novo Mundo das Escrituras Sagradas - em tradução livre",
+      "Oku talavaya lovimãleho via Cloudflare Workers"
+    ],
+    "scopeOut": [
+      "Onepa yomanu vakuete omoko yoku songola, olo kontu, ale olonduko viomanu vana va songola",
+      "Ocimãho ca velapo ceci okuti, ovipama viosi vi sangiwa vonumbi yetu yo Internet, vi tatiwa ciwa oco vi kuatise kupange woku kunda",
+      "Ombangulo yi lingiwa votembo ya sokiyiwa yi sangiwa vo Discord",
+      "Ekonomuiso liasapulo atiamẽla kovipama viosi, lia siata oku sangiwa vovimalẽho viosi via GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Ociluvialuvia co IATF",
+    "summary": "Ocimãleho cimue ca pangiwa locimãleho caco, va ci kapa pocitumãlo cimue okuti oco lika ca sunguluka oku ci talavaya.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Ekonomuiso limue liatete liatiamẽla koku talavaya lovimãleho vioku eca ekuatiso komanu, lia lingiwa koseketa yocisoko ci tukuiwa hati, IATF.",
+    "why": "Ndaño okuti upange waco wa tatekiwa, pole, ulandu waco u kasi oku sandekiwa oco u kuatise omanu vosi.",
+    "scopeIn": [
+      "Ociluvialuvia catete cocina cimue ca tungiwa locimãho coku kuatisa omanu oku kuata elomboloko"
+    ],
+    "scopeOut": [
+      "Upange woku mioñolola kuenda woku lekisa ovina viokaliye",
+      "Ovikele vioku tata omãla",
+      "Olonumbi vi Kuamiwa Poku Sanda Ovimalẽho"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Ocisoko Coku Tetulula Ovitangi Violombongo (IATF)",
+    "summary": "Ocimunga cimue ca vakuakuyaka lofela ci tukuiwa hati, IATF, ca liwekapo oku linga upange waco.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Uloño waco owo u kuatisa ovimatamata vietimba oku linga apongoloko.",
+    "why": "Ndaño okuti upange waco wa tatekiwa, pole, ulandu waco u kasi oku sandekiwa oco u kuatise omanu vosi.",
+    "scopeIn": [
+      "Esapulo lia siata oku eciwa vo Televisãu, li kapiwa vo kombutador oco li yevalisiwe komanu vosi"
+    ],
+    "scopeOut": [
+      "Upange woku mioñolola kuenda woku lekisa ovina viokaliye",
+      "Ovikele vioku tata omãla",
+      "Olonumbi vi Kuamiwa Poku Sanda Ovimalẽho"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Ociluvialuvia co Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Atendelo",
+    "title": "Ociluvialuvia co Sitemap",
+    "lead": "Onepa lonepa yi sangiwa vonumbi yo Internet Yolombangi Via Yehova, yi sangiwavo vonumbi yetu yo Internet."
+  },
+  "sections": [
+    {
+      "title": "Amẽla Atete",
+      "items": [
+        {
+          "label": "Onjo Yange",
+          "href": "/"
+        },
+        {
+          "label": "Upange Woku Tunga",
+          "href": "/projects/"
+        },
+        {
+          "label": "Pinga ocindekaise cimue",
+          "href": "/propose/"
+        },
+        {
+          "label": "Oku viala ciwa",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kuata Ukamba la Vakuene",
+          "href": "/join/"
+        },
+        {
+          "label": "Oku Pondola Oku Kuata Elomboloko",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Oku Kapiwa Uvangi Wolondaka Viwa",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Upange Woku Tunga",
+  "projectsEmpty": "Ka kua sandekiwile esapulo lalimue."
+}

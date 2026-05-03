@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pinga oco ku Lingiwe Upange Woku Kuatisa Omanu Oku Tanga Embimbiliya",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pinga oco ku Lingiwe Upange Woku Kuatisa Omanu Oku Tanga Embimbiliya",
+    "lead": "Ocisoko co IATF, ca siata oku konomuisa ovina viosi via kongela vupange woku longisa omanu oco va kuate ekalo liwa.",
+    "support": [
+      "Ove ku sukila oku lombolola ovina viosi via kongela vocitangi caco, pole, oku kuata elomboloko liatiamẽla kovitangi viaco kuenda esunga lieci ci kuetele esilivilo, oco ci ku kuatisa oku fetika oku ci linga."
+    ],
+    "actions": [
+      {
+        "label": "Fetika oku linga epingilo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Talavaya lo Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Olongave",
+      "title": "Nõla onjila ya leluka"
+    },
+    "intro": [
+      "Olonjila viosi viecelela oku pitila kocitumãlo cimuamue."
+    ],
+    "items": [
+      {
+        "label": "Onumbi yo Internet",
+        "body": "Poku linga epingilo liove, kuama olonumbi vi sangiwa pombuelo yemẽla."
+      },
+      {
+        "label": "[Olondaka vielitalatu kemẽla 26]",
+        "body": "Tumisa epingilo liove ku {{contact.requestsEmail}}Oku pinga vo Internet vo Internet, ci kuatisa oku sapela lakamba kuenda oku kũlĩhisa olonumbi vi sangiwa vo Internet."
+      },
+      {
+        "label": "Ocitangi Cimue ci Kasi Kolonepa Viosi Violuali",
+        "body": "Oku ci linga, ci kuatisa oku amamako lombangulo yetu."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Osimbu kua tumĩle esapulo limue",
+    "paragraphs": [
+      "IATF yi talavaya pokati komanu. Epingilo li pondola oku kongeliwa kuenda oku sandekiwa ndelomboluilo liohongele yowiñi vo GitHub, vo Internet, ale vovipama viaco vivali.",
+      "Ku ka tukule olonduko viomanu, etendelo liotelefone, ulandu watiamẽla kolondotolo, ale ovina vikuavo viatiamẽla komanu va kuatisiwa lolomakina, te lika nda ci sukiliwa, ale nda o tava okuti, olonumbi viaco vi konomuisiwa locisoko ca siata oku kũlĩhisa vakuakuendisa olombalãu.",
+      "Ocisoko ca IATF, ca siata oku tundisa asapulo osi ka a sukiliwa osimbu handi ka va sandekele asapulo aco."
+    ]
+  },
+  "review": {
+    "title": "Atambululo Kapulilo Embimbiliya",
+    "paragraphs": [
+      "Ndaño tua linga epingilo liaco, pole, ka ci lekisa okuti, ka tu tambula ekuatiso liaco.",
+      "Ocisoko caco, ci kũlĩhĩsa ovina viosi via kongela vupange waco ndeci: Oku loñoloha kuaco, oku kuata elomboloko liovina viaco, kuenda oku vi kapa vociseleko comanu.",
+      "Citava okuti epingilo liaye ka li tambuluiwa ndomo a yonguile, ale citava okuti, o tambula epindiso likuavo."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Onumbi Yoku Linga Epingilo",
+      "title": "Pinga ekuatiso"
+    },
+    "fields": [
+      {
+        "kind": "atosi a velapo",
+        "name": "una wa linga epingilo liaco",
+        "label": "Onduko yocisoko cove",
+        "helper": "Helie wa linga epingilo liaco?"
+      },
+      {
+        "kind": "oku nõla",
+        "name": "[Olondaka vielitalatu kemẽla 26]",
+        "label": "Onjila va Sukila Oku Kuama",
+        "helper": "Nye tu sukila oku linga nda umue o tu popia olondaka ka via sungulukile?",
+        "required": true,
+        "options": [
+          "[Olondaka vielitalatu kemẽla 26]",
+          "Ocitangi Cimue ci Kasi Kolonepa Viosi Violuali"
+        ]
+      },
+      {
+        "kind": "atosi a velapo",
+        "name": "Atambululo Kapulilo Embimbiliya",
+        "label": "[Olondaka vielitalatu kemẽla 17]",
+        "helper": "Konomuisa onumbi yo Internet ale o Discord oco o kũlĩhe ovina vikuavo.",
+        "placeholder": "Onumbi yo Internete ale Onduko yo Discord",
+        "required": true
+      },
+      {
+        "kind": "atosi a velapo",
+        "name": "elimi li vanguiwa",
+        "label": "Elimi li vanguiwa",
+        "helper": "Elimi o yongola oku vangula nda li kuete elomboloko.",
+        "value": "Elimi Liongelesi"
+      },
+      {
+        "kind": "ocitumãlo cocisonehua",
+        "name": "ocitangi",
+        "label": "Ocitangi cipi o kasi oku seteka oku tetulula?",
+        "helper": "Lombolola ocitangi caco.",
+        "required": true
+      },
+      {
+        "kind": "ocitumãlo cocisonehua",
+        "name": "Vakuakutanga",
+        "label": "Velie va siata oku pita lovitangi viaco?",
+        "helper": "Helie o kuatisiwa lukũlĩhĩso waco?",
+        "required": true
+      },
+      {
+        "kind": "ocitumãlo cocisonehua",
+        "name": "atosi pombuelo yemẽla",
+        "label": "Ulandu Ukuavo",
+        "helper": "Tukula ovina vikuavo vi pondola oku kuatisa oku lombolola esunga lieci ci kuetele esilivilo oku linga upange waco ndeci: Esunga lieci upange waco u kuetele esilivilo, ovindekaise, ulandu umue wupange umue u pondola oku ku kuatisa, ocisimĩlo cimue ci lekisa ndomo upange u lingiwa, ale otembo u sukila oku lingiwa."
+      },
+      {
+        "kind": "oku nõla",
+        "name": "openSourceConsent [Olondaka vielitalatu kemẽla 2]",
+        "label": "O tava hẽ oku lilongisa Embimbiliya lomanu vosi?",
+        "helper": "Ovikanda viaco, via kapiwa vonumbi yo Internet yovingungu viasapulo vi tukuiwa hati, IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Oco muẽle",
+          "Sio hacoko",
+          "Pole, ka tua kũlĩhĩle otembo yaco."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Nda wa tava",
+      "title": "Ceci ci Lomboloka Oku Taviwa"
+    },
+    "items": [
+      "ocimalẽho cimue cowiñi vocisoko co IATF co GitHub",
+      "ulume umue ukuoloño woku tunga, wa nõliwa oco a linge mitavaso yupange waco",
+      "Ocisonehua kuenda ovina vikuavo via kongeliwamo via siata oku pangiwa lomoko yo copyleft",
+      "Ovipama vielilongiso vi sangiwa velivulu liaco, via sandekiwila oku kuatisa omanu.",
+      "Ukanda umue wasapulo u sangiwa vo Internet wo IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fetika ombangulo",
+      "title": "Epingilo limue li teta onimbu hailio lia sunguluka, li pondola oku ku kuatisa oku fetika oku ci linga"
+    },
+    "paragraphs": [
+      "Nda o yongola okuti upange waco u tambuiwa lomanu vosi, tu ku laleka oco o tuale onumbi yaco votelefone."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

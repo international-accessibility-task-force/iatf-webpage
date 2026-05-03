@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Litokeka Locimunga Coku Tetulula Ovitangi Violombongo",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Litokeka Locimunga Coku Tetulula Ovitangi Violombongo",
+    "lead": "Kuli olonjila vialua vioku panga onepa, ci kale oku talavaya lovoloño akuavo, oku tunga ovipama violo computador, oku pongolola, oku linga oloseteko, ale oku tata upange umue. Olombangulo kuenda oku nõla ku lingiwa pokati komanu vosi vo GitHub kuenda vo Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ovikele",
+      "title": "Olonjila Vioku Eca Ekuatiso"
+    },
+    "items": [
+      "<strong>Pinga oco ku sokiyiwe upange umue.</strong> Nda wa sanga ocitangi cimue ci pondola oku tetuluiwa lo software yomanu vosi, linga epingilo liaco vo Internet.",
+      "<strong>Seteka kuenda sokolola lutate.</strong> Seteka oku kuama olonumbi viokaliye via IATF vina vi ku kuatisa oku kũlĩha atosi a velapo kuenda ovina vikuavo o sukila oku kũlĩha oco o sange etambululo lia suapo.",
+      "<strong>Lombolola ulandu waco.</strong> Ovipama vielivulu liaco, tete via pongoluiwa kelimi Liongelesi.",
+      "<strong>Amamako loku pamisa ekolelo liove.</strong> Sandiliya atambululo kapulilo osi vovipama violohongele, loku tumisa kakamba vove asapulo votelefone, ale linga lavo elilongiso lio pokolika.",
+      "<strong>Amamako oku ci linga.</strong> Ovopange osi a kasi oku lingiwa cilo, a sukila oku a pitolola olonjanja vialua oco va amameko oku linga upange waco."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Olongave",
+      "title": "Ocitumãlo ku Lingiwila Upange Woku Sanda Ovikulia vi Nyuiwa Lovinyama"
+    },
+    "items": [
+      "<strong>Ociseleko caco ci tukuiwa hati GitHub.</strong> Olopapelo viuvangi vi lombolola ovina vimue ndeci: Ulala wovina vi sukiliwa oku landiwa, ulandu welilongiso, kuenda ovina vikuavo via kongela vupange waco.",
+      "<strong>Pokati kavo ka pa kale vali oku lihoyisa.</strong> Oku sapela pokolika, loku kuama ciwa ovipama vielilongiso, kuenda oku linga apulilo a teta onimbu, ci kuatisa calua.",
+      "<strong>E-mail yi pondola oku ku kuatisa.</strong> Oku Talavaya <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> Nda ka tu kuete o GitHub ale o Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Onepa Yikuavo",
+      "title": "Nõla onjila o yongola oku kuama poku eca ombanjaile"
+    },
+    "paragraphs": [
+      "Asapulo osi a siata oku upiwa vovingungu viasapulo, a yeviwa lomanu vosi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

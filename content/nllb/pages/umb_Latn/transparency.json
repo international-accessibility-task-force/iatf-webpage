@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Oku Kapiwa Uvangi Wolondaka Viwa",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Oku Kapiwa Uvangi Wolondaka Viwa",
+    "lead": "O IATF yi talavaya pokati komanu. Ovisimĩlo viupange, oku pongoloka kuolonumbi, oku pongolola oku songola kuenda ondando yupange, viosi via sonehiwa povitumãlo viowiñi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Alivulu",
+      "title": "Ocitumãlo mu Sangiwa Alivulu"
+    },
+    "items": [
+      "<strong>Oku nõla onjila yi kuamiwa.</strong> Oku tava, loku seleka ovina viosimbu, kuenda oku vi tiula, ulandu waco u sonehiwa valivulu loku kapiwa vonumbi yi lekisa oku ku sangiwa ulandu waco, oco u kuatise omanu vosi. <a href=\"/projects/\">ocicapa</a>Momo lie ?",
+      "<strong>Pinga oco ku eciwe otuikanda.</strong> Ovikanda vioku pinga ekuatiso via siata oku kapiwa vo GitHub yocisoko co IATF, vo Internet, ale vo Internet. Ovipama viaco vi pondola oku lombolola loku teta onimbu epingilo liatete oco li kũlĩhĩsiwe ciwa okuti ka mu sangiwa asapulo ka a sukiliwile.",
+      "<strong>Olonduko vimue via pongoluiwa.</strong> Ocisonehua cosi ca pongoluiwa, ci sangiwa vonumbi yo Internet yi tukuiwa hati, jw.org. Tala velivulu, Tradução do Novo Mundo das Escrituras Sagradas com Referências, lia sandekiwa Locisoko Cutala Wondavululi Wambimbiliya Lotuikanda co ko Pennsylvania. <a href=\"{{contact.githubOrgUrl}}\">Ocisoko co GitHub</a>Momo lie ?",
+      "<strong>Kua lingiwa apongoloko alua a kuatisa koku endisa ciwa uviali waco.</strong> Ovipama viokaliye vielilongiso, via siata oku sandekiwa Vutala Wondavululi welilongiso. <code>Onumbi yo Internet yo I.A.T.F.</code> Tala velivulu Ukũlĩhĩso Utuala Komuenyo Ko Pui, lia sandekiwa Lolombangi via Yehova. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">oku soneha ulandu</a> li sangiwa vonumbi yo Internet yi tukuiwa hati, GitHub.",
+      "<strong>Olombongo vi pesiwa koku linga upange waco.</strong> O IATF ya siata oku tata ciwa upange waco kuenda ka ya siatele oku pesela olombongo vialua poku linga upange waco. Oku upisa kunyamo wo 2022, upange waco wa siata oku lingiwa lolonduko viofeka.",
+      "<strong>Atosi a velapo.</strong> Atosi a velapo a tunda koku pitulula ale oku nõla onjila yi kuamiwa a sangiwa vonumbi yo GitHub Ombangulo yatiamẽla kulandu waco  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Ombangulo</a> [Olondaka vielitalatu kemẽla 14] <code>Onumbi yo Internet yo I.A.T.F.</code> ocitumãlo coku seleka alivulu aco."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Olombongo vi Kuamiwa",
+      "title": "Atendelo Olombongo Via Eciwa"
+    },
+    "paragraphs": [
+      "O IATF ya siata oku tata ciwa ovina viosi via tungiwa lonjila yimue ya leluka. Oku upisa kunyamo wo 2022, ovina via velapo va siata oku talavaya lavio, olonduko violonjo.",
+      "Uloño waco ka u sokisiwa lowu u sangiwa volovikanda viasapulo vi lombolola ovina viatiamẽla kolombongo, pole, u sokisiwa luloño woku seleka olombongo lonjila yimue ya sunguluka."
+    ],
+    "footnote": "Olonduko viovitumãlo, alongiso atiamẽla koku feta elisimu, kuenda olonduko vikuavo via siata oku sandekiwa valivulu etu, ka vi sangiwa valivulu aco.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Ocikanjo",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Ondando Yoku Linga Upange",
+            "value": "3,40 kolondolale vioko Estados Unidos"
+          },
+          {
+            "label": "Atosi Oku Pitulula",
+            "value": "Ocikele caco ca tunda ko Vercel kuenje ca enda ko Cloudflare kuenda ca fetika oku talavaya lokombutador yimue yitito. <code>iatf.cc</code> ocipiñalo."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Ocikanjo",
+            "value": "<code>Atambululo Kapulilo Embimbiliya: (A tangiwile kumosi lovinimbu viaco.)</code>"
+          },
+          {
+            "label": "Ondando Yoku Linga Upange",
+            "value": "18,68 kolohũlũkãi violondolale"
+          },
+          {
+            "label": "Atosi Oku Pitulula",
+            "value": "Olombongo via siata oku fetiwa kupange woku kunda via tunda ko mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Ocikanjo",
+            "value": "<code>Atambululo Kapulilo Embimbiliya: (A tangiwile kumosi lovinimbu viaco.)</code>"
+          },
+          {
+            "label": "Ondando Yoku Linga Upange",
+            "value": "17,06 kolondolale vioko Estados Unidos"
+          },
+          {
+            "label": "Atosi Oku Pitulula",
+            "value": "Olombongo via siata oku fetiwa kupange woku kunda via tunda ko mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Ocikanjo",
+            "value": "<code>Atambululo Kapulilo Embimbiliya: (A tangiwile kumosi lovinimbu viaco.)</code>"
+          },
+          {
+            "label": "Ondando Yoku Linga Upange",
+            "value": "14,76 violohũlũkãi violondolale"
+          },
+          {
+            "label": "Atosi Oku Pitulula",
+            "value": "Olombongo via siata oku fetiwa kupange woku kunda via tunda ko mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Ocikanjo",
+            "value": "<code>Atambululo Kapulilo Embimbiliya: (A tangiwile kumosi lovinimbu viaco.)</code>"
+          },
+          {
+            "label": "Ondando Yoku Linga Upange",
+            "value": "7,76 kolondolale"
+          },
+          {
+            "label": "Atosi Oku Pitulula",
+            "value": "Olombongo viaco via enda oku fetiwa la mugiwarafx."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Elomboluilo lietepiso",
+      "title": "Ceci ka ca Lelukile Oku ci Kũlĩha"
+    },
+    "paragraphs": [
+      "Asapulo amue ka a sandekiwa vovingungu viasapulo, ndeci:"
+    ],
+    "items": [
+      "Omanu vosi va kongeliwa vocitangi caco, va sukila oku soneha olonduko viavo vopapelo.",
+      "Ukanda umue wasapulo, u lombolola ovitangi vimue okuti, ka ca lelukile oku vi tetulula.",
+      "Ci kale olonduko viovitumãlo kuenda olotelefone viavo, ovina viaco ka vi sukiliwa.",
+      "Ovina viosi vi kuatisa oku limbuka omunu umue o kasi oku talavaya lovimalẽho viaco, nda ka kuli uvangi u lekisa okuti, omunu waco wa vi tambula.",
+      "O pondola lika oku tambula asapulo aco, nda o yongola, pole, ku yongola oku a tumisa ku vakuene."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Oku tanga vali",
+      "title": "Uviali owo ociseveto colombongo vi sangiwa vokakasia kaco"
+    },
+    "paragraphs": [
+      "Oco o kuate elomboloko ndomo upange u taviwa, lowu u solekiwa, kuenda ndomo u lingiwa, tanga onumbi yi sangiwa vonumbi yetu yo Internet, www.jw.org."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}
