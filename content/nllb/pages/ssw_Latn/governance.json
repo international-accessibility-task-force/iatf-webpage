@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Luhlelo lwekulawula nekulondvolotwa kwemininingwane",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Luhlelo lwekulawula nekulondvolotwa kwemininingwane",
+    "lead": "I-IATF igcina imiklamo yekufinyeleleka ivulekile, iyafundzeka, futsi iyagcinwa.",
+    "support": [
+      "Lelikhasi lichaza kutsi yini ledzingekako, kutsi tindzawo tekugcina tilondvolotwa njani, nekutsi ngumuphi umtfwalo losetikhundleni tekugcina losebenta ngemuva kwekwemukelwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Imitsetfomgomo",
+      "title": "Kufaneleka kwemsebenti, bunikati, kuniketwa kwemalayisensi"
+    },
+    "cards": [
+      {
+        "title": "Kuhambisana nemsebenti",
+        "paragraphs": [
+          "I-IATF yemukela umsebenti lowenta kube melula kufinyelela kumitfombolusito futsi lonemsebenti lomuhle emphakatsini.",
+          "Umklamo kumele usebente ngalokwendlula indlela yekusebenta yangasese kanye nekusebenta njengemlondvoloti wemniningwane wemphakatsi.",
+          "I-IATF isebentisa i-Web Accessibility [W3C WAI](https://www.w3.org/WAI/) Lokuhlangenwe nako lokucondzile kwebasebentisi betheknoloji yekusita kubuye kube bufakazi lobusebentako baloko lokusebentako ekusetjentisweni lokungiko."
+        ]
+      },
+      {
+        "title": "Kwemukelwa kwemklamo",
+        "paragraphs": [
+          "Sicelo singemukelwa uma luhlolo lukhombisa kutsi:"
+        ],
+        "items": [
+          "iphendvula ngesidzingo sangempela sekufinyeleleka",
+          "lenkinga icacile ngalokwenele kutsi ingahlolwa",
+          "umkhakha uliciniso ngalokwenele kutsi ungacala",
+          "lomsebenti uhambisana nemsebenti we-IATF",
+          "kunendlela lekahle yekulondvolota nobe yekucedzela"
+        ]
+      },
+      {
+        "title": "Lilungelo lekuba ngumnikati wendzawo yekugcina imiculu",
+        "paragraphs": [
+          "Imiklamo lemukelekile yakhiwa ngaphansi kwenhlangano ye-IATF GitHub.",
+          "Tintfo letitfolakalako tihlala lapho kute wonkhe umuntfu abe nendzawo yakhe yekuhlala, ngisho nobe labo labagcina letintfo bangashintja."
+        ]
+      },
+      {
+        "title": "Kuniketwa kwemvume",
+        "paragraphs": [
+          "Imiklamo ye-IATF isebentisa ilayisensi ye-copyleft ngaphandle nangabe umklamo usho lokunye:"
+        ],
+        "items": [
+          "<strong>Ikhodi:</strong> i-AGPL-3.0",
+          "<strong>Imiculu:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injiniyela nobe sisebenti lesinakekelako",
+      "paragraphs": [
+        "Onkhe emaphrojekthi lamukelwe kumele abe nemuntfu lobitwa ngekutsi ngunjiniyela nobe umuntfu lowenta umsebenti wekulondvolota. loyo muntfu angatfola kufinyelela kwebaphatsi kulolucwebu futsi kulindzeleke kutsi:"
+      ],
+      "items": [
+        "kutfutfukiswa kwemikhombandlela emphakatsini",
+        "kugcina sakhiwo semlondvoloti",
+        "kubuketa nobe kuphatsa tinkinga kanye nekucosha ticelo",
+        "Kubhala tincumo letibalulekile tebucwepheshe",
+        "Yenta umsebenti wakho ucondvwe ngulabanye"
+      ],
+      "footnote": "Loku kungumtfwalo welizinga lekugcina. bunini benhlangano buhlala ne-IATF. Umtfwalo lapha kungumsebenti wekugcinwa, kucondziswa kwebuchwephesha, kanye nekuhlanganiswa kwemphakatsi  hhayi kuletfwa kwangasese lokungenamkhawulo, kuhlanganiswa kwelisiko, noma kutibophetela kwelizinga lesevisi ngaphandle kwebalave lemgwaco wemphakatsi."
+    },
+    "publicDevelopment": {
+      "title": "Kutfutfukiswa kwemphakatsi",
+      "paragraphs": [
+        "Imiklamo lesungulwe nge-IATF yentiwa emphakatsini."
+      ],
+      "items": [
+        "Ikhodi yemtfombo",
+        "tinkinga",
+        "imiculu",
+        "Emaphuzu lamayelana neluhlelo lwekusebenta",
+        "umlandvo wekukhishwa"
+      ],
+      "footnote": "Lwati lolubalulekile lolumayelana nemklamo akukafaneli luphile etincwadzini tangasese nobe emabhokisini ekungenisa."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Emarekhodi emphakatsi",
+      "title": "Emarekhodi esicelo semphakatsi"
+    },
+    "paragraphs": [
+      "Ticelo letifika ku-IATF ngekusebentisa iwebhusayithi, i-imeyili, iDiscord, GitHub, nobe letinye tindlela te- IATF tingaba ngemarekhodi esicelo semphakatsi.",
+      "Lifomu lekufaka sicelo lelisemtsetfweni akusiwo umlayeto wekucala. i-IATF ingafinyeta, ilungise, nobe ihlele kabusha sicelo ngaphambi kwekushicilelwa kwaso kute kuhlolisiswe sidzingo sekutfolakala kwaso ngaphandle kwekuveta umniningwano longadzingeki wemuntfu.",
+      "Emarekhodi esicelo semphakatsi angagcinwa ku-GitHub yenhlangano ye-IATF, kulewebhusayithi, nobe kokubili.",
+      "Ngaphambi kwekushicilelwa, i-IATF isusa imininingwane lengadzingeki yekuchumana, emakheli angasese, kanye nemininingwane lechaza umsebentisi ngamunye wematheknoloji lasitako ngaphandle uma kushicilelwa kuhloswe ngalokucacile futsi kufanelekile.",
+      "I-Discord isetjentiselwa kuhambisana ngalokungakahleleki.",
+      "Emarekhodi ekucela ayakhishwa ku search engine indexing lapho kusebenta khona. Public kusho kubuyeketwa nekubika. Akusho kulungiselelwa kutfolwa ngekusesha ngemagama.",
+      "I-IATF ingavuselela nobe isuse emarekhodi etindzaweni temphakatsi letilawulwa yi- IATF, kepha angeke icinisekise kususwa kuma-caches elicembu lesitsatfu, tatiso, ema-forks, titfombe tesikrini, tinjini tekusesha, i-Discord, nobe letinye tinhlelo tangaphandle.",
+      "Nangabe umlayeto udzinga kugcinwa uyimfihlo, ungawutfumeleli ngetindlela temphakatsi te-IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Umsebenti wenhlangano",
+      "title": "Sihlalo"
+    },
+    "lead": "Sihlalo usebenta ngelizinga lenhlangano ye-IATF. Loku kwehlukile endzimeni yenjiniyela lecondzene nemklamo: Sihlalo unemtfwalo wenhlangano yonkhe, hhayi kucondzisa kwelilanga nelilanga kwemgcini munye.",
+    "duties": {
+      "title": "Loko lokwentiwa ngulesihlalo",
+      "items": [
+        "Kugcina imvumo yemnikati ku-GitHub yenhlangano ye-IATF",
+        "Kusayinwa kwetincumo tekwemukelwa kwemklamo nekugcinwa kwemiculu",
+        "Isebenta njengeliphuzu lekuchumana nemphakatsi we-IATF",
+        "Kuchuba lukhetfo lwemnyaka"
+      ],
+      "footnote": "Sihlalo akawubopheleli i-IATF ekwetfulweni kwetinsita tangasese, umsebenti lokhokhelwako, nobe tivumelwano telizinga letinsita, futsi akakubeki eceleni tincumo temgcinisiphephelo ngamunye mayelana nekucondzisa ngebucwepheshe."
+    },
+    "election": {
+      "title": "Lukhetfo lwemnyaka",
+      "paragraphs": [
+        "Sihlalo ukhetfwa kanye ngemnyaka. lukhetfo lutsatsa emaviki lamabili ekucala enyangeni yeNgongoni, imiphumela imenyetelwa ngaDecember 15, bese sikhatsi lesisha sicala ngaJanuwari 1.",
+        "Umvoti lofanelekile ngumuntfu lobambe sikhundla sekugcina nobe ngumuphi umlandvo we-IATF kulowo mnyaka futsi lowente lokungenani sinyatselo sinye sekuhlanganisa emlandvweni we- IATF kulowomnyaka. Umvoti ngamunye unelivoti linye. Umuntfu lotfole emavoti lamanyenti uyawina; uma kunelivoti lelilinganako, kwentiwa livoti lesibili ngeliviki lesitsatfu enyangeni yeNgongoni.",
+        "Lokukhetfwa kwentiwa njengeNgcociswano ye-GitHub lesemphakatsini endzaweni yekugcina imiculu ye-IATF, ngako-ke labaphakanyisiwe, livoti, nemphumela konkhe kuyincenye yemarekhodi esive."
+      ]
+    },
+    "continuity": {
+      "title": "Kuchubeka",
+      "paragraphs": [
+        "Uma kungekho lukhetfo lolubanjwako emnyakeni lotsite, lomengameli lokhona nyalo uyachubeka asebente kuze kube lukhetho lolulandzelako. loku kuchubeka lokungenamkhawulo, hhayi sikhatsi sekuvumelana  lomklamo wakhelwe kugcina inhlangano isesimeni lesikahle uma umsebenti uphansi, hhayi kuphocelela kugucuka lokungekho muntfu lolungele kona.",
+        "Sihlalo angahle ashiye sikhundla sakhe noma ngasiphi sikhatsi. labaphetse bangaphindze babite lukhetfo lolungaketayeleki ngesizatfu lesichaziwe, lolwentiwe ngaphansi kwemitsetfomgomo lefana naleyo yelukhetfo lwemnyaka."
+      ]
+    },
+    "current": {
+      "title": "Sihlalo losemtsetfweni",
+      "fields": [
+        {
+          "label": "Sihlalo",
+          "value": "i-mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Sikhatsi",
+          "value": "Kuze kube lukhetfo lwangaDisemba 2026"
+        },
+        {
+          "label": "Umsebenti lowentiwe ngalokusemtsetfweni",
+          "value": "2026"
+        },
+        {
+          "label": "Lukhetfo lwekucala loluhleliwe",
+          "value": "Inyanga yeNgongoni 2026"
+        }
+      ]
+    },
+    "footnote": "Umsebenti wekuba ngusihlalo wahlelwa ngemnyaka wa 2026 kwentela kwenta kutsi kucondzisa lokusezingeni lenhlangano kucace."
+  },
+  "continuity": {
+    "states": {
+      "title": "Tigaba temklamo",
+      "paragraphs": [
+        "Imiklamo isebentisa luhlelo loluncane lwemibono yemphakatsi:"
+      ],
+      "items": [
+        "Siphakamiso",
+        "Kwemukelwa",
+        "Kusebenta ngekutimisela",
+        "Lokungagucuki",
+        "Kufuna umnakekeli",
+        "Kulondvolotwa Kwemlandvo"
+      ],
+      "footnote": "Lamave enta kube melula kuhlolisisa lelirekhodi."
+    },
+    "reassignment": {
+      "title": "Kubekwa kabusha kanye nekugcinwa kwemiculu",
+      "paragraphs": [
+        "Uma umuntfu lowenta lomsebenti ashiya nobe angasasebenti, i-IATF inganiketa lomunye umuntfu lomsebenti, imise kukhicitwa kwalomsebenti, nobe ivale lomsebenti.",
+        "Umklamo ungaphindze ugcinwe nangabe sidzingo sekucala sihlangabetene naso, kulondvolotwa kwemsebenti sekuphelile, nobe umsebenti lomusha awusakhoni kuchubeka."
+      ],
+      "footnote": "Imiklamo legciniwe ihlala ivulekile emphakatsini ngaphandle nangabe kunetizatfu letivakalako tekwenta lokwehlukile."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Inkhombandlela yemncele",
+      "title": "Loko IATF lengakucinisekisi"
+    },
+    "items": [
+      "kuniketwa kwemtsengi wangasese",
+      "tivumelwano telizinga letinsita",
+      "kwemukelwa kwato tonkhe tiphakamiso",
+      "kugcinwa kwesikhatsi lesidze kwemklamo ngamunye"
+    ],
+    "footnote": "I-IATF iyimodeli ye-repository yemphakatsi, hhayi umsebenti wekuhambisa wangasese."
+  }
+}

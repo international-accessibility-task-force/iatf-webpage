@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Inkhombandlela",
+    "title": "Sitemap",
+    "lead": "Onkhe emakhasi e-iatf.cc, endzaweni yinye."
+  },
+  "sections": [
+    {
+      "title": "Emakhasi lamakhulu",
+      "items": [
+        {
+          "label": "Ekhaya",
+          "href": "/"
+        },
+        {
+          "label": "Imiklamo",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kucela iphrojekthi",
+          "href": "/propose/"
+        },
+        {
+          "label": "Kulawulwa",
+          "href": "/governance/"
+        },
+        {
+          "label": "Hlanganisa",
+          "href": "/join/"
+        },
+        {
+          "label": "Kufinyeleleka",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kuveta lwati",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Imiklamo",
+  "projectsEmpty": "Kute umsebenti loshicilelwe."
+}

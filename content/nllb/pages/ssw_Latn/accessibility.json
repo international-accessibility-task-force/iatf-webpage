@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Kufinyeleleka",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Kufinyeleleka",
+    "lead": "I-IATF ihlose kugcina le-website ilula, ifundzeka malula, ifinyeleleka ngekubhala, futsi ihambisana netinhlelo tekusita.",
+    "support": [
+      "I-IATF isebentisa i-Web Accessibility [W3C WAI](https://www.w3.org/WAI/) Kufinyeleleka lokusebentako kuphindze kutfolakale kulokuhlangenwe nako kwalabasebentisi bemitfombolusito yelusito."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kubika",
+      "title": "Kubika inkinga yekufinyeleleka"
+    },
+    "paragraphs": [
+      "Uma utfola tintfo letingavumeleki kulewebhusayithi, sicela ubike ngekutfumela i-imeyili ku:",
+      "{{contact.accessibilityEmail}}",
+      "Lemibiko lelusito ifaka ekhatsi:"
+    ],
+    "items": [
+      "likhasi lapho lenkinga yenteka khona",
+      "loko bewutama kukwenta",
+      "ngabe nguyiphi i-assistive technology, i-browser nobe i-device loyisebentisako, uma ikhona",
+      "yini leyaba yingoti?",
+      "ngabe yini leyasita"
+    ],
+    "footnote": "Akudzingeki kutsi ubhale umbiko wesiphazamisi ngalokusemtsetfweni. Inchazelo lecacile yanele."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kuphatsa",
+      "title": "Kuphatfwa kwetindzaba temphakatsi"
+    },
+    "paragraphs": [
+      "Tindzaba letiphatselene nekufinyeleleka tingafingcwa kuloluhlelo lolusemtsetfweni lwekugcina imibhalo kute tilungiswe ekuvulekeni. imininingwane yekuchumana yemuntfu kanye nemininingwane yangasese lengadzingeki iyasuswa ngaphambi kwekushicilelwa.",
+      "Nangabe umbiko wakho uhlanganisa kwatiswa lokungasiko kwebantfu, kusho loko ngalokucacile emlayetweni."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Simo sanyalo",
+      "title": "Imikhawulo leyatiwako"
+    },
+    "paragraphs": [
+      "Lelikhasi lincane ngemabomu futsi aligucuki. letinye tilwimi tingase tibe tingakapheleli ngalesikhatsi kulungiselelwa kuhunyushwa."
+    ]
+  }
+}

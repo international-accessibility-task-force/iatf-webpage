@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kusuka ekudzingeni kufinyeleleka kuya ku-repo yasemphakatsini",
+    "lead": "I-IATF isita tinhlangano, emacembu kanye nebantfu ngamunye kutsi bagucule tidzingo tabo te-accessibility kutsi tibe yimiklamo yemitfombo levulekile.",
+    "support": [
+      "Imiklamo leyemukelwako ishicilelwa ku-IATF GitHub ngaphansi kwelayisensi ye-copyleft futsi itfutfukiswa emphakatsini ngunjiniyela loneligunya."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Imodeli yekusebenta yemphakatsi",
+      "title": "Luhlelo lolulula lwekwenta i-software ifinyeleleke"
+    },
+    "paragraphs": [
+      "Ngekusebentisa lifomu, nobe ngubani angafaka inkinga yekufinyeleleka ku-IATF.",
+      "Onkhe emaphrojekthi lamukelekile anendzawo levakalako yasemphakatsini yemakhodi, tinkinga, imiculu, kanye nekukhishwa, nekutfutfukiswa lokuholwa ngasese ngunjiniyela lonemtfwalo."
+    ],
+    "specCard": {
+      "title": "Imodeli yekusebenta yemphakatsi",
+      "terms": [
+        {
+          "term": "Sidzingo",
+          "definition": "Inkinga mbamba yekufinyeleleka"
+        },
+        {
+          "term": "Kubuyeketwa",
+          "definition": "Kufaneleka kwemsebenti nekusebenta ngekusebenta"
+        },
+        {
+          "term": "Indzawo yemklamo",
+          "definition": "Sitolo semphakatsi se-GitHub"
+        },
+        {
+          "term": "Kucondzisa",
+          "definition": "Inhlangano ye-IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Inchubo",
+      "title": "Indlela lesebenta ngayo",
+      "intro": "Lomklamo uhlelwe kutsi ube mncane kute kube melula kulandzela indlela yawonkhe muntfu."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Kuletfwa kwesidzingo",
+        "paragraphs": [
+          "Inhlangano, licembu nobe umuntfu ngamunye angafaka sicelo lesisekelwe esidzingweni mbamba sekufinyeleleka.",
+          "Ticelo tingacala ngekusebentisa lelikhasi langcondvomshini, nge-imeyili ku: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, nobe nge-Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "I-IATF uyayihlola",
+        "paragraphs": [
+          "Sihlola kutsi lomsebenti uyahambisana yini nalomsebenti, kutsi uyasebenta yini nekutsi uyafaneleka yini kutsi ube yincenye yemklamo wemtfombo lovulekile."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Kusungulwa kwesitolo semlayeto semphakatsi",
+        "paragraphs": [
+          "Uma iphrojekthi yemukelekile, ishicilelwa ku-GitHub ngaphansi kwelayisensi ye-copyleft.",
+          "Lencwajana iba likhaya lemtsetfo, tinkinga, imiculu kanye nekukhishwa kwetincwadzi."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injiniyela lonelikhono nguye lohola lomsebenti",
+        "paragraphs": [
+          "Lonjiniyela lonemtfwalo uniketwe indzawo yekugcina imiculu futsi nekutfutfukiswa kwenteka emphakatsini."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "I-Registry",
+      "title": "Luhlelo lolusemtsetfweni lwekubhalisa imiklamo"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Cala lapha",
+      "title": "Tfola umsebenti lowentiwako nobe ucale umklamo lotsite"
+    },
+    "paragraphs": [
+      "Sebentisa lelirekhodi kute ubone kutsi yini leseyivele isemtsetfweni, nobe ucale kungena nangabe inkinga letsite yekufinyeleleka kufanele ibe ngumklamo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

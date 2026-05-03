@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Iwebhusayithi ye-IATF",
+    "summary": "I-website yemphakatsi ye-International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "I-IATF beyidzinga likhaya lemphakatsi lelicinile lelicacisa lomklamo, libala imiklamo, liphindze likhombe labo lababa nencenye esinyatselweni lesilandzelako lesikahle.",
+    "why": "Leligatja ngumnyango wemphakatsi we-IATF. Lakhiwe njengephrojekthi lencane kute kube melula kufundza, kuhumusha, nekulondvolota endzaweni levulekile.",
+    "scopeIn": [
+      "Emakhasi lavulekile lachaza imodeli ye-IATF",
+      "I-registry yemphakatsi yemiklamo ye-IATF leyemukelwe, lesebentako, kanye nalekhishiwe ngesimo, umgcini, sitolo, kanye nedemo",
+      "Likhasi lekufaka sicelo kanye nelifomu",
+      "Emakhasi laphatselene nekuphatsa kanye nekusebentisa luhlaka",
+      "Umtfombo wesiNgisi lonekwakheka lokulungele kuhunyushwa",
+      "Kusetjentiswa kwe static ku Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Tindzawo temalunga langasese, ema-akhawunti, nobe kugeleta kwekungena",
+      "Kubamba ikhodi yemtfombo wemklamo, lehlala endzaweni yemklamo ngamunye",
+      "Ingcoco yesikhatsi mbamba, lehlala ku-Discord",
+      "Kulandzelela tinkinga temiklamo ngayinye, lehlala ku-GitHub yemklamo ngamunye"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "I-selfie ye-IATF",
+    "summary": "Sibonelo sekucala se-IATF, lesigcinwe ngemuva kwekufika endzaweni yemvelo yekuma.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Kuhlolwa kwasekucaleni kwethulusi leligcile ekufinyelekeni ngaphasi kwesambulelo se-IATF.",
+    "why": "Lencwadzi yekulondvolota igcinwa njengemculu wemsebenti wemphakatsi, ngisho nobe kutfutfukiswa kwemsebenti sekuphelile.",
+    "scopeIn": [
+      "Luhlelo lwekucala lwethulusi leligcile ekufinyelekeni lolugcinwe njengemculu wemphakatsi"
+    ],
+    "scopeOut": [
+      "Umsebenti wekutfutfukisa ngekutimisela",
+      "Imibandzela yekulondvolota",
+      "Kusetjentiswa lokunconywako ekukhiciteni"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "I-IATF bot",
+    "summary": "I-bot yemphakatsi we-IATF, igcinwe ngemuva kwekufika endzaweni yemvelo yekuma.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kusetjentiswa kwetindlela temphakatsi te-IATF ngekwe-othomathikhi.",
+    "why": "Lencwadzi yekulondvolota igcinwa njengemculu wemsebenti wemphakatsi, ngisho nobe kutfutfukiswa kwemsebenti sekuphelile.",
+    "scopeIn": [
+      "I-automation ye-Discord etinhlelweni temphakatsi we-IATF, igcinwe njengelirekhodi lemphakatsi"
+    ],
+    "scopeOut": [
+      "Umsebenti wekutfutfukisa ngekutimisela",
+      "Imibandzela yekulondvolota",
+      "Kusetjentiswa lokunconywako ekukhiciteni"
+    ]
+  }
+]

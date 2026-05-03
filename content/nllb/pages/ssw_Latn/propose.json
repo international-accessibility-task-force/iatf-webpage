@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kufaka sicelo semklamo wekufinyeleleka",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kufaka sicelo semklamo wekufinyeleleka",
+    "lead": "I-IATF ibuketa ticelo temiklamo yekufinyeleleka letisuka esidzingo mbamba.",
+    "support": [
+      "Awudzingi lwati lolubanti ngalendzaba, kodvwa kufanele ube nenkinga lecacile kutsi utsintseka kubani nekutsi kungani ibalulekile."
+    ],
+    "actions": [
+      {
+        "label": "Cala sicelo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Sebentisa i-Discord esikhundleni saloko",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Imigudvu",
+      "title": "Khetsa indlela lemelula"
+    },
+    "intro": [
+      "Yonkhe imigwaco ihlolwa ngendlela lefanako."
+    ],
+    "items": [
+      {
+        "label": "Iwebhusayithi",
+        "body": "Sebentisa lelifomu lelilandzelako kutfumela sicelo lesihlelekile."
+      },
+      {
+        "label": "I-imeyili",
+        "body": "Tfumela lesicelo ngalokucondzile ku: {{contact.requestsEmail}}Ticelo te-imeyili tingaba ngemarekhodi esicelo semphakatsi ngemuva kwekubuyeketwa nekucashwa."
+      },
+      {
+        "label": "Kungevani",
+        "body": "Cala lapho nangabe loko kumelula. sicelo sisengenele luhlolo lolufanako."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ngaphambi kwekutsi utfumele sicelo",
+    "paragraphs": [
+      "I-IATF isebenta emphakatsini. ticelo tingahlanganiswa bese tishicilelwa njengemarekhodi esicelo semphakatsi ku-GitHub, kulewebhusayithi, nobe kokubili.",
+      "Ungafaki emakheli langasese, tinombolo telucingo, imininingwane yetekwelashwa, nobe umniningwano lomayelana nemuntfu ngamunye losebentisa ematheknoloji lasitako ngaphandle nangabe kunesidzingo futsi awuvumelani ne-IATF kutsi iwuhlolisise.",
+      "I-IATF isusa imininingwane lengadzingeki yekuchumana nemuntfu ngaphambi kwekushicilela lirekhodi lesicelo."
+    ]
+  },
+  "review": {
+    "title": "Kulindzela kubuyeketa",
+    "paragraphs": [
+      "Kufaka sicelo akusiso sicinisekiso sekutsi utawemukelwa.",
+      "I-IATF ihlola ticelo tekuhambisana nemsebenti, kuhambisana nekusebenta, kubaluleka, kanye nekutsi lomsebenti ufanelekile yini kutsi ufakwe ku-repository yemphakatsi.",
+      "Letinye ticelo tingahle tilahlwe, tibekelwe eceleni nobe tihlelwe kabusha ngaphambi kwekutsi temukelwe."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Lifomu lekufaka sicelo",
+      "title": "Faka sicelo"
+    },
+    "fields": [
+      {
+        "kind": "ematheksthi",
+        "name": "lofaka sicelo",
+        "label": "Ligama nobe inhlangano yakho",
+        "helper": "Ngubani lowenta lesicelo?"
+      },
+      {
+        "kind": "kukhetsa",
+        "name": "Umzila wekutsintsana",
+        "label": "Indlela yekuchumana lekhetsiwe",
+        "helper": "Kufanele kwentiwe njani kulandzelela?",
+        "required": true,
+        "options": [
+          "I-imeyili",
+          "Kungevani"
+        ]
+      },
+      {
+        "kind": "ematheksthi",
+        "name": "Imininingwane yekuchumana",
+        "label": "Imininingwane yekuchumana",
+        "helper": "Likheli le-e-mail nobe i-Discord handle kwentela kulandzelela.",
+        "placeholder": "Likheli le-imeyili nobe i-Discord handle",
+        "required": true
+      },
+      {
+        "kind": "ematheksthi",
+        "name": "lulwimi",
+        "label": "Lulwimi",
+        "helper": "Lulwimi lolufunako, uma kufanelekile.",
+        "value": "SiSwati"
+      },
+      {
+        "kind": "Indzawo yekubhala",
+        "name": "inkinga",
+        "label": "Nguyiphi inkinga lofuna kuyicatulula?",
+        "helper": "Chaza lenkinga ngelulwimi lolumelula.",
+        "required": true
+      },
+      {
+        "kind": "Indzawo yekubhala",
+        "name": "Basebentisi labatsintsekako",
+        "label": "Bobani labatsintsekako?",
+        "helper": "Loku bekutawusita bani?",
+        "required": true
+      },
+      {
+        "kind": "Indzawo yekubhala",
+        "name": "extraUmongo walendzaba",
+        "label": "Umongo longetiwe",
+        "helper": "Chaza nobe ngabe yini lengasita ekuchazeni sidzingo: kutsi kungani kubalulekile, tibonelo, ticondziso, umbono lowetayelekile wesofthiwe, nobe tinkinga tesikhatsi."
+      },
+      {
+        "kind": "kukhetsa",
+        "name": "openSourceConsent",
+        "label": "Uyakutsakasela yini kutfutfukiswa kwemitfombo levulekile?",
+        "helper": "Imiklamo leyemukelwe yimiculu yahulumende ngephasi kwe-IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Yebo",
+          "Cha Cha",
+          "Angisati kahle."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Nangabe semukelwe",
+      "title": "Kusho kutsini kwemukelwa"
+    },
+    "items": [
+      "i-repository yemphakatsi ku-GitHub yenhlangano ye-IATF",
+      "Injiniyela lonemtfwalo loniketwe umsebenti wephrojekthi",
+      "ilayisensi ye-copyleft yekusebentisa ikhodi nematheksthi yemklamo",
+      "kutfutfukiswa kwemphakatsi kulolucwebu",
+      "lirekhodi lelisendzaweni ye-IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kucala inkhulumo",
+      "title": "Sicelo lesifishane futsi lesicacile sanele kutsi sicale"
+    },
+    "paragraphs": [
+      "Nangabe unesidzingo mbamba sekufinyeleleka futsi ucabanga kutsi kufanele kube ngumklamo wemphakatsi, sitfumelele wona."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Imiklamo yekufinyeleleka kwemphakatsi",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Imiklamo yekufinyeleleka kwemphakatsi",
+    "lead": "Lelirekhodi lichaza imiklamo yemphakatsi legcinwe nge-IATF. Imiklamo leyemukelwe yekufinyeleleka, sakhiwonchanti sendzawo, kanye nemiklamo lemisiwe igcinwa ibonakala lapha.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "I-Registry",
+      "title": "Irejista lekhona nyalo"
+    },
+    "intro": [
+      "Lemiklamo lemukelekile ibhalwe lapha ngemuva kwekushicilelwa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Faka sicelo",
+      "title": "Kugucula sidzingo lesicinile sekufinyeleleka sibe ngumklamo wemphakatsi"
+    },
+    "paragraphs": [
+      "I-IATF ibuketa tidzingo leticondzile tekutfolakala kwetinhlelo letingaguculwa tibe ngumsebenti losemtsetfweni losisekelo lesivulekile."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Kute umsebenti loshicilelwe",
+    "paragraphs": [
+      "I-IATF ilungiselela luhlelo lwayo lwekucala lwemiklamo yemphakatsi.",
+      "Ungachubeka nekutfumela sicelo nangabe unetidzingo letitsite tekutsi ufinyeleleke."
+    ]
+  }
+}

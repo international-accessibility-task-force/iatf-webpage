@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kujoyina i-IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kujoyina i-IATF",
+    "lead": "Kuba lilunga kuvuliwe. Kunetindlela letehlukene tekutibandzakanya, kungaba kutsi utsembele kutetheknoloji yekusita, kwakha luhlelo lolutfolakalako, kuhumusha, kuvivinya, noma kugcina iphrojekthi. Tinkhulumiswano netincumo tenteka emphakatsini ku GitHub naku Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Imisebenti",
+      "title": "Tindlela tekufaka sandla"
+    },
+    "items": [
+      "<strong>Cela umsebenti.</strong> Nangabe uhlangabetana nenkinga yekufinyeleleka lengacatululwa nguhlelo lolusemtsetfweni lolunemthombo lovulekile, tfumela sicelo ngekusebentisa luhlelo lwekungenisa ticelo.",
+      "<strong>Hlola uphindze ubuyekete.</strong> Yetama imiklamo ye-IATF ngelusito lwetheknoloji lolusebentisako, ubike kutsi yini lesebentako nalengasebenti, bese ufaka tinkinga ngalokucondzile kuloluhlaka lolufanele.",
+      "<strong>Humusha.</strong> Lokucuketfwe kwasekucaleni kushicilelwa ngelulwimi lwesiNgisi.",
+      "<strong>Yakha.</strong> Tfola tinkinga kunobe ngabe nguyiphi i-repository ye-IATF, tfumela ticelo tekukhipha, nobe wente umsebenti njengenjiniyela loneligunya.",
+      "<strong>Londvolota.</strong> Imiklamo levele ikhona ngalesinye sikhatsi idzinga umuntfu lomusha lotawenta lomsebenti."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Imigudvu",
+      "title": "Lapho i-IATF isebenta khona emphakatsini"
+    },
+    "items": [
+      "<strong>I-GitHub.</strong> Tinkinga, ticelo tekukhishwa, kukhululwa, nemarekhodi emklamo.",
+      "<strong>Kungavumelani.</strong> Kucocisana lokuchubekako, kusebentisana, kanye nemibuto lengakahleleki.",
+      "<strong>Tfumela umlayeto nge-e-mail.</strong> Kusetjentiswa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> uma i-GitHub nobe i-Discord tingahambisani."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sinyatselo lesilandzelako",
+      "title": "Khetsa luhlelo loluhambisana nendlela lofuna kufaka ngayo ligalelo"
+    },
+    "paragraphs": [
+      "Tonkhe tindlela tekusakata tifaka ekhatsi luhlolo lolusemtsetfweni lolufanako kanye netindzawo letifana naleti."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

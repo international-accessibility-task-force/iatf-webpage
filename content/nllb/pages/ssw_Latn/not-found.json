@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ayitfolakali"
+  },
+  "hero": {
+    "eyebrow": "Ayitfolakali",
+    "title": "Likhasi lelifunwako alikatfolakali",
+    "lead": "Sebentisa imigwaco lemikhulu lengentasi kute ubuyele endzaweni yemphakatsi.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ekhaya",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Lendlela loyicelile ayikho."
+    ],
+    "items": [
+      {
+        "label": "Ekhaya",
+        "href": "/"
+      },
+      {
+        "label": "Imiklamo",
+        "href": "/projects/"
+      },
+      {
+        "label": "Hlanganisa",
+        "href": "/join/"
+      },
+      {
+        "label": "Kufinyeleleka",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Kulawulwa",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kuveta lwati",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
