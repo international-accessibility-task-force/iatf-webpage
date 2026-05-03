@@ -1,9 +1,15 @@
-# IATF Website
+<div align="center">
 
-[![discord](https://img.shields.io/discord/1014599739230130267?label=discord&logo=discord&logoColor=white&color=5865F2)](https://iatf.cc/discord)
-[![license](https://img.shields.io/badge/license-AGPL--3.0%20%26%20CC%20BY--SA%204.0-blue)](./LICENSE)
+<img src="./assets/iatf-people.svg" alt="International Accessibility Task Force" width="220" />
 
-[English](./README.md) · [Català](./README.ca.md)
+International Accessibility Task Force
+[iatf.cc](https://iatf.cc)
+
+[![discord](https://img.shields.io/discord/1014599739230130267?label=discord&logo=discord&logoColor=white&color=5865F2)](https://iatf.cc/discord) | [![license](https://img.shields.io/badge/license-AGPL--3.0%20%26%20CC%20BY--SA%204.0-blue)](./LICENSE)
+
+[English](./README.md) | [Català](./README.ca.md)
+
+</div>
 
 Static multi-page site for `iatf.cc`, generated from JSON content and deployed
 with Cloudflare Workers Static Assets plus a small Worker for request intake
@@ -52,17 +58,17 @@ configured. The Worker also redirects `www.iatf.cc` and the legacy
 A free Cloudflare account (for Turnstile keys and Worker hosting) and a free
 GitHub account (for the intake repository) are enough.
 
-| Variable | Where it runs | Sensitivity | Purpose |
-| --- | --- | --- | --- |
-| `TURNSTILE_SITE_KEY` | Worker (public) | Public | Turnstile site key, returned to the client. |
-| `TURNSTILE_SECRET_KEY` | Worker | **Secret** | Verifies Turnstile tokens server-side. |
-| `GITHUB_TOKEN` | Worker | **Secret** | Creates the intake issue. |
-| `GITHUB_INTAKE_REPO` | Worker | Public | `owner/name` of the intake repository. |
-| `GITHUB_INTAKE_LABELS` | Worker (optional) | Public | Defaults to `request,status: received`. |
-| `GITHUB_INTAKE_SHOW_ISSUE_LINK` | Worker (optional) | Public | Set to `1` to surface the issue URL on success. |
-| `DISCORD_WEBHOOK_URL` | Worker (optional) | **Secret** | Posts a notification when an issue is created. |
-| `TURNSTILE_EXPECTED_HOSTNAME` | Worker (optional) | Public | Pins Turnstile validation to a specific hostname. |
-| `NOINDEX` | Build (optional) | Public | When `1`, the build emits a noindex site. |
+| Variable                        | Where it runs     | Sensitivity | Purpose                                           |
+| ------------------------------- | ----------------- | ----------- | ------------------------------------------------- |
+| `TURNSTILE_SITE_KEY`            | Worker (public)   | Public      | Turnstile site key, returned to the client.       |
+| `TURNSTILE_SECRET_KEY`          | Worker            | **Secret**  | Verifies Turnstile tokens server-side.            |
+| `GITHUB_TOKEN`                  | Worker            | **Secret**  | Creates the intake issue.                         |
+| `GITHUB_INTAKE_REPO`            | Worker            | Public      | `owner/name` of the intake repository.            |
+| `GITHUB_INTAKE_LABELS`          | Worker (optional) | Public      | Defaults to `request,status: received`.           |
+| `GITHUB_INTAKE_SHOW_ISSUE_LINK` | Worker (optional) | Public      | Set to `1` to surface the issue URL on success.   |
+| `DISCORD_WEBHOOK_URL`           | Worker (optional) | **Secret**  | Posts a notification when an issue is created.    |
+| `TURNSTILE_EXPECTED_HOSTNAME`   | Worker (optional) | Public      | Pins Turnstile validation to a specific hostname. |
+| `NOINDEX`                       | Build (optional)  | Public      | When `1`, the build emits a noindex site.         |
 
 > [!WARNING]
 > Only `TURNSTILE_SECRET_KEY`, `GITHUB_TOKEN`, and `DISCORD_WEBHOOK_URL` are

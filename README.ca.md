@@ -1,9 +1,15 @@
-# Lloc web de l'IATF
+<div align="center">
 
-[![discord](https://img.shields.io/discord/1014599739230130267?label=discord&logo=discord&logoColor=white&color=5865F2)](https://iatf.cc/discord)
-[![llicència](https://img.shields.io/badge/llic%C3%A8ncia-AGPL--3.0%20%26%20CC%20BY--SA%204.0-blue)](./LICENSE)
+<img src="./assets/iatf-people.svg" alt="International Accessibility Task Force" width="220" />
 
-[English](./README.md) · [Català](./README.ca.md)
+International Accessibility Task Force
+[iatf.cc](https://iatf.cc)
+
+[![discord](https://img.shields.io/discord/1014599739230130267?label=discord&logo=discord&logoColor=white&color=5865F2)](https://iatf.cc/discord) | [![llicència](https://img.shields.io/badge/llic%C3%A8ncia-AGPL--3.0%20%26%20CC%20BY--SA%204.0-blue)](./LICENSE)
+
+[English](./README.md) | [Català](./README.ca.md)
+
+</div>
 
 Lloc estàtic multipàgina per a `iatf.cc`, generat a partir de contingut JSON i
 desplegat amb Cloudflare Workers Static Assets, més un petit Worker per a
