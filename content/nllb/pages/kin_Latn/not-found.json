@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ntabwo yabonetse"
+  },
+  "hero": {
+    "eyebrow": "Ntabwo yabonetse",
+    "title": "Urupapuro rwasabwe ntiruboneka",
+    "lead": "Koresha imihanda y'ingenzi iri hasi kugira ngo usubire aho abantu bose bari.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Iwacu",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Inzira wasabye ntibaho."
+    ],
+    "items": [
+      {
+        "label": "Iwacu",
+        "href": "/"
+      },
+      {
+        "label": "Imishinga",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kwifatanya",
+        "href": "/join/"
+      },
+      {
+        "label": "Uburyo bwo kubigeraho",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Imiyoborere",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ibikorwa byo kugenzura",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

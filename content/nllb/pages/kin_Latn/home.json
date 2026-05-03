@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Guhera ku gukenera kugera kuri repo rusange",
+    "lead": "IATF ifasha amashyirahamwe, amatsinda, n'abantu ku giti cyabo guhindura ibyifuzo nyabyo byo kuboneka mu mishinga rusange ifunguye.",
+    "support": [
+      "Imishinga yemewe isohoka mu ishyirahamwe rya IATF GitHub munsi ya lisansi ya copyleft kandi iterwa imbere mu ruhame n'umwenjeniyeri ufite inshingano."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Igishushanyo cy'imikorere ya leta",
+      "title": "Inzira yoroheje rusange ya software iboneka"
+    },
+    "paragraphs": [
+      "Binyuze muburyo, umuntu wese arashobora kohereza ikibazo cyo kugera kuri IATF. Niba itsinda rishobora kubyakira, ububiko rusange bwa GitHub burafunguwe kubikorwa.",
+      "Igishushanyo mbonera cyose cyemewe gifite inzu rusange igaragara ya code, ibibazo, inyandiko, no gusohora, hamwe niterambere riyobowe kumugaragaro ninjeniyeri ufite inshingano."
+    ],
+    "specCard": {
+      "title": "Igishushanyo cy'imikorere ya leta",
+      "terms": [
+        {
+          "term": "Ibikenewe",
+          "definition": "Ikibazo nyacyo cy'ubushobozi bwo kugera ku bantu"
+        },
+        {
+          "term": "Gusuzuma",
+          "definition": "Gushyira mu bikorwa no gushyira mu bikorwa"
+        },
+        {
+          "term": "Ikirere cy'umushinga",
+          "definition": "Ububiko rusange bwa GitHub"
+        },
+        {
+          "term": "Ubugenzuzi",
+          "definition": "Ishyirahamwe rya IATF ryigenga"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Gahunda",
+      "title": "Uko ikora",
+      "intro": "Icyitegererezo kiguma ari gito ku bwende bityo inzira rusange ikaba yoroshye gukurikiza."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Icyifuzo kiratangwa",
+        "paragraphs": [
+          "Ishyirahamwe, itsinda cyangwa umuntu ku giti cye ashobora gutanga icyifuzo gishingiye ku bikenewe by'ukuri.",
+          "Ibyifuzo bishobora gutangirira ku rubuga rwa interineti, ukoresheje imeri kuri <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, cyangwa binyuriye kuri Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF irabisuzuma",
+        "paragraphs": [
+          "Turasuzuma niba igikorwa gihuje n'inshingano, niba ari ingirakamaro, n'uko igikorwa cyaba kiri mu mushinga w'isoko rusange ry'ikoranabuhanga."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Hashyizweho ububiko rusange",
+        "paragraphs": [
+          "Niba umushinga wemewe, ushyirwa ahagaragara mu ishyirahamwe rya IATF GitHub munsi ya lisansi ya copyleft.",
+          "Ububiko buba inzu rusange ya code, ibibazo, inyandiko, no gusohora."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Umuhanga mu by'ubwubatsi ufite inshingano ni we uyobora uwo mushinga",
+        "paragraphs": [
+          "Injeniyeri ushinzwe ishyirwa mu bubiko bw'umushinga kandi iterambere ribera mu ruhame."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ibaruramari",
+      "title": "Ibaruramari rusange ry'imishinga"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tangira hano",
+      "title": "Kugenzura ibikorwa biri gukorwa cyangwa gutangira umushinga wihariye"
+    },
+    "paragraphs": [
+      "Koresha ububiko kugirango urebe ibyatangajwe n'abantu bose, cyangwa utangire gufata niba ikibazo cyihariye cyo kuboneka cyaba umushinga."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

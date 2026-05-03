@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Gusaba igishushanyo mbonera cy'ubushobozi bwo kugera ku bantu",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Gusaba igishushanyo mbonera cy'ubushobozi bwo kugera ku bantu",
+    "lead": "IATF isuzuma ibyifuzo by'imishinga yo kugera ku bantu itangirira ku byo bakeneye koko.",
+    "support": [
+      "Ntabwo ukeneye ibisobanuro birambuye. Ikibazo gisobanutse, uwo kigiraho ingaruka, n'impamvu ari ngombwa birahagije gutangira."
+    ],
+    "actions": [
+      {
+        "label": "Gutangira icyifuzo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Koresha Discord mu mwanya wabyo",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Imiyoboro",
+      "title": "Hitamo inzira yoroshye"
+    },
+    "intro": [
+      "Imihanda yose yinjira mu isuzuma rimwe."
+    ],
+    "items": [
+      {
+        "label": "Urubuga rwa interineti",
+        "body": "Koresha fomu iri hasi kugira ngo utange icyifuzo cyateguwe."
+      },
+      {
+        "label": "Ibaruwa yo kuri interineti",
+        "body": "Ohereza icyifuzo ku buryo butaziguye kuri {{contact.requestsEmail}}Ibyifuzo byoherejwe na e-mail bishobora kuba inyandiko z'ibyifuzo rusange nyuma yo gusuzumwa no gukosorwa."
+      },
+      {
+        "label": "Amakimbirane",
+        "body": "Tangira aho niba aribyo byoroshye. Icyifuzo kiracyakomeza mu isuzuma rimwe."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Mbere yo kohereza icyifuzo",
+    "paragraphs": [
+      "IATF ikora mu ruhame. Ibyifuzo birashobora gukusanywa no gutangarizwa nk'inyandiko zisaba abantu bose mu ishyirahamwe rya IATT GitHub, kururu rubuga, cyangwa byombi.",
+      "Ntugashyireho aderesi z'abantu ku giti cyabo, nomero za telefoni, amakuru ajyanye n'ubuvuzi, cyangwa amakuru agaragaza umuntu ku giti cye ukoresha ibikoresho by'ikoranabuhanga, keretse bibaye ngombwa kandi ukaba wemera ko IATF ibisuzuma.",
+      "IATF ikuraho amakuru y'abantu ku giti cyabo adakenewe mbere yo gutangaza inyandiko z'ibyifuzo."
+    ]
+  },
+  "review": {
+    "title": "Gusuzuma ibyari byitezwe",
+    "paragraphs": [
+      "Gutanga icyifuzo ntibitanga igihamya cy'uko icyo cyifuzo cyemewe.",
+      "IATF isuzuma ibyifuzo bijyanye n'inshingano, ibisabwa, akamaro, n'uko igikorwa cyaba kiri mu bubiko rusange.",
+      "Ibyifuzo bimwe bishobora kwanga, gusubikwa, cyangwa guhindurwa mbere yo kwemerwa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Inyandiko y'icyifuzo",
+      "title": "Gutanga icyifuzo"
+    },
+    "fields": [
+      {
+        "kind": "ibyinjira",
+        "name": "uwasabye",
+        "label": "Izina ryawe cyangwa ishyirahamwe ryawe",
+        "helper": "Ni nde ubisaba?"
+      },
+      {
+        "kind": "guhitamo",
+        "name": "Uburyo bwo gushyikirana",
+        "label": "Inzira y'itumanaho yifuzwa",
+        "helper": "Ni gute byagombye gukurikiranwa?",
+        "required": true,
+        "options": [
+          "Ibaruwa yo kuri interineti",
+          "Amakimbirane"
+        ]
+      },
+      {
+        "kind": "ibyinjira",
+        "name": "Amakuru y'ibanze",
+        "label": "Ibirebana no gushyikirana na bo",
+        "helper": "Aderesi imeyiri cyangwa aderesi ya Discord yo gukurikirana.",
+        "placeholder": "Aderesi imeyiri cyangwa aderesi ya Discord",
+        "required": true
+      },
+      {
+        "kind": "ibyinjira",
+        "name": "ururimi",
+        "label": "Ururimi",
+        "helper": "Ururimi ukunda, niba ari ngombwa.",
+        "value": "Icyongereza"
+      },
+      {
+        "kind": "agace k'inyandiko",
+        "name": "ikibazo",
+        "label": "Ni ikihe kibazo urimo ugerageza gukemura?",
+        "helper": "Sobanura icyo kibazo mu magambo yoroheje.",
+        "required": true
+      },
+      {
+        "kind": "agace k'inyandiko",
+        "name": "Abakoresha bagizweho ingaruka",
+        "label": "Ni ba nde bigiraho ingaruka?",
+        "helper": "Ni nde ibyo byari gufasha?",
+        "required": true
+      },
+      {
+        "kind": "agace k'inyandiko",
+        "name": "extraAho byavuye",
+        "label": "Ibisobanuro by'inyongera",
+        "helper": "Sangiza ikindi kintu cyose cyafasha gusobanura ibikenewe: impamvu ari ngombwa, ingero, ubuvugizi, igitekerezo cya porogaramu mbi, cyangwa imipaka y'igihe."
+      },
+      {
+        "kind": "guhitamo",
+        "name": "openSourceConsent (Inyandiko y'umwimerere)",
+        "label": "Mbese, wumva wisanzuye mu iterambere ry'ikoranabuhanga rikoreshwa n'abantu bose?",
+        "helper": "Imishinga yemewe ni ububiko rusange munsi ya IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Yego rwose",
+          "Oya",
+          "Kugeza ubu sinzi neza"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Niba byemewe",
+      "title": "Icyo kwemerwa bisobanura"
+    },
+    "items": [
+      "ububiko rusange mu ishyirahamwe rya IATF GitHub",
+      "injeniyeri ushinzwe ishyirwaho ry'umushinga",
+      "uruhushya rwa copyleft kuri code n'ibikoresho by'umushinga",
+      "iterambere ry'abaturage mu bubiko",
+      "inyandiko y'ibaruramari ku rubuga rwa IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Jya utangiza ikiganiro",
+      "title": "Gusaba mu magambo make kandi asobanutse bihagije kugira ngo utangire"
+    },
+    "paragraphs": [
+      "Niba ufite ibyo ukeneye by'ukuri kandi ukaba utekereza ko bikwiye kuba umushinga rusange, uzitwoherereze."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

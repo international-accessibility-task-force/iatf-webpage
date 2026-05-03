@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Ikarita y'urubuga"
+  },
+  "hero": {
+    "eyebrow": "Igishushanyo mbonera",
+    "title": "Ikarita y'urubuga",
+    "lead": "Buri rupapuro rw'abantu bose ruri ku rubuga rwa iatf.cc, ahantu hamwe."
+  },
+  "sections": [
+    {
+      "title": "Amapaji y'ibanze",
+      "items": [
+        {
+          "label": "Iwacu",
+          "href": "/"
+        },
+        {
+          "label": "Imishinga",
+          "href": "/projects/"
+        },
+        {
+          "label": "Gusaba umushinga",
+          "href": "/propose/"
+        },
+        {
+          "label": "Imiyoborere",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kwifatanya",
+          "href": "/join/"
+        },
+        {
+          "label": "Uburyo bwo kubigeraho",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ibikorwa byo kugenzura",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Imishinga",
+  "projectsEmpty": "Kugeza ubu nta mishinga yashyizwe ahagaragara."
+}

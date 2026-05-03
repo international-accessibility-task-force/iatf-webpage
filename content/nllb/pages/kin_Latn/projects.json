@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Imishinga yo kugera kuri rubanda",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Imishinga yo kugera kuri rubanda",
+    "lead": "Uru rutonde rwerekana imishinga rusange ikorwa binyuze muri IATF. Imishinga yemewe yo kugerwaho, ibikorwa remezo byurubuga, na prototypes zibitswe zikomeza kugaragara hano.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ibaruramari",
+      "title": "Ibaruramari rya none"
+    },
+    "intro": [
+      "Imishinga yemewe yashyizwe ku rutonde hano nyuma yo gusohoka."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Gushyiraho icyifuzo",
+      "title": "Guhindura icyifuzo gifatika cy'ubushobozi bwo kugera ku bantu mu mushinga rusange"
+    },
+    "paragraphs": [
+      "IATF isuzuma ibyifuzo bifatika byo kuboneka bishobora guhindurwa mubikorwa byingirakamaro byububiko rusange."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Kugeza ubu nta mishinga yashyizwe ahagaragara",
+    "paragraphs": [
+      "IATF irimo gutegura igishushanyo mbonera cyayo cya mbere.",
+      "Urashobora kohereza icyifuzo niba ufite ibikenewe byihariye byo kugera."
+    ]
+  }
+}

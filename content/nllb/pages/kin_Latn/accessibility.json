@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Uburyo bwo kubigeraho",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Uburyo bwo kubigeraho",
+    "lead": "IATF ifite intego yo gutuma uru rubuga rworoha, rusomeka, rushobora kugerwaho na clavier, kandi rushobora guhuza n'ikoranabuhanga rifasha.",
+    "support": [
+      "Ku bijyanye no kugera ku mbuga za interineti, IATF ikoresha [W3C WAI](https://www.w3.org/WAI/) Uburyo bw'ingirakamaro bwo kugera ku bantu na bwo bushingiye ku byo abakoresha ibikoresho by'ikoranabuhanga by'ubufasha bahura na byo mu buryo butaziguye."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Gutanga raporo",
+      "title": "Gutanga raporo y'ikibazo cy'ubushobozi bwo kugera kuri mudasobwa"
+    },
+    "paragraphs": [
+      "Niba ubonye inzitizi yo kugera kuri uru rubuga, nyamuneka ubimenyeshe kuri e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Raporo z'ingirakamaro zikubiyemo izi zikurikira:"
+    ],
+    "items": [
+      "urupapuro ikibazo cyabereyeho",
+      "ibyo wageragezaga gukora",
+      "ikoranabuhanga ry'ubufasha, browser cyangwa igikoresho wakoreshaga, niba ari ngombwa",
+      "byagenze bite?",
+      "ni iki cyaba cyaramufashije"
+    ],
+    "footnote": "Si ngombwa ko wandika raporo y'ikosa ryemewe. Ibisobanuro bisobanutse birahagije."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Gukoresha",
+      "title": "Gukemura ibibazo by'abaturage"
+    },
+    "paragraphs": [
+      "Ibibazo byo kuboneka birashobora gukusanyirizwa mububiko rusange bwihariye kugirango bishobore gukosorwa muburyo bweruye. Ibiranga abantu ku giti cyabo n'amakuru y'ibanga adakenewe arakurwaho mbere yo gutangaza.",
+      "Niba raporo yawe ikubiyemo amakuru y'ibanga, ujye ubivuga neza mu butumwa."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Uko ibintu bimeze ubu",
+      "title": "Impaka zizwi"
+    },
+    "paragraphs": [
+      "Uru rubuga ni ruto kandi ahanini ruhagaze. Imirongo imwe n'imwe y'ururimi ishobora kuba itararangira mu gihe ubuhinduzi burimo gutegurwa."
+    ]
+  }
+}
