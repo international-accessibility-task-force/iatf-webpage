@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Tilgjengelegheit",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Tilgjengelegheit",
+    "lead": "IATF siktar på å halda denne nettsida enkel, lesbar, tilgjengeleg med tastatur, og kompatibel med hjelpeteknologi.",
+    "support": [
+      "For tilgjengelighet på nettet bruker IATF [W3C WAI](https://www.w3.org/WAI/) Praktisk tilgjengelighet er òg informert av den direkte erfaringa til brukarane av hjelpeteknologi."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapportering",
+      "title": "Rapportera eit problem med tilgjengelegheit"
+    },
+    "paragraphs": [
+      "Viss du finn ein tilgjengeshindring på denne nettsida, kan du melda det via e-post:",
+      "{{contact.accessibilityEmail}}",
+      "Nyttige rapportar inkluderer:"
+    ],
+    "items": [
+      "sidan der problemet oppstod",
+      "det du prøvde å gjere",
+      "kva for ein hjelpemiddel, nettlesar eller enhet du brukte, dersom det er relevant",
+      "kva var det som gjekk galt?",
+      "kva hadde hjelpt"
+    ],
+    "footnote": "Du treng ikkje å skriva ei formell feilrapport. Ei klar beskriving er nok."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Håndtering",
+      "title": "Håndtering av offentlege problem"
+    },
+    "paragraphs": [
+      "Tilgjengeleghetsspørsmål kan oppsummerast i det relevante offentlege arkivet slik at dei kan rettast i offentleg høve. Personlege kontaktinformasjonar og ikkje-nødvendig privat informasjon blir fjerna før publisering.",
+      "Viss rapporten din inneheld privat informasjon, skal du seia det tydeleg i meldinga."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Aktuell tilstand",
+      "title": "Kjende begrensingar"
+    },
+    "paragraphs": [
+      "Denne sida er med vilje liten og for det meste statisk. Nokre språkversjonar kan vera ufullstendige medan omsetjingar vert gjort."
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Bli med i IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Bli med i IATF",
+    "lead": "Det er fleire måtar å delta på, anten du bruker hjelpeteknologi, bygg programvare som er tilgjengeleg, oversetter, testar eller opprettholder eit prosjekt.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rollar",
+      "title": "Måtar å bidra på"
+    },
+    "items": [
+      "<strong>Be om eit prosjekt.</strong> Viss du støttar på ein tilgjengelighetsbarriere som kan løysast med offentleg, open kildekode programvare, send det gjennom innkjøpsforespørselen.",
+      "<strong>Test og gjennomgå.</strong> Prøve IATF-prosjekt med den hjelpemiddela du brukar, rapportera kva som funkar og kva som ikkje funkar, og legg til problem direkte i det aktuelle arkivet.",
+      "<strong>Omsetj.</strong> Kjeldeinnholdet vert først publisert på engelsk, og omsetjingar vert lagt til ettersom bidragsytarar er tilgjengelege, fyrst og fremst på spansk.",
+      "<strong>Bygjer opp.</strong> Ta opp problem i alle IATF-register, send pull-forspurnad, eller ta på deg eit prosjekt som den ansvarlege ingeniøren.",
+      "<strong>Hald på.</strong> Eksisterande prosjekt treng av og til ein ny vedlikehaldar. Rotasjon av vedlikeholdar er ein normal del av modellen, ikkje eit unntak."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanaler",
+      "title": "Kvar IATF arbeider i offentleg høgd"
+    },
+    "items": [
+      "<strong>GitHub. Det er ein måte å gjere det på.</strong> Utgjevingar, pull-forspurnad, utgjevingar, og prosjektopptegningar.",
+      "<strong>Det finst ikkje samklang.</strong> Live diskusjon, koordinering, og uformelle spørsmål.",
+      "<strong>E-postar.</strong> Bruk <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> om det ikkje passar med GitHub eller Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Neste skritt",
+      "title": "Vel ein kanal som passar for korleis du vil bidra"
+    },
+    "paragraphs": [
+      "Alle kanaler går inn i same offentlege arkiv."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

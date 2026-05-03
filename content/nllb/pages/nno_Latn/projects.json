@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Arrangementar for offentleg tilgjenge",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Arrangementar for offentleg tilgjenge",
+    "lead": "Dette registeret listar offentlege prosjekt vedlikeholdt gjennom IATF. Aksepta tilgjengesprojekt, infrastruktur på området, og arkiverte prototypar vert haldne synlege her.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registret",
+      "title": "Aktuelt register"
+    },
+    "intro": [
+      "Dei godkjende prosjektane er oppgjeve her så snart dei er publiserte."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Send inn ein etterspurnad",
+      "title": "Endra eit konkret behov for tilgjengelighet til eit offentleg prosjekt"
+    },
+    "paragraphs": [
+      "IATF vurderer konkrete tilgjengelege behov som kan omsetjast til nyttig offentleg open source-arbeid."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ikkje publiserte prosjekt enno",
+    "paragraphs": [
+      "IATF er i gang med å planleggja det første offentlege prosjektet.",
+      "Du kan framleis senda ein forespørsel om du har eit konkret behov for tilgjengelighet."
+    ]
+  }
+}

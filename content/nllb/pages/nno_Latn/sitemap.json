@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Sitemap",
+    "lead": "Alle sider på ITFCC, på éin side."
+  },
+  "sections": [
+    {
+      "title": "Hovudsidene",
+      "items": [
+        {
+          "label": "Hjem",
+          "href": "/"
+        },
+        {
+          "label": "Prosjekt",
+          "href": "/projects/"
+        },
+        {
+          "label": "Be om eit prosjekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Styringsmekanisme",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ta del i",
+          "href": "/join/"
+        },
+        {
+          "label": "Tilgjengelegheit",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparens",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Prosjekt",
+  "projectsEmpty": "Ingen prosjekt er publiserte enno."
+}

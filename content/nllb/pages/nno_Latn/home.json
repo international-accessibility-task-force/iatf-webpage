@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Frå behovet for tilgjengelighet til offentlege repos",
+    "lead": "IATF hjelper foreningar, grupper og individar med å omsetja reelle tilgjengelege behov til offentlege open source-prosjekt.",
+    "support": [
+      "Godkjende prosjekt blir publisert i IATF GitHub-organisasjonen under ein copyleft-lisens og utvikla i offentlighet av ein ansvarleg ingeniør."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Offentlig driftsmodell",
+      "title": "Ein enkel, offentleg vegg for tilgjengeleg programvare"
+    },
+    "paragraphs": [
+      "Gjennom eit skjema kan kvar og ein sende inn eit problem med tilgjengelighet til IATF.",
+      "Kvar akseptert prosjekt har eit klart offentleg heim for kode, problem, dokumentasjon og utgjerningar, med utvikling leidd i det ope av ein ansvarleg ingeniør."
+    ],
+    "specCard": {
+      "title": "Offentlig driftsmodell",
+      "terms": [
+        {
+          "term": "Behov",
+          "definition": "Eit reelt tilgjengesproblem"
+        },
+        {
+          "term": "Gjennomgåing",
+          "definition": "Oppdragsgjevd og praktisk gjennomførbar"
+        },
+        {
+          "term": "Prosjektsplass",
+          "definition": "Offentlig GitHub depot"
+        },
+        {
+          "term": "Styringsarbeid",
+          "definition": "IATF organisatorisk eigarskap"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Fremgangsmåte",
+      "title": "Korleis det fungerer",
+      "intro": "Modellen held seg med vilje liten slik at den offentlege vegen er lett å følgja."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Det er eit krav.",
+        "paragraphs": [
+          "Ein forening, ein gruppe eller ein person kan senda inn ei søknad basert på eit reelt behov for tilgjengelighet.",
+          "Forfrågingar kan startast gjennom nettsida, via e-post til <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>Eller gjennom Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF tek tek tek gjennom",
+        "paragraphs": [
+          "Me gjer det ved å kartlegge aktivitetar, aktivitetar som har noko med open source å gjere, og om det er noko som ein offentleg, offentleg plattform kan gjere."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Eit offentleg arkiv vert oppretta",
+        "paragraphs": [
+          "Dersom eit prosjekt vert akseptert, vert det publisert i IATF GitHub under ein copyleft lisens.",
+          "Oppbevaringsloka blir det offentlege heim for koden, utgåver, dokumentasjon og utgjerningar."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Ein ansvarleg ingeniør leiar prosjektet.",
+        "paragraphs": [
+          "Eit ansvarleg ingeniør blir tildelt prosjektdatabasen, og utviklinga skjer offentleg."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registret",
+      "title": "Offentlig prosjektregister"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Starta her",
+      "title": "Browse gjennom det pågående arbeidet eller starta eit konkret prosjekt"
+    },
+    "paragraphs": [
+      "Bruka registeret for å sjå kva som allereie er offentleg, eller start inntaket om eit konkret tilgjengesproblem skulle verta eit prosjekt."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

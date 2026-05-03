@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ikkje funne"
+  },
+  "hero": {
+    "eyebrow": "Ikkje funne",
+    "title": "Den ønskte sida vart ikkje funnen.",
+    "lead": "Bruka hovudrutene nedanfor for å koma tilbake til det offentlege området.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Hjem",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Rutan du bad om finst ikkje."
+    ],
+    "items": [
+      {
+        "label": "Hjem",
+        "href": "/"
+      },
+      {
+        "label": "Prosjekt",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ta del i",
+        "href": "/join/"
+      },
+      {
+        "label": "Tilgjengelegheit",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Styringsmekanisme",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparens",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
