@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Womeke ɖe eŋu o"
+  },
+  "hero": {
+    "eyebrow": "Womeke ɖe eŋu o",
+    "title": "Womeke ɖe axa si dim nèle la ŋu o",
+    "lead": "Zɔ mɔ gã siwo le ete nàtrɔ ayi teƒe si amewo le la.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Aƒe",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Mɔ si nèbia la meli o."
+    ],
+    "items": [
+      {
+        "label": "Aƒe",
+        "href": "/"
+      },
+      {
+        "label": "Dɔwɔɖuiwo",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kpe ɖe mía ŋu",
+        "href": "/join/"
+      },
+      {
+        "label": "Mɔnu si dzi woato awɔ dɔe",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Dziɖuɖu",
+        "href": "/governance/"
+      },
+      {
+        "label": "Nuteƒewɔwɔ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

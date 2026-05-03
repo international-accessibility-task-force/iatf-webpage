@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Amegbetɔwo ƒe mɔɖeɖe ƒe ɖoɖowo",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Amegbetɔwo ƒe mɔɖeɖe ƒe ɖoɖowo",
+    "lead": "Agbalẽ sia ƒo nu tso dukɔmeviwo ƒe dɔ siwo wowɔna to IATF dzi la ŋu. Dɔ siwo dzi woda asi ɖo be woakpe ɖe amewo ŋu la, teƒea ƒe gɔmeɖoanyiwo, kple nuŋlɔɖi siwo le afi ma la nɔa dzedzem le afi sia.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Agbalẽdzraɖoƒea",
+      "title": "Agbalẽdzraɖoƒe si li fifia"
+    },
+    "intro": [
+      "Woŋlɔ ɖoɖo siwo dzi woda asi ɖo la ɖe afi sia ne woɖe wo ɖe go vɔ megbe."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Gblɔ nu si nèhiã",
+      "title": "Trɔ asiɖeɖe le nu si hiã ŋutɔŋutɔ ŋu wòava zu dukɔmevidɔ"
+    },
+    "paragraphs": [
+      "IATF léa ŋku ɖe nudidi vevi siwo li ku ɖe mɔ̃ɖaŋunuwo zazã ŋu siwo woate ŋu atrɔ wòava zu dɔwɔɖui si dzi woate ŋu akpɔ mɔ ato awɔ dɔ le gaglãgbe la ŋu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Wometa agbalẽ aɖeke haɖe o",
+    "paragraphs": [
+      "IATF le eƒe dɔwɔɖoɖo gbãtɔ si le gaglãgbe la dzram ɖo.",
+      "Àte ŋu ayi edzi aɖo biabia aɖe ɖa ne ehiã be nàna kpekpeɖeŋu le mɔ aɖe nu."
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Nuteƒewɔwɔ",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Nuteƒewɔwɔ",
+    "lead": "IATF wɔa dɔ le dutoƒo le ɖoɖo nu. Woŋlɔa ɖoɖo ƒe nyametsotsowo, ɖoɖo ƒe tɔtrɔwo, dziɖuɖu ƒe tɔtrɔ, kple dɔwɔwɔ ƒe gazazãwo ɖe dutoƒo teƒewo. axa sia yɔ afisi nuŋlɔɖi ƒomevi ɖesiaɖe le kple alesi woaxlẽe.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Nuŋlɔɖiawo",
+      "title": "Afi si nuŋlɔɖiawo le"
+    },
+    "items": [
+      "<strong>Dɔa ŋuti nyametsotsowo wɔwɔ.</strong> Woŋlɔa nyametsotso siwo ku ɖe wo xɔxɔ, wo dzadzraɖo ɖe nuŋlɔɖigbalẽwo me, kple wo gbugbɔ ɖoɖo ɖe dɔwo ŋu la ɖi abe nya siwo ŋu wotrɔ asi le la ene le agbalẽdzraɖoƒea, eye woƒoa wo nu ƒu ɖe nyatakakadzraɖoƒe si le dutoƒo la me. <a href=\"/projects/\">agbalẽdzraɖoƒea</a>Wò ya bu eŋu kpɔ ko.",
+      "<strong>Bia nyatakakawo.</strong> Public request records le IATF GitHub organization, le website sia dzi, alo wo kple eveawo siaa. Records ate ŋu aƒo nu ƒu, atrɔ asi le wo ŋu, alo awɔ asitɔtrɔ le original request la ŋu ale be woate ŋu adzro accessibility ƒe hiahiãa me eye womagatsɔ ame ŋutɔ ƒe nyatakaka siwo mehiã o afia o. Discord decisions are summarized into the public record when they affect a project or governance decision. Request records are excluded from search engine indexing where technically practical. View records: first publication request pending.",
+      "<strong>Kodewo le tɔtrɔm.</strong> Xexeame ƒe tɔtrɔ ɖesiaɖe nye dukɔmevi ƒe adzɔgbeɖeɖe le agbalẽdzraɖoƒe si ŋu nyaa ku ɖo me. Kpɔ IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub habɔbɔ</a>Wò ya bu eŋu kpɔ ko.",
+      "<strong>Dziɖuɖu ƒe tɔtrɔwo.</strong> Wo léa ŋku ɖe nyatakaka siwo ŋu wotrɔ asi le le dziɖulanyenye ŋuti nyatakakadzraɖoƒea la ŋu ne wole asi trɔm le wo ŋu le Internet dzi. <code>IATF ƒe nyatakakadzraɖoƒe</code> Ŋkuléle Ðe Ŋkuɖodziawo Ŋu <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">nuŋɔŋlɔ ƒe nuŋlɔɖi</a> le GitHub dzi.",
+      "<strong>Dɔwɔƒe ƒe gazazãwo.</strong> IATF léa dɔwɔnawo ƒe gazazãwo dzi ɖe te eye wòŋlɔa ga siwo wozãna ɖe dugã me mɔ̃wo ŋu la ɖi. Tso ƒe 2022 me la, ga siwo zãm wole la nyea domen-ŋkɔwo.",
+      "<strong>Ðoɖowɔɖi ŋuti nuŋlɔɖiwo.</strong> Notes from any coordinated review or decision live in GitHub Nyatakakawo le agbalẽdzraɖoƒea  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Dzeɖoɖowo</a> le <code>IATF ƒe nyatakakadzraɖoƒe</code> agbalẽdzraɖoƒea."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Nuwo ƒeƒle",
+      "title": "Dɔwɔƒe ƒe gazazãwo ŋuti nuŋlɔɖi"
+    },
+    "paragraphs": [
+      "IATF wɔa ɖoɖo ɖe eƒe dukɔmeviwo ƒe nuɖoanyiwo ŋu be woaganye gã o. Tso ƒe 2022 me la, domen ŋkɔwo koŋue va zua dɔwɔnawo ƒe gazazã vevitɔ. Wozãa xɔxɔdɔwɔƒe siwo me womezãa ga le o alo esiwo me ga mele o le afisiwo wòanya wɔ le.",
+      "Menye akɔntabubu si ŋu wowɔ numekuku le ye nuŋlɔɖi sia nye o. Enye mɔ̃ɖaŋudɔ siwo wozãna tsɔ kpɔa IATF dzi la ƒe dɔwɔwɔ ƒe gazazãwo ŋuti nuŋlɔɖi si le gaglãgbe."
+    ],
+    "footnote": "Woate ŋu azã nuŋɔŋlɔwo le nu siwo woxɔ ŋu alo woata wo ne wotrɔ asi le wo ŋu vɔ megbe. Ame ŋutɔ ƒe adrɛswo, fexexlẽ ŋuti nyatakakawo, kple nyatakaka siwo mehiã o siwo ku ɖe ga ŋu la menyea amewo ƒe nuŋlɔɖiwo ƒe akpa aɖeke o.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Dɔwɔƒe",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Ga home si woazã",
+            "value": "Amerika dɔlar 3.40"
+          },
+          {
+            "label": "Ŋkuɖodzinyawo",
+            "value": "Domenyo ƒe asi si mugiwarafx na. Wozãa xɔdɔmeƒonu siwo me womezãa ga le o alo esiwo me ga mele o to Cloudflare dzi. <code>iatf.cc</code> domenyiŋusẽfianu."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Dɔwɔƒe",
+            "value": "<code>xexeame katã ƒe mɔ̃ɖaŋudɔwɔƒe si nye taskforce.com</code>"
+          },
+          {
+            "label": "Ga home si woazã",
+            "value": "Amerika dɔlar 18.68"
+          },
+          {
+            "label": "Ŋkuɖodzinyawo",
+            "value": "domain ƒe home si mugiwarafx xea fe na. hosting zãa free-tier alo low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Dɔwɔƒe",
+            "value": "<code>xexeame katã ƒe mɔ̃ɖaŋudɔwɔƒe si nye taskforce.com</code>"
+          },
+          {
+            "label": "Ga home si woazã",
+            "value": "Amerika dɔlar 17.06"
+          },
+          {
+            "label": "Ŋkuɖodzinyawo",
+            "value": "Domenyo ƒe asi si mugiwarafx xea fe na. Wozãa xɔdɔmeƒonu siwo me womezãa ga le o alo esiwo me ga mele o to Vercel dzi."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Dɔwɔƒe",
+            "value": "<code>xexeame katã ƒe mɔ̃ɖaŋudɔwɔƒe si nye taskforce.com</code>"
+          },
+          {
+            "label": "Ga home si woazã",
+            "value": "Amerika dɔlar 14.76"
+          },
+          {
+            "label": "Ŋkuɖodzinyawo",
+            "value": "domain ƒe home si mugiwarafx xea fe na. hosting zãa free-tier alo low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Dɔwɔƒe",
+            "value": "<code>xexeame katã ƒe mɔ̃ɖaŋudɔwɔƒe si nye taskforce.com</code>"
+          },
+          {
+            "label": "Ga home si woazã",
+            "value": "Amerika dɔlar 7.76"
+          },
+          {
+            "label": "Ŋkuɖodzinyawo",
+            "value": "Domenyo ƒe asi si mugiwarafx xea fe na. Wozãa xɔdɔmeƒonu siwo me womexɔa ga le o alo esiwo mexɔa ga boo o to GitHub Pages dzi."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nuŋlɔɖi si le teƒeteƒewo",
+      "title": "Nu si menye ame sia ame tɔ o"
+    },
+    "paragraphs": [
+      "Womeɖea nyatakaka aɖewo ɖe go le amewo ƒe nuŋlɔɖiwo me o le susu aɖewo ta:"
+    ],
+    "items": [
+      "Ame siwo le asi kpem ɖe dɔa ŋu ƒe kadodo ŋuti nyatakakawo.",
+      "Wozãa agbalẽ siwo woŋlɔ ɖe wo nɔewo me be woatsɔ aɖe biabia aɖe me na wo hafi woalɔ̃ ɖe edzi, agbe edzi, alo aƒo nya ta le eme.",
+      "Ame ŋutɔ ƒe adrɛswo, telefon xexlẽdzesiwo, kple ame ŋutɔ ƒe nyatakaka siwo mehiã o.",
+      "Nu sia nu si ate ŋu ana woanya ame aɖe si zãa mɔ̃ɖaŋunu siwo kpena ɖe ame ŋu evɔ eƒe mɔɖeɖe meli o.",
+      "Raw Discord dzeɖoɖowo, negbe ɖe woɖoe koŋ tsɔ gbedasi aɖe yi dɔdzikpɔlawo ƒe nuŋlɔɖi me ko hafi."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Xlẽ nu geɖe",
+      "title": "Dziɖuɖumegãwo ƒe ɖoɖowo dzie nuŋlɔɖi siawo nɔ te ɖo"
+    },
+    "paragraphs": [
+      "Ne èdi be yease alesi woxɔa dɔwo, dzraa wo ɖo, alo tsɔa dɔ bubuwo naa amewoe gɔme la, ke xlẽ dziɖuɖua ƒe axa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Dziɖuɖu kple nudzraɖoƒe ƒe kpɔɖeŋu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Dziɖuɖu kple nudzraɖoƒe ƒe kpɔɖeŋu",
+    "lead": "IATF kpɔa egbɔ be amewo katã nya nu siwo le agbalẽawo me eye woate ŋu axlẽ wo ahalé wo me ɖe asi.",
+    "support": [
+      "Axa sia ɖe nu si dzi woada asi ɖo, ale si wowɔa nudzraɖoƒewo, kple agbanɔamedzi si le nudzraaɖoƒewo dzi le wo xɔxɔ megbe la me."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Ðoɖowo",
+      "title": "Dɔwɔƒe ƒe nɔnɔme, nunɔamesi, mɔɖegbalẽ"
+    },
+    "cards": [
+      {
+        "title": "Dɔwɔƒe si sɔ na dɔdeasia",
+        "paragraphs": [
+          "IATF lɔ̃na ɖe dɔ si ɖea mɔxeɖenu ŋutɔŋutɔ ɖa eye wòɖea vi na ame geɖe la dzi.",
+          "Ele be dɔ sia naɖe vi wu dɔwɔɖui si ame ŋutɔ zãna ko eye wòate ŋu awɔ dɔ abe agbalẽdzraɖoƒe si ame sia ame zãna ene.",
+          "IATF zãa Internet dzi nyatakakadzraɖoƒewo [W3C WAI](https://www.w3.org/WAI/) Ame siwo zãa mɔ̃ɖaŋununya siwo kpena ɖe ame ŋu la ƒe nuteƒekpɔkpɔwo hã nye kpeɖodzi ŋutɔŋutɔ be nu siwo wozãna le agbenɔnɔ ŋutɔŋutɔ me la wɔa dɔ."
+        ]
+      },
+      {
+        "title": "Dɔa xɔxɔ",
+        "paragraphs": [
+          "Woate ŋu axɔ aɖaŋuɖoɖo aɖe ne emenyawo me dzodzro ɖee fia be:"
+        ],
+        "items": [
+          "enana wokpɔa nu siwo hiã ŋutɔŋutɔ la gbɔ",
+          "Kuxia dze ƒã ale gbegbe be woate ŋu abu eŋu",
+          "nu siwo woate ŋu awɔ la sɔ gbɔ ale gbegbe be woate ŋu adae ɖe yame",
+          "dɔ la wɔ ɖeka kple IATF ƒe dɔdasi",
+          "mɔ nyui aɖe li si dzi woato awɔ dzadzraɖo alo awu dɔa nu"
+        ]
+      },
+      {
+        "title": "Nyatakakadzraɖoƒea ƒe nunɔamesi",
+        "paragraphs": [
+          "IATF ƒe GitHub habɔbɔa mee wowɔa dɔ siwo dzi woda asi ɖo la le.",
+          "Nudzraɖoƒewo nɔa afi ma ale be dɔwɔƒe ɖe sia ɖe nakpɔtɔ anye dukɔmevi ƒe aƒe si anɔ anyi ɖaa, ne edzralawo va trɔ emegbe gɔ̃ hã."
+        ]
+      },
+      {
+        "title": "Mɔɖeɖewo xɔxɔ",
+        "paragraphs": [
+          "IATF ƒe ɖoɖowo zãa copyleft ƒe mɔɖegbalẽwo, negbe ɖe ɖoɖo aɖe gblɔ be mele nenema o:"
+        ],
+        "items": [
+          "<strong>Ŋkɔ:</strong> AGPL-3.0",
+          "<strong>Nuŋlɔɖi:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Mɔ̃ɖaŋudɔwɔla alo dzikpɔla",
+      "paragraphs": [
+        "Ele be mɔ̃ɖaŋudɔwɔla alo ame si kpɔa dɔa dzi la nanɔ dɔ sia si woxɔna la dometɔ ɖe sia ɖe si. Ame ma ate ŋu axɔ dɔdzikpɔlawo ƒe mɔɖeɖe ɖe nuŋɔŋlɔdzraɖoƒea ŋu eye ele be:"
+      ],
+      "items": [
+        "mɔfianuwo zazã le dutoƒo",
+        "be woalé dɔdzikpɔƒea ƒe ɖoɖowo me ɖe asi",
+        "dzro nyawo me alo kpɔ nyawo gbɔ eye nàɖe nu siwo dim nèle la ɖa",
+        "nuŋlɔɖi siwo ku ɖe nyametsotso vevi siwo wowɔ le mɔ̃ɖaŋununya me ŋu",
+        "nàna ame bubuwo nase nu si wɔm nèle gɔme"
+      ],
+      "footnote": "Esia nye agbanɔamedzi si le nudzraɖoƒea dzi. Habɔbɔa ƒe nunɔamesi nɔa IATF gbɔ. Afisia ƒe agbanɔamedzia nye adzraɖoƒewo dzi kpɔkpɔ, mɔfiafia le mɔ̃ɖaŋununya me, kple dukɔmeviwo ƒe ɖoɖowɔwɔ  menye ameɖekɛwo ƒe nuɖoanyiwo ɖeɖeɖa si seɖoƒe meli na o, ɖoɖowo ƒe ɖekawɔwɔ, alo subɔsubɔha ƒe agbagbadzedzewo le dukɔmeviwo ƒe mɔfianua dzi o."
+    },
+    "publicDevelopment": {
+      "title": "Dukɔwo ƒe ŋgɔyiyi",
+      "paragraphs": [
+        "Dɔ siwo wodona to IATF dzi la nɔa gaglãgbe le ɖoɖo nu."
+      ],
+      "items": [
+        "Nyatakakadzraɖoƒea",
+        "nya veviwo",
+        "agbalẽwo",
+        "Mɔzɔzɔ ŋuti nyatakakawo",
+        "Woɖe asi le wo ŋu va yi"
+      ],
+      "footnote": "Mele be nyatakaka vevi siwo ku ɖe ɖoɖo aɖe ŋu la nanɔ ame ŋutɔ ƒe dzeɖonyawo alo e-mail ƒe adrɛswo ko me o."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Dukɔwo ƒe nuŋlɔɖiwo",
+      "title": "Amewo ƒe didiwo ŋuti nuŋlɔɖiwo"
+    },
+    "paragraphs": [
+      "IATF wɔa dɔ le dutoƒo le ɖoɖo nu. Biabia siwo gena ɖe IATA dzi to nyatakakadzraɖoƒe, e-mail, Discord, GitHub, alo IATA ƒe mɔnu bubuwo dzi la ate ŋu ava zu amewo ƒe biabiawo ƒe nuŋlɔɖiwo.",
+      "IATF ate ŋu atso nya me, atrɔ asi le wo ŋu, alo atrɔ ɖoɖo si nu wobia tso wo si le hafi woaɖe wo ɖe go ale be woate ŋu adzro nyatakaka siwo hiã la me eye womagatsɔ ameŋunyatakaka siwo mehiã o aƒu gbe o.",
+      "Woate ŋu adzra amewo ƒe biabiawo ƒe nuŋlɔɖiwo ɖo le IATF ƒe GitHub habɔbɔa me, le nyatakakadzraɖoƒe sia dzi, alo le wo ame evea siaa dzi.",
+      "IATF ɖea ameɖokui ŋuti nyatakaka siwo mehiã o, ameɖekɛwo ƒe adrɛswo, kple ame siwo zãa mɔ̃ɖaŋununya siwo kpena ɖe ame ŋu dometɔ ɖe sia ɖe ƒe nyatakakawo ɖa hafi ɖea wo ɖe go, negbe ɖe woɖoe be woawɔe eye wòsɔ be woaɖee ɖe go ko hafi.",
+      "IATF meŋlɔa Discord dzeɖoɖowo ɖe wo nɔewo dome o, eye Discord kpɔa nyatakakawo dzi. Ele be woaƒo nu tso nyametsotso siwo wowɔ le Discord me la ŋu le dutoƒo le GitHub dzi alo le ɖoɖowɔƒea ƒe axa si sɔ dzi.",
+      "Womeɖea didiwo ƒe nuŋlɔɖiwo ɖe go le search engine indexing me le afisiwo wòsɔ le mɔ̃ɖaŋununya nu le o. Amegbetɔwo tɔ fia be woate ŋu adzro wo me eye woabu akɔnta le wo ŋu. Mefia be wodzra wo ɖo nyuie be woate ŋu ake ɖe wo ŋu to ŋkɔwo didi me o.",
+      "IATF ate ŋu atrɔ asi le nyatakakawo ŋu alo aɖe wo ɖa le nyatakakadzraɖoƒe siwo dzi wòda asi ɖo la dzi, gake mate ŋu ana kakaɖedzi ame aɖeke be woaɖe nyatakaka siawo ɖa le akpa etɔ̃liawo ƒe nudzraɖoƒewo, nyatakakaɖakawo, asinuŋɔŋlɔgbalẽwo, screenshots, search enginewo, Discord, alo nuɖoanyi bubuwo me o.",
+      "Ne ehiã be nyatakaka aɖe nanɔ ɣaɣla la, mègazãe to IATF ƒe nyatakakadzraɖoƒewo dzi o."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Akpa si habɔbɔa wɔna",
+      "title": "Dɔdzikpɔƒea"
+    },
+    "lead": "Dzikpɔla la kpɔa IATF ƒe dɔwɔnawo dzi le habɔbɔa ƒe akpa sia akpa. Esia to vovo na mɔ̃ɖaŋudɔwɔla si kpɔa dɔwɔna ɖekaɖekawo dzi: Dɔdzikpɔlaa kpɔa habɔbɔa katã dzi, ke menye dzikpɔkpɔ ɖe agbalẽdzraɖoƒe ɖeka aɖe ŋu gbe sia gbe o.",
+    "duties": {
+      "title": "Dɔ si zikpuia wɔna",
+      "items": [
+        "Exɔ aƒetɔ ƒe mɔɖeɖewo le IATF ƒe GitHub habɔbɔa dzi",
+        "Woɖoa asi ɖe ɖoɖowo dzi wɔwɔ kple agbalẽdzraɖo ŋuti nyametsotsowo dzi",
+        "Ewɔa dɔ abe IATF ƒe dutoƒodɔwɔƒe ene",
+        "Ewɔa ɖoɖo ɖe ƒe sia ƒe takpekpea ŋu"
+      ],
+      "footnote": "Dɔdzikpɔhaa ƒe zimenɔla mewɔa ɖoɖo be IATF nawɔ ɖoɖo be woaɖo agbalẽwo ɖe ame bubuwo, woaxe fe ɖe woƒe dɔwo ta, alo awɔ ɖoɖo be woawɔ ɖoɖo ɖe woƒe dɔwɔɖuiwo ŋu o, eye meɖea mɔ be agbalẽdzraɖoƒea dzi kpɔla ƒe nyametsotso siwo ku ɖe mɔfiafiawo ŋu la nanɔ vevie nɛ o."
+    },
+    "election": {
+      "title": "Woɖonɛ ƒe sia ƒe",
+      "paragraphs": [
+        "Woɖenɛ zi ɖeka le ƒea me. Woɖonɛ le December ƒe kwasiɖa eve gbãtɔawo me, wogblɔa eƒe dzidzedzewo le December 15 lia dzi, eye January 1 lia dzie wodzea dɔ yeyea gɔme.",
+        "Amesiwo kpɔ gome le akɔdada me la nye amesiwo wɔ dɔ le IATF ƒe agbalẽdzraɖoƒea le ƒea me eye wowɔ dɔ ɖeka ya teti le ƒe ma me. Ame sia ame si kpɔ gome la kpɔ mɔ ada akɔ ɖeka. Ame si kpɔ akɔdadaa ƒe agbɔsɔsɔme gãtɔ la aɖu dzi; ne wo ame evea siaa ƒe akɔ sɔ la, woada akɔ evelia le December ƒe kwasiɖa etɔ̃lia me.",
+        "Wowɔa tiatiawo abe dutoƒonuƒowo le IATF dziɖuɖua ƒe nudzraɖoƒe ene, eyata amesiwo tia wo, akɔdadawo, kple emetsonuawo katã nyea dutoƒo nyatakakawo ƒe akpa aɖe."
+      ]
+    },
+    "continuity": {
+      "title": "Ðɔɖɔɖo",
+      "paragraphs": [
+        "Ne womewɔ tiatia aɖeke le ƒe aɖe me o la, kplɔla si li fifia ayi edzi awɔ dɔ sia vaseɖe tiatia si kplɔe ɖo dzi. Esia nye ɣeyiɣi aɖe si ŋu womate ŋu aɖo kpe o, menye ɣeyiɣi kpui aɖe o  wotrɔ asi le ɖoɖo sia ŋu be wòana habɔbɔa nanɔ te sesĩe ne dɔwɔnawo mede ame dzi o, ke menye be wòaƒoe ɖe ame aɖe si mele klalo na tɔtrɔ o la nu o.",
+        "Dzikpɔla ate ŋu aɖe asi le dɔa ŋu le ɣeyiɣi ɖesiaɖe me. Dɔwɔla siwo le dɔ wɔm la ate ŋu abia be woatia ame aɖe le ɣeyiɣi kpui aɖe me le susu aɖe ta, eye woatiae le ɖoɖo ɖeka ma ke si dzi wowɔa ƒe sia ƒe ƒe la nu."
+      ]
+    },
+    "current": {
+      "title": "Dzikpɔla si li fifia",
+      "fields": [
+        {
+          "label": "Dɔdzikpɔƒea",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ɣeyiɣi si woazã",
+          "value": "Va se ɖe December 2026 ƒe akɔdada dzi"
+        },
+        {
+          "label": "Wowɔ dɔ si wode asi na wo la ŋudɔ le mɔ nyuitɔ nu",
+          "value": "2026"
+        },
+        {
+          "label": "Kpekpe gbãtɔ si woɖo ɖi",
+          "value": "December 2026"
+        }
+      ]
+    },
+    "footnote": "Le ƒe 2026 me la, woɖo kplɔla ƒe ɖoƒe si nye dɔdzikpɔlawo le habɔbɔa me. Va se ɖe ɣemaɣi la, habɔbɔa ƒe agbanɔamedzia nɔ ame si ɖo dɔa anyi la si le mɔ manyomanyo nu."
+  },
+  "continuity": {
+    "states": {
+      "title": "Ðoɖowɔɖi ƒe nɔnɔmewo",
+      "paragraphs": [
+        "Dɔwɔɖuiwo zãa dukɔmeviwo ƒe nɔnɔme sue aɖe:"
+      ],
+      "items": [
+        "Ŋgɔdonya",
+        "Woxɔe",
+        "Dɔ Wɔla",
+        "Ðɔɖɔɖo",
+        "Ame si di be yeakpɔ egbɔ be nuwo le ɖoɖo nu",
+        "Akɔntabubuwo"
+      ],
+      "footnote": "Dukɔ siawo ƒe ŋkɔŋɔŋlɔdzraɖoƒea nɔa bɔbɔe be woate ŋu adzro eme."
+    },
+    "reassignment": {
+      "title": "Woagbugbɔ wo ade asi na ame bubuwo eye woadzra wo ɖo",
+      "paragraphs": [
+        "Ne ame aɖe si le dɔa dzi la dzudzɔ dɔa wɔwɔ alo megate ŋu le dɔa wɔm o la, IATF ate ŋu ade dɔ asi na ame bubu, atɔ asi dɔa wɔwɔ dzi, alo aŋlɔ dɔa be.",
+        "Woate ŋu adzra dɔ aɖe ɖo hã ne wokpɔ hiahiã si nɔ anyi le gɔmedzedzea me gbɔ, ne wodzudzɔ beléle nɛ, alo ne dɔa megate ŋu ayi edzi o."
+      ],
+      "footnote": "Ne susu vevi aɖe meli si tae woagate ŋu awɔ esia o ko la, agbalẽ siwo le agbalẽdzraɖoƒe la nɔa amewo si."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nuŋlɔɖi si le teƒeteƒewo",
+      "title": "Nu si IATF meka ɖe edzi o"
+    },
+    "items": [
+      "ame ŋutɔ ƒe nuƒleƒle",
+      "dɔwɔƒe ƒe ɖoɖowo",
+      "ɖoɖo ɖe sia ɖe dzi wɔwɔ",
+      "dɔ sia dɔ ƒe ɣeyiɣi didi ƒe dzadzraɖo"
+    ],
+    "footnote": "IATF nye agbalẽdzraɖoƒe si amewo zãna, ke menye agbalẽ siwo amewo ŋutɔ zãna o."
+  }
+}

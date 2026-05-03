@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF ƒe nyatakakadzraɖoƒe",
+    "summary": "International Accessibility Task Force ƒe nyatakakadzraɖoƒe.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF hiã dukɔmevi ƒe aƒe si anɔ anyi ɖaa si aɖe kpɔɖeŋua me, ayɔ dɔ vovovoawo ŋkɔ, eye wòahe amesiwo le asi kpem ɖe dɔa ŋu la ƒe susu ayi afɔɖeɖe si sɔ la dzi.",
+    "why": "Afisia nye IATF ƒe ʋɔtru si le ʋuʋu na ame sia ame. Wowɔe be wòanye dɔwɔƒe sue aɖe ale be wòanɔ bɔbɔe be woaxlẽe, aɖe egɔme ahalé be nɛ le gota.",
+    "scopeIn": [
+      "Dukɔwo ƒe nyatakakadzraɖoƒe siwo ɖe IATF ƒe ɖoɖowo me",
+      "IATF ƒe dɔwɔɖoɖo siwo dzi woda asi ɖo, esiwo le dɔ wɔm, kple esiwo le nudzraɖoƒe siwo me nyatakakawo le, wo dzi kpɔlawo, nu siwo woadzra ɖo, kple numedzodzrowo le",
+      "Biabiawo xɔxɔ ƒe axa kple nɔnɔmetata",
+      "Dziɖuɖu kple numekɔkɔ ŋuti nyatakakawo",
+      "Eŋlisigbe me ŋɔŋlɔdzesi si ŋu wotrɔ asi le xoxo",
+      "Static deployment le Cloudflare Workers Static Assets dzi"
+    ],
+    "scopeOut": [
+      "Private member areas, accounts, alo login flows",
+      "Dɔwɔɖua ƒe dzɔdzɔmegbalẽ, si nɔa dɔwɔƒe ɖe sia ɖe ŋutɔ ƒe nudzraɖoƒe",
+      "Real-time dzeɖoɖo, si nɔa Discord me",
+      "Numetoto le dɔdeasi ɖe sia ɖe ŋu, si nɔa dɔdeasia ƒe GitHub nudzraɖoƒe"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "IATF ƒe kpɔɖeŋu gbãtɔ aɖe, si wolé ɖe agbalẽ me esi wòɖo afi si wòle be wòatsi le dzɔdzɔme nu.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Ŋgɔdonya le dɔwɔnu aɖe si ŋu wotrɔ asi le be wòakpe ɖe amewo ŋu la ŋu le IATF ƒe kpɔkplɔ te.",
+    "why": "Wowɔa agbalẽdzraɖoƒea ŋuti nyatakakawo ɖe ame sia ame si, togbɔ be wodzudzɔ dɔa wɔwɔ hã.",
+    "scopeIn": [
+      "Mɔ̃ aɖe si ŋu wotrɔ asi le be wòakpe ɖe amewo ŋu la ƒe kpɔɖeŋu gbãtɔ"
+    ],
+    "scopeOut": [
+      "Dɔwɔɖui si wowɔna le ŋgɔyiyi alo nɔnɔmewo wɔwɔ me",
+      "Nuteƒewɔwɔ ƒe adzɔgbeɖeɖewo",
+      "Ale Si Woazãe le Ŋgɔdonyawo Wɔwɔ Me"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF ƒe ɖoɖowɔɖi",
+    "summary": "IATF habɔbɔa ƒe robot, si wodzra ɖo esi wòɖo afisi wòatsi le dzɔdzɔme nu.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Mɔ̃ɖaŋunuwo zazã le IATF habɔbɔa ƒe ɖoɖowo nu.",
+    "why": "Wowɔa agbalẽdzraɖoƒea ŋuti nyatakakawo ɖe ame sia ame si, togbɔ be wodzudzɔ dɔa wɔwɔ hã.",
+    "scopeIn": [
+      "IATF habɔbɔa ƒe mɔwo dzi nyahehe ƒe mɔ̃ɖaŋununya, si dzi woadzra ɖo abe nyatakaka si le gaglãgbe ene"
+    ],
+    "scopeOut": [
+      "Dɔwɔɖui si wowɔna le ŋgɔyiyi alo nɔnɔmewo wɔwɔ me",
+      "Nuteƒewɔwɔ ƒe adzɔgbeɖeɖewo",
+      "Ale Si Woazãe le Ŋgɔdonyawo Wɔwɔ Me"
+    ]
+  }
+]

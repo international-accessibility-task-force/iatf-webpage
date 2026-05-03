@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "De IATF me",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "De IATF me",
+    "lead": "Xexlẽme nye nuʋuʋu. Mɔ geɖe li siwo dzi nàto akpɔ gome le eme, eɖanye asitelefon alo mɔ̃ɖaŋununyae nèzãna, mɔ̃ɖoɖo aɖe si dzi nàte ŋu awɔ nu ɖo, gbegɔmeɖeɖe, dodokpɔ, alo ɖoɖowɔɖi aɖe dzi wɔwɔ o. Dzeɖoɖowo kple nyametsotsowo yia edzi le dutoƒo le GitHub kple Discord dzi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Dɔdeasiwo",
+      "title": "Mɔ siwo dzi nàto akpe asi ɖe dɔa ŋu"
+    },
+    "items": [
+      "<strong>Bia dɔ aɖe tso wo si.</strong> Ne èke ɖe mɔxexeɖenu aɖe si dzi woate ŋu atrɔ asi le le kɔmpiutaɖoɖo siwo le gaglãgbe dzi la ŋu la, ɖo eŋu nɛ to nyatakakadzraɖoƒea dzi.",
+      "<strong>Dodokpɔ kple ŋkuléle ɖe eŋu.</strong> Te IATF ƒe dɔdeasiwo kpɔ kple mɔ̃ɖaŋununya si zãm nèle la, ŋlɔ nu tso nusiwo wɔa dɔ kple esiwo mewɔa dɔ o ŋu, eye nàtsɔ kuxiwo aɖo nyatakakadzraɖoƒe si sɔ la tẽe.",
+      "<strong>Gɔmeɖeɖe.</strong> Numeɖeɖewo nɔa Eŋlisigbe me gbã. Woɖea wo gɔme ɖe gbe bubuwo me ne ame bubuwo va le asi kpem ɖe wo ŋu, eye wodzea egɔme tso Spaingbe me.",
+      "<strong>Tu nuwo ɖo.</strong> Di kuxiwo le IATF ƒe nudzraɖoƒe ɖesiaɖe me, ɖo nudidiwo ɖa, alo kpɔ dɔ aɖe gbɔ abe mɔ̃ɖaŋudɔwɔla si akpɔ egbɔ ene.",
+      "<strong>Wɔ ɖe edzi.</strong> Ɣeaɖewoɣi la, ehiãna be ame bubu nanɔ dɔ wɔm le ɖoɖo siwo li la me."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kɔmitiwo",
+      "title": "Afisi IATF wɔa dɔ le le dutoƒo"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Nyatakakawo, nudidiwo, agbalẽwo, kple ɖoɖowo ŋuti nuŋlɔɖiwo.",
+      "<strong>Masɔmasɔwo.</strong> Dzeɖonyawo, ɖoɖowɔwɔ, kple biabia siwo ŋu womeɖe mɔ ɖo o.",
+      "<strong>Ŋlɔe ɖe e-mail dzi.</strong> Woazãe <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ne GitHub alo Discord dometɔ aɖeke mesɔ o."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Afɔɖeɖe si kplɔe ɖo",
+      "title": "Tia kadodo si sɔ kple alesi nèdi be yeakpe asi ɖe dɔa ŋu"
+    },
+    "paragraphs": [
+      "Nyatakakadzraɖoƒe ɖeka ma ke mee nyakakadɔwɔƒewo katã kpɔa nyatakakawo le."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Mɔnu si dzi woato awɔ dɔe",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Mɔnu si dzi woato awɔ dɔe",
+    "lead": "IATF ƒe taɖodzinue nye be yeana nyatakakadzraɖoƒe sia nanɔ bɔbɔe, woaxlẽ nyuie, woazãe le asitelefon dzi, eye wòasɔ ɖe mɔ̃ɖaŋununyawo nu.",
+    "support": [
+      "IATF zãa Internet dzi nyatakakadzraɖoƒewo [W3C WAI](https://www.w3.org/WAI/) Amesiwo zãa mɔ̃ɖaŋununya siwo kpena ɖe ame ŋu la ŋutɔ ƒe nuteƒekpɔkpɔwo hã kpena ɖe wo ŋu be woate ŋu awɔ nu siwo hiã le agbe me."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Nyatakakawo",
+      "title": "Gblɔ nu si gbɔ wòate ŋu atso la na wo"
+    },
+    "paragraphs": [
+      "Ne èke ɖe mɔxenu aɖe ŋu le nyatakakadzraɖoƒe sia la, ke taflatse nàŋlɔ e-mail ɖo ɖe:",
+      "{{contact.accessibilityEmail}}",
+      "Nyatakaka siwo ŋu viɖe le dometɔ aɖewoe nye:"
+    ],
+    "items": [
+      "axa si dzi nya la dzɔ le",
+      "nu si nèdi be yeawɔ",
+      "asitelefon alo internet-ʋunu si zãm nèle, ne ehiã",
+      "nu kae gblẽ?",
+      "nu si ate ŋu akpe ɖe ŋuwò"
+    ],
+    "footnote": "Mehiã be nàŋlɔ vodada ŋuti nyatakaka o. Ŋutinya si me kɔ la ɖeɖe sɔ gbɔ."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ale Si Wowɔa Nu Ðe Eŋu",
+      "title": "Dziɖuɖumegãwo ƒe nyawo gbɔ kpɔkpɔ"
+    },
+    "paragraphs": [
+      "Woate ŋu aƒo nya siwo ku ɖe nyatakakawo gbɔ kpɔkpɔ ŋu la nu ƒu ɖe nyatakakadzraɖoƒe si le ame sia ame si la me ale be woate ŋu aɖɔ wo ɖo le gaglãgbe. Woɖea ame ŋutɔ ƒe kadodo kple ame bubuwo ŋuti nyatakaka siwo mehiã o ɖa hafi ɖea wo ɖe go.",
+      "Ne wò nyatakakawo nye ame ŋutɔ tɔ la, gblɔe eme nakɔ le gbedasia me."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Alesi nuwo le fifia",
+      "title": "Seɖoƒe siwo wonya"
+    },
+    "paragraphs": [
+      "Nyatakakadzraɖoƒe sia le sue le susu me eye eƒe akpa gãtɔ nye static. Ate ŋu adzɔ be gbegbɔgblɔ aɖewo ƒe gɔmeɖeɖewo made blibo o esime wole gbegɔmeɖeɖewo dzram ɖo."
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Tso nu si hiã be woate ŋu aɖo wo gbɔ la dzi va ɖo dukɔmeviwo ƒe gadzraɖoƒewo",
+    "lead": "IATF le kpekpem ɖe habɔbɔwo, ƒuƒoƒowo, kple ame ɖekaɖekawo ŋu be woatrɔ asi le nu siwo hiã ŋutɔŋutɔ le mɔ̃ɖaŋunuwo zazã me la ŋu wòava zu dɔwɔɖoɖo siwo le gaglãgbe.",
+    "support": [
+      "Wotaa dɔwɔɖoɖo siwo dzi woda asi ɖo la ɖe IATF ƒe GitHub habɔbɔa me le copyleft ƒe mɔɖegbalẽ te eye mɔ̃ɖaŋudɔwɔla si kpɔa dɔa dzi la wɔa wo le gaglãgbe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Dukɔa ƒe dɔwɔna ƒe kpɔɖeŋu",
+      "title": "Mɔ bɔbɔe aɖe si dzi amewo ato akpɔ kɔmpiutaɖoɖo siwo ŋu woate ŋu awɔ nu le bɔbɔe"
+    },
+    "paragraphs": [
+      "Ame sia ame ate ŋu ato mɔnu aɖe dzi atsɔ eƒe kuxiwo aɖo IATF gbɔ. Ne ƒuƒoƒo la ate ŋu atsɔe la, woaʋu GitHub-dzraɖoƒe aɖe na dɔa wɔwɔ.",
+      "Aɖaŋuɖoɖo ɖesiaɖe si dzi woda asi ɖo la nyea teƒe si ame sia ame ate ŋu akpɔ nyatakaka siwo ku ɖe ɖoɖowo, nyawo, agbalẽwo, kple nyatakakawo ŋu le, eye mɔ̃ɖaŋudɔwɔla si kpɔa dɔa dzi la kpɔa ŋgɔ na dɔa wɔwɔ le gaglãgbe."
+    ],
+    "specCard": {
+      "title": "Dukɔa ƒe dɔwɔna ƒe kpɔɖeŋu",
+      "terms": [
+        {
+          "term": "Nudidi",
+          "definition": "Teƒeteƒe ƒe Kuxi Ŋutɔŋutɔ Aɖe"
+        },
+        {
+          "term": "Ŋkuléle Ðe Eŋu",
+          "definition": "Dɔdeasia ƒe nɔnɔme nyui kple alesi wòate ŋu awɔ dɔe"
+        },
+        {
+          "term": "Dɔwɔƒea",
+          "definition": "Amegbetɔwo ƒe GitHub nudzraɖoƒe"
+        },
+        {
+          "term": "Dɔdzikpɔdɔwɔwɔ",
+          "definition": "IATF habɔbɔa ƒe nunɔamesi"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Nuwɔnawo",
+      "title": "Ale si wòwɔa dɔe",
+      "intro": "Wotrɔ asi le nɔnɔmetataa ŋu be wòanɔ sue ale be wòanɔ bɔbɔe na amewo be woazɔ to mɔa dzi."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Woɖe nuhiahiã aɖe ɖe go",
+        "paragraphs": [
+          "Habɔbɔ aɖe, ƒuƒoƒo aɖe, alo ame ɖekaɖeka aɖe ate ŋu aɖo biabia aɖe si wotu ɖe nudidi vevi aɖe si le eŋu la dzi.",
+          "Woate ŋu adze biabiawo gɔme to nyatakakadzraɖoƒea dzi alo to e-mail si nye <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, alo to Discord dzi."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF léa ŋku ɖe eŋu",
+        "paragraphs": [
+          "Míeléa ŋku ɖe dɔ si wode asi na mí la ŋu, ale si dɔawo sɔ le go sia me, kple ne dɔawo nye dɔwɔɖoɖo si ŋu wotrɔ asi le le gaglãgbe la ŋu."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Wodzra nyatakakadzraɖoƒe aɖe ɖo na ame sia ame",
+        "paragraphs": [
+          "Ne woxɔ dɔ aɖe la, woaɖee ɖe go le IATF ƒe GitHub habɔbɔa me le copyleft ƒe mɔɖegbalẽ te.",
+          "Nyatakakadzraɖoƒea va zua dɔwɔgbalẽwo, nyatiwo, agbalẽwo, kple nyatakakawo ƒe teƒe si ame sia ame ate ŋu akpɔ wo le."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Dzɔdzɔmeŋutinunyala si le ŋgɔ xɔm ye le dɔa dzi kpɔm",
+        "paragraphs": [
+          "Wodea dɔ asi na mɔ̃ɖaŋudɔwɔla si kpɔa dɔa dzi eye wowɔa dɔa le gaglãgbe."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Agbalẽdzraɖoƒea",
+      "title": "Dɔwɔgbalẽvi si le dutoƒo"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Dze egɔme tso afi sia",
+      "title": "Dzro dɔ si wɔm nèle fifia la me alo dze dɔ aɖe gɔme"
+    },
+    "paragraphs": [
+      "Zã ŋkɔŋɔŋlɔdzraɖoƒea nàtsɔ akpɔ nusiwo le gaglãgbe xoxo la ɖa, alo nàdze nyatakakawo xɔxɔ gɔme ne ehiã be nàɖe mɔxeɖenuŋu ƒe kuxi aɖe koŋ afia le dɔ aɖe wɔwɔ me."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

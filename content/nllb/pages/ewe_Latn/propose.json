@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Bia be woakpe ɖe ŋuwò nàsrɔ̃ nu tso eŋu",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Bia be woakpe ɖe ŋuwò nàsrɔ̃ nu tso eŋu",
+    "lead": "IATF léa ŋku ɖe nu siwo hiã ŋutɔŋutɔ la ŋu.",
+    "support": [
+      "Mehiã be nàƒo nu tso eŋu tsitotsito o. Kuxi aɖe si me kɔ nyuie, amesi wògblẽa nu le, kple nusita wòle vevie la ɖeɖe sɔ gbɔ be nàdze egɔme."
+    ],
+    "actions": [
+      {
+        "label": "Dze biabia gɔme",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Zã Discord ɖe eteƒe",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kɔmitiwo",
+      "title": "Tia mɔ si le bɔbɔe wu"
+    },
+    "intro": [
+      "Wole mɔ vovovoawo katã me dzrom ɖekae."
+    ],
+    "items": [
+      {
+        "label": "Nyatakakadzraɖoƒe",
+        "body": "Zã agbalẽvi si le ete nàtsɔ aɖo biabia aɖe si ŋu wotrɔ asi le la ɖa."
+      },
+      {
+        "label": "E-mail",
+        "body": "Ɖo biabiaa ɖa tẽe na: {{contact.requestsEmail}}E-mail biabiawo ate ŋu ava zu amewo ƒe biabiawo ƒe nuŋlɔɖiwo ne wodzro wo me heɖɔ wo ɖo."
+      },
+      {
+        "label": "Masɔmasɔ",
+        "body": "Ne emae le bɔbɔe wu la, dze egɔme tso afi ma."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Hafi nàɖo nubiabia ɖa",
+    "paragraphs": [
+      "IATF wɔa dɔ le dutoƒo. Woate ŋu aƒo nu tso biabiawo ŋu le ƒuƒoƒo me ahaɖe wo ɖe go abe nyatakakawo ene le habɔbɔa ƒe GitHub dzi, le nyatakakadzraɖoƒe sia dzi, alo le wo kple evea siaa dzi.",
+      "Mègaŋlɔ ame ŋutɔ ƒe adrɛswo, telefon xexlẽdzesiwo, atikewɔwɔ ŋuti nyatakakawo, alo nyatakaka siwo ate ŋu ana nànya ame siwo zãa mɔ̃ɖaŋunu siwo kpena ɖe ame ŋu la o, negbe ɖe wòhiã vevie eye wò dzi dze eme be IATF nakpɔ nyaa gbɔ ko hafi.",
+      "IATF ɖea ame bubuwo ŋuti nyatakaka siwo mehiã o ɖa hafi ɖea nyatakakawo ɖe go."
+    ]
+  },
+  "review": {
+    "title": "Ŋkuléle Ðe Mɔkpɔkpɔ Siwo Li Ŋu",
+    "paragraphs": [
+      "Ne ame bia nane ko la, mefia be woalɔ̃ ɖe edzi o.",
+      "IATF léa ŋku ɖe dɔ siwo wobia tso wo si la ŋu hekpɔa egbɔ be wodze na dɔ sia wɔwɔ, be woate ŋu awɔ dɔ sia, be enye dɔ si ŋu viɖe le, kple be ɖe dɔ sia dze be woanɔ amewo ƒe nudzraɖoƒe hã.",
+      "Woate ŋu agbe biabia aɖewo, aɖo wo ɖe megbe, alo atrɔ asi le wo ŋu hafi axɔ wo."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Nyabiagbalẽvi",
+      "title": "Biabia ƒe ɖoɖowɔɖi"
+    },
+    "fields": [
+      {
+        "kind": "nu si wotsɔna dea eme",
+        "name": "ame si le biabiam",
+        "label": "Wò ŋkɔ alo habɔbɔa",
+        "helper": "Amekae le biabiam?"
+      },
+      {
+        "kind": "tiatia",
+        "name": "Kadodo ƒe Mɔ",
+        "label": "Mɔ si dzi woato ado ka kplii",
+        "helper": "Aleke wòle be woalé ŋku ɖe nɔnɔmea ŋui?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Masɔmasɔ"
+        ]
+      },
+      {
+        "kind": "nu si wotsɔna dea eme",
+        "name": "Ƒo nu tso eŋuKaka ɖe edzi",
+        "label": "Kaƒodzesiwo",
+        "helper": "E-mail address alo Discord ƒe ŋkɔ na follow-up.",
+        "placeholder": "E-mail address alo Discord ƒe ŋkɔ",
+        "required": true
+      },
+      {
+        "kind": "nu si wotsɔna dea eme",
+        "name": "gbe",
+        "label": "Gbegbɔgblɔ",
+        "helper": "Wò gbe si nèdi, ne ehiã.",
+        "value": "Eʋegbe"
+      },
+      {
+        "kind": "textarea textarea",
+        "name": "kuxi",
+        "label": "Kuxi ka gbɔe nèle agbagba dzem be yeakpɔ?",
+        "helper": "Ƒo nu tso kplamatsedonu la ŋu le nya bɔbɔe aɖe me.",
+        "required": true
+      },
+      {
+        "kind": "textarea textarea",
+        "name": "Ame Siwo Ŋu Nyawo Gblẽa Nu Le",
+        "label": "Amekawoe wògblẽa nu le?",
+        "helper": "Amekae esia akpe ɖe eŋu?",
+        "required": true
+      },
+      {
+        "kind": "textarea textarea",
+        "name": "extraGɔmeɖeɖewo",
+        "label": "Numeɖeɖe bubuwo",
+        "helper": "Ƒo nu tso nu bubu ɖe sia ɖe si akpe ɖe ŋuwò nàɖe hiahiãa me: nu si tae wòle vevie, kpɔɖeŋuwo, nu siwo ŋu woƒo nu tsoe, kɔmpiutaɖoɖo aɖe ƒe susua, alo ɣeyiɣi ƒe seɖoƒe."
+      },
+      {
+        "kind": "tiatia",
+        "name": "openSourceConsent",
+        "label": "Ðe nèsena le ɖokuiwò me be yeate ŋu awɔ kɔmpiutawo ŋudɔ nyuiea?",
+        "helper": "Dɔ siwo dzi woda asi ɖo la nyea IATF ƒe dɔwɔƒe si dzraa dɔwɔɖuiwo ɖo.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ɛ̃",
+          "Ao, mele eme nenema o.",
+          "Nyemeka ɖe edzi haɖe o"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ne woxɔe",
+      "title": "Nu si xɔxɔ fia"
+    },
+    "items": [
+      "IATF ƒe GitHub habɔbɔa ƒe nudzraɖoƒe",
+      "mɔ̃ɖaŋudɔwɔla si le dɔa dzi",
+      "copyleft ƒe mɔɖegbalẽ si dzi woazã asinuŋɔŋlɔgbalẽ kple dɔwɔgbalẽwo le",
+      "Dukɔwo ƒe ŋgɔyiyi le nyatakakadzraɖoƒea",
+      "IATF ƒe nyatakakadzraɖoƒea ƒe nuŋlɔɖi"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Dzeɖoɖoa gɔme",
+      "title": "Biabia kpui aɖe si me kɔ ate ŋu adze egɔme"
+    },
+    "paragraphs": [
+      "Ne nudidi vevi aɖe le asiwò eye nèbui be ele be wòava zu dukɔmevidɔ la, ke ɖo eŋu na mí."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

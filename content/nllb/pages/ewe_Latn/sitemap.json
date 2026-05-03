@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Nyatakakawo",
+    "title": "Sitemap",
+    "lead": "IATF.CC ƒe nyatakakadzraɖoƒe ɖe sia ɖe le teƒe ɖeka."
+  },
+  "sections": [
+    {
+      "title": "Nyatakakadzraɖoƒe",
+      "items": [
+        {
+          "label": "Aƒe",
+          "href": "/"
+        },
+        {
+          "label": "Dɔwɔɖuiwo",
+          "href": "/projects/"
+        },
+        {
+          "label": "Bia dɔ aɖe",
+          "href": "/propose/"
+        },
+        {
+          "label": "Dziɖuɖu",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kpe ɖe mía ŋu",
+          "href": "/join/"
+        },
+        {
+          "label": "Mɔnu si dzi woato awɔ dɔe",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Nuteƒewɔwɔ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Dɔwɔɖuiwo",
+  "projectsEmpty": "Wometa agbalẽ aɖeke haɖe o."
+}
