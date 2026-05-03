@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "O kijimbuete kia IATF",
+    "summary": "O kijimbuete kiki, www.jw.org/kmb.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "O kibuka kia IATF kia bhindamene muthu u tena ku a jimbulula kiambote o ima ia lungu ni kikalakalu kiki, ni ku a kuatekesa kuijiia o kima kia tokala o ku bhanga.",
+    "why": "O falamenda íii, a i bhange phala kukuatekesa o athu kutendela kiambote o Bibidia, ni ku i lungulula mu madimi engi.",
+    "scopeIn": [
+      "O jifalamenda ja kutokuesa o ima, ji jimbulula kiambote o ukexilu ua IATF",
+      "O jifalamenda ja kutokuesa o ima, ja lungu ni kikalakalu kia IATF",
+      "O mbandu i ku sonekena phala ku kuixana, ni kijimbuete kiê",
+      "Kuzuela ia lungu ni ku tumina ni ku bhanga ima mu kidi",
+      "Milongi ia tundu mu Bibidia mu dimi dia Kingileji",
+      "Kubhangesa o jifalamenda ja komputadolo kujikula o jimbandu"
+    ],
+    "scopeOut": [
+      "O jimbandu ja tokala ngó ku athu a kidi, ki ji tokala ku athu akua makutu, mba ji moneka ngó kioso ki tu jikula o kijimbuete",
+      "Kubhangesa o madivulu oso ku kala mu kididi kimoxi",
+      "O ku di zuelesa ni muthu mu kithangana kia tokala, mu kaxi ka mutelembe ua kafuetele",
+      "O jifalamenda ja ku tokuesa o maka, a ji sanga mu kijimbuete GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "O makina íii, a i bhaka kioso kia bhiti o thembu ia tokala phala ku i bhanga.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Kubhangesa o jifalamenda ja mitelembe ku sokejeka kiambote o ima bhu kaxi ka IATF.",
+    "why": "O kididi kia kubhaka o madivulu, a ki bhaka phala o athu ku ki mona, né muene se o athu ka mu ki bhanga dingi.",
+    "scopeIn": [
+      "Kima kia dianga ki tua mono, kia kuatekesa o athu kuijiia kuila, o Bibidia divulu dia kidi, diala ni valolo ia dikota"
+    ],
+    "scopeOut": [
+      "Kubandekesa mba kusosolola o jifalamenda",
+      "Kikalakalu kia kusokejeka o ima",
+      "O ukexilu ua tokala ua ku kalakala na-u o makina íii"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bhot",
+    "summary": "IATF community bot, a i bhaka kioso ki i bhixila bhu kididi kia tokala.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "O ukexilu ua ku bhanga o ji jurnale, ki u difu ni ukexilu ua IATF.",
+    "why": "O kididi kia kubhaka o madivulu, a ki bhaka phala o athu ku ki mona, né muene se o athu ka mu ki bhanga dingi.",
+    "scopeIn": [
+      "O ukexilu ua IATF ua ku tokuesa kiambote o maka, u kuatekesa kuijiia o ima ioso ia lungu ni maka enhá"
+    ],
+    "scopeOut": [
+      "Kubandekesa mba kusosolola o jifalamenda",
+      "Kikalakalu kia kusokejeka o ima",
+      "O ukexilu ua tokala ua ku kalakala na-u o makina íii"
+    ]
+  }
+]

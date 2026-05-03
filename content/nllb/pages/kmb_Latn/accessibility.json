@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "O kuila o athu a tena ku di longa o Bibidia?",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "O kuila o athu a tena ku di longa o Bibidia?",
+    "lead": "O IATF ia mesena kuila o athu a sanga o milongi mu kijimbuete kiki, ki kala ia bhebhuluka, ki i bhonzo ku i tanga, i kuatekesa o athu ku jikula o jifalamenda, ni ima ia mukuá dingi.",
+    "support": [
+      "Phala ku bhanga o kijimbuete ni kijimbuete kia internete, o IATF i kalakala ni: [W3C WAI](https://www.w3.org/WAI/) O athu ene mu kalakala ni jifalamenda jiji, ene mu di longa kiebhi kia tena ku kuatekesa o athu ku jikula o jinzo jâ, ni ima ia mukuá dingi."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ku Bhana Umbangi",
+      "title": "Zuela ia lungu ni maka a moneka"
+    },
+    "paragraphs": [
+      "Se u mona kuila saí kima ki tena ku fidisa o athu ku jikula o kijimbuete kiki, tua ku dióndo, tumikisa o njimbu íii ku:",
+      "{{contact.accessibilityEmail}}",
+      "O milongi íii ia-nda ku kuatekesa:"
+    ],
+    "items": [
+      "O mbandu mua moneka o maka",
+      "o ima i ua kexile mu bhanga",
+      "O jifalamenda ja kutokuesa o jividiu mba komputadolo i ua mu kalakala na-iu",
+      "ihi ia bhiti?",
+      "Ihi ieji kuatekesa?"
+    ],
+    "footnote": "Eie ku bhingi ku soneka mukanda, ua tokala u soneka ngó o jipondo ja beta-kota."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kubhanga o kikalakalu kiki",
+      "title": "Ku batula o maka a lungu ni jinguvulu"
+    },
+    "paragraphs": [
+      "O maka a lungu ni ku kamba ku bhanga mbandu ku kijimbuete kia internete, a tena ku a soneka mu divulu di tua tokala o ku bhanga, phala ku kuatekesa o athu ku jikula o kijimbuete kiki.",
+      "Se o njimbu i ua-nda tumikisa ia lungu ni maka u ua mesena kuijiia, zuela-iu ni kidi kioso."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ima ia mu bhita lelu",
+      "title": "O ima ki tu tena ku i bhanga"
+    },
+    "paragraphs": [
+      "O kijimbuete kiki, a ki bhange muene phala ku kuatekesa o athu a mesena kudilonga o Bibidia mu madimi mâ."
+    ]
+  }
+}

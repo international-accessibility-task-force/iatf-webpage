@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Ibhuidisu ia Bibidia io Tambuijile",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Ibhuidisu ia Bibidia io Tambuijile",
+    "lead": "O divulu didi, di tanga o ikalakalu ia tokala ku bhanga o athu, kala o kikalakalu kia ku bhanga madivulu, ni ima ia mukuá ia lungu ni sidivisu ia ku boka.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kikalakalu kia ku bhaka o madivulu",
+      "title": "O dijina dia filiiale"
+    },
+    "intro": [
+      "O milongi ioso ia lungu ni kikalakalu kiki, tu i sanga mu kaxa íii."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Bhinga kikuatekesu",
+      "title": "Kubhanga ioso phala kukuatekesa o athu kukala mu ididi ia kusakela"
+    },
+    "paragraphs": [
+      "O IATF i tonginina kiambote o ima ia bhingi phala kubhanga o kikalakalu kiki."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ka soneka luua o jipondo ja beta-o-kota",
+    "paragraphs": [
+      "O IATF ia mu pelepalala o milongi ia dianga phala o athu.",
+      "Eie u tena hanji ku tumikisa mukanda se ua mesena kuijiia dingi ia lungu ni muthu iú."
+    ]
+  }
+}

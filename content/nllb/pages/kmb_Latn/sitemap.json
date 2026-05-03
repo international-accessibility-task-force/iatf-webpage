@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Kilondekesu kia Kijimbuete"
+  },
+  "hero": {
+    "eyebrow": "Kilondekesu",
+    "title": "Kilondekesu kia Kijimbuete",
+    "lead": "O jifalamenda joso ja kutokuesa o mitelembe ia Internete, bhu kididi kimoxi."
+  },
+  "sections": [
+    {
+      "title": "Milongi ia beta-o-kota",
+      "items": [
+        {
+          "label": "Ku Bhata",
+          "href": "/"
+        },
+        {
+          "label": "Ibuka ia ikalakalu",
+          "href": "/projects/"
+        },
+        {
+          "label": "Bhinga kikuatekesu phala ku sokejeka o ima i ua mesena",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ukexilu uambote ua ku tumina",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kudibunda Kumoxi",
+          "href": "/join/"
+        },
+        {
+          "label": "O kuila o athu a tena ku di longa o Bibidia?",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kuzuela mu ukexilu ua bhebhuluka",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Ibuka ia ikalakalu",
+  "projectsEmpty": "Ka soneka luua o jipondo ja beta-o-kota."
+}

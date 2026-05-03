@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "O athu a tena ku sumba o ima ia bhindamena, maji ka tena ku kala ni ima ioso ia bhindamena",
+    "lead": "O IATF i kuatekesa o isangela, ibuka, ni athu a mesena kukala ni ji komputadolo.",
+    "support": [
+      "O jifalamenda ja ku katula jikopia, a ji bhanga bhu kaxi ka IATF GitHub, ene mu ji bhanga ku muthu uoso-uoso ua mesena ku katula o jikopia."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Ukexilu ua ku Bhanga ku Athu o Ima i ua Mesena ia mu Bhanga",
+      "title": "O jifalamenda ja kutokuesa o ima, ki ji bhonzo ku ji jikula"
+    },
+    "paragraphs": [
+      "Muthu uoso-uoso u tena kutambuijila o maka a moneka bhu kaxi ka kamukanda, se o kibuka ki bhanga o kikalakalu kiki, a ka jikula mu kijimbuete GitHub.",
+      "O athu oso a xikina o kikalakalu kiki, a kala ni kididi kia madivulu ki zuela ia lungu ni milongi ia Bibidia, ni madivulu a mukuá a tena ku a kuatekesa."
+    ],
+    "specCard": {
+      "title": "Ukexilu ua ku Bhanga ku Athu o Ima i ua Mesena ia mu Bhanga",
+      "terms": [
+        {
+          "term": "Kibhindamu",
+          "definition": "Ibhidi ia Kubandekesa o Kikalakalu"
+        },
+        {
+          "term": "Ku Tokuesa",
+          "definition": "O kikalakalu kiki, kia tokala ku ki bhanga kiambote"
+        },
+        {
+          "term": "Kididi kia Kubhangesa",
+          "definition": "Kijimbuete kia ku tula o njimbu ku athu oso ku GitHub"
+        },
+        {
+          "term": "O Kibuka Kia Utuminu",
+          "definition": "Kikalakalu kia IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Kikalakalu",
+      "title": "Kiebhi ki kalakala o makina íii?",
+      "intro": "Mukonda dia kiki, ki ki bhonzo kuendela mu ikoka ienioió."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "O muthu ua bhingi kikuatekesu",
+        "paragraphs": [
+          "O kisangela, kibuka mba muthu umoxi, u tena ku bhanga o kibhindamu kiki.",
+          "Eie u tena ku bhanga o kibhindamu kiki, mu ku sota milongi mu kijimbuete kietu mu internete, mba ku tumikisa njimbu mu mutelembe ua kafuetele, ku: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, mba mu kaxi ka Maka."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "O kibuka kia ku tokuesa o ji makina, a kixana IATF, kiene ki bhanga o kikalakalu kiki.",
+        "paragraphs": [
+          "Tu sota kuijiia se o milongi ia tokala muene phala o kikalakalu kietu mba kana, ni ku tonginina ué se ia difu ni milongi ia madivulu metu."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "O kididi kiki, kia ku bhaka-mu o madivulu, kia-nda kala bhu maku a athu oso.",
+        "paragraphs": [
+          "Se o kikalakalu kiê a ki xikina, o athu a tena ku ki jikula mu kijimbuete GitHub.",
+          "O kididi kia kubhaka-mu o madivulu, kia-nda kala o kididi kia tokala phala o athu oso."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "O muthu uala ku pholo dia kikalakalu kiki, muéne ua tokala ku ki bhanga",
+        "paragraphs": [
+          "O muthu uala ku pholo dia kikalakalu kiki, a mu solo phala ku bhanga o kikalakalu kiki."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kikalakalu kia ku bhaka o madivulu",
+      "title": "Kikalakalu kia ku bhaka o madivulu"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mateka bhabha",
+      "title": "Kutokuesa o ima i ua mu bhanga kindala, mba kumateka kukalakala ni kima kia ubhe"
+    },
+    "paragraphs": [
+      "Sota kuijiia dingi ia lungu ni madivulu a mukuá a Bibidia, phala kuijiia o maka u uala nau."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

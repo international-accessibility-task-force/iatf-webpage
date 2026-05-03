@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ku Dibunda ni Kibuka Kia Jifalamenda ja ku Bhindumuna o Kitadi",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ku Dibunda ni Kibuka Kia Jifalamenda ja ku Bhindumuna o Kitadi",
+    "lead": "Kuene maukexilu avulu a ku di ta mu kikalakalu kiki, ki kale se ua mu kalakala ni jifalamenda ja katunda, mba ua mu iudika jimakina ja ubhe, mba ku i lungulula, ku i tonginina kiambote, ni ku i langa.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "O Kikalakalu Kiê",
+      "title": "Kiebhi ki u tena ku kuatekesa"
+    },
+    "items": [
+      "<strong>Bhinga kikalakalu.</strong> Se u sanga kima ki ku fidisa ku jikula o kijimbuete kiki, tua ku dióndo ndé mu kijimbuete kietu www.jw.org/kmb.",
+      "<strong>Ku i tonginina kiambote.</strong> Sota ndunge ia IATF ni kikuatekesu kia jifalamenda ja katunda, phala kuijiia o ima i tena o ku kuatekesa, ni ima ki i tena ku kuatekesa.",
+      "<strong>Kulombolola.</strong> O milongi ia dianga, a i soneka mu dimi dia Kingileji, mu ku suluka, a lungulula mu madimi a mukuá, kála o dimi dia Xipânha.",
+      "<strong>Ku tunga.</strong> Bhanga ioso phala kusanga o milongi ia tokala mu divulu dioso-dioso dia ikalakalu ia IATF, tumikisa njimbu mba katula o milongi i ua mesena, ni u kale ué ni uhete ua ku sokejeka o milongi.",
+      "<strong>Kolokota mu kubhanga o kikalakalu kiki.</strong> Saí ithangana, o kikalakalu kia ku lungulula o muthu, ki bhinga ku lungulula muthu uéngi, mukonda dia kiki, o muthu ua tokala ku bhilula o kididi kia ku bhanga o kikalakalu kiki, mu veji dia ku ki bhanga ubheka."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Jimbandu",
+      "title": "Se o IATF i kalakala mu ididi mu bhongoloka o athu"
+    },
+    "items": [
+      "<strong>O kijimbuete GitHub.</strong> Ibhuidisu, kuibhula, kulungulula, ni ku soneka o ima ia lungu ni kikalakalu.",
+      "<strong>Kukamba ku di zuelesa kiambote.</strong> Ku di zuelesa, ku di sokejeka ni ku bhanga ibhuidisu.",
+      "<strong>Mu ku tumikisa njimbu mu Internete.</strong> Ku di Longa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> se o GitHub mba o Discord ka i soneka kiambote."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kima kia mukuá ki ua tokala o kubhanga",
+      "title": "Sola o ukexilu u ua mesena kusangela"
+    },
+    "paragraphs": [
+      "O mitelembe ioso ia internete iala ué ni kijimbuete kiê."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

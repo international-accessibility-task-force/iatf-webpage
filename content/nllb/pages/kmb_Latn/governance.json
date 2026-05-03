@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "O ukexilu ua ku tumina ni ua ku bhaka o madivulu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "O ukexilu ua ku tumina ni ua ku bhaka o madivulu",
+    "lead": "O IATF i kuatekesa o athu ku sanga o milongi ia bhindamena, i kuatekesa ué o athu kuijiia ku i tendela, ni kuila o athu a tena ku i tokuesa.",
+    "support": [
+      "O mbandu íii, ijimbulula o itumu íii, ni kiebhi kia i langa, ni kikalakalu kiebhi kiala na-kiu o athu, kioso kia i xikina."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Itendelesu",
+      "title": "Kikalakalu kia tokala ku bhanga o muthu, o ku kala-mu, ni ku bhana o tumikanda"
+    },
+    "cards": [
+      {
+        "title": "Kikalakalu Kia Beta-o-Kota",
+        "paragraphs": [
+          "O IATF i xikina ngó o madivulu ene mu kuatekesa o athu ku di longa o madimi a mukuá, ni madivulu ala ni valolo ia dikota ku athu.",
+          "O kikalakalu kiki, ki kia tokala ngó ku muthu umoxi, maji kia tokala ku athu oso.",
+          "Phala ku bhanga o kijimbuete ni kijimbuete kia internete, o IATF i kalakala ni: [W3C WAI](https://www.w3.org/WAI/) O athu ene mu kalakala ni ji makina jiji, ene mu londekesa kuila a tena ku ji bhanga."
+        ]
+      },
+      {
+        "title": "Kuxikina o kikalakalu",
+        "paragraphs": [
+          "O athu a tena ngó kuxikina o ndunge, se mu ku i tonginina kiambote, a mona kuila:"
+        ],
+        "items": [
+          "Phala ku kuatekesa o athu kuijiia o maka enhá, ku bhinga ku kala ni mukanda u zuela ia lungu ni maka enhá.",
+          "O maka a moneka ngó se tu a tonginina kiambote",
+          "O kuila o ima i tua-nda sola ia-nda lunguluka?",
+          "o kikalakalu kiê, kia lungu ni kikalakalu kia IATF",
+          "tu tena ku i fikisa phala ku i langa mba ku i zubha"
+        ]
+      },
+      {
+        "title": "O kididi kia ku bhaka o madivulu",
+        "paragraphs": [
+          "O jifalamenda ja beta-o-kota, a ji bhanga bhu kaxi ka kisangela kia IATF GitHub.",
+          "O ididi ia kubhaka-mu o madivulu, i kala kála inzo phala o athu oso a tungu-mu, né muene se o athu a lungulula o ukexilu uâ ua kutunga o ididi íii."
+        ]
+      },
+      {
+        "title": "O ku bhana o tumikanda",
+        "paragraphs": [
+          "O jifalamenda ja IATF jene mu kaiela o ukexilu ua copyleft:"
+        ],
+        "items": [
+          "<strong>Kibandekesu:</strong> AGPL-3.0",
+          "<strong>Milongi ia tokala:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "O muthu uala ku pholo dia kikalakalu kiki, muéne u bhanga o kikalakalu kiki.",
+      "paragraphs": [
+        "O muthu a mu solo, ua tokala ku kala ni ufunu ua ku iudika o ima ni ku i langa, muéne ua tokala ué ku bhanga o ima íii:"
+      ],
+      "items": [
+        "Kubandekesa o Uhete Uetu mu Ukunji",
+        "Ku langa o kididi kia ku bhaka o madivulu",
+        "kutonginina kiambote o maka a moneka, ni kukatula o jifalamenda ja tokala",
+        "Kubhanga o ima i tua solo",
+        "kuatekesa akuenu ku tendela kiambote o ima i ua mu di longa"
+      ],
+      "footnote": "O kikalakalu kiki, kia lungu ni ku langa o ima mu ididi ia ku bhaka madivulu, ku iudika o ima, ni ku i sokejeka phala ku kuatekesa o athu."
+    },
+    "publicDevelopment": {
+      "title": "Kisangusangu kia dikota",
+      "paragraphs": [
+        "O ikalakalu ioso ia lungu ni jifalamenda jiji, a i bhanga mu ukexilu ua kuila athu oso a tena ku di longa na-iu."
+      ],
+      "items": [
+        "Kizuelu kia tundu mu Bibidia",
+        "maka a moneka",
+        "mikanda",
+        "Milongi ia tundu mu kadivulu kaka",
+        "Jividiu ja Bibidia ja ubhe"
+      ],
+      "footnote": "O milongi ia beta-o-kota ia lungu ni kikalakalu kia kuboka, ka tokala ku i soneka ngó mu kaxa ia internete."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Milongi ia Bibidia Phala o Athu Oso",
+      "title": "Divulu dia ku bhitulula"
+    },
+    "paragraphs": [
+      "IATF i kalakala bhu pholo ia athu oso. O kibhingilu kia tokala ku ki bhanga bhu kaxi ka kijimbuete kia internete, e-mail, Discord, GitHub, mba kijimbuete kiéngi kia-nda kuatekesa o athu ku jikula o kijimbuete.",
+      "IATF i tena kusokesa, kulungulula, mba kusokejeka dingi kima kioso-kioso kia tokala ande dia ku ki soneka, phala ki ku moneke dingi ima ia lungu ni muthu.",
+      "O jifalamenda ja kutokuesa o ima, a tena ku ji sanga mu kijimbuete kia IATF GitHub, bhu kaxi ka kijimbuete kiki, mba mu ibuka iiadi íii.",
+      "Ande dia ku i soneka, o kisangela kia IATF ki bhinga ku jimba o ima ioso ia lungu ni muthu, kála o ijimbuete iê, ni ima ia mukuá dingi, se ki ku bhingi ku i jimba.",
+      "IATF kene mu bhaka o jivelusu ja Bibidia ja lungu ni maka enhá, mukonda dia kiki, o ku bhaka-mu o njimbu iene mu zuela o athu, a tokala ku i soneka mu ukexilu ua bhebhuluka.",
+      "O ku bhanga o kibhindamu kiki, ki ku bhingi ngó ku tokuesa mu Internete, maji ku bhinga ué kuijiia o ima ia mukuá ia lungu ni muthu u tu mu bokela.",
+      "O IATF i tena kusokejeka mba kukatula milongi mu jifalamenda ja mukuá, maji ki i tena kubhangesa kuila, o ima íii a i katula mu jimakina ja mukua, kala o makina ia kutokuesa, o komputadolo, mba ji makina ja mukuá.",
+      "Se o njimbu ki i tokala ku muthu, kana ku i tumikisa bhu kaxi ka IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Kikalakalu kia Kibuka Kia Utuminu",
+      "title": "Kimbadi"
+    },
+    "lead": "O mutuameni uala ku pholo, uala ni kikalakalu kia kuendesa o ikalakalu ioso ia IATF.",
+    "duties": {
+      "title": "Ihi i bhanga o kialu",
+      "items": [
+        "Xika o kijimbuete kia tokala mu kijimbuete IATF GitHub",
+        "Ku xikina o kikalakalu, ni ku ki bhaka",
+        "Uene mu kuatekesa o kibuka kia ku tokuesa o uenji ku mundu uoso (IATF)",
+        "Uene mu kuendesa o ima ioso ia lungu ni ku sola o mutuameni ua kilunga"
+      ],
+      "footnote": "O mutuameni ka jijidika o kibuka kia IATF kubhanga o kikalakalu kiê, mu ku a bhana ikalakalu ia tokala, ni ku a futa, mba kubhanga o ikalakalu mu ididi ia tokala."
+    },
+    "election": {
+      "title": "Ukexilu ua ku sola",
+      "paragraphs": [
+        "O athu ene mu sola o muthu ua-nda kala ku pholo ia kibuka kiki, ene mu bhanga kiki mu jisemana jiiadi ja dianga ja mbeji ia Kaiadi.",
+        "O muthu uala ni ufolo ua ku sola, muéne u sola o muthu ua tokala ku mu sola; se kiki ki bhita, o muthu iú u sola dingi muthu ua mukuá.",
+        "O ku sola o muthu a-nda mu sola, a ki bhanga mu kijimbuete GitHub Discussion, kiene ki bhangesa kuila o athu oso ejiia kiambote o athu a solo, ni kiebhi kia solo o muthu."
+      ]
+    },
+    "continuity": {
+      "title": "Ku kolokota",
+      "paragraphs": [
+        "Se ku moneka kibhidi kia dikota, o mutuameni uala ku pholo ua tokala ku kolokota ni kikalakalu kiê katé kia-nda bhita o muvu.",
+        "O mutuameni ua kibuka, u tena kuxisa o kikalakalu kiê mu kithangana kioso-kioso."
+      ]
+    },
+    "current": {
+      "title": "Lelu muéne ua mu kuendesa o kikalakalu kiki.",
+      "fields": [
+        {
+          "label": "Kimbadi",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Kizuelu",
+          "value": "Katé ku mbeji ia Kaiadi ka muvu ua 2026, kioso kia-nda bhita o ima íii."
+        },
+        {
+          "label": "Kikalakalu kia dikota",
+          "value": "2026"
+        },
+        {
+          "label": "O ku sola o muthu ua-nda tumina o ixi",
+          "value": "Kasambuadi ua 2026"
+        }
+      ]
+    },
+    "footnote": "Ku muvu ua 2026, a bhana o kikalakalu kia ku kala mutuameni, phala kulondekesa kuila, o muthu uala ku pholo dia kilunga, muéne ua tokala ku bhanga o kikalakalu kiki."
+  },
+  "continuity": {
+    "states": {
+      "title": "Kiebhi kiala o kikalakalu kiki?",
+      "paragraphs": [
+        "O jimbambe jiji, ja lungu ni ku kuatekesa o athu ku kala ni ukexilu uambote ua ku sola:"
+      ],
+      "items": [
+        "O milongi íii, i zuela ia lungu ni:",
+        "A mu Xikina",
+        "Kikalakalu",
+        "Ki iala ni inama mba mutué",
+        "Sota muthu phala ku ku langa",
+        "Milongi ia Bibidia Phala o Mbeji ia Kavua"
+      ],
+      "footnote": "O jimbanza jiji, ki ji bhonza ku ji langa."
+    },
+    "reassignment": {
+      "title": "Kubhanga dingi o madivulu ni ku a bhaka mu ididi ia tokala",
+      "paragraphs": [
+        "Se o muthu uala ku pholo dia kikalakalu kiki, ka tena dingi ku ki bhanga, o IATF i tena ku bhana kikalakalu ku muthu uéngi, ku fidisa o kikalakalu kia ku lungulula, mba ku ki jika.",
+        "O kikalakalu kiki, a tena ku ki bhaka kioso kia ki bhindamena, mba kioso o muthu kia bhuila ku ki langa, mba ki bhonza ku ki bhanga."
+      ],
+      "footnote": "O ima ioso ia lungu ni kikalakalu kiki, ki i lunguluka, se-ku kima ki bhangesa ku i jimba."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Kilomboluelu kia jimbambe",
+      "title": "O IATF ki iene mu bhana itendelesu ia lungu ni maka enhá"
+    },
+    "items": [
+      "Kikalakalu kia jingividi",
+      "kikutu kia sidivisu",
+      "kuxikina o ima ioso ia tu bhana",
+      "Kubhanga o kikalakalu kia kusokejeka kiambote o ima, phala o kikalakalu kioso-kioso"
+    ],
+    "footnote": "O IATF, o kadivulu ka ku bhaka o madivulu oso, ki divulu mu ukexilu uéngi."
+  }
+}

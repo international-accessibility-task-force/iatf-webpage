@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Kuzuela mu ukexilu ua bhebhuluka",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Kuzuela mu ukexilu ua bhebhuluka",
+    "lead": "IATF i kalakala bhu kididi kioso-kioso. O ima ia sola ia lungu ni ikalakalu, ni itumu, ni ukexilu ua kuendesa o ikalakalu, a i soneka mu ididi ia mundu uoso. O mbandu íii, ilondekesa se kuebhi ku u tena kusanga o milongi ni kiebhi ki u tena ku i tanga.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Milongi",
+      "title": "O Kididi Kia Ubhezelu"
+    },
+    "items": [
+      "<strong>O ima i u sola ia lungu ni kikalakalu kiki.</strong> O ukexilu ua ku tambula ni ku bhaka o mikanda íii, tu u sanga mu divulu muala o itendelesu i tu bhana o kimbadi kia fiiele, phala ku tu kuatekesa ku kumbidila o ikalakalu ietu mu kilunga. <a href=\"/projects/\">divulu dia ku bhaka-mu o ima</a>O kuila kiene muene?",
+      "<strong>Bhinga o madukumendu.</strong> O jifalamenda ja kutokuesa o ima iala mu Internete, kala o komputadolo, ji bhanga ioso phala ku tu kuatekesa kusanga o ima i tua mesena, ni ku tu langa kioso ki tu i jikula.",
+      "<strong>O kijimbuete a ki lungulula.</strong> O ukexilu ua ku lungulula o kijimbuete kiki, a u bhanga mu ukexilu ua kuila o athu oso a tena ku ki mona. <a href=\"{{contact.githubOrgUrl}}\">Kibuka kia GitHub</a>O kuila kiene muene?",
+      "<strong>O ukexilu ua kutumina ua lunguluka.</strong> O jifalamenda ja ku lungulula o madivulu metu, jene mu kaiela o ukexilu ua ku jikula o kijimbuete kietu, www.jw.org. <code>iatf-website</code> Phala kuijiia dingi, tanga o Kibandekesu, kia divulu, Mu Kidi Ihi i Longa o Bibidia? <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">kulungulula o musoso</a> mu kijimbuete GitHub.",
+      "<strong>Jimbongo ja ku kalakala na-ju.</strong> IATF i langa kiambote o kitadi kia ku kalakala ni jifalamenda ja mukengeji. Tundé ku muvu ua 2022, o jimbote ja beta-o-kota, o majina a ididi.",
+      "<strong>Ku sokejeka o ima.</strong> O itambuijilu ia ibhuidisu ia mukuá ia lungu ni ibhuidisu íii, tu i sanga mu kijimbuete kietu mu internete, www.jw.org/kmb. <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Ku Dibhana ni Ibhidi</a> ia lungu ni <code>iatf-website</code> Kididi kia ku bhaka o madivulu."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Jimbongo",
+      "title": "Kikalakalu kia kusokejeka o ima"
+    },
+    "paragraphs": [
+      "IATF i langa kiambote o ididi iê ia ku bhaka madivulu. Tundé ku muvu ua 2022, o kibhindamu kia beta-o-kota kia ku kalakala ni ji komputadolo, o ku soneka o majina a ididi (domain names).",
+      "O kadivulu kaka, ki kamukanda ka ku tokuesa o kitadi, maji ka londekesa o itambuijilu ia ibhuidisu ia lungu ni kitadi kia bhana o athu phala ku sumba o imbamba."
+    ],
+    "footnote": "O ku soneka o ima ia lungu ni dikalu, ki ku bhingi ngó ku soneka ku mukanda maji ku bhinga ué ku soneka-mu o dijina ni ima ia tokala ku dikalu.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Kibuka kia Utuminu",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Jimbongo",
+            "value": "3.40 ia ji dolale ja Estados Unidos"
+          },
+          {
+            "label": "[Tanga mu luji]",
+            "value": "O kikalakalu kia tundu ku Vercel anga kienda ku Cloudflare, mu kusuluka, a mateka kukalakala ni jifalamenda ja ubhe ja beta-o-kota. <code>iatf.cc</code> mbambe."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Kibuka kia Utuminu",
+            "value": "<code>Internationaleaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Jimbongo",
+            "value": "18.68 ia ji dolale ja Estados Unidos"
+          },
+          {
+            "label": "[Tanga mu luji]",
+            "value": "Kimbundu - Twanda katula o kitadi kyetu phala kutunga o ididi ya kubhangela o ajitu, phala kubandekesa o kitadi kya kubhanga o kikalakalu kya kuboka."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Kibuka kia Utuminu",
+            "value": "<code>Internationaleaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Jimbongo",
+            "value": "17,06 kia jidolare"
+          },
+          {
+            "label": "[Tanga mu luji]",
+            "value": "Kimbundu - Kyene kya beta-o-kota kyoso kya tu bhana o mbambe ya kumesena kukala ni jinzo jambote ni jimbote jambote."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Kibuka kia Utuminu",
+            "value": "<code>Internationaleaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Jimbongo",
+            "value": "14,76 kia jidolare"
+          },
+          {
+            "label": "[Tanga mu luji]",
+            "value": "Kimbundu - Twanda katula o kitadi kyetu phala kutunga o ididi ya kubhangela o ajitu, phala kubandekesa o kitadi kya kubhanga o kikalakalu kya kuboka."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Kibuka kia Utuminu",
+            "value": "<code>Internationaleaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Jimbongo",
+            "value": "7,76 kia jidolare"
+          },
+          {
+            "label": "[Tanga mu luji]",
+            "value": "Kimbundu - Kyoso kya katula o kitadi kyoso kya bhange phala kutunga o kididi kiki, kya kexile mu katula-ku o kitadi kya kexile na-kyu o akalakadi mba o athu a kexile mu tunga-mu, phala kubandekesa o kitadi."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Kilomboluelu kia jimbambe",
+      "title": "Ima ki tu tena ku i mona ku athu oso"
+    },
+    "paragraphs": [
+      "Saí milongi ka i soneka mu madivulu a athu, mukonda:"
+    ],
+    "items": [
+      "Ijiia o majina a athu ene mu kuixana phala kuia mu kiônge kiki.",
+      "O mikanda íii, a i soneka phala ku kuatekesa o muthu ku tendela kiambote o maka, ande dia ku mu bhana mukanda.",
+      "O ijimbuete iê ni ijimbuete ia mutelembe uê ua kafuetele ni ima ia mukuá dingi ia lungu ni muéne.",
+      "Kima kioso-kioso ki tena kulondekesa o dijina dia muthu u kalakala ni jifalamenda ja katunda, sé ku mu bhinga.",
+      "O njimbu íii, i moneka ngó kioso ki tu jikula o kijimbuete, www.watchtower.org, mba kijimbuete kia mukuá mu mitelembe ia internete."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tanga dingi",
+      "title": "O mikanda íii, a i soneka ni ku i uanena o athu."
+    },
+    "paragraphs": [
+      "Se ua mesena kuijiia dingi ia lungu ni kiebhi kia tambula o ikalakalu íii, tanga o Kibandekesu kiala ku luiji."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

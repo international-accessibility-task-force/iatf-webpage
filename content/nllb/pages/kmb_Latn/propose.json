@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Bhinga kikuatekesu phala ku sokejeka o ima i ua mesena",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Bhinga kikuatekesu phala ku sokejeka o ima i ua mesena",
+    "lead": "O kisangela kia IATF, kiene mu tokuesa o ima ioso ia bhingi phala kubhanga o kikalakalu kiki.",
+    "support": [
+      "Ki ku bhingi ngó kuijiia o maka oso, ua tokala u tendela kiambote o maka, ni kuijiia se nanhi uene mu dibhana nau, ni mukonda diahi."
+    ],
+    "actions": [
+      {
+        "label": "Bhanga o kibhindamu kiki:",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Mu veji dia kiki, jikula o kijimbuete kia Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Jimbandu",
+      "title": "Sola o njila ia beta-o-kota"
+    },
+    "intro": [
+      "O jinjila joso jiji, jene mu ku a tonginina kiambote."
+    ],
+    "items": [
+      {
+        "label": "Kijimbuete kia internete",
+        "body": "Bhanga o kibhuidisu kiala ku luiji."
+      },
+      {
+        "label": "[Tanga mu luji]",
+        "body": "Bhinga o mukanda ku: {{contact.requestsEmail}}Kioso kia zubha ku a tonginina kiambote ni ku a bazela, ene a tena ku bhanga o kibhindamu kiki."
+      },
+      {
+        "label": "O ku Kamba o Kutululuka",
+        "body": "O milongi i tua-nda di longa, ia-nda tu kuatekesa kuijiia se tua tokala ku lungulula kima."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ande dia ku tumikisa o mukanda",
+    "paragraphs": [
+      "IATF i kalakala bhu pholo ia athu oso. O itambuijilu ia ibhuidisu íii, a tena ku i soneka mu kijimbuete GitHub, bhu kaxi ka kijimbuete kiki, mba mu maukexilu a mukuá.",
+      "Kana ku soneka mu kaxa íii, majina a athu, ididi ia ku saka, mba ima ia mukuá ia lungu ni muthu ua mu kalakala ni ji makina jiji, se ki ku bhingi, mba ki ku bhonzo ku sanga o ima íii mu kijimbuete kia IATF.",
+      "Ande dia ku bhana o ngolokela, o kibuka kia IATF ki bhinga ku katula o ima ioso ia lungu ni muthu mu mutelembe uê ua kafuetele."
+    ]
+  },
+  "review": {
+    "title": "Ku Tokuesa o Ikanenu",
+    "paragraphs": [
+      "O ku tumikisa o mukanda, ki ku lombolola kuila o mukanda a-nda u xikina.",
+      "O IATF i tonginina se o milongi ia tokala phala ku i soneka mu divulu mba kana.",
+      "Saí ithangana, a dituna hanji ku bhanga kima, mba a lungulula o ibanzelu iâ, ande dia ku a bhana o ujitu."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomo ia ku Bhinga",
+      "title": "Bhinga kikuatekesu"
+    },
+    "fields": [
+      {
+        "kind": "ima ia tokala",
+        "name": "muthu ua bhingi",
+        "label": "O dijina diê mba o kikalakalu kiê",
+        "helper": "Nanhi ua mu bhinga o ujitu iú?"
+      },
+      {
+        "kind": "sola",
+        "name": "Ndunge Phala Kubhana Umbangi",
+        "label": "Ndunge phala ku di sanga ni muthu",
+        "helper": "Kiebhi kia tokala ku bhanga o kikalakalu kiki?",
+        "required": true,
+        "options": [
+          "[Tanga mu luji]",
+          "O ku Kamba o Kutululuka"
+        ]
+      },
+      {
+        "kind": "ima ia tokala",
+        "name": "Kuijiia dingi ia lungu ni muthu iú",
+        "label": "Musoso ua lungu ni muthu iú",
+        "helper": "Ijiia o dijina dia muthu u ua mesena ku mu tumikisa njimbu mba u xinda mu mutelembe ua kafuetele ua Discord.",
+        "placeholder": "Kijimbuete kia ku tumikisa njimbu mba kijimbuete kia Discord",
+        "required": true
+      },
+      {
+        "kind": "ima ia tokala",
+        "name": "dimi dia uvualukilu",
+        "label": "Dimi dia uvualukilu",
+        "helper": "O dimi di ua mesena, se di moneka.",
+        "value": "Kingileji"
+      },
+      {
+        "kind": "jimbandu ja Bibidia",
+        "name": "kiluezu",
+        "label": "Maka ebhi u wa mu sota kubatula?",
+        "helper": "Jimbulula o maka enhá mu izuelu ia bhebhuluka.",
+        "required": true
+      },
+      {
+        "kind": "jimbandu ja Bibidia",
+        "name": "O ió a Tokala ku a Kuatekesa",
+        "label": "Nanhi u tala o hadi?",
+        "helper": "Nanhi ueji tambula o ujitu iú?",
+        "required": true
+      },
+      {
+        "kind": "jimbandu ja Bibidia",
+        "name": "[Kua tundu o foto]",
+        "label": "Milongi ia mukuá",
+        "helper": "Bhanga ioso phala ku mu kuatekesa ku tendela o kima kia mu zuela: mukonda diahi kima kiambote ku zuela o maka enhá, bhanga ifika, sota milongi ia Bibidia, sola ndunge phala ku jimbulula o ndunge mba o kithangana kia ku zuela."
+      },
+      {
+        "kind": "sola",
+        "name": "Kutumikisa kwakwenu",
+        "label": "O kuila u sanguluka mu ku kalakala ni jifalamenda jiji?",
+        "helper": "O ibuka íii, a ixana IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Kiene muene.",
+          "Kana",
+          "Ki ngejiia luua."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se a xikina",
+      "title": "O kuxikina kulombolola ihi?"
+    },
+    "items": [
+      "O kididi kiki, a ki xana IATF GitHub.",
+      "O muthu uala ku pholo dia kikalakalu kiki, a mu solo phala ku bhanga o kikalakalu kiki.",
+      "O kijimbuete ni jifalamenda ja mukuá ja kukuatekesa",
+      "Kubandekesa o kuijiia kua athu, bhu kaxi ka jifalamenda ja kutokuesa",
+      "kijimbuete mu kijimbuete kia IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ku mateka kuzuela",
+      "title": "O kibhingilu kia tokala ku kala kia kidi"
+    },
+    "paragraphs": [
+      "Se ua mesena kuijiia dingi ia lungu ni maka enhá, tua ku dióndo, tu tumikise o kijimbuete kietu, www.jw.org."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

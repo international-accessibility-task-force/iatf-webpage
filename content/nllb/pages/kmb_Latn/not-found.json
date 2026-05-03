@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ka sange."
+  },
+  "hero": {
+    "eyebrow": "Ka sange.",
+    "title": "O mbandu ia kusota ki ia moneka",
+    "lead": "U tena ué kubhixila bhu kididi kiki, mu ku kaiela o jinjila ji moneka ku luiji.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ku Bhata",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "O njila i ua mesena ku i kaiela, ki iala-ku dingi."
+    ],
+    "items": [
+      {
+        "label": "Ku Bhata",
+        "href": "/"
+      },
+      {
+        "label": "Ibuka ia ikalakalu",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kudibunda Kumoxi",
+        "href": "/join/"
+      },
+      {
+        "label": "O kuila o athu a tena ku di longa o Bibidia?",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ukexilu uambote ua ku tumina",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kuzuela mu ukexilu ua bhebhuluka",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
