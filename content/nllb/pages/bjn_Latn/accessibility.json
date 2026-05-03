@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibilitas",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibilitas",
+    "lead": "IATF handak maulah website ini sederhana, kawa dibaca, kawa diakses pakai keyboard, wan kompatibel lawan teknologi bantu.",
+    "support": [
+      "Gasan aksesibilitas web, IATF manggunaakan [W3C WAI](https://www.w3.org/WAI/) Aksesibilitas praktis jua didasari oleh pengalaman langsung dari pengguna teknologi bantu."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Panyalaporan",
+      "title": "Laporakan masalah aksesibilitas"
+    },
+    "paragraphs": [
+      "Amun Pian manamuakan halangan aksesibilitas di situs web ini, silakan lapurakan lewat suril:",
+      "{{contact.accessibilityEmail}}",
+      "Laporan nang baguna tamasuk:"
+    ],
+    "items": [
+      "halaman di mana masalah tajadi",
+      "apa nang ikam coba gawi",
+      "teknologi bantu, browser, atawa alat apa nang Pian pakai, amun relevan",
+      "apa nang salah",
+      "apa nang akan mambantu"
+    ],
+    "footnote": "Pian kada parlu manulis laporan bug rasmi. Panjalasan nang jelas sudah cukup."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Pamandiran",
+      "title": "Pengelolaan isu publik"
+    },
+    "paragraphs": [
+      "Masalah aksesibilitas kawa disimpulakan di repositori publik nang relevan sahingga kawa dituntungakan secara terbuka. rincian kontak pribadi wan informasi pribadi nang kada diparluakan dihapus sabalum dipublikasiakan.",
+      "Amun laporan Pian tamasuk inpurmasi pribadi, bilangakan sacara jelas dalam pasan."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kaadaan wayah ini",
+      "title": "Batas nang dikatahui"
+    },
+    "paragraphs": [
+      "Situs ini sengaja halus wan kabanyakan statis. Beberapa versi bahasa mungkin kada lengkap samantara tarjamahan sedang disiapakan."
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Minta proyek aksesibilitas",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Minta proyek aksesibilitas",
+    "lead": "IATF mamariksa parmintaan gasan proyek aksesibilitas nang dimulai dari kaparluan nyata.",
+    "support": [
+      "Pian kada parlu spesifikasi nang langkap. masalah nang jelas, siapa nang kena dampaknya, wan mengapa itu penting sudah cukup gasan mamulai."
+    ],
+    "actions": [
+      {
+        "label": "Mulai sabuah parmintaan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gasan mamakai Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran-saluran",
+      "title": "Pilih jalan nang paling nyaman"
+    },
+    "intro": [
+      "Sabarataan rute masuk dalam tinjauan nang sama."
+    ],
+    "items": [
+      {
+        "label": "Laman web",
+        "body": "Pakai formulir di bawah ini gasan mangirim parmintaan nang disusun."
+      },
+      {
+        "label": "Email nang",
+        "body": "Kirimakan parmintaan langsung ka {{contact.requestsEmail}}Parmintaan surel kawa manjadi catatan parmintaan publik imbah dipariksa wan disunting."
+      },
+      {
+        "label": "Pambantaian",
+        "body": "mulai dari sana kalo itu paling mudah. permintaan masih pindah ke ulasan yang sama."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sabalum Pian mangirim parmintaan",
+    "paragraphs": [
+      "IATF bagawi di umum. Parmintaan kawa disimpulakan wan dipublikasiakan sabagai catatan parmintaan umum di organisasi GitHub, di situs web ini, atawa kaduanya.",
+      "Jangan tamasuk alamat pribadi, nomor telepon, rincian medis, atawa informasi nang mangidentipikasi pangguna individu teknologi bantu kacuali itu diparluakan wan Pian nyaman lawan IATF mambaca itu.",
+      "IATF mahapus rincian kontak pribadi nang kada diparluakan sabalum mamublikasikan catatan parmintaan."
+    ]
+  },
+  "review": {
+    "title": "Melihat kembali ekspektasi-ekspektasi",
+    "paragraphs": [
+      "Manyampaiakan parmintaan kada manjamin panarimaan.",
+      "IATF mamariksa parmintaan gasan kacocokan misi, kalayakan, kagunan, wan apakah gawian ngitu tamasuk dalam repositori publik.",
+      "Babarapa parmintaan mungkin ditolak, ditunda, atawa diubah sabalum ditarima."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Bentuk pamintaan",
+      "title": "Manyampaiakan parmintaan"
+    },
+    "fields": [
+      {
+        "kind": "masukan (input)",
+        "name": "nang maminta",
+        "label": "Ngaran atawa organisasi Pian",
+        "helper": "Siapa nang maulah parmintaan?"
+      },
+      {
+        "kind": "mamilih",
+        "name": "Laluan kontak",
+        "label": "Jalur kontak nang disukai",
+        "helper": "Bagaimana harus ditindaklanjuti?",
+        "required": true,
+        "options": [
+          "Email nang",
+          "Pambantaian"
+        ]
+      },
+      {
+        "kind": "masukan (input)",
+        "name": "Rincian kontak",
+        "label": "Rincian kontak",
+        "helper": "Alamat suril atawa alamat Discord gasan pangikutannya.",
+        "placeholder": "Alamat suril atawa alamat Discord",
+        "required": true
+      },
+      {
+        "kind": "masukan (input)",
+        "name": "bahasa nang",
+        "label": "Bahasa nang dipakai",
+        "helper": "Bahasa nang Pian pilih, amun relevan.",
+        "value": "Bahasa Inggris"
+      },
+      {
+        "kind": "textarea (ruang teks)",
+        "name": "hual hual",
+        "label": "Masalah apa nang handak ikam pecahkan?",
+        "helper": "Deskripsikan hambatan dalam bahasa sederhana.",
+        "required": true
+      },
+      {
+        "kind": "textarea (ruang teks)",
+        "name": "Pangguno-pangguno nan dipangaruahi",
+        "label": "Siapa nang bapangaruh?",
+        "helper": "Siapa nang akan dibantu ngini?",
+        "required": true
+      },
+      {
+        "kind": "textarea (ruang teks)",
+        "name": "extraContext[babak asal mulanya]",
+        "label": "Konteks tambahan",
+        "helper": "Bagikan sasuatu nan lain nan mambantu manjalehan kaparaluan: baa mangko itu pantiang, contoh, referensi, ide parangkat lunak nan kasar, atau batasan wakatu."
+      },
+      {
+        "kind": "mamilih",
+        "name": "openSourceConsent[babak asal mulanya]",
+        "label": "nyaman lawan pengembangan open source umum?",
+        "helper": "Proyek nang ditarima adalah repositori publik di bawah IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Iya tuh",
+          "Kada",
+          "Kada yakin lagi"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Amun ditarima",
+      "title": "Apa arti panarimaan"
+    },
+    "items": [
+      "sabuah repositori umum dalam organisasi IATF GitHub",
+      "insinyur nang bertanggung jawab nang ditugasakan gasan proyek",
+      "lisensi copyleft gasan kode wan bahan proyek",
+      "pangambangan umum di repositori",
+      "catatan pendaptaran di situs IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Memulai percakapan",
+      "title": "Permintaan singkat wan jelas sudah cukup gasan memulainya"
+    },
+    "paragraphs": [
+      "Amun pian bujur-bujur mamarluakan aksesibilitas wan bapikir itu harus jadi proyek umum, kirimakan ka kami."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyek aksesibilitas publik",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyek aksesibilitas publik",
+    "lead": "Daftar ko manunjuakan proyek-proyek umum nan dikelola malalui IATF. Proyek aksesibilitas nan ditarimo, infrastruktur situs, jo prototipe nan diarsipkan tatap tampak di siko.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaftaran",
+      "title": "Pendaftaran wayah ini"
+    },
+    "intro": [
+      "Proyek-proyek nang ditarima diitihi di sini imbah dipublikasiakan."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ma-aturakan parlu-an",
+      "title": "Mambalikakan kabutuhan aksesibilitas konkret manjadi proyek publik"
+    },
+    "paragraphs": [
+      "IATF mamariksa kabutuhan aksesibilitas konkret nang kawa diubah manjadi karya sumber kabuka umum nang baguna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Kadada proyek nang dipublikasiakan sampai wahini",
+    "paragraphs": [
+      "IATF menyiapkan proyek umum pertamanya.",
+      "Pian masih kawa mangirim parmintaan amun Pian baisi kabutuhan aksesibilitas nang konkret."
+    ]
+  }
+}

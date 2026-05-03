@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Model pamarintahan wan repositori",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Model pamarintahan wan repositori",
+    "lead": "IATF manjaga proyek aksesibilitas umum, kawa dibaca, wan kawa diurus.",
+    "support": [
+      "Halaman ini manjalasakan apa nang memenuhi syarat, kayapa repositori diselenggarakan, wan tanggung jawab tingkat repositori apa nang berlaku setelah penerimaan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Aturan-aturan",
+      "title": "Misi pas, kepemilikan, lisensi"
+    },
+    "cards": [
+      {
+        "title": "Misi nang sesuai",
+        "paragraphs": [
+          "IATF manarima gawian nang maatasi hambatan aksesibilitas nang nyata wan baisi nilai publik nang jelas.",
+          "Sebuah proyek harus berguna diluar satu alur kerja pribadi dan bisa dipakai sebagai repositori publik.",
+          "Gasan aksesibilitas web, IATF manggunaakan [W3C WAI](https://www.w3.org/WAI/) pengalaman langsung dari pengguna teknologi pendukung jua merupakan bukti praktis dari apa yang bekerja dalam penggunaan nyata."
+        ]
+      },
+      {
+        "title": "Panarimaan proyek",
+        "paragraphs": [
+          "Sabuah proposal kawa ditarima amun tinjauan manunjukakan bahwa:"
+        ],
+        "items": [
+          "itu manjawab parluakan aksesibilitas nang nyata",
+          "masalahnya cukup jelas gasan dievaluasi",
+          "ruang lingkupnya cukup realistis gasan diluncurakan",
+          "tugasnya sejalan lawan misi IATF",
+          "ada jalan nang masuk akal gasan pemeliharaan atawa penyempurnaan"
+        ]
+      },
+      {
+        "title": "Kapamilikan repositori",
+        "paragraphs": [
+          "Proyek nang ditarima diulah di bawah organisasi IATF GitHub.",
+          "Repositori tatap ada di sana sahingga satiap proyek mampartahanakan sabuah rumah umum nang stabil, bahkan amun pangurusnya baubah."
+        ]
+      },
+      {
+        "title": "Parizinan",
+        "paragraphs": [
+          "Proyek IATF mamakai lisensi copyleft kacuali proyek manyatakan lain:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Dokuméntasi:</strong> CC BY-SA 4.0[babak asal mulanya]"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Insinyur atawa pamalihara nang batanggung jawab",
+      "paragraphs": [
+        "Masing-masing proyek nang ditarima harus baisi insinyur atawa pangurus nang bertanggung jawab. orangnya kawa manarima akses admin ke repositori wan diharapakan gasan:"
+      ],
+      "items": [
+        "pambangunan panduan di publik",
+        "mampartahanakan struktur repositori",
+        "mamariksa atawa mangelola masalah wan manarik parmintaan",
+        "mendokumentasiakan kaputusan teknis nang panting",
+        "mangartiakan proyek tu gasan urang lain"
+      ],
+      "footnote": "Ini adalah tanggung jawab tingkat repositori. kepemilikan organisasi tetap dengan IATF. Tanggung jawab di sini adalah pengelolaan repositori, arahan teknis, dan koordinasi publik  bukan pengiriman pribadi tanpa batas, integrasi khusus, atau komitmen tingkat layanan di luar peta jalan publik."
+    },
+    "publicDevelopment": {
+      "title": "Pangambangan umum",
+      "paragraphs": [
+        "Proyek-proyek nang diluncurakan malalui IATF dikambangakan sacara umum."
+      ],
+      "items": [
+        "kode sumber",
+        "isu-isu",
+        "dokuméntasi",
+        "catatan peta jalan",
+        "riwayat pelepasan"
+      ],
+      "footnote": "Pangatahuan proyek penting kada harus tinggal di chatting pribadi atawa kotak masuk haja."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Catatan umum",
+      "title": "Catatan parmintaan publik"
+    },
+    "paragraphs": [
+      "Parmintaan nan masuak ka IATF malalui situs web, surel, Discord, GitHub, atau saluran-kanal IAT F lainnyo dapek manjadi catatan parmintaan publik.",
+      "Catatan parmintaan publik kada parlu marupakan pasan asli. IATF kawa manyimpulakan, manyunting, atawa manyusun ulang parmintaan sabalum publikasi sahingga kabutuhan aksesibilitas kawa diulas tanpa maungkapakan inpurmasi pribadi nang kada diparluakan.",
+      "Catatan parmintaan umum kawa disimpan di organisasi IATF GitHub, di situs web ini, atawa kaduanya.",
+      "Sabalum publikasi, IATF mahapus rincian kontak pribadi nang kada diparluakan, alamat pribadi, wan rincian identifikasi manganai pangguna individu matan teknologi pandukung kacuali publikasi jelas dimaksudakan wan pas.",
+      "Discord diguna'akan gasan koordinasi informal. IATF kada ma-arsipkan parcakapan Discord sacara tapisah sacara default, wan panyimpanan pasan dikendali'akan ulih Discord. Kaputusan nang digawi di Discord harus disimpulakan ka dalam catatan umum di GitHub atawa di tungkaran proyek nang sasuai.",
+      "Catatan parmintaan dikaluarakan dari indeks mesin pencari di mana sacara teknis praktis. Publik baarti kawa ditinjau wan kawa dipertanggungjawabakan. Ini kada baarti dioptimalkan gasan panamuan malalui pancarian ngaran.",
+      "IATF kawa ma-update atawa ma-hapus catatan matan pamukaan publik nang dikontrol IAT F, tagal kada kawa mamastiakan panghapusan matan cache pihak katiga, notification, forks, screenshot, search engine, Discord, atawa sistim eksternal lainnya.",
+      "Amun pesan harus tatap pribadi, jangan kirim lewat saluran umum IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Peran organisasi",
+      "title": "Kursi"
+    },
+    "lead": "Pimpinan maurus IATF di tingkat organisasi. hal ngini babeda lawan peran insinyur nang batanggung jawab par proyek: ketua bertanggung jawab gasan organisasi sacara kasaluruhan, kada gasan panatapan sahari-hari gasan sabuah repositori tunggal.",
+    "duties": {
+      "title": "Apa nang digawi kursi",
+      "items": [
+        "Mambaliakan ijin pamilik di organisasi IATF GitHub",
+        "Tanda tangan pada panarimaan proyek wan kaputusan arsip",
+        "Bafungsi sabagai titik kontak umum gasan IATF",
+        "Ma-koordinasi pamilu tahunan"
+      ],
+      "footnote": "Ketua indak mangikat IATF kapado pangiriman pribadi, karajo nan dibayia, atau pasatujuan tingkek layanan, jo indak mangaluakan kaputusan-kaputusan per-repository maintainer pado arah teknis."
+    },
+    "election": {
+      "title": "Pamilihan tahunan",
+      "paragraphs": [
+        "Pemilihan berlangsung pada dua minggu pertama bulan Desember, hasilnya diumumkan pada tanggal 15 Desember, dan periode baru dimulai pada tanggal 1 Januari.",
+        "Bubuhan pamilih nang layak adalah urang-urang nang baisi peran pangurus di mana-mana repositori IATF sapanjang tahun wan nang maulah paling kada sabuting sumbangsih gabungan ka repositoriIATF di tahun itu. Masing-masing pamilih layak baisi sabuting suara. Kandidat lawan sajumlah suara nang paling banyak manang; amun ada undian nang sama, babak kadua diselenggarakan di minggu katiga bulan Disimbir.",
+        "Pemilihan dijalankan sabagai Diskusi GitHub publik di repositori pamarintahan IATF nang ditunjuk, jadi kandidat, voting, wan hasilnya barataan marupakan bagian dari catatan publik."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitas",
+      "paragraphs": [
+        "Jika kadada pamilihan diselenggarakan dalam satahun tatantu, katua nang wahini tarus bagawi sampai pamilihan salanjutnya. Ini adalah lanjutan nang kada tabatas, lain periode parlindungan  modél ngini dirancang gasan manjaga organisasi stabil pas aktivitasnya randah, kada gasan mamaksa parubahan nang kadada siapa nang siap.",
+        "Ketua kawa mangundurkan diri kapan haja. panjaga aktif jua kawa manyambat pamilihan luar biasa lawan alasan nang dikata'akan, bajalan di bawah aturan nang sama kaya pamilihan tahunan."
+      ]
+    },
+    "current": {
+      "title": "Ketua nang wahini",
+      "fields": [
+        {
+          "label": "Kursi",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Istilahnya",
+          "value": "Sampai pamilu Disimbir 2026"
+        },
+        {
+          "label": "Peran nang diformalkan",
+          "value": "2026"
+        },
+        {
+          "label": "Pamilihan partamo nan dijadwalkan",
+          "value": "Disimbir 2026"
+        }
+      ]
+    },
+    "footnote": "Peran katua diformalkan pada tahun 2026 gasan maulah panjagaan tingkat organisasi sacara eksplisit.Sampai saat itu, tanggung jawab organisasi ditanggung sacara informal ulih pangadeg."
+  },
+  "continuity": {
+    "states": {
+      "title": "Nagara-nagara proyek",
+      "paragraphs": [
+        "Proyek-proyek mamakai sakumpulan nagara-nagara umum nang halus:"
+      ],
+      "items": [
+        "Proposal",
+        "Ditarima",
+        "Aktip",
+        "Stabil",
+        "Macari pamalihara",
+        "Diarsipkan"
+      ],
+      "footnote": "Nagara-nagara ngini maulah pendaptaran mudah gasan dipindai."
+    },
+    "reassignment": {
+      "title": "Penugasan ulang wan panyimpanan arsip",
+      "paragraphs": [
+        "Amun panyelenggara maninggalakan atawa manjadi kada aktif, IATF kawa mamindahakan tanggung jawab, maampihi pambangunan, atawa maarsipakan proyek.",
+        "Proyek kawa jua diarsipkan pas kabutuhan asalnya sudah ditamuakan, pemeliharaan sudah dihentikan, atawa gawian nang ditarusakan kada realistik lagi."
+      ],
+      "footnote": "Proyek-proyek nang diarsipkan tatap kawa dilihat umum kacuali ada alasan nang kuat gasan malakukan lain."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Catatan batas",
+      "title": "Apa nang kada dijamin IATF"
+    },
+    "items": [
+      "pangiriman ka palanggan pribadi",
+      "parjanjian tingkat palayanan",
+      "panarimaan atas satiap proposal",
+      "pemeliharaan jangka panjang gasan setiap proyek"
+    ],
+    "footnote": "IATF adalah model repositori publik, lain layanan pangiriman swasta."
+  }
+}

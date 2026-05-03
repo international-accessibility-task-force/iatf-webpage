@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Kada ditamuakan"
+  },
+  "hero": {
+    "eyebrow": "Kada ditamuakan",
+    "title": "Tungkaran nang diminta kada ditamuakan",
+    "lead": "Pakai jalan utama di bawah hagan bulik ka situs umum.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Rumah",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Jalur nang Pian minta kada ada."
+    ],
+    "items": [
+      {
+        "label": "Rumah",
+        "href": "/"
+      },
+      {
+        "label": "Proyek-proyek",
+        "href": "/projects/"
+      },
+      {
+        "label": "Sambungakan",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibilitas",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pamarintahan",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparansi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

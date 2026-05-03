@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap[babak asal mulanya]"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Sitemap[babak asal mulanya]",
+    "lead": "Sabarataan tungkaran umum di IATF.CC, di satu wadah."
+  },
+  "sections": [
+    {
+      "title": "Halaman utama",
+      "items": [
+        {
+          "label": "Rumah",
+          "href": "/"
+        },
+        {
+          "label": "Proyek-proyek",
+          "href": "/projects/"
+        },
+        {
+          "label": "Maminta sabuah proyek",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pamarintahan",
+          "href": "/governance/"
+        },
+        {
+          "label": "Sambungakan",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksesibilitas",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparansi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyek-proyek",
+  "projectsEmpty": "Kadada proyek nang diterbitakan sampai wahini."
+}

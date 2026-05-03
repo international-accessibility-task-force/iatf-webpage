@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Dari kabutuhan aksesibilitas ka repo publik",
+    "lead": "IATF mambantu asosiasi, kalompok, wan individu mangubah kabutuhan aksesibilitas nyata manjadi proyek open source publik.",
+    "support": [
+      "Proyek nang ditarima dipublikasiakan di organisasi IATF GitHub di bawah lisensi copyleft wan dikambangakan di umum oleh insinyur nang batanggung jawab."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Model operasi publik",
+      "title": "Sabuah jalan umum nang sederhana gasan parangkat lunak nang kawa diakses"
+    },
+    "paragraphs": [
+      "Melalui sabuah formulir, siapapun kawa manyampaiakan masalah aksesibilitas ka IATF. Amun tim kawa maambilnya, sabuah repositori umum GitHub tabuka gasan gawian.",
+      "Satiap proyek nang ditarima baisi rumah umum nang jelas gasan kode, isu, dokumentasi, wan rilis, lawan pangambangan nang dipimpin di tempat terbuka oleh insinyur nang bertanggung jawab."
+    ],
+    "specCard": {
+      "title": "Model operasi publik",
+      "terms": [
+        {
+          "term": "Parluakan",
+          "definition": "Masalah aksesibilitas nang nyata"
+        },
+        {
+          "term": "Pangujian",
+          "definition": "Kesesuaian misi wan kelayakan praktis"
+        },
+        {
+          "term": "Ruang proyek",
+          "definition": "Repositori umum di GitHub"
+        },
+        {
+          "term": "Pamarintahan",
+          "definition": "Kapamilikan organisasi IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prosesnya",
+      "title": "Bagaimana cara kerjanya",
+      "intro": "Modelnya tatap halus supaya jalan umum nyaman dituruti."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ada parmintaan nang disampaiakan",
+        "paragraphs": [
+          "Sabuah asosiasi, kalompok, atawa individu kawa mangirim parmintaan badasarakan kaparluan aksesibilitas nang nyata.",
+          "Parmintaan kawa dimulai malalui situs web, malalui surel ka <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, atawa malalui Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF malihatinya",
+        "paragraphs": [
+          "Kami mamariksa kacocokan misi, ruang lingkup praktis, wan apakah gawian tu tamasuk dalam proyek sumber kabuka umum."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "sabuah repositori umum diulah",
+        "paragraphs": [
+          "Amun proyek ditarima, itu dipublikasiakan di organisasi IATF GitHub di bawah lisensi copyleft.",
+          "Repository manjadi rumah umum kode, isu, dokumentasi, wan rilis."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "insinyur nang bertanggung jawab mamimpin proyek",
+        "paragraphs": [
+          "Seorang insinyur nang bertanggung jawab ditugasakan ke repositori proyek wan pengembangan terjadi di depan umum."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaftaran",
+      "title": "Pendaftaran proyek umum"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mulai dari sini",
+      "title": "Pariksa gawian nang lagi bajalan atawa mulai proyek konkret"
+    },
+    "paragraphs": [
+      "Gunaakan pendaftarannya gasan malihat apa nang sudah umum, atawa mulai masuk amun masalah aksesibilitas konkret harus jadi proyek."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

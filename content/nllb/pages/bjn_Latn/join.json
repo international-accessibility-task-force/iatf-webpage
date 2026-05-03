@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Gabung lawan IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Gabung lawan IATF",
+    "lead": "Kaanggotaan tabuka. Ada babarapa cara gasan bapartisipasi, baik Pian baandakan pada teknologi pandukung, mambangun parangkat lunak nang tasadia, manajamahan, mancuba, atawa mampartahanakan sabuah proyek. Pembahasan wan kaputusan tajadi sacara umum di GitHub wan Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Peran-peran",
+      "title": "Cara gasan manyumbang"
+    },
+    "items": [
+      "<strong>Mintalah sabuah proyek.</strong> Amun Pian manamuakan halangan aksesibilitas nang kawa ditangani ulih parangkat lunak sumber kabuka umum, kirimakan malalui panarima parmintaan.",
+      "<strong>Uji lawan malihat.</strong> Cobalah proyek IATF lawan teknologi bantu nang Pian pakai, laporakan apa nang bafungsi wan apa nang kada bafungsi, wan daptarakan masalah langsung di repositori nang relevan.",
+      "<strong>Tarjamahakan.</strong> Konten sumber dipublikasikan dalam bahasa Inggris biasa pertama. Terjemahan ditambahkan sebagai kontributor tersedia, dimulai dengan bahasa Spanyol.",
+      "<strong>mambangun.</strong> Memilih isu di mana-mana repositori IATF, mengirim permintaan tarik, atau mengambil proyek sebagai insinyur nang bertanggung jawab.",
+      "<strong>Jagaakan.</strong> Proyek nang ada kadang-kadang parlu pangurus hanyar. Rotasi pangurus adalah bagian normal dari model, lain pengecualian."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran-saluran",
+      "title": "Di mana IATF begawi di tempat umum"
+    },
+    "items": [
+      "<strong>GitHub. (Bahasa Inggris:</strong> Isu, manarik parmintaan, pelepasan, wan catatan proyek.",
+      "<strong>Pambantaian.</strong> Pembahasan langsung, koordinasi, dan pertanyaan-pertanyaan informal.",
+      "<strong>Surat elektronik (e-mail).</strong> Pamakaian <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> jika baik GitHub maupun Discord kada cocok."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Langkah salanjutnya",
+      "title": "Pilih saluran nang sesuai lawan cara Pian handak manyumbang"
+    },
+    "paragraphs": [
+      "Sabarataan saluran masuk ka panjalasan umum nang sama wan repositori publik nang sama."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
