@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Yore ma ji nyalo yudogo",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Yore ma ji nyalo yudogo",
+    "lead": "IATF dwaro ni websaitno obed mayot somo kendo tiyo kode mana ka ng'ato tiyo gi keyboard.",
+    "support": [
+      "Kuom web accessibility, IATF tiyo gi [W3C WAI](https://www.w3.org/WAI/) Tiyo gi yore mopogore opogore mag konyo ji ng'eyo dhok ma giwinjo bende konyo ahinya."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kochiwo ripot",
+      "title": "Lando wach moro motudore gi yo ma ji nyalo donjogo e websaitno"
+    },
+    "paragraphs": [
+      "Ka inwang'o gima geng'o ng'ato donjo e websaitni, kwayi ni ior ripot e e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Ripode manyalo konyo oriwo:"
+    ],
+    "items": [
+      "ite ma wach notimoree",
+      "gima ne itemo timo",
+      "teknoloji makonyo, browser, kata gima itiyogo, ka dwarore",
+      "ang'o ma ne odhi marach?",
+      "Ang'o ma ne nyalo konyo?"
+    ],
+    "footnote": "Ok ochuno ni indik ripot ma achiel kachiel e wi bugno."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kaka itiyo kode",
+      "title": "Loso weche motudore gi wach sirkal"
+    },
+    "paragraphs": [
+      "Weche motudore gi yudo weche e Intanet inyalo ket e yo machuok e kar kano weche ma yudore e intanet mondo okony ji ng'eyo kaka inyalo los wechego.",
+      "Kapo ni ripot ma ichiwo oting'o weche maling'ling', wach mano ayanga e wach mibiro ndiko."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kaka Weche Chalo Sani",
+      "title": "Giko mong'ere"
+    },
+    "paragraphs": [
+      "Websaitni oting'o mana weche machuok kendo ok odonjre gi gimoro amora. Loko moko mag dhokgo nyalo bedo ni pok orumo chuth sama itimo tij loko."
+    ]
+  }
+}

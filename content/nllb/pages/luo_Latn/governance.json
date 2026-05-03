@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Yor locho kod chenro mar kano weche",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Yor locho kod chenro mar kano weche",
+    "lead": "IATF miyo tijego bedo mayot ne ji duto mondo osomgi kendo giritgi maber.",
+    "support": [
+      "Sulani lero gik ma nyalo miyo ng'ato oyud thuolo mar timo tijno, kaka itiyo gi kuonde ma okanie weche, kod ting' ma nitie e okang' mar kar kano weche bang' ka oseyie gi tijno."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Chike",
+      "title": "Bedo gi migawo mowinjore, bedo e bwo ng'at machielo, bedo gi thuolo mar timo gimoro"
+    },
+    "cards": [
+      {
+        "title": "Tiyo e Migawono",
+        "paragraphs": [
+          "IATF yie gi tije ma konyo e tieko pek moko ma nyalo geng'o ji yudo buge e dhok ma giwinjo kendo ma konyo ji ahinya.",
+          "Chenro moro amora onego obed maber moloyo mana kaka ng'at machielo tiyo, kendo onego obed kaka kama ji duto nyalo yudoe weche duto ma gidwaro.",
+          "Kuom web accessibility, IATF tiyo gi [W3C WAI](https://www.w3.org/WAI/) Gik ma joma tiyo gi teknoloji makonyo timo, bende nyiso gadier ni gigo tiyo e ngima mapile."
+        ]
+      },
+      {
+        "title": "Yie mar tijno",
+        "paragraphs": [
+          "Inyalo yie gi ng'at mochiwo paro kapo ni nonro mosetim nyiso ni:"
+        ],
+        "items": [
+          "oting'o weche madwarore gadier",
+          "chandruogno nenore maler ma nyalo konyo ng'ato ng'eyo gima onego otim",
+          "yo ma ji nenogo gik moko en gima nyalore e okang ' mamiyo ginyalo chako neno gik moko",
+          "tijno luwore gi chenro mar IATF",
+          "nitie yo maber mar rito kata tieko"
+        ]
+      },
+      {
+        "title": "Ratiro mar bedo gi kar kano weche",
+        "paragraphs": [
+          "Chenro moyiego olos e bwo riwruok mar IATF GitHub.",
+          "Kanyo e kama okanie gik moko duto madwarore, mondo omi chenro moro amora mar gedo osik kaka en, kata bed mana ni joma rito kuondego nyalo lokore bang'e."
+        ]
+      },
+      {
+        "title": "Miyo ji thuolo mar ng'iewo gik moko",
+        "paragraphs": [
+          "Chenro mag IATF tiyo gi copyleft licensing mak mana ka chenrono wacho mopogore:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Weche monego oluw:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injinia kata ng'at matayo tij rito ler",
+      "paragraphs": [
+        "Ng'ato ka ng'ato moyie gi tijno onego obed gi injinia kata ng'at ma rito tijno. Ng'atno nyalo bedo gi ratiro mar donjo e kar kano weche, kendo en gi ting' mar:"
+      ],
+      "items": [
+        "konyo ji ng'eyo kaka onego gitim",
+        "rito chenro mar kar kano weche",
+        "nono kata chano weche kendo golo kwayo",
+        "ndiko weche madwarore e ng'ado paro kuom weche thieth",
+        "konyo jomoko mondo owinj tiend gima isomo"
+      ],
+      "footnote": "Ma en ting' mar repository-level. Organizational ownership odong' gi IATF. Ting' ma ni kae en mana mar reso reso reso mwandu, telo mar tekoniki, kod riwruok mar oganda  ok mar chiwo gik moko e yo ma onge tong', riwruok mag oganda, kata ting' mag service-level oko mar public roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Dongruok mar oganda",
+      "paragraphs": [
+        "Chenro ma ne ochak kokalo kuom IATF itimo e lela. Repository en kama ji nyalo yudoe adiera e wi:"
+      ],
+      "items": [
+        "kod chakruok",
+        "weche",
+        "weche mondiki",
+        "Weche moting'o map mar wuoth",
+        "histori mar gocho"
+      ],
+      "footnote": "Ng'eyo ma dwarore e wi chenro moro ok onego obed mana e chat kata e sanduge ma ji rwakoe wach."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Buge mag sirkal",
+      "title": "Rekod mag kwayo mag ji"
+    },
+    "paragraphs": [
+      "IATF tiyo e lela. Kwayo ma donjo e iIATF ka itiyo gi websait, e-mail, Discord, GitHub, kata yore mamoko mag iATF nyalo bedo rekod mag kwayo mag ji duto.",
+      "IATF nyalo choko, loko, kata chano kwayo ka pok ogoye mondo oyud thuolo mar nono kwayo ma ok oelo weche ma ok ochuno ma ng'ato nyalo ng'eyo.",
+      "Rekod mag kwayo mag ji nyalo bedo e riwruok mar IATF GitHub, e websaitni, kata giduto.",
+      "Kapok oland wachno, IATF golo weche ma ok ochuno mag tudruok gi ji, adres ma ng'ato owuon tiyogo, kod weche ma konyo ng'eyo chal mar ng'at ma tiyo gi teknoloji makonyo, mak mana ka oland wechego en gima owinjore.",
+      "Ywaruok itiyo godo e tudruok ma ok ochan. IATF ok orit weche mag ywaruok e yo mopogore, kendo weche ma iketo e iye ichiko gi Discord. Yiero mitimo e Discord onego ochan e yo ma ji duto nyalo ng'eyo e GitHub kata e websait motudore gi chenrono.",
+      "Weche mag kwayo ok nyal yud e masinde mag manyo weche (search engine indexing) ka mano nyalore e yore mag teknoloji. Weche mag ji duto (public means reviewable and accountable). Wechego ok nyis ni olosgi e yo maber mondo ji oyudgi ka gitiyo gi nyinge.",
+      "IATF nyalo loso weche manyien kata golo weche e kuonde ma ji nyalo nenogie, kata kamano, ok onyal chiwo singo ni ibiro golgi e kuonde mamoko ma jomoko nyalo ketoe weche e pachgi (caches), e weche ma gichiwo, e gik ma giuso, e pichni mag pichni, e masinde mag manyo weche (search engines), e Discord, kata e gik mamoko ma oko.",
+      "Kapo ni nitie wach moro madwarore ni orit e yo ma ng'ato owuon ok ong'eyo, kik ior wachno kokalo kuom yore ma IATF tiyogo."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Migawo mar riwruogno",
+      "title": "Kom mar telo"
+    },
+    "lead": "Jatelono ema tayo chenro mar IATF. Mano opogore gi migawo mar injinia ma tayo chenro moro ka moro: jatelono ochung' ne riwruok duto mar riwruogno, to ok en e wi chenro moro amora mar kano weche.",
+    "duties": {
+      "title": "Gima komno timo",
+      "items": [
+        "Oting'o ratiro mag wuon ot e riwruok mar IATF GitHub",
+        "Luwo chike ma tayo kaka itiyo gi chenro kod chenro mar kano gik moko e kar keno",
+        "Tiyo kaka jal matayo riwruok mar IATF",
+        "Ochano yiero mitimo higa ka higa"
+      ],
+      "footnote": "Jatelono ok chuno IATF mondo ochiw buge e yore ma ng'ato owuon ema chiko, ok ochul tich moro amora, kata oketo winjruok moro amora e wi yore ma ji tiyogo, kendo ok onyal bedo gi ratiro e wi paro ma jal matayo chenro moro amora mar kano buge e Intanet chiwo e wi weche ma tekogi ng'eny."
+    },
+    "election": {
+      "title": "Yiero mitimo higa ka higa",
+      "paragraphs": [
+        "Jatelono iyiero dichiel e higa. Yierono itimo e jumbe ariyo mokwongo e dwe mar Desemba, to weche ma giyudo ilando kapok ochopo Desemba 15, kendo tijno chakore Januar 1.",
+        "Ng'ato ka ng'ato ma nigi ratiro mar goyo ombulu en ng'at ma osebedo ka rito IATF kuom higa achiel kendo osetimo gimoro achiel e higa achielno. Ng'at moro amora man kod ratirono nigi ombulu achiel. Kandida ma oyudo ombulu mang'eny loyo; to ka ombulu okalo, to ombulu mar ariyo itimo e juma mar adek e dwe mar Desemba.",
+        "Yierono itimo e yor mbaka mar GitHub e kar kano weche mag IATF, omiyo joma oyier, ombulu, kod gima ne otimore gin weche ma ji duto ong'eyo."
+      ]
+    },
+    "continuity": {
+      "title": "Dhi Nyime",
+      "paragraphs": [
+        "Kapo ni onge yiero e higa moro, jatelo masani dhi nyime e migawono nyaka yier machielo. Ma en dhi nyime ma ok ong'ere, to ok kinde mar ng'wono  ranyisino olos mondo orit riwruogno osik kochung ' motegno sama tich odok chien, ok mondo ochun ng'ato odog e migawo ma onge ng'at moikore.",
+        "Jatelono nyalo weyo migawono sa asaya. Jokanyo mag riwruogno bende nyalo luongo yiero moro makende ka ginyiso gimomiyo, kendo timo kamano kaluwore gi chike ma itiyogo e yiero ma itimo higa ka higa."
+      ]
+    },
+    "current": {
+      "title": "Jatelo masani",
+      "fields": [
+        {
+          "label": "Kom mar telo",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tiend nyingno",
+          "value": "Nyaka chop yiero ma Desemba 2026"
+        },
+        {
+          "label": "Migawo ma ne omiye e yo ma ratiro",
+          "value": "2026"
+        },
+        {
+          "label": "Yiero mokwongo ma ne ochan",
+          "value": "Desemba 2026"
+        }
+      ]
+    },
+    "footnote": "Migawo mar jakom ne ochan e higa mar 2026 mondo omi chenro mar tayo riwruok obed maler. Nyaka chop kindeno, migawo mar riwruok ne en mar jal ma ne ochako riwruogno."
+  },
+  "continuity": {
+    "states": {
+      "title": "Chenro ma dhi nyime",
+      "paragraphs": [
+        "Chenrogo tiyo gi yore moko matindo tindo mag lendo:"
+      ],
+      "items": [
+        "Weche mochiwo",
+        "Ne oyie",
+        "Tiyo Matek",
+        "Chuny ma ok yiengni",
+        "Dwaro ng'at ma biro rito tijno",
+        "Weche Mosekalo"
+      ],
+      "footnote": "Pinjego miyo somo barupe bedo mayot."
+    },
+    "reassignment": {
+      "title": "Chiwruok manyien kod kano weche e kar kano buge",
+      "paragraphs": [
+        "Kapo ni ng'at ma rito chenrono oweyo tijno, IATF nyalo miyo ng'atno migawo machielo, onyalo chungo tijno matin, kata onyalo tieko tijno chuth.",
+        "Chenro moro bende inyalo ket e kar keno kapo ni ochopo dwaro ma ne en - go mokwongo, ka tij rito odno oserumo, kata ka dhi nyime gi tijno ok nyalre."
+      ],
+      "footnote": "Tije ma oseket e kar kano weche machon, pod yudore ne ji duto, mak mana ka nitie wach moro maduong' manyalo miyo kik gitim kamano."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Weche mag tong'",
+      "title": "Gima IATF ok nyal singoni"
+    },
+    "items": [
+      "chiwo ne ng'ato owuon",
+      "winjruok e wi yore mopogore opogore mag lendo",
+      "rwako paro moro amora ma ng'ato ochiwo",
+      "rito gik moko kuom kinde malach ne tij gedo moro amora"
+    ],
+    "footnote": "IATF en chenro mar kano weche e lela, to ok en chenro ma ng'ato owuon ema chiwo."
+  }
+}

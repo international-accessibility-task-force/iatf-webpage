@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ne dwarore ni ji duto oyud thuolo mar ng'iewo gik moko",
+    "lead": "IATF konyo riwruoge, grube, kod ji achiel achiel mondo olok gik ma gidwaro mondo obed gik ma ji duto nyalo tiyogo.",
+    "support": [
+      "Tije moyiego igolo e riwruok mar IATF GitHub e bwo chik mar copyleft kendo ilosogi e lela gi injinia mong'eyo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Yo ma ji tiyogo",
+      "title": "Yo mayot ma ji duto nyalo ng'eyogo program mag kompyuta"
+    },
+    "paragraphs": [
+      "Kokalo kuom fom moro, ng'ato ang'ata nyalo oro IATF wach moro e wi kaka inyalo yud weche e Intanet.",
+      "Ng'ato ka ng'ato moyie gi tijno nigi kama oyang maler ma ji duto nyalo nenogie kodhi, weche, weche mondiki, kod weche manyien, ka injinia ma nigi ting' ema tayo tijno e lela."
+    ],
+    "specCard": {
+      "title": "Yo ma ji tiyogo",
+      "terms": [
+        {
+          "term": "Dwarruok",
+          "definition": "Chandruok ma ne nitie nikech bedo maonge kuonde ma ji nyalo chopoe"
+        },
+        {
+          "term": "Nono",
+          "definition": "Tiyo e Migawono kod Kaka Inyalo Ti kode e Ngima mar Joot"
+        },
+        {
+          "term": "Kama itimoe chenro",
+          "definition": "Mwandu ma ji duto nyalo yudo e GitHub"
+        },
+        {
+          "term": "Bedo Jorit Maber",
+          "definition": "Riwruok mar IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Yo ma itiyo godo",
+      "title": "Yo ma otiyogo",
+      "intro": "Ne ochan mondo oting'e gik matindo tindo, mondo obed mayot luwo yo ma ji mang'eny luwo."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ka ng'ato okwayo kony",
+        "paragraphs": [
+          "Riwruok moro, grup moro, kata ng'ato achiel, nyalo chiwo kwayo kaluwore gi dwaro ma gin-go kuom yore ma ji nyalo yudogo weche.",
+          "Penjo nyalo chakore e websaitno, kata e e-mail <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kata kokalo kuom Chwanyruok."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF nonone",
+        "paragraphs": [
+          "Wabiro nono kabe tijno owinjore gi tijno, kabe otime e okang' mowinjore, kod kabe onego obed tich ma ji duto nyalo ng'eyo kendo tiyogo."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ne ochak kar kano weche ma ji duto nyalo ng'eyo",
+        "paragraphs": [
+          "Ka oyie gi chenro moro, igoye e riwruok mar IATF GitHub e bwo chik mar copyleft.",
+          "Odno bedo kama ji duto nyalo yudoe chike, weche, buge, kod weche mamoko."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injinia maduong ' ema tayo tijno",
+        "paragraphs": [
+          "Injinia ma ne ochung' ne tijno ne omi migawo mar rito chenro mag gedo, kendo tij gedo ne itimo e lela."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Riwruok mar jondiko",
+      "title": "Rejistari mar tij gedo"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Chak gi kanyo.",
+      "title": "Nono tije ma itimo sani kata chako tich moro sie"
+    },
+    "paragraphs": [
+      "Ti gi rejistari mondo ing'e gik ma ji duto ong'eyo, kata chako manyo weche kapo ni nitie chandruok moro ma nyalo miyo ng'ato odonj e tijno."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

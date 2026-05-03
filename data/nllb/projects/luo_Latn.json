@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Websait mar IATF",
+    "summary": "Websait mar International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ne dwarore ni obed gi kamoro ma ji ne nyalo betie ma ne nyalo leronegi gima ne dhi timore, nyiso chenro ma ne gidhi bedogo, kendo nyiso joma ne dhi konyo mondo ong'e gima onego gitim bang'e.",
+    "why": "Websaitno en dhoot maduong' mar IATF. Ne ogere kaka chenro moro matin ma ok lokre mondo obed mayot somo, loko, kendo rito e lela.",
+    "scopeIn": [
+      "Websait mag ji duto malero wach IATF",
+      "Rejistari mar ji duto mar chenro mag IATF moyiego, matiyo, kendo mokan maber gi chalgi, joma ritogi, kar kano weche, kod ranyisi",
+      "Sula mar kwayo kod fom mar kwayo",
+      "Governance kod weche mang'eny",
+      "Dhok ma ne okwong ndikgo Muma e dho Ingresa",
+      "Tiyo gi Static e Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Kuonde ma jokanyo timoe sigandgi giwegi, akaunt, kata yore ma ji donjogo",
+      "Oting'o kod mar tich, ma odak e kar kano weche mag tich ka tich",
+      "Wuoyo gi ji achiel kachiel e Intanet, ma yudore e Discord",
+      "Luwo weche mag tije mopogore opogore, ma odak e kar kano weche e GitHub mar tijno ka tijno"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Ranyisi mokwongo mar IATF, ma ne orit bang' chopo kama ne ochung'ie.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Nonro mosetim motelo mar tiyo gi gige tich moting'o weche motudore gi konyo ji ng'eyo dhok mopogore opogore e bwo riwruok mar IATF.",
+    "why": "Kanyo en kama ji duto nyalo yudoe weche duto mag tijno, kata obedo ni tijno oserumo.",
+    "scopeIn": [
+      "Ranyisi mokwongo mar gima konyo ji ng'eyo yore ma ginyalo yudogo buge e dhok ma ji mang'eny ong'eyo"
+    ],
+    "scopeOut": [
+      "Tiyo matek e loso kata loso gik manyien",
+      "Ting' mar rito nyithindo",
+      "Kaka onego oti kode e tij loso gik moko"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF ok",
+    "summary": "IATF community bot, mokan bang' chopo kama ochung'ie.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Tiyo gi masinde e alwora mar IATF community channels.",
+    "why": "Kanyo en kama ji duto nyalo yudoe weche duto mag tijno, kata obedo ni tijno oserumo.",
+    "scopeIn": [
+      "Tiyo gi masinde mag goyo mbaka e alwora mar IATF community channels, ma iparo ni en rekod mar ji duto"
+    ],
+    "scopeOut": [
+      "Tiyo matek e loso kata loso gik manyien",
+      "Ting' mar rito nyithindo",
+      "Kaka onego oti kode e tij loso gik moko"
+    ]
+  }
+]

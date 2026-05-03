@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Chenro mag konyo ji ng'eyo Muma",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Chenro mag konyo ji ng'eyo Muma",
+    "lead": "Riwruogno oting'o list mag chenro mag sirkal ma IATF oseloso.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Riwruok mar jondiko",
+      "title": "Rejistari masani"
+    },
+    "intro": [
+      "Ka osego bugego, gibiro ketgi e list man piny kae."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Nyis gima idwaro",
+      "title": "Loso chenro mar konyo ji ng'eyo yore ma ginyalo yudogo kuonde ma gidwaro dhiye"
+    },
+    "paragraphs": [
+      "IATF nono gik ma dwarore mondo ng'ato obed molony ma inyalo lok e tich ma ji duto nyalo tiyogo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Onge chenro moro amora ma osendik nyaka sani",
+    "paragraphs": [
+      "IATF chano chenro mokwongo mar timo tijno e lela.",
+      "Kata kamano, pod inyalo oro kwayo kapo ni in gi dwaro moro sie mar konyo ji ng'eyo dhokno."
+    ]
+  }
+}

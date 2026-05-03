@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Donj e riwruok mar IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Donj e riwruok mar IATF",
+    "lead": "Bedo jakanyo en gima oyawore. Nitie yore mang'eny mag bedo jakanyo, kata bed ni itiyo gi teknoloji makonyo, loso program mayudore mayot, loko, temo, kata rito chenro. Mbaka kod yiero timore e lela e GitHub kod Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Migepe",
+      "title": "Yore mag golo chiwo"
+    },
+    "items": [
+      "<strong>Kwa mondo omiyi tich moro.</strong> Kapo ni iyudo pek moro manyalo bedo ni inyalo loyo kitiyo gi program moro ma sirkal omiyo ji duto, inyalo oro kwayo mari kokalo kuom chenro mar kwayo.",
+      "<strong>Tem kendo non.</strong> Tem tiyo gi IATF gi teknoloji makonyo ma in iwuon itiyogo, ndik gik ma tiyo kod ma ok ti, kae to iket weche duto e kar kano weche madwarore.",
+      "<strong>Loko weche.</strong> Weche ma ne ondik e dho Kisungu ne okwong go e dhok ma ji mang'eny ong'eyo, kae to bang'e ne omedgi e dhok mamoko mana kaka ne osego e dho Spain.",
+      "<strong>Gero gimoro manyien.</strong> Yudo weche e IATF, oro kwayo mag ywayo weche, kata kawo tijno kaka injinia molony.",
+      "<strong>Dhi nyime timo kamano.</strong> Tije ma nitiere sani seche moko nyalo dwaro ni ng'at machielo ema oritgi."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Yore mag lendo",
+      "title": "Ka IATF tiyo e lela"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Weche, ywayo kwayo, gocho, kod rekod mag tijno.",
+      "<strong>Ywaruok.</strong> Wuoyo e yo moriere, tudruok, kod penjo maok ochan.",
+      "<strong>E-mail marwa.</strong> Tiyo kode <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ka GitHub kata Discord ok owinjore."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Okang ' maluwo",
+      "title": "Yier yo ma owinjore gi kaka idwaro golo chiwo"
+    },
+    "paragraphs": [
+      "Chenro duto mag lendo yudore e websait achiel ma ji duto nyalo ng'iyo kendo e kuonde ma ji nyalo yudoe weche e intanet."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

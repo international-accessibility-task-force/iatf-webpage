@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kwa mondo omiyi chenro mar konyo ji obed gi nyalo mar ng'eyo Muma",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kwa mondo omiyi chenro mar konyo ji obed gi nyalo mar ng'eyo Muma",
+    "lead": "IATF nono kwayo mag chenro mag konyo ji ng'e dhok ma giwinjo ma wuok kuom joma dwaro ng'eyo dhokno gadier.",
+    "support": [
+      "Ok ochuno ni nyaka ing'e weche duto motudore gi tuwono, to gima dwarore en mana ng'eyo ni en chandruok mane, ng'ano ma chandore, kod gimomiyo chandruogno nitie."
+    ],
+    "actions": [
+      {
+        "label": "Chako kwayo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Ti kod Discord kar mano",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Yore mag lendo",
+      "title": "Yier yo mayot"
+    },
+    "intro": [
+      "Yorego duto itiyogo e yo machalre."
+    ],
+    "items": [
+      {
+        "label": "Websait mar websaitno",
+        "body": "Ti gi fom man piny kae e chiwo kwayo moriere."
+      },
+      {
+        "label": "E-mail marwa",
+        "body": "Or kwayo mari achiel kachiel ne {{contact.requestsEmail}}Penjo mag e-mail nyalo bedo rekod mag kwayo mag ji bang' nono kendo pwodhogi."
+      },
+      {
+        "label": "Ywaruok",
+        "body": "Chak kanyo kapo ni mano yot. kwayo dhi nyime e nonro achielno."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Kapok ioro kwayo moro amora",
+    "paragraphs": [
+      "IATF tiyo e lela. Kwayo inyalo choki kendo goye kaka rekod mag kwayo e lela e riwruok mar GitHub, e websaitni, kata giduto.",
+      "Kik inyis kuonde ma ng'ato odakie, nambni mag simu, weche thieth, kata weche ma nyalo fwenyogo ng'at ma tiyo gi teknoloji makonyo, mak mana kapo ni mano dwarore kendo iyie mondo IATF onon wechego.",
+      "IATF golo weche ma ok ochuno mag tudruok gi ji kapok gigoyo rekod mag kwayo."
+    ]
+  },
+  "review": {
+    "title": "Nono gik ma igeno",
+    "paragraphs": [
+      "Chiwo kwayo moro ok nyis ni koro ibiro yie gi kwayono.",
+      "IATF nono kwayo ma ng'ato ogolo mondo ong'e ni en tich mowinjore gi tijno, ni en gima nyalore, ni otime e yo maber, kod kabe tijno owinjore oket e kar kano weche ma ji duto nyalo ng'eyo.",
+      "Nitie kwayo moko ma inyalo tam, inyalo ket nyime, kata inyalo lokgi kapok orwakgi."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Yore mag kwayo",
+      "title": "Chiw kwayo"
+    },
+    "fields": [
+      {
+        "kind": "weche ma ng'ato donjogo",
+        "name": "jal ma okwayo",
+        "label": "Nying' kata nying' riwruok",
+        "helper": "Ng'ano ma ne okwayo?"
+      },
+      {
+        "kind": "yiero",
+        "name": "yo mar tudruok",
+        "label": "Yo ma ji nyalo tudorego",
+        "helper": "Onego otim nonro e yo mane?",
+        "required": true,
+        "options": [
+          "E-mail marwa",
+          "Ywaruok"
+        ]
+      },
+      {
+        "kind": "weche ma ng'ato donjogo",
+        "name": "Weche Minyalo Tiyogo e Tudruok gi Jomoko",
+        "label": "Weche mag tudruok",
+        "helper": "E-mail address kata Discord handle mar luwo.",
+        "placeholder": "E-mail adres kata ng'at ma iluongo ni Discord",
+        "required": true
+      },
+      {
+        "kind": "weche ma ng'ato donjogo",
+        "name": "dhok",
+        "label": "Dhok ma ji wacho",
+        "helper": "Dhok mihero, kapo ni mano dwarore.",
+        "value": "Dho Ingresa"
+      },
+      {
+        "kind": "kama ondikie weche",
+        "name": "chandruok",
+        "label": "En chandruok mane ma in iwuon idwaro tieko?",
+        "helper": "Ler ane wachno e yo mayot.",
+        "required": true
+      },
+      {
+        "kind": "kama ondikie weche",
+        "name": "Jogo ma Wachno Omulo",
+        "label": "Gin jomage machandore?",
+        "helper": "Mano ne dhi konyo ng'a?",
+        "required": true
+      },
+      {
+        "kind": "kama ondikie weche",
+        "name": "weche mamoko",
+        "label": "Weche mamoko",
+        "helper": "Nyis gimachielo manyalo konyo e lero gimomiyo dwarore: gimomiyo dwarore, ranyisi, weche mwanyalo tiyogo, paro ma ok kare e wi program moro, kata gik madwarore ni otim mapiyo."
+      },
+      {
+        "kind": "yiero",
+        "name": "openSourceConsent",
+        "label": "Be iyie gi chenro mar timo nonro ma ji duto nyalo tiyogo?",
+        "helper": "Chenro moyiego en mar kano weche duto e bwo IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ee, mano en adier.",
+          "Ooyo",
+          "Ok ang'eyo."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Kapo ni orwaki",
+      "title": "Tiend rwako jomoko en ang'o?"
+    },
+    "items": [
+      "kar kano weche e riwruok mar IATF GitHub",
+      "injinia ma ne omi migawo mar timo tijno",
+      "layisensi mar copyleft mar kod kod gik ma itiyogo e tijno",
+      "dongruok mar oganda e kar kano weche",
+      "weche mondiki e IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Chako mbaka",
+      "title": "Kwayo moro machuok kendo malong'o oromo mondo omi ichak"
+    },
+    "paragraphs": [
+      "Kapo ni in gi dwaro mar konyo ji obed gi lony kuom weche thieth, kendo iparo ni mano onego obed chenro mar oganda duto, inyalo oronwa wachno."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

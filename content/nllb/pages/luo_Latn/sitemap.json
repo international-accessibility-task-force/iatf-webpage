@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Map mar Websait"
+  },
+  "hero": {
+    "eyebrow": "Indeks mar Weche",
+    "title": "Map mar Websait",
+    "lead": "Websait duto mag IATF.CC yudore kamoro achiel."
+  },
+  "sections": [
+    {
+      "title": "Ohinga mar Jarito",
+      "items": [
+        {
+          "label": "Pacho",
+          "href": "/"
+        },
+        {
+          "label": "Chenro mag gedo",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kwa mondo omiyi chenro moro",
+          "href": "/propose/"
+        },
+        {
+          "label": "Loch maber",
+          "href": "/governance/"
+        },
+        {
+          "label": "Riwreuru",
+          "href": "/join/"
+        },
+        {
+          "label": "Yore ma ji nyalo yudogo",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Bedo Mang'won",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Chenro mag gedo",
+  "projectsEmpty": "Onge chenro moro amora ma osendik nyaka sani."
+}

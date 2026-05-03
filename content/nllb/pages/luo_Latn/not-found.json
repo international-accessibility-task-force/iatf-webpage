@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ok oyud"
+  },
+  "hero": {
+    "eyebrow": "Ok oyud",
+    "title": "Websait ma ne idwaro ne ok oyudore",
+    "lead": "Ti gi yore madongo man piny kae mondo idog kama ji ng'enyie.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Pacho",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Yo ma ne ipenjono onge."
+    ],
+    "items": [
+      {
+        "label": "Pacho",
+        "href": "/"
+      },
+      {
+        "label": "Chenro mag gedo",
+        "href": "/projects/"
+      },
+      {
+        "label": "Riwreuru",
+        "href": "/join/"
+      },
+      {
+        "label": "Yore ma ji nyalo yudogo",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Loch maber",
+        "href": "/governance/"
+      },
+      {
+        "label": "Bedo Mang'won",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
