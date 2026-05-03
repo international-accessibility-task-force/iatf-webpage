@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइटमैप"
+  },
+  "hero": {
+    "eyebrow": "सूचकांक मा",
+    "title": "साइटमैप",
+    "lead": "आई.ए.टी.एफ.सी. पर हर सार्वजनिक पृष्ठ, एक ही जगह पर."
+  },
+  "sections": [
+    {
+      "title": "मुख्य पृष्ठ अउर लेख",
+      "items": [
+        {
+          "label": "घर मा",
+          "href": "/"
+        },
+        {
+          "label": "परियोजना मा",
+          "href": "/projects/"
+        },
+        {
+          "label": "परियोजना का अनुरोध करे",
+          "href": "/propose/"
+        },
+        {
+          "label": "शासन प्रशासन मा",
+          "href": "/governance/"
+        },
+        {
+          "label": "शामिल होइए",
+          "href": "/join/"
+        },
+        {
+          "label": "एक्सेसिबिलिटी",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शिता का अहसास",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "परियोजना मा",
+  "projectsEmpty": "अबे तक कोई प्रोजेक्ट नहीं देखा जा सका अहै ।"
+}

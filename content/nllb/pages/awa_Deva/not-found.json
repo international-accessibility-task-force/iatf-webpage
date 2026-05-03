@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "नाहीं मिला"
+  },
+  "hero": {
+    "eyebrow": "नाहीं मिला",
+    "title": "मांगे गए पृष्ठ का पता नहीं",
+    "lead": "सार्वजनिक स्थल पर वापस जाय खातिर नीचे मुख्य मार्ग कय उपयोग करा जाय।",
+    "support": [],
+    "actions": [
+      {
+        "label": "घर मा",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "जउन राहे क तू पूछ्या ह, उ कउनो भी राहे पइ नाहीं अहइ।"
+    ],
+    "items": [
+      {
+        "label": "घर मा",
+        "href": "/"
+      },
+      {
+        "label": "परियोजना मा",
+        "href": "/projects/"
+      },
+      {
+        "label": "शामिल होइए",
+        "href": "/join/"
+      },
+      {
+        "label": "एक्सेसिबिलिटी",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "शासन प्रशासन मा",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शिता का अहसास",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

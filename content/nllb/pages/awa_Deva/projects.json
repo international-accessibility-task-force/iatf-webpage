@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "पब्लिक एक्सेसिबिलिटी प्रोजेक्ट्स",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "पब्लिक एक्सेसिबिलिटी प्रोजेक्ट्स",
+    "lead": "इ रजिस्ट्री IATF के माध्यम से बनाए गए सार्वजनिक परियोजनाओं का सूचीबद्ध करता है। स्वीकृत पहुंच परियोजनाएं, साइट अवसंरचना, और संग्रहीत प्रोटोटाइप यहां दिखाई देते हैं।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "रजिस्ट्रेशन खातिर",
+      "title": "वर्तमान रजिस्टर मा"
+    },
+    "intro": [
+      "स्वीकृत परियोजनाएं प्रकाशित होय के बाद हियाँ सूचीबद्ध अहैं।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "कौनो जरूरी चीज मांगते!",
+      "title": "एक्सेसिबिलिटी क एक ठोस जरूरत क एक सार्वजनिक परियोजना मा बदलना"
+    },
+    "paragraphs": [
+      "IATF ठोस सुलभता आवश्यकताओं का जायजा लेत है जौन उपयोगी पब्लिक ओपन सोर्स काम मा बदल सका जात है।"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "अभी तक कयिउ परियोजना प्रकाशित नाही भा हय",
+    "paragraphs": [
+      "आई.ए.टी.एफ. आपन पहिला सार्वजनिक प्रोजेक्ट सेट तैयार करत बा.",
+      "अगर जरूरी होय, तौ कृपया एहका सही पृष्ठ शीर्षक पय लइ जाँय अउर आप आप सुनिश्चित अहैं कि ई कइसे करै का अहै।"
+    ]
+  }
+}
