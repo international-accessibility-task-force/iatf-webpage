@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "پروژه های دسترسی عمومی",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "پروژه های دسترسی عمومی",
+    "lead": "این رجیستری پروژه های عمومی را که از طریق IATF نگهداری می شود ، فهرست می کند. پروژه های قابل دسترسی پذیرفته شده ، زیرساخت های سایت و نمونه های اولیه بایگانی در اینجا قابل مشاهده هستند.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "سوابق",
+      "title": "رجیستری فعلی"
+    },
+    "intro": [
+      "پروژه های پذیرفته شده پس از انتشار در اینجا لیست شده اند."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "یک نیاز را ارسال کنید",
+      "title": "تبدیل یک نیاز ملموس دسترسی به یک پروژه عمومی"
+    },
+    "paragraphs": [
+      "IATF نیازمندی های ملموس دسترسی را بررسی می کند که می تواند به کار منبع باز عمومی مفید تبدیل شود."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "هنوز هیچ پروژه ای منتشر نشده است",
+    "paragraphs": [
+      "IATF اولین مجموعه پروژه های عمومی خود را آماده می کند.",
+      "شما همچنان می توانید یک درخواست ارسال کنید اگر نیاز به دسترسی دارید."
+    ]
+  }
+}

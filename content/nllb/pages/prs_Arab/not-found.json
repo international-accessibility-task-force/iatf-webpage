@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "پیدا نشده است"
+  },
+  "hero": {
+    "eyebrow": "پیدا نشده است",
+    "title": "صفحه مورد نظر یافت نشد",
+    "lead": "از مسیر های اصلی زیر برای بازگشت به سایت عمومی استفاده کنید.",
+    "support": [],
+    "actions": [
+      {
+        "label": "خانه",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "مسیر مورد نظر شما وجود ندارد."
+    ],
+    "items": [
+      {
+        "label": "خانه",
+        "href": "/"
+      },
+      {
+        "label": "پروژه ها",
+        "href": "/projects/"
+      },
+      {
+        "label": "یکجا شوید",
+        "href": "/join/"
+      },
+      {
+        "label": "قابلیت دسترسی",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حاکمیت",
+        "href": "/governance/"
+      },
+      {
+        "label": "شفافیت",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

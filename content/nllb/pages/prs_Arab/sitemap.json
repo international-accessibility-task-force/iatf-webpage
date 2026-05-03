@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "نقشه سایت"
+  },
+  "hero": {
+    "eyebrow": "شاخص ها",
+    "title": "نقشه سایت",
+    "lead": "تمام صفحه های عمومی iatf.cc، در یک مکان."
+  },
+  "sections": [
+    {
+      "title": "صفحه های اصلی",
+      "items": [
+        {
+          "label": "خانه",
+          "href": "/"
+        },
+        {
+          "label": "پروژه ها",
+          "href": "/projects/"
+        },
+        {
+          "label": "درخواست یک پروژه",
+          "href": "/propose/"
+        },
+        {
+          "label": "حاکمیت",
+          "href": "/governance/"
+        },
+        {
+          "label": "یکجا شوید",
+          "href": "/join/"
+        },
+        {
+          "label": "قابلیت دسترسی",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "شفافیت",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "پروژه ها",
+  "projectsEmpty": "هنوز هیچ پروژه ای منتشر نشده است."
+}
