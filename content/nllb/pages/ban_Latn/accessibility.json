@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibilitas",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibilitas",
+    "lead": "IATF matetujon mangda situs web puniki sederana, kawacen, prasida kaakses antuk keyboard, miwah kompatibel sareng teknologi bantu.",
+    "support": [
+      "Antuk aksesibilitas web, IATF ngawigunayang [W3C WAI](https://www.w3.org/WAI/) Aksesibilitas praktis taler kadasarin antuk pengalaman langsung saking sang sané ngawigunayang teknologi bantu."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ngalaporang",
+      "title": "Ngalaporang pikobet aksesibilitas"
+    },
+    "paragraphs": [
+      "Yening wenten pikobet ring situs web puniki, ledang laporang antuk email:",
+      "{{contact.accessibilityEmail}}",
+      "Laporan sané maguna minakadi:"
+    ],
+    "items": [
+      "lembar ring dija pikobet punika dumadi",
+      "Napi sane sampun laksanayang semeton?",
+      "teknologi bantu napi, browser, utawi perangkat napi sane keanggen, yening wenten",
+      "napi sané nénten becik?",
+      "napi sané prasida ngwantu"
+    ],
+    "footnote": "Ragane nenten perlu nyuratang laporan bug resmi. Deskripsi sane jelas sampun jangkep."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ngaturang",
+      "title": "Pengelolaan isu publik"
+    },
+    "paragraphs": [
+      "Pikobet aksesibilitas prasida kacutetang ring genah panyimpenan publik mangda prasida kabecikang. rincian kontak pribadi miwah inpormasi pribadi sané nénten perlu kaicalang sadurung kamedalang.",
+      "Yening laporan ragané madaging gatra pribadi, uningayang becik-becik ring gatra punika."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kahanan sané mangkin",
+      "title": "Watesan sané kauningin"
+    },
+    "paragraphs": [
+      "Situs puniki sengaja cenik lan akehan statis. makudang versi basa minab durung jangkep ri tatkala nyiapang terjemahan."
+    ]
+  }
+}

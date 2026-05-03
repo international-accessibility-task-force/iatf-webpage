@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Saking kabuatang aksesibilitas nuju repo publik",
+    "lead": "IATF ngawantu asosiasi, seka, miwah individu anggén nguwah kebutuhan aksesibilitas sané sayuwakti dados proyek open source.",
+    "support": [
+      "Proyek sané katrima kamedalang ring organisasi IATF GitHub ring sor lisénsi copyleft miwah kalimbakang ring publik olih insinyur sané bertanggung jawab."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Model operasi publik",
+      "title": "Pamargi umum sané sadarana antuk perangkat lunak sané prasida kaaksés"
+    },
+    "paragraphs": [
+      "Antuk wangun, sapa sira ugi prasida ngaturang pikobet aksesibilitas ring IATF. Yening tim prasida ngambil, repositori publik GitHub kaunggahang antuk pakaryan punika.",
+      "Soang-soang proyék sané katrima madué genah publik sané jelas anggén kode, masalah, dokumentasi, miwah rilis, antuk panglimbak sané kapimpin ring genah terbuka olih insinyur sané bertanggung jawab."
+    ],
+    "specCard": {
+      "title": "Model operasi publik",
+      "terms": [
+        {
+          "term": "Kawéntenan",
+          "definition": "Pikobet aksesibilitas sané sujati"
+        },
+        {
+          "term": "Nyelehin malih",
+          "definition": "Cocog sareng misi miwah kelayakan praktis"
+        },
+        {
+          "term": "Ruang proyék",
+          "definition": "Panyimpenan publik GitHub"
+        },
+        {
+          "term": "Pengelolaan",
+          "definition": "Kepemilikan organisasi IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prosesi",
+      "title": "Sapunapi kawigunannyané",
+      "intro": "Modelne tetep cenik apang jalan umumne aluh nututin."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Pangaptin kaunggahang",
+        "paragraphs": [
+          "Asosiasi, seka, utawi individu prasida nyihnayang pinunas sané madasar antuk kabuatang aksesibilitas sané sujati.",
+          "Pinunas prasida kakawitin saking situs wéb, antuk e-mail ring <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, utawi nganggén Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF nureksain punika",
+        "paragraphs": [
+          "Kami meninjau misi cocok, ruang lingkup praktis, dan apakah pekerjaan masuk proyek open source umum."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Panyimpenan publik kakaryanin",
+        "paragraphs": [
+          "Yéning proyék katrima, proyék punika kawedar ring organisasi IATF GitHub ring sor lisénsi copyleft.",
+          "Repository dados genah publik saking kode, isu, dokumentasi, miwah rilis."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Insinyur sané bertanggung jawab mimpin proyék punika",
+        "paragraphs": [
+          "Insinyur sané bertanggung jawab katugasang ring repositori proyek miwah panglimbak mamargi ring publik."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaptaran",
+      "title": "Pendaptaran proyék publik"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ngawitin saking iriki",
+      "title": "Nyelehin pakaryan sané sedek kamargiang utawi ngawitin proyék konkret"
+    },
+    "paragraphs": [
+      "Anggén pendaptaran anggén nyingakin napi sané sampun kasobyahang, utawi ngawit intake yéning pikobet aksesibilitas konkret dados proyék."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

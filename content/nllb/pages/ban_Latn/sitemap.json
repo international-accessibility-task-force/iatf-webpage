@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Peta genah"
+  },
+  "hero": {
+    "eyebrow": "Indéks",
+    "title": "Peta genah",
+    "lead": "Sabilang kaca publik ring iatf.cc, ring genah asiki."
+  },
+  "sections": [
+    {
+      "title": "Kaca utama",
+      "items": [
+        {
+          "label": "Umahnyané",
+          "href": "/"
+        },
+        {
+          "label": "Proyék-proyék",
+          "href": "/projects/"
+        },
+        {
+          "label": "Nunas proyék",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pamréntahan",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ngiring sareng-sareng",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksesibilitas",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparansi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyék-proyék",
+  "projectsEmpty": "Durung wénten proyék sané kamedalang."
+}

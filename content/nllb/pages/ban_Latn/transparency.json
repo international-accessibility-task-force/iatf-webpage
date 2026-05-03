@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparansi",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparansi",
+    "lead": "IATF makarya ring publik antuk default. pamutus proyék, paubahan kode, pauwahan pamréntahan, miwah prabéya operasi kacatet ring genah publik. kaca puniki nyihnayang ring dija soang-soang soroh catetan magenah miwah sapunapi carané ngwacén.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Suratan sané matopik",
+      "title": "Ring dija genah catetan punika magenah"
+    },
+    "items": [
+      "<strong>Kaputusan proyék.</strong> Kaputusan akseptasi, arsip, miwah penugasan malih kacatet pinaka isu utawi rilis ring genah panyimpenan sané relevan, miwah kaselehin ring pendaptaran publik. <a href=\"/projects/\">pendaptaran</a>. Ring Ring",
+      "<strong>Nyuwun catetan.</strong> Rekam permintaan publik kasimpen ring organisasi IATF GitHub, ring situs web puniki, utawi makakalih. Rekam prasida nyimpulang, ngédit, utawi ngarestrukturisasi permintaan asli mangda kaperluan aksesibilitas prasida katureksain tanpa ngunggahang informasi pribadi sané nénten perlu. Keputusan sané nénten manut kasimpulang ring rekam publik rikala ipun nglalahin proyék utawi kaputusan tata kelola. Rekaman permintaan nénten kaindeks olih mesin pencari ring genah sané praktis. Cingak rekam: permintaan publikasi kapertama kantun katungkasin.",
+      "<strong>Kodé magentos.</strong> Sabilang pauwahan kode marupa public commit ring repositori sané relevan. Cingak IATF <a href=\"{{contact.githubOrgUrl}}\">Organisasi GitHub</a>. Ring Ring",
+      "<strong>Pamargin pamréntahan mauwah.</strong> Pembaruan ring kaca pamréntahan kaloktah pinaka komitmen ring <code>iatf-website</code> Repository. nyingakin <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">ngaryanin riwayat</a> ring GitHub.",
+      "<strong>Biaya operasi.</strong> IATF nyaga prabéya operasi sané alit miwah nyatet prabea infrastruktur publik sané maulang-ulang.",
+      "<strong>Catetan koordinasi.</strong> Catetan saking tinjauan utawi kaputusan masikian ring GitHub pabligbagan ring genah panyimpenan sané relevan  nyingakin <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Pabligbagan</a> ring <code>iatf-website</code> genah panyimpenan."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Biaya sané",
+      "title": "Rekaman prabéya sané kawigunayang"
+    },
+    "paragraphs": [
+      "IATF nyaga infrastruktur publiknyané sané alit. mawit warsa 2022, prabéya operasi sané utama inggih punika aran domain.",
+      "Suratan puniki nénten marupa laporan keuangan sané sampun diaudit, punika wantah log biaya operasi publik antuk infrastruktur sané kaanggén antuk ngajaga IATF online."
+    ],
+    "footnote": "Kwitansi prasida kaanggén referensi utawi kawedar risampuné kaédit. alamat pribadi, rincian tagihan, miwah informasi akun sané nénten perlu nénten dados bagian saking catetan publik.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Wewidangan",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Pangargannyané",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Catetan",
+            "value": "Domain kasayagayang olih mugiwarafx. Hosting nganggén free-tier utawi low-cost infrastruktur saking Cloudflare. <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Wewidangan",
+            "value": "<code>aksesibilitas internasionalaskforce.com</code>"
+          },
+          {
+            "label": "Pangargannyané",
+            "value": "USD 18.68 sané"
+          },
+          {
+            "label": "Catetan",
+            "value": "Domain kasayagayang olih mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Wewidangan",
+            "value": "<code>aksesibilitas internasionalaskforce.com</code>"
+          },
+          {
+            "label": "Pangargannyané",
+            "value": "USD 17,06 Ringgit"
+          },
+          {
+            "label": "Catetan",
+            "value": "Domain kasayagayang olih mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Wewidangan",
+            "value": "<code>aksesibilitas internasionalaskforce.com</code>"
+          },
+          {
+            "label": "Pangargannyané",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Catetan",
+            "value": "Domain kasayagayang olih mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Wewidangan",
+            "value": "<code>aksesibilitas internasionalaskforce.com</code>"
+          },
+          {
+            "label": "Pangargannyané",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Catetan",
+            "value": "Domain kasayagayang olih mugiwarafx. Hosting nganggén prasarana gratis utawi murah saking GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Catetan wates",
+      "title": "Napi sané nénten umum"
+    },
+    "paragraphs": [
+      "Makudang-kudang materi kajaga saking catetan publik antuk tatujon:"
+    ],
+    "items": [
+      "Rincian kontak pribadi saking pamilet.",
+      "Korespondensi pribadi sané kaanggén wantah anggén nlatarang pinunas sadurung katerima, katulak, utawi karingkesang.",
+      "Alamat pribadi, nomor telepon, miwah rincian pribadi sané nénten perlu.",
+      "Napi ja sané prasida nyihnayang angga sang sané ngawigunayang teknologi bantu sakéwanten nénten kacumpuin.",
+      "Raw Discord pabligbagan, sajabaning wénten gatra sané kaaptiang kagingsirang ka catetan proyék publik."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Wacén malih",
+      "title": "Governance inggih punika buku aturan ring ungkur catetan puniki."
+    },
+    "paragraphs": [
+      "Yéning kayun uning sapunapi proyék katrima, kasimpen, utawi katugasang malih, wacen kaca tata kelola."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

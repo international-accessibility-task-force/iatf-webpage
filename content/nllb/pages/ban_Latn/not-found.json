@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nénten katemuin"
+  },
+  "hero": {
+    "eyebrow": "Nénten katemuin",
+    "title": "Kaca sané kaaptiang nénten prasida katemuin",
+    "lead": "Anggén margi utama ring sor puniki anggén mawali ka genah umum.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Umahnyané",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Pamargin sane tunas semeton nenten wenten."
+    ],
+    "items": [
+      {
+        "label": "Umahnyané",
+        "href": "/"
+      },
+      {
+        "label": "Proyék-proyék",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ngiring sareng-sareng",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibilitas",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pamréntahan",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparansi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

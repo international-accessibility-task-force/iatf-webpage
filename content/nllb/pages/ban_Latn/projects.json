@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyek aksesibilitas publik",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyek aksesibilitas publik",
+    "lead": "Registri puniki nyatet proyék-proyék publik sané kajaga olih IATF. Proyék aksesibilitas sané katrima, infrastruktur situs, miwah prototipe sané kasimpen kasimpen iriki.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaptaran",
+      "title": "Pendaftaran sané mangkin"
+    },
+    "intro": [
+      "Proyék sané katrima kaunggahang iriki risampuné kawedar."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ngirimang napi sané kabuatang",
+      "title": "Ngentosin kebutuhan aksesibilitas konkret dados proyek publik"
+    },
+    "paragraphs": [
+      "IATF nureksain kabutuhan aksesibilitas konkret sané prasida kadadosang karya sumber terbuka publik sané mawiguna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Durung wénten proyék sané kamedalang",
+    "paragraphs": [
+      "IATF sedek nyiapang proyek publik kapertama.",
+      "Ragané kantun prasida ngirim panunas yéning wénten kaperluan aksesibilitas sané konkret."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Situs IATF",
+    "summary": "Situs publik antuk International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ngamerluang genah publik sané ajeg sané nlatarang model, nyurat proyék, miwah nuntun kontributor nuju langkah selanturnyané sané patut.",
+    "why": "Situs puniki pinaka pintu utama publik IATF. Kawangun pinaka proyék statis sané alit mawinan dangan kawacén, kasalin, miwah kajaga ring genah sané kabuka.",
+    "scopeIn": [
+      "Halaman arahan publik sané nlatarang model IATF",
+      "Registri publik saking proyék IATF sané katrima, aktif, miwah kasimpen sareng status, pangoptimal, repositori, miwah demo",
+      "Sawijining kaca miwah formulir panarimaan panyuwunan",
+      "Kaca pamréntahan miwah transparansi",
+      "Sumber basa Inggris antuk struktur siap antuk terjemahan",
+      "Panganggén statis ring Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Area anggota swasta, akun, utawi aliran login",
+      "Hosting kode sumber proyék, sané maurip ring repositori soang-soang proyék",
+      "Real-time chat, sané maurip ring Discord",
+      "Tracking isu antuk proyék individu, sané maurip ring repositori GitHub soang-soang proyék"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Prototipe awal IATF, kasimpen risampuné ngamolihang titik penghentian alami.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Eksplorasi awal saking alat sané fokus ring aksesibilitas ring sor payung IATF.",
+    "why": "Panyimpenan kasimpen ring publik pinaka catetan pakaryan, yadiastun panglimbak aktif sampun wusan.",
+    "scopeIn": [
+      "Prototipe awal alat aksesibilitas sané kasimpen pinaka catetan publik"
+    ],
+    "scopeOut": [
+      "Panglimbak aktif utawi pakaryan fitur",
+      "Komitmen pangropéa",
+      "Panganggén sané kasaranang ring produksi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot komunitas IATF, kasimpen risampuné ngamolihang titik pamendak alami.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Otomatisasi ngiterin saluran komunitas IATF.",
+    "why": "Panyimpenan kasimpen ring publik pinaka catetan pakaryan, yadiastun panglimbak aktif sampun wusan.",
+    "scopeIn": [
+      "Otomatisasi discord ring sekitar saluran komunitas IATF, kajaga pinaka catetan publik"
+    ],
+    "scopeOut": [
+      "Panglimbak aktif utawi pakaryan fitur",
+      "Komitmen pangropéa",
+      "Panganggén sané kasaranang ring produksi"
+    ]
+  }
+]

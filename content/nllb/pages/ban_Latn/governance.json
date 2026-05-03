@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Tata kelola miwah model repositori",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Tata kelola miwah model repositori",
+    "lead": "IATF ngajaga proyék aksesibilitas publik, prasida kawacén, miwah prasida karesepang.",
+    "support": [
+      "Kaca puniki nlatarang indik napi sané kaanggén, sapunapi genah panyimpenan kasimpen, miwah napi sané dados tanggung jawab tingkat panyimpén sasampun katrima."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Awig-awig",
+      "title": "Misi cocok, kepemilikan, lisénsi"
+    },
+    "cards": [
+      {
+        "title": "Misi sané patut",
+        "paragraphs": [
+          "IATF nerima karya sané ngicalang hambatan aksesibilitas sané sujati miwah madué nilai publik sané jelas.",
+          "Proyék patut maguna lintangan ring alur kerja pribadi miwah prasida kawigunayang pinaka genah panyimpenan publik.",
+          "Antuk aksesibilitas web, IATF ngawigunayang [W3C WAI](https://www.w3.org/WAI/) Pangalaman langsung saking sang sané ngawigunayang teknologi bantu taler pinaka bukti praktis indik napi sané prasida mamargi ring kawigunan sané sujati."
+        ]
+      },
+      {
+        "title": "Panarimaan proyék",
+        "paragraphs": [
+          "Usulan prasida katrima rikala panyelehan nyihnayang:"
+        ],
+        "items": [
+          "punika nyangkepin kaperluan aksesibilitas sané sayuwakti",
+          "Pikobet punika jelas pisan anggén evaluasi",
+          "ruang lingkup nyané realistis anggén ngaluncurang",
+          "pakaryan nyumponin sareng misi IATF",
+          "wénten pamargi sané becik nuju pangropéa utawi panguntat"
+        ]
+      },
+      {
+        "title": "Kepemilikan gudang",
+        "paragraphs": [
+          "Proyek sané katrima kakaryanin ring organisasi IATF GitHub.",
+          "Repositories meneng irika mawinan soang-soang proyék ngalestariang genah publik sané ajeg, yadiastun sang sané ngenterang raris magentos."
+        ]
+      },
+      {
+        "title": "Lisénsi sané kaicén",
+        "paragraphs": [
+          "Proyék IATF ngawigunayang lisénsi copyleft sajabaning proyék nyihnayang tiosan:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Dokuméntasi:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Insinyur utawi pangopènan sané bertanggung jawab",
+      "paragraphs": [
+        "Sabilang proyék sané katrima patut madué insinyur utawi pangropéa sané bertanggung jawab."
+      ],
+      "items": [
+        "ngajahin panglimbak ring publik",
+        "ngajaga struktur gudang",
+        "nyelehin utawi ngatur pikobet miwah ngunggahang pinunas",
+        "dokumen kaputusan teknis sané penting",
+        "jagaang proyék punika prasida karesepang olih anak tiosan"
+      ],
+      "footnote": "Puniki wantah tanggung jawab tingkat repositori. kepemilikan organisasi tetep sareng IATF. tanggung jawab iriki inggih punika pengelolaan repositori, arah teknis, lan koordinasi publik  nenten pangiriman pribadi sane nenten kawatesin, integrasi khusus, utawi komitmen tingkat layanan ring luar peta jalan publik."
+    },
+    "publicDevelopment": {
+      "title": "Pangwangunan publik",
+      "paragraphs": [
+        "Proyék sané kasobyahang ring IATF kaunggahang ring publik."
+      ],
+      "items": [
+        "kode sumber",
+        "pikobet",
+        "dokumentasi sané",
+        "catetan peta jalan",
+        "Sejarah rilis"
+      ],
+      "footnote": "Kawruhan proyék sané mabuat nénten wantah dados kacingak ring obrolan pribadi utawi kotak masuk."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Rekam publik",
+      "title": "Rekam pamundut publik"
+    },
+    "paragraphs": [
+      "IATF makarya ring publik antuk default. pinunas sané ngranjing ring Iatf nganggén situs web, email, Discord, GitHub, utawi saluran iatf sané tiosan prasida dados catetan pinunas publik.",
+      "IATF prasida nyimpulang, ngédit, utawi ngarestrukturisasi permintaan sadurung kamedalang mangda kaperluan aksesibilitas prasida katureksain tanpa nyihnayang informasi pribadi sané nénten perlu.",
+      "Rekam permintaan publik prasida kasimpen ring organisasi IATF GitHub, ring situs web puniki, utawi makakalih.",
+      "Sadurung kamedalang, IATF ngicalang rincian kontak pribadi sané nénten perlu, alamat pribadi, miwah rincian identifikasi indik sang anganggé téknologi bantu soang-soang, sajabaning yéning pamedalan punika kaaptiang miwah patut.",
+      "Discord kaanggén antuk koordinasi informal. IATF nénten nga-archive pabligbagan Discord antuk default, miwah panyimpen gatra kakendaliang olih Discord. Pamutus sané kamargiang ring Discord patut kaselehin ring catetan publik ring GitHub utawi ring kaca proyék sané relevan.",
+      "Rekaman pinunas nénten dados kaindeks olih mesin pencari ring genah sané praktis. Publik maarti prasida katureksain miwah polih tanggung jawab. Punika nénten maarti kaoptimalisasi anggén katemuin saking seseleh aran.",
+      "IATF prasida nguahin utawi ngicalang sesuratan saking genah publik sané kakontrol olih iATF, sakéwanten nénten prasida ngaptiang pangicalang saking cache, notifikasi, forks, screenshot, mesin pencari, Discord, utawi sistem eksternal tiosan.",
+      "Yéning orti mangda tetep pribadi, sampunang ngirim nganggén saluran publik IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Peran organisasi",
+      "title": "Korsi"
+    },
+    "lead": "Sang sané dados ketua madué tanggung jawab ring tingkat organisasi ring IATF. Puniki mabinayan saking peran insinyur sané bertanggung jawab ring soang-soang proyék: ketua bertanggung jawab majeng ring organisasi makasami, nénten ja antuk pamargi sadina-dina ring genah panyimpenan tunggal.",
+    "duties": {
+      "title": "Napi sané kamargiang olih kursi",
+      "items": [
+        "Ngunggahang hak pamilik ring organisasi IATF GitHub",
+        "Signs saking akseptasi proyék miwah kaputusan arsip",
+        "Pinaka titik kontak publik antuk IATF",
+        "Koordinasi pamilihan taunan"
+      ],
+      "footnote": "Ketua nénten ngiket IATF ring pangiriman pribadi, pakaryan sané dibayar, utawi perjanjian tingkat layanan, miwah nénten ngaonang kaputusan-kaputusan pangropéa per-repository indik arah teknis."
+    },
+    "election": {
+      "title": "Pemilihan nyabran warsa",
+      "paragraphs": [
+        "Ketua kapilih apisan ring awarsa. Pemilihan mamargi ring kalih wuku kapertama sasih Désémber, pikolih sané kamedalang ring tanggal 15 Desember, miwah masa jabatan sané anyar kakawitin ring tanggal 1 Januari.",
+        "Pamilet sané polih milih inggih punika krama sané madué swadharma dados pangropéa ring IATF salami awarsa miwah sampun ngicénin paling kidik asiki wantuan gabungan ring sajeroning awarsa punika. soang-soang pamilet madué asiki suara. pamilet sané molihang suara pinih akéh polih pamutus; yéning nénten wénten pamutus, pamutus sané kaping kalih kalaksanayang ring wuku kaping tiga sasih Désémber.",
+        "Pamilihan kamargiang pinaka pabligbagan GitHub publik ring genah panyimpenan pamréntahan IATF, punika mawinan para calon, suara, miwah pikolih makasami pinaka pahan saking catetan publik."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitas",
+      "paragraphs": [
+        "Yéning nénten wénten pemilu ring awarsa sané jagi rauh, ketua sané mangkin kantun dados ketua ngantos pemilu selanturnyané.",
+        "Ketua prasida mundur ring galah napi manten. sané aktif taler prasida nyarengang pemilihan ekstraordinér antuk alasan sané kawedar, sané kamargiang nganutin uger-uger sané pateh sekadi pemilihan tahunan."
+      ]
+    },
+    "current": {
+      "title": "Présidén sané mangkin",
+      "fields": [
+        {
+          "label": "Korsi",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Istilah sané kaanggén",
+          "value": "Ngantos pemilu Désémber 2026"
+        },
+        {
+          "label": "Peran sané kaformalang",
+          "value": "2026"
+        },
+        {
+          "label": "Pemilu sané kapertama",
+          "value": "Désémber 2026"
+        }
+      ]
+    },
+    "footnote": "Ring warsa 2026 kawéntenan jabatan punika kaformalisasiang mangda prasida nyihnayang tata kelola ring tingkat organisasi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Negara proyék",
+      "paragraphs": [
+        "Proyék ngawigunayang makudang-kudang negara bagian:"
+      ],
+      "items": [
+        "Usulan",
+        "Katrima",
+        "Aktip",
+        "Tetap ajeg",
+        "Ngrereh pangopènan",
+        "Kasimpen ring arsip"
+      ],
+      "footnote": "Negara-negara puniki nadosang pendaptaran punika dangan antuk kasuryanin."
+    },
+    "reassignment": {
+      "title": "Reassignasi miwah panyimpenan arsip",
+      "paragraphs": [
+        "Yéning sang sané ngamargiang pangropéa ngicalang utawi nénten aktif malih, IATF prasida ngentosin tanggung jawab, ngentiang panglimbak, utawi ngarsip proyek.",
+        "Proyék taler prasida kasimpen rikala kawéntenan sané kapertama sampun kacumpuin, pangropéa sampun puput, utawi pakaryan sané nglantur nénten malih realistis."
+      ],
+      "footnote": "Proyék-proyék sané kasimpen ring arsip tetep kacingak olih kramané sajabaning wénten alasan sané kuat."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Catetan wates",
+      "title": "Napi sané nénten kajamin olih IATF"
+    },
+    "items": [
+      "pangiriman klien swasta",
+      "pasatujuan tingkat layanan",
+      "panarimaan saking soang-soang usulan",
+      "pangropéa jangka panjang antuk soang-soang proyék"
+    ],
+    "footnote": "IATF inggih punika model repositori publik, nénten layanan pangiriman swasta."
+  }
+}

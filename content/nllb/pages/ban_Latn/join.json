@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ngeranjing ring IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ngeranjing ring IATF",
+    "lead": "Keanggotaan kabuka. Wénten makudang-kudang pamargi antuk nyarengin, napiké ragané ngandelang teknologi bantu, ngwangun perangkat lunak sané prasida kaaksés, nerjemahang, nguji, utawi miara proyék. Diskusi miwah kaputusan kamargiang ring publik ring GitHub miwah Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Tugas-tugas",
+      "title": "Sapunapi antuk ngwantu"
+    },
+    "items": [
+      "<strong>Nyuwun proyek.</strong> Yening ragané manggihin penghalang aksesibilitas sané prasida kaungkulin olih perangkat lunak sumber terbuka publik, kirimang ring intake request.",
+      "<strong>Uji sareng tinjauan.</strong> Coba proyék IATF sareng téknologi bantu sané kaanggén, lapor napi sané mamargi miwah napi sané nénten, miwah gelah masalah langsung ring repositori sané relevan.",
+      "<strong>Terjemahkan.</strong> Konten sumber kawedar kapertama ring basa Inggris, salanturnyané katerjemahang olih para kontributor sané sampun kasayagayang, kakawitin saking basa Spanyol.",
+      "<strong>Ngwangun.</strong> Nyemak pikobet ring genah panyimpenan IATF, ngirim pinunas, utawi ngambil proyék pinaka insinyur sané bertanggung jawab.",
+      "<strong>Ngupapira indiké punika.</strong> Proyék-proyék sané wénten kadang-kadang ngamerluang pangraksa sané anyar. rotasi pengraksa inggih punika pahan sané lumrah saking model, nénten ja pengecualian."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Ring dija IATF makarya ring genah umum"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issues, pull requests, releases, miwah project records.",
+      "<strong>Nénten adung.</strong> Pabligbagan langsung, koordinasi, miwah pitakén informal.",
+      "<strong>Kirim ring tiang.</strong> Ngawigunayang <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> Yéning GitHub utawi Discord nénten cocok."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Léngkah selanturnyané",
+      "title": "Pilih saluran sané cocok sareng cara ragané makontribusi"
+    },
+    "paragraphs": [
+      "Makasami saluran ngranjing ring panureksan publik sané pateh miwah genah panyimpenan publik sane pateh."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

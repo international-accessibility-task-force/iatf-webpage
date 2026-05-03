@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Nunas proyék aksesibilitas",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Nunas proyék aksesibilitas",
+    "lead": "IATF nureksain aplikasi antuk proyék aksesibilitas sané kakawitin saking kabutuhan sané sujati.",
+    "support": [
+      "Indiké punika nénten ja perlu katrangan sané jangkep, sakéwanten mangda wénten pikobet sané jelas, indik sapa sira sané keni dampaknyané, miwah napi mawinan punika mabuat."
+    ],
+    "actions": [
+      {
+        "label": "Ngawiti panjalukan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Anggén Discord sajabaning",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Pilihin margi sané pinih dangan"
+    },
+    "intro": [
+      "Samian margi ngranjing ring panureksan sané pateh."
+    ],
+    "items": [
+      {
+        "label": "Situs wèb",
+        "body": "Anggén formulir ring sor puniki anggén nyumponin pinunas sané mastruktur."
+      },
+      {
+        "label": "E-mailnyané",
+        "body": "Kirim permintaan langsung ring {{contact.requestsEmail}}Panyuwunan email prasida dados catetan panyuwunan publik risampun panyelehan miwah panyusunan."
+      },
+      {
+        "label": "Pikobet",
+        "body": "Ngawitin drika yéning punika sané pinih dangan. Pangaptiné kantun mamargi ring panureksa sané pateh."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sadurungé ragané ngirimang pinunas",
+    "paragraphs": [
+      "IATF makarya ring publik. pinunas prasida karingkes miwah kamedalang pinaka catetan pinunas publik ring organisasi GitHub, ring situs web puniki, utawi makakalih.",
+      "Sampunang ngeranjingang alamat pribadi, nomor telepon, rincian medis, utawi informasi identifikasi indik panganggén teknologi bantu soang-soang sajabaning indiké punika mabuat miwah semeton nyaman antuk IATF sané nureksain.",
+      "IATF ngicalang rincian kontak pribadi sané nénten perlu sadurung ngamedalang catetan permintaan."
+    ]
+  },
+  "review": {
+    "title": "Nyelehin ekspektasi",
+    "paragraphs": [
+      "Nyumponin pinunas nénten ja garansi panampén.",
+      "IATF nureksain pinunas antuk misi cocok, kelayakan, kawigunan, miwah napiké pakaryan punika ngranjing ring repositori publik.",
+      "Makudang-kudang pinunas prasida katulak, katunda, utawi kauwah sadurung katrima."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulir pamundut",
+      "title": "Nyumponin pinunas"
+    },
+    "fields": [
+      {
+        "kind": "input sané",
+        "name": "sané nunas",
+        "label": "Wastan utawi organisasi ragané",
+        "helper": "Sapasirake sane ngarsayang?"
+      },
+      {
+        "kind": "pilih",
+        "name": "KontakRoute",
+        "label": "Pamargin kontak sané kaaptiang",
+        "helper": "Sapunapi carané ngamargiang seseleh?",
+        "required": true,
+        "options": [
+          "E-mailnyané",
+          "Pikobet"
+        ]
+      },
+      {
+        "kind": "input sané",
+        "name": "KontakRincian",
+        "label": "Rincian kontak",
+        "helper": "Alamat e-mail utawi alamat Discord antuk tindak lanjut.",
+        "placeholder": "Alamat surélék utawi alamat Discord",
+        "required": true
+      },
+      {
+        "kind": "input sané",
+        "name": "basa sané",
+        "label": "Basa sané kaanggén",
+        "helper": "Basa sané kaaptiang, yéning mabuat.",
+        "value": "Basa Inggris"
+      },
+      {
+        "kind": "widang téks",
+        "name": "pikobet",
+        "label": "Pikobet napi sané i raga mautsaha nepasin?",
+        "helper": "Indayang gambarin pikobet antuk basa sané saderana.",
+        "required": true
+      },
+      {
+        "kind": "widang téks",
+        "name": "Panganggén sané keni dampak",
+        "label": "Sapasirake sane keni panglalah punika?",
+        "helper": "Sapasirake sane jaga polih pitulungan saking paindikane punika?",
+        "required": true
+      },
+      {
+        "kind": "widang téks",
+        "name": "extraContext[suntiang _ suntiang sumber]",
+        "label": "Konteks tambahan",
+        "helper": "Bagikan napi manten sane lianan sane ngwantu nlatarang kawigunannyane: napi mawinan penting, conto, referensi, ide perangkat lunak kasar, utawi wates galah."
+      },
+      {
+        "kind": "pilih",
+        "name": "openSourceConsent[suntiang _ suntiang sumber]",
+        "label": "Nyaman sareng pangwangunan sumber terbuka umum?",
+        "helper": "Proyék sané katrima inggih punika genah panyimpenan publik ring IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Inggih",
+          "Nénten",
+          "Nénten ja pasti."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Yéning katrima",
+      "title": "Napi artos katrima punika?"
+    },
+    "items": [
+      "Repository publik ring organisasi IATF GitHub",
+      "insinyur sané bertanggung jawab katugasang ring proyék punika",
+      "Lisénsi copyleft antuk kode miwah bahan proyék",
+      "panglimbak publik ring genah panyimpenan",
+      "entri pendaptaran ring situs IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ngawitin pabligbagan",
+      "title": "Pinunas sané cutet miwah jelas sampun jangkep anggén ngawitin"
+    },
+    "paragraphs": [
+      "Yéning ragané madué kabuatang sané sujati indik aksesibilitas miwah mapikayun indiké punika patut kadadosang proyék publik, kirimang ring tiang."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
