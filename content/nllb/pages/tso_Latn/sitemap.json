@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Xikombo",
+    "title": "Sitemap",
+    "lead": "Matluka hinkwawo lama kumekaka eka iatf.cc, endhawini yin'we."
+  },
+  "sections": [
+    {
+      "title": "Matluka-nkulu",
+      "items": [
+        {
+          "label": "Ekaya",
+          "href": "/"
+        },
+        {
+          "label": "Tiphurojeke",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kombela ntirho",
+          "href": "/propose/"
+        },
+        {
+          "label": "Vulawuri",
+          "href": "/governance/"
+        },
+        {
+          "label": "Joyina",
+          "href": "/join/"
+        },
+        {
+          "label": "Ku fikeleleka",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Vuxokoxoko",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Tiphurojeke",
+  "projectsEmpty": "A ku si va ni maphepha ya ntirho lama kandziyisiweke."
+}

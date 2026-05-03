@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "A yi kumeki"
+  },
+  "hero": {
+    "eyebrow": "A yi kumeki",
+    "title": "Tluka leri u ri lavaka a ri kumeki",
+    "lead": "Tirhisa magondzo lamakulu lama nga laha hansi leswaku u tlhelela endhawini ya mani na mani.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ekaya",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Gondzo leri u ri kombelaka a ri kona."
+    ],
+    "items": [
+      {
+        "label": "Ekaya",
+        "href": "/"
+      },
+      {
+        "label": "Tiphurojeke",
+        "href": "/projects/"
+      },
+      {
+        "label": "Joyina",
+        "href": "/join/"
+      },
+      {
+        "label": "Ku fikeleleka",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Vulawuri",
+        "href": "/governance/"
+      },
+      {
+        "label": "Vuxokoxoko",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

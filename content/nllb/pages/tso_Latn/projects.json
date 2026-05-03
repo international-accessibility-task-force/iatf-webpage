@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Tiphurojeke ta ku fikeleleka ka vanhu",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Tiphurojeke ta ku fikeleleka ka vanhu",
+    "lead": "Rhijisitara leri ri xaxameta tiphurojeke ta mani na mani leti hlayisiwaka hi IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rhekhodo",
+      "title": "Rhekhodo ya sweswi"
+    },
+    "intro": [
+      "Tiphurojeke leti amukeriweke ti xaxametiwe laha endzhaku ka loko ti kandziyisiwile."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Rhumela xikombelo",
+      "title": "Ku hundzula xilaveko xa xiviri xa ku fikeleleka xi va ntirho wa mani na mani"
+    },
+    "paragraphs": [
+      "IATF yi kambela swilaveko swa nkoka swa ku fikelela leswi nga hundzuriwaka ku va ntirho wa nkoka wa xihlovo lexi pfulekeke xa mani na mani."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "A ku si va ni tiprojeke leti kandziyisiweke",
+    "paragraphs": [
+      "IATF yi le ku lunghiseleleni ka ntirho wa yona wo sungula wa le rivaleni.",
+      "Wa ha swi kota ku rhumela xikombelo loko u ri na xilaveko xo karhi xa ku fikeleleka."
+    ]
+  }
+}

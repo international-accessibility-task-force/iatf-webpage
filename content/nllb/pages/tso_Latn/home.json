@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ku suka eka xilaveko xo kota ku nghena eka ti-repo ta mani na mani",
+    "lead": "IATF yi pfuna tinhlengeletano, mintlawa ni vanhu vo karhi ku hundzula swilaveko swa xiviri swa ku kota ku nghena eka Internet swi va tiprogreme ta mani na mani leti nga ni xihlovo lexi pfulekeke.",
+    "support": [
+      "Tiphurojeke leti amukeriweke ti hangalasiwa eka nhlangano wa IATF GitHub ehansi ka layisense ya copyleft naswona ti hluvukisiwa erivaleni hi munjhiniyara loyi a nga na vutihlamuleri."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Ndlela leyi mfumo wu tirhaka ha yona",
+      "title": "Ndlela yo olova yo kuma tiprogreme ta khompyuta leti kumekaka hi ku olova"
+    },
+    "paragraphs": [
+      "Hi ku tirhisa fomo, mani na mani a nga rhumela xiphiqo xa ku fikeleleka eka IATF.",
+      "Phurojeke yin'wana na wun'wana leyi amukeriweke yi na yindlu ya mani na mani ya khodi, timhaka, tidokhumente, ni ku humesiwa, laha nhluvukiso wu kongomisiwaka erivaleni hi munjhiniyara la nga ni vutihlamuleri."
+    ],
+    "specCard": {
+      "title": "Ndlela leyi mfumo wu tirhaka ha yona",
+      "terms": [
+        {
+          "term": "Xilaveko",
+          "definition": "Xiphiqo xa xiviri xa ku fikeleleka"
+        },
+        {
+          "term": "Mpfuxeto",
+          "definition": "Ku faneleka ka ntirho ni ku koteka ka xiviri"
+        },
+        {
+          "term": "Ndhawu ya ntirho",
+          "definition": "Vuhlayiselo bya GitHub bya mani na mani"
+        },
+        {
+          "term": "Vulanguteri",
+          "definition": "Vumaki bya nhlangano wa IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Endlelo",
+      "title": "Ndlela leyi yi tirhaka ha yona",
+      "intro": "Xikombiso lexi xi endliwe hi xikongomelo xo va xi tshama xi ri xitsongo leswaku swi ta olova ku famba eka xona."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Xilaveko xa nyiketiwa",
+        "paragraphs": [
+          "Nhlangano, ntlawa kumbe munhu a nga endla xikombelo lexi sekeriweke eka xilaveko xa xiviri xa ku fikeleleka.",
+          "Swikombelo swi nga sungula eka website, hi ku rhumela imeyili eka <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kumbe hi ku tirhisa Njhekanjhekisano."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF yi yi kambisisile",
+        "paragraphs": [
+          "Hi kambisisa ku faneleka ka ntirho, ku tirha ka wona, ni loko ntirho wu faneleka eka phurojeke ya mani na mani ya xihlovo lexi pfulekeke."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ku endliwa vuhlayiselo bya mani na mani",
+        "paragraphs": [
+          "Loko phurojeke yi amukeriwa, yi kandziyisiwa eka nhlangano wa IATF GitHub ehansi ka layisense ya copyleft.",
+          "Vuhlayiselo byi va kaya ra mani na mani ra khodi, minkandziyiso, tidokhumente ni leswi humesiwaka."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Munjhiniyara la nga ni vutihlamuleri hi yena a kongomisaka ntirho",
+        "paragraphs": [
+          "Munjhiniyara la nga ni vutihlamuleri u averiwa ku endla ntirho lowu naswona ntirho lowu wu endliwa erivaleni."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rhekhodo",
+      "title": "Rhekhodo ya phurojeke ya mani na mani"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sungula laha",
+      "title": "Languta ntirho lowu endliwaka sweswi kumbe u sungula ntirho wo karhi"
+    },
+    "paragraphs": [
+      "Tirhisa rejistara ku vona leswi se swi tiviwaka hi mani na mani, kumbe u sungula ku nghenisa loko xiphiqo xo karhi xa ku fikeleleka xi fanele ku va phurojeke."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

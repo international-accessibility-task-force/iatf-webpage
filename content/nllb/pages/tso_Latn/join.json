@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Joyina IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Joyina IATF",
+    "lead": "Nhlangano wu pfulekile. Ku na tindlela to tala to hoxa xandla, ku nga khathariseki leswaku u tirhisa thekinoloji yo pfuneta, ku aka software leyi kumekaka, ku hundzuluxela, ku kambela, kumbe ku hlayisa phurojeke. Mbulavurisano na swiboho swi humelela erivaleni eka GitHub na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Swiphemu",
+      "title": "Tindlela to hoxa xandla"
+    },
+    "items": [
+      "<strong>Kombela ntirho.</strong> Loko u kuma xiphiqo lexi nga tlhantlhiwaka hi ku tirhisa progreme ya mahala, xi rhumele eka ndzawulo yo amukela swikombelo.",
+      "<strong>Ku kambela ni ku pfuxeta.</strong> Ringeta tiphurojeke ta IATF hi thekinoloji yo pfuneta leyi u yi tirhisaka, vika leswi tirhaka ni leswi nga tirhiki, kutani u hoxa swiphiqo hi ku kongoma eka vuhlayiselo lebyi faneleke.",
+      "<strong>Hundzuluxela.</strong> Rungula ra masungulo ri kandziyisiwa hi Xinghezi xo olova ku sungula. Vuhundzuluxeri byi engeteriwa loko vatsari va ri kona, ku sungula hi Xipaniya.",
+      "<strong>Aka.</strong> Hlawula swiphiqo eka vuhlayiselo byihi na byihi bya IATF, rhumela swikombelo swo koka, kumbe teka phurojeke tanihi munjhiniyara wa yona la nga ni vutihlamuleri.",
+      "<strong>Hlayisa.</strong> Tiphurojeke leti nga kona sweswi minkarhi yin'wana ti lava munhu un'wana loyi a nga ta ti khathalela."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Swindledyana",
+      "title": "Laha IATF yi tirhaka erivaleni"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Swivilelo, swikombelo swo koka, ku humesiwa, na tirhekhodo ta phurojeke.",
+      "<strong>Ku nga twanani.</strong> Bulo leri hanyaka, ntirhisano ni swivutiso leswi nga hleriwangiki.",
+      "<strong>Rhumela e-mail.</strong> Tirhisa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> loko ku nga ri GitHub kumbe Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Goza leri landzelaka",
+      "title": "Hlawula ndlela leyi fambelanaka ni ndlela leyi u lavaka ku hoxa xandla ha yona"
+    },
+    "paragraphs": [
+      "Switichi hinkwaswo swi nghena eka nkambisiso wun'we wa mani na mani ni le ka vuhlayiselo lebyi fanaka bya vanhu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

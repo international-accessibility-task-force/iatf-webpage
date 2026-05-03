@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kombela phurojeke ya ku fikeleleka",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kombela phurojeke ya ku fikeleleka",
+    "lead": "IATF yi kambela swikombelo swa tiphurojeke ta ku fikeleleka leti sungulaka eka xilaveko xa xiviri.",
+    "support": [
+      "A swi bohi leswaku u va ni vuxokoxoko hinkwabyo, kambe u fanele u tiva xiphiqo xa kona, leswaku xi khumba mani nileswaku ha yini xi ri xa nkoka."
+    ],
+    "actions": [
+      {
+        "label": "Sungula xikombelo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Tirhisa Discord ematshan'wini ya sweswo",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Swindledyana",
+      "title": "Hlawula ndlela yo olova"
+    },
+    "intro": [
+      "Magondzo hinkwawo ma kamberiwa hi ndlela leyi fanaka."
+    ],
+    "items": [
+      {
+        "label": "Website",
+        "body": "Tirhisa fomo leyi nga laha hansi ku rhumela xikombelo lexi hleriweke."
+      },
+      {
+        "label": "E-mail ya wena",
+        "body": "Rhumela xikombelo hi ku kongoma eka {{contact.requestsEmail}}Xikombelo xa imeyili xi nga va rhekhodo ya xikombelo xa mani na mani endzhaku ka ku xiyisisiwa na ku lulamisiwa."
+      },
+      {
+        "label": "Ku nga twanani",
+        "body": "Sungula kwalaho loko sweswo swi olova. Xikombelo xa ha ya emahlweni eka mpfuxeto lowu fanaka."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Loko u nga si rhumela xikombelo",
+    "paragraphs": [
+      "IATF yi tirha erivaleni. Swikombelo swi nga katsakanyiwa ni ku kandziyisiwa tanihi tirhekhodo ta xikombelo xa le rivaleni eka nhlangano wa GitHub, eka website leyi, kumbe eka haswimbirhi.",
+      "U nga tsali tiadirese ta vanhu, tinomboro ta tinqingho, vuxokoxoko bya swa vutshunguri, kumbe rungula leri kombisaka leswaku munhu u tirhisa switirhisiwa swa thekinoloji handle ka loko swi boha leswaku u endla tano naswona u pfumela leswaku IATF yi kambisisa rungula rero.",
+      "IATF yi susa vuxokoxoko bya vutihlanganisi lebyi nga lavekiki loko yi nga si hangalasa tirhekhodo ta swikombelo."
+    ]
+  },
+  "review": {
+    "title": "Ku languteriwa ka mpfuxeto",
+    "paragraphs": [
+      "Ku endla xikombelo a swi vuli swona leswaku xikombelo xa wena xi ta amukeriwa.",
+      "IATF yi kambela swikombelo swa ku faneleka ka ntirho, ku koteka, ku pfuna, na loko ntirho wu fanele ku va eka vuhlayiselo bya mani na mani.",
+      "Swikombelo swin'wana swi nga ha ariwa, swi tlheriseriwa endzhaku kumbe swi cinciwa swi nga si amukeriwa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomo ya xikombelo",
+      "title": "Ku rhumela xikombelo"
+    },
+    "fields": [
+      {
+        "kind": "ku nghenisa",
+        "name": "mukomberi",
+        "label": "Vito kumbe nhlangano wa wena",
+        "helper": "I mani la endlaka xikombelo?"
+      },
+      {
+        "kind": "hlawula",
+        "name": "ContactRoute (Ndlela yo tihlanganisa)",
+        "label": "Ndlela leyi rhandziwaka yo vulavurisana",
+        "helper": "Xana ku fanele ku landzeleriwa yini?",
+        "required": true,
+        "options": [
+          "E-mail ya wena",
+          "Ku nga twanani"
+        ]
+      },
+      {
+        "kind": "ku nghenisa",
+        "name": "Vuxokoxoko",
+        "label": "Vuxokoxoko byo tihlanganisa",
+        "helper": "Adirese ya e-mail kumbe nomboro ya Discord leswaku u ta kuma vuxokoxoko.",
+        "placeholder": "Adirese ya E-mail kumbe vito ra Discord",
+        "required": true
+      },
+      {
+        "kind": "ku nghenisa",
+        "name": "ririmi",
+        "label": "Ririmi",
+        "helper": "Ririmi leri u ri rhandzaka, loko ri laveka.",
+        "value": "Xinghezi"
+      },
+      {
+        "kind": "ndhawu yo tsalela eka yona",
+        "name": "xiphiqo",
+        "label": "Hi xihi xiphiqo lexi u ringetaka ku xi tlhantlha?",
+        "helper": "Hlamusela xihinga xa kona hi marito lama twisisekaka.",
+        "required": true
+      },
+      {
+        "kind": "ndhawu yo tsalela eka yona",
+        "name": "Vatirhisi lava khumbekaka",
+        "label": "I vamani lava khumbekaka?",
+        "helper": "Xana leswi a swi ta pfuna mani?",
+        "required": true
+      },
+      {
+        "kind": "ndhawu yo tsalela eka yona",
+        "name": "extraNhlamuselo",
+        "label": "Vuxokoxoko lebyi engetelekeke",
+        "helper": "Vulavulani hi swilo swin'wana leswi nga pfunaka ku hlamusela xilaveko xa kona, swo tanihi leswaku ha yini swi ri swa nkoka, swikombiso, tinhlamuselo leti ku vulavuriwaka ha tona, ndlela yo olova yo tirhisa progreme ya khompyuta kumbe nkarhi lowu u nga ta yi tirhisa ha wona."
+      },
+      {
+        "kind": "hlawula",
+        "name": "openSourceConsent",
+        "label": "Xana u titwa u ntshunxekile loko u ri karhi u endla ndzavisiso wa xihlovo lexi pfulekeke?",
+        "helper": "Tiphurojeke leti amukeriweke i ti-repository ta mani na mani ehansi ka IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ina",
+          "E-e",
+          "A ndzi tiyiseki"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Loko yi amukeriwa",
+      "title": "Leswi ku amukeriwa swi vulaka swona"
+    },
+    "items": [
+      "vuhlayiselo bya mani na mani eka nhlangano wa IATF GitHub",
+      "munjhiniyara la nga ni vutihlamuleri la averiweke ntirho",
+      "mpfumelelo wa copyleft wa khodi na swilo swa phurojeke",
+      "nhluvukiso wa le rivaleni eka vuhlayiselo",
+      "rhekhodo ya ntsariso eka sayiti ya IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sungula bulo",
+      "title": "Xikombelo xo koma, lexi twisisekaka xi ringene ku sungula"
+    },
+    "paragraphs": [
+      "Loko u ri ni xilaveko xa xiviri xa ku endla leswaku rungula leri ri kumeka hi ku olova naswona u vona onge ri fanele ri hangalasiwa eka vanhu hinkwavo, hi kombela u hi rhumela rona."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

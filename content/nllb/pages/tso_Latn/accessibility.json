@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ku fikeleleka",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ku fikeleleka",
+    "lead": "Xikongomelo xa IATF i ku endla leswaku website leyi yi olova, yi hlayeka hi ku olova naswona yi kota ku tirhisiwa hi tikhompyuta ni hi switirhisiwa swin'wana swa thekinoloji.",
+    "support": [
+      "Eka ku fikeleleka ka web, IATF yi tirhisa [W3C WAI](https://www.w3.org/WAI/) Ku fikeleleka ka xiviri ku tlhela ku seketeriwa hi ntokoto lowu kongomeke wa vatirhisi va thekinoloji yo pfuneta."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Xiviko",
+      "title": "Vika xiphiqo xa ku fikeleleka"
+    },
+    "paragraphs": [
+      "Loko u kuma swihinga eka website leyi, hi kombela u vika hi ku tirhisa imeyili:",
+      "{{contact.accessibilityEmail}}",
+      "Swiviko leswi pfunaka swi katsa leswi landzelaka:"
+    ],
+    "items": [
+      "tluka leri xiphiqo xi humeleleke eka rona",
+      "leswi a wu ringeta ku swi endla",
+      "thekinoloji leyi u yi tirhisaka, browser kumbe xitirhisiwa lexi u xi tirhisaka, loko swi ri tano",
+      "I yini lexi nga fambangiki kahle?",
+      "leswi a swi ta va swi pfunile"
+    ],
+    "footnote": "A swi bohi leswaku u tsala xiviko xa xihoxo xa kona."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ku fambisa",
+      "title": "Ku tamela timhaka ta mani na mani"
+    },
+    "paragraphs": [
+      "Timhaka ta ku fikeleleka ti nga katsakanyiwa eka vuhlayiselo bya mani na mani lebyi faneleke leswaku ti ta lulamisiwa erivaleni. Vuxokoxoko bya vutihlanganisi bya munhu na mahungu ya xihundla lama nga lavekiki ya susiwa ku nga si kandziyisiwa.",
+      "Loko xiviko xa wena xi katsa rungula ra xihundla, swi veke erivaleni eka rungula ra wena."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Xiyimo xa sweswi",
+      "title": "Swipimelo leswi tivekaka"
+    },
+    "paragraphs": [
+      "Tindzimi tin'wana ti nga ha va ti nga helelanga loko vuhundzuluxeri byi ri karhi byi lunghiseleriwa."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Website ya IATF",
+    "summary": "Web site ya le rivaleni ya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF a yi lava kaya leri tiyeke ra mani na mani leri a ri ta hlamusela mpfampfarhuto, ri longoloxa tiphurojeke ni ku kongomisa lava hoxaka xandla eka goza leri landzelaka leri faneleke.",
+    "why": "Xiyenge lexi i nyangwa wa le mahlweni wa IATF. Xi akiwe tanihi phurojeke leyitsongo leswaku swi olova ku xi hlaya, ku xi hundzuluxela ni ku xi hlayisa erivaleni.",
+    "scopeIn": [
+      "Matluka ya mani na mani lama hlamuselaka endlelo ra IATF",
+      "Rhijisitara ra mani na mani ra tiphurojeke ta IATF leti amukeriweke, leti tirhisiwaka ni leti hlayisiweke, leti nga ni xiyimo, muhlayisi, vuhlayiselo ni nkombiso",
+      "Tluka ro amukela xikombelo na fomo",
+      "Matluka ya mafumelo na vuhlanganisi",
+      "Xihlovo xa Xinghezi lexi nga ni xivumbeko lexi lunghekeleke ku hundzuluxeriwa",
+      "Ku tirhisiwa ka Static eka Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Tindhawu ta swirho swa le xihundleni, tiakhawunti, kumbe migingiriko yo nghena",
+      "Ku hlayisiwa ka khodi ya xihlovo ya phurojeke, leyi tshamaka eka vuhlayiselo bya ntirho ha wun'we",
+      "Mbulavurisano wa nkarhi wa xiviri, lowu kumekaka eka Discord",
+      "Ku landzelerisa timhaka eka tiphurojeke to hambana, leti tshamaka eka vuhlayiselo bya projeke ha yin'we bya GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Xifaniso xo sungula xa IATF, lexi hlayisiweke endzhaku ka loko xi fikile laha xi yimaka kona.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Vulavisisi byo sungula bya xitirhisiwa lexi kongomisiweke eka ku fikeleleka ehansi ka xambhulele xa IATF.",
+    "why": "Vuhlayiselo byi hlayisiwa erivaleni tanihi rhekhodo ya ntirho, hambi leswi nhluvukiso wu yimeke.",
+    "scopeIn": [
+      "Xikombiso xo sungula xa xitirhisiwa lexi endleriweke ku fikeleleka lexi hlayisiwaka tanihi rhekhodo ya mani na mani"
+    ],
+    "scopeOut": [
+      "Nhluvukiso lowu tirhaka kumbe ntirho wo hlawuleka",
+      "Vutihlamuleri bya nhlayiso",
+      "Matirhiselo lama bumabumeriwaka eka vuhumelerisi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF community bot, yi hlayisiwe endzhaku ka loko yi fikile laha yi yimaka kona.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Switirhisiwa swa IATF swa tikhompyuta.",
+    "why": "Vuhlayiselo byi hlayisiwa erivaleni tanihi rhekhodo ya ntirho, hambi leswi nhluvukiso wu yimeke.",
+    "scopeIn": [
+      "Ku nga twanani loku nga kona eka IATF community channels, ku hlayisiwa tanihi rhekhodo ya mani na mani"
+    ],
+    "scopeOut": [
+      "Nhluvukiso lowu tirhaka kumbe ntirho wo hlawuleka",
+      "Vutihlamuleri bya nhlayiso",
+      "Matirhiselo lama bumabumeriwaka eka vuhumelerisi"
+    ]
+  }
+]

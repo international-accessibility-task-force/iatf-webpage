@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Vulawuri ni endlelo ra vuhlayiselo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Vulawuri ni endlelo ra vuhlayiselo",
+    "lead": "IATF yi hlayisa tiphurojeke ta ku fikelela ti ri erivaleni, ti hlayeka no hlayiseka.",
+    "support": [
+      "Tluka leri ri hlamusela leswi faneleke, ndlela leyi vuhlayiselo byi khomiwaka ha yona, ni vutihlamuleri bya le ka vuhlayiseleri lebyi tirhaka endzhaku ka ku amukeriwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Milawu",
+      "title": "Ku faneleka ka ntirho, vun'wini, mpfumelelo"
+    },
+    "cards": [
+      {
+        "title": "Ntirho lowu faneleke",
+        "paragraphs": [
+          "IATF yi amukela ntirho lowu tlhantlhaka xiphiqo xa xiviri xa ku kumeka naswona wu nga wa nkoka eka vanhu.",
+          "Phurojeke yi fanele yi va ya nkoka ku tlula ndlela yin'we ya ntirho wa munhu hi yexe naswona yi fanele ku tirha tanihi vuhlayiselo bya mani na mani.",
+          "Eka ku fikeleleka ka web, IATF yi tirhisa [W3C WAI](https://www.w3.org/WAI/) Ntokoto lowu kongomeke wa vatirhisi va thekinoloji yo pfuneta na wona i vumbhoni bya xiviri bya leswi tirhaka eka matirhiselo ya xiviri."
+        ]
+      },
+      {
+        "title": "Ku amukeriwa ka ntirho",
+        "paragraphs": [
+          "Xiringanyeto xi nga amukeriwa loko nkambisiso wu kombisa leswaku:"
+        ],
+        "items": [
+          "yi vulavula hi xilaveko xa xiviri xa ku fikeleleka",
+          "Xiphiqo lexi xi le rivaleni lerova hi nga xi kambela",
+          "mpimo wa kona i wa xiviri ku kota ku sungula",
+          "ntirho wu fambelana na ntirho wa IATF",
+          "ku na ndlela leyi twisisekaka yo hlayisa kumbe ku hetisa"
+        ]
+      },
+      {
+        "title": "Vini va vuhlayiselo",
+        "paragraphs": [
+          "Tiphurojeke leti amukeriweke ti tumbuluxiwa ehansi ka nhlangano wa IATF GitHub.",
+          "Vuhlayiselo byi tshama kwalaho leswaku ntirho wun'wana ni un'wana wu hlayisa kaya ra vanhu leri nga hundzukiki, hambi loko vahlayisi va cinca endzhaku."
+        ]
+      },
+      {
+        "title": "Ku nyika tilayisense",
+        "paragraphs": [
+          "Tiprojeke ta IATF ti tirhisa mpfumelelo wa copyleft handle ka loko phurojeke yi vula swin'wana:"
+        ],
+        "items": [
+          "<strong>Khodi:</strong> AGPL-3.0",
+          "<strong>Vuxokoxoko:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Munjhiniyara la nga ni vutihlamuleri kumbe muhlayisi",
+      "paragraphs": [
+        "Ntirho wun?wana ni wun?we lowu amukeriweke wu fanele ku va ni vito ra munjhiniyara loyi a nga na vutihlamuleri kumbe muhlayisi. Munhu yoloye a nga kuma mpfumelelo wa vulawuri eka vuhlayiselo naswona u languteriwa ku:"
+      ],
+      "items": [
+        "vukongomisi bya nhluvukiso eka vaaki",
+        "hlayisa xivumbeko xa vuhlayiselo",
+        "ku pfuxeta kumbe ku fambisa timhaka ni ku humesa swikombelo",
+        "tsala swiboho swa nkoka swa xithekiniki",
+        "endla leswaku ntirho wu twisiseka eka van'wana"
+      ],
+      "footnote": "Leswi i vutihlamuleri bya tilayisense ta vuhlayiselo. Vumaki bya nhlangano byi tshama na IATF. Vutihlamuleri laha i vufambisi bya vuhlayisi, vukongomisi bya xithekiniki, na ntirhisano wa vaaki  ku nga ri mphakelo wa xihundla lowu nga pimiwangiki, ku hlanganisiwa ka ntolovelo, kumbe ku tiboha ka xiyimo xa vukorhokeri ehandle ka mepe wa ndlela wa vaaki."
+    },
+    "publicDevelopment": {
+      "title": "Nhluvukiso wa vaaki",
+      "paragraphs": [
+        "Tiphurojeke leti sunguriweke hi IATF ti endliwa erivaleni hi ku landzeleriwa. Vuhlayiselo i xihlovo xa ntiyiso xa mani na mani xa:"
+      ],
+      "items": [
+        "khodi ya xihlovo",
+        "timhaka",
+        "matsalwa",
+        "Mimpfampfarhuto",
+        "matimu ya ku humesiwa"
+      ],
+      "footnote": "Vutivi bya nkoka bya ntirho a byi fanelanga byi kumeka eka ti-chat kumbe ti-inbox ntsena."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Tirhekhodo ta mani na mani",
+      "title": "Tirhekhodo ta swikombelo swa mani na mani"
+    },
+    "paragraphs": [
+      "Swikombelo leswi nghenaka eka IATF hi ku tirhisa website, imeyili, Discord, GitHub, kumbe tindlela tin'wana ta Iatf swi nga va tirhekhodo ta xikombelo xa mani na mani.",
+      "Rhekhodo ya xikombelo xa mani na mani a hi wona mahungu yo sungula. IATF yi nga katsakanya, ku lulamisa, kumbe ku pfuxeta xikombelo ku nga si kandziyisiwa leswaku xilaveko xa ku fikeleleka xi ta kambisisiwa handle ko paluxa vuxokoxoko bya munhu lebyi nga lavekiki.",
+      "Tirhekhodo ta swikombelo swa mani na mani ti nga hlayisiwa eka nhlangano wa IATF GitHub, eka website leyi, kumbe eka haswimbirhi.",
+      "IATF yi susa vuxokoxoko bya vutihlanganisi lebyi nga lavekiki, tiadirese ta le xihundleni, na vuxokoxi bya vutitivisi bya vatirhisi vo karhi va thekinoloji yo pfuneta handle ka loko ku ri xikongomelo lexi nga erivaleni naswona swi fanerile ku byi hangalasa.",
+      "IATF a yi hlayisi mavulavulelo ya Discord hi ndlela ya ntolovelo, naswona ku hlayisiwa ka mahungu ku lawuriwa hi Discord. Swiboho leswi endliweke eka Discord swi fanele ku katsakanyiwa eka rhekhodo ya mani na mani eka GitHub kumbe eka pheji ra phurojeke leri faneleke.",
+      "Tirhekhodo ta swikombelo a ti katsiwi eka endlelo ro secha laha swi kotekaka.",
+      "IATF yi nga pfuxeta kumbe ku susa tirhekhodo eka tindhawu ta mani na mani leti lawuriwaka hi yona, kambe a yi nge tiyisekisi leswaku ti ta susiwa eka ti-cache ta vanhu van'wana, switiviso, tiforoko, swifaniso, ti-search engine, Discord kumbe ti-system tin'wana ta le handle.",
+      "Loko u lava leswaku rungula ra wena ri tshama ri ri xihundla, u nga ri rhumeleli hi ku tirhisa tindlela ta mani na mani ta IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ntirho wa nhlangano",
+      "title": "Xitulu"
+    },
+    "lead": "Mutshami wa xitulu u na vutihlamuleri bya nhlangano wa IATF. Leswi swi hambanile na ntirho wa munjhiniyara wa phurojeke: mutshama-xitulu u ni vutihlamuleri eka nhlangano hinkwawo, ku nga ri eka vufambisi bya siku na siku bya vuhlayiselo byin'wana.",
+    "duties": {
+      "title": "Leswi xitulu xi swi endlaka",
+      "items": [
+        "Hlayisa mpfumelelo wa n'winyi eka nhlangano wa IATF GitHub",
+        "Ku sayina ku amukeriwa ka ntirho ni swiboho swa vuhlayiselo bya tirhekhodo",
+        "Yi tirha tanihi ndhawu ya vaaki yo tihlanganisa na IATF",
+        "U fambisa nhlawulo wa lembe na lembe"
+      ],
+      "footnote": "Mutshami wa xitulu a nga sindzisi IATF ku endla ntirho wa le xihundleni, ntirho lowu hakeriwaka, kumbe mintwanano ya xiyimo xa vukorhokeri, naswona a nga hundzuluxi swiboho swa muhlayisi wa vuhlayiselo hi tlhelo ra vurhangeri bya xithekiniki."
+    },
+    "election": {
+      "title": "Nhlawulo wa lembe na lembe",
+      "paragraphs": [
+        "Mutshami wa xitulu u hlawuriwa kan'we hi lembe. Nhlawulo wu famba eka mavhiki mambirhi yo sungula ya December, mimbuyelo yi tivisiwa hi December 15, naswona nkarhi lowuntshwa wu sungula hi January 1.",
+        "Vhoti leyi pfumeleriweke i vanhu lava a va ri na ntirho wa vulanguteri eka vuhlayiselo bya IATF eka lembe rero naswona va endle leswaku ku va na nhlanganelo wun'we wa nhlangano wa IAT F hi lembe rero. Vhoti yin'wana na yin'we yi na vhoti. Muyimeri loyi a nga na tivhoti to tala wa hlula; loko ku ri na ku yelana, nhlawulo wa vumbirhi wu khomiwa hi vhiki ra vunharhu ra N'wendzamhala.",
+        "Nhlawulo wu fambisiwa tanihi Mbulavurisano wa le rivaleni wa GitHub eka vuhlayiselo bya vulawuri bya IATF lebyi hlawuriweke, kutani vayimela-ku-langwa, ku vhota na mbuyelo hinkwaswo i xiphemu xa rhekhodo ya le rivaleni."
+      ]
+    },
+    "continuity": {
+      "title": "Ku ya emahlweni",
+      "paragraphs": [
+        "Loko ku nga ri na nhlawulo eka lembe leri nyikiweke, mutshami wa xitulu wa sweswi u ya emahlweni na ntirho ku fikela nhlawulo lowu landzelaka.",
+        "Mutshami wa xitulu a nga tshika ntirho hi nkarhi wihi kumbe wihi. Vayimeri lava tirhaka va nga tlhela va vitana nhlawulo lowu nga tolovelekangiki hi xivangelo lexi hlamuseriweke, lowu fambisiwaka hi ku landza milawu leyi fanaka ni nhlawulo wa lembe na lembe."
+      ]
+    },
+    "current": {
+      "title": "Mutshami wa xitulu wa sweswi",
+      "fields": [
+        {
+          "label": "Xitulu",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Xiga",
+          "value": "Ku fikela eka nhlawulo wa December 2026"
+        },
+        {
+          "label": "Ntirho lowu endliwaka ximfumo",
+          "value": "2026"
+        },
+        {
+          "label": "Nhlawulo wo sungula lowu kunguhatiweke",
+          "value": "December 2026"
+        }
+      ]
+    },
+    "footnote": "Xiphemu xa mutshami wa xitulu xi endliwile ximfumo hi lembe ra 2026 ku endla leswaku vufambisi bya xiyimo xa nhlangano byi va erivaleni."
+  },
+  "continuity": {
+    "states": {
+      "title": "Xiyimo xa ntirho",
+      "paragraphs": [
+        "Tiphurojeke ti tirhisa switatimendhe leswitsongo swa mani na mani:"
+      ],
+      "items": [
+        "Xiringanyeto",
+        "Ku Amukeriwa",
+        "Ku gingiriteka",
+        "Ku tshamiseka",
+        "Ku lava muhlayisi",
+        "Swi hlayisiwe"
+      ],
+      "footnote": "Swifundzha leswi swi endla leswaku ku hlayiwa ka tirhekhodo ku olova."
+    },
+    "reassignment": {
+      "title": "Ku nyiketa nakambe na vuhlayiselo bya tirhekhodo",
+      "paragraphs": [
+        "Loko muhlayisi a tshika ntirho kumbe a nga ha tirhi, IATF yi nga n'wi nyika ntirho wun'wana, yi yimisa ntirho kumbe ku wu hlayisa.",
+        "Ntirho wu nga tlhela wu hlayisiwa loko xilaveko xa wona xo sungula xi fikeleriwile, loko ntirho wo wu hlayisa wu yimile kumbe loko swi nga ha koteki ku ya emahlweni ni ntirho."
+      ],
+      "footnote": "Mintirho leyi hlayisiweke yi tshama yi voniwa hi mani na mani handle ka loko ku ri ni xivangelo lexi twalaka xo endla swin'wana."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Mfungho wa ndzilakana",
+      "title": "Leswi IATF yi nga swi tiyisekisiki"
+    },
+    "items": [
+      "ku rhumeriwa ka tikhasimende ta le xihundleni",
+      "mintwanano ya mpimo wa vukorhokeri",
+      "ku amukeriwa ka swikombelo hinkwaswo",
+      "nhlayiso wa nkarhi wo leha eka phurojeke yin'wana"
+    ],
+    "footnote": "IATF i vuhlayiselo bya rungula ra mani na mani, ku nga ri vutirheli byo fambisa rungula bya le xihundleni."
+  }
+}
