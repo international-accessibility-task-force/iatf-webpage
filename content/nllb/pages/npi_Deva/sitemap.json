@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइट मानचित्र"
+  },
+  "hero": {
+    "eyebrow": "अनुक्रमणिका",
+    "title": "साइट मानचित्र",
+    "lead": "आई.ए.टी.एफ.सी.को हरेक सार्वजनिक पृष्ठ, एउटै स्थानमा।"
+  },
+  "sections": [
+    {
+      "title": "मुख्य पृष्ठहरू",
+      "items": [
+        {
+          "label": "घर",
+          "href": "/"
+        },
+        {
+          "label": "परियोजनाहरू",
+          "href": "/projects/"
+        },
+        {
+          "label": "परियोजनाको अनुरोध",
+          "href": "/propose/"
+        },
+        {
+          "label": "शासन प्रणाली",
+          "href": "/governance/"
+        },
+        {
+          "label": "सामेल हुनुहोस्",
+          "href": "/join/"
+        },
+        {
+          "label": "सुलभता",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शिता",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "परियोजनाहरू",
+  "projectsEmpty": "अहिलेसम्म कुनै परियोजना प्रकाशित भएको छैन।"
+}

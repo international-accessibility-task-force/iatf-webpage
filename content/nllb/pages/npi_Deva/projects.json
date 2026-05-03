@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "सार्वजनिक पहुँच परियोजनाहरू",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "सार्वजनिक पहुँच परियोजनाहरू",
+    "lead": "यस रजिस्ट्रीले IATF मार्फत राखिएको सार्वजनिक परियोजनाहरूको सूची दिन्छ। स्वीकृत पहुँच परियोजनाहरू, साइट पूर्वाधार, र अभिलेख प्रोटोटाइपहरू यहाँ देखिने राखिएका छन्।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "रेजिस्ट्री",
+      "title": "हालको रजिस्टर"
+    },
+    "intro": [
+      "स्वीकृत परियोजनाहरू प्रकाशित भएपछि यहाँ सूचीबद्ध छन्।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "आवश्यकता बुझाउनुहोस्",
+      "title": "एक ठोस पहुँच आवश्यकतालाई सार्वजनिक परियोजनामा रूपान्तरण गर्नुहोस्"
+    },
+    "paragraphs": [
+      "आईएटीएफले सार्वजनिक खुला स्रोत कार्यमा परिणत गर्न सकिने ठोस पहुँच आवश्यकताहरूको समीक्षा गर्दछ।"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "अहिलेसम्म कुनै परियोजना प्रकाशित भएको छैन",
+    "paragraphs": [
+      "आईएटीएफले आफ्नो पहिलो सार्वजनिक परियोजना सेट तयार गरिरहेको छ।",
+      "तपाईं अझै पनि अनुरोध पठाउन सक्नुहुन्छ यदि तपाईंसँग पहुँचको विशिष्ट आवश्यकता छ भने।"
+    ]
+  }
+}

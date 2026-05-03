@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "फेला परेन"
+  },
+  "hero": {
+    "eyebrow": "फेला परेन",
+    "title": "अनुरोध गरिएको पृष्ठ फेला परेन",
+    "lead": "सार्वजनिक स्थलमा फर्कनको लागि तलका मुख्य मार्गहरू प्रयोग गर्नुहोस्।",
+    "support": [],
+    "actions": [
+      {
+        "label": "घर",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "तपाईंले अनुरोध गर्नुभएको मार्ग अवस्थित छैन।"
+    ],
+    "items": [
+      {
+        "label": "घर",
+        "href": "/"
+      },
+      {
+        "label": "परियोजनाहरू",
+        "href": "/projects/"
+      },
+      {
+        "label": "सामेल हुनुहोस्",
+        "href": "/join/"
+      },
+      {
+        "label": "सुलभता",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "शासन प्रणाली",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शिता",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
