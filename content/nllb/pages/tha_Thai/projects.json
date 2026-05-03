@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "โครงการการเข้าถึงสาธารณะ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "โครงการการเข้าถึงสาธารณะ",
+    "lead": "ลงทะเบียนนี้รายชื่อโครงการสาธารณะที่ดําเนินการผ่าน IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "ลงทะเบียน",
+      "title": "ทะเบียนปัจจุบัน"
+    },
+    "intro": [
+      "โครงการที่ได้รับการยอมรับถูกรายชื่อที่นี่เมื่อมันถูกตีพิมพ์"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ส่งความต้องการ",
+      "title": "เปลี่ยนความต้องการในการเข้าถึงเป็นโครงการสาธารณะ"
+    },
+    "paragraphs": [
+      "IATF พิจารณาความต้องการทางการเข้าถึงที่ชัดเจนที่สามารถเปลี่ยนไปเป็นงานที่เปิดแหล่งที่สาธารณะที่มีประโยชน์"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ยังไม่มีโครงการที่ตีพิมพ์",
+    "paragraphs": [
+      "IATF กําลังเตรียมชุดโครงการสาธารณะครั้งแรก",
+      "คุณยังสามารถส่งคําขอได้ถ้าคุณมีความต้องการในการเข้าถึงที่ชัดเจน"
+    ]
+  }
+}

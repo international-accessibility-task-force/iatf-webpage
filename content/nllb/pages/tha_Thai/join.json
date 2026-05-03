@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "เข้าร่วม IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "เข้าร่วม IATF",
+    "lead": "การสมัครเป็นสมาชิกเปิดเผย มีหลายวิธีในการเข้าร่วม ไม่ว่าคุณจะพึ่งพาเทคโนโลยีช่วย, สร้างซอฟต์แวร์ที่เข้าถึง, แปล, ทดสอบ, หรือดูแลโครงการ การหารือและการตัดสินใจเกิดขึ้นในสาธารณะบน GitHub และ Discord",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "บทบาท",
+      "title": "วิธีการร่วมทุน"
+    },
+    "items": [
+      "<strong>ขอโครงการ</strong> หากคุณพบอุปสรรคการเข้าถึงที่สามารถแก้ไขได้โดยโปรแกรมแหล่งเปิดสาธารณะ ส่งมันผ่านการรับคําขอ",
+      "<strong>ทดสอบและทบทวน</strong> ทดลองโครงการ IATF ด้วยเทคโนโลยีช่วยที่คุณใช้ รายงานสิ่งที่ทํางานและสิ่งที่ไม่, และเอกสารปัญหาโดยตรงในคลังที่เกี่ยวข้อง",
+      "<strong>แปล</strong> เนื้อหาแหล่งถูกตีพิมพ์เป็นภาษาอังกฤษธรรมดาก่อน แปลถูกเพิ่มเมื่อมีผู้ร่วมทุนให้บริการ เริ่มจากภาษาสเปน",
+      "<strong>สร้าง</strong> เลือกปัญหาในคลังข้อมูล IATF ใดก็ได้ ส่งคําขอถอน หรือรับโครงการในฐานะวิศวกรที่รับผิดชอบ",
+      "<strong>เก็บไว้</strong> โครงการที่มีอยู่ในปัจจุบันบางครั้งก็ต้องการผู้ดูแลคนใหม่ การหมุนเวียนผู้ดูแลเป็นส่วนปกติของโมเดล ไม่ใช่ข้อยกเว้น"
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "ช่องทาง",
+      "title": "ที่ IATF ทํางานในที่สาธารณะ"
+    },
+    "items": [
+      "<strong>กิทฮับ</strong> ปัญหา, ถอนคําขอ, เผยแพร่, และบันทึกโครงการ",
+      "<strong>ความขัดแย้ง</strong> การสนทนาสด การประสานงาน และคําถามไม่เป็นทางการ",
+      "<strong>อีเมล</strong> การใช้ <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ถ้า GitHub หรือ Discord ไม่เข้ากัน"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "ขั้นตอนต่อไป",
+      "title": "เลือกช่องทางที่ตรงกับวิธีที่คุณต้องการที่จะมีส่วนร่วม"
+    },
+    "paragraphs": [
+      "ช่องทางทั้งหมดเข้าสู่การตรวจสอบของสาธารณะเดียวกัน และคลังข้อมูลสาธานเดียวกัน"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "เว็บไซต์ IATF",
+    "summary": "เว็บไซต์สาธารณะของ International Accessibility Task Force",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ต้องการบ้านสาธารณะที่มั่นคง ที่อธิบายรูปแบบ รายชื่อโครงการ และชี้แจงผู้มีส่วนร่วมในขั้นตอนถัดไปที่ถูกต้อง",
+    "why": "เว็บไซต์นี้เป็นประตูหน้าสาธารณะของ IATF. มันถูกสร้างขึ้นเป็นโครงการสแตติกเล็ก ๆ เพื่อให้มันง่ายต่อการอ่าน, แปล, และดูแลในที่เปิด.",
+    "scopeIn": [
+      "หน้าที่ตั้งสาธารณะที่อธิบายรูปแบบ IATF",
+      "ลงทะเบียนสาธารณะของโครงการ IATF ที่ได้รับการยอมรับ, กําลังดําเนินการ, และมีอาร์คิฟพร้อมสถานะ, ผู้ดูแลรักษา, คลังข้อมูล, และการทดลอง",
+      "หน้ารับคําขอและแบบฟอร์ม",
+      "หน้าที่การบริหารและความโปร่งใส",
+      "แหล่งภาษาอังกฤษที่มีโครงสร้างพร้อมสําหรับการแปล",
+      "การใช้งานแบบสแตติกบน Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "พื้นที่สมาชิกส่วนตัว บัญชี หรือกระแสการเข้าใช้บริการ",
+      "โฮสติ้งของรหัสแหล่งของโครงการ ซึ่งอยู่ในคลังของแต่ละโปรเจค",
+      "การแชทแบบเรียลไทม์ ที่ใช้อยู่ใน Discord",
+      "การติดตามประเด็นสําหรับโครงการแต่ละรายการ ซึ่งอยู่ในคลัง GitHub ของแต่ละโปรเจค"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF เซลฟี",
+    "summary": "รุ่นต้นแบบ IATF เบื้องต้น ที่เก็บไว้หลังจากถึงจุดหยุดตามธรรมชาติ",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "การสํารวจในระยะแรกของเครื่องมือที่เน้นการเข้าถึงภายใต้ร่มของ IATF",
+    "why": "คลังข้อมูลถูกเก็บไว้เป็นสาธารณะเพื่อเป็นบันทึกของงาน แม้ว่าการพัฒนาอย่างเป็นทางการจะหยุด",
+    "scopeIn": [
+      "รูปแบบแรกของเครื่องมือที่เน้นการเข้าถึง ที่เก็บไว้เป็นบันทึกสาธารณะ"
+    ],
+    "scopeOut": [
+      "การพัฒนาที่ดําเนินการ",
+      "ข้อตกลงค่าเลี้ยงดู",
+      "การใช้ที่แนะนําในการผลิต"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF บอท",
+    "summary": "โบ๊ตชุมชน IATF จดบันทึกหลังถึงจุดหยุดตามธรรมชาติ",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "อัตโนมัติรอบช่องทางชุมชน IATF",
+    "why": "คลังข้อมูลถูกเก็บไว้เป็นสาธารณะเพื่อเป็นบันทึกของงาน แม้ว่าการพัฒนาอย่างเป็นทางการจะหยุด",
+    "scopeIn": [
+      "อัตโนมัติความขัดแย้งรอบช่องทางชุมชน IATF ที่เก็บไว้เป็นบันทึกสาธารณะ"
+    ],
+    "scopeOut": [
+      "การพัฒนาที่ดําเนินการ",
+      "ข้อตกลงค่าเลี้ยงดู",
+      "การใช้ที่แนะนําในการผลิต"
+    ]
+  }
+]

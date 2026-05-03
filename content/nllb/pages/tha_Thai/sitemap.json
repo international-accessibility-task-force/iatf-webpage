@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "แผนที่เว็บไซต์"
+  },
+  "hero": {
+    "eyebrow": "ดัชนี",
+    "title": "แผนที่เว็บไซต์",
+    "lead": "ทุกหน้าที่เปิดเผยใน iatf.cc ในที่เดียว"
+  },
+  "sections": [
+    {
+      "title": "หน้าหลัก",
+      "items": [
+        {
+          "label": "บ้าน",
+          "href": "/"
+        },
+        {
+          "label": "โครงการ",
+          "href": "/projects/"
+        },
+        {
+          "label": "ขอโครงการ",
+          "href": "/propose/"
+        },
+        {
+          "label": "การปกครอง",
+          "href": "/governance/"
+        },
+        {
+          "label": "เข้าร่วม",
+          "href": "/join/"
+        },
+        {
+          "label": "การเข้าถึง",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ความโปร่งใส",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "โครงการ",
+  "projectsEmpty": "ยังไม่มีโครงการที่ตีพิมพ์"
+}

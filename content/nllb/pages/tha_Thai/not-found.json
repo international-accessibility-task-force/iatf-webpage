@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ไม่พบ"
+  },
+  "hero": {
+    "eyebrow": "ไม่พบ",
+    "title": "ไม่พบหน้าที่ต้องการ",
+    "lead": "ใช้เส้นทางหลักด้านล่าง เพื่อกลับไปยังสถานที่สาธารณะ",
+    "support": [],
+    "actions": [
+      {
+        "label": "บ้าน",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "เส้นทางที่คุณขอไม่ได้มี"
+    ],
+    "items": [
+      {
+        "label": "บ้าน",
+        "href": "/"
+      },
+      {
+        "label": "โครงการ",
+        "href": "/projects/"
+      },
+      {
+        "label": "เข้าร่วม",
+        "href": "/join/"
+      },
+      {
+        "label": "การเข้าถึง",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "การปกครอง",
+        "href": "/governance/"
+      },
+      {
+        "label": "ความโปร่งใส",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
