@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Mapulojekiti olowera kwa anthu",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Mapulojekiti olowera kwa anthu",
+    "lead": "Ndondomeko iyi yikulongosora ntchito za boma izo zikuchitika kwizira mu IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kulembeka",
+      "title": "Kulembetsa kwaposachedwa"
+    },
+    "intro": [
+      "Mapulojekiti agho ghakapokeka ghakulembeka apa para ghasindikizgika waka."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Lembani ivyo mukukhumba",
+      "title": "Sinthani chofunikira chenicheni cha kupezeka kukhala polojekiti yapagulu"
+    },
+    "paragraphs": [
+      "IATF yikuwona ivyo vikukhumbikwa kuti munthu waŵe wakufikapo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Palije pulogiramu iyo yalembeka",
+    "paragraphs": [
+      "IATF yikunozga pulogiramu yake yakwamba.",
+      "Nyengo zose mungatuma pempho usange mukukhumbikwira wovwiri wakudunjika."
+    ]
+  }
+}

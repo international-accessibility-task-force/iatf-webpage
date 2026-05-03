@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapu gha pa Webusayiti"
+  },
+  "hero": {
+    "eyebrow": "Chiŵerengero cha Ŵapositole",
+    "title": "Mapu gha pa Webusayiti",
+    "lead": "Webusayiti yiliyose ya IATF.CC yili pa malo ghamoza."
+  },
+  "sections": [
+    {
+      "title": "Masamba Ghakuzirwa",
+      "items": [
+        {
+          "label": "Kunyumba",
+          "href": "/"
+        },
+        {
+          "label": "Mapulojekiti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Pemphani kuti mupange pulogiramu",
+          "href": "/propose/"
+        },
+        {
+          "label": "Kulamuliridwa",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ŵani Ŵabwezi Ŵane",
+          "href": "/join/"
+        },
+        {
+          "label": "Kufikapo",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kuwoneka makora",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Mapulojekiti",
+  "projectsEmpty": "Pasono palije pulogiramu iyo yalembeka."
+}

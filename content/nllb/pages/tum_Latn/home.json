@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kuchokera pa Kufunika kwa Kufikira ku Repo ya Boma",
+    "lead": "IATF yikovwira mawupu, magulu, na ŵanthu kuti ŵasinthe ivyo ŵakukhumba kuti viŵe vyakovwira ku ŵanthu wose.",
+    "support": [
+      "Mapulojekiti ghakuzomelezgeka ghakulembeka mu gulu la IATF GitHub pasi pa layisensi ya copyleft ndipo ghakupangika na mainjiniya."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Ndondomeko ya umo boma likugwilira ntchito",
+      "title": "Njira Yophweka Yogwiritsira Ntchito Mapulogalamu Ogwira Ntchito"
+    },
+    "paragraphs": [
+      "Munthu waliyose wangapeleka suzgo lake ku IATF. Usange gulu lingafiska, gulu la GitHub likujura malo ghakusungirako suzgo ili.",
+      "Ntchito yiliyose iyo yapokelereka yikuŵa na malo ghakupambanapambana ghakusungiramo visambizgo, nkhani, mabuku, na mabuku ghanyake agho ghakupangika na mainjiniya."
+    ],
+    "specCard": {
+      "title": "Ndondomeko ya umo boma likugwilira ntchito",
+      "terms": [
+        {
+          "term": "Kusoŵa",
+          "definition": "Vuto lenileni lakufikapo"
+        },
+        {
+          "term": "Kuwona Makora",
+          "definition": "Kuyenerera kwa ntchito ndi kuthekera kwa ntchito"
+        },
+        {
+          "term": "Malo a polojekiti",
+          "definition": "Malo ghakusungiramo mabuku pa GitHub"
+        },
+        {
+          "term": "Kupwelelera Vinthu",
+          "definition": "Ulamuliro wa bungwe la IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Nthowa",
+      "title": "Mmene imagwirira ntchito",
+      "intro": "Nthowa iyi njakusuzga yayi, ntheura nchipusu kulondezga nthowa iyo ŵanthu wose ŵakwendamo."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Pakukhumbikwa Vyakusazgirapo",
+        "paragraphs": [
+          "Wupu, gulu, panji munthu waliyose wangapeleka pempho lakuyana na ivyo wakukhumbikwira nadi.",
+          "Mungalemba pempho linu pa webusayiti panji pa e-mail pa adiresi iyi: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, panji kwizira mu Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF yikughawonaso.",
+        "paragraphs": [
+          "Tikuwona usange ntchito iyi njakwenelera, usange njakovwira, ndiposo usange njakuzomerezgeka ku ŵanthu wose."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Malo ghakusungiramo mabuku gha ŵanthu wose ghakupangika",
+        "paragraphs": [
+          "Usange pulojekiti yazomerezgeka, yikulembeka mu gulu la IATF GitHub pasi pa layisensi ya copyleft.",
+          "Ku malo agha ndiko kukusangika visambizgo vya Baibolo, mabuku, na mabuku ghanyake."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injiniya uyo wali na udindo ndiyo wakulongozga ntchito iyi.",
+        "paragraphs": [
+          "Munthu uyo wakugwira ntchito iyi ndiyo wakunozga umo ntchito iyi yikwendera, ndipo ntchito iyi yikuchitika pa wumba."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kulembeka",
+      "title": "Kulembetsa ntchito kwa anthu onse"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Yambani apa",
+      "title": "Ŵazgani ntchito iyo mukugwira panji yambani ntchito yapadera"
+    },
+    "paragraphs": [
+      "Gwiliskirani nchito buku ili kuti muwone vinthu ivyo vili kale pa webusayiti ya jw.org, panji usange mukukhumba kuti nkhani yakukhwaskana na umo ŵanthu ŵangasangira vinthu ivi yiŵe nkhani yakudumbiskana."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

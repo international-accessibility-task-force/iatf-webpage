@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kujowina gulu la IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kujowina gulu la IATF",
+    "lead": "Pali nthowa zinandi za umo munthu wangacitira kuti waŵe muteŵeti wa gulu ili, kwali wakugwiliskira nchito vinthu vyakupambanapambana, kupanga mapulogiramu ghakovwira, kung'anamura, kuyezga, panji kusungilira pulogiramu.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Udindo",
+      "title": "Umo Mungawovwilira"
+    },
+    "items": [
+      "<strong>Pemphani kuti mupange pulogiramu.</strong> Usange mwasangana na suzgo ilo lingamara para mungagwiliskira ntchito pulogiramu ya pa Intaneti, lemberani ku ofesi ya munthavi.",
+      "<strong>Kuyezga na kuweleramo.</strong> Yezga nthowa izo IATF yikugwiliskira nchito kuti umanye ivyo vikugwira nchito na ivyo vikuleka kugwira nchito.",
+      "<strong>Ng'anamurani.</strong> Nkhani izo zikufuma mu mabuku agha zikulembeka mu Cingelezi, ndipo zikung'anamulika para awo ŵakulemba ŵalipo, kwambira ku Cisipanishi.",
+      "<strong>Kuzenga.</strong> Mungasanga nkhani mu IATF, mungatumizga mauthenga, panji mungamba kugwira ntchito nga ni injiniya.",
+      "<strong>Lutilirani.</strong> Nyengo zinyake pakukhumbikwaso munthu munyake uyo wangawovwira kuti ntchito iyi yende makora."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mphepete mwa Nyanja",
+      "title": "IATF imagwira ntchito pagulu"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Nkhani, kupempha, kufumiska, na kulemba ma projekiti.",
+      "<strong>Pali mphindano.</strong> Kuyowoyeskana mwakudunjika, kudumbiskana, na kufumba mafumbo.",
+      "<strong>Tumizgani uthenga wa pa Intaneti.</strong> Kugwiritsa Ntchito <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> Usange GitHub na Discord vikukolerana yayi."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nthowa Yinyake",
+      "title": "Sankhani nthowa iyo yikukolerana na umo mukukhumba kuti mupelekerepo"
+    },
+    "paragraphs": [
+      "Mapulogiramu ghose ghakusangika pa webusayiti yimoza."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

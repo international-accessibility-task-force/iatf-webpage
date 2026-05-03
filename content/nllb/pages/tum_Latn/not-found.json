@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Palije"
+  },
+  "hero": {
+    "eyebrow": "Palije",
+    "title": "Peji ilo mwapempha likasangika yayi",
+    "lead": "Para mukukhumba kuwelera ku malo agha, lutani pa nthowa zikuruzikuru izo zili pasi apa.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Kunyumba",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Nthowa iyo mukukhumba kulije."
+    ],
+    "items": [
+      {
+        "label": "Kunyumba",
+        "href": "/"
+      },
+      {
+        "label": "Mapulojekiti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ŵani Ŵabwezi Ŵane",
+        "href": "/join/"
+      },
+      {
+        "label": "Kufikapo",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Kulamuliridwa",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kuwoneka makora",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

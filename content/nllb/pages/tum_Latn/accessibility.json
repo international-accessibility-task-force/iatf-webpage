@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Kufikapo",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Kufikapo",
+    "lead": "IATF yikukhumba kuti webusayiti iyi yiŵe yipusu kuŵazga, kweniso yikwendeskeka na kompyuta.",
+    "support": [
+      "IATF yikugwiliskira nchito webusayiti kuti yiŵe yakufikapo. [W3C WAI](https://www.w3.org/WAI/) Cinthu cinyake ico cikovwira kuti vinthu viŵe vyambura kusuzga kuvipulikiska ni ivyo awo ŵakugwiliskira nchito vinthu ivi ŵakukumana navyo."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kupeleka Malipoti",
+      "title": "Lembani nkhani yakukhwaskana na umo mungapharazgira"
+    },
+    "paragraphs": [
+      "Usange mwawona kuti pali suzgo pa webusayiti iyi, lembani ku:",
+      "{{contact.accessibilityEmail}}",
+      "Malipoti ghanyake agho ghangatovwira ni agha:"
+    ],
+    "items": [
+      "peji ilo suzgo ili likacitikira",
+      "ivyo mukakhumbanga kucita",
+      "kasi mukagwiliskiranga ntchito kompyuta, panji pulogiramu ya pa kompyuta, usange ntchakukhumbikwa",
+      "Kasi cikacitika nchivici?",
+      "Kasi ntchivichi chikate chimovwiraninge?"
+    ],
+    "footnote": "Ntchakukhumbikwa yayi kulemba lipoti la kachilombo aka, kweni mungalongosora waka."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kusamalira",
+      "title": "Kusamalira nkhani za boma"
+    },
+    "paragraphs": [
+      "Nkhani zakukhwaskana na umo ŵanthu ŵangasangira mabuku ghithu zikulongosoreka mwakudumura mu kabuku kakulembeka na ŵanthu ŵanandi kuti munthu waŵawovwire.",
+      "Usange mu lipoti linu muli nkhani zaŵene, yowoyani mwakupulikikwa makora."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Umo vinthu viliri sono",
+      "title": "Vifukwa vyakupulikikwa"
+    },
+    "paragraphs": [
+      "Webusayiti iyi njakudumura kuti yiŵe yichoko na yakukhazikika. Mabaibolo gha viyowoyero vinyake ghangaŵa kuti ghandalembeke makora apo tikunozgekera kuying'anamulira."
+    ]
+  }
+}

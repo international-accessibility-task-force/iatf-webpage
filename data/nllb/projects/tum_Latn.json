@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Webusayiti ya IATF",
+    "summary": "Webusayiti ya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Wupu wa IATF ukakhumbikwiranga malo ghakukhazikika agho ghangaŵalongosolera makora ŵanthu ivyo ŵakughanaghana, kulemba ndondomeko ya ivyo ŵakukhumba, na kuŵawovwira kuti ŵamanye nthowa yiwemi yakulondezgapo.",
+    "why": "Webusayiti iyi ni mulyango wakunjilira ku IATF. Yili kupangika nga ni polojekiti yichoko kuti yiŵe yipusu kuŵazga, kung'anamura, na kusungilira.",
+    "scopeIn": [
+      "Ma landing page agho ghakulongosora umo IATF yikugwilira ntchito",
+      "Ndondomeko ya IATF iyo yikovwira ŵanthu kuti ŵamanye ivyo vikuchitika, awo ŵakuchita mulimo uwu, na awo ŵakugwirako ntchito.",
+      "Peji na fomu yakupokelera pempho",
+      "Kulamuliridwa ndi kuwonekera poyera masamba",
+      "Mazgu gha Cingelezi ghakunozgeka kung'anamulika",
+      "Static deployment pa Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Vigaŵa vya mamembara, maakaunti, panji umo ŵanthu ŵakugwilira ntchito",
+      "Kusunga code ya project, iyo yikukhala mu repository ya project yiliyose",
+      "Kuyowoyeskana kwa nyengo yeneyiyo, uko kukusangika mu Discord",
+      "Kuwunika nkhani za projekiti yimoza, iyo yikukhala mu GitHub repository ya projekiti yiliyose"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Chinthu chinyake icho IATF yikagwiliskira ntchito, chikalembeka pamanyuma pakuti yafika pa malo apo yikwimilira.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Kufufuza koyambirira kwa chida chomwe chimayang'ana kupezeka pansi pa ambulera ya IATF.",
+    "why": "Buku ili likusungikira ŵanthu wose, nangauli ntchito yakung'anamura Baibolo ili yamara.",
+    "scopeIn": [
+      "Chitsanzo choyambirira cha chida chopezera anthu mwayi chosungidwa monga mbiri ya anthu onse"
+    ],
+    "scopeOut": [
+      "Kugwira ntchito mwakhama",
+      "Malipiro gha vyakukhumbikwa",
+      "Kugwiritsa ntchito koyenera pakupanga"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF community bot, archived after reaching a natural stopping point.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kuchita vinthu mwamabuci pa IATF.",
+    "why": "Buku ili likusungikira ŵanthu wose, nangauli ntchito yakung'anamura Baibolo ili yamara.",
+    "scopeIn": [
+      "IATF community channels, kusungidwa ngati mbiri ya anthu onse"
+    ],
+    "scopeOut": [
+      "Kugwira ntchito mwakhama",
+      "Malipiro gha vyakukhumbikwa",
+      "Kugwiritsa ntchito koyenera pakupanga"
+    ]
+  }
+]

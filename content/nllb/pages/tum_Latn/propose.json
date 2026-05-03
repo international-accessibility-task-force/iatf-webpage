@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pemphani kuti mupange pulogiramu ya umo mungapharazgira",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pemphani kuti mupange pulogiramu ya umo mungapharazgira",
+    "lead": "IATF yikupenjerezga ma projekiti agho ghakovwira ŵanthu kuŵa na vinthu ivyo ŵakukhumbikwira nadi.",
+    "support": [
+      "Kuti mupulikiske makora suzgo ili, mukwenera kumanya uyo wakukhwaskika na suzgo ilo, kweniso chifukwa icho suzgo ili liliri lakuzirwa."
+    ],
+    "actions": [
+      {
+        "label": "Yambani pempho",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gwiritsani ntchito Discord m'malo mwake",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mphepete mwa Nyanja",
+      "title": "Sankhani nthowa yipusu"
+    },
+    "intro": [
+      "Nthowa zose zikulongosoreka mu ndondomeko yimoza."
+    ],
+    "items": [
+      {
+        "label": "Webusayiti",
+        "body": "Gwiliskirani nchito fomu iyo yili pasi apa kuti mulembe ivyo mukukhumba."
+      },
+      {
+        "label": "E-mail",
+        "body": "Tumizani pempho linu ku: {{contact.requestsEmail}}Para ŵapolisi ŵafika pa malo agha na kuŵawona, ŵakuŵaphalira kuti ŵafumemo mu malo agha."
+      },
+      {
+        "label": "Kupambana Maghanoghano",
+        "body": "Yambani pa malo agha usange nchakusuzga yayi, ndipo pemphani kuti mulutenge pa malo gheneagho."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Pambere mundatumizge pempho",
+    "paragraphs": [
+      "IATF imagwira ntchito pagulu. Zopempha zingapangike mwachidule ndi kusindikizidwa ngati mbiri ya zopempha pagulu mu bungwe laIATF GitHub, pa webusayiti iyi, kapena zonse ziwiri.",
+      "Lekani kulemba maadiresi gha ŵanthu, manambara gha foni, madokotala, panji vinthu vinyake vyakukhwaskana na awo ŵakugwiliskira ntchito vinthu ivi, pekha usange ntchakukhumbikwa nadi ndipo mukuzomerezga kuti IATF yiweleremo.",
+      "IATF yikuwuskamo vinthu vyambura kukhumbikwa vyakukhwaskana na munthu pambere yindaphalire ŵanthu ivyo vyalembeka."
+    ]
+  },
+  "review": {
+    "title": "Kuwona ivyo tikulindizga",
+    "paragraphs": [
+      "Para munthu wapempha wovwiri, chikung'anamura kuti wapokelerenge wovwiri wake yayi.",
+      "IATF yikuwona usange ntchito iyi njakwenelera, kweniso usange njakovwira.",
+      "Vinthu vinyake ivyo tikulomba tingavizomera yayi, tingaviwezga, panji kusintha dankha pambere tindavizomerezge."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomu ya pempho",
+      "title": "Tumizani pempho"
+    },
+    "fields": [
+      {
+        "kind": "ivyo vikunjira",
+        "name": "wakupempha",
+        "label": "Zina linu panji la gulu linu",
+        "helper": "Kasi ni njani uyo wakucita pempho ili?"
+      },
+      {
+        "kind": "kusankha",
+        "name": "nthowa yakukumana nayo",
+        "label": "Nthowa yiwemi yakukumana nayo",
+        "helper": "Kasi mungalondezga wuli ulongozgi uwu?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Kupambana Maghanoghano"
+        ]
+      },
+      {
+        "kind": "ivyo vikunjira",
+        "name": "Umo Mungapharazgira",
+        "label": "Umo mungaŵapokelera",
+        "helper": "Adiresi ya e-mail panji zina la pa Discord kuti timanye vinandi.",
+        "placeholder": "Email address panji Discord handle",
+        "required": true
+      },
+      {
+        "kind": "ivyo vikunjira",
+        "name": "chiyowoyero",
+        "label": "Chiyowoyero",
+        "helper": "Chiyowoyero icho mukukhumba, usange ntchakukhumbikwa.",
+        "value": "Cingelezi"
+      },
+      {
+        "kind": "malo ghakulembeka",
+        "name": "suzgo",
+        "label": "Kasi ni suzgo wuli ilo mukukhumba kumazga?",
+        "helper": "Longosorani suzgo ili mu mazgu ghapusu.",
+        "required": true
+      },
+      {
+        "kind": "malo ghakulembeka",
+        "name": "Awo Ŵakhwaskika",
+        "label": "Kasi mbanjani awo ŵakukhwaskika?",
+        "helper": "Kasi ici cingawovwira njani?",
+        "required": true
+      },
+      {
+        "kind": "malo ghakulembeka",
+        "name": "extraContext",
+        "label": "Nkhani Zinyake",
+        "helper": "Pelekani vinthu vinyake ivyo vingamovwirani kuti mupulikiske ivyo mukukhumba: chifukwa icho mukukhumbira, viyelezgero, mazgu ghakulongosora nkhani yinyake, panji ivyo mungayowoya pa nkhani ya nyengo iyo mukukhumba kuzakachitira."
+      },
+      {
+        "kind": "kusankha",
+        "name": "openSourceConsent",
+        "label": "Kasi mukujipulika makora para mukufumiska vinthu mu mawoko gha ŵanthu wose?",
+        "helper": "Vinthu ivyo vyazomerezgeka ni ivyo vikulembeka na IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Enya",
+          "Yayi",
+          "Nkhumanya yayi."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Usange wazomera",
+      "title": "Kasi kuzomera kukung'anamuraci?"
+    },
+    "items": [
+      "malo osungiramo mabuku mu gulu la IATF GitHub",
+      "injiniya woyang'anira ntchitoyo",
+      "layisensi ya copyleft ya code na project materials",
+      "chitukuko cha anthu mu nkhokwe",
+      "Kulembetsa m'kaundula pa malo a IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Yambani kudumbiskana",
+      "title": "Kuyowoya mwakudumura na kupempha munthu kuti watovwire nkhwakukwana."
+    },
+    "paragraphs": [
+      "Usange muli na suzgo la umo mungapharazgira ndipo mukughanaghana kuti lingazgoka pulogiramu ya ŵanthu wose, mungatiphalira."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
