@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "要求一个可访问性项目",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "要求一个可访问性项目",
+    "lead": "IATF审查从真正需要开始的可访问性项目的申请.",
+    "support": [
+      "你不需要一个完整的规范.一个明确的问题,它影响谁,为什么它很重要是足够的开始."
+    ],
+    "actions": [
+      {
+        "label": "启动一个请求",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "使用Discord代替",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "道",
+      "title": "选择最容易的路线"
+    },
+    "intro": [
+      "所有的路线都进行了同样的检查."
+    ],
+    "items": [
+      {
+        "label": "网站",
+        "body": "使用下面的表格提交一个结构化的请求."
+      },
+      {
+        "label": "电子邮件",
+        "body": "直接发送请求到 {{contact.requestsEmail}}电子邮件请求可能在审查和删除后成为公开的请求记录."
+      },
+      {
+        "label": "不和",
+        "body": "如果这是最简单的,请从这里开始. 请求仍然进入相同的审查."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "在发送请求之前",
+    "paragraphs": [
+      "IATF的工作是公开的.请求可以在IATF GitHub组织,本网站或两者中作为公开请求记录进行总结和发布.",
+      "不要包含私人地址,电话号码,医疗详细信息或有关辅助技术的个人用户的识别信息,除非这是必要的,并且您对IATF进行审查感到满意.",
+      "在发布请求记录之前,IATF会删除不必要的个人联系信息."
+    ]
+  },
+  "review": {
+    "title": "审查预期",
+    "paragraphs": [
+      "提交申请并不能保证会被接受.",
+      "IATF审查任务适用性,可行性,有用性以及作品是否属于公共存储库的请求.",
+      "一些请求可能会被拒绝,推迟,或在接受之前重塑."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "申请表格",
+      "title": "提交一个请求"
+    },
+    "fields": [
+      {
+        "kind": "输入",
+        "name": "申请人",
+        "label": "您的名称或组织",
+        "helper": "谁提出了这个要求?"
+      },
+      {
+        "kind": "选择",
+        "name": "联系路线",
+        "label": "首选的联系路线",
+        "helper": "如何进行后续检查?",
+        "required": true,
+        "options": [
+          "电子邮件",
+          "不和"
+        ]
+      },
+      {
+        "kind": "输入",
+        "name": "联系方式",
+        "label": "联系方式",
+        "helper": "电子邮件地址或Discord地址进行跟进.",
+        "placeholder": "电子邮件地址或Discord地址",
+        "required": true
+      },
+      {
+        "kind": "输入",
+        "name": "语言",
+        "label": "语言",
+        "helper": "您最喜欢的语言,如果相关的话.",
+        "value": "英语"
+      },
+      {
+        "kind": "文字区域",
+        "name": "一个问题",
+        "label": "你试图解决什么问题?",
+        "helper": "用简单的语言描述障碍.",
+        "required": true
+      },
+      {
+        "kind": "文字区域",
+        "name": "受影响的用户",
+        "label": "谁会受到影响?",
+        "helper": "这会帮助谁?",
+        "required": true
+      },
+      {
+        "kind": "文字区域",
+        "name": "其他背景",
+        "label": "其他背景",
+        "helper": "分享任何其他有助于解释需求的内容:为什么它很重要,示例,参考资料,粗略的软件想法或时间限制."
+      },
+      {
+        "kind": "选择",
+        "name": "开源同意",
+        "label": "你对公开开源开发感到满意吗?",
+        "helper": "被接受的项目是IATF的公共存储库.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "是的",
+          "没有",
+          "目前还不确定"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "如果接受",
+      "title": "接受意味着什么"
+    },
+    "items": [
+      "在IATF GitHub组织中的公共存储库",
+      "一个负责的工程师被分配到该项目",
+      "对代码和项目材料的 copyleft 许可",
+      "在存储库中公开开发",
+      "在IATF网站上的注册条目"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "开始谈话",
+      "title": "一个简短而明确的请求就足以开始"
+    },
+    "paragraphs": [
+      "如果您有真正的可访问性需求, 并且认为该项目应该成为公共项目, 请将其发送给我们."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

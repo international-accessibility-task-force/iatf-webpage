@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "在IATF网站上",
+    "summary": "国际可访问性工作组的公共网站.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF需要一个稳定的公共场所来解释模型,列出项目,并指导贡献者走正确的下一步.",
+    "why": "该网站是IATF的公共门户. 它是作为一个小型静态项目构建的,所以它很容易在开放环境中阅读,翻译和维护.",
+    "scopeIn": [
+      "解释IATF模型的公共登陆页面",
+      "接受,活跃和存档IATF项目的公共注册表,包括状态,维护者,存储库和演示",
+      "一个请求接收页面和表格",
+      "治理和透明度页面",
+      "英语源与结构准备翻译",
+      "在 Cloudflare 工作者的静态资产上进行静态部署"
+    ],
+    "scopeOut": [
+      "私人会员区域,账户或登录流",
+      "项目源代码的托管,该代码存在于每个项目的自己的存储库中",
+      "实时聊天,生活在不和",
+      "个别项目的问题跟踪,存储在每个项目的 GitHub 存储库中"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "在IATF自拍",
+    "summary": "一个早期的IATF原型,在达到自然停止点后存档.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "在IATF的框架下早期探索一个以可访问性为重点的工具.",
+    "why": "该存储库作为工作的记录被公开,即使积极的开发已经停止.",
+    "scopeIn": [
+      "一个以可访问性为重点的工具的早期原型作为公开记录"
+    ],
+    "scopeOut": [
+      "主动开发或特征工作",
+      "维护义务",
+      "在生产中推使用"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "在 IATF 机器人",
+    "summary": "一个IATF社区机器人,在达到自然停止点后存档.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "在IATF社区道周围的自动化.",
+    "why": "该存储库作为工作的记录被公开,即使积极的开发已经停止.",
+    "scopeIn": [
+      "在IATF社区道周围的争议自动化,作为公开记录"
+    ],
+    "scopeOut": [
+      "主动开发或特征工作",
+      "维护义务",
+      "在生产中推使用"
+    ]
+  }
+]

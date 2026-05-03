@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "从无障碍需求到公共回购",
+    "lead": "IATF帮助协会,团体和个人将真正的可访问性需求转化为公共开源项目.",
+    "support": [
+      "接受的项目在IATF GitHub组织中以copyleft许可证发布,并由负责的工程师公开开发."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "公共运营模式",
+      "title": "一个简单的可访问软件公共路径"
+    },
+    "paragraphs": [
+      "通过一个表格,任何人都可以向IATF提交一个可访问性问题.如果团队可以接受它,一个公共的GitHub存储库将为工作打开.",
+      "每个被接受的项目都有一个明确的公共代码,问题,文档和发布,开发由一个负责任的工程师在开放中领导."
+    ],
+    "specCard": {
+      "title": "公共运营模式",
+      "terms": [
+        {
+          "term": "需要",
+          "definition": "真正的可访问性问题"
+        },
+        {
+          "term": "审查",
+          "definition": "任务适用性和实际可行性"
+        },
+        {
+          "term": "项目空间",
+          "definition": "公开的 GitHub 存储库"
+        },
+        {
+          "term": "管理工作",
+          "definition": "IATF组织的所有权"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "过程",
+      "title": "它是如何工作的",
+      "intro": "模型是故意保持小,所以公共路径很容易遵循."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "一个需求被提交",
+        "paragraphs": [
+          "一个协会,团体或个人可以根据实际的可访问性需求提交申请.",
+          "请求可以通过网站开始,通过电子邮件到 <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>或通过Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF对其进行审查",
+        "paragraphs": [
+          "我们检查任务适用性,实用范围以及工作是否属于公共开源项目."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "创建一个公共存储库",
+        "paragraphs": [
+          "如果一个项目被接受,它将在IATF GitHub组织中以copyleft许可证发布.",
+          "该库成为代码,问题,文档和发布的公共所在地."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "一位负责任的工程师领导该项目",
+        "paragraphs": [
+          "一个负责的工程师被分配到项目存储库, 开发在公开场合进行."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "登记处",
+      "title": "公开项目登记"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "从这里开始",
+      "title": "浏览当前的工作或启动具体项目"
+    },
+    "paragraphs": [
+      "使用注册表查看已经公开的内容,或者如果具体的可访问性问题应该成为一个项目,"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

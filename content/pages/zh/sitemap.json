@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "网站地图"
+  },
+  "hero": {
+    "eyebrow": "指数",
+    "title": "网站地图",
+    "lead": "每个公开页面在iatf.cc,在一个地方."
+  },
+  "sections": [
+    {
+      "title": "主页",
+      "items": [
+        {
+          "label": "在家",
+          "href": "/"
+        },
+        {
+          "label": "项目",
+          "href": "/projects/"
+        },
+        {
+          "label": "要求一个项目",
+          "href": "/propose/"
+        },
+        {
+          "label": "治理方式",
+          "href": "/governance/"
+        },
+        {
+          "label": "加入",
+          "href": "/join/"
+        },
+        {
+          "label": "可访问性",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "透明度",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "项目",
+  "projectsEmpty": "目前还没有公布项目."
+}

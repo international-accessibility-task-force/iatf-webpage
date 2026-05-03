@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "公众可访问性项目",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "公众可访问性项目",
+    "lead": "该注册表列出了通过IATF维护的公共项目.接受的可访问性项目,网站基础设施和存档原型在这里保持可见.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "登记处",
+      "title": "目前的注册表"
+    },
+    "intro": [
+      "一旦公布,已被接受的项目将在这里列出."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "提交一个需求",
+      "title": "将具体的可访问性需求转化为公共项目"
+    },
+    "paragraphs": [
+      "IATF审查可转化为有用的公共开源工作的具体可访问性需求."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "尚未公布的项目",
+    "paragraphs": [
+      "IATF正在准备第一套公共项目.",
+      "如果您有具体的可访问性需求, 您仍然可以发送请求."
+    ]
+  }
+}

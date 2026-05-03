@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "可访问性",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "可访问性",
+    "lead": "IATF的目标是保持本网站简单,易读,键盘可访问,并与辅助技术兼容.",
+    "support": [
+      "对于网络可访问性,IATF使用 [W3C WAI](https://www.w3.org/WAI/) 实际的可访问性也由辅助技术用户的直接经验提供信息."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "报告情况",
+      "title": "报告一个可访问性问题"
+    },
+    "paragraphs": [
+      "如果您在本网站上发现可访问性障碍,请通过电子邮件报告:",
+      "{{contact.accessibilityEmail}}",
+      "有用的报告包括:"
+    ],
+    "items": [
+      "问题发生的页面",
+      "你试图做的事情",
+      "您使用的辅助技术,浏览器或设备,如果相关",
+      "发生了什么错误",
+      "这会有什么帮助?"
+    ],
+    "footnote": "您不需要撰写正式的错误报告. 清晰的描述就足够了."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "处理方式",
+      "title": "公开问题处理"
+    },
+    "paragraphs": [
+      "相关的可访问性问题可以总结在相关的公共存储库,以便它们可以在公开中修复.个人联系方式和不必要的私人信息在发布之前被删除.",
+      "如果您的报告包含私人信息,请在信息中明确说明."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "目前情况",
+      "title": "已知限制"
+    },
+    "paragraphs": [
+      "这个网站是故意的小,主要是静态的.一些语言版本可能是不完整的,而翻译正在准备中."
+    ]
+  }
+}

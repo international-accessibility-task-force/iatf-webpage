@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "没有找到"
+  },
+  "hero": {
+    "eyebrow": "没有找到",
+    "title": "没有找到请求的页面",
+    "lead": "用下面的主要路线返回公共场所.",
+    "support": [],
+    "actions": [
+      {
+        "label": "在家",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "您所要求的路线不存在."
+    ],
+    "items": [
+      {
+        "label": "在家",
+        "href": "/"
+      },
+      {
+        "label": "项目",
+        "href": "/projects/"
+      },
+      {
+        "label": "加入",
+        "href": "/join/"
+      },
+      {
+        "label": "可访问性",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "治理方式",
+        "href": "/governance/"
+      },
+      {
+        "label": "透明度",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

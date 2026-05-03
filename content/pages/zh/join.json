@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "加入IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "加入IATF",
+    "lead": "成员资格是公开的.有几种方式可以参与,无论您是依赖辅助技术,构建可访问软件,翻译,测试或维护项目.讨论和决策都在GitHub和Discord上公开进行.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "角色",
+      "title": "贡献的方式"
+    },
+    "items": [
+      "<strong>要求一个项目.</strong> 如果您遇到可以通过公共开源软件解决的可访问性障碍,请通过请求接收发送.",
+      "<strong>测试和审查.</strong> 尝试使用您使用的辅助技术的IATF项目,报告哪些工作,哪些不工作,并直接在相关存储库中提交问题.",
+      "<strong>翻译一下</strong> 源内容首先以普通英语出版. 随着贡献者的可用性增加了翻译,从西班牙语开始.",
+      "<strong>建立一个.</strong> 在任何IATF存储库中获取问题,发送提取请求,或作为负责工程师承担项目.",
+      "<strong>保持这种状态.</strong> 现有项目有时需要一个新的维护者.维护者的轮换是模型的正常部分,而不是例外."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "道",
+      "title": "在公共场所工作的IATF"
+    },
+    "items": [
+      "<strong>在 GitHub 上.</strong> 问题,提取请求,发布和项目记录.",
+      "<strong>没有分歧.</strong> 现场讨论,协调和非正式问题.",
+      "<strong>通过电子邮件.</strong> 使用 <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> 如果GitHub和Discord都不合适."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "下一步",
+      "title": "选择与你想要贡献的方式相匹配的频道"
+    },
+    "paragraphs": [
+      "所有道都进入相同的公众审查和相同的公共存储库."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
