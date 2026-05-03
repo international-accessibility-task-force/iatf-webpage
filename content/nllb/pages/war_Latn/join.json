@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Pag-api ha IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Pag-api ha IATF",
+    "lead": "An pag-api bukas. May-ada pipira nga mga paagi hin pag-apil, bisan kon nag-aalagad ka hin assisting technology, nagtitindog hin accessible nga software, naghuhubad, nagsusulay, o nagmamantener hin proyekto. An mga pag-iristorya ngan mga desisyon nahitatabo ha publiko ha GitHub ngan Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Mga papel",
+      "title": "Mga paagi ha pagbulig"
+    },
+    "items": [
+      "<strong>Paghangyo hin proyekto.</strong> Kon makaagi ka hin usa nga barrier ha accessibility nga puydi masulbad han publiko nga open source nga software, igpadara ito pinaagi han request intake.",
+      "<strong>Pagsari ngan pagrepaso.</strong> Usisaha an mga proyekto han IATF gamit an mga teknolohiya nga imo ginagamit, ig-report kon ano an nagbubuhat ngan an diri, ngan ig-file an mga problema direkta ha may kalabotan nga repository.",
+      "<strong>Paghubad.</strong> An tinikangan nga sulod iginpupublikar ha simple nga Iningles anay. An mga paghubad igindudugang kun may-ada mga nagkontribusyon, nagtikang ha Kinatsila.",
+      "<strong>Pagtukod.</strong> Pagkuha hin mga isyu ha bisan ano nga IATF repository, pagpadara hin mga hangyo, o pagkarawat hin proyekto sugad nga responsable nga inhenyero.",
+      "<strong>Pagpadayon.</strong> An naeksister na nga mga proyekto usahay nagkikinahanglan hin bag-o nga maintenance worker."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mga kanal",
+      "title": "Kon diin an IATF nagbubuhat ha publiko"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Mga isyu, mga hangyo, mga pagpagawas, ngan mga rekord han proyekto.",
+      "<strong>Diri-pagkasinabtanay.</strong> Live nga paghisgot, koordinasyon, ngan diri pormal nga mga pakiana.",
+      "<strong>An e-mail.</strong> Paggamit <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> kun an GitHub ngan an Discord waray katugbang."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sunod nga pitad",
+      "title": "Pilia an channel nga katugbang kon paonan-o mo karuyag mag-amot"
+    },
+    "paragraphs": [
+      "An ngatanan nga mga channel nagsusulod ha pariho nga publikong pagrepaso ngan pariho nga publiko nga mga repositoryo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

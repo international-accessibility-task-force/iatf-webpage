@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Paghangyo hin accessibility nga proyekto",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Paghangyo hin accessibility nga proyekto",
+    "lead": "Gin-uusisa han IATF an mga hangyo para ha mga proyekto ha pagin masayon makasulod nga nagtitikang ha tinuod nga panginahanglan.",
+    "support": [
+      "Diri ka nagkikinahanglan hin bug-os nga espisipikasyon. An klaro nga problema, kon hin-o an naapektohan hito, ngan kon kay ano nga importante ito igo na basi magtikang."
+    ],
+    "actions": [
+      {
+        "label": "Pagsugod hin hangyo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gamita an Discord imbes",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mga kanal",
+      "title": "Pilia an pinakamadali nga ruta"
+    },
+    "intro": [
+      "An ngatanan nga ruta nasulod ha pariho nga pagrepaso."
+    ],
+    "items": [
+      {
+        "label": "Websayt",
+        "body": "Gamita an porma ha ubos basi magsumite hin istrukturado nga hangyo."
+      },
+      {
+        "label": "Email",
+        "body": "Ipadara an hangyo direkta ha {{contact.requestsEmail}}. An mga hangyo pinaagi han e-mail mahimo magin publiko nga rekord han hangyo katapos ma-review ngan ma-redact."
+      },
+      {
+        "label": "Diri pagsinabtanay",
+        "body": "Magtikang didto kon ito an mas masayon. An hangyo nagpapadayon gihapon ha amo gihapon nga pagrepaso."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Antes ka magpadara hin hangyo",
+    "paragraphs": [
+      "An mga hangyo in puydi ma-summarize ngan ma-publish sugad nga mga public request records ha IATF GitHub nga organisasyon, dida hini nga website, o ha duha.",
+      "Ayaw ig-upod an pribado nga mga adres, numero han telepono, mga detalye ha medisina, o impormasyon ha pagkilala han indibiduwal nga mga nagamit han mga teknolohiya nga nabulig gawas la kon kinahanglanon ito ngan karuyag mo nga usisahon ito han IATF.",
+      "Gin-aalis han IATF an diri-kinahanglanon nga personal nga mga detalye han pagkontak antes igpublikar an mga rekord han hangyo."
+    ]
+  },
+  "review": {
+    "title": "Pagrepaso han mga ginlalaoman",
+    "paragraphs": [
+      "An pagsulod hin hangyo diri nagpapasarig han pagkarawat hito.",
+      "An IATF nag-uusisa han mga hangyo para han pagkaangay han misyon, kahimoan, kapulsanan, ngan kon an buhat aada ba ha publiko nga repository.",
+      "An iba nga mga hangyo mahimo igbalewaray, ig-postpone, o bag-uhon antes karawaton."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formular han hangyo",
+      "title": "Pagsumite hin hangyo"
+    },
+    "fields": [
+      {
+        "kind": "input nga",
+        "name": "nag-aaplay",
+        "label": "An imo ngaran o organisasyon",
+        "helper": "Hin-o an naghangyo?"
+      },
+      {
+        "kind": "pagpili",
+        "name": "contactRoute",
+        "label": "Ginpipili nga ruta han kontak",
+        "helper": "Paonan-o sadang buhaton an pagsubay?",
+        "required": true,
+        "options": [
+          "Email",
+          "Diri pagsinabtanay"
+        ]
+      },
+      {
+        "kind": "input nga",
+        "name": "pagkontakDetails",
+        "label": "Detalye han pagkontak",
+        "helper": "E-mail address o Discord handle para han pag-follow-up.",
+        "placeholder": "E-mail nga adres o Discord nga handle",
+        "required": true
+      },
+      {
+        "kind": "input nga",
+        "name": "yinaknan",
+        "label": "Pinulongan",
+        "helper": "An imo ginpipili nga yinaknan, kon may kalabotan ito.",
+        "value": "Iningles"
+      },
+      {
+        "kind": "textarea",
+        "name": "problema",
+        "label": "Ano nga problema an imo ginsasarihan nga masulbad?",
+        "helper": "Isaysay an ulang ha simple nga mga pulong.",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "naapektuhan nga mga gumaramit",
+        "label": "Hin-o an naapektohan?",
+        "helper": "Hin-o an mabulig hini?",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "extraKonteksto",
+        "label": "Dugang nga konteksto",
+        "helper": "Ibahin an bisan ano nga nakakabulig ha pagsaysay han panginahanglan: kon kay ano nga importante ito, mga ehemplo, mga reperensya, usa nga garbo nga ideya han software, o mga limitasyon ha panahon."
+      },
+      {
+        "kind": "pagpili",
+        "name": "openSourceConsent[liwaton an gikanan]",
+        "label": "Nalilipay ka ba ha publiko nga pag-uswag hin open source?",
+        "helper": "An ginkarawat nga mga proyekto amo an publiko nga mga repositoryo ha ilarom han IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Oo nga",
+          "Diri",
+          "Diri pa sigurado"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Kon ginkarawat",
+      "title": "Kon ano an kahulogan han pagkarawat"
+    },
+    "items": [
+      "usa nga publiko nga repositoryo ha IATF GitHub nga organisasyon",
+      "usa nga responsable nga inhenyero nga igintoka ha proyekto",
+      "usa nga copyleft nga lisensya para han kodigo ngan mga materyales han proyekto",
+      "publiko nga pag-uswag ha repository",
+      "An entry in the IATF registry."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Pagtikang hin pag-istorya",
+      "title": "An halipot, matin-aw nga hangyo igo na ha pagtikang"
+    },
+    "paragraphs": [
+      "Kon may-ada ka tinuod nga panginahanglan hin accessibility ngan naghuhunahuna ka nga sadang ito magin publiko nga proyekto, igpadara ito ha amon."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Tikang ha panginahanglan hin accessibility ngadto ha publiko nga repo",
+    "lead": "An IATF nabulig ha mga asosasyon, grupo, ngan mga indibiduwal nga magbalhin hin tinuod nga mga panginahanglan hin accessibility ngadto hin publiko nga mga proyekto hin open source.",
+    "support": [
+      "An ginkarawat nga mga proyekto iginpapahayag ha IATF GitHub nga organisasyon ha ilarom hin lisensya nga copyleft ngan ginpapadayon ha publiko hin responsable nga inhenyero."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Publiko nga modelo han pag-operar",
+      "title": "Usa nga simple nga publiko nga dalan para han accessible nga software"
+    },
+    "paragraphs": [
+      "Pinaagi hin form, an bisan hin-o puydi magsumite hin problema hin accessibility ngadto han IATF.",
+      "An kada ginkakarawat nga proyekto mayda klaro nga publiko nga balay para han kodigo, mga isyu, dokumentasyon, ngan mga pagpagawas, nga an pag-uswag gindudumara ha abrido han usa nga responsable nga inhenyero."
+    ],
+    "specCard": {
+      "title": "Publiko nga modelo han pag-operar",
+      "terms": [
+        {
+          "term": "Kinahanglanon",
+          "definition": "Tinuod nga problema ha accessibility"
+        },
+        {
+          "term": "Pagrepaso",
+          "definition": "An pagkaangay han misyon ngan an praktikal nga posibilidad"
+        },
+        {
+          "term": "Lugar han proyekto",
+          "definition": "Publiko nga GitHub repository"
+        },
+        {
+          "term": "Pagdumara",
+          "definition": "IATF organisasyon nga pagtag-iya"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proseso",
+      "title": "Kon Paonan-o Ito Nagtatrabaho",
+      "intro": "An modelo tinuyo nga ginhihimo nga gutiay basi masayon an paglakat ha publiko nga dalan."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "An Inquiry Is Submitted",
+        "paragraphs": [
+          "An usa nga asosasyon, grupo, o indibiduwal mahimo magsumite hin hangyo nga iginbasar ha tinuod nga panginahanglan hin accesibidad.",
+          "An mga hangyo puydi magtikang pinaagi han website, pinaagi han e-mail ngadto ha <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o pinaagi han Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "An IATF nagsususi hito",
+        "paragraphs": [
+          "Gin-uusisa namon an pagkaangay han misyon, praktikal nga sukol, ngan kon an buhat aada ba ha publiko nga proyekto nga open source."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ginhihimo an publiko nga repository",
+        "paragraphs": [
+          "Kon an usa nga proyekto ginkakarawat, iginpapublikar ini ha IATF GitHub nga organisasyon ha ilarom hin lisensya nga copyleft.",
+          "An repositoryo nagin publiko nga balay han kodigo, mga isyu, dokumentasyon, ngan mga pagawas."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "An responsable nga inhenyero an nangunguna han proyekto",
+        "paragraphs": [
+          "Usa nga responsable nga inhenyero an igintoka ha repository han proyekto ngan an pag-uswag nahitatabo ha publiko."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Publiko nga rehistro han proyekto"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sugod dinhi",
+      "title": "Pag-browse han yana nga trabaho o pagtikang hin konkreto nga proyekto"
+    },
+    "paragraphs": [
+      "Gamiton an rehistro basi makita kon ano an publiko na, o tikangan an pag-inom kon an usa nga konkreto nga problema ha accesiblidad magigin usa nga proyekto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparensya",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparensya",
+    "lead": "An mga desisyon han proyekto, mga pagbag-o han kodigo, mga pagbabag-o ha pagdumara, ngan mga gasto han pag-operar in ginrirekord ha publiko nga mga lugar. Ini nga pakli in naglista kon diin an tagsa nga klase hin rekord na-uukoy ngan kon paonan-o ito mababasa.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Mga rekord",
+      "title": "Kon diin nag-uukoy an mga rekord"
+    },
+    "items": [
+      "<strong>Mga desisyon ha proyekto.</strong> An mga desisyon ha pagkarawat, pag-archivo, ngan pag-atras ginrekord sugad nga mga isyu o mga pagpagawas ha may kalabotan nga repository, ngan ginsumaryo ha publiko nga rehistro. <a href=\"/projects/\">rehistro</a>. ha ha .",
+      "<strong>Pangaro hin mga rekord.</strong> An mga rekord han publiko nga hangyo gin-iimbitar ha IATF GitHub nga organisasyon, dinhi hini nga websayt, o ha duha. An mga record puydi magsumaryo, mag-edit, o mag-restruktura han orihinal nga pangaro basi an panginahanglanon han accessibility mahimo ma-review nga waray igpapahayag an diri-kinahanglanon nga personal nga impormasyon. Mga desisyon han diri-pagkasinabtanay in ginsusumaryo ngadto ha publiko nga rekord kon nakakaapekto hira hin proyekto o desisyon han pamunoan. Mga rekord han hangyo in gin-exclude tikang ha pag-index han search engine kon praktikal ha teknikal. Kitaa an mga rekord: hangyo han siyahan nga publikasyon nga ginhihinulat.",
+      "<strong>Nagbag-o an kodigo.</strong> An kada pagbag-o han kodigo amo an publiko nga pagkompromiso ha may kalabotan nga repositoryo. Kitaa an IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub nga organisasyon</a>. ha ha .",
+      "<strong>Pagbag-o ha pagdumara.</strong> An mga pag-update ha pahina hin pagdumara ginsusubay sugad nga mga pagkomit ngadto han <code>iatf-website</code> Repository. Kitaa an <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">pagsurat hin kasaysayan</a> ha GitHub.",
+      "<strong>Mga gasto ha pag-operar.</strong> An IATF nagpapabilin nga ubos an operating cost ngan nagsusurat hin recurring public infrastructure expenses. Tikang han 2022, an nangunguna nga recurring cost amo an mga domain name. An pag-host in nagamit hin free-tier o low-cost nga infrastructure kon posible.",
+      "<strong>Mga nota han koordinasyon.</strong> Mga nota tikang ha bisan ano nga koordinado nga pagrepaso o desisyon nga buhi ha GitHub Mga pag-iristorya ha may kalabotan nga repositoryo  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Mga Pakighisgot</a> ha <code>iatf-website</code> repository."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Mga gasto",
+      "title": "Mga rekord han operasyunal nga gasto"
+    },
+    "paragraphs": [
+      "An IATF gintitipigan an iya publiko nga imprastraktura nga tinuyo nga gutiay.",
+      "Ini nga rekord diri usa nga audited nga pinansyal nga pahayag. Usa ini nga publiko nga operating cost log para han imprastraktura nga ginagamit ha pagtipig han IATF online."
+    ],
+    "footnote": "An personal nga mga adres, mga detalye han pagbayad, ngan diri-kinahanglanon nga impormasyon han account diri bahin han publiko nga rekord.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Ginhihimo an Domain",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Presyo",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Mga nota",
+            "value": "An proyekto binalhin tikang ha Vercel ngadto ha Cloudflare ngan nagtikang paggamit han mas halipot nga <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Ginhihimo an Domain",
+            "value": "<code>internasyunal nga accesiblidadtaskforce.com</code>"
+          },
+          {
+            "label": "Presyo",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain cost ginpinanansya han mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Ginhihimo an Domain",
+            "value": "<code>internasyunal nga accesiblidadtaskforce.com</code>"
+          },
+          {
+            "label": "Presyo",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain cost financed by mugiwarafx. An pag-host nagamit hin free-tier o low-cost nga imprastraktura pinaagi han Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Ginhihimo an Domain",
+            "value": "<code>internasyunal nga accesiblidadtaskforce.com</code>"
+          },
+          {
+            "label": "Presyo",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain cost ginpinanansya han mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Ginhihimo an Domain",
+            "value": "<code>internasyunal nga accesiblidadtaskforce.com</code>"
+          },
+          {
+            "label": "Presyo",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Mga nota",
+            "value": "Domain cost financed by mugiwarafx. An pag-host nagamit hin free-tier o low-cost nga imprastraktura pinaagi han GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nasunod nga nota:",
+      "title": "Kon ano an diri publiko"
+    },
+    "paragraphs": [
+      "An pipira nga materyal diri iginpapahayag ha publiko nga mga rekord tungod kay:"
+    ],
+    "items": [
+      "Personal nga impormasyon ha pagkontak han mga nagproponir.",
+      "Pribado nga surat nga ginagamit la ha pagsaysay han hangyo antes ito karawaton, isalikway, o sumaryohan.",
+      "Pribado nga mga adres, numero han telepono, ngan diri-kinahanglanon nga personal nga mga detalye.",
+      "Bisan ano nga makikilala hin indibiduwal nga nagamit hin nabulig nga teknolohiya nga waray pagtugot.",
+      "Mga pag-iristorya han Raw Discord, gawas la kun an espisipiko nga mensahe tinuyo nga ginbalhin ngadto ha publiko nga talaan han proyekto."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Basaha pa",
+      "title": "An pagdumara amo an libro han mga balaud ha luyo hini nga mga rekord"
+    },
+    "paragraphs": [
+      "Kon karuyag mo hibaroan kon paonan-o ginkakarawat an mga proyekto, gin-archive, o gin-aatas, basaha an pahina han pagdumara."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

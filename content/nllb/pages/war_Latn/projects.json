@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Mga proyekto hin public accessibility",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Mga proyekto hin public accessibility",
+    "lead": "Ini nga rehistro naglista hin mga proyekto han publiko nga ginmamantinar pinaagi han IATF. An ginkarawat nga mga proyekto hin accessibility, infrastructure han site, ngan mga archived nga mga prototipo ginpapabilin nga nakikita dinhi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Yana nga rehistro"
+    },
+    "intro": [
+      "An ginkarawat nga mga proyekto iginlista dinhi kon iginpublikar na hira."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Pagsumite hin panginahanglan",
+      "title": "Paghimo hin usa nga publiko nga proyekto ha usa nga konkreto nga panginahanglan hin accessibilidad"
+    },
+    "paragraphs": [
+      "An IATF nag-aaram hin mga kinahanglanon hin accessibility nga puydi magin mapulsanon nga publikong buhat hin open source."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Waray pa iginpublikar nga mga proyekto",
+    "paragraphs": [
+      "An IATF nag-aandam han iya siyahan nga publiko nga proyekto.",
+      "Puydi ka gihapon magpadara hin hangyo kon may-ada ka partikular nga panginahanglan hin accesiblidad."
+    ]
+  }
+}

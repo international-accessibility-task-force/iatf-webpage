@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Sitemap",
+    "lead": "An ngatanan nga publikong pahina ha iatf.cc, ha usa nga lugar."
+  },
+  "sections": [
+    {
+      "title": "Panguna nga mga pahina",
+      "items": [
+        {
+          "label": "Pag-uli",
+          "href": "/"
+        },
+        {
+          "label": "Mga proyekto",
+          "href": "/projects/"
+        },
+        {
+          "label": "Paghangyo hin proyekto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pagdumara",
+          "href": "/governance/"
+        },
+        {
+          "label": "Pag-api",
+          "href": "/join/"
+        },
+        {
+          "label": "Pag-abot",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparensya",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Mga proyekto",
+  "projectsEmpty": "Waray pa iginpublikar nga mga proyekto."
+}

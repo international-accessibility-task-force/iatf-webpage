@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Pag-abot",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Pag-abot",
+    "lead": "An IATF nagtitinguha nga tipigan ini nga website nga simple, masayon mabasa, ma-access pinaagi hin keyboard, ngan compatible ha mga teknolohiya nga nabulig.",
+    "support": [
+      "Para han web accessibility, an IATF nagamit [W3C WAI](https://www.w3.org/WAI/) An praktikal nga pagin masayon maabtan liwat han direkta nga eksperyensya han mga nagamit han mga teknolohiya ha pagbulig."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Pagreport",
+      "title": "Report An Accessibility Issue"
+    },
+    "paragraphs": [
+      "Kon may-ada ka nakikit-an nga problema ha pag-access hinin nga website, alayon igreport ito pinaagi hin e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "An mapulsanon nga mga report nag-uupod han:"
+    ],
+    "items": [
+      "an pakli nga diin nahinabo an isyu",
+      "kon ano an imo ginhihingyap nga buhaton",
+      "ano nga assistive technology, browser, o gadyet an imo ginamit, kon may kalabotan",
+      "ano an sayop",
+      "kon ano an makakabulig"
+    ],
+    "footnote": "Diri ka kinahanglan magsurat hin pormal nga bug report. An klaro nga paghulagway igo na."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Pagdumara",
+      "title": "Pagdumara hin publiko nga mga isyu"
+    },
+    "paragraphs": [
+      "An mga isyu ha accessibility puydi isumaryo ha may kalabotan nga publikong repository basi masulbad ito ha abrido. An personal nga mga detalye han kontak ngan an diri-kinahanglanon nga pribado nga impormasyon gin-aalis antes han pag-publish.",
+      "Kon an imo report nag-uupod hin pribado nga impormasyon, ipahayag ito hin matin-aw ha mensahe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Yana nga kahimtang",
+      "title": "Kilala nga mga limitasyon"
+    },
+    "paragraphs": [
+      "Ini nga site tinuyo nga gutiay ngan kasagaran nga static. An pipira nga mga bersyon hin yinaknan bangin diri kompleto samtang gin-aandam an mga paghubad."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Waray hinagian"
+  },
+  "hero": {
+    "eyebrow": "Waray hinagian",
+    "title": "An ginhangyo nga pakli in waray hiagii",
+    "lead": "Gamita an nangunguna nga mga ruta ha ubos basi makabalik ha publiko nga lugar.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Pag-uli",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "An ruta nga imo ginhangyo in waray."
+    ],
+    "items": [
+      {
+        "label": "Pag-uli",
+        "href": "/"
+      },
+      {
+        "label": "Mga proyekto",
+        "href": "/projects/"
+      },
+      {
+        "label": "Pag-api",
+        "href": "/join/"
+      },
+      {
+        "label": "Pag-abot",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pagdumara",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparensya",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
