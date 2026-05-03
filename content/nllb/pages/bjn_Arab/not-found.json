@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "تيدق دتموكن"
+  },
+  "hero": {
+    "eyebrow": "تيدق دتموكن",
+    "title": "لامن يڠ دڤرلوكن كادا دتموكن",
+    "lead": "مڠڬوناكن جالن-جالن اوتام داسر اونتوق مڠرجاكن كڤد سيتوس عموم.",
+    "support": [],
+    "actions": [
+      {
+        "label": "رومه",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "جالن نڠ كامو ڤرلواكن كادا اد."
+    ],
+    "items": [
+      {
+        "label": "رومه",
+        "href": "/"
+      },
+      {
+        "label": "ڤروجيك",
+        "href": "/projects/"
+      },
+      {
+        "label": "ڤولاو ڤينڠ",
+        "href": "/join/"
+      },
+      {
+        "label": "اكسيسيبيليتى",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ڤمرينتاهن",
+        "href": "/governance/"
+      },
+      {
+        "label": "ترانسڤيرسين",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
