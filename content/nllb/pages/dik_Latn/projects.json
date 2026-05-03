@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Akɔ̈ɔ̈t ke kɔc ëbɛ̈n",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Akɔ̈ɔ̈t ke kɔc ëbɛ̈n",
+    "lead": "Lɔ̈ɔ̈ŋ ë käke kɔc tɔ̈u në IATF. Käke kɔc cï gam, käke ɣän, ku kä cï kek tɔ̈ në käke käkë yiic aye tɔ̈ thïn ë tɛ̈n.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Akɔ̈ɔ̈t",
+      "title": "Kä ye kek gɔ̈ɔ̈r në yemɛɛn"
+    },
+    "intro": [
+      "Lööŋ cï kek gam aacï kek bɛ̈n gɔ̈t tɛ̈wën cï kek kek ya gätpiny."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Lɔ̈k kë wïc",
+      "title": "Gɛ̈ɛ̈r ke ye kë wïc bï ya looi tënë kɔc kɔ̈k bï kek ya lɔ̈ɔ̈m"
+    },
+    "paragraphs": [
+      "IATF ee kä ye kek wïc bï kek ya looi ya tïŋ ku bï ya luui apath tënë kɔc ëbën."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Acïn kä cï kek bɛ̈n gɔ̈t",
+    "paragraphs": [
+      "IATF atɔ̈u ke ye guir tueŋ ë luɔi de kɔc ëbɛ̈n.",
+      "Yïn alëu ba thiëc tɛ̈ leŋ yïn kë kɔɔr ba yök."
+    ]
+  }
+}

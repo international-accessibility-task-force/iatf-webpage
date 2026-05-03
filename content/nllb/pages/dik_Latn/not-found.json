@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Acïn kë yök"
+  },
+  "hero": {
+    "eyebrow": "Acïn kë yök",
+    "title": "The requested page wasn't found",
+    "lead": "Lɔ̈k dhɔ̈l dïït tɔ̈ piiny bïk dhuk tɛ̈n akutnhom.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Paanduɔ̈n",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Akɔ̈ɔ̈t ca wïc acie tɔ̈u."
+    ],
+    "items": [
+      {
+        "label": "Paanduɔ̈n",
+        "href": "/"
+      },
+      {
+        "label": "Akɔ̈ɔ̈t",
+        "href": "/projects/"
+      },
+      {
+        "label": "Matkë röt",
+        "href": "/join/"
+      },
+      {
+        "label": "Lɔ̈ɔ̈i ë rɔt",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Akut de loiloi",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kuɔ̈ɔ̈c ë rot",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

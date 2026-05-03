@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Lɔ̈m kekë IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Lɔ̈m kekë IATF",
+    "lead": "Aŋuɔ̈ɔ̈th aŋuɛ̈ɛ̈n ba rɔt mat thïn, ka nɔŋ dhɔ̈l juëc bï yïn ya luui thïn, agut cï tɛ̈n ye yïn luui në teknologï ye kɔc kuɔny, bï software ya cak, bï wɛ̈t waar, bï ya them, ka bï ya muk apath.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Luɔ̈ɔ̈i",
+      "title": "Wël bï yïn ya kuɔny"
+    },
+    "items": [
+      "<strong>Aŋuɛ̈ɛ̈n ba wɛ̈t gätpiny.</strong> Na yïn acï rɔt yök ke ye kë gääu ye lëu benë kɔc ya lɔ̈ɔ̈m në software yic, ke yï tuɔ̈c ë wɛ̈t kënë në tɛ̈n de kë wïc.",
+      "<strong>Thëm ku kuɛ̈ɛ̈n.</strong> Them käke IATF ke käke kuɔɔny ke teknologï ye luɔ̈ɔ̈i, lɛ̈k kë lui ku kë cïï lui, ku gɔ̈t kä tɔ̈u thïn në kë thiekic.",
+      "<strong>Lɛ̈k raan dɛ̈t.</strong> Kä cï gɔ̈t aye gɔ̈ɔ̈r në thoŋ English tueŋ.",
+      "<strong>Luɔ̈ɔ̈i.</strong> Luɔ̈ɔ̈i kä tɔ̈u në IATF yic, tuɔ̈c kë wïc yïn, ka lɔ në luɔɔi yic ke ye raan cï luöi.",
+      "<strong>Aŋuɛ̈ɛ̈n bäk muk apath.</strong> Kä tɔ̈u thɛɛr aye kɔc kɔ̈k wïc bïk kɔ̈ɔ̈c."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Wël cï gɔ̈ɔ̈r",
+      "title": "Tɛ̈ ye IATF luui thïn në kɔc nhïïm"
+    },
+    "items": [
+      "<strong>GitHub. (tɛ̈ɛ̈u piny ëbɛ̈n)</strong> Lɔ̈ɔ̈i, yɔ̈k kɔɔr, wɛ̈ɛ̈r, ku kä cï gätpiny.",
+      "<strong>Wɛ̈t cïï thöŋ.</strong> Lɔ̈ɔ̈r ë yic, cääth, ku jɔl ya thiëc ë yic.",
+      "<strong>Wɛ̈t-lɛ̈ɛ̈t.</strong> Luɔ̈ɔ̈i <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> naa cïn kë ye GitHub ku Discord mat thïn."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Löŋ dɛ̈t",
+      "title": "Yiɛ̈ɛ̈k kanïn ye rɔt mat kenë tɛ̈n wïc yïn bï yïn kuɔɔny thïn"
+    },
+    "paragraphs": [
+      "Lɔ̈ɔ̈i ëbɛ̈n aaye bɛ̈n ya tɔ̈ në bɛ̈ɛ̈i kɔ̈k peei yiic ku jɔl ya bɛ̈i ke kɔc kedhiɛ yiic."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Lɔ̈ɔ̈i ë rɔt",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Lɔ̈ɔ̈i ë rɔt",
+    "lead": "IATF ee wïc bï wɛbthait kän ya tɔ̈ɔ̈u apath, bï ya kueen apath, ku bï ya kuanycök në tɛ̈n yenë yen gɔ̈t thïn (keyboard-accessible), ku jɔl ya tɛ̈ bï yen ya luui thïn kenë teknologï ë kuɔɔny (assistive technologies).",
+    "support": [
+      "Në kë de kä ye kek yök në wɛbthait yic, ke IATF aye luui në [W3C WAI](https://www.w3.org/WAI/) Accessibility ee rot looi ëyadɛ̈ në kë de kä cï röt looi tënë kɔc ye luui në teknologï de kɔc kuɔny."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Lɔ̈ɔ̈ŋ",
+      "title": "Gɛ̈ɛ̈r kë cï rot looi tënë kɔc kɔ̈k"
+    },
+    "paragraphs": [
+      "Na yïn acï kë cë yök në wɛbthait kën yic yök, ke yïn alëu ba lɛ̈k në email:",
+      "{{contact.accessibilityEmail}}",
+      "Lööŋ kɔ̈k lëu bïk kony aa:"
+    ],
+    "items": [
+      "ke wɛ̈t cï gɔ̈ɔ̈r tɛ̈n yen kë cï rot looi thïn",
+      "kë ye yïn them ba looi",
+      "ye tɛ̈n yenë käŋ kuɔny thïn, browser, ka jɔl ya ajuiɛɛr ye yïn luui thïn, tɛ̈ lëu yen rot",
+      "yeŋö cï rot looi?",
+      "Kë lëu bï ye kony"
+    ],
+    "footnote": "Yïn acïï wïc ba athöör gät në biäk de wɛ̈l ë tuɔ̈m abirguɔ̈p."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kä ye kek luɔ̈ɔ̈i",
+      "title": "Luɔ̈ɔ̈i ë wɛ̈t ë kɔc nhïïm"
+    },
+    "paragraphs": [
+      "Kä ye kek yök alëu bï kek ya tɔ̈ɔ̈u në akutnhom de kɔc kedhiɛ yic ago kek ya cɔ̈kpiny në kɔc kɔ̈k yiic.",
+      "Na tɔ̈u wɛ̈tdu yic wël ke kɔc kɔ̈k, lɛ̈k ye apath në wɛ̈ldu yic."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Tɛ̈ tɔ̈u yen thïn",
+      "title": "Kuɔ̈c cï kek ŋic"
+    },
+    "paragraphs": [
+      "Wɛ̈t kän acï bɛ̈n guiir bï ya thiin koor ku bï ya lac tɔ̈ɔ̈u. Wël kɔ̈k cï kek gɔ̈t alëu bï ya tɔ̈u ke këc thök agut cï tɛ̈ bï kek ya waar thïn."
+    ]
+  }
+}

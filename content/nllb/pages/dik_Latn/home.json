@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Në kë wïc kɔc bï kek ya lɔ̈ɔ̈m tënë kɔc kɔ̈k",
+    "lead": "IATF ee akuɔ̈tnhïïm, akutnhïïm ku kɔc ë röt kony bïk kä wïc kek ya cɔk loi röt ya luui apath.",
+    "support": [
+      "Luɔi cï gam aye tɔ̈ɔ̈u në akutnhom de IATF GitHub në kë de ajuiɛɛr de copyleft ku ka cï bɛ̈n cak në kɔc nhïïm në raan de të yenë yen luɔɔi thïn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Luɔi de kɔc ë baai",
+      "title": "A simple public path for accessible software"
+    },
+    "paragraphs": [
+      "Në form, raan ebɛ̈n alëu bï wɛ̈t de kɔc cï luöi bɛ̈n lɛ̈k akutnhom de IATF. Ku na lëu akutnhom kënë, ke akutnhom ëbɛ̈n de GitHub abë lɔ̈ɔ̈m ë luɔi kënë.",
+      "Ajuiɛɛr ebën cï gam anɔŋ baai ëbɛ̈n cï nyic apɛi tënë code, issues, documentation, ku jɔl ya wɛ̈t cï kek bɛ̈n gam, ku kä cï kek cak aye bɛ̈ɛ̈i në kɔc kɔ̈k yiic në raan ŋic käke engineer."
+    ],
+    "specCard": {
+      "title": "Luɔi de kɔc ë baai",
+      "terms": [
+        {
+          "term": "Aŋuɛ̈ɛ̈n",
+          "definition": "Riɛl ye kɔc kuɔny bïk lɔ thïn"
+        },
+        {
+          "term": "Kuɛ̈n",
+          "definition": "Luɔ̈ɔ̈i ë luɔi ku kä lëu bï kek ya looi"
+        },
+        {
+          "term": "Ɣɔ̈ɔ̈r de luɔɔi",
+          "definition": "Ajuiɛɛr ëbɛ̈n ye kek tɔ̈ɔ̈u në GitHub"
+        },
+        {
+          "term": "Kuɔɔny",
+          "definition": "Kuɔɔny de akutnhom de IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Luɔ̈ɔ̈i",
+      "title": "Tɛ̈ ye yen luui thïn",
+      "intro": "Kë cï thɔ̈ɔ̈ŋ acï bɛ̈n ya tɔ̈u ke ye kë thiin koor apɛi, ku ka cï rot looi bï kɔc ya cath apath."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Kuɔɔny acï bɛ̈n gam",
+        "paragraphs": [
+          "Akuɔ̈tnhïïm, akuut, ka kɔc kɔ̈k alëu bïk rɔ̈ɔ̈m në kë wïc kek.",
+          "Lëk alëu bï rot jɔɔk në wɛbthait, në email tënë <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ku jɔl ya wɛ̈t cɔl Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ee guɛ̈ɛ̈r",
+        "paragraphs": [
+          "Ɣok aŋuɛ̈ɛ̈n buk kä cï kek looi ya tïŋ, ku buk kë cï kek ya looi ya deet apath, ku jɔl ya tɛ̈n bï kek ya luɔɔi thïn, ku ka bï ya lɔ̈ɔ̈m thïn në luɔɔi de kɔc kedhiɛ yiic."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ajuiɛɛr ëbɛ̈n acï bɛ̈n cak",
+        "paragraphs": [
+          "Na cï gätpiny gam, ka cï gɔ̈t në akutnhom de IATF GitHub në kë de atekthok de copyleft.",
+          "Kä ye kek tɔ̈ɔ̈u thïn aye bɛ̈n ya ɣän ëbɛ̈n de lööŋ, kä ye kek gam, kä cï kek gɔ̈t yiic, ku jɔl ya kä kɔ̈k cï kek puɔ̈l."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Raan cï puɔ̈ɔ̈c alɔŋ ë luɔɔi kënë ee yen bɛ̈n ya kuanycök",
+        "paragraphs": [
+          "Raan cï puɔ̈ɔ̈c de thurumbil acï bɛ̈n kuanycök në ɣän ke luɔɔi yiic ku jɔl ya tɛ̈n benë käŋ ya luɔɔi thïn në kɔc kɔ̈k yiic."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Akɔ̈ɔ̈t",
+      "title": "Akut ë gätpiny ë kɔc"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Jɔɔk tɛ̈n",
+      "title": "Lɔ̈ɔ̈k ë luɔi cï looi në ye thaa kënë yic, ka gɔl ë luɔɔi cï looi"
+    },
+    "paragraphs": [
+      "Lɔ̈k aguiɛr-lui bï kë cï gɔ̈ɔ̈r ëyadɛ̈ tïŋ, ka gɔ̈t-yic tɛ̈n wïc yen bï ya luɔɔi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Luɔ̈ɔ̈i ë kuɔɔny ë rɔt",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Luɔ̈ɔ̈i ë kuɔɔny ë rɔt",
+    "lead": "IATF ee kɔɔr ë kuɔɔny de kä ye kɔc kuɔny bïk lɔ̈ɔ̈m në kë de kë wïc kek.",
+    "support": [
+      "Yïn acïï wïc kä juëc bï kek ya lɛ̈k yï, ku yïn adhil kë cï rot looi ya deet yic apath, lɔn ye yen kë yïndë, ku ye rin ŋö yen riliic."
+    ],
+    "actions": [
+      {
+        "label": "Tiɛ̈m kë wïc",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Lɔ̈k Discord në ye mɛn",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Wël cï gɔ̈ɔ̈r",
+      "title": "Lɔ̈k ba dhɔ̈l path kuany"
+    },
+    "intro": [
+      "Lɔ̈ɔ̈i ëbɛ̈n aye kek bɛ̈n tääu në athëm töŋ yic."
+    ],
+    "items": [
+      {
+        "label": "Wɛ̈t cï gɔ̈t",
+        "body": "Luɔ̈ɔ̈i në form tɔ̈u piny ëtën ba rɔt gätpiny."
+      },
+      {
+        "label": "Wɛ̈t ë tuɔ̈ɔ̈c",
+        "body": "Thɔ̈ɔ̈c ë rɔt tënë {{contact.requestsEmail}}Lɔ̈ɔ̈m de email alëu bï ya kë cï gɔ̈t në kɔc kɔ̈k yiic të cenë kek ya tïŋ ku jɔl ya tɛ̈n ben kek ya gätpiny thïn."
+      },
+      {
+        "label": "Wɛ̈t ye kɔc wuɔ̈ɔ̈c",
+        "body": "Bï gɔ̈ɔ̈r thïn tɛ̈ cï yen rot loi apuɔth. Kë cï thiëëc abï bɛɛr lɔ në luɔɔi töŋ kënë yic."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Tɛ̈wën këc yïn wɛ̈t tuɔ̈c",
+    "paragraphs": [
+      "IATF ee luui në kɔc kɔ̈k yiic. Lëk alëu bï kek bɛ̈n caath ku gɛ̈tkë keek ke ye kä cï kek wïc ëbɛ̈n në akutnhom de IATT GitHub, në wɛbthait kënë, ka kedhiɛ.",
+      "Duɔ̈kkë adrɛ̈ɛ̈rs, namba de telepun, wël ke puɔ̈ɔ̈c, ka wël kɔ̈k ke kɔc cï luöi ë teknologï de kuɔ̈ny gɔ̈t tɛ̈dɛ̈t ke yen awïc ku wek aa puɔ̈th mit ku bï IATF ye tïŋ.",
+      "IATF ee wël kɔ̈k cïï kek wïc nyaai tueŋ ke këc kä cï kek thiëëc bɛ̈n gɔ̈t."
+    ]
+  },
+  "review": {
+    "title": "Kä ye kek ŋɔ̈ɔ̈th",
+    "paragraphs": [
+      "Lɔ̈ɔ̈i ë kuɔɔny acie gam.",
+      "IATF ee kä wïc bï kek ya kuanycök në kë de luɔiden, ku jɔl ya tɛ̈n lëu benë kek ya luɔɔi thïn, ku ka cï kek ya tɔ̈ɔ̈u në ɣän kɔ̈k peei yiic.",
+      "Lɔ̈ɔ̈i kɔ̈k alëu bï ke kuec, tɛ̈ɛ̈u kɔ̈u, wala bï kek ya waar tueŋ ke këc kek gam."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Ajuiɛɛr de rɔ̈ɔ̈m",
+      "title": "Lɔ̈k kë wïc"
+    },
+    "fields": [
+      {
+        "kind": "tɛ̈ ye kek bɛ̈n thïn",
+        "name": "raan thiëc",
+        "label": "Athördu ka akutnhomdu",
+        "helper": "Yeŋa ye thiëc?"
+      },
+      {
+        "kind": "kuany",
+        "name": "contactRoute",
+        "label": "Lɔ̈ɔ̈m ye wïc",
+        "helper": "Ye tɛ̈nɛn bï yen rot looi thïn?",
+        "required": true,
+        "options": [
+          "Wɛ̈t ë tuɔ̈ɔ̈c",
+          "Wɛ̈t ye kɔc wuɔ̈ɔ̈c"
+        ]
+      },
+      {
+        "kind": "tɛ̈ ye kek bɛ̈n thïn",
+        "name": "Kuɔ̈ɔ̈c",
+        "label": "Lɔ̈k kɔ̈ɔ̈th",
+        "helper": "Adɛ̈ɛ̈r de email ka wɛ̈t ye cɔl 'Discord handle' në kë de kuɔɔny.",
+        "placeholder": "Email Address or Discord handle (Adrɛ̈ɛ̈t de email ka wɛ̈l ë tuɔ̈m abirguɔ̈p)",
+        "required": true
+      },
+      {
+        "kind": "tɛ̈ ye kek bɛ̈n thïn",
+        "name": "thok",
+        "label": "Thook",
+        "helper": "Luɛldu, tɛ̈cït tɛ̈ wïc yïn ye thïn.",
+        "value": "Thuɔŋjäŋ"
+      },
+      {
+        "kind": "tɛ̈n yenë wël gɔ̈t thïn",
+        "name": "Kë cï bɛ̈n",
+        "label": "Ye kërɛɛc yïndë yen wïc ba nyaai?",
+        "helper": "Lɛ̈k kë ye kɔc gël në wël kɔ̈k yiic.",
+        "required": true
+      },
+      {
+        "kind": "tɛ̈n yenë wël gɔ̈t thïn",
+        "name": "Kɔc cï luöi",
+        "label": "Yeŋa yen ye yök?",
+        "helper": "Yeŋa bï kënë kony?",
+        "required": true
+      },
+      {
+        "kind": "tɛ̈n yenë wël gɔ̈t thïn",
+        "name": "extraContext",
+        "label": "Wɛ̈t kɔ̈k cï gɔ̈t",
+        "helper": "Gäm këdɛ̈t kɔ̈k ye kɔc kony bïk kë wïc lɛ̈k kɔc: yeŋö yen riliic, kä ye kek nyuɔɔth, kä cï kek gɔ̈ɔ̈r, tɛ̈n benë software ya luɔɔi thïn, ka tɛ̈ bï kek ye luɔɔi thïn."
+      },
+      {
+        "kind": "kuany",
+        "name": "openSourceConsent",
+        "label": "Ye yïn puɔ̈u miɛt në luɔɔi de kä cï kek gɔ̈ɔ̈r piny ëbɛ̈n?",
+        "helper": "Kä ye kek gam aye kä ye kɔc tɔ̈ɔ̈u thïn në IATF yic.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ee yic",
+          "Acie tɛ̈de",
+          "Aacï guɔ ŋic."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Na cï gam",
+      "title": "Kë ye gam lueel"
+    },
+    "items": [
+      "a public repository in the IATF GitHub organization",
+      "Raan cï puɔ̈ɔ̈c cï gäm luɔi",
+      "a copyleft license tënë code ku project materials",
+      "thiɛ̈ɛ̈c ë kɔc tɔ̈ në tɛ̈n tɔ̈u yen thïn",
+      "Kë cï gɔ̈ɔ̈r në IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Yɔ̈ɔ̈k wɛ̈t",
+      "title": "Aŋuɛ̈ɛ̈n ba thiëc në thoŋ thiin thiin yic ku ba gɔ̈ɔ̈r"
+    },
+    "paragraphs": [
+      "Na yïn anɔŋ kë kɔɔr ba yök ku ye tak lɔnadɛ̈ ke lëu bï ya luɔi ë kɔc ëbën, ke yï tuɔ̈c ɣo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

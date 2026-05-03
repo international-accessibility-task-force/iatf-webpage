@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF website",
+    "summary": "The public site for the International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF awïc ɣön ëbɛ̈n lëu bï kɔc ya nyuɔ̈ɔ̈th kë cï looi, bï kä cï kek ya looi ya gätpiny, ku bï kɔc cï luöi ya lɛ̈k tɛ̈ bï kek lɔ tueŋ thïn.",
+    "why": "Aacï lɔ̈ɔ̈m tënë kɔc ëbɛ̈n në IATF. Acï bɛ̈n looi ke ye kë thiin thiin koor ku ka bï ya lac kueen, bï ya waar, ku bï ya tɔ̈u në ɣän ke kɔc cï puɔ̈c yiic.",
+    "scopeIn": [
+      "Public landing pages that explain the IATF model",
+      "Akut ë kɔc tɔ̈ɔ̈u në kä cï gam, kä tɔ̈u, ku kä cï kek tääu në käke IATF yiic kenë tän cenë kek ya luɔɔi thïn, kɔc cï kek ya guiir, ku jɔl ya tɛ̈n yenë kek tɔ̈ thïn.",
+      "A page intake request and form",
+      "Akut de akuma ku wɛ̈t ë kɔc kɔ̈ɔ̈th",
+      "Kä cï kek gɔ̈t në thoŋ de English ku kä cï kek guiir bïk kek ya geer",
+      "Static deployment on Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Akuɔ̈tnhïïm tɔ̈ në ɣän kɔ̈k yiic, awelë kä ye röt gɔ̈ɔ̈r thïn",
+      "Gɛ̈ɛ̈r de kä cï kek gɔ̈ɔ̈r, man ye tɔ̈ në kä cï keek gɔ̈r yiic",
+      "Puɔ̈ɔ̈c de real-time, ye rëër në Discord",
+      "Gɛ̈ɛ̈r de wɛ̈t cï gɔ̈ɔ̈r ëbɛ̈n, man ye tɔ̈u në kä cï kek gätpiny yiic në GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Kë thɛɛr de IATF, cï bɛ̈n ya tɔ̈ɔ̈u të cenë yen rot luɔɔi thïn.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Luɔ̈ɔ̈i tueŋ de aguiɛr-lui cï rot gɛɛi në kë de kä ye kek yök në IATF yic.",
+    "why": "Kä ye kek tɔ̈ɔ̈u thïn aye kek bɛ̈n ya tɔ̈u ëtɛ̈ɛ̈n ke ye kä cï kek ya looi, agut cï tɛ̈ cï kek puɔ̈l thïn.",
+    "scopeIn": [
+      "Kä thɛɛr cï kek ya looi në kë de kuɔɔny bï kɔc ya lɔ̈ɔ̈m ku bï kek ya gɔ̈t"
+    ],
+    "scopeOut": [
+      "Luɔ̈ɔ̈i de kä cï kek ya looi",
+      "Lɔ̈ɔ̈i ë mïïth",
+      "Luɔ̈ɔ̈i ë luɔ̈i në luɔɔi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "An IATF community bot, archived after reaching a natural stopping point.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Luɔ̈ɔ̈i de käke IATF community channels.",
+    "why": "Kä ye kek tɔ̈ɔ̈u thïn aye kek bɛ̈n ya tɔ̈u ëtɛ̈ɛ̈n ke ye kä cï kek ya looi, agut cï tɛ̈ cï kek puɔ̈l thïn.",
+    "scopeIn": [
+      "Luɔ̈ɔ̈i cï looi në ɣän ke akutnhom de IATF, cï kek ya tɔ̈u ke ye kë ye kɔc ŋic"
+    ],
+    "scopeOut": [
+      "Luɔ̈ɔ̈i de kä cï kek ya looi",
+      "Lɔ̈ɔ̈i ë mïïth",
+      "Luɔ̈ɔ̈i ë luɔ̈i në luɔɔi"
+    ]
+  }
+]

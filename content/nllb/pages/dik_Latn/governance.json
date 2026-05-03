@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Akut de akuma ku jɔl ya tɛ̈n yenë käŋ tɔ̈ɔ̈u thïn",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Akut de akuma ku jɔl ya tɛ̈n yenë käŋ tɔ̈ɔ̈u thïn",
+    "lead": "IATF ee kä ye kɔc kuɔny bïk lɔ̈ɔ̈m ya looi në kɔc kɔ̈k nhïïm, ku bï kek ya kueen apath, ku bïk kek ya muk apath.",
+    "support": [
+      "Apam kënë ee kä ye kek gam lueel, ku tɛ̈ ye kä tɔ̈ɔ̈u thïn muk thïn, ku ye kë ye kë tɔ̈u ke kɔc tɔ̈ në ɣän kɔ̈k yiic looi në kë cï kek gam."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Lööŋ",
+      "title": "Luɔ̈ɔ̈i ë luɔi, kɔc tɔ̈ thïn, puɔ̈l ë luɔi"
+    },
+    "cards": [
+      {
+        "title": "Mission fit",
+        "paragraphs": [
+          "IATF ee luɔi ye gam në kë de kë ye cɔlë 'accessibility barrier' ku nɔŋ kë puɔth apɛi tënë kɔc ëbën.",
+          "Ajuiɛɛr adhil bï ya piath tënɔŋ luɔɔi de raan ë rot ku bï ya luui ke ye kë tɔ̈ në kɔc kɔ̈k yiic.",
+          "Në kë de kä ye kek yök në wɛbthait yic, ke IATF aye luui në [W3C WAI](https://www.w3.org/WAI/) Kä cï kek ya yök në kɔc cï luɔɔiden ya luɔ̈ɔ̈i, aye nyuɔɔth ëyadɛ̈ lɔnadɛ̈ ke ke ye luɔ̈i apath."
+        ]
+      },
+      {
+        "title": "Acceptance ë project",
+        "paragraphs": [
+          "Ajuiɛɛr alëu bï ya gam të cenë yen ya tïŋ ke:"
+        ],
+        "items": [
+          "yen ee kë wïc kɔc bïk lɔ thïn yök",
+          "Kë cï bɛ̈n ya lueel ee yic apɛi ku ka lëu bï raan ya tak.",
+          "Kä ye kek looi aye kä lëu bï kek ya looi.",
+          "luɔi ee rɔt mat keke luɔi de IATF",
+          "anɔŋ tɛ̈ lëu bï yen rot luɔɔi thïn bï yen ya cɔ̈kpiny ka bï ya thöl"
+        ]
+      },
+      {
+        "title": "Ɣɔ̈ɔ̈r de kä tɔ̈u thïn",
+        "paragraphs": [
+          "Kä ye kek gam aye kek cak në tɛ̈n de akutnhom de IATF GitHub.",
+          "Kä ye tɔ̈ɔ̈u thïn aye tɔ̈ thïn agonë luɔɔi ebɛ̈n ya muk apath, agut cï tɛ̈ bï kɔc cï kek ya guiir röt waar thïn."
+        ]
+      },
+      {
+        "title": "Gɛ̈ɛ̈r ë lɔ̈ɔ̈m",
+        "paragraphs": [
+          "IATF projects use copyleft licensing unless a project states otherwise:"
+        ],
+        "items": [
+          "<strong>Wël cï gɔ̈t:</strong> AGPL-3.0",
+          "<strong>Wël cï gɔ̈t:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Raan cï luöi ku raan muk luɔi",
+      "paragraphs": [
+        "Ajuiɛɛr ebën cï gam adhil raan cï gätpiny ya kuanycök bï ya raan cï luöi. Raan kënë alëu bï ya lɔ̈ɔ̈m ku bï kɔc kɔ̈k bɛ̈n kony ku bï:"
+      ],
+      "items": [
+        "guiɛ̈ɛ̈r ë puɔ̈ɔ̈c ë kɔc",
+        "Kuɔ̈ɔ̈n de käke kuɔɔny",
+        "bï kä cï kek gam ya tïŋ ku jɔl ya kä ye kek yɔ̈ɔ̈k bï kek bɛ̈n ya kuanycök",
+        "Kuɔ̈ɔ̈n riliic thiekic",
+        "looi kë bï kɔc kɔ̈k deet yic"
+      ],
+      "footnote": "Kän ee luɔi de tɛ̈n de kä tɔ̈ɔ̈u thïn. Luɔi de akutnhom ee rëër kekë akutnhom de IATF. Luɔidiɛ̈ ëtënë ee luɔɔi de kuɔɔny, ku jɔl ya tɛ̈ ye kɔc röt kuɔny thïn  ku acie tɛ̈ɛ̈u de kë tɔ̈u kekë kɔc kɔ̈k, tɛ̈ cï kek röt mat thïn, ka tɛ̈ bï kek luui thïn."
+    },
+    "publicDevelopment": {
+      "title": "Luɔ̈ɔ̈i ë kɔc",
+      "paragraphs": [
+        "Kä cï kek ya looi në IATF yiic aye kek ya guiir në kɔc kɔ̈k yiic."
+      ],
+      "items": [
+        "Kä ye kek gɔ̈ɔ̈r",
+        "kä cï kek bɛ̈n lueel",
+        "kä cï gɔ̈ɔ̈r",
+        "roadmap notes",
+        "Akɔ̈ɔ̈t de luɔ̈i"
+      ],
+      "footnote": "Piɔ̈ɔ̈c de kä thiekic acïï dhil ya tɔ̈ në kɔc kɔ̈k yiic në chat ka inboxes yiic."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Kä ye kɔc gɔ̈ɔ̈r",
+      "title": "Kä cï gɔ̈ɔ̈r ë kɔc kɔ̈k"
+    },
+    "paragraphs": [
+      "IATF ee luui në kɔc kɔ̈k yiic në tän cenë yen tɔ̈ɔ̈u thïn.",
+      "A public request record isn't necessarily the original message. IATF may summarize, redact, or restructure a request before publication so the accessibility need can be reviewed without exposing unnecessary personal information. Yïŋ de kë kɔɔr në kɔc kɔ̈k acie wɛ̈t thɛɛr.",
+      "Public request records can be stored in the IATF GitHub organization, on this website, or both.",
+      "Thɛɛr ke këc kek gɔ̈t, IATF ee wël kɔ̈k cïï kek kɔɔr nyaai, cïmën de wɛ̈ɛ̈r de raan, ku jɔl ya tɛ̈n yenë raan rot luɔɔi thïn, agut cï tɛ̈ bï kek ya gɔ̈ɔ̈r thïn.",
+      "Discord aye luɔ̈ɔ̈i në ajuiɛɛr yic. IATF acie jam de Discord tɔ̈u në athöör yic në thɛɛr kɔ̈k yiic, ku wɛ̈t cï kek ya tɔ̈c aye mac në Discord. Lööŋ cï kek bɛ̈n looi në ye Discord yic adhil kek ya mat në kä cï kek gɔ̈t yiic në GitHub.",
+      "Aci gɔ̈ɔ̈r de kë wïc në kuën de search engine yic tɛ̈ lëu benë ye luɔɔi thïn. Public aye lueel ke ye kë lëu bï keek ya tïŋ ku bï kek ya lɛ̈k kɔc. Aci wɛ̈t ye cɔl 'optimised for discovery through name searches' ye lueel.",
+      "IATF alëu bï kä cï gɔ̈ɔ̈r bɛ̈n ya tɔ̈c ku ka bï ke nyaai në ɣän ke kɔc yiic, ku ka cïï lëu bï kɔc kɔ̈k ya nyaai në bɛ̈ɛ̈i peei yiic cïmën de cache, notifications, forks, screenshots, search engines, Discord, or other external systems.",
+      "Na ye wɛ̈t wïc bï ya këde yetök, ke duɔ̈kkë ye tuɔ̈ɔ̈c në IATF public channels."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Luɔi de akutnhom",
+      "title": "Akutnhom"
+    },
+    "lead": "Akutnhom de akutnhom ee akutnhom de akuɔ̈tnhïïm de IATF muk.Kënë ee wuɔ̈ɔ̈c tënë luɔi de raan de thurumbil ë luɔi: akutnhom ë akutnhom abɛ̈n, ku acie akuma de akuma tök ëbɛ̈n.",
+    "duties": {
+      "title": "Kë ye kɔ̈ɔ̈c looi",
+      "items": [
+        "Gël lɔ̈ɔ̈ŋ de raan tɔ̈ në akutnhom de IATF GitHub",
+        "Aci gɔ̈ɔ̈r piny në wɛ̈t de gam de luɔɔi ku jɔl ya wël cï kek bɛ̈n kuanycök ago kek ya tɔ̈ në athöör yic",
+        "Luɔ̈ɔ̈i ke ye raan ye kɔc kuɔny në luɔɔi de IATF",
+        "Coordinates the yearly election"
+      ],
+      "footnote": "Raan tɔ̈u akutnhom yic acïï IATF bɛ̈ɛ̈i tënë kɔc kɔ̈k, luɔi cï riɔp, awelë kä ye kek gam në tɛ̈n yenë kek luui thïn, ku acïï lööŋ ke kɔc tɔ̈ në akuɔ̈tnhïïm tɔ̈ɔ̈u yiic në kë de kuɔɔny de të yenë kek luɔɔi thïn."
+    },
+    "election": {
+      "title": "Ye kuany ë ruɔ̈ɔ̈n",
+      "paragraphs": [
+        "Akutnhom aye kuany tök në ruɔ̈ɔ̈n yic. Akutnhïïm aye kuany në pɛi karou tueŋ në pɛɛi de thiɛ̈ɛ̈r (December) yic, ku kä cï kek bɛ̈n yök aye kek lueel në penëdhorou 15, ku akutnhom yam ee rot jɔɔk në pɛinïn tök (January).",
+        "Kɔc cï puɔ̈ɔ̈c bïk ya kuany aye kɔc cï luui në IATF yic në ruön tök yic ku cï raan tök ya kuɔ̈c puɔ̈u në ye ruön kënë yic.",
+        "Lɔ̈ɔ̈i ee rot looi ke ye wɛ̈t ë kɔc kedhiɛ në GitHub në tɛ̈ɛ̈u de lööŋ ke IATF, në ye mɛn, ke kɔc cï kɔɔr, ku jɔl ya kë cï bɛ̈n thïn aye kek abɛ̈k de kä cï kek gɔ̈t yiic."
+      ]
+    },
+    "continuity": {
+      "title": "Luɔ̈ɔ̈i cï rot looi",
+      "paragraphs": [
+        "Na cïn athook cï looi në ruɔ̈ɔ̈n tök yic, ke raan tɔ̈ në ye thaa kënë abï rëër në ye luɔɔi kënë yic agut tɛ̈ bï amat dɛ̈t bɛ̈n.",
+        "Bɛ̈ny alëu bï lɔ̈ɔ̈ŋde bɛ̈n puɔ̈l në thaar dɛ̈t yic."
+      ]
+    },
+    "current": {
+      "title": "Akutnhïïm tɔ̈ thïn",
+      "fields": [
+        {
+          "label": "Akutnhom",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Wɛ̈t cï lueel",
+          "value": "Tɔŋë pɛɛi de thiɛ̈ɛ̈r de 2026"
+        },
+        {
+          "label": "Loiloi cï kek bɛ̈n looi",
+          "value": "2026"
+        },
+        {
+          "label": "Lɔ̈ɔ̈m tueŋ cï guiir",
+          "value": "Pɛnëbɛ̈t 2026"
+        }
+      ]
+    },
+    "footnote": "Akutnhom de akutnhom acï bɛ̈n looi në ruöön de 2026 ago akutnhom de akuɔ̈tnhïïm ya mac apath."
+  },
+  "continuity": {
+    "states": {
+      "title": "Wɛ̈t cï gätpiny",
+      "paragraphs": [
+        "Kä ye kek looi aye kä thiin lik ye kek lueel në kɔc yiic:"
+      ],
+      "items": [
+        "Kë cï gɔ̈ɔ̈r",
+        "Accepted",
+        "Luɔ̈ɔ̈i",
+        "Kuɔ̈ɔ̈c",
+        "A leŋ raan bï ye muk",
+        "Kä cï gɔ̈ɔ̈r"
+      ],
+      "footnote": "Lööŋ käkë aaye kä cï kek gɔ̈ɔ̈r looi bïk röt lac deet yiic."
+    },
+    "reassignment": {
+      "title": "Lɔ̈ɔ̈i ku jɔl ya kä tɔ̈ në athöör yic",
+      "paragraphs": [
+        "Na cï raan tɔ̈ në luɔɔi bɛ̈n puɔ̈l ka cïï lui, ke akut de IATF alëu bï raan dɛ̈t ya gäm luɔi, bï lɔ̈ɔ̈m de luɔɔi ya cɔk lɔ̈ŋ, ka bï luɔɔi ya thöl.",
+        "Ajuiɛɛr alëu bï ya tɔ̈ɔ̈u të cï yen wïc thɛɛr bɛ̈n thöl, ku jɔl ya tɛ̈ cï kɔc kɔ̈k puɔ̈l bï kek ya luui thïn, ka tɛ̈n cïï kɔc bï ya lɔ̈k luui thïn."
+      ],
+      "footnote": "Kä cï kek ya tɔ̈ɔ̈u në kä cï kek gɔ̈t yiic, aye kek ya tïŋ në kɔc kɔ̈k yiic, agut tɛ̈ bï yen ya yic apɛi."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Kë cï gɔ̈ɔ̈r",
+      "title": "Kë cïï IATF ye gam"
+    },
+    "items": [
+      "Luɔ̈ɔ̈i ë kɔc cï luöi",
+      "Agɔ̈ɔ̈r ë pialgup",
+      "gam ë wël cï kek gam",
+      "Kuɔɔny ë run juɛ̈ɛ̈c ë luɔi ebɛ̈në"
+    ],
+    "footnote": "IATF ee wëu ë kɔc tɔ̈ɔ̈u thïn, ku acie kɔc ë röt."
+  }
+}

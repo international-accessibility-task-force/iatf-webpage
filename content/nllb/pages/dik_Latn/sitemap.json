@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Wɛ̈t cï gɔ̈t",
+    "title": "Sitemap",
+    "lead": "Ajuiɛɛr ëbɛ̈n tɔ̈ në wɛ̈t ë yic në ITFCC, në tɛ̈n tök."
+  },
+  "sections": [
+    {
+      "title": "Kädït",
+      "items": [
+        {
+          "label": "Paanduɔ̈n",
+          "href": "/"
+        },
+        {
+          "label": "Akɔ̈ɔ̈t",
+          "href": "/projects/"
+        },
+        {
+          "label": "Lɔ̈ɔ̈ŋ ë luɔi",
+          "href": "/propose/"
+        },
+        {
+          "label": "Akut de loiloi",
+          "href": "/governance/"
+        },
+        {
+          "label": "Matkë röt",
+          "href": "/join/"
+        },
+        {
+          "label": "Lɔ̈ɔ̈i ë rɔt",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kuɔ̈ɔ̈c ë rot",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Akɔ̈ɔ̈t",
+  "projectsEmpty": "Acïn kä cï kek bɛ̈n gɔ̈t."
+}
