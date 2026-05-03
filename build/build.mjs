@@ -1,5 +1,15 @@
 import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import {
+  getFeaturedDraftCodes,
+  LANGUAGE_BROWSER_REGION_CODES,
+  LANGUAGE_BROWSER_UI_FALLBACKS
+} from "../shared/language-browser.js";
+import {
+  getRouteSlug,
+  localizeRoutePathname,
+  stripLanguagePrefix
+} from "../shared/routes.js";
 
 const root = process.cwd();
 const outDir = path.join(root, "dist");
@@ -9,6 +19,9 @@ const site = await readJson(path.join(root, "content", "site.json"));
 const defaultLang = site.defaultLanguage;
 const languages = await readJson(
   path.join(root, "content", "languages.json")
+);
+const nllbLanguages = await readJson(
+  path.join(root, "data", "languages.nllb.json")
 );
 const baseProjects = await readJson(
   path.join(root, "data", "projects.json")
@@ -56,16 +69,44 @@ function localizeProjectStatus(status) {
   if (!status) return "";
   return strings[`project.status.${status}`] || status;
 }
+
+function renderLtrInlineText(value) {
+  return `<bdi dir="ltr">${escapeHtml(value)}</bdi>`;
+}
+
 const languageCodes = Object.keys(languages);
 const enabledLanguages = languageCodes.filter((code) => languages[code]?.enabled);
+const publicNllbCodeToLanguageCode = new Map(
+  enabledLanguages
+    .map((code) => [languages[code]?.nllb, code])
+    .filter(([nllbCode]) => Boolean(nllbCode))
+);
+const longTailNllbCodes = Object.keys(nllbLanguages).filter(
+  (code) => !publicNllbCodeToLanguageCode.has(code)
+);
 
 if (!enabledLanguages.includes(defaultLang)) {
   enabledLanguages.unshift(defaultLang);
 }
 
 const INDEXABLE_TRANSLATION_STATUSES = new Set(["source", "human-reviewed"]);
+const RTL_SCRIPTS = new Set(["Arab", "Hebr"]);
+const NLLB_ROUTE_PREFIX = "/nllb/";
+const NLLB_REGION_ORDER = [
+  "worldwide",
+  "europe",
+  "america",
+  "middle-east",
+  "africa",
+  "asia",
+  "pacific"
+];
+let currentRouteMode = "public";
+let currentNllbCode = "";
+let currentNllbSlug = "";
 
 function getTranslationStatus(code) {
+  if (nllbLanguages[code]) return "machine-assisted";
   return languages[code]?.translation?.status || "machine-assisted";
 }
 
@@ -73,10 +114,23 @@ function isIndexableLocale(code) {
   return INDEXABLE_TRANSLATION_STATUSES.has(getTranslationStatus(code));
 }
 
+function getLanguageDirection(code) {
+  const nllbDirection = nllbLanguages[code]?.direction;
+  if (nllbDirection === "rtl" || nllbDirection === "ltr") {
+    return nllbDirection;
+  }
+  const explicitDirection = languages[code]?.direction;
+  if (explicitDirection === "rtl" || explicitDirection === "ltr") {
+    return explicitDirection;
+  }
+  const script = languages[code]?.script || nllbLanguages[code]?.script;
+  return RTL_SCRIPTS.has(script) ? "rtl" : "ltr";
+}
+
 const indexableLanguages = enabledLanguages.filter(isIndexableLocale);
 
 let lang = defaultLang;
-let strings = await loadStrings(lang);
+let { values: strings, localizedKeys: localizedStringKeys } = await loadStrings(lang);
 let content = await loadContent(lang);
 const publicDiscordUrl = site.contact.discordUrl || site.contact.discordInviteUrl;
 
@@ -95,26 +149,218 @@ const rawTokens = {
 };
 
 const richTokens = {
-  "contact.accessibilityEmail": `<a href="mailto:${rawTokens["contact.accessibilityEmail"]}">${rawTokens["contact.accessibilityEmail"]}</a>`,
-  "contact.requestsEmail": `<a href="mailto:${rawTokens["contact.requestsEmail"]}">${rawTokens["contact.requestsEmail"]}</a>`,
-  "contact.projectsEmail": `<a href="mailto:${rawTokens["contact.projectsEmail"]}">${rawTokens["contact.projectsEmail"]}</a>`,
-  "contact.generalEmail": `<a href="mailto:${rawTokens["contact.generalEmail"]}">${rawTokens["contact.generalEmail"]}</a>`,
-  "contact.i18nEmail": `<a href="mailto:${rawTokens["contact.i18nEmail"]}">${rawTokens["contact.i18nEmail"]}</a>`,
-  "contact.discordUrl": `<a href="${rawTokens["contact.discordUrl"]}" rel="external">${rawTokens["contact.discordUrl"]}</a>`,
-  "contact.discordInviteUrl": `<a href="${rawTokens["contact.discordInviteUrl"]}" rel="external">${rawTokens["contact.discordInviteUrl"]}</a>`,
-  "contact.githubOrgUrl": `<a href="${rawTokens["contact.githubOrgUrl"]}" rel="external">${rawTokens["contact.githubOrgUrl"]}</a>`
+  "contact.accessibilityEmail": `<a href="mailto:${escapeHtml(rawTokens["contact.accessibilityEmail"])}">${renderLtrInlineText(rawTokens["contact.accessibilityEmail"])}</a>`,
+  "contact.requestsEmail": `<a href="mailto:${escapeHtml(rawTokens["contact.requestsEmail"])}">${renderLtrInlineText(rawTokens["contact.requestsEmail"])}</a>`,
+  "contact.projectsEmail": `<a href="mailto:${escapeHtml(rawTokens["contact.projectsEmail"])}">${renderLtrInlineText(rawTokens["contact.projectsEmail"])}</a>`,
+  "contact.generalEmail": `<a href="mailto:${escapeHtml(rawTokens["contact.generalEmail"])}">${renderLtrInlineText(rawTokens["contact.generalEmail"])}</a>`,
+  "contact.i18nEmail": `<a href="mailto:${escapeHtml(rawTokens["contact.i18nEmail"])}">${renderLtrInlineText(rawTokens["contact.i18nEmail"])}</a>`,
+  "contact.discordUrl": `<a href="${escapeHtml(rawTokens["contact.discordUrl"])}" rel="external">${renderLtrInlineText(rawTokens["contact.discordUrl"])}</a>`,
+  "contact.discordInviteUrl": `<a href="${escapeHtml(rawTokens["contact.discordInviteUrl"])}" rel="external">${renderLtrInlineText(rawTokens["contact.discordInviteUrl"])}</a>`,
+  "contact.githubOrgUrl": `<a href="${escapeHtml(rawTokens["contact.githubOrgUrl"])}" rel="external">${renderLtrInlineText(rawTokens["contact.githubOrgUrl"])}</a>`
 };
 
+function getLanguageMetadata(code) {
+  return languages[code] || nllbLanguages[code] || {};
+}
+
+function isReviewedLanguageStatus(status) {
+  return status === "source" || status === "human-reviewed";
+}
+
+function hasLocalizedString(key) {
+  return lang === defaultLang || localizedStringKeys.has(key);
+}
+
+function getLanguageBrowserLabel(key, englishFallback = "") {
+  if (hasLocalizedString(key) && strings[key]) {
+    return strings[key];
+  }
+
+  const browserFallback = LANGUAGE_BROWSER_UI_FALLBACKS[lang]?.[key];
+  if (browserFallback) {
+    return browserFallback;
+  }
+
+  return lang === defaultLang ? strings[key] || englishFallback : englishFallback;
+}
+
+function getLanguageBrowserCopy(key, englishFallback = "") {
+  if (hasLocalizedString(key) && strings[key]) {
+    return strings[key];
+  }
+
+  return lang === defaultLang ? strings[key] || englishFallback : "";
+}
+
+function getLanguagePageTitle() {
+  return getLanguageBrowserLabel(
+    "languages.page.title",
+    strings["nav.languagePlural"] || "Languages"
+  );
+}
+
+function getLanguageStatusLabel(status) {
+  const key = {
+    source: "languages.status.source",
+    "human-reviewed": "languages.status.reviewed",
+    "machine-assisted": "languages.status.draft",
+    "needs-update": "languages.status.needsUpdate"
+  }[status];
+
+  const fallback = {
+    source: "Source",
+    "human-reviewed": "Reviewed",
+    "machine-assisted": "Draft",
+    "needs-update": "Needs update"
+  }[status] || status;
+
+  return getLanguageBrowserLabel(key, fallback);
+}
+
+function getLanguageStatusTone(status) {
+  if (status === "source" || status === "human-reviewed") return "reviewed";
+  if (status === "needs-update") return "warning";
+  return "draft";
+}
+
+function getLanguageEntry(code, href) {
+  const language = getLanguageMetadata(code);
+  return {
+    code,
+    href,
+    nativeName: language.nativeName || language.displayLabel || code,
+    englishName: language.englishName || language.displayLabel || code,
+    langTag: getHtmlLangTag(code),
+    direction: getLanguageDirection(code),
+    status: getTranslationStatus(code),
+    region: getLanguageRegion(code)
+  };
+}
+
+function sortLanguageEntries(entries, preferredOrder = []) {
+  const orderMap = new Map(preferredOrder.map((code, index) => [code, index]));
+  return [...entries].sort((a, b) => {
+    const aOrder = orderMap.has(a.code) ? orderMap.get(a.code) : Number.MAX_SAFE_INTEGER;
+    const bOrder = orderMap.has(b.code) ? orderMap.get(b.code) : Number.MAX_SAFE_INTEGER;
+    if (aOrder !== bOrder) return aOrder - bOrder;
+    return a.nativeName.localeCompare(b.nativeName, undefined, { sensitivity: "base" });
+  });
+}
+
+function getEnabledLanguageEntriesForPath(pathname) {
+  return enabledLanguages.map((code) =>
+    getLanguageEntry(code, localizePublicPathname(pathname, code))
+  );
+}
+
+function getLongTailLanguageEntriesForPath(pathname) {
+  return longTailNllbCodes.map((code) => {
+    const slug = nllbLanguages[code]?.slug || String(code).toLowerCase().replaceAll("_", "-");
+    const href =
+      pathname === "/languages/"
+        ? getNllbRootPath(code)
+        : localizeNllbPathname(pathname, slug);
+    return getLanguageEntry(code, href);
+  });
+}
+
+function getLanguageBrowserEntriesForPage() {
+  const publicEntries = enabledLanguages.map((code) =>
+    getLanguageEntry(code, localizePublicPathname("/", code))
+  );
+  const nllbEntries = getLongTailLanguageEntriesForPath("/");
+  return [...publicEntries, ...nllbEntries];
+}
+
+function getLanguageBrowserGroupsForPage(entries) {
+  const entriesByRegion = new Map(
+    NLLB_REGION_ORDER.map((region) => [region, []])
+  );
+
+  for (const entry of entries) {
+    const region = normalizeLanguageRegion(entry.region);
+    if (!entriesByRegion.has(region)) {
+      entriesByRegion.set(region, []);
+    }
+    entriesByRegion.get(region).push(entry);
+  }
+
+  return [...entriesByRegion.entries()]
+    .map(([key, groupEntries]) => ({
+      key,
+      title: getLanguageBrowserRegionTitle(key, key),
+      entries: sortLanguageEntries(groupEntries)
+    }))
+    .filter((group) => group.entries.length > 0);
+}
+
+function getLanguageBrowserRegionTitle(key, fallbackTitle) {
+  const stringKey = `languages.region.${key}`;
+  if (hasLocalizedString(stringKey) && strings[stringKey]) {
+    return strings[stringKey];
+  }
+
+  const browserFallback = LANGUAGE_BROWSER_UI_FALLBACKS[lang]?.[stringKey];
+  if (browserFallback) {
+    return browserFallback;
+  }
+
+  const regionCode = LANGUAGE_BROWSER_REGION_CODES[key];
+  if (!regionCode) return strings[stringKey] || fallbackTitle;
+
+  try {
+    const displayNames = new Intl.DisplayNames(
+      [languages[lang]?.ietfBcp47 || lang],
+      { type: "region" }
+    );
+    return displayNames.of(regionCode) || fallbackTitle;
+  } catch {
+    return strings[stringKey] || fallbackTitle;
+  }
+}
+
+function getLanguageRegion(code) {
+  if (nllbLanguages[code]?.region) {
+    return normalizeLanguageRegion(nllbLanguages[code].region);
+  }
+
+  const publicNllbCode = languages[code]?.nllb;
+  if (publicNllbCode && nllbLanguages[publicNllbCode]?.region) {
+    return normalizeLanguageRegion(nllbLanguages[publicNllbCode].region);
+  }
+
+  return code === defaultLang ? "worldwide" : "worldwide";
+}
+
+function normalizeLanguageRegion(region) {
+  if (region === "americas") return "america";
+  return region || "worldwide";
+}
+
+function getHtmlLangTag(code) {
+  const explicitTag = languages[code]?.ietfBcp47;
+  if (explicitTag) return explicitTag;
+
+  const nllbLanguage = nllbLanguages[code];
+  if (nllbLanguage?.iso639_3 && nllbLanguage?.script) {
+    return `${nllbLanguage.iso639_3}-${nllbLanguage.script}`;
+  }
+
+  return String(code).replaceAll("_", "-");
+}
+
 const routes = [
-  { slug: "", render: () => renderHomePage() },
-  { slug: "projects", render: () => renderProjectsPage() },
-  { slug: "propose", render: () => renderProposePage() },
-  { slug: "governance", render: () => renderGovernancePage() },
-  { slug: "join", render: () => renderJoinPage() },
-  { slug: "accessibility", render: () => renderAccessibilityPage() },
-  { slug: "transparency", render: () => renderTransparencyPage() },
-  { slug: "sitemap", render: () => renderSitemapPage() }
+  { key: "", render: () => renderHomePage() },
+  { key: "projects", render: () => renderProjectsPage() },
+  { key: "propose", render: () => renderProposePage() },
+  { key: "governance", render: () => renderGovernancePage() },
+  { key: "join", render: () => renderJoinPage() },
+  { key: "accessibility", render: () => renderAccessibilityPage() },
+  { key: "transparency", render: () => renderTransparencyPage() },
+  { key: "sitemap", render: () => renderSitemapPage() },
+  { key: "languages", render: () => renderLanguagesPage() }
 ];
+const nllbRoutes = routes.filter((route) => route.key !== "languages");
 
 await rm(outDir, { recursive: true, force: true });
 await mkdir(outDir, { recursive: true });
@@ -137,17 +383,65 @@ for (const [source, target] of [
 }
 
 for (const code of enabledLanguages) {
+  currentRouteMode = "public";
+  currentNllbCode = "";
+  currentNllbSlug = "";
   lang = code;
-  strings = await loadStrings(code);
+  ({ values: strings, localizedKeys: localizedStringKeys } = await loadStrings(code));
   content = await loadContent(code);
   projects = await loadProjects(code);
 
   const localeOutDir = getLocaleOutDir(code);
   await mkdir(localeOutDir, { recursive: true });
-  await mkdir(path.join(localeOutDir, "projects"), { recursive: true });
+  await mkdir(
+    path.join(localeOutDir, getRouteSlug("projects", code)),
+    { recursive: true }
+  );
 
   for (const route of routes) {
-    const pageDir = route.slug ? path.join(localeOutDir, route.slug) : localeOutDir;
+    const pageDir = route.key
+      ? path.join(localeOutDir, getRouteSlug(route.key, code))
+      : localeOutDir;
+    await mkdir(pageDir, { recursive: true });
+    await writeFile(path.join(pageDir, "index.html"), route.render());
+  }
+
+  for (const project of projects) {
+    const projectDir = path.join(
+      localeOutDir,
+      getRouteSlug("projects", code),
+      project.slug
+    );
+    await mkdir(projectDir, { recursive: true });
+    await writeFile(
+      path.join(projectDir, "index.html"),
+      renderProjectPage(project)
+    );
+  }
+
+  await writeFile(path.join(localeOutDir, "404.html"), renderNotFoundPage());
+}
+
+const nllbOutDir = path.join(outDir, "nllb");
+await mkdir(nllbOutDir, { recursive: true });
+
+for (const code of longTailNllbCodes) {
+  currentRouteMode = "nllb";
+  currentNllbCode = code;
+  currentNllbSlug = nllbLanguages[code]?.slug || code.toLowerCase().replaceAll("_", "-");
+  lang = code;
+  ({ values: strings, localizedKeys: localizedStringKeys } = await loadNllbStrings(code));
+  content = await loadNllbContent(code);
+  projects = await loadNllbProjects(code);
+
+  const localeOutDir = path.join(nllbOutDir, currentNllbSlug);
+  await mkdir(localeOutDir, { recursive: true });
+  await mkdir(path.join(localeOutDir, "projects"), { recursive: true });
+
+  for (const route of nllbRoutes) {
+    const pageDir = route.key
+      ? path.join(localeOutDir, route.key)
+      : localeOutDir;
     await mkdir(pageDir, { recursive: true });
     await writeFile(path.join(pageDir, "index.html"), route.render());
   }
@@ -163,6 +457,10 @@ for (const code of enabledLanguages) {
 
   await writeFile(path.join(localeOutDir, "404.html"), renderNotFoundPage());
 }
+
+currentRouteMode = "public";
+currentNllbCode = "";
+currentNllbSlug = "";
 await writeFile(
   path.join(outDir, "robots.txt"),
   noindex
@@ -430,6 +728,15 @@ function renderProjectPage(project) {
 
 function renderSitemapPage() {
   const c = content.sitemap;
+  const languagesItem = {
+    label: getLanguagePageTitle(),
+    href: "/languages/"
+  };
+  const sectionsWithLanguages = (c.sections || []).map((section, index) =>
+    index === 0 && section.items?.length
+      ? { ...section, items: [...section.items, languagesItem] }
+      : section
+  );
   const projectItems = projects.map((project) => ({
     label: project.title,
     href: `/projects/${project.slug}/`
@@ -443,12 +750,146 @@ function renderSitemapPage() {
         title: c.projectsTitle || "Projects",
         emptyMessage: c.projectsEmpty || "No projects published yet."
       };
-  const sections = [...(c.sections || []), projectsSection];
+  const sections =
+    sectionsWithLanguages.length > 0
+      ? [...sectionsWithLanguages, projectsSection]
+      : [
+          {
+            title: getLanguagePageTitle(),
+            items: [languagesItem]
+          },
+          projectsSection
+        ];
   return renderDocument({
     pageData: c,
     body: `
       ${renderHero(c.hero)}
       ${renderSitemapSections(sections)}
+    `
+  });
+}
+
+function renderLanguagesPage() {
+  const pageTitle = getLanguagePageTitle();
+  const heroLead = getLanguageBrowserCopy("languages.page.lead");
+  const heroSupport = getLanguageBrowserCopy("languages.page.support");
+  const overviewIntro = getLanguageBrowserCopy("languages.overview.intro");
+  const directoryIntro = getLanguageBrowserCopy("languages.directory.intro");
+  const pageData = {
+    meta: {
+      currentPath: "/languages/",
+      title: pageTitle
+    }
+  };
+  const entries = sortLanguageEntries(
+    getLanguageBrowserEntriesForPage(),
+    getFeaturedDraftCodes(enabledLanguages)
+  );
+  const draftEntries = entries.filter(
+    (entry) => !isReviewedLanguageStatus(entry.status)
+  );
+  const sourceCount = entries.filter((entry) => entry.status === "source").length;
+  const reviewedCount = entries.filter(
+    (entry) => entry.status === "human-reviewed"
+  ).length;
+  const draftCount = draftEntries.length;
+  const groups = getLanguageBrowserGroupsForPage(entries);
+
+  return renderDocument({
+    pageData,
+    description: getLanguageBrowserCopy("meta.languages.description") || site.description,
+    body: `
+      ${renderHero({
+        eyebrow:
+          getLanguageBrowserCopy("languages.hero.eyebrow", "") ||
+          pageTitle,
+        title: pageTitle,
+        lead: heroLead,
+        support: heroSupport ? [heroSupport] : []
+      })}
+      <section class="section section--intro" aria-labelledby="languages-overview-heading">
+        ${renderSectionHeader(
+          {
+            kicker: getLanguageBrowserCopy("languages.overview.kicker"),
+            title: getLanguageBrowserCopy("languages.overview.title") || pageTitle,
+            intro: overviewIntro
+          },
+          "languages-overview-heading"
+        )}
+        <div class="split split--3">
+          ${renderLanguageOverviewCard(
+            getLanguageStatusLabel("source"),
+            sourceCount,
+            getLanguageBrowserCopy("languages.overview.sourceBody")
+          )}
+          ${renderLanguageOverviewCard(
+            getLanguageStatusLabel("human-reviewed"),
+            reviewedCount,
+            getLanguageBrowserCopy("languages.overview.reviewedBody")
+          )}
+          ${renderLanguageOverviewCard(
+            getLanguageStatusLabel("machine-assisted"),
+            draftCount,
+            getLanguageBrowserCopy("languages.overview.draftBody")
+          )}
+        </div>
+      </section>
+      <section class="section" aria-labelledby="languages-directory-heading">
+        ${renderSectionHeader(
+          {
+            kicker: getLanguageBrowserCopy("languages.directory.kicker"),
+            title:
+              getLanguageBrowserCopy("languages.directory.title") ||
+              strings["nav.languageSearch"] ||
+              pageTitle,
+            intro: directoryIntro
+          },
+          "languages-directory-heading"
+        )}
+        <div class="language-browser" data-language-browser>
+          <label class="language-browser__search">
+            <span class="visually-hidden">${escapeHtml(
+              getLanguageBrowserCopy("languages.search.label", "") ||
+                strings["nav.languageSearch"] ||
+                "Search languages"
+            )}</span>
+            <input
+              type="search"
+              placeholder="${escapeHtml(
+                getLanguageBrowserCopy("languages.search.placeholder", "") ||
+                  strings["nav.languageSearch"] ||
+                  "Search languages"
+              )}"
+              data-language-browser-input
+              autocomplete="off"
+              spellcheck="false"
+            />
+          </label>
+          <div class="language-browser__groups">
+            ${groups
+              .map(
+                (group) => `<section
+                  class="language-browser__group"
+                  data-language-browser-group
+                  aria-labelledby="language-group-${escapeHtml(group.key)}"
+                >
+                  <h3 id="language-group-${escapeHtml(group.key)}">${escapeHtml(group.title)}</h3>
+                  ${renderLanguageBrowserList(group.entries)}
+                </section>`
+              )
+              .join("")}
+          </div>
+          <p
+            class="language-browser__empty"
+            data-language-browser-empty
+            hidden
+          >${escapeHtml(
+            getLanguageBrowserCopy("languages.search.empty", "") ||
+              strings["nav.languageNoMatch"] ||
+              "No matches"
+          )}</p>
+        </div>
+      </section>
     `
   });
 }
@@ -475,6 +916,72 @@ function renderSitemapSections(sections) {
       `
     )
     .join("");
+}
+
+function renderLanguageOverviewCard(title, count, body) {
+  return `<article class="panel panel--language-summary">
+    <p class="language-browser__summary-count">${escapeHtml(String(count))}</p>
+    <h3>${escapeHtml(title)}</h3>
+    ${body ? `<p>${escapeHtml(body)}</p>` : ""}
+  </article>`;
+}
+
+function renderLanguageBrowserPanel(title, entries, panelKind) {
+  if (!entries.length) return "";
+  return `<article
+    class="panel panel--language-browser panel--language-browser-${escapeHtml(panelKind)}"
+    data-language-browser-group
+  >
+    <h3>${escapeHtml(title)}</h3>
+    ${renderLanguageBrowserList(entries)}
+  </article>`;
+}
+
+function renderLanguageBrowserList(entries) {
+  if (!entries.length) return "";
+  return `<ul class="language-browser__list">
+    ${entries
+      .map((entry) => {
+        const currentAttr = entry.code === lang ? ' data-language-current="true"' : "";
+        const searchKey = escapeHtml(
+          `${entry.nativeName} ${entry.englishName} ${entry.code} ${getLanguageStatusLabel(entry.status)}`.toLowerCase()
+        );
+        const englishLabel =
+          entry.englishName && entry.englishName !== entry.nativeName
+            ? `<span class="language-browser__english" lang="en" dir="ltr">${escapeHtml(entry.englishName)}</span>`
+            : "";
+        const currentLabel =
+          entry.code === lang
+            ? `<span class="language-browser__status language-browser__status--current">${escapeHtml(
+                getLanguageBrowserLabel("languages.status.current", "Current")
+              )}</span>`
+            : "";
+        return `<li
+          class="language-browser__item"
+          data-language-browser-item
+          data-lang-search="${searchKey}"${currentAttr}
+        >
+          <a
+            class="language-browser__link"
+            href="${escapeHtml(entry.href)}"
+            lang="${escapeHtml(entry.langTag)}"
+            dir="${escapeHtml(entry.direction)}"
+          >
+            <span class="language-browser__copy">
+              <span class="language-browser__name">${escapeHtml(entry.nativeName)}</span>
+              ${englishLabel}
+            </span>
+            <span class="language-browser__meta">
+              ${currentLabel}
+              <span class="language-browser__status language-browser__status--${escapeHtml(
+                getLanguageStatusTone(entry.status)
+              )}">${escapeHtml(getLanguageStatusLabel(entry.status))}</span>
+            </span>
+          </a>
+        </li>`;
+      })
+      .join("")}
+  </ul>`;
 }
 
 function renderNotFoundPage() {
@@ -841,6 +1348,7 @@ function renderFormField(field) {
     field.fullWidth === false ? "field" : "field field--full";
   const requiredAttr =
     field.required === true ? ` required aria-required="true"` : "";
+  const directionAttr = ` dir="auto"`;
   switch (field.kind) {
     case "textarea":
       return `<div class="${textareaClass}" data-field-name="${escapeHtml(field.name)}">
@@ -850,7 +1358,7 @@ function renderFormField(field) {
           field.placeholder
             ? ` placeholder="${escapeHtml(field.placeholder)}"`
             : ""
-        }${requiredAttr}></textarea>
+        }${directionAttr}${requiredAttr}></textarea>
       </div>`;
     case "select":
       return `<div class="${fieldClass}" data-field-name="${escapeHtml(field.name)}">
@@ -870,7 +1378,7 @@ function renderFormField(field) {
           field.placeholder
             ? ` placeholder="${escapeHtml(field.placeholder)}"`
             : ""
-        }${requiredAttr} />
+        }${directionAttr}${requiredAttr} />
       </div>`;
   }
 }
@@ -960,8 +1468,12 @@ function renderDocument({ pageData, body, documentTitle, description }) {
     description ||
     (meta.descriptionKey ? strings[meta.descriptionKey] : site.description);
   const canonical = `${site.siteUrl}${currentPath === "/404.html" ? "/" : currentPath}`;
-  const htmlLang = languages[lang]?.ietfBcp47 || lang;
-  const pagePathForAlternates = currentPath === "/404.html" ? null : currentPath;
+  const htmlLang = getHtmlLangTag(lang);
+  const htmlDir = getLanguageDirection(lang);
+  const pagePathForAlternates =
+    currentRouteMode === "nllb" || currentPath === "/404.html"
+      ? null
+      : currentPath;
   const robotsTag = renderRobotsTag(lang);
   const alternateTags = renderAlternateLinkTags(pagePathForAlternates);
   const translationStatusHtml = renderTranslationStatus(lang);
@@ -972,7 +1484,7 @@ function renderDocument({ pageData, body, documentTitle, description }) {
     : "site-main";
 
   return `<!doctype html>
-<html lang="${escapeHtml(htmlLang)}" dir="ltr">
+<html lang="${escapeHtml(htmlLang)}" dir="${escapeHtml(htmlDir)}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -1062,7 +1574,8 @@ function renderTranslationStatus(code) {
   const message = strings[stringKey];
   if (!message) return "";
   const label = strings["translation.label"] || "Translation status";
-  const tone = status === "human-reviewed" ? "info" : "warning";
+  const tone =
+    status === "source" || status === "human-reviewed" ? "info" : "warning";
   const role = tone === "warning" ? "status" : "note";
   const reportMessage = status !== "source" ? strings["translation.report"] : "";
   const reportHtml = reportMessage ? ` ${expand(reportMessage)}` : "";
@@ -1079,15 +1592,15 @@ function renderRobotsTag(code) {
 }
 
 function renderAlternateLinkTags(pathname) {
-  if (!pathname) return "";
+  if (!pathname || currentRouteMode === "nllb") return "";
   const indexable = indexableLanguages;
   if (indexable.length < 2) return "";
   const lines = indexable.map((code) => {
-    const href = `${site.siteUrl}${localizePathname(pathname, code)}`;
+    const href = `${site.siteUrl}${localizePublicPathname(pathname, code)}`;
     const hreflang = languages[code]?.ietfBcp47 || code;
     return `<link rel="alternate" hreflang="${escapeHtml(hreflang)}" href="${escapeHtml(href)}" />`;
   });
-  const defaultHref = `${site.siteUrl}${localizePathname(pathname, defaultLang)}`;
+  const defaultHref = `${site.siteUrl}${localizePublicPathname(pathname, defaultLang)}`;
   lines.push(
     `<link rel="alternate" hreflang="x-default" href="${escapeHtml(defaultHref)}" />`
   );
@@ -1119,32 +1632,114 @@ function renderNav(currentPath) {
     .join("");
 }
 
+function renderLanguageSwitcherList(entries, options = {}) {
+  if (!entries.length) return "";
+  const searchResultAttr = options.searchResult === true ? " data-lang-search-result" : "";
+  return `<ul class="lang-switcher__list">
+    ${entries
+      .map((entry) => {
+        const current = entry.code === lang ? ' aria-current="true"' : "";
+        const searchKey = escapeHtml(
+          `${entry.nativeName} ${entry.englishName} ${entry.code} ${getLanguageStatusLabel(entry.status)}`.toLowerCase()
+        );
+        const currentPill =
+          entry.code === lang
+            ? `<span class="language-browser__status language-browser__status--current">${escapeHtml(
+                getLanguageBrowserLabel("languages.status.current", "Current")
+              )}</span>`
+            : "";
+        const statusTone = escapeHtml(getLanguageStatusTone(entry.status));
+        const statusLabel = escapeHtml(getLanguageStatusLabel(entry.status));
+        return `<li data-lang-search="${searchKey}"${searchResultAttr}>
+          <a href="${escapeHtml(entry.href)}" lang="${escapeHtml(entry.langTag)}" dir="${escapeHtml(entry.direction)}"${current}>
+            <span class="lang-switcher__copy">
+              <span class="lang-switcher__native">${escapeHtml(entry.nativeName)}</span>
+            </span>
+            <span class="lang-switcher__meta">
+              ${currentPill}
+              <span class="language-browser__status language-browser__status--${statusTone}">${statusLabel}</span>
+            </span>
+          </a>
+        </li>`;
+      })
+      .join("")}
+  </ul>`;
+}
+
+function renderLanguageSwitcherSection(title, entries) {
+  if (!entries.length) return "";
+  return `<section class="lang-switcher__section" aria-label="${escapeHtml(title)}">
+    ${renderLanguageSwitcherList(entries)}
+  </section>`;
+}
+
 function renderLanguageSwitcher(currentPath) {
   const enabled = Object.entries(languages).filter(([, l]) => l.enabled);
   if (enabled.length < 2) return "";
 
-  const stripped = stripLangPrefix(currentPath, languageCodes);
-
-  const items = enabled
-    .map(([code, l]) => {
-      const href = localizePathname(stripped, code);
-      const current = code === lang ? ' aria-current="true"' : "";
-      const native = escapeHtml(l.nativeName || l.displayLabel || code);
-      const searchKey = escapeHtml(
-        `${l.nativeName || ""} ${l.englishName || ""} ${code}`.toLowerCase()
-      );
-      return `<li data-lang-search="${searchKey}"><a href="${href}" lang="${escapeHtml(l.ietfBcp47)}"${current}>${native}</a></li>`;
-    })
-    .join("");
+  const stripped = getPublicSwitchPath(currentPath);
+  const publicEntries = sortLanguageEntries(
+    getEnabledLanguageEntriesForPath(stripped),
+    getFeaturedDraftCodes(enabledLanguages)
+  );
+  const searchEntries = sortLanguageEntries(
+    [...publicEntries, ...getLongTailLanguageEntriesForPath(stripped)],
+    getFeaturedDraftCodes(enabledLanguages)
+  );
+  const currentEntry =
+    currentRouteMode === "nllb"
+      ? getLanguageEntry(currentNllbCode, currentPath)
+      : publicEntries.find((entry) => entry.code === lang) || null;
+  const reviewedEntries = publicEntries.filter(
+    (entry) =>
+      entry.code !== lang && isReviewedLanguageStatus(entry.status)
+  );
+  const draftEntries = publicEntries.filter(
+    (entry) =>
+      entry.code !== lang && !isReviewedLanguageStatus(entry.status)
+  );
+  const featuredDraftEntries = sortLanguageEntries(
+    draftEntries,
+    getFeaturedDraftCodes(draftEntries.map((entry) => entry.code))
+  ).slice(0, 20);
 
   const menuLabel = strings["nav.language"] || "Language";
+  const switcherCount = searchEntries.length;
   const countWord =
-    enabled.length === 1
+    switcherCount === 1
       ? strings["nav.languageSingular"] || "language"
       : strings["nav.languagePlural"] || "languages";
-  const countLabel = `${enabled.length} ${countWord}`;
+  const countLabel = `${switcherCount} ${countWord}`;
   const searchLabel = strings["nav.languageSearch"] || "Search languages";
   const noMatchLabel = strings["nav.languageNoMatch"] || "No matches";
+  const currentLabel = getLanguageBrowserLabel(
+    "languages.switcher.current",
+    "Current language"
+  );
+  const reviewedLabel = getLanguageBrowserLabel(
+    "languages.switcher.reviewed",
+    "Reviewed and source"
+  );
+  const draftsLabel = getLanguageBrowserLabel(
+    "languages.switcher.drafts",
+    "Draft translations"
+  );
+  const resultsLabel = getLanguageBrowserLabel(
+    "languages.switcher.results",
+    "Search results"
+  );
+  const browseLabel = getLanguageBrowserLabel(
+    "languages.switcher.browseAll",
+    "Browse all languages"
+  );
+  const defaultVisibleCount = new Set([
+    ...(currentEntry ? [currentEntry.code] : []),
+    ...reviewedEntries.map((entry) => entry.code),
+    ...featuredDraftEntries.map((entry) => entry.code)
+  ]).size;
+  const hiddenLanguageCount = Math.max(0, switcherCount - defaultVisibleCount);
+  const browseLabelWithCount =
+    hiddenLanguageCount > 0 ? `${browseLabel} (+${hiddenLanguageCount})` : browseLabel;
 
   return `<li class="lang-switcher-item"><details class="lang-switcher" data-lang-switcher>
     <summary aria-label="${escapeHtml(menuLabel)}: ${escapeHtml(countLabel)}">
@@ -1156,33 +1751,96 @@ function renderLanguageSwitcher(currentPath) {
         <span class="visually-hidden">${escapeHtml(searchLabel)}</span>
         <input type="search" placeholder="${escapeHtml(searchLabel)}" data-lang-search-input autocomplete="off" spellcheck="false" />
       </label>
-      <ul class="lang-switcher__list">${items}</ul>
+      <div class="lang-switcher__sections" data-lang-default-view>
+        ${currentEntry ? renderLanguageSwitcherSection(currentLabel, [currentEntry]) : ""}
+        ${renderLanguageSwitcherSection(reviewedLabel, reviewedEntries)}
+        ${renderLanguageSwitcherSection(draftsLabel, featuredDraftEntries)}
+      </div>
+      <section class="lang-switcher__results" data-lang-results hidden aria-label="${escapeHtml(resultsLabel)}">
+        ${renderLanguageSwitcherList(searchEntries, { searchResult: true })}
+      </section>
       <p class="lang-switcher__empty" data-lang-empty hidden>${escapeHtml(noMatchLabel)}</p>
+      <div class="lang-switcher__footer">
+        <a class="lang-switcher__browse" href="${escapeHtml(getLanguageBrowserPageHref())}">${escapeHtml(browseLabelWithCount)}</a>
+      </div>
     </div>
   </details></li>`;
 }
 
 function stripLangPrefix(pathname, codes) {
-  for (const code of codes) {
-    if (code === defaultLang) continue;
-    if (pathname === `/${code}` || pathname === `/${code}/`) return "/";
-    if (pathname.startsWith(`/${code}/`)) return pathname.slice(code.length + 1);
-  }
-  return pathname;
+  return stripLanguagePrefix(pathname, codes, defaultLang).pathname;
 }
 
-function localizePathname(pathname, code = lang) {
-  if (!pathname || !pathname.startsWith("/") || pathname.startsWith("//")) {
+function stripNllbPrefix(pathname) {
+  if (!pathname || !pathname.startsWith(NLLB_ROUTE_PREFIX)) {
+    return pathname;
+  }
+
+  const trimmed = pathname.slice(NLLB_ROUTE_PREFIX.length);
+  const slashIndex = trimmed.indexOf("/");
+  if (slashIndex < 0) {
+    return "/";
+  }
+
+  const rest = trimmed.slice(slashIndex);
+  return rest || "/";
+}
+
+function getPublicSwitchPath(pathname) {
+  if (currentRouteMode === "nllb") {
+    return stripNllbPrefix(pathname) || "/";
+  }
+
+  return stripLangPrefix(pathname, languageCodes);
+}
+
+function localizePublicPathname(pathname, code = lang) {
+  return localizeRoutePathname(pathname, code, {
+    languageCodes,
+    defaultLanguage: defaultLang
+  });
+}
+
+function localizeNllbPathname(pathname, slug = currentNllbSlug) {
+  if (!pathname || !pathname.startsWith("/")) {
+    return pathname;
+  }
+
+  if (pathname.startsWith(NLLB_ROUTE_PREFIX)) {
     return pathname;
   }
 
   if (pathname === "/404.html") {
-    return code === defaultLang ? pathname : `/${code}/404.html`;
+    return `${NLLB_ROUTE_PREFIX}${slug}/404.html`;
   }
 
   const stripped = stripLangPrefix(pathname, languageCodes);
-  if (code === defaultLang) return stripped;
-  return stripped === "/" ? `/${code}/` : `/${code}${stripped}`;
+  const publicPath = localizePublicPathname(stripped, defaultLang);
+  if (publicPath === "/languages/") {
+    return localizePublicPathname("/languages/", defaultLang);
+  }
+
+  return publicPath === "/"
+    ? `${NLLB_ROUTE_PREFIX}${slug}/`
+    : `${NLLB_ROUTE_PREFIX}${slug}${publicPath}`;
+}
+
+function getLanguageBrowserPageHref() {
+  return currentRouteMode === "nllb"
+    ? localizePublicPathname("/languages/", defaultLang)
+    : localizePathname("/languages/");
+}
+
+function getNllbRootPath(code) {
+  const slug = nllbLanguages[code]?.slug || String(code).toLowerCase().replaceAll("_", "-");
+  return `${NLLB_ROUTE_PREFIX}${slug}/`;
+}
+
+function localizePathname(pathname, code = lang) {
+  if (currentRouteMode === "nllb" && pathname && pathname.startsWith("/")) {
+    return localizeNllbPathname(pathname, currentNllbSlug);
+  }
+  return localizePublicPathname(pathname, code);
 }
 
 function renderSectionHeader(header, headingId, extraContent = "") {
@@ -1320,6 +1978,7 @@ function renderSitemap() {
     "/join/",
     "/accessibility/",
     "/transparency/",
+    "/languages/",
     "/sitemap/",
     ...projects.map((project) => `/projects/${project.slug}/`)
   ];
@@ -1352,17 +2011,42 @@ async function readJson(filePath) {
 async function loadStrings(code) {
   const defaultFile = path.join(root, "content", "strings", `${defaultLang}.json`);
   const defaults = await readJson(defaultFile);
-  if (code === defaultLang) return defaults;
+  if (code === defaultLang) {
+    return {
+      values: defaults,
+      localizedKeys: new Set(Object.keys(defaults))
+    };
+  }
 
   try {
     const localized = await readJson(
       path.join(root, "content", "strings", `${code}.json`)
     );
-    return { ...defaults, ...localized };
+    return {
+      values: { ...defaults, ...localized },
+      localizedKeys: new Set(Object.keys(localized))
+    };
   } catch (error) {
-    if (error?.code === "ENOENT") return defaults;
+    if (error?.code === "ENOENT") {
+      return {
+        values: defaults,
+        localizedKeys: new Set()
+      };
+    }
     throw error;
   }
+}
+
+async function loadNllbStrings(code) {
+  const defaultFile = path.join(root, "content", "strings", `${defaultLang}.json`);
+  const defaults = await readJson(defaultFile);
+  const localized = await readJson(
+    path.join(root, "content", "nllb", "strings", `${code}.json`)
+  );
+  return {
+    values: { ...defaults, ...localized },
+    localizedKeys: new Set(Object.keys(localized))
+  };
 }
 
 async function loadContent(code) {
@@ -1388,8 +2072,51 @@ async function loadContent(code) {
   };
 }
 
+async function loadNllbContent(code) {
+  const contentDir = path.join(root, "content", "nllb", "pages", code);
+  const defaultDir = path.join(root, "content", "pages", defaultLang);
+
+  return {
+    home: await readJsonWithFallback(path.join(contentDir, "home.json"), path.join(defaultDir, "home.json")),
+    projects: await readJsonWithFallback(path.join(contentDir, "projects.json"), path.join(defaultDir, "projects.json")),
+    propose: await readJsonWithFallback(path.join(contentDir, "propose.json"), path.join(defaultDir, "propose.json")),
+    governance: await readJsonWithFallback(path.join(contentDir, "governance.json"), path.join(defaultDir, "governance.json")),
+    join: await readJsonWithFallback(path.join(contentDir, "join.json"), path.join(defaultDir, "join.json")),
+    accessibility: await readJsonWithFallback(path.join(contentDir, "accessibility.json"), path.join(defaultDir, "accessibility.json")),
+    transparency: await readJsonWithFallback(path.join(contentDir, "transparency.json"), path.join(defaultDir, "transparency.json")),
+    notFound: await readJsonWithFallback(
+      path.join(contentDir, "not-found.json"),
+      path.join(defaultDir, "not-found.json")
+    ),
+    sitemap: await readJsonWithFallback(
+      path.join(contentDir, "sitemap.json"),
+      path.join(defaultDir, "sitemap.json")
+    )
+  };
+}
+
 function getLocaleOutDir(code) {
   return code === defaultLang ? outDir : path.join(outDir, code);
+}
+
+async function loadNllbProjects(code) {
+  const overlayPath = path.join(root, "data", "nllb", "projects", `${code}.json`);
+  const overlay = await readJson(overlayPath);
+  const overlayBySlug = Object.fromEntries(
+    overlay.map((entry) => [entry.slug, entry])
+  );
+
+  return baseProjects.map((project) => {
+    const entry = overlayBySlug[project.slug];
+    if (!entry) return project;
+    const merged = { ...project };
+    for (const field of TRANSLATABLE_PROJECT_FIELDS) {
+      if (Object.prototype.hasOwnProperty.call(entry, field)) {
+        merged[field] = entry[field];
+      }
+    }
+    return merged;
+  });
 }
 
 async function readJsonWithFallback(primaryPath, fallbackPath) {

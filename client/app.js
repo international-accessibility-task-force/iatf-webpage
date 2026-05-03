@@ -1,21 +1,40 @@
 document.querySelectorAll("[data-lang-switcher]").forEach((switcher) => {
   const input = switcher.querySelector("[data-lang-search-input]");
-  const items = switcher.querySelectorAll("[data-lang-search]");
+  const resultItems = switcher.querySelectorAll("[data-lang-search-result]");
   const empty = switcher.querySelector("[data-lang-empty]");
-  if (!input || !items.length) return;
+  const defaultView = switcher.querySelector("[data-lang-default-view]");
+  const resultsView = switcher.querySelector("[data-lang-results]");
+  if (!input || !resultItems.length) return;
 
   const filter = () => {
     const q = input.value.trim().toLowerCase();
+    if (!q) {
+      resultItems.forEach((li) => {
+        li.hidden = false;
+      });
+      if (defaultView) defaultView.hidden = false;
+      if (resultsView) resultsView.hidden = true;
+      if (empty) empty.hidden = true;
+      return;
+    }
+
     let visible = 0;
-    items.forEach((li) => {
-      const match = !q || li.dataset.langSearch.includes(q);
+    resultItems.forEach((li) => {
+      const match = li.dataset.langSearch.includes(q);
       li.hidden = !match;
-      if (match) visible++;
+      if (match) visible += 1;
     });
+    if (defaultView) defaultView.hidden = true;
+    if (resultsView) resultsView.hidden = false;
     if (empty) empty.hidden = visible !== 0;
   };
 
   input.addEventListener("input", filter);
+  switcher.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      switcher.open = false;
+    });
+  });
   switcher.addEventListener("toggle", () => {
     if (switcher.open) {
       input.value = "";
@@ -23,6 +42,38 @@ document.querySelectorAll("[data-lang-switcher]").forEach((switcher) => {
       input.focus();
     }
   });
+});
+
+document.querySelectorAll("[data-language-browser]").forEach((browser) => {
+  const input = browser.querySelector("[data-language-browser-input]");
+  const groups = browser.querySelectorAll("[data-language-browser-group]");
+  const items = browser.querySelectorAll("[data-language-browser-item]");
+  const empty = browser.querySelector("[data-language-browser-empty]");
+  if (!input || !groups.length || !items.length) return;
+
+  const updateGroupVisibility = () => {
+    groups.forEach((group) => {
+      const groupItems = group.querySelectorAll("[data-language-browser-item]");
+      if (!groupItems.length) return;
+      const hasVisibleItem = Array.from(groupItems).some((item) => !item.hidden);
+      group.hidden = !hasVisibleItem;
+    });
+  };
+
+  const filter = () => {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    items.forEach((item) => {
+      const match = !q || item.dataset.langSearch.includes(q);
+      item.hidden = !match;
+      if (match) visible += 1;
+    });
+    updateGroupVisibility();
+    if (empty) empty.hidden = visible !== 0;
+  };
+
+  input.addEventListener("input", filter);
+  filter();
 });
 
 let turnstileScriptPromise;
@@ -201,6 +252,7 @@ if (form) {
       const referenceValue = document.createElement("dd");
       referenceLabel.textContent = successReferenceLabel;
       referenceValue.textContent = `#${result.requestNumber}`;
+      referenceValue.dir = "ltr";
       reference.append(referenceLabel, referenceValue);
       meta.appendChild(reference);
 
@@ -228,6 +280,7 @@ if (form) {
       const description = document.createElement("dd");
       term.textContent = getFieldLabel(fieldName);
       description.textContent = value;
+      description.dir = "auto";
       item.append(term, description);
       summary.appendChild(item);
     });

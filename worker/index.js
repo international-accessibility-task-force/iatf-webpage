@@ -1,3 +1,8 @@
+import {
+  localizeRoutePathname,
+  stripLanguagePrefix
+} from "../shared/routes.js";
+
 const REQUIRED_FIELDS = [
   "contactRoute",
   "contactDetails",
@@ -44,6 +49,12 @@ export default {
       return handleRequestSubmission(request, env, ctx);
     }
 
+    const canonicalPathname = getCanonicalPublicPathname(url.pathname);
+    if (canonicalPathname && canonicalPathname !== url.pathname) {
+      url.pathname = canonicalPathname;
+      return Response.redirect(url.toString(), 308);
+    }
+
     if (env.ASSETS) {
       return env.ASSETS.fetch(request);
     }
@@ -51,6 +62,15 @@ export default {
     return jsonResponse({ error: "Not found" }, 404);
   }
 };
+
+function getCanonicalPublicPathname(pathname) {
+  if (!pathname || !pathname.startsWith("/")) {
+    return pathname;
+  }
+
+  const { languageCode } = stripLanguagePrefix(pathname);
+  return localizeRoutePathname(pathname, languageCode);
+}
 
 async function handleDiscordRedirect(request, env) {
   const inviteUrl = await getDiscordInviteUrl(request, env);

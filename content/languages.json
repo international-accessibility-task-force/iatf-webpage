@@ -6,6 +6,7 @@
     "iso639_1": "en",
     "iso639_3": "eng",
     "script": "Latn",
+    "region": "worldwide",
     "nllb": "eng_Latn",
     "emailAlias": "en",
     "discordSlug": "en",
@@ -17,7 +18,8 @@
       "reviewedBy": null,
       "reviewedAt": null,
       "sourceLocale": "en"
-    }
+    },
+    "direction": "ltr"
   },
   "ca": {
     "nativeName": "Català",
@@ -26,18 +28,20 @@
     "iso639_1": "ca",
     "iso639_3": "cat",
     "script": "Latn",
+    "region": "europe",
     "nllb": "cat_Latn",
     "emailAlias": "ca",
     "discordSlug": "ca",
     "displayLabel": "Català",
     "enabled": true,
     "translation": {
-      "status": "machine-assisted",
+      "status": "human-reviewed",
       "method": "nllb",
-      "reviewedBy": null,
-      "reviewedAt": null,
+      "reviewedBy": "mugiwarafx",
+      "reviewedAt": "2026-05-02",
       "sourceLocale": "en"
-    }
+    },
+    "direction": "ltr"
   },
   "es": {
     "nativeName": "Español",
@@ -46,6 +50,7 @@
     "iso639_1": "es",
     "iso639_3": "spa",
     "script": "Latn",
+    "region": "worldwide",
     "nllb": "spa_Latn",
     "emailAlias": "es",
     "discordSlug": "es",
@@ -57,7 +62,8 @@
       "reviewedBy": null,
       "reviewedAt": null,
       "sourceLocale": "en"
-    }
+    },
+    "direction": "ltr"
   },
   "fr": {
     "nativeName": "Français",
@@ -66,18 +72,438 @@
     "iso639_1": "fr",
     "iso639_3": "fra",
     "script": "Latn",
+    "region": "worldwide",
     "nllb": "fra_Latn",
     "emailAlias": "fr",
     "discordSlug": "fr",
     "displayLabel": "Français",
-    "enabled": false,
+    "enabled": true,
     "translation": {
       "status": "machine-assisted",
       "method": "nllb",
       "reviewedBy": null,
       "reviewedAt": null,
       "sourceLocale": "en"
-    }
+    },
+    "direction": "ltr"
+  },
+  "de": {
+    "nativeName": "Deutsch",
+    "englishName": "German",
+    "ietfBcp47": "de",
+    "iso639_1": "de",
+    "iso639_3": "deu",
+    "script": "Latn",
+    "region": "europe",
+    "nllb": "deu_Latn",
+    "emailAlias": "de",
+    "discordSlug": "de",
+    "displayLabel": "Deutsch",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "it": {
+    "nativeName": "Italiano",
+    "englishName": "Italian",
+    "ietfBcp47": "it",
+    "iso639_1": "it",
+    "iso639_3": "ita",
+    "script": "Latn",
+    "region": "europe",
+    "nllb": "ita_Latn",
+    "emailAlias": "it",
+    "discordSlug": "it",
+    "displayLabel": "Italiano",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "pt": {
+    "nativeName": "Português",
+    "englishName": "Portuguese",
+    "ietfBcp47": "pt",
+    "iso639_1": "pt",
+    "iso639_3": "por",
+    "script": "Latn",
+    "region": "worldwide",
+    "nllb": "por_Latn",
+    "emailAlias": "pt",
+    "discordSlug": "pt",
+    "displayLabel": "Português",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "nl": {
+    "nativeName": "Nederlands",
+    "englishName": "Dutch",
+    "ietfBcp47": "nl",
+    "iso639_1": "nl",
+    "iso639_3": "nld",
+    "script": "Latn",
+    "region": "europe",
+    "nllb": "nld_Latn",
+    "emailAlias": "nl",
+    "discordSlug": "nl",
+    "displayLabel": "Nederlands",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "pl": {
+    "nativeName": "Polski",
+    "englishName": "Polish",
+    "ietfBcp47": "pl",
+    "iso639_1": "pl",
+    "iso639_3": "pol",
+    "script": "Latn",
+    "region": "europe",
+    "nllb": "pol_Latn",
+    "emailAlias": "pl",
+    "discordSlug": "pl",
+    "displayLabel": "Polski",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "ru": {
+    "nativeName": "Русский",
+    "englishName": "Russian",
+    "ietfBcp47": "ru",
+    "iso639_1": "ru",
+    "iso639_3": "rus",
+    "script": "Cyrl",
+    "region": "worldwide",
+    "nllb": "rus_Cyrl",
+    "emailAlias": "ru",
+    "discordSlug": "ru",
+    "displayLabel": "Русский",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "uk": {
+    "nativeName": "Українська",
+    "englishName": "Ukrainian",
+    "ietfBcp47": "uk",
+    "iso639_1": "uk",
+    "iso639_3": "ukr",
+    "script": "Cyrl",
+    "region": "europe",
+    "nllb": "ukr_Cyrl",
+    "emailAlias": "uk",
+    "discordSlug": "uk",
+    "displayLabel": "Українська",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "tr": {
+    "nativeName": "Türkçe",
+    "englishName": "Turkish",
+    "ietfBcp47": "tr",
+    "iso639_1": "tr",
+    "iso639_3": "tur",
+    "script": "Latn",
+    "region": "middle-east",
+    "nllb": "tur_Latn",
+    "emailAlias": "tr",
+    "discordSlug": "tr",
+    "displayLabel": "Türkçe",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "ar": {
+    "nativeName": "العربية",
+    "englishName": "Arabic",
+    "ietfBcp47": "ar",
+    "iso639_1": "ar",
+    "iso639_3": "ara",
+    "script": "Arab",
+    "region": "middle-east",
+    "nllb": "arb_Arab",
+    "emailAlias": "ar",
+    "discordSlug": "ar",
+    "displayLabel": "العربية",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "rtl"
+  },
+  "he": {
+    "nativeName": "עברית",
+    "englishName": "Hebrew",
+    "ietfBcp47": "he",
+    "iso639_1": "he",
+    "iso639_3": "heb",
+    "script": "Hebr",
+    "region": "middle-east",
+    "nllb": "heb_Hebr",
+    "emailAlias": "he",
+    "discordSlug": "he",
+    "displayLabel": "עברית",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "rtl"
+  },
+  "fa": {
+    "nativeName": "فارسی",
+    "englishName": "Persian",
+    "ietfBcp47": "fa",
+    "iso639_1": "fa",
+    "iso639_3": "fas",
+    "script": "Arab",
+    "region": "middle-east",
+    "nllb": "pes_Arab",
+    "emailAlias": "fa",
+    "discordSlug": "fa",
+    "displayLabel": "فارسی",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "rtl"
+  },
+  "ur": {
+    "nativeName": "اردو",
+    "englishName": "Urdu",
+    "ietfBcp47": "ur",
+    "iso639_1": "ur",
+    "iso639_3": "urd",
+    "script": "Arab",
+    "region": "asia",
+    "nllb": "urd_Arab",
+    "emailAlias": "ur",
+    "discordSlug": "ur",
+    "displayLabel": "اردو",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "rtl"
+  },
+  "hi": {
+    "nativeName": "हिन्दी",
+    "englishName": "Hindi",
+    "ietfBcp47": "hi",
+    "iso639_1": "hi",
+    "iso639_3": "hin",
+    "script": "Deva",
+    "region": "asia",
+    "nllb": "hin_Deva",
+    "emailAlias": "hi",
+    "discordSlug": "hi",
+    "displayLabel": "हिन्दी",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "id": {
+    "nativeName": "Bahasa Indonesia",
+    "englishName": "Indonesian",
+    "ietfBcp47": "id",
+    "iso639_1": "id",
+    "iso639_3": "ind",
+    "script": "Latn",
+    "region": "asia",
+    "nllb": "ind_Latn",
+    "emailAlias": "id",
+    "discordSlug": "id",
+    "displayLabel": "Bahasa Indonesia",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "vi": {
+    "nativeName": "Tiếng Việt",
+    "englishName": "Vietnamese",
+    "ietfBcp47": "vi",
+    "iso639_1": "vi",
+    "iso639_3": "vie",
+    "script": "Latn",
+    "region": "asia",
+    "nllb": "vie_Latn",
+    "emailAlias": "vi",
+    "discordSlug": "vi",
+    "displayLabel": "Tiếng Việt",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "ja": {
+    "nativeName": "日本語",
+    "englishName": "Japanese",
+    "ietfBcp47": "ja",
+    "iso639_1": "ja",
+    "iso639_3": "jpn",
+    "script": "Jpan",
+    "region": "asia",
+    "nllb": "jpn_Jpan",
+    "emailAlias": "ja",
+    "discordSlug": "ja",
+    "displayLabel": "日本語",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "ko": {
+    "nativeName": "한국어",
+    "englishName": "Korean",
+    "ietfBcp47": "ko",
+    "iso639_1": "ko",
+    "iso639_3": "kor",
+    "script": "Hang",
+    "region": "asia",
+    "nllb": "kor_Hang",
+    "emailAlias": "ko",
+    "discordSlug": "ko",
+    "displayLabel": "한국어",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "zh": {
+    "nativeName": "简体中文",
+    "englishName": "Chinese (Simplified)",
+    "ietfBcp47": "zh-Hans",
+    "iso639_1": "zh",
+    "iso639_3": "zho",
+    "script": "Hans",
+    "region": "asia",
+    "nllb": "zho_Hans",
+    "emailAlias": "zh",
+    "discordSlug": "zh",
+    "displayLabel": "简体中文",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
+  },
+  "zh-Hant": {
+    "nativeName": "繁體中文",
+    "englishName": "Chinese (Traditional)",
+    "ietfBcp47": "zh-Hant",
+    "iso639_1": "zh",
+    "iso639_3": "zho",
+    "script": "Hant",
+    "region": "asia",
+    "nllb": "zho_Hant",
+    "emailAlias": "zh-hant",
+    "discordSlug": "zh-hant",
+    "displayLabel": "繁體中文",
+    "enabled": true,
+    "translation": {
+      "status": "machine-assisted",
+      "method": "nllb",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "sourceLocale": "en"
+    },
+    "direction": "ltr"
   },
   "zh-Hans": {
     "nativeName": "简体中文",
@@ -86,6 +512,7 @@
     "iso639_1": "zh",
     "iso639_3": "zho",
     "script": "Hans",
+    "region": "asia",
     "nllb": "zho_Hans",
     "emailAlias": "zh-hans",
     "discordSlug": "zh-hans",
@@ -97,26 +524,7 @@
       "reviewedBy": null,
       "reviewedAt": null,
       "sourceLocale": "en"
-    }
-  },
-  "zh-Hant": {
-    "nativeName": "繁體中文",
-    "englishName": "Chinese (Traditional)",
-    "ietfBcp47": "zh-Hant",
-    "iso639_1": "zh",
-    "iso639_3": "zho",
-    "script": "Hant",
-    "nllb": "zho_Hant",
-    "emailAlias": "zh-hant",
-    "discordSlug": "zh-hant",
-    "displayLabel": "繁體中文",
-    "enabled": false,
-    "translation": {
-      "status": "machine-assisted",
-      "method": "nllb",
-      "reviewedBy": null,
-      "reviewedAt": null,
-      "sourceLocale": "en"
-    }
+    },
+    "direction": "ltr"
   }
 }
