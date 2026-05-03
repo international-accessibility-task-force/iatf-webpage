@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Liituda IATFiga",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Liituda IATFiga",
+    "lead": "Liikmelisus on avatud. Osalemiseks on mitmeid viise, kas tugineda abistavale tehnoloogiale, luua ligipääsetavat tarkvara, tõlkida, testida või hooldada projekti. Arutelud ja otsused toimuvad avalikult GitHubis ja Discordis.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Tööülesanded",
+      "title": "Abi andmise viisid"
+    },
+    "items": [
+      "<strong>Paluge projekti.</strong> Kui leiate ligipääsetavuse tõkkeid, mida avalik-õiguslik avatud lähtekoodiga tarkvara võiks lahendada, saatke see taotluse vastuvõtmise kaudu.",
+      "<strong>Katsetamine ja läbivaatamine.</strong> Proovige IATF-i projekte oma kasutatava abistava tehnoloogiaga, teatage, mis töötab ja mis mitte, ning esitage probleemid otse asjaomasele andmekogule.",
+      "<strong>Tõlgi.</strong> Allika sisu avaldatakse esmalt lihtsa inglise keeles, tõlked lisatakse, kui panustajad on kättesaadavad, alustades hispaania keelest.",
+      "<strong>Ehitada.</strong> Võtke üles probleemid mis tahes IATF-i andmekogus, saatke pull-taotlused või võtke projekti vastu vastutava insenerina.",
+      "<strong>Hoia.</strong> Olemasolevad projektid vajavad mõnikord uut hooldajat."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalid",
+      "title": "Kui IATF töötab avalikus kohas"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Probleemid, pull-taotlused, avaldused ja projekti andmed.",
+      "<strong>Erimeelsused.</strong> Elav arutelu, koordineerimine ja mitteametlikud küsimused.",
+      "<strong>E-posti.</strong> Kasutamine <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> kui GitHub ega Discord ei sobi."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Järgmine samm",
+      "title": "Vali kanali, mis vastab sellele, kuidas sa tahad panustada"
+    },
+    "paragraphs": [
+      "Kõik kanalid sisenevad samasse avalikku ülevaadetesse ja samades avalikesse andmebaasidesse."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

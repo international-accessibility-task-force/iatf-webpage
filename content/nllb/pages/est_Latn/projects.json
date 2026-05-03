@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Avaliku juurdepääsetavuse projektid",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Avaliku juurdepääsetavuse projektid",
+    "lead": "Selles registris on loetletud IATF-i kaudu hallatavad avalikud projektid.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrisse kandmine",
+      "title": "Praegune register"
+    },
+    "intro": [
+      "Vastuvõetud projektid on loetletud siin pärast nende avaldamist."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Esita vajadus",
+      "title": "Muuda konkreetne juurdepääsetavuse vajadus avalikuks projektiks"
+    },
+    "paragraphs": [
+      "IATF vaatab läbi konkreetseid juurdepääsetavusvajadusi, mida saab muuta kasulikuks avalikuks avatud lähtekoodiga tööks."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Projekte ei ole veel avaldatud",
+    "paragraphs": [
+      "IATF valmistab ette oma esimese avaliku projekti komplekti.",
+      "Kui teil on konkreetne juurdepääsetavusvajadus, võite siiski esitada taotluse."
+    ]
+  }
+}

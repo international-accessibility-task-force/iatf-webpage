@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Läbipaistvus",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Läbipaistvus",
+    "lead": "IATF töötab vaikimisi avalikult. Projektide otsused, koodide muudatused, juhtimismuudatused ja tegevuskulud registreeritakse avalikes kohtades.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Arhiivid",
+      "title": "Kus salvestised elavad"
+    },
+    "items": [
+      "<strong>Projekti otsused.</strong> Otsused aktsepteerimise, arhiveerimise ja ümberpaigutamise kohta registreeritakse asjaomases andmekogus väljaandmisena või vabastamisena ning need koondatakse avalikus registrisse. <a href=\"/projects/\">registrisse</a>Ma ei tea.",
+      "<strong>Taotleme arhive.</strong> Avalike taotluste andmed on salvestatud IATF GitHub'i organisatsioonis, sellel veebilehel või mõlemal. Andmed võivad kokku võtta, redigeerida või ümberstruktureerida algset taotlust, nii et juurdepääsetavuse vajadust saab läbi vaadata ilma tarbetut isiklikku teavet paljastamata. Erimeelsuste otsused on kokku võetud avalikesse andmetesse, kui need mõjutavad projekti või juhtimisotsust. Taotluse andmed on välistatud otsingumootori indekseerimisest, kui see on tehniliselt praktiline. Vaadake andmeid: esimene avaldamise taotlus on ootel.",
+      "<strong>Koodid muutuvad.</strong> Iga koodi muutmine on avalik kinnitus vastavas repozitoriumis. <a href=\"{{contact.githubOrgUrl}}\">GitHub organisatsioon</a>Ma ei tea.",
+      "<strong>Juhtimismuudatused.</strong> Juhtimislehekülje uuendusi jälgitakse kui kohustusi <code>IATFi veebileht</code> Vaadake <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Kirjutamise ajalugu</a> GitHubis.",
+      "<strong>Tegevuskulud.</strong> IATF hoiab tegevuskulud madalal ja registreerib korduvate avaliku taristu kulud. Alates 2022. aastast on peamised korduvad kulud olnud domeeninimed. Hosting on võimalusel kasutanud tasuta taseme või madala hinnaga taristut.",
+      "<strong>Koordinaatorid.</strong> Iga koordineeritud läbivaatamise või otsuse märkused elavad GitHubis Arutelud vastava repozitoriumi kohta  vaata <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Läbirääkimised</a> Ühelt poolt <code>IATFi veebileht</code> andmebaas."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Kulud",
+      "title": "Tegevuskulude aruanne"
+    },
+    "paragraphs": [
+      "IATF hoiab oma avalikku infrastruktuuri tahtlikult väiksena. Alates 2022. aastast on põhilised korduvad tegevuskulud olnud domeeninimed. Hosting on võimalusel kasutanud tasuta taseme või madala hinnaga infrastruktuuri.",
+      "See aruanne ei ole auditeeritud finantsaruanne, vaid IATFi võrgus hoidmiseks kasutatava infrastruktuuri avaliku tegevuskulude log."
+    ],
+    "footnote": "Kviitungite kohta võib teha viiteid või need avaldatakse pärast redigeerimist. Isiklikud aadressid, arvepidamise andmed ja tarbetu konto teave ei kuulu avalikele andmetele.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Avaldus",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Kulud",
+            "value": "3,40 USA dollarit"
+          },
+          {
+            "label": "Märkused",
+            "value": "Domenikulud, mida rahastas mugiwarafx. Hostimis kasutati Cloudflare'i kaudu tasuta või odavamat infrastruktuuri. Projekt kolis Vercel'ist Cloudflaire'i ja hakkas kasutama lühemat <code>iatf.cc</code> domeen."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Avaldus",
+            "value": "<code>Rahvusvaheline juurdepääsetavus.com</code>"
+          },
+          {
+            "label": "Kulud",
+            "value": "18,68 USA dollarit"
+          },
+          {
+            "label": "Märkused",
+            "value": "Domeeni maksumus, mida rahastab mugiwarafx. Hosting kasutas tasuta või odavamat infrastruktuuri."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Avaldus",
+            "value": "<code>Rahvusvaheline juurdepääsetavus.com</code>"
+          },
+          {
+            "label": "Kulud",
+            "value": "17,06 USA dollarit"
+          },
+          {
+            "label": "Märkused",
+            "value": "Domeeni maksumus, mida rahastab mugiwarafx. Verceli kaudu kasutatav tasuta või odav infrastruktuur."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Avaldus",
+            "value": "<code>Rahvusvaheline juurdepääsetavus.com</code>"
+          },
+          {
+            "label": "Kulud",
+            "value": "14,76 USA dollarit"
+          },
+          {
+            "label": "Märkused",
+            "value": "Domeeni maksumus, mida rahastab mugiwarafx. Hosting kasutas tasuta või odavamat infrastruktuuri."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Avaldus",
+            "value": "<code>Rahvusvaheline juurdepääsetavus.com</code>"
+          },
+          {
+            "label": "Kulud",
+            "value": "7,76 USA dollarit"
+          },
+          {
+            "label": "Märkused",
+            "value": "Domeeni maksumus, mida rahastas mugiwarafx. Hosting kasutas tasuta või odavamat infrastruktuuri GitHub Pages'i kaudu."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Piirkirjeldus",
+      "title": "Mis ei ole avalik"
+    },
+    "paragraphs": [
+      "Mõned materjalid hoitakse avalikest andmetest eemal eesmärgiga:"
+    ],
+    "items": [
+      "Eelnõu esitajate isiklikud kontaktandmed.",
+      "Isiklik kirjavahetus, mida kasutatakse üksnes taotluse selgitamiseks enne selle vastuvõtmist, tagasilükkamist või kokkuvõtmist.",
+      "Privaatsed aadressid, telefoninumbrid ja tarbetuid isiklikke andmeid.",
+      "Kõik, mis identifitseeriks abivahendi kasutajat ilma tema nõusolekuta.",
+      "Raw Discord'i vestlused, välja arvatud juhul, kui konkreetne sõnum liigutatakse tahtlikult avalikku projekti salvestusse."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Loe edasi",
+      "title": "Juhtimine on nende dokumentide taga olev reeglistik"
+    },
+    "paragraphs": [
+      "Kui soovite mõista, kuidas projekte aktsepteeritakse, arhiveeritakse või ümber määratakse, lugege juhtimise lehekülge."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

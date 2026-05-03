@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Juurdepääsu vajadusest avalik-õiguslikule repole",
+    "lead": "IATF aitab ühendustel, rühmadel ja üksikisikutel muuta tõelised juurdepääsetavusvajadused avalik-õiguslikeks avatud lähtekoodiga projektideks.",
+    "support": [
+      "Vastuvõetud projektid avaldatakse IATF GitHub organisatsioonis copyleft litsentsi alusel ja vastutav insener arendab neid avalikult."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Avalik tegevusmudelil",
+      "title": "Lihtne avalik tee juurdepääsetavale tarkvarale"
+    },
+    "paragraphs": [
+      "Igaüks saab vormi kaudu esitada IATFile ligipääsetavusprobleemi. Kui meeskond saab selle vastu võtta, avatakse töö jaoks avalik GitHub'i repozitorium.",
+      "Igal heakskiidetud projektil on selge avalik kodu koodi, probleemide, dokumentatsiooni ja väljaannete jaoks, mille arendamist juhib avalikult vastutav insener."
+    ],
+    "specCard": {
+      "title": "Avalik tegevusmudelil",
+      "terms": [
+        {
+          "term": "Vajadus",
+          "definition": "Tõeline juurdepääsetavusprobleem"
+        },
+        {
+          "term": "Läbivaatamine",
+          "definition": "Missiooni sobivus ja praktiline teostatavus"
+        },
+        {
+          "term": "Projekti ruum",
+          "definition": "Avalik GitHub'i andmekogu"
+        },
+        {
+          "term": "Juhtimine",
+          "definition": "IATFi organisatsiooniline omandiõigus"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Protsess",
+      "title": "Kuidas see toimib",
+      "intro": "Moodel on tahtlikult väike, nii et üldkasutatavat teed on kerge järgida."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Vajadus esitatakse",
+        "paragraphs": [
+          "Liit, rühm või üksikisik võib esitada taotluse, mis põhineb reaalsel juurdepääsetavuse vajadusel.",
+          "Taotlused saab esitada veebilehel või e-posti teel aadressil: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, või läbi Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF vaatab selle läbi",
+        "paragraphs": [
+          "Me vaatame missiooni sobivust, praktilist ulatust ja kas töö kuulub avalikku avatud lähtekoodiga projekti."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Avalik andmekogu luuakse",
+        "paragraphs": [
+          "Kui projekt on vastu võetud, avaldatakse see IATF GitHub organisatsioonis copyleft litsentsi all.",
+          "Repoositsioonist saab koodi, probleemide, dokumentide ja väljaannete avalik kodu."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Projekti juhib vastutustundlik insener",
+        "paragraphs": [
+          "Projekti andmekogusse määratakse vastutav insener ja arendamine toimub avalikult."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrisse kandmine",
+      "title": "Avalik projektiregister"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Alusta siit.",
+      "title": "Käimasoleva töö läbivaatamine või konkreetse projekti alustamine"
+    },
+    "paragraphs": [
+      "Kasutage registrit, et näha, mis on juba avalik, või alustage sissevõtmist, kui konkreetsest ligipääsetavuse probleemist peaks saama projekt."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Nõuda ligipääsetavusprojekti",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Nõuda ligipääsetavusprojekti",
+    "lead": "IATF vaatab läbi juurdepääsetavusprojektide taotlused, mis lähtuvad reaalsest vajadusest.",
+    "support": [
+      "Täielik kirjeldus ei ole vajalik, piisab selgest probleemist, kellele see mõjutab ja miks see on oluline."
+    ],
+    "actions": [
+      {
+        "label": "Taotluse esitamine",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Kasuta selle asemel Discordit",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalid",
+      "title": "Vali kõige lihtsam tee."
+    },
+    "intro": [
+      "Kõik marsruudid kuuluvad samasse läbivaatamisse."
+    ],
+    "items": [
+      {
+        "label": "Veebileht",
+        "body": "Struktuureeritud taotluse esitamiseks kasutage allpool toodud vormi."
+      },
+      {
+        "label": "E-posti aadress",
+        "body": "Saatke taotlus otse aadressile: {{contact.requestsEmail}}E-posti taotlused võivad pärast läbivaatamist ja redigeerimist saada avalikeks taotlusandmeteks."
+      },
+      {
+        "label": "Erimeelsused",
+        "body": "Alustage seal, kui see on kõige lihtsam. Taotlus liigub ikkagi samasse läbivaatamisse."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Enne kui saadate taotluse",
+    "paragraphs": [
+      "IATF töötab avalikult. Taotlused võib kokku võtta ja avaldada avalike taotluste andmetena IATFi GitHub'i organisatsioonis, sellel veebilehel või mõlemal.",
+      "Ärge sisestage isiklikke aadresse, telefoninumbreid, meditsiinilisi andmeid ega identifitseerivat teavet abistavate tehnoloogiate üksikute kasutajate kohta, välja arvatud juhul, kui see on vajalik ja te olete rahul sellega, et IATF seda läbi vaatab.",
+      "IATF eemaldab enne taotlusandmete avaldamist tarbetuid isiklikke kontaktandmeid."
+    ]
+  },
+  "review": {
+    "title": "Läbivaatamise ootused",
+    "paragraphs": [
+      "Taotluse esitamine ei taga heakskiitu.",
+      "IATF vaatab läbi taotlused missiooni sobivuse, teostatavuse, kasulikkuse ja selle kohta, kas töö kuulub avalikku andmekogu.",
+      "Mõned taotlused võidakse enne heakskiitmist tagasi lükata, edasi lükada või ümber kujundada."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Taotlusvorm",
+      "title": "Taotluse esitamine"
+    },
+    "fields": [
+      {
+        "kind": "sisend",
+        "name": "taotleja",
+        "label": "Teie nimi või organisatsioon",
+        "helper": "Kes seda taotleb?"
+      },
+      {
+        "kind": "vali",
+        "name": "kontaktrutee",
+        "label": "Soovitav kontakttee",
+        "helper": "Kuidas peaks järelmeetmed toimuma?",
+        "required": true,
+        "options": [
+          "E-posti aadress",
+          "Erimeelsused"
+        ]
+      },
+      {
+        "kind": "sisend",
+        "name": "Kontaktandmed",
+        "label": "Kontaktandmed",
+        "helper": "E-posti aadress või Discord'i kontaktandmed edasise teabe saamiseks.",
+        "placeholder": "E-posti aadress või Discord-i aadress",
+        "required": true
+      },
+      {
+        "kind": "sisend",
+        "name": "keel",
+        "label": "Keel",
+        "helper": "Teie eelistatud keel, kui see on asjakohane.",
+        "value": "Inglise keel"
+      },
+      {
+        "kind": "tekstiala",
+        "name": "probleem",
+        "label": "Mis probleemi sa lahendada tahad?",
+        "helper": "Kirjelda takistust lihtsate sõnadega.",
+        "required": true
+      },
+      {
+        "kind": "tekstiala",
+        "name": "Mõjutatud kasutajad",
+        "label": "Keda see mõjutab?",
+        "helper": "Keda see aitaks?",
+        "required": true
+      },
+      {
+        "kind": "tekstiala",
+        "name": "extraKontekst",
+        "label": "Täiendav kontekst",
+        "helper": "Jagage midagi muud, mis aitab selgitada vajadust: miks see on oluline, näited, viited, karm tarkvara idee või ajakohastamise piirangud."
+      },
+      {
+        "kind": "vali",
+        "name": "OpenSourceConsent",
+        "label": "Olete avatud lähtekoodiga arendajatega rahul?",
+        "helper": "Vastuvõetavad projektid on IATF-i all olevad avalikud andmebaasid.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Jah, ma tean.",
+          "Ei ole.",
+          "Ma pole veel kindel."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Kui see on vastu võetud",
+      "title": "Mida tähendab aktsepteerimine"
+    },
+    "items": [
+      "avalik andmebaas IATF GitHub'i organisatsioonis",
+      "projektisse määratud vastutav insener",
+      "koodi ja projekti materjalide copyleft litsents",
+      "avalik arendus andmekogus",
+      "IATFi veebilehel olev registri kanne"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Alusta vestlust.",
+      "title": "Alustamiseks piisab lühikesest ja selgesõnalisest taotlusest."
+    },
+    "paragraphs": [
+      "Kui teil on tõeline juurdepääsetavusvajadus ja arvate, et sellest peaks saama avalik projekt, saatke see meile."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Veebileht"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Veebileht",
+    "lead": "Kõik avalikud leheküljed IATF.CC-st, ühes kohas."
+  },
+  "sections": [
+    {
+      "title": "Peamised leheküljed",
+      "items": [
+        {
+          "label": "Kodus",
+          "href": "/"
+        },
+        {
+          "label": "Projektid",
+          "href": "/projects/"
+        },
+        {
+          "label": "Projekti taotlemine",
+          "href": "/propose/"
+        },
+        {
+          "label": "Juhtimine",
+          "href": "/governance/"
+        },
+        {
+          "label": "Liitumine",
+          "href": "/join/"
+        },
+        {
+          "label": "Juurdepääsetavus",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Läbipaistvus",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projektid",
+  "projectsEmpty": "Projekte ei ole veel avaldatud."
+}

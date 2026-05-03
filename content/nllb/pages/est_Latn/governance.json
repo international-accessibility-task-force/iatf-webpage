@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Juhtimine ja andmekogu mudel",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Juhtimine ja andmekogu mudel",
+    "lead": "IATF hoiab ligipääsetavusprojektid avalikuks, loetavaks ja hooldatavaks.",
+    "support": [
+      "See lehekülg selgitab, mis kvalifitseerub, kuidas hoiulehooneid hoitakse ja millist hoiulehoiu tasandi vastutust kohaldatakse pärast aktsepteerimist."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Eeskirjad",
+      "title": "Missiooni vastavus, omandiõigus, litsentsid"
+    },
+    "cards": [
+      {
+        "title": "Missiooni vastavus",
+        "paragraphs": [
+          "IATF aktsepteerib tööd, mis tegelevad tõelise juurdepääsetavuse takistusega ja millel on selge avalik väärtus.",
+          "Projekt peaks olema kasulik rohkem kui üksik privaatne töövoog ja töötav kui avalik andmekogu.",
+          "Veebi ligipääsetavuseks kasutab IATF [W3C WAI](https://www.w3.org/WAI/) abistavate tehnoloogiate kasutajate otsene kogemus on ka praktiline tõend selle kohta, mis toimib reaalses kasutuses."
+        ]
+      },
+      {
+        "title": "Projekti vastuvõtmine",
+        "paragraphs": [
+          "Ettepanek võib olla vastuvõetav, kui läbivaatamisel selgub, et:"
+        ],
+        "items": [
+          "see vastab tegelikule juurdepääsetavusvajadusele",
+          "probleem on piisavalt selge, et hinnata",
+          "ulatus on piisavalt realistlik, et käivitada",
+          "töö on kooskõlas IATFi missiooniga;",
+          "on olemas tõenäoline tee hooldus- või täiendamiseni"
+        ]
+      },
+      {
+        "title": "Andmekogu omandiõigus",
+        "paragraphs": [
+          "Vastuvõetavad projektid luuakse IATF GitHub'i organisatsiooni all.",
+          "Varud jäävad sinna, nii et iga projekt hoiab püsivat avalikku kodu, isegi kui hooldajad hiljem muutuvad."
+        ]
+      },
+      {
+        "title": "Loa andmine",
+        "paragraphs": [
+          "IATF projektid kasutavad copyleft litsentsimist, kui projekt ei näe ette teisiti:"
+        ],
+        "items": [
+          "<strong>Kood:</strong> AGPL-3.0",
+          "<strong>Dokumendid:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Vastutav insener või hooldaja",
+      "paragraphs": [
+        "Igal vastuvõetud projektil peaks olema nimetatud vastutav insener või hooldaja."
+      ],
+      "items": [
+        "juhendite väljatöötamine avalikes ruumides",
+        "säilitada andmekogu struktuur",
+        "probleemide läbivaatamine või juhtimine ning pull-taotlused",
+        "Dokumenteerida olulisi tehnilisi otsuseid",
+        "teha projekt arusaadavaks teistele"
+      ],
+      "footnote": "See on andmekogu tasandi vastutus. Organisatsiooni omandiõigus jääb IATFile. Vastutus siin on andekogu juhtimine, tehniline suund ja avalik koordineerimine  mitte piiramatu privaatne kohaletoimetamine, kohandatud integreerimine või teenuse tasandi kohustused väljaspool avalikku teekaarti."
+    },
+    "publicDevelopment": {
+      "title": "Avalik areng",
+      "paragraphs": [
+        "IATF-i kaudu käivitatud projektid arendatakse vaikimisi avalikult."
+      ],
+      "items": [
+        "Allikakood",
+        "küsimused",
+        "dokumendid",
+        "tegevuskava märkused",
+        "vabanemise ajalugu"
+      ],
+      "footnote": "Olulised projektiteadmised ei tohiks elada ainult privaatsetes vestlustes või postkastides."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Avalik arhiiv",
+      "title": "Avalik taotlusregister"
+    },
+    "paragraphs": [
+      "Taotlused, mis sisenevad IATF-i veebisaidi, e-posti, Discord, GitHub'i või muude IATFi kanalite kaudu, võivad saada avalikeks taotlusandmeteks.",
+      "Avalik taotlusrekord ei ole tingimata algne teade. IATF võib kokku võtta, redigeerida või ümber korraldada taotlust enne avaldamist, nii et juurdepääsetavuse vajadust saab läbi vaadata ilma tarbetut isiklikku teavet paljastamata.",
+      "Avalikke taotluste andmeid võib säilitada IATF GitHub'i organisatsioonis, sellel veebisaidil või mõlemal.",
+      "Enne avaldamist eemaldab IATF tarbetuid isiklikke kontaktandmeid, isiklikke aadresse ja abistavate tehnoloogiate üksikute kasutajate andmeid, välja arvatud juhul, kui avaldamine on selgelt ette nähtud ja asjakohane.",
+      "Discordit kasutatakse mitteametlikuks koordineerimiseks. IATF ei arhiveeri vaikimisi eraldi Discord'i vestlusi ja sõnumite säilitamist kontrollib Discord. Discordis tehtud otsuseid tuleks kokku võtta avalikus registris GitHubis või asjaomasel projekti lehel.",
+      "Taotlusandmed on otsingumootori indekseerimisest välja jäetud, kui see on tehniliselt praktiline. Avalik tähendab läbivaatatavat ja vastutustundlikku. See ei tähenda optimeeritud avastamiseks nimeotsingute kaudu.",
+      "IATF võib ajakohastada või eemaldada andmeid IATFi kontrollitud avalikest lehekülgedest, kuid ei saa garanteerida nende eemaldamist kolmandate osapoolte vahemälude, teavituste, kahvlite, ekraanilägemiste, otsingumootorite, Discordi või muude väliste süsteemide kaudu.",
+      "Kui teade peab jääma privaatseks, ärge saatke seda IATFi avalike kanalite kaudu."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisatsiooniline roll",
+      "title": "Juhatuse esimees"
+    },
+    "lead": "Toimetaja on IATF-i organisatsiooni tasandi juhataja. See on erinev projekti eest vastutava inseneri rollist: juht vastutab kogu organisatsiooni eest, mitte ühe andmekogu igapäevase juhtimise eest.",
+    "duties": {
+      "title": "Mida tooli teeb",
+      "items": [
+        "Hoiab omaniku õigusi IATF GitHub organisatsioonis",
+        "Projekti heakskiitmise ja arhiveerimise otsuste allkirjastamine",
+        "Tegutseb IATFi avalikuks kontaktpunktiks",
+        "Koordineerib iga-aastaseid valimisi"
+      ],
+      "footnote": "Juhataja ei võta IATF-i kohustusi seoses privaatsete tarnete, tasustatud tööde või teenustaseme lepingutega ning ta ei ületa andmekogu hooldajate otsuseid tehnilise juhtimise kohta."
+    },
+    "election": {
+      "title": "Iga-aastased valimised",
+      "paragraphs": [
+        "Valimised toimuvad detsembri kahe esimese nädala jooksul, tulemused avaldatakse 15. detsembriks ja uus ametiaeg algab 1. jaanuaril.",
+        "Kõlblikud hääletajad on inimesed, kes olid aasta jooksul IATFi andmekogu hooldajad ja andsid selle aasta jooksul vähemalt ühe ühinenud panuse IATFi andmekogusse. Iga kõlblikule hääletajale on üks hääl. Kõige rohkem hääli saanud kandidaat võidab; võrdse tulemuse korral toimub teise voor detsembri kolmandal nädalal.",
+        "Valimised toimuvad avalikul GitHub'i arutelul määratud IATFi juhtimisregistris, nii et kandidaadid, hääletus ja tulemused on kõik osa avalikust rekordist."
+      ]
+    },
+    "continuity": {
+      "title": "Jätkusuutlikkus",
+      "paragraphs": [
+        "Kui antud aastal valimisi ei toimu, jätkab praegune esimees oma rolli kuni järgmised valimised. See on määramata jätkumine, mitte karistusperiood  mudel on mõeldud selleks, et hoida organisatsiooni stabiilsena, kui tegevus on madal, mitte sundida üleminekut, mida keegi ei ole valmis.",
+        "Juhataja võib igal ajal tagasi astuda. Aktiivsed hooldajad võivad ka kutsuda välja erakorralised valimised, mille põhjus on märgitud ja mis toimuvad samadel tingimustel kui iga-aastased valimised."
+      ]
+    },
+    "current": {
+      "title": "Praegune esimees",
+      "fields": [
+        {
+          "label": "Juhatuse esimees",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tähtaeg",
+          "value": "Kuni 2026. aasta detsembri valimisteni"
+        },
+        {
+          "label": "Ametlik roll",
+          "value": "2026"
+        },
+        {
+          "label": "Esimesed kavandatud valimised",
+          "value": "2026 aasta detsember"
+        }
+      ]
+    },
+    "footnote": "Aastal 2026 võeti ametlikult kasutusele eesistuja roll, et muuta organisatsiooni tasandi juhtimine selgesõnaliseks."
+  },
+  "continuity": {
+    "states": {
+      "title": "Projekti staatus",
+      "paragraphs": [
+        "Projektid kasutavad väikest kogumit avalikke riike:"
+      ],
+      "items": [
+        "Ettepanek",
+        "Vastuvõetav",
+        "Aktiivne",
+        "Stabiilne",
+        "Hooldaja otsimine",
+        "Arhiveeritud"
+      ],
+      "footnote": "Need riigid hoiavad registrit kergesti skaneeritavana."
+    },
+    "reassignment": {
+      "title": "Assigneerimine ja arhiveerimine",
+      "paragraphs": [
+        "Kui hooldaja lahkub või muutub mitteaktiivseks, võib IATF anda vastutuse ümber, peatada arendamise või arhiveerida projekti.",
+        "Projekti võib arhiveerida ka siis, kui algne vajadus on täidetud, hooldus on lõpetatud või töö jätkamine ei ole enam realistlik."
+      ],
+      "footnote": "Arhiveeritud projektid jäävad avalikkusele nähtavaks, välja arvatud juhul, kui on olemas veenev põhjus teha teisiti."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Piirkirjeldus",
+      "title": "Mida IATF ei taga"
+    },
+    "items": [
+      "isiklikule kliendile tarnimine",
+      "teenusetaseme lepingud",
+      "iga ettepaneku vastuvõtmine",
+      "iga projekti pikaajaline hooldus"
+    ],
+    "footnote": "IATF on avalik andmekogu mudel, mitte eraõiguslik edastamisteenus."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ei leitud"
+  },
+  "hero": {
+    "eyebrow": "Ei leitud",
+    "title": "Soovitud lehekülge ei leitud",
+    "lead": "Kasutage allpool olevaid põhilisi marsruute, et minna tagasi avalik-õiguslikule alale.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Kodus",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Teed, mida palusite, ei eksisteeri."
+    ],
+    "items": [
+      {
+        "label": "Kodus",
+        "href": "/"
+      },
+      {
+        "label": "Projektid",
+        "href": "/projects/"
+      },
+      {
+        "label": "Liitumine",
+        "href": "/join/"
+      },
+      {
+        "label": "Juurdepääsetavus",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Juhtimine",
+        "href": "/governance/"
+      },
+      {
+        "label": "Läbipaistvus",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Juurdepääsetavus",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Juurdepääsetavus",
+    "lead": "IATF-i eesmärk on hoida seda veebisaiti lihtsana, loetavana, klaviatuuriga ligipääsetavana ja abistavate tehnoloogiatega ühilduvana.",
+    "support": [
+      "Veebi ligipääsetavuseks kasutab IATF [W3C WAI](https://www.w3.org/WAI/) Praktiline juurdepääsetavus põhineb ka abistavate tehnoloogiate kasutajate otsesel kogemusel."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Aruandlus",
+      "title": "Teavitada ligipääsetavuse probleemist"
+    },
+    "paragraphs": [
+      "Kui leiate sellel veebilehel ligipääsetavuse tõkkeid, palun teatage sellest e-posti teel:",
+      "{{contact.accessibilityEmail}}",
+      "Kasulike aruannete hulka kuuluvad:"
+    ],
+    "items": [
+      "lehekülg, kus probleem tekkis",
+      "Mida sa üritasid teha?",
+      "millist abivahendit, brauserit või seadet kasutasite, kui see on asjakohane",
+      "Mis valesti läks?",
+      "mis oleks aidanud"
+    ],
+    "footnote": "Te ei pea kirjutama ametlikku vigaaruannet, piisab selgest kirjeldusest."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Käitlemine",
+      "title": "Avalike küsimuste lahendamine"
+    },
+    "paragraphs": [
+      "Juurdepääsetavusprobleeme võib kokku võtta asjaomases avalikus andmekogus, et neid saaks vabalt parandada.Isiklikud kontaktandmed ja tarbetu eraõiguslik teave eemaldatakse enne avaldamist.",
+      "Kui teie aruanne sisaldab privaatset teavet, öelge seda sõnumis selgelt."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Praegune olukord",
+      "title": "Teatud piirangud"
+    },
+    "paragraphs": [
+      "See veebileht on tahtlikult väike ja enamasti staatiline."
+    ]
+  }
+}

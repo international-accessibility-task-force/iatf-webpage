@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATFi veebisait",
+    "summary": "Rahvusvahelise ligipääsetavuse töörühma avalik veebileht.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF vajas stabiilset avalikku kodu, mis selgitab mudelit, loetleb projekte ja suunab panustajaid õigele järgmisele sammule.",
+    "why": "Sait on IATFi avalik eesuks. See on ehitatud väikese staatilise projekti kujul, nii et seda on lihtne lugeda, tõlkida ja hooldada avatud kohas.",
+    "scopeIn": [
+      "Avalikud sihtlehed, mis selgitavad IATFi mudelit",
+      "IATF-i heakskiidetud, aktiivsete ja arhiveeritud projektide avalik registris koos seisundi, hooldajate, andmebaasi ja demoga",
+      "Taotluse vastuvõtmise lehekülg ja vorm",
+      "Juhtimise ja läbipaistvuse leheküljed",
+      "Ingliskeelne allikas, mille struktuur on tõlkimiseks valmis",
+      "Staatiline kasutuselevõtt Cloudflare'i töötajate staatiliste varadega"
+    ],
+    "scopeOut": [
+      "Isiklikud liikmesalad, kontod või sisselogimisvoodid",
+      "Projekti lähtekoodi majutus, mis elab iga projekti enda repoositoriumis",
+      "Reaalajas vestlus, mis elab Discordis",
+      "Probleemi jälgimine üksikute projektide jaoks, mis elab iga projekti GitHub'i andmekogus"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Varane IATF prototüüp, arhiveeritud pärast loomuliku peatuspunkti jõudmist.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF-i alla kuuluva ligipääsetavusele keskendunud tööriista varajane uurimine.",
+    "why": "Andmebaas on avalik töö, isegi kui aktiivne arendamine on peatatud.",
+    "scopeIn": [
+      "Juurdepääsetavusele keskenduva tööriista varajane prototüüp, mida hoitakse avalikus registris"
+    ],
+    "scopeOut": [
+      "Aktiivne arendus- või funktsioonitöö",
+      "Ülalpidamiskohustused",
+      "Soovitatav kasutamine tootmises"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF-i kogukonna bot, arhiveeritud pärast loomuliku peatuspunkti jõudmist.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF-i kogukonna kanalite automatiseerimine.",
+    "why": "Andmebaas on avalik töö, isegi kui aktiivne arendamine on peatatud.",
+    "scopeIn": [
+      "IATF-i kogukonna kanalitega seotud lahkarvamuste automatiseerimine, mida hoitakse avalikus registris"
+    ],
+    "scopeOut": [
+      "Aktiivne arendus- või funktsioonitöö",
+      "Ülalpidamiskohustused",
+      "Soovitatav kasutamine tootmises"
+    ]
+  }
+]
