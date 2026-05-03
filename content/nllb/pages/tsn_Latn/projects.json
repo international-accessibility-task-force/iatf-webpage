@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Diporojeke tsa go fitlhelela batho botlhe",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Diporojeke tsa go fitlhelela batho botlhe",
+    "lead": "Rejisetara e, e na le lenaane la diporojeke tsa setšhaba tse di tsweletswang ke IATF. Diporojeke tse di amogetsweng tsa go dira gore go nne bonolo go tsena, mafaratlhatlha a lefelo le di-prototype tse di bolokilweng di bonwa fano.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejisetara",
+      "title": "Rejisetara ya ga jaana"
+    },
+    "intro": [
+      "Diporojeke tse di amogetsweng di kwadilwe fano fa di sena go phasaladiwa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Romela se o se tlhokang",
+      "title": "Fetola tlhokego e e totobetseng ya phitlhelelo go nna porojeke ya setšhaba"
+    },
+    "paragraphs": [
+      "IATF e sekaseka ditlhokego tse di rileng tsa go fitlhelela tse di ka fetolwang go nna tiro e e mosola ya setšhaba ya open source."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ga go ise go gatisiwe diporojeke",
+    "paragraphs": [
+      "IATF e baakanyetsa setlhopha sa yone sa ntlha sa diporojeke tsa setšhaba.",
+      "O santse o ka romela kopo fa e le gore o na le tlhokego e e rileng ya phitlhelelo."
+    ]
+  }
+}

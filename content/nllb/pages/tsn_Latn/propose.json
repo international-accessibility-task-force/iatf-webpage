@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kopa porojeke ya go fitlhelela",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kopa porojeke ya go fitlhelela",
+    "lead": "IATF e sekaseka dikopo tsa diporojeke tsa go fitlhelela batho tse di simololang ka tlhokego ya mmatota.",
+    "support": [
+      "Ga go tlhokege gore o tlhalose ka botlalo gore bothata jono bo ama mang le gore ke ka ntlha yang fa bo le botlhokwa."
+    ],
+    "actions": [
+      {
+        "label": "Simolola kopo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Dirisa Discord mo boemong jwa yone",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Dikanale",
+      "title": "Tlhopha tsela e e motlhofo"
+    },
+    "intro": [
+      "Ditsela tsotlhe di tlhatlhobiwa ka tsela e e tshwanang."
+    ],
+    "items": [
+      {
+        "label": "Webosaete",
+        "body": "Dirisa foromo e e fa tlase fano go romela kopo e e rulagantsweng."
+      },
+      {
+        "label": "E-mail ya gago",
+        "body": "Romela kopo ka tlhamalalo go {{contact.requestsEmail}}Dikopo tsa imeile di ka nna tsa nna direkoto tsa kopo ya setšhaba morago ga go sekasekwa le go phimolwa."
+      },
+      {
+        "label": "Go sa utlwane",
+        "body": "Simolola foo fa e le gore seo se motlhofo. Kopo e santse e fetela mo go tlhatlhobeng go go tshwanang."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Pele o romela kopo",
+    "paragraphs": [
+      "Dikopo di ka sobokanngwa le go phasaladiwa jaaka direkoto tsa dikopo tsa setšhaba mo mokgatlhong wa IATF GitHub, mo webosaeteng e, kgotsa ka bobedi.",
+      "O se ka wa tsenya diaterese tsa gago, dinomoro tsa founo, dintlha tsa kalafi kgotsa tshedimosetso e e ka go thusang go bona gore motho ke mang fa e se fela fa go tlhokega e bile o dumela gore IATF e e sekaseke.",
+      "IATF e tlosa dintlha tse di sa tlhokegeng tsa go ikgolaganya le batho pele ga e gatisa direkoto tsa dikopo."
+    ]
+  },
+  "review": {
+    "title": "Ditsholofelo tsa go boeletsa",
+    "paragraphs": [
+      "Go romela kopo ga go tlhomamise gore kopo e tla amogelwa.",
+      "IATF e sekaseka dikopo tsa gore a tiro eo e a tshwanela, a e ka kgona go dirwa, e mosola, le gore a e tshwanetse go tsenngwa mo bobolokelong jwa batho botlhe.",
+      "Dikopo dingwe di ka nna tsa ganwa, tsa busediwa morago kgotsa tsa fetolwa pele di ka amogelwa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Foromo ya kopo",
+      "title": "Romela kopo"
+    },
+    "fields": [
+      {
+        "kind": "se se tsenngwang",
+        "name": "mokopi",
+        "label": "Leina la gago kgotsa mokgatlho wa gago",
+        "helper": "Ke mang yo o dirang kopo eno?"
+      },
+      {
+        "kind": "tlhopha",
+        "name": "tsela ya go ikgolaganya",
+        "label": "Tsela e e tlhophilweng ya go ikgolaganya",
+        "helper": "Go tshwanetse ga latelwa eng?",
+        "required": true,
+        "options": [
+          "E-mail ya gago",
+          "Go sa utlwane"
+        ]
+      },
+      {
+        "kind": "se se tsenngwang",
+        "name": "dintlha tsa go ikgolaganya",
+        "label": "Dintlha tsa go ikgolaganya le bone",
+        "helper": "Aterese ya imeili kgotsa nomoro ya Discord ya go ikgolaganya le ba bangwe.",
+        "placeholder": "Aterese ya imeili kgotsa Discord handle",
+        "required": true
+      },
+      {
+        "kind": "se se tsenngwang",
+        "name": "puo",
+        "label": "Puo e e buiwang",
+        "helper": "Puo e o e ratang, fa go tlhokega.",
+        "value": "Seesemane"
+      },
+      {
+        "kind": "lefelo la mokwalo",
+        "name": "bothata",
+        "label": "O leka go rarabolola bothata bofe?",
+        "helper": "Tlhalosa sekgoreletsi seno ka mafoko a a motlhofo.",
+        "required": true
+      },
+      {
+        "kind": "lefelo la mokwalo",
+        "name": "badirisi ba ba amegang",
+        "label": "Ke bomang ba ba amegang?",
+        "helper": "Seno se ne se ka thusa mang?",
+        "required": true
+      },
+      {
+        "kind": "lefelo la mokwalo",
+        "name": "extraMalebana le kgang e go buiwang ka yone",
+        "label": "Dintlha tse dingwe",
+        "helper": "Abelana sengwe le sengwe se se ka thusang go tlhalosa se se tlhokegang: lebaka la go bo go le botlhokwa, dikai, ditshupiso, mogopolo o o sa tlhamalalang wa software, kgotsa go lekanyetsa nako."
+      },
+      {
+        "kind": "tlhopha",
+        "name": "openSourceConsent [Motswedi wa Tumalano]",
+        "label": "A o ikutlwa o phuthologile fa o dirisa didirisiwa tsa batho botlhe?",
+        "helper": "Diporojeke tse di amogetsweng ke di-repository tsa setšhaba tsa IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ee, go ntse jalo.",
+          "Nnyaa",
+          "Ga ke ise ke tlhomamise"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Fa e le gore e amogetswe",
+      "title": "Se go amogelwa go se kayang"
+    },
+    "items": [
+      "polokelo ya setšhaba mo mokgatlhong wa IATF GitHub",
+      "moenjenere yo o ikarabelelang yo o abetsweng porojeke",
+      "laesense ya copyleft ya khoutu le didiriswa tsa porojeke",
+      "tlhabololo ya setšhaba mo bobolokelong",
+      "rekoto ya boikwadiso mo lefelong la IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Simolola motlotlo",
+      "title": "Kopo e khutshwane e e utlwalang sentle e lekane go simolola"
+    },
+    "paragraphs": [
+      "Fa e le gore tota o na le sengwe se o se tlhokang malebana le go fitlhelela dilo mme o akanya gore se tshwanetse go nna porojeke ya setšhaba, re romelele."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

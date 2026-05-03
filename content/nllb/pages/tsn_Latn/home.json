@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Go Tswa mo go Tlhokegeng ga Gore Batho ba Kgone go Tsena mo Di-repo Tsa Setšhaba",
+    "lead": "IATF e thusa mekgatlho, ditlhopha le batho ka bongwe go fetola ditlhokego tsa mmatota tsa go fitlhelela tshedimosetso go nna diporojeke tsa setšhaba tsa open source.",
+    "support": [
+      "Diporojeke tse di amogetsweng di phasaladiwa mo mokgatlhong wa IATF wa GitHub ka fa tlase ga laesense ya copyleft mme di tlhabololwa phatlalatsa ke moenjiniri yo o ikarabelelang."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mokgwa wa go dira wa setšhaba",
+      "title": "Tsela e e sa raraanang e e dirisiwang ke batho botlhe ya go fitlhelela dithulaganyo tsa khomputara"
+    },
+    "paragraphs": [
+      "Ka foromo, mongwe le mongwe a ka romela bothata jwa go fitlhelela kwa IATF. Fa setlhopha se ka bo tsaya, polokelo ya setšhaba ya GitHub e a bulwa gore tiro e dirwe.",
+      "Porojeke nngwe le nngwe e e amogetsweng e na le legae la botlhe le le phepafetseng la khoutu, dikgwetlho, ditokomane, le go gololwa, le tlhabololo e e eteletsweng pele ke moenjenere yo o ikarabelelang."
+    ],
+    "specCard": {
+      "title": "Mokgwa wa go dira wa setšhaba",
+      "terms": [
+        {
+          "term": "Tlhokego",
+          "definition": "Bothata jwa mmatota jwa go kgona go tsena"
+        },
+        {
+          "term": "Tshekatsheko",
+          "definition": "Go tshwanelega ga tiro le kgonagalo ya tiragatso"
+        },
+        {
+          "term": "Lefelo la porojeke",
+          "definition": "Polokelongtshedimosetso ya botlhe ya GitHub"
+        },
+        {
+          "term": "Botsamaisi",
+          "definition": "Boikarabelo jwa mokgatlho wa IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Tsamaiso",
+      "title": "Tsela e e dirang ka yone",
+      "intro": "Modela ono o dirwa gore o nne o le monnye ka boomo gore go nne motlhofo go tsamaya mo tseleng e batho botlhe ba tsamayang mo go yone."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Kopo e a dirwa",
+        "paragraphs": [
+          "Mokgatlho, setlhopha kgotsa motho a le mongwe a ka dira kopo e e theilweng mo ditlhokegong tsa mmatota tsa go fitlhelela.",
+          "Dikopo di ka simololwa ka webosaete, ka imeili go <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kgotsa ka go dirisa Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF e a e sekaseka",
+        "paragraphs": [
+          "Re tlhatlhoba gore a tiro eo e a tshwanela, a e mosola, le gore a e ka tsenngwa mo porojekeng e e bulegileng e e ka dirisiwang ke mongwe le mongwe."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Go tlhamiwa polokelo ya tshedimosetso ya botlhe",
+        "paragraphs": [
+          "Fa porojeke e amogelwa, e phasaladiwa mo mokgatlhong wa IATF GitHub ka laesense ya copyleft.",
+          "Polokelo e nna legae la botlhe la khoutu, dikgang, ditokomane, le go gololwa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Moenjenere yo o nang le maikarabelo ke ene a eteletseng pele porojeke eno",
+        "paragraphs": [
+          "Moenjenere yo o ikarabelelang o abelwa polokelo ya porojeke mme tlhabololo e dirwa phatlalatsa."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejisetara",
+      "title": "Rejisetara ya porojeke ya setšhaba"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Simolola fano",
+      "title": "Leba tiro e o e dirang gone jaanong kgotsa simolola porojeke e e rileng"
+    },
+    "paragraphs": [
+      "Dirisa rejisetara go bona gore ke eng se se setseng se bonwa ke batho botlhe, kgotsa simolola go tsaya tshedimosetso fa e le gore bothata bongwe jo bo rileng jwa go fitlhelela bo tshwanetse go nna porojeke."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

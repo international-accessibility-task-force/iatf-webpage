@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Tlhatlhamano",
+    "title": "Sitemap",
+    "lead": "Tsebe nngwe le nngwe e e mo atf.cc, e le mo lefelong le le lengwe fela."
+  },
+  "sections": [
+    {
+      "title": "Ditsebe tsa konokono",
+      "items": [
+        {
+          "label": "Legae",
+          "href": "/"
+        },
+        {
+          "label": "Diporojeke",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kopa porojeke",
+          "href": "/propose/"
+        },
+        {
+          "label": "Botsamaisi",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ikopanye le Rona",
+          "href": "/join/"
+        },
+        {
+          "label": "Go ka fitlhelelwa",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Go dira dilo mo pepeneneng",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Diporojeke",
+  "projectsEmpty": "Ga go ise go gatisiwe diporojeke dipe."
+}

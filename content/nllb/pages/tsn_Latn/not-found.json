@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ga e a fitlhelwa"
+  },
+  "hero": {
+    "eyebrow": "Ga e a fitlhelwa",
+    "title": "Tsebe e o e batlang ga e a bonwa",
+    "lead": "Dirisa ditsela tse dikgolo tse di fa tlase fano go boela kwa lefelong la botlhe.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Legae",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Tsela e o e kopileng ga e yo."
+    ],
+    "items": [
+      {
+        "label": "Legae",
+        "href": "/"
+      },
+      {
+        "label": "Diporojeke",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ikopanye le Rona",
+        "href": "/join/"
+      },
+      {
+        "label": "Go ka fitlhelelwa",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Botsamaisi",
+        "href": "/governance/"
+      },
+      {
+        "label": "Go dira dilo mo pepeneneng",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

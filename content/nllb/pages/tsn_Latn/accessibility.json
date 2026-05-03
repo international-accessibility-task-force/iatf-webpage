@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Go ka fitlhelelwa",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Go ka fitlhelelwa",
+    "lead": "IATF e ikaeletse go dira gore webosaete eno e nne motlhofo, e balege, e fitlhelelwe ka keyboard, e bo e tsamaisane le thekenoloji e e thusang.",
+    "support": [
+      "Go fitlhelela web, IATF e dirisa [W3C WAI](https://www.w3.org/WAI/) Go kgona go fitlhelela dilo ka tsela e e mosola gape go ikaegile ka maitemogelo a a tlhamaletseng a badirisi ba dithekenoloji tse di thusang."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Go bega",
+      "title": "Tlaleletsa bothata jwa go kgona go tsena"
+    },
+    "paragraphs": [
+      "Fa e le gore go na le sengwe se se go kgoreletsang go tsena mo webosaeteng eno, tsweetswee re begele ka e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Dipego tse di mosola di akaretsa:"
+    ],
+    "items": [
+      "tsebe e bothata bo diragetseng mo go yone",
+      "se o neng o leka go se dira",
+      "gore o ne o dirisa thekenoloji efe e e thusang, sebatli kgotsa sedirisiwa sefe, fa go tlhokega",
+      "ke eng se se neng sa senyega",
+      "ke eng se se ka bong se thusitse"
+    ],
+    "footnote": "Ga go tlhokege gore o kwale pegelo ya semmuso ya bothata. Tlhaloso e e utlwalang e lekane."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Go Tshwara",
+      "title": "Go rarabolola dikgang tsa setšhaba"
+    },
+    "paragraphs": [
+      "Dintlha tsa go ikgolaganya le batho le tshedimosetso ya poraefete e e sa tlhokegeng di a tlosiwa pele di phasaladiwa.",
+      "Fa e le gore pego ya gago e akaretsa tshedimosetso ya sephiri, e tlhalose sentle mo molaetseng."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Seemo sa gone jaanong",
+      "title": "Dithibelo tse di itsegeng"
+    },
+    "paragraphs": [
+      "Saete eno ke e nnye ka boomo e bile e sa fetofetoge. Dithanolo tsa dipuo dingwe di ka nna tsa bo di sa felela fa go ntse go rulaganngwa dithanolo."
+    ]
+  }
+}

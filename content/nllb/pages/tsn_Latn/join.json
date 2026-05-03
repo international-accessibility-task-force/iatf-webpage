@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ikopanye le IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ikopanye le IATF",
+    "lead": "Go nna leloko go bulegile. Go na le ditsela di le mmalwa tsa go tsaya karolo, go sa kgathalesege gore a o ikaega ka thekenoloji e e thusang, go aga software e e fitlhelegang, go ranola, go leka, kgotsa go tlhokomela porojeke. Dipuisano le ditshwetso di diragala phatlalatsa mo GitHub le mo Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Maikarabelo",
+      "title": "Ditsela tsa go thusa"
+    },
+    "items": [
+      "<strong>Kopa porojeke.</strong> Fa o kopana le sekgoreletsi sa go fitlhelela se se ka rarabololwang ke serweboleta sa setšhaba sa open source, se romele ka tsela ya go amogela dikopo.",
+      "<strong>Tlhatlhoba le go sekaseka.</strong> Leka diporojeke tsa IATF ka thekenoloji e e thusang e o e dirisang, bega gore ke eng se se dirang le se se sa direng, mme o kwale mathata ka tlhamalalo mo bobolokelong jo bo maleba.",
+      "<strong>Ranola.</strong> Tshedimosetso e e tswang kwa metsweding ya tshedimosetso e gatisiwa pele ka Seesemane se se sa raraanang. Dithanolo di tsenngwa fa go na le batho ba ba nang le seabe, go simolola ka Se-Spain.",
+      "<strong>Go aga.</strong> Tlhopha mathata mo bobolokelong bongwe le bongwe jwa IATF, romela dikopo tsa go ntsha, kgotsa tsaya porojeke jaaka moenjiniri wa yone yo o ikarabelelang.",
+      "<strong>Tlhokomela.</strong> Diporojeke tse di leng teng ka dinako tse dingwe di tlhoka motlhokomedi yo mosha."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Dikanale",
+      "title": "Fa IATF e dira mo mafelong a botlhe"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Dikgang, go ntsha dikopo, go golola, le direkoto tsa porojeke.",
+      "<strong>Go se utlwane.</strong> Go tlotla ka tlhamalalo, go dirisana mmogo le go botsa dipotso ka tsela e e seng ya ka tlwaelo.",
+      "<strong>Ikgolaganye le rona ka e-mail.</strong> Dirisa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> fa e le gore GitHub kgotsa Discord ga di tsamaisane."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kgato e e Latelang",
+      "title": "Tlhopha kanale e e tsamaelanang le tsela e o batlang go tsenya letsogo ka yone"
+    },
+    "paragraphs": [
+      "Dikanale tsotlhe di tsenngwa mo patlisisong e e tshwanang ya setšhaba le mo mabolokelong a a tshwanang a setšhaba."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
