@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projektet e arritshmërisë publike",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projektet e arritshmërisë publike",
+    "lead": "Ky regjistër rendit projektet publike të mirëmbajtura përmes IATF. Projektet e pranuara të arritshmërisë, infrastruktura e faqes dhe prototipet e arkivuara mbahen të dukshme këtu.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Regjistër",
+      "title": "Regjistri aktual"
+    },
+    "intro": [
+      "Projektet e pranuara renditen këtu sapo të publikohen."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Dërgo një kërkesë",
+      "title": "Përkthimi i një nevoje konkrete të arritshmërisë në një projekt publik"
+    },
+    "paragraphs": [
+      "IATF shqyrton nevojat konkrete të arritshmërisë që mund të shndërrohen në punë të dobishme publike me burim të hapur."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nuk janë publikuar ende projekte",
+    "paragraphs": [
+      "IATF është duke përgatitur projektin e parë publik.",
+      "Ju ende mund të dërgoni një kërkesë nëse keni një nevojë konkrete për qasje."
+    ]
+  }
+}

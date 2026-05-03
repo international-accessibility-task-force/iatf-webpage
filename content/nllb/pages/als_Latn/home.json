@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Nga nevoja për qasje në repo publike",
+    "lead": "IATF ndihmon shoqatat, grupet dhe individët të kthejnë nevojat e vërteta të arritshmërisë në projekte publike me burim të hapur.",
+    "support": [
+      "Projektet e pranuara publikohen në organizatën IATF GitHub nën një licencë copyleft dhe zhvillohen në publik nga një inxhinier përgjegjës."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modeli i funksionimit publik",
+      "title": "Një rrugë e thjeshtë publike për softuer të aksesueshëm"
+    },
+    "paragraphs": [
+      "Përmes një formulari, çdokush mund të paraqesë një problem aksesibiliteti në IATF. Nëse ekipi mund ta marrë atë, një depo publike GitHub hapet për punën.",
+      "Çdo projekt i pranuar ka një shtëpi publike të qartë për kodin, çështjet, dokumentacionin dhe lëshimet, me zhvillimin e udhëhequr në hapje nga një inxhinier përgjegjës."
+    ],
+    "specCard": {
+      "title": "Modeli i funksionimit publik",
+      "terms": [
+        {
+          "term": "Nevojë",
+          "definition": "Problem i vërtetë i arritshmërisë"
+        },
+        {
+          "term": "Shqyrtim",
+          "definition": "Përshtatshmëria e misionit dhe zbatueshmëria praktike"
+        },
+        {
+          "term": "Hapësira e projektit",
+          "definition": "Repozitori publik në GitHub"
+        },
+        {
+          "term": "Menaxhimi",
+          "definition": "Pronësia organizative e IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Procesi",
+      "title": "Si funksionon",
+      "intro": "Modeli mbetet qëllimisht i vogël kështu që rruga publike është e lehtë për t'u ndjekur."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Është paraqitur një kërkesë",
+        "paragraphs": [
+          "Një shoqatë, grup ose individ mund të paraqesë një kërkesë të bazuar në një nevojë reale për qasje.",
+          "Kërkesat mund të fillojnë përmes faqes në internet, me email në <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ose përmes mosmarrëveshjes."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF e shqyrton atë",
+        "paragraphs": [
+          "Ne shqyrtojmë përshtatshmërinë e misionit, fushën praktike, dhe nëse puna i përket një projekti publik me burim të hapur."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Krijohet një depo publike",
+        "paragraphs": [
+          "Nëse një projekt pranohet, ajo publikohet në organizatën IATF GitHub nën një licencë copyleft.",
+          "Repozitori bëhet shtëpia publike e kodit, çështjeve, dokumentacionit dhe lëshimeve."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Një inxhinier përgjegjës drejton projektin",
+        "paragraphs": [
+          "Një inxhinier përgjegjës caktohet në depozitën e projektit dhe zhvillimi ndodh në publik."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Regjistër",
+      "title": "Regjistër publik i projekteve"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Filloni këtu.",
+      "title": "Shfletoni punën aktuale ose filloni një projekt konkret"
+    },
+    "paragraphs": [
+      "Përdorni regjistrin për të parë se çfarë është tashmë publike, ose filloni marrjen nëse një problem konkret i arritshmërisë duhet të bëhet një projekt."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

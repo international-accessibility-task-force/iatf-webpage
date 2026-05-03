@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Faqja e internetit e IATF",
+    "summary": "Faqja publike për Task Forcën Ndërkombëtare të Aksesibilitetit.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF kishte nevojë për një shtëpi publike të qëndrueshme që shpjegonte modelin, listonte projektet, dhe drejtonte kontribuesit në hapin e duhur të ardhshëm.",
+    "why": "Faqja është dera e parë publike e IATF. Është ndërtuar si një projekt i vogël statik kështu që mbetet i lehtë për t'u lexuar, përkthyer dhe mirëmbajtur në hapje.",
+    "scopeIn": [
+      "Faqet publike që shpjegojnë modelin IATF",
+      "Regjistër publik i projekteve të pranuara, aktive dhe të arkivuara të IATF me status, mirëmbajtës, depo dhe demo",
+      "Një faqe dhe formular për pranimin e kërkesave",
+      "Faqet e qeverisjes dhe transparencës",
+      "Burimi anglez me strukturë të gatshme për përkthim",
+      "Vendosja statike në Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Zonat private të anëtarëve, llogaritë ose rrjedhat e hyrjes",
+      "Pritja e kodit burimor të projektit, i cili jeton në repozitorin e vet të secilit projekt",
+      "Biseda në kohë reale, e cila jeton në Discord",
+      "Gjurmimi i çështjeve për projektet individuale, i cili jeton në depozitën e GitHub të secilit projekt"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Një prototip i hershëm i IATF, i arkivuar pasi arriti një pikë të ndaluar natyrore.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Eksplorimi i hershëm i një mjeti të përqendruar në aksesibilitet nën ombrellën e IATF.",
+    "why": "Repozitori mbahet publik si një rekord i punës, edhe pse zhvillimi aktiv është ndalur.",
+    "scopeIn": [
+      "Prototipi i hershëm i një mjeti të fokusuar në qasje të mbajtur si një regjistrim publik"
+    ],
+    "scopeOut": [
+      "Zhvillim aktiv ose punë e veçorive",
+      "Angazhimet e mirëmbajtjes",
+      "Përdorimi i rekomanduar në prodhim"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Një bot i komunitetit IATF, i arkivuar pasi arriti një pikë të ndaluar natyrore.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatizimi rreth kanaleve të komunitetit të IATF.",
+    "why": "Repozitori mbahet publik si një rekord i punës, edhe pse zhvillimi aktiv është ndalur.",
+    "scopeIn": [
+      "Automatizimi i mosmarrëveshjeve rreth kanaleve të komunitetit të IATF, i mbajtur si një rekord publik"
+    ],
+    "scopeOut": [
+      "Zhvillim aktiv ose punë e veçorive",
+      "Angazhimet e mirëmbajtjes",
+      "Përdorimi i rekomanduar në prodhim"
+    ]
+  }
+]

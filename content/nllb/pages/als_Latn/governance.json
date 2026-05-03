@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Model i qeverisjes dhe i depozitës",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Model i qeverisjes dhe i depozitës",
+    "lead": "IATF i mban projektet e arritshmërisë publike, të lexueshme dhe të mirëmbaeshme.",
+    "support": [
+      "Kjo faqe shpjegon se çfarë kualifikohet, si mbahen depo dhe cila përgjegjësi në nivelin e depove zbatohet pas pranimit."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Rregullat",
+      "title": "Përshtatja e misionit, pronësia, licencimi"
+    },
+    "cards": [
+      {
+        "title": "Misioni i përshtatshëm",
+        "paragraphs": [
+          "IATF pranon punën që adreson një pengesë reale të arritshmërisë dhe ka vlerë të qartë publike.",
+          "Një projekt duhet të jetë i dobishëm përtej një rrjedhë pune të vetme private dhe të funksionojë si një depo publike.",
+          "Për qasshmërinë në ueb, IATF përdor [W3C WAI](https://www.w3.org/WAI/) Përvoja e drejtpërdrejtë e përdoruesve të teknologjive ndihmëse është gjithashtu dëshmi praktike e asaj që funksionon në përdorimin real."
+        ]
+      },
+      {
+        "title": "Pranimi i projektit",
+        "paragraphs": [
+          "Një propozim mund të pranohet kur shqyrtimi tregon se:"
+        ],
+        "items": [
+          "adreson një nevojë të vërtetë të arritshmërisë",
+          "Problemi është mjaft i qartë për t'u vlerësuar",
+          "qëllimi është i mjaftueshëm realist për të nisur",
+          "puna është në përputhje me misionin e IATF",
+          "ka një rrugë të besueshme për mirëmbajtjen ose përfundimin"
+        ]
+      },
+      {
+        "title": "Pronësia e depove",
+        "paragraphs": [
+          "Projektet e pranuara krijohen nën organizatën IATF GitHub.",
+          "Repozitorët qëndrojnë atje kështu që çdo projekt mban një shtëpi të qëndrueshme publike, edhe nëse mirëmbajtësit më vonë ndryshojnë."
+        ]
+      },
+      {
+        "title": "Licencimi",
+        "paragraphs": [
+          "Projektet e IATF përdorin licencimin copyleft, përveç nëse një projekt thotë ndryshe:"
+        ],
+        "items": [
+          "<strong>Kodi:</strong> AGPL-3.0",
+          "<strong>Dokumentimi:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Inxhinieri ose mirëmbajtësi përgjegjës",
+      "paragraphs": [
+        "Çdo projekt i pranuar duhet të ketë një inxhinier ose mirëmbajtës përgjegjës."
+      ],
+      "items": [
+        "zhvillim udhëzues në publik",
+        "mirëmbajnë strukturën e depove",
+        "rishikimin ose menaxhimin e çështjeve dhe tërheqjen e kërkesave",
+        "dokumenton vendimet e rëndësishme teknike",
+        "ta bëjë projektin të kuptueshëm për të tjerët"
+      ],
+      "footnote": "Kjo është përgjegjësi në nivel të depozitës. Pronësia organizative mbetet me IATF. Përgjegjësia këtu është kujdestaria e depozitës, drejtimi teknik dhe koordinimi publik - jo shpërndarja e pakufizuar private, integrimet e personalizuara ose angazhimet në nivelin e shërbimit jashtë hartës së rrugës publike."
+    },
+    "publicDevelopment": {
+      "title": "Zhvillimi publik",
+      "paragraphs": [
+        "Projektet e lëshuara përmes IATF zhvillohen në publik si parazgjedhje. Repozitori është burimi publik i së vërtetës për:"
+      ],
+      "items": [
+        "Kod burimi",
+        "Çështjet",
+        "dokumentacion",
+        "shënimet e hartës së rrugës",
+        "Historia e lëshimit"
+      ],
+      "footnote": "Njohja e rëndësishme e projektit nuk duhet të jetojë vetëm në biseda private ose në kutitë e postës."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Regjistrime publike",
+      "title": "Regjistrimet publike të kërkesave"
+    },
+    "paragraphs": [
+      "Kërkesat që hyjnë në IATF përmes faqes së internetit, postës elektronike, Discord, GitHub ose kanaleve të tjera të I ATF mund të bëhen regjistrime të kërkesave publike.",
+      "Një rekord i kërkesës publike nuk është domosdoshmërisht mesazhi origjinal. IATF mund të përmbledhë, redaktojë ose ristrukturojë një kërkesë para publikimit në mënyrë që nevoja e arritshmërisë të mund të rishikohet pa ekspozuar informacionin e panevojshëm personal.",
+      "Regjistrimet e kërkesave publike mund të ruhen në organizatën GitHub të IATF, në këtë faqe në internet, ose të dyja.",
+      "Para publikimit, IATF heq detajet e panevojshme personale të kontaktit, adresat private dhe detajet identifikuese për përdoruesit individualë të teknologjive ndihmëse, përveç nëse publikimi është i qëllimshëm dhe i përshtatshëm.",
+      "Discord përdoret për koordinim joformal. IATF nuk i arkivon veçmas bisedat e Discord si parazgjedhje, dhe ruajtja e mesazheve kontrollohet nga Discord. Vendimet e marra në Discord duhet të përmblidhen në regjistrimin publik në GitHub ose në faqen përkatëse të projektit.",
+      "Regjistrimet e kërkesave përjashtohen nga indeksimi i motorëve të kërkimit kur është teknikisht praktike. Publik do të thotë i rishikueshëm dhe i përgjegjshëm.",
+      "IATF mund të azhurnojë ose të heqë regjistrimet nga sipërfaqet publike të kontrolluara nga IAT F, por nuk mund të garantojë heqjen nga caches e palëve të treta, njoftimet, forcat, pamjet e ekranit, motorët e kërkimit, mosmarrëveshja ose sistemet e tjera të jashtme.",
+      "Nëse një mesazh duhet të mbetet privat, mos e dërgoni atë përmes kanaleve publike të IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Roli organizator",
+      "title": "Kryetari"
+    },
+    "lead": "Kjo është e ndryshme nga roli i inxhinierit përgjegjës për projekt: kryetari është përgjegjës për organizatën në tërësi, jo për drejtimin e përditshëm të ndonjë depoje të vetme.",
+    "duties": {
+      "title": "Çfarë bën karrige",
+      "items": [
+        "Mbani lejet e pronarit në organizatën IATF GitHub",
+        "Nënshkruhet në miratimin e projektit dhe vendimet e arkivimit",
+        "Funksionon si pika publike e kontaktit për IATF",
+        "Koordinon zgjedhjet vjetore"
+      ],
+      "footnote": "Kryetari nuk e angazhon IATF-në për dorëzimin privat, punën e paguar, ose marrëveshjet e nivelit të shërbimit, dhe nuk i tejkalon vendimet e mirëmbajtësve për depozitë në drejtimin teknik."
+    },
+    "election": {
+      "title": "Zgjedhje vjetore",
+      "paragraphs": [
+        "Kryetari zgjidhet një herë në vit. Zgjedhjet zhvillohen në dy javët e para të dhjetorit, rezultatet njoftohen deri më 15 dhjetor dhe mandati i ri fillon më 1 janar.",
+        "Votuesit e pranueshëm janë njerëz që kanë mbajtur një rol mirëmbajtës në ndonjë depo IATF gjatë vitit dhe kanë bërë të paktën një kontribut të bashkuar në një depo I ATF në atë vit. Çdo votues i pranushëm ka një votë. Kandidati me më shumë vota fiton; në rast barazimi, një votim i dytë mbahet në javën e tretë të dhjetorit.",
+        "Zgjedhjet zhvillohen si një diskutim publik në GitHub në depo të caktuar të qeverisjes IATF, kështu që kandidatët, votimi dhe rezultati janë të gjithë pjesë e regjistrimit publik."
+      ]
+    },
+    "continuity": {
+      "title": "Vazhdim",
+      "paragraphs": [
+        "Nëse nuk mbahet asnjë zgjedhje në një vit të caktuar, kryetari aktual vazhdon në rol deri në zgjedhjet e ardhshme. Ky është një vazhdim i pacaktuar, jo një periudhë lëshimi - modeli është projektuar për të mbajtur organizatën të qëndrueshme kur aktiviteti është i ulët, jo për të detyruar një tranzicion për të cilin askush nuk është i gatshëm.",
+        "Kryetari mund të japë dorëheqjen në çdo kohë. mirëmbajtësit aktivë gjithashtu mund të thërrasin një zgjedhje të jashtëzakonshme me një arsye të deklaruar, të drejtuar sipas të njëjtave rregullave si zgjedhjet vjetore."
+      ]
+    },
+    "current": {
+      "title": "Kryetari aktual",
+      "fields": [
+        {
+          "label": "Kryetari",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termi",
+          "value": "Deri në zgjedhjet e dhjetorit 2026"
+        },
+        {
+          "label": "Roli i zyrtarizuar",
+          "value": "2026"
+        },
+        {
+          "label": "Zgjedhjet e para të planifikuara",
+          "value": "Dhjetor 2026"
+        }
+      ]
+    },
+    "footnote": "Roli i kryetarit u formalizua në vitin 2026 për të bërë menaxhimin në nivelin e organizatës të qartë. Deri atëherë, përgjegjësia organizative u mbajt në mënyrë informale nga themeluesi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Gjendja e projektit",
+      "paragraphs": [
+        "Projektet përdorin një grup të vogël të shteteve publike:"
+      ],
+      "items": [
+        "Propozim",
+        "E pranuar",
+        "Aktive",
+        "Stabil",
+        "Kërkohet mirëmbajtës",
+        "Arkivuar"
+      ],
+      "footnote": "Këto shtete e mbajnë regjistrin të lehtë për t'u skanuar."
+    },
+    "reassignment": {
+      "title": "Rindërtimi dhe arkivimi",
+      "paragraphs": [
+        "Nëse një mirëmbajtës largohet ose bëhet joaktiv, IATF mund të rivendosë përgjegjësinë, të ndalojë zhvillimin ose të arkivojë projektin.",
+        "Një projekt mund të arkivohet gjithashtu kur nevoja fillestare është përmbushur, mirëmbajtja është ndaluar ose puna e vazhdueshme nuk është më realiste."
+      ],
+      "footnote": "Projektet e arkivuara mbeten të dukshme për publikun, përveç nëse ka një arsye bindëse për të bërë ndryshe."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Shënim kufitar",
+      "title": "Çfarë nuk garanton IATF"
+    },
+    "items": [
+      "Shërbimi i klientit privat",
+      "Marrëveshjet e nivelit të shërbimit",
+      "pranimi i çdo propozimi",
+      "mirëmbajtja afatgjatë për çdo projekt"
+    ],
+    "footnote": "IATF është një model i depove publike, jo një shërbim privat i shpërndarjes."
+  }
+}

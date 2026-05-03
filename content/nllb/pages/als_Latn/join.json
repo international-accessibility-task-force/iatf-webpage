@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Bashkohu me IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Bashkohu me IATF",
+    "lead": "Anëtarësimi është i hapur. Ekzistojnë disa mënyra për të marrë pjesë, pavarësisht nëse mbështeteni në teknologjinë ndihmëse, ndërtoni softuer të arritshëm, përktheni, provoni ose mirëmbajeni një projekt. Diskutimet dhe vendimet ndodhin në publik në GitHub dhe Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rolet",
+      "title": "Mënyrat për të kontribuar"
+    },
+    "items": [
+      "<strong>Kërko një projekt.</strong> Nëse hasni një pengesë të arritshmërisë që mund të adresohet nga softueri publik me burim të hapur, dërgoni atë përmes pranimit të kërkesave.",
+      "<strong>Testimi dhe rishikimi.</strong> Provoni projektet e IATF-it me teknologjinë asistive që përdorni, raportoni se çfarë funksionon dhe çfarë jo, dhe paraqisni çështjet drejtpërdrejt në repozitorin përkatës.",
+      "<strong>Përkthe.</strong> Përmbajtja e burimit publikohet së pari në anglisht të thjeshtë. Përkthimet shtohen ndërsa kontribuesit janë në dispozicion, duke filluar nga spanjishtja.",
+      "<strong>Të ndërtosh.</strong> Zgjidhni çështje në çdo depo të IATF, dërgoni kërkesa për tërheqje, ose merrni një projekt si inxhinieri përgjegjës i tij.",
+      "<strong>Mbaje.</strong> Projektet ekzistuese ndonjëherë kanë nevojë për një mirëmbajtës të ri."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalet",
+      "title": "Ku IATF punon në publik"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Çështjet, kërkimet e tërheqjes, lëshimet dhe dokumentet e projektit.",
+      "<strong>Mosmarrëveshje.</strong> Diskutime të drejtpërdrejta, koordinim dhe pyetje informale.",
+      "<strong>E-mail.</strong> Përdorimi <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> nëse as GitHub as Discord nuk përshtaten."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hapi tjetër",
+      "title": "Zgjidhni kanalin që përputhet me mënyrën se si dëshironi të kontribuoni"
+    },
+    "paragraphs": [
+      "Të gjitha kanalet ushqehen në të njëjtin shqyrtim publik dhe të njëjtat depo publike."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

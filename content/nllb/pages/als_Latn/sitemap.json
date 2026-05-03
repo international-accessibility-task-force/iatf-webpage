@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Harta e faqes"
+  },
+  "hero": {
+    "eyebrow": "Indeksi",
+    "title": "Harta e faqes",
+    "lead": "Çdo faqe publike në iatf.cc, në një vend."
+  },
+  "sections": [
+    {
+      "title": "Faqet kryesore",
+      "items": [
+        {
+          "label": "Shtëpi",
+          "href": "/"
+        },
+        {
+          "label": "Projektet",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kërko një projekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Qeverisja",
+          "href": "/governance/"
+        },
+        {
+          "label": "Bashkohu",
+          "href": "/join/"
+        },
+        {
+          "label": "Qasja",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparencë",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projektet",
+  "projectsEmpty": "Nuk ka ende projekte të publikuara."
+}

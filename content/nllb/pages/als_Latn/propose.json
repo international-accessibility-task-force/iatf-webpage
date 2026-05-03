@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kërkoni një projekt të arritshmërisë",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kërkoni një projekt të arritshmërisë",
+    "lead": "IATF shqyrton kërkesat për projekte të arritshmërisë që fillojnë nga një nevojë e vërtetë.",
+    "support": [
+      "Ju nuk keni nevojë për një specifikim të plotë. Një problem i qartë, se kush prek dhe pse ka rëndësi është i mjaftueshëm për të filluar."
+    ],
+    "actions": [
+      {
+        "label": "Filloni një kërkesë",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Përdor Discord në vend të kësaj",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalet",
+      "title": "Zgjidh rrugën më të lehtë."
+    },
+    "intro": [
+      "Të gjitha rrugët hyjnë në të njëjtin shqyrtim."
+    ],
+    "items": [
+      {
+        "label": "Faqja e internetit",
+        "body": "Përdorni formularin më poshtë për të paraqitur një kërkesë të strukturuar."
+      },
+      {
+        "label": "E-mail",
+        "body": "Dërgoni kërkesën direkt tek: {{contact.requestsEmail}}Kërkesat me email mund të bëhen të dhëna publike të kërkesave pas shqyrtimit dhe redaktimit."
+      },
+      {
+        "label": "Mosmarrëveshje",
+        "body": "Filloni atje nëse është më e lehtë. Kërkesa vazhdon në të njëjtin shqyrtim."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Para se të dërgoni një kërkesë",
+    "paragraphs": [
+      "IATF punon në publik. Kërkesat mund të përmblidhen dhe të publikohen si regjistrime të kërkesave publike në organizatën GitHub, në këtë faqe interneti, ose të dyja.",
+      "Mos përfshini adresa private, numrat e telefonit, detajet mjekësore ose informacionin për identifikimin e përdoruesve individualë të teknologjive ndihmëse, përveç nëse është e nevojshme dhe ju jeni të kënaqur me rishikimin e tyre nga IATF.",
+      "IATF heq detajet e panevojshme të kontakteve personale para publikimit të të dhënave të kërkesave."
+    ]
+  },
+  "review": {
+    "title": "Pritjet e rishikimit",
+    "paragraphs": [
+      "Paraqitja e një kërkese nuk garanton pranimin.",
+      "IATF shqyrton kërkesat për përshtatshmërinë e misionit, zbatueshmërinë, dobinë dhe nëse puna i përket një depoje publike.",
+      "Disa kërkesa mund të refuzohen, të shtyhen ose të ndryshohen para se të pranohen."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulari i kërkesës",
+      "title": "Dërgoni një kërkesë"
+    },
+    "fields": [
+      {
+        "kind": "hyrje",
+        "name": "kërkuesi",
+        "label": "Emri apo organizata juaj",
+        "helper": "Kush po e bën kërkesën?"
+      },
+      {
+        "kind": "Zgjidhni",
+        "name": "Rruga e kontaktit",
+        "label": "Rruga e preferuar e kontaktit",
+        "helper": "Si duhet të bëhet ndjekja?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Mosmarrëveshje"
+        ]
+      },
+      {
+        "kind": "hyrje",
+        "name": "KontaktDetaje",
+        "label": "Detajet e kontaktit",
+        "helper": "Adresa e postës elektronike ose kontakti i Discord për ndjekje.",
+        "placeholder": "Adresa e postës elektronike ose kontakti i mosmarrëveshjes",
+        "required": true
+      },
+      {
+        "kind": "hyrje",
+        "name": "gjuhë",
+        "label": "Gjuha",
+        "helper": "Gjuha e preferuar, nëse është e rëndësishme.",
+        "value": "Anglisht"
+      },
+      {
+        "kind": "Teksti i zonës",
+        "name": "Problemi",
+        "label": "Çfarë problemi po përpiqesh të zgjidhësh?",
+        "helper": "Përshkruani pengesën me fjalë të qarta.",
+        "required": true
+      },
+      {
+        "kind": "Teksti i zonës",
+        "name": "Përdoruesit e prekur",
+        "label": "Kush është i prekur?",
+        "helper": "Kujt do t'i ndihmonte kjo?",
+        "required": true
+      },
+      {
+        "kind": "Teksti i zonës",
+        "name": "extraKontext",
+        "label": "Kontekst shtesë",
+        "helper": "Shpërndajeni çdo gjë tjetër që ndihmon në shpjegimin e nevojës: pse është e rëndësishme, shembuj, referenca, një ide e përafërt e softuerit ose kufizime kohore."
+      },
+      {
+        "kind": "Zgjidhni",
+        "name": "openSourceConsent",
+        "label": "Jeni të kënaqur me zhvillimin e burimeve të hapura publike?",
+        "helper": "Projektet e pranuara janë depo publike nën IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Po. Po.",
+          "Jo, jo.",
+          "Nuk jam ende i sigurt."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Nëse pranohet",
+      "title": "Çfarë do të thotë pranimi"
+    },
+    "items": [
+      "një depo publike në organizatën GitHub të IATF",
+      "një inxhinier përgjegjës i caktuar për projektin",
+      "një licencë copyleft për kodin dhe materialet e projektit",
+      "zhvillimi publik në depo",
+      "një shënim i regjistrit në faqen e IATF-it"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Filloni bisedën",
+      "title": "Një kërkesë e shkurtër dhe e qartë është e mjaftueshme për të filluar"
+    },
+    "paragraphs": [
+      "Nëse keni një nevojë të vërtetë për qasje dhe mendoni se duhet të bëhet një projekt publik, dërgoni tek ne."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparencë",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparencë",
+    "lead": "IATF punon në publik si parazgjedhje. Vendimet e projektit, ndryshimet në kod, ndryshime në qeverisje dhe kostot e operimit regjistrohen në vende publike.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Regjistrime",
+      "title": "Ku jetojnë regjistrimet"
+    },
+    "items": [
+      "<strong>Vendimet e projektit.</strong> Vendimet e pranimit, arkivimit dhe rivendosjes regjistrohen si çështje ose lëshime në depozitën përkatëse dhe përmblidhen në regjistrin publik. <a href=\"/projects/\">Regjistër</a>Më falni.",
+      "<strong>Kërko të dhënat.</strong> Regjistrimet e kërkesave publike ruhen në organizatën GitHub të IATF, në këtë faqe interneti, ose të dyja. Regjistrat mund të përmbledhin, redaktojnë ose ristrukturojnë kërkesën origjinale në mënyrë që nevoja për qasje të mund të rishikohet pa ekspozuar informacionin e panevojshëm personal. Vendimet e mosmarrëveshjes përmblidhen në regjistrin publik kur ato ndikojnë në një projekt ose vendim qeverisjeje. Rekordet e kërkesës përjashtohen nga indeksimi i motorëve të kërkimit kur është teknikisht praktike. Shikoni regjistrimet: Kërkesa e parë e publikimit në pritje.",
+      "<strong>Ndryshimet e kodit.</strong> Çdo ndryshim kodi është një angazhim publik në depozitën përkatëse. Shiko IATF <a href=\"{{contact.githubOrgUrl}}\">Organizata GitHub</a>Më falni.",
+      "<strong>Ndryshimet në qeverisje.</strong> Përditësimet në faqen e qeverisjes gjurmohen si angazhime për <code>Faqja e internetit e IATF-it</code> Repozitori. Shikoni <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Komentimi i historisë</a> në GitHub.",
+      "<strong>Shpenzimet operative.</strong> IATF mban kostot operative të ulëta dhe regjistron shpenzimet e përsëritura të infrastrukturës publike.",
+      "<strong>Shënimet e koordinimit.</strong> Shënimet nga çdo rishikim ose vendim i koordinuar jetojnë në GitHub Diskutime në repozitorin përkatës  shikoni <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Diskutime</a> në <code>Faqja e internetit e IATF-it</code> Repozitori."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Shpenzimet",
+      "title": "Regjistrimi i kostove operative"
+    },
+    "paragraphs": [
+      "IATF e mban infrastrukturën e saj publike qëllimisht të vogël. Që nga viti 2022, kostot kryesore operative të përsëritura kanë qenë emrat e domain. Hosting ka përdorur infrastrukturë të nivelit të lirë ose me kosto të ulët kur është e mundur.",
+      "Ky rekord nuk është një deklaratë financiare e audituar, por është një regjistrim publik i kostove operative për infrastrukturën e përdorur për të mbajtur IATF online."
+    ],
+    "footnote": "Çmimet mund të referohen ose të publikohen pas redaktimit. Adresat personale, detajet e faturimit dhe informacionet e panevojshme të llogarisë nuk janë pjesë e regjistrimit publik.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domeni",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Kostoja",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Shënime",
+            "value": "Kostoja e domain-it e financuar nga mugiwarafx. Hostimi përdori infrastrukturë të nivelit të lirë ose me kosto të ulët përmes Cloudflare. Projekti u zhvendos nga Vercel në CloudFlare dhe filloi të përdorë më të shkurtër <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domeni",
+            "value": "<code>Internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kostoja",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Shënime",
+            "value": "Kosto e domenit i financuar nga mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domeni",
+            "value": "<code>Internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kostoja",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Shënime",
+            "value": "Kostoja e domenit financuar nga mugiwarafx. Hosting përdor infrastrukturë të nivelit të lirë ose me kosto të ulët përmes Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domeni",
+            "value": "<code>Internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kostoja",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Shënime",
+            "value": "Kosto e domenit i financuar nga mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domeni",
+            "value": "<code>Internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kostoja",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Shënime",
+            "value": "Kostoja e domenit financuar nga mugiwarafx. Hostimi përdori infrastrukturë të nivelit të lirë ose me kosto të ulët përmes faqeve GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Shënim kufitar",
+      "title": "Çfarë nuk është publike"
+    },
+    "paragraphs": [
+      "Disa materiale janë mbajtur jashtë të dhënave publike me qëllim:"
+    ],
+    "items": [
+      "Të dhënat personale të kontaktit të propozuesve.",
+      "Korrespondenca private e përdorur vetëm për të sqaruar një kërkesë para se të pranohet, të refuzohet ose të përmblidhet.",
+      "Adresat private, numrat e telefonit, dhe detajet personale të panevojshme.",
+      "Çdo gjë që mund të identifikojë një përdorues individual të teknologjisë së ndihmës pa pëlqimin e tij.",
+      "Bisedat Raw Discord, përveç nëse një mesazh specifik është zhvendosur qëllimisht në një rekord publik të projektit."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Lexo më shumë",
+      "title": "Qeverisja është libri i rregullave prapa këtyre të dhënave"
+    },
+    "paragraphs": [
+      "Nëse doni të kuptoni se si pranohen projektet, arkivohen ose caktohen përsëri, lexoni faqen e qeverisjes."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

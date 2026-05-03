@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Qasja",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Qasja",
+    "lead": "IATF synon ta mbajë këtë faqe interneti të thjeshtë, të lexueshme, të arritshme me tastierë dhe të pajtueshme me teknologjitë ndihmëse.",
+    "support": [
+      "Për qasshmërinë në ueb, IATF përdor [W3C WAI](https://www.w3.org/WAI/) qasshmëria praktike informohet gjithashtu nga përvoja e drejtpërdrejtë e përdoruesve të teknologjive ndihmëse."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Raportimi",
+      "title": "Raporto një çështje të arritshmërisë"
+    },
+    "paragraphs": [
+      "Nëse gjeni ndonjë pengesë të arritshmërisë në këtë faqe interneti, ju lutemi raportoni me email:",
+      "{{contact.accessibilityEmail}}",
+      "Raportet e dobishme përfshijnë:"
+    ],
+    "items": [
+      "faqja ku ndodhi problemi",
+      "atë që po përpiqeshe të bëje",
+      "çfarë teknologjie ndihmëse, shfletuesi ose pajisje keni përdorur, nëse është e rëndësishme",
+      "Çfarë shkoi keq?",
+      "çfarë do të kishte ndihmuar"
+    ],
+    "footnote": "Ju nuk keni nevojë të shkruani një raport zyrtar të gabimeve. Një përshkrim i qartë është i mjaftueshëm."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Trajtimi",
+      "title": "Trajtimi i çështjeve publike"
+    },
+    "paragraphs": [
+      "Çështjet e arritshmërisë mund të përmblidhen në repozitorin publik përkatës në mënyrë që të mund të rregullohen në hapje. Detajet e kontaktit personal dhe informacioni i panevojshëm privat hiqen para publikimit.",
+      "Nëse raporti juaj përfshin informacione private, tregoni këtë qartë në mesazh."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Gjendja aktuale",
+      "title": "Kufizime të njohura"
+    },
+    "paragraphs": [
+      "Kjo faqe është qëllimisht e vogël dhe kryesisht statike. Disa versione gjuhësore mund të jenë të paplotë ndërsa përgatiten përkthimet."
+    ]
+  }
+}

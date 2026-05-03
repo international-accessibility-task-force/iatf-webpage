@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nuk është gjetur"
+  },
+  "hero": {
+    "eyebrow": "Nuk është gjetur",
+    "title": "Faqja e kërkuar nuk u gjet",
+    "lead": "Përdorni rrugët kryesore më poshtë për t'u kthyer në vendin publik.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Shtëpi",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Rruga që kërkove nuk ekziston."
+    ],
+    "items": [
+      {
+        "label": "Shtëpi",
+        "href": "/"
+      },
+      {
+        "label": "Projektet",
+        "href": "/projects/"
+      },
+      {
+        "label": "Bashkohu",
+        "href": "/join/"
+      },
+      {
+        "label": "Qasja",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Qeverisja",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparencë",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
