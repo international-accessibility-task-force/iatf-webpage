@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ikke funnet"
+  },
+  "hero": {
+    "eyebrow": "Ikke funnet",
+    "title": "Den forespurte siden ble ikke funnet",
+    "lead": "Bruk hovedrutene nedenfor for å komme tilbake til det offentlige stedet.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Hjem",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ruten du ba om eksisterer ikke."
+    ],
+    "items": [
+      {
+        "label": "Hjem",
+        "href": "/"
+      },
+      {
+        "label": "Prosjekter",
+        "href": "/projects/"
+      },
+      {
+        "label": "Bli med",
+        "href": "/join/"
+      },
+      {
+        "label": "Tilgjengelighet",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Styring",
+        "href": "/governance/"
+      },
+      {
+        "label": "Gjennomsiktighet",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

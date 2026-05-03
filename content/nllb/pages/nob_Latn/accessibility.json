@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Tilgjengelighet",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Tilgjengelighet",
+    "lead": "IATF tar sikte på å holde dette nettstedet enkelt, lesbart, tastatur-tilgjengelig, og kompatibel med assistive teknologier.",
+    "support": [
+      "For webtilgjengelighet bruker IATF [W3C WAI](https://www.w3.org/WAI/) Praktisk tilgjengelighet er også informert av direkte erfaring fra brukere av assistive teknologier."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapportering",
+      "title": "Rapportere et tilgjengelighetsproblem"
+    },
+    "paragraphs": [
+      "Hvis du finner en tilgjengelighetsbarriere på dette nettstedet, kan du melde det via e-post:",
+      "{{contact.accessibilityEmail}}",
+      "Nyttige rapporter inkluderer:"
+    ],
+    "items": [
+      "siden hvor problemet skjedde",
+      "hva du prøvde å gjøre",
+      "hvilken assistive teknologi, nettleser eller enhet du brukte, hvis relevant",
+      "hva som gikk galt",
+      "hva ville ha hjulpet"
+    ],
+    "footnote": "Du trenger ikke å skrive en formell feilrapport. En klar beskrivelse er nok."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Håndtering",
+      "title": "Behandling av offentlige spørsmål"
+    },
+    "paragraphs": [
+      "Tilgjengelighetsproblemer kan oppsummeres i det relevante offentlige arkivet slik at de kan løses i det åpne. Personlige kontaktinformasjon og unødvendig privat informasjon fjernes før publisering.",
+      "Hvis rapporten inneholder privat informasjon, si det tydelig i meldingen."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Nåværende tilstand",
+      "title": "Kjente begrensninger"
+    },
+    "paragraphs": [
+      "Dette nettstedet er med vilje liten og for det meste statisk. Noen språkversjoner kan være ufullstendige mens oversettelser er under forberedelse."
+    ]
+  }
+}

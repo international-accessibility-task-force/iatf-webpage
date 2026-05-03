@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Nettstedskart"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Nettstedskart",
+    "lead": "Alle offentlige sider på iatf.cc, på ett sted."
+  },
+  "sections": [
+    {
+      "title": "Hovedsider",
+      "items": [
+        {
+          "label": "Hjem",
+          "href": "/"
+        },
+        {
+          "label": "Prosjekter",
+          "href": "/projects/"
+        },
+        {
+          "label": "Be om et prosjekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Styring",
+          "href": "/governance/"
+        },
+        {
+          "label": "Bli med",
+          "href": "/join/"
+        },
+        {
+          "label": "Tilgjengelighet",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Gjennomsiktighet",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Prosjekter",
+  "projectsEmpty": "Ingen prosjekter publisert ennå."
+}
