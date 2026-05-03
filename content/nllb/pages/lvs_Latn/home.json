@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "No pieejamības nepieciešamības līdz publiskajam repo",
+    "lead": "IATF palīdz asociācijām, grupām un indivīdiem pārvērst reālas pieejamības vajadzības publiskajos atvērtā koda projektos.",
+    "support": [
+      "Pieņemtie projekti tiek publicēti IATF GitHub organizācijā saskaņā ar copyleft licenci un izstrādāti publiski atbildīgā inženiera."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Publiskais darbības modelis",
+      "title": "Viegli pieejamas programmatūras publisks ceļš"
+    },
+    "paragraphs": [
+      "Ar formu ikviens var iesniegt IATF pieejamības problēmu. Ja komanda to var uzņemties, tiek atvērts publisks GitHub repozitorijs darbam.",
+      "Katram apstiprinātajam projektam ir skaidra publiska mājaslapa kodam, jautājumiem, dokumentācijai un izdojumam, kuru atklāti vada atbildīgs inženieris."
+    ],
+    "specCard": {
+      "title": "Publiskais darbības modelis",
+      "terms": [
+        {
+          "term": "Vajadzība",
+          "definition": "Reālā pieejamības problēma"
+        },
+        {
+          "term": "Pārskatīšana",
+          "definition": "Misijas atbilstība un praktiskā īstenojamība"
+        },
+        {
+          "term": "Projekta telpa",
+          "definition": "Publisks GitHub repozitorijs"
+        },
+        {
+          "term": "Pārraudzība",
+          "definition": "IATF organizatoriskā īpašumtiesība"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Process",
+      "title": "Kā tas darbojas",
+      "intro": "Modelis ir apzināti mazs, lai būtu viegli sekot sabiedriskajam celim."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Pieteikuma iesniegšana",
+        "paragraphs": [
+          "Asociācija, grupa vai indivīds var iesniegt pieprasījumu, pamatojoties uz reālu pieejamības nepieciešamību.",
+          "Pieteikumus var iesniegt, izmantojot tīmekļa vietni vai e-pastu uz e-pasta adresi: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, vai ar Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF to pārskata",
+        "paragraphs": [
+          "Mēs pārskatām uzdevuma atbilstību, praktisko darbības jomu un to, vai darbs pieder publiskajam atvērta koda projektam."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ir izveidota publiska datubāze",
+        "paragraphs": [
+          "Ja projekts tiek pieņemts, tas tiek publicēts IATF GitHub organizācijā ar copyleft licenci.",
+          "Repozitorijs kļūst par kodu, izdevumu, dokumentācijas un izdojumu publisko mājaslapu."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Projektu vada atbildīgs inženieris",
+        "paragraphs": [
+          "Projekta noliktavā ir atbildīgs inženieris, un izstrāde notiek publiski."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Reģistrs",
+      "title": "Publisks projektu reģistrs"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sāciet šeit.",
+      "title": "Izskatīt pašreizējo darbu vai uzsākt konkrētu projektu"
+    },
+    "paragraphs": [
+      "Izmantojiet reģistru, lai redzētu, kas jau ir publiski pieejams, vai sāciet uzņemšanu, ja konkrēta pieejamības problēma kļūs par projektu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

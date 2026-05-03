@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nav atrasta"
+  },
+  "hero": {
+    "eyebrow": "Nav atrasta",
+    "title": "Pieprasītā lappuse netika atrodama",
+    "lead": "Lai atgrieztos publiskajā vietā, izmantojiet zemāk norādītos galvenos maršrutus.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Mājoklis",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Jūsu pieprasītais maršruts nepastāv."
+    ],
+    "items": [
+      {
+        "label": "Mājoklis",
+        "href": "/"
+      },
+      {
+        "label": "Projekti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Pievienojies",
+        "href": "/join/"
+      },
+      {
+        "label": "Pieejamība",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Valdība",
+        "href": "/governance/"
+      },
+      {
+        "label": "Pārredzamība",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

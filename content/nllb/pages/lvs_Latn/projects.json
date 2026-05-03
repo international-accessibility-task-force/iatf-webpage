@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Publiskas pieejamības projekti",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Publiskas pieejamības projekti",
+    "lead": "Šajā reģistrā uzskaitīti publiskie projekti, kas tiek uzturēti ar IATF starpniecību.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Reģistrs",
+      "title": "Pašreizējais reģistrs"
+    },
+    "intro": [
+      "Pieņemtie projekti tiek uzskaitīti šeit pēc to publicēšanas."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Izsūtīt pieprasījumu",
+      "title": "Konkrētas pieejamības nepieciešamības pārvēršana publiskajā projektā"
+    },
+    "paragraphs": [
+      "IATF pārskata konkrētas pieejamības vajadzības, kas var tikt pārvērstas par noderīgu publisku atklātā koda darbu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Vēl nav publicēti projekti",
+    "paragraphs": [
+      "IATF sagatavo savu pirmo publisko projektu komplektu.",
+      "Jūs joprojām varat nosūtīt pieprasījumu, ja jums ir konkrēta piekļuves nepieciešamība."
+    ]
+  }
+}

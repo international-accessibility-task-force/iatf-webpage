@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Pieejamība",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Pieejamība",
+    "lead": "IATF mērķis ir nodrošināt, ka šī tīmekļa vietne ir vienkārša, lasāma, pieejama ar klaviatūru un saderīga ar palīgtehnoloģijām.",
+    "support": [
+      "Lai nodrošinātu tīmekļa pieejamību, IATF izmanto: [W3C WAI](https://www.w3.org/WAI/) praktiskā pieejamība ir informēta arī no palīgtehnoloģiju lietotāju tiešās pieredzes."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ziņošana",
+      "title": "Ziņot par pieejamības problēmu"
+    },
+    "paragraphs": [
+      "Ja šajā tīmekļa vietnē konstatējat šķēršļus piekļuvei, lūdzu, ziņojiet par to pa e-pastu:",
+      "{{contact.accessibilityEmail}}",
+      "Par noderīgiem ziņojumiem var minēt:"
+    ],
+    "items": [
+      "lappusē, kur notikusi problēma",
+      "ko tu mēģināji darīt",
+      "kādas palīgtehnoloģijas, pārlūkprogrammas vai ierīces jūs izmantojat, ja nepieciešams",
+      "kas gāja nepareizi",
+      "kas būtu palīdzējis"
+    ],
+    "footnote": "Jums nav nepieciešams rakstīt oficiālu kļūdu ziņojumu. Pietiek ar skaidru aprakstu."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Apdrošināšana",
+      "title": "Publisko jautājumu risināšana"
+    },
+    "paragraphs": [
+      "Piekļuves problēmas var apkopot attiecīgajā publiskajā datubāzē, lai tās varētu atrisināt atklāti.",
+      "Ja jūsu ziņojumā ir iekļauta privāta informācija, paziņojumā to skaidri norādiet."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Pašreizējais stāvoklis",
+      "title": "Zināmi ierobežojumi"
+    },
+    "paragraphs": [
+      "Šī vietne ir apzināti maza un galvenokārt statiska. Dažas valodas versijas var būt nepilnīgas, kamēr tiek sagatavoti tulkojumi."
+    ]
+  }
+}

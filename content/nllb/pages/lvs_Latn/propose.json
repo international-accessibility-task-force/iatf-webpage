@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pieejamības projekta pieprasīšana",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pieejamības projekta pieprasīšana",
+    "lead": "IATF pārskata pieprasījumus par pieejamības projektiem, kas sākas ar reālu vajadzību.",
+    "support": [
+      "Jums nav vajadzīga pilna specifikācija.Pieņemšanai pietiek ar skaidru problēmu, kam tā skar un kāpēc tā ir svarīga."
+    ],
+    "actions": [
+      {
+        "label": "Sākt pieprasījumu",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Tā vietā izmantojiet Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanāli",
+      "title": "Izvēlieties vienkāršāko maršrutu."
+    },
+    "intro": [
+      "Visi maršruti tiek iekļauti vienā un tajā pašā pārskatā."
+    ],
+    "items": [
+      {
+        "label": "Interneta vietne",
+        "body": "Lai iesniegtu strukturētu pieprasījumu, izmantojiet zemāk norādīto veidlapu."
+      },
+      {
+        "label": "E-pasts",
+        "body": "Pieteikumu nosūtīt tieši: {{contact.requestsEmail}}E-pasta pieprasījumi pēc pārskatīšanas un redigēšanas var kļūt par publiskiem pieprasījumu ierakstiem."
+      },
+      {
+        "label": "Nesaskaņa",
+        "body": "Sākot no tā, ja tas ir vieglāk. Pieprasījums joprojām tiek pārvietots uz to pašu pārskatīšanu."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Pirms sūtīt pieprasījumu",
+    "paragraphs": [
+      "IATF darbojas publiski. Pieprasījumus var apkopot un publicēt kā publiskos pieprasījumu ierakstus IAT F GitHub organizācijā, šajā tīmekļa vietnē vai abiem.",
+      "Neiegādājiet privātas adreses, tālruņa numurus, medicīnisko informāciju vai identificējošu informāciju par atsevišķiem palīgtehnoloģiju lietotājiem, ja vien tas nav nepieciešams un ja jūs piekrītat, ka to pārbauda IATF.",
+      "IATF pirms pieprasījuma ierakstu publicēšanas dzēš nevajadzīgus personas kontaktus."
+    ]
+  },
+  "review": {
+    "title": "Pārskatīšanas sagaidījumi",
+    "paragraphs": [
+      "Ja pieteikums ir iesniegts, tas nenozīmē, ka pieteikums tiks pieņemts.",
+      "IATF pārskata pieprasījumus par uzdevuma atbilstību, īstenojamību, lietderību un to, vai darbs pieder publiskajā datubāzē.",
+      "Daži lūgumi var tikt noraidīti, atlikti vai pārveidoti, pirms tie tiek pieņemti."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Pieteikuma veidlapa",
+      "title": "Pieteikuma iesniegšana"
+    },
+    "fields": [
+      {
+        "kind": "ieeja",
+        "name": "pieprasītājs",
+        "label": "Jūsu vārds vai organizācija",
+        "helper": "Kas to pieprasa?"
+      },
+      {
+        "kind": "izvēlēties",
+        "name": "Kontakta maršruts",
+        "label": "Paredzētais kontakta maršruts",
+        "helper": "Kā būtu jāturpina izmeklēšana?",
+        "required": true,
+        "options": [
+          "E-pasts",
+          "Nesaskaņa"
+        ]
+      },
+      {
+        "kind": "ieeja",
+        "name": "Kontaktinformācija",
+        "label": "Kontaktinformācija",
+        "helper": "E-pasta adrese vai Discord kontaktpersona.",
+        "placeholder": "E-pasta adrese vai Discord kontaktpersona",
+        "required": true
+      },
+      {
+        "kind": "ieeja",
+        "name": "valoda",
+        "label": "Valodu",
+        "helper": "Jūsu izvēlētā valoda, ja nepieciešams.",
+        "value": "Angļu valoda"
+      },
+      {
+        "kind": "teksta apgabals",
+        "name": "Problēma",
+        "label": "Kādas problēmas tu mēģini atrisināt?",
+        "helper": "Parādiet šķērsli ar vienkāršiem vārdiem.",
+        "required": true
+      },
+      {
+        "kind": "teksta apgabals",
+        "name": "Ietekmētie lietotāji",
+        "label": "Ko tas skar?",
+        "helper": "Kam tas palīdzētu?",
+        "required": true
+      },
+      {
+        "kind": "teksta apgabals",
+        "name": "extraContext",
+        "label": "Papildu konteksts",
+        "helper": "Dalīties ar jebko citu, kas palīdz izskaidrot nepieciešamību: kāpēc tas ir svarīgi, piemēri, atsauces, neapstrādāta programmatūras ideja vai laika ierobežojumi."
+      },
+      {
+        "kind": "izvēlēties",
+        "name": "openSourceConsent",
+        "label": "Vai esat apmierināts ar publisko atklātā kodolprogrammas izstrādi?",
+        "helper": "Pieņemtie projekti ir publiskie repozitoriji saskaņā ar IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Jā",
+          "Nē",
+          "Vēl neesmu pārliecināts."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ja pieņemts",
+      "title": "Ko nozīmē pieņemšana"
+    },
+    "items": [
+      "publisks repozitorijs IATF GitHub organizācijā",
+      "projektam uzticēts atbildīgs inženieris",
+      "copyleft licences kodu un projekta materiāliem",
+      "publiska attīstība datubāzē",
+      "reģistra ieraksts IATF tīmekļa vietnē"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sākt sarunu",
+      "title": "Lai sāktu, pietiek ar īsu un skaidru lūgumu."
+    },
+    "paragraphs": [
+      "Ja jums ir īsta vajadzība pēc pieejamības un domājat, ka tas būtu jādara par publisku projektu, nosūtiet to mums."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

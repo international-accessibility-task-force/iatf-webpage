@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Vietas kartotēka"
+  },
+  "hero": {
+    "eyebrow": "Indekss",
+    "title": "Vietas kartotēka",
+    "lead": "Visas publisko IATF.CC lapas vienā vietā."
+  },
+  "sections": [
+    {
+      "title": "Galvenās lappuses",
+      "items": [
+        {
+          "label": "Mājoklis",
+          "href": "/"
+        },
+        {
+          "label": "Projekti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Projekta pieprasīšana",
+          "href": "/propose/"
+        },
+        {
+          "label": "Valdība",
+          "href": "/governance/"
+        },
+        {
+          "label": "Pievienojies",
+          "href": "/join/"
+        },
+        {
+          "label": "Pieejamība",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Pārredzamība",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekti",
+  "projectsEmpty": "Vēl nav publicēti projekti."
+}

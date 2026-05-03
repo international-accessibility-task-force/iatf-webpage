@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Pievienoties IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Pievienoties IATF",
+    "lead": "Dalībība ir atvērta. Ir vairāki veidi, kā piedalīties, neatkarīgi no tā, vai jūs izmantojat palīgtehnoloģiju, veidojat pieejamas programmatūras, tulkojat, testējat vai uzturat projektu. Diskusijas un lēmumi notiek publiski GitHub un Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rolai",
+      "title": "Atbalsta veidi"
+    },
+    "items": [
+      "<strong>Lūgums par projektu.</strong> Ja esat saskārušies ar piekļuves šķēršļiem, kas varētu tikt novērsti ar publisku atklātā koda programmatūru, nosūtīt to caur pieprasījumu uzņemšanu.",
+      "<strong>Testēšana un pārskatīšana.</strong> Izmēģiniet IATF projektus ar to palīgtehnoloģiju, ko izmantojat, ziņojiet par to, kas darbojas un kas ne, un iesniedzot problēmas tieši attiecīgajā datubāzē.",
+      "<strong>Iztulkojiet.</strong> Galvenais saturs vispirms tiek publicēts vienkāršā angļu valodā, bet tulkojumi tiek pievienoti, kad ir pieejami ieguldītāji, sākot ar spāņu valodu.",
+      "<strong>Uzbūvē.</strong> Izlasīt problēmas jebkurā IATF datubāzē, nosūtīt pull pieprasījumus vai uzņemties projektu kā atbildīgu inženieri.",
+      "<strong>Turpiniet.</strong> Eksistējošiem projektiem reizēm ir nepieciešams jauns uzturētājs."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanāli",
+      "title": "Ja IATF darbojas publiski"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problēmas, izvilkšanas pieprasījumi, paziņojumi un projekta ieraksti.",
+      "<strong>Nesaskaņa.</strong> Dzīvas diskusijas, koordinācija un neformālie jautājumi.",
+      "<strong>E-pasts.</strong> Izmantošana <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ja ne GitHub, ne Discord atbilst."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nākamais posms",
+      "title": "Izvēlieties kanālu, kas atbilst tam, kā vēlaties ieguldīt"
+    },
+    "paragraphs": [
+      "Visi kanāli tiek ievadīti vienā un tajā pašā publiskajā pārskatā un publiskajos reģistros."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

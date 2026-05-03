@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Valdība un repozitorijas modelis",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Valdība un repozitorijas modelis",
+    "lead": "IATF nodrošina, ka pieejamības projekti ir publiski, lasāmi un uzturami.",
+    "support": [
+      "Šajā lapā ir paskaidrots, kas atbilst prasībām, kā tiek glabāti repozitoriji un kāda ir repozitora līmeņa atbildība pēc pieņemšanas."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Noteikumi",
+      "title": "Misijas atbilstība, īpašumtiesības, licencēšana"
+    },
+    "cards": [
+      {
+        "title": "Misijas atbilstība",
+        "paragraphs": [
+          "IATF pieņem darbus, kas risina reālus pieejamības šķēršļus un kam ir acīmredzama publiska vērtība.",
+          "Projektam vajadzētu būt noderīgam ārpus vienas privātas darba plūsmas un darbināmam kā publiskai datubāzei.",
+          "Lai nodrošinātu tīmekļa pieejamību, IATF izmanto: [W3C WAI](https://www.w3.org/WAI/) Atbalstošo tehnoloģiju lietotāju tiešā pieredze ir arī praktisks pierādījums tam, kas darbojas reālajā lietošanā."
+        ]
+      },
+      {
+        "title": "Projekta pieņemšana",
+        "paragraphs": [
+          "Priekšlikumu var pieņemt, ja pārskatīšanā konstatē, ka:"
+        ],
+        "items": [
+          "tā risina reālu pieejamības nepieciešamību",
+          "Problēma ir pietiekami skaidra, lai novērtētu",
+          "darbības joma ir pietiekami reāla, lai sāktu",
+          "darbs atbilst IATF misijai;",
+          "ir iespējams ceļš uz uzturēšanu vai pabeigšanu"
+        ]
+      },
+      {
+        "title": "Repozitorijas īpašumtiesības",
+        "paragraphs": [
+          "Pieņemtie projekti tiek radīti saskaņā ar IATF GitHub organizāciju.",
+          "Repozitoriji tur paliek, lai katrs projekts saglabātu stabilu sabiedrisko mājokli, pat ja turētāji vēlāk mainās."
+        ]
+      },
+      {
+        "title": "Licences piešķiršana",
+        "paragraphs": [
+          "IATF projekti izmanto copyleft licencēšanu, ja vien projektā nav noteikts citādi:"
+        ],
+        "items": [
+          "<strong>Kods:</strong> AGPL-3.0",
+          "<strong>Dokumentācija:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Atbildīgais inženieris vai tehniskās apkopes veicējs",
+      "paragraphs": [
+        "Katram apstiprinātajam projektam jābūt atbildīgam inženierim vai uzturētājam."
+      ],
+      "items": [
+        "vadlīniju izstrāde publiskajā",
+        "saglabāt repozitorijas struktūru,",
+        "pārskatīt vai pārvaldīt jautājumus un izvilkt pieprasījumus",
+        "dokumentēt svarīgus tehniskos lēmumus",
+        "nodrošināt, ka projekts ir saprotams citiem"
+      ],
+      "footnote": "Šī ir repozitorijas līmeņa atbildība. Organizācijas īpašumtiesības paliek IATF. Atbildība šeit ir depozīta pārvaldība, tehniskais virziens un publiska koordinācija, nevis neierobežota privāta piegāde, pielāgotas integrācijas vai pakalpojumu līmeņa saistības ārpus publiskā ceļa kartes."
+    },
+    "publicDevelopment": {
+      "title": "Publiska attīstība",
+      "paragraphs": [
+        "Projekti, kas uzsākti ar IATF starpniecību, parasti tiek izstrādāti publiski. Repozitorijs ir publiskais patiesības avots:"
+      ],
+      "items": [
+        "avots kods",
+        "jautājumi",
+        "dokumentācija",
+        "maršrutu plāna piezīmes",
+        "izdošanas vēsture"
+      ],
+      "footnote": "Svarīgas projekta zināšanas nedrīkst glabāt tikai privātajos čatos vai e-pasta kastēs."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Publiski reģistri",
+      "title": "Publiski pieprasījumu reģistri"
+    },
+    "paragraphs": [
+      "IATF defaultā ir publiski pieejams. Pieprasījumi, kas tiek nosūtīti caur tīmekļa vietni, e-pastu, Discord, GitHub vai citiem IAT F kanāliem, var kļūt par publiskiem pieprasījumu ierakstiem.",
+      "IATF var apkopot, redigēt vai pārstrukturēt pieprasījumu pirms publicēšanas, lai varētu pārskatīt pieejamības nepieciešamību, neatklājot nevajadzīgu personisko informāciju.",
+      "Publiski pieprasījumu ieraksti var tikt glabāti IATF GitHub organizācijā, šajā tīmekļa vietnē vai abiem.",
+      "Pirms publicēšanas IATF noņem nevajadzīgas personas kontaktinformācijas, privātas adreses un identificējošas ziņas par atsevišķiem palīgtehnoloģiju lietotājiem, ja vien publicēšana nav skaidri paredzēta un piemērota.",
+      "Discord tiek izmantots neformālajai koordinācijai. IATF nepastāvīgi arhivē Discord sarunas atsevišķi, un Discord kontrolē ziņojumu saglabāšanu.",
+      "Pieprasījuma ieraksti tiek izslēgti no meklēšanas motora indeksēšanas, ja tas ir tehniski praktiski. Publisks nozīmē pārskatāms un atbildīgs. Tas nenozīmē, ka tas ir optimizēts atklāšanai, izmantojot vārdu meklēšanu.",
+      "IATF var atjaunināt vai dzēst ierakstus no IAT F kontrolētām publiskajām virsmām, bet nevar garantēt to dzēšanu no trešo pušu kašēm, paziņojumiem, forkām, ekrāna attēliem, meklēšanas ierīcēm, Discord vai citām ārējām sistēmām.",
+      "Ja ziņojumam ir jāpaliek privāts, to neizsūti, izmantojot IATF publisko kanālu."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organizācijas loma",
+      "title": "Priekšsēdētājs"
+    },
+    "lead": "IATF direktors ir atbildīgs par organizācijas līmeņa pārvaldību, kas atšķiras no projekta atbildīgā inženiera: direktors atbild par organizāciju kopumā, nevis par katra atsevišķa repozitorija ikdienas vadību.",
+    "duties": {
+      "title": "Kas notiek ar krēslu",
+      "items": [
+        "Pastāv īpašnieka atļaujas IATF GitHub organizācijā",
+        "Projekta pieņemšanas un arhivēšanas lēmumu apstiprināšana",
+        "Darbojas kā IATF publiskais kontaktpunkts",
+        "Koordinē ikgadējās vēlēšanas"
+      ],
+      "footnote": "Privātās piegādes, apmaksāts darbs vai pakalpojumu līmeņa nolīgumi, ko IATF noslēdz ar priekšsēdētāju, neattiecas uz katra repozitorija uzturētāja lēmumiem par tehnisko vadību."
+    },
+    "election": {
+      "title": "Ikgadējā vēlēšanās",
+      "paragraphs": [
+        "Prezidents tiek ievēlēts reizi gadā, vēlēšanas notiek decembra pirmajās divās nedēļās, rezultāti tiek paziņoti līdz 15. decembrim, un jaunais termiņš sākas 1. janvārī.",
+        "Atbilstoši balsstiesīgajiem ir cilvēki, kas gada laikā ir bijuši IATF repozitorijas uzturētājs un kas šajā gadā ir iesnieguši vismaz vienu apvienoto ieguldījumu IAT F repozitārijā. Katram atbilstīgajam balsojumam ir viena balss. Kandidāts, kam ir visvairāk balsu, uzvar; vienlīdzības gadījumā otro kārtu rīko decembra trešajā nedēļā.",
+        "Izvēle notiek kā publiska diskusija GitHub norādītajā IATF pārvaldības noliktavā, tāpēc kandidāti, balss un rezultāts visi ir daļa no publiskajiem ierakstiem."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitāte",
+      "paragraphs": [
+        "Ja konkrētajā gadā netiks ievēlēti, pašreizējais priekšsēdētājs paliek amatā līdz nākamajām vēlēšanām. Tas ir neredzams turpinājums, nevis atlaides periods - modelis ir paredzēts, lai saglabātu organizācijas stabilitāti, kad aktivitāte ir zema, nevis piespiestu pāreju, kam neviens nav gatavs.",
+        "Priekšsēdētājs var atkāpties jebkurā laikā. Aktīvie uzturētāji var arī izsaukt ārkārtas vēlēšanas ar norādītu iemeslu, kuras notiek saskaņā ar tiem pašiem noteikumiem kā ikgadējās vēlēšanas."
+      ]
+    },
+    "current": {
+      "title": "Pašreizējais priekšsēdētājs",
+      "fields": [
+        {
+          "label": "Priekšsēdētājs",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termiņš",
+          "value": "Līdz 2026. gada decembra vēlēšanām"
+        },
+        {
+          "label": "Formalizēta loma",
+          "value": "2026"
+        },
+        {
+          "label": "Pirmās plānotās vēlēšanas",
+          "value": "2026. gada decembris"
+        }
+      ]
+    },
+    "footnote": "Līdz šim organizatorisko atbildību neformāli veica dibinātājs."
+  },
+  "continuity": {
+    "states": {
+      "title": "Projekta stadijas",
+      "paragraphs": [
+        "Projekti izmanto nelielu publiskā statusa kopumu:"
+      ],
+      "items": [
+        "Priekšlikums",
+        "Pieņemts",
+        "Aktīvs",
+        "Stabils",
+        "Piegādātāja meklēšana",
+        "Arhivēts"
+      ],
+      "footnote": "Šīs valstis nodrošina, ka reģistru ir viegli skenēt."
+    },
+    "reassignment": {
+      "title": "Pārdošana un arhivēšana",
+      "paragraphs": [
+        "Ja uzturētājs atkāpjas vai kļūst neaktivs, IATF var pārdalīt atbildību, apturēt izstrādi vai arhivēt projektu.",
+        "Projektu var arī arhivēt, kad sākotnējā vajadzība ir izpildīta, uzturēšana ir pārtraukta vai turpinātais darbs vairs nav reāls."
+      ],
+      "footnote": "Arhivētie projekti paliek publiski redzami, ja vien nav pārliecinoša iemesla rīkoties citādi."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Apriņķa piezīme",
+      "title": "Kas nav garantēts IATF"
+    },
+    "items": [
+      "privāta klienta piegāde",
+      "pakalpojumu līmeņa nolīgumi",
+      "katra priekšlikuma pieņemšana",
+      "ilgtermiņa apkope katram projektam"
+    ],
+    "footnote": "IATF ir publiskā reģistra modelis, nevis privāts piegādes pakalpojums."
+  }
+}

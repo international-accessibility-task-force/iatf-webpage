@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF tīmekļa vietne",
+    "summary": "Starptautiskās pieejamības darba grupas publiskā vietne.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF vajadzēja stabilu sabiedriskā ēku, kas paskaidro modeli, uzskaitītu projektus un norādītu ieguldītājiem uz pareizu nākamo soli.",
+    "why": "Šī vietne ir IATF publiskā durvis. Tā ir uzbūvēta kā neliels statisks projekts, lai to būtu viegli lasīt, tulkot un uzturēt atklātā telpā.",
+    "scopeIn": [
+      "IATF modeļa paskaidrojumi",
+      "IATF apstiprināto, aktīvo un arhivēto projektu publiskais reģistrs ar statusu, uzturētāju, repozitoriju un demonstrāciju",
+      "Pieteikuma saņemšanas lappuse un veidlapa",
+      "Valdības un pārredzamības lappuses",
+      "Angļu valodas avots, kura struktūra ir gatava tulkošanai",
+      "Cloudflare darba ņēmēju statisko aktīvu statiskā izmantošana"
+    ],
+    "scopeOut": [
+      "Privātās dalībnieka teritorijas, konti vai piekļuves plūsmas",
+      "Projekta avota koda uzglabāšana, kas atrodas katra projekta savā repozitorijā",
+      "Reālā laika čats, kas dzīvo Discord",
+      "Problēmu izsekošana atsevišķiem projektiem, kas atrodas katra projekta GitHub repozitorijā"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Sākotnējais IATF prototips, arhivēts pēc dabiskā apstāšanās punkta sasniegšanas.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ietvaros jau agrīnā stadijā izpētīt pieejamību vērstu rīku.",
+    "why": "Repozitorijs tiek saglabāts publiski kā darba ieraksts, pat ja aktīva attīstība ir pārtraukta.",
+    "scopeIn": [
+      "Sākotnējais pieejai vērsta rīka prototips, ko glabā kā publisku ierakstu"
+    ],
+    "scopeOut": [
+      "Aktīva attīstība vai funkciju darbs",
+      "Apdrošināšanas saistības",
+      "Ieteicamais lietojums ražošanā"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bots",
+    "summary": "IATF kopienas bots, arhivēts pēc dabiskā apstāšanās punkta sasniegšanas.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF kopienas kanālu automatizācija.",
+    "why": "Repozitorijs tiek saglabāts publiski kā darba ieraksts, pat ja aktīva attīstība ir pārtraukta.",
+    "scopeIn": [
+      "IATF kopienas kanālu disordas automatizācija, kas tiek glabāta kā publisks dokuments"
+    ],
+    "scopeOut": [
+      "Aktīva attīstība vai funkciju darbs",
+      "Apdrošināšanas saistības",
+      "Ieteicamais lietojums ražošanā"
+    ]
+  }
+]
