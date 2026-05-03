@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ছাইটমেপ"
+  },
+  "hero": {
+    "eyebrow": "সূচক",
+    "title": "ছাইটমেপ",
+    "lead": "আই এ টি এফ চি চিৰ সকলো পাব্লিক পেজ একে ঠাইতে।"
+  },
+  "sections": [
+    {
+      "title": "প্ৰধান পৃষ্ঠাসমূহ",
+      "items": [
+        {
+          "label": "ঘৰ",
+          "href": "/"
+        },
+        {
+          "label": "প্ৰকল্পসমূহ",
+          "href": "/projects/"
+        },
+        {
+          "label": "এটা প্ৰকল্পৰ অনুৰোধ কৰক",
+          "href": "/propose/"
+        },
+        {
+          "label": "প্ৰশাসন",
+          "href": "/governance/"
+        },
+        {
+          "label": "যোগদান কৰক",
+          "href": "/join/"
+        },
+        {
+          "label": "প্ৰৱেশযোগ্যতা",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "স্বচ্ছতা",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "প্ৰকল্পসমূহ",
+  "projectsEmpty": "এতিয়ালৈকে কোনো প্ৰকল্প প্ৰকাশ কৰা হোৱা নাই।"
+}

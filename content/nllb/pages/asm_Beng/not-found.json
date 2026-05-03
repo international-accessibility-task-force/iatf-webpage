@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "পোৱা নাই"
+  },
+  "hero": {
+    "eyebrow": "পোৱা নাই",
+    "title": "বিচৰা পৃষ্ঠা পোৱা নগ'ল",
+    "lead": "ৰাজহুৱা স্থানলৈ ঘূৰি যোৱাৰ বাবে তলত দিয়া মূল পথসমূহ ব্যৱহাৰ কৰক।",
+    "support": [],
+    "actions": [
+      {
+        "label": "ঘৰ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "আপুনি বিচৰা পথটোৰ কোনো অস্তিত্ব নাই।"
+    ],
+    "items": [
+      {
+        "label": "ঘৰ",
+        "href": "/"
+      },
+      {
+        "label": "প্ৰকল্পসমূহ",
+        "href": "/projects/"
+      },
+      {
+        "label": "যোগদান কৰক",
+        "href": "/join/"
+      },
+      {
+        "label": "প্ৰৱেশযোগ্যতা",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "প্ৰশাসন",
+        "href": "/governance/"
+      },
+      {
+        "label": "স্বচ্ছতা",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
