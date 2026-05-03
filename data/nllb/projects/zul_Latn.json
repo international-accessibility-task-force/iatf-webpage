@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Iwebhusayithi ye-IATF",
+    "summary": "Isayithi lomphakathi le-International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "I-IATF yayidinga indlu yomphakathi ezinzile echaza imodeli, ibala amaphrojekthi, futhi ikhombe abanikelayo esinyathelweni esilandelayo esifanele.",
+    "why": "Le sayithi ingumnyango wangaphambili womphakathi we-IATF. Yakhiwe njengephrojekthi encane engaguquki ngakho-ke ihlala kulula ukuyifunda, ukuyihumusha, nokuyigcina ivulekile.",
+    "scopeIn": [
+      "Amakhasi okufika omphakathi achaza imodeli ye-IATF",
+      "Irejista yomphakathi yamaphrojekthi we-IATF amukelwe, asebenzayo, futhi agciniwe ngesimo, umgcini, indawo yokugcina, nedemo",
+      "Ikhasi lokwamukela isicelo nefomu",
+      "Amakhasi okuphathwa kanye nokwenza izinto obala",
+      "Umthombo wesiNgisi onesakhiwo esilungele ukuhunyushwa",
+      "Ukuthumela Static on Abasebenzi Cloudflare Static Amafa"
+    ],
+    "scopeOut": [
+      "Izindawo zamalungu ezizimele, ama-akhawunti, noma ukugeleza kokungena ngemvume",
+      "Ukusingathwa kwekhodi yomthombo wephrojekthi, ehlala endaweni yokugcina yeprojekthi ngayinye",
+      "Ingxoxo yesikhathi sangempela, ehlala ku-Discord",
+      "Ukulandelela udaba kumaphrojekthi ngamanye, okuhlala endaweni yokugcina ye-GitHub yeprojekthi ngayinye"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "I-selfie ye-IATF",
+    "summary": "Uhlobo lokuqala lwe-IATF, olwalugcinwe ngemuva kokufinyelela endaweni yokuma yemvelo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Ukuhlola okusheshayo kwethuluzi eligxile ekufinyeleleni ngaphansi kwesambulela se-IATF.",
+    "why": "Indawo yokugcina igcinwa esidlangalaleni njengerekhodi lomsebenzi, yize ukuthuthukiswa okusebenzayo kumisiwe.",
+    "scopeIn": [
+      "I-prototype yokuqala yethuluzi eligxile ekufinyeleleni egcinwe njengerekhodi lomphakathi"
+    ],
+    "scopeOut": [
+      "Ukuthuthukiswa okusebenzayo noma umsebenzi wesici",
+      "Izibopho zesondlo",
+      "Ukusetshenziswa okunconywayo ekukhiqizeni"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Imithombo ye-IATF",
+    "summary": "I-bot yomphakathi we-IATF, igcinwe ngemuva kokufinyelela endaweni yokuma yemvelo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ukuzenzakalela okuzungeze iziteshi zomphakathi ze-IATF.",
+    "why": "Indawo yokugcina igcinwa esidlangalaleni njengerekhodi lomsebenzi, yize ukuthuthukiswa okusebenzayo kumisiwe.",
+    "scopeIn": [
+      "Ukungavumelani okuzenzakalelayo kuzungeze iziteshi zomphakathi ze-IATF, kugcinwe njengerekhodi lomphakathi"
+    ],
+    "scopeOut": [
+      "Ukuthuthukiswa okusebenzayo noma umsebenzi wesici",
+      "Izibopho zesondlo",
+      "Ukusetshenziswa okunconywayo ekukhiqizeni"
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ayitholakali"
+  },
+  "hero": {
+    "eyebrow": "Ayitholakali",
+    "title": "Ikhasi eliceliwe alitholakalanga",
+    "lead": "Sebenzisa imigwaqo emikhulu engezansi ukuze ubuyele endaweni yomphakathi.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ikhaya",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Umzila owucelile awukho."
+    ],
+    "items": [
+      {
+        "label": "Ikhaya",
+        "href": "/"
+      },
+      {
+        "label": "Imiklamo",
+        "href": "/projects/"
+      },
+      {
+        "label": "Hlanganisa",
+        "href": "/join/"
+      },
+      {
+        "label": "Ukutholakala",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ukuphathwa",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ukwenza izinto obala",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

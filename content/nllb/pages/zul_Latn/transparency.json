@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Ukwenza izinto obala",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Ukwenza izinto obala",
+    "lead": "I-IATF isebenza esidlangalaleni ngokuzenzakalelayo. Izinqumo zephrojekthi, izinguquko zekhodi, izinguqulo zokuphatha, kanye nezindleko zokusebenza ziqoshwa ezindaweni zomphakathi. Leli khasi libala lapho uhlobo ngalunye lwerekhodi luhlala khona nokuthi lungafundwa kanjani.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Amarekhodi",
+      "title": "Lapho kugcinwa khona amarekhodi"
+    },
+    "items": [
+      "<strong>Izinqumo zephrojekthi.</strong> Izinqumo zokwamukelwa, ukugcinwa kwemibhalo egciniwe, kanye nokushintshwa kwezikhundla zibhalwa njengezindaba noma ukukhishwa endaweni yokugcina efanele, futhi zifingqiwe kwirejista yomphakathi. <a href=\"/projects/\">irekhodi</a>Ngiyaxolisa .",
+      "<strong>Cela amarekhodi.</strong> Amarekhodi ezicelo zomphakathi agcinwa enhlanganweni ye-IATF GitHub, kule webhusayithi, noma kokubili. amarekhodi angafingqa, ahlele, noma ahlele kabusha isicelo sokuqala ukuze isidingo sokufinyeleleka singabuyekezwa ngaphandle kokuveza imininingwane yomuntu siqu engadingekile. izinqumo zokungavumelani zifingqiwe kumarekhodi omphakathi lapho zithinta iphrojekthi noma isinqumo sokuphatha.",
+      "<strong>Amakhodi ayashintsha.</strong> Lonke ushintsho lwekhodi luyi-commit yomphakathi endaweni yokugcina efanele. Buka i-IATF <a href=\"{{contact.githubOrgUrl}}\">Inhlangano ye-GitHub</a>Ngiyaxolisa .",
+      "<strong>Izinguquko ekubuseni.</strong> Ukuvuselelwa kwekhasi lokubusa kulandelwa njengokuzibophezela <code>iwebhusayithi ye-iatf</code> Ukubuka indawo yokugcina. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">ukubhala umlando</a> ku-GitHub.",
+      "<strong>Izindleko zokusebenza.</strong> I-IATF igcina izindleko zokusebenza ziphansi futhi iqopha izindleko eziphindaphindwayo zengqalasizinda yomphakathi.",
+      "<strong>Amanothi okuxhumanisa.</strong> Amanothi kusuka kunoma yikuphi ukubuyekezwa okuhlanganisiwe noma isinqumo bukhoma ku-GitHub Izingxoxo ku-repository efanele  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Izingxoxo</a> esifundeni <code>iwebhusayithi ye-iatf</code> indawo yokugcina."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Izindleko",
+      "title": "Irekhodi lezindleko zokusebenza"
+    },
+    "paragraphs": [
+      "I-IATF igcina ingqalasizinda yayo yomphakathi ngamabomu incane. Kusukela ngo-2022, izindleko eziyinhloko eziphindaphindayo zokusebenza kube ngamagama wesizinda. Ukusingathwa kusebenzise ingqalazizinda yamahhala noma yezindleko eziphansi lapho kungenzeka khona.",
+      "Leli rekhodi aliyona isitatimende sezimali esicwaningiwe. Yilog yomphakathi yezindleko zokusebenza kwengqalasizinda esetshenziselwa ukugcina i-IATF online."
+    ],
+    "footnote": "Amarisidi angacashunwa noma ashicilelwe ngemuva kokuhlelwa. Ikheli lomuntu siqu, imininingwane yokukhokha, kanye nemininingwane ye-akhawunti engadingekile akuyona ingxenye yerekhodi lomphakathi.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Inkambu",
+            "value": "<code>i-iatf.cc</code>"
+          },
+          {
+            "label": "Izindleko",
+            "value": "US $ 3.40"
+          },
+          {
+            "label": "Amanothi",
+            "value": "Izindleko zesizinda ezixhaswe yi-mugiwarafx. Ukusingathwa kusetshenziswe ingqalasizinda yamahhala noma yezindleko eziphansi nge-Cloudflare. Iphrojekthi yasuka eVercel yaya ku-CloudFlare futhi yaqala ukusebenzisa i-shorter <code>i-iatf.cc</code> isizinda."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Inkambu",
+            "value": "<code>ukufinyelela kwamazwe omhlaba ku-taskforce.com</code>"
+          },
+          {
+            "label": "Izindleko",
+            "value": "Amadola aseMelika angu-18,68"
+          },
+          {
+            "label": "Amanothi",
+            "value": "Izindleko zesizinda ezixhaswe yi-mugiwarafx. Ukusingathwa kusetshenziswe ingqalasizinda yamahhala noma yezindleko eziphansi."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Inkambu",
+            "value": "<code>ukufinyelela kwamazwe omhlaba ku-taskforce.com</code>"
+          },
+          {
+            "label": "Izindleko",
+            "value": "I-USD 17,06"
+          },
+          {
+            "label": "Amanothi",
+            "value": "Izindleko zesizinda ezixhaswe yi-mugiwarafx. Ukusingathwa kusetshenziswe ingqalasizinda yamahhala noma yezindleko eziphansi ngeVercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Inkambu",
+            "value": "<code>ukufinyelela kwamazwe omhlaba ku-taskforce.com</code>"
+          },
+          {
+            "label": "Izindleko",
+            "value": "Amadola aseMelika angu-14,76"
+          },
+          {
+            "label": "Amanothi",
+            "value": "Izindleko zesizinda ezixhaswe yi-mugiwarafx. Ukusingathwa kusetshenziswe ingqalasizinda yamahhala noma yezindleko eziphansi."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Inkambu",
+            "value": "<code>ukufinyelela kwamazwe omhlaba ku-taskforce.com</code>"
+          },
+          {
+            "label": "Izindleko",
+            "value": "Amadola aseMelika angu-7,76"
+          },
+          {
+            "label": "Amanothi",
+            "value": "Izindleko zesizinda ezixhaswe yi-mugiwarafx. Ukusingathwa kusetshenziswe ingqalasizinda yamahhala noma ephansi nge-GitHub Amakhasi."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Inothi lomngcele",
+      "title": "Okungeyona eyomphakathi"
+    },
+    "paragraphs": [
+      "Okunye ukwaziswa kugcinwa ngaphandle kwamarekhodi omphakathi ngenhloso:"
+    ],
+    "items": [
+      "Imininingwane yokuxhumana yomuntu siqu yabenzi beziphakamiso.",
+      "Ukuxhumana kwangasese okusetshenziselwa kuphela ukucacisa isicelo ngaphambi kokuba samukelwe, senqatshwe, noma sifingqwe.",
+      "Amakheli angasese, izinombolo zocingo, nemininingwane yomuntu siqu engadingekile.",
+      "Noma yini engase ikhombe umsebenzisi othile wezobuchwepheshe obusiza ngaphandle kwemvume yakhe.",
+      "Izingxoxo ze-Raw Discord, ngaphandle uma umyalezo othile uthuthelwa ngamabomu kwirekhodi lephrojekthi yomphakathi."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Funda okwengeziwe",
+      "title": "Ukuphathwa yincwadi yemithetho ngemuva kwalawa marekhodi"
+    },
+    "paragraphs": [
+      "Uma ufuna ukuqonda ukuthi amaphrojekthi amukelwa kanjani, agcinwa kanjani, noma abelwa kanjani kabusha, funda ikhasi lokubusa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

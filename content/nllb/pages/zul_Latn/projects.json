@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Amaphrojekthi okufinyeleleka komphakathi",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Amaphrojekthi okufinyeleleka komphakathi",
+    "lead": "Lolu hlu lubhala amaphrojekthi omphakathi aphethwe nge-IATF. Amaphrojecthi okufinyeleleka amukelwe, ingqalasizinda yesayithi, kanye nama-prototypes agciniwe agcinwa ebonakalayo lapha.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ukubhaliswa",
+      "title": "Uhlu lwamanje"
+    },
+    "intro": [
+      "Amaphrojekthi amukelwe abhalwe lapha uma eseshicilelwe."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Thumela isidingo",
+      "title": "Ukuguqula isidingo esiqondile sokufinyeleleka sibe iphrojekthi yomphakathi"
+    },
+    "paragraphs": [
+      "I-IATF ibukeza izidingo eziqondile zokufinyeleleka ezingaguqulwa zibe umsebenzi womthombo ovulekile womphakathi owusizo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Azikho amaphrojekthi ashicilelwe okwamanje",
+    "paragraphs": [
+      "I-IATF ilungiselela iqoqo layo lokuqala lamaphrojekthi omphakathi.",
+      "Usengathumela isicelo uma unesidingo esiqondile sokufinyeleleka."
+    ]
+  }
+}

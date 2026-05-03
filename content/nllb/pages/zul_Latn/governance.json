@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Ukuphathwa kanye nemodeli yokugcina",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Ukuphathwa kanye nemodeli yokugcina",
+    "lead": "I-IATF igcina amaphrojekthi okufinyeleleka emphakathini, efundeka, futhi elondolozeka.",
+    "support": [
+      "Leli khasi lichaza ukuthi yini efanelekayo, ukuthi izinqolobane zigcinwa kanjani, nokuthi yimuphi umthwalo wemfanelo osezingeni lezinqolobane osebenza ngemuva kokwamukelwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Imithetho",
+      "title": "Ukufaneleka komsebenzi, ubunikazi, amalayisense"
+    },
+    "cards": [
+      {
+        "title": "Ukufaneleka Komsebenzi",
+        "paragraphs": [
+          "I-IATF yamukela umsebenzi okhuluma ngesithiyo sangempela sokufinyeleleka futhi unenani lomphakathi elicacile.",
+          "Iphrojekthi kufanele ibe wusizo ngaphezu kokuhamba komsebenzi wangasese futhi isebenze njengendawo yokugcina yomphakathi.",
+          "Ukufinyeleleka kwewebhu, i-IATF isebenzisa [W3C WAI](https://www.w3.org/WAI/) Okuhlangenwe nakho okuqondile kwabasebenzisi bezobuchwepheshe bokusiza nakho kuwubufakazi obusebenzayo bokuthi yini esebenzayo ekusetshenzisweni kwangempela."
+        ]
+      },
+      {
+        "title": "Ukwamukelwa kwephrojekthi",
+        "paragraphs": [
+          "Isiphakamiso singamukelwa uma ukuhlolwa kubonisa ukuthi:"
+        ],
+        "items": [
+          "ihlangabezana nesidingo sangempela sokufinyeleleka",
+          "inkinga icacile ngokwanele ukuba ihlolwe",
+          "ububanzi buyiqiniso ngokwanele ukuqala",
+          "umsebenzi uhambisana nomsebenzi we-IATF",
+          "kunendlela ebonakalayo yokugcina noma yokuqedela"
+        ]
+      },
+      {
+        "title": "Ubunikazi bomtapo wolwazi",
+        "paragraphs": [
+          "Amaphrojekthi amukelwe adalwa ngaphansi kwenhlangano ye-IATF GitHub.",
+          "Izinqolobane zihlala lapho ukuze iphrojekthi ngayinye igcine ikhaya lomphakathi elizinzile, ngisho noma abagcini besikhathi beshintsha kamuva."
+        ]
+      },
+      {
+        "title": "Ukunikezwa kwelayisense",
+        "paragraphs": [
+          "Imiklamo ye-IATF isebenzisa amalayisense e-copyleft ngaphandle uma iphrojekthi isho okunye:"
+        ],
+        "items": [
+          "<strong>Ikhodi:</strong> I-AGPL-3.0",
+          "<strong>Imibhalo:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Unjiniyela noma umnakekeli ophethe",
+      "paragraphs": [
+        "Iphrojekthi ngayinye eyamukelwe kufanele ibe nonjiniyela noma umgcini ophethe ogama lakhe. Lowo muntu angathola ukufinyelela kokuphatha endaweni yokugcina futhi kulindeleke ukuthi:"
+      ],
+      "items": [
+        "ukuthuthukiswa komhlahlandlela emphakathini",
+        "ukugcina isakhiwo sokugcina",
+        "ubuyekeze noma uphathe izinkinga bese udonsa izicelo",
+        "ukubhala izinqumo ezibalulekile zobuchwepheshe",
+        "gcina iphrojekthi iqondakala kwabanye"
+      ],
+      "footnote": "Lokhu kungumthwalo wemfanelo ezingeni lokugcina. Ubunikazi benhlangano buhlala ne-IATF. Umthwalo lapha ukuphathwa kokugcina, ukuqondiswa kwezobuchwepheshe, kanye nokuxhumanisa komphakathi  hhayi ukulethwa kwangasese okungenamkhawulo, ukuhlanganiswa ngokwezifiso, noma ukuzibophezela kwezinga lenkonzo ngaphandle kwebalazwe lomgwaqo lomphakathi."
+    },
+    "publicDevelopment": {
+      "title": "Ukuthuthukiswa komphakathi",
+      "paragraphs": [
+        "Amaphrojekthi aqaliswa nge-IATF athuthukiswa esidlangalaleni ngokuzenzakalelayo."
+      ],
+      "items": [
+        "ikhodi yomthombo",
+        "izingqinamba",
+        "imibhalo",
+        "amanothi ebalazwe lomgwaqo",
+        "umlando wokukhishwa"
+      ],
+      "footnote": "Ulwazi olubalulekile lwephrojekthi akufanele luhlale ezingxoxweni zangasese noma emabhokisini engenayo."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Imibhalo yomphakathi",
+      "title": "Amarekhodi ezicelo zomphakathi"
+    },
+    "paragraphs": [
+      "I-IATF isebenza esidlangalaleni ngokuzenzakalelayo. Izicelo ezingena IATF nge-website, i-imeyili, Discord, GitHub, noma ezinye iziteshi IAT F zingase zibe amarekhodi isicelo zomphakathi.",
+      "I-IATF ingafingqa, ihlele kabusha, noma ihlele kabusha isicelo ngaphambi kokushicilelwa ukuze isidingo sokufinyeleleka singabuyekezwa ngaphandle kokuveza ulwazi lomuntu siqu olungadingekile.",
+      "Amarekhodi ezicelo zomphakathi angagcinwa enhlanganweni ye-IATF GitHub, kule webhusayithi, noma kokubili.",
+      "Ngaphambi kokushicilelwa, i-IATF isusa imininingwane yokuxhumana yomuntu siqu engadingekile, amakheli angasese, nemininingwane yokuhlonza mayelana nabasebenzisi ngabanye bobuchwepheshe bokusiza ngaphandle uma ukushicilelwa kuhloswe ngokusobala futhi kufanelekile.",
+      "I-Discord isetshenziselwa ukuxhumanisa okungekho emthethweni. I-IATF ayigcini izingxoxo ze-Disord ngokwehlukana ngokuzenzakalelayo, futhi ukugcinwa kwemilayezo kulawulwa yi-discord. Izinqumo ezithathwe ku-Discord kufanele zifingqwe kwirekhodi lomphakathi ku-GitHub noma ekhasini lephrojekthi elifanele.",
+      "Amarekhodi ezicelo awafakwa ohlwini lwezinjini zokusesha lapho kusebenza khona ngokobuchwepheshe. Umphakathi usho ukubuyekezwa nokuziphendulela. Akusho ukuthi kulungiselelwe ukutholakala ngokuseshwa kwamagama.",
+      "I-IATF ingavuselela noma isuse amarekhodi avela ezindaweni zomphakathi ezilawulwa yi- IATF, kodwa ayikwazi ukuqinisekisa ukususwa kuma-cache wesithathu, izaziso, ama-forks, izithombe-skrini, izinjini zokusesha, i-Discord, noma ezinye izinhlelo zangaphandle.",
+      "Uma umyalezo kudingeka uhlale uyimfihlo, ungathumeli ngeziteshi zomphakathi ze-IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Indima yenhlangano",
+      "title": "Isihlalo"
+    },
+    "lead": "Usihlalo uphethe ukuphathwa kwezinga lenhlangano ye-IATF. Lokhu kuhlukile endimeni yonjiniyela ophethe iphrojekthi ngayinye: usihlalo uphethe inhlangano iyonke, hhayi ukuqondiswa kwansuku zonke kwanoma iyiphi indawo yokugcina eyodwa.",
+    "duties": {
+      "title": "Lokho okwenziwa isihlalo",
+      "items": [
+        "Igcina izimvume zomnikazi enhlanganweni ye-IATF GitHub",
+        "Ukusayinwa kokwamukelwa kwephrojekthi nezinqumo zokugcinwa kwemibhalo",
+        "Isebenza njengephuzu lokuxhumana lomphakathi le-IATF",
+        "Uxhumanisa ukhetho lonyaka"
+      ],
+      "footnote": "Usihlalo akazibophezeli IATF ukulethwa yangasese, umsebenzi okhokhelwayo, noma isevisi-level izivumelwano, futhi akusho override izinqumo per-repository maintainer on isiqondiso lobuchwepheshe."
+    },
+    "election": {
+      "title": "Ukhetho lonyaka",
+      "paragraphs": [
+        "Usihlalo ukhethwa kanye ngonyaka. Ukhetho luqhutshwa emasontweni amabili okuqala kaDisemba, imiphumela imenyezelwa ngoDisemba 15, futhi isikhathi esisha siqala ngoJanuwari 1.",
+        "Abavoti abafanelekile ngabantu ababambe iqhaza lokugcina kunoma iyiphi indawo yokugcina ye-IATF phakathi nonyaka futhi benza okungenani umnikelo owodwa ohlanganisiwe endaweni yokugcina i- IATF kulowo nyaka. Umvoti ngamunye ofanelekile unevoti elilodwa. Ophakanyisiwe onamavoti amaningi uyaphumelela; uma kwenzeka i-tie, i-runoff ibanjwa ngesonto lesithathu likaDisemba.",
+        "Ukhetho luqhutshwa njengengxoxo yomphakathi ye-GitHub endaweni yokugcina ephethwe yi-IATF, ngakho-ke abazongenela ukhetho, ivoti, kanye nomphumela konke kuyingxenye yerekhodi lomphakathi."
+      ]
+    },
+    "continuity": {
+      "title": "Ukuqhubeka",
+      "paragraphs": [
+        "Uma kungekho ukhetho olubanjwe ngonyaka othile, usihlalo wamanje uyaqhubeka nomsebenzi kuze kube ukhetho olulandelayo. Lokhu kuqhubeka ngokungapheli, hhayi isikhathi somusa  imodeli yakhelwe ukugcina inhlangano izinzile lapho umsebenzi uphansi, hhayi ukuphoqa ushintsho okungekho muntu olulungele.",
+        "Umgcinisihlalo angahle ashiye isikhundla nganoma yisiphi isikhathi. Abaphathi abasebenzayo bangabiza nokhetho olungajwayelekile ngesizathu esishiwoyo, esiqhutshwa ngaphansi kwemithetho efanayo nokhetho lonyaka."
+      ]
+    },
+    "current": {
+      "title": "Usihlalo wamanje",
+      "fields": [
+        {
+          "label": "Isihlalo",
+          "value": "i-mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Isikhathi",
+          "value": "Kuze kube ukhetho lwangoDisemba 2026"
+        },
+        {
+          "label": "Indima ehleliwe",
+          "value": "2026"
+        },
+        {
+          "label": "Ukhetho lokuqala oluhleliwe",
+          "value": "Disemba 2026"
+        }
+      ]
+    },
+    "footnote": "Iqhaza likasihlalo laqanjwa ngokusemthethweni ngo-2026 ukwenza ukuphathwa kwezinga lenhlangano kucace. Kuze kube yileso sikhathi, umthwalo wenhlangano wabanjwa ngokungahleliwe ngumsunguli."
+  },
+  "continuity": {
+    "states": {
+      "title": "Izimo zephrojekthi",
+      "paragraphs": [
+        "Amaphrojekthi asebenzisa iqoqo elincane lamazwe omphakathi:"
+      ],
+      "items": [
+        "Isiphakamiso",
+        "Kwamukelwe",
+        "Esebenzayo",
+        "Izinga elizinzile",
+        "Ukufuna umnakekeli",
+        "Imininingwane egciniwe"
+      ],
+      "footnote": "Lezi zimo zenza kube lula ukuskena irekhodi."
+    },
+    "reassignment": {
+      "title": "Ukunikezwa kabusha nokugcinwa kwe-archive",
+      "paragraphs": [
+        "Uma umuntu owenza umsebenzi wokulondoloza ehamba noma engasebenzi, i-IATF inganikeza omunye umsebenzi, imise okwesikhashana ukuthuthukiswa, noma igcine iphrojekthi.",
+        "Iphrojekthi ingase futhi igcinwe lapho isidingo sokuqala sihlangatsheziwe, ukugcinwa kumisiwe, noma umsebenzi oqhubekayo awusekho ngokoqobo."
+      ],
+      "footnote": "Amaphrojekthi agciniwe ahlala ebonakala emphakathini ngaphandle uma kunesizathu esizwakalayo sokwenza ngenye indlela."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Inothi lomngcele",
+      "title": "Lokho i-IATF engakuqinisekisi"
+    },
+    "items": [
+      "ukulethwa kwamakhasimende ngasese",
+      "izivumelwano zezinga lenkonzo",
+      "ukwamukelwa kwazo zonke iziphakamiso",
+      "ukugcinwa kwesikhathi eside kwephrojekthi ngayinye"
+    ],
+    "footnote": "I-IATF iyimodeli yokugcina yomphakathi, hhayi isevisi yokulethwa yangasese."
+  }
+}

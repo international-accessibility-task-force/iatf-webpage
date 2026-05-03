@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ukusuka kwesidingo sokufinyeleleka kuya ku-repo yomphakathi",
+    "lead": "I-IATF isiza izinhlangano, amaqembu, nabantu ngabanye ukuba baguqule izidingo zangempela zokufinyeleleka zibe amaphrojekthi omthombo ovulekile womphakathi.",
+    "support": [
+      "Amaphrojekthi amukelwe ashicilelwa enhlanganweni ye-IATF GitHub ngaphansi kwelayisense ye-copyleft futhi athuthukiswa esidlangalaleni ngunjiniyela ophethe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Imodeli yokusebenza komphakathi",
+      "title": "Indlela elula yomphakathi yesofthiwe efinyelelekayo"
+    },
+    "paragraphs": [
+      "Ngokusebenzisa ifomu, noma ubani angathumela inkinga yokufinyeleleka ku-IATF. Uma ithimba lingayithatha, kuvulwa indawo yokugcina yomphakathi ye-GitHub yomsebenzi.",
+      "Iphrojekthi ngayinye eyamukelekayo inekhaya lomphakathi elicacile lekhodi, izingqinamba, imibhalo, nokukhishwa, ngokuthuthukiswa okuholwa endaweni evulekile ngunjiniyela onomthwalo wemfanelo."
+    ],
+    "specCard": {
+      "title": "Imodeli yokusebenza komphakathi",
+      "terms": [
+        {
+          "term": "Isidingo",
+          "definition": "Inkinga yangempela yokufinyeleleka"
+        },
+        {
+          "term": "Ukubuyekeza",
+          "definition": "Ukufaneleka komsebenzi kanye nokwenzeka okusebenzayo"
+        },
+        {
+          "term": "Isikhala sephrojekthi",
+          "definition": "Indawo yokugcina yomphakathi ye-GitHub"
+        },
+        {
+          "term": "Ukuphathwa",
+          "definition": "Ubunikazi benhlangano ye-IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Inqubo",
+      "title": "Isebenza kanjani",
+      "intro": "Imodeli ihlala incane ngamabomu ukuze kube lula ukulandela indlela yomphakathi."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Kungeniswa isidingo",
+        "paragraphs": [
+          "Inhlangano, iqembu, noma umuntu ngamunye angafaka isicelo esisekelwe esidingweni sangempela sokufinyeleleka.",
+          "Izicelo zingaqala nge-website, nge-imeyili ku- <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, noma ngeDiscord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "I-IATF iyayibuyekeza",
+        "paragraphs": [
+          "Sibuyekeza ukufaneleka komsebenzi, ububanzi obusebenzayo, nokuthi umsebenzi uwela yini kuphrojekthi yomthombo ovulekile womphakathi."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Kusungulwa indawo yokugcina yomphakathi",
+        "paragraphs": [
+          "Uma iphrojekthi yamukelwa, ishicilelwa enhlanganweni ye-IATF GitHub ngaphansi kwelayisense ye-copyleft.",
+          "Indawo yokugcina iba yikhaya lomphakathi lekhodi, izinkinga, imibhalo, nokukhishwa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Unjiniyela onomthwalo wemfanelo uhola iphrojekthi",
+        "paragraphs": [
+          "Kunonjiniyela ophethe onikezwe indawo yokugcina iphrojekthi futhi ukuthuthukiswa kwenzeka esidlangalaleni."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ukubhaliswa",
+      "title": "Irejista yomphakathi yamaphrojekthi"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Qala lapha",
+      "title": "Ukuhlola umsebenzi wamanje noma ukuqala iphrojekthi eqondile"
+    },
+    "paragraphs": [
+      "Sebenzisa i-registry ukuze ubone ukuthi yini esesidlangalaleni kakade, noma uqale ukungenisa uma inkinga ethile yokufinyeleleka kufanele ibe yiprojekthi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

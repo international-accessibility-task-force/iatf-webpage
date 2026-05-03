@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Imephu yesayithi"
+  },
+  "hero": {
+    "eyebrow": "Inkomba",
+    "title": "Imephu yesayithi",
+    "lead": "Wonke amakhasi omphakathi ku-iatf.cc, endaweni eyodwa."
+  },
+  "sections": [
+    {
+      "title": "Amakhasi Ayinhloko",
+      "items": [
+        {
+          "label": "Ikhaya",
+          "href": "/"
+        },
+        {
+          "label": "Imiklamo",
+          "href": "/projects/"
+        },
+        {
+          "label": "Cela iphrojekthi",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ukuphathwa",
+          "href": "/governance/"
+        },
+        {
+          "label": "Hlanganisa",
+          "href": "/join/"
+        },
+        {
+          "label": "Ukutholakala",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ukwenza izinto obala",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Imiklamo",
+  "projectsEmpty": "Awekho amaphrojekthi ashicilelwe okwamanje."
+}

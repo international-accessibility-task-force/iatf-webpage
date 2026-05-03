@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Joyina i-IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Joyina i-IATF",
+    "lead": "Ubulungu buvulekile. Kunezindlela eziningana zokubamba iqhaza, noma ngabe uthembele kubuchwepheshe bokusiza, ukwakha isoftware efinyelelekayo, ukuhumusha, ukuhlola, noma ukugcina iphrojekthi. Izingxoxo nezinqumo zenzeka esidlangalaleni ku-GitHub naku-Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Izindima",
+      "title": "Izindlela zokunikela"
+    },
+    "items": [
+      "<strong>Cela iphrojekthi.</strong> Uma uhlangabezana nesithiyo sokufinyeleleka esingabhekwana naso ngesofthiwe yomthombo ovulekile yomphakathi, sithumele nge-request intake.",
+      "<strong>Hlola futhi ubuyekeze.</strong> Zama amaphrojekthi e-IATF ngobuchwepheshe bokusiza obusebenzisayo, bika ukuthi yini esebenzayo nengasebenzi, bese ufaka izinkinga ngqo endaweni yokugcina efanele.",
+      "<strong>Humusha.</strong> Okuqukethwe komthombo kushicilelwa ngesiNgisi esivamile kuqala. Ukuhumusha kuyangezwa njengoba abahlanganyeli bekhona, kuqala ngeSpanishi.",
+      "<strong>Yakha.</strong> Thatha izinkinga kunoma iyiphi indawo yokugcina ye-IATF, thumela izicelo zokudonsa, noma uthathe iphrojekthi njengonjiniyela wayo ophethe.",
+      "<strong>Londoloza.</strong> Amaphrojekthi akhona ngezinye izikhathi adinga umnakekeli omusha. Ukuguqulwa komnakekeli kuyingxenye evamile yemodeli, hhayi okuhlukile."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Iziteshi",
+      "title": "Lapho i-IATF isebenza khona esidlangalaleni"
+    },
+    "items": [
+      "<strong>I-GitHub.</strong> Izinkinga, ukudonsa izicelo, ukukhishwa, kanye namarekhodi eprojekthi.",
+      "<strong>Ukungezwani.</strong> Ingxoxo ebukhoma, ukuxhumanisa, nemibuzo engahleliwe.",
+      "<strong>Ukuxhumana nge-e-mail.</strong> Ukusetshenziswa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> uma i-GitHub noma i-Discord ingalingani."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Isinyathelo Esilandelayo",
+      "title": "Khetha isiteshi esifanelana nendlela ofuna ukufaka ngayo isandla"
+    },
+    "paragraphs": [
+      "Zonke iziteshi zondla ekubuyekezweni komphakathi okufanayo nasezinqolobaneni zomphakathi ezifanayo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ukutholakala",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ukutholakala",
+    "lead": "I-IATF ihlose ukugcina le webhusayithi ilula, ifundeka kalula, ifinyeleleka ngekhibhodi, futhi ihambisana nobuchwepheshe bokusiza.",
+    "support": [
+      "Ukufinyeleleka kwewebhu, i-IATF isebenzisa [W3C WAI](https://www.w3.org/WAI/) Ukufinyeleleka okusebenzayo nakho kuncike kokuhlangenwe nakho okuqondile kwabasebenzisi bezobuchwepheshe bokusiza."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ukubika",
+      "title": "Bika inkinga yokufinyeleleka"
+    },
+    "paragraphs": [
+      "Uma uthola isithiyo sokufinyeleleka kule webhusayithi, sicela ubike nge-imeyili:",
+      "{{contact.accessibilityEmail}}",
+      "Imibiko ewusizo ihlanganisa:"
+    ],
+    "items": [
+      "ikhasi lapho inkinga yenzeke khona",
+      "lokho owawuzama ukukwenza",
+      "ubuchwepheshe obusizayo, isiphequluli, noma idivayisi oyisebenzisayo, uma kunesidingo",
+      "yini eyaba iphutha",
+      "okwakuyosiza"
+    ],
+    "footnote": "Akudingeki ukuba ubhale umbiko wesiphazamisi osemthethweni. Incazelo ecacile yanele."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ukuphatha",
+      "title": "Ukuphathwa kwezindaba zomphakathi"
+    },
+    "paragraphs": [
+      "Izinkinga zokufinyeleleka zingafingqwa endaweni yokugcina umphakathi efanele ukuze zilungiswe obala. Imininingwane yokuxhumana yomuntu siqu nolwazi oluyimfihlo olungadingekile luyasuswa ngaphambi kokushicilelwa.",
+      "Uma umbiko wakho uhlanganisa ukwaziswa okuyimfihlo, kwenze kucace lokho emyalezweni."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Isimo samanje",
+      "title": "Imikhawulo eyaziwayo"
+    },
+    "paragraphs": [
+      "Leli sayithi lincane ngamabomu futhi lincane kakhulu. Ezinye izinguqulo zezilimi zingase zingaphelele ngenkathi izinguqulo zilungiswa."
+    ]
+  }
+}
