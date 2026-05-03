@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Läthdɛ thi̱n",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Läthdɛ thi̱n",
+    "lead": "IATF go̱o̱rɛ ɛn ɣöö ba gua̱a̱th ɛmɛ jakä thia̱k, ba jɛ kuɛn, kä ba jɛ luäk kɛ ɣöö bɛ te thi̱n kɛ tɛb-buɔ̱ɔ̱n, kɛnɛ ɣöö bɛ lät kɛ tɛknɔlɔji̱ tin luäk naath.",
+    "support": [
+      "Kɛ kui̱i̱ kä ɣöö bi̱ naath wɔ̱ thi̱n rɛy intɛrnɛt, IATF la̱tdɛ [W3C WAI](https://www.w3.org/WAI/) Kä ta̱a̱dɛ rɛy lätni̱dɛ cua ŋie̱e̱c ɛ nɛy tin lät kɛɛ tɛknɔlɔji̱ni̱ tin luäkni̱ naath."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Lät ŋɔaani̱",
+      "title": "Ruacni kɛ kui̱i̱ kä ɣöö /ci̱ naath bi̱ cop thi̱n"
+    },
+    "paragraphs": [
+      "Mi̱ ci̱ ji̱n duɔ̱ɔ̱r mi̱ thiɛl luɔt jek kä intɛrnɛt ɛmɛ, läri jɛ kɔ kɛ imei̱l:",
+      "{{contact.accessibilityEmail}}",
+      "Ri̱li̱öni̱ ti̱ gɔw ɛ ti̱ti̱:"
+    ],
+    "items": [
+      "ɛn pa̱j in ci̱ riɛk tuɔɔk thi̱n",
+      "min go̱o̱ri i̱ bi̱ la̱t",
+      "min luäk tekinölöji̱, bra̱thɛr, kiɛ ca̱p in la̱t kɛ ji̱, mi lotdɛ rɔ",
+      "ɛŋu mi̱ /ci̱ gɔaa?",
+      "ɛŋu mi dee luäk"
+    ],
+    "footnote": "Thiɛlɛ mi̱ go̱o̱ri̱ i̱ bi̱ ji̱n ɛ gɔ̱a̱r warɛgak kɛ kui̱ gua̱th in ci̱ riɛk tuɔɔk thi̱n."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "La̱t kɛ jɛ",
+      "title": "La̱t kɛ kui̱i̱ ruaacni̱ nath"
+    },
+    "paragraphs": [
+      "Ruaacni̱ tin la̱tkɛ kɛ kui̱i̱ kä ɣöö bi̱ naath cop thi̱n dëë kɛ la̱th gua̱a̱th tɔ̱ɔ̱wä ŋɔaani̱ kɛ ɣöö dëë kɛ riali̱kä kɛ ɣöö /ci̱ naath bi̱ wɔ̱ nhiam.",
+      "Mi̱ ci̱ ri̱o̱lkädu la̱t kɛ kui̱ ŋɔaani̱ tin ci̱ rɔ̱ɔ̱diɛn la̱th thi̱n, läri jɛ rɛy ri̱e̱tdä."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ta̱a̱ in tä thi̱n ɛn täämɛ",
+      "title": "Kɛn tin ca ŋa̱c kä thiɛl lua̱ŋ"
+    },
+    "paragraphs": [
+      "Tha̱a̱ŋ thuukni̱ dɔ̱ŋ /ci̱kɛ bi̱ cop gua̱th in dëë kɛ loc thi̱n."
+    ]
+  }
+}

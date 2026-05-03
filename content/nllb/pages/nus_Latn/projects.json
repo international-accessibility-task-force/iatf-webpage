@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Pöli̱ki̱e̱ni̱ kɛ kui̱ kä ɣöö bi̱ naath cop thi̱n",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Pöli̱ki̱e̱ni̱ kɛ kui̱ kä ɣöö bi̱ naath cop thi̱n",
+    "lead": "Ri̱ji̱thtri̱ ɛmɛ nyoothɛ pröjekni̱ ti̱ caa la̱t ɛ IATF kɛ kui̱i̱ kä ɣöö bi̱ kɛ ku lɛ cop gua̱a̱th in görkɛ thi̱n, kɛnɛ prötöta̱pi̱ni̱ tin caa tɔ̱w.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ri̱gi̱thteri̱",
+      "title": "Ri̱jɛtdɛ ɛntäämɛ"
+    },
+    "intro": [
+      "Pöröjɛkni̱ tin ca nhɔk cua kɛ la̱th thi̱n ɛn wa̱nɔ kɛ kɔr kä mëë ca kɛ ka̱mraar."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Jäkni̱ mi̱ go̱o̱ri̱",
+      "title": "Läthni̱ duɔ̱ɔ̱r mi̱ go̱o̱r ɣöö ba ŋa̱c ɛ nɛy ti̱ ŋuan"
+    },
+    "paragraphs": [
+      "IATF guicɛ tin go̱o̱r naath kɛ kui̱i̱ kä ɣöö bi̱ kɛ rɔ̱ lot kɛ duɔ̱ɔ̱p mi̱ bi̱ naath luäk kɛ lätni̱kiɛn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Thilɛ pröjekni̱ ti̱ ca ka̱mraar",
+    "paragraphs": [
+      "IATF ɛ mi̱ riali̱kä pröjek thɛtdɛ min nhiam kä nɛy diaal.",
+      "Ji̱n ŋotdɛ deri̱ thiec mi̱ go̱o̱ri̱ duɔ̱ɔ̱r mi̱ bi̱ ji̱ luäk kɛ ɣöö bi̱ kulɛ cop thi̱n."
+    ]
+  }
+}

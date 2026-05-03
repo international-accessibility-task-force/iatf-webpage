@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indi̱dhɛth",
+    "title": "Sitemap",
+    "lead": "Wi̱cmuɔ̱ɔ̱n diaal kä IATF.CC, gua̱a̱th kɛl."
+  },
+  "sections": [
+    {
+      "title": "Wi̱cmuɔ̱ɔ̱n",
+      "items": [
+        {
+          "label": "Gua̱a̱th cieŋ",
+          "href": "/"
+        },
+        {
+          "label": "Pöröjɛkni̱",
+          "href": "/projects/"
+        },
+        {
+          "label": "Thi̱i̱li̱ pröjek",
+          "href": "/propose/"
+        },
+        {
+          "label": "Kuäär",
+          "href": "/governance/"
+        },
+        {
+          "label": "Mat rɔ̱",
+          "href": "/join/"
+        },
+        {
+          "label": "Läthdɛ thi̱n",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ta̱a̱ in ŋa̱ckɛ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Pöröjɛkni̱",
+  "projectsEmpty": "/Thiɛlɛ pröjekni̱ ti̱ ca ka̱mraar."
+}

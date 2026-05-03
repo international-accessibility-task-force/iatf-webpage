@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "/Ka̱nɛ jiek"
+  },
+  "hero": {
+    "eyebrow": "/Ka̱nɛ jiek",
+    "title": "/Ka̱n wargak in go̱o̱ri jek",
+    "lead": "La̱tdɛ dup tin di̱t piny kɛ ɣöö bi̱ loc kä gua̱a̱th in te naath thi̱n.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Gua̱a̱th cieŋ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Duɔ̱ɔ̱p in go̱o̱ri̱ /cɛ te thi̱n."
+    ],
+    "items": [
+      {
+        "label": "Gua̱a̱th cieŋ",
+        "href": "/"
+      },
+      {
+        "label": "Pöröjɛkni̱",
+        "href": "/projects/"
+      },
+      {
+        "label": "Mat rɔ̱",
+        "href": "/join/"
+      },
+      {
+        "label": "Läthdɛ thi̱n",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Kuäär",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ta̱a̱ in ŋa̱ckɛ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

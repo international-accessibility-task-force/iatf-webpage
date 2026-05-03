@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Thi̱i̱cni̱ kɛ kui̱ la̱t kɛ ɣöö bi̱ kɛ kulɛ cop thi̱n",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Thi̱i̱cni̱ kɛ kui̱ la̱t kɛ ɣöö bi̱ kɛ kulɛ cop thi̱n",
+    "lead": "IATF guicɛ thiecni̱ kɛ kui̱ pröjekni̱ kä ɣöö bi̱ naath cop thi̱n mi̱ tokɛ rɔ kä go̱rɛ duɔ̱ɔ̱r mi̱ thuɔ̱k.",
+    "support": [
+      "Ji̱n /thiɛlɛ mi̱ go̱o̱ri̱ i̱ ba ŋa̱c kɛ pekdɛ kɛɛliw. Riɛk mi̱ ŋa̱ckɛ, ram min bi̱ te thi̱n, kɛnɛ ɣöö ɛŋu mi̱ lotdɛ rɔ kɛ jɛ ɛ mi̱ ro̱ŋ kɛ tukdɛ."
+    ],
+    "actions": [
+      {
+        "label": "Tëë go̱o̱r i̱ ba la̱t",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "La̱tdɛ kɛ Dithkɔrd kɛ gua̱a̱dɛ",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kɛn ca̱a̱p",
+      "title": "Yi̱k duɔ̱ɔ̱p mi̱ thia̱k ɛlɔ̱ŋ"
+    },
+    "intro": [
+      "Kɛn dup diaal la kɛn a guic ɛ päär."
+    ],
+    "items": [
+      {
+        "label": "Muktäb in te thi̱n",
+        "body": "Läthni wargak ɛmɛ piny kɛ ɣöö bi duɔ̱ɔ̱r la̱th thi̱n."
+      },
+      {
+        "label": "E-mai̱l",
+        "body": "Ja̱k thiecni̱ kɛ duɔ̱ɔ̱p mi̱ thi̱a̱k {{contact.requestsEmail}}Ri̱e̱t tin caa la̱th rɛy i̱-meili̱ dɔ̱ŋ bi̱ kɛ ben ɛ la tin caa gɔ̱a̱r piny kɛ kɔr kä mi̱ caa kɛ guic kä caa kɛ riali̱kä."
+      },
+      {
+        "label": "Kɛl mi̱ /ci̱ päär",
+        "body": "Tukɛ ɛn wa̱nɔ mi̱ jɛn ɛ mi̱ thia̱k ɛlɔ̱ŋ. Kä min görkɛ ŋot kɛ mi̱ jälɛ rɛy guäcä mi̱ päär."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ɛ ŋot /kenɛ ji̱ jäkä wargak",
+    "paragraphs": [
+      "IATF lät kɛ naath. Thukni de kɛ rialikä kä de kɛ ka̱m raar ɛ la ruaacni̱ kɛ kui̱i̱ thukni̱ ti̱ caa gɔ̱a̱r piny gua̱th in la̱tkɛ kɛ thi̱n, kiɛ ɛn webthayth ɛmɛ, kiɛ gua̱thni̱ da̱ŋ rɛw ti̱ti̱.",
+      "/Cu la̱th rɛy warɛgakni̱ tin ca gɔ̱a̱r piny, nämbäri̱ tɛlɛpɔni̱, tin ca la̱t kɛ kui̱i̱ ji̱ jua̱thni, kiɛ tin dëë ŋa̱c ɛ nɛy tin lät kɛ tɛknɔlɔji̱ tin luäk naath, ɛ ni̱ mi̱ go̱o̱r ji̱ ɣöö bi̱ IATF kɛ kuɛn.",
+      "IATF bɛ tin /ca go̱r tin dee naath thi̱ëëk kɛ kɛ woc ɛ ŋot /kenɛ ruaacni̱ thiecni̱kɛ ni̱ ka̱m raar."
+    ]
+  },
+  "review": {
+    "title": "Guäc ŋɔaani̱ tin görkɛ",
+    "paragraphs": [
+      "Jäkni̱ thiecni̱ /cɛ lotni̱ ɣöö ba nhɔk.",
+      "IATF guicɛ tin görkɛ kɛ kui̱i̱ la̱t in görkɛ, min dëë la̱th lät, mi̱ lot rɔ, kɛnɛ mi̱ dëë lät tɔ̱tɔ̱ tɔ̱w rɛy gua̱a̱th in la̱tkɛ thi̱n.",
+      "Tha̱a̱ŋ thiecni̱ dɔ̱ŋ ba kɛ lo̱k, ba kɛ jakä jɔ̱ɔ̱r, kiɛ ba kɛ nyɔk kɛ riali̱kä ɛ ŋot /ka̱nɛ ni̱ nhɔk."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Wargak thiecni",
+      "title": "Jäkni̱ mi̱ go̱o̱ri̱"
+    },
+    "fields": [
+      {
+        "kind": "input (input)",
+        "name": "nɛy tin görkɛ",
+        "label": "ciötdu kiɛ muktäpdu",
+        "helper": "Ɛŋa mi la̱tkɛ ca̱r ɛmɔ?"
+      },
+      {
+        "kind": "mɛ̈ɛ̈n",
+        "name": "Ruac kɛ duɔ̱ɔ̱r",
+        "label": "Duɔ̱ɔ̱p mi̱ nhɔakɛ",
+        "helper": "Ɛ duɔ̱ɔ̱p i̱di̱ mi̱ bi̱ la̱t kɛ jɛ?",
+        "required": true,
+        "options": [
+          "E-mai̱l",
+          "Kɛl mi̱ /ci̱ päär"
+        ]
+      },
+      {
+        "kind": "input (input)",
+        "name": "Ruac kɛ nɛy tin kɔ̱ŋ",
+        "label": "Ruac kɛ naath",
+        "helper": "I̱mɛlɛy i̱thti̱ri̱ kiɛ Di̱thkordi̱ kɛ kui̱ guɔ̱ɔ̱rä.",
+        "placeholder": "Ja̱l i̱mɛlɛ̈ɛ̈l kiɛ mi̱ /ci̱ te thi̱n",
+        "required": true
+      },
+      {
+        "kind": "input (input)",
+        "name": "thok",
+        "label": "Thok",
+        "helper": "Thokdu min nhɔki, mi lotdɛ rɔ.",
+        "value": "Thok Liŋli̱thni̱"
+      },
+      {
+        "kind": "gua̱th in ca gɔ̱r thi̱n",
+        "name": "riɛk",
+        "label": "Ɛ rik mi̱di̱ mi go̱o̱ri̱ ɣöö deri̱ kulɛ riali̱kä?",
+        "helper": "Lätni jɛ kɛ thok mi thia̱k.",
+        "required": true
+      },
+      {
+        "kind": "gua̱th in ca gɔ̱r thi̱n",
+        "name": "la̱a̱t tin ca gɛr",
+        "label": "Ɛŋa mi̱ la̱tkɛ jɛ thi̱n?",
+        "helper": "Ɛŋa mi bi mɛmɛ luäk ɔ?",
+        "required": true
+      },
+      {
+        "kind": "gua̱th in ca gɔ̱r thi̱n",
+        "name": "extraContext",
+        "label": "Luɔtdɛ min dɔ̱ŋ",
+        "helper": "Nyuɔ̱th duɔ̱ɔ̱r mi̱ dɔ̱diɛn mi̱ luäk kɛ latdɛ i̱ ɛŋu mi̱ go̱o̱rɛ: ɛŋu lotdɛ rɔ mɔ, cäätni̱, ruaacni̱ ti̱ ca gɔ̱a̱r piny, ca̱r kä min dɔ̱ŋ kɛ kui̱ la̱t, kiɛ gua̱th in derɛ lät thi̱n."
+      },
+      {
+        "kind": "mɛ̈ɛ̈n",
+        "name": "openSourceConsent",
+        "label": "Ji̱n ci̱ lɔcdu tɛɛth kɛ ɣöö deri̱ lät tin la̱tkɛ ɛ nɛy diaal la̱t kɛ duɔ̱ɔ̱p mi̱ ro̱ŋ?",
+        "helper": "Kɛn pröjekni̱ tin ca nhɔk kɛ kui̱i̱ lätni̱kiɛn ɛ tɔ̱ caa la̱th gua̱a̱th tɔ̱ɔ̱cä IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ɣɔ̱ɔ̱n",
+          "/Ciɛ jɛn",
+          "/Ka̱nɛ ni̱ ŋa̱c"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Mi ca nhɔk",
+      "title": "Min lot ni nhök"
+    },
+    "items": [
+      "gua̱th tɔ̱ɔ̱wä nath rɛy IATF GitHub",
+      "Ɛnjinieer mi̱ bi̱ lät kɛ kui̱i̱ la̱t ɛmɔ",
+      "copyleft license kɛ kui̱i̱ kä kɔd kɛnɛ kuak pröjekä",
+      "riali̱kä kɛ kui̱ nɛɛni̱ diaal rɛy gua̱th tɔ̱ɔ̱wä",
+      "mi ca gɔ̱r piny kä IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tuk ruac",
+      "title": "Ɛ thiec mi̱ ciɛk, mi̱ jɔc ɛ mi̱ ro̱ŋ kɛ tukdɛ"
+    },
+    "paragraphs": [
+      "Mi go̱o̱ri duɔ̱ɔ̱r mi thuɔ̱k kɛ kui̱ kä ɣöö bi nɛy diaal ɛ cop thi̱n, jäkni jɛ kɔ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

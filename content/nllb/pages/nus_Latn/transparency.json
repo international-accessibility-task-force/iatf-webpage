@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Ta̱a̱ in ŋa̱ckɛ",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Ta̱a̱ in ŋa̱ckɛ",
+    "lead": "IATF lät kɛ naath kɛ duɔ̱ɔ̱p mi̱ /ka̱n met ŋa̱c ɛ nɛy tin kɔ̱ŋ. Päär pröjekni̱, ko̱o̱tni̱ tin ca gɛr, ta̱a̱ bo̱thä ŋɔaani̱, kɛnɛ yio̱w tin la̱tkɛ lät caa kɛ gɔ̱r piny gua̱thni̱ tin te naath thi̱n.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Kuen tin ca gɔ̱r",
+      "title": "Gua̱th in cieŋ wargakni̱ thi̱n"
+    },
+    "items": [
+      "<strong>Duɔɔli̱ kɛ kui̱ la̱t.</strong> Lät tin caa nhɔk, tin caa tɔ̱w, kɛnɛ tin caa kuëŋ gua̱a̱th mi̱ dɔ̱ŋ caa kɛ gɔ̱r piny ɛ la tin caa ka̱m raar rɛy gua̱th tɔ̱ɔ̱wä kuakni̱, kä caa kɛ mat rɛy warɛgakä mi̱ caa gɔ̱ar piny kɛ kui̱i̱ nɛɛni̱ ti̱ ŋuan. <a href=\"/projects/\">kɛ̈l kɛ̈ɛ̈l</a>Ɛŋu mi ca la̱r ji̱?",
+      "<strong>Go̱o̱r warɛgakni̱.</strong> Gua̱th tin laa görkɛ ruaacni̱ naath thi̱n laa kɛ laa tɔ̱a̱wkɛ kä IATF GitHub, kä website ɛmɛ, kiɛ gua̱thni̱ ti̱ti̱ da̱ŋ rɛw.",
+      "<strong>Kɔdni̱ rɔ̱ gɛrkɛ.</strong> Ɛni̱ duɔ̱ɔ̱r mi̱ ci̱ rɔ gɛr kä kɔd ɛ mi̱ caa la̱th kä nɛy diaal rɛy gua̱th in caa tɔ̱w thi̱n. Guic IATF <a href=\"{{contact.githubOrgUrl}}\">Gua̱a̱th la̱t GitHub</a>Ɛŋu mi ca la̱r ji̱?",
+      "<strong>Kuäär duɔ̱ɔ̱rä cɛ rɔ gɛr.</strong> Lät tin pay la̱t kɛ kui̱i̱ guirä ŋɔaani̱ laa kɛ laa guɔ̱ɔ̱rkɛ mi̱ ci̱kɛ rɔ̱ la̱th lät. <code>IATF-wɛb-sayt</code> gua̱th tɔ̱ɔ̱wä. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">la̱t ni̱ tëë ci̱ tuɔɔk</a> kä GitHub.",
+      "<strong>Läätni̱ tin la̱tkɛ.</strong> IATF la̱thkɛ yio̱w lätni̱ piny kä gɔ̱a̱rkɛ pek yio̱o̱ni̱ tin laa tuɔɔkɛ kɛ kui̱i̱ kuakni̱ nath. Ni̱ kɛ ruɔ̱n 2022, kɛn tin di̱tni̱kɛn tin laa wɔ̱ kɛ wɔ̱ ɛ ci̱ötni̱ dööri̱ ti̱ gööl (domain names).",
+      "<strong>Lät ti̱ caa mat piny.</strong> Ruaacni̱ tin ca la̱t kɛ kui̱i̱ guäc ŋɔaani̱ kiɛ ca̱a̱p in dëë kuëŋ thi̱n baa kɛ kuëŋ kä GitHub Discussions on the relevant repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Ruaacni̱</a> kɛ gua̱th <code>IATF-wɛb-sayt</code> gua̱th tɔ̱ɔ̱wä."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Läätni̱",
+      "title": "Kuenɛ kɛ kui̱i̱ yio̱o̱ni̱ tin la̱tkɛ"
+    },
+    "paragraphs": [
+      "IATF laa nhɔkɛ ɣöö bi̱kɛ lätkiɛn diaal la̱t kɛ duɔ̱ɔ̱p mi̱ tɔt.",
+      "Ɛn wargak ɛmɛ /ciɛ kuic yio̱o̱ni̱ mi̱ caa guic ɛ nɛy ti̱ ŋuan, ɛ kuic kuakni̱ tin la̱tkɛ kɛ kui̱i̱ lätni̱ IATF."
+    ],
+    "footnote": "Ri̱bi̱tni̱ dëë kɛ gɔ̱a̱r piny kiɛ dëë kɛ ka̱m raar kɛ kɔr kä mi̱ caa kɛ riali̱kä.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Ta̱a̱ la̱t",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Ko̱o̱tni̱",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Ruaacni̱",
+            "value": "Cuu gua̱a̱th in la̱tkɛ thi̱n la̱t kɛ yio̱w ti tɔt ɛ mugiwarafx. Kä gua̱th tɔ̱ɔ̱wä (hosting) laa lät kɛ ti̱ tä kɛ lua̱ŋ mi̱ tɔt (free-tier infrastructure) kiɛ ti̱ /thiɛl pek ti̱ ŋuan (low-cost infrastructure) kɛ duɔ̱p mi̱ cɔali̱ Cloudflare. <code>iatf.cc</code> wi̱cmuɔ̱ɔ̱n."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Ta̱a̱ la̱t",
+            "value": "<code>wi̱i̱cmuɔ̱ɔ̱n kɛ kui̱ kä ɣöö bi̱ kɛ cop thi̱n</code>"
+          },
+          {
+            "label": "Ko̱o̱tni̱",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Ruaacni̱",
+            "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Ta̱a̱ la̱t",
+            "value": "<code>wi̱i̱cmuɔ̱ɔ̱n kɛ kui̱ kä ɣöö bi̱ kɛ cop thi̱n</code>"
+          },
+          {
+            "label": "Ko̱o̱tni̱",
+            "value": "USD 17.06 ɛ"
+          },
+          {
+            "label": "Ruaacni̱",
+            "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure through Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Ta̱a̱ la̱t",
+            "value": "<code>wi̱i̱cmuɔ̱ɔ̱n kɛ kui̱ kä ɣöö bi̱ kɛ cop thi̱n</code>"
+          },
+          {
+            "label": "Ko̱o̱tni̱",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Ruaacni̱",
+            "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Ta̱a̱ la̱t",
+            "value": "<code>wi̱i̱cmuɔ̱ɔ̱n kɛ kui̱ kä ɣöö bi̱ kɛ cop thi̱n</code>"
+          },
+          {
+            "label": "Ko̱o̱tni̱",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Ruaacni̱",
+            "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure through GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Ri̱e̱t in ca la̱th thi̱n",
+      "title": "Min /ci̱ naath bi̱ ŋa̱c"
+    },
+    "paragraphs": [
+      "Tha̱a̱ŋ ŋɔaani̱ caa kɛ la̱th raar rɛy ruaacni̱ nath kɛ ɣöö:"
+    ],
+    "items": [
+      "Ri̱c nath tin dee naath röm kɛ nɛy tin la̱tkɛ ca̱a̱p ti̱ti̱.",
+      "Gɔ̱a̱r warɛgakä kärɔa kɛ ɣöö ba min görkɛ kulɛ ŋa̱c ɛ gɔaa ɛ ŋot /ka̱nɛ ni nhɔk, kiɛ lo̱kdɛ, kiɛ ka̱mdɛ raar.",
+      "Adrɛthni̱ nath, nämbäri̱ tɛlɛpɔni̱, kɛnɛ tin kɔ̱kiɛn tin /ca go̱r.",
+      "Ɛni̱ duɔ̱ɔ̱r mi̱ ba ŋa̱c ɛ la ram kɛl mi̱ lät kɛ tɛknɔlɔji̱ mi̱ luäk naath mi̱ thiɛlɛ mi̱ nhɔkɛ.",
+      "Raw Discord ruacni̱, ɛni̱ mi̱ ca ruac mi̱ ŋa̱ckɛ naŋ kɛ duɔ̱ɔ̱p mi̱ ba ŋa̱c ɛ nɛy diaal."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kuɛn tin kɔ̱ŋ",
+      "title": "Kuär ɛ jɛn buɔk ŋuɔ̱tni̱ min ku rɔɔdɛ gɔ̱a̱r piny kä ruaacni̱ tɔ̱tɔ̱."
+    },
+    "paragraphs": [
+      "Mi̱ go̱o̱ri̱ ɣöö bi̱ ŋa̱c i̱di̱ ɛn pröjekni̱ ba kɛ nhɔk, ba kɛ yi̱k tɔ̱w, kiɛ ba kɛ nyɔk kɛ läth lät, kuɛn warɛgak guirä."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

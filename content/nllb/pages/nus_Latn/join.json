@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Riali rɔ kä IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Riali rɔ kä IATF",
+    "lead": "Ɛn ɣöö bi̱ raan ɛ be̱n mat thi̱n lotdɛ ni̱ duɔ̱ɔ̱p mi̱ göl, mi̱ go̱o̱ri̱ ɣöö deri̱ lät kɛ tɛknɔlɔji̱ mi̱ luäkni̱ naath, kiɛ deri̱ ca̱a̱p ti̱ dɔ̱ŋ ti̱ bi̱ naath luäk kɛ lätni̱kɛ ka̱mraar, bi̱ kɛ kɛ loc, bi kɛ ɣɔ̱n, kiɛ bi̱ kɛn kɛ tit kä ti̱ kɔ̱kiɛn.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Lät",
+      "title": "Ca̱a̱p tin dee naath rɔ̱ɔ̱diɛn mat thi̱n"
+    },
+    "items": [
+      "<strong>Thie̱c kɛ pöröjɛk.</strong> Mi̱ ci̱ ji̱n duɔ̱ɔ̱r jek mi̱ /ci̱ rɔ de luäŋ kɛ riali̱kä mi̱ dɔ̱ŋ derɛ ji̱ luäk kɛ läthdɛ thi̱n, jäkni̱ jɛ kä min görkɛ.",
+      "<strong>Thëm kɛnɛ guäcdɛ.</strong> Thɛm IATF pröjekni̱ kɛ luäk tekinölöji̱ min la̱t kɛ ji̱, läri min lät kɛnɛ min /ci̱ lät, kä läri rik ɛ thi̱a̱k rɛy gua̱th tɔ̱ɔ̱wä min lot rɔ thi̱n.",
+      "<strong>Luɔ̱cdɛ.</strong> Lät tin caa ka̱m raar kɛ thok Liŋli̱thni̱ caa kɛ gɔ̱a̱r piny kɛ nhiam, kɛ kɔr kä mi̱ ci̱ nɛy ti̱ kɔ̱kiɛn ɛ gɔ̱r thi̱n, kɛ tukdɛ kɛ thok I̱thpɛnyni̱th.",
+      "<strong>Ta̱thdɛ.</strong> Mi̱ ci̱ riɛk jiek kä IATF, ja̱ki̱ mi̱ go̱o̱ri̱ ɣöö bi̱ duɔ̱ɔ̱r ka̱m ji̱, kiɛ naŋni̱ pröjek ɛ la ɛnjinieer in tekɛ lua̱ŋ.",
+      "<strong>Läthni jɛ thi̱n.</strong> Pöröjɛkni̱ tin te thi̱n ni̱ wän kä tha̱a̱ŋ gua̱thni̱ laa go̱o̱rkɛ ram mi̱ bi̱ kɛ tit."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kɛn ca̱a̱p",
+      "title": "Gua̱th tin lät IATF thi̱n rɛy naath"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Thɛmni̱, yɔ̱a̱tni̱ tin go̱o̱rkɛ, tin ca ka̱m raar, kɛnɛ tin ca gɔ̱r rɛy pröjekä.",
+      "<strong>Tëë kɛ ti̱ /ci̱ rɔ̱ lot.</strong> Ruac mi̱ tëk, mat ŋɔaani̱, kɛnɛ thie̱e̱c ti̱ /ci̱ rɔ̱ lot.",
+      "<strong>E-mai̱l (E-mail)</strong> Lätdɛ <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> Mi̱ /ci̱ GitHub kiɛ Discord mat thi̱n."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Duɔ̱ɔ̱p in dɔ̱ŋ",
+      "title": "Thurɛ duɔ̱ɔ̱r mi̱ päär kɛ min go̱o̱ri̱ i̱ bi̱ la̱t thi̱n"
+    },
+    "paragraphs": [
+      "Kɛn caani̱öli̱ diaal caa kɛ la̱th gua̱a̱th kɛl mi̱ caa guic ɛ nɛy diaal kɛnɛ gua̱th tɔ̱ɔ̱wä ŋɔaani̱ diaal."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

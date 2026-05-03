@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Duɔ̱ɔ̱p kumɛ kɛnɛ ta̱a̱ in tɔ̱wkɛ ni̱ ŋɔaani̱",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Duɔ̱ɔ̱p kumɛ kɛnɛ ta̱a̱ in tɔ̱wkɛ ni̱ ŋɔaani̱",
+    "lead": "IATF la̱tkɛ pröjekni̱ kɛ kui̱i̱ kä ɣöö bi̱ naath cop thi̱n kɛ duɔ̱ɔ̱p mi̱ ŋa̱ckɛ, mi̱ dëë kuɛn, kɛnɛ ɣöö dëë kɛ tit.",
+    "support": [
+      "Ɛn warɛgak ɛmɛ latɛ min lotdɛ, kɛ duɔ̱ɔ̱p in dëë tɔ̱w ŋɔaani̱ thi̱n, kɛnɛ min dëë la̱t ɛ la gua̱a̱th tɔ̱wä ŋɔaani̱ mi̱ caa kɛ nhɔk."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Ruaacni̱",
+      "title": "Mi̱thcin mi̱ ro̱ŋ, ta̱a̱dɛ, yi̱o̱wni̱"
+    },
+    "cards": [
+      {
+        "title": "La̱t mi̱ ro̱ŋ",
+        "paragraphs": [
+          "IATF nhɔkɛ la̱t mi̱ ci̱ riɛk mi̱ di̱i̱t ɛlɔ̱ŋ woc kɛnɛ mi̱ tekɛ lua̱ŋ mi̱ ŋa̱ckɛ ɛ nɛy diaal.",
+          "Ɛn pröjek bɛ yi̱k tekɛ luɔt mi̱ räth ni̱ gua̱a̱th la̱t kärɔa kɛnɛ ɣöö derɛ lät cie mi̱ ɛ gua̱th tɔ̱ɔ̱wä ŋɔaani̱ diaal.",
+          "Kɛ kui̱i̱ kä ɣöö bi̱ naath wɔ̱ thi̱n rɛy intɛrnɛt, IATF la̱tdɛ [W3C WAI](https://www.w3.org/WAI/) Kä min ca la̱t ɛ nɛy tin lät kɛ tɛknɔlɔji̱ni̱ tin luäkni̱ naath ɛ jɛn in nyoth tin la̱tkɛ ɛ la̱a̱t tɔ̱tɔ̱."
+        ]
+      },
+      {
+        "title": "Kuɛ̈ɛ̈ni̱ kɛ kui̱ la̱t",
+        "paragraphs": [
+          "Ɛn thöp duɔ̱ɔ̱rä derɛ nhɔk mi̱ caa jɛ wä guic i̱:"
+        ],
+        "items": [
+          "la̱tdɛ ɛ mi̱ go̱o̱r ɣöö bi̱ naath cop thi̱n kɛ duɔ̱ɔ̱p mi̱ ro̱ŋ",
+          "kä riɛk ɛ mi̱ jɔc ɛ ro̱ŋ kɛ ɣöö ba ŋa̱c",
+          "ɛn gua̱a̱th la̱t ɛ thuɔ̱k mi̱ ro̱ŋ kɛ ɣöö ba tok",
+          "Ɛn la̱t ɛmɔ caa la̱th lät kɛ ɣöö baa IATF kulɛ luäk kɛ ta̱a̱ in lät kɛ jɛ.",
+          "tëkɛ duɔ̱ɔ̱p mi̱ lot rɔ kɛ ɣöö ba yi̱k la̱t kiɛ bi̱kɛ thuɔ̱k"
+        ]
+      },
+      {
+        "title": "Gua̱th tɔ̱ɔ̱wä ŋɔaani̱",
+        "paragraphs": [
+          "Pöröjɛkni̱ tin ca nhɔk cua kɛ la̱t piny IATF GitHub ɔrganisaciɔn.",
+          "Kɛn gua̱th tɔ̱ɔ̱wä tin caa tɔ̱w kɛ kui̱i̱ lätni̱ tɔ̱tɔ̱ laa kɛ laa la̱thkɛ gua̱a̱th kɛl, a cäŋ ni̱ mëë ci̱ nɛy tin la̱tkɛ la̱t ɛ tɔ̱ a gɛɛr."
+        ]
+      },
+      {
+        "title": "Lithɛni̱",
+        "paragraphs": [
+          "Pöröjekni̱ IATF la̱tkɛ kɛ kɔpi̱lɛkt li̱cineth mi̱ /ka̱n ɛ lat i̱ dɔ̱ŋ:"
+        ],
+        "items": [
+          "<strong>Ko̱d:</strong> AGPL-3.0",
+          "<strong>Wargakni̱:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ɛnjinieer mi̱ tekɛ lua̱ŋ kiɛ ram mi̱ la̱tkɛ la̱t kɛ kui̱i̱ tɔ̱ɔ̱cä",
+      "paragraphs": [
+        "Pöröjekni̱ diaal tin ca nhɔk ba kɛ yi̱k ka̱m i̱thti̱ni̱e̱r mi̱ bi̱ te wi̱i̱dɛ kiɛ ram min bi̱ kɛ tit. Ram ɛmɔ dɔ̱ŋ derɛ tekɛ lua̱ŋ kɛ ɣöö bɛ kulɛ wä rɛy gua̱th tɔ̱ɔ̱wä ŋɔaani̱ kɛnɛ ɣöö derɛ:"
+      ],
+      "items": [
+        "ŋi̱i̱c kɛ ta̱a̱ in lät kɛ naath",
+        "tit gua̱th tɔ̱ɔ̱wä ŋɔaani̱",
+        "guic kiɛ yiöw tin la̱tkɛ kä yɔ̱a̱ckɛ tin görkɛ",
+        "gɔ̱a̱r ŋɔaani̱ tin di̱tni̱kɛn rɛy la̱t",
+        "jakni̱ la̱t kä ba ŋa̱c ɛ nɛy kɔ̱kiɛn"
+      ],
+      "footnote": "Nɛmɛ ɛ la̱t gua̱th tɔ̱ɔ̱wä kuakni̱ tin kɔ̱ŋ. La̱t in la̱tkɛ ɛ ji̱ muktäpkä ɛ IATF. Ɛn gua̱a̱th ɛ mɛ, ɛ ɣöö bi̱ kɛn kuak tɔ̱tɔ̱ yi̱k ka̱m raar, bi̱ kɛ ku lɛ tä kɛ ca̱p mi̱ dëë ku lɛ lätni̱ kɛ kɛ, kä /ci̱kɛ bi̱ tä kɛ mi̱ /ca de luäŋ kɛ kuëŋ thi̱n."
+    },
+    "publicDevelopment": {
+      "title": "Ta̱a̱ in tä kɛ naath",
+      "paragraphs": [
+        "Pöröjɛkni̱ tin la̱tkɛ ɛ IATF laa kɛ laa ka̱mkɛ nɛy diaal kɛ duɔ̱ɔ̱p mi̱ /ka̱n met ŋa̱c."
+      ],
+      "items": [
+        "Kɔɔd in bëë raar thi̱n",
+        "ruaacni",
+        "wargakni",
+        "Ruaacni̱ kɛ kui̱i̱ ca̱a̱p",
+        "Kɛn tëë ci̱ tuɔɔk ni̱ wal"
+      ],
+      "footnote": "Ŋäc ŋɔaani̱ tin di̱t kɛ kui̱i̱ la̱t /ci̱kɛ bi̱ tä rɛy ruaacni̱ nath kärɔ̱ kiɛ rɛy inbokcini̱."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Kɛn warɛgakni̱",
+      "title": "Gua̱th tin la̱tkɛ go̱rä ŋɔaani̱ thi̱n"
+    },
+    "paragraphs": [
+      "IATF lät kɛ naath kɛ duɔ̱ɔ̱p mi̱ /ka̱n met guic. Thukni̱ tin la̱thkɛ kä IAT F kɛ rɛy gua̱th in la̱tkɛ thi̱n, email, Discord, GitHub, kiɛ tin kɔ̱kiɛn tin laa thöpkɛ ɛ la̱a̱t tin dëë la̱t ɛ naath.",
+      "Mi görkɛ duɔ̱ɔ̱r kä IATF, /cikɛ bi̱ lɛ go̱r ɛn ɣöö bi̱ kɛ jɛ gɔ̱a̱r piny.",
+      "Gua̱th tɔ̱ɔ̱wä tin la̱tkɛ ɛ naath dëë kɛ tɔ̱w rɛy gua̱th in tä gua̱a̱th la̱t IATF thi̱n kä GitHub, kiɛ ɛn rɛy jɔam ɛmɛ, kiɛ gua̱thni̱ ti̱ti̱ da̱ŋ rɛw.",
+      "Ɛ ŋot /ka̱nɛ ni̱ ka̱m raar, IATF bɛ räth ni̱ kä tin /ca go̱r kɛ kui̱ röm ran kɛ nɛy tin dëë röm kɛ kɛ, ta̱a̱ la̱tdiɛn, amäni̱ tin dee naath jakä ŋa̱ckɛ nɛy tin la̱tkɛ lät kɛ tɛknɔlɔji̱ tin luäkɛ naath, ɛ ni̱ mi̱ caa jɛ lar ɛ jɔc ɛn ɣöö derɛ la̱th thi̱n.",
+      "Dithkɔrdi̱ ɛ mi̱ la la̱tkɛ kɛ kui̱i̱ lätni̱ tin /ci̱ rɔ̱ lot. IATF /cɛ ruac mi̱ caa la̱t kɛ duɔ̱ɔ̱p mi̱ göl la̱th rɛy arkaaibä, kä ruac in caa ka̱m raar laa guɛckɛ ɛ Dithkord.",
+      "Ri̱kɔdni̱ tin la görkɛ /ca kɛ bi̱ la̱th kä i̱thti̱e̱r ɛnjinie̱ni̱ gua̱a̱th in dëë kɛ la̱t thi̱n. Mi̱ lot ni̱ ɣöö bi̱ nɛy diaal ɛ ŋa̱c lotdɛ ni̱ luɔ̱ɔ̱tni̱kiɛn. /Ciɛ lotni̱ ɣöö ba kɛ riali̱kä kɛ kui̱i̱ kä ɣöö dëë kɛ jiek kɛ ri̱thääcni̱.",
+      "IATF derɛ wargakni̱ la̱th lät kiɛ derɛ kɛ woc gua̱thni̱ tin la̱tkɛ jɛ thi̱n, duŋdɛ ɣöö /cɛ jɛ dee lar ɛn ɣöö bi̱ kɛ wɔ̱ woc rɛy gua̱th tin kɔ̱ŋ.",
+      "Mi̱ go̱o̱ri̱ ɣöö bi̱ ri̱e̱t te kärɔa, /cu jɛ ja̱k kɛ duɔ̱ɔ̱p IATF mi̱ ŋa̱ckɛ ɛ nɛy diaal."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "La̱t in la̱tkɛ",
+      "title": "Kɛn gua̱th tɔ̱tɔ̱"
+    },
+    "lead": "Ɛn gua̱a̱th in tä thi̱n ɛ jɛn in kuaa IATF bo̱o̱th kɛ duɔ̱ɔ̱p in dëë ku lɛ lät ni̱ jɛ.",
+    "duties": {
+      "title": "Min la̱tkɛ ɛ kɔm",
+      "items": [
+        "La̱thkɛ lät tin nhɔkɛ kä IATF GitHub ɔrgani̱cäciɔn",
+        "Cäätni̱ kɛ kui̱ kä ɣöö ba pröjek nhɔk kɛnɛ ar-ka-bi̱li̱",
+        "Lät ɛ la gua̱th mi̱ bi̱ naath kulɛ röm thi̱n kɛ IATF",
+        "Coordinates the annual election /Cuɔ̱ɔ̱p in la la̱tkɛ kɛ ruɔ̱n"
+      ],
+      "footnote": "Ɛn kuär /cɛ IATF bi̱ ka̱m duɔ̱ɔ̱r mi̱ /ci̱ rɔ bi̱ lot, la̱t mi̱ caa yio̱w thi̱n, kiɛ mat lätni̱ ti̱ caa mat gua̱a̱th kɛl, kä /cɛ bi̱ tä kɛ lua̱ŋ mi̱ di̱i̱t ɛlɔ̱ŋ kɛ kui̱ kä tin caa lɛ be̱n lat ɛ nɛy tin la̱tkɛ lät tɔ̱tɔ̱."
+    },
+    "election": {
+      "title": "Duɔ̱ɔ̱p in la la̱tkɛ kɛ ruɔ̱n",
+      "paragraphs": [
+        "Ɛn bo̱o̱th laa jɛ laa kuanykɛ kä rɛɛw kɛ kɔr juɔkni̱ da̱ŋ rɛw tin nhiam kä Pay Wälrɛw, kä baa tin ci̱ ben raar kulɛ lat kɛ Pay Bäŋuan, kä bi̱ la̱tdɛ rɔ cuu tok kɛ Pay Kɛl.",
+        "Nɛy tin te kɛ lua̱ŋ kɛ ɣöö de̱e̱ kɛn rɔ̱ɔ̱diɛn kuëŋ gua̱a̱th tɔ̱wä kuakni̱ tin la̱tkɛ ɛ IATF kɛ jɛn ruɔ̱n ɛ mɔ kɛnɛ nɛy tin ci̱ rɔ̱ mat gua̱th kɛl kɛ kui̱i̱ la̱t ɛmɔ.",
+        "Ɛn bo̱th laa jɛ laa la̱t kɛ duɔ̱ɔ̱p mi̱ cɔali̱ GitHub Discussion rɛy gua̱th in la̱tkɛ thi̱n IATF governance repository, kɛ kui̱c ɛmɔ kɛn nɛy tin laa naŋkɛ gua̱a̱th rɛy bo̱o̱thä, kɛɛ jɔwdiɛn, kɛ min ci̱ ben raar kɛn diaal laa tëë rɛy ruaacni̱ nath."
+      ]
+    },
+    "continuity": {
+      "title": "Duɔ̱ɔ̱p in lät kɛ jɛ",
+      "paragraphs": [
+        "Mi̱ /thiɛlɛ kuany mi̱ caa la̱t kɛ ruɔ̱n kɛl, ɛn ram in la bo̱o̱th ɛn wa̱lɛ bɛ ŋot kɛ mi̱ lätdɛ amäni̱ kumɛ in dɔ̱ŋ.",
+        "Ɛn bo̱o̱th derɛ be̱n piny gua̱a̱th mi̱ go̱rɛ. Nɛy tin la̱tkɛ lät de̱e̱ kɛn rɔ̱ɔ̱diɛn ku lɛ kuany ɛ la nɛy ti̱ kɔ̱ŋ kɛ luɔt mi̱ ca la̱th thi̱n, kä bi̱ kɛ ku lɛ lät kɛ ŋuɔ̱t ti̱ cäät kɛ tin laa kuanykɛ kɛ ruɔ̱n."
+      ]
+    },
+    "current": {
+      "title": "Kuär in tä thi̱n ɛntäämɛ",
+      "fields": [
+        {
+          "label": "Kɛn gua̱th tɔ̱tɔ̱",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Thuɔ̱k",
+          "value": "Amäni̱ mëë caa kuany kɛ Pay Wälrɛw 2026"
+        },
+        {
+          "label": "Ta̱a̱ la̱t mi̱ ca riali̱kä",
+          "value": "2026"
+        },
+        {
+          "label": "Kuen in nhiam mi̱ caa riali̱kä",
+          "value": "Cäŋkä 2026"
+        }
+      ]
+    },
+    "footnote": "Ɛn la̱t ɛ mɔ cuaa la̱th lät kɛ ruɔ̱n 2026 kɛ ɣöö bi̱ ta̱a̱ bo̱o̱thä kuakni̱ tin tä rɛy bunä kulɛ ŋa̱c a gɔaa."
+  },
+  "continuity": {
+    "states": {
+      "title": "Lät ti̱ ci̱ rɔ̱ la̱t",
+      "paragraphs": [
+        "Kɛn pröjekni̱ la̱tkɛ kɛ duɔ̱ɔ̱p mi̱ tɔt kɛ kui̱i̱ nɛɛni̱ ti̱ ŋuan:"
+      ],
+      "items": [
+        "Thurɛ",
+        "Cua nhɔk",
+        "Lät ti la̱tkɛ",
+        "Ta̱a̱ mi̱ te thi̱n",
+        "Go̱ri̱ ram mi̱ bi̱ ji̱ luäk",
+        "Arki̱i̱pni̱"
+      ],
+      "footnote": "Kɛn wi̱i̱ni̱ tɔ̱tɔ̱ jakɛ gɔ̱a̱r piny kä thia̱k kɛ ɣöö dëë guic."
+    },
+    "reassignment": {
+      "title": "Mi̱ ci̱ la̱t ɛ nyɔk kɛnɛ ɣarki̱öpi̱",
+      "paragraphs": [
+        "Mi̱ ci̱ ram kɛl kä nɛy tin la̱tkɛ la̱t ka̱m raar kiɛ /ci̱kɛ lät, IATF derɛ la̱tdɛ nyɔk kɛ käm naath, derɛ cuɔ̱p la̱th thi̱n, kiɛ derɛ pöröjɛk riali̱kä.",
+        "Ɛn prɔjɛk dɔ̱ŋ derɛ yi̱k ka̱p gua̱a̱th mi̱ ci̱ go̱o̱r in görkɛ ni̱ jɛ thuɔ̱k, kiɛ ci̱ la̱t cuɔ̱ŋ, kiɛ /cɛ rɔ bi̱ lɛ nyɔk kɛ loc thi̱n."
+      ],
+      "footnote": "Pöröjɛkni̱ tin caa tɔ̱w laa kɛ laa guɛckɛ ɛ nɛy diaal ɛ /ci̱ mɔ a ɣöö tëë kɛ luɔt mi̱ di̱i̱t."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ri̱e̱t in ca la̱th thi̱n",
+      "title": "Min /ci̱ IATF ɛ lar"
+    },
+    "items": [
+      "ja̱l kä nɛy tin kɔ̱ŋ",
+      "mat lätni̱ ti̱ caa riali̱kä",
+      "nhök kä min ca lar",
+      "la̱t mi̱ bäär mi̱ la̱tkɛ kɛ kui̱ pröjekni̱"
+    ],
+    "footnote": "IATF ɛ gua̱th tɔ̱ɔ̱wä kuakni̱ ti̱ caa tɔ̱w, /ciɛ gua̱a̱th la̱t kɛ kui̱i̱ nɛyni̱ tin kɔ̱kiɛn."
+  }
+}

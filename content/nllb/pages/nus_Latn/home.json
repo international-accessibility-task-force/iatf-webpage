@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kä min go̱o̱r nɛy diaal ɣöö bi̱ kɛ cop thi̱n ɛ jɛn duɔ̱ɔ̱p in görkɛ.",
+    "lead": "IATF luäkɛ ji muktäpkä, buɔ̱n, kɛnɛ nɛy tin görkɛ duɔ̱ɔ̱p mi bi kɛ kulɛ cop thi̱n kɛ ɣöö bi̱ kɛ rɔ̱ ku lɛ luäk kɛ la̱tdiɛn.",
+    "support": [
+      "Pöröjɛkni̱ tin ca nhɔk cua kɛ ka̱mraar rɛy IATF GitHub ɣɔrgani̱cäciɔn ɛ la kɔpi̱lɛt li̱thɛnthi̱ kɛnɛ ɣöö cua kɛ la̱t ɛ nɛy diaal ɛ enji̱ni̱er mi̱ tekɛ lua̱ŋ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Duɔ̱ɔ̱p in lät kɛ naath",
+      "title": "Ɛ duɔ̱ɔ̱p mi̱ thi̱a̱k mi̱ dee nɛy diaal ɛ ŋa̱c kɛ kui̱i̱ lätni̱ tin dëë la̱t"
+    },
+    "paragraphs": [
+      "Kɛ duɔ̱ɔ̱p kɛl, ramɔ derɛ riɛk läth kä IATF. Mi̱ ci̱ buɔ̱n luäŋ kɛ luäk, ɛn gua̱a̱th in la̱tkɛ thi̱n kä GitHub ba lɛp kɛ kui̱ la̱t ɛmɔ.",
+      "Pöröjekni̱ diaal tin ca nhɔk tekɛ gua̱a̱th mi̱ ŋa̱ckɛ ɛ nɛy diaal kɛ kui̱ ko̱o̱d, tin ci̱ ben raar, wargakni̱, kɛnɛ tin caa ka̱m raar, kɛ la̱t mi̱ la̱tkɛ rɛy jɔam ɛ enji̱ni̱er mi̱ tekɛ lua̱ŋ."
+    ],
+    "specCard": {
+      "title": "Duɔ̱ɔ̱p in lät kɛ naath",
+      "terms": [
+        {
+          "term": "Thiɛl mi̱ go̱o̱r",
+          "definition": "Riɛk in thuɔ̱k kɛ kui̱ kä ɣöö bi̱ naath cop thi̱n"
+        },
+        {
+          "term": "Guäcdɛ",
+          "definition": "Mi̱thcin mi̱ ro̱ŋ kɛnɛ ta̱a̱dɛ rɛy la̱tdɛ"
+        },
+        {
+          "term": "Gua̱th la̱t",
+          "definition": "Gua̱th tɔ̱ɔ̱wä nath kä GitHub"
+        },
+        {
+          "term": "Yiɛth kuakni̱",
+          "definition": "Lät IATF kɛ kui̱ kä ɣöö bi̱ kɛ rɔ̱ɔ̱diɛn yiath piny"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Ta̱a̱ la̱t",
+      "title": "Kä lätdɛ i̱di̱?",
+      "intro": "Ɛn mödɛl ɛ mi̱ caa la̱t kɛ duɔ̱ɔ̱p mi̱ tɔt, kɛ kui̱c ɛmɔ bi̱ duɔ̱p in laa jäl naath ɛ thia̱k."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Mi̱ ca go̱ri̱ la̱th thi̱n",
+        "paragraphs": [
+          "Ɛn mat nath, buɔ̱n nath, kiɛ ram kɛl kärɔa derɛ thiec mi̱ lot ni̱ min go̱o̱rɛ i̱ derɛ la̱t.",
+          "Thukni de ji tuok kɛ jɛ kɛ web, kɛ imei̱l ɛ wä kä: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kiɛ rɛy Dithkɔrd."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF guicɛ jɛ",
+        "paragraphs": [
+          "Wɔbaanyɛ wɔkɛ miishɛɛ ahi wɔjwɛŋmɔŋ, ni wɔkɛ wɔhiɛtserɛjiemɔ, kɛ nibii ni he hiaa ni wɔfee kɛtsɔɔ akɛ wɔmiisumɔ ni wɔhi shi kɛya naanɔ."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Cua gua̱th tɔ̱ɔ̱wä mi̱ di̱i̱t riali̱kä",
+        "paragraphs": [
+          "Mi̱ ca pröjek nhɔk, jɛn ba ka̱mraar rɛy IATF GitHub ɔrgani̱cacin piny kɔpi̱lɛkt li̱thɛn.",
+          "Ɛn gua̱a̱th tɔ̱ɔ̱wä laa jɛ laa la̱tkɛ gua̱th tin laa tuɔɔkɛ kɛ kui̱i̱ ŋuɔ̱tni̱, ruacni̱, warɛgakni̱, kɛnɛ tin caa ka̱m raar."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Ɛnjinieer mi̱ tä kɛ lua̱ŋ ɛ jɛn ram in bo̱th la̱t",
+        "paragraphs": [
+          "Ɛnjinieer mi̱ tä kɛ lua̱ŋ laa jɛ laa la̱thkɛ gua̱a̱th tɔ̱ɔ̱wä pröjekni̱, kä la̱t la̱tdɛ laa jɔɔc ɛ nɛy diaal."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ri̱gi̱thteri̱",
+      "title": "Ri̱jestɛr pröjekni̱ in ŋa̱ckɛ"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tukɛ ɛn wanɛ mɛ",
+      "title": "Guic lät tin la̱tkɛ kiɛ tuk la̱t mi̱ thuɔ̱k"
+    },
+    "paragraphs": [
+      "La̱tdɛ kɛ ji̱i̱n kɛ ɣöö bi̱ min ca gɔ̱a̱r piny ŋa̱c ɛ nɛy diaal, kiɛ bi̱ ji̱n ɛ tok mi̱ go̱o̱ri̱ duɔ̱ɔ̱r mi̱ de ji̱ luäk kɛ jɛ kä bi̱ ben ɛ la pröjek."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
