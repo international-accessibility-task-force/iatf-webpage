@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Dañu ko gisul"
+  },
+  "hero": {
+    "eyebrow": "Dañu ko gisul",
+    "title": "Xët wi nga laaj gisul",
+    "lead": "Jëfandikoo yoon yi gën a màgg ci suuf ngir dellu ci bérab bi.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Waa këram",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ginnaaw gi nga laaj amul."
+    ],
+    "items": [
+      {
+        "label": "Waa këram",
+        "href": "/"
+      },
+      {
+        "label": "Jëfandikoo",
+        "href": "/projects/"
+      },
+      {
+        "label": "Taxawuleen",
+        "href": "/join/"
+      },
+      {
+        "label": "Jëfekaay",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Jëfandikukat",
+        "href": "/governance/"
+      },
+      {
+        "label": "Jëfandikukat",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

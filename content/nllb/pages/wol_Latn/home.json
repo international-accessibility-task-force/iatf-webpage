@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Li jëm ci soxla ci wàllu wàllug jëfandikukat yi",
+    "lead": "IATF dafay dimbali mbootaay yi, kurél yi, ak nit ñi ci seen bopp, ñu soppi soxla yu wóor yi ñu am ci wàllu wàllug mbind mu ubbeeku.",
+    "support": [
+      "Jëfekaay yi ñu nangu, ñu ngi koy jëfandikoo ci mbootaayu GitHub ci wàllu copyleft ak di ko yokk ci kanam askan wi, ci jëfekaay bu am sañ-sañ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Wàllug jëfandikoo gu nguur gi",
+      "title": "Jëfekaay bu yomb bu jëm ci porogaraam bu ñu mën a jëfandikoo"
+    },
+    "paragraphs": [
+      "Ku nekk mën na jébbal IATF ay xalaat ci wàllu wàll gi, te bu mbooloo mi jël ko, dees na ubbi ab dencukaay ci GitHub ngir liggéey bi.",
+      "Ku nekk ci jëfekaay yi ñu nangu, am na benn bérab bu ñu mën a gis, bu ñu man a denc ay téere yu jëm ci code, ay mbir, ay dokimintasyon, ak ay tukki, te benn njiitu njàngat la leen di jiite."
+    ],
+    "specCard": {
+      "title": "Wàllug jëfandikoo gu nguur gi",
+      "terms": [
+        {
+          "term": "soxla",
+          "definition": "Problème réel d'accessibilité"
+        },
+        {
+          "term": "Jëfandikukat",
+          "definition": "Jëfekaay ak jëfekaay bu am solo"
+        },
+        {
+          "term": "Wàllug jëfekaay",
+          "definition": "Jëfandikukat bu ëpp ci GitHub"
+        },
+        {
+          "term": "Jëfandikukat",
+          "definition": "Jëfandikukat bu IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Jëfekaay",
+      "title": "Naka lay jëfandikoo",
+      "intro": "Modil bi mu ngi wéy bu tuuti ngir yoon wi mu nekk mu yomb a topp."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Jëfandikoo na soxla",
+        "paragraphs": [
+          "Benn mbootaay, benn mbooloo walla benn nit mën na jébbal ab laaj bu dëppoo ak soxla ju am solo ci wàllu dawaan.",
+          "Jëf yi mën nañu tàmbalee ci web bi, ci ay bataaxal ci <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, walla jaare ko ci Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF seet na ko",
+        "paragraphs": [
+          "Nuy seetlu jumtukaayu liggéey bi, jëfekaay bi, ak su fekkee ne liggéey boobu bokk na ci ab poroseet bu mbind mu ubbeeku."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Jëfandikoo nañu ab dencukaay",
+        "paragraphs": [
+          "Bu ñu jël ab jëfekaay, dañu ko diisoo ci mbootaayu GitHub bu IATF ci ron copyleft.",
+          "Jëfandikukat bi dafay nekk kërug askan wi ci wàllug mbind mi, ay mbir, ay téere ak ay tukki."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Jëfandikukat bu am sañ-sañ mooy jiite liggéey bi",
+        "paragraphs": [
+          "Jëfandikukat bu am sañ-sañu lañu jagleel ci dencukaay bi, te jëfandikoo bi am na solo ci biir mbooloo mi."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Jëfandikukat",
+      "title": "Jëfandikukat bu askan wi"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tàmbali fi",
+      "title": "Jëfandikoo ci liggéey bi ngay def walla tàmbalee ab jëfekaay bu wóor"
+    },
+    "paragraphs": [
+      "Jëfandikoo registar bi ngir seet li am solo ba noppi, walla tàmbalee jël, su fekkee ne am na lu am solo ci wàllu wàllug jëfandikukat yi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

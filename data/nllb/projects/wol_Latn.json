@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Wàllug Internet bu IATF",
+    "summary": "Wàllug jëfandikukat bu International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF soxla woon na ab kër gu dëgër, buy leeral misaal bi, téere ay jëfekaay, te xamal ay jëfandikukat li ñu war a jëfandikoo.",
+    "why": "Wàll wi mooy buntu IATF bi. Dañu ko tabax ni pexe bu tuuti ngir mu yomb a jàng, di ko tekki, ak di ko toppatoo ci mbind mi.",
+    "scopeIn": [
+      "Jëfandikukat:T.J.",
+      "Jëfandikukat bu askan wi ci jëfi IATF yu ñu nangu, yu jëfandikoo, ak yu ñu denc, yu ànd ak taxawaay, toppatoo, dencukaay, ak firndeel",
+      "Jëfandikukat bu jël laaj ak jëfekaay",
+      "Xët yi lëkkalook \"gouvernement\" ak \"transparence\"",
+      "Jëfandikoo ci làkku angale ak jëfekaay bu ñu waajal ngir tekki",
+      "Jëfandikoo Static ci Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Réewi ay jëfandikukat yu ñuul yi, ay xët yi, walla jëfandikukaay yi",
+      "Jëfandikukat bu njëkk bi, bi nekk ci dencukaay bu nekk",
+      "Waxtaan ci jamono ju sax, ci Discord",
+      "Jëfandikukat bu jëfandikukat bii di Sénégal"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie ci IATF",
+    "summary": "Jëfandikukat bu njëkk bu IATF, ñu denc ko bi mu àggee ci ab toxalukaay bu am solo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Jëfekaay bu njëkk ci jumtukaay bu dëppoo ak wàll-wàll ci wàllug IATF.",
+    "why": "Jëfandikukat bi dañu koy denc ngir ñépp a xam li ñuy def ci liggéey bi, sax su fekkee ne li ñuy jëfandikoo ci moom dakkal na.",
+    "scopeIn": [
+      "Jëfandikukat bu njëkk bu jëfandikoo jumtukaay bu dëppoo ak wàll-wàll"
+    ],
+    "scopeOut": [
+      "Jëfekaay bu am solo walla jëfandikoo jëfandikukat",
+      "Jëfandikukat yi",
+      "Jëfekaay bi ñu dénk ngir jëfandikoo ci liggéey bi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Jëfandikukat IATF",
+    "summary": "Bot bu mbootaayu IATF, archived after reaching a natural stopping point.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Jëfandikukat bi ci wàllug IATF community channels.",
+    "why": "Jëfandikukat bi dañu koy denc ngir ñépp a xam li ñuy def ci liggéey bi, sax su fekkee ne li ñuy jëfandikoo ci moom dakkal na.",
+    "scopeIn": [
+      "Automatisation de la discorde autour des canaux communautaires de l'IATF, tenue comme un dossier public"
+    ],
+    "scopeOut": [
+      "Jëfekaay bu am solo walla jëfandikoo jëfandikukat",
+      "Jëfandikukat yi",
+      "Jëfekaay bi ñu dénk ngir jëfandikoo ci liggéey bi"
+    ]
+  }
+]

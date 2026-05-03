@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Dellu ci IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Dellu ci IATF",
+    "lead": "Yëngu-yëngu bi dafa ubbiku. Am na ay fànn yu bare yu am ngir bokk, bu fekkee ne dangeen di jëfandikoo ay teknoloji yuy wallu, di defar ay porogaramu yu ñu mën a jot, di làkk, di nattu, walla di toppatoo ab porojek. Waxtaan yi ak dogal yi di am ci biir askan wi ci GitHub ak Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Jëfandikoo",
+      "title": "Yooni ndimbal"
+    },
+    "items": [
+      "<strong>Jëfandikoo ab jëfekaay.</strong> Su fekkee ne am nga lu nga mënul a jëfandikoo software bu mbind mu ubbeeku, nga yónnee ko ci jëfekaay bi ñuy jël ay laaj.",
+      "<strong>jéem ak seetlu.</strong> jéem a jëfandikoo jëfekaay yu IATF yi ak jumtukaay yu dimbali yi nga jariñoo, nettali li liggéey ak li liggéeyuwul, te tëral ay mbir yu jublu ci dencukaay bu am solo bi.",
+      "<strong>Jëfandikoo.</strong> Jëfandikukat yi nekk ci làkku angale mooy jëkk a feeñ. Yëfandikoo nañu yeneen làkk yu ñu soppi, bu ñuy tàmbalee ak làkku ispaañ.",
+      "<strong>Di tabax.</strong> Jëfandikoo ay mbir ci bépp dencukaay bu IATF, yónneel ay laaj ngir ñu génne ko, walla jël ab liggéey ngir nekk ay jëfekaayam.",
+      "<strong>Jéggal ko.</strong> Ay jëfekaay yu am dañuy soxla ay liggéeykat yu bees."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Jëfandikukat",
+      "title": "Fu IATF di liggéey ci biir nit ñi"
+    },
+    "items": [
+      "<strong>GitHub. xët yi lëkkalook wii:</strong> Jëfandikoo, génne ay laaj, joxe, ak téere yu jëfandikukat yi.",
+      "<strong>Xuloo.</strong> Waxtaan yu sax, jokkoo, ak ay laaj yu am solo.",
+      "<strong>E-mail yi.</strong> Jëfandikoo <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> su dul GitHub mbaa Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sëriñ bi",
+      "title": "Tànn channel bi mu ànd ak ni nga bëggee dugal"
+    },
+    "paragraphs": [
+      "Jëf yi yépp dañuy dugg ci benn njàngat bi ak benn dencukaay bi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

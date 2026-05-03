@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap[Soppi • soppi gongikuwaay bi]"
+  },
+  "hero": {
+    "eyebrow": "Jëfandikukat",
+    "title": "Sitemap[Soppi • soppi gongikuwaay bi]",
+    "lead": "Jëfandikukat bu nekk ci iatf.cc, ci benn bérab."
+  },
+  "sections": [
+    {
+      "title": "Xët yi lëkkalook wii",
+      "items": [
+        {
+          "label": "Waa këram",
+          "href": "/"
+        },
+        {
+          "label": "Jëfandikoo",
+          "href": "/projects/"
+        },
+        {
+          "label": "Jëfandikoo ab jëfekaay",
+          "href": "/propose/"
+        },
+        {
+          "label": "Jëfandikukat",
+          "href": "/governance/"
+        },
+        {
+          "label": "Taxawuleen",
+          "href": "/join/"
+        },
+        {
+          "label": "Jëfekaay",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Jëfandikukat",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Jëfandikoo",
+  "projectsEmpty": "Amul benn pexe bu ñu siiwal ba léegi."
+}

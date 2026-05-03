@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Jëfekaay",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Jëfekaay",
+    "lead": "IATF dafa bëggoon a sàmm web bii ci anam bu yomb, bu ñu man a jàng, bu ñuy jëfandikoo téere bi, te mu ànd ak ay jumtukaay yu am ndimbal.",
+    "support": [
+      "Ci wàllu wàllug web, IATF dafay jëfandikoo [W3C WAI](https://www.w3.org/WAI/) Jëfandikukat bii dafay tekki itam ci li ñuy jàng ci jëfandikukat yi jëfandikoo ay teknoloj yuy wallu."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Jëfandikukat",
+      "title": "Wàll:Jëfandikukat ."
+    },
+    "paragraphs": [
+      "Su fekkee ne am na lu tax ñu mënul a dugg ci web bii, boo ko defee nga yónnee ko ci ay bataaxal:",
+      "{{contact.accessibilityEmail}}",
+      "Xët yii ci suuf am na solo:"
+    ],
+    "items": [
+      "xët bi mbir mi xew",
+      "li nga doon jéem a def",
+      "li nga doon jëfandikoo ci jumtukaay bi, jaar-jaaru internet bi, walla ay jumtuwaay, bu ko amee solo",
+      "lan moo xëccoo",
+      "lu ko dimbali woon"
+    ],
+    "footnote": "Dungeen war a bind ab téere bu njëkk bu ñuy wax bug. Wàll bu leer rekk a doy na."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Jëfandikoo",
+      "title": "Jëfandikoo mbir yi jëm ci askan wi"
+    },
+    "paragraphs": [
+      "Yëfandikoo yu am solo yi mën nañu leen a tënk ci dencukaay bi ñu sàmm ngir ñu mën leen a jubbanti ci mbind mi. Jëfandikukat yi ak xibaar yu dul soxla dañu leen di génne bala ñu ko siiwal.",
+      "Su fekkee ne say xibaar am na ay xibaar yu jëm ci sa bopp, wax ko bu leer ci sa xibaar bi."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Jamonoy tey",
+      "title": "Limite yi ñu xam"
+    },
+    "paragraphs": [
+      "Wàll bii dafa wéy di tuuti te am solo. Am na ay làkk yu ñu mënul a làkk ba ñu di ko waajal."
+    ]
+  }
+}

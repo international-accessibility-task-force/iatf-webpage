@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Jëfandikukat",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Jëfandikukat",
+    "lead": "IATF dafay liggéey ci biir askan wi. Yëngu-yëngu yi jëm ci porojek yi, soppi yoon yi ak soppi kilifteef yi, ak xaalis yi ñuy jëfandikoo, ñu ngi koy def ci biir réew mi. Xët wii dafay wone fu nekk ci record yi nekk ak ni ñu koy jàng.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Téere yi",
+      "title": "Fa téere yi dëkk"
+    },
+    "items": [
+      "<strong>Jëfandikoo ay dogal ci liggéey bi.</strong> Jëf yi ñu nangu, archivage, ak réaffectation yi, ñu ngi leen di bind ni ay mbir yu am solo (issues) walla yu ñu bàyyi (releases) ci dencukaay bi mu jëm, te ñu ngi ko boole ci téereb askan wi (public registry). <a href=\"/projects/\">taxawaay</a>. moom",
+      "<strong>Demal laaj ay téere.</strong> Jëfandikoo yu ñu mënul a gis, ñu ngi ko denc ci mbootaayu GitHub bu IATF, ci web bii, walla ci ñoom ñaar yépp. Jëffandikoo yi man nañoo tekki, soppi, walla soppi njàngat bu njëkk bi, ngir mën a seet soxla yi am ci wàllu wàll wi, te bañ a feeñal xibaar yu amul njariñ.",
+      "<strong>Jëfandikukat yi soppi nañu.</strong> Bés bu nekk bu ñu soppi mbind mi, dees na ko bind ci dencukaay bi mu jëm. <a href=\"{{contact.githubOrgUrl}}\">Mbootaayu GitHub</a>. moom",
+      "<strong>Soppi nguur gi.</strong> Yëngu-yëngu yi ci xët wi ci nguur gi, dañu koy topp ni ñu koy def ci jëfekaay bi. <code>iatf-website</code> Jëfandikukat yi <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">taariix bu bind</a> ci GitHub.",
+      "<strong>Jëfekaay yu jëfandikoo.</strong> Jëfandikukat bii di IATF dafay sàmm jëfandikoo yu néew yi ci liggéey bi, te dafay denc li ñuy def ci jumtukaay yu ëpp doole yi.",
+      "<strong>Jëfandikukat yi.</strong> Jëfandikukat yi ci bépp seetlu walla dogal bu ñu jokkoo nekk ci GitHub Waxtaan ci dencukaay bu am solo bi  xool <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Waxtaan yi</a> ci <code>iatf-website</code> dencukaay bi."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Jëfandikukat",
+      "title": "Jëfandikukat bu jëfandikoo xaalis"
+    },
+    "paragraphs": [
+      "IATF dafay sàmm ay jumtukaay yu ndaw yu ñu mën a jëfandikoo.",
+      "Téere boobu nekkul ab téere bu ñu ràññee ci wàllu xaalis. mooy benn téere bi ñuy wax costes d'exploitation des infrastructures yi ñuy jëfandikoo ngir taxawal IATF ci internet."
+    ],
+    "footnote": "Jëfandikukat yi mën nañoo jëfandikoo walla tëral ay téere bu ñu ko tëral. Adres yi ci seen bopp, li ñu leen di fexeel, ak li ñu warul a xam ci seen xaalis, duñu bokk ci téere bi.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Àdduna bi",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Jëfandikukat",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Xët yi lëkkalook wii",
+            "value": "Jëfandikoo nañu ci Cloudflare ngir jëfandikoo web bu mujj bi. Jëfekaay bi jóge na ci Vercel dem na ci cloudflare te tàmbalee jëfandikook jumtukaay bu gàtt bi. <code>iatf.cc</code> àdduna bi."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Àdduna bi",
+            "value": "<code>internationalaccessibilitytaskforce.com (Xët yi lëkkalook wii)</code>"
+          },
+          {
+            "label": "Jëfandikukat",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Xët yi lëkkalook wii",
+            "value": "Jëfandikukat:Mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Àdduna bi",
+            "value": "<code>internationalaccessibilitytaskforce.com (Xët yi lëkkalook wii)</code>"
+          },
+          {
+            "label": "Jëfandikukat",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Xët yi lëkkalook wii",
+            "value": "Jëfandikukat:Mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Àdduna bi",
+            "value": "<code>internationalaccessibilitytaskforce.com (Xët yi lëkkalook wii)</code>"
+          },
+          {
+            "label": "Jëfandikukat",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Xët yi lëkkalook wii",
+            "value": "Jëfandikukat:Mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Àdduna bi",
+            "value": "<code>internationalaccessibilitytaskforce.com (Xët yi lëkkalook wii)</code>"
+          },
+          {
+            "label": "Jëfandikukat",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Xët yi lëkkalook wii",
+            "value": "Jëfandikukat bii di mugiwarafx. Hosting bi jëfandikoo na mbëjfeppal yu amul njariñ walla yu néew-njariñ jaarale ko ci GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Wàll:Jëfandikukat",
+      "title": "Li nekkul ci biir askan wi"
+    },
+    "paragraphs": [
+      "Am na ay téere yu ñu bàyyi ci wàllug téerey askan wi ngir:"
+    ],
+    "items": [
+      "Xam-xam yi ñu mën a jàmmaale ak ñi koy tëral.",
+      "Jëfandikukat bu ñuy jëfandikoo rekk ngir firndeel laaj bu ñu nangu, dëddu walla mujjal ko.",
+      "Adres yi ci seen bopp, lim yi ci telefon yi, ak ay matukaay yu dul soxla.",
+      "Lépp lu mën a xàmmee ab jëfandikukat bu nekk ci teknoloji yuy wallu, te àndul ak moom.",
+      "Waxtaan yu raw ci Discord, su dul ab xibaar bu am solo la ñu dugal ci benn téere bu ñu mën a gis ci liggéey bi."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Jàngal lu ëpp",
+      "title": "Jàmm-jàmm mooy téereb dogal yi nekk ci gannaaw téere yooyu"
+    },
+    "paragraphs": [
+      "Soo bëggee xam ni ñuy nangu liggéey yi, di ko denc, walla di ko soppi, jàngal xët wi jëm ci nguur gi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Jëfandikukat yi",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Jëfandikukat yi",
+    "lead": "IATF dafay sàmm ay jëfekaay yu jëm ci wàllug jëfandikukat yi, ñu nekk ci kanam askan wi, ñu mën koo jàng, ak ñu man koo toppatoo.",
+    "support": [
+      "Xët wii dafay nettali li war a am, ni ñuy denc ay dencukaay, ak li ñu war a def ci wàllug denc bi, gannaaw ba ñu ko nangu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Jëfandikukat",
+      "title": "Jëfandikoo, moom, joxe ay sañ-sañ"
+    },
+    "cards": [
+      {
+        "title": "Jëfandikukat",
+        "paragraphs": [
+          "IATF nangu na liggéey bu mën a jéem a wàññi lu am solo te am solo ci wàllu askan wi.",
+          "Ab jëfekaay war na am njariñ ci lu ëpp benn jëfekaayu liggéey bu am solo te mën a jëfandikoo ni ab dencukaay bu askan wi.",
+          "Ci wàllu wàllug web, IATF dafay jëfandikoo [W3C WAI](https://www.w3.org/WAI/) li ñuy jëfandikoo mooy firndeel li ñuy jëfe ci liggéey bu wóor."
+        ]
+      },
+      {
+        "title": "Jëfandikoo jëfandikukat yi",
+        "paragraphs": [
+          "Jëfandikoo bi mën na jël, su fekkee ne seetlu bi feeñal na ne:"
+        ],
+        "items": [
+          "dafay xettli soxla ju wóor ci wàllu dawaan",
+          "Xare bi leer na ba man koo ràññee",
+          "àdduna bi doy na ngir tàmbalee",
+          "liggéey bi dëppoo na ak liggéeyu IATF bi",
+          "am na benn yoon bu am solo ngir toppatoo walla matal"
+        ]
+      },
+      {
+        "title": "Jëfekaayu dencukaay bi",
+        "paragraphs": [
+          "Jëfekaay yi ñu nangu dañuy sàkk ci jëfekaayu GitHub bu IATF.",
+          "Jëfandikukat yi dañuy toog foofu ngir bépp liggéey di sàmm ab kër gu dëgër, sax su ñu soppeeku ba noppi."
+        ]
+      },
+      {
+        "title": "Jëfandikukat",
+        "paragraphs": [
+          "Ay jëfekaay yu IATF dañuy jëfandikoo copyleft, su dul liise yi jëfekaayi bi wax leneen:"
+        ],
+        "items": [
+          "<strong>Jëfandikukat:</strong> AGPL-3.0",
+          "<strong>Xët yi lëkkalook wii:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Jëfandikukat bi walla ku koy toppatoo",
+      "paragraphs": [
+        "Jëfekaay bu nekk bu ñu nangu war na am benn njiitu njàngale walla ku koy toppatoo."
+      ],
+      "items": [
+        "njàngat ci biir askan wi",
+        "sàmm këru dencukaay bi",
+        "ràññee mbir yi walla jëfekaay yi te génne laaj yi",
+        "téere ay dogal yu am solo ci wàllu tekki",
+        "jéem a ràññee liggéey bi ci ñeneen ñi"
+      ],
+      "footnote": "Jëfandikukat yi ci wàllug dencukaay yi dañu bokk ci IATF. Yéenekaay bi dafay tekki ci toppatoo dencukaayi yi, jëfekaay yi, ak jokkoo bi ci seen diggante ak askan wi."
+    },
+    "publicDevelopment": {
+      "title": "Jëfekaayug askan wi",
+      "paragraphs": [
+        "Ay jëfekaay yu ñu tàmbalee ci IATF dañu koy jëfandikoo ci biir askan wi. Jëfandikukat bi mooy mbindum dëgg ci:"
+      ],
+      "items": [
+        "mbind mi",
+        "xalaat yi",
+        "téere yi",
+        "xët yi nekk ci roadmap bi",
+        "taariix"
+      ],
+      "footnote": "Xam-xam yu am solo ci liggéey bi warul a nekk ci ay waxtaan yu ñuul walla ay bataaxal."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Mbindum askan wi",
+      "title": "Jëfandikukat yi"
+    },
+    "paragraphs": [
+      "IATF dafay liggéey ci mbëj-gi-yaram bi. Yër yi dugg ci web bi, email bi, Discord bi, GitHub bi, walla yeneen yoon yi ñu koy jëfandikoo, man nañoo nekk ay téerey laaj yu ñu mën a gis (public request records).",
+      "Jëfandikukat bu ñuy wax \"public request record\" du war a mel ni xibaar bu njëkk bi. IATF mën na dajale, defar, walla soppi ab laaj, bala ñu koy siiwal, ngir mën a ràññee soxla yi am ci wàllu wàll wi, te bañ a feeñal xibaar yu dul soxla.",
+      "Jëfandikoo yi ñu mën a denc ci mbootaayu GitHub bu IATF, ci web bii, walla ñoom ñaar ñépp.",
+      "Jëfandikoo ko, IATF dina génne ay xët yu amul njariñ yu jëm ci jëfandikukat yi di jëfandikoo jumtukaay yu am ndimbal, ak ay lëkkalekaay yu ñu mën a ràññee ci nit ñi.",
+      "Discord dañu koy jëfandikoo ngir jokkoo. IATF du denc ay waxtaan ci Discord, te Discord moo koy toppatoo.",
+      "Jëfandikukat yi ñu laaj dañu leen di génne ci jëfandikukat bi ñuy seet, su fekkee ne mën nañu koo jëfandikoo.",
+      "IATF mën na yokk walla génne ay téere ci wàll yi mu jiite, waaye mënul a wóor ne dees na ko génne ci ñeneen ñi, ni caches, notifiquations, forks, screenshots, search engines, Discord, walla yeneen sistem yu biti.",
+      "Su fekkee ne ab xibaar dafa war a am solo, bul ko yónnee ci mbindum IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Jëfandikukat",
+      "title": "Sénégal"
+    },
+    "lead": "Jëfandikukat bi moo yor njiitu IATF ci wàllu jëfekaay bi. Loolu wuute na ak jëfekaayu njàngat bi yor wàllu liggéey bi: njiit gi moo yor sañ-sañ ci jëwriñ bi yépp, te du ci njiitu benn dencukaay bu nekk.",
+    "duties": {
+      "title": "Li kurél bi di def",
+      "items": [
+        "Jëfandikoo sañ-sañu boroom ci jëfekaayu GitHub bu IATF",
+        "Jëfandikoo na ay dogal yu jëm ci nangu liggéey bi ak archivage",
+        "Jëfandikoo na ni làkk wu ñu mën a xëy ci IATF",
+        "Jëfandikoo tànneef yi nekk ci at mu nekk"
+      ],
+      "footnote": "Jëfandikukat bi du bind IATF ci wàllu jébbal, liggéey bu ñu fey, walla ay kóllëre yu jëm ci wàllug liggéey, te du gëdd dogal yi jëwriñ yiy toppatoo benn dencukaay di def ci mbirum dogal yu tekki."
+    },
+    "election": {
+      "title": "Jëfekaay bu nekk",
+      "paragraphs": [
+        "Jëfandikukat bi dañu koy tànn benn yoon ci at mi.",
+        "Jëfandikukat yi am sañ-sañ, ñooy ñi amoon sañ-sañu toppatoo ci benn dencukaay bu IATF ci at mi, te def lu gën a néew benn wàll bu ñu boole ci dencukaayu IAT F ci at moomu. Jëfeandikukat bu nekk am na benn baat.",
+        "Jëfandikoo nañu tànneef yi ni waxtaan gu ëpp ci GitHub ci dencukaayug kilifteefug IATF bi ñu tànn, kon ñi leen di tànne, wote bi, ak li ko waral yépp bokk nañu ci téereb askan wi."
+      ]
+    },
+    "continuity": {
+      "title": "Jëfandikukat",
+      "paragraphs": [
+        "Su fekkee ne amul benn tànneef ci benn at, njiitu réew mi sax ci liggéey bi ba ci tànn bu ëllëg gi.",
+        "Jëfandikukat bi mën na bàyyi liggéeyam saa su nekk. Njiitalkat yi mën na woote itam benn tànneef bu ëpp ak benn xalaat bu ñu wax, te jëfe ko ci benn yoon ak tànneefu at mu nekk."
+      ]
+    },
+    "current": {
+      "title": "Jëfandikukat bii",
+      "fields": [
+        {
+          "label": "Sénégal",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Jëfandikukat",
+          "value": "Ba ci tànneefug desàmbar 2026"
+        },
+        {
+          "label": "Jëfandikoo",
+          "value": "2026"
+        },
+        {
+          "label": "Jëfekaay bu jëkk bi ñu tëral",
+          "value": "Weeru desàmbar 2026"
+        }
+      ]
+    },
+    "footnote": "Jëfandikukat bi mujj na nekk njiit ci atum 2026 ngir def njiital ci wàllug kurél gi. Ba mu ko defee, njiitu kurél googu nekkoon na ku ko sos."
+  },
+  "continuity": {
+    "states": {
+      "title": "Xët yi lëkkalook wii",
+      "paragraphs": [
+        "Yëngu-yëngu yi dañuy jëfandikoo benn ndab bu tuuti ci réew yi:"
+      ],
+      "items": [
+        "Proposition",
+        "Jëfandikoo",
+        "Jëfandikukat",
+        "Dëgg-dëgg",
+        "Ñooy wut ku koy toppatoo",
+        "Jëfandikukat"
+      ],
+      "footnote": "Réewi réew yooyu dañuy jéem a ràññee diiwaan bi."
+    },
+    "reassignment": {
+      "title": "Jëfekaay bu bees ak archivage",
+      "paragraphs": [
+        "Su ko defee ku ko toppatoo dëddu ko walla mu wéy, IATF mën na delloo wàll ci wàllu liggéey bi, bàyyi ko, walla tëj jëfekaay bi.",
+        "Jëfekaay bi mën na itam a nekk archivée bi soxla bi mu amoon ci njàlbéen gi ba noppi, walla mu taxaw, walla liggéey bi sax du am solo."
+      ],
+      "footnote": "Jëfekaay yi ñu denc dañuy sax ci kanam askan wi, lu ko moy am na benn sabab bu am solo ngir bañ ko."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Wàll:Jëfandikukat",
+      "title": "Li IATF warul a garantee"
+    },
+    "items": [
+      "jébbal ab kliib bu wéy",
+      "Jëfekaay yu jëm ci wàllug liggéey",
+      "nangu lépp lu ñu tëral",
+      "njàggat gu yàgg-yàgg ngir bépp jëfekaay"
+    ],
+    "footnote": "IATF mooy ab dencukaay bu askan wi mën a jëfandikoo, du ab jëfandikukat bu ñu mën a jébbal."
+  }
+}

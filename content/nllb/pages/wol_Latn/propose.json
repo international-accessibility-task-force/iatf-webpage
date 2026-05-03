@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Jëfandikoo ab jëfekaay bu jëm ci wàllug jëfandikoo",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Jëfandikoo ab jëfekaay bu jëm ci wàllug jëfandikoo",
+    "lead": "IATF dafay seet li ñuy laaj ngir jëfekaay yu jëm ci wàllu wàll, yi tukkee ci soxla ju wóor.",
+    "support": [
+      "Dungeen soxla xam-xam bu mat sëkk ci mbir mi, waaye bu ngeen xamee bu wér kan la, ak lu tax mu am solo, loolu doy na ngir tàmbalee."
+    ],
+    "actions": [
+      {
+        "label": "Jëfandikoo laaj",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Jëfandikoo Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Jëfandikukat",
+      "title": "tànnal yoon wi gën a yomb"
+    },
+    "intro": [
+      "Yooni yoon yépp dañuy dugg ci benn gis-gis."
+    ],
+    "items": [
+      {
+        "label": "Jëfandikukat",
+        "body": "Jëfandikukat bii ci suuf dafay jëfandikoo ngir jébbal ab laaj bu wuute."
+      },
+      {
+        "label": "E-mail yi",
+        "body": "Yónneel laaj bi ci lu jublu ci {{contact.requestsEmail}}Yëwriñ yi ñu yónnee ci ay bataaxal (e-mails) mën na nekk ay téere yu ñu mën a gis te dëddu leen."
+      },
+      {
+        "label": "Njàqare",
+        "body": "Tàmbali foofu bu ko gën a yomb. laaj bi sax dina dem ci benn gëstu bi."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Bala ngay yónnee laaj",
+    "paragraphs": [
+      "IATF dafay liggéey ci biir askan wi. Yéenekaay yi man nañu leen a tënk ak a feeñal ni ay téerey laaj ci biir mbootaayu GitHub, ci web bii, walla ñoom ñaar ñépp.",
+      "Buleen boole ay aderees yu seen bopp, ay lim yu telefon, ay mbir yu jëm ci wér-gi-yaram, walla ay li jëm ci jëfandikukat yu nekk yuy jëfandikoo jumtukaay yuy dimbali, lu moy bu ñu ko soxla, te dungeen bëgg IATF di ko seetlu.",
+      "IATF dafay génne ay matukaay yu amul njariñ yu jëm ci way-jur yu dul soxla, bala ñu siiwal téerey laaj yi."
+    ]
+  },
+  "review": {
+    "title": "Jëfandikukat yi",
+    "paragraphs": [
+      "Jëfandikoo ab laaj du tax ñu nangu ko.",
+      "IATF dafay seet liñ laaj ngir xam ni liggéey bi rafet na, am na solo, am njariñ, te xam ndax liggéey baa ngi ci ab dencukaay bu ñu mën a defal askan wi.",
+      "Am na ay laaj yu ñu mënul a nangu, dëddu leen, walla soppi leen bala ñu nangu leen."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Jëfandikukat bu laaj",
+      "title": "Jëlal ab laaj"
+    },
+    "fields": [
+      {
+        "kind": "dañu koy dugal",
+        "name": "laajkat bi",
+        "label": "Sa tur walla sa kurél",
+        "helper": "Kan moo koy ñaan?"
+      },
+      {
+        "kind": "tànn",
+        "name": "Jëfandikukat:Route",
+        "label": "Jëfekaay bu gën a neex",
+        "helper": "Naka lañu war a topptoo?",
+        "required": true,
+        "options": [
+          "E-mail yi",
+          "Njàqare"
+        ]
+      },
+      {
+        "kind": "dañu koy dugal",
+        "name": "Jëfandikukat yi[Soppi • soppi gongikuwaay bi]",
+        "label": "Jëfandikukat yi",
+        "helper": "Adres e-mail bi walla nom bi ci Discord ngir topptoo.",
+        "placeholder": "Adres e-mail walla jëfandikukat bu Discord",
+        "required": true
+      },
+      {
+        "kind": "dañu koy dugal",
+        "name": "làkk",
+        "label": "Làkk",
+        "helper": "Sa làkk mu gën a neex, boo ko bëggee.",
+        "value": "Senegaal"
+      },
+      {
+        "kind": "àdduna bi",
+        "name": "njàqare",
+        "label": "Lan lañuy jéem a jànkoonteel?",
+        "helper": "Wàll:Jëfandikukat.",
+        "required": true
+      },
+      {
+        "kind": "àdduna bi",
+        "name": "Jëfandikukat yi",
+        "label": "Kan moo ci am?",
+        "helper": "Kan la loolu di dimbali?",
+        "required": true
+      },
+      {
+        "kind": "àdduna bi",
+        "name": "extraContext",
+        "label": "Jëfandikukat extra",
+        "helper": "Jàppleel lenn lu ci gën a jariñoo ngir firndeel soxla bi: lu tax mu am solo, ay misaal, ay teggin, ab xalaat bu baaxul ci software bi, walla ay diir yu néew."
+      },
+      {
+        "kind": "tànn",
+        "name": "openSourceConsent[Soppi • soppi gongikuwaay bi]",
+        "label": "Dafa baax ci jëfandikoo mbind mu ubbeeku?",
+        "helper": "Jëfekaay yi ñu nangu ñooy dencukaay yu nekk ci biir IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Waaw",
+          "Déedéet",
+          "Xamuma léegi"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Su ñu ko nangu",
+      "title": "Li nangu di tekki"
+    },
+    "items": [
+      "ab dencukaay bu nekk ci mbootaayu GitHub bu IATF",
+      "jàngalekat bu ñu jagleel ci liggéey bi",
+      "ab copyleft license ngir kod bi ak jumtukaay yi ci porojek bi",
+      "jëfandikukat yi nekk ci dencukaay bi",
+      "benn téere bu ñu bind ci bérab bu IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tàmbali waxtaan bi",
+      "title": "Jëfandikoo ab laaj bu gàtt, bu leer, doy na ngir tàmbalee"
+    },
+    "paragraphs": [
+      "Su fekkee am nga soxla ju am solo ci wàllu wàll gi, te xalaat nga ne loolu war na nekk ab jëfekaay bu askan wi di jëfandikoo, yónnee ko ci nun."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

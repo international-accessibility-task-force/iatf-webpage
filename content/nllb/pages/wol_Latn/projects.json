@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Jëfandikoo jëfandikukat yi",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Jëfandikoo jëfandikukat yi",
+    "lead": "Jëfandikukat bii dafay téye ay jëfekaay yu ñuy toppatoo ci IATF. Jëfekaay yi ñu nangu ci wàllu wàllug jëfandikukat yi, ak jëfekaayi jëfandikukaay yi ak prototype yi ñu denc nañu fi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Jëfandikukat",
+      "title": "Jëfandikukat bii nekk"
+    },
+    "intro": [
+      "Jëfekaay yi ñu nangu, ñu ngi leen bind fii, saa su ñu leen siiwal."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Jëfandikoo ab soxla",
+      "title": "Jëfandikoo ab soxla bu am solo ci wàllu wàllug mën-mën ngir def ko ab jëfekaay bu jëm ci askan wi"
+    },
+    "paragraphs": [
+      "IATF dafay ràññee ay soxla yu am solo ci wàllu dawaan yu mën a soppi ci liggéey bu am njariñ bu ñu mën a jëfandikoo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Amul benn pexe bu ñu siiwal ba léegi",
+    "paragraphs": [
+      "IATF dafay defar ay jëfekaay yu jëkk yu ñuy wax \"public project set\".",
+      "Mën nga sax a yónnee ab laaj su fekkee am nga ay soxla yu am solo ci wàllu dawaan."
+    ]
+  }
+}
