@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Joinim IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Joinim IATF",
+    "lead": "I gat planti rot bilong insait long dispela, maski yu mekim wok long ol teknoloji bilong helpim, wokim program bilong helpim ol man, trensletim, traim, o lukautim wanpela projek. Ol toktok na ol disisen i save kamap long ples klia long GitHub na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ol wok",
+      "title": "Ol rot bilong givim kontribiusen"
+    },
+    "items": [
+      "<strong>Askim long wanpela projek.</strong> Sapos yu bungim wanpela hevi we open source program inap stretim, yu ken salim dispela askim i go long hap bilong kisim ol askim.",
+      "<strong>Skelim na skelim gen.</strong> Traim ol projek bilong IATF wantaim ol nupela teknoloji yu save yusim, toksave long ol samting i wok na ol narapela samting i no wok, na putim ol hevi i go stret long ples bilong putim ol samting.",
+      "<strong>Trensletim tok.</strong> Ol i save kamapim ol tok long tok Inglis pastaim, na ol i save tanim ol tok taim ol man i gat laik long mekim wok bilong ol, kirap long tok Spen.",
+      "<strong>Mekim ol samting.</strong> Painim ol hevi long olgeta IATF repository, salim ol askim bilong pulim ol samting, o mekim wanpela projek olsem risensel enjinia bilong en.",
+      "<strong>Mekim olsem.</strong> Sampela taim ol projek i gat wok long en i mas i gat nupela man bilong lukautim ol samting."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Ol Channel",
+      "title": "Taim IATF i wok long ples klia"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Ol askim, ol toksave, na ol rekod bilong projek.",
+      "<strong>Pasin bilong tok pait.</strong> Toktok long ol samting i kamap, stretim gut ol samting, na kamapim ol askim.",
+      "<strong>E-meil.</strong> Yusim <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> sapos GitHub na Discord i no pas wantaim."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Narapela samting yu mas mekim",
+      "title": "Makim chanel em yu laik givim kontribiusen long en"
+    },
+    "paragraphs": [
+      "Olgeta nius i save go long wankain ples bilong ol man i ken lukim na kisim save long en."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

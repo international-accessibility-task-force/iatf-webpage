@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Pasin bilong bosim ol samting na pasin bilong putim ol tok i go long ol narapela",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Pasin bilong bosim ol samting na pasin bilong putim ol tok i go long ol narapela",
+    "lead": "IATF i save mekim ol projek bilong helpim ol man long kliagut long ol tok bilong Baibel, ol i ken ritim gut, na ol man i ken lukautim gut.",
+    "support": [
+      "Dispela pes i stori long wanem ol samting i stret long kisim, olsem wanem ol i save holim ol buk, na wanem wok ol i mas mekim bihain long ol i kisim ol buk."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Ol Lo",
+      "title": "Wok bilong en i stret, em i bilong husat, na em i gat rait long mekim dispela wok"
+    },
+    "cards": [
+      {
+        "title": "Em i stret long mekim wok",
+        "paragraphs": [
+          "IATF i save orait long ol wok em ol i mekim bilong stretim ol hevi i save pasim rot bilong ol man long kisim save long ol buk na nius, na ol i gat bikpela helpim long ol man.",
+          "Wanpela projek i mas mekim gut wok bilong em, na em i no ken stap olsem wanpela wokflow bilong em yet tasol, nogat, em i mas i stap olsem ples bilong ol man long kisim save long ol samting.",
+          "IATF i mekim wok long Web bilong helpim ol man long kliagut long ol samting ol i laik save long en. [W3C WAI](https://www.w3.org/WAI/) Na tu, ol samting ol man i mekim long ol dispela samting i kamapim klia ol samting i wok tru."
+        ]
+      },
+      {
+        "title": "Ol i tok orait long projek",
+        "paragraphs": [
+          "Ol i ken orait long wanpela propesen sapos ol i skelim na i luk olsem:"
+        ],
+        "items": [
+          "em i helpim ol man long i go klostu long ol narapela",
+          "hevi i klia tumas na yu inap skelim",
+          "mak i stret long mekim wok",
+          "wok i stret wantaim wok bilong IATF",
+          "i gat rot bilong mekim wok bilong lukautim o pinisim"
+        ]
+      },
+      {
+        "title": "Ol lain i gat wok long lukautim ol data",
+        "paragraphs": [
+          "Ol projek em IATF i orait long en ol i kamap aninit long GitHub oganaisesen.",
+          "Ol dispela haus i stap long dispela hap, olsem na olgeta wan wan projek i stap olsem haus bilong ol man, maski bihain ol man bilong lukautim ol i senis."
+        ]
+      },
+      {
+        "title": "Pasin Bilong Givim Lisens",
+        "paragraphs": [
+          "Ol projek bilong IATF i save yusim kopilef laisens, sapos wanpela projek i no tok narapela:"
+        ],
+        "items": [
+          "<strong>Kod:</strong> AGPL-3.0",
+          "<strong>Ol buk na nius:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Enjinia o man bilong lukautim ol samting",
+      "paragraphs": [
+        "Olgeta projek ol i orait long en i mas i gat wanpela man o meri i gat wok bilong lukautim ol dispela projek."
+      ],
+      "items": [
+        "helpim ol man long kisim save long ol samting",
+        "mekim wok long ol buk na nius bilong helpim ol man long kisim save long ol samting",
+        "skelim o stretim ol samting na kisim ol askim",
+        "raitim ol bikpela disisen bilong ol",
+        "helpim ol narapela long kliagut long wok"
+      ],
+      "footnote": "Dispela em i wok bilong ol lain i stap insait long IATF. Ol i gat wok long lukautim na stretim ol samting long sait bilong wok, na ol i mas wok gut wantaim ol narapela lain, tasol ol i no ken mekim wok long ol samting ol yet i makim bilong mekim."
+    },
+    "publicDevelopment": {
+      "title": "Wok bilong helpim ol man",
+      "paragraphs": [
+        "Ol projek i kamap long rot bilong IATF i save kamap long ples klia."
+      ],
+      "items": [
+        "Sous kod",
+        "ol samting",
+        "ol buk na nius",
+        "Ol tok i stap long roadmap",
+        "stori bilong ol samting i bin kamap"
+      ],
+      "footnote": "Ol bikpela save bilong projek i no ken stap tasol long ol chat o inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ol buk na nius bilong ol man",
+      "title": "Ol rekot bilong ol askim bilong ol man"
+    },
+    "paragraphs": [
+      "Ol askim i go insait long IATF long rot bilong websait, email, Discord, GitHub, o ol narapela rot bilong iATF i ken kamap ol rekod bilong ol askim i stap long ples klia.",
+      "IATF inap mekim sumatin, redaktim, o stretim gen wanpela askim paslain long ol i pablisaim, na bai ol i ken skelim ol samting ol i laik bai ol man i ken save long en, na ol i no ken kamapim ol samting bilong ol yet.",
+      "Ol rekot bilong ol askim bilong ol man i ken stap long IATF GitHub oganaisesen, long dispela websait, o long tupela wantaim.",
+      "Paslain long ol i kamapim ol dispela toksave, IATF i save rausim ol samting i no gat wok long en bilong ol man i ken toktok wantaim ol narapela, ol adres bilong ol yet, na ol samting bilong luksave long ol wan wan man i save yusim ol dispela teknoloji bilong helpim ol man long mekim wok, sapos i no klia olsem ol i laik kamapim na i stret long mekim olsem.",
+      "IATF i no save arkim ol toktok insait long Discord, na Discord i save lukautim ol dispela toktok. Ol disisen ol i mekim insait long Diskord i mas i stap long GitHub o long pes bilong projek.",
+      "Ol rekod bilong askim i no insait long wok bilong painim long rot bilong ol enjin bilong painim ol samting, long wanem, ol dispela samting i stret long mekim. Ol samting i stap long ples klia i makim olsem ol i ken skelim na skelim ol samting ol i bin mekim. Em i no makim olsem dispela ol samting i gutpela tru bilong ol man i ken painim taim ol i wok long painim nem bilong ol samting.",
+      "IATF inap stretim o rausim ol rekod long ol pablik sait em IAT F i save bosim, tasol em i no inap garantim olsem ol bai rausim long third-party caches, notifications, forks, screenshots, search engines, Discord, o ol narapela sistem.",
+      "Sapos yu laik bai ol tok bilong yu i mas i stap olsem samting bilong yu yet, orait yu no ken salim long rot bilong IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Wok bilong oganaisesen",
+      "title": "Sios"
+    },
+    "lead": "Dispela i narapela kain long wok bilong ol lain i save lukautim ol projek: em i gat wok long lukautim oganaisesen olgeta, na em i no gat wok bilong stiaim ol samting i kamap long olgeta wan wan de.",
+    "duties": {
+      "title": "Wok bilong sia",
+      "items": [
+        "Makim ol loa bilong papa long IATF GitHub oganaisesen",
+        "Sainim tok orait long projek na ol disisen long putim long arkip",
+        "Em i save mekim wok olsem pablik kontakti bilong IATF",
+        "Lukautim wok bilong makim ol man bilong mekim wok long olgeta yia"
+      ],
+      "footnote": "Dispela siaman i no gat wok long IATF long salim ol samting long ol narapela, o baim ol wok bilong ol, o ol kontrak long sait bilong sevis, na em i no inap daunim ol disisen bilong ol man i lukautim olgeta wan wan repository long ol samting ol i mas mekim bilong stiaim wok."
+    },
+    "election": {
+      "title": "Ol i save makim wanpela long olgeta yia",
+      "paragraphs": [
+        "Ol i save makim em wanpela taim long olgeta yia, long ol namba wan tupela wik bilong Disemba, na ol i save tokaut long ol samting i kamap long Disemba 15, na nupela taim bilong em i kirap long Janueri 1.",
+        "Ol man i gat rait long vout em ol manmeri husat i bin holim wanpela wok bilong lukautim long wanpela IATF repository long dispela yia na ol i bin mekim wanpela wok insait long wanpela repoteri bilong Iatf long yia i go pinis. Wanwan voter i gat wanpela vout. Kandida i gat planti vout i win; sapos i gat wankain vout, bai i gat narapela vout long namba tri wik bilong Disemba.",
+        "Ol ileksen i kamap olsem wanpela pablik toktok long GitHub long IATF, olsem na ol kandidet, vout, na resulta i stap long pablik rekot."
+      ]
+    },
+    "continuity": {
+      "title": "Wok i Go Yet",
+      "paragraphs": [
+        "Sapos i no gat wanpela ileksen i kamap long wanpela yia, presiden i mekim yet wok bilong em i go inap long narapela ileksen.",
+        "Na tu, ol man i gat wok long mekim wok bilong ol inap singautim ol man long mekim narapela kain ileksen, na ol i ken tokaut long risen bilong en, na dispela ileksen i mas bihainim wankain lo olsem ol ileksen ol i save mekim long olgeta yia."
+      ]
+    },
+    "current": {
+      "title": "Nau em i stap olsem siaman",
+      "fields": [
+        {
+          "label": "Sios",
+          "value": "ples bilong ol man i dai pinis",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tok",
+          "value": "I go inap long Disemba 2026 ileksen"
+        },
+        {
+          "label": "Wok bilong em i kamap ples klia",
+          "value": "2026"
+        },
+        {
+          "label": "Namba wan taim ol i makim",
+          "value": "Disemba 2026"
+        }
+      ]
+    },
+    "footnote": "Long yia 2026 ol i mekim wok olsem siaman bilong wanpela oganaisesen."
+  },
+  "continuity": {
+    "states": {
+      "title": "Ol samting i kamap long projek",
+      "paragraphs": [
+        "Ol projek i mekim wok long liklik lain bilong gavman:"
+      ],
+      "items": [
+        "Tok Pisin",
+        "Ol i orait long en",
+        "Mekim wok",
+        "Ol i stap gut",
+        "Painim man bilong lukautim",
+        "Ol i putim long arkip"
+      ],
+      "footnote": "Ol dispela kantri i mekim na i no hatwok long kisim save long ol samting i stap long buk."
+    },
+    "reassignment": {
+      "title": "Ol i putim gen long narapela hap na putim long arkip",
+      "paragraphs": [
+        "Sapos wanpela man bilong lukautim wok i lusim wok o em i no mekim wok moa, IATF inap makim narapela man long mekim wok, pasim wok, o putim dispela wok long arkip.",
+        "Na tu, taim ol i pinisim wok bilong stretim wanpela projek, o ol i no inap mekim wok moa, ol i ken putim dispela wok long arkip."
+      ],
+      "footnote": "Ol projek ol i bin putim long arkip i stap long ai bilong ol man, sapos i no gat wanpela bikpela as na ol i no ken mekim olsem."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Tok i stap long mak",
+      "title": "Ol samting IATF i no inap tok orait long en"
+    },
+    "items": [
+      "salim ol samting i go long ol man bilong narapela kantri",
+      "ol kontrak bilong mekim wok",
+      "orait long olgeta tok",
+      "long-term maintenance bilong olgeta projek"
+    ],
+    "footnote": "IATF em wanpela pablik repozitori, na i no wanpela sevis bilong salim ol samting i go long ol man."
+  }
+}

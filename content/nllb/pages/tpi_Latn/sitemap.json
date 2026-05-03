@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Sitemap",
+    "lead": "Olgeta pes bilong iatf.cc i stap long wanpela hap."
+  },
+  "sections": [
+    {
+      "title": "Ol bikpela pes",
+      "items": [
+        {
+          "label": "Long Haus",
+          "href": "/"
+        },
+        {
+          "label": "Ol Projek",
+          "href": "/projects/"
+        },
+        {
+          "label": "Askim long wanpela projek",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gavman",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kam insait",
+          "href": "/join/"
+        },
+        {
+          "label": "Ol Man Inap Kisim Tok",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Pasin bilong kamapim ol samting long ples klia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Ol Projek",
+  "projectsEmpty": "I no gat wanpela projek i kamap yet."
+}

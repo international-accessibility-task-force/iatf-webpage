@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ol man i mas i gat rot long baim ol samting long ol narapela kantri",
+    "lead": "IATF i save helpim ol asosiesen, ol grup, na ol man wan wan long tanim ol samting ol i nidim i kamap olsem open source projek.",
+    "support": [
+      "Ol projek em IATF i orait long en ol i save kamap long GitHub oganaisesen aninit long wanpela kopilef lisens na wanpela ensinia i gat wok long kamapim ol long ples klia."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Pasin bilong mekim wok bilong gavman",
+      "title": "Wanpela gutpela rot bilong ol man long kisim ol program bilong kompiuta"
+    },
+    "paragraphs": [
+      "Long rot bilong wanpela fom, olgeta man i ken putim wanpela hevi long IATF. Sapos tim i ken mekim dispela wok, ol bai opim wanpela pablik GitHub ples bilong putim ol dispela samting.",
+      "Olgeta projek em ol i orait long en, ol i gat wanpela ples bilong ol man i ken lukim kod, ol samting ol i wokim, ol pepa, na ol tok ol i kamapim, na wanpela ensinia i gat wok long stiaim wok bilong ol."
+    ],
+    "specCard": {
+      "title": "Pasin bilong mekim wok bilong gavman",
+      "terms": [
+        {
+          "term": "Ol i nidim",
+          "definition": "Trupela hevi bilong i go long ol narapela hap"
+        },
+        {
+          "term": "Skelim Bek",
+          "definition": "Em i stret long mekim wok bilong en na em inap tru long mekim dispela wok"
+        },
+        {
+          "term": "Ples bilong projek",
+          "definition": "Pablik GitHub repozitori"
+        },
+        {
+          "term": "Wok Bilong Lukautim Gut Ol Samting",
+          "definition": "IATF oganaisesen bilong ol yet"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Wok i Kamap",
+      "title": "Em i wok olsem wanem?",
+      "intro": "Dispela piksa i stap liklik tru, olsem na i no hatwok long bihainim rot bilong ol man."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ol i tok ol i mas kisim helpim",
+        "paragraphs": [
+          "Wanpela asosiesen, grup, o wan wan man i ken putim askim bilong helpim ol man i gat bikpela nid long kisim save long ol tok bilong Baibel.",
+          "Yu ken salim ol askim bilong yu long Web-sait, o yu ken salim e-mail i go long <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o long rot bilong Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF i skelim",
+        "paragraphs": [
+          "Mipela i skelim olsem dispela wok i stret long mekim, em inap long mekim wok bilong yumi, na em i insait long wanpela open source projek o nogat."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ol i wokim wanpela pablik repozitori (public repository)",
+        "paragraphs": [
+          "Sapos ol i orait long wanpela projek, ol i save kamapim long IATF GitHub oganaisesen aninit long wanpela kopilef lisens.",
+          "Dispela haus i kamap ples bilong ol man i ken lukim ol kod, ol tok bilong Baibel, ol pepa, na ol tok ol i kamapim."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Enjinia i gat wok long stiaim wok",
+        "paragraphs": [
+          "Ol i makim wanpela enjinia bilong lukautim dispela wok, na ol i mekim wok long ples klia."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejis",
+      "title": "Ol pablik projek rejis"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kirap long hia",
+      "title": "Kisim save long ol wok yu mekim o kirapim wanpela wok"
+    },
+    "paragraphs": [
+      "Yu ken yusim dispela buk long lukim ol samting em ol man i save pinis long en, o yu ken kirap long kisim ol samting sapos wanpela hevi i kamap na yu laik mekim wok painimaut long en."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

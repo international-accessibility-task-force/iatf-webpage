@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ol i no painim"
+  },
+  "hero": {
+    "eyebrow": "Ol i no painim",
+    "title": "Ol i no painim pes yu askim long en",
+    "lead": "Yu mas bihainim ol bikpela rot i stap daunbilo na go bek long ples bung.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Long Haus",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Rot yu bin askim long en i no stap."
+    ],
+    "items": [
+      {
+        "label": "Long Haus",
+        "href": "/"
+      },
+      {
+        "label": "Ol Projek",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kam insait",
+        "href": "/join/"
+      },
+      {
+        "label": "Ol Man Inap Kisim Tok",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gavman",
+        "href": "/governance/"
+      },
+      {
+        "label": "Pasin bilong kamapim ol samting long ples klia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

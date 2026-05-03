@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Websait bilong IATF",
+    "summary": "Web-sait bilong International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF i mas i gat wanpela ples bilong ol man i ken i stap long en, we ol i ken stori long ol samting ol i mas mekim, raitim lista bilong ol projek, na tokim ol lain i laik helpim ol long mekim ol samting i stret long mekim.",
+    "why": "Dispela sait em i bikpela dua bilong IATF, na ol i wokim olsem wanpela liklik projek, olsem na em i isi long ritim, trensletim, na lukautim long ples klia.",
+    "scopeIn": [
+      "Ol pes bilong ol man i ken go long en we i stori long IATF model",
+      "Pablik rejista bilong ol projek bilong IATF em ol i orait long en, ol i wok yet, na ol i stap long arkip wantaim status, man bilong lukautim, ples bilong putim ol samting, na piksa bilong projek",
+      "Wanpela pes bilong kisim ol askim na wanpela fom",
+      "Ol pes bilong gavman na pasin bilong kamapim ol samting long ples klia",
+      "Baibel long tok Inglis i redi long tanim",
+      "Static deployment long Cloudflare Workers Static Asets"
+    ],
+    "scopeOut": [
+      "Ol hap bilong ol memba, ol akaunt, o ol log-in flows",
+      "Hosting bilong project source kod, em i stap long wanwan projek's own repository",
+      "Toktok long taim stret, em i stap long Discord",
+      "Wok bilong painim ol hevi bilong ol wanwan projek, em i stap long GitHub repozitori bilong wan wan projek"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Wanpela IATF prototaip, ol i putim long arkip taim ol i kamap long wanpela hap we ol i no inap ron moa.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Ol i mekim wok painimaut long wanpela tul bilong helpim ol man long i go long ol narapela kantri, em IATF i as bilong en.",
+    "why": "Ol i save putim ol dispela samting long ples klia bilong ol man i ken lukim, maski ol i no mekim wok moa long en.",
+    "scopeIn": [
+      "Pastaim ol i wokim piksa bilong wanpela tul bilong helpim ol man long kliagut long ol tok bilong Baibel"
+    ],
+    "scopeOut": [
+      "Wok bilong kamapim o kamapim ol nupela samting",
+      "Ol wok bilong lukautim pikinini",
+      "Rekomendabel long yusim long wokim ol samting"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Wanpela IATF komiuniti bot, arkim bihain long em i kamap long wanpela natural stop point.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ol i mekim ol samting long rot bilong ol lain bilong IATF.",
+    "why": "Ol i save putim ol dispela samting long ples klia bilong ol man i ken lukim, maski ol i no mekim wok moa long en.",
+    "scopeIn": [
+      "IATF komiuniti kanal i save kamapim ol tok pait long rot bilong ol kompiuta, na ol i save putim ol dispela tok long pablik rekot"
+    ],
+    "scopeOut": [
+      "Wok bilong kamapim o kamapim ol nupela samting",
+      "Ol wok bilong lukautim pikinini",
+      "Rekomendabel long yusim long wokim ol samting"
+    ]
+  }
+]

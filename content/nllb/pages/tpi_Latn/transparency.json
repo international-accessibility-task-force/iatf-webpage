@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Pasin bilong kamapim ol samting long ples klia",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Pasin bilong kamapim ol samting long ples klia",
+    "lead": "IATF i save wok long ples klia. Ol disisen bilong projek, senis bilong kod, senis long gavman, na pe bilong wok i save stap long ol ples bilong ol man. Dispela pes i kolim ples we olgeta kain rekod i stap long en na olsem wanem ol i ken ritim.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Ol Rekod",
+      "title": "Ples we ol rekod i stap long en"
+    },
+    "items": [
+      "<strong>Ol disisen bilong projek.</strong> Ol i save raitim ol tok long ol samting ol i bin mekim long taim ol i kisim dispela tok, na ol i save bungim ol dispela tok long wanpela buk bilong ol man. <a href=\"/projects/\">rait bilong ol</a>Ol i no save mekim olsem.",
+      "<strong>Askim long kisim ol rekod.</strong> Ol pablik rekod bilong askim i stap long IATF GitHub oganaisesen, long dispela websait, o long tupela wantaim. Ol rekod i ken sumarim, redaktim, o stretim gen as bilong askim, olsem na ol i ken sekim dispela askim na no gat wok long kamapim ol samting bilong ol yet. Ol disisen bilong tok pait i save stap long pablik ripot taim ol i putim hevi long wanpela projek o disisen long gavman. Ol ripot bilong askim ol i no insait long wok painimaut bilong en. Lukim ol rekod: namba wan askim bilong pablikesen i wet i stap.",
+      "<strong>Kod i senis.</strong> Olgeta kod senis em wanpela pablik commit long rispoteri i stret. Lukim IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub oganaisesen</a>Ol i no save mekim olsem.",
+      "<strong>Ol senis i kamap long wok bos.</strong> Ol senis i kamap long sait bilong gavman ol i save lukim taim ol i mekim wok long dispela websait. <code>Web-sait bilong IATF</code> Lukim ol <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">raitim stori</a> long GitHub.",
+      "<strong>Ol kos bilong mekim wok.</strong> IATF i save mekim ol wok bilong ol i no gat bikpela pe bilong en, na ol i save raitim ol samting ol i mas mekim long ol samting bilong ol.",
+      "<strong>Ol not bilong koordinesen.</strong> Ol not long olgeta wok bilong skelim o disisen i stap long GitHub Discussions on the relevant repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Ol Toktok</a> long <code>Web-sait bilong IATF</code> ples bilong putim ol samting."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Ol Kos",
+      "title": "Rekot bilong ol pe bilong mekim wok"
+    },
+    "paragraphs": [
+      "IATF i save lukautim ol samting bilong ol pipol long ol liklik samting tasol. stat long 2022, ol bikpela pe bilong wok em ol domain nem. Hosting i save yusim free-tier o low-cost infrastuktur we em inap.",
+      "Dispela rekot i no wanpela ripot bilong ol mani em ol i bin skelim, nogat, em i wanpela buk bilong ol samting ol man i save yusim bilong lukautim ol samting bilong IATF."
+    ],
+    "footnote": "Ol risit i no stap long ol buk na nius bilong gavman, na ol i no save raitim nem bilong ol man i bin kisim ol risit.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Tok Pisin",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Pe Bilong En",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Ol Not",
+            "value": "Domain cost i kisim mani long mugiwarafx. Hosting i yusim free-tier o low-cost infrastructure long rot bilong Cloudflare. Projek i lusim Vercel na i go long Cloudflares na i stat long yusim sotpela <code>iatf.cc</code> hap bilong graun."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Tok Pisin",
+            "value": "<code>ol narapela kantri i no inap kisim ol buk na nius long Tok Pisin</code>"
+          },
+          {
+            "label": "Pe Bilong En",
+            "value": "18.68 dola bilong Amerika"
+          },
+          {
+            "label": "Ol Not",
+            "value": "Domain cost em mugiwarafx i givim mani long en. Hosting i yusim free-tier or low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Tok Pisin",
+            "value": "<code>ol narapela kantri i no inap kisim ol buk na nius long Tok Pisin</code>"
+          },
+          {
+            "label": "Pe Bilong En",
+            "value": "17.06 dola bilong Amerika"
+          },
+          {
+            "label": "Ol Not",
+            "value": "Domain cost em mugiwarafx i baim. Hosting i yusim free-tier or low-cost infrastructure long Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Tok Pisin",
+            "value": "<code>ol narapela kantri i no inap kisim ol buk na nius long Tok Pisin</code>"
+          },
+          {
+            "label": "Pe Bilong En",
+            "value": "14.76 dola bilong Amerika"
+          },
+          {
+            "label": "Ol Not",
+            "value": "Domain cost em mugiwarafx i givim mani long en. Hosting i yusim free-tier or low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Tok Pisin",
+            "value": "<code>ol narapela kantri i no inap kisim ol buk na nius long Tok Pisin</code>"
+          },
+          {
+            "label": "Pe Bilong En",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Ol Not",
+            "value": "Domain cost em mugiwarafx i givim mani long en. Hosting i yusim free-tier or low-cost infrastructure long rot bilong GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Tok i stap long mak",
+      "title": "Ol samting i no stap long ai bilong ol man"
+    },
+    "paragraphs": [
+      "Sampela samting i no stap long ol buk na nius bilong ol man, long wanem, ol i laik:"
+    ],
+    "items": [
+      "Toksave bilong ol man i laik mekim wok.",
+      "Ol i save raitim pas bilong helpim ol man long kliagut long samting ol i askim ol long en paslain long ol i orait long en, o tok nogat, o kamapim sotpela tok long en.",
+      "Adres, namba fon, na ol narapela samting bilong yu yet.",
+      "Olgeta samting we inap kamapim nem bilong man i yusim ol samting bilong helpim man taim em i no tok orait long en.",
+      "Raw Discord toktok, sapos wanpela tok i go insait long wanpela pablik projek rekot."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ritim moa",
+      "title": "Pasin bilong bosim ol samting em i as bilong ol dispela rekod"
+    },
+    "paragraphs": [
+      "Sapos yu laik save long olsem wanem ol i save orait long ol projek, putim long arkip, o makim ol narapela wok, ritim pes bilong gavman."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

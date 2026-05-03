@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Ol projek bilong helpim ol man long kisim save",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Ol projek bilong helpim ol man long kisim save",
+    "lead": "Dispela rejista i kamapim lista bilong ol pablik projek em IATF i save lukautim.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejis",
+      "title": "Ol buk i stap long nau"
+    },
+    "intro": [
+      "Ol projek ol i orait long en ol i stap long hia taim ol i kamap long nius."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Toksave long ol samting yu nidim",
+      "title": "Mekim wanpela bikpela wok bilong helpim ol man long i go long ol narapela hap"
+    },
+    "paragraphs": [
+      "IATF i save skelim ol samting ol i mas mekim bilong helpim ol man long kliagut long ol tok bilong Baibel."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "I no gat wanpela projek i kamap yet",
+    "paragraphs": [
+      "IATF i redim namba wan projek bilong em.",
+      "Yu inap salim askim sapos yu gat wanpela samting yu nidim."
+    ]
+  }
+}

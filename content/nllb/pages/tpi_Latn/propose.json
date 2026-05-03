@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Askim long wanpela projek bilong helpim ol man long i go long ol narapela hap",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Askim long wanpela projek bilong helpim ol man long i go long ol narapela hap",
+    "lead": "IATF i save skelim ol askim i kam long ol projek bilong helpim ol man long i go long ol buk na nius samting.",
+    "support": [
+      "I no gat wok long stori long olgeta samting, tasol yu mas save gut long dispela hevi, em bai painim husat, na bilong wanem em i bikpela samting."
+    ],
+    "actions": [
+      {
+        "label": "Kirapim wanpela askim",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Yusim Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Ol Channel",
+      "title": "Makim rot i no hatwok long bihainim"
+    },
+    "intro": [
+      "Olgeta rot i insait long wankain wok painimaut."
+    ],
+    "items": [
+      {
+        "label": "Websait",
+        "body": "Yu ken yusim fom i stap daunbilo long salim askim bilong yu."
+      },
+      {
+        "label": "E-meil bilong yu",
+        "body": "salim askim i go stret long {{contact.requestsEmail}}Ol askim bilong e-meil inap kamap ol rekod bilong ol askim bilong ol man bihain long ol i skelim na redim ol."
+      },
+      {
+        "label": "Pasin bilong Toktok Nogut",
+        "body": "Kirap long dispela hap sapos i no hatwok long mekim olsem."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Paslain long yu salim askim",
+    "paragraphs": [
+      "IATF i save mekim wok long ples klia. Ol askim i ken bungim na pablisaim olsem ol rekod bilong ol askim i stap long GitHub, long dispela websait, o long tupela wantaim.",
+      "No ken raitim ol atres, fon namba, nem bilong ol dokta, o ol narapela infomesen long ol man i yusim ol dispela samting, sapos i no gat wok long mekim olsem na yu orait long IATF i ken skelim.",
+      "IATF i save rausim ol samting i no gat wok long en bilong ol man i ken toktok wantaim ol paslain long ol i kamapim ol rekod bilong ol askim bilong ol."
+    ]
+  },
+  "review": {
+    "title": "Skelim Ol Samting Ol Man i Laik Kisim",
+    "paragraphs": [
+      "Sapos yu givim wanpela askim, dispela i no makim olsem ol bai orait long en.",
+      "IATF i save skelim ol samting ol i askim long en, olsem ol dispela samting i stret long mekim wok bilong ol, o ol i gutpela samting long mekim, na ol i laik save, dispela wok i bilong ol man o nogat.",
+      "Ol i ken tok nogat long sampela samting ol i askim long en, o ol i ken surikim, o stretim sampela samting paslain long ol i orait long en."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Buk bilong askim",
+      "title": "Submitim wanpela askim"
+    },
+    "fields": [
+      {
+        "kind": "tok i go insait",
+        "name": "man i askim",
+        "label": "Nem o oganaisesen bilong yu",
+        "helper": "Husat i mekim dispela askim?"
+      },
+      {
+        "kind": "makim",
+        "name": "Kontek Rot",
+        "label": "Gutpela rot bilong toktok wantaim ol narapela",
+        "helper": "Olsem wanem ol i ken skelim ol dispela samting?",
+        "required": true,
+        "options": [
+          "E-meil bilong yu",
+          "Pasin bilong Toktok Nogut"
+        ]
+      },
+      {
+        "kind": "tok i go insait",
+        "name": "KontekTingting",
+        "label": "Kontektim ol",
+        "helper": "E-mail adres o Discord adres bilong yu long bihainim.",
+        "placeholder": "E-mail adres o nem bilong Discord",
+        "required": true
+      },
+      {
+        "kind": "tok i go insait",
+        "name": "tokples",
+        "label": "Tok Pisin",
+        "helper": "Tok yu laikim, sapos i stret.",
+        "value": "Tok Inglis"
+      },
+      {
+        "kind": "tok ples",
+        "name": "hevi",
+        "label": "Yu laik stretim wanem hevi?",
+        "helper": "Stori long ol samting i pasim rot bilong yu long autim tok.",
+        "required": true
+      },
+      {
+        "kind": "tok ples",
+        "name": "ol man i kisim hevi",
+        "label": "Dispela i mekim wanem long husat?",
+        "helper": "Dispela bai helpim husat?",
+        "required": true
+      },
+      {
+        "kind": "tok ples",
+        "name": "extraKontekst",
+        "label": "Sampela stori moa",
+        "helper": "Stori long ol narapela samting we inap helpim yu long kliagut long samting yu mas mekim: as na em i bikpela samting, ol eksampel, ol riferens, wanpela tingting bilong program, o taim bilong mekim ol samting."
+      },
+      {
+        "kind": "makim",
+        "name": "openSourceConsent",
+        "label": "Yu amamas long mekim wok painimaut long ol samting i stap long kompiuta?",
+        "helper": "Ol projek em IATF i orait long en, ol i bilong ol man i ken save long en.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Yes",
+          "Nogat",
+          "Mi no save yet"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Sapos ol i orait long en",
+      "title": "Wanem mining bilong tok orait"
+    },
+    "items": [
+      "wanpela pablik repozitori insait long IATF GitHub oganaisesen",
+      "wanpela ensinia i gat wok long mekim wok long dispela projek",
+      "copyleft laisens bilong kod na ol samting bilong projek",
+      "wok bilong kamapim long ples bilong putim ol buk",
+      "wanpela rait long IATF websait"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Statim toktok",
+      "title": "Wanpela sotpela askim tasol i inap long kirapim wok"
+    },
+    "paragraphs": [
+      "Sapos yu pilim olsem yu mas helpim ol man long kisim save long ol tok bilong Baibel, yu ken salim dispela tok i go long mipela."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

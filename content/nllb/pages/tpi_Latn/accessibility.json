@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ol Man Inap Kisim Tok",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ol Man Inap Kisim Tok",
+    "lead": "IATF i laik bai dispela web-sait i no hatwok long ritim, em ol i ken yusim long keyboard, na em i stret wantaim ol nupela teknoloji.",
+    "support": [
+      "IATF i mekim wok long Web bilong helpim ol man long kliagut long ol samting ol i laik save long en. [W3C WAI](https://www.w3.org/WAI/) Na tu, ol samting ol man i mekim long ol samting bilong helpim ol man long kisim save, dispela i helpim ol long mekim wok bilong ol."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapim Ol Samting",
+      "title": "Rilakim wanpela hevi long pasin bilong i go long ol narapela"
+    },
+    "paragraphs": [
+      "Sapos yu lukim wanpela samting i pasim yu long i go long dispela web-sait, plis ripot long em long rot bilong e-meil:",
+      "{{contact.accessibilityEmail}}",
+      "Sampela gutpela ripot i olsem:"
+    ],
+    "items": [
+      "pes we dispela hevi i bin kamap",
+      "samting yu laik mekim",
+      "wanem kain teknoloji bilong helpim yu, browser, o masin yu bin yusim, sapos i stret",
+      "wanem samting i no stret?",
+      "wanem samting inap helpim yu"
+    ],
+    "footnote": "Yu no gat wok long raitim wanpela ripot bilong bug."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Mekim wok long en",
+      "title": "Mekim ol samting bilong helpim ol man"
+    },
+    "paragraphs": [
+      "Ol samting bilong helpim ol man long i go long ol buk na nius samting ol i ken kamapim long ples klia, olsem na ol man i ken stretim ol dispela samting. Ol i save rausim ol samting bilong ol man yet na ol narapela samting em ol i no gat wok long save long en paslain long ol i kamapim.",
+      "Sapos ripot bilong yu i stori long ol samting bilong yu yet, yu mas tokaut klia long dispela long tok yu raitim."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ol samting i kamap long nau",
+      "title": "Ol mak yumi save long en"
+    },
+    "paragraphs": [
+      "Sampela tokples bilong dispela websait i no stap olgeta taim ol i wok long tanim ol tok bilong en i go long narapela tokples."
+    ]
+  }
+}
