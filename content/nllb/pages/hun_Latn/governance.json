@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Kormányzás és adattármodell",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Kormányzás és adattármodell",
+    "lead": "Az IATF a hozzáférhetőségi projekteket nyilvánosan, olvashatóan és karbantarthatóan tartja.",
+    "support": [
+      "Ez az oldal elmagyarázza, hogy mi minősül, hogyan tartják a repozitóriumokat, és milyen repozitárius szintű felelősség vonatkozik az elfogadás után."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Szabályok",
+      "title": "Küldetésmegfelelőség, tulajdonjog, engedélyezés"
+    },
+    "cards": [
+      {
+        "title": "Küldetésre alkalmas",
+        "paragraphs": [
+          "Az IATF elfogadja azokat a munkákat, amelyek a hozzáférés valódi akadályát orvosolják, és nyilvánvaló közértéke van.",
+          "A projektnek hasznosnak kell lennie egy magán munkafolyamaton túl, és nyilvános adattárként is működőképesnek kell lennie.",
+          "A web-hozzáférhetőség érdekében az IATF [W3C WAI](https://www.w3.org/WAI/) A segítő technológiák felhasználóinak közvetlen tapasztalata is gyakorlati bizonyíték arra, hogy mi működik a valós használatban."
+        ]
+      },
+      {
+        "title": "A projekt elfogadása",
+        "paragraphs": [
+          "A javaslat akkor fogadható el, ha a felülvizsgálat kimutatja, hogy:"
+        ],
+        "items": [
+          "valós akadálymentesítési igényt kielégít",
+          "A probléma elég világos ahhoz, hogy felmérjük.",
+          "a hatókör elég reális ahhoz, hogy elindítsák",
+          "a munka összhangban áll az IATF küldetésével,",
+          "fennáll a karbantartáshoz vagy a befejezéshez vezető valószínű út"
+        ]
+      },
+      {
+        "title": "Adatbázis-tulajdon",
+        "paragraphs": [
+          "Az elfogadott projekteket az IATF GitHub szervezete hozza létre.",
+          "A raktárak ott maradnak, így minden projekt stabil közotthonot tart, még akkor is, ha a karbantartók később megváltoznak."
+        ]
+      },
+      {
+        "title": "Engedélyezési eljárás",
+        "paragraphs": [
+          "Az IATF projektek copyleft licenceket használnak, kivéve, ha a projekt másképp rendelkezik:"
+        ],
+        "items": [
+          "<strong>A kód:</strong> AGPL-3.0",
+          "<strong>Dokumentáció:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Felelős mérnök vagy karbantartó",
+      "paragraphs": [
+        "Minden elfogadott projektnek meg kell neveznie a felelős mérnököt vagy karbantartót. Ez a személy adminisztrációs hozzáférést kaphat a repozitóriumhoz, és várhatóan:"
+      ],
+      "items": [
+        "útmutató fejlesztése a nyilvánosság számára",
+        "a repozitórium szerkezetének karbantartása",
+        "a problémák felülvizsgálata vagy kezelése, valamint a kérelmek kivonása",
+        "fontos technikai döntések dokumentálása",
+        "a projekt másoknak is érthető legyen"
+      ],
+      "footnote": "Ez a repozitóriumi szintű felelősség. A szervezeti tulajdonjog az IATF-nél marad. Az itteni felelősség repositóriumi felügyelet, technikai irányítás és nyilvános koordináció  nem korlátlan magánszolgáltatás, testreszabott integrációk vagy a közútvonalon kívüli szolgáltatási szintű kötelezettségvállalások."
+    },
+    "publicDevelopment": {
+      "title": "Közfejlesztés",
+      "paragraphs": [
+        "Az IATF-en keresztül indított projektek alapértelmezés szerint nyilvánosan kerülnek kidolgozásra."
+      ],
+      "items": [
+        "forráskód",
+        "kérdések",
+        "dokumentáció",
+        "menetrend-megjegyzések",
+        "kiadási történelem"
+      ],
+      "footnote": "A fontos projekttudományt nem szabad csak privát csevegésekben vagy beérkező üzenetekben tárolni."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Nyilvános nyilvántartás",
+      "title": "Nyilvános kérelmek nyilvántartása"
+    },
+    "paragraphs": [
+      "Az IATF alapértelmezés szerint nyilvánosan működik. A weboldalon, e-mailben, Discordban, GitHubban vagy más IAT F csatornákon keresztül érkező kérések nyilvános kérési rekordokká válhatnak.",
+      "A nyilvános kérelem nyilvántartása nem feltétlenül az eredeti üzenet. Az IATF összefoglalhatja, szerkesztheti vagy szerkezetátalakíthatja a kérelmet a közzététel előtt, hogy a hozzáférhetőség igénye felülvizsgálható legyen anélkül, hogy felesleges személyes információkat fedne fel.",
+      "A nyilvános kérelmek nyilvántartásait az IATF GitHub szervezetében, ezen a honlapon vagy mindkettőben tárolhatják.",
+      "A nyilvánosságra hozatalt megelőzően az IATF eltávolítja a személyes kapcsolattartási adatokat, a magáncímeket és a segítő technológiák egyéni felhasználóira vonatkozó azonosító adatokat, kivéve, ha a közzététel egyértelműen szándékolt és helyénvaló.",
+      "A Discord-ot az informális koordinációhoz használják. Az IATF alapértelmezés szerint nem archiválja elkülönülten a Discord beszélgetéseket, és az üzenetek megőrzését a Discords vezérli. A Discordsban hozott döntéseket a GitHub-on vagy a vonatkozó projektoldalon nyilvános nyilvántartásba kell összefoglalni.",
+      "A keresőmotor indexelésétől kizárják a keresési rekordokat, ahol technikailag gyakorlatias. A nyilvános azt jelenti, hogy felülvizsgálható és elszámoltatható. Ez nem jelenti azt, hogy a névkeresés révén optimalizált.",
+      "Az IATF frissítheti vagy eltávolíthatja a nyilvános felületek adatait, de nem garantálhatja a harmadik fél által készített gyorsítótárakból, értesítésekből, forkokból, képernyőfelvételekből, keresőmotorokból, Discordból vagy más külső rendszerekből való eltávolítást.",
+      "Ha egy üzenetnek titkosnak kell maradnia, ne küldje el az IATF nyilvános csatornáin keresztül."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Szervezeti szerepe",
+      "title": "A szék"
+    },
+    "lead": "Az elnök az IATF szervezeti szintű irányítását látja el. Ez különbözik a projekt-felelősséggel rendelkező mérnök szerepétől: az elnök a szervezet egészéért felelős, nem pedig egyetlen repozitórium mindennapi irányításáért.",
+    "duties": {
+      "title": "Mit tesz a szék",
+      "items": [
+        "Tartja a tulajdonosok engedélyét az IATF GitHub szervezetén",
+        "A projekt elfogadására és az archiválásra vonatkozó határozatok aláírása",
+        "Az IATF nyilvános kapcsolattartó pontjaként működik",
+        "Az éves választásokat koordinálja."
+      ],
+      "footnote": "Az elnök nem kötelezi az IATF-et magánszolgáltatásra, fizetett munkavégzésre vagy szolgáltatási szintű megállapodásokra, és nem felülírja a repository-alapú karbantartói döntéseket a technikai irányításról."
+    },
+    "election": {
+      "title": "Éves választás",
+      "paragraphs": [
+        "Az elnököt évente egyszer választják. A választás december első két hetében tart, az eredményeket december 15-ig jelentik be, és az új ciklus január 1-jén kezdődik.",
+        "A jogosult szavazók azok az emberek, akik az év során bármely IATF repozitóriumban karbantartói szerepet töltöttek be, és az adott évben legalább egy egyesített hozzájárulást tettek az I AT F repozitáriumhoz.",
+        "A választás egy nyilvános GitHub vitaként zajlik a kijelölt IATF irányítási repozitóriumban, így a jelöltek, a szavazás és az eredmény mind a nyilvános nyilvántartás része."
+      ]
+    },
+    "continuity": {
+      "title": "Folyamatosság",
+      "paragraphs": [
+        "Ha egy adott évben nem tartanak választást, a jelenlegi elnök a következő választásig a szerepben marad. Ez egy határozatlan időre szóló folytatás, nem egy kegyelmi időszak  a modell célja, hogy a szervezetet stabilan tartsák, amikor a tevékenység alacsony, ne kényszerítsenek egy átmenetet, amelyre senki sem készen áll.",
+        "Az elnök bármikor lemondhat, az aktív karbantartók kijelentett indokkal rendkívüli választásokat is kiírhatnak, amelyek ugyanazon szabályok szerint zajlanak, mint az éves választások."
+      ]
+    },
+    "current": {
+      "title": "Jelenlegi elnök",
+      "fields": [
+        {
+          "label": "A szék",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Feltételek",
+          "value": "A 2026-as választásokig."
+        },
+        {
+          "label": "A szerepet hivatalossá tették.",
+          "value": "2026"
+        },
+        {
+          "label": "Első tervezett választás",
+          "value": "2026 december"
+        }
+      ]
+    },
+    "footnote": "Az elnöki szerepet 2026-ban hivatalossá tették, hogy a szervezeti szintű irányítást egyértelművé tegyék."
+  },
+  "continuity": {
+    "states": {
+      "title": "A projekt állomásai",
+      "paragraphs": [
+        "A projektek egy kis közállapotot használnak:"
+      ],
+      "items": [
+        "Javaslat",
+        "Elfogadták.",
+        "Aktív",
+        "Stabil",
+        "Fenntartó keresése",
+        "Archiválás"
+      ],
+      "footnote": "Ezek az államok megkönnyítik a nyilvántartás átvizsgálását."
+    },
+    "reassignment": {
+      "title": "Átcsoportosítás és archiválás",
+      "paragraphs": [
+        "Ha egy karbantartó távozik vagy inaktívvá válik, az IATF átadhatja a felelősséget, megállíthatja a fejlesztést vagy archiválhatja a projektet.",
+        "A projekt akkor is archiválható, ha az eredeti igény teljesült, a karbantartás leállt, vagy a folyamatos munka már nem reális."
+      ],
+      "footnote": "Az archivált projektek nyilvánosan láthatóak maradnak, kivéve, ha kényszerítő oka van másként cselekedni."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Határjegy",
+      "title": "Amit az IATF nem garantál"
+    },
+    "items": [
+      "magánszemélyek részére történő kézbesítés",
+      "szolgáltatási szintű megállapodások",
+      "minden javaslat elfogadása",
+      "minden projekt hosszú távú karbantartása"
+    ],
+    "footnote": "Az IATF egy nyilvános adattár modell, nem pedig egy magánszolgáltatás."
+  }
+}

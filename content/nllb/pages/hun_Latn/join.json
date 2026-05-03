@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Csatlakozzon az IATF-hez",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Csatlakozzon az IATF-hez",
+    "lead": "A tagság nyitva áll. Számos módja van a részvételnek, függetlenül attól, hogy segítő technológiára támaszkodik, hozzáférhető szoftvert készít, fordít, tesztel vagy karbantart egy projektet. A viták és döntések nyilvánosan zajlanak a GitHubon és a Discordon.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rólok",
+      "title": "Hozzájárulás módjai"
+    },
+    "items": [
+      "<strong>Kérj egy projektet.</strong> Ha olyan akadállyal szembesül, amelyet a nyilvános nyílt forráskódú szoftver megoldhatna, küldje el a kérelmek fogadóján keresztül.",
+      "<strong>Tesztelés és felülvizsgálat.</strong> Próbálja ki az IATF projektjeit az Ön által használt segítő technológiával, jelentse, hogy mi működik és mi nem, és adjon be problémákat közvetlenül a vonatkozó adattárba.",
+      "<strong>Fordítsd le.</strong> A forrás tartalmát először egyszerű angol nyelven teszik közzé.",
+      "<strong>Építeni.</strong> Válasszon fel problémákat bármely IATF-tárolóban, küldjön kivonási kéréseket, vagy vegyen fel egy projektet felelős mérnökként.",
+      "<strong>Tartsa fenn.</strong> A meglévő projekteknek néha új karbantartóra van szükségük."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Csatornák",
+      "title": "Ahol az IATF nyilvánosan dolgozik"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issues, pull requests, releases, és project records.",
+      "<strong>A nézeteltérés.</strong> Élő beszélgetés, koordináció, és informális kérdések.",
+      "<strong>E-mail.</strong> Használat <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ha sem a GitHub, sem a Discord nem illeszkedik."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Következő lépés",
+      "title": "Válassza ki a csatornát, amely megfelel annak, hogy hogyan szeretne hozzájárulni"
+    },
+    "paragraphs": [
+      "Minden csatorna ugyanabba a nyilvános áttekintésbe és ugyanazokba az adatbázisokba kerül."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

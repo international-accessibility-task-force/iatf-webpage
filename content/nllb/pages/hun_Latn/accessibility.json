@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Hozzáférhetőség",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Hozzáférhetőség",
+    "lead": "Az IATF célja, hogy a honlap egyszerű, olvasható, billentyűzet-hozzáférhető legyen, és kompatibilis legyen a segítő technológiákkal.",
+    "support": [
+      "A web-hozzáférhetőség érdekében az IATF [W3C WAI](https://www.w3.org/WAI/) A gyakorlati hozzáférhetőséget a segítő technológiák felhasználóinak közvetlen tapasztalatai is meghatározzák."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Jelentés",
+      "title": "Jelentse a hozzáférhetőséggel kapcsolatos problémát"
+    },
+    "paragraphs": [
+      "Ha hozzáférési akadályt talál ezen a honlapon, kérjük, jelentse e-mailben:",
+      "{{contact.accessibilityEmail}}",
+      "Hasznos jelentések a következők:"
+    ],
+    "items": [
+      "az oldal, ahol a probléma történt",
+      "Mit akartál csinálni?",
+      "milyen segítő technológiát, böngészőt vagy készüléket használt, ha releváns",
+      "Mi történt?",
+      "Mi segített volna?"
+    ],
+    "footnote": "Nem kell hivatalos hibajelentést írni, elég egy világos leírás."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Működtetés",
+      "title": "A nyilvános kérdések kezelése"
+    },
+    "paragraphs": [
+      "A hozzáférhetőséggel kapcsolatos kérdések összefoglalását a vonatkozó nyilvános adattárban lehet elvégezni, hogy azok nyíltan megoldhatók legyenek.A személyes kapcsolattartási adatokat és a felesleges privát információkat a közzététel előtt eltávolítják.",
+      "Ha a jelentésed magáninformációkat tartalmaz, ezt világosan meg kell mondanod az üzenetben."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Jelenlegi állapot",
+      "title": "Ismert korlátozások"
+    },
+    "paragraphs": [
+      "Ez a webhely szándékosan kicsi és többnyire statikus. Néhány nyelvi változat lehet hiányos, míg a fordítások készülnek."
+    ]
+  }
+}

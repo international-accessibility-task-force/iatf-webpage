@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "A hozzáférhetőség szükségességétől a nyilvános repo-hoz",
+    "lead": "Az IATF segít egyesületeknek, csoportoknak és egyéneknek, hogy a valódi hozzáférési igényeket nyilvános nyílt forráskódú projektekké alakítsák.",
+    "support": [
+      "Az elfogadott projekteket az IATF GitHub szervezetében copyleft licenc alatt közzéteszik, és egy felelős mérnök nyilvánosan fejleszti."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "A közszféra működési modellje",
+      "title": "Egyszerű nyilvános útvonal a hozzáférhető szoftverekhez"
+    },
+    "paragraphs": [
+      "A formanyomtatványon keresztül bárki benyújthat egy hozzáférhetőségi problémát az IATF-nek.",
+      "Minden elfogadott projektnek világos nyilvános otthona van a kód, a problémák, a dokumentáció és a kiadások számára, a fejlesztést egy felelős mérnök vezette nyíltan."
+    ],
+    "specCard": {
+      "title": "A közszféra működési modellje",
+      "terms": [
+        {
+          "term": "Szükség",
+          "definition": "Valódi megközelíthetőségi probléma"
+        },
+        {
+          "term": "Folyamatos felülvizsgálat",
+          "definition": "A küldetésre való alkalmasság és a gyakorlati megvalósíthatóság"
+        },
+        {
+          "term": "Projektterület",
+          "definition": "Nyilvános GitHub repozitórium"
+        },
+        {
+          "term": "Felelősségvállalási feladatok",
+          "definition": "Az IATF szervezeti tulajdonossága"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Folyamat",
+      "title": "Hogyan működik?",
+      "intro": "A modell szándékosan kicsi, hogy a közút könnyen követhető legyen."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Szükség benyújtása",
+        "paragraphs": [
+          "Az egyesületek, csoportok vagy magánszemélyek valódi hozzáférési igény alapján nyújthatnak be kérelmet.",
+          "A kérelmeket a honlapon keresztül, e-mailben a következő címre küldhetik: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, vagy a Discordon keresztül."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Az IATF felülvizsgálja",
+        "paragraphs": [
+          "Megvizsgáljuk a küldetés alkalmasságát, a gyakorlati hatókörét, és hogy a munka egy nyilvános nyílt forráskódú projektbe tartozik-e."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "A nyilvános adattár létrehozása",
+        "paragraphs": [
+          "Ha egy projektet elfogadnak, akkor azt az IATF GitHub szervezetében copyleft licenc alatt közzéteszik.",
+          "A repozitórium a kód, a problémák, a dokumentáció és a kiadások nyilvános otthona lesz."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Egy felelős mérnök vezeti a projektet",
+        "paragraphs": [
+          "A projekt archívumához felelős mérnök kerül kijelölésre, és a fejlesztés nyilvánosan történik."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Nyilvántartás",
+      "title": "Nyilvános projektnyilvántartás"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Itt kezdjük.",
+      "title": "A folyamatban lévő munkák áttekintése vagy egy konkrét projekt megkezdése"
+    },
+    "paragraphs": [
+      "Használja a nyilvántartást, hogy lássa, mi már nyilvános, vagy kezdje el a felvételt, ha egy konkrét hozzáférhetőségi probléma projektgé válik."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

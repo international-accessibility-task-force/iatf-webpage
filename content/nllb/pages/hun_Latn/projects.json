@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Nyilvános hozzáférhetőséggel kapcsolatos projektek",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Nyilvános hozzáférhetőséggel kapcsolatos projektek",
+    "lead": "Ez a nyilvántartás az IATF által fenntartott nyilvános projekteket sorolja fel. Az elfogadott akadálymentesítési projektek, a webhely infrastruktúrája és az archivált prototípusok itt láthatóak.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Nyilvántartás",
+      "title": "Jelenlegi nyilvántartás"
+    },
+    "intro": [
+      "Az elfogadott projektek közzétételük után itt kerülnek felsorolásra."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Szükséglet benyújtása",
+      "title": "Egy konkrét megközelíthetőségi igény nyilvános projektjévé alakítása"
+    },
+    "paragraphs": [
+      "Az IATF olyan konkrét hozzáférhetőségi igényeket vizsgál, amelyek hasznos nyílt forráskódú nyilvános munkákká válhatnak."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Még nincsenek közzétett projektek",
+    "paragraphs": [
+      "Az IATF elkészíti első nyilvános projektjeit.",
+      "Továbbra is elküldhet egy kérelmet, ha konkrét hozzáférési igényei vannak."
+    ]
+  }
+}

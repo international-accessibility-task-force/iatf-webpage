@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF honlapja",
+    "summary": "A nemzetközi hozzáférhetőségi munkacsoport nyilvános honlapja.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Az IATF-nek szüksége volt egy stabil nyilvános házra, amely elmagyarázza a modellt, felsorolja a projekteket, és mutatja a hozzájárulókat a megfelelő következő lépésre.",
+    "why": "A webhely az IATF nyilvános bejárati ajtaja. Kicsi statikus projektként épült, így könnyen olvasható, lefordítható és karbantartható a szabadban.",
+    "scopeIn": [
+      "Az IATF modellt magyarázó nyilvános honlapok",
+      "Az elfogadott, aktív és archivált IATF projektek nyilvános nyilvántartása státussal, karbantartóval, adattárral és demóval",
+      "A kérelem bevételi oldala és a formanyomtatvány",
+      "Kormányzás és átláthatóság oldalak",
+      "Angol forrása fordításra kész szerkezettel",
+      "A Cloudflare munkavállalói statikus eszközök statikus telepítése"
+    ],
+    "scopeOut": [
+      "Privát tagterületek, fiókok vagy bejelentkezési folyamatok",
+      "A projekt forráskódjának tárolása, amely az egyes projektek saját repozitóriumában található",
+      "Valós idejű csevegés, ami a Discordban él",
+      "Az egyes projektek problémáinak nyomon követése, amely minden projekt GitHub repozitóriumában található"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Egy korai IATF prototípus, egy természetes megállási pont elérése után archiválva.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "A hozzáférhetőségre összpontosító eszköz korai feltárása az IATF keretein belül.",
+    "why": "A repozitóriumot nyilvánosságra hozták, mint a munka nyilvántartását, még akkor is, ha az aktív fejlesztés leállt.",
+    "scopeIn": [
+      "A hozzáférhetőségre összpontosító, nyilvános nyilvántartásba vett eszköz korai prototípusát"
+    ],
+    "scopeOut": [
+      "Aktív fejlesztés vagy funkciómunka",
+      "Fenntartási kötelezettségek",
+      "Ajánlott felhasználás a termelésben"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Egy IATF közösségi robot, archivált, miután elérte a természetes megállási pontot.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatizálás az IATF közösségi csatornáin keresztül.",
+    "why": "A repozitóriumot nyilvánosságra hozták, mint a munka nyilvántartását, még akkor is, ha az aktív fejlesztés leállt.",
+    "scopeIn": [
+      "Az IATF közösségi csatornáin belüli ellentmondás automatizálása, nyilvános nyilvántartásba véve"
+    ],
+    "scopeOut": [
+      "Aktív fejlesztés vagy funkciómunka",
+      "Fenntartási kötelezettségek",
+      "Ajánlott felhasználás a termelésben"
+    ]
+  }
+]

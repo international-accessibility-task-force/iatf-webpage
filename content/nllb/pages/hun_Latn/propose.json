@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Hozzáférhetőségi projekt igénylése",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Hozzáférhetőségi projekt igénylése",
+    "lead": "Az IATF olyan hozzáférhetőségi projektek iránti kérelmeket vizsgál, amelyek valódi szükségletből indulnak ki.",
+    "support": [
+      "Nem kell teljes körű leírás, elég egy világos probléma, hogy kit érinti, és miért fontos."
+    ],
+    "actions": [
+      {
+        "label": "Kérést indítani",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Ehelyett használd a Discordot.",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Csatornák",
+      "title": "Válaszd ki a legkönnyebb utat."
+    },
+    "intro": [
+      "Minden út ugyanabban a felülvizsgálatban szerepel."
+    ],
+    "items": [
+      {
+        "label": "Honlap",
+        "body": "A strukturált kérelem benyújtásához használja az alábbi űrlapot."
+      },
+      {
+        "label": "E-mail cím",
+        "body": "Küldje el a kérelmet közvetlenül: {{contact.requestsEmail}}Az e-mail-kérelmek felülvizsgálat és szerkesztés után nyilvános kérelmezési nyilvántartássá válhatnak."
+      },
+      {
+        "label": "A nézeteltérés",
+        "body": "Kezdjük ott, ha ez a legegyszerűbb."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Mielőtt kérelmet küldenél",
+    "paragraphs": [
+      "Az IATF nyilvánosan működik. A kérelmek összefoglalhatóak és közzétehetők nyilvános kérelmezési nyilvántartásokként a GitHub szervezetben, ezen a honlapon, vagy mindkettőben.",
+      "Ne adjon meg személyes címeket, telefonszámokat, orvosi adatokat vagy segítő technológiák egyéni felhasználóira vonatkozó azonosító információkat, kivéve, ha ez szükséges, és Ön elfogadja, hogy az IATF felülvizsgálja azokat.",
+      "Az IATF a kérelmek nyilvántartásainak közzétételét megelőzően eltávolítja a felesleges személyes kapcsolattartási adatokat."
+    ]
+  },
+  "review": {
+    "title": "A várakozások felülvizsgálata",
+    "paragraphs": [
+      "A kérelem benyújtása nem garantálja az elfogadást.",
+      "Az IATF felülvizsgálja a missziós alkalmasságra, megvalósíthatóságra, hasznosságra vonatkozó kérelmeket, valamint azt, hogy a munka nyilvános adattárba tartozik-e.",
+      "Néhány kérelmet el lehet utasítani, el lehet halasztani, vagy át lehet alakítani, mielőtt elfogadják."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Kérelmezési formanyomtatvány",
+      "title": "Kérés benyújtása"
+    },
+    "fields": [
+      {
+        "kind": "bemeneti",
+        "name": "kérelmező",
+        "label": "Az Ön neve vagy szervezete",
+        "helper": "Ki kérte?"
+      },
+      {
+        "kind": "kiválasztás",
+        "name": "kapcsolattartási útvonal",
+        "label": "Előnyös kapcsolatfelvételi útvonal",
+        "helper": "Hogyan kell folytatni a nyomon követést?",
+        "required": true,
+        "options": [
+          "E-mail cím",
+          "A nézeteltérés"
+        ]
+      },
+      {
+        "kind": "bemeneti",
+        "name": "Kapcsolattartási adatok",
+        "label": "Kapcsolattartási adatok",
+        "helper": "E-mail cím vagy Discord cím a nyomon követéshez.",
+        "placeholder": "E-mail cím vagy Discord cím",
+        "required": true
+      },
+      {
+        "kind": "bemeneti",
+        "name": "nyelv",
+        "label": "Nyelv",
+        "helper": "Az Ön által választott nyelv, ha releváns.",
+        "value": "Angol nyelv"
+      },
+      {
+        "kind": "szövegterület",
+        "name": "probléma",
+        "label": "Milyen problémát próbálsz megoldani?",
+        "helper": "Írja le az akadályt egyszerű nyelven.",
+        "required": true
+      },
+      {
+        "kind": "szövegterület",
+        "name": "Érintett felhasználók",
+        "label": "Kiket érint ez?",
+        "helper": "Kinek segítene ez?",
+        "required": true
+      },
+      {
+        "kind": "szövegterület",
+        "name": "extraContext",
+        "label": "További kontextus",
+        "helper": "Oszd meg bármi mást, ami segít megmagyarázni a szükségletet: miért fontos, példák, hivatkozások, durva szoftverötlet vagy időzítési korlátok."
+      },
+      {
+        "kind": "kiválasztás",
+        "name": "openSourceConsent",
+        "label": "Kényelmes a nyílt forráskódú fejlesztés?",
+        "helper": "Az elfogadott projektek az IATF szerinti nyilvános adattárak.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "- Igen, igen.",
+          "Nem, nem.",
+          "Még nem tudom biztosan."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ha elfogadják",
+      "title": "Mit jelent az elfogadás?"
+    },
+    "items": [
+      "egy nyilvános repozitórium az IATF GitHub szervezetében",
+      "a projekthez kijelölt felelős mérnök",
+      "egy copyleft licenc a kódra és a projekt anyagaira",
+      "nyilvános fejlesztés a tárolóban",
+      "az IATF honlapján található nyilvántartási bejegyzés"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kezdd a beszélgetést.",
+      "title": "Egy rövid, világos kérés elég ahhoz, hogy elkezdjük"
+    },
+    "paragraphs": [
+      "Ha valóban szükséged van a hozzáférhetőségre, és úgy gondolod, hogy nyilvános projektnek kellene lennie, küldd el nekünk."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

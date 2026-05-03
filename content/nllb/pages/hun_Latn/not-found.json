@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nem talált"
+  },
+  "hero": {
+    "eyebrow": "Nem talált",
+    "title": "A kért oldal nem található",
+    "lead": "Használja az alábbi fő útvonalakat, hogy visszatérjen a nyilvános helyszínre.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Otthon",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Az útvonal, amit kért, nem létezik."
+    ],
+    "items": [
+      {
+        "label": "Otthon",
+        "href": "/"
+      },
+      {
+        "label": "Projektek",
+        "href": "/projects/"
+      },
+      {
+        "label": "Csatlakozz!",
+        "href": "/join/"
+      },
+      {
+        "label": "Hozzáférhetőség",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Kormányzás",
+        "href": "/governance/"
+      },
+      {
+        "label": "Átláthatóság",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

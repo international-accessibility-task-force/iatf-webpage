@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "A webhely térképe"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "A webhely térképe",
+    "lead": "Minden nyilvános oldal az IATF.CC-n, egy helyen."
+  },
+  "sections": [
+    {
+      "title": "Fő oldalak",
+      "items": [
+        {
+          "label": "Otthon",
+          "href": "/"
+        },
+        {
+          "label": "Projektek",
+          "href": "/projects/"
+        },
+        {
+          "label": "Projekt igénylése",
+          "href": "/propose/"
+        },
+        {
+          "label": "Kormányzás",
+          "href": "/governance/"
+        },
+        {
+          "label": "Csatlakozz!",
+          "href": "/join/"
+        },
+        {
+          "label": "Hozzáférhetőség",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Átláthatóság",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projektek",
+  "projectsEmpty": "Még nincsenek közzétett projektek."
+}
