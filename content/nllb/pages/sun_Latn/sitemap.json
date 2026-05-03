@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Peta situs"
+  },
+  "hero": {
+    "eyebrow": "Indéks",
+    "title": "Peta situs",
+    "lead": "Unggal kaca publik dina iatf.cc, di hiji tempat."
+  },
+  "sections": [
+    {
+      "title": "Kaca utama",
+      "items": [
+        {
+          "label": "Imah",
+          "href": "/"
+        },
+        {
+          "label": "Proyék",
+          "href": "/projects/"
+        },
+        {
+          "label": "Nyuhunkeun proyék",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pamaréntahan",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ngagabung",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksesibilitas",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparansi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyék",
+  "projectsEmpty": "Taya proyék diterbitkeun acan."
+}

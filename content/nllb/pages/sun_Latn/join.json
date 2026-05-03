@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Miluan IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Miluan IATF",
+    "lead": "Kaanggotaan kabuka. Aya sababaraha cara pikeun ilubiung, naha anjeun ngandelkeun téknologi bantu, ngawangun parangkat lunak anu tiasa diaksés, narjamahkeun, nguji, atanapi ngajaga proyék. Diskusi sareng kaputusan lumangsung di masarakat dina GitHub sareng Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Tugas-tugasna",
+      "title": "Cara pikeun nyumbang"
+    },
+    "items": [
+      "<strong>Nyuhunkeun proyék.</strong> Upami anjeun mendakan halangan aksés anu tiasa diungkulan ku parangkat lunak open source umum, kirimkeunana ngalangkungan panarimaan pamundut.",
+      "<strong>Uji jeung marios.</strong> Coba proyék-proyék IATF kalayan téknologi bantu anu anjeun anggo, laporkeun naon anu tiasa dianggo sareng naon anu henteu, sareng file masalah langsung dina gudang anu relevan.",
+      "<strong>Tarjamahkeun.</strong> Eusi sumber diterbitkeun heula dina basa Inggris biasa. Tarjamahan ditambihan nalika kontributor sayogi, dimimitian ku basa Spanyol.",
+      "<strong>Ngawangun.</strong> Nyokot masalah di mana wae Repository IATF, ngirim pull requests, atawa nyokot dina proyék salaku insinyur jawab anak.",
+      "<strong>Ngajaga.</strong> Proyék nu geus aya sakapeung merlukeun pangropéa anyar. rotasi Pangropéa mangrupa bagian normal tina model, teu iwal."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Dimana IATF damel di masarakat"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Isu, narik pamundut, siaran, jeung rékaman proyék.",
+      "<strong>Teu satuju.</strong> Diskusi langsung, koordinasi, jeung patarosan informal.",
+      "<strong>Surélék.</strong> Pamakéan <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> lamun boh GitHub atawa Discord teu cocog."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Léngkah saterusna",
+      "title": "Pilih saluran anu cocog sareng kumaha anjeun hoyong nyumbang"
+    },
+    "paragraphs": [
+      "Sadaya saluran tuang kana ulasan umum anu sami sareng repositori publik anu sami."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyék aksesibilitas umum",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyék aksesibilitas umum",
+    "lead": "Pendaptaran ieu daptar proyék-proyék umum anu dijaga ngaliwatan IATF. Proyék aksés anu ditarima, infrastruktur situs, sareng prototipe anu diarsipkeun tetep katingali di dieu.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaptaran",
+      "title": "Pendaptaran ayeuna"
+    },
+    "intro": [
+      "Proyék anu ditarima didaptarkeun di dieu saatos diterbitkeun."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Kirimkeun pangabutuh",
+      "title": "Ngahurungkeun hiji kabutuhan aksesibilitas beton kana proyék umum"
+    },
+    "paragraphs": [
+      "IATF nalungtik kabutuhan aksesibilitas konkrit nu bisa dirobah jadi karya open source publik nu mangpaat."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Taya proyék diterbitkeun acan",
+    "paragraphs": [
+      "IATF ieu Nyiapkeun susunan proyék publik kahijina.",
+      "Anjeun masih bisa ngirim pamundut lamun anjeun boga kabutuhan aksesibilitas beton."
+    ]
+  }
+}

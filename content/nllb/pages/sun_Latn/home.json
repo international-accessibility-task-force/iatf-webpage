@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ti kabutuhan pikeun aksés ka repo umum",
+    "lead": "IATF mantuan asosiasi, kelompok, jeung individu pikeun ngarobah kabutuhan aksesibilitas nyata kana proyék-proyék open source umum.",
+    "support": [
+      "Proyék anu ditarima diterbitkeun dina organisasi IATF GitHub dina lisénsi copyleft sareng dikembangkeun sacara umum ku insinyur anu tanggung jawab."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modél operasi umum",
+      "title": "A jalur umum basajan pikeun software diaksés"
+    },
+    "paragraphs": [
+      "Ngaliwatan formulir, saha waé bisa ngalebetkeun masalah aksés ka IATF. Upami tim tiasa nyandak éta, gudang GitHub umum dibuka pikeun padamelan éta.",
+      "Unggal proyék ditarima boga imah umum jelas pikeun kode, isu, dokuméntasi, jeung Kaluaran, jeung ngembangkeun dipingpin dina kabuka ku insinyur jawab."
+    ],
+    "specCard": {
+      "title": "Modél operasi umum",
+      "terms": [
+        {
+          "term": "Pangabutuh",
+          "definition": "Masalah aksesibilitas nyata"
+        },
+        {
+          "term": "Tinjauan",
+          "definition": "Misi fit jeung feasibility praktis"
+        },
+        {
+          "term": "Ruang proyék",
+          "definition": "Repository GitHub umum"
+        },
+        {
+          "term": "Pangurus",
+          "definition": "Kapamilikan organisasi IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prosés",
+      "title": "Kumaha gawéna",
+      "intro": "Modél tetep ngahaja leutik sahingga jalur umum gampang dituturkeun."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Pangabutuh anu dikintunkeun",
+        "paragraphs": [
+          "Asosiasi, grup, atawa individu bisa ngalebetkeun pamundut dumasar kana kabutuhan aksés anu nyata.",
+          "Panjalukan bisa dimimitian ngaliwatan website, ku email ka <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, atawa ngaliwatan Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF reviews eta",
+        "paragraphs": [
+          "Urang marios misi fit, lingkup praktis, jeung naha karya milik dina proyék open source umum."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Repository publik dijieun",
+        "paragraphs": [
+          "Lamun hiji proyék ditarima, eta diterbitkeun dina organisasi IATF GitHub dina lisénsi copyleft.",
+          "Repository jadi imah umum kode, isu, dokuméntasi, jeung siaran."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Insinyur nu tanggung jawab mingpin proyék",
+        "paragraphs": [
+          "Insinyur anu tanggung jawab ditugaskeun ka gudang proyék sareng pamekaran lumangsung di masarakat."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaptaran",
+      "title": "Pendaptaran proyék publik"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mimitian di dieu",
+      "title": "Browse karya ayeuna atawa ngamimitian proyék beton"
+    },
+    "paragraphs": [
+      "Paké pendaptaran pikeun nempo naon geus umum, atawa ngamimitian asupan lamun masalah aksesibilitas beton kudu jadi proyék a."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

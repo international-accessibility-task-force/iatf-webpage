@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibilitas",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibilitas",
+    "lead": "IATF boga tujuan pikeun ngajaga ramatloka ieu basajan, dibaca, keyboard-diaksés, sarta cocog jeung téknologi bantu.",
+    "support": [
+      "Pikeun aksesibilitas wéb, IATF ngagunakeun [W3C WAI](https://www.w3.org/WAI/) Accessibility praktis ogé informed ku pangalaman langsung tina pamaké téknologi bantu."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ngalaporkeun",
+      "title": "Laporkeun masalah aksés"
+    },
+    "paragraphs": [
+      "Upami anjeun mendakan halangan aksés dina halaman wéb ieu, punten laporkeun ku email:",
+      "{{contact.accessibilityEmail}}",
+      "Laporan-laporan nu mangpaat di antarana:"
+    ],
+    "items": [
+      "kaca dimana masalah lumangsung",
+      "naon anu anjeun nyobian lakukeun",
+      "naon téknologi bantu, panyungsi, atawa alat anu anjeun anggo, upami relevan",
+      "naon nu salah",
+      "naon nu bisa ngabantu"
+    ],
+    "footnote": "Anjeun teu kudu nulis laporan bug resmi. pedaran jelas cukup."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Nanganan",
+      "title": "Ngatur masalah umum"
+    },
+    "paragraphs": [
+      "Masalah aksés tiasa diringkeskeun dina gudang publik anu relevan supados tiasa dilereskeun sacara kabuka. Rincian kontak pribadi sareng inpormasi pribadi anu teu perlu dihapus sateuacan diterbitkeun.",
+      "Lamun laporan Anjeun ngawengku informasi pribadi, nyebutkeun eta jelas dina talatah."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kaayaan ayeuna",
+      "title": "Watesan anu dipikanyaho"
+    },
+    "paragraphs": [
+      "Situs ieu ngahaja leutik jeung lolobana statis. Sababaraha versi basa bisa jadi teu lengkep bari tarjamahan anu keur disiapkeun."
+    ]
+  }
+}

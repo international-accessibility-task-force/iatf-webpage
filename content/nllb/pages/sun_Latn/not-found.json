@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Teu kapanggih"
+  },
+  "hero": {
+    "eyebrow": "Teu kapanggih",
+    "title": "Kaca nu dipénta teu kapanggih",
+    "lead": "Paké rute utama di handap pikeun balik ka situs umum.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Imah",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Jalur nu dipénta teu aya."
+    ],
+    "items": [
+      {
+        "label": "Imah",
+        "href": "/"
+      },
+      {
+        "label": "Proyék",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ngagabung",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibilitas",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pamaréntahan",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparansi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Halaman wéb IATF",
+    "summary": "Situs umum pikeun International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF diperlukeun imah umum stabil nu ngécéskeun model, daptar proyék, jeung titik kontributor ka lengkah katuhu saterusna.",
+    "why": "Situs ieu mangrupikeun panto hareup umum IATF. Éta diwangun salaku proyék statis leutik sahingga tetep gampang dibaca, ditarjamahkeun, sareng dijaga di tempat terbuka.",
+    "scopeIn": [
+      "Kaca badarat umum anu ngajelaskeun modél IATF",
+      "Pendaptaran publik proyék-proyék IATF anu ditarima, aktip, sareng diarsipkeun kalayan status, pangropéa, gudang, sareng démo",
+      "Kaca panarimaan pamundut jeung formulir",
+      "Kaca-kaca pamaréntahan jeung transparansi",
+      "Sumber basa Inggris jeung struktur siap pikeun tarjamahan",
+      "deployment statik dina Aset statik pagawe Cloudflare"
+    ],
+    "scopeOut": [
+      "Daérah anggota swasta, akun, atawa aliran login",
+      "Hosting kode sumber proyék, nu hirup di repositori masing-masing proyék sorangan",
+      "Real-time chat, nu hirup di Discord",
+      "Tracking isu pikeun proyék individu, nu hirup di repositori GitHub unggal proyék"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Prototipe awal IATF, diarsipkeun saatos ngahontal titik eureun alami.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Éksplorasi awal alat aksesibilitas-fokus dina payung IATF.",
+    "why": "Repository ieu diteundeun umum salaku catetan karya, sanajan ngembangkeun aktif geus dieureunkeun.",
+    "scopeIn": [
+      "Prototipe awal hiji alat aksesibilitas-fokus diteundeun salaku catetan umum"
+    ],
+    "scopeOut": [
+      "Pangwangunan aktip atawa karya fitur",
+      "Komitmen pangropéa",
+      "Pamakéan anu disarankeun dina produksi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot komunitas IATF, diarsipkeun sanggeus ngahontal titik eureun alami.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Otomatisasi sabudeureun saluran komunitas IATF.",
+    "why": "Repository ieu diteundeun umum salaku catetan karya, sanajan ngembangkeun aktif geus dieureunkeun.",
+    "scopeIn": [
+      "Automation discord sabudeureun saluran komunitas IATF, diteundeun salaku catetan umum"
+    ],
+    "scopeOut": [
+      "Pangwangunan aktip atawa karya fitur",
+      "Komitmen pangropéa",
+      "Pamakéan anu disarankeun dina produksi"
+    ]
+  }
+]

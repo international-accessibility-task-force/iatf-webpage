@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance jeung modél repository",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance jeung modél repository",
+    "lead": "IATF ngajaga proyék aksesibilitas umum, bisa dibaca, jeung bisa diropéa.",
+    "support": [
+      "Kaca ieu ngécéskeun naon anu cocog, kumaha repositori disimpen, sareng naon tanggung jawab tingkat repositori anu dilarapkeun saatos ditampa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Aturan",
+      "title": "Misi fit, kapamilikan, lisénsi"
+    },
+    "cards": [
+      {
+        "title": "Misi cocog",
+        "paragraphs": [
+          "IATF narima karya nu alamat hiji halangan aksesibilitas nyata jeung ngabogaan nilai publik jelas.",
+          "Hiji proyék kudu dipake leuwih ti hiji workflow swasta tunggal jeung workable salaku Repository publik.",
+          "Pikeun aksesibilitas wéb, IATF ngagunakeun [W3C WAI](https://www.w3.org/WAI/) pangalaman langsung pamaké téknologi assistive ogé bukti praktis naon jalan dina pamakéan nyata."
+        ]
+      },
+      {
+        "title": "Panarimaan proyék",
+        "paragraphs": [
+          "A proposal bisa ditarima lamun review nunjukeun yen:"
+        ],
+        "items": [
+          "nyumponan kabutuhan aksés anu nyata",
+          "masalah cukup jelas pikeun ngaevaluasi",
+          "lingkup anu cukup realistis pikeun ngajalankeun",
+          "karya aligns jeung misi IATF",
+          "aya hiji jalur lumrah pikeun pangropéa atawa parantosan"
+        ]
+      },
+      {
+        "title": "Kapamilikan gudang",
+        "paragraphs": [
+          "Proyék anu ditarima dijieun dina organisasi IATF GitHub.",
+          "Repositories tetep aya jadi unggal proyék ngajaga imah umum stabil, sanajan maintainers engké robah."
+        ]
+      },
+      {
+        "title": "Lisénsi",
+        "paragraphs": [
+          "Proyék IATF ngagunakeun lisénsi copyleft kacuali proyék nyatakeun sanésna:"
+        ],
+        "items": [
+          "<strong>Kodeu:</strong> AGPL-3.0",
+          "<strong>Dokuméntasi:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Insinyur atawa pangropéa jawab",
+      "paragraphs": [
+        "Unggal proyék ditarima kudu boga ngaran insinyur jawab atawa pangropéa. jalma nu bisa meunangkeun aksés admin ka Repository jeung diperkirakeun ka:"
+      ],
+      "items": [
+        "ngembangkeun pituduh di umum",
+        "ngajaga struktur gudang",
+        "marios atanapi ngatur masalah sareng narik pamundut",
+        "dokumén kaputusan teknis penting",
+        "nyieun proyék nu bisa dipikaharti ku batur"
+      ],
+      "footnote": "Ieu tanggung jawab tingkat gudang. Kapamilikan organisasi tetep sareng IATF. Tanggung jawab di dieu nyaéta pangawasan gudang, arah téknis, sareng koordinasi umum  henteu pangiriman swasta anu teu terbatas, integrasi khusus, atanapi komitmen tingkat jasa di luar peta jalan umum."
+    },
+    "publicDevelopment": {
+      "title": "Pangwangunan umum",
+      "paragraphs": [
+        "Proyék anu diluncurkeun ngaliwatan IATF dikembangkeun sacara umum sacara standar."
+      ],
+      "items": [
+        "Kode sumber",
+        "isu-isu",
+        "dokuméntasi",
+        "catetan peta jalan",
+        "riwayat ngaleupaskeun"
+      ],
+      "footnote": "Pangaweruh proyék penting teu kudu cicing ngan di obrolan pribadi atawa koropak."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Catetan umum",
+      "title": "Catetan pamundut publik"
+    },
+    "paragraphs": [
+      "IATF digawé sacara umum sacara standar. Pamundut anu asup ka IAT F ngaliwatan website, email, Discord, GitHub, atawa saluran IATf séjén bisa jadi rékaman pamundut umum.",
+      "Rékaman pamundut publik teu merta mangrupa pesen aslina. IATF bisa nyimpulkeun, ngédit, atawa ngarestrukturkeun hiji paménta saméméh publikasi sangkan kabutuhan aksés bisa ditinjau tanpa némbongkeun informasi pribadi nu teu perlu.",
+      "Catetan pamundut publik bisa disimpen di organisasi IATF GitHub, dina ramatloka ieu, atawa duanana.",
+      "Sateuacan publikasi, IATF ngaleungitkeun detil kontak pribadi anu teu perlu, alamat pribadi, sareng detil idéntifikasi ngeunaan pangguna téknologi bantu masing-masing kecuali publikasi jelas ditujukeun sareng luyu.",
+      "Discord digunakeun pikeun koordinasi informal. IATF henteu ngaarsipkeun paguneman Discord sacara misah sacara standar, sareng ingetan pesen dikontrol ku Discord. Kaputusan anu dilakukeun dina Discord kedah diringkeskeun kana catetan umum dina GitHub atanapi dina halaman proyék anu aya hubunganana.",
+      "Rékaman pamundut teu kaasup tina indéks mesin pencari dimana téhnisna praktis. Publik hartina bisa ditinjau jeung bisa dipertanggungjawabkeun. Teu hartina dioptimalkeun pikeun kapanggihna ngaliwatan milarian ngaran.",
+      "IATF bisa ngamutahirkeun atawa miceun rékaman ti surfaces umum dikawasa ku IAT F, tapi teu bisa ngajamin dipiceun ti cache pihak-katilu, bewara, garpu, screenshots, search engine, Discord, atawa sistem éksternal lianna.",
+      "Lamun hiji talatah kudu tetep pribadi, teu ngirim eta ngaliwatan saluran publik IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Peran organisasi",
+      "title": "Korsi"
+    },
+    "lead": "Pupuhu ngayakeun organisasi-tingkat stewardship of IATF. Ieu mah béda ti per-proyék tanggung jawab peran insinyur: pupuhu nu tanggung jawab pikeun organisasi salaku sakabeh, teu keur poean-ka-poé arah nu mana wae nu repository tunggal.",
+    "duties": {
+      "title": "Naon nu dipigawé ku korsi",
+      "items": [
+        "Ngajaga idin nu boga dina organisasi IATF GitHub",
+        "Signs kaluar dina ditampa proyék jeung kaputusan arsip",
+        "Fungsi salaku titik kontak umum pikeun IATF",
+        "Koordinates pamilihan taunan"
+      ],
+      "footnote": "Pupuhu teu commits IATF ka pangiriman swasta, digawé dibayar, atawa pasatujuan tingkat layanan, sarta teu override kaputusan per-repository maintainer on arah teknis."
+    },
+    "election": {
+      "title": "Pamilihan taunan",
+      "paragraphs": [
+        "Pupuhu dipilih sataun sakali.Pamilihan lumangsung dina dua minggu kahiji bulan Désémber, hasilna diumumkeun dina 15 Desember, jeung istilah anyar dimimitian dina 1 Januari.",
+        "Pamilih anu layak nyaéta jalma-jalma anu ngalaksanakeun peran pangropéa dina gudang IATF salami sataun sareng ngadamel sahenteuna hiji kontribusi ngahijikeun kana repositori IAT F dina taun éta. Unggal pamilih anu mumpuni ngagaduhan hiji sora. Calon anu ngagaduhan sora anu paling seueur meunang; dina acara dasi, babak kadua diayakeun dina minggu katilu Désémber.",
+        "Pamilihan dijalankeun salaku Diskusi GitHub umum dina gudang pamaréntahan IATF anu ditunjuk, janten calon, sora, sareng hasilna sadayana mangrupikeun bagian tina catetan umum."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitas",
+      "paragraphs": [
+        "Lamun euweuh pamilihan dilaksanakeun dina sataun dibikeun, korsi ayeuna terus dina peran nepi ka pamilihan saterusna. ieu téh hiji continuation indefinite, teu periode rahmat  modél dirancang pikeun ngajaga organisasi stabil lamun aktivitas anu low, teu maksakeun transisi nu taya sahijieun geus siap pikeun.",
+        "Pupuhu bisa mundur iraha wae. maintainers aktif ogé bisa nelepon hiji pamilihan luar biasa kalawan alesan nyatakeun, ngajalankeun dina aturan sarua salaku pamilihan taunan."
+      ]
+    },
+    "current": {
+      "title": "Pupuhu ayeuna",
+      "fields": [
+        {
+          "label": "Korsi",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Istilah",
+          "value": "Nepi ka pamilihan Désémber 2026"
+        },
+        {
+          "label": "Peran diresmikeun",
+          "value": "2026"
+        },
+        {
+          "label": "Pemilu dijadwalkeun kahiji",
+          "value": "Désémber 2026"
+        }
+      ]
+    },
+    "footnote": "Peran pupuhu diresmikeun dina taun 2026 pikeun ngajantenkeun stewardship tingkat organisasi sacara eksplisit."
+  },
+  "continuity": {
+    "states": {
+      "title": "Kaayaan proyék",
+      "paragraphs": [
+        "Proyék ngagunakeun susunan leutik nagara umum:"
+      ],
+      "items": [
+        "Proposal",
+        "Ditampa",
+        "Aktip",
+        "Stabil",
+        "Neangan pangropéa",
+        "Diarsipkeun"
+      ],
+      "footnote": "Nagara ieu ngajaga pendaptaran gampang pikeun nyeken."
+    },
+    "reassignment": {
+      "title": "Reassignment jeung archiving",
+      "paragraphs": [
+        "Lamun pangropéa lengkah jauh atawa jadi teu aktip, IATF bisa mindahkeun tanggung jawab, eureun ngembangkeun, atawa arsip proyék.",
+        "Proyék ogé bisa diarsipkeun lamun kabutuhan aslina geus papanggih, pangropéa geus dieureunkeun, atawa neruskeun gawé geus euweuh realistis."
+      ],
+      "footnote": "Proyék-proyék anu diarsipkeun tetep katingali ku masarakat kajaba aya alesan anu kuat pikeun ngalakukeun anu sanés."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Catetan wates",
+      "title": "Naon IATF teu ngajamin"
+    },
+    "items": [
+      "pangiriman klien swasta",
+      "pasatujuan tingkat jasa",
+      "panarimaan unggal usulan",
+      "pangropéa jangka panjang pikeun unggal proyék"
+    ],
+    "footnote": "IATF mangrupikeun modél gudang publik, sanés jasa pangiriman swasta."
+  }
+}

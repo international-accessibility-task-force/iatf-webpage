@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparansi",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparansi",
+    "lead": "IATF digawé sacara umum sacara standar. kaputusan proyék, parobahan kode, parobihan pamaréntahan, jeung ongkos operasi dirékam di lokasi umum. kaca ieu daptar mana unggal jenis catetan hirup jeung kumaha maca eta.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Catetan",
+      "title": "Dimana rékaman hirup"
+    },
+    "items": [
+      "<strong>Kaputusan proyék.</strong> Kaputusan ditampa, arsip, sarta reassignment dirékam salaku isu atawa Kaluaran dina Repository relevan, sarta diringkeskeun dina pendaptaran publik. <a href=\"/projects/\">pendaptaran</a>. tapi",
+      "<strong>Nyuhunkeun rékaman.</strong> Catetan pamundut publik disimpen di organisasi IATF GitHub, dina ramatloka ieu, atawa duanana. Catetan bisa nyimpulkeun, ngédit, atawa nyusun ulang pamundutan aslina ku kituna kabutuhan aksés bisa ditinjau tanpa ngungkabkeun inpormasi pribadi nu teu perlu. Kaputusan anu teu satuju diringkeskeun kana catetan publik lamun mangaruhan hiji proyék atawa kaputusan pamaréntahan. Catatan paménta dikaluarkeun tina indéks mesin pencari di mana téhnisna praktis. Témbongkeun catetan: paménta publikasi munggaran pending.",
+      "<strong>Parobahan kode.</strong> Unggal parobahan kode mangrupa commit umum dina repository nu sasuai. <a href=\"{{contact.githubOrgUrl}}\">Organisasi GitHub</a>. tapi",
+      "<strong>Parobahan pamaréntahan.</strong> Pembaruan ka kaca governance dilacak salaku commits ka <code>iatf-website</code> Repository. Témbongkeun <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">sajarah commit</a> dina GitHub.",
+      "<strong>Ongkos operasi.</strong> IATF ngajaga biaya operasional anu handap sareng ngarékam biaya infrastruktur umum anu berulang. Ti saprak 2022, biaya utama anu berulang nyaéta nami domain. Hosting parantos nganggo infrastruktur tingkat gratis atanapi biaya murah dimana mungkin. Tingali catetan biaya operasi di handap ieu.",
+      "<strong>Catetan koordinasi.</strong> Catetan tina sagala review koordinasi atawa kaputusan hirup di GitHub Diskusi dina Repository relevan  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Diskusi</a> dina <code>iatf-website</code> gudang."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Ongkos",
+      "title": "catetan ongkos operasi"
+    },
+    "paragraphs": [
+      "IATF ngajaga infrastruktur publikna ngahaja leutik. Kusabab 2022, biaya operasi anu utama anu teras-terasan nyaéta nami domain. Hosting parantos nganggo infrastruktur tingkat gratis atanapi biaya murah dimana mungkin.",
+      "Catetan ieu lain laporan kauangan anu diaudit. Ieu mangrupa log biaya operasi publik pikeun infrastruktur anu dipaké pikeun ngajaga IATF online."
+    ],
+    "footnote": "Resi tiasa dirujuk atanapi diterbitkeun saatos réduksi. Alamat pribadi, detil tagihan, sareng inpormasi akun anu teu perlu henteu janten bagian tina catetan umum.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Daérah",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Ongkos",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Catetan",
+            "value": "Biaya domain dibiayaan ku mugiwarafx. hosting dipaké bébas-tingkat atawa béaya rendah infrastruktur ngaliwatan Cloudflare. proyék dipindahkeun ti Vercel ka CloudFlare sarta mimiti ngagunakeun pondok <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Daérah",
+            "value": "<code>aksesibilitas internasionaltaskforce.com</code>"
+          },
+          {
+            "label": "Ongkos",
+            "value": "USD 18,68"
+          },
+          {
+            "label": "Catetan",
+            "value": "Biaya domain dibiayaan ku mugiwarafx. hosting dipaké bébas-tingkat atawa béaya rendah infrastruktur."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Daérah",
+            "value": "<code>aksesibilitas internasionaltaskforce.com</code>"
+          },
+          {
+            "label": "Ongkos",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Catetan",
+            "value": "Biaya domain dibiayaan ku mugiwarafx. hosting dipaké bébas-tingkat atawa béaya rendah infrastruktur ngaliwatan Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Daérah",
+            "value": "<code>aksesibilitas internasionaltaskforce.com</code>"
+          },
+          {
+            "label": "Ongkos",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Catetan",
+            "value": "Biaya domain dibiayaan ku mugiwarafx. hosting dipaké bébas-tingkat atawa béaya rendah infrastruktur."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Daérah",
+            "value": "<code>aksesibilitas internasionaltaskforce.com</code>"
+          },
+          {
+            "label": "Ongkos",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Catetan",
+            "value": "Biaya domain dibiayaan ku mugiwarafx. Hosting dipaké bébas-tingkat atawa béaya rendah infrastruktur ngaliwatan Kaca GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Catetan wates",
+      "title": "Naon anu henteu umum"
+    },
+    "paragraphs": [
+      "Sababaraha bahan anu diteundeun kaluar tina rékaman umum dina tujuan:"
+    ],
+    "items": [
+      "Rincian kontak pribadi tina proposer.",
+      "Surat pribadi dipaké ngan pikeun netelakeun pamundut saméméh ditarima, ditampik, atawa diringkeskeun.",
+      "Alamat pribadi, nomer telepon, jeung rincian pribadi nu teu perlu.",
+      "Naon waé anu bisa ngaidentipikasi hiji pamaké téknologi bantu tanpa idin.",
+      "Raw Discord paguneman, iwal hiji talatah husus anu ngahaja dipindahkeun kana catetan proyék umum."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Baca leuwih",
+      "title": "Governance nyaeta buku aturan balik rékaman ieu"
+    },
+    "paragraphs": [
+      "Upami anjeun hoyong ngartos kumaha proyék-proyék ditampi, diarsipkeun, atanapi ditugaskeun deui, baca halaman pamaréntahan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

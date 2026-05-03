@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Nyuhunkeun proyék aksés",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Nyuhunkeun proyék aksés",
+    "lead": "IATF nalungtik pamundut pikeun proyék aksés anu dimimitian tina kabutuhan nyata.",
+    "support": [
+      "Anjeun teu perlu spésifikasi lengkep. masalah jelas, saha eta mangaruhan, jeung naha eta masalah cukup pikeun ngamimitian."
+    ],
+    "actions": [
+      {
+        "label": "Mimitian pamundut",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Pamakéan Discord gantina",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Milih jalur nu paling gampang"
+    },
+    "intro": [
+      "Sadaya rute asup kana tinjauan anu sami."
+    ],
+    "items": [
+      {
+        "label": "Halaman wéb",
+        "body": "Paké formulir di handap pikeun ngalebetkeun hiji pamundut terstruktur."
+      },
+      {
+        "label": "Surélék",
+        "body": "Kirimkeun pamundut langsung ka {{contact.requestsEmail}}Pamundut email tiasa janten rékaman pamundut umum saatos ditinjau sareng diédit."
+      },
+      {
+        "label": "Bantahan",
+        "body": "Mimitian di dinya lamun éta nu panggampangna. pamundut masih mindahkeun kana review sarua."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sateuacan Anjeun ngirim pamundut",
+    "paragraphs": [
+      "IATF digawé di masarakat. Pamundut bisa diringkeskeun jeung diterbitkeun salaku rékaman pamundut publik di organisasi GitHub, dina ramatloka ieu, atawa duanana.",
+      "Ulah kaasup alamat pribadi, nomer telepon, rinci médis, atawa identifying informasi ngeunaan pamaké individu téknologi assistive iwal eta perlu jeung anjeun nyaman jeung IATF reviewing eta.",
+      "IATF ngaluarkeun detil kontak pribadi nu teu perlu saméméh medarkeun rékaman pamundut."
+    ]
+  },
+  "review": {
+    "title": "Review ekspektasi",
+    "paragraphs": [
+      "Nyerahkeun pamundut teu ngajamin ditarima.",
+      "IATF marios pamundut pikeun misi fit, feasibility, usefulness, jeung naha karya milik dina gudang publik.",
+      "Sababaraha pamundut bisa ditolak, ditunda, atawa dirobah saméméh ditarima."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Bentuk pamundut",
+      "title": "Kirimkeun pamundut"
+    },
+    "fields": [
+      {
+        "kind": "input",
+        "name": "nu nyuhunkeun",
+        "label": "Ngaran atawa organisasi anjeun",
+        "helper": "Saha nu nyuhunkeunana?"
+      },
+      {
+        "kind": "pilih",
+        "name": "kontakRoute",
+        "label": "Jalur kontak nu dipikaresep",
+        "helper": "Kumaha kudu nuturkeun-up lumangsung?",
+        "required": true,
+        "options": [
+          "Surélék",
+          "Bantahan"
+        ]
+      },
+      {
+        "kind": "input",
+        "name": "Rincian kontak",
+        "label": "Rincian kontak",
+        "helper": "Alamat surélék atawa alamat Discord pikeun nuturkeun-up.",
+        "placeholder": "Alamat surélék atawa alamat Discord",
+        "required": true
+      },
+      {
+        "kind": "input",
+        "name": "basa",
+        "label": "Basa",
+        "helper": "Basa nu dipikaresep, lamun relevan.",
+        "value": "Basa Inggris"
+      },
+      {
+        "kind": "daérah téks",
+        "name": "masalah",
+        "label": "Masalah naon nu rék direngsekeun?",
+        "helper": "Ngajelaskeun halangan dina basa basajan.",
+        "required": true
+      },
+      {
+        "kind": "daérah téks",
+        "name": "Pangguna anu kapangaruhan",
+        "label": "Saha nu kapangaruhan?",
+        "helper": "Saha nu bakal ditulungan ku ieu?",
+        "required": true
+      },
+      {
+        "kind": "daérah téks",
+        "name": "extraKontéks",
+        "label": "Kontéks tambahan",
+        "helper": "Bagikeun naon waé anu ngabantuan ngajelaskeun kabutuhan: naha éta penting, conto, rujukan, ideu parangkat lunak kasar, atanapi watesan waktos."
+      },
+      {
+        "kind": "pilih",
+        "name": "openSourceConsent[édit _ édit sumber]",
+        "label": "Naha anjeun resep ngembangkeun open source?",
+        "helper": "Proyék anu ditarima mangrupikeun repositori umum dina IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Enya éta",
+          "Henteu",
+          "Teu yakin acan"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Lamun ditarima",
+      "title": "Naon hartina narima"
+    },
+    "items": [
+      "gudang publik dina organisasi IATF GitHub",
+      "insinyur jawab ditugaskeun ka proyék",
+      "lisénsi copyleft pikeun kode jeung bahan proyék",
+      "pamekaran publik di gudang",
+      "éntri pendaptaran dina situs IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mimitian paguneman",
+      "title": "Hiji pamundut ringkes, jelas cukup pikeun ngamimitian"
+    },
+    "paragraphs": [
+      "Upami Anjeun gaduh kabutuhan nyata aksesibilitas jeung mikir eta kudu jadi proyék publik, ngirim eta ka urang."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
