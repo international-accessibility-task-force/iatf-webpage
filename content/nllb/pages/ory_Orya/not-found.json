@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ମିଳିଲା ନାହିଁ"
+  },
+  "hero": {
+    "eyebrow": "ମିଳିଲା ନାହିଁ",
+    "title": "ଅନୁରୋଧ କରାଯାଇଥିବା ପୃଷ୍ଠା ମିଳିଲା ନାହିଁ",
+    "lead": "ସାର୍ବଜନୀନ ସ୍ଥାନକୁ ଫେରିବା ପାଇଁ ନିମ୍ନରେ ଦିଆଯାଇଥିବା ମୁଖ୍ୟ ରାସ୍ତା ବ୍ୟବହାର କରନ୍ତୁ ।",
+    "support": [],
+    "actions": [
+      {
+        "label": "ଘର",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ଆପଣ ଅନୁରୋଧ କରିଥିବା ମାର୍ଗଟି ଅସ୍ତିତ୍ବରେ ନାହିଁ ।"
+    ],
+    "items": [
+      {
+        "label": "ଘର",
+        "href": "/"
+      },
+      {
+        "label": "ପରିଯୋଜନା",
+        "href": "/projects/"
+      },
+      {
+        "label": "ଯୋଗଦାନ କରନ୍ତୁ",
+        "href": "/join/"
+      },
+      {
+        "label": "ଅଭିଗମ୍ୟତା",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ପ୍ରଶାସନ",
+        "href": "/governance/"
+      },
+      {
+        "label": "ସ୍ୱଚ୍ଛତା",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

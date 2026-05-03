@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ସାଇଟମ୍ୟାପ"
+  },
+  "hero": {
+    "eyebrow": "ସୂଚକାଙ୍କ",
+    "title": "ସାଇଟମ୍ୟାପ",
+    "lead": "ଆଇଏଟିଏଫସିସିର ପ୍ରତ୍ୟେକ ସାର୍ବଜନୀନ ପୃଷ୍ଠା, ଗୋଟିଏ ସ୍ଥାନରେ ।"
+  },
+  "sections": [
+    {
+      "title": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+      "items": [
+        {
+          "label": "ଘର",
+          "href": "/"
+        },
+        {
+          "label": "ପରିଯୋଜନା",
+          "href": "/projects/"
+        },
+        {
+          "label": "ପ୍ରକଳ୍ପ ପାଇଁ ଅନୁରୋଧ କରନ୍ତୁ",
+          "href": "/propose/"
+        },
+        {
+          "label": "ପ୍ରଶାସନ",
+          "href": "/governance/"
+        },
+        {
+          "label": "ଯୋଗଦାନ କରନ୍ତୁ",
+          "href": "/join/"
+        },
+        {
+          "label": "ଅଭିଗମ୍ୟତା",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ସ୍ୱଚ୍ଛତା",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ପରିଯୋଜନା",
+  "projectsEmpty": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପ୍ରକଳ୍ପ ପ୍ରକାଶିତ ହୋଇନାହିଁ ।"
+}

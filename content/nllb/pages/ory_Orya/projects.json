@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ଜନସାଧାରଣଙ୍କ ପାଇଁ ଉପଲବ୍ଧତା ପ୍ରକଳ୍ପ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ଜନସାଧାରଣଙ୍କ ପାଇଁ ଉପଲବ୍ଧତା ପ୍ରକଳ୍ପ",
+    "lead": "ଏହି ରେଜିଷ୍ଟ୍ରି IATF ମାଧ୍ୟମରେ ପରିଚାଳିତ ହେଉଥିବା ସାର୍ବଜନୀନ ପ୍ରକଳ୍ପଗୁଡ଼ିକୁ ତାଲିକାଭୁକ୍ତ କରିଥାଏ । ସ୍ୱୀକୃତିପ୍ରାପ୍ତ ଅଭିଗମ୍ୟତା ପ୍ରକଳ୍ପ, ସାଇଟ୍ ଭିତ୍ତିଭୂମି ଏବଂ ଅଭିଲେଖାଗାର ପ୍ରୋଟୋଟାଇପ୍ ଏଠାରେ ଦୃଶ୍ୟମାନ ରହିଥାଏ ।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "ରେଜିଷ୍ଟର",
+      "title": "ବର୍ତ୍ତମାନର ରେଜିଷ୍ଟର"
+    },
+    "intro": [
+      "ସ୍ୱୀକୃତିପ୍ରାପ୍ତ ପ୍ରକଳ୍ପଗୁଡିକ ପ୍ରକାଶିତ ହେବା ପରେ ଏଠାରେ ତାଲିକାଭୁକ୍ତ କରାଯାଇଛି ।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ଏକ ଆବଶ୍ୟକତା ଦାଖଲ କରନ୍ତୁ",
+      "title": "ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଭିଗମ୍ୟତା ଆବଶ୍ୟକତାକୁ ଏକ ସାର୍ବଜନୀନ ପ୍ରକଳ୍ପରେ ପରିଣତ କରିବା"
+    },
+    "paragraphs": [
+      "IATF ନିର୍ଦ୍ଦିଷ୍ଟ ଉପଲବ୍ଧତା ଆବଶ୍ୟକତାକୁ ସମୀକ୍ଷା କରେ ଯାହା ଉପଯୋଗୀ ସାର୍ବଜନୀନ ଓପନ ସୋର୍ସ କାର୍ଯ୍ୟରେ ପରିଣତ ହୋଇପାରିବ ।"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପ୍ରକଳ୍ପ ପ୍ରକାଶିତ ହୋଇନାହିଁ",
+    "paragraphs": [
+      "IATF ଏହାର ପ୍ରଥମ ସାର୍ବଜନୀନ ପ୍ରକଳ୍ପ ସେଟ ପ୍ରସ୍ତୁତ କରୁଛି ।",
+      "ଆପଣ ଏକ ଅନୁରୋଧ ପଠାଇ ପାରିବେ ଯଦି ଆପଣଙ୍କର ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଭିଗମ୍ୟତା ଆବଶ୍ୟକତା ଅଛି ।"
+    ]
+  }
+}
