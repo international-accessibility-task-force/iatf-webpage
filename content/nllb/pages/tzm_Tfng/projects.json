@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ⵉⵙⵏⴼⴰⵔⵏ ⵏ ⵜⵣⵎⵎⴰⵔ ⵏ ⵓⴳⴷⵓⴷ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ⵉⵙⵏⴼⴰⵔⵏ ⵏ ⵜⵣⵎⵎⴰⵔ ⵏ ⵓⴳⴷⵓⴷ",
+    "lead": "ⵉⵙⵏⵎⵍ ⵓⴷⵍⵉⵙ ⴰⴷ ⵉⵙⵏⴼⴰⵔⵏ ⵉⴳⴷⵓⴷⴰⵏⵏ ⵏⵏⴰ ⵉⵜⵜⵓⵙⵏⵎⴰⵍⴰⵏ ⵙ ⵜⴱⵔⵉⴷⵜ ⵏ IATF. ⴰⵙⵏⴼⴰⵔ ⵏ ⵜⵣⵎⵎⴰⵔ ⵏ ⵓⵙⵎⵙⴰⵙⴰ, ⴷ ⵜⵓⵚⴽⵉⵡⵜ ⵏ ⵡⴰⵏⵙⴰ, ⴷ ⵉⵎⴷⵢⴰⵡⵏ ⵉⵎⵣⵡⵓⵔⴰ ⵉⵜⵜⵓⵃⴹⴰⵏ ⴷⴰ ⵜⵜⵓⵃⵟⵟⵓⵏ ⴷⵉⵖ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "ⴰⵙⴰⵔⵓ",
+      "title": "ⴰⵙⴰⵔⵓ ⴰⵖⵣⵓⵔⴰⵏ"
+    },
+    "intro": [
+      "ⵉⵙⵏⴼⴰⵔⵏ ⵉⵜⵜⵓⵇⴱⵍⵏ ⵜⵜⵓⵙⵏⵎⵍⵏ ⴷⴷⵖ ⴷⴼⴼⵉⵔ ⵍⵍⵉⵖ ⵜⵜⵓⵙⵙⵓⴼⵖⵏ."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ⵙⵔⵓⵙ ⵜⴰⵖⵔⴰⵙⵜ",
+      "title": "ⴰⵙⵏⴼⵍ ⵏ ⵓⵙⵓⵜⵔ ⵏ ⵜⵣⵎⵎⴰⵔⵜ ⵏ ⵓⵙⵙⴽⵛⵎ ⵙ ⵢⴰⵏ ⵓⵙⵏⴼⴰⵔ ⴰⴳⴷⵓⴷⴰⵏ"
+    },
+    "paragraphs": [
+      "ⴷⴰ ⵜⵔⵣⴼ IATF ⵜⵉⵣⵎⵎⴰⵔ ⵜⵉⵎⵥⵍⴰⵢⵉⵏ ⵏ ⵓⵙⵎⵙⴰⵙⴰ ⵏⵏⴰ ⵉⵥⴹⴰⵕⵏ ⴰⴷ ⵉⵜⵜⵓⵙⵏⴼⵍⵏ ⴳ ⵜⵡⵓⵔⵉ ⵜⴰⴳⴷⵓⴷⴰⵏⵜ ⵏ ⵉⵙⵓⴳⴰⵎ ⵉⵕⵥⵎⵏ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ⵓⵔ ⵙⵓⵍ ⵉⵜⵜⵓⵥⵕⴰⵏ ⵉⵙⵏⴼⴰⵔⵏ",
+    "paragraphs": [
+      "IATF ⴰⵔ ⵉⵙⵎⵓⵜⵜⴳ ⵜⴰⵔⴰⴱⴱⵓⵜ ⵏⵏⵙ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ ⵏ ⵉⵙⵏⴼⴰⵔⵏ ⵉⴳⴷⵓⴷⴰⵏⵏ.",
+      "ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵔⵣⴼⴷ ⵢⴰⵜ ⵜⵙⵏⵜⴰⵢⵜ ⵎⴽⵍⵍⵉ ⵖⵓⵔⴽ ⵉⵍⵍⴰ ⴽⵔⴰ ⵏ ⵓⵙⵓⵜⵔ ⵉⵥⵍⵉⵏ ⵙ ⵓⵙⵎⵙⴰⵙⴰ."
+    ]
+  }
+}

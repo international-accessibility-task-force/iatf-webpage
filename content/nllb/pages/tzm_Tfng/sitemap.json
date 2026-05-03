@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ⵜⴰⴽⴰⵕⴹⴰ ⵏ ⵡⴰⵏⵙⴰ"
+  },
+  "hero": {
+    "eyebrow": "ⴰⵏⵎⵎⴰⵍ",
+    "title": "ⵜⴰⴽⴰⵕⴹⴰ ⵏ ⵡⴰⵏⵙⴰ",
+    "lead": "ⴽⵓⵍⵍⵓ ⵜⵉⴼⵔⵉⵙⵉⵏ ⵜⵉⴳⴷⵓⴷⴰⵏⵉⵏ ⴳ iatf.cc, ⴳ ⵢⴰⵏ ⵡⴰⵏⵙⴰ."
+  },
+  "sections": [
+    {
+      "title": "ⵜⵉⴼⵔⵉⵙⵉⵏ ⵜⵉⴷⵙⵍⴰⵏⵉⵏ",
+      "items": [
+        {
+          "label": "ⵜⴰⴷⴷⴰⵔⵜ",
+          "href": "/"
+        },
+        {
+          "label": "ⵉⵙⵏⴼⴰⵔⵏ",
+          "href": "/projects/"
+        },
+        {
+          "label": "ⴰⵙⵓⵜⵔ ⵏ ⵓⵖⴰⵡⴰⵙ",
+          "href": "/propose/"
+        },
+        {
+          "label": "ⵜⴰⵏⴱⴰⴹⵜ",
+          "href": "/governance/"
+        },
+        {
+          "label": "ⵙⴽⵛⵎ",
+          "href": "/join/"
+        },
+        {
+          "label": "ⵜⵉⵣⵎⵎⴰⵔ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ⵜⴰⵏⴼⵔⵓⵜ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ⵉⵙⵏⴼⴰⵔⵏ",
+  "projectsEmpty": "ⵓⵔ ⵙⵓⵍ ⵉⵜⵜⵓⵥⵕⴰⵏ ⵉⵙⵏⴼⴰⵔⵏ."
+}
