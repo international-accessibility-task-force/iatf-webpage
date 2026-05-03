@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "পাওয়া যায়নি"
+  },
+  "hero": {
+    "eyebrow": "পাওয়া যায়নি",
+    "title": "অনুরোধকৃত পাতা পাওয়া যায়নি",
+    "lead": "পাবলিক সাইটে ফিরে যাওয়ার জন্য নীচের প্রধান রুটগুলি ব্যবহার করুন।",
+    "support": [],
+    "actions": [
+      {
+        "label": "বাড়ি",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "আপনি যে রুটটি চেয়েছিলেন তা বিদ্যমান নেই।"
+    ],
+    "items": [
+      {
+        "label": "বাড়ি",
+        "href": "/"
+      },
+      {
+        "label": "প্রকল্প",
+        "href": "/projects/"
+      },
+      {
+        "label": "যোগদান করুন",
+        "href": "/join/"
+      },
+      {
+        "label": "অ্যাক্সেসযোগ্যতা",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "প্রশাসন",
+        "href": "/governance/"
+      },
+      {
+        "label": "স্বচ্ছতা",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "সাইটম্যাপ"
+  },
+  "hero": {
+    "eyebrow": "সূচক",
+    "title": "সাইটম্যাপ",
+    "lead": "আইএটিএফসিসি-র সব পাবলিক পেজ এক জায়গায়।"
+  },
+  "sections": [
+    {
+      "title": "প্রধান পাতা",
+      "items": [
+        {
+          "label": "বাড়ি",
+          "href": "/"
+        },
+        {
+          "label": "প্রকল্প",
+          "href": "/projects/"
+        },
+        {
+          "label": "একটি প্রকল্পের অনুরোধ",
+          "href": "/propose/"
+        },
+        {
+          "label": "প্রশাসন",
+          "href": "/governance/"
+        },
+        {
+          "label": "যোগদান করুন",
+          "href": "/join/"
+        },
+        {
+          "label": "অ্যাক্সেসযোগ্যতা",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "স্বচ্ছতা",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "প্রকল্প",
+  "projectsEmpty": "এখনো কোন প্রজেক্ট প্রকাশিত হয়নি।"
+}
