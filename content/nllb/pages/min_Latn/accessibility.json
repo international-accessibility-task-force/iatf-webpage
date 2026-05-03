@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibilitas",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibilitas",
+    "lead": "Tujuan dari IATF adolah untuak mambuek laman web ko manjadi sederhana, mudah dibaco, dapek diakses jo keyboard, jo kompatibel jo teknologi bantuak.",
+    "support": [
+      "Untuak aksesibilitas web, IATF manggunokan [W3C WAI](https://www.w3.org/WAI/) Aksesibilitas praktis juo dibantuak dek pangalaman langsuang dari pangguno teknologi pandukuang."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Laporkan",
+      "title": "Laporkan isu aksesibilitas"
+    },
+    "paragraphs": [
+      "Jikok Sanak manamukan halangan aksesibilitas pado laman web ko, tolong laporkan malalui surel:",
+      "{{contact.accessibilityEmail}}",
+      "Laporan nan baguno tamasuak:"
+    ],
+    "items": [
+      "laman di ma isuak tajadi",
+      "apo nan awak cubo lakukan",
+      "apo teknologi bantuak, browser, atau perangkat nan awak pakai, jikok relevan",
+      "apo nan salah",
+      "apo nan ka mambantu"
+    ],
+    "footnote": "Sanak indak paralu manulih laporan bug rasmi. Deskripsi nan jaleh cukuik."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Pananganan",
+      "title": "Pengelolaan isu publik"
+    },
+    "paragraphs": [
+      "Isu-isu aksesibilitas dapek disimpulkan dalam repositori umum nan relevan sahinggo inyo dapek diluruskan sacaro tabuka. rincian kontak pribadi jo informasi pribadi nan indak paralu dihapuih sabalun publikasi.",
+      "Jikok laporan awak tamasuak informasi pribadi, katokan sacaro jaleh dalam pasan."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kaadaan kini ko",
+      "title": "Bateh-bateh nan dikatahui"
+    },
+    "paragraphs": [
+      "Situs iko sengaja ketek jo sabagian gadangnyo statis. Babarapo versi bahaso mungkin indak langkok samantaro tarjamahan sadang disadiyokan."
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparansi",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparansi",
+    "lead": "IATF bakarajo di tampek umum sacaro default. Kaputusan proyek, parubahan kode, paubahan pamarintahan, jo biaya operasi tacataik di tampek-tampek umum.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Catatan",
+      "title": "Dima arsip-arsip tingga"
+    },
+    "items": [
+      "<strong>Kaputusan untuak proyek.</strong> Kaputusan panarimoan, pangarsipkan, jo panugasan baru tacatat sabagai isu atau rilis dalam repositori nan relevan, jo disimpulkan dalam daftar umum. <a href=\"/projects/\">arsip</a>. dari .",
+      "<strong>Minta catatan.</strong> Catatan parmintaan publik disimpan di organisasi IATF GitHub, di situs web iko, atau kaduo-duonyo. Catatan dapek mangumpuakan, mangedit, atau marestrukturan parmintaan asli sahinggo kabutuhan aksesibilitas dapek dicaliak baliak tanpa mangungkapkan informasi pribadi nan indak paralu. Kaputusan nan indak sasuai disimpulkan ka dalam catatan umum katiko inyo mampangaruahi sabuah proyek atau kaputusan pamarintahan.",
+      "<strong>Kode barubah.</strong> Satiok parubahan kode adolah pangakuan umum pado repositori nan relevan. <a href=\"{{contact.githubOrgUrl}}\">Organisasi GitHub</a>. dari .",
+      "<strong>Parubahan pamarintahan.</strong> Pembaruan pado laman pamarintahan dilacak sabagai komitmen pado <code>laman web IATF</code> Repository. View the <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">masuak riwayaik</a> di GitHub.",
+      "<strong>Biaya operasi.</strong> IATF mangarajoan biaya operasi nan randah jo mancatat biaya infrastruktur publik nan acok tajadi. Sajak 2022, biaya acok utamo adolah namo domain. Hosting alah manggunokan infrastruktur tingkek bebas atau murah dima mungkin. Caliak catatan biaya operasi di bawah ko.",
+      "<strong>Catatan koordinasi.</strong> Catatan dari mana-mana tinjauan atau kaputusan nan dikoordinasikan iduik di GitHub Pembahasan pado repositori nan relevan  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Pembahasan</a> dari <code>laman web IATF</code> arsip."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Biaya-biaya",
+      "title": "Catatan Biaya Operasi"
+    },
+    "paragraphs": [
+      "IATF manjago infrastruktur publiknyo sacaro disengaja ketek. Sajak 2022, biaya operasi nan acok utamonyo adolah namo domain. Hosting alah manggunokan infrastruktur tingkat bebas atau biaya randah dima mungkin.",
+      "Catatan iko indak marupoan laporan kauangan nan lah diaudit. Iko adolah sabuah log biaya operasi publik untuak infrastruktur nan digunoan untuak mampatahankan IATF online."
+    ],
+    "footnote": "Kuitansi dapek dirujuk atau ditabikan sasudah disuntiang. Alamat pribadi, rincian tagihan, jo informasi akun nan indak paralu indak marupokan bagian dari catatan publik.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domain[suntiang sumber]",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Catatan",
+            "value": "Biaya domain nan dibiayai dek mugiwarafx. Hosting manggunokan infrastruktur tingkek bebas atau biaya randah malalui Cloudflare. <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domain[suntiang sumber]",
+            "value": "<code>internasional dari aksesibilitastaskforce.com</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Catatan",
+            "value": "Biaya domain nan dibiayai dek mugiwarafx. Hosting nan digunokan infrastruktur tingkek bebas atau biaya randah."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domain[suntiang sumber]",
+            "value": "<code>internasional dari aksesibilitastaskforce.com</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Catatan",
+            "value": "Biaya domain nan dibiayai dek mugiwarafx. Hosting nan digunokan infrastruktur tingkat bebas atau biaya randah malalui Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domain[suntiang sumber]",
+            "value": "<code>internasional dari aksesibilitastaskforce.com</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Catatan",
+            "value": "Biaya domain nan dibiayai dek mugiwarafx. Hosting nan digunokan infrastruktur tingkek bebas atau biaya randah."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domain[suntiang sumber]",
+            "value": "<code>internasional dari aksesibilitastaskforce.com</code>"
+          },
+          {
+            "label": "Biaya",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Catatan",
+            "value": "Biaya domain nan dibiayai dek mugiwarafx. Hosting nan digunokan infrastruktur tingkat bebas atau biaya randah malalui GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Catatan bateh",
+      "title": "Apo nan indak umum"
+    },
+    "paragraphs": [
+      "Babarapo bahan disimpan dari catatan publik jo tujuan:"
+    ],
+    "items": [
+      "Rincian kontak pribadi dari panyusun proposal.",
+      "Korespondensi pribadi nan digunoan hanyo untuak manjalehan suatu pamintaan sabalun ditarimo, ditolak, atau disimpulkan.",
+      "Alamat pribadi, nomor telepon, jo rincian pribadi nan indak paralu.",
+      "Apo pun nan dapek mangidentifikasi pangguno teknologi bantu tanpa ijin.",
+      "Obrolan Raw Discord, kacuali pasan tatantu sacaro disengaja dipindahan ka catatan proyek umum."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bacaan labiah lanjuik",
+      "title": "Pamarintahan adolah buku aturan di balakang catatan-catatan ko"
+    },
+    "paragraphs": [
+      "Jikok Sanak namuah mangarati baa caro proyek ditarimo, diarsipkan, atau ditugehkan baliak, caliaklah laman pamarintahan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

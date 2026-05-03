@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Minta proyek aksesibilitas",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Minta proyek aksesibilitas",
+    "lead": "IATF mamareso pamintaan untuak proyek aksesibilitas nan dimulai dari kaparaluan nyata.",
+    "support": [
+      "Awak indak paralu spesifikasi nan langkok. masalah nan jaleh, sia nan marugikan, jo baa mangko paralu, cukuik untuak mamulai."
+    ],
+    "actions": [
+      {
+        "label": "Mulailah mamintak",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gunakannyo Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Piliah jalan nan paliang mudah"
+    },
+    "intro": [
+      "Sadonyo rute masuak ka dalam tinjauan nan samo."
+    ],
+    "items": [
+      {
+        "label": "Laman web",
+        "body": "Pakailah formulir di bawah ko untuak mangirim parmintaan nan tasusun."
+      },
+      {
+        "label": "E-mail",
+        "body": "Kirim pintak ko langsuang ka {{contact.requestsEmail}}Pamintaan surel dapek manjadi catatan pamintaan publik sasudah ditinjau jo disuntiang."
+      },
+      {
+        "label": "Indak satuju",
+        "body": "Mulai di sana kalau itu nan paliang mudah. pamintaan masih bapindah ka paninjauan nan samo."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sabalun mangirim parmintaan",
+    "paragraphs": [
+      "Pamintaan dapek disimpulkan jo ditabikan sabagai catatan pamintaan umum di organisasi IATF GitHub, di situs web ko, atau kaduo-duonyo.",
+      "Jan tamasuak alamat pribadi, nomor telepon, rincian medis, atau informasi nan mangidentipikasi pangguno individu dari teknologi pandukuang kacuali paralu jo awak maraso nyaman jo IATF untuak marapulaiannyo.",
+      "IATF mahapus rincian kontak pribadi nan indak paralu sabalun manyebarkan catatan pamintaan."
+    ]
+  },
+  "review": {
+    "title": "Harok-harok panjalehan",
+    "paragraphs": [
+      "Pangiriman pamintaan indak manjamin panarimoan.",
+      "IATF mamareso pamintaan untuak kacocokan misi, kalayakan, kagunoan, jo apokoh karya tu tamasuak dalam sabuah repositori publik.",
+      "Babarapo permintaan dapek ditolak, ditunda, atau diubah sabalun ditarimo."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulir pamintaan",
+      "title": "Mangirim parmintaan"
+    },
+    "fields": [
+      {
+        "kind": "masukan",
+        "name": "nan mamintak",
+        "label": "Namo atau organisasi awak",
+        "helper": "Siapo nan mamintak?"
+      },
+      {
+        "kind": "mamiliah",
+        "name": "kontakJalan",
+        "label": "Jalur kontak nan disukoi",
+        "helper": "Baa caronyo manindak-an?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Indak satuju"
+        ]
+      },
+      {
+        "kind": "masukan",
+        "name": "Rincian kontak",
+        "label": "Rincian kontak",
+        "helper": "Alamat surel atau pangguno Discord untuak panjalehan.",
+        "placeholder": "Alamat surel atau pangguno Discord",
+        "required": true
+      },
+      {
+        "kind": "masukan",
+        "name": "bahaso",
+        "label": "Bahaso",
+        "helper": "Bahaso nan dipiliah, jikok relevan.",
+        "value": "Bahaso Inggirih"
+      },
+      {
+        "kind": "textarea (tampek teks)",
+        "name": "panyakik",
+        "label": "Apo masalah nan awak cubo untuak manyalasaian?",
+        "helper": "Deskripsikan hal iko jo kato-kato nan jaleh.",
+        "required": true
+      },
+      {
+        "kind": "textarea (tampek teks)",
+        "name": "pangguno nan dipangaruahi",
+        "label": "Sia nan taimpok?",
+        "helper": "Sia nan ka dapek manolong?",
+        "required": true
+      },
+      {
+        "kind": "textarea (tampek teks)",
+        "name": "extraKontek",
+        "label": "Babarapo hal lainnyo",
+        "helper": "Bagikan apo sajo nan dapek manjalehan paraluannyo: baa mangko paralu, contoh, referensi, ide parangkat lunak, atau bateh wakatu."
+      },
+      {
+        "kind": "mamiliah",
+        "name": "openSourceConsent[suntiang sumber]",
+        "label": "Awak suko jo pangambangan open source umum?",
+        "helper": "Proyek nan ditarimo adolah repositori publik di bawah IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Iyo",
+          "Indak",
+          "Alun pasti lai"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Kok ditarimo",
+      "title": "Aratinyo pangaratian"
+    },
+    "items": [
+      "sabuah repositori umum dalam organisasi IATF GitHub",
+      "surang insinyur nan tangguang jawab nan ditugehkan untuak proyek",
+      "lisensi copyleft untuak kode jo bahan proyek",
+      "pangambangan umum dalam repositori",
+      "entri daftar pado situs IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mulailah bacarai",
+      "title": "Parmintaan singkek nan jaleh cukuik untuak mamulai"
+    },
+    "paragraphs": [
+      "Jikok angku-angku sabana-bana mamaralukan aksesibilitas, sarato maraso paralu manjadi proyek umum, surekkanlah kabake kami."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

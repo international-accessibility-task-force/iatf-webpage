@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Bergabung jo IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Bergabung jo IATF",
+    "lead": "Kaanggotaan tabukak. Ado babarapo caro untuak maambiak bagian, apopun awak bagantuang pado teknologi pandukuang, mambuek parangkat lunak nan dapek diakses, manajamahan, mancubo, atau manjago sabuah proyek. Diskusi jo kaputusan tajadi sacaro umum di GitHub jo Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Bantuak-bantuak",
+      "title": "Cara untuak manyumbang"
+    },
+    "items": [
+      "<strong>Mintalah sabuah proyek.</strong> Jikok Sanak basobok jo halangan aksesibilitas nan dapek diatasi jo perangkat lunak open source umum, kirimnyo malalui panarimaan pamintaan.",
+      "<strong>Uji dan tinjau.</strong> Cubolah proyek-proyek IATF jo teknologi bantuak nan awak pakek, laporkan apo nan bakarajo jo apo nan indak, dan surekkan isu-isu sacaro langsuang pado repositori nan relevan.",
+      "<strong>Tarjamahan.</strong> Konten sumber ditabikan dalam bahaso Inggirih nan biaso. Tarjamahan ditambahkan katiko kontributor tasadio, dimulai jo bahaso Spanyol.",
+      "<strong>Mambangun.</strong> Piliah isu-isu di mana-mana repositori IATF, kirimkan pamintaan pull, atau maambiak proyek sabagai insinyur nan batangguang.",
+      "<strong>Tahankan.</strong> Proyek-proyek nan ado kadang-kadang paralu pangurus baru. Rotasi pangurus adolah bagian normal dari model, bukan pengecualian."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Dima IATF bakarajo di tampek umum"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Isu-isu, pamintaan, rilis, jo catatan proyek.",
+      "<strong>Indak satuju.</strong> Diskusi iduik, koordinasi, jo tanyo-tanyo nan indak rasmi.",
+      "<strong>E-mail.</strong> Pamakaian <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> kalau indak ado GitHub atau Discord nan cocok."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Lakuik sataruihnyo",
+      "title": "Piliah saluran nan sasuai jo caro Sanak namuah manyumbang"
+    },
+    "paragraphs": [
+      "Kasadonyo saluran masuak ka paninjauan umum nan samo jo repositori publik nan samo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

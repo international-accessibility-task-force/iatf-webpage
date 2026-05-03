@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Tata kelola jo model repositori",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Tata kelola jo model repositori",
+    "lead": "IATF manjago proyek aksesibilitas untuak umum, dapek dibaco, jo dapek dipaliaro.",
+    "support": [
+      "Laman ko manjalehan apo nan patuik, caro manahan repositori, jo tanggung jawab di tingkek repositori nan balaku sasudah ditarimo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Rukunyo",
+      "title": "Misi nan patuik, kapamiliakan, lisensi"
+    },
+    "cards": [
+      {
+        "title": "Misi nan patuik",
+        "paragraphs": [
+          "IATF manarimo karajo nan mangatasi halangan aksesibilitas nan nyata jo mampunyoi nilai publik nan jaleh.",
+          "Proyek harus baguno di lua aliran karajo pribadi nan tunggal jo dapek dipakai sabagai repositori umum.",
+          "Untuak aksesibilitas web, IATF manggunokan [W3C WAI](https://www.w3.org/WAI/) Pangalaman langsuang dari pangguno teknologi bantuan juo marupokan bukti praktis dari apo nan bakarajo dalam panggunoan nyata."
+        ]
+      },
+      {
+        "title": "Panarimoan proyek",
+        "paragraphs": [
+          "Usulan dapek ditarimo katiko panjalehan manunjuakan baso:"
+        ],
+        "items": [
+          "inyo manyadari paralu aksesibilitas nan nyata",
+          "masalahnyo cukuik jaleh untuak manilai",
+          "ruang lingkupnyo cukuik realistis untuak diluncurkan",
+          "karajo tu sasuai jo misi IATF",
+          "ado jalan nan mungkin untuak manopang atau manyalasaikan"
+        ]
+      },
+      {
+        "title": "Kapamiliakan repositori",
+        "paragraphs": [
+          "Proyek nan ditarimo dibuek di bawah organisasi IATF GitHub.",
+          "Repositorio tatap ado di sinan sahinggo satiok proyek mampunyoi rumah umum nan stabil, walaupun panjago nantinyo barubah."
+        ]
+      },
+      {
+        "title": "Lisensi",
+        "paragraphs": [
+          "Proyek IATF manggunokan lisensi copyleft kacuali proyek manyatoan lain:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Dokumentasi:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Insinyur atau pangrajin nan batangguang",
+      "paragraphs": [
+        "Satiok proyek nan ditarimo harus mampunyoi insinyur atau pangurus nan tangguang."
+      ],
+      "items": [
+        "panduan pangambangan di tampek umum",
+        "manjago struktur repositori",
+        "maninjau atau mangelola isu-isu jo manarik pamintaan",
+        "dokumen kaputusan teknis nan pantiang",
+        "mambuek proyek dapek dipahami dek urang lain"
+      ],
+      "footnote": "Tangguang jawab di siko adolah pangawasan gudang, arah teknis, jo koordinasi publik  bukan pangiriman pribadi nan indak tabateh, integrasi khusus, atau komitmen tingkek layanan di lua dari peta jalan publik."
+    },
+    "publicDevelopment": {
+      "title": "Pangambangan masyarakaik",
+      "paragraphs": [
+        "Proyek nan diluncurkan malalui IATF dikambangan sacaro default di tampek umum."
+      ],
+      "items": [
+        "kode sumbernyo",
+        "isu-isu nan",
+        "dokumentasi",
+        "catatan dari peta jalan",
+        "sijarah rilis"
+      ],
+      "footnote": "Pangatahuan proyek nan pantiang indak buliah hanyo tingga di chat pribadi atau kotak masuk."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Catatan umum",
+      "title": "Catatan pamintaan publik"
+    },
+    "paragraphs": [
+      "Pamintaan nan masuak ka IATF malalui situs web, surel, Discord, GitHub, atau saluran-saluran IAT F lainnyo dapek manjadi catatan pamintaan publik.",
+      "Catatan parmintaan umum indak paralu marupokan pasan asli. IATF dapek mangumpuakan, manyuntiang, atau marestrukturan parmintaan sabalun publikasi sahinggo kahandak aksesibilitas dapek dicaliak baliak tanpa mangungkap informasi pribadi nan indak diparaluan.",
+      "Catatan pamintaan publik dapek disimpan di organisasi IATF GitHub, di situs web iko, atau kaduo-duonyo.",
+      "Sabalun publikasi, IATF manghapus rincian kontak pribadi nan indak paralu, alamat pribadi, jo rincian identifikasi tantang pangguno individu teknologi pandukuang kacuali publikasi sacaro jaleh dituju jo sasuai.",
+      "Discord digunokan untuak koordinasi informal. IATF indak arsip sacaro tapisah percakapan Discord sacaro default, jo panyimpanan pasan dikontrol dek Discord. Kaputusan nan diambiak dalam Discord harus disimpulkan ka dalam catatan publik di GitHub atau di laman proyek nan relevan.",
+      "Catatan parmintaan indak dimasuakan dari indeksasi mesin pencari dima sacaro teknis praktis. Publik aratinyo dapek ditinjau jo dituntuik. Indak dimasuakkan untuak panamuan malalui pancarian namo.",
+      "IATF dapek ma-update atau ma-apuih surek dari pamukaan umum nan dikontrol IAT F, tapi indak dapek maagaransi pangapuih dari cache pihak katigo, pemberitahuan, garpu, screenshot, search engine, Discord, atau sistem lua lainnyo.",
+      "Jikok pasan paralu tatap pribadi, jan kirimnyo malalui saluran umum IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Bantuak organisasi",
+      "title": "Kursi"
+    },
+    "lead": "Pengerusi mampunyoi kapamimpinan di tingkek organisasi dari IATF. iko babeda dari peran insinyur nan batangguang per-proyek: ketua punyo tangguang jawab untuak organisasi sacaro kasaluruahan, indak untuak arah dari hari ka hari dari sabuah repositori tunggal.",
+    "duties": {
+      "title": "Apo nan dikarajoan dek kurisi",
+      "items": [
+        "Mambaliakan ijin nan punyo pado organisasi IATF GitHub",
+        "Manandatangani kasimpualan proyek jo kaputusan arsip",
+        "Bafungsi sabagai titik kontak publik untuak IATF",
+        "Mangkoordinasi pamilihan taunnyo"
+      ],
+      "footnote": "Ketua indak mangikat IATF untuak pangiriman pribadi, karajo nan dibayia, atau pasatujuan tingkek layanan, jo indak mangaluakan kaputusan-kaputusan per-repository maintainer pado arah teknis."
+    },
+    "election": {
+      "title": "Pamilihan tahunan",
+      "paragraphs": [
+        "Kapalo dipilih sakali satahun. Pemilihan berlangsung pado duo minggu partamo bulan Desember, hasil diumumkan pado tanggal 15 Desember, dan masa jabatan baru dimulai pado tanggal 1 Januari.",
+        "Pamilih nan layak adolah urang-urang nan mampunyoi peran panguruih pado sabuah repositori IATF salamo satahun jo mambuek saindaknyo ciek sumbangannyo pado repositori itu. Masing-masing pamilih punyo ciek suaro. Kandidat nan mandapek suaro paliang banyak manang; jikok ado kasamaan, babak kaduo diadoan pado minggu katigo bulan Desember.",
+        "Pemilihan iko dilakuan sabagai Diskusi GitHub publik di repositori pamarintahan IATF nan ditunjuk, sahinggo kandidat, pamungutan suaro, jo hasilnyo kasadonyo marupokan bagian dari catatan publik."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitas",
+      "paragraphs": [
+        "Jikok indak ado pamilihan di satahun tatantu, katua nan kini ko taruih di jabatannyo inggo pamilihan salanjuiknyo. Iko adolah panaruih nan indak tabateh, bukan periode pangampunan  model iko dirancang untuak manjago organisasi stabil katiko aktivitasnyo randah, indak untuak mamaksa transisi nan indak ado urang nan siap untuaknyo.",
+        "Ketua dapek mangundurkan diri sawaktu-waktu.Pengurus aktif dapek juo manyatokan pamilihan ekstraordinari jo alasan nan dinyatokan, dilakuan manuruik aturan nan samo jo pamilihan tahunan."
+      ]
+    },
+    "current": {
+      "title": "Katua nan kini",
+      "fields": [
+        {
+          "label": "Kursi",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Istilah",
+          "value": "Hingga pamilihan Desember 2026"
+        },
+        {
+          "label": "Peran nan diformalkan",
+          "value": "2026"
+        },
+        {
+          "label": "Pilkada partamo nan dijadwalkan",
+          "value": "Desember 2026"
+        }
+      ]
+    },
+    "footnote": "Peran katua diformalkan pado 2026 untuak mambuek pangawasan di tingkek organisasi sacaro eksplisit."
+  },
+  "continuity": {
+    "states": {
+      "title": "Status proyeknyo",
+      "paragraphs": [
+        "Proyek manggunokan saketek susunan nagara umum:"
+      ],
+      "items": [
+        "Proposal",
+        "Ditarimo",
+        "Aktifnyo",
+        "Stabil",
+        "Mancari pangurus",
+        "Arsipnyo"
+      ],
+      "footnote": "Nagara-nagara ko mampunyoi daftar nan mudah dicaliak."
+    },
+    "reassignment": {
+      "title": "Penugasan baliak jo panahanan arsip",
+      "paragraphs": [
+        "Jikok surang panguruih malangkah jauah atau manjadi indak aktif, IATF dapek manugehkan baliak tangguang jawab, maantakan pangambangan, atau maarsipkan proyek.",
+        "Proyek dapek juo diarsipkan katiko kaparaluan aslinyo alah ditarimo, pamaliharaan alah baranti, atau karajo nan ditaruih indak realistis lai."
+      ],
+      "footnote": "Proyek-proyek nan diarsipkan tatap dapek dicaliak dek umum kacuali ado alasan nan paralu untuak malakukan nan lain."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Catatan bateh",
+      "title": "Apo nan indak dijamin IATF"
+    },
+    "items": [
+      "pangiriman untuak klien swasta",
+      "pasatujuan tingkek palayanan",
+      "panarimo dari satiok proposal",
+      "pemeliharaan jangka panjang untuak satiok proyek"
+    ],
+    "footnote": "IATF adolah model repositori publik, bukan layanan pangiriman swasta."
+  }
+}

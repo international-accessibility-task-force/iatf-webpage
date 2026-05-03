@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyek aksesibilitas umum",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyek aksesibilitas umum",
+    "lead": "Daftar iko mandaftarkan proyek-proyek umum nan dikelola malalui IATF. Proyek aksesibilitas nan ditarimo, infrastruktur situs, jo prototipe nan diarsipkan tatap dapek diliek di siko.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Arsip",
+      "title": "Daftar nan ado"
+    },
+    "intro": [
+      "Proyek-proyek nan ditarimo disabuik di siko sasudah inyo ditabikan."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Manyampaikan paralu",
+      "title": "Ubah paralu aksesibilitas nan konkret manjadi proyek umum"
+    },
+    "paragraphs": [
+      "IATF mambaco kabutuhan aksesibilitas konkret nan dapek diubah manjadi karya sumber kabuka umum nan baguno."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Alun ado proyek nan ditabikan",
+    "paragraphs": [
+      "IATF sadang mambuek proyek publik patamo.",
+      "Sungguahpun baitu, awak masih dapek mangirim surek pamintaan, jikok awak punyo paralu aksesibilitas nan spesifik."
+    ]
+  }
+}

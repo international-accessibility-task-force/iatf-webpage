@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Peta Situs"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Peta Situs",
+    "lead": "Satiok laman umum di iatf.cc, di ciek tampek."
+  },
+  "sections": [
+    {
+      "title": "Halaman utamo",
+      "items": [
+        {
+          "label": "Rumahnyo",
+          "href": "/"
+        },
+        {
+          "label": "Proyek",
+          "href": "/projects/"
+        },
+        {
+          "label": "Minta proyek",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pamarintahan",
+          "href": "/governance/"
+        },
+        {
+          "label": "Bergabunglah",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksesibilitas",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparansi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyek",
+  "projectsEmpty": "Alun ado proyek nan ditabikan."
+}

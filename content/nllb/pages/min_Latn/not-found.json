@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Indak ditamukan"
+  },
+  "hero": {
+    "eyebrow": "Indak ditamukan",
+    "title": "Laman nan diminta indak ditamukan",
+    "lead": "Pakai jalan utamo di bawah ko untuak babaliak ka situs umum.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Rumahnyo",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Rute nan Sanak minta indak ado."
+    ],
+    "items": [
+      {
+        "label": "Rumahnyo",
+        "href": "/"
+      },
+      {
+        "label": "Proyek",
+        "href": "/projects/"
+      },
+      {
+        "label": "Bergabunglah",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibilitas",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pamarintahan",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparansi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
