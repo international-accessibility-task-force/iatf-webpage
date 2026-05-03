@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Нээгдээгүй"
+  },
+  "hero": {
+    "eyebrow": "Нээгдээгүй",
+    "title": "Хүссэн хуудас олдсонгүй",
+    "lead": "Нийтийн талбайд буцахын тулд доорх гол замыг ашиглана уу.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Гэртээ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Таны хүссэн маршрут байхгүй."
+    ],
+    "items": [
+      {
+        "label": "Гэртээ",
+        "href": "/"
+      },
+      {
+        "label": "Төсөл",
+        "href": "/projects/"
+      },
+      {
+        "label": "Хамтран ажиллах",
+        "href": "/join/"
+      },
+      {
+        "label": "Нэвтрэх боломжтой байдал",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Засаг захиргаа",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ил тод байдал",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

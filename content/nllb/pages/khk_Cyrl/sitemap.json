@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Сайтын зураг"
+  },
+  "hero": {
+    "eyebrow": "Нүүр хуудас",
+    "title": "Сайтын зураг",
+    "lead": "IATF.CC-ийн бүх нийтэд нээлттэй хуудсууд нэг газар."
+  },
+  "sections": [
+    {
+      "title": "Үндсэн хуудас",
+      "items": [
+        {
+          "label": "Гэртээ",
+          "href": "/"
+        },
+        {
+          "label": "Төсөл",
+          "href": "/projects/"
+        },
+        {
+          "label": "Төсөл хүсэлт гаргах",
+          "href": "/propose/"
+        },
+        {
+          "label": "Засаг захиргаа",
+          "href": "/governance/"
+        },
+        {
+          "label": "Хамтран ажиллах",
+          "href": "/join/"
+        },
+        {
+          "label": "Нэвтрэх боломжтой байдал",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ил тод байдал",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Төсөл",
+  "projectsEmpty": "Одоогоор ямар ч төсөл хэвлэгдээгүй байна."
+}

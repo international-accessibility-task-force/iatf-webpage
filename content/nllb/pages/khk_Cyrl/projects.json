@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Олон нийтийн хүртээмжтэй байх төслүүд",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Олон нийтийн хүртээмжтэй байх төслүүд",
+    "lead": "Энэхүү бүртгэл нь IATF-ийн тусламжтайгаар хадгалагддаг олон нийтийн төслүүдийг жагсаадаг. хүлээн зөвшөөрөгдсөн хүртээмжтэй төслүүд, сайтын дэд бүтэц, архивт хадгалагдсан анхны загварууд энд харагдана.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Бүртгэл",
+      "title": "Одоогийн бүртгэл"
+    },
+    "intro": [
+      "хүлээн зөвшөөрөгдсөн төслүүдийг нийтлэхэд дараахь жагсаалтад оруулжээ."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Хэрэгцээгээ илгээх",
+      "title": "Ил тод хэрэгцээг олон нийтийн төсөл болгон хувиргах"
+    },
+    "paragraphs": [
+      "IATF нь олон нийтийн нээлттэй эх үүсвэрийн ашигтай ажил болгон хувиргах боломжтой тодорхой хүртээмжтэй байдлын хэрэгцээг шалгана."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Одоогоор ямар ч төсөл хэвлэгдээгүй",
+    "paragraphs": [
+      "IATF нь анхны олон нийтийн төсөл хөтөлбөрийг бэлтгэж байна.",
+      "Хэрэв танд нэвтрэх боломжийн тодорхой хэрэгцээ байгаа бол та хүсэлт илгээж болно."
+    ]
+  }
+}
