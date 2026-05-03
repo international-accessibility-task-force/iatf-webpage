@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Amansan akwantuo ho nhyehyeɛ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Amansan akwantuo ho nhyehyeɛ",
+    "lead": "Saa nhyehyeɛ yi kyerɛ amansan nnwuma a wɔhwɛ so wɔ IATF no mu. Adwuma a wɔagye ato mu, beaɛ ho nhyehyɛeɛ, ne mfoni a wɔakora so wɔ hɔ no nyinaa da adi wɔ ha.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Adansedie",
+      "title": "Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa no mu"
+    },
+    "intro": [
+      "Wɔahyehyɛ nhyehyeɛ a wɔagye ato mu wɔ ha bere a wɔatintim no."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Fa w'abisade to hɔ",
+      "title": "Sεdeε yεn nsa bεka nkyerεkyerε mu ahiadeε bi ho a yεbεdan no ɔmanfo dwumadeε"
+    },
+    "paragraphs": [
+      "IATF yɛ nhwehwԑmu a ԑkyerԑ ahiadeԑ a emu yԑ den a ԑbԑtumi asesa abԑyԑ adwuma a mfaso wԑn so."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nhyehyɛeɛ a wɔatintim no da so wɔ hɔ",
+    "paragraphs": [
+      "IATF rehyehyɛ n'adwuma a edi kan wɔ ɔman no mu.",
+      "Wobɛtumi ato nsa afrɛ yɛn bere a wohia mmoa pɔtee bi."
+    ]
+  }
+}

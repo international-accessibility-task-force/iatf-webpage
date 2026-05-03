@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "From accessibility need to public repo",
+    "lead": "IATF boa nnwumakuw, akuw, ne ankorankoro ma wɔsakra ahwehwɛde ankasa a ɛfa ɔkwan a wɔfa so yɛ adwuma ho ma abɛyɛ nnwuma a wɔdi ho dwuma ma ɔmanfo.",
+    "support": [
+      "Adwuma a wogye tom no wɔ IATF GitHub ahyehyɛde no mu wɔ copyleft tumi krataa ase, na ɔbenfo a ɔhwɛ dwumadie no so yɛ no wɔ baguam."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Aban a edi dwuma wɔ ɔkwan a ɛtete saa so",
+      "title": "Abibifahodie kwan a emu da hɔ ma kɔmputa so dwumadie a wotumi de di dwuma"
+    },
+    "paragraphs": [
+      "Ɛdenam krataa bi so no, obiara betumi de nsɛmmisa a ɛfa kwan a obi betumi afa so anya bi akɔma IATF no. Sɛ kuw no betumi afa saa asɛmmisa no so a, wobue baguam GitHub korabea ma adwuma no.",
+      "Adwuma biara a w'agye ato mu no wɔ ɔmanfo fie a emu da hɔ ma code, issues, documentation, ne releases, a ɔbenfo a ɔhwɛ dwumadie no so di anim wɔ abɔnten."
+    ],
+    "specCard": {
+      "title": "Aban a edi dwuma wɔ ɔkwan a ɛtete saa so",
+      "terms": [
+        {
+          "term": "Ɛho hia",
+          "definition": "Nsεnkyerεmu a yεde kyerε kasa ase"
+        },
+        {
+          "term": "Adesua",
+          "definition": "Asεm no ho a yεfata ne nsεm a εbεtumi de adi dwuma"
+        },
+        {
+          "term": "Dwumadibea",
+          "definition": "Aban GitHub akoraeɛ"
+        },
+        {
+          "term": "Adwumayɛ",
+          "definition": "IATF ahyehyɛde agyinatuo"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Nhyehyɛeɛ",
+      "title": "Sɛnea ɛyɛ adwuma",
+      "intro": "Nhwɛso no yɛ ketewa ma enti ɛyɛ mmerɛw sɛ wobedi ɔmanfo akwan no akyi."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Yԑ srԑ sԑ wobԑkyerԑ ase",
+        "paragraphs": [
+          "Nhyehyɛe, akuw, anaa ankorankoro betumi de adesrɛde a egyina ahiade ankasa a ɛfa kwan a obi betumi afa so anya bi so adi dwuma.",
+          "Wobɛtumi afi ase wɔ wɛbsaet no so, anaa fa e-mail kɔma <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, anaa denam akyinnyegye so."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF sɔ no hwɛ",
+        "paragraphs": [
+          "Yɛhwɛ dwumadi no ho a ɛfata, mfasoɔ a ɛwɔ so, ne sɛ adwuma no fata sɛ yɛ yɛ ma ɔmanfo a wɔn ani da hɔ adwuma no so anaa."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Wɔyɛ baguam adansedie akoraeɛ",
+        "paragraphs": [
+          "Sɛ wɔgye adwuma bi to mu a, wɔtintim wɔ IATF GitHub ahyehyɛde no mu wɔ copyleft tumi krataa ase.",
+          "Dwumadibea no bɛyɛ ɔmanfo fie ama mmara no, nsɛm no, nkrataa no, ne nnwom no."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Dwumadi ho nimdefoɔ a ɔhwɛ adwuma no so",
+        "paragraphs": [
+          "Wɔde ɔbenfo a ɔhwɛ dwumadie no so ma adwuma no akoraeɛ, na wɔyɛ nhwehwɛmu wɔ baguam."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Adansedie",
+      "title": "Nhyehyɛeɛ a ɔmanfoɔ ani tua"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fi ase wɔ ha",
+      "title": "Hwehwɛ adwuma a woreyɛ seesei no mu anaa hyɛ adwuma pɔtee bi ase"
+    },
+    "paragraphs": [
+      "Fa registry no di dwuma na hu nea w'atumi adi ho dwuma dada, anaa hyɛ ase fa bi di dwuma bere a ɔhaw pɔtee bi a ɛfa kwan a obi betumi afa so anya bi bɛyɛ adwuma no."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

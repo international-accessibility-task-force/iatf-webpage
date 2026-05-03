@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kpondɛ ngyehyɛleɛ mɔɔ bahola aboa wɔ yeamaa wɔabikye awie mɔ la",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kpondɛ ngyehyɛleɛ mɔɔ bahola aboa wɔ yeamaa wɔabikye awie mɔ la",
+    "lead": "IATF hwehwɛ adesrɛde ahorow a ɛfa mpuntuo ho a efi ahiade ankasa mu no mu.",
+    "support": [
+      "Wonnhia nkyerɛkyerɛmu a ɛkɔ akyiri. Ɔhaw a emu da hɔ, wɔn a ɛfa wɔn ho, ne nea enti a ɛho hia no ara dɔɔso na ama woatumi afi ase."
+    ],
+    "actions": [
+      {
+        "label": "Fi ase sԑ wobԑyԑ ahwehwԑde",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Fa Discord di dwuma",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ",
+      "title": "Paw ɔkwan a ɛyɛ mmerɛw no"
+    },
+    "intro": [
+      "Akwan nyinaa yɛ ade koro."
+    ],
+    "items": [
+      {
+        "label": "Intanɛt dwumadibea",
+        "body": "Fa krataa a ɛwɔ ase ha yi di dwuma fa to nsa frɛ."
+      },
+      {
+        "label": "E-mail nkrataa",
+        "body": "Fa adesrɛde no kɔma {{contact.requestsEmail}}E-mail asԑmmisa bԑtumi abԑyԑ baguam asԑm ho kyerɛwtohɔ sԑnea woahwehwԑ na woasiesie no."
+      },
+      {
+        "label": "Nsonsonoe",
+        "body": "Fi ase wɔ hɔ sɛ ɛno na ɛyɛ mmerɛw a. Asrɛde no da so ara kɔ adesua a edi kan no mu."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ansa na wode adesrɛde bɛmena",
+    "paragraphs": [
+      "IATF yɛ adwuma wɔ baguam. Wobɛtumi ahyehyɛ nsrɛsrɛde na w'atumi atwerɛ sɛ baguamu nsrɛde wɔ IAT F GitHub ahyehyɛde no mu, wɔ wɛbsaet yi so, anaa ne mmienu nyinaa so.",
+      "Mfa adrɛs, telefon nɔma, apɔwmuden ho nsɛm, anaa nsɛm a ɛbɛma woahu obi a ɔde mmoa a wɔde di dwuma no bi adi dwuma nka ho, gye sɛ ɛho hia na w'ani gye ho sɛ IATF bɛhwɛ so.",
+      "IATF yi personal contact details a enhia ansa na w'atumi atwe request records."
+    ]
+  },
+  "review": {
+    "title": "Anidasoɔ a ne sε yεto aba",
+    "paragraphs": [
+      "Sɛ wode adesrɛde bi to hɔ a, ɛnkyerɛ sɛ wobegye atom.",
+      "IATF hwehwɛ nsrɛdeɛ mu hwɛ sɛ adwuma no fata, ɛtumi yɛ yie, mfasoɔ wɔ so, ne sɛ ɛyɛ adwuma no a ɛsɛ sɛ wɔde kɔ baguam adansedie dan mu anaa.",
+      "Ebia wɔbɛpo adesrɛde ahorow bi, wɔde ato hɔ, anaa wɔbɛyɛ no foforo ansa na wɔagye ato mu."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Adansedie krataa",
+      "title": "Yԑ srԑ sԑ wobԑyԑ nhwehwԑmu"
+    },
+    "fields": [
+      {
+        "kind": "nsɛm a wɔde ba",
+        "name": "ɔsrɛsrɛfoɔ",
+        "label": "Wo din anaa w'ahyehyɛde",
+        "helper": "Hena na ɔreyɛ adesrɛ no?"
+      },
+      {
+        "kind": "paw",
+        "name": "nkitahodie kwan",
+        "label": "Nkitahodi kwan a wɔn ani gye ho",
+        "helper": "Ɔkwan bɛn so na ɛsɛ sɛ wodi akyi?",
+        "required": true,
+        "options": [
+          "E-mail nkrataa",
+          "Nsonsonoe"
+        ]
+      },
+      {
+        "kind": "nsɛm a wɔde ba",
+        "name": "nkitahodieNsɛm nketenkete",
+        "label": "Nkɔmmɔ ho nsɛm",
+        "helper": "E-mail address anaa Discord handle a wobɛtumi de adi dwuma.",
+        "placeholder": "E-mail address anaa Discord handle",
+        "required": true
+      },
+      {
+        "kind": "nsɛm a wɔde ba",
+        "name": "kasahorow",
+        "label": "kasahorow",
+        "helper": "Wo kasa a w'ani gye ho, sɛ ɛho hia a.",
+        "value": "Borɔfo kasa"
+      },
+      {
+        "kind": "textarea",
+        "name": "ɔhaw",
+        "label": "Ɔhaw bɛn na worebɔ mmɔden sɛ wubedi ho dwuma?",
+        "helper": "Kyerɛkyerɛ akwanside no mu wɔ kasa a emu da hɔ mu.",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "Users a wɔn ho aka no",
+        "label": "Henanom na ɛka wɔn?",
+        "helper": "Hena na eyi bɛboa no?",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "extraNsɛm a ɛfa ho",
+        "label": "Nkyerεkyerεmu foforo",
+        "helper": "Ka biribi foforo biara a ɛboa ma wɔkyerɛ hia a ehia no mu: nea enti a ɛho hia, nhwɛso ahorow, nsɛm a ɛfa ho, kɔmputa so dwumadie ho adwene, anaa bere a ɛsɛ sɛ wode yɛ adwuma."
+      },
+      {
+        "kind": "paw",
+        "name": "openSourceConsent",
+        "label": "W'ani gye baguam adansedi ho?",
+        "helper": "Nhyehyεeε a w'agye ato mu no yε nkuraaseε a εwͻ IATF ase.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Yiw",
+          "Dabi",
+          "Minnim saa de, nanso"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Sɛ wogye tom a",
+      "title": "Nea ogye kyerɛ"
+    },
+    "items": [
+      "nnipakan akoraeɛ wɔ IATF GitHub ahyehyɛde no mu",
+      "ɔbenfo a ɔhwɛ dwumadie no so a wɔde ama adwuma no",
+      "copyleft tumi krataa a wɔde di dwuma wɔ code ne project nneɛma ho",
+      "ɔman no nkɔso wɔ akoraeɛ no mu",
+      "a registry entry on the IATF site"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fi nkɔmmɔbɔ ase",
+      "title": "Ahwehwɛde tiawa a emu da hɔ a wode befi ase no ara dɔɔso"
+    },
+    "paragraphs": [
+      "Sԑ wo wɔ ahiadeԑ a' yԑde bԑto yԑn ano na wote nka sԑ ԑsԑ sԑ yԑyԑ baguam adansiadeԑ bi a', yԑmma yԑnhwehwԑ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

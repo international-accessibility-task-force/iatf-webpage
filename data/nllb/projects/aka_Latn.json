@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF wɛbsaet",
+    "summary": "Aban wɛbsaet ma International Accessibility Task Force no.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ná IATF hia aban fie a ɛwɔ nnyinaso a ɛkyerɛkyerɛ gyinapɛn no mu, bɔ nnwuma no din, na ɛkyerɛ wɔn a wɔboa ma wɔyɛ ade a ɛfata wɔ ɔkwampa a edi hɔ no so.",
+    "why": "Saa wɛbsaet yi yɛ IATF abankɛseɛ pon. Wosii no sɛ ɔfese ketewa bi nti ɛyɛ mmerɛ sɛ wobɛkenkan, wobɛkyerɛ aseɛ, na woatumi ahwɛ so wɔ abɔnten.",
+    "scopeIn": [
+      "Public landing pages a ɛkyerɛkyerɛ IATF mfoni no mu",
+      "Aban twerԑtohɔ a' wɔagye ato mu, wɔn a wɔdi dwuma, ne IATF dwumadie a wɔakora so a' wɔn wɔ tebea, ɔhwɛfoɔ, akoraeɛ, ne adansedie",
+      "Adesuadeɛ a ɛtɔ so nwɔtwe:",
+      "Nnwumakuo a ɛhwɛ wɔn so ne wɔn a wɔn ani da hɔ",
+      "Borɔfo nkyerɛase a wɔasiesie no ama nkyerɛase",
+      "Static deployment on Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Private member areas, accounts, or login flows (Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu)",
+      "Dwumadie no ntoasoɔ kͻmputa, a wͻwͻ wͻ dwumadie no ankasa akoraeɛ no mu",
+      "Real-time chat, a ɛwɔ Discord mu",
+      "Nsεm ho nsεm a wכde di dwuma ma ankorankoro no, na wכte adwuma biara GitHub akorae no mu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "IATF mfitiase mfatoho, a wɔakora so wɔ bere a wɔadu baabi a wɔgyina.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu",
+    "why": "Wɔkora akoraeɛ no so ma ɔmanfo te sɛ adwuma no ho kyerɛwtohɔ, mpo sɛ wɔagyae adwuma no a.",
+    "scopeIn": [
+      "Nhyehyεeε a edi kan a εwͻ afidie a wͻtwe adwene si so no so na wͻkora no sε adansedie twerεtohɔ"
+    ],
+    "scopeOut": [
+      "Nkɔsoɔ anaa suban pa ho adwuma",
+      "Asetena mu agodie",
+      "Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF community bot, a wɔakora so wɔ bere a wɔadu baabi a wɔgyina.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation afa IATF community channels ho.",
+    "why": "Wɔkora akoraeɛ no so ma ɔmanfo te sɛ adwuma no ho kyerɛwtohɔ, mpo sɛ wɔagyae adwuma no a.",
+    "scopeIn": [
+      "Discord automation fa IATF community channels ho, a w'atwe no sɛ baguam kyerɛwtohɔ"
+    ],
+    "scopeOut": [
+      "Nkɔsoɔ anaa suban pa ho adwuma",
+      "Asetena mu agodie",
+      "Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu"
+    ]
+  }
+]

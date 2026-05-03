@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Nkɔsoɔ",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Nkɔsoɔ",
+    "lead": "IATF botae ne sɛ ɔbɛma wɛbsaet yi ayɛ tiawa, akenkan, keyboard-accessible, na ɛne mmoa mfidie di nsɛ.",
+    "support": [
+      "IATF de internet so kwan a wobetumi afa so anya bi no di dwuma [W3C WAI](https://www.w3.org/WAI/) Nkyerεkyerεmu a yεde di dwuma no nso gyina osuahu a wɔn a wͻde mmoa amonomuhͻa nya so."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Amanneɛbɔ",
+      "title": "Ka ɔkwan a wobɛfa so anya bi no ho asɛm"
+    },
+    "paragraphs": [
+      "Sԑ wo hunu sԑ yԑn nsa bԑka nkransem yi a, yԑ srԑ sԑ wo bԑ ka ho asԑm wɔ email:",
+      "{{contact.accessibilityEmail}}",
+      "Amanneɛbɔ a mfaso wɔ so no bi ne:"
+    ],
+    "items": [
+      "kratafa a asɛm no sii no",
+      "nea na worebɔ mmɔden sɛ wobɛyɛ",
+      "abɛɛfo mfidie, browser, anaa afidie a wode dii dwuma, sɛ ɛho hia a",
+      "Ɛdeɛn na ɛkɔfaa ɔhaw no bae?",
+      "anka dɛn na anka ɛbɛboa"
+    ],
+    "footnote": "Ɛho nhia sɛ w'akyerɛw nsunsuansoɔ ho amanneɛbɔ pɔtee bi. Nkyerɛkyerɛmu a emu da hɔ ara dɔɔso."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ayarehwɛ",
+      "title": "Ɔmanfo nsɛm a wobedi ho dwuma"
+    },
+    "paragraphs": [
+      "Wobetumi aka nsɛm a ɛfa kwan a obi betumi afa so anya bi ho no ho asɛm tiawa wɔ baguam adansedie akoraeɛ hɔ sɛnea ɛbɛyɛ a wobetumi asiesie no wɔ abɔnten.",
+      "Sɛ wo kyerɛwtohɔ no fa kokoam nsɛm ho a, ka no pefee wɔ nkrataa no mu."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Seesei tebea",
+      "title": "Nhyɛsoɔ a wonim no"
+    },
+    "paragraphs": [
+      "Saa wɛbsaet yi yɛ ketewa na ɛtaa yɛ nketenkete. Ebinom kasa mu nkyerɛaseɛ no ntumi nwie pɛ bere a wɔrekyerɛ ase no."
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Fa wo ho hyɛ IATF mu",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Fa wo ho hyɛ IATF mu",
+    "lead": "Agyinatu no abue. Akwan pii wɔ hɔ a wobɛtumi afa so anya mu kyɛfa, sɛ wode w'ani asi mmoa mfidie so, na w'ayɛ dwumadie bi a w'atumi de adi dwuma, na woakyerɛ ase, asɔ ahwɛ, anaa w'abɔ adwuma bi ho ban. Nkɔmmɔ ne gyinaesi ahorow kɔ so wɔ baguam wɔ GitHub ne Discord so.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Dwumadie",
+      "title": "Akwan a wobɛfa so aboa"
+    },
+    "items": [
+      "<strong>Hwehwɛ adwuma bi.</strong> Sԑ wohyԑ ahobanbɔ akwansideԑ bi a' wobetumi de abԑyԑ mmrԑ a' yԑde bԑto gua a' adansedie dwumadie a' w'atumi de adi dwuma, yԑ srԑ sԑ wo bԑfa nsԑm a' wo nsa aka no so de asԑm no adi dwuma.",
+      "<strong>Sɔ hwɛ na hwɛ bio.</strong> Bɔ mmɔden fa IATF dwumadie a wo de di dwuma no yɛ adwuma, ka nea ɛyɛ adwuma ne nea ɛnnyɛ adwuma ho asɛm, na fa nsɛm a ɛfa wo ho di dwuma tẽẽ wɔ baabi a wɔakora saa dwumadie yi so.",
+      "<strong>Kyerɛ ase.</strong> Wɔdi kan tintim nsɛm no wɔ Borɔfo kasa mu, na wɔsan de nkyerɛase ka ho bere a wɔn a wɔboa ma emu nsɛm no nya bi no, na Spanish kasa no na wodi kan de ka ho.",
+      "<strong>Siesie wo ho.</strong> Hwehwɛ nsunsuansoɔ wɔ IATF akoraeɛ biara mu, to nsa frɛ, anaa fa wo ho hyɛ dwumadie bi mu sɛ ɔbenfo a ɔhwɛ so.",
+      "<strong>Kɔ so yɛ saa.</strong> Ɛtɔ mmere bi a, ɛho behia sɛ wɔyɛ obi foforo ma ɔhwɛ ma nneɛma a ɛwɔ hɔ no so. Ɔhwɛfoɔ a ɔhwɛ so no asesa no yɛ ade a wɔtaa yɛ wɔ mfatoho no mu, na ɛnyɛ ade foforo biara."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ",
+      "title": "Baabi a IATF yɛ adwuma wɔ ɔmanfo mu"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Nsɛmmisa, kɔfa adesrɛde, nkrataa, ne dwumadi ho kyerɛwtohɔ.",
+      "<strong>Nsonsonoe.</strong> Nkɔmmɔbɔ a emu da hɔ, nhyehyɛe, ne nsɛmmisa a ɛmfata.",
+      "<strong>E-mail mu nkrataa.</strong> Fa di dwuma <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> sɛ GitHub anaa Discord biara mfata."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Anammɔn a edi hɔ",
+      "title": "Yi channel a ɛne ɔkwan a wopɛ sɛ wo de wo ho hyɛ mu no hyia"
+    },
+    "paragraphs": [
+      "Nkrataa ahodoɔ a etwa sɛ yɛhyehyɛ wɔ kasa ahodoɔ mu no nso wɔ hɔ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

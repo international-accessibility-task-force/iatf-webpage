@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Beae a wɔhyehyɛ no"
+  },
+  "hero": {
+    "eyebrow": "Nkyerεkyerεmu",
+    "title": "Beae a wɔhyehyɛ no",
+    "lead": "Iatf.cc so nkrataa nyinaa wɔ faako."
+  },
+  "sections": [
+    {
+      "title": "Nkratafa atitiriw",
+      "items": [
+        {
+          "label": "Fie",
+          "href": "/"
+        },
+        {
+          "label": "Nhyehyɛeɛ",
+          "href": "/projects/"
+        },
+        {
+          "label": "Yԑ srԑ sԑ wobԑyԑ adwuma",
+          "href": "/propose/"
+        },
+        {
+          "label": "Nnisoɔ",
+          "href": "/governance/"
+        },
+        {
+          "label": "Fa wo ho hyɛ mu",
+          "href": "/join/"
+        },
+        {
+          "label": "Nkɔsoɔ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Treneeyɛ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Nhyehyɛeɛ",
+  "projectsEmpty": "Nhyehyɛe biara nni hɔ a wɔatintim."
+}
