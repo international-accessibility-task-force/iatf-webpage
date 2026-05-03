@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pedire unu progetu de atzessibilidade",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pedire unu progetu de atzessibilidade",
+    "lead": "S'IATF esaminat sas dimandas pro progetos de atzessibilidade chi partint dae unu bisòngiu reale.",
+    "support": [
+      "Non b'at bisòngiu de un'ispetzìfica cumpleta, bastat unu problema craru, chi tocat e pro ite est de importu."
+    ],
+    "actions": [
+      {
+        "label": "Iniziare una rechesta",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Utilizade su Discord imbetzes",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Sos canales",
+      "title": "Iscàrriga sa ruta prus fàtzile"
+    },
+    "intro": [
+      "Totus sas rotas intrant in sa matessi revisione."
+    ],
+    "items": [
+      {
+        "label": "Pàgina web",
+        "body": "Pro presentare una rechesta istruturada impreade su form chi sighit."
+      },
+      {
+        "label": "Posta eletrònica",
+        "body": "Manda sa dimanda diretamente a {{contact.requestsEmail}}Sas dimandas pro posta eletrònica podent devènnere registros pùblicos de dimandas a pustis de revisione e redatzione."
+      },
+      {
+        "label": "Disòrdiu",
+        "body": "Comintzare dae inoghe si est prus fàtzile. Sa dimanda si movet semper in sa matessi revisione."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Prima de imbiare una dimanda",
+    "paragraphs": [
+      "Sas dimandas podent èssere resumidas e publicadas comente a registros de dimandas pùblicos in s'organizatzione GitHub de s'IATF, in custu situ web, o ambos duos.",
+      "Non inclùdere indiritzos privados, nùmeros de telèfonu, datos mèdicos, o informatziones chi permitint de identificare sos utentes individuales de sas tecnologias assistivas a mancu chi siat netzessàriu e tue non sias còmodu cun s'anàlisi de s'IATF.",
+      "S'IATF bogat sos datos de cuntatu personales non netzessàrios in antis de publicare sos registros de sa rechesta."
+    ]
+  },
+  "review": {
+    "title": "Isperatziones de revisione",
+    "paragraphs": [
+      "Sa presentada de una dimanda no garantit s'atzetatzione.",
+      "S'IATF esaminat sas dimandas pro s'adeguatzione a sa missione, sa fatzibilidade, s'utilidade e si su traballu apartenet a un'archìviu pùblicu.",
+      "Unas cantas dimandas podent èssere refudadas, postponidas, o mudadas in antis de s'atzetatzione."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Modulu de dimanda",
+      "title": "Presentare una rechesta"
+    },
+    "fields": [
+      {
+        "kind": "input fit",
+        "name": "chi faghet sa dimanda",
+        "label": "Su nùmene o s'organizatzione tua",
+        "helper": "Chie est chi faghet sa dimanda?"
+      },
+      {
+        "kind": "ispetzializare",
+        "name": "istrada de cuntatu",
+        "label": "S'itineràriu de cuntatu preferidu",
+        "helper": "Comente diat dèpere acontèssere su controllu?",
+        "required": true,
+        "options": [
+          "Posta eletrònica",
+          "Disòrdiu"
+        ]
+      },
+      {
+        "kind": "input fit",
+        "name": "cuntatuDetàllios",
+        "label": "Datos de cuntatu",
+        "helper": "Inditzu de posta eletrònica o nùmene de Discord pro su sighidore.",
+        "placeholder": "Inditzu de posta eletrònica o indiritzu Discord",
+        "required": true
+      },
+      {
+        "kind": "input fit",
+        "name": "limba ufitziale",
+        "label": "Limba ufitziale",
+        "helper": "Sa limba preferida tua, si est rilevante.",
+        "value": "Inglesu"
+      },
+      {
+        "kind": "àrea de testu",
+        "name": "su problema",
+        "label": "Cale problema cherides risòlvere?",
+        "helper": "Descriet sa barriera cun paràulas craras.",
+        "required": true
+      },
+      {
+        "kind": "àrea de testu",
+        "name": "sos impitadores interessados",
+        "label": "Chie est interessadu?",
+        "helper": "A chie diat agiudare custu?",
+        "required": true
+      },
+      {
+        "kind": "àrea de testu",
+        "name": "extraContext[modìfica _ modìfica su còdighe de orìgine]",
+        "label": "Cuntestu extra",
+        "helper": "Compartire cale si siat àtera cosa chi agiudat a ispiegare sa netzessidade: pro ite est de importu, esempros, riferimentos, un'idea bruta de programma, o lìmites de tempus."
+      },
+      {
+        "kind": "ispetzializare",
+        "name": "openSourceConsent[modìfica _ modìfica su còdighe de orìgine]",
+        "label": "Comodadu cun s'isvilupu pùblicu a còdighe abertu?",
+        "helper": "Sos progetos atzetados sunt repositorios pùblicos in suta de IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Tzertu chi no.",
+          "No est beru",
+          "No est ancora seguru."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Si est atzetadu",
+      "title": "Su chi cheret nàrrere atzetare"
+    },
+    "items": [
+      "unu repositoriu pùblicu in s'organizatzione GitHub de s'IATF",
+      "un'ingegnere responsàbile assignadu a su progetu",
+      "una lissèntzia copyleft pro su còdighe e sos materiales de su progetu",
+      "isvilupu pùblicu in su repositoriu",
+      "un'intrada in su registru in su situ de s'IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Comintzare sa cunversazione",
+      "title": "Una dimanda curtza e crara est bastante pro incumentzare"
+    },
+    "paragraphs": [
+      "Si tenides unu bisòngiu reale de atzessibilidade e pensades chi diat dèpere devènnere unu progetu pùblicu, mandade·lu a nois."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

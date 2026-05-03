@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Dae sa netzessidade de atzessibilidade a sos repo pùblicos",
+    "lead": "S'IATF agiudat assòtzios, grupos e indivìduos a trasformare bisòngios reales de atzessibilidade in progetos pùblicos a còdighe abertu.",
+    "support": [
+      "Sos progetos atzetados sunt publicados in s'organizatzione IATF GitHub cun una lissèntzia copyleft e isvilupados in pùblicu dae un'ingegnere responsàbile."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modellu operativu pùblicu",
+      "title": "Unu percursu pùblicu simpre pro su programma atzessìbile"
+    },
+    "paragraphs": [
+      "Pro mèdiu de unu mòdulu, calicunu podet presentare unu problema de atzessibilidade a s'IATF. Si s'iscuadra lu podet afrontare, un'archìviu pùblicu GitHub est abertu pro su traballu.",
+      "Ogni progetu atzetadu tenet una domo pùblica crara pro còdighe, chistiones, documentatzione e publicatziones, cun s'isvilupu ghiadu in abertura dae un'ingegnere responsàbile."
+    ],
+    "specCard": {
+      "title": "Modellu operativu pùblicu",
+      "terms": [
+        {
+          "term": "Bisòngiu",
+          "definition": "Problema reale de atzessibilidade"
+        },
+        {
+          "term": "Anàlisi",
+          "definition": "Missione adatta e fatzibilidade pràtica"
+        },
+        {
+          "term": "S'ispàtziu de su progetu",
+          "definition": "Servìtziu pùblicu GitHub"
+        },
+        {
+          "term": "S'amministratzione",
+          "definition": "Propriedade organizativa de s'IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Protzessu",
+      "title": "Comente funtzionat",
+      "intro": "Su modellu abarrat minore pro chi su caminu pùblicu siat fàtzile de sighire."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Si presentat unu bisòngiu",
+        "paragraphs": [
+          "Un'assòtziu, unu grupu o un'indivìduu podent presentare una rechesta basada in unu bisòngiu reale de atzessibilidade.",
+          "Sas dimandas podent cumintzare pro mèdiu de su giassu web, cun posta eletrònica a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o pro mèdiu de Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "S'IATF lu cunsìderat",
+        "paragraphs": [
+          "Amus esaminadu s'adeguatzione a sa missione, s'àmbitu pràticu, e si su traballu apartenet a unu progetu pùblicu a còdighe abertu."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Est creadu unu repositoriu pùblicu",
+        "paragraphs": [
+          "Si unu progetu est atzetadu, est publicadu in s'organizatzione IATF GitHub cun una lissèntzia copyleft.",
+          "Su repositoriu divenit sa domo pùblica de su còdighe, de sos problemas, de sa documentatzione e de sos comunicados."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un'ingegnere responsàbile ghiat su progetu",
+        "paragraphs": [
+          "Un'ingegnere responsàbile est assignadu a su repositoriu de su progetu e s'isvilupu acontesset in pùblicu."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registru",
+      "title": "Registru pùblicu de progetos"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Comintzat dae inoghe.",
+      "title": "Iscarrigare su traballu atuale o incumentzare unu progetu cuncretu"
+    },
+    "paragraphs": [
+      "Imprea su registru pro bìdere su chi est giai pùblicu, o cumintza s'intrada si unu problema de atzessibilidade cuncretu diat dèpere devènnere unu progetu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

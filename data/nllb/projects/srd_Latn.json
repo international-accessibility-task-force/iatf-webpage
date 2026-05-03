@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Pàgina web de s'IATF",
+    "summary": "Su situ pùblicu de sa International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "S'IATF teniat bisòngiu de una domo pùblica istàbile chi ispiegaiat su modellu, elencaiat sos progetos, e puntaiat sos contributores a su passu imbeniente giustu.",
+    "why": "Su situ est sa porta de intrada pùblica de s'IATF. Est fraigadu comente a unu progetu istàticu piticu pro chi siat fàtzile a lèghere, tradùere e mantènnere in aberta.",
+    "scopeIn": [
+      "Pàginas pùblicas chi ispiegant su mollu IATF",
+      "Registru pùblicu de sos progetos IATF atzetados, ativos e archivados cun istadu, mantenidore, repositòriu e dimostrazione",
+      "Una pàgina de intrada de dimanda e unu mòdulu",
+      "Pàginas de guvernatzione e trasparèntzia",
+      "Fonte inglesa cun istrutura pronta pro sa tradutzione",
+      "Impiegu istàticu in sos ativos istàticos de sos traballadores de Cloudflare"
+    ],
+    "scopeOut": [
+      "Àreas privadas pro sos membros, contos o flussos de intrada",
+      "Acasagiamentu de su còdighe de orìgine de su progetu, chi bivet in su repositoriu pròpiu de cada progetu",
+      "Càmbiu in tempus reale, chi bivet in Discord",
+      "Sighidura de sos problemas pro sos progetos individuales, chi istat in su repositoriu GitHub de cada progetu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie de sa IATF",
+    "summary": "Unu primu protòtipu de s'IATF, archivadu a pustis de àere arribadu a unu puntu de arrestu naturale.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "S'esploratzione initziale de un'istrumentu cuntzentradu in s'atesibilidade in suta de s'ombrello IATF.",
+    "why": "Su repositoriu est mantentu pùblicu comente a registru de su traballu, fintzas si s'isvilupu ativu s'est interradu.",
+    "scopeIn": [
+      "Primu protòtipu de un'istrumentu incentradu subra de s'atzessibilidade cunservadu comente unu documentu pùblicu"
+    ],
+    "scopeOut": [
+      "Traballu ativu de isvilupu o de caraterìsticas",
+      "Impegnos de mantenimentu",
+      "Impreu racumandadu in sa produtzione"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Bot de s'IATF[modìfica _ modìfica su còdighe de orìgine]",
+    "summary": "Unu robot de sa comunidade IATF, archivadu a pustis de àere arribadu a unu puntu naturale de arrestu.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatzione a inghìriu de sos canales de sa comunidade IATF.",
+    "why": "Su repositoriu est mantentu pùblicu comente a registru de su traballu, fintzas si s'isvilupu ativu s'est interradu.",
+    "scopeIn": [
+      "Automatzione de sa discòrdia a inghìriu de sos canales de sa comunidade de s'IATF, cunservadu comente documentu pùblicu"
+    ],
+    "scopeOut": [
+      "Traballu ativu de isvilupu o de caraterìsticas",
+      "Impegnos de mantenimentu",
+      "Impreu racumandadu in sa produtzione"
+    ]
+  }
+]

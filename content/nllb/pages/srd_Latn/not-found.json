@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "No est istadu agatadu"
+  },
+  "hero": {
+    "eyebrow": "No est istadu agatadu",
+    "title": "Sa pàgina dimandada no est istada agatada",
+    "lead": "Imprea sas rotas printzipales a suta pro torrare a su situ pùblicu.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Sa domo",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "S'itineràriu chi as pedidu no esistit."
+    ],
+    "items": [
+      {
+        "label": "Sa domo",
+        "href": "/"
+      },
+      {
+        "label": "Progetos",
+        "href": "/projects/"
+      },
+      {
+        "label": "Iscàrriga",
+        "href": "/join/"
+      },
+      {
+        "label": "Atzessibilidade",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governàntzia",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trasparèntzia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

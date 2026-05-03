@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapa de su situ"
+  },
+  "hero": {
+    "eyebrow": "Indicatzione",
+    "title": "Mapa de su situ",
+    "lead": "Totu sas pàginas pùblicas de iatf.cc, in unu logu."
+  },
+  "sections": [
+    {
+      "title": "Pàginas printzipales",
+      "items": [
+        {
+          "label": "Sa domo",
+          "href": "/"
+        },
+        {
+          "label": "Progetos",
+          "href": "/projects/"
+        },
+        {
+          "label": "Pedire unu progetu",
+          "href": "/propose/"
+        },
+        {
+          "label": "Governàntzia",
+          "href": "/governance/"
+        },
+        {
+          "label": "Iscàrriga",
+          "href": "/join/"
+        },
+        {
+          "label": "Atzessibilidade",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Trasparèntzia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Progetos",
+  "projectsEmpty": "Non b'at projetos publicados galu."
+}

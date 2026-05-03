@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Aderire a s'IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Aderire a s'IATF",
+    "lead": "Sa partetzipatzione est aberta. B'at medas maneras de partetzipare, siat chi si depet impreare tecnologia assistiva, fraigare programma atzessìbile, tradùere, proare, o mantènnere unu progetu.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ròllos",
+      "title": "Maneras de contribuire"
+    },
+    "items": [
+      "<strong>Pedire unu progetu.</strong> Si agatades una barriera de atzessidade chi diat pòdere èssere risòlvida dae unu programma pùblicu a còdighe abertu, mandade·la pro mèdiu de s'intrada de dimandas.",
+      "<strong>Proa e revisione.</strong> Proa sos progetos de s'IATF cun sa tecnologia assistiva chi impreas, signala su chi funtzionat e su chi no, e archiviare sos problemas diretamente in su repositoriu pertinente.",
+      "<strong>Tradutzione.</strong> Su cuntènnidu de orìgine est publicadu in inglesu in antis, e sas tradutziones sunt agiuntas cando sos contributores sunt disponìbiles, incumentzende dae s'ispagnolu.",
+      "<strong>Costruire.</strong> Pigade problemas in cale si siat repositòriu de s'IATF, imbiade dimandas de bogadura, o pigade unu progetu comente a ingegnere responsàbile suo.",
+      "<strong>Mantene.</strong> Sos progetos esistentes a bortas tenent bisòngiu de unu mantenidore nou."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Sos canales",
+      "title": "In ue s'IATF traballat in pùblicu"
+    },
+    "items": [
+      "<strong>Su GitHub.</strong> Issues, pull requests, releases, e project records.",
+      "<strong>Sa discòrdia.</strong> Discussione in direta, coordinamentu e chistiones informales.",
+      "<strong>Sa posta eletrònica.</strong> Utilizatzione <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si nemmancu GitHub o Discord si adatant."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Passu imbeniente",
+      "title": "Iscàrriga su canale chi currispondet a comente cheres contribuire"
+    },
+    "paragraphs": [
+      "Totus sos canales alimentant sa matessi revisione pùblica e sos matessi repositorios pùblicos."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

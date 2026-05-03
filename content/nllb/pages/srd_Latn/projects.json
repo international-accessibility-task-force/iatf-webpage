@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Progetos de atzessibilidade pùblica",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Progetos de atzessibilidade pùblica",
+    "lead": "Custu registru elencat progetos pùblicos mantènnidos pro mèdiu de s'IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registru",
+      "title": "Registru atuale"
+    },
+    "intro": [
+      "Sos progetos atzetados sunt elencados inoghe a pustis chi sunt publicados."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Presentade unu bisòngiu",
+      "title": "Trasformare una netzessidade concreta de atzessibilidade in unu progetu pùblicu"
+    },
+    "paragraphs": [
+      "S'IATF istudiat sos bisòngios concretos de atzessibilidade chi podent èssere trasformados in traballu pùblicu de còdighe abertu ùtile."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "No b'at projetos publicados galu",
+    "paragraphs": [
+      "S'IATF est preparende su primu progetu pùblicu suo.",
+      "Podides ancora imbiare una dimanda si tenides unu bisòngiu de atzessidade cuncretu."
+    ]
+  }
+}

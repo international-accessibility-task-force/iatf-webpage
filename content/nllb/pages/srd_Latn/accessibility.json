@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Atzessibilidade",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Atzessibilidade",
+    "lead": "S'obietivu de s'IATF est de mantènnere custu giassu web simpre, legìbile, atzessìbile cun sa tastiera e cumpatibile cun sas tecnologias assistivas.",
+    "support": [
+      "Pro s'atzessibilidade web, s'IATF impreat: [W3C WAI](https://www.w3.org/WAI/) S'accessibilidade pràtica est fintzas informada dae s'esperièntzia dereta de sos impitadores de sas tecnologias assistivas."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Informatziones",
+      "title": "Informare de unu problema de atzessibilidade"
+    },
+    "paragraphs": [
+      "Si agatades una bariera de atzessibilidade in custu giassu web, dimandade·lu pro mèdiu de posta eletrònica:",
+      "{{contact.accessibilityEmail}}",
+      "Raportos ùtiles includent:"
+    ],
+    "items": [
+      "sa pàgina in ue est acontèssidu su problema",
+      "su chi as chircadu de fàghere",
+      "sa tecnologia de agiudu, su navigadore o su dispositivu chi si fiat impreende, si est rilevante",
+      "su chi est andadu male",
+      "chi diat àere agiudadu"
+    ],
+    "footnote": "Non b'at bisòngiu de iscrìere unu raportu formale de su faddinu. Una descritzione crara est bastante."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manìgiu",
+      "title": "Tratamentu de chistiones pùblicas"
+    },
+    "paragraphs": [
+      "Sos problemas de atzessibilidade podent èssere resumidos in su repositoriu pùblicu pertinente in manera chi si potzant fissare in manera aberta. is datos de cuntatu personale e sas informatziones privadas non netzessàrias sunt bogadas in antis de sa publicatzione.",
+      "Si su raportu tuo includet informatziones privadas, ddu naras in manera crara in su messàgiu."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Istadu atuale",
+      "title": "Limitatziones connotas"
+    },
+    "paragraphs": [
+      "Custa pàgina est in manera intenzionale minore e prus che totu istàtica."
+    ]
+  }
+}

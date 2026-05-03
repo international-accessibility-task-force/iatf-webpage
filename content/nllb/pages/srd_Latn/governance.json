@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Modellu de guvernatzione e repositoriu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Modellu de guvernatzione e repositoriu",
+    "lead": "S'IATF mantenet sos progetos de atzessibilidade pùblicos, legìbiles e manigiàbiles.",
+    "support": [
+      "Custa pàgina ispiegat ite calificat, comente si tenent sos repositorios, e cale responsabilidade a livellu de repositoriu s'aplicat a pustis de s'atzetatzione."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Règulas",
+      "title": "Mission fit, ownership, licensing"
+    },
+    "cards": [
+      {
+        "title": "Mission fit",
+        "paragraphs": [
+          "S'IATF atzetat su traballu chi afrontat una bariera reale de atzessibilidade e tenet unu balore pùblicu craru.",
+          "Unu progetu diat dèpere èssere ùtile a foras de unu flussu de traballu privadu sìngulu e traballare comente a unu repositoriu pùblicu.",
+          "Pro s'atzessibilidade web, s'IATF impreat: [W3C WAI](https://www.w3.org/WAI/) S'esperièntzia dereta de sos impitadores de tecnologias assistivas est fintzas una proa pràtica de su chi funtzionat in s'impreu reale."
+        ]
+      },
+      {
+        "title": "Atzetatzione de su progetu",
+        "paragraphs": [
+          "Una proposta podet èssere atzetada cando s'anàlisi mustrat chi:"
+        ],
+        "items": [
+          "rispondet a unu bisòngiu reale de atzessibilidade",
+          "su problema est bastante craru pro lu valutare",
+          "s'àmbitu est bastante realìsticu pro lanzare",
+          "su traballu s'allìniat cun sa missione de s'IATF",
+          "b'at unu percursu plausìbile a sa mantenidura o a s'acabbu"
+        ]
+      },
+      {
+        "title": "Propriedade de su repositoriu",
+        "paragraphs": [
+          "Sos progetos atzetados sunt creados in s'organizatzione GitHub de s'IATF.",
+          "Sos repositorios abarrant in cue, duncas cada progetu mantenet una domo pùblica istàbile, fintzas si a pustis càmbiant sos mantentores."
+        ]
+      },
+      {
+        "title": "Licèntzias",
+        "paragraphs": [
+          "Sos progetos de s'IATF impreant sas lissèntzias copyleft, a mancu chi unu progetu decraret diversamente:"
+        ],
+        "items": [
+          "<strong>Còdighe:</strong> AGPL-3.0",
+          "<strong>Documentatzione:</strong> CC BY-SA 4.0[modìfica _ modìfica su còdighe de orìgine]"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingegneru o mantenidore responsàbile",
+      "paragraphs": [
+        "Ogni progetu atzetadu depet tènnere un'ingegnere o unu mantenidore responsàbile, chi podet tènnere atzessu amministrativu a su repositoriu e depet:"
+      ],
+      "items": [
+        "s'isvilupu de sa guida in su pùblicu",
+        "mantènnere s'istrutura de su repositoriu",
+        "controllare o gestire sos problemas e iscarrigare sas rechestas",
+        "documentare detzisiones tècnicas importantes",
+        "fàghere cumprèndere su progetu a sos àteros"
+      ],
+      "footnote": "Sa responsabilidade in custu casu est s'amministratzione de su repositoriu, sa diretzione tècnica e su coordinamentu pùblicu, no sa frunidura privada illimitada, s'integratzione personalizada o sos impinnos a livellu de servìtziu foras de sa mapa de ruta pùblica."
+    },
+    "publicDevelopment": {
+      "title": "Isvilupu pùblicu",
+      "paragraphs": [
+        "Sos progetos lanzados pro mèdiu de s'IATF sunt isvilupados in pùblicu pro impostazione predefinida."
+      ],
+      "items": [
+        "còdighe de orìgine",
+        "chistiones",
+        "documentatzione",
+        "notas de sa mapa de su caminu",
+        "Istòria de sa publicatzione"
+      ],
+      "footnote": "Sas connoschèntzias importantes de su progetu non diant dèpere istare solu in sas chats privadas o in sas casellas de intrada."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registros pùblicos",
+      "title": "Registros pùblicos de sa rechesta"
+    },
+    "paragraphs": [
+      "Sas dimandas chi intrant in IATF pro mèdiu de su situ web, de sa posta eletrònica, de Discord, de GitHub, o de àteros canales de s'IATF podent devènnere registros de dimandas pùblicos.",
+      "Un'archìviu pùblicu de rechesta no est netzessariamente su messàgiu originale.",
+      "Sos registros pùblicos de sa rechesta podent èssere archivados in s'organizatzione GitHub de s'IATF, in custu situ web, o ambos duos.",
+      "In antis de sa publicatzione, s'IATF bogat sos datos de cuntatu personales non netzessàrios, sos indiritzos privados e sos datos chi permitint de identificare sos impitadores individuales de sas tecnologias assistivas, si non b'at un'intentu craru e apropriadu de publicatzione.",
+      "Discord est impreadu pro su coordinamentu informale. IATF non archìviat in manera separada sas chistiones de Discord pro impostazione predefinida, e sa retenzione de su messàgiu est controllada dae Discord. Sas detzisiones fatas in Discord si depent riassumere in su registru pùblicu in GitHub o in sa pàgina de su progetu pertinente.",
+      "Is registros de sa rechesta funt esclusus de s'indicizatzioni de is motoris de chirca, candu est tecnicamente pràticu.",
+      "S'IATF podet agiornare o bogare registros dae sas superfìtzies pùblicas controlladas dae s' IATF, ma non podet garantire sa bogadura dae caches de tertzas partes, notificatziones, forks, screenshots, motores de chirca, Discord o àteros sistemas esternos.",
+      "Si unu messàgiu depet abarrare privadu, non lu imbiare pro mèdiu de canales pùblicos de s'IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rolu organizativu",
+      "title": "Presidente de su Consìgiu"
+    },
+    "lead": "Su presidente tenet s'amministratzione a livellu de organizatzione de s'IATF. Custu est distintu dae su ruolu de ingegneru responsàbile pro cada progetu: su presidente est responsabile pro s'organizatzione in generale, non pro sa diretzione de cada die de un'archìviu sìngulu.",
+    "duties": {
+      "title": "Su chi faghet sa poltrona",
+      "items": [
+        "Tenet sos permissos de su proprietariu in s'organizatzione GitHub de s'IATF",
+        "Firmat sas detzisiones de atzetatzione de su progetu e de archìviu",
+        "Faghet de puntu de cuntatu pùblicu pro s'IATF",
+        "Coordinat s'eletzione annuale"
+      ],
+      "footnote": "Su presidente no imponet a s'IATF servìtzios privados, traballos pagados, o acòrdios a livellu de servìtziu, e non superat sas detzisiones de su mantenidore pro cada repositoriu in contu de diretzione tècnica."
+    },
+    "election": {
+      "title": "Eletzione annuale",
+      "paragraphs": [
+        "S'eletzione s'at a fàghere in sas primas duas chidas de nadale, sos resurtados ant a èssere annuntziados intro de su 15 nadale e su mandadu nou at a incumentzare su 1 de ghennàrgiu.",
+        "Sos votantes elegìbiles sunt persones chi ant tentu unu ruolu de mantenidore in cale si siat repositòriu de s'IATF durante s'annu e ant fatu a su nessi unu cuntributu fundidu a unu repositoriu IATF in cussu annu.",
+        "S'eletzione est esecutada comente a una discussione pùblica in GitHub in su repositoriu de guvernatzione de s'IATF, duncas sos candidados, su votu e su resurtadu sunt totus parte de su registru pùblicu."
+      ]
+    },
+    "continuity": {
+      "title": "Cuntinuidade",
+      "paragraphs": [
+        "Si no b'at eletziones in un'annu determinadu, su presidente atuale sighit in su ruolu finas a sas eletziones imbenientes.",
+        "Su presidente podet dimìtere in cale si siat momentu. sos mantenidores ativos podent fintzas tènnere una eletzione straordinària cun una resone indicada, esecutada cun sas matessi règulas de s'eletzione annuale."
+      ]
+    },
+    "current": {
+      "title": "Presidèntzia atuale",
+      "fields": [
+        {
+          "label": "Presidente de su Consìgiu",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tèrmine",
+          "value": "Finas a sas eletziones de nadale de su 2026"
+        },
+        {
+          "label": "Rolu ufitzializadu",
+          "value": "2026"
+        },
+        {
+          "label": "Sa prima eletzione programmada",
+          "value": "Nadale de su 2026"
+        }
+      ]
+    },
+    "footnote": "Su rolu de presidente est istadu formalizadu in su 2026 pro fàghere esplicita s'amministratzione a livellu de organizatzione."
+  },
+  "continuity": {
+    "states": {
+      "title": "Istados de su progetu",
+      "paragraphs": [
+        "Sos progetos impreant unu grupu piticu de istados pùblicos:"
+      ],
+      "items": [
+        "Pronùntzia",
+        "Atzetadu",
+        "Attivu",
+        "Istàbile",
+        "chirchende su mantenidore",
+        "Archiviadu"
+      ],
+      "footnote": "Custos istados mantenent su registru fàtzile de iscanzare."
+    },
+    "reassignment": {
+      "title": "Riassignatzione e archivatzione",
+      "paragraphs": [
+        "Si unu mantenidore si nche bogat o divenit inativu, s'IATF podet torrare a assignare responsabilidade, pausare s'isvilupu o archivare su progetu.",
+        "Unu progetu podet fintzas èssere archivadu cando sa netzessidade originale est istada cuntestada, sa mantenidura s'est acabada, o su traballu sighidu no est prus realìsticu."
+      ],
+      "footnote": "Sos progetos archivados abarrant visìbiles a su pùblicu si non b'at una resone de importu pro fàghere diversamente."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota de cunfinamentu",
+      "title": "Su chi s'IATF no garantit"
+    },
+    "items": [
+      "cunsigna a unu cliente privadu",
+      "acòrdios de livellu de servìtziu",
+      "atzetatzione de ogni proposta",
+      "mantenimentu a tèrmine longu pro cada progetu"
+    ],
+    "footnote": "S'IATF est unu modellu de repositoriu pùblicu, no unu servìtziu de trasmissione privadu."
+  }
+}

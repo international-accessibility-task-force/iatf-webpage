@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Trasparèntzia",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Trasparèntzia",
+    "lead": "Sa IATF funtzionat in manera pùblica pro impostazione predefinida. Is detzisiones de su progetu, is cambiamentos de còdighe, is càmbios de guvernatzione e is costos operativos sunt registrados in logos pùblicos.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Registros",
+      "title": "In ue bivent sos archìvios"
+    },
+    "items": [
+      "<strong>Detzisiones de su progetu.</strong> Sas detzisiones de atzetatzione, archìviu e mudada de atzione sunt registradas comente emissiones o comunicados in su repositoriu pertinente, e resumidos in su registru pùblicu. <a href=\"/projects/\">registratzione</a>su chi est sutzessu .",
+      "<strong>Demanda de is registros.</strong> Sos registros pùblicos de rechestas sunt archivados in s'organizatzione GitHub de s'IATF, in custu situ web, o in ambos duos. Is registros podent riassùmere, redatare o ristruturare sa rechesta originale in manera chi sa netzessidade de atzessibilidade potzat èssere revìtida sena espònnere informatziones personales non netzessàrias. Sas detzisiones de cuntrastu sunt riassuntas in su registru pùblicu cando influentzant unu progetu o una detzisione de guvernatzione.",
+      "<strong>Cambios de còdighe.</strong> Ogni càmbiu de còdighe est un'acumprimentu pùblicu in su repositoriu pertinente. <a href=\"{{contact.githubOrgUrl}}\">Organizatzione GitHub</a>su chi est sutzessu .",
+      "<strong>Cambios in su guvernu.</strong> Sos agiornamentos a sa pàgina de guvernatzione sunt sighidos comente cummitimentos a su <code>su situ web de s'IATF</code> Bisitare su repositoriu. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">istòria de su cumitadu</a> in su GitHub.",
+      "<strong>Custos de funtzionamentu.</strong> S'IATF mantenet sos costos operativos bassos e registrat sas ispesas ricorrentes pro sas infrastruturas pùblicas.",
+      "<strong>Notas de coordinamentu.</strong> Notas de cale si siat revisione o detzisione coordinada in direta in GitHub <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Discussiones</a> in su <code>su situ web de s'IATF</code> repositoriu."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Custos de su servìtziu",
+      "title": "Registros de sos costos operativos"
+    },
+    "paragraphs": [
+      "S'IATF mantenet s'infrastrutura pùblica sua in manera pretzisa. Dae su 2022, sos printzipales costos operativos ricorrentes sunt istados sos nùmenes de domìniu.",
+      "Custu documentu no est unu rendicontu finantziàriu cuntrolladu.Est unu registru pùblicu de is costos operativos pro s'istrutura impreada pro mantènnere s'IATF in lìnia."
+    ],
+    "footnote": "Sas intradas podent èssere publicadas a pustis de sa redatzione.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domìniu",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Custos de su servìtziu",
+            "value": "USD 3,40 (a sa fine de su mese de austu)"
+          },
+          {
+            "label": "Notas",
+            "value": "Su costu de su domìniu finantziadu dae mugiwarafx. <code>iatf.cc</code> domìniu."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domìniu",
+            "value": "<code>internatzionaleaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custos de su servìtziu",
+            "value": "USD 18,68 (a su nessi unu dollaru)"
+          },
+          {
+            "label": "Notas",
+            "value": "Custos de domìniu finantziados dae mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domìniu",
+            "value": "<code>internatzionaleaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custos de su servìtziu",
+            "value": "USD 17,06 Su nùmeru de sa bidda"
+          },
+          {
+            "label": "Notas",
+            "value": "Su costu de su domìniu finantziadu dae mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domìniu",
+            "value": "<code>internatzionaleaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custos de su servìtziu",
+            "value": "$14,76 dollaros istadunidensos"
+          },
+          {
+            "label": "Notas",
+            "value": "Custos de domìniu finantziados dae mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domìniu",
+            "value": "<code>internatzionaleaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custos de su servìtziu",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Notas",
+            "value": "Su costu de su domìniu finantziadu dae mugiwarafx."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota de cunfinamentu",
+      "title": "Su chi no est pùblicu"
+    },
+    "paragraphs": [
+      "Unos cantos materiales sunt mantesos a foras de sos archìvios pùblicos pro resones:"
+    ],
+    "items": [
+      "Datos de cuntatu personales de sos proponentes.",
+      "Corrispondèntzia privada impreada petzi pro clarificare una rechesta prima chi siat atzetada, refudada o resumida.",
+      "Indiretos privados, nùmeros de telèfonu, e detàllios personales non netzessàrios.",
+      "Ogni cosa chi diat identificare un'impitadore individuale de tecnologia assistida sena su cunsensu.",
+      "Cunversatziones Raw Discord, a mancu chi unu messàgiu ispetzìficu no siat mòvidu intenzionalmente in unu documentu pùblicu de su progetu."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Leghe prus",
+      "title": "Sa guvernatzione est su libru de règulas a pustis de custos registros"
+    },
+    "paragraphs": [
+      "Si cheres cumprèndere comente sos progetos sunt atzetados, archivados, o riassegnados, lèghere sa pàgina de guvernatzione."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}
