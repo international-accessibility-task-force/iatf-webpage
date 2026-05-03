@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Erişilebilirlik layihəsi tələb edin",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Erişilebilirlik layihəsi tələb edin",
+    "lead": "IATF, real ehtiyacdan başlayan əlçatanlıq layihələri üçün müraciətləri nəzərdən keçirir.",
+    "support": [
+      "Tam bir spesifikasiyaya ehtiyacınız yoxdur. Aydın bir problem, kimə təsir göstərir və niyə vacibdir başlamaq üçün kifayətdir."
+    ],
+    "actions": [
+      {
+        "label": "Tələbi başlat",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Bunun əvəzinə Discord istifadə edin",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanallar",
+      "title": "Ən asan yolu seçin"
+    },
+    "intro": [
+      "Bütün marşrutlar eyni nəzərdən keçirilir."
+    ],
+    "items": [
+      {
+        "label": "Veb sayt",
+        "body": "Strukturlaşdırılmış bir tələb təqdim etmək üçün aşağıdakı formanı istifadə edin."
+      },
+      {
+        "label": "E-poçt",
+        "body": "Xahişinizi birbaşa göndərin {{contact.requestsEmail}}E-poçt sorğuları araşdırma və redaktə edildikdən sonra ictimai sorğu qeydlərinə çevrilə bilər."
+      },
+      {
+        "label": "Münaqişə",
+        "body": "Ən asandırsa, oradan başlayın. Tələb yenə də eyni nəzərdən keçirilir."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Bir sorğu göndərmədən əvvəl",
+    "paragraphs": [
+      "Tələblər ümumiləşdirilə və IATF GitHub təşkilatında, bu veb saytında və ya hər ikisində ictimai tələb qeydləri olaraq dərc edilə bilər.",
+      "Xüsusi ünvanları, telefon nömrələrini, tibbi məlumatları və ya köməkçi texnologiyaların fərdi istifadəçiləri haqqında məlumatları daxil etməyin, əgər bu zəruri deyilsə və IATF tərəfindən nəzərdən keçirilməsində rahat deyilsinizsə.",
+      "IATF, sorğu qeydlərini dərc etməzdən əvvəl lazımsız şəxsi əlaqə məlumatlarını aradan qaldırır."
+    ]
+  },
+  "review": {
+    "title": "Gözləmələrin nəzərdən keçirilməsi",
+    "paragraphs": [
+      "Müraciətin verilməsi onun qəbul edilməsinə zəmanət vermir.",
+      "IATF, tapşırıq uyğunluğu, həyata keçirilmə qabiliyyəti, faydalılığı və işin ictimai bir depoya aid olub olmadığını nəzərdən keçirir.",
+      "Bəzi müraciətlər qəbul edilmədən əvvəl rədd edilə, təxirə salına və ya yenidən formalaşdırıla bilər."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Tələb forması",
+      "title": "Ərizə təqdim edin"
+    },
+    "fields": [
+      {
+        "kind": "giriş",
+        "name": "ərizəçi",
+        "label": "Adınız və ya təşkilatınız",
+        "helper": "Bunu kim xahiş edir?"
+      },
+      {
+        "kind": "seçmək",
+        "name": "əlaqə marşrutu",
+        "label": "Tercih olunan əlaqə marşrutu",
+        "helper": "Nəzarət necə aparılmalıdır?",
+        "required": true,
+        "options": [
+          "E-poçt",
+          "Münaqişə"
+        ]
+      },
+      {
+        "kind": "giriş",
+        "name": "Əlaqə Ətraflı məlumat",
+        "label": "Əlaqə məlumatları",
+        "helper": "İzləmə üçün e-poçt ünvanı və ya Discord adı.",
+        "placeholder": "E-poçt ünvanı və ya Discord adı",
+        "required": true
+      },
+      {
+        "kind": "giriş",
+        "name": "dil",
+        "label": "Dil",
+        "helper": "Əgər müvafiqdirsə, seçdiyiniz dil.",
+        "value": "İngilis dilində"
+      },
+      {
+        "kind": "mətn sahəsi",
+        "name": "problem",
+        "label": "Hansı problemi həll etməyə çalışırsınız?",
+        "helper": "Sərhədi sadə dillə təsvir edin.",
+        "required": true
+      },
+      {
+        "kind": "mətn sahəsi",
+        "name": "təsirlənmiş istifadəçilər",
+        "label": "Kim təsirlənir?",
+        "helper": "Bu kimə kömək edərdi?",
+        "required": true
+      },
+      {
+        "kind": "mətn sahəsi",
+        "name": "extraKontext",
+        "label": "Əlavə kontekst",
+        "helper": "Ehtiyacı izah etməyə kömək edən hər hansı bir şeyi paylaşın: niyə vacibdir, nümunələr, istinadlar, kobud bir proqram ideyası və ya vaxt məhdudiyyətləri."
+      },
+      {
+        "kind": "seçmək",
+        "name": "openSourceConsent",
+        "label": "Açıq mənbə inkişafı ilə rahatsınız?",
+        "helper": "Qəbul olunan layihələr IATF-in ictimai depolarıdır.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Bəli",
+          "Xeyr",
+          "Hələ əmin deyiləm."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Əgər qəbul edilsə",
+      "title": "Qəbul nə deməkdir"
+    },
+    "items": [
+      "IATF GitHub təşkilatında ictimai bir anbar",
+      "Layihəyə təyin olunmuş məsul mühəndis",
+      "kod və layihə materialları üçün copyleft lisenziyası",
+      "arxivdə ictimai inkişaf",
+      "IATF saytında bir qeydiyyat yazısı"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Söhbətə başlamaq",
+      "title": "Qısa, aydın bir istək başlamaq üçün kifayətdir"
+    },
+    "paragraphs": [
+      "Əsl bir əlçatanlıq ehtiyacınız varsa və bunun ictimai bir layihə olması lazım olduğunu düşünürsünüzsə, bizə göndərin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

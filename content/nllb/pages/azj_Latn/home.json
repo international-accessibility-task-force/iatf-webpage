@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Dövlət repolarına əlçatanlıq ehtiyacından",
+    "lead": "IATF assosiasiyalara, qruplara və fərdlərə real əlçatanlıq ehtiyaclarını açıq mənbəli layihələrə çevirməyə kömək edir.",
+    "support": [
+      "Qəbul edilən layihələr IATF GitHub təşkilatında copyleft lisenziyası altında dərc olunur və məsuliyyətli bir mühəndis tərəfindən ictimaiyyət üçün hazırlanır."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "İctimai fəaliyyət modeli",
+      "title": "Qabaqcıl proqram təminatı üçün sadə bir ictimai yol"
+    },
+    "paragraphs": [
+      "Bir forma vasitəsilə, hər kəs IATF-ə bir əlçatanlıq problemi təqdim edə bilər. Əgər komanda onu götürə bilərsə, iş üçün ictimai bir GitHub anbarı açılır.",
+      "Hər bir qəbul edilmiş layihənin kod, məsələlər, sənədlər və buraxılışlar üçün açıq bir ictimai evi var, inkişafı açıq şəkildə məsuliyyətli bir mühəndis tərəfindən aparılır."
+    ],
+    "specCard": {
+      "title": "İctimai fəaliyyət modeli",
+      "terms": [
+        {
+          "term": "Ehtiyac",
+          "definition": "Real əlçatanlıq problemi"
+        },
+        {
+          "term": "Təhlil",
+          "definition": "Missiya uyğunluğu və praktiki həyata keçirilmə qabiliyyəti"
+        },
+        {
+          "term": "Layihə sahəsi",
+          "definition": "İctimai GitHub anbarı"
+        },
+        {
+          "term": "İdarəçilik",
+          "definition": "IATF təşkilatının mülkiyyəti"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proses",
+      "title": "Necə işləyir?",
+      "intro": "Model qəsdən kiçik qalır, buna görə ictimai yolu izləmək asandır."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Bir ehtiyac təqdim olunur",
+        "paragraphs": [
+          "Birlik, qrup və ya fərd real əlçatanlıq ehtiyacı əsasında müraciət edə bilər.",
+          "Tələblər veb sayt vasitəsilə başlaya bilər, e-poçt ünvanına <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, və ya Discord vasitəsilə."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF onu nəzərdən keçirir",
+        "paragraphs": [
+          "Missiya uyğunluğunu, praktik əhatə dairəsini və işin ictimai açıq mənbəli bir layihəyə aid olub olmadığını nəzərdən keçiririk."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "İctimai anbar yaradılır",
+        "paragraphs": [
+          "Bir layihə qəbul edilərsə, kopyleft lisenziyası altında IATF GitHub təşkilatında dərc olunur.",
+          "Anbar kodun, problemlərin, sənədlərin və buraxılışların ictimai evinə çevrilir."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Layihəyə məsul mühəndis rəhbərlik edir",
+        "paragraphs": [
+          "Layihə anbarına məsul bir mühəndis təyin olunur və inkişaf ictimaiyyət qarşısında baş verir."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Qeydiyyat",
+      "title": "İctimai layihə reyestri"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Buradan başlayın.",
+      "title": "Mövcud işə baxın və ya konkret bir layihəyə başlayın"
+    },
+    "paragraphs": [
+      "Artıq ictimaiyyətə açıq olanları görmək üçün qeydiyyatdan istifadə edin və ya konkret bir əlçatanlıq problemi bir layihəyə çevrilsə, qəbul etməyə başlayın."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

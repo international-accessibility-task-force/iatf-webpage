@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sayt xəritəsi"
+  },
+  "hero": {
+    "eyebrow": "İndeks",
+    "title": "Sayt xəritəsi",
+    "lead": "IATF.CC-dəki bütün səhifələr bir yerdə."
+  },
+  "sections": [
+    {
+      "title": "Əsas səhifələr",
+      "items": [
+        {
+          "label": "Ev",
+          "href": "/"
+        },
+        {
+          "label": "Layihələr",
+          "href": "/projects/"
+        },
+        {
+          "label": "Layihə tələb edin",
+          "href": "/propose/"
+        },
+        {
+          "label": "İdarəetmə",
+          "href": "/governance/"
+        },
+        {
+          "label": "Qoşulun",
+          "href": "/join/"
+        },
+        {
+          "label": "Erişilebilirlik",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Şəffaflıq",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Layihələr",
+  "projectsEmpty": "Hələlik heç bir layihə dərc edilməyib."
+}

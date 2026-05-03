@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Tapılmadı"
+  },
+  "hero": {
+    "eyebrow": "Tapılmadı",
+    "title": "İstənilən səhifə tapılmadı",
+    "lead": "İctimai sahəyə qayıtmaq üçün aşağıdakı əsas marşrutlardan istifadə edin.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ev",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "İstədiyiniz marşrut mövcud deyil."
+    ],
+    "items": [
+      {
+        "label": "Ev",
+        "href": "/"
+      },
+      {
+        "label": "Layihələr",
+        "href": "/projects/"
+      },
+      {
+        "label": "Qoşulun",
+        "href": "/join/"
+      },
+      {
+        "label": "Erişilebilirlik",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "İdarəetmə",
+        "href": "/governance/"
+      },
+      {
+        "label": "Şəffaflıq",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

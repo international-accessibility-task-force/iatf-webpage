@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "İdarəetmə və verilənlər bazası modeli",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "İdarəetmə və verilənlər bazası modeli",
+    "lead": "IATF əlçatanlıq layihələrini ictimai, oxunaqlı və saxlanıla bilən saxlayır.",
+    "support": [
+      "Bu səhifə nəyin uyğun olduğunu, depoların necə saxlandığını və qəbul edildikdən sonra depo səviyyəsində hansı məsuliyyətin tətbiq olunduğunu izah edir."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Qaydalar",
+      "title": "Missiya uyğunluğu, mülkiyyət, lisenziya"
+    },
+    "cards": [
+      {
+        "title": "Missiya uyğunluğu",
+        "paragraphs": [
+          "IATF, real əlçatanlıq maneəsini həll edən və açıq ictimai dəyəri olan işi qəbul edir.",
+          "Bir layihə tək bir özəl iş axınından kənarda faydalı olmalıdır və ictimai bir anbar kimi işləyə bilər.",
+          "Vebin əlçatanlığı üçün IATF istifadə edir [W3C WAI](https://www.w3.org/WAI/) köməkçi texnologiyaların istifadəçilərinin birbaşa təcrübəsi də real istifadədə nəyin işlədiyinə dair praktiki sübutdur."
+        ]
+      },
+      {
+        "title": "Layihənin qəbul edilməsi",
+        "paragraphs": [
+          "Təklif qəbul edilə bilər, əgər araşdırma göstərir ki:"
+        ],
+        "items": [
+          "real əlçatanlıq ehtiyacını həll edir",
+          "problem qiymətləndirmək üçün kifayət qədər aydındır",
+          "əhatə dairəsi başlatmaq üçün kifayət qədər realist",
+          "iş IATF missiyasına uyğun gəlir",
+          "saxlanılmasına və ya tamamlanmasına inandırıcı bir yol var"
+        ]
+      },
+      {
+        "title": "Məlumat deposunun mülkiyyəti",
+        "paragraphs": [
+          "Qəbul edilən layihələr IATF GitHub təşkilatı çərçivəsində yaradılır.",
+          "Depozitorlar orada qalır, beləliklə hər bir layihə sabit bir ictimai ev saxlayır, hətta sonradan mühafizəçilər dəyişsə də."
+        ]
+      },
+      {
+        "title": "Lisenziyalaşdırma",
+        "paragraphs": [
+          "IATF layihələri, bir layihədə başqa bir şey göstərilmədiyi təqdirdə, copyleft lisenziyasından istifadə edir:"
+        ],
+        "items": [
+          "<strong>Kod:</strong> AGPL-3.0",
+          "<strong>Sənədlər:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Məsuliyyətli mühəndis və ya təmir işçisi",
+      "paragraphs": [
+        "Hər bir qəbul edilən layihədə məsul mühəndis və ya mühafizəçi olmalıdır. Bu şəxs depoya idarəetmə girişi ala bilər və aşağıdakılardan gözlənilir:"
+      ],
+      "items": [
+        "ictimaiyyətdə təlimat inkişafı",
+        "Repozitoriyanın strukturunu qoruyun",
+        "məsələləri nəzərdən keçirmək və ya idarə etmək və tələbləri çıxarmaq",
+        "mühüm texniki qərarların sənədləşdirilməsi",
+        "Layihənin başqaları üçün başa düşülməsini təmin edin"
+      ],
+      "footnote": "Bu, anbar səviyyəsində məsuliyyətdir. Təşkilatın mülkiyyəti IATF-də qalır. Burada məsuliyyəti anbar idarəçiliyi, texniki istiqamət və ictimai əlaqələndirmədir  qeyri-məhdud özəl çatdırılma, xüsusi inteqrasiyalar və ya xidmət səviyyəsində öhdəliklər deyil."
+    },
+    "publicDevelopment": {
+      "title": "İctimai inkişaf",
+      "paragraphs": [
+        "IATF vasitəsilə başlanan layihələr standart olaraq ictimaiyyət üçün hazırlanır."
+      ],
+      "items": [
+        "mənbə kodu",
+        "məsələlər",
+        "sənədləşdirmə",
+        "yol xəritəsi qeydləri",
+        "buraxılış tarixi"
+      ],
+      "footnote": "Mühüm layihə bilikləri yalnız şəxsi söhbətlərdə və ya e-poçt qutularında yaşamalıdır."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "İctimai qeydlər",
+      "title": "İctimai sorğu qeydləri"
+    },
+    "paragraphs": [
+      "IATF standart olaraq ictimaiyyət üçün işləyir. Veb-sayt, e-poçt, Discord, GitHub və ya digər kanallar vasitəsilə daxil olan sorğular ictimai sorğu qeydlərinə çevrilə bilər.",
+      "İctimai bir sorğu qeydinin mütləq orijinal mesaj olması lazım deyil. IATF, açıqlanmadan əvvəl bir sorğunun ümumiləşdirilməsini, redaktə edilməsini və ya yenidən qurulmasını təmin edə bilər ki, lazımsız şəxsi məlumatları ifşa etmədən əlçatanlıq ehtiyacı nəzərdən keçirilə bilər.",
+      "İctimai tələb qeydləri IATF GitHub təşkilatında, bu veb saytında və ya hər ikisində saxlanıla bilər.",
+      "Yayımlanmadan əvvəl, IATF, açıq şəkildə nəzərdə tutulmadığı və uyğun olmadığı təqdirdə, köməkçi texnologiyaların fərdi istifadəçiləri haqqında lazımsız şəxsi əlaqə məlumatlarını, şəxsi ünvanlarını və fərdi məlumatları aradan qaldırır.",
+      "Discord qeyri-rəsmi əlaqələndirmə üçün istifadə olunur. IATF standart olaraq Discord söhbətlərini ayrı-ayrılıqda arxivləşdirmir və mesajların saxlanılması Discord tərəfindən idarə olunur. Discord-da qəbul edilən qərarlar GitHub-da və ya müvafiq layihə səhifəsində ictimai qeydə alınmalıdır.",
+      "Tələb qeydləri texniki cəhətdən praktik olduqda axtarış motorunun indeksləşdirilməsindən xaric edilir. İctimai nəzərdən keçirilə bilən və hesabatlı deməkdir. Ad axtarışları vasitəsilə kəşf üçün optimallaşdırılmış demək deyil.",
+      "IATF tərəfindən nəzarət olunan ictimai səthlərdən qeydləri yeniləyə və ya silə bilər, lakin üçüncü tərəf önbellekləri, bildirişlər, çatal, ekran görüntüləri, axtarış motorları, Discord və ya digər xarici sistemlərdən silinməsini təmin edə bilməz.",
+      "Bir mesajın gizli qalması lazımdırsa, onu IATF-in ictimai kanalları vasitəsilə göndərməyin."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Təşkilatçılıq rolu",
+      "title": "Sədr"
+    },
+    "lead": "Sədr IATF-in təşkilat səviyyəsində idarəçiliyini həyata keçirir. Bu, layihə üzrə məsul mühəndis rolu ilə fərqlənir: sədr hər hansı bir anbarın gündəlik rəhbərliyi üçün deyil, bütövlükdə təşkilat üçün məsuliyyət daşıyır.",
+    "duties": {
+      "title": "Bu kürsünün nə işi var?",
+      "items": [
+        "IATF GitHub təşkilatında sahib icazələrini saxlayır",
+        "Layihənin qəbul edilməsi və arxivləşdirilməsi barədə qərarların imzalanması",
+        "IATF üçün ictimai əlaqə nöqtəsi kimi fəaliyyət göstərir",
+        "İllik seçkiləri koordinasiya edir"
+      ],
+      "footnote": "Sədr IATF-ı özəl çatdırılma, ödənişli iş və ya xidmət səviyyəsi müqavilələri ilə əlaqələndirmir və texniki göstərişlərlə bağlı hər bir depo mühafizəkarının qərarlarını ləğv etmir."
+    },
+    "election": {
+      "title": "İllik seçki",
+      "paragraphs": [
+        "Sədr ildə bir dəfə seçilir. Seçkilər dekabrın ilk iki həftəsində keçirilir, nəticələr dekabrın 15-dək elan edilir və yeni müddət yanvarın 1-də başlayır.",
+        "Seçki hüququ olan seçicilər, il ərzində hər hansı bir IATF anbarında saxlayıcı rolunu oynayan və həmin il ərzində ən azı bir birləşdirilmiş töhfə verən insanlardır. Hər bir seçki hüquqlu seçicinin bir səsi var. Ən çox səs alan namizəd qalib gəlir; bərabərlik halında, ikinci tur dekabrın üçüncü həftəsində keçirilir.",
+        "Seçkilər açıq bir GitHub Müzakirəsi olaraq təyin edilmiş IATF idarəetmə anbarında aparılır, buna görə namizədlər, səsvermə və nəticə hamısı ictimai qeydlərin bir hissəsidir."
+      ]
+    },
+    "continuity": {
+      "title": "Davamlılıq",
+      "paragraphs": [
+        "Müəyyən bir ildə heç bir seçki keçirilmirsə, hazırkı sədr növbəti seçkiyə qədər rolunu davam etdirir. Bu, qeyri-müəyyən davamıdır, güzəşt dövrü deyil - model, heç kimin hazır olmadığı bir keçidi məcbur etmək üçün deyil, fəaliyyət az olduqda təşkilatı sabit saxlamaq üçün hazırlanmışdır.",
+        "Sədr istənilən vaxt istefa verə bilər.Fəal mühafizəkarlar, illik seçkilərlə eyni qaydalar çərçivəsində keçirilən açıq bir səbəblə fövqəladə bir seçki də çağıra bilərlər."
+      ]
+    },
+    "current": {
+      "title": "Hazırkı sədr",
+      "fields": [
+        {
+          "label": "Sədr",
+          "value": "mügiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Müddət",
+          "value": "2026-cı ilin dekabr seçkilərinə qədər"
+        },
+        {
+          "label": "Rolu rəsmiləşdirilmişdir",
+          "value": "2026"
+        },
+        {
+          "label": "İlk planlaşdırılmış seçkilər",
+          "value": "Dekabr 2026"
+        }
+      ]
+    },
+    "footnote": "2026-cı ildə təşkilat səviyyəsində idarəçiliyi aydınlaşdırmaq üçün sədr rolu rəsmiləşdirildi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Layihənin vəziyyətləri",
+      "paragraphs": [
+        "Layihələr kiçik bir ictimai dövlətlərdən istifadə edir:"
+      ],
+      "items": [
+        "Təklif",
+        "Qəbul olundu",
+        "Aktiv",
+        "Dayanıqlı",
+        "Mütəxəssis axtarılır",
+        "Arxivləşdirilmiş"
+      ],
+      "footnote": "Bu ştatlar qeydiyyatı taramağı asanlaşdırır."
+    },
+    "reassignment": {
+      "title": "Yenidən təyinat və arxivləşdirmə",
+      "paragraphs": [
+        "Bir mühafizəçi geri çəkilsə və ya qeyri-aktiv olarsa, IATF məsuliyyəti yenidən təyin edə, inkişafı dayandıra və ya layihəni arxivləşdirə bilər.",
+        "Orijinal ehtiyac təmin edildikdə, təmir işləri dayandırıldıqda və ya işlərin davam etdirilməsi artıq real olmadıqda bir layihə arxivləşdirilə bilər."
+      ],
+      "footnote": "Arxivləşdirilmiş layihələr, əksinə etmək üçün məcburi bir səbəb olmadıqda ictimaiyyətə açıq qalır."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Sərhəd notası",
+      "title": "IATF nəyə zəmanət vermir"
+    },
+    "items": [
+      "özəl müştəri çatdırılması",
+      "xidmət səviyyəsi müqavilələri",
+      "hər bir təklifin qəbul edilməsi",
+      "Hər bir layihə üçün uzunmüddətli təmir"
+    ],
+    "footnote": "IATF, özəl çatdırılma xidməti deyil, ictimai anbar modelidir."
+  }
+}

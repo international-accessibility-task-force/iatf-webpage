@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF veb saytı",
+    "summary": "Beynəlxalq Erişilebilirlik Təşkilatının ictimai saytı.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF, modeli izah edən, layihələri siyahıya alan və köməkçiləri düzgün növbəti addıma yönəldən sabit bir ictimai evə ehtiyac duydu.",
+    "why": "Sayt IATF-in ictimai ön qapısıdır. Kiçik statik bir layihə olaraq qurulmuşdur, buna görə açıq yerdə oxumaq, tərcümə etmək və saxlamaq asandır.",
+    "scopeIn": [
+      "IATF modelini izah edən ictimai açılış səhifələri",
+      "Status, mühafizəçi, anbar və nümayiş ilə qəbul edilmiş, aktiv və arxivləşdirilmiş IATF layihələrinin ictimai reyestri",
+      "Tələb qəbulu səhifəsi və forması",
+      "İdarəetmə və şəffaflıq səhifələri",
+      "Tərcümə üçün struktur hazır olan İngilis mənbəyi",
+      "Cloudflare işçilərinin statik aktivlərində statik yerləşdirmə"
+    ],
+    "scopeOut": [
+      "Şəxsi üzv sahələri, hesablar və ya giriş axınları",
+      "Hər bir layihənin öz anbarında yaşayan layihə mənbə kodunun ev sahibliyi edilməsi",
+      "Discord-da yaşayan real vaxtlı söhbət",
+      "Hər bir layihənin GitHub anbarında yaşayan fərdi layihələr üçün məsələlərin izlənilməsi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfi",
+    "summary": "Təbii bir dayandırma nöqtəsinə çatdıqdan sonra arxivləşdirilmiş erkən bir IATF prototipi.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF çərçivəsində əlçatanlığa yönəlmiş bir alətin erkən araşdırılması.",
+    "why": "Repository, aktiv inkişaf dayandırılsa da, işin qeydləri olaraq ictimaiyyətə açıq saxlanılır.",
+    "scopeIn": [
+      "Açıq bir qeyd olaraq saxlanılan əlçatanlığa yönəlmiş bir alətin erkən prototipi"
+    ],
+    "scopeOut": [
+      "Aktiv inkişaf və ya xüsusiyyət işi",
+      "Alimlik öhdəlikləri",
+      "İstehsalda tövsiyə olunan istifadə"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Təbii dayandırma nöqtəsinə çatdıqdan sonra arxivləşdirilmiş IATF icma botu.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF icma kanalları ətrafında avtomatlaşdırma.",
+    "why": "Repository, aktiv inkişaf dayandırılsa da, işin qeydləri olaraq ictimaiyyətə açıq saxlanılır.",
+    "scopeIn": [
+      "IATF icma kanalları ətrafında münaqişə avtomatlaşdırılması, ictimai qeyd olaraq saxlanılır"
+    ],
+    "scopeOut": [
+      "Aktiv inkişaf və ya xüsusiyyət işi",
+      "Alimlik öhdəlikləri",
+      "İstehsalda tövsiyə olunan istifadə"
+    ]
+  }
+]

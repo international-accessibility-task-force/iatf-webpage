@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF-a qoşulun",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF-a qoşulun",
+    "lead": "Üzvlük açıqdır. Yardımçı texnologiyaya güvənmək, əlçatan proqram qurmaq, tərcümə etmək, sınaqdan keçirmək və ya bir layihə saxlamaqdan asılı olmayaraq iştirak etmək üçün bir neçə yol var. Müzakirələr və qərarlar GitHub və Discord-da ictimai olaraq baş verir.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rollar",
+      "title": "Tərəfdaşlıq üsulları"
+    },
+    "items": [
+      "<strong>Bir layihə tələb edin.</strong> Açıq mənbəli proqram təminatı ilə həll edilə bilən bir əlçatanlıq maneəsi ilə qarşılaşsanız, sorğu qəbulu vasitəsilə göndərin.",
+      "<strong>Test və nəzərdən keçirin.</strong> İstifadə etdiyiniz köməkçi texnologiya ilə IATF layihələrini sınayın, nəyin işlədiyini və işləmədiyini bildirin və problemləri birbaşa müvafiq anbarda qeyd edin.",
+      "<strong>Tərcümə edin.</strong> Mənbə məzmunu əvvəlcə sadə ingilis dilində dərc olunur. tərcümələr ispan dilindən başlayaraq iştirakçıların mövcud olduğu kimi əlavə olunur.",
+      "<strong>Qurmaq.</strong> Hər hansı bir IATF anbarında problemləri seçin, çəkmə tələbləri göndərin və ya bir layihəni məsul mühəndis olaraq götürün.",
+      "<strong>Qoruyun.</strong> Mövcud layihələr bəzən yeni bir təmirçiyə ehtiyac duyur.Təmirçi rotasiyası modelin adi bir hissəsidir, istisna deyil."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanallar",
+      "title": "IATF-in ictimai yerlərdə işlədiyi yerlər"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Mövzular, istəklər, buraxılışlar və layihə qeydləri çıxarın.",
+      "<strong>Münaqişə.</strong> Canlı müzakirə, koordinasiya və qeyri-rəsmi suallar.",
+      "<strong>E-poçt.</strong> İstifadə <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHub və ya Discord uyğun deyilsə."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Növbəti addım",
+      "title": "Necə töhfə vermək istədiyinizə uyğun olan kanalı seçin"
+    },
+    "paragraphs": [
+      "Bütün kanallar eyni ictimai nəzərdən keçirilir və eyni publik məlumat deposuna daxil olur."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "İctimaiyyət üçün əlçatanlıq layihələri",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "İctimaiyyət üçün əlçatanlıq layihələri",
+    "lead": "Bu qeydiyyat IATF vasitəsilə saxlanılan ictimai layihələri siyahıya alır. Qəbul edilmiş əlçatanlıq layihələri, sayt infrastrukturu və arxivləşdirilmiş prototiplər burada görünür saxlanılır.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Qeydiyyat",
+      "title": "Mövcud qeydiyyat"
+    },
+    "intro": [
+      "Qəbul edilmiş layihələr dərc edildikdən sonra burada verilmişdir."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Bir ehtiyac təqdim edin",
+      "title": "Konkret əlçatanlıq ehtiyacını ictimai layihəyə çevirmək"
+    },
+    "paragraphs": [
+      "IATF, faydalı açıq mənbəli işə çevrilə bilən konkret əlçatanlıq ehtiyaclarını nəzərdən keçirir."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Hələlik heç bir layihə dərc edilməyib",
+    "paragraphs": [
+      "IATF ilk ictimai layihə dəstini hazırlayır.",
+      "Hələ də konkret bir əlçatanlıq ehtiyacınız varsa, bir müraciət göndərə bilərsiniz."
+    ]
+  }
+}

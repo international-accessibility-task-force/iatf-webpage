@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Erişilebilirlik",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Erişilebilirlik",
+    "lead": "IATF bu veb saytın sadə, oxunaqlı, klaviatura ilə əldə edilə bilən və köməkçi texnologiyalar ilə uyğun olmasını hədəfləyir.",
+    "support": [
+      "Vebin əlçatanlığı üçün IATF istifadə edir [W3C WAI](https://www.w3.org/WAI/) Praktik əlçatanlıq, köməkçi texnologiyaların istifadəçilərinin birbaşa təcrübəsi ilə də məlumatlandırılır."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Hesabat",
+      "title": "Bir əlçatanlıq problemini bildirin"
+    },
+    "paragraphs": [
+      "Bu veb saytda bir əlçatanlıq maneəsi tapsanız, xahiş edirik onu e-poçt vasitəsilə bildirin:",
+      "{{contact.accessibilityEmail}}",
+      "Faydalı hesabatlara aşağıdakılar daxildir:"
+    ],
+    "items": [
+      "problemin baş verdiyi səhifə",
+      "nə etməyə çalışdığınızı",
+      "Hansı köməkçi texnologiyadan, brauzerdən və ya cihazdan istifadə etdiniz, əgər varsa",
+      "nə səhv oldu",
+      "nə kömək edərdi"
+    ],
+    "footnote": "Rəsmi bir səhv hesabatı yazmağa ehtiyac yoxdur. Aydın bir təsvir kifayətdir."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "İdarəetmə",
+      "title": "İctimai məsələlərin həlli"
+    },
+    "paragraphs": [
+      "Mövcud ictimai anbarda əlçatanlıq məsələləri ümumiləşdirilə bilər ki, onlar açıq şəkildə düzəldilə bilsin. Şəxsi əlaqə məlumatları və lazımsız şəxsi məlumatlar dərc edilmədən əvvəl silinir.",
+      "Hesabatınızda şəxsi məlumatlar varsa, bunu mesajda açıq şəkildə bildirin."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Mövcud vəziyyət",
+      "title": "Məlum məhdudiyyətlər"
+    },
+    "paragraphs": [
+      "Bu sayt qəsdən kiçikdir və əsasən statikdir. Bəzi dil versiyaları tərcümələr hazırlanarkən yarımçıq ola bilər."
+    ]
+  }
+}
