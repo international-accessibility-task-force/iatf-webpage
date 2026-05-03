@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ᱵᱟᱝ ᱧᱟᱢ ᱟᱠᱟᱱᱟ"
+  },
+  "hero": {
+    "eyebrow": "ᱵᱟᱝ ᱧᱟᱢ ᱟᱠᱟᱱᱟ",
+    "title": "ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱥᱟᱦᱴᱟ ᱵᱟᱝ ᱧᱟᱢ ᱟᱠᱟᱱᱟ",
+    "lead": "ᱞᱟᱛᱟᱨ ᱨᱮ ᱚᱞ ᱟᱠᱟᱱ ᱢᱩᱬᱩᱛ ᱰᱟᱦᱟᱨ ᱠᱚ ᱵᱮᱵᱷᱟᱨ ᱠᱟᱛᱮ ᱥᱚᱨᱠᱟᱨᱤ ᱴᱚᱴᱷᱟ ᱛᱮ ᱨᱩᱣᱟᱹᱲ ᱢᱮ ᱾",
+    "support": [],
+    "actions": [
+      {
+        "label": "ᱚᱲᱟᱜ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ᱟᱢᱟᱜ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱰᱟᱦᱟᱨ ᱫᱚ ᱵᱟᱱᱩᱜ-ᱟ᱾"
+    ],
+    "items": [
+      {
+        "label": "ᱚᱲᱟᱜ",
+        "href": "/"
+      },
+      {
+        "label": "ᱯᱨᱚᱡᱮᱠᱴ",
+        "href": "/projects/"
+      },
+      {
+        "label": "ᱥᱮᱞᱮᱫᱚᱜ ᱢᱮ",
+        "href": "/join/"
+      },
+      {
+        "label": "ᱥᱮᱴᱮᱨ ᱫᱟᱲᱮ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ᱜᱚᱵᱷᱚᱨᱱᱮᱱᱥ",
+        "href": "/governance/"
+      },
+      {
+        "label": "ᱴᱨᱟᱥᱯᱟᱨᱱᱥᱤ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

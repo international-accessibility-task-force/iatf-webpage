@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF ᱣᱮᱵᱽᱥᱟᱭᱤᱴ",
+    "summary": "ᱤᱱᱴᱟᱨᱱᱮᱥᱱᱟᱞ ᱮᱠᱥᱮᱥᱵᱤᱞᱤᱴᱤ ᱴᱟᱥᱠ ᱯᱷᱳᱨᱥ ᱨᱮᱱᱟᱜ ᱥᱚᱨᱮᱥ ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱾",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ᱫᱚ ᱢᱤᱫ ᱥᱴᱮᱵᱞ ᱯᱟᱵᱽᱞᱤᱠ ᱦᱳᱢᱥ ᱞᱟᱹᱠᱛᱤ ᱛᱟᱦᱮᱸ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱫᱚ ᱢᱳᱰᱮᱞ ᱮ ᱥᱚᱫᱚᱨᱟ, ᱯᱨᱳᱡᱮᱠᱴ ᱨᱮᱱᱟᱜ ᱞᱤᱥᱴᱤ ᱮᱢᱟᱭ, ᱟᱨ ᱦᱟᱛᱟᱣᱤᱭᱟᱹ ᱠᱚ ᱞᱟᱹᱭ ᱮᱫᱟ ᱡᱮ ᱪᱮᱫ ᱞᱮᱠᱟ ᱛᱟᱭᱚᱢ ᱛᱮ ᱪᱟᱞᱟᱜᱼᱟ ᱾",
+    "why": "ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ ᱫᱚ IATF ᱨᱮᱱᱟᱜ ᱥᱚᱨᱠᱟᱨᱤ ᱢᱟᱲᱟᱝ ᱫᱟᱬᱟ ᱠᱟᱱᱟ ᱾ ᱱᱚᱸᱰᱮ ᱢᱤᱫᱴᱟᱹᱝ ᱞᱟᱹᱴᱩ ᱥᱴᱮᱴᱤᱠ ᱯᱨᱚᱡᱮᱠᱴ ᱞᱮᱠᱟᱛᱮ ᱵᱮᱱᱟᱣ ᱟᱠᱟᱱᱟ, ᱚᱱᱟᱛᱮ ᱚᱞ ᱯᱟᱲᱦᱟᱣ, ᱛᱚᱨᱡᱚᱢᱟ ᱟᱨ ᱩᱫᱩᱜ ᱥᱚᱫᱚᱨ ᱫᱚ ᱟᱞᱜᱟ ᱜᱮᱭᱟ ᱾",
+    "scopeIn": [
+      "IATF ᱢᱚᱰᱮᱞ ᱨᱮᱱᱟᱜ ᱥᱟᱹᱠᱷᱭᱟᱹᱛ ᱥᱚᱫᱚᱨ ᱞᱮᱱᱰᱤᱝ ᱥᱟᱦᱴᱟ",
+      "ᱥᱴᱮᱴᱚᱥ, ᱢᱮᱱᱴᱮᱱᱚᱨ, ᱨᱤᱯᱳᱡᱤᱴᱚᱨᱤ ᱟᱨ ᱰᱮᱢᱳ ᱥᱟᱶ ᱟᱯᱱᱟᱨ ᱟᱠᱟᱱ, ᱮᱠᱴᱤᱵᱽ ᱟᱨ ᱟᱨᱠᱤᱵᱷᱤᱰ ᱟᱜ IATF ᱯᱨᱚᱡᱮᱠᱴ ᱨᱮᱱᱟᱜ ᱯᱚᱵᱞᱤᱠ ᱨᱮᱡᱤᱥᱴᱟᱨ",
+      "ᱢᱤᱫ ᱮᱱᱮᱢ ᱦᱟᱛᱟᱣ ᱥᱟᱦᱴᱟ ᱟᱨ ᱯᱷᱚᱨᱢ",
+      "ᱜᱚᱵᱷᱚᱨᱱᱮᱱᱥ ᱟᱨ ᱴᱨᱟᱱᱥᱯᱟᱨᱮᱱᱥᱤ ᱥᱟᱦᱴᱟ",
+      "ᱤᱝᱞᱤᱥ ᱜᱟᱞᱢᱟᱨᱟᱣ ᱛᱮᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱛᱮ ᱨᱩᱭᱟᱹᱲᱚᱜ ᱢᱮ",
+      "Cloudflare Workers Static Assets ᱨᱮ ᱥᱴᱮᱴᱤᱠ ᱰᱤᱯᱞᱮᱭᱢᱮᱸᱴ"
+    ],
+    "scopeOut": [
+      "ᱯᱨᱟᱭᱵᱷᱮᱴ ᱢᱮᱢᱵᱟᱨ ᱮᱨᱤᱭᱟ, ᱮᱠᱟᱶᱩᱴ, ᱟᱨᱵᱟᱝ ᱞᱚᱜᱤᱱ ᱯᱷᱞᱳᱥ",
+      "ᱯᱨᱚᱡᱮᱠᱴ ᱥᱳᱨᱥ ᱠᱚᱰ ᱨᱮᱱᱟᱜ ᱦᱳᱥᱴᱤᱝ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱡᱚᱛᱚ ᱯᱨᱚᱜᱨᱟᱢ ᱨᱮᱱᱟᱜ ᱱᱤᱡᱮᱨᱟᱜ ᱨᱤᱯᱳᱡᱤᱴᱚᱨᱤ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱟ",
+      "ᱥᱟᱹᱨᱤ ᱚᱠᱛᱚ ᱪᱮᱴ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱰᱤᱥᱠᱳᱨᱰ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱟ",
+      "ᱱᱤᱡᱮᱨᱟᱜ ᱯᱨᱚᱡᱮᱠᱴ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱤᱥᱴᱮᱢ ᱴᱨᱮᱠᱤᱝ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱡᱚᱛᱚ ᱯᱨᱳᱡᱟᱠᱴ ᱨᱮᱱᱟᱜ GitHub ᱨᱤᱯᱳᱡᱤᱴᱚᱨᱤ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱟ"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF ᱥᱤᱞᱯᱤ",
+    "summary": "ᱢᱤᱫ ᱮᱛᱚᱦᱚᱵ IATF ᱯᱨᱳᱴᱳᱴᱟᱭᱯ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱢᱤᱫ ᱟᱥᱚᱞ ᱛᱷᱟᱯᱚᱱ ᱴᱷᱟᱶ ᱮ ᱦᱟᱢᱮᱴ ᱠᱮᱫ ᱛᱟᱭᱚᱢ ᱚᱞ ᱟᱠᱟᱱᱟ ᱾",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ᱪᱮᱛᱟᱱ ᱨᱮ ᱢᱤᱫᱴᱮᱱ access-focused tool ᱨᱮᱭᱟᱜ ᱮᱛᱚᱦᱚᱵ ᱯᱟᱥᱱᱟᱣ",
+    "why": "ᱠᱟᱹᱢᱤ ᱨᱮᱱᱟᱜ ᱢᱤᱫ ᱨᱤᱠᱚᱨᱰ ᱞᱮᱠᱟᱛᱮ ᱨᱤᱯᱳᱡᱤᱴᱟᱨᱤ ᱥᱚᱨᱵᱷᱮ ᱫᱚᱦᱚ ᱦᱩᱭᱩᱜᱼᱟ, ᱮᱱᱠᱷᱟᱱ ᱠᱟᱹᱣᱰᱤ ᱦᱟᱛᱟᱣ ᱫᱚᱦᱚ ᱟᱠᱟᱱᱟ ᱾",
+    "scopeIn": [
+      "ᱢᱤᱫ ᱯᱟᱵᱽᱞᱤᱠ ᱨᱮᱠᱳᱨᱰ ᱞᱮᱠᱟᱛᱮ ᱫᱚᱦᱚ ᱟᱠᱟᱱ ᱢᱤᱫ ᱮᱠᱥᱮᱥᱵᱤᱞᱤᱴᱤ-ᱯᱷᱚᱠᱥᱚᱞ ᱴᱩᱞ ᱨᱮᱱᱟᱜ ᱮᱛᱚᱦᱚᱵ ᱯᱨᱳᱴᱳᱴᱟᱭᱯ"
+    ],
+    "scopeOut": [
+      "ᱮᱠᱴᱤᱵᱽ ᱰᱮᱵᱞᱚᱯᱢᱮᱱᱴ ᱥᱮ ᱯᱷᱮᱪᱴᱟᱨ ᱠᱟᱹᱢᱤ",
+      "ᱥᱟᱥᱚᱱ ᱪᱟᱪᱞᱟᱣ ᱡᱚᱡᱚᱱᱟ ᱠᱚ",
+      "ᱯᱨᱚᱰᱚᱠᱥᱚᱱ ᱨᱮ ᱥᱩᱪᱚᱱᱟ ᱟᱠᱟᱱ ᱵᱮᱵᱚᱦᱟᱨ"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF ᱵᱳᱴ",
+    "summary": "ᱢᱤᱫ IATF ᱠᱚᱢᱭᱩᱱᱤᱴᱤ ᱵᱳᱴ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱢᱤᱫ ᱱᱟᱥᱮ ᱱᱟᱯᱟᱭ ᱴᱷᱟᱶ ᱮ ᱦᱟᱛᱟᱣ ᱠᱮᱫ ᱛᱟᱭᱚᱢ ᱛᱚᱨᱡᱚᱢᱟ ᱟᱠᱟᱱᱟ ᱾",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ᱠᱚᱢᱤᱣᱱᱤᱴᱤ ᱪᱮᱱᱮᱞ ᱨᱮᱱᱟᱜ ᱚᱴᱚᱢᱮᱥᱚᱱ",
+    "why": "ᱠᱟᱹᱢᱤ ᱨᱮᱱᱟᱜ ᱢᱤᱫ ᱨᱤᱠᱚᱨᱰ ᱞᱮᱠᱟᱛᱮ ᱨᱤᱯᱳᱡᱤᱴᱟᱨᱤ ᱥᱚᱨᱵᱷᱮ ᱫᱚᱦᱚ ᱦᱩᱭᱩᱜᱼᱟ, ᱮᱱᱠᱷᱟᱱ ᱠᱟᱹᱣᱰᱤ ᱦᱟᱛᱟᱣ ᱫᱚᱦᱚ ᱟᱠᱟᱱᱟ ᱾",
+    "scopeIn": [
+      "IATF ᱠᱚᱢᱤᱣᱱᱤᱴᱤ ᱪᱮᱱᱮᱞ ᱨᱮᱱᱟᱜ ᱰᱤᱥᱠᱳᱨᱰ ᱚᱴᱚᱢᱮᱥᱚᱱ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱥᱚᱨᱠᱟᱨᱤ ᱨᱤᱠᱚᱨᱰ ᱞᱮᱠᱟᱛᱮ ᱠᱚ ᱫᱚᱦᱚᱭᱟ"
+    ],
+    "scopeOut": [
+      "ᱮᱠᱴᱤᱵᱽ ᱰᱮᱵᱞᱚᱯᱢᱮᱱᱴ ᱥᱮ ᱯᱷᱮᱪᱴᱟᱨ ᱠᱟᱹᱢᱤ",
+      "ᱥᱟᱥᱚᱱ ᱪᱟᱪᱞᱟᱣ ᱡᱚᱡᱚᱱᱟ ᱠᱚ",
+      "ᱯᱨᱚᱰᱚᱠᱥᱚᱱ ᱨᱮ ᱥᱩᱪᱚᱱᱟ ᱟᱠᱟᱱ ᱵᱮᱵᱚᱦᱟᱨ"
+    ]
+  }
+]

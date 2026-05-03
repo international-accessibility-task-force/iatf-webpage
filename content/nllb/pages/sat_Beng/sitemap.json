@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ᱥᱟᱭᱤᱴ ᱢᱮᱯ"
+  },
+  "hero": {
+    "eyebrow": "ᱤᱱᱰᱮᱠᱥ",
+    "title": "ᱥᱟᱭᱤᱴ ᱢᱮᱯ",
+    "lead": "IATF. C. C ᱨᱮᱱ ᱡᱚᱛᱚ ᱥᱟᱦᱴᱟ ᱢᱤᱫ ᱴᱮᱱ ᱡᱟᱭᱜᱟ ᱨᱮ᱾"
+  },
+  "sections": [
+    {
+      "title": "ᱢᱩᱬᱩᱛ ᱥᱟᱦᱴᱟ",
+      "items": [
+        {
+          "label": "ᱚᱲᱟᱜ",
+          "href": "/"
+        },
+        {
+          "label": "ᱯᱨᱚᱡᱮᱠᱴ",
+          "href": "/projects/"
+        },
+        {
+          "label": "ᱢᱤᱫ ᱯᱨᱚᱡᱮᱠᱴ ᱞᱟᱹᱠᱛᱤ",
+          "href": "/propose/"
+        },
+        {
+          "label": "ᱜᱚᱵᱷᱚᱨᱱᱮᱱᱥ",
+          "href": "/governance/"
+        },
+        {
+          "label": "ᱥᱮᱞᱮᱫᱚᱜ ᱢᱮ",
+          "href": "/join/"
+        },
+        {
+          "label": "ᱥᱮᱴᱮᱨ ᱫᱟᱲᱮ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ᱴᱨᱟᱥᱯᱟᱨᱱᱥᱤ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ᱯᱨᱚᱡᱮᱠᱴ",
+  "projectsEmpty": "ᱱᱤᱛ ᱫᱷᱟᱹᱵᱤᱡ ᱡᱟᱦᱟᱱ ᱯᱨᱚᱡᱮᱠᱴ ᱵᱟ."
+}
