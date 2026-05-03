@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Progjets di acessibilitât publiche",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Progjets di acessibilitât publiche",
+    "lead": "Chest regjistri al elenche i progjets publics mantignûts par mieç de IATF. I progjets di acessibilitât acetâts, lis infrastruturis dal sît e i prototipis archivâts a son visibilis chi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Regjistri",
+      "title": "Regjistri atuâl"
+    },
+    "intro": [
+      "I progjets acetâts a son listâts achì une volte che a son stâts publicâts."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Presentâ une dibisugne",
+      "title": "Trasformâ une dibisugne concrete di acessibilitât intun progjet public"
+    },
+    "paragraphs": [
+      "La IATF e rive a esaminâ dibisugnis concretis di acessibilitât che a puedin jessi trasformâts in lavôrs publics di sorzint viert util."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nissun progjet ancjemò publicât",
+    "paragraphs": [
+      "L'IATF al sta preparant il so prin set di progjets publics.",
+      "Tu puedis ancjemò mandâ une domande se tu âs bisugne concrete di acessibilitât."
+    ]
+  }
+}

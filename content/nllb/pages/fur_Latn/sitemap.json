@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mape dal sît"
+  },
+  "hero": {
+    "eyebrow": "Indiç",
+    "title": "Mape dal sît",
+    "lead": "Ogni pagjine publiche su iatf.cc, intun puest."
+  },
+  "sections": [
+    {
+      "title": "Pagjinis principâls",
+      "items": [
+        {
+          "label": "Cjampfuarmit",
+          "href": "/"
+        },
+        {
+          "label": "Progjets",
+          "href": "/projects/"
+        },
+        {
+          "label": "Richieste un progjet",
+          "href": "/propose/"
+        },
+        {
+          "label": "Governance",
+          "href": "/governance/"
+        },
+        {
+          "label": "Jentrâ",
+          "href": "/join/"
+        },
+        {
+          "label": "Accessibilitât",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Trasparence",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Progjets",
+  "projectsEmpty": "Nissun progjet publicât ancjemò."
+}

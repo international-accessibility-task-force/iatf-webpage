@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Domande di un progjet di acessibilitât",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Domande di un progjet di acessibilitât",
+    "lead": "La IATF e rive a esaminâ lis domandis di progjets di acessibilitât che a partissin di un vêr bisugne.",
+    "support": [
+      "No covente une specificazion complete, baste un probleme clar, cui che al tocje e parcè che al è impuartant par scomençâ."
+    ],
+    "actions": [
+      {
+        "label": "Iniziâ une richieste",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Invezit dopre Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Cjanâi",
+      "title": "Sielç la strade plui facile"
+    },
+    "intro": [
+      "Ducj i percors a jentrin te stesse analisi."
+    ],
+    "items": [
+      {
+        "label": "Sît web",
+        "body": "Par inviâ une domande struturade dopre il form ca sot."
+      },
+      {
+        "label": "Cjâf dal Comitât",
+        "body": "Inviâ la domande in maniere direte a: {{contact.requestsEmail}}Lis domandis par e-mail a puedin deventâ dâts publics daspò de revision e de redazion."
+      },
+      {
+        "label": "Discordie",
+        "body": "Par scomençâ li, se al è plui facil, la domande e va ancjemò te stesse analisi."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Prin di mandâ une richieste",
+    "paragraphs": [
+      "Lis domandis a puedin jessi riassuntis e publicadis tant che regjistris di domandis publichis inte organizazion GitHub de IATF, su chest sît web, o ducj e doi.",
+      "No meti dentri direzions privadis, numars di telefon, detais medics, o informazions identificativis sui utents individuâi des tecnologjiis di assistence, a mancul che nol sedi necessari e che tu ti sintis ben che la IATF e lis verifichi.",
+      "La IATF e rimuove i detais di contat personâi no necessariis prin di publicâ i regjistris des richiestis."
+    ]
+  },
+  "review": {
+    "title": "Esperiencis di riviste",
+    "paragraphs": [
+      "La presentazion di une domande no garantìs la acetazion.",
+      "La IATF e rive a esaminâ lis domandis pe adatece ae mission, la realizabilitât, la utilitât e se il lavôr al fâs part di un archivi public.",
+      "Ciertis domandis a puedin jessi refudadis, rinviadis o modificadis prin di jessi acetadis."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulari di domande",
+      "title": "Presentâ une domande"
+    },
+    "fields": [
+      {
+        "kind": "jentrade",
+        "name": "domandadôr",
+        "label": "Il to non o la tô organizazion",
+        "helper": "Cui fasie la domande?"
+      },
+      {
+        "kind": "selezionâ",
+        "name": "Strade di contat",
+        "label": "Strade di contat preferide",
+        "helper": "Cemût varessial di sucedi il seguiment?",
+        "required": true,
+        "options": [
+          "Cjâf dal Comitât",
+          "Discordie"
+        ]
+      },
+      {
+        "kind": "jentrade",
+        "name": "Informazions di contat",
+        "label": "Informazions di contat",
+        "helper": "L'indiriç e-mail o il non Discord par fâ seguitivis.",
+        "placeholder": "Direzion di pueste eletroniche o non Discord",
+        "required": true
+      },
+      {
+        "kind": "jentrade",
+        "name": "lenghe",
+        "label": "Lenghe uficiâl",
+        "helper": "La tô lenghe preferide, se pertinente.",
+        "value": "Lenghe ufiziâl"
+      },
+      {
+        "kind": "aree di test",
+        "name": "problematiche",
+        "label": "Cuâl probleme âstu cirût di risolvi?",
+        "helper": "Descrivi la barriere intun lengaç sempliç.",
+        "required": true
+      },
+      {
+        "kind": "aree di test",
+        "name": "Utilizadôrs interessâts",
+        "label": "Cui isal interessât?",
+        "helper": "Cui aial judât chest?",
+        "required": true
+      },
+      {
+        "kind": "aree di test",
+        "name": "extraContext",
+        "label": "Contest in plui",
+        "helper": "Condividi cualsisei altre robe che e jude a spiegâ la dibisugne: parcè che al è impuartant, esemplis, referencis, une idee di software o limitazions di timp."
+      },
+      {
+        "kind": "selezionâ",
+        "name": "openSourceConsent",
+        "label": "Tu ti sintis ben cul disvilup di codiç viert public?",
+        "helper": "I progjets acetâts a son archivis publics sot IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Sì, ancje jo.",
+          "No si pues",
+          "No soi ancjemò sigûr."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se acetât",
+      "title": "Ce che al vûl dî acetâ"
+    },
+    "items": [
+      "un repositori public inte organizazion IATF GitHub",
+      "un inzegnîr responsabil assegnât al progjet",
+      "une licence copyleft pal codiç e pai materiâi dal progjet",
+      "svilup public tal repositori",
+      "une jentrade tal regjist sul sît dal IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Scomençâ la conversazion",
+      "title": "Une domande curte e clare e je avonde par scomençâ"
+    },
+    "paragraphs": [
+      "Se tu âs une vere bisugne di acessibilitât e tu pensis che al varès di deventâ un progjet public, mandilu a nô."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "No cjatât"
+  },
+  "hero": {
+    "eyebrow": "No cjatât",
+    "title": "La pagjine domandade no je stade cjatade",
+    "lead": "Dopre lis stradis principâls sot par tornâ al lûc public.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Cjampfuarmit",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Il percors che tu âs domandât nol esist."
+    ],
+    "items": [
+      {
+        "label": "Cjampfuarmit",
+        "href": "/"
+      },
+      {
+        "label": "Progjets",
+        "href": "/projects/"
+      },
+      {
+        "label": "Jentrâ",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilitât",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governance",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trasparence",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

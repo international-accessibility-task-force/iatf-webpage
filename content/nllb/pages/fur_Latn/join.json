@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "jentrâ te IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "jentrâ te IATF",
+    "lead": "La jentrade e je vierte. A son diviers mûts par partecipâ, se tu ti fondis su tecnologjie di assistence, tu costruissis software accessibil, tu tradûs, tu testis o tu mantignis un progjet. Lis discussions e lis decisions a sucedin in public su GitHub e Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Funzions",
+      "title": "Modalitâts par contribuî"
+    },
+    "items": [
+      "<strong>Domande un progjet.</strong> Se tu cjatis un obstacul di acessibilitât che al podarès jessi rispietât di un software public a codiç viert, mandilu a traviers la jentrade des domandis.",
+      "<strong>Prove e revision.</strong> Prova i progjets IATF cu la tecnologjie di assistence che tu dopris, segnale ce che al funzione e ce che no, e archivi lis problematichis diretamentri tal repository pertinent.",
+      "<strong>Traduçilu.</strong> Il contignût origjinâl al è publicât prime in inglês sempliç. Lis traduzions a son zontadis cuant che i colaboradôrs a son disponibils, scomençant dal spagnûl.",
+      "<strong>Cjapâ sù.</strong> Cjape problemis in cualsisei archivi IATF, manda domandis di pueste, o cjape un progjet come inzegnîr responsabil.",
+      "<strong>Mantignî.</strong> I progjets esistentis cualchi volte a àn bisugne di un gnûf manutentôr. La rotazion dai manutentôrs e je une part normâl dal model, no une ecezion."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Cjanâi",
+      "title": "Dulà che l'IATF al lavore in public"
+    },
+    "items": [
+      "<strong>\"GitHub\".</strong> Issues, pull requests, releases, and project records.",
+      "<strong>La discordie.</strong> Discussions in direte, coordenament e domandis informai.",
+      "<strong>La pueste eletroniche.</strong> Utilizazion <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> se ni GitHub ni Discord a son adats."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Pas indenant",
+      "title": "Sielç il canâl che al corispuint a cemût che tu vuelis contribuî"
+    },
+    "paragraphs": [
+      "Ducj i canâi a jentrin inte stesse revision publiche e tai stes archivi publics."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

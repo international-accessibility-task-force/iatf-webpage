@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance e model di archivi",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance e model di archivi",
+    "lead": "La IATF e manten i progjets di acessibilitât publics, leggibii e manutenzionabii.",
+    "support": [
+      "Cheste pagjine e spieghe ce che al covente, cemût che a son tignûts i repositoriis e cuale responsabilitât a nivel di repositori dopo de acetazion."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regulis",
+      "title": "Adeguament ae mission, proprietât, licenze"
+    },
+    "cards": [
+      {
+        "title": "Mission adeguade",
+        "paragraphs": [
+          "La IATF e acete il lavôr che al afronte une vere bariere di acessibilitât e al à un valôr public clâr.",
+          "Un progjet al varès di jessi util al di là di un singul flus di lavôr privât e funzionant come archivi public.",
+          "Par l'accessibilitât dal web, la IATF e dopre [W3C WAI](https://www.w3.org/WAI/) La esperience direte dai utents des tecnologjiis di assistence e je ancje une prove pratiche di ce che al funzione tal ûs reâl."
+        ]
+      },
+      {
+        "title": "Acetazion dal progjet",
+        "paragraphs": [
+          "Une propueste e pues jessi acetade cuant che l'esame al mostre che:"
+        ],
+        "items": [
+          "al risulte di une reâl dibisugne di acessibilitât",
+          "il probleme al è avonde clâr par valutâ",
+          "l'ambient al è avonde realistic par inviâ",
+          "il lavôr al è in linie cu la mission de IATF",
+          "al è un percors plausibil par la manutenzion o il completament"
+        ]
+      },
+      {
+        "title": "Proprietât dal repositori",
+        "paragraphs": [
+          "I progjets acetâts a son creâts sot de organizazion GitHub de IATF.",
+          "I deposits a restin li in mût che ogni progjet al mantigni une cjase publiche stabile, ancje se i manutentôrs a cambiin plui tart."
+        ]
+      },
+      {
+        "title": "Licencis",
+        "paragraphs": [
+          "I progjets de IATF a doprin lis licencis di copyleft se un progjet nol indiche altrimentri:"
+        ],
+        "items": [
+          "<strong>Codiç:</strong> AGPL-3.0",
+          "<strong>Documentazion:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Inzegnîr o manutentôr responsabil",
+      "paragraphs": [
+        "Ogni progjet acetât al à di vê un inzegnîr o un manutentôr responsabil. Cheste persone e pues ricevi l'acès di aministradôr al archivi e e à di:"
+      ],
+      "items": [
+        "svilup di guide in public",
+        "mantignî la struture dal repositori",
+        "esaminâ o gjestî lis cuistions e tirâ fûr lis domandis",
+        "documentâ decisions tecnichis impuartantis",
+        "fâ capî il progjet a chei altris"
+      ],
+      "footnote": "Cheste e je la responsabilitât a nivel di archivi. La proprietât de organizazion e reste cun l'IATF. La responsabilitât e je stewardship dal archivi, direzion tecniche e coordenazion publiche  no consegne privade illimitade, integrazions personalizadis o impegns di nivel di servizi fûr de mape publiche."
+    },
+    "publicDevelopment": {
+      "title": "Svilup public",
+      "paragraphs": [
+        "I progjets metûts in vore par mieç dal IATF a son disvilupâts in maniere publiche par impostazion predefinide. Il repositori al è la font publiche de veretât par:"
+      ],
+      "items": [
+        "codiç sorzint",
+        "cuistions",
+        "documentazion",
+        "Notis su la mape di rotis",
+        "storie di publicazion"
+      ],
+      "footnote": "Lis cognossincis impuartantis dal progjet no varessin di vivi dome intes chats privadis o intes cassetis di jentrade."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Regjistri public",
+      "title": "Regjistri publics des domandis"
+    },
+    "paragraphs": [
+      "Lis domandis che a jentrin te IATF par mieç dal sît web, e-mail, Discord, GitHub, o altris canâi IAT F a puedin deventâ regjistris di domandis publichis.",
+      "IATF al pues riassumi, modificâ o ristruturâ une richieste prime de publicazion in mût che la necessitât di acessibilitât e puedi jessi esaminade cence palesâ informazions personâls inutils.",
+      "I regjistris des richiestis publichis a puedin jessi archiviâts te organizazion GitHub de IATF, in chest sît web, o in ducj e doi.",
+      "Prin de publicazion, la IATF e rimuove i dâts di contat personâi no necessariis, lis direzions privadis e i detais identificatîfs sui utents individuâi des tecnologjiis di assistence, a mancul che la publicazion e sedi clarementri volude e juste.",
+      "Discord al è doprât par il coordenament informâl. IATF par impostazion predefinide nol archivi separadementri lis conversazions Discord, e la conservazion dai messaçs e je controlade di Discord. Lis decisions cjapadis in Discord a varessin di jessi riassuntis tal archivi public su GitHub o su la pagjine dal progjet pertinent.",
+      "I regjistris des richiestis a son escludûts dal indiciament dai motôrs di ricercje là che al è tecnicamentri pratic. Publich al vûl dî controlâbil e responsabil.",
+      "L'IATF al pues inzornâ o gjavâ lis regjistrazions des superficiis publichis controladis dal IATF, ma nol pues garantî la rimozion des cache, notificazions, forcs, screenshots, motôrs di ricercje, Discord o altris sistemis esternis di tiercis parts.",
+      "Se un messaç al à di restâ privât, no lu mandâ par mieç dai canâi publics de IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rôl organizatîf",
+      "title": "Cjase presidenziâl"
+    },
+    "lead": "Il president al à la direzion a nivel de organizazion dal IATF. Chest al è distint dal rûl dal inzegnîr responsabil di ogni progjet: il president al è responsabil pe organizazion in gjenerâl, no pe direzion di ogni dì di un singul archivi.",
+    "duties": {
+      "title": "Ce che la poltrone e fâs",
+      "items": [
+        "Al ten i permès dal proprietari su la organizazion IATF su GitHub",
+        "Firma des decisions di acetazion e archiviazion dai progjets",
+        "Al fâs di pont di contat public pal IATF",
+        "Coordenade de elezion anuâl"
+      ],
+      "footnote": "Il president nol impegne l'IATF a consegnament privât, lavôr paiât, o acuardis di nivel di servizi, e nol anule lis decisions dal manutentôr di ogni archivi su la direzion tecniche."
+    },
+    "election": {
+      "title": "Elezion anuâl",
+      "paragraphs": [
+        "Il president al ven elezût une volte al an, lis elezions a son lis primis dôs setemanis di Dicembar, i risultâts a son publicâts dentri dai 15 di Decembar e il gnûf tiermin al scomence ai 1 di Zenâr.",
+        "I votants elegjibii a son personis che a àn vût un rûl di manutentôr su cualsisei archivi IATF dilunc dal an e a àn fat almancul un contribût fusionât a un archivi in chel an. Ogni votant elegjibil al à une vôs. Il candidât cun la plui part dai vôts al vinç; in câs di paritât, un secont turni al si davuelç te tierce setemane di Dicembar.",
+        "L'elezion e je fate come discussion publiche su GitHub tal repositori de governance de IATF, duncje i candidâts, il vôt e il risultât a son ducj part dal archivi public."
+      ]
+    },
+    "continuity": {
+      "title": "La continuitât",
+      "paragraphs": [
+        "Il model al è pensât par mantignî l'organizazion stabile cuant che la ativitât e je basse, no par forçâ une transizion che nissun al è pront.",
+        "Il president al pues dimissionâ in cualsisei moment. I mantenidôrs atîfs a puedin ancje clamâ une elezion straordinarie cuntune motivazion, fate daûr des stessis regulis de elezion anuâl."
+      ]
+    },
+    "current": {
+      "title": "Preside atuâl",
+      "fields": [
+        {
+          "label": "Cjase presidenziâl",
+          "value": "mugjwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Periodi di validitât",
+          "value": "Fin ae elezion di Dicembar dal 2026"
+        },
+        {
+          "label": "Funzion formalizade",
+          "value": "2026"
+        },
+        {
+          "label": "Prime elezion programade",
+          "value": "Dicembar dal 2026"
+        }
+      ]
+    },
+    "footnote": "Il rûl di president al è stât formalizât tal 2026 par fâ l'aministrazion a nivel di organizazion esplicite."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stâts dal progjet",
+      "paragraphs": [
+        "I progjets a doprin un piçul insiemi di stâts publics:"
+      ],
+      "items": [
+        "Propostazion",
+        "Acetât",
+        "Atîf",
+        "Stabil",
+        "Al cîr un manutentôr",
+        "Archiviât"
+      ],
+      "footnote": "Chescj stâts a tegnin il regjistri facil di scansionâ."
+    },
+    "reassignment": {
+      "title": "Riassignament e archiviazion",
+      "paragraphs": [
+        "Se un manutentôr al va vie o al devente inatîf, l'IATF al pues riassegnâ la responsabilitât, fermâ il disvilup o archiviâ il progjet.",
+        "Un progjet al pues ancje jessi archiviât cuant che la dibisugne origjinâl e je stade sodisfate, la manutenzion e je finide o il lavôr continuât nol è plui realistic."
+      ],
+      "footnote": "I progjets archiviâts a restin visibii pal public, a mancul che no sedi une reson convincente par fâ altrimentri."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota di confin",
+      "title": "Ce che l'IATF nol garantìs"
+    },
+    "items": [
+      "consegne a un client privât",
+      "acuardis di nivel di servizi",
+      "la acetazion di ogni propueste",
+      "manutenzion a tiermin lunc par ogni progjet"
+    ],
+    "footnote": "L'IATF al è un model di archivi public, no un servizi di consegne privât."
+  }
+}

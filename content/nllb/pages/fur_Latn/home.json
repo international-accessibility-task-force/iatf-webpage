@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Dal bisugne di acessibilitât ai deposits publics",
+    "lead": "La IATF e jutore associazions, grups e individuis a trasformâ dibisugns reâi di acessibilitât in progjets publics a codiç viert.",
+    "support": [
+      "I progjets acetâts a son publicâts inte organizazion IATF GitHub sot di une licence copyleft e svilupâts in public di un inzegnîr responsabil."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Model operatîf public",
+      "title": "Un sempliç percors public pal software acessibil"
+    },
+    "paragraphs": [
+      "Par mieç di un form, cualsisei al pues presentâ un probleme di acessibilitât a IATF. Se la scuadre e pues cjapâlu sù, al ven vierzût un repositori public su GitHub par il lavôr.",
+      "Ogni progjet acetât al à une cjase publiche clare pal codiç, lis cuistions, la documentazion e lis publicazions, cul svilup guidât in public di un inzegnîr responsabil."
+    ],
+    "specCard": {
+      "title": "Model operatîf public",
+      "terms": [
+        {
+          "term": "Bisugne",
+          "definition": "Problemis reâi di acessibilitât"
+        },
+        {
+          "term": "Revision",
+          "definition": "Adeguament ae mission e realizabilitât pratiche"
+        },
+        {
+          "term": "Spazi dal progjet",
+          "definition": "Repository public su GitHub"
+        },
+        {
+          "term": "Aministrazion",
+          "definition": "Proprietât de organizazion IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Procès",
+      "title": "Cemût che al funzione",
+      "intro": "Il model al reste in maniere intenzionâl piçul par che il percors public al sedi facil di seguî."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Al ven presentât un bisugne",
+        "paragraphs": [
+          "Une associazion, un grup o un individui a puedin presentâ une domande basade su une vere bisugne di acessibilitât.",
+          "Lis domandis a puedin partî dal sît web, par e-mail a: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o par mieç di Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "L'IATF lu verifiche",
+        "paragraphs": [
+          "O rivoluzionìn la adatece ae mission, la portade pratiche, e se il lavôr al fâs part di un progjet open source public."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Al ven creât un archivi public",
+        "paragraphs": [
+          "Se un progjet al ven acetât, al ven publicât inte organizazion IATF su GitHub sot di une licence copyleft.",
+          "Il repositori al devente la cjase publiche dal codiç, dai problemis, de documentazion e des publicazions."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un inzegnîr responsabil al mene il progjet",
+        "paragraphs": [
+          "Un inzegnîr responsabil al è assegnât al repositori dal progjet e il disvilup al sucêt in public."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Regjistri",
+      "title": "Regjistri public dai progjets"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "A scomencin di li.",
+      "title": "Par viodi i lavôrs in cors o par scomençâ un progjet concret"
+    },
+    "paragraphs": [
+      "Utilizâ il regjistri par viodi ce che al è za public, o scomençâ la jentrade se un probleme concret di acessibilitât al devente un progjet."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

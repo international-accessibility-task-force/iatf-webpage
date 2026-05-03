@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilitât",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilitât",
+    "lead": "La IATF e vûl che chest sît al sedi sempliç, leggibil, accessibil cu la tastiere e compatibil cu lis tecnologjiis di assistence.",
+    "support": [
+      "Par l'accessibilitât dal web, la IATF e dopre [W3C WAI](https://www.w3.org/WAI/) La acessibilitât pratiche e je informade ancje de esperience direte dai utents des tecnologjiis di assistence."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Presentazion di dâts",
+      "title": "Denunziâ un probleme di acessibilitât"
+    },
+    "paragraphs": [
+      "Se tu cjatis une dificoltât di acessibilitât su chest sît, tu puedis segnalâle par e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Lis segnalazions utilis a includin:"
+    ],
+    "items": [
+      "la pagjine dulà che al è sucedût il probleme",
+      "ce che tu volevis fâ",
+      "cuale tecnologjie di assistence, navigadôr o dispositîf che tu dopris, se pertinent",
+      "ce che al è lât mâl",
+      "ce che al varès judât"
+    ],
+    "footnote": "No tu âs bisugne di scrivi une segnalazion di erôr uficiâl. Une descrizion clare e je avonde."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manifestazion",
+      "title": "Tratament di cuistions publichis"
+    },
+    "paragraphs": [
+      "Lis cuistions di acessibilitât a puedin jessi riassuntis tal repositori public pertinent par podê jessi risoludis in public.",
+      "Se la tô segnalazion e inclût informazions privadis, dîlu in mût clâr tal messaç."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Stât atuâl",
+      "title": "Limitazions cognossudis"
+    },
+    "paragraphs": [
+      "Chest sît al è in maniere intenzionâl piçul e static. cualchi version linguistiche e pues jessi incomplete intant che lis traduzions a son in fase di preparazion."
+    ]
+  }
+}
