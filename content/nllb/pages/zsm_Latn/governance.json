@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Model tadbir urus dan repositori",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Model tadbir urus dan repositori",
+    "lead": "IATF memastikan projek aksesibiliti terbuka, dapat dibaca, dan dapat dikekalkan.",
+    "support": [
+      "Halaman ini menerangkan apa yang memenuhi syarat, bagaimana repositori diadakan, dan apa tanggungjawab peringkat repositori berlaku selepas penerimaan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Peraturan",
+      "title": "Misi sesuai, pemilikan, pelesenan"
+    },
+    "cards": [
+      {
+        "title": "Misi sesuai",
+        "paragraphs": [
+          "IATF menerima kerja yang menangani halangan aksesibiliti sebenar dan mempunyai nilai awam yang jelas.",
+          "Projek harus berguna di luar satu aliran kerja peribadi dan boleh digunakan sebagai repositori awam.",
+          "Untuk kebolehaksesan web, IATF menggunakan [W3C WAI](https://www.w3.org/WAI/) Pengalaman langsung pengguna teknologi pembantu juga merupakan bukti praktikal tentang apa yang berfungsi dalam penggunaan sebenar."
+        ]
+      },
+      {
+        "title": "Penerimaan projek",
+        "paragraphs": [
+          "Cadangan boleh diterima apabila kajian menunjukkan bahawa:"
+        ],
+        "items": [
+          "ia menangani keperluan aksesibiliti yang sebenar",
+          "masalah ini cukup jelas untuk menilai",
+          "skop adalah cukup realistik untuk melancarkan",
+          "kerja selaras dengan misi IATF",
+          "terdapat jalan yang munasabah untuk penyelenggaraan atau penyempurnaan"
+        ]
+      },
+      {
+        "title": "Kepemilikan repositori",
+        "paragraphs": [
+          "Projek yang diterima dibuat di bawah organisasi IATF GitHub.",
+          "Repositories tinggal di sana supaya setiap projek mengekalkan rumah awam yang stabil, walaupun penyelenggara kemudian berubah."
+        ]
+      },
+      {
+        "title": "Pelesenan",
+        "paragraphs": [
+          "Projek IATF menggunakan pelesenan copyleft kecuali projek menyatakan sebaliknya:"
+        ],
+        "items": [
+          "<strong>Kod:</strong> AGPL-3.0",
+          "<strong>Dokumen:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Jurutera atau penyelenggara yang bertanggungjawab",
+      "paragraphs": [
+        "Setiap projek yang diterima harus mempunyai jurutera atau penyelenggara yang bertanggungjawab. Orang itu boleh menerima akses pentadbir ke repositori dan diharapkan untuk:"
+      ],
+      "items": [
+        "pembangunan panduan di khalayak ramai",
+        "mengekalkan struktur repositori",
+        "mengkaji semula atau menguruskan isu dan menarik permintaan",
+        "Dokumen keputusan teknikal penting",
+        "memastikan projek dapat difahami oleh orang lain"
+      ],
+      "footnote": "Ini adalah tanggungjawab peringkat repositori. Kepemilikan organisasi kekal dengan IATF. Tanggungjawab di sini adalah pengurusan repositori, arahan teknikal, dan penyelarasan awam  bukan penghantaran peribadi tanpa had, integrasi tersuai, atau komitmen peringkat perkhidmatan di luar peta jalan awam."
+    },
+    "publicDevelopment": {
+      "title": "Pembangunan awam",
+      "paragraphs": [
+        "Projek yang dilancarkan melalui IATF dibangunkan secara umum secara lalai. Repository adalah sumber kebenaran awam untuk:"
+      ],
+      "items": [
+        "kod sumber",
+        "isu-isu",
+        "dokumentasi",
+        "Nota Peta Jalan",
+        "sejarah pelepasan"
+      ],
+      "footnote": "Pengetahuan projek penting tidak boleh tinggal hanya dalam sembang peribadi atau peti masuk."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Rekod awam",
+      "title": "Rekod permintaan awam"
+    },
+    "paragraphs": [
+      "Permintaan yang memasuki IATF melalui laman web, e-mel, Discord, GitHub, atau saluran IAT F yang lain boleh menjadi rekod permintaan awam.",
+      "Rekod permintaan awam tidak semestinya mesej asal. IATF boleh meringkaskan, menyunting, atau menyusun semula permintaan sebelum penerbitan supaya keperluan aksesibiliti dapat dikaji semula tanpa mendedahkan maklumat peribadi yang tidak perlu.",
+      "Rekod permintaan awam boleh disimpan di organisasi IATF GitHub, di laman web ini, atau kedua-duanya.",
+      "Sebelum penerbitan, IATF menghapuskan maklumat hubungan peribadi yang tidak perlu, alamat peribadi, dan maklumat pengenalan mengenai pengguna individu teknologi pembantu kecuali penerbitannya jelas dimaksudkan dan sesuai.",
+      "Discord digunakan untuk penyelarasan tidak rasmi. IATF tidak mengarkibkan perbualan Discord secara berasingan secara lalai, dan pengekalan mesej dikawal oleh Discord. Keputusan yang dibuat dalam Discord harus diringkaskan ke dalam rekod awam di GitHub atau di halaman projek yang berkaitan.",
+      "Rekod permintaan dikecualikan daripada penindeksan enjin carian di mana ia praktikal secara teknikal. Awam bermaksud boleh dikaji semula dan dipertanggungjawabkan. Ia tidak bermaksud dioptimumkan untuk penemuan melalui carian nama.",
+      "IATF boleh mengemas kini atau mengeluarkan rekod dari permukaan awam yang dikawal oleh IAT F, tetapi tidak dapat menjamin penghapusan dari cache pihak ketiga, pemberitahuan, garpu, tangkapan skrin, enjin carian, Discord, atau sistem luaran lain.",
+      "Jika mesej perlu kekal peribadi, jangan hantar melalui saluran awam IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Peranan organisasi",
+      "title": "Kerusi"
+    },
+    "lead": "Pengerusi memegang kepengurusan peringkat organisasi IATF. Ini berbeza dengan peranan jurutera yang bertanggungjawab setiap projek: ketua bertanggungjawab untuk organisasi secara keseluruhan, bukan untuk arahan harian mana-mana repositori tunggal.",
+    "duties": {
+      "title": "Apa kerusi itu lakukan",
+      "items": [
+        "Mengekalkan keizinan pemilik pada organisasi IATF GitHub",
+        "Menandatangani kelulusan projek dan keputusan arkib",
+        "Bertindak sebagai titik hubungan awam untuk IATF",
+        "Mengkoordinasikan pilihan raya tahunan"
+      ],
+      "footnote": "Pengerusi tidak mengikat IATF untuk penghantaran peribadi, kerja berbayar, atau perjanjian tahap perkhidmatan, dan tidak mengesampingkan keputusan setiap pemelihara repositori mengenai arahan teknikal."
+    },
+    "election": {
+      "title": "Pilihan raya tahunan",
+      "paragraphs": [
+        "Pengerusi dipilih setahun sekali. Pilihan raya berlangsung dalam dua minggu pertama bulan Disember, keputusan diumumkan pada 15 Disember dan penggal baru bermula pada 1 Januari.",
+        "Pemilih yang layak adalah orang-orang yang memegang peranan penyelenggara pada mana-mana repositori IATF pada tahun itu dan membuat sekurang-kurangnya satu sumbangan gabungan kepada repositori iATF dalam tahun itu. Setiap pengundi yang layak mempunyai satu undi. Calon dengan undi terbanyak menang; sekiranya berlaku perbandingan, undian kedua diadakan pada minggu ketiga bulan Disember.",
+        "Pilihan raya dijalankan sebagai Perbincangan GitHub awam di repositori tadbir urus IATF yang ditetapkan, jadi calon, undian, dan hasilnya adalah sebahagian daripada rekod awam."
+      ]
+    },
+    "continuity": {
+      "title": "kesinambungan",
+      "paragraphs": [
+        "Sekiranya tiada pilihan raya diadakan pada tahun tertentu, pengerusi semasa terus memegang peranan sehingga pilihan raya berikutnya. Ini adalah kesinambungan tanpa batas, bukan tempoh kelonggaran  model ini direka untuk memastikan organisasi stabil apabila aktiviti rendah, bukan untuk memaksa peralihan yang tidak ada yang bersedia.",
+        "Pengerusi boleh meletak jawatan pada bila-bila masa. Pemegang aktif juga boleh memanggil pilihan raya luar biasa dengan alasan yang dinyatakan, dijalankan di bawah peraturan yang sama seperti pilihan raya tahunan."
+      ]
+    },
+    "current": {
+      "title": "Pengerusi semasa",
+      "fields": [
+        {
+          "label": "Kerusi",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tempoh",
+          "value": "Sehingga pilihan raya Disember 2026"
+        },
+        {
+          "label": "Peranan diformalkan",
+          "value": "2026"
+        },
+        {
+          "label": "Pilihan raya pertama yang dijadualkan",
+          "value": "Disember 2026"
+        }
+      ]
+    },
+    "footnote": "Peranan pengerusi telah diformalkan pada tahun 2026 untuk menjadikan pengurusan peringkat organisasi secara eksplisit."
+  },
+  "continuity": {
+    "states": {
+      "title": "Keadaan projek",
+      "paragraphs": [
+        "Projek menggunakan satu set kecil negeri awam:"
+      ],
+      "items": [
+        "Cadangan",
+        "Diterima",
+        "Aktif",
+        "Tetap",
+        "Mencari penyelenggara",
+        "Diarsipkan"
+      ],
+      "footnote": "Negeri-negeri ini menyimpan pendaftaran mudah untuk mengimbas."
+    },
+    "reassignment": {
+      "title": "Penugasan semula dan arkib",
+      "paragraphs": [
+        "Jika penyelenggara melangkah keluar atau menjadi tidak aktif, IATF boleh menugaskan semula tanggungjawab, menghentikan pembangunan, atau arkib projek.",
+        "Projek juga boleh diarkibkan apabila keperluan asal telah dipenuhi, penyelenggaraan telah berhenti, atau kerja yang berterusan tidak lagi realistik."
+      ],
+      "footnote": "Projek-projek yang diarkibkan tetap dapat dilihat oleh orang ramai kecuali ada sebab yang memaksa untuk berbuat sebaliknya."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota sempadan",
+      "title": "Apa yang IATF tidak menjamin"
+    },
+    "items": [
+      "penghantaran pelanggan persendirian",
+      "perjanjian tahap perkhidmatan",
+      "penerimaan setiap cadangan",
+      "penyelenggaraan jangka panjang untuk setiap projek"
+    ],
+    "footnote": "IATF adalah model repositori awam, bukan perkhidmatan penghantaran swasta."
+  }
+}

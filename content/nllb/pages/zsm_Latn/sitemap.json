@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Peta laman web"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Peta laman web",
+    "lead": "Setiap halaman awam di iatf.cc, di satu tempat."
+  },
+  "sections": [
+    {
+      "title": "Halaman utama",
+      "items": [
+        {
+          "label": "Rumah",
+          "href": "/"
+        },
+        {
+          "label": "Projek-projek",
+          "href": "/projects/"
+        },
+        {
+          "label": "Meminta projek",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pentadbiran",
+          "href": "/governance/"
+        },
+        {
+          "label": "Sertai",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksesibiliti",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ketelusan",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projek-projek",
+  "projectsEmpty": "Belum ada projek yang diterbitkan."
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Meminta projek aksesibiliti",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Meminta projek aksesibiliti",
+    "lead": "IATF mengkaji permintaan untuk projek aksesibiliti yang bermula dari keperluan sebenar.",
+    "support": [
+      "Anda tidak memerlukan spesifikasi lengkap. Masalah yang jelas, siapa yang ia menjejaskan, dan mengapa ia penting sudah cukup untuk bermula."
+    ],
+    "actions": [
+      {
+        "label": "Mulakan permintaan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gunakan Discord sebagai gantinya",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Pilih laluan yang paling mudah"
+    },
+    "intro": [
+      "Semua laluan masuk dalam kajian yang sama."
+    ],
+    "items": [
+      {
+        "label": "Laman web",
+        "body": "Gunakan borang di bawah untuk mengemukakan permintaan berstruktur."
+      },
+      {
+        "label": "E-mel",
+        "body": "Hantar permintaan secara langsung kepada {{contact.requestsEmail}}Permintaan e-mel boleh menjadi rekod permintaan awam selepas semakan dan penyuntingan."
+      },
+      {
+        "label": "Perbalahan",
+        "body": "Mulakan di sana jika itu adalah yang paling mudah. Permintaan masih bergerak ke dalam kajian yang sama."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sebelum anda menghantar permintaan",
+    "paragraphs": [
+      "Permintaan boleh diringkaskan dan diterbitkan sebagai rekod permintaan awam dalam organisasi IATF GitHub, di laman web ini, atau kedua-duanya.",
+      "Jangan sertakan alamat peribadi, nombor telefon, butiran perubatan, atau mengenal pasti maklumat mengenai pengguna individu teknologi pembantu kecuali ia perlu dan anda selesa dengan IATF menyemaknya.",
+      "IATF menghapus maklumat hubungan peribadi yang tidak perlu sebelum menerbitkan rekod permintaan."
+    ]
+  },
+  "review": {
+    "title": "Mengkaji semula jangkaan",
+    "paragraphs": [
+      "Penyerahan permintaan tidak menjamin penerimaan.",
+      "IATF mengkaji permintaan untuk kesesuaian misi, kelayakan, kegunaan, dan sama ada kerja itu berada di repositori awam.",
+      "Sesetengah permintaan mungkin ditolak, ditangguhkan, atau dibentuk semula sebelum diterima."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Borang Permintaan",
+      "title": "Memfailkan permohonan"
+    },
+    "fields": [
+      {
+        "kind": "input",
+        "name": "pemohon",
+        "label": "Nama atau organisasi anda",
+        "helper": "Siapa yang membuat permintaan itu?"
+      },
+      {
+        "kind": "pilih",
+        "name": "ContactRoute",
+        "label": "Laluan hubungan pilihan",
+        "helper": "Bagaimana perlu tindak lanjut berlaku?",
+        "required": true,
+        "options": [
+          "E-mel",
+          "Perbalahan"
+        ]
+      },
+      {
+        "kind": "input",
+        "name": "Perincian",
+        "label": "Maklumat hubungan",
+        "helper": "Alamat e-mel atau alamat Discord untuk susulan.",
+        "placeholder": "Alamat e-mel atau alamat Discord",
+        "required": true
+      },
+      {
+        "kind": "input",
+        "name": "bahasa",
+        "label": "Bahasa",
+        "helper": "Bahasa pilihan anda, jika relevan.",
+        "value": "Bahasa Inggeris"
+      },
+      {
+        "kind": "kawasan teks",
+        "name": "masalah",
+        "label": "Masalah apa yang awak cuba selesaikan?",
+        "helper": "Jelaskan halangan dalam bahasa biasa.",
+        "required": true
+      },
+      {
+        "kind": "kawasan teks",
+        "name": "Pengguna yang terjejas",
+        "label": "Siapa yang terjejas?",
+        "helper": "Siapa yang akan ini membantu?",
+        "required": true
+      },
+      {
+        "kind": "kawasan teks",
+        "name": "extraContext",
+        "label": "Konteks tambahan",
+        "helper": "Kongsi apa-apa lagi yang membantu menjelaskan keperluan: mengapa ia penting, contoh, rujukan, idea perisian kasar, atau kekangan masa."
+      },
+      {
+        "kind": "pilih",
+        "name": "openSourceConsent",
+        "label": "selesa dengan pembangunan sumber terbuka awam?",
+        "helper": "Projek yang diterima adalah repositori awam di bawah IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ya, boleh.",
+          "Tidak",
+          "Belum pasti."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Jika diterima",
+      "title": "Apa maksud penerimaan"
+    },
+    "items": [
+      "repositori awam dalam organisasi IATF GitHub",
+      "jurutera bertanggungjawab yang ditugaskan untuk projek",
+      "lesen copyleft untuk kod dan bahan projek",
+      "pembangunan awam dalam repositori",
+      "catatan pendaftaran di laman web IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mulakan perbualan",
+      "title": "Permintaan ringkas dan jelas sudah cukup untuk memulakan"
+    },
+    "paragraphs": [
+      "Jika anda mempunyai keperluan aksesibiliti yang sebenar dan fikir ia perlu menjadi projek awam, hantar kepada kami."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

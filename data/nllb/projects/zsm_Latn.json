@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Laman web IATF",
+    "summary": "Laman web awam untuk Pasukan Petugas Aksesibiliti Antarabangsa.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF memerlukan rumah awam yang stabil yang menerangkan model, menyenaraikan projek, dan menunjukkan penyumbang ke langkah seterusnya yang betul.",
+    "why": "Laman web ini adalah pintu depan awam IATF. Ia dibina sebagai projek statik kecil sehingga mudah dibaca, diterjemahkan, dan dikekalkan di tempat terbuka.",
+    "scopeIn": [
+      "Laman pendaratan awam yang menerangkan model IATF",
+      "Daftar awam projek IATF yang diterima, aktif, dan diarkibkan dengan status, penyelenggara, repositori, dan demo",
+      "Halaman penerimaan permintaan dan borang",
+      "Laman tadbir urus dan ketelusan",
+      "Sumber bahasa Inggeris dengan struktur siap untuk terjemahan",
+      "Penyebaran statik pada Aset Statik Pekerja Cloudflare"
+    ],
+    "scopeOut": [
+      "Kawasan ahli persendirian, akaun, atau aliran log masuk",
+      "Hosting kod sumber projek, yang tinggal di repositori masing-masing projek",
+      "Sembang masa nyata, yang tinggal di Discord",
+      "Pengesanan isu untuk projek individu, yang tinggal di repositori GitHub setiap projek"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Prototaip IATF awal, diarkibkan selepas mencapai titik berhenti semula jadi.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Penyelidikan awal alat yang memberi tumpuan kepada aksesibiliti di bawah payung IATF.",
+    "why": "Repositori ini disimpan untuk umum sebagai rekod kerja, walaupun pembangunan aktif telah berhenti.",
+    "scopeIn": [
+      "Prototaip awal alat yang memberi tumpuan kepada aksesibiliti yang disimpan sebagai rekod awam"
+    ],
+    "scopeOut": [
+      "Pembangunan aktif atau kerja ciri",
+      "Komitmen penyelenggaraan",
+      "Penggunaan yang disyorkan dalam pengeluaran"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot komuniti IATF, diarkibkan selepas mencapai titik perhentian semula jadi.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automasi di sekitar saluran komuniti IATF.",
+    "why": "Repositori ini disimpan untuk umum sebagai rekod kerja, walaupun pembangunan aktif telah berhenti.",
+    "scopeIn": [
+      "Automasi perselisihan di sekitar saluran komuniti IATF, disimpan sebagai rekod awam"
+    ],
+    "scopeOut": [
+      "Pembangunan aktif atau kerja ciri",
+      "Komitmen penyelenggaraan",
+      "Penggunaan yang disyorkan dalam pengeluaran"
+    ]
+  }
+]

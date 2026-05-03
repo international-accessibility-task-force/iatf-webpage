@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Ketelusan",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Ketelusan",
+    "lead": "IATF berfungsi secara umum secara lalai. Keputusan projek, perubahan kod, perubahan tadbir urus, dan kos operasi direkodkan di lokasi awam. Halaman ini menyenaraikan di mana setiap jenis rekod hidup dan bagaimana membacanya.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Rekod",
+      "title": "Di mana rekod tinggal"
+    },
+    "items": [
+      "<strong>Keputusan projek.</strong> Keputusan penerimaan, arkib, dan penugasan semula direkodkan sebagai isu atau pelepasan dalam repositori yang berkaitan, dan diringkaskan dalam pendaftaran awam. <a href=\"/projects/\">pentadbiran</a>- Ya, betul.",
+      "<strong>Minta rekod.</strong> Rekod permintaan awam disimpan dalam organisasi IATF GitHub, di laman web ini, atau kedua-duanya. Rekod boleh meringkaskan, menyunting, atau menyusun semula permintaan asal supaya keperluan aksesibiliti dapat dikaji semula tanpa mendedahkan maklumat peribadi yang tidak perlu. Keputusan perselisihan diringkas ke dalam rekod awam apabila ia menjejaskan keputusan projek atau tadbir urus. Rakaman permintaan dikecualikan dari pengindeksan enjin carian di mana ia praktikal secara teknikal. Lihat rekod: permintaan penerbitan pertama sedang menunggu.",
+      "<strong>Kod berubah.</strong> Setiap perubahan kod adalah komitmen awam pada repositori yang berkaitan. Lihat IATF <a href=\"{{contact.githubOrgUrl}}\">Pertubuhan GitHub</a>- Ya, betul.",
+      "<strong>Perubahan pentadbiran.</strong> Kemas kini ke halaman tadbir urus dikesan sebagai komitmen kepada <code>Laman web IATF</code> Repository. Lihat <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">sejarah pengesahan</a> di GitHub.",
+      "<strong>Kos operasi.</strong> IATF mengekalkan kos operasi yang rendah dan mencatat perbelanjaan infrastruktur awam yang berulang. Sejak tahun 2022, kos berulang utama adalah nama domain. Hosting telah menggunakan infrastruktur peringkat bebas atau kos rendah jika mungkin. Lihat rekod kos operasi di bawah.",
+      "<strong>Nota koordinasi.</strong> Nota dari mana-mana kajian semula atau keputusan yang diselaraskan secara langsung di GitHub Perbincangan mengenai repositori yang berkaitan  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Perbincangan</a> pada <code>Laman web IATF</code> repositori."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Kos",
+      "title": "Rekod kos operasi"
+    },
+    "paragraphs": [
+      "IATF menyimpan infrastruktur awamnya secara sengaja kecil. Sejak tahun 2022, kos operasi berulang utama adalah nama domain. Hosting telah menggunakan infrastruktur peringkat bebas atau kos rendah jika mungkin.",
+      "Rekod ini bukan penyata kewangan yang diaudit. Ia adalah log kos operasi awam untuk infrastruktur yang digunakan untuk menjaga IATF dalam talian."
+    ],
+    "footnote": "Resipi boleh dirujuk atau diterbitkan selepas redaction. Alamat peribadi, butiran bil, dan maklumat akaun yang tidak perlu bukan sebahagian daripada rekod awam.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Kos",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Nota-nota",
+            "value": "Kos domain yang dibiayai oleh mugiwarafx. Hosting menggunakan infrastruktur peringkat bebas atau kos rendah melalui Cloudflare. Projek ini berpindah dari Vercel ke CloudFlare dan mula menggunakan yang lebih pendek <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kos",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Nota-nota",
+            "value": "Kos domain dibiayai oleh mugiwarafx. Hosting menggunakan infrastruktur peringkat percuma atau kos rendah."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kos",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Nota-nota",
+            "value": "Kos domain dibiayai oleh mugiwarafx. Hosting menggunakan infrastruktur peringkat percuma atau kos rendah melalui Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kos",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Nota-nota",
+            "value": "Kos domain dibiayai oleh mugiwarafx. Hosting menggunakan infrastruktur peringkat percuma atau kos rendah."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kos",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Nota-nota",
+            "value": "Kos domain dibiayai oleh mugiwarafx. Hosting menggunakan infrastruktur peringkat percuma atau kos rendah melalui Halaman GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota sempadan",
+      "title": "Apa yang tidak awam"
+    },
+    "paragraphs": [
+      "Sesetengah bahan disimpan dari rekod awam dengan tujuan:"
+    ],
+    "items": [
+      "Maklumat perhubungan peribadi para pemberi cadangan.",
+      "Surat peribadi yang digunakan hanya untuk menjelaskan permintaan sebelum ia diterima, ditolak, atau diringkaskan.",
+      "Alamat peribadi, nombor telefon, dan maklumat peribadi yang tidak perlu.",
+      "Apa-apa yang akan mengenal pasti pengguna individu teknologi bantuan tanpa persetujuan.",
+      "Perbualan Raw Discord, kecuali mesej tertentu sengaja dipindahkan ke rekod projek awam."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Baca lebih lanjut",
+      "title": "Pemerintahan adalah buku peraturan di sebalik rekod-rekod ini"
+    },
+    "paragraphs": [
+      "Jika anda ingin memahami bagaimana projek diterima, diarkibkan, atau ditugaskan semula, baca halaman tadbir urus."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

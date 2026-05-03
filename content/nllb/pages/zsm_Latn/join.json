@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Sertai IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Sertai IATF",
+    "lead": "Keahlian adalah terbuka. Terdapat beberapa cara untuk mengambil bahagian, sama ada anda bergantung pada teknologi bantuan, membina perisian yang boleh diakses, menterjemahkan, menguji, atau mengekalkan projek. Perbincangan dan keputusan berlaku di khalayak ramai di GitHub dan Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Peranan",
+      "title": "Cara untuk menyumbang"
+    },
+    "items": [
+      "<strong>Minta projek.</strong> Jika anda menghadapi halangan aksesibiliti yang boleh ditangani oleh perisian sumber terbuka awam, hantarkannya melalui penerimaan permintaan.",
+      "<strong>Uji dan semak semula.</strong> Cuba projek IATF dengan teknologi pembantu yang anda gunakan, laporkan apa yang berfungsi dan apa yang tidak, dan fail masalah secara langsung di repositori yang berkaitan.",
+      "<strong>Terjemahkan.</strong> Kandungan sumber diterbitkan dalam bahasa Inggeris biasa terlebih dahulu. Terjemahan ditambahkan apabila penyumbang tersedia, bermula dengan bahasa Sepanyol.",
+      "<strong>Membina.</strong> Mengambil masalah dalam mana-mana repositori IATF, menghantar permintaan tarik, atau mengambil projek sebagai jurutera yang bertanggungjawab.",
+      "<strong>Simpan.</strong> Projek-projek yang sedia ada kadang-kadang memerlukan penyelenggara baru. Rotasi penyelenggaraan adalah bahagian normal model, bukan pengecualian."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran",
+      "title": "Di mana IATF bekerja di khalayak ramai"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Isu, menarik permintaan, pelepasan, dan rekod projek.",
+      "<strong>Perbalahan.</strong> Perbincangan langsung, koordinasi, dan soalan tidak rasmi.",
+      "<strong>E-mel.</strong> Penggunaan <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> jika GitHub atau Discord tidak sesuai."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Langkah seterusnya",
+      "title": "Pilih saluran yang sepadan dengan cara anda ingin menyumbang"
+    },
+    "paragraphs": [
+      "Semua saluran masuk ke dalam tinjauan awam yang sama dan repositori umum yang sama."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

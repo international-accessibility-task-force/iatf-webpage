@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibiliti",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibiliti",
+    "lead": "IATF bertujuan untuk memastikan laman web ini mudah, mudah dibaca, boleh diakses dengan papan kekunci, dan serasi dengan teknologi bantuan.",
+    "support": [
+      "Untuk kebolehaksesan web, IATF menggunakan [W3C WAI](https://www.w3.org/WAI/) Aksesibiliti praktikal juga dimaklumkan oleh pengalaman langsung pengguna teknologi bantuan."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Pelaporan",
+      "title": "Laporkan masalah kebolehaksesan"
+    },
+    "paragraphs": [
+      "Sekiranya anda menemui halangan kebolehaksesan di laman web ini, sila laporkannya melalui e-mel:",
+      "{{contact.accessibilityEmail}}",
+      "Laporan yang berguna termasuk:"
+    ],
+    "items": [
+      "halaman di mana masalah berlaku",
+      "apa yang anda cuba lakukan",
+      "apa teknologi bantuan, pelayar, atau peranti yang anda gunakan, jika relevan",
+      "apa yang berlaku?",
+      "apa yang akan membantu"
+    ],
+    "footnote": "Anda tidak perlu menulis laporan bug rasmi."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Pengendalian",
+      "title": "Pengendalian isu awam"
+    },
+    "paragraphs": [
+      "Masalah kebolehaksesan boleh diringkaskan dalam repositori awam yang berkaitan supaya mereka boleh diperbaiki secara terbuka. butiran hubungan peribadi dan maklumat peribadi yang tidak perlu dikeluarkan sebelum penerbitan.",
+      "Jika laporan anda termasuk maklumat peribadi, katakan dengan jelas dalam mesej."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Keadaan semasa",
+      "title": "Batasan yang diketahui"
+    },
+    "paragraphs": [
+      "Laman ini sengaja kecil dan kebanyakannya statik. Beberapa versi bahasa mungkin tidak lengkap semasa penterjemahan sedang disediakan."
+    ]
+  }
+}

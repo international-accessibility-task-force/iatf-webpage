@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Tidak ditemui"
+  },
+  "hero": {
+    "eyebrow": "Tidak ditemui",
+    "title": "Halaman yang diminta tidak ditemui",
+    "lead": "Gunakan laluan utama di bawah untuk kembali ke tapak awam.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Rumah",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Laluan yang anda minta tidak wujud."
+    ],
+    "items": [
+      {
+        "label": "Rumah",
+        "href": "/"
+      },
+      {
+        "label": "Projek-projek",
+        "href": "/projects/"
+      },
+      {
+        "label": "Sertai",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibiliti",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pentadbiran",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ketelusan",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

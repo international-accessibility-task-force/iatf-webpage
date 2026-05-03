@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Dari keperluan aksesibiliti kepada repo awam",
+    "lead": "IATF membantu persatuan, kumpulan, dan individu mengubah keperluan aksesibiliti sebenar menjadi projek sumber terbuka awam.",
+    "support": [
+      "Projek yang diterima diterbitkan dalam organisasi IATF GitHub di bawah lesen copyleft dan dibangunkan secara terbuka oleh jurutera yang bertanggungjawab."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Model operasi awam",
+      "title": "Laluan awam yang mudah untuk perisian yang boleh diakses"
+    },
+    "paragraphs": [
+      "Melalui borang, sesiapa sahaja boleh mengemukakan masalah aksesibiliti kepada IATF. Jika pasukan boleh mengambilnya, repositori GitHub awam dibuka untuk kerja tersebut.",
+      "Setiap projek yang diterima mempunyai rumah awam yang jelas untuk kod, isu, dokumentasi, dan pelepasan, dengan pembangunan yang dipimpin secara terbuka oleh jurutera yang bertanggungjawab."
+    ],
+    "specCard": {
+      "title": "Model operasi awam",
+      "terms": [
+        {
+          "term": "Keperluan",
+          "definition": "Masalah kebolehcapaian sebenar"
+        },
+        {
+          "term": "Semakan semula",
+          "definition": "Kesesuaian misi dan kelayakan praktikal"
+        },
+        {
+          "term": "Ruang projek",
+          "definition": "Repositori GitHub awam"
+        },
+        {
+          "term": "Pengurusan",
+          "definition": "Kepemilikan organisasi IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proses",
+      "title": "Bagaimana ia berfungsi",
+      "intro": "Model tetap sengaja kecil supaya jalan awam mudah diikuti."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Keperluan dikemukakan",
+        "paragraphs": [
+          "Persatuan, kumpulan, atau individu boleh mengemukakan permintaan berdasarkan keperluan aksesibiliti yang sebenar.",
+          "Permintaan boleh bermula melalui laman web, melalui e-mel ke <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, atau melalui Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF mengkaji semula",
+        "paragraphs": [
+          "Kami mengkaji kesesuaian misi, skop praktikal, dan sama ada kerja itu termasuk dalam projek sumber terbuka awam."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Repositori awam dicipta",
+        "paragraphs": [
+          "Sekiranya projek diterima, ia diterbitkan dalam organisasi IATF GitHub di bawah lesen copyleft.",
+          "Repository menjadi rumah awam kod, isu, dokumentasi, dan pelepasan."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Seorang jurutera yang bertanggungjawab mengetuai projek",
+        "paragraphs": [
+          "Seorang jurutera yang bertanggungjawab ditugaskan ke repositori projek dan pembangunan berlaku di khalayak ramai."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaftaran",
+      "title": "Daftar projek awam"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mulakan di sini.",
+      "title": "Menjelajah kerja semasa atau memulakan projek konkrit"
+    },
+    "paragraphs": [
+      "Gunakan pendaftaran untuk melihat apa yang sudah awam, atau mulakan pengambilan jika masalah aksesibiliti konkrit harus menjadi projek."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projek aksesibiliti awam",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projek aksesibiliti awam",
+    "lead": "Daftar ini menyenaraikan projek awam yang dikekalkan melalui IATF. Projek aksesibiliti yang diterima, infrastruktur tapak, dan prototaip yang diarkibkan disimpan di sini.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Pendaftaran",
+      "title": "Daftar semasa"
+    },
+    "intro": [
+      "Projek yang diterima disenaraikan di sini sebaik sahaja ia diterbitkan."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Menghantar keperluan",
+      "title": "Mengubah keperluan aksesibiliti konkrit menjadi projek awam"
+    },
+    "paragraphs": [
+      "IATF mengkaji keperluan aksesibiliti konkrit yang boleh diubah menjadi kerja sumber terbuka awam yang berguna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Belum ada projek yang diterbitkan",
+    "paragraphs": [
+      "IATF sedang menyediakan set projek awam pertamanya.",
+      "Anda masih boleh menghantar permintaan jika anda mempunyai keperluan aksesibiliti konkrit."
+    ]
+  }
+}
