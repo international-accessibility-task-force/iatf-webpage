@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ਨਹੀਂ ਮਿਲਿਆ"
+  },
+  "hero": {
+    "eyebrow": "ਨਹੀਂ ਮਿਲਿਆ",
+    "title": "ਲੋੜੀਂਦਾ ਸਫ਼ਾ ਨਹੀਂ ਲੱਭਿਆ",
+    "lead": "ਜਨਤਕ ਸਥਾਨ ਤੇ ਵਾਪਸ ਜਾਣ ਲਈ ਹੇਠਾਂ ਦਿੱਤੇ ਮੁੱਖ ਮਾਰਗਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।",
+    "support": [],
+    "actions": [
+      {
+        "label": "ਘਰ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ਜੋ ਰੂਟ ਤੁਸੀਂ ਮੰਗਿਆ ਹੈ ਉਹ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
+    ],
+    "items": [
+      {
+        "label": "ਘਰ",
+        "href": "/"
+      },
+      {
+        "label": "ਪ੍ਰੋਜੈਕਟ",
+        "href": "/projects/"
+      },
+      {
+        "label": "ਜੁੜੋ",
+        "href": "/join/"
+      },
+      {
+        "label": "ਪਹੁੰਚਯੋਗਤਾ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ਸ਼ਾਸਨ",
+        "href": "/governance/"
+      },
+      {
+        "label": "ਪਾਰਦਰਸ਼ਤਾ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ਸਾਈਟਮੈਪ"
+  },
+  "hero": {
+    "eyebrow": "ਸੂਚਕਾਂਕ",
+    "title": "ਸਾਈਟਮੈਪ",
+    "lead": "ਆਈ.ਏ.ਟੀ.ਐੱਫ.ਸੀ. ਦੇ ਹਰ ਪਬਲਿਕ ਪੇਜ, ਇੱਕ ਥਾਂ 'ਤੇ।"
+  },
+  "sections": [
+    {
+      "title": "ਮੁੱਖ ਸਫ਼ੇ",
+      "items": [
+        {
+          "label": "ਘਰ",
+          "href": "/"
+        },
+        {
+          "label": "ਪ੍ਰੋਜੈਕਟ",
+          "href": "/projects/"
+        },
+        {
+          "label": "ਇੱਕ ਪ੍ਰੋਜੈਕਟ ਦੀ ਬੇਨਤੀ ਕਰੋ",
+          "href": "/propose/"
+        },
+        {
+          "label": "ਸ਼ਾਸਨ",
+          "href": "/governance/"
+        },
+        {
+          "label": "ਜੁੜੋ",
+          "href": "/join/"
+        },
+        {
+          "label": "ਪਹੁੰਚਯੋਗਤਾ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ਪਾਰਦਰਸ਼ਤਾ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ਪ੍ਰੋਜੈਕਟ",
+  "projectsEmpty": "ਅਜੇ ਤੱਕ ਕੋਈ ਪ੍ਰਕਾਸ਼ਤ ਪ੍ਰਾਜੈਕਟ ਨਹੀਂ।"
+}

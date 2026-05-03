@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ਜਨਤਕ ਪਹੁੰਚਯੋਗਤਾ ਪ੍ਰੋਜੈਕਟ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ਜਨਤਕ ਪਹੁੰਚਯੋਗਤਾ ਪ੍ਰੋਜੈਕਟ",
+    "lead": "ਇਹ ਰਜਿਸਟਰੀ ਆਈਏਟੀਐਫ ਦੁਆਰਾ ਰੱਖੇ ਗਏ ਜਨਤਕ ਪ੍ਰੋਜੈਕਟਾਂ ਦੀ ਸੂਚੀ ਦਿੰਦੀ ਹੈ। ਪ੍ਰਵਾਨਿਤ ਪਹੁੰਚਯੋਗਤਾ ਪ੍ਰੋਜੈਕਟ, ਸਾਈਟ ਬੁਨਿਆਦੀ ਢਾਂਚਾ, ਅਤੇ ਪੁਰਾਲੇਖ ਕੀਤੇ ਪ੍ਰੋਟੋਟਾਈਪ ਇੱਥੇ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "ਰਜਿਸਟਰੀ",
+      "title": "ਮੌਜੂਦਾ ਰਜਿਸਟਰ"
+    },
+    "intro": [
+      "ਪ੍ਰਵਾਨਿਤ ਪ੍ਰੋਜੈਕਟਾਂ ਨੂੰ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋਣ ਤੋਂ ਬਾਅਦ ਇੱਥੇ ਸੂਚੀਬੱਧ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ਇੱਕ ਲੋੜ ਜਮ੍ਹਾਂ ਕਰੋ",
+      "title": "ਇੱਕ ਠੋਸ ਪਹੁੰਚਯੋਗਤਾ ਦੀ ਜ਼ਰੂਰਤ ਨੂੰ ਇੱਕ ਜਨਤਕ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਬਦਲੋ"
+    },
+    "paragraphs": [
+      "ਆਈਏਟੀਐਫ ਖਾਸ ਪਹੁੰਚਯੋਗਤਾ ਦੀਆਂ ਜ਼ਰੂਰਤਾਂ ਦੀ ਸਮੀਖਿਆ ਕਰਦਾ ਹੈ ਜਿਨ੍ਹਾਂ ਨੂੰ ਉਪਯੋਗੀ ਜਨਤਕ ਓਪਨ ਸੋਰਸ ਕੰਮ ਵਿੱਚ ਬਦਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ਅਜੇ ਤੱਕ ਕੋਈ ਪ੍ਰਕਾਸ਼ਤ ਪ੍ਰਾਜੈਕਟ ਨਹੀਂ",
+    "paragraphs": [
+      "ਆਈਏਟੀਐੱਫ ਆਪਣਾ ਪਹਿਲਾ ਜਨਤਕ ਪ੍ਰੋਜੈਕਟ ਸੈੱਟ ਤਿਆਰ ਕਰ ਰਿਹਾ ਹੈ।",
+      "ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਇੱਕ ਬੇਨਤੀ ਭੇਜ ਸਕਦੇ ਹੋ ਜੇਕਰ ਤੁਹਾਡੀ ਪਹੁੰਚਯੋਗਤਾ ਦੀ ਕੋਈ ਖਾਸ ਲੋੜ ਹੈ।"
+    ]
+  }
+}
