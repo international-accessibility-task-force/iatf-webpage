@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ez da agertu."
+  },
+  "hero": {
+    "eyebrow": "Ez da agertu.",
+    "title": "Bilatzen duzun orria ez da aurkitzen.",
+    "lead": "Erabili bide nagusiak bueltatzeko.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Nire etxea.",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Eskatu duzun ibilbidea ez dago."
+    ],
+    "items": [
+      {
+        "label": "Nire etxea.",
+        "href": "/"
+      },
+      {
+        "label": "Proiektuak",
+        "href": "/projects/"
+      },
+      {
+        "label": "Elkartu gurekin.",
+        "href": "/join/"
+      },
+      {
+        "label": "Irisgarritasuna",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gobernantza",
+        "href": "/governance/"
+      },
+      {
+        "label": "Gardentasuna",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

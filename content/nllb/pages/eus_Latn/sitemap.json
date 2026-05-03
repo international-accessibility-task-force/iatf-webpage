@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Webgunearen mapa"
+  },
+  "hero": {
+    "eyebrow": "Indizea",
+    "title": "Webgunearen mapa",
+    "lead": "IATFeko orrialde guztiak. Leku bakarrean."
+  },
+  "sections": [
+    {
+      "title": "Orrialde nagusiak",
+      "items": [
+        {
+          "label": "Nire etxea.",
+          "href": "/"
+        },
+        {
+          "label": "Proiektuak",
+          "href": "/projects/"
+        },
+        {
+          "label": "Eskatu proiektu bat.",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gobernantza",
+          "href": "/governance/"
+        },
+        {
+          "label": "Elkartu gurekin.",
+          "href": "/join/"
+        },
+        {
+          "label": "Irisgarritasuna",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Gardentasuna",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proiektuak",
+  "projectsEmpty": "Oraindik ez dago proiekturik."
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Irisgarritasunaren beharretik erreposito publikoetara",
+    "lead": "IATFek elkarteei, taldeei eta norbanakoei laguntzen die benetako irisgarritasun beharrak kode irekiko proiektu publikoetan bihurtzen.",
+    "support": [
+      "Onartutako proiektuak IATF GitHub erakundean argitaratzen dira, copyleft lizentzia baten pean eta ingeniari arduratsu batek publikoki garatzen ditu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Jarduketa eredu publikoa",
+      "title": "Software irisgarrirako ibilbide publiko sinple bat"
+    },
+    "paragraphs": [
+      "Inprimaki baten bidez, edonork aurkeztu ahal izango dio IATFri irisgarritasun arazo bat.",
+      "Onartutako proiektu bakoitzak etxe publiko argi bat du kodea, gaiak, dokumentazioa eta argitalpenak egiteko, garapena ingeniari arduratsu batek zuzenduta."
+    ],
+    "specCard": {
+      "title": "Jarduketa eredu publikoa",
+      "terms": [
+        {
+          "term": "Beharrezkoa",
+          "definition": "Benetako irisgarritasun-arazoa"
+        },
+        {
+          "term": "Berrikuspena",
+          "definition": "Misioaren egokitasuna eta bideragarritasun praktikoa"
+        },
+        {
+          "term": "Proiektuaren eremua",
+          "definition": "GitHubeko biltegi publikoa"
+        },
+        {
+          "term": "Zuzendaritza",
+          "definition": "IATF erakundearen jabetza"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prozesua",
+      "title": "Nola funtzionatzen du?",
+      "intro": "Makina nahita txikia da, beraz bide publikoa jarraitzea erraza da."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Eskaera bat aurkezten da.",
+        "paragraphs": [
+          "Elkarte, talde edo norbanako batek eskari bat aurkez dezake benetako irisgarritasun-beharrean oinarrituta.",
+          "Eskaerak webgunearen bidez has daitezke, posta elektronikoz helbide honetara. <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, edo Discord-en bidez."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATFek aztertuko du.",
+        "paragraphs": [
+          "Lanaren funtzionamendua aztertzen dugu, aplikazioaren esparrua, eta ea kode irekiko proiektu publiko batean sar daitekeen."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Gordeleku publiko bat sortzen da",
+        "paragraphs": [
+          "Proiektu bat onartzen bada, IATF GitHub erakundean argitaratzen da copyleft lizentziaren pean.",
+          "Gordelekua kodearen, gaien, dokumentazioaren eta argitalpenen etxe publikoa bilakatzen da."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Arduradun batek proiektua zuzentzen du.",
+        "paragraphs": [
+          "Arduradun ingeniari bat proiektuaren biltegiarekin lotzen da eta garapena jendaurrean egiten da."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Erregistroa",
+      "title": "Proiektuen erregistro publikoa"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hementxe hasiko gara.",
+      "title": "Unean uneko lanak ikustea edo proiektu zehatz bat abiaraztea"
+    },
+    "paragraphs": [
+      "Erabili erregistroa jendaurrean dagoena ikusteko, edo hasi sarrera, irisgarritasun arazo zehatz bat proiektu bihurtzekotan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

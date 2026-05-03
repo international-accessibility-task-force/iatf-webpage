@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Irisgarritasuna",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Irisgarritasuna",
+    "lead": "IATFek webgune hau sinplea, irakurtzeko erraza, teklatuarekin eskuragarria eta laguntza-teknologiekin bateragarria izatea du helburu.",
+    "support": [
+      "Web eskuragarritasunerako, IATFek erabiltzen ditu [W3C WAI](https://www.w3.org/WAI/) Gainera, irisgarritasun praktikoa laguntza-teknologien erabiltzaileen esperientzia zuzenak ere adierazten du."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Txostenak",
+      "title": "Eskuragarritasun arazo baten berri eman"
+    },
+    "paragraphs": [
+      "Webgune honetan eskuragarritasun-arazo bat aurkitzen baduzu, bidali mezu elektroniko hau:",
+      "{{contact.accessibilityEmail}}",
+      "Txosten erabilgarrien artean hauek daude:"
+    ],
+    "items": [
+      "arazoa gertatu zen orria",
+      "Zer egin nahi zenuen?",
+      "erabilitako teknologia, nabigatzailea edo gailua, hala badagokio",
+      "Zer atera da gaizki?",
+      "Zerk lagunduko zuen?"
+    ],
+    "footnote": "Ez duzu txosten ofizialik idatzi behar, nahikoa da deskribapen zehatza egitea."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Maneiatzea",
+      "title": "Gai publikoen kudeaketa"
+    },
+    "paragraphs": [
+      "Eskuragarritasun-arazoak dagokion artxibo publikoan laburbildu daitezke, irekieran konpondu ahal izateko.",
+      "Zure txostenak informazio pribatua baldin badu, esan ezazu hori argi eta garbi mezuan."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Egungo egoera",
+      "title": "Muga ezagunak"
+    },
+    "paragraphs": [
+      "Gune hau nahita txikia eta gehienetan estatikoa da. Hizkuntza batzuetako bertsioak osatu gabe egon daitezke itzulpenak prestatzen ari diren bitartean."
+    ]
+  }
+}

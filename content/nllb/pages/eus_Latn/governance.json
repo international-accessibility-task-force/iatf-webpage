@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Gobernantza eta erregistroen eredua",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Gobernantza eta erregistroen eredua",
+    "lead": "IATFek irisgarritasun-proiektuak publikoak, irakurtzeko modukoak eta mantendu daitezkeenak mantentzen ditu.",
+    "support": [
+      "Orrialde honetan azaltzen da zerk balio duen, nola mantentzen diren biltegiak, eta zein erantzukizun aplikatzen den biltegiko mailan onarpenaren ondoren."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Arauak",
+      "title": "Misioaren egokitasuna, jabetza, lizentziak"
+    },
+    "cards": [
+      {
+        "title": "Misiorako egokia.",
+        "paragraphs": [
+          "IATFek onartzen du benetako irisgarritasunaren oztopoak konpontzen dituen lana eta balio publiko argia duen lana.",
+          "Proiektu batek lan-fluxu pribatu bakarretik harago erabilgarria izan behar du, eta artxibo publiko gisa funtzionala izan beharko du.",
+          "Web eskuragarritasunerako, IATFek erabiltzen ditu [W3C WAI](https://www.w3.org/WAI/) Laguntza teknologikoen erabiltzaileen esperientzia zuzena ere benetako erabileran funtzionatzen duenaren froga praktikoa da."
+        ]
+      },
+      {
+        "title": "Proiektuaren onarpena",
+        "paragraphs": [
+          "Proposamen bat onar daiteke azterketak erakusten badu:"
+        ],
+        "items": [
+          "irisgarritasun-beharrari erantzuten dio",
+          "Arazoa garbi dago.",
+          "Helburu errealistagoak lortzeko, abiatzea burutzea nahikoa da.",
+          "lanak IATFeko misioarekin bat datoz.",
+          "Mantentze-lanak egiteko bide bat badago."
+        ]
+      },
+      {
+        "title": "Datu-basearen jabetza",
+        "paragraphs": [
+          "Onartutako proiektuak IATF GitHub erakundearen barruan sortzen dira.",
+          "Biltegiak hor geratzen dira proiektu bakoitzak etxe publiko egonkor bat mantentzeko, nahiz eta mantentzaileak aldatu."
+        ]
+      },
+      {
+        "title": "Lizentziak",
+        "paragraphs": [
+          "IATF proiektuek copyleft lizentzia erabiltzen dute, proiektuan bestela adierazten ez bada:"
+        ],
+        "items": [
+          "<strong>Kode bat dago.</strong> AGPL-3.0",
+          "<strong>Dokumentazioa:</strong> Eusko Jaurlaritzaren laguntzarekin egindako azpitituluak"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingeniari edo mantentzaile arduraduna",
+      "paragraphs": [
+        "Onartutako proiektu bakoitzak ingeniari edo mantentzaile erantzule bat izan beharko luke. Pertsona horrek administrazio sarbidea izan dezake biltegiarekin eta honako hauek egitea espero da:"
+      ],
+      "items": [
+        "Gida garapena jendaurrean",
+        "biltegiaren egitura mantentzea,",
+        "arazoak aztertu edo kudeatu eta ateratzeko eskaerak",
+        "erabaki tekniko garrantzitsuak dokumentatzeko.",
+        "proiektua besteentzako ulergarria izan dadin"
+      ],
+      "footnote": "Erreserbategi-mailako erantzukizuna da. Erakundearen jabetza IATF-rekin geratzen da. Hemen erantzunak biltegiko kudeaketa, zuzendaritza teknikoa eta koordinazio publikoa dira, ez entrega pribatu mugagabea, integrazio pertsonalizatuak edo ibilbide publikotik kanpoko zerbitzu mailako konpromisoak."
+    },
+    "publicDevelopment": {
+      "title": "Garapen publikoa",
+      "paragraphs": [
+        "IATF-en bidez abian jarritako proiektuak jendaurrean garatzen dira normalean."
+      ],
+      "items": [
+        "Iturri kodea",
+        "Arazoak",
+        "dokumentazioa",
+        "Eusko Jaurlaritzaren laguntzarekin egindako azpitituluak",
+        "kaleratze historia"
+      ],
+      "footnote": "Proiektuaren ezagutza garrantzitsua ez da bakarrik txat pribatuetan edo postontzietan egon behar."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Erregistro publikoak",
+      "title": "Eskaera publikoen erregistroak"
+    },
+    "paragraphs": [
+      "IATF webgunearen, posta elektronikoaren, Discord-en, GitHub-en edo IATFe-ren beste kanal batzuen bidez sartzen diren eskaerak eskaera-erregistro publikoak bihur daitezke.",
+      "Eskaera publikoaren erregistroa ez da nahitaez jatorrizko mezua. IATF-ek eskari bat laburbildu, editatu edo berregituratu dezake argitaratu aurretik, eskuragarritasunaren beharra berrikusi ahal izateko, beharrezko ez den informazio pertsonala agerian utzi gabe.",
+      "Eskaera publikoen erregistroak IATF GitHub erakundean, webgune honetan edo bietan gorde daitezke.",
+      "Argitaratu aurretik, IATFk beharrezkoak ez diren harremanetarako datu pertsonalak, helbide pribatuak eta laguntza-teknologien erabiltzaile indibidualen inguruko datu identifikatzaileak ezabatzen ditu, argitaratzea helburu argi eta egokia ez bada.",
+      "Discord koordinaketa informalarako erabiltzen da. IATFk ez ditu Discord elkarrizketak berez artxibatzen, eta Discord-ek kontrolatzen du mezuen erretentzioa.",
+      "Eskaera erregistroak ez dira bilatzaileen indexaziotik baztertzen, teknikoki praktikoa denean. Publikoak berrikus daitezkeenak eta erantzukizunpekoak dira. Ez du esan nahi izen bilaketen bidez aurkitzeko optimizatuta daudenik.",
+      "IATFek erregistroak eguneratu edo kendu ditzake, baina ezin du bermatu hirugarrenen cache, jakinarazpen, bibrazio, pantaila-irudi, bilatzaile, Discord edo beste kanpoko sistemetatik kentzea.",
+      "Mezu batek pribatutasuna izan behar badu, ez bidali IATFeko kanal publikoetatik."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Antolakuntzako rola",
+      "title": "Aulki bat."
+    },
+    "lead": "Lehendakariak IATF erakunde mailako kudeaketa du, proiektu bakoitzeko ardura duen ingeniariaren eginkizuna ezberdina da: lehendakaria erakunde osoaren arduraduna da, eta ez edozein biltegi bakarraren eguneroko zuzendaritza.",
+    "duties": {
+      "title": "Zer egiten du aulkiak?",
+      "items": [
+        "Jabearen baimenak gordetzen ditu IATF GitHub erakundean",
+        "Proiektuen onarpen eta artxibatzeko erabakien sinadurak",
+        "IATFeko harremanetarako herri puntu gisa jarduten du.",
+        "Urteroko hauteskundeak koordinatzen ditu"
+      ],
+      "footnote": "Lehendakariak ez du IATF-a entregaketa pribatuetara, lan ordainduetara edo zerbitzu-mailako hitzarmenetara konprometitzen, eta ez ditu erregistro bakoitzeko mantentzaileek zuzendaritza teknikoari buruzko erabakiak gainditzen."
+    },
+    "election": {
+      "title": "Urteroko hauteskundeak",
+      "paragraphs": [
+        "Lehendakaria urtean behin hautatzen da, hauteskundeak abenduko lehen bi asteetan egiten dira, emaitzak abenduaren 15ean iragartzen dira, eta agintaldi berria urtarrilaren 1ean hasten da.",
+        "Bozkatzeko eskubidea duten pertsonak urtean zehar IATFeko edozein biltegietan mantentzaile lanetan aritu ziren pertsonak dira, eta urte horretan gutxienez ekarpen bat egin zuten.",
+        "Hauteskundeak GitHubeko eztabaida publiko gisa egiten dira IATF gobernuaren biltegi izendatuan, beraz, hautagaiak, botoa eta emaitza erregistro publikoaren parte dira."
+      ]
+    },
+    "continuity": {
+      "title": "Jarraipena",
+      "paragraphs": [
+        "Urte jakin batean hauteskundeak egiten ez badira, egungo lehendakariak hurrengo hauteskundeen arte jarraituko du.",
+        "Lehendakariak edozein unetan uko egin ahal izango dio karguari."
+      ]
+    },
+    "current": {
+      "title": "Gaur egungo lehendakaria",
+      "fields": [
+        {
+          "label": "Aulki bat.",
+          "value": "Eusko Jaurlaritzaren laguntzarekin egindako azpitituluak",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Epe luzea",
+          "value": "2026ko hauteskundeetarako."
+        },
+        {
+          "label": "Rol ofiziala",
+          "value": "2026"
+        },
+        {
+          "label": "Lehen hauteskunde programatua",
+          "value": "2026ko abendua"
+        }
+      ]
+    },
+    "footnote": "Lehendakariaren eginkizuna 2026an formalizatu zen, erakunde mailako kudeaketa esplizitua izan zedin."
+  },
+  "continuity": {
+    "states": {
+      "title": "Proiektuaren egoera",
+      "paragraphs": [
+        "Proiektuek estatu publikoen multzo txiki bat erabiltzen dute:"
+      ],
+      "items": [
+        "Proposamena egin dut.",
+        "Onartua",
+        "Aktiboak",
+        "Egonkorra",
+        "Mantentzailea bilatzen ari da.",
+        "Artxiboak"
+      ],
+      "footnote": "Erregistroa gertutik zainduz gero, eskaneatzea erraza da."
+    },
+    "reassignment": {
+      "title": "Berriz esleitzea eta artxibatzea",
+      "paragraphs": [
+        "Mantentzaile batek alde egiten badu edo inaktibo bihurtzen bada, IATFek erantzukizuna beste norbaiti esleitu, garapena eten edo proiektua artxibatu dezake.",
+        "Era berean, proiektu bat artxibatu ahal izango da jatorrizko beharra bete denean, mantentze-lana eten denean edo lanari jarraipena ematea jada errealista ez denean."
+      ],
+      "footnote": "Artxibatuta dauden proiektuak publikoak ikus ditzake, baldin eta ez badago beste arrazoi nabarmenik."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Mugaren oharra",
+      "title": "Zer IATF ez du bermatzen"
+    },
+    "items": [
+      "bezero pribatuentzako entregak",
+      "zerbitzu-mailako hitzarmenak",
+      "Proposamen guztien onarpena.",
+      "proiektu bakoitzeko epe luzeko mantentze-lanak"
+    ],
+    "footnote": "IATF fitxategi publikoa da, ez banaketa zerbitzu pribatua."
+  }
+}

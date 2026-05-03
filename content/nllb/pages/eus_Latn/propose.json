@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Eskatu irisgarritasun proiektua",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Eskatu irisgarritasun proiektua",
+    "lead": "IATFek benetako beharrizan batetik abiatzen diren irisgarritasun-proiektuen eskaerak aztertzen ditu.",
+    "support": [
+      "Ez da beharrezkoa zehaztapen zehatzik. Arazo argi bat, nork eragiten duen, eta zergatik den garrantzitsua, nahikoa da hasteko."
+    ],
+    "actions": [
+      {
+        "label": "Eskaera bat egin nahi dut.",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Horren ordez, erabili Discord.",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalak",
+      "title": "Aukeratu bide errazena."
+    },
+    "intro": [
+      "Ibilbide guztiak berdinak dira."
+    ],
+    "items": [
+      {
+        "label": "Webgunea",
+        "body": "Erabili beheko formularioa eskaera egituratu bat aurkezteko."
+      },
+      {
+        "label": "Posta elektronikoa",
+        "body": "Bidali ezazu eskaera zuzenean {{contact.requestsEmail}}E-posta bidezko eskaerak erregistro publiko bihur daitezke berrikusi eta ezabatu ondoren."
+      },
+      {
+        "label": "Desadostasuna",
+        "body": "Hortik hasiko gara, errazena bada. Eskaera berdin-berdina da."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Eskari bat bidali aurretik",
+    "paragraphs": [
+      "IATF-ek publikoan lan egiten du.",
+      "Ez eman helbide pertsonalik, ez telefono zenbakirik, ez mediku datuak, ez laguntza teknologia erabiltzaileei buruzko informaziorik, ez bada beharrezkoa eta IATFek berrikustea onartzen baduzu.",
+      "IATFek beharrezkoak ez diren kontaktu pertsonalak ezabatzen ditu eskaeren erregistroak argitaratu aurretik."
+    ]
+  },
+  "review": {
+    "title": "Itxaropenak berrikusi",
+    "paragraphs": [
+      "Eskaera bat aurkezteak ez du esan nahi onartuko denik.",
+      "IATFek misioaren egokitasuna, bideragarritasuna, erabilgarritasuna eta lanak artxibo publiko batean egon behar duen ala ez aztertzen ditu.",
+      "Zenbait eskaera baztertu, atzeratu edo eraldatu egin daitezke onartu aurretik."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Eskaera orria",
+      "title": "Eskaera bat aurkeztu"
+    },
+    "fields": [
+      {
+        "kind": "sarrera",
+        "name": "eskatzailea",
+        "label": "Zure izena edo zure erakundearen izena.",
+        "helper": "Nork egiten du eskaera?"
+      },
+      {
+        "kind": "aukeratu",
+        "name": "Harremanetarako ibilbidea",
+        "label": "Harremanetarako bide egokia",
+        "helper": "Nola jarraitu behar da?",
+        "required": true,
+        "options": [
+          "Posta elektronikoa",
+          "Desadostasuna"
+        ]
+      },
+      {
+        "kind": "sarrera",
+        "name": "Harremanetarako datuak",
+        "label": "Harremanetarako datuak",
+        "helper": "E-postaren helbidea edo Discordeko helbidea.",
+        "placeholder": "E-posta edo Discord erabiltzaile-izena",
+        "required": true
+      },
+      {
+        "kind": "sarrera",
+        "name": "Hizkuntza",
+        "label": "Hizkuntza",
+        "helper": "Zure hizkuntza gustukoena, behar izanez gero.",
+        "value": "Ingelesa"
+      },
+      {
+        "kind": "Testu-eremua",
+        "name": "Arazo bat dago.",
+        "label": "Zein arazo ebatzi nahi duzu?",
+        "helper": "Deskriba ezazu oztopoa, argi eta garbi.",
+        "required": true
+      },
+      {
+        "kind": "Testu-eremua",
+        "name": "Erabiltzaileak",
+        "label": "Nori eragiten dio?",
+        "helper": "Nork lagunduko luke?",
+        "required": true
+      },
+      {
+        "kind": "Testu-eremua",
+        "name": "Extra testuingurua",
+        "label": "Beste testuinguru bat",
+        "helper": "Partekatu beharrekoa azaltzen laguntzen duen beste edozer: zergatik den garrantzitsua, adibideak, erreferentziak, softwarearen ideia gordina, edo denbora-murrizketak."
+      },
+      {
+        "kind": "aukeratu",
+        "name": "openSourceConsent[aldatu iturburu kodea]",
+        "label": "Goi-mailako komunitatea lanerako baliagarria da.",
+        "helper": "Onartutako proiektuak IATFren erregistro publikoak dira.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Eskerrik asko.",
+          "-Ez, ez.",
+          "Oraindik ez dakit."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Onartzen badute...",
+      "title": "Onarpenak esanahi bat du."
+    },
+    "items": [
+      "IATF GitHub erakundeko biltegi publikoa",
+      "proiektuaren ardura duen ingeniari bat",
+      "kodearen eta proiektuaren materialaren copyleft lizentzia",
+      "biltegiko garapen publikoa",
+      "IATFeko webguneko erregistroa"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hasi hitz egiten.",
+      "title": "Eskaera argi eta labur bat nahikoa da hasteko."
+    },
+    "paragraphs": [
+      "Benetako irisgarritasunak behar baduzue eta uste baduzue proiektu publiko bihurtu beharko litzatekeela, bidal ezazue."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

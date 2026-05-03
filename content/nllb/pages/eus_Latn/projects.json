@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Herritarren irisgarritasunerako proiektuak",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Herritarren irisgarritasunerako proiektuak",
+    "lead": "IATF-en bidez mantendutako proiektu publikoak zerrendatzen ditu erregistro honek. Onartutako irisgarritasun-proiektuak, gunearen azpiegitura eta artxibatutako prototipoak hemen ikusgai mantentzen dira.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Erregistroa",
+      "title": "Egungo erregistroa"
+    },
+    "intro": [
+      "Onartutako proiektuak hemen agertzen dira, argitaratzen direnean."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Eskatu zerbait.",
+      "title": "Irisgarritasun-behar zehatz bat proiektu publiko bihurtu"
+    },
+    "paragraphs": [
+      "IATFek eskuragarritasun-behar zehatzak aztertzen ditu, iturri irekiko lan publiko baliagarri bihur daitezkeenak."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Oraindik ez dago proiekturik argitaratua",
+    "paragraphs": [
+      "IATF bere lehen proiektu publikoa prestatzen ari da.",
+      "Eskari bat bidal dezakezu oraindik, irisgarritasun-premia zehatz bat baduzu."
+    ]
+  }
+}

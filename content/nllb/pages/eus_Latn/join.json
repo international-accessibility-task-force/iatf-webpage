@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Bat egin IATFrekin",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Bat egin IATFrekin",
+    "lead": "Bazkide izatea irekia da. Hainbat modu daude parte hartzeko, laguntza-teknologian oinarritzen bazara, software irisgarria sortu, itzulpenak egin, probatu edo proiektu bat mantendu. Eztabaidak eta erabakiak publikoan gertatzen dira GitHub eta Discord-en.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Eginkizunak",
+      "title": "Ekarpenak egiteko moduak"
+    },
+    "items": [
+      "<strong>Eskatu proiektu bat.</strong> Iturri irekiko software publikoak konpondu dezakeen irisgarritasun-barrera bat aurkitzen baduzu, bidali eskaera-hartzearen bidez.",
+      "<strong>Probatu eta berrikusi.</strong> Probatu IATF proiektuak erabiltzen dituzun teknologia lagungarriekin, zeinek funtzionatzen duen eta zeinek ez, eta aurkeztu arazoak zuzenean dagokion biltegian.",
+      "<strong>Itzulpena:</strong> Jatorrizko edukia ingelesez argitaratzen da lehenik. Itzulpenak laguntzaileak eskuragarri daudenean gehitzen dira, gaztelaniarekin hasita.",
+      "<strong>Eraiki ezazu.</strong> IATFeko edozein biltegietan arazoak jasotzea, ateratzeko eskaerak bidaltzea edo proiektu bat bere ingeniari erantzule gisa hartzea.",
+      "<strong>Eutsi ezazu.</strong> Egungo proiektuek batzuetan mantentzaile berri bat behar dute."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalak",
+      "title": "IATFek jendaurrean lan egiten duenean"
+    },
+    "items": [
+      "<strong>-GitHub-en dago.</strong> Arazoak, ateratzeko eskaerak, argitaratzeak, proiektuen erregistroak.",
+      "<strong>Desadostasuna.</strong> Elkarrizketa, elkarrizketa eta galdera informal guztiak.",
+      "<strong>Posta elektronikoa.</strong> Erabilera <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ez badira GitHub eta Discord nahasten."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hurrengo urratsa.",
+      "title": "Aukeratu nahi duzun erara egokitzen den kanala"
+    },
+    "paragraphs": [
+      "Telebista-kate guztiak berdinak dira."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATFeko webgunea",
+    "summary": "Nazioarteko irisgarritasunaren lantaldearen webgune publikoa.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATFek gizarte-etxe egonkor bat behar zuen ereduaren azalpenak ematen, proiektuen zerrendak egiten eta ekintzaileak norabide egokian aztertzen zituena.",
+    "why": "Webgunea IATFren aurreko ate publikoa da. Proiektu estatiko txiki bat bezala eraiki da, erraz irakurtzeko, itzultzeko eta mantentzeko.",
+    "scopeIn": [
+      "IATF eredua azaltzen duten helbide publikoak",
+      "Onartutako, aktibo eta artxibatutako IATF proiektuen erregistro publikoa, egoerarekin, mantentzailearekin, biltegiarekin eta demoarekin",
+      "Eskaera jasotzeko orria eta inprimakia",
+      "Gobernantza eta gardentasun orriak",
+      "Eusko Jaurlaritzaren laguntzarekin egindako azpitituluak",
+      "Cloudflare langileen aktibo estatikoen erabilera estatikoa"
+    ],
+    "scopeOut": [
+      "Bazkide pribatuen eremuak, kontuak edo sarrera-fluxuak",
+      "Proiektuaren iturburu-kodearen ostatua, proiektu bakoitzaren biltegi propioan bizi dena",
+      "Denbora errealeko txat bat, Discord-en bizi dena",
+      "Proiektu indibidualetako gaien jarraipena, proiektu bakoitzaren GitHub biltegian dagoena"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATFeko autoerretratua",
+    "summary": "IATFeko prototipo goiztiar bat, gelditu-puntu naturala lortu ondoren artxibatua.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATFren babespean irisgarritasunean oinarritutako tresna baten lehen esplorazioa.",
+    "why": "Gordelekua jendaurrean mantentzen da lanaren erregistro gisa, nahiz eta garapen aktiboa gelditu den.",
+    "scopeIn": [
+      "Erregistro publiko gisa gordetzen den irisgarritasunean zentratutako tresna baten lehen prototipoa"
+    ],
+    "scopeOut": [
+      "Garapen aktiboa edo ezaugarri lanak",
+      "Eusko Jaurlaritzaren laguntzarekin egindako azpitituluak",
+      "Produkzioan gomendatutako erabilera"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATFeko robot bat",
+    "summary": "IATF komunitateko robot bat, berezko gelditze puntura iritsi ondoren artxibatua.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATFeko komunitate-kanalen inguruko automatizazioa.",
+    "why": "Gordelekua jendaurrean mantentzen da lanaren erregistro gisa, nahiz eta garapen aktiboa gelditu den.",
+    "scopeIn": [
+      "IATFeko komunitate-kanalen inguruko desadostasunaren automatizazioa, erregistro publiko gisa gordeta"
+    ],
+    "scopeOut": [
+      "Garapen aktiboa edo ezaugarri lanak",
+      "Eusko Jaurlaritzaren laguntzarekin egindako azpitituluak",
+      "Produkzioan gomendatutako erabilera"
+    ]
+  }
+]
