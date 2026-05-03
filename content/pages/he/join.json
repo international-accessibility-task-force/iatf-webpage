@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "הצטרף ל-IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "הצטרף ל-IATF",
+    "lead": "חברות היא פתוחה. ישנן מספר דרכים להשתתף, בין אם אתם מסתמכים על טכנולוגיה סיועית, בונים תוכנה נגישה, מתרגמים, בוחנים או שומרים על פרויקט. דיונים והחלטות מתרחשות בפומבי ב- GitHub ו- Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "תפקידים",
+      "title": "דרכים לתרום"
+    },
+    "items": [
+      "<strong>לבקש פרויקט.</strong> אם אתם נתקלים במחסום נגישות שניתן לפתור באמצעות תוכנת קוד פתוח ציבורית, שלחו אותו דרך קבלת הבקשות.",
+      "<strong>בדיקה וביקורת.</strong> נסו פרויקטים של IATF עם הטכנולוגיה המסייעת שאתם משתמשים בה, דיווחו על מה שעובד ומה לא, ותעבירו את הבעיות ישירות למחסן הרלוונטי.",
+      "<strong>תרגום.</strong> תוכן המקור מפורסם באנגלית פשוטה תחילה. תרגומים מוסיפים כמשתתפים זמינים, החל בספרדית.",
+      "<strong>לבנות.</strong> להרים בעיות בכל מאגר IATF, לשלוח בקשות משיכה, או לקחת על פרויקט כמו מהנדס אחראי שלה.",
+      "<strong>שמור.</strong> פרויקטים קיימים לפעמים זקוקים לשומר חדש. סיבוב השומר הוא חלק נורמלי של המודל, לא יוצא דופן."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "ערוצים",
+      "title": "איפה IATF עובד בציבור"
+    },
+    "items": [
+      "<strong>גיטהוב.</strong> נושאים, בקשות למשוך, שחרורים, ורשומות פרויקט.",
+      "<strong>חילוקי דעות.</strong> דיון חי, תיאום ושאלות לא רשמיות.",
+      "<strong>דואר אלקטרוני.</strong> שימוש <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> אם GitHub או Discord לא מתאימים."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "הצעד הבא",
+      "title": "בחר את הערוץ שמתאים לאופן שבו אתה רוצה לתרום"
+    },
+    "paragraphs": [
+      "כל הערוצים נכנסים לאותה סקירה ציבורית ואותם מאגרי מידע ציבוריים."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

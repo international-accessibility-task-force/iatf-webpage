@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "לא נמצא."
+  },
+  "hero": {
+    "eyebrow": "לא נמצא.",
+    "title": "הדף המבוקש לא נמצא.",
+    "lead": "השתמש במסלולים הראשיים למטה כדי לחזור לאתר הציבורי.",
+    "support": [],
+    "actions": [
+      {
+        "label": "בית",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "המסלול שביקשת אינו קיים."
+    ],
+    "items": [
+      {
+        "label": "בית",
+        "href": "/"
+      },
+      {
+        "label": "פרויקטים",
+        "href": "/projects/"
+      },
+      {
+        "label": "הצטרף.",
+        "href": "/join/"
+      },
+      {
+        "label": "נגישות",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ניהול",
+        "href": "/governance/"
+      },
+      {
+        "label": "שקיפות",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

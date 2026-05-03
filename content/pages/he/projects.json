@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "פרויקטים של נגישות לציבור",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "פרויקטים של נגישות לציבור",
+    "lead": "רישום זה מכיל רשימות של פרויקטים ציבוריים המנוהלים באמצעות IATF. פרוייקטים של נגישות מקובלים, תשתית של אתרים, ופרוטטיפים ארכיוניים נשמרים כאן.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "רישום",
+      "title": "רישום עכשווי"
+    },
+    "intro": [
+      "הפרויקטים המקובלים מופיעים כאן ברגע שהם מתפרסמים."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "הגשת בקשה",
+      "title": "להפוך צורך נגישות קונקרטי לפרויקט ציבורי"
+    },
+    "paragraphs": [
+      "ה-IATF בוחן צרכי נגישות קונקרטיים שיכולים להפוך לעבודת קוד פתוח ציבורית שימושית."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "אין פרויקטים שפורסמו עדיין",
+    "paragraphs": [
+      "ה-IATF מכין את קבוצת הפרויקט הציבורית הראשונה שלה.",
+      "אתה עדיין יכול לשלוח בקשה אם יש לך צורך נגישות ספציפי."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "מפת אתר"
+  },
+  "hero": {
+    "eyebrow": "מדד",
+    "title": "מפת אתר",
+    "lead": "כל דף ציבורי ב iatf.cc, במקום אחד."
+  },
+  "sections": [
+    {
+      "title": "עמודים עיקריים",
+      "items": [
+        {
+          "label": "בית",
+          "href": "/"
+        },
+        {
+          "label": "פרויקטים",
+          "href": "/projects/"
+        },
+        {
+          "label": "לבקש פרויקט",
+          "href": "/propose/"
+        },
+        {
+          "label": "ניהול",
+          "href": "/governance/"
+        },
+        {
+          "label": "הצטרף.",
+          "href": "/join/"
+        },
+        {
+          "label": "נגישות",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "שקיפות",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "פרויקטים",
+  "projectsEmpty": "אין פרויקטים שפורסמו עדיין."
+}

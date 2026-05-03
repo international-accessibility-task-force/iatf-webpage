@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "אתר האינטרנט של IATF",
+    "summary": "האתר הציבורי של כוח המשימה הבינלאומי לנגישות.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF היה זקוק לבית ציבורי יציב שמסביר את המודל, מפרט פרויקטים, ומצביע על התורמים לשלב הבא הנכון.",
+    "why": "האתר הוא דלת הכניסה הציבורית של IATF. הוא נבנה כפרויקט סטטי קטן, כך שקל לקרוא, לתרגם ולשמור אותו בשטח פתוח.",
+    "scopeIn": [
+      "דפי נחיתה ציבוריים שמסבירים את מודל IATF",
+      "רישום ציבורי של פרויקטים IATF מקובלים, פעילים וארכיונים עם מצב, מנהל, מאגר ודמו",
+      "דף קבלת בקשה וטופס",
+      "דפי ניהול ושקיפות",
+      "מקור באנגלית עם מבנה מוכן לתרגום",
+      "פריסה סטטית על נכסים סטטיים של עובדי Cloudflare"
+    ],
+    "scopeOut": [
+      "אזורי חברים פרטיים, חשבונות או זרימת כניסה",
+      "אירוח קוד המקור של הפרויקט, המתגורר במאגר של כל פרויקט.",
+      "צ'אט בזמן אמת, המתקיים ב-Discord",
+      "מעקב אחר נושאים עבור פרויקטים בודדים, אשר חי במאגר GitHub של כל פרויקט"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "סלפי IATF",
+    "summary": "אב טיפוס מוקדם של IATF, ארכיון לאחר שהגיע לנקודת עצירה טבעית.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "חקירה מוקדמת של כלי ממוקד נגישות תחת מטריית IATF.",
+    "why": "המאגר נשמר לציבור כתעודה של העבודה, למרות שהפיתוח הפעיל נעצר.",
+    "scopeIn": [
+      "אב טיפוס מוקדם של כלי ממוקד נגישות שנשמר כמסמך ציבורי"
+    ],
+    "scopeOut": [
+      "פיתוח פעיל או עבודת תכונה",
+      "התחייבויות תחזוקה",
+      "השימוש המומלץ בייצור"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "בוט IATF",
+    "summary": "בוט קהילתי של IATF, ארכיון לאחר שהגיע לנקודת עצירה טבעית.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "אוטומציה סביב ערוצי הקהילה של IATF.",
+    "why": "המאגר נשמר לציבור כתעודה של העבודה, למרות שהפיתוח הפעיל נעצר.",
+    "scopeIn": [
+      "אוטומציה של חילוקי דעות סביב ערוצי הקהילה של IATF, שנשמרו כמסמך ציבורי"
+    ],
+    "scopeOut": [
+      "פיתוח פעיל או עבודת תכונה",
+      "התחייבויות תחזוקה",
+      "השימוש המומלץ בייצור"
+    ]
+  }
+]
