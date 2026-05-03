@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Lomba nde bo pesa nge mukanda yina tasadisa nge na kuzaba mutindu ya kusala yo",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Lomba nde bo pesa nge mukanda yina tasadisa nge na kuzaba mutindu ya kusala yo",
+    "lead": "IATF ke tadilaka ba-apareyi yina bo me lomba sambu na kusadisa bantu na kuzaba mambu yina bo fwete sala sambu na kukuma bantu yina bo lenda solula ti bo kukonda mpasi.",
+    "support": [
+      "Sambu na kuyantika, nge kele ve na mfunu ya kuzaba mambu yonso, kansi nge fwete vanda ti dibanza mosi ya pwelele sambu na dyambu yango, kuzaba bantu yina yo ketadila, mpi sambu na nki yo kele mfunu."
+    ],
+    "actions": [
+      {
+        "label": "Yantika na kulomba",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Sadila Discord na kisika yina",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Banzila",
+      "title": "Pona nzila ya kuluta pete"
+    },
+    "intro": [
+      "Banzila yonso ke vandaka kaka mutindu mosi."
+    ],
+    "items": [
+      {
+        "label": "Site Internet ya Bambangi ya Yehowa",
+        "body": "Sadila formilere yai ya kele na nsi sambu na kupesa formilere na nge."
+      },
+      {
+        "label": "Kisika ya kusonikila",
+        "body": "Tindila beto yo mbala mosi na: {{contact.requestsEmail}}Bo lenda sonika mambu ya bo me lomba na nzila ya Internet na mikanda ya bantu yonso na nima ya kutadila yo mpi kuyidika yo."
+      },
+      {
+        "label": "Kukonda kuwakana",
+        "body": "Yantika kuna kana yo kele pete sambu na nge."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Na ntwala ya kutinda mukanda",
+    "paragraphs": [
+      "IATF ke salaka na meso ya bantu yonso. Bo lenda tubila na bunkufi mambu yina bo ke lomba mpi bo lenda pesa yo bonso ba fiche ya mambu yina bantu yonso ke lomba na kimvuka ya GitHub, na site Internet yai, to na mambu yai yonso zole.",
+      "Kusonika ve ba adresi ya bantu, nimero ya telefone, bansangu ya kimunganga, to bansangu yina lenda sadisa na kuzaba muntu yina ke sadila bisadilu yina, katula kaka kana yo kele mfunu mpi nge ke ndima nde IATF kutadila yo.",
+      "IATF ke katulaka bansangu ya bantu yina kele mfunu ve na ntwala ya kubasisa mambu ya bo ke lombaka."
+    ]
+  },
+  "review": {
+    "title": "Mambu ya beto ke vingila na bilumbu ke kwisa",
+    "paragraphs": [
+      "Kana muntu me tinda mukanda sambu na kulomba lusadisu, yo ke tendula ve nde bo me ndima yandi.",
+      "IATF ke tadilaka mambu yina bo ke lombaka sambu na kuzaba kana yo me fwana na kusala kisalu yango, kana yo lenda salama, mpi kana yo kele mfunu.",
+      "Bo lenda buya, kuyingisa, to kusoba mambu yankaka ya bo kelomba na ntwala nde bo ndima yo."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomu ya kulomba lusadisu",
+      "title": "Pesa mukanda ya ke monisa nde nge kele na mfunu na yo"
+    },
+    "fields": [
+      {
+        "kind": "bima ya bo ke kotisaka",
+        "name": "muntu ya ke lomba",
+        "label": "Zina na nge to ya kimvuka na nge",
+        "helper": "Nani muntu kelomba nde bo pesa yandi yo?"
+      },
+      {
+        "kind": "pona",
+        "name": "Kisika ya kukwenda",
+        "label": "Nzila ya mbote ya kukutana ti bo",
+        "helper": "Inki mutindu beto fwete landa kusala bansosa?",
+        "required": true,
+        "options": [
+          "Kisika ya kusonikila",
+          "Kukonda kuwakana"
+        ]
+      },
+      {
+        "kind": "bima ya bo ke kotisaka",
+        "name": "Mambu ya Nge Fwete Zaba",
+        "label": "Bansangu ya muntu yina nge lenda solula ti yandi",
+        "helper": "Adresi ya e-mail to zina ya Discord sambu na kulanda.",
+        "placeholder": "Adresi ya e-mail to zina ya Discord",
+        "required": true
+      },
+      {
+        "kind": "bima ya bo ke kotisaka",
+        "name": "ndinga",
+        "label": "Ndinga ya bo ketubaka",
+        "helper": "Ndinga ya nge ke zola, kana yo ke lomba kusala yo.",
+        "value": "Kingelesi"
+      },
+      {
+        "kind": "kitini ya masonama",
+        "name": "dyambu ya mpasi",
+        "label": "Inki dikambu nge kesosa na kumanisa?",
+        "helper": "Tendula kima yango na bangogo ya pete.",
+        "required": true
+      },
+      {
+        "kind": "kitini ya masonama",
+        "name": "bantu ya bo kesadila",
+        "label": "Yo kevandaka ti bupusi na banani?",
+        "helper": "Yo tasadisa nani?",
+        "required": true
+      },
+      {
+        "kind": "kitini ya masonama",
+        "name": "extraMambu ya kele na kati",
+        "label": "Bangindu ya Ngika",
+        "helper": "Tubila mambu ya nkaka yina lenda sadisa na kutendula mfunu na yo: sambu na nki yo kele mfunu, bambandu, baverse ya nkaka ya Biblia, bangindu ya mfunu ya programe mosi, to ntangu yina nge fwete sala yo."
+      },
+      {
+        "kind": "pona",
+        "name": "OpenSourceConsent (Ndambu ya Kuwakana)",
+        "label": "Keti nge kesepelaka na kusadila programe yina kele ya kukanguka na meso ya bantu yonso?",
+        "helper": "Baprograme yina bo me ndima kele bisika yina bo ke bumbaka bansangu ya bantu yonso na nsi ya IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ee",
+          "Ve",
+          "Beto me zaba ntete ve."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Kana bo me ndima yo",
+      "title": "Ntendula ya kundimama"
+    },
+    "items": [
+      "kisika ya bo ke bumbaka bansangu ya bantu yonso na kimvuka ya IATF GitHub",
+      "muntu mosi ya ke salaka kisalu ya ba-ingénieur yina bo me pesa mukumba ya kusala kisalu yina",
+      "lisansi ya copyleft sambu na bansiku mpi bisadilu ya kisalu",
+      "Kubongisa mambu ya bantu yonso na kisika ya bo ke bumbaka bansangu",
+      "kima mosi ya bo mesonikaka na mikanda ya bazulunalu na site ya IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Yantika disolo",
+      "title": "Kisambu mosi ya nkufi mpi ya pwelele mefwana sambu na kuyantika"
+    },
+    "paragraphs": [
+      "Kana nge kele mpenza na mfunu nde bo sadisa nge mpi nge keyindula nde yo fwete kuma kisalu ya bantu yonso, tindila beto yo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

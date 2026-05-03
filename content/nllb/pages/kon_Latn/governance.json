@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Mutindu ya kutwadisa mpi ya kubumba bansangu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Mutindu ya kutwadisa mpi ya kubumba bansangu",
+    "lead": "IATF ke salaka na mpila nde bantu yonso kuzaba mambu yina bo fwete sala sambu bantu ya nkaka kuzaba yo, bo bakisa yo, mpi bo yidika yo.",
+    "support": [
+      "Lutiti yai ke tendula mambu yina ke pesaka nswa ya kubaka yo, mutindu bo ke bumbaka yo, mpi mukumba yina bo fwete baka na nima ya kundima yo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Bansiku",
+      "title": "Kisalu ya mbote, banswa ya muntu, kupesa yandi nswa ya kusala kisalu na yandi"
+    },
+    "cards": [
+      {
+        "title": "Kisalu ya mbote",
+        "paragraphs": [
+          "IATF ke ndimaka kisalu yina ke yidikaka mambu yina ke kangaka bantu nzila ya kusala kisalu mpi yina kele mfunu sambu na bantu yonso.",
+          "Kisalu fwete vanda mfunu mingi kuluta kisalu ya muntu yandi mosi mpi yo fwete vanda bonso kisika ya bo ke bumbaka bansangu ya bantu yonso.",
+          "Sambu na kusadila Internet, IATF ke sadilaka [W3C WAI](https://www.w3.org/WAI/) Bantu yina ke sadilaka ba-apareyi yina ke sadisaka bantu na kusala mambu kele mpi ti banzikisa ya ke monisa nde yo ke vandaka mbote na kusadila yo."
+        ]
+      },
+      {
+        "title": "Kubaka lukanu ya kisalu",
+        "paragraphs": [
+          "Bo lenda ndima ngindu mosi kana bo tadila yo mpi yo monana nde:"
+        ],
+        "items": [
+          "yo ke lungisa mpusa ya kieleka ya kusala na kisika yina bantu kele ve",
+          "Mvutu na ngiufula yai kele pwelele mpi beto lenda tadila yo mbote-mbote",
+          "kitini yina kele ti mambu ya kieleka yina ke monisa nde bo lenda basisa yo",
+          "kisalu ke wakana ti kisalu ya IATF",
+          "kele ti nzila ya mbote ya kusala kisalu ya kutanina to ya kumanisa yo"
+        ]
+      },
+      {
+        "title": "Kimvwama ya bisika ya bo kesonikaka bazulunalu",
+        "paragraphs": [
+          "Ba projet ya bo me ndima ke salamaka na nsi ya organizasio ya IATF GitHub.",
+          "Bima ya bo ke bumbaka ke vandaka kaka na kisika yina, yo yina konso kisalu ke taninaka nzo ya bantu yonso, ata kana bantu yina ke yidikaka yo me soba na nima."
+        ]
+      },
+      {
+        "title": "Kupesa nswa ya kusala kisalu",
+        "paragraphs": [
+          "Bimvuka ya IATF ke sadilaka nswa ya kukabula mikanda (copyleft) katula kaka kana bo me tuba nde yo kele ve mutindu yina:"
+        ],
+        "items": [
+          "<strong>Kidimbu:</strong> AGPL-3.0",
+          "<strong>Mambu ya kusonika:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Enzeniere to muntu yina ke salaka kisalu ya kutanina",
+      "paragraphs": [
+        "Konso kisalu yina bo me ndima, bo fwete pesa zina ya muntu yina ke yidikaka to ke twadisaka yo. Muntu yango lenda vanda ti nswa ya kusadila kisika yina bo ke bumbaka bansangu mpi yandi fwete sala mambu yai:"
+      ],
+      "items": [
+        "bantuma sambu na kutomisa yo na meso ya bantu yonso",
+        "Tanina kisika ya bo ke bumbaka bansangu",
+        "tadila to yidika mambu ya ke yangisa nge mpi basusi yina nge kele na yo",
+        "kusonika badesizio ya mfunu ya mambu ya tekiniki",
+        "Sala na mpila nde bantu ya nkaka kubakisa kisalu yina nge ke sala"
+      ],
+      "footnote": "Yo kele mukumba ya nivo ya kisika ya kubumba bima. Kimvwama ya organizasio ke vandaka kaka na IATF. Kisalu awa kele ya kukengila kisika yina bo ke bumbaka bima, ya kutwadisa mambu ya tekiniki, mpi ya kuwakanisa mambu ti bantu yonso  kansi ve ya kupesa bima na bantu ya nkaka na mutindu ya kukonda ndilu, ya kuvukisa yo na mutindu bo me zola, to ya kusala mambu yina ke wakana ti mambu ya bo ke zola kusala na nganda ya karte ya nzila ya bantu yonso."
+    },
+    "publicDevelopment": {
+      "title": "Kutomisa luzingu ya bantu",
+      "paragraphs": [
+        "Bansoba yina bo ke salaka na nzila ya IATF ke salamaka na meso ya bantu yonso."
+      ],
+      "items": [
+        "kode ya kisina",
+        "mambu ya mfunu",
+        "mikanda",
+        "Bangogo ya kemonisa mutindu ya kusala yo",
+        "disolo ya kubasika"
+      ],
+      "footnote": "Bansangu ya mfunu ya kisalu fwete vanda kaka ve na masolo ya kinsweki to na ba message ya bo ke tindilaka bantu."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Bansangu ya bantu yonso",
+      "title": "Barapore ya kulomba bansangu ya bantu yonso"
+    },
+    "paragraphs": [
+      "IATF ke salaka na meso ya bantu yonso. Bansangu yina ke kotaka na site Internet, na e-mail, na Discord, na GitHub, to na nzila ya basite ya nkaka, lenda kuma bansangu yina bantu yonso ke ndimaka.",
+      "IATF lenda tubila na bunkufi, kuyidika, to kuyidika diaka mambu yina bo lombaka na ntwala ya kubasisa yo na mpila nde bo tadila yo kukonda kumonisa bansangu ya nkaka ya mfunu.",
+      "Bo lenda bumba bansangu ya bantu yonso na kimvuka ya IATF na GitHub, na site Internet yai, to na mambu yai yonso zole.",
+      "Na ntwala ya kubasisa yo, IATF ke katulaka bansangu ya nkaka ya mfunu ve ya bantu yina bo lenda binga sambu na kusolula ti bo, ba adresi na bo, mpi bansangu yina lenda sadisa bo na kuzaba konso muntu yina ke sadila bisadilu ya teknolozi yina ke sadisaka bantu na kusala mambu, katula kaka kana yo ke monisa pwelele nde bo ke zola nde bo basisa yo mpi yo me fwana na kusala yo.",
+      "IATF ke bumbaka ve masolo ya Discord na kingenga, mpi Discord ke twadisaka mutindu ya kubumba bansangu.",
+      "Yo ke tendula nde bo lenda tadila yo mpi kupesa bakonti na muntu yina me sala yo. Yo ke monisa ve nde bo me yidika yo mbote sambu bantu kumona yo na nzila ya zina yina bo ke sosaka.",
+      "IATF lenda pesa bansangu ya mpa to kukatula bansangu yina kele na basite ya bantu yonso, kansi yo lenda pesa ve bantu ya nkaka nswa ya kukatula yo.",
+      "Kana yo ke lomba nde nge bumba bansangu na nge, nge fwete tinda yo ve na nzila ya IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Kisalu ya organizasio",
+      "title": "Kiti ya kimfumu"
+    },
+    "lead": "Ntwadisi ke twadisaka bisalu ya kimvuka ya IATF, kansi yandi ke vandaka ve ti mukumba ya kusala bonso ingénieur yina ke talaka mambu ya konso kisalu: ntwadisi kele na mukumba ya kutwadisa organizasio ya mvimba, kansi ve ya kutwadisa konso kisika ya bo ke bumbaka bansangu.",
+    "duties": {
+      "title": "Kisalu ya kiti ya kimfumu",
+      "items": [
+        "Ke na banswa ya munkwa na kimvuka ya IATF GitHub",
+        "Kupesa maboko na balukanu ya kundima kisalu mpi ya kubumba yo na mikanda",
+        "Yo ke salaka bonso kisika ya kusolula ti bantu yonso sambu na IATF",
+        "Ke yidikaka mambu ya bo ke ponaka konso mvula"
+      ],
+      "footnote": "Ntwadisi ke salaka ve mambu yina ke wakana ti bansiku ya IATF na yina me tala kukabula bima na bantu ya nkaka, kusala kisalu yina bo ke futaka mbongo, to kusala mambu ya nkaka yina bo me wakana, mpi yandi ke vandaka ve ti kiyeka na zulu ya badesizio yina konso muntu ya ke twadisaka mambu ya bamaniskri ke bakaka sambu na mambu ya me tala mayele ya kutwadisa mambu."
+    },
+    "election": {
+      "title": "Kupona bo konso mvula",
+      "paragraphs": [
+        "Bo keponaka prezida mbala mosi na mvula, na bamposo zole ya ntete ya Desembri, bo kezabisaka mambu yina tasalama na ntwala nde Desembri 15 kulunga, mpi bo keyantikaka kuyala na Yanuari 1.",
+        "Konso muntu yina kele na nswa ya kuvote kele na voti mosi. Muntu yina me zwa bavote mingi ke nungaka; kana yo kele kiteso mosi, bo ke salaka nzietelo ya zole na mposo ya tatu ya ngonda ya Desembri.",
+        "Bo ke ponaka bantu na nzila ya diskure yina bo ke salaka na GitHub na kisika ya bo ke bumbaka bansangu ya IATF, yo yina bantu yina ke sosaka muntu ya bo ta pona, vote yina bo ta sala, mpi mambu yina ta salama kele na kati ya mambu yina bantu yonso ke zabaka."
+      ]
+    },
+    "continuity": {
+      "title": "Kulanda na kusala",
+      "paragraphs": [
+        "Kana voti me salama ve na mvula mosi, muntu yina ke twadisa bisalu ke landaka kusala yo tii na mvula yina ke landa.",
+        "Ntwadisi lenda bikisa kisalu na yandi na konso ntangu yina yandi me zola."
+      ]
+    },
+    "current": {
+      "title": "Ntwadisi ya ntangu yai",
+      "fields": [
+        {
+          "label": "Kiti ya kimfumu",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ngogo",
+          "value": "Tii na ntwala nde bo pona beto na Desembri 2026"
+        },
+        {
+          "label": "Kisalu na yandi me salama na mutindu ya me fwana",
+          "value": "2026"
+        },
+        {
+          "label": "Luyalu ya ntete ya bo ponaka",
+          "value": "Desembri 2026"
+        }
+      ]
+    },
+    "footnote": "Kisalu ya ntwadisi ya kimvuka me zabana na mvu 2026 sambu na kumonisa pwelele kiyeka ya kimvuka."
+  },
+  "continuity": {
+    "states": {
+      "title": "Mambu ya kele na kati ya programe",
+      "paragraphs": [
+        "Baluyalu kesadilaka kimvuka mosi ya fyoti ya bimvuka ya leta:"
+      ],
+      "items": [
+        "Bangindu ya Mfunu",
+        "Bo ndimaka",
+        "Kisalu ya ngolo",
+        "Yo kele ngolo ve",
+        "Kusosa muntu ya kuyidika yo",
+        "Kisika ya kubumba yo"
+      ],
+      "footnote": "Bansi yai kesalaka nde mikanda ya bazina kuvanda pete na kutanga."
+    },
+    "reassignment": {
+      "title": "Kubasisa yo na kisika ya nkaka mpi kubumba yo na mikanda",
+      "paragraphs": [
+        "Kana muntu yina ke yidikaka bima me yambula kisalu to ke sala diaka ve, IATF lenda pesa muntu ya nkaka mukumba yina, kusukisa kisalu yina, to kukanga kisalu yina.",
+        "Bo lenda bumba dyaka kisalu mosi ntangu bo melungisa mpusa yina bo vandaka na yo na luyantiku, ntangu bo meyambulaka kusala kisalu ya kutanina yo, to ntangu yo mefwana dyaka ve na kulanda kusala kisalu yango."
+      ],
+      "footnote": "Bantu yonso lenda mona baprograme yina bo me bumbaka, katula kaka kana kele ti kikuma ya ngolo ya kusala mpidina."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Noti ya ndilu",
+      "title": "Mambu yina IATF ke ndimaka ve"
+    },
+    "items": [
+      "Kisalu ya kukabula yo na bantu ya nkaka",
+      "Bangwakana ya ketadila kiteso ya kisalu",
+      "kundima konso dibanza",
+      "kisalu ya kutanina na nsungi ya nda sambu na konso kisalu"
+    ],
+    "footnote": "IATF kele kisika ya bantu yonso ke bumbaka bansangu, kansi yo kele ve kisika ya bo ke pesaka bansangu na bantu yonso."
+  }
+}

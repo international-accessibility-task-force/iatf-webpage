@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Karti ya Site"
+  },
+  "hero": {
+    "eyebrow": "Ntalu ya Bantu",
+    "title": "Karti ya Site",
+    "lead": "Konso lutiti ya bantu yonso na IATF.CC, na kisika mosi."
+  },
+  "sections": [
+    {
+      "title": "Balutiti ya ntete",
+      "items": [
+        {
+          "label": "Nzo na bo",
+          "href": "/"
+        },
+        {
+          "label": "Bangindu ya Kubasisa",
+          "href": "/projects/"
+        },
+        {
+          "label": "Lomba kisalu mosi",
+          "href": "/propose/"
+        },
+        {
+          "label": "Luyalu",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kwisa kuvukana ti beto",
+          "href": "/join/"
+        },
+        {
+          "label": "Muntu lenda zwa yo kukonda mpasi",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kikalulu ya kukonda kupona-pona",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Bangindu ya Kubasisa",
+  "projectsEmpty": "Bo mebasisa ntete ve bisalu na bo."
+}

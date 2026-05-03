@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Bo me mona yo ve"
+  },
+  "hero": {
+    "eyebrow": "Bo me mona yo ve",
+    "title": "Lutiti ya nge ke sosa me monana ve",
+    "lead": "Beno sadila banzila ya nene yina kele na nsi sambu na kuvutuka na kisika ya bantu yonso.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Nzo na bo",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Nzila ya nge lombaka kele ve."
+    ],
+    "items": [
+      {
+        "label": "Nzo na bo",
+        "href": "/"
+      },
+      {
+        "label": "Bangindu ya Kubasisa",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kwisa kuvukana ti beto",
+        "href": "/join/"
+      },
+      {
+        "label": "Muntu lenda zwa yo kukonda mpasi",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Luyalu",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kikalulu ya kukonda kupona-pona",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

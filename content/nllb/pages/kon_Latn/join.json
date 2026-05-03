@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kukota na kimvuka ya IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kukota na kimvuka ya IATF",
+    "lead": "Kuvanda muntu kele ya kukangula. Kele na banzila mingi ya kuvukana, kana nge ke tula ntima na tekinolozi ya kusadisa, kutunga ba logiciel ya kukonda mpasi, kubalula, kumeka, to kutanina projet mosi. Masolo ti badesizio ke salamaka na meso ya bantu yonso na GitHub ti na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Kisalu na yandi",
+      "title": "Mitindu ya kupesa makabu"
+    },
+    "items": [
+      "<strong>Lomba nde bo pesa nge kisalu mosi.</strong> Kana nge me kutana ti diambu mosi yina lenda kanga nge nzila ya kusadila programe ya ordinatere yina kele ya ofele, tinda yo na kisika yina bo ke bakaka bansangu.",
+      "<strong>Kumeka mpi kutadila yo.</strong> Meka kusala baprograme ya IATF ti teknolozi yina nge ke sadilaka, sonika mambu yina ke sadisaka mpi yina ke vandaka ve mbote, mpi sonika mbala mosi mambu ya ke pesa nge mpasi na kisika yina bo ke bumbaka bansangu.",
+      "<strong>Beno balula.</strong> Mikanda ya kisina kebasikaka ntete na Kingelesi ya pete, mpi bo keyikaka bambalula na nima ya ntangu, yantika na Kiespaniole.",
+      "<strong>Sala kisalu ya kutunga.</strong> Sosa mambu na konso kisika ya bo ke bumbaka mikanda ya IATF, tinda bansangu sambu na kubaka yo, to sala kisalu bonso ingénieur yina ke twadisaka yo.",
+      "<strong>Tanina yo.</strong> Bantangu ya nkaka, yo ke lombaka muntu ya mpa sambu na kuyidika baprograme yina bo me sala dezia."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Banzila",
+      "title": "Kisika yina IATF kesalaka na meso ya bantu yonso"
+    },
+    "items": [
+      "<strong>Yo kele na GitHub.</strong> Mambu ya beto me zaba, mambu yina bo ke lomba beto na kusala, mpi mambu ya nkaka ya me tala kisalu yina beto ke sala.",
+      "<strong>Kukonda kuwakana.</strong> Bo ta solula, bo ta wakana, mpi bo ta yula bangiufula na mutindu ya mbote.",
+      "<strong>Sonikila mono.</strong> Sadila <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> kana GitHub ti Discord me wakana ve."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kitambi ya kelanda",
+      "title": "Pona nzila yina ke wakana ti mutindu nge ke zola kupesa makabu"
+    },
+    "paragraphs": [
+      "Baprograme yonso ke vandaka kaka na kisika mosi mpi bantu yonso ke sadilaka yo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Site Internet ya IATF",
+    "summary": "Site ya Internet ya kimvuka mosi (International Accessibility Task Force).",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF vandaka na mfunu ya kisika mosi ya mbote yina vandaka kutendula mutindu ya kusala kisalu, kusala lisiti ya bisalu, mpi kusonga bantu yina ke pesa maboko na kubaka lukanu ya mbote.",
+    "why": "Site yai kele kielo ya ntete ya bantu yonso ya IATF. Bo me tungaka yo bonso kamukanda mosi ya fioti sambu yo vanda pete na kutanga, kubalula, mpi kutanina na kisika ya bantu mingi.",
+    "scopeIn": [
+      "Balutiti ya bantu yonso yina ke tendulaka mbandu ya IATF",
+      "Rejistre ya bantu yonso ya bisalu ya IATF yina bo me ndimaka, ya bo ke sala, mpi ya bo me bumbaka, ti mambu ya ke tadila yo, muntu yina ke yidika yo, kisika ya bo ta bumba yo, mpi mutindu ya kusala yo",
+      "Lutiti mpi formilere ya bo fwete sadila sambu na kulomba lusadisu",
+      "Balutiti ya luyalu mpi ya pwelele",
+      "Kisadilu ya Kingelesi yina kele ya kuyidika mbote sambu na kubalula yo",
+      "Kusadila Cloudflare Workers sambu na kutomisa bima na bo (static deployment on cloudflare workers static assets)"
+    ],
+    "scopeOut": [
+      "Bisika ya bantu yina kele ve bantu ya leta, bakonti, to mutindu bantu ke kotaka na site na beto",
+      "Kubumba kodeksi ya kisina ya programe, yina ke vandaka na kisika yina konso programe ke bumbaka yo",
+      "Kusolula na ntangu ya kieleka, yina ke vandaka na Discord",
+      "Kulanda mambu ya konso kisalu, yina ke vandaka na konso kisika ya bo ke bumbaka mambu na GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Kifwanisu mosi ya ntete ya IATF, bo me bumbaka yo na nima ya kukuma na kisika yina yo ke telamaka.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Kulonguka na ntwala mutindu ya kusadila kisadilu yina ta sadisa bantu na kuzaba mambu yina bo fwete sala sambu na kukuma bantu yina bo lenda solula ti bo kukonda mpasi na nsi ya lutwadisu ya kimvuka ya ke tadilaka mambu ya mbongo (IATF).",
+    "why": "Bo ke bumbaka yo sambu na bantu yonso, ata ntangu bo ke yidikaka yo diaka ve.",
+    "scopeIn": [
+      "Mbandu ya ntete ya kisadilu mosi ya bo me tulaka na kisika ya ntete sambu na kusadisa bantu na kubakisa mambu mbote yina bo fwete sonika na mikanda sambu bantu yonso kuzaba yo"
+    ],
+    "scopeOut": [
+      "Kisalu ya ngolo sambu na kutomisa to kuyidika kima mosi",
+      "Mambu ya bo fwete sala sambu na kulungisa bampusa ya dibuta",
+      "Mutindu ya kusadila yo"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Boti ya IATF",
+    "summary": "Bot ya kimvuka ya IATF, bo me bumbaka yo na nima ya kukuma na kisika yina yo ke telamaka.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kusadila bametode yina kele na basite ya Internet ya kimvuka ya IATF.",
+    "why": "Bo ke bumbaka yo sambu na bantu yonso, ata ntangu bo ke yidikaka yo diaka ve.",
+    "scopeIn": [
+      "Kusadila bametode ya kukonda kuwakana yina kele na basite ya kimvuka ya IATF, yina bo ke bumbaka sambu na bantu yonso"
+    ],
+    "scopeOut": [
+      "Kisalu ya ngolo sambu na kutomisa to kuyidika kima mosi",
+      "Mambu ya bo fwete sala sambu na kulungisa bampusa ya dibuta",
+      "Mutindu ya kusadila yo"
+    ]
+  }
+]

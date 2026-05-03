@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Kisalu ya kusadisa bantu yonso na kuzaba mambu yina bo fwete sala",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Kisalu ya kusadisa bantu yonso na kuzaba mambu yina bo fwete sala",
+    "lead": "Mukanda yai ke tubila bisalu ya bantu yonso yina bo ke salaka na nzila ya IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kisalu ya kusonika bazina",
+      "title": "Mukanda ya kusonika yina kele na ntangu yai"
+    },
+    "intro": [
+      "Bo ta sonika baprograme ya bo me ndima awa kana bo me basisa yo."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Monisa mpusa na nge",
+      "title": "Kubalula mpusa ya sikisiki ya kuvanda ti muntu yina nge lenda solula ti yandi na kisalu ya kusamuna"
+    },
+    "paragraphs": [
+      "IATF ke tadilaka mambu yina bantu fwete sala sambu na kuzwa bansangu yina bo lenda sadila sambu na kubasisa mikanda yina bantu yonso lenda tanga."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Bo me basisaka ntete ve baprograme na yo",
+    "paragraphs": [
+      "IATF ke na kuyidika baprograme na yo ya ntete sambu na bantu yonso.",
+      "Ata mpidina, nge lenda lomba nde bo pesa nge yo kana nge kele ti mfunu na yo."
+    ]
+  }
+}

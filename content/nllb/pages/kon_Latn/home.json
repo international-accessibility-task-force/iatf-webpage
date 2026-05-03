@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Bima ya Bantu Fwete Vanda na Yo Sambu Bantu Yonso Kunata Bo na Banzo ya Kimfumu",
+    "lead": "IATF ke sadisaka bimvuka, bimvuka ya bantu, mpi bantu ya nkaka na kubalula mambu yina bo kele na yo mfunu sambu na kukuma mikanda yina bantu yonso lenda tanga kukonda mpasi.",
+    "support": [
+      "Ba projet ya bo me ndima ke basikaka na organizasio ya IATF GitHub na nsi ya nswa ya copyleft mpi muntu yina ke yidikaka yo ke salaka yo na meso ya bantu yonso."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mbandu ya kisalu ya leta",
+      "title": "Nzila mosi ya pete sambu na kusadila baprograme yina bantu yonso lenda sadila"
+    },
+    "paragraphs": [
+      "Na nzila ya formilere, konso muntu lenda tinda ngindu na yandi na IATF. Kana kimvuka ya bantu me ndima, bo ta kangula kisika ya bo ke bumbaka bansangu ya bantu yonso na GitHub sambu na kusala kisalu yina.",
+      "Konso kisalu yina bo me ndima ke vandaka ti kisika ya pwelele ya bo ke tulaka bansiku, mambu, mikanda, mpi bansangu yina bo ke basisaka, mpi muntu ya ke yidikaka mambu ke twadisaka yo na kisika ya bantu yonso."
+    ],
+    "specCard": {
+      "title": "Mbandu ya kisalu ya leta",
+      "terms": [
+        {
+          "term": "Mfunu",
+          "definition": "Bampasi ya kyeleka ya bantu kekutanaka na yo sambu bo kekukaka ve kukota na banzo na bo"
+        },
+        {
+          "term": "Mbalula ya Nsi-Ntoto",
+          "definition": "Kisalu na bo mpi mutindu bo lenda sala yo"
+        },
+        {
+          "term": "Kisika ya kisalu",
+          "definition": "Kisika ya bantu yonso kele na GitHub"
+        },
+        {
+          "term": "Bankengi-ntambudi",
+          "definition": "Bimvuka ya IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Mutindu ya kusala yo",
+      "title": "Mutindu yo ke salaka",
+      "intro": "Bo salaka yo na mayele yonso sambu yo vanda fyoti mpi yo vanda mpasi ve na kulanda nzila yina bantu yonso kekwendaka."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Bo me zabisa beto mambu yina beto kele na yo mfunu",
+        "paragraphs": [
+          "Kimvuka mosi, kimvuka mosi, to muntu mosi lenda lomba lusadisu sambu na kulungisa mpusa mosi ya mfunu.",
+          "Nge lenda yantika kulomba yo na site Internet na beto, to nge lenda tinda yo na adresi yai: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, to na nzila ya mavwanga."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ke tadilaka yo",
+        "paragraphs": [
+          "Beto ke tadilaka kisalu yango, mutindu ya kusadila yo, mpi kana yo me fwana na kusala na kisika ya bantu yonso."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Bo me sala kisika ya bo ke bumbaka bansangu ya bantu yonso",
+        "paragraphs": [
+          "Kana bo mendima kisalu mosi, bo kebasisaka yo na kimvuka ya IATF GitHub na nsi ya nswa ya copyleft.",
+          "Kisika ya kubumba yo kekumaka kisika ya bantu yonso lenda mona bansiku, masolo, mikanda, mpi bansangu yina bo kebasisaka."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Muntu mosi ya mayele muntu ketwadisaka kisalu yango",
+        "paragraphs": [
+          "Bo ke tulaka muntu mosi ya mayele yina ke twadisaka kisalu na kisika yina bo ke bumbaka bansangu, mpi bantu yonso ke monaka mutindu bo ke yidika bansangu yango."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kisalu ya kusonika bazina",
+      "title": "Kisalu ya kusonika bazina ya bantu yonso"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Yantika awa",
+      "title": "Sosa kisalu yina nge ke sala ntangu yai to yantika kusala kisalu mosi ya mfunu"
+    },
+    "paragraphs": [
+      "Sadila lisiti sambu na kumona mambu yina bantu yonso mezaba dezia, to yantika kusosa mambu yina lenda sadisa nge kana nge mezaba nde kima mosi ya mpasi lenda kuma kisalu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Muntu lenda zwa yo kukonda mpasi",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Muntu lenda zwa yo kukonda mpasi",
+    "lead": "Lukanu ya IATF kele ya kusala nde site Internet yai kuvanda pete, bantu lenda tanga yo kukonda mpasi, mpi bo lenda sadila ordinatere.",
+    "support": [
+      "Sambu na kusadila Internet, IATF ke sadilaka [W3C WAI](https://www.w3.org/WAI/) Bantu yina ke sadilaka ba-apareyi yina ke sadisaka bantu na kubakisa mambu mbote ke sadilaka yo sambu yo sadisa bo na kubakisa mbote mambu."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kupesa rapore",
+      "title": "Pesa rapore ya diambu mosi ya ke wakana ve ti Biblia"
+    },
+    "paragraphs": [
+      "Kana nge me mona kima mosi ya ke kanga nge nzila ya kukota na site Internet yai, nge lenda tindila beto rapore na nzila ya e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Barapore ya mfunu kele:"
+    ],
+    "items": [
+      "lutiti yina diambu yango salamaka",
+      "mambu ya nge vandaka kusosa kusala",
+      "teknolozi, navigateur, to apareyi yina nge vandaka kusadila, kana yo kele mfunu",
+      "inki mambu kubebaka?",
+      "inki zolaka kusadisa"
+    ],
+    "footnote": "Yo ke lomba ve nde nge sonika rapore ya ke monisa nde nge me sala kifu mosi buna."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kusadila",
+      "title": "Kusadisa bantu na kutadila mambu yina bo kekutana ti yo"
+    },
+    "paragraphs": [
+      "Bo lenda tubila na bunkufi mambu yonso ya ke wakana ti mutindu bantu ke zwaka bansangu na Internet na mpila nde bo yidika yo na meso ya bantu yonso. Bo ke katulaka bansangu ya bantu yina bo lenda solula ti bo mpi mambu ya nkaka ya mfunu na ntwala ya kubasisa yo.",
+      "Kana rapore na nge kele ti bansangu ya kinsweki, tuba yo pwelele na nsangu yina nge tapesa."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Mutindu mambu kele bubu yai",
+      "title": "Bandilu yina beto me zaba"
+    },
+    "paragraphs": [
+      "Site yai kele ya fioti mpi mingi-mingi yo ke vandaka kaka kisika mosi. Yo lenda vanda nde bo me manisa ve Babiblia ya nkaka na bandinga ya nkaka ntangu bo ke yidika yo sambu na kubalula yo."
+    ]
+  }
+}

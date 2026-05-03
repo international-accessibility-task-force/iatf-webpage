@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Kikalulu ya kukonda kupona-pona",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Kikalulu ya kukonda kupona-pona",
+    "lead": "IATF ke salaka na bisika ya bantu yonso. Badesizio ya bisalu, bansiku ya ke sobaka, baluyalu, mpi mbongo ya bisalu ke vandaka na bisika yina bantu yonso ke vandaka.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Mambu ya kusonika",
+      "title": "Kisika yina bo ke bumbaka bazina na bo"
+    },
+    "items": [
+      "<strong>Badesizio ya kisalu.</strong> Balukanu ya kundima, ya kubumba yo, mpi ya kuvutula yo na kisika ya nkaka, bo ke sonikaka yo na mikanda ya bo ke bumbaka, mpi bo ke tubilaka yo na bunkufi na mukanda yina bo ke tulaka bazina ya bantu yonso. <a href=\"/projects/\">mukanda ya bazina</a>Keti nge me zaba yo ?",
+      "<strong>Lomba mikanda.</strong> Mikanda ya kulomba na bantu yonso kele ya kubumbama na kimvuka ya IATF GitHub, na site Internet yai, to na mikanda yonso zole. Mikanda lenda tubila na bunkufi, kubalula, to kuyidika mukanda ya ntete na mpila nde bo lenda tadila yo kukonda kumonisa bansangu ya muntu yina kele mfunu ve.",
+      "<strong>Bansiku me soba.</strong> Konso nsoba ya bansiku kele ya bantu yonso na kisika ya bo ke bumbaka bansangu. Tala IATF <a href=\"{{contact.githubOrgUrl}}\">Kimvuka ya GitHub</a>Keti nge me zaba yo ?",
+      "<strong>Bansoba na mutindu ya kutwadisa mambu.</strong> Bansangu ya mpa yina bo ke pesaka na lutiti yina ke tubilaka mutindu ya kutwadisa mambu, bo ke landaka yo sambu yo ke monisaka nde bo ke sala na kuwakana ti lukanu yina bo bakaka. <code>site ya Internet ya IATF</code> Tala mambu yina kele na kati. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">mambu ya ntama</a> na GitHub.",
+      "<strong>Mbongo ya bisalu.</strong> IATF ke bumbaka ntalu ya mbongo yina bo ke sadilaka bisalu na bo mpi ke tangaka mbongo yina ke basikaka mbala na mbala sambu na bisalu ya nene ya leta.",
+      "<strong>Bansangu ya ketadila mutindu ya kusala mambu.</strong> Ba note ya ba revues to ba desizio ya bo me wakana kele na GitHub Ba diskure na ba référentiel ya mfunu  tala <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Masolo</a> na yina metala <code>site ya Internet ya IATF</code> Kisika ya kubumba yo."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Mbongo ya bo ta futa",
+      "title": "Bansangu ya ke tadila mbongo yina bo ke sadilaka sambu na bisalu ya nkaka"
+    },
+    "paragraphs": [
+      "IATF ke bumbaka ba infrastructures na bo ya fioti na luzolo yonso. Banda na 2022, ntalu ya nene ya ke vutukaka mbala na mbala ke vandaka bazina ya domaine. Bo ke sadilaka infrastructures ya ofele to ya ntalu fioti kana mpila kele.",
+      "Mukanda yai kele ve rapore ya mbongo yina bo me tadilaka mbote, kansi yo kele rapore yina ke monisaka ntalu ya mbongo ya bisalu yina bo ke sadilaka sambu na kusala bisalu yina IATF ke salaka na ntoto ya mvimba."
+    ],
+    "footnote": "Bo lenda sonika bazina ya bantu yina bo bakaka mbongo na bo na mikanda to bo lenda pesa yo na bantu ya nkaka na nima ya kusonika yo.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Kisika ya kusala",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Mbongo ya Kisalu",
+            "value": "Mbongo ya Amerika 3,40"
+          },
+          {
+            "label": "Bangindu ya Mfunu",
+            "value": "Kisalu me katuka na Vercel na Cloudflare mpi me yantika kusadila ntangu fioti <code>iatf.cc</code> Kisika."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Kisika ya kusala",
+            "value": "<code>bantu ya nsi-ntoto ya mvimba lenda zwa lusadisu na site Internet ya Taskforce.com</code>"
+          },
+          {
+            "label": "Mbongo ya Kisalu",
+            "value": "Mbongo ya Amerika 18,68"
+          },
+          {
+            "label": "Bangindu ya Mfunu",
+            "value": "Ntalu ya domain yina mugiwarafx ke futaka mbongo. Bo ke sadilaka ba-infrastructure ya ofele to ya ntalu fioti."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Kisika ya kusala",
+            "value": "<code>bantu ya nsi-ntoto ya mvimba lenda zwa lusadisu na site Internet ya Taskforce.com</code>"
+          },
+          {
+            "label": "Mbongo ya Kisalu",
+            "value": "USD 17,06 Mbongo ya Amerika"
+          },
+          {
+            "label": "Bangindu ya Mfunu",
+            "value": "Ntalu ya domain yina mugiwarafx ke futaka mbongo. Bo ke sadilaka ba-infrastructure ya ofele to ya ntalu fioti na nzila ya Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Kisika ya kusala",
+            "value": "<code>bantu ya nsi-ntoto ya mvimba lenda zwa lusadisu na site Internet ya Taskforce.com</code>"
+          },
+          {
+            "label": "Mbongo ya Kisalu",
+            "value": "USD 14,76 Mbongo ya Amerika"
+          },
+          {
+            "label": "Bangindu ya Mfunu",
+            "value": "Ntalu ya domain yina mugiwarafx ke futaka mbongo. Bo ke sadilaka ba-infrastructure ya ofele to ya ntalu fioti."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Kisika ya kusala",
+            "value": "<code>bantu ya nsi-ntoto ya mvimba lenda zwa lusadisu na site Internet ya Taskforce.com</code>"
+          },
+          {
+            "label": "Mbongo ya Kisalu",
+            "value": "7,76 ya badolare ya États-Unis"
+          },
+          {
+            "label": "Bangindu ya Mfunu",
+            "value": "Ntalu ya domaine yina mugiwarafx ke futaka mbongo. Bo ke sadilaka infrastructure ya ofele to ya ntalu fioti na nzila ya GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Noti ya ndilu",
+      "title": "Mambu yina kele ve ya bantu yonso"
+    },
+    "paragraphs": [
+      "Bo me bumbaka mambu ya nkaka yina kele ve na mikanda ya leta sambu na bikuma yai:"
+    ],
+    "items": [
+      "Bansangu ya muntu yina me pesa mukanda yina.",
+      "Bo kesonikaka yo kaka sambu na kutendula mambu ya bo kelomba na ntwala nde bo ndima yo, bo buya yo, to bo pesa yo na bunkufi.",
+      "Adrese ya muntu yandi mosi, nimero ya telefone, mpi bansangu ya bantu yina kele mfunu ve.",
+      "Konso kima yina lenda sadisa na kuzaba muntu yina ke sadila bima yina kukonda kulomba nswa na yandi.",
+      "Ba diskure ya Raw Discord, katula kaka kana bo mekotisa na luzolo yonso nsangu mosi ya sikisiki na mukanda ya kisalu ya bantu yonso."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tanga mingi",
+      "title": "Luyalu kele mukanda yina ketwadisaka mambu ya bo kesonikaka na mikanda yai"
+    },
+    "paragraphs": [
+      "Kana nge ke zola kuzaba mutindu bo ke ndimaka bisalu, ke bumbaka yo, to ke pesaka yo na bantu ya nkaka, tala lutiti yina ke tubila mutindu ya kutwadisa bisalu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}
