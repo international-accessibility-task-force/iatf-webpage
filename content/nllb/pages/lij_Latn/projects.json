@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proieçioin d'accescibilitæ pubrica",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proieçioin d'accescibilitæ pubrica",
+    "lead": "Sto registro o l'elenca i progetti pubbrichi mantegnui da-o IATF. I progetti d'accessibilitæ accettæ, l'infrastruttua do scito e i prototipi archiviæ son tegnui vixibili chì.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro a-a giornâ d'ancheu"
+    },
+    "intro": [
+      "E proieçioin accettæ en stæte elencæ quande son stæte pubricæ."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Inviâ 'na necescitæ",
+      "title": "Convertî unna necescitæ concreta d'accessibilitæ inte un progetto pubrico"
+    },
+    "paragraphs": [
+      "L'IATF a revëgne de necescitæ concrete d'accessibilitæ che peuan ëse trasformæ inte di travaggi pubbrichi de fonte averta utile."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "No gh'é ancon de proieçioin pubricæ",
+    "paragraphs": [
+      "L'IATF o l'à preparou o seu primmo progetto pubrico.",
+      "Ti peu ancon mandâ unna domanda se ti gh'æ unna necescitæ concreta d'accessibilitæ."
+    ]
+  }
+}

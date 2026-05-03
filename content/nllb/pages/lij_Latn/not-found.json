@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "No l'é stæto trovou"
+  },
+  "hero": {
+    "eyebrow": "No l'é stæto trovou",
+    "title": "A paggina domandâ a no l'é stæta trovâ",
+    "lead": "Pe tornâ a-o pòsto pubrico piggiæ e stradde prinçipæ de sotta.",
+    "support": [],
+    "actions": [
+      {
+        "label": "A cà",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "A stradda che t'æ domandou a no l'existe."
+    ],
+    "items": [
+      {
+        "label": "A cà",
+        "href": "/"
+      },
+      {
+        "label": "Proieçioin",
+        "href": "/projects/"
+      },
+      {
+        "label": "Unîse",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilitæ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governansa",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trasparensa",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

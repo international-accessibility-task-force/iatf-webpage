@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "domandâ un progetto d'accessibilitæ",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "domandâ un progetto d'accessibilitæ",
+    "lead": "L'IATF a examina e richieste de progetti d'accessibilitæ che partan da unna necescitæ reale.",
+    "support": [
+      "No ti gh'æ beseugno de 'na specificaçion completa, basta un problema ciæo, chi o l'attreuva e perché l'é importante pe comensâ."
+    ],
+    "actions": [
+      {
+        "label": "Iniçiâ 'na richieste",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Deuvia Discòrdio à seu vòtta",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canæ",
+      "title": "Sceglie a stradda ciù façile."
+    },
+    "intro": [
+      "Tutte e rotte intran inta mæxima revisione."
+    ],
+    "items": [
+      {
+        "label": "Sito web",
+        "body": "Pe inviâ 'na domanda strutturâ, deuviæ o modulo chi de sotta."
+      },
+      {
+        "label": "E-mail[modìfica _ modìfica wikitèsto]",
+        "body": "Inviâ a domanda direttamente a-a {{contact.requestsEmail}}E richieste de e-mail peuan vegnî archivi de richieste pubbriche dòppo a revisione e a redaçion."
+      },
+      {
+        "label": "Discòrdio",
+        "body": "A domanda a l'é anæta avanti inta mæxima revixon."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Primma de mandâ unna domanda",
+    "paragraphs": [
+      "E richieste peuan ëse resumæ e pubricæ comme archivi de richieste pubriche inte l'organizzaçion GitHub de l'IATF, inte sto scito web, ò tutti doî.",
+      "No includde adrexi privæ, numeri de telefonin, dæti medichi, ò informaçioin d'identificaçion in sce di utenti individui de tecnologie d'assistensa a-o manco che segge necessaio e che ti segge confortevole che l'IATF o l'examine.",
+      "L'IATF o scancela i dæti de contatto personâ inutili primma de pubricâ e registraçioin de richieste."
+    ]
+  },
+  "review": {
+    "title": "E aspetiçioin de revisione",
+    "paragraphs": [
+      "A presentaçion de unna domanda a no garantisce l'accettaçion.",
+      "L'IATF a revëgne e richieste pe l'adattaçion a-a miscion, a façilezza, l'utilitæ, e se o travaggio o l'apparten à un repositoio pubrico.",
+      "Çerte richieste peuan ëse refuæ, rinviæ ò modificæ primma de ëse accettæ."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Modulo de domanda",
+      "title": "Invio de 'na domanda"
+    },
+    "fields": [
+      {
+        "kind": "inpostaçión",
+        "name": "chi o l'à fæto a domanda",
+        "label": "O teu nomme ò l'organizzaçion",
+        "helper": "Chi o l'à fæto a domanda?"
+      },
+      {
+        "kind": "seleçionâ",
+        "name": "Pòrto de contatto",
+        "label": "Via de contatto preferibile",
+        "helper": "Cómme se deve fâ a seguéssa?",
+        "required": true,
+        "options": [
+          "E-mail[modìfica _ modìfica wikitèsto]",
+          "Discòrdio"
+        ]
+      },
+      {
+        "kind": "inpostaçión",
+        "name": "Informaçioin de contatto",
+        "label": "Informaçioin de contatto",
+        "helper": "Direçion e-mail ò nomme Discord pe-o seguo.",
+        "placeholder": "A poxiçión de l'e-mail ò o nomme utente de Discord",
+        "required": true
+      },
+      {
+        "kind": "inpostaçión",
+        "name": "lengua",
+        "label": "Lengua",
+        "helper": "A teu lengua preferia, se a l'é pertinente.",
+        "value": "Ingreise"
+      },
+      {
+        "kind": "çittæ de testo",
+        "name": "problêma",
+        "label": "Che problema ti t'ê à çercâ de risòlve?",
+        "helper": "Descrive a barriera con unna paròlla ciæa.",
+        "required": true
+      },
+      {
+        "kind": "çittæ de testo",
+        "name": "Zeneize",
+        "label": "Chi o l'é interessou?",
+        "helper": "Chi l'aiva da fâ?",
+        "required": true
+      },
+      {
+        "kind": "çittæ de testo",
+        "name": "extraContext[modìfica _ modìfica wikitèsto]",
+        "label": "Contexto in ciù",
+        "helper": "Condividi quarcösa de ciù ch'o l'aiva da spiegâ a necescitæ: perché l'é importante, exempi, referense, unn'idea gròssa de software, ò restriçioin de tempo."
+      },
+      {
+        "kind": "seleçionâ",
+        "name": "openSourceConsent[modìfica _ modìfica wikitèsto]",
+        "label": "Ti t'ê confortabile co-o sviluppo de còdici averti pubbrichi?",
+        "helper": "I progetti accettæ son di archivi pubbrichi de l'IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Sciâ l'é coscì.",
+          "Niâtri",
+          "No son segûo ancon."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se o l'é accettou",
+      "title": "Quéllo che l'accettaçión o veu dî"
+    },
+    "items": [
+      "un repositoio pubrico inte l'organizzaçion GitHub de l'IATF",
+      "un ingegnere responsabile assegnou a-o progetto",
+      "unna licenza copyleft pe-o còdice e i materiali do progetto",
+      "sviluppo pubrico into repositoio",
+      "unna poxiçion de registro in sciô scito de l'IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Comensâ a conversaçion",
+      "title": "Unn-a domanda curta e ciæa a l'é abastansa pe comensâ"
+    },
+    "paragraphs": [
+      "Se ti gh'æ unna reâ necescitæ d'accessibilitæ e ti pensci che dovieiva vegnî un progetto pubrico, ti peu mandâlo à niatri."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

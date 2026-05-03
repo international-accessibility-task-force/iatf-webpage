@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilitæ",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilitæ",
+    "lead": "L'IATF a l'à l'intençion de mantegnî sto scito web semplice, leggibile, accescibile co-a tastiera e compatibile con e tecnologie d'assistensa.",
+    "support": [
+      "Pe l'accessibilitæ a-o web, l'IATF o deuviâ [W3C WAI](https://www.w3.org/WAI/) L'accessibilitæ pratica a l'é informâ ascì da l'esperiensa diretta di utenti de tecnologie d'assistensa."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Informaçioin",
+      "title": "Reportâ un problema d'accessibilitæ"
+    },
+    "paragraphs": [
+      "Se ti veddi unna barriera à l'accessibilitæ in sce sto scito web, ti peu segnalâlo pe e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "E informaçioin utili en:"
+    ],
+    "items": [
+      "a paggina into quæ o problema o s'é verificou",
+      "quello che t'æ çercou de fâ",
+      "cös'a l'é a tecnologia d'assistensa, o navegatô ò o dispoxitivo ch'o l'aiva deuviou, se pertinente",
+      "cöse o l'é anæto pe mâ?",
+      "ch'o l'aviæ agiutòu"
+    ],
+    "footnote": "No gh'é beseugno de scrive un rapòrto ofiçiâ de bug."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipolaçión",
+      "title": "Trattâ di argomenti pubbrichi"
+    },
+    "paragraphs": [
+      "I problemi d'accessibilitæ peuan ëse riassumii inte l'archiviaçion pubrica pertinente pe poei ëse aggiustæ à l'aperto: i dæti de contatto personale e e informaçioin privæ inutili en eliminæ primma da pubricaçion.",
+      "Se a teu relaçion a contegne informaçioin privæ, dîlo ciæo into messaggio."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Staçión attuâle",
+      "title": "Limitaçioin conosciue"
+    },
+    "paragraphs": [
+      "Sto scito o l'é intençionalmente piccin e ciù che tutto statico. Çerte verscioin de lengue peuan ëse incomplette mentre se sta preparando e traduçioin."
+    ]
+  }
+}

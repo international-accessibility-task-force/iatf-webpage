@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Trasparensa",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Trasparensa",
+    "lead": "L'IATF a travaggia in pubrico pe default. e decixoin do progetto, i cangi de còdice, e modificaçioin de governansa e i costi operativi son registræ in pòsti pubbrichi. sta pagina a l'indica dove vive ogni tipo de registraçion e comme leze lê.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Regòrdi",
+      "title": "A-o quæ gh'é i archivi"
+    },
+    "items": [
+      "<strong>Deçixoin de progetto.</strong> E decixoin d'accettaçion, d'archiviaçion e de reassegnaçion en registræ comme emissioin ò rilasci inte l'archivio rilevante, e resumæ into registro pubrico. <a href=\"/projects/\">registraçión</a>- No , no , no .",
+      "<strong>Demanda de registraçioin.</strong> E registraçioin de richieste pubbriche son archiviæ inte l'organizzaçion GitHub de l'IATF, inte sto scito web, ò tutti doî.",
+      "<strong>Cangiaménti de còdice.</strong> Ogni cangio de còdice o l'é un commit pubrico inte l'archiviaçion pertinente. <a href=\"{{contact.githubOrgUrl}}\">Organizzaçion GitHub</a>- No , no , no .",
+      "<strong>Cangi de govèrno.</strong> E aggiornamenti a-a paggina de governansa son seguæ comme impegni a-o <code>iatf-website</code> O l'é un repositöio. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">comensâ a stöia</a> in sce GitHub.",
+      "<strong>Costi de fonçionamento.</strong> L'IATF o tegne i costi operativi bassi e o registra e spese ricorrente pe-e infrastruttue pubriche.",
+      "<strong>Notæ de coordinamento.</strong> Note da-a revisione coordinâ ò da-e decixoin vive in GitHub Discuscioin in sciô repositöio rilevante  vista <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Discuscioin</a> in sciâ <code>iatf-website</code> Repositorio."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Costi",
+      "title": "Registraçion de costi operativi"
+    },
+    "paragraphs": [
+      "L'IATF a tegne a seu infrastruttua pubrica in mòddo intençionou piccin. Da-o 2022, i prinçipæ costi operativi ricorrenti en stæti i nommi de dominio. L'hosting o l'à deuviou de infrastruttue de livello libero ò de costo basso donde l'é poscibile.",
+      "Sta registraçion a no l'é un bilancio verificou, ma un registro pubrico di costi de fonçionamento pe-e infrastruttue deuviæ pe mantegnî l'IATF in ligna."
+    ],
+    "footnote": "E reçitte peuan ëse referense ò pubricæ dòppo a redaçion. I indirizzi personæ, i dettaggi de fatturaçion e e informaçioin de conto inutili no fan parte de l'archiviaçion pubrica.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domìnio",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "3,40 dòllari americànn-i"
+          },
+          {
+            "label": "Notaçioin",
+            "value": "O progetto o l'é passou da-o Vercel a-o Cloudflare. <code>iatf.cc</code> Dominio."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domìnio",
+            "value": "<code>accessibilitæ internaçionâ taskforce.com</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "USD 18,68"
+          },
+          {
+            "label": "Notaçioin",
+            "value": "Costo do dominio finançiou da mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domìnio",
+            "value": "<code>accessibilitæ internaçionâ taskforce.com</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "17,06 dòllari americànn-i"
+          },
+          {
+            "label": "Notaçioin",
+            "value": "Costo do dominio finançiou da mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domìnio",
+            "value": "<code>accessibilitæ internaçionâ taskforce.com</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "14,76 dòllari americànn-i"
+          },
+          {
+            "label": "Notaçioin",
+            "value": "Costo do dominio finançiou da mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domìnio",
+            "value": "<code>accessibilitæ internaçionâ taskforce.com</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "7,76 dòllari americànn-i"
+          },
+          {
+            "label": "Notaçioin",
+            "value": "Costo do dominio finançiou da mugiwarafx."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota de confin",
+      "title": "Quello ch'o no l'é pubrico"
+    },
+    "paragraphs": [
+      "Quarche materiale o l'é tegnûo feua da-i archivi pubbrichi con de intençioin:"
+    ],
+    "items": [
+      "E informaçioin de contatto personale di proponenti.",
+      "A corispondensa privâ a l'é deuviâ solo pe clarificâ unna domanda primma che a segge accettâ, refuâ ò resumâ.",
+      "Direçioin privæ, nummeri de telefonin, e dettaggi personæ inutili.",
+      "Tutte e cöse che peuan identificâ un utente individuale de tecnologia d'assistensa sensa consentimento.",
+      "Conversaçioin Raw Discord, a meno che un messaggio specifico o segge spostou intençionalmente inte un archivio pubrico do progetto."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Liggi ciù",
+      "title": "A governansa a l'é o libbro de regole che gh'é apreuvo a-e registraçioin"
+    },
+    "paragraphs": [
+      "Se ti veu capî comme i progetti son accettæ, archiviæ, ò reassegnæ, leze a pagina de governansa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

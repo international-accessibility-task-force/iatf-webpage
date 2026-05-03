@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance e repository model",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance e repository model",
+    "lead": "L'IATF a tegne i progetti d'accessibilitæ pubbrichi, leggibili e mantenibili.",
+    "support": [
+      "Sta paggina a l'esplicita cöse se qualifican, comme se tegnan i repositori e quæ responsabilitæ a-o livello do repositorio a se applica dòppo l'accettaçion."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regolaçioin",
+      "title": "Mission fit, ownership, licensing"
+    },
+    "cards": [
+      {
+        "title": "Miscion adeuviâ",
+        "paragraphs": [
+          "L'IATF a l'accetta di travaggi che affrontan unna reâ barriera à l'accessibilitæ e che gh'an un valô pubrico ciæo.",
+          "Un progetto o dovieiva ëse utile ciù che un solo flusso de travaggio privou e funzionâ comme un repositoio pubrico.",
+          "Pe l'accessibilitæ a-o web, l'IATF o deuviâ [W3C WAI](https://www.w3.org/WAI/) L'esperiensa diretta di utenti de tecnologie d'assistensa a l'é ascì l'evidensa pratica de quello ch'o fonçiona inte l'uso reâ."
+        ]
+      },
+      {
+        "title": "Accettaçion do progetto",
+        "paragraphs": [
+          "A propòsta a peu ëse accettâ quande l'esame o mostra che:"
+        ],
+        "items": [
+          "a risponde à unna reâ necescitæ d'accessibilitæ",
+          "O problema o l'é abbastanza ciæo pe valutâlo",
+          "l'ambito o l'é beseugno de realismo pe lançâ",
+          "o travaggio o l'é coerente co-a miscion de l'IATF",
+          "gh'é un percorso plausibbile pe-a manutençion ò o completamento"
+        ]
+      },
+      {
+        "title": "Proprietæ do repositoio",
+        "paragraphs": [
+          "I progetti accettæ son creæ sotta l'organizzaçion GitHub de l'IATF.",
+          "I repositöi restan lì coscì che ògni progetto o tegne unna casa pubrica stabile, ascì se i mantenien ciù tardi cangian."
+        ]
+      },
+      {
+        "title": "Licensaçión",
+        "paragraphs": [
+          "I progetti de l'IATF utilizzan a licensa copyleft a meno che un progetto o no segge dito diversciamente:"
+        ],
+        "items": [
+          "<strong>Codiçio:</strong> AGPL-3.0",
+          "<strong>Documentaçión:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Responsabile de l'inzegnê ò do manutentô",
+      "paragraphs": [
+        "Ogni progetto accettou o dovieiva avei un ingegnere ò un manteniente responsabile, ch'o peu avei l'accesso de aministratô a-o repositoio e o deve:"
+      ],
+      "items": [
+        "sviluppo de guide in pubrico",
+        "mantegnî a struttua do repositoio",
+        "recensâ ò gestî di problemi e prelevâ de richieste",
+        "documentaçioin de decixoin tecniche importanti",
+        "tegnî o progetto compreensibile pe-i atri"
+      ],
+      "footnote": "Questa a l'é a responsabilitæ a-o livello de repositöio. A propietæ organizzativa a resta con l'IATF. A responsabilitae in sciâ quæ gh'é l'amministraçion do repositoio, a direçion tecnica e o coordinamento pubrico  no a consegna privâ illimitâ, integraçioin personalizæ ò impegni de livello de serviçio feua da-a roadmap pubrica."
+    },
+    "publicDevelopment": {
+      "title": "Desviluppo pubrico",
+      "paragraphs": [
+        "I progetti lanciæ pe mezo de IATF son sviluppæ in pubrico pe default."
+      ],
+      "items": [
+        "codiçio fonte",
+        "di argomenti",
+        "documentaçión",
+        "Notaçioin in sciâ roadmap",
+        "stöia de rilascio"
+      ],
+      "footnote": "A conoscensa importante do progetto a no dovieiva vive solo inte chat privæ ò inte caselle d'intrâ."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Archivi pubbrichi",
+      "title": "E registraçioin pubbriche de richieste"
+    },
+    "paragraphs": [
+      "L'IATF a travaggia in pubrico pe default. e richieste che intran in IATF pe mezo do scito web, e-mail, Discord, GitHub, ò di atri canali de l'IATF peuan vegnî archivi de richieste pubriche.",
+      "Unn-a registraçion de domanda pubrica a no l'é necessariamente o messaggio originâ. l'IATF a peu resumî, redigî, ò ristrutturâ unna domanda primma da pubricaçion coscì che a necescitæ d'accescibilitæ a pòsse ëse revixonâ sensa mostrâ de informaçioin personæ inutili.",
+      "E registraçioin de richieste pubriche peuan ëse archiviæ inte l'organizzaçion GitHub de l'IATF, inte sto scito web, ò tutti doî.",
+      "Prima de pubricâ, l'IATF o scancela i dæti de contatto personâ inutili, i indirizzi privæ e e informaçioin d'identificaçion in sce di utenti individuali de tecnologie d'assistensa, a meno che a pubricaçion a no segge ciæamente intençionâ e appropiâ.",
+      "O Discord o l'é deuviou pe-o coordinamento informale. IATF o no l'archivia separatamente e conversaçioin de Discord de default, e a conservaçion di messaggi a l'è controllâ da Discord.",
+      "E registraçioin de richieste son escluxe da l'indiçiaçion di motori de çercâ donde a l'é tecnicamente pratica. Pubblico o veu dî revedibile e responsabile. O no veu dî ottimizzou pe-a descoverta pe mezo de çerche de nomme.",
+      "L'IATF a peu aggiornâ ò eliminâ i record da-e superfiçie pubriche controllæ da-a IATF, ma a no peu garantî a rimoçion da-i cache de terse parte, notifiche, forchi, screenshot, motori de çerchia, Discord ò di atri scistemi esterni.",
+      "Se un messaggio o deve restâ privou, no inviâlo pe-i canali pubbrichi de l'IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ròllo organizzatîvo",
+      "title": "Prescidensa"
+    },
+    "lead": "O prescidente o l'à l'amministraçion a-o livello de l'organizzaçion do IATF.",
+    "duties": {
+      "title": "Cöse fa a seggia",
+      "items": [
+        "A tegne i permissi do propietäio in sce l'organizzaçion GitHub de l'IATF",
+        "Firme pe l'accettaçion de progetti e decixoin d'archivio",
+        "Deuvia comme ponto de contatto pubrico pe l'IATF",
+        "Coordinâ l'eleçion annua"
+      ],
+      "footnote": "O prescidente o no l'impegna l'IATF a-a consegna privâ, a-o travaggio pagou ò à di convençioin de livello de serviçio, e o no preuva e decixoin de l'amministratô de archivio pe-a direçion tecnica."
+    },
+    "election": {
+      "title": "Eleçioin annæ",
+      "paragraphs": [
+        "O prescidente o l'é eleto unna vòtta l'anno.",
+        "I votanti eleggibili son de persoñe che an avuo un ròllo de manteniente inte un repositöio IATF pe-o corso de l'anno e che an fæto a-o manco unna contribuçion combinâ à un repertöio do Iatf in quello mæximo anno.",
+        "L'eleçion a l'é eseguia comme unna discuscion pubrica in sce GitHub inte l'archiviaçion de governansa de l'IATF, coscì i candidati, o voto e o resultato en tutti parte do registro pubrico."
+      ]
+    },
+    "continuity": {
+      "title": "Continuitæ",
+      "paragraphs": [
+        "Se no gh'é de eleçioin inte un anno, l'attuale prescidente o l'é in carica fin à l'eleçion che vëgne apreuvo, pe un tempo indeterminou, no pe un periodo de graçia.",
+        "O prescidente o peu renonçiâ à ògni mòddo, e i mantitoî attivi peuan ascì convocâ de eleçioin straordinarie, con unna motivaçion esplicita, segondo e mæxime regole de quelle de l'eleçion annua."
+      ]
+    },
+    "current": {
+      "title": "Prescidensa attuâ",
+      "fields": [
+        {
+          "label": "Prescidensa",
+          "value": "Mugiwarafx[modìfica _ modìfica wikitèsto]",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tempô",
+          "value": "Fin a-e eleçioin de dexembre do 2026"
+        },
+        {
+          "label": "O ròllo o l'é formalizzou",
+          "value": "2026"
+        },
+        {
+          "label": "Primma eleçion programâ",
+          "value": "Dicenbre do 2026"
+        }
+      ]
+    },
+    "footnote": "O ròllo de prescidénte o l'é stæto formalizòu into 2026 pe rendî esplicita l'amministraçion a-o livello de l'organizzaçion."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stato do progetto",
+      "paragraphs": [
+        "I progetti deuvian un piccin gruppo de stati pubbrichi:"
+      ],
+      "items": [
+        "Propòsta",
+        "Accettòu",
+        "Attivo",
+        "Stabile",
+        "A çercâ un manteniente",
+        "Archivio"
+      ],
+      "footnote": "Sti stati tegnan o registro façile da scansionâ."
+    },
+    "reassignment": {
+      "title": "Riasegnaçion e archiviaçion",
+      "paragraphs": [
+        "Se un manteniente o se ne va ò o vëgne inattivo, l'IATF o peu reassegnâ a responsabilitæ, mette in pausa o sviluppo ò archiviâ o progetto.",
+        "Un progetto o peu ëse archivou ascì quande a necescitæ originâ a l'é stæta soddisfæta, a manutençion a s'é fermâ, ò o travaggio continuo o no l'è ciù realistico."
+      ],
+      "footnote": "I progetti archiviæ restan publicamente vixibili a meno che gh'agge unna raxon convincente pe fâ o conträio."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota de confin",
+      "title": "Quello che o IATF o no garantisce"
+    },
+    "items": [
+      "consegna a-i clienti privæ",
+      "convençioin de livello de serviçio",
+      "accettaçion de tutte e propoxiçioin",
+      "manutençion a longo termine pe ògni progetto"
+    ],
+    "footnote": "L'IATF o l'é un modello de archivio pubrico, no un serviçio de consegna privou."
+  }
+}

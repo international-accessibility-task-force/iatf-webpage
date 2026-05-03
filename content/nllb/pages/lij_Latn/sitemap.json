@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap[modìfica _ modìfica wikitèsto]"
+  },
+  "hero": {
+    "eyebrow": "Indiçio",
+    "title": "Sitemap[modìfica _ modìfica wikitèsto]",
+    "lead": "Tutte e paggine pubbriche in sce iatf.cc, inte un solo pòsto."
+  },
+  "sections": [
+    {
+      "title": "Pàgine prinçipæ",
+      "items": [
+        {
+          "label": "A cà",
+          "href": "/"
+        },
+        {
+          "label": "Proieçioin",
+          "href": "/projects/"
+        },
+        {
+          "label": "domandâ un progetto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Governansa",
+          "href": "/governance/"
+        },
+        {
+          "label": "Unîse",
+          "href": "/join/"
+        },
+        {
+          "label": "Accessibilitæ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Trasparensa",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proieçioin",
+  "projectsEmpty": "No gh'é de proieçioin pubricæ ancon."
+}

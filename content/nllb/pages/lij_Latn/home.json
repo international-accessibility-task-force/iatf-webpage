@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Da-a necescitæ d'accescibilitæ a-i repo pubbrichi",
+    "lead": "L'IATF a l'aiva d'associaçioin, de groppi e de persoñe à trasformâ de beseugno d'accessibilitæ reali in di progetti pubbrichi open source.",
+    "support": [
+      "I progetti accettæ son pubricæ inte l'organizzaçion GitHub de l'IATF sotta unna licenza copyleft e sviluppæ in pubrico da un ingegnere responsabile."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modello de fonçionamento pubrico",
+      "title": "Unn-a stradda pubrica semplice pe-o software accescibile"
+    },
+    "paragraphs": [
+      "Pe mezo de un mòddo, quarchedun o peu inviâ un problema d'accescibilitæ à l'IATF. Se a squaddra a peu piggiâlo in man, un repositoio pubrico GitHub o l'é apreuvo a-o travaggio.",
+      "Ogni progetto accettou o l'à unna casa pubrica ch'a l'é ciæa pe-o còdice, i problemi, a documentaçion e e pubricaçioin, co-o sviluppo guidou à l'aperto da un ingegnere responsabile."
+    ],
+    "specCard": {
+      "title": "Modello de fonçionamento pubrico",
+      "terms": [
+        {
+          "term": "Necessitæ",
+          "definition": "Problema d'accessibilitæ reale"
+        },
+        {
+          "term": "Revisione",
+          "definition": "Adattaçion a-a miscion e feuabilitæ pratica"
+        },
+        {
+          "term": "O spaçio do progetto",
+          "definition": "Repositorio pubrico GitHub"
+        },
+        {
+          "term": "Amministraçion",
+          "definition": "Proprietæ de l'organizzaçion IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Processo",
+      "title": "Com'o fonçioña",
+      "intro": "O modello o l'é stæto fæto coscì piccin che a stradda pubrica a l'è façile da seguî."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Unn-a necescitæ a l'é presentâ",
+        "paragraphs": [
+          "Un'associaçion, un gruppo ò un individuo peuan presentâ unna domanda basâ in sce unna reâ necescitæ d'accessibilitæ.",
+          "E richieste peuan comensâ pe-o scito do scito web, pe e-mail a: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ò pe mezo da Discòrdia."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "L'IATF o l'aveiva recensòu",
+        "paragraphs": [
+          "Emmo rivistou l'adattaçion a-a miscion, a portata pratica, e se o travaggio o fa parte de un progetto pubrico open source."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "L'é stæto creou un repositoio pubrico",
+        "paragraphs": [
+          "Se un progetto o l'é accettou, o vëgne pubricou inte l'organizzaçion GitHub de l'IATF con unna licenza copyleft.",
+          "O repositoio o diventa a casa pubrica do còdice, di problemi, de documentaçion e de pubricaçioin."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un ingegnere responsabile o guägna o progetto",
+        "paragraphs": [
+          "Un ingegnere responsabile o l'é assegnou à l'archiviaçion do progetto e o sviluppo o vëgne fæto in pubrico."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro pubrico de proçetti"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Comensâ da chì.",
+      "title": "Navigâ pe-i travaggi in corso ò comensâ un progetto concreto"
+    },
+    "paragraphs": [
+      "Pe vedde cöse o l'é za pubrico deuviæ o registro, ò comensâ à piggiâ de informaçioin se un problema concreto d'accessibilitæ o dovieiva vegnî un progetto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

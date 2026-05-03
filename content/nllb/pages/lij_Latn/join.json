@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Unîse a-o IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Unîse a-o IATF",
+    "lead": "L'appartenensa a l'é aperta. gh'é di mòddi de parteçipâ, sciben che ti ti t'appoggi a-a tecnologia assistiva, ti crei software accescibile, ti traduci, ti testi ò ti mantegni un progetto. E discuscioin e e deçixoin vëgnan fæte in pubrico in sce GitHub e Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ròlli",
+      "title": "Manere de contribuî"
+    },
+    "items": [
+      "<strong>Chiede un progetto.</strong> Se t'æ incontrou unna barriera à l'accessibilitæ ch'a porrieiva ëse affrontâ da-o software pubrico open source, inviâla pe mezo de l'ammissione de richieste.",
+      "<strong>Testa e revisione.</strong> Provâ i proçetti IATF co-a tecnologia d'assistensa che ti deuvi, segnalâ cöse funçionan e cös'o no, e archiviâ i problemi direttamente in sciô repositöio rilevante.",
+      "<strong>Traduçión.</strong> O contegnûo da fonte o l'é pubricou pe-a primma vòtta in ingleize, e e traduçioin son aggiunte quande i contributi son disponibili, comensando da-o spagnòllo.",
+      "<strong>Costruî.</strong> Piggiâ di probblemi into repositöio de l'IATF, mandâ de richieste de prelevamento, ò piggiâ un progetto comme seu responsabile inzegnê.",
+      "<strong>Mantegni.</strong> I progetti che gh'é an de vòtte beseugno de un neuvo manutentô, e a rotaçion di manutentori a l'é unna parte normale do modello, no unn'ecceçion."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canæ",
+      "title": "Quande l'IATF o travaggia in pubrico"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problemi, richieste de prelevamento, pubricaçioin e archivi do progetto.",
+      "<strong>Discòrdio.</strong> Discuscioin in vivo, coordinamento e domande informali.",
+      "<strong>E-mail. Pe piaxei.</strong> Utilizaçión <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> se ni o GitHub ni o Discord s'adattavan."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Prossimo passo",
+      "title": "Seleçionâ o canale ch'o corrisponde a-o mòddo che ti veu contribuî"
+    },
+    "paragraphs": [
+      "Tutti i canali alimentan a mæxima revisione pubrica e i mæximi archivi pubbrichi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
