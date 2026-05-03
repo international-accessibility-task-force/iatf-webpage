@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyek aksesibilitas umum",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyek aksesibilitas umum",
+    "lead": "Iyyae pendaptarangge mattaranggi proyek-proyek pabbanua iyya ritaroe pole IATF. proyek aksesibilitas iyya ritarimae, infrastruktur situs, nenniyya prototipe iyya riarsipkannge ritaroi ri iyyae onrongnge.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Riase'na",
+      "title": "Pendaftaran iya makkokkoe"
+    },
+    "intro": [
+      "Proyek-proyek iya ritarimae ritaroi ri iyyae onrongnge purana riappaissengeng."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Akkiringngi parellu",
+      "title": "Mappinrai apparelluang aksesibilitas konkret mancaji proyek pabbanua"
+    },
+    "paragraphs": [
+      "IATF napinrai apparelluang aksesibilitas konkrit iya nulle ripinra mancaji jama-jamang sumber terbuka iya makkeguna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Depa na publikasikang proyek",
+    "paragraphs": [
+      "IATF napadecengi proyek umum pammulangna.",
+      "Iko wedding mupa kiring parellui narekko engka parellu akkatuoangeng mattongeng-tongeng."
+    ]
+  }
+}

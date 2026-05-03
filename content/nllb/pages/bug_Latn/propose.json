@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Mapparellu proyek aksesibilitas",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Mapparellu proyek aksesibilitas",
+    "lead": "IATF nasappai parellu proyek aksesibilitas iya ripammulai pole apparelluang sitongenna.",
+    "support": [
+      "De'na parellu spesifikasi lengkap. masalah iyya jelas, niga iyya napengarui, nenniya magi parellu, genne untu' ripammulai."
+    ],
+    "actions": [
+      {
+        "label": "Mappammulai pangaja",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Pakkegunai Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Salureng",
+      "title": "Pilani laleng kaminang malomo"
+    },
+    "intro": [
+      "Sininna lalengna muttama ri tinja' iya pada e."
+    ],
+    "items": [
+      {
+        "label": "Situsna",
+        "body": "Pakkegunai bentu' ri yawa'e untu' makkiring parellui."
+      },
+      {
+        "label": "Emailna",
+        "body": "Suroi iyaro parellui langsung lao ri {{contact.requestsEmail}}Permintaan e-mail wedding mancaji catatan permintaan publik purana riperiksa nennia ri-redaksi."
+      },
+      {
+        "label": "Pallawangeng",
+        "body": "Mappammulai kuwaro narekko iyaero kaminang malomo. Akkutanangnge mattengngang maccolo ri lalenna attiroang iyya pappadae."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Riwettu de'napa mu kiring parellui",
+    "paragraphs": [
+      "IATF majjama ri tau maega e. Parellui ripaddeppungeng sibawa ripassu pappada catatan parellui tau maega ri organisasi GitHub, ri situs web'e, iyyarega keduwana.",
+      "Aja' mutaroi alamat pribadi, nomoro' telepon, rincian medis, iyyare'ga inpormasi identifikasi ritujunna tau pakkeguna teknologi assistive sangadinna narekko parellui sibawa iko malomo sibawa IATF naperiksa iaro.",
+      "IATF naleddai detail kontak pribadi iya de naparellu riolona mappalebba catatanna parellui."
+    ]
+  },
+  "review": {
+    "title": "Akkirakirang ekspektasi",
+    "paragraphs": [
+      "Akkirakirangnge dee najamingngi ritarimae.",
+      "IATF napinrai parellui ri tujunna akkegunanna jamangnge, akkegunangna, akkigunaanna, nenniyya narekko jamangge engkai rilalenna onrong attarongeng tauwe.",
+      "Siare' perellui de'na tarima, ritunda, iyarega ribentu paimeng riolona ritarima."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Bentu'na parellui",
+      "title": "Passamangngi parellui"
+    },
+    "fields": [
+      {
+        "kind": "pappaseng",
+        "name": "tau mapparapekangnge",
+        "label": "Aseng iyarega organisasi",
+        "helper": "Niga mèllauwi iyaro?"
+      },
+      {
+        "kind": "mappile",
+        "name": "Kontak laleng",
+        "label": "Rute kontak iya ripuji",
+        "helper": "Pékkugiko wedding patterui?",
+        "required": true,
+        "options": [
+          "Emailna",
+          "Pallawangeng"
+        ]
+      },
+      {
+        "kind": "pappaseng",
+        "name": "KontakDetail",
+        "label": "Detail kontakna",
+        "helper": "Alamat e-mail iyyare'ga alamat Discord untu' appatteruseng.",
+        "placeholder": "Alamat e-mail iyarega aseng Discord",
+        "required": true
+      },
+      {
+        "kind": "pappaseng",
+        "name": "werekkada",
+        "label": "Basa laingnge",
+        "helper": "Basa pappojimmu, narekko perellu.",
+        "value": "Inggrisi"
+      },
+      {
+        "kind": "onrong teks",
+        "name": "pakkasiwiang",
+        "label": "Aga masala nacoba mupattongeng?",
+        "helper": "Gambara'i pakkullengnge nasibawai werekkada-werekkada malomo.",
+        "required": true
+      },
+      {
+        "kind": "onrong teks",
+        "name": "Tau makkegunae",
+        "label": "Niga nakennai iyaro lasaé?",
+        "helper": "Niga akkégunana iyaro?",
+        "required": true
+      },
+      {
+        "kind": "onrong teks",
+        "name": "extraContext",
+        "label": "Konteks tambahan",
+        "helper": "Abbagei aga-aga lainge iyya bantui pannessai apparelluwangnge: magi parellu, rapang, referensi, ide parangkat lunak maloppo, iyyarega watakkale wettu."
+      },
+      {
+        "kind": "mappile",
+        "name": "openSourceConsent",
+        "label": "Masennang sibawa pengembangan open source umum?",
+        "helper": "Proyek iya ritarima iyanaritu repositori publik ri yawa IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Iyyaro",
+          "Degaga",
+          "Dé'pa namateppe'"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Narekko ritarimai",
+      "title": "Aga bettuwanna ritarima"
+    },
+    "items": [
+      "repositori umum ri organisasi IATF GitHub",
+      "Seuwa insinyur iya tanggung jawa'e iya ritugaskang lao ri proyek'e",
+      "lisensi copyleft untuk kode sibawa bahan proyek",
+      "akkebburenna tauwe ri laleng repository'e",
+      "seddi entri pendaptaran ri situs IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mappammulai bicara",
+      "title": "Ri tujunna pammulanna, parellu pappebalinna iya cedde'e."
+    },
+    "paragraphs": [
+      "Narekko mupunnai parellu akkatuoangeng iyya sitonget-tongenna nenniyya muwasengngi iyyae waji'i mancaaji jamang jama-jamang, suroki lao ri idi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

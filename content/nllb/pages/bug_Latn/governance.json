@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance sibawa modele repository",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance sibawa modele repository",
+    "lead": "IATF napertahangkang proyek aksesibilitas umum, wedding ribaca, sibawa wedding ripertahankang.",
+    "support": [
+      "Iyyae werekkadae napannessai aga iyya sicocoe, pekkogi repository'e, nenniyya aga tanggung jawa'na ri tingka'na repositori'e ripakei purana ritarima."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Aturanna",
+      "title": "Misi sicoco, kepemilikan, lisensi"
+    },
+    "cards": [
+      {
+        "title": "Misi mappadai",
+        "paragraphs": [
+          "IATF naterima jamang iya naselesaikangi halangan aksesibilitas iya tongengnge sibawa punnai nilai publik iya jelas.",
+          "Seddi proyek waji makkeguna ri saliweng seddi allalengeng jamang swasta nenniya wedding rijama mancaji repositori umum.",
+          "Untu' aksesibilitas web, IATF mappake [W3C WAI](https://www.w3.org/WAI/) Paddisengeng langsungna pakkeguna teknologi assistif iyanaritu butti praktis pole aga iya majjama rilaleng akkegunang nyata."
+        ]
+      },
+      {
+        "title": "Akkebbureng proyek",
+        "paragraphs": [
+          "Seddie proposal nulle ritarima narekko appinrangeng najellokeng majeppu:"
+        ],
+        "items": [
+          "Iyyae napadecengi apparelluang accesibilitas iya sitongennae",
+          "Yae ro masala'e cedde'i untu' dinilai",
+          "akkegunanna genne' realistik untu' ripallebbangi",
+          "jama-jamang e sicoco sibawa misi IATF",
+          "engka laleng iya wedding lao ri apparessang iyarega akkirakirang"
+        ]
+      },
+      {
+        "title": "Mappunnai repositori",
+        "paragraphs": [
+          "Proyek-proyek iya ritarimae riebbu ri yawa organisasi IATF GitHub.",
+          "Repositori tette'i engka narimakkuannanaro tungke' proyek napertahangkang seddi bola pabbanua iya tette'e, namuni purana napinrai pajjamana."
+        ]
+      },
+      {
+        "title": "Lisensing",
+        "paragraphs": [
+          "Proyek IATF mappake lisensing copyleft rekko proyek de'na mattarakkang laingnge:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Dokumentasi:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Insinyur iyya tanggung jawa'e iyyare'ga pattahang iyya mattongeng-tongeng",
+      "paragraphs": [
+        "Tungke' proyek iya ritarimae parellui nappunnai seddi insinyur iya tanggung jawa'e."
+      ],
+      "items": [
+        "Akkebburenna pattujunna tauwe",
+        "najagai struktur repositori",
+        "Paréssai iyarega aturangngi passaleng nenniya akkiringeng paréllaung",
+        "Dokumentasi keputusanna tekhnis parellu",
+        "najagaiwi iyaro jamangnge ripahangi ri tau laingnge"
+      ],
+      "footnote": "Yae ro tanggung jawa'na tingkat repositori. kepemilikan organisasi monro sibawa IATF. Tanggung jawa'e yanaro pengelolaan repositori, arahan teknis, nennia koordinasi publik  de'na terbatas pangiriman pribadi, integrasi khusus, iyaregga komitmen tingkat layanan diluar peta jalan publik."
+    },
+    "publicDevelopment": {
+      "title": "Perkembangan pabbanua",
+      "paragraphs": [
+        "Proyek-proyek iya rilis melalui IATF ripallebbangi secara default."
+      ],
+      "items": [
+        "kode assalenna",
+        "Iyyae passaleng",
+        "akkirakirang",
+        "catatanna peta jalana",
+        "Riwayat pallebbangeng"
+      ],
+      "footnote": "Paddissengeng proyek parellu de'na ullei monro bawang ri chat pribadi iyarega kotak masuk."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Arsip-arsipna tauwe",
+      "title": "Arsipna pappaseng tauwe"
+    },
+    "paragraphs": [
+      "IATF majjama ri tau maega e secara default. Permintaan iya muttama ri IAT F melalui situs web, email, Discord, GitHub, iyarega saluran IATf lainge nulle mancaji catatan permintaan umum.",
+      "Rekaman perelluiang umum de'na parellu pappaseng aslina. IATF wedding nasimpulkan, nasellei, iyarega na restrukturisasi perelluna riolona publikasinna narimakkuannanaro perelluang aksesibilitas wedding riita de'naparelluang kareba pribadi.",
+      "Rekaman parelluna tauwe wedding ritaro ri organisasi GitHub IATF, ri situs web'e, iyyarega keduwana.",
+      "Riwettu de'na ripalebba, IATF napalecce rincian kontak pribadi iya de naparellu, alamat pribadi, nenniya rincian identifikasi ritujunna pakkeguna assistif teknologi individu, sangadinna narekko palebba mallesse nacooco.",
+      "Discord ripakkeguna untu' koordinasi informal. IATF de'na arsip'i assipabbicarang Discord secara mallaingeng secara default, nennia pengaturanna pappasenna dikontrol pole Discord. Keputusan-keputusan iya ripugau'e ri laleng Discord waji' ripasseddi ri laleng catatang publik ri GitHub iyarega ri halaman proyek iyya relevan.",
+      "Rekaman tuntutanna de'na diindeks ri search engine narekko secara teknis praktis. Publik bettuanna wedding diita sibawa tanggung jawab. De'na bettuanna dioptimalkan untu' riruntu melalui pencarian aseng.",
+      "IATF wedding mappabaru iyarega mappalecce catatang pole ri permukaang tauwe iyya rikendalikang riIATF, naekiyya de'na ullei mabbere janci pappadanna pole ri cache pihak matellu, pappaseng, garpu, screenshot, search engine, Discord, iyarega sistem saliweng laingnge.",
+      "Narekko seddi pappaseng parellu mancaji pribadi, aja' kiringngi melalui saluran publik IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rupa organisasi",
+      "title": "Kursi'e"
+    },
+    "lead": "Iyyae mallaingeng pole ri per-proyek tanggung jawa'na insinyur: iyaro presiden tanggung jawab lao ri organisasi iyamaneng, tennia lao ri pattujung esso-esso pole riseddie onrong mattette.",
+    "duties": {
+      "title": "Aga iya napogau'é iyaro kadéraé",
+      "items": [
+        "Najaga hak punna ri organisasi GitHub IATF",
+        "Natandatangani'i akkebburenna proyek'e nenniyya appatettonna arsip'e",
+        "Majjama sebagai titik kontak umum untu' IATF",
+        "Nakkoordinasikang pemilu taung-taungnge"
+      ],
+      "footnote": "Iyyaro presiden'e de'na mattongeng IATF untu' mabbere pribadi, jama-jamang riwaja, iyyare'ga assijancingeng tingka' jasa, nenniya de'napperelluang apettung per-repository maintainer ritujunna arah teknis."
+    },
+    "election": {
+      "title": "Pileang Taung-taung",
+      "paragraphs": [
+        "Iyyaro presiden e ripilei siarek-arek taung. Pemilu e ro ripigaui ri dua minggu pammulang Desember, wasselena diumumkan ri 15 Desember, nennia periode barue ripammulai ri 1 Januari.",
+        "Pemilih yang layak adalah orang-orang yang memegang peran pemelihara pada setiap repositori IATF selama tahun dan melakukan setidaknya satu penggabungan kontribusi pada repositoriIATF di tahun itu. Setiap pemilih yang layak memiliki satu suara. Kandidat yang mendapat suara terbanyak menang; jika terjadi imbang, putaran kedua diselenggarakan pada minggu ketiga bulan Desember.",
+        "Appilengnge ripigau riyaseng assipabbicarang GitHub umum ri repositori pamarentahang IATF iya ripattentu, narimakkuannanaro appilengnge, appilingnge, nenniya wasselena iyamaneng iyyanaritu bageang pole catatan umum."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitas",
+      "paragraphs": [
+        "Narekko de'na engka appileng ri taung mattentue, ketua makkokkoe tette'i ri peranna lettu appileng paimeng. yae ro pertahangeng de' na mattette, tennia periode appalang  modele'e ri rancang'i untu' najagai organisasi'e stabil'e narekko aktifitas'e mariawa, na tennia untu' memaksa transisi de'gaga tau siap'e.",
+        "Iyyaro presiden ullei jampangi ri siaga wettue. Pemegang aktif ullei toi mappeddarang pemilu ekstraordiner sibawa alasang iyya riakkedangnge, ripakei ri tujunna aturan iyya padae sibawa pemilu taungnge."
+      ]
+    },
+    "current": {
+      "title": "Kursi iya makkokkoe",
+      "fields": [
+        {
+          "label": "Kursi'e",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Periode",
+          "value": "Lettu ri Pilkada Desember 2026"
+        },
+        {
+          "label": "Peranna pura riformalisasi",
+          "value": "2026"
+        },
+        {
+          "label": "Pemilu rijadwal pammulang",
+          "value": "Desember 2026"
+        }
+      ]
+    },
+    "footnote": "Peran ketua diresmikan ri taung 2026 untu' makkebu stewardship tingkat organisasi secara eksplisit. lettu wettuero, tanggung jawab organisasi dipigau secara informal pole pendiri."
+  },
+  "continuity": {
+    "states": {
+      "title": "negara-negara proyek",
+      "paragraphs": [
+        "Proyek-proyekna napakkegunai siare negara-negara pabbanua:"
+      ],
+      "items": [
+        "Pakkebbureng",
+        "ritarima",
+        "Aktifna",
+        "Mattahang",
+        "Mappapparellu maintainer",
+        "Diarsipkan"
+      ],
+      "footnote": "Iyyae negarae najagai i registry'e malomo riskaning."
+    },
+    "reassignment": {
+      "title": "Assijancingeng paimeng sibawa arsip",
+      "paragraphs": [
+        "Narekko siare pattahang massarang iyarega mancaji de'na aktif, IATF nulle mabbere paimeng tanggung jawa'na, natunda appallebangeng, iyarega naarsip'i proyek'e.",
+        "Seddi proyèk weddingi riarsip narekko apparelluanna pammulanna purani riturusi, pemeliharaan pura leppang, iyarega jama-jamang iya matteru e de'na realistis."
+      ],
+      "footnote": "Proyek-proyek iya riarsip'e tette'i riita ri tau maega e sangadinna engka alasang mattonget-tongeng untu' pogau'i sibali'na."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota pallawangeng",
+      "title": "Aga IATF de'na jaminangngi"
+    },
+    "items": [
+      "pabbereang palanggan swasta",
+      "assijancingeng tingkat-layanan",
+      "natarimai sininna proposal'e",
+      "Maintenance jangka-lampe' untu' tungke' proyek"
+    ],
+    "footnote": "IATF iyyanaritu modele repositori publik, tennia layanan penyampaian swasta."
+  }
+}

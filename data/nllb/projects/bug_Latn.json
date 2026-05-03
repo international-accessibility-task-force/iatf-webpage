@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Situsna IATF",
+    "summary": "Situs umum untu' International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF parellu bola pabbanua iya mattette iya napannessai modele'na, nagetteng i proyek, sibawa nasorong kontributor lao ri addeneng iya coco e.",
+    "why": "Iyyae situs'e iyanaritu pintu maddiolona tauwe ri IATF. Iyyae ribangung sebagai proyek statis beccu'e narimakkuannaro malomo ribaca, ribettuangi, nenniyya rijaga ri saliweng.",
+    "scopeIn": [
+      "Laman landing publik iyya pannessai modele IATF",
+      "Registrasi umum proyek IATF iya ritarima, aktif, sibawa riarsip sibawa status, maintainer, repository, sibawa demo",
+      "Seddi halaman sibawa bentu' intake parellui",
+      "Halaman-halaman pemerintahan sibawa transparansi",
+      "sumber bahasa inggris sibawa struktur siap untuk diterjemahkan",
+      "Akkebureng statis ri Asset statis pajjama Cloudflare"
+    ],
+    "scopeOut": [
+      "Area anggota, rekening, iyarega aliran login pribadi",
+      "Hosting kode sumber proyek, iya monro ri repositori masing-masing proyek",
+      "Real-time chat, iya monro ri Discord",
+      "Tracking isu untuk proyek-proyek individu, yang hidup di repositori GitHub masing-masing proyek"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Seddi prototip IATF pammulang, riarsip purana lettu onrong mattette alami.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Eksplorasi pammulang alat fokus aksesibilitas rilaleng payung IATF.",
+    "why": "Repository'e ripertahang'i lao ri tau maega'e sebagai catatang jamang'e, namuni akkebbureng aktif'e tassusung.",
+    "scopeIn": [
+      "Prototipe pammulang pakkakkasa iya mattinetori ri aksesibilitas iya ritaro sebagai catatang umum"
+    ],
+    "scopeOut": [
+      "Akkebbureng aktif iyarega jamang fitur",
+      "Assijancingeng tunru'",
+      "Akkegunangna iya ri rekomendasikan ri laleng produksi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Bot IATF",
+    "summary": "Seddi bot komunitas IATF, diarsipkan purana lettu onrong mattette alami.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Otomatisasi mattulili saluran komunitas IATF.",
+    "why": "Repository'e ripertahang'i lao ri tau maega'e sebagai catatang jamang'e, namuni akkebbureng aktif'e tassusung.",
+    "scopeIn": [
+      "Otomatisasi appangewangeng ri tujunna saluran komunitas IATF, ritaroi mancaaji catatanna tauwe"
+    ],
+    "scopeOut": [
+      "Akkebbureng aktif iyarega jamang fitur",
+      "Assijancingeng tunru'",
+      "Akkegunangna iya ri rekomendasikan ri laleng produksi"
+    ]
+  }
+]

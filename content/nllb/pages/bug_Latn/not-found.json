@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "De nariruntu"
+  },
+  "hero": {
+    "eyebrow": "De nariruntu",
+    "title": "Laman iyya rielori de riruntui",
+    "lead": "Pakkegunai laleng maloppo e riawa e untu' lisu ri situs umum e.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ri bola",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Laona iyya muelori de'na engka."
+    ],
+    "items": [
+      {
+        "label": "Ri bola",
+        "href": "/"
+      },
+      {
+        "label": "Proyek-proyekna",
+        "href": "/projects/"
+      },
+      {
+        "label": "Assiwollompollong",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibilitas",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Akkerajangeng",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparansi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

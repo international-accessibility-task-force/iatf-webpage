@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Pole apparelluang aksesibilitas lao ri repo publik",
+    "lead": "IATF natulung asosiasi, kelompo', nennia tau'e napinrai apparelluang aksesibilitas asli'e mancaji proyek open source umum.",
+    "support": [
+      "Proyek-proyek iya ritarimae ripublisikang ri organisasi IATF GitHub ri yawana lisensi copyleft nenniya ripallebbang ri tau maega e pole insinyur iya tanggung jawab e."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modele operasi pabbanua",
+      "title": "Laleng umum sederhana untu' perangkat lunak iya wedding ri akses"
+    },
+    "paragraphs": [
+      "Rilaleng seddi bentu, nigi-nigi wedding nasuroi passaleng aksesibilitas lao ri IATF. Narekko tim wedding natarima, repositori publik GitHub ribukkai untu' jamang e.",
+      "Tungke' proyek iya ritarima e napunnai onrong umum iyya jelas untu' kode, isu, dokumentasi, nenniya rilis, sibawa allebangeng iya dipimping secara terbuka pole insinyur iya tanggung jawab."
+    ],
+    "specCard": {
+      "title": "Modele operasi pabbanua",
+      "terms": [
+        {
+          "term": "Parellu",
+          "definition": "Masalahna aksesibilitas tongeng"
+        },
+        {
+          "term": "Pakkitang paimeng",
+          "definition": "Fasilitas sibawa kelayakan praktis"
+        },
+        {
+          "term": "Ruang proyek",
+          "definition": "Akkatenningeng GitHub umum"
+        },
+        {
+          "term": "Pengurusang",
+          "definition": "Assipulungeng organisasi IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prosesna",
+      "title": "Makkeguna",
+      "intro": "Bentu'na tette'i mabiccu narimakkuannaro laleng umum'e malomo riturui."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Engka perellu ripasseddi",
+        "paragraphs": [
+          "Seddi asosiasi, kelompo', iyyare'ga seddi tau weddingi nappaseng i perelluiang iyya sitonget-tongeng parellu aksesibilitas.",
+          "Permintaan wedding dipammulai melalui situs web, sibawa e-mail lao ri <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, iyarega nalaloi Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF makkita paimeng",
+        "paragraphs": [
+          "Iyyaro akkebureng'e, akkegunanna, akkigunangenna, nennia narekko iyaro jamang'e engka ri laleng proyek open source umum'e."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Riakkebbu repository umum",
+        "paragraphs": [
+          "Narekko seddi proyek ritarimai, ripublisikangi ri organisasi IATF GitHub ri yawana lisensi copyleft.",
+          "Repository mancaji bola umum kode, isu, dokumentasi, sibawa rilis."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Seddi insinyur iya tanggung jawa'e matoroi proyek'e",
+        "paragraphs": [
+          "Seddi insinyur iya mattanggung jawa'e ritugaskang ri repositori proyek nenniya pallebangeng kajajiang ri publik."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Riase'na",
+      "title": "Pendaftarang proyek umum"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mupammulaiwi pole kuwaé",
+      "title": "Browse jamang makkokkoe iyarega mappamula proyek konkrit"
+    },
+    "paragraphs": [
+      "Pakkegunai arsip'e untu' makkita aga iyya purae ripaddissengeng, iyyare'ga mappammula intake narekko masala aksesibilitas iyya mattongeng-tongeng waji mancaji proyek."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

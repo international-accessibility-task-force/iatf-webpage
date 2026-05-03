@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indeksna",
+    "title": "Sitemap",
+    "lead": "Sininna rupanna publik ri iatf.cc, ri seddi onrong."
+  },
+  "sections": [
+    {
+      "title": "Halaman utama",
+      "items": [
+        {
+          "label": "Ri bola",
+          "href": "/"
+        },
+        {
+          "label": "Proyek-proyekna",
+          "href": "/projects/"
+        },
+        {
+          "label": "Mellau seddi proyek",
+          "href": "/propose/"
+        },
+        {
+          "label": "Akkerajangeng",
+          "href": "/governance/"
+        },
+        {
+          "label": "Assiwollompollong",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksesibilitas",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparansi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyek-proyekna",
+  "projectsEmpty": "Depa na publikasikan proyek-proyekna."
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Muttama'i ri IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Muttama'i ri IATF",
+    "lead": "Akkebbureng tabbukka. Engka siare bate untu' maccue, naekiya makkacuwei ri teknologi assistif, makkebbu perangkat lunak iya nedding e, nabettuangi, nacobai, iyarega napertahangkang seddi proyek. Pabbicara sibawa appattujung kajajiang ri tau maega e ri GitHub sibawa Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rupa-rupanna",
+      "title": "Bentu' untu' mabbere kontribusi"
+    },
+    "items": [
+      "<strong>Akkiringeng seddi proyek.</strong> Narekko siruntu'ko penghalang aksesibilitas iya wedding'e diatasi pole perangkat lunak sumber terbuka umum, suroi lalo intake parellui.",
+      "<strong>Paccobang sibawa acobang.</strong> Coba proyek IATF sibawa teknologi assistif iya mu pake, laporoi aga iya majjama nenniya aga iya de, nenniya file masala langsung ri repositori relevan.",
+      "<strong>Patterui.</strong> Isseng assalengna ripallebbang ri laleng basa Inggris biasa pammulangna. patterjemangnge ritambai narekko kontributor engka, ripammulai sibawa bahasa Spanyol.",
+      "<strong>Patettongngi.</strong> Alai masalah ri repositori IATF, suroi tuntutanna pull, iyarega malai proyek mancaji insinyur iya tanggung jawab.",
+      "<strong>Jagaiwi iyaro.</strong> Proyek-proyek iya engka e maderri parellu tau baru iya mattette e. Rotasi pattette e iyanaritu bageang biasa pole modele e, de' na pengecualiang."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Salureng",
+      "title": "Riwettu IATF majjama riolona tauwe"
+    },
+    "items": [
+      "<strong>GitHub. iya nih</strong> Issues, pull requests, releases, sibawa catatan proyek.",
+      "<strong>Dé' sises-siseng sicoco'.</strong> Pabbicara tuo, koordinasi, nennia pakkutana informal.",
+      "<strong>Email. iya nih</strong> Pakkeguna <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> Narekko GitHub iyarega Discord de'na cocok."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Passaleng laingnge",
+      "title": "Pilei saluran iyya sicoco sibawa pekkogai muelo mappiddara"
+    },
+    "paragraphs": [
+      "Iyamaneng saluran e mattarakkang lao ri tinjauang pabbanua nenniya repositori pabbanuae iya pada e."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

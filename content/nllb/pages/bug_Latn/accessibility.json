@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibilitas",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibilitas",
+    "lead": "IATF makkeguna untu' nataro situs web iyae sederhana, wedding ribaca, wedding riakses sibawa keyboard, sibawa kompatibel sibawa teknologi assistif.",
+    "support": [
+      "Untu' aksesibilitas web, IATF mappake [W3C WAI](https://www.w3.org/WAI/) Aksesibilitas praktis ripasseddi toi pole pengalamang langsungna pakkeguna teknologi assistif."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Appabbicarang",
+      "title": "Laporo'i passaleng aksesibilitas"
+    },
+    "paragraphs": [
+      "Narekko naruntu'ko halangi aksesibilitas ri situs web'e, tulung laporo'i sibawa e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Lapor iya makkegunae muttama:"
+    ],
+    "items": [
+      "halaman ontongenna kajajiang",
+      "aga akkattamu",
+      "teknologi bantu, browser, iyarega perangkat aga mu pake, narekko relevan",
+      "aga salahna",
+      "aga pura nakkeguna"
+    ],
+    "footnote": "De'na parellu muuki laporang bug resmi. Deskripsi iyya cedde'e genne'ni."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Akkegunang",
+      "title": "Pengelolaan isu publik"
+    },
+    "paragraphs": [
+      "Isu aksesibilitas nulle ripaddeppungeng ri laleng repository pabbanua relevan narimakkuannanaro pada alena nulle riperbaiki ri laleng terbuka. rincian kontak pribadi sibawa kareba pribadi iya de naparellu ripassu riolona publikasi.",
+      "Narekko laporammu mattamani kareba pribadi, pakkitai sibawa manessa ri laleng pappaseng."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "keadaang makkokkoe",
+      "title": "Watang-watang iya riissengnge"
+    },
+    "paragraphs": [
+      "Yae ro situs'e maelo mabeccu nennia macahoro statis. siare versi bahasa nulle de'na lengkap sementara terjemahan sedang dipersiapkan."
+    ]
+  }
+}
