@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Сайт картаһы"
+  },
+  "hero": {
+    "eyebrow": "Индекс",
+    "title": "Сайт картаһы",
+    "lead": "IATF.CC-ның бөтә асыҡ биттәрен бер урында."
+  },
+  "sections": [
+    {
+      "title": "Төп биттәр",
+      "items": [
+        {
+          "label": "Тыуған йорт",
+          "href": "/"
+        },
+        {
+          "label": "Проекттар",
+          "href": "/projects/"
+        },
+        {
+          "label": "Проект һорайҙар",
+          "href": "/propose/"
+        },
+        {
+          "label": "Идара итеү",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ҡатнашығыҙ",
+          "href": "/join/"
+        },
+        {
+          "label": "Уңайлылыҡ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Асыҡлыҡ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Проекттар",
+  "projectsEmpty": "Әлегә проекттар баҫтырылмаған."
+}

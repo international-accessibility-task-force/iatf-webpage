@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Йәмәғәтселектең инеү мөмкинлеген булдырыу проекттары",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Йәмәғәтселектең инеү мөмкинлеген булдырыу проекттары",
+    "lead": "Был реестрҙа IATF аша алып барылған йәмәғәт проекттары күрһәтелгән.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Реестр",
+      "title": "Ағымдағы реестр"
+    },
+    "intro": [
+      "Ҡабул ителгән проекттар, улар баҫылғандан һуң, бында күрһәтелгән."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ихтыяжды белдереү",
+      "title": "Конкрет ихтыяжды йәмәғәт проектына әйләндереү"
+    },
+    "paragraphs": [
+      "IATF файҙалы асыҡ сығанаҡлы хеҙмәттәргә әйләндерергә мөмкин булған конкрет ихтыяждарҙы тикшерә."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Әлегә проекттар баҫтырылмаған",
+    "paragraphs": [
+      "IATF үҙенең беренсе асыҡ проекттар йыйылмаһын әҙерләй.",
+      "Әгәр һеҙҙең конкрет ихтыяждарығыҙ булһа, һеҙ барыбер запрос ебәрә алаһығыҙ."
+    ]
+  }
+}

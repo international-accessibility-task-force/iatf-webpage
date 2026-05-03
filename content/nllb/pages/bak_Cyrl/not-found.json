@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Табылмаған"
+  },
+  "hero": {
+    "eyebrow": "Табылмаған",
+    "title": "Һоралған бит табылманы",
+    "lead": "Йәмәғәт майҙансығына ҡайтыр өсөн түбәндәге төп маршруттарҙы файҙаланығыҙ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Тыуған йорт",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Һеҙ һораған маршрут юҡ."
+    ],
+    "items": [
+      {
+        "label": "Тыуған йорт",
+        "href": "/"
+      },
+      {
+        "label": "Проекттар",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ҡатнашығыҙ",
+        "href": "/join/"
+      },
+      {
+        "label": "Уңайлылыҡ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Идара итеү",
+        "href": "/governance/"
+      },
+      {
+        "label": "Асыҡлыҡ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
