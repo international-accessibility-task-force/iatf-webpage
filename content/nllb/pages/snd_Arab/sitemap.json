@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "سائيٽ جو نقشو"
+  },
+  "hero": {
+    "eyebrow": "انڊيڪس",
+    "title": "سائيٽ جو نقشو",
+    "lead": "آءِ اي ٽي ايف سي سي تي هر عوامي صفحو، هڪ جاءِ تي."
+  },
+  "sections": [
+    {
+      "title": "مکيه صفحا",
+      "items": [
+        {
+          "label": "گهر",
+          "href": "/"
+        },
+        {
+          "label": "منصوبا",
+          "href": "/projects/"
+        },
+        {
+          "label": "هڪ منصوبي جي درخواست ڪريو",
+          "href": "/propose/"
+        },
+        {
+          "label": "حڪمراني",
+          "href": "/governance/"
+        },
+        {
+          "label": "شامل ٿيو",
+          "href": "/join/"
+        },
+        {
+          "label": "رسائي",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "شفافيت",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "منصوبا",
+  "projectsEmpty": "اڃان تائين ڪوبه منصوبو شايع نه ڪيو ويو آهي."
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "عوامي رسائي جا منصوبا",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "عوامي رسائي جا منصوبا",
+    "lead": "هي رجسٽري IATF ذريعي برقرار رکيل عوامي منصوبن جي فهرست آهي. قبول ٿيل رسائي منصوبا ، سائيٽ انفراسٽرڪچر ، ۽ محفوظ ڪيل پروٽوٽائپ هتي نظر رکيا ويا آهن.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "رجسٽري",
+      "title": "موجوده رجسٽري"
+    },
+    "intro": [
+      "منظور ٿيل منصوبا شايع ٿيڻ کان پوءِ هتي درج ڪيا ويا آهن."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "هڪ ضرورت جمع ڪرايو",
+      "title": "رسائي جي ضرورت کي عوامي منصوبي ۾ تبديل ڪريو"
+    },
+    "paragraphs": [
+      "IATF قابل رسائي جي ضرورتن جو جائزو وٺندو آهي جيڪي مفيد عوامي اوپن سورس ڪم ۾ تبديل ٿي سگهن ٿا."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "اڃان تائين ڪوبه منصوبو شايع نه ڪيو ويو آهي",
+    "paragraphs": [
+      "IATF پنهنجي پهرين عوامي منصوبي سيٽ تيار ڪري رهيو آهي.",
+      "توهان اڃا تائين هڪ درخواست موڪلي سگهو ٿا جيڪڏهن توهان وٽ هڪ خاص رسائي جي ضرورت آهي."
+    ]
+  }
+}

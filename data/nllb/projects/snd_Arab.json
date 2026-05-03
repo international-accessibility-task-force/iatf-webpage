@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "آئي اي ٽي ايف ويب سائيٽ",
+    "summary": "بين الاقوامي رسائي ٽاسڪ فورس لاءِ عوامي سائيٽ.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "آئي اي ٽي ايف کي هڪ مستحڪم عوامي گهر جي ضرورت هئي جيڪا ماڊل جي وضاحت ڪري ، منصوبن جي فهرست ، ۽ پوائنٽ مددگارن کي صحيح ايندڙ قدم ڏانهن.",
+    "why": "سائيٽ IATF جو عوامي دروازو آهي. اهو هڪ ننڍڙي جامد منصوبي جي طور تي تعمير ڪيو ويو آهي تنهنڪري اهو پڙهڻ، ترجمو ڪرڻ، ۽ کليل ۾ برقرار رکڻ آسان آهي.",
+    "scopeIn": [
+      "عوامي لينڊنگ صفحا جيڪي IATF ماڊل جي وضاحت ڪن ٿا",
+      "منظور ٿيل ، فعال ، ۽ آرڪائيو ٿيل IATF منصوبن جو عوامي رجسٽري اسٽيٽس ، برقرار رکندڙ ، مخزن ، ۽ ڊيمو سان",
+      "درخواست جي داخلا وارو صفحو ۽ فارم",
+      "حڪمراني ۽ شفافيت جا صفحا",
+      "انگريزي ذريعو ترجمي لاءِ تيار ڪيل جوڙجڪ سان",
+      "Cloudflare Workers Static Assets تي جامد ڊولپمينٽ"
+    ],
+    "scopeOut": [
+      "پرائيويٽ ميمبر ايريا، اڪائونٽس، يا لاگ ان فلو",
+      "منصوبي جي ماخذ ڪوڊ جي ميزباني ، جيڪا هر منصوبي ۾ پنهنجي مخزن ۾ رهندي آهي",
+      "ريئل ٽائيم چيٽ، جيڪو ڊسڪورڊ ۾ رهندو آهي",
+      "انفرادي منصوبن لاءِ مسئلي جي ٽريڪنگ ، جيڪا هر منصوبي جي GitHub مخزن ۾ رهي ٿي"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "آئي اي ٽي ايف سيلفي",
+    "summary": "هڪ ابتدائي IATF پروٽوٽائپ ، هڪ قدرتي اسٽاپنگ پوائنٽ تائين پهچڻ کان پوءِ محفوظ ڪيو ويو.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF جي چتر هيٺ هڪ رسائي تي مرکوز اوزار جي شروعاتي ايڪسپلوريشن.",
+    "why": "مخزن کي ڪم جي رڪارڊ جي طور تي عوامي طور تي رکيو ويندو آهي ، جيتوڻيڪ فعال ترقي بند ٿي وئي آهي.",
+    "scopeIn": [
+      "عوامي رڪارڊ جي طور تي رکيل هڪ رسائي تي مرکوز اوزار جو ابتدائي پروٽوٽائپ"
+    ],
+    "scopeOut": [
+      "فعال ترقي يا خاصيت جو ڪم",
+      "سار سنڀال جي ذميواريون",
+      "پيداوار ۾ سفارش ٿيل استعمال"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "آئي اي ٽي ايف بوٽ",
+    "summary": "هڪ آئي اي ٽي ايف ڪميونٽي بوٽ، هڪ قدرتي اسٽاپنگ پوائنٽ تائين پهچڻ کان پوءِ محفوظ ٿيل.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ڪميونٽي چينلز جي چوڌاري آٽوميشن.",
+    "why": "مخزن کي ڪم جي رڪارڊ جي طور تي عوامي طور تي رکيو ويندو آهي ، جيتوڻيڪ فعال ترقي بند ٿي وئي آهي.",
+    "scopeIn": [
+      "IATF ڪميونٽي چينلز جي چوڌاري تڪرار آٽوميشن ، عوامي رڪارڊ جي طور تي رکيو ويو"
+    ],
+    "scopeOut": [
+      "فعال ترقي يا خاصيت جو ڪم",
+      "سار سنڀال جي ذميواريون",
+      "پيداوار ۾ سفارش ٿيل استعمال"
+    ]
+  }
+]

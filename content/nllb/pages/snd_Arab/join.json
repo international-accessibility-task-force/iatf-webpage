@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF ۾ شامل ٿيو",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF ۾ شامل ٿيو",
+    "lead": "رڪنيت کليل آهي. حصو وٺڻ جا ڪيترائي طريقا آهن ، ڇا توهان معاون ٽيڪنالاجي تي ڀاڙين ٿا ، رسائي وارو سافٽ ويئر ٺاهيو ، ترجمو ڪريو ، جانچ ڪريو ، يا هڪ منصوبي کي برقرار رکو. بحث ۽ فيصلا GitHub ۽ Discord تي عوامي طور تي ٿين ٿا.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "ڪردار",
+      "title": "حصو وٺڻ جا طريقا"
+    },
+    "items": [
+      "<strong>هڪ منصوبي جي درخواست ڪريو.</strong> جيڪڏهن توهان رسائي جي رڪاوٽ کي منهن ڏيو ٿا جيڪو عوامي اوپن سورس سافٽ ويئر سان حل ٿي سگهي ٿو ، ان کي درخواست جي داخلا ذريعي موڪليو.",
+      "<strong>ٽيسٽ ۽ جائزو.</strong> ڪوشش ڪريو IATF منصوبن سان معاون ٽيڪنالاجي توهان استعمال ڪريو ٿا ، رپورٽ ڪريو ته ڇا ڪم ڪري ٿو ۽ ڇا ناهي ، ۽ فائل مسئلا سڌو سنئون لاڳاپيل مخزن تي.",
+      "<strong>ترجمو ڪريو.</strong> ذريعو مواد پهرين سادي انگريزي ۾ شايع ٿيل آهي. ترجما شامل ڪيا ويا آهن جيئن مددگار دستياب آهن ، اسپيني سان شروع ٿي.",
+      "<strong>تعمير ڪريو.</strong> ڪنهن به IATF مخزن ۾ مسئلا چونڊيو، ڇڪڻ جي درخواستن کي موڪليو، يا ان جي ذميوار انجنيئر جي طور تي هڪ منصوبي تي وٺو.",
+      "<strong>برقرار رکڻ.</strong> موجوده منصوبن کي ڪڏهن ڪڏهن نئين سار سنڀال جي ضرورت هوندي آهي. سارسنڀال وارو گردش ماڊل جو هڪ معمولي حصو آهي ، نه ڪا استثنا."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "چينل",
+      "title": "جتي IATF عوامي ۾ ڪم ڪري ٿو"
+    },
+    "items": [
+      "<strong>گيت هب.</strong> مسئلا، ڇڪڻ جي درخواستن، رليز، ۽ منصوبي جي رڪارڊ.",
+      "<strong>تڪرار.</strong> لائيو بحث، ڪوآرڊينيشن، ۽ غير رسمي سوال.",
+      "<strong>اي ميل ڪريو.</strong> استعمال ڪريو <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> جيڪڏهن نه گٽ هب ۽ نه ڊسڪورڊ ٺهندا آهن."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "ايندڙ قدم",
+      "title": "اهو چينل چونڊيو جيڪو توهان جي مدد ڪرڻ چاهي ٿو"
+    },
+    "paragraphs": [
+      "سڀئي چينل هڪ ئي عوامي جائزي ۽ ساڳين عوامي مخزن ۾ داخل ٿين ٿا."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

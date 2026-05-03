@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "نه مليو"
+  },
+  "hero": {
+    "eyebrow": "نه مليو",
+    "title": "گھربل صفحو نه مليو",
+    "lead": "عوامي سائيٽ ڏانهن موٽڻ لاءِ هيٺيان مکيه رستا استعمال ڪريو.",
+    "support": [],
+    "actions": [
+      {
+        "label": "گهر",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "توهان جو گهربل رستو موجود نه آهي."
+    ],
+    "items": [
+      {
+        "label": "گهر",
+        "href": "/"
+      },
+      {
+        "label": "منصوبا",
+        "href": "/projects/"
+      },
+      {
+        "label": "شامل ٿيو",
+        "href": "/join/"
+      },
+      {
+        "label": "رسائي",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حڪمراني",
+        "href": "/governance/"
+      },
+      {
+        "label": "شفافيت",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
