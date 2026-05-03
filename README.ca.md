@@ -5,7 +5,7 @@
 International Accessibility Task Force
 [iatf.cc](https://iatf.cc)
 
-[![discord](https://img.shields.io/discord/1014599739230130267?label=discord&logo=discord&logoColor=white&color=5865F2)](https://iatf.cc/discord) | [![llicència](https://img.shields.io/badge/llic%C3%A8ncia-AGPL--3.0%20%26%20CC%20BY--SA%204.0-blue)](./LICENSE)
+[![discord](https://img.shields.io/discord/1014599739230130267?label=discord&logo=discord&logoColor=white&color=5865F2)](https://iatf.cc/discord) [![llicència](https://img.shields.io/badge/llic%C3%A8ncia-AGPL--3.0%20%26%20CC%20BY--SA%204.0-blue)](./LICENSE)
 
 [English](./README.md) | [Català](./README.ca.md)
 
