@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "ထႅမ်းပလဵၵ်ႉ",
+    "title": "Sitemap",
+    "lead": "ထႅမ်းပလဵၵ်ႉၵူႈဢၼ် တီႈၼိူဝ် iatf.cc၊ တီႈဢၼ်လဵဝ်။"
+  },
+  "sections": [
+    {
+      "title": "ၼႃႈလိၵ်ႈၶိုၵ်ႉတွၼ်း",
+      "items": [
+        {
+          "label": "ႁိူၼ်း",
+          "href": "/"
+        },
+        {
+          "label": "ၶူင်းၵၢၼ်",
+          "href": "/projects/"
+        },
+        {
+          "label": "တုၵ်းယွၼ်း ၶူင်းၵၢၼ်",
+          "href": "/propose/"
+        },
+        {
+          "label": "လွင်ႈဢုပ်ႉပိူင်ႇ",
+          "href": "/governance/"
+        },
+        {
+          "label": "ၶဝ်ႈႁူမ်ႈ",
+          "href": "/join/"
+        },
+        {
+          "label": "လွင်ႈၶဝ်ႈထိုင်လႆႈ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "လွင်ႈၸႅင်ႈလႅင်း",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ၶူင်းၵၢၼ်",
+  "projectsEmpty": "ဢမ်ႇပႆႇမီးၽႅၼ်ၵၢၼ် ဢၼ်ပိုၼ်ၽႄဢွၵ်ႇ။"
+}

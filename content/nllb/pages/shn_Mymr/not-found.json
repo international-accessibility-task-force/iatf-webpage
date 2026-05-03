@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ဢမ်ႇလႆႈႁၼ်"
+  },
+  "hero": {
+    "eyebrow": "ဢမ်ႇလႆႈႁၼ်",
+    "title": "ၼႃႈလိၵ်ႈဢၼ်သႂၢင်းဝႆႉၼၼ်ႉ ဢမ်ႇလႆႈႁၼ်",
+    "lead": "ၸႂ်ႉသဵၼ်ႈတၢင်းလူင် ၽၢႆႇတႂ်ႈၼႆႉသေ ပွၵ်ႈၶိုၼ်းတီႈၼႃႈလိၼ်ၵူၼ်းမိူင်းၼၼ်ႉယဝ်ႉ။",
+    "support": [],
+    "actions": [
+      {
+        "label": "ႁိူၼ်း",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "သဵၼ်ႈတၢင်း ဢၼ်ၸဝ်ႈၵဝ်ႇ တုၵ်းယွၼ်းဝႆႉၼၼ်ႉ ဢမ်ႇမီးဝႆႉ။"
+    ],
+    "items": [
+      {
+        "label": "ႁိူၼ်း",
+        "href": "/"
+      },
+      {
+        "label": "ၶူင်းၵၢၼ်",
+        "href": "/projects/"
+      },
+      {
+        "label": "ၶဝ်ႈႁူမ်ႈ",
+        "href": "/join/"
+      },
+      {
+        "label": "လွင်ႈၶဝ်ႈထိုင်လႆႈ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "လွင်ႈဢုပ်ႉပိူင်ႇ",
+        "href": "/governance/"
+      },
+      {
+        "label": "လွင်ႈၸႅင်ႈလႅင်း",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
