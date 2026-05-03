@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "انضم إلى IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "انضم إلى IATF",
+    "lead": "العضوية مفتوحة. هناك عدة طرق للمشاركة ، سواء كنت تعتمد على التكنولوجيا المساعدة ، أو تصنع برامج يمكن الوصول إليها ، أو تترجم ، أو تختبر ، أو تحافظ على مشروع. تحدث المناقشات والقرارات علناً على GitHub و Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "الأدوار",
+      "title": "طرق المساهمة"
+    },
+    "items": [
+      "<strong>اطلبي مشروعاً</strong> إذا واجهت عقبة في إمكانية الوصول التي يمكن معالجتها بواسطة البرمجيات المفتوحة المصدر العامة، قم بإرسالها من خلال استقبال الطلبات.",
+      "<strong>اختبار ومراجعة.</strong> جرب مشاريع IATF مع التكنولوجيا المساعدة التي تستخدمها ، وأبلغ عن ما يعمل وما لا يعمل ، وقم بتسجيل المشكلات مباشرة على المستودع ذي الصلة.",
+      "<strong>ترجمة.</strong> يتم نشر المحتوى المصدر باللغة الإنجليزية أولاً. يتم إضافة الترجمات عندما يكون المساهمون متاحين، بدءًا من اللغة الإسبانية.",
+      "<strong>بناء.</strong> التقاط القضايا في أي مستودع IATF ، وإرسال طلبات سحب ، أو اتخاذ مشروع كمهندس مسؤول عنه.",
+      "<strong>الحفاظ على.</strong> المشاريع القائمة تحتاج أحيانًا إلى صانع صيانة جديد. تناوب الصانع هو جزء طبيعي من النموذج ، وليس استثناءً."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "القنوات",
+      "title": "حيث يعمل IATF في الأماكن العامة"
+    },
+    "items": [
+      "<strong>(غيت هاب)</strong> القضايا، سحب الطلبات، الإفراجات، وسجلات المشروع.",
+      "<strong>الخلاف.</strong> المناقشة الحية، التنسيق، والأسئلة غير الرسمية.",
+      "<strong>البريد الإلكتروني</strong> الاستخدام <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> إذا لم يتناسب GitHub ولا Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "الخطوة التالية",
+      "title": "اختر القناة التي تتطابق مع الطريقة التي تريد المساهمة بها"
+    },
+    "paragraphs": [
+      "جميع القنوات تتغذى على نفس المراجعة العامة ونفس المستودعات العامة."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

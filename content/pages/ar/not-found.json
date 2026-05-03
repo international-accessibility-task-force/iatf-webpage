@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "لم يتم العثور عليها"
+  },
+  "hero": {
+    "eyebrow": "لم يتم العثور عليها",
+    "title": "لم يتم العثور على الصفحة المطلوبة",
+    "lead": "استخدموا الطرق الرئيسية أدناه للعودة إلى الموقع العام",
+    "support": [],
+    "actions": [
+      {
+        "label": "الوطن",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "الطريق الذي طلبته غير موجود"
+    ],
+    "items": [
+      {
+        "label": "الوطن",
+        "href": "/"
+      },
+      {
+        "label": "المشاريع",
+        "href": "/projects/"
+      },
+      {
+        "label": "انضم",
+        "href": "/join/"
+      },
+      {
+        "label": "إمكانية الوصول",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "الحوكمة",
+        "href": "/governance/"
+      },
+      {
+        "label": "الشفافية",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

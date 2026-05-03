@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "مشاريع إتاحة الوصول للجمهور",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "مشاريع إتاحة الوصول للجمهور",
+    "lead": "يسرد هذا السجل المشاريع العامة التي يتم الاحتفاظ بها من خلال IATF. تُبقى مشاريع إمكانية الوصول المقبولة والبنية التحتية للموقع والنماذج الأولية المحفوظة مرئية هنا.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "السجل",
+      "title": "السجل الحالي"
+    },
+    "intro": [
+      "يتم إدراج المشاريع المقبولة هنا بمجرد نشرها."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ارسل احتياجك",
+      "title": "تحويل حاجة ملموسة في إمكانية الوصول إلى مشروع عام"
+    },
+    "paragraphs": [
+      "تقوم IATF بمراجعة الاحتياجات الملموسة في إمكانية الوصول التي يمكن تحويلها إلى عمل عام مفيد مفتوح المصدر."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "لم يتم نشر أي مشاريع بعد",
+    "paragraphs": [
+      "تقوم IATF بإعداد أول مجموعة من المشاريع العامة.",
+      "لا يزال بإمكانك إرسال طلب إذا كانت لديك حاجة ملموسة للوصول."
+    ]
+  }
+}
