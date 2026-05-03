@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Tionscadail inrochtaineachta phoiblí",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Tionscadail inrochtaineachta phoiblí",
+    "lead": "Liostaíonn an clár seo tionscadail phoiblí a choinnítear trí IATF. Coinnítear tionscadail inrochtaineachta inghlactha, bonneagar láithreán, agus fréamhshamhlacha stóráilte le feiceáil anseo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Cláraitheoir",
+      "title": "Clár reatha"
+    },
+    "intro": [
+      "Tá liosta de na tionscadail a nglactar leo anseo nuair a fhoilsítear iad."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Iarracht a chur faoi bhráid",
+      "title": "Éileamh sonrach inrochtaineachta a thiontú i dtionscadal poiblí"
+    },
+    "paragraphs": [
+      "Déanann IATF athbhreithniú ar riachtanais shonracha inrochtaineachta ar féidir iad a thiontú ina saothar foinse oscailte poiblí úsáideach."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Níl aon tionscadail foilsithe go fóill",
+    "paragraphs": [
+      "Tá an IATF ag ullmhú a chéad tacar tionscadail phoiblí.",
+      "Is féidir leat iarratas a sheoladh fós má tá riachtanais shonracha inrochtaineachta agat."
+    ]
+  }
+}

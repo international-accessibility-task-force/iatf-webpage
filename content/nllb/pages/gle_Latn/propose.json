@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Iarr ar thionscadal inrochtaineachta",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Iarr ar thionscadal inrochtaineachta",
+    "lead": "Déanann an IATF athbhreithniú ar iarratais ar thionscadail inrochtaineachta a thosaíonn ó riachtanas fíor.",
+    "support": [
+      "Ní gá duit sonraíocht iomlán a fháil, is leor go bhfuil fadhb shoiléir agat, cé a mbíonn tionchar aici air, agus cén fáth go bhfuil sé tábhachtach."
+    ],
+    "actions": [
+      {
+        "label": "Iarracht a thosú",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Bain úsáid as Discord ina ionad sin",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Cainéil",
+      "title": "Roghnaigh an bealach is éasca"
+    },
+    "intro": [
+      "Cuirtear na bealaí go léir isteach sa athbhreithniú céanna."
+    ],
+    "items": [
+      {
+        "label": "Suíomh Gréasáin",
+        "body": "Úsáid an fhoirm thíos chun iarratas struchtúrtha a chur isteach."
+      },
+      {
+        "label": "Ríomhphost",
+        "body": "Seol an t-iarratas go díreach chuig {{contact.requestsEmail}}Is féidir le hiarrataí ríomhphoist a bheith ina thaifid iarratais phoiblí tar éis iad a athbhreithniú agus a scriosadh."
+      },
+      {
+        "label": "Difríocht",
+        "body": "Tosaíonn an t-iarratas leis an athbhreithniú céanna."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sula ndéanann tú iarratas a sheoladh",
+    "paragraphs": [
+      "Is féidir iarratais a achoimriú agus a fhoilsiú mar thaifid iarratais phoiblí in eagraíocht IATF GitHub, ar an suíomh Gréasáin seo, nó an dá rud.",
+      "Ná cuir seoltaí príobháideacha, uimhreacha teileafóin, sonraí leighis, nó faisnéis a shainaithníonn úsáideoirí aonair teicneolaíochtaí cúnta san áireamh mura bhfuil sé riachtanach agus mura bhfuil tú compordach go ndéanfaidh an IATF athbhreithniú air.",
+      "IATF scriosann sonraí teagmhála pearsanta neamhriachtanacha sula bhfoilsítear taifid iarratais."
+    ]
+  },
+  "review": {
+    "title": "Réamhaisnéisí athbhreithnithe",
+    "paragraphs": [
+      "Ní ráthaíonn iarratas a chur isteach go nglacfar leis.",
+      "Déanann IATF athbhreithniú ar iarratais ar oiriúnacht misean, indéantacht, úsáideacht, agus an mbaineann an obair i stór poiblí.",
+      "D'fhéadfaí roinnt iarratais a dhiúltú, a chur ar athló, nó a mhodhnú sula nglacfar leo."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Foirm iarratais",
+      "title": "Iarracht a thíolacadh"
+    },
+    "fields": [
+      {
+        "kind": "ionchur",
+        "name": "iarratasóir",
+        "label": "D'ainm nó d'eagraíocht",
+        "helper": "Cé atá ag déanamh an iarratais?"
+      },
+      {
+        "kind": "roghnaigh",
+        "name": "ContactRoute",
+        "label": "Bealach teagmhála is fearr",
+        "helper": "Conas ba cheart leanúint ar aghaidh?",
+        "required": true,
+        "options": [
+          "Ríomhphost",
+          "Difríocht"
+        ]
+      },
+      {
+        "kind": "ionchur",
+        "name": "Sonraí teagmhála",
+        "label": "Sonraí teagmhála",
+        "helper": "Seoladh ríomhphoist nó seoladh Discord le haghaidh leanúint ar aghaidh.",
+        "placeholder": "Seoladh ríomhphoist nó seoladh Discord",
+        "required": true
+      },
+      {
+        "kind": "ionchur",
+        "name": "teanga",
+        "label": "Teanga",
+        "helper": "An teanga is fearr leat, más ábhartha.",
+        "value": "Béarla"
+      },
+      {
+        "kind": "limistéar téacs",
+        "name": "fadhb",
+        "label": "Cén fhadhb atá tú ag iarraidh a réiteach?",
+        "helper": "Déan cur síos ar an mbac i dteanga shimplí.",
+        "required": true
+      },
+      {
+        "kind": "limistéar téacs",
+        "name": "Úsáideoirí a bhfuil tionchar acu orthu",
+        "label": "Cé a dhéantar difear dó?",
+        "helper": "Cé a d'fhéadfadh sé seo cabhrú?",
+        "required": true
+      },
+      {
+        "kind": "limistéar téacs",
+        "name": "extraContext",
+        "label": "Comhthéacs breise",
+        "helper": "Comhroinn aon rud eile a chabhraíonn leis an riachtanas a mhíniú: cén fáth go bhfuil sé tábhachtach, samplaí, tagairtí, smaoineamh crua bogearraí, nó srianta ama."
+      },
+      {
+        "kind": "roghnaigh",
+        "name": "openSourceConsent",
+        "label": "An bhfuil tú compordach le forbairt foinse oscailte poiblí?",
+        "helper": "Is iad na tionscadail a nglactar leo taifid phoiblí faoi IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Sea",
+          "Níl",
+          "Níl mé cinnte go fóill"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Má ghlactar leis",
+      "title": "Cad a chiallaíonn glactha"
+    },
+    "items": [
+      "stór poiblí in eagraíocht GitHub IATF",
+      "Innealtóir freagrach a shanntar don tionscadal",
+      "ceadúnas copyleft don chód agus do ábhair thionscadail",
+      "forbairt phoiblí sa stór",
+      "iontráil i gclár ar shuíomh IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tús a chur leis an gcomhrá",
+      "title": "Is leor iarraidh ghearr, soiléir chun tús a chur leis"
+    },
+    "paragraphs": [
+      "Má tá fíor-riachtanas inrochtaineachta agat agus má cheapann tú gur cheart go mbeadh sé ina thionscadal poiblí, seol é chugainn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

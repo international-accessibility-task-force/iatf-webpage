@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Inrochtaineacht",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Inrochtaineacht",
+    "lead": "Tá sé mar aidhm ag an IATF an suíomh Gréasáin seo a choinneáil simplí, inléite, inrochtana trí mheáchain chliste, agus comhoiriúnach le teicneolaíochtaí cúnta.",
+    "support": [
+      "Le haghaidh inrochtaineachta ar an ngréasán, úsáideann an IATF [W3C WAI](https://www.w3.org/WAI/) Tá rochtain phraiticiúil á chur ar fáil freisin trí thaithí dhíreach úsáideoirí na dteicneolaíochtaí cúnta."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Tuarascáil",
+      "title": "Cuir ceist inrochtaineachta in iúl"
+    },
+    "paragraphs": [
+      "Má fhaigheann tú bacainn inrochtaineachta ar an suíomh gréasáin seo, tabhair tuairisc air trí r-phost:",
+      "{{contact.accessibilityEmail}}",
+      "I measc na dtuarascálacha úsáideacha tá:"
+    ],
+    "items": [
+      "an leathanach inar tharla an cheist",
+      "cad a bhí tú ag iarraidh a dhéanamh",
+      "cén teicneolaíocht chúnamh, brabhsálaí nó gléas a bhí á úsáid agat, más ábhartha",
+      "cad a chuaigh mícheart",
+      "cad a d'fhéadfadh a bheith cabhrach"
+    ],
+    "footnote": "Ní gá duit tuarascáil bhlag foirmiúil a scríobh. Is leor tuairisc shoiléir."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Bainistíocht",
+      "title": "Déileáil le saincheisteanna poiblí"
+    },
+    "paragraphs": [
+      "Is féidir saincheisteanna inrochtaineachta a achoimriú sa stór poiblí ábhartha ionas gur féidir iad a shocrú go hoscailte.",
+      "Má chuimsíonn do thuairisc faisnéis phríobháideach, abair é sin go soiléir sa teachtaireacht."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Staid reatha",
+      "title": "Teorainneacha ar eolas"
+    },
+    "paragraphs": [
+      "Tá an suíomh seo beag go rúnda agus go príomha seasmhach. D'fhéadfadh go mbeadh na leaganacha teangacha áirithe neamhiomlán agus aistriúcháin á ullmhú."
+    ]
+  }
+}

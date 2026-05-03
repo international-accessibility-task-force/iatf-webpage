@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "A bheith páirteach in IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "A bheith páirteach in IATF",
+    "lead": "Tá ballraíocht oscailte. Tá roinnt bealaí ann chun páirt a ghlacadh, cibé an bhfuil tú ag brath ar theicneolaíocht chúnta, ag tógáil bogearraí inrochtana, ag aistriú, ag tástáil nó ag cothabháil tionscadail. Tarlaíonn díospóireachtaí agus cinntí go poiblí ar GitHub agus Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rólaí",
+      "title": "Bealaí chun ranníocaíocht a dhéanamh"
+    },
+    "items": [
+      "<strong>Iarr ar thionscadal.</strong> Má aimsíonn tú bac ar inrochtaineacht a d'fhéadfadh bogearraí foinse oscailte poiblí aghaidh a thabhairt air, seol é tríd an iontráil iarratais.",
+      "<strong>Tástáil agus athbhreithniú.</strong> Bain triail as tionscadail IATF leis an teicneolaíocht chúnamh a úsáideann tú, tuairisciú cad a oibríonn agus cad nach n-oibríonn, agus ceisteanna a chomhdú go díreach ar an stór ábhartha.",
+      "<strong>Aistrithe.</strong> Foilsítear ábhar foinse i mBéarla simplí ar dtús. Cuirtear aistriúcháin leis de réir mar a bhíonn ranníocóirí ar fáil, ag tosú leis an Spáinnis.",
+      "<strong>Tógáil.</strong> Roghnaigh saincheisteanna in aon stór IATF, iarratais tarraingthe a sheoladh, nó tionscadal a ghlacadh mar innealtóir freagrach.",
+      "<strong>Coinnigh.</strong> Is cuid gnáth den mhúnla é rothlú an chothabhálaithe, ní eisceacht é."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Cainéil",
+      "title": "I gcás ina n-oibríonn an IATF go poiblí"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issues, pull requests, releases, agus taifid tionscadail.",
+      "<strong>Díscaoileadh.</strong> Plé beo, comhordú, agus ceisteanna neamhfhoirmiúla.",
+      "<strong>Seol ríomhphost.</strong> Úsáid <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> más rud é nach bhfuil GitHub ná Discord oiriúnach."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "An chéad chéim eile",
+      "title": "Roghnaigh an cainéal a mheaitseálann leis an gcaoi ar mhaith leat cur leis"
+    },
+    "paragraphs": [
+      "Cuireann na bealaí go léir isteach ar an athbhreithniú poiblí céanna agus ar na stórálacha poiblí céanna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

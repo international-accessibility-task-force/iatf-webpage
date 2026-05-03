@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Suíomh gréasáin IATF",
+    "summary": "An suíomh poiblí don Tascfhórsa um Inrochtaineacht Idirnáisiúnta.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Bhí IATF ag teastáil ó bhaile poiblí seasmhach a mhíníonn an tsamhail, a liostálann tionscadail, agus a thugann le fios do ranníocóirí an chéad chéim eile ceart.",
+    "why": "Is é an suíomh an doras tosaigh phoiblí de IATF. Tá sé tógtha mar thionscadal beag statach ionas go mbeidh sé éasca a léamh, a aistriú, agus a chothabháil ar oscailt.",
+    "scopeIn": [
+      "Leathanaigh tuirlingthe poiblí a mhíníonn an tsamhail IATF",
+      "Clár poiblí de thionscadail IATF inghlactha, gníomhacha agus stóráilte le stádas, cothaitheoir, stór agus taispeántas",
+      "Leathanach glactha iarratais agus foirm",
+      "Leathanaigh rialachais agus trédhearcachta",
+      "Foinse Béarla le struchtúr réidh le haistriú",
+      "Seoladh Statach ar Ghnóthaí Statacha Oibrithe Cloudflare"
+    ],
+    "scopeOut": [
+      "Limistéir bhaill phríobháideacha, cuntais, nó sruthanna logála isteach",
+      "Cód foinse tionscadail a óstáil, a chónaíonn i stór féin gach tionscadail",
+      "Comhrá fíor-ama, a chónaíonn i Discord",
+      "Rianú saincheisteanna do thionscadail aonair, a chónaíonn i stór GitHub gach tionscadail"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie IATF",
+    "summary": "Prototaip luath de chuid IATF, arna chartlannú tar éis dó pointe stad nádúrtha a bhaint amach.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Taighde luath ar uirlis atá dírithe ar inrochtaineacht faoi scáth an IATF.",
+    "why": "Coinnítear an stór go poiblí mar thaifead den obair, fiú má stopadh forbairt ghníomhach.",
+    "scopeIn": [
+      "An chéad fhréamhshamhail d'uirlis atá dírithe ar inrochtaineacht a choinnítear mar thaifead poiblí"
+    ],
+    "scopeOut": [
+      "Forbairt ghníomhach nó obair ghnéithe",
+      "Oibleagáidí cothabhála",
+      "Úsáid molta i dtáirgeadh"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot pobail IATF, arna chártaithe tar éis dó pointe stad nádúrtha a bhaint amach.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Uathoibriú timpeall cainéil phobail IATF.",
+    "why": "Coinnítear an stór go poiblí mar thaifead den obair, fiú má stopadh forbairt ghníomhach.",
+    "scopeIn": [
+      "Díospóireacht uathoibrithe timpeall cainéil phobail IATF, a choinnítear mar thaifead poiblí"
+    ],
+    "scopeOut": [
+      "Forbairt ghníomhach nó obair ghnéithe",
+      "Oibleagáidí cothabhála",
+      "Úsáid molta i dtáirgeadh"
+    ]
+  }
+]

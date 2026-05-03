@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Múnla rialachais agus stórála",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Múnla rialachais agus stórála",
+    "lead": "Coinníonn an IATF tionscadail inrochtaineachta poiblí, inléite agus inchoimeádta.",
+    "support": [
+      "Míníonn an leathanach seo cad a cháilíonn, conas a choinnítear stórálacha, agus cén fhreagracht a bhaineann le leibhéal stórála tar éis glacadh."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Rialacha",
+      "title": "Oibleagáid oiriúnach, úinéireacht, ceadúnaithe"
+    },
+    "cards": [
+      {
+        "title": "Misean oiriúnach",
+        "paragraphs": [
+          "Glacann an IATF le saothar a thugann aghaidh ar bhac fíor inrochtaineachta agus a bhfuil luach poiblí soiléir aige.",
+          "Ba cheart go mbeadh tionscadal úsáideach thar sreabhadh oibre príobháideach amháin agus gur féidir é a oibriú mar stór poiblí.",
+          "Le haghaidh inrochtaineachta ar an ngréasán, úsáideann an IATF [W3C WAI](https://www.w3.org/WAI/) Tá taithí dhíreach úsáideoirí teicneolaíochtaí cúnta ina fhianaise phraiticiúil freisin ar an méid a oibríonn i n-úsáid iarbhír."
+        ]
+      },
+      {
+        "title": "Glacadh le tionscadal",
+        "paragraphs": [
+          "Féadfar togra a ghlacadh nuair a léiríonn an t-athbhreithniú:"
+        ],
+        "items": [
+          "déileálann sé le fíor-riachtanas inrochtaineachta",
+          "tá an fhadhb soiléir go leor chun meastóireacht a dhéanamh",
+          "tá an raon feidhme réalaíoch go leor chun seoladh",
+          "go bhfuil an obair ag teacht le misean an IATF",
+          "tá bealach inchreidte ann chun cothabhála nó chun críche"
+        ]
+      },
+      {
+        "title": "Úinéireacht stór",
+        "paragraphs": [
+          "Cruthaítear tionscadail a nglactar leo faoi eagraíocht GitHub IATF.",
+          "Fanann stórálacha ann ionas go gcoinníonn gach tionscadal teach poiblí seasmhach, fiú má athraíonn cothaitheoirí ina dhiaidh sin."
+        ]
+      },
+      {
+        "title": "Ceadúnais",
+        "paragraphs": [
+          "Baineann tionscadail IATF úsáid as ceadúnaithe cóipcheart mura luaitear a mhalairt i dtionscadal:"
+        ],
+        "items": [
+          "<strong>Cód:</strong> AGPL-3.0",
+          "<strong>Doiciméadú:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Innealtóir nó cothabhálaí freagrach",
+      "paragraphs": [
+        "Ba cheart go mbeadh innealtóir nó cothabhálaí freagrach ainmnithe ag gach tionscadal a nglactar leis. Féadfaidh an duine sin rochtain riaracháin a fháil ar an stór agus táthar ag súil go ndéanfaidh sé:"
+      ],
+      "items": [
+        "forbairt treoracha sa phobal",
+        "struchtúr an stór a chothabháil",
+        "ceisteanna a athbhreithniú nó a bhainistiú agus iarratais a tharraingt",
+        "cinntí teicniúla tábhachtacha a dhoiciméadú",
+        "déan an tionscadal a thuiscint do dhaoine eile"
+      ],
+      "footnote": "Is é seo an fhreagracht ar leibhéal stórála. Fanann úinéireacht eagraíochta leis an IATF. Is é an freagracht anseo maoirseacht stórála, treoir theicniúil, agus comhordú poiblí  ní seachadadh príobháideach gan teorainn, comhtháthú saincheaptha, nó tiomantais ar leibhéal seirbhíse lasmuigh den léarscáil bóthair poiblí."
+    },
+    "publicDevelopment": {
+      "title": "Forbairt phoiblí",
+      "paragraphs": [
+        "Déantar tionscadail a seoltar tríd an IATF a fhorbairt go poiblí de réir réamhshocraithe."
+      ],
+      "items": [
+        "cód foinse",
+        "saincheisteanna",
+        "doiciméadú",
+        "nótaí ar an gclár bóthair",
+        "stair scaoilte"
+      ],
+      "footnote": "Níor cheart go mbeadh eolas tábhachtach faoi thionscadal ina chónaí i gcainteanna príobháideacha nó i mboscaí isteach amháin."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Taifid phoiblí",
+      "title": "Taifid iarratais phoiblí"
+    },
+    "paragraphs": [
+      "Oibríonn IATF go poiblí de réir réamhshocraithe. Is féidir le hiarrataí a théann isteach sa chomhlacht trí shuíomh Gréasáin, ríomhphost, Discord, GitHub, nó bealaí eile an chomhlachta a bheith ina thaifid iarratais phoiblí.",
+      "Is féidir leis an IATF iarratas a achoimreadh, a chur in eagar nó a athstruchtúrú sula bhfoilseofar é ionas gur féidir athbhreithniú a dhéanamh ar an ngá atá leis an inrochtaineacht gan faisnéis phearsanta neamhriachtanach a nochtadh.",
+      "Is féidir taifid iarratais phoiblí a stóráil in eagraíocht GitHub IATF, ar an suíomh Gréasáin seo, nó an dá rud.",
+      "Roimh fhoilsiú, déanann an IATF sonraí teagmhála pearsanta, seoltaí príobháideacha, agus sonraí a shainaithníonn úsáideoirí aonair teicneolaíochtaí cúnta a bhaint mura bhfuil sé beartaithe go soiléir agus is iomchuí iad a fhoilseáil.",
+      "Úsáidtear Discord le haghaidh comhordú neamhfhoirmiúil. Ní dhéanann IATF comhéadan Discord a chartlannú ar leithligh de réir réamhshocraithe, agus déanann Discord rialú ar choimeád teachtaireachtaí. Ba cheart cinntí a dhéantar i Discord an achoimre a dhéanamh ar an taifead poiblí ar GitHub nó ar an leathanach tionscadail ábhartha.",
+      "Tá taifid iarratais eisiata ó innéacsú innill chuardaigh nuair a bhíonn sé praiticiúil go teicniúil. Ciallaíonn an phobal gur féidir athbhreithniú agus cuntasacht a dhéanamh orthu. Ní chiallaíonn sé go bhfuil siad oiriúnaithe le haghaidh fionnachtana trí chuardach ainmneacha.",
+      "Is féidir leis an IATF taifid a nuashonrú nó a bhaint as dromchlaí poiblí atá á rialú ag an IATA, ach ní féidir leis a ráthú go n-aisghairfear iad ó chuimhneacháin tríú páirtí, fógraí, forcaí, scáileáin, innill chuardaigh, Discord, nó córais sheachtracha eile.",
+      "Más gá do theachtaireacht a bheith príobháideach, ná seol í trí bhealaí poiblí IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ról eagraíochtúil",
+      "title": "Cathaoirleach"
+    },
+    "lead": "Tá an cathaoirleach i gceannas ar leibhéal eagraíochta ar IATF. Tá sé seo ar leith ó ról an innealtóra atá freagrach in aghaidh an tionscadail: tá an cathair freagrach as an eagraíocht ina iomláine, ní as stiúradh laethúil aon stór aonair.",
+    "duties": {
+      "title": "Cad a dhéanann an cathaoirleach",
+      "items": [
+        "Coinníonn sé ceadanna úinéir ar eagraíocht GitHub IATF",
+        "Síníonn sé glacadh le tionscadal agus cinntí cartlainne",
+        "Feidhmíonn sé mar phointe teagmhála poiblí don IATF",
+        "Comhordóidh sé an toghchán bliantúil"
+      ],
+      "footnote": "Ní dhéanann an cathaoirleach IATF a cheangal ar sheachadadh príobháideach, ar obair íoctha, nó ar chomhaontuithe leibhéal seirbhíse, agus ní dhéanann sé na cinntí maidir le treoir theicniúil a dhéanann cothabhálaithe gach stór a shárú."
+    },
+    "election": {
+      "title": "Toghchán bliantúil",
+      "paragraphs": [
+        "Toghtar an cathaoirleach uair amháin sa bhliain.Ritheann an toghchán sa chéad dá sheachtain de Nollaig, fógraítear na torthaí faoin 15 Nollaig, agus tosaíonn an téarma nua an 1 Eanáir.",
+        "Is iad na vótálaithe incháilithe daoine a raibh ról cothabhálach acu ar aon stór IATF i rith na bliana agus a rinne aon ranníocaíocht chomhcheangailte amháin ar a laghad le hionstraimí stór IATAF sa bhliain sin. Tá vóta amháin ag gach vótálaí incháiligh. Buaileann an t-iarrthóir a bhfuil an líon is mó vótaí aige; i gcás comhionannas, reáchtálfar an dara babhta i dtríú seachtain na Nollag.",
+        "Déantar an toghchán a reáchtáil mar Plé poiblí GitHub sa stór rialachais ainmnithe IATF, mar sin tá na hiarrthóirí, an vótáil, agus an toradh go léir mar chuid den taifead poiblí."
+      ]
+    },
+    "continuity": {
+      "title": "Leanúnacht",
+      "paragraphs": [
+        "Má dhéantar aon toghchán i mbliain áirithe, leanann an cathaoirleach reatha ar aghaidh sa ról go dtí an chéad toghcháin eile. Is leanúnachas gan teorainn é seo, ní tréimhse grása  tá an tsamhail deartha chun an eagraíocht a choinneáil seasmhach nuair a bhíonn gníomhaíocht íseal, gan aistriú a fhorchur nach bhfuil aon duine réidh leis.",
+        "Féadfaidh an cathaoirleach éirí as oifig ag am ar bith.Féadfaidh cothaitheoirí gníomhacha toghchán urghnách a ghairm freisin le cúis luaite, a reáchtálfar faoi na rialacha céanna leis na toghcháin bhliantúla."
+      ]
+    },
+    "current": {
+      "title": "Cathaoirleach reatha",
+      "fields": [
+        {
+          "label": "Cathaoirleach",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Téarma",
+          "value": "Go dtí an toghchán i mí na Nollag 2026"
+        },
+        {
+          "label": "Ról foirmiúil",
+          "value": "2026"
+        },
+        {
+          "label": "An chéad toghchán sceidealta",
+          "value": "Nollaig 2026"
+        }
+      ]
+    },
+    "footnote": "Rinneadh ról an chathaoirleach a fhoirmiú i 2026 chun stiúrthóireacht ar leibhéal na heagraíochta a dhéanamh soiléir. Go dtí sin, bhí freagracht eagraíochta ag an bhunaitheoir go neamhfhoirmiúil."
+  },
+  "continuity": {
+    "states": {
+      "title": "Staitisticí tionscadail",
+      "paragraphs": [
+        "Baineann tionscadail úsáid as sraith bheag de stáit phoiblí:"
+      ],
+      "items": [
+        "Togra",
+        "Glacadh",
+        "Gníomhach",
+        "Seasmhach",
+        "Ag lorg cothabhálaithe",
+        "Archaithe"
+      ],
+      "footnote": "Coinníonn na stáit seo an clár go héasca le scanadh."
+    },
+    "reassignment": {
+      "title": "Athdháileadh agus cartlannú",
+      "paragraphs": [
+        "Má théann cothabhálaí ar shiúl nó má bhíonn sé neamhghníomhach, féadfaidh an IATF freagracht a athdháileadh, forbairt a chur ar fionraí, nó an tionscadal a chartlannú.",
+        "D'fhéadfaí tionscadal a stóráil freisin nuair a chomhlíontar an riachtanas bunaidh, nuair a stopadh an cothabháil, nó nuair nach bhfuil sé réalaíoch tuilleadh oibre a dhéanamh."
+      ],
+      "footnote": "Fanann tionscadail a stóráiltear le feiceáil go poiblí mura bhfuil cúis láidir ann chun a mhalairt a dhéanamh."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nóta teorann",
+      "title": "Cad nach ráthaíonn an IATF"
+    },
+    "items": [
+      "Seachadadh do chustaiméirí príobháideacha",
+      "comhaontuithe leibhéal seirbhíse",
+      "glacadh le gach togra",
+      "cothabháil fhadtéarmach do gach tionscadal"
+    ],
+    "footnote": "Is samhail stór poiblí é IATF, ní seirbhís seachadta príobháideach."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ní fhaightear é"
+  },
+  "hero": {
+    "eyebrow": "Ní fhaightear é",
+    "title": "Níor aimsíodh an leathanach a iarradh",
+    "lead": "Bain úsáid as na príomhbhealaí thíos chun filleadh ar an suíomh poiblí.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Baile",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Níl an bealach a d'iarr tú ann."
+    ],
+    "items": [
+      {
+        "label": "Baile",
+        "href": "/"
+      },
+      {
+        "label": "Tionscadail",
+        "href": "/projects/"
+      },
+      {
+        "label": "Bí páirteach",
+        "href": "/join/"
+      },
+      {
+        "label": "Inrochtaineacht",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Rialachas",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trédhearcacht",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

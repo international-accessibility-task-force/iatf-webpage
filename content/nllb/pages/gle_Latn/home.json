@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ó riachtanas inrochtaineachta go repo poiblí",
+    "lead": "Cabhraíonn IATF le comhlachais, le grúpaí agus le daoine aonair fíor-riachtanais inrochtaineachta a thiontú i dtionscadail foinse oscailte poiblí.",
+    "support": [
+      "Foilsítear tionscadail a nglactar leo in eagraíocht GitHub IATF faoi cheadúnas copyleft agus forbraíonn innealtóir freagrach iad go poiblí."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Múnla oibriúcháin phoiblí",
+      "title": "Bealach poiblí simplí le haghaidh bogearraí inrochtana"
+    },
+    "paragraphs": [
+      "Trí fhoirm, is féidir le duine ar bith fadhb inrochtaineachta a chur faoi bhráid IATF. Más féidir leis an bhfoireann é a ghlacadh, osclaítear stór poiblí GitHub don obair.",
+      "Tá teach poiblí soiléir ag gach tionscadal glactha le haghaidh cód, saincheisteanna, doiciméadú, agus scaoileadh, le forbairt faoi stiúir oscailte ag innealtóir freagrach."
+    ],
+    "specCard": {
+      "title": "Múnla oibriúcháin phoiblí",
+      "terms": [
+        {
+          "term": "Riachtanas",
+          "definition": "Fadhb iarbhír inrochtaineachta"
+        },
+        {
+          "term": "Athbhreithniú",
+          "definition": "Oiriúnacht agus indéantacht praiticiúil an misean"
+        },
+        {
+          "term": "Spás tionscadail",
+          "definition": "Taifead GitHub Poiblí"
+        },
+        {
+          "term": "Stiúrthóireacht",
+          "definition": "Úinéireacht eagraíochtúil IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Próiseas",
+      "title": "Conas a oibríonn sé",
+      "intro": "Fanann an tsamhail beag d'aon ghnó ionas go mbeidh sé éasca an bealach poiblí a leanúint."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Cuirtear riachtanas i láthair",
+        "paragraphs": [
+          "Féadfaidh comhlachas, grúpa nó duine aonair iarratas a chur isteach bunaithe ar riachtanas fíor inrochtaineachta.",
+          "Is féidir iarratais a thosú tríd an láithreán gréasáin, trí ríomhphost chuig <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, nó trí Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Déanann an IATF athbhreithniú air",
+        "paragraphs": [
+          "Déanaimid athbhreithniú ar oiriúnú misean, raon feidhme praiticiúil, agus an mbaineann an obair le tionscadal foinse oscailte poiblí."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Cruthaítear stór poiblí",
+        "paragraphs": [
+          "Má ghlactar le tionscadal, foilsítear é in eagraíocht GitHub IATF faoi cheadúnas copyleft.",
+          "Déantar an stór mar theach poiblí ar an gcód, ar na saincheisteanna, ar an doiciméadú agus ar na scaoileadh."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Tá innealtóir freagrach i gceannas ar an tionscadal",
+        "paragraphs": [
+          "Tugtar innealtóir freagrach don stór tionscadail agus déantar forbairt go poiblí."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Cláraitheoir",
+      "title": "Clár poiblí tionscadal"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tosaigh anseo",
+      "title": "Déan brabhsáil ar obair reatha nó tionscadal nithiúil a thosú"
+    },
+    "paragraphs": [
+      "Bain úsáid as an gclár chun a fheiceáil cad atá poiblí cheana féin, nó tús a chur leis an iontráil má ba cheart go mbeadh fadhb inrochtaineachta nithiúil ina thionscadal."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

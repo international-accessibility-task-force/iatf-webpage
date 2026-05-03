@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Léarscáil shuíomh"
+  },
+  "hero": {
+    "eyebrow": "Innéacs",
+    "title": "Léarscáil shuíomh",
+    "lead": "Gach leathanach poiblí ar iatf.cc, in aon áit amháin."
+  },
+  "sections": [
+    {
+      "title": "Príomh leathanaigh",
+      "items": [
+        {
+          "label": "Baile",
+          "href": "/"
+        },
+        {
+          "label": "Tionscadail",
+          "href": "/projects/"
+        },
+        {
+          "label": "Iarr ar thionscadal",
+          "href": "/propose/"
+        },
+        {
+          "label": "Rialachas",
+          "href": "/governance/"
+        },
+        {
+          "label": "Bí páirteach",
+          "href": "/join/"
+        },
+        {
+          "label": "Inrochtaineacht",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Trédhearcacht",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Tionscadail",
+  "projectsEmpty": "Níl aon tionscadail foilsithe go fóill."
+}
