@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "საჯარო ხელმისაწვდომობის პროექტები",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "საჯარო ხელმისაწვდომობის პროექტები",
+    "lead": "ეს რეესტრი ასახავს IATF- ის მეშვეობით შენარჩუნებულ საჯარო პროექტებს. მიღებული ხელმისაწვდომობის პროექტები, საიტის ინფრასტრუქტურა და არქივირებული პროტოტიპები აქ არის ხილული.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "რეგისტრაცია",
+      "title": "მიმდინარე რეესტრი"
+    },
+    "intro": [
+      "მიღებული პროექტები აქ არის ჩამოთვლილი მათი გამოქვეყნების შემდეგ."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "წარუდგინეთ მოთხოვნა",
+      "title": "აქციეთ ხელმისაწვდომობის კონკრეტული საჭიროება საჯარო პროექტად"
+    },
+    "paragraphs": [
+      "IATF განიხილავს ხელმისაწვდომობის კონკრეტულ საჭიროებებს, რომლებიც შეიძლება გადაიქცეს სასარგებლო ღია წყაროს საჯარო სამუშაოდ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "პროექტები ჯერ არ გამოქვეყნებულა",
+    "paragraphs": [
+      "IATF ამზადებს თავის პირველ საჯარო პროექტს.",
+      "თქვენ კვლავ შეგიძლიათ გამოაგზავნოთ მოთხოვნა, თუ თქვენ გაქვთ კონკრეტული ხელმისაწვდომობის საჭიროება."
+    ]
+  }
+}

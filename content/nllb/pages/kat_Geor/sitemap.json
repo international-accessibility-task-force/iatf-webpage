@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "საიტის რუკა"
+  },
+  "hero": {
+    "eyebrow": "ინდექსი",
+    "title": "საიტის რუკა",
+    "lead": "ყველა საჯარო გვერდი IATF.CC-ზე, ერთ ადგილას."
+  },
+  "sections": [
+    {
+      "title": "მთავარი გვერდები",
+      "items": [
+        {
+          "label": "სახლი",
+          "href": "/"
+        },
+        {
+          "label": "პროექტები",
+          "href": "/projects/"
+        },
+        {
+          "label": "პროექტის მოთხოვნა",
+          "href": "/propose/"
+        },
+        {
+          "label": "მმართველობა",
+          "href": "/governance/"
+        },
+        {
+          "label": "შეუერთდი",
+          "href": "/join/"
+        },
+        {
+          "label": "ხელმისაწვდომობა",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "გამჭვირვალობა",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "პროექტები",
+  "projectsEmpty": "პროექტები ჯერ არ გამოქვეყნებულა."
+}

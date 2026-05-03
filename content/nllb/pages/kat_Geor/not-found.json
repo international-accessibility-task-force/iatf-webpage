@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "არ არის ნაპოვნი"
+  },
+  "hero": {
+    "eyebrow": "არ არის ნაპოვნი",
+    "title": "მოთხოვნილი გვერდი ვერ მოიძებნა",
+    "lead": "თჱოჲლჱგაი დჲლვმთრვ ლვჟრთ ნა ჟლვე ჱა ეა ჟვ გყპნვრვ ნა პაბლთკარა.",
+    "support": [],
+    "actions": [
+      {
+        "label": "სახლი",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "რუკა, რომელსაც ითხოვდით, არ არსებობს."
+    ],
+    "items": [
+      {
+        "label": "სახლი",
+        "href": "/"
+      },
+      {
+        "label": "პროექტები",
+        "href": "/projects/"
+      },
+      {
+        "label": "შეუერთდი",
+        "href": "/join/"
+      },
+      {
+        "label": "ხელმისაწვდომობა",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "მმართველობა",
+        "href": "/governance/"
+      },
+      {
+        "label": "გამჭვირვალობა",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
