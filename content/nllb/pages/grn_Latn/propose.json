@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Ejerure peteĩ proyecto de accesibilidad",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Ejerure peteĩ proyecto de accesibilidad",
+    "lead": "IATF ohesa'ỹijo umi mba'e ojejeruréva proyecto de accesibilidad-pe, oñepyrûva tekotevê añetégui.",
+    "support": [
+      "Ndereikotevêi he'i heta mba'e, peteĩ apañuãi hesakãva, mávapepa ohypýi ha mba'érepa iñimportánte, iporãma oñepyrû hag̃ua."
+    ],
+    "actions": [
+      {
+        "label": "Emoñepyrũ mba'ejerure",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Eipuru Discord hendaguépe",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Umi canal-kuéra",
+      "title": "Eiporavo tape ndahasyivéva"
+    },
+    "intro": [
+      "Ko'ã ruta oike peteĩ revisión-pe."
+    ],
+    "items": [
+      {
+        "label": "Ñemohenda",
+        "body": "Eipuru pe formulario oĩva ko'ápe emog̃uahẽ hag̃ua peteĩ solicitud estructurada."
+      },
+      {
+        "label": "Maranduñemurã",
+        "body": "Emondo mba'ejerure ko'ápe: {{contact.requestsEmail}}Umi solicitud correo electrónico-gui ikatu oiko registro de solicitud público ojehecha ha oñemyatyrõ rire."
+      },
+      {
+        "label": "Ñembojoavy",
+        "body": "Oñepyrû upépe ndahasyivéiramo."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Emondo mboyve ne mba'ejerure",
+    "paragraphs": [
+      "IATF omba'apo opavave renondépe. Umi mba'ejerure ikatu oñembyaty ha oñemoherakuã mba'erechaha opavavépe g̃uarã IATf GitHub-pe, ko ñanduti rendápe, térã mokõivéva.",
+      "Aníke emoneĩ dirección privada, número telefónico, detalle médico, térã marandu omoañetéva umi tapicha oiporúva tecnología asistida ndaha'éi ramo tekotevẽva ha ndereipotái IATF ohesa'ỹijo.",
+      "IATF oipe'a umi detalle de contacto personal naiporãiva omoherakuã mboyve umi registro de solicitud."
+    ]
+  },
+  "review": {
+    "title": "Ñehesa'ỹijo oha'ãrõva",
+    "paragraphs": [
+      "Oñemog̃uahẽvo peteĩ mba'ejerure noñeme'ẽi garantía omoneĩ hag̃ua.",
+      "IATF ohesa'ỹijo umi mba'e ojejeruréva ojehupyty hag̃ua tembiaporã, ikatupyry, mba'éichapa ojeporu, ha mba'épa pe tembiapo oike va'erã peteĩ repositorio público-pe.",
+      "Ikatu oñemoneĩ, oñemomombyry térã oñemohendajey ambue mba'e ojejeruréva ojehupyty mboyve."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Mba'éichapa ojejerure",
+      "title": "Emog̃uahẽ peteĩ mba'ejerure"
+    },
+    "fields": [
+      {
+        "kind": "oikéva",
+        "name": "ojeruréva",
+        "label": "Ne réra térã ne atyguasu",
+        "helper": "Mávapa pe ojeruréva?"
+      },
+      {
+        "kind": "oiporavóva",
+        "name": "Ñemomarandu rape",
+        "label": "Tape oñeg̃uahẽ hag̃ua",
+        "helper": "Mba'éichapa ojejapova'erã seguimiento?",
+        "required": true,
+        "options": [
+          "Maranduñemurã",
+          "Ñembojoavy"
+        ]
+      },
+      {
+        "kind": "oikéva",
+        "name": "ÑemomaranduJehupytyvoirã",
+        "label": "Mba'éichapa oñeg̃uahẽkuaa",
+        "helper": "Maranduñemurã térã Discord mba'ekuaarã ñemomarandu hag̃ua.",
+        "placeholder": "Maranduñemurã térã mba'e'oka Discord-pe g̃uarã",
+        "required": true
+      },
+      {
+        "kind": "oikéva",
+        "name": "ñe'ẽnguéra",
+        "label": "Ñe'ẽnguéra",
+        "helper": "Ne ñe'ẽ teete, ikatúramo.",
+        "value": "Ingleñe'ẽ"
+      },
+      {
+        "kind": "ñe'ẽpehẽtai",
+        "name": "apañuãi",
+        "label": "Mba'e apañuãipa rehesa'ỹijo?",
+        "helper": "Emombe'u mba'épa pe mba'e ojokóva ñe'ẽtépe.",
+        "required": true
+      },
+      {
+        "kind": "ñe'ẽpehẽtai",
+        "name": "afectadosUsuarios-kuéra",
+        "label": "¿Mávapepa opoko upéva?",
+        "helper": "¿Mávapepa oipytyvõta upéva?",
+        "required": true
+      },
+      {
+        "kind": "ñe'ẽpehẽtai",
+        "name": "extraÑe'ẽtéva",
+        "label": "Ñe'ẽpehẽtai upeigua",
+        "helper": "Emombe'u ambue mba'e oipytyvõva omyesakã hag̃ua pe oikotevẽva: mba'érepa iñimportánte, techapyrã, referencia, peteĩ idea software rehegua, térã mba'éichapa oñemba'apo va'erã."
+      },
+      {
+        "kind": "oiporavóva",
+        "name": "openSourceConsent-pe g̃uarã",
+        "label": "Oñeñandu porã desarrollo de código abierto público ndive?",
+        "helper": "Umi proyecto omonéîva ha'e umi repositorio público IATF ryepýpe.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Añetehápe",
+          "Nahániri",
+          "Ndaikuaái gueteri"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ojejapóramo",
+      "title": "Mba'épa he'ise ñemoneĩ"
+    },
+    "items": [
+      "peteĩ repositorio público IATF organización GitHub-pe",
+      "ingeniero responsable oñeme'êva proyecto-pe",
+      "peteĩ licencia copyleft código ha material proyecto-pe g̃uarã",
+      "desarrollo público repositorio-pe g̃uarã",
+      "peteĩ registro IATF rendaguépe"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Eñepyrũ eñeʼẽ",
+      "title": "Peteî solicitud mbykymi ha hesakâva ha'e suficiente oñepyrû hagua"
+    },
+    "paragraphs": [
+      "Oiméramo reikotevê añete ha reimo'âva oiko va'erâha chugui peteî proyecto público, emoguahê oréve."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

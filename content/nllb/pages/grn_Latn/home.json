@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Oikotevẽva ojeike hag̃ua umi repositorio público-pe",
+    "lead": "IATF oipytyvõ umi aty, aty ha tapichápe omoambue hag̃ua tekotevẽ añetéva tekorosãrã umi apopyrãnguéra hekosãsóvape g̃uarã.",
+    "support": [
+      "Umi apopyrã oñemoneĩva oñemoherakuã IATF GitHub organización-pe peteĩ licencia copyleft poguýpe ha peteĩ ingeniero responsable omongu'e opavavépe g̃uarã."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modelo operativo público rehegua",
+      "title": "Peteî tape ha'eñóva software accesible-pe g̃uarã"
+    },
+    "paragraphs": [
+      "Peteĩ formulario rupive, oimeraẽva ikatu omog̃uahẽ peteĩ apañuãi IATF-pe.",
+      "Opaite apopyrã oñemoneĩva oguereko peteĩ hogarã opavavépe g̃uarã código, apañuãi, kuatia'atã ha ñemoherakuã, akãrapu'ã omoakãva peteĩ ingeniero responsable."
+    ],
+    "specCard": {
+      "title": "Modelo operativo público rehegua",
+      "terms": [
+        {
+          "term": "Tekotevẽ",
+          "definition": "Problema de accesibilidad añetéva"
+        },
+        {
+          "term": "Ñehesa'ỹijo",
+          "definition": "Jehupytyvoirã ha mba'éichapa ojehupytykuaa"
+        },
+        {
+          "term": "Proyecto renda",
+          "definition": "Repositorio público GitHub-pe g̃uarã"
+        },
+        {
+          "term": "Ñangarekoha",
+          "definition": "IATF mba'apoharakuéra jehepyme'ẽ"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proceso rehegua",
+      "title": "Mba'éichapa omba'apo",
+      "intro": "Pe modelo opyta michĩmi ikatu hag̃uáicha tape público ndahasyive ojeipykúi."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Oñemog̃uahẽ peteĩ mba'e oikotevẽva",
+        "paragraphs": [
+          "Peteî asociación, grupo térâ tapicha ikatu omoguahê peteî solicitud oñeikotevêva añetehápe.",
+          "Umi solicitud ikatu oñepyrû página web rupive, correo electrónico rupive <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, térã Discord rupive."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ohechajey",
+        "paragraphs": [
+          "Ñahesa'ỹijo mba'e mba'épa ojehupytyse, mba'emba'épa ikatu ojejapo, ha oimépa pe tembiapo oike peteĩ apopyrã público de código abierto-pe."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Oñemoheñói peteĩ repositorio público",
+        "paragraphs": [
+          "Peteĩ apopyrã oñemoneĩramo, oñemoherakuã IATF GitHub organización-pe peteĩ licencia copyleft guýpe.",
+          "Repositorio-gui oiko hogarã opavavépe g̃uarã código, apañuãi, kuatia'atã ha pu'aka."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Peteĩ ingeniero responsable omotenonde proyecto",
+        "paragraphs": [
+          "Peteĩ ingeniero responsable oñeme'ẽ repositorio proyecto-pe ha akãrapu'ã oiko público-pe."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro-kuéra",
+      "title": "Registro público proyecto rehegua"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Emoñepyrũ ko'ápe",
+      "title": "Ohesa'ỹijo tembiapo ohasáva térã omoñepyrû proyecto concreto"
+    },
+    "paragraphs": [
+      "Eipuru registro ehecha hag̃ua mba'épa oĩma público-pe, térã eñepyrũ eipuru peteĩ problema de accesibilidad concreto oiko hag̃uã chugui peteĩ proyecto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

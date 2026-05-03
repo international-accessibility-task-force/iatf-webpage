@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ndojejuhúi"
+  },
+  "hero": {
+    "eyebrow": "Ndojejuhúi",
+    "title": "Pe kuatiarogue ojejeruréva ndojejuhúi",
+    "lead": "Eiporu ruta principal oĩva ko'ápe eho jey hag̃ua tenda público-pe.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Óga rehegua",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Upe tape rehekava'ekue ndaipóri."
+    ],
+    "items": [
+      {
+        "label": "Óga rehegua",
+        "href": "/"
+      },
+      {
+        "label": "Proyecto-kuéra",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ñembojoaju",
+        "href": "/join/"
+      },
+      {
+        "label": "Jeikekuaa",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gobernación rehegua",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparencia rehegua",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

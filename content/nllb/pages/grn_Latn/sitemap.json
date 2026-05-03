@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Ñemohenda"
+  },
+  "hero": {
+    "eyebrow": "Ñemohenda",
+    "title": "Ñemohenda",
+    "lead": "Opaite página pública iatf.cc-pe, peteĩ hendápe."
+  },
+  "sections": [
+    {
+      "title": "Kuatiarogue tenondegua",
+      "items": [
+        {
+          "label": "Óga rehegua",
+          "href": "/"
+        },
+        {
+          "label": "Proyecto-kuéra",
+          "href": "/projects/"
+        },
+        {
+          "label": "Ejerure peteĩ apopyrã",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gobernación rehegua",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ñembojoaju",
+          "href": "/join/"
+        },
+        {
+          "label": "Jeikekuaa",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparencia rehegua",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyecto-kuéra",
+  "projectsEmpty": "Ko'ágã peve noñeguenohẽi gueteri proyecto."
+}

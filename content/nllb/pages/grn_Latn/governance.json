@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Gobernación ha repositorio modelo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Gobernación ha repositorio modelo",
+    "lead": "IATF omoañete umi proyecto de accesibilidad público, omoñe'ẽkuaáva ha oñangarekóva.",
+    "support": [
+      "Ko kuatiarogue omyesakã mba'e mba'épa omoneĩ, mba'éichapa oñeñongatu umi repositorio, ha mba'emba'épa oñangarekova'erã umi repositorio-pe oñemoneĩ rire."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reglamentación rehegua",
+      "title": "Misión ojokupytýva, propiedad, licencia"
+    },
+    "cards": [
+      {
+        "title": "Misión oikotevẽva",
+        "paragraphs": [
+          "IATF omoneĩ tembiapo ombohováiva peteĩ barrera de accesibilidad añetéva ha orekóva valor público hesakãva.",
+          "Peteĩ apopyrã oiporukuaa va'erã peteĩ flujo de trabajo privado añónte ári ha ikatu omba'apo peteĩ repositorio público-ramo.",
+          "Ikatu hag̃uáicha ojeike ñandutípe, IATF oipuru [W3C WAI](https://www.w3.org/WAI/) Umi experiencia directa oiporúva umi tecnología asistida ha'e avei evidencia práctica mba'épa omba'apo jeporu añeteguápe."
+        ]
+      },
+      {
+        "title": "Proyecto ñemoañete",
+        "paragraphs": [
+          "Peteĩ propuesta ikatu oñemoneĩ ojehecha rire:"
+        ],
+        "items": [
+          "ombohovái tekotevê añetéva",
+          "Ko apañuãi hesakãva oñemomba'e hag̃ua",
+          "ámbito ha'e realista omoherakuã haguã",
+          "Ko tembiapo ojoaju misión IATF ndive",
+          "oĩ peteĩ tape ojehupytyséva mantenimiento térã oñemohu'ã hag̃ua"
+        ]
+      },
+      {
+        "title": "Repositorio propiedad rehegua",
+        "paragraphs": [
+          "Umi apopyrã oñemoneĩva oñemoheñói IATF aty GitHub ryepýpe.",
+          "Repositorio-kuéra opyta upépe ikatu hag̃uáicha peteĩteĩ umi proyecto omantene peteĩ hogarã público estable, jepéramo umi mantenedor okambia uperire."
+        ]
+      },
+      {
+        "title": "Licencia rehegua",
+        "paragraphs": [
+          "IATF apopyrã oipuru licencia copyleft, ndaha'éiramo ambue proyecto he'íva:"
+        ],
+        "items": [
+          "<strong>Código:</strong> AGPL-3.0-pe guarã",
+          "<strong>Documentación:</strong> CC BY-SA 4.0 reheguáva"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingeniero térã mantenedor responsable-kuéra",
+      "paragraphs": [
+        "Opaite apopyrã oñemoneĩva'erã peteĩ ingeniero térã mantenedor responsable hérava. Upe tapicha ikatu oñeme'ẽ acceso administrativo repositorio-pe ha oñeha'ãta:"
+      ],
+      "items": [
+        "guía ñemoheñói público-pe",
+        "omoañete estructura repositorio-pegua",
+        "ohesa'ỹijo térã oisãmbyhy umi apañuãi ha ojeruréva",
+        "Documentación umi decisión técnica oñemomba'eguasúva",
+        "toñehaʼã oñentende porãve umi mbaʼe oaprendéva"
+      ],
+      "footnote": "Kóva ha'e hína repository nivel de responsabilidad. Organización propiedad opyta IATF-pe. Ko'ápe responsabilidad hína stewardship del repositorio, dirección técnica ha coordinación pública  ndaha'éi entrega privada ilimitada, integraciones personalizadas térã compromiso nivel de servicio osẽva mapa de ruta público-gui."
+    },
+    "publicDevelopment": {
+      "title": "Desarrollo público rehegua",
+      "paragraphs": [
+        "Umi apopyrã oñeguenohẽva IATF rupive oñemboguata opavave renondépe."
+      ],
+      "items": [
+        "código fuente rehegua",
+        "apañuãi",
+        "kuatiañe'ê",
+        "marandu tape reheguáva",
+        "Tembiasakue ñeguenohẽ rehegua"
+      ],
+      "footnote": "Umi mba'e oñemomba'eguasúva proyecto-pe ndoikóiva'erã ñomongeta ha correo privado-pe añónte."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registros públicos rehegua",
+      "title": "Registros de solicitud público-kuéra rehegua"
+    },
+    "paragraphs": [
+      "IATF omba'apo opavavépe g̃uarã, ha umi mba'e ojeruréva ikatu oike Internet rupive, correo electrónico rupive, Discord, GitHub, térã ambue canal rupive.",
+      "Peteî registro público jejerure ndaha'éi katuete marandu ypy. IATF ikatu ombopapapy, omyatyrõ térã omohendajey peteĩ jejerúre oñemoherakuã mboyve ikatu hag̃uáicha ojehecha jey ojehupytyséva ojehechauka'ỹre marandu personal oikotevẽ'ỹva.",
+      "Umi registro de solicitud pública ikatu oñeñongatu IATF organización GitHub-pe, ko página web-pe térã mokõivépe.",
+      "Oñemoherakuã mboyve, IATF oipe'a umi mba'e oikotevẽ'ỹva contacto personal, dirección privada, ha detalle de identificación umi usuario ha'eñóva umi tecnología asistida rehegua, ndaha'éiramo ojekuaaporãva ha oñemohendáva.",
+      "Discord ojeporu coordinación informal-pe g̃uarã. IATF ndoikói archivo separado-pe Discord ñomongeta ndahapykuehóivo, ha marandu ñongatupyre ojejoko Discord rupive. Umi decisión ojejapóva Discord-pe oñemombykyva'erã registro público-pe GitHub-pe térã página de proyecto relevante-pe.",
+      "Jehaipyre ojejeruréva ndoikéi jehaipy ñehesa'ỹijo mba'ekuaarã rapykuehohápe, ikatúramo. Tetãygua he'ise ojehechaukáva ha ojehechakuaáva. Ndaha'éi he'iséva ojejuhu hag̃ua téra jeheka rupive.",
+      "IATF ikatu ombopyahu térã oipe'a jehaipyre umi tenda público-gui ha'e oisãmbyhýva, hákatu ndikatúi ogarantiza oipo'oha caché, notificación, bifurcación, captura de pantalla, motor de búsqueda, Discord térã ambue sistema externo-gui.",
+      "Marandu oikotevêva opyta privado, aníke omondo IATF canal público rupive."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Tembiaporã organización rehegua",
+      "title": "Mburuvicha"
+    },
+    "lead": "Mburuvicha omoakã IATF ñesãmbyhy organización-pe g̃uarã, iñambuéva ingeniero rembiapo apopyrã-gui: mburuvicha omotenonde organización tuichakue, ndaha'éi peteĩ repositorio ára ha ára.",
+    "duties": {
+      "title": "Mba'épa ojapo pe apyka",
+      "items": [
+        "Oguereko pokatu mba'e jára rehegua organización IATF GitHub-pe",
+        "Omoañete proyecto omonéîva ha archivo decisión",
+        "Omba'apóva punto de contacto público IATF-pe g̃uarã",
+        "Omoirũ jeporavo ary pukukue"
+      ],
+      "footnote": "Mburuvicha ndojokupytýi IATF rehe ñeme'ẽ privado, tembiapo ojehepyme'ẽva, térã acuerdo nivel de servicio-pe, ha ndojapói umi decisión mantenedor de repositorio-pe g̃uarã dirección técnica rehegua."
+    },
+    "election": {
+      "title": "Jeporavo arygua",
+      "paragraphs": [
+        "Presidente ojeporavo peteî jey peteî arýpe, jeporavo oiko mokõi arapokõindy jasypakõi ñepyrũme, ojeikuaauka resultado 15 jasypakõime, ha periodo pyahu oñepyrû 1 jasyteîme.",
+        "Votador ikatupyrýva ha'e umi tapicha omba'apova'ekue mantenedor-ramo oimeraẽ IATF mba'eñongatuhápe ary pukukue javeve ha ojapo va'ekue por lo menos peteĩ contribución oñembyatyva'ekue upe arýpe.",
+        "Jeporavo oñemba'apo peteĩ ñomongeta GitHub público-ramo IATF repositorio de gobierno-pe, upéicha umi candidato, voto ha resultado ha'e parte registro público-pe."
+      ]
+    },
+    "continuity": {
+      "title": "Ñembojoapy",
+      "paragraphs": [
+        "Ndaipóri ramo jeporavo peteĩ arýpe, mburuvicha ko'ag̃agua omba'apo gueteri ambue jeporavópe peve. Kóva ha'e peteĩ jepokuaa opa'ỹva, ndaha'éi peteĩ período de gracia  ko modelo oñemoheñói oñeñongatu hag̃ua organización oĩ jave actividad sa'i, ani ojejopy peteĩ transición avave noĩmbáiva.",
+        "Presidente ikatu oguejy oimeraẽ momento-pe. Umi mantenedor activo ikatu avei ohenói jeporavo extraordinario he'ívo razón, omotenondéva umi regla ojeporúva jeporavorã añeteguáicha."
+      ]
+    },
+    "current": {
+      "title": "Mburuvicha ko'agãgua",
+      "fields": [
+        {
+          "label": "Mburuvicha",
+          "value": "Mbyjajerety Kuarahy rehegua",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ñe'ẽtéva",
+          "value": "Jeporavo jasypakõi 2026 peve"
+        },
+        {
+          "label": "Tembiapo oñemopeteĩva",
+          "value": "2026"
+        },
+        {
+          "label": "Ñembosaraipavẽ peteĩha",
+          "value": "Jasypakõi 2026-pe"
+        }
+      ]
+    },
+    "footnote": "2026 arýpe oñemoañetékuri mburuvicha rembiapo omyesakâ haĝua mba'eichaguápa ha'e ha mba'eichaitépa omotenondeva'erâ upe aty."
+  },
+  "continuity": {
+    "states": {
+      "title": "Proyecto estado-kuéra",
+      "paragraphs": [
+        "Ko'ã proyecto oipuru peteĩ conjunto michĩ estado público:"
+      ],
+      "items": [
+        "Oñemoñe'ê",
+        "Ojehechakuaa",
+        "Ojejapóva",
+        "Ikatupyrýva",
+        "Ohekáva mantenedor",
+        "Arquivado-kuéra"
+      ],
+      "footnote": "Ko'ã estado omboguata registro ndahasýiva ojeheka hag̃ua."
+    },
+    "reassignment": {
+      "title": "Reasignación ha archivo",
+      "paragraphs": [
+        "Oiméramo peteĩ mantenedor oñemomombyry térã ndojapói mba'eve, IATF ikatu ome'ẽjey responsabilidad, opytu'u desarrollo, térã archiva proyecto.",
+        "Peteĩ apopyrã ikatu avei oñemoĩ archivo-pe ojehupytýramo pe oñeikotevẽva ñepyrũrã, ojejoko mantenimiento, térã ndikatumo'ãvéima oñemba'apo hese."
+      ],
+      "footnote": "Umi proyecto archivo-va opyta ojehecha hag̃uã público-pe, ndaipóri ramo razón omopyendáva ojapo hag̃ua ambue mba'e."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ñe'ẽpehẽtai upeigua",
+      "title": "Mba'épa IATF ndoguerekói garantía"
+    },
+    "items": [
+      "cliente privado ñeme'ê",
+      "acuerdo nivel de servicio reheguáva",
+      "omoneĩva opaite propuesta",
+      "mantenimiento a largo plazo opaite proyecto-pe g̃uarã"
+    ],
+    "footnote": "IATF ha'e peteĩ repositorio público modelo, ndaha'éi peteĩ servicio de entrega privado."
+  }
+}

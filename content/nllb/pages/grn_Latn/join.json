@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Eike IATF-pe",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Eike IATF-pe",
+    "lead": "Oĩ heta hendáicha ikatu hag̃uáicha reike, taha'e eipurúramo tembipurupyahu pytyvõha, ejapo software ojepurukuaa'ỹva, embohasa, eha'ã térã emongu'e peteĩ apopyrã. Ñomongeta ha jesareko oiko opavave renondépe GitHub ha Discord-pe.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Tembiaporã",
+      "title": "Mba'éichapa ikatu reipytyvõ"
+    },
+    "items": [
+      "<strong>Ejerure peteĩ apopyrã.</strong> Oiméramo rejuhu peteĩ apañuãi jeikekuaa rehegua ikatúva oñembohovái software público de código abierto rupive, emog̃uahẽ pe mba'ejerure ñeguenohẽ rupive.",
+      "<strong>Eha'ã ha ehechajey.</strong> Eha'ã IATF apopyrã umi tecnología asistida eiporúva ndive, emombe'u mba'e mba'épa omba'apo ha mba'emba'épa nahániri, ha emyenyhẽ apañuãi umi repositorio relevante-pe.",
+      "<strong>Embohasa.</strong> Ko'ã mba'e oñeguenohẽ ñepyrũ inglés ñe'ẽme, ha oñembojoapy ñe'ẽ ñembohasa umi oipytyvõva guive, oñepyrũvo castellano-gui.",
+      "<strong>Oñemopu'ã.</strong> Eiporavo apañuãi oimeraẽ IATF mba'eñongatupyre ryepýpe, emondo mba'ekuaarã ñeguenohẽ jejerure, térã eikundaha peteĩ apopyrã ingeniero responsable ramo.",
+      "<strong>Oñangarekova'erã hese.</strong> Umi proyecto oĩmava sapy'ánte oikotevẽ peteĩ mantenedor pyahu. Mantenedor rotación ha'e peteĩ parte normal modelo-pe, ndaha'éi excepción."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Umi canal-kuéra",
+      "title": "IATF omba'apóva público-pe"
+    },
+    "items": [
+      "<strong>GitHub-pe g̃uarã.</strong> Umi apañuãi, mba'ejerure ñeguenohẽ, ñemoherakuã ha apopyrã jehaipyre.",
+      "<strong>Ñe'ẽjovake'ỹ.</strong> Ñomongeta oikovéva, coordinación, ha porandu informal.",
+      "<strong>E-mail rupive.</strong> Mba'éichapa ojeporu <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ndojokupytýi ramo GitHub térã Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tembiapo tenondegua",
+      "title": "Eiporavo mba'éichapa eipytyvõta"
+    },
+    "paragraphs": [
+      "Ko'ã canal oñehekombo'e revisión pública-pe ha umi repositorio público-pe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

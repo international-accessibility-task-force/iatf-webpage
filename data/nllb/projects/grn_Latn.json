@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF página web-pe",
+    "summary": "Ñemohenda:Tekoha'ãngandy ta'angambyrýgui Tetã peteĩ reko Amérikagua",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF oikotevê peteî óga público estable omyesakãva modelo, omoîva lista umi proyecto, ha ohechaukáva contribuyente-kuérape mba'épa ojapo va'erã.",
+    "why": "Ko tenda ha'e IATF rokẽ tee, ha oñemopu'ã peteĩ apopyrã michĩramo ikatu hag̃uáicha ojelee, oñembohasa ha oñangarekokuaa hese.",
+    "scopeIn": [
+      "Umi página de destino público omyesakãva modelo IATF",
+      "Registro público de proyectos IATF aceptados, activos ha archivados orekóva estado, mantenedor, repositorio ha demostración",
+      "Ojeruréva página ha formulario",
+      "Gobernación ha transparencia rehegua página",
+      "Ingleñe'ẽgui oñeguenohẽ ha oñemoĩma ñe'ẽasa hag̃ua",
+      "Mba'e'apo ñemohenda Cloudflare mba'apoharakuéra mba'apo'ỹre"
+    ],
+    "scopeOut": [
+      "Área de miembro privado, cuenta, térã jeike rehegua flujo",
+      "Oguereko código fuente proyecto-pe, oikóva repositorio-pe ha'eñoháme",
+      "Ñe'ẽñemi tiempo real-pe, oikóva Discord-pe",
+      "Ñemo'ã rapykuere opaite apopyrãme g̃uarã, oikovéva peteĩteĩ apopyre ñongatuha GitHub-pe"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie-kuéra",
+    "summary": "Peteĩ prototipo IATF ñepyrũgua, oñeñongatúva og̃uahẽ rire peteĩ punto de parada natural-pe.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Evaluación temprana de una herramienta enfocada en la accesibilidad bajo el paraguas de la IATF.",
+    "why": "Ko repositorio oñeñongatu opavavépe g̃uarã peteĩ registro tembiapo rehegua, jepéramo desarrollo activo opyta.",
+    "scopeIn": [
+      "Prototipo ypy peteĩ herramienta enfocada en la accesibilidad oñeñongatúva registro público ramo"
+    ],
+    "scopeOut": [
+      "Tembiapo akãrapu'ã térã mba'eporã",
+      "Umi compromiso mantenimiento rehegua",
+      "Mba'éichapa ojeporu va'erã producción-pe"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot-kuéra",
+    "summary": "Peteĩ bot comunidad IATF-pegua, oñeñongatúva og̃uahẽ rire peteĩ punto de parada natural-pe.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatización IATF canales comunitarios jerére.",
+    "why": "Ko repositorio oñeñongatu opavavépe g̃uarã peteĩ registro tembiapo rehegua, jepéramo desarrollo activo opyta.",
+    "scopeIn": [
+      "Discord automatización IATF comunidad canal-kuéra jerére, oñeñongatúva registro público-ramo"
+    ],
+    "scopeOut": [
+      "Tembiapo akãrapu'ã térã mba'eporã",
+      "Umi compromiso mantenimiento rehegua",
+      "Mba'éichapa ojeporu va'erã producción-pe"
+    ]
+  }
+]

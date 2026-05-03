@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Jeikekuaa",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Jeikekuaa",
+    "lead": "IATF oñeha'ã ojapo ko página web ndahasýiva, omoñe'ẽkuaáva, ojepurukuaáva teclado rupive, ha ojoajúva umi tecnología de asistencia ndive.",
+    "support": [
+      "Ikatu hag̃uáicha ojeike ñandutípe, IATF oipuru [W3C WAI](https://www.w3.org/WAI/) Ko'ã mba'e ojehupyty hag̃ua ojehecha avei mba'éichapa umi oiporúva umi tecnología de asistencia."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Marandu ñeme'ê",
+      "title": "Emombe'u peteĩ apañuãi jeike rehegua"
+    },
+    "paragraphs": [
+      "Rejuhúramo peteĩ mba'e ombotovéva jeike ko ñanduti rendápe, eikuaauka ñanduti rupive:",
+      "{{contact.accessibilityEmail}}",
+      "Ko'ã marandu iporãva apytépe oĩ:"
+    ],
+    "items": [
+      "Kuatiarogue oikohápe ko apañuãi",
+      "mba'épa reñeha'â rejapo",
+      "mba'e tembipurupyahu, kundahára térã tembipuru'i reipurúva, ikatúramo",
+      "¿Mbaʼépa oiko vaʼekue?",
+      "mbaʼépa oipytyvõ vaʼerãmoʼã"
+    ],
+    "footnote": "Natekotevẽi ehai peteĩ informe de fallo formal. Peteĩ descripción hesakãva ha'e suficiente."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Mba'éichapa oñemongu'e",
+      "title": "Umi asunto público ñemyatyrõ"
+    },
+    "paragraphs": [
+      "Umi problema de accesibilidad ikatu oñemombyky archivo público relevante-pe ikatu hag̃uáicha oñemyatyrõ opavave renondépe.",
+      "Oiméramo ne marandu oguereko información privada, he'i porãva'erã marandúpe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Estado ko'ágãgua",
+      "title": "Umi limitación ojekuaáva"
+    },
+    "paragraphs": [
+      "Ko tenda ha'e michĩ ha hetave mba'e ndoikói. Ikatu oĩ ñe'ẽnguéra noñemboguatáiva oñembosako'ívo ñembohasa."
+    ]
+  }
+}

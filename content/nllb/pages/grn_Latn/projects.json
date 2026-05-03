@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyectos de accesibilidad pública rehegua",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyectos de accesibilidad pública rehegua",
+    "lead": "Ko registro-pe oĩ umi proyecto público oñangarekóva IATF rupive. Ko'ápe ojehecha umi proyecto de accesibilidad omonéîva, infraestructura ha prototipo archivo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro-kuéra",
+      "title": "Registro ko'ágãgua"
+    },
+    "intro": [
+      "Ko'ápe ojehechauka umi proyecto oñemoneĩva oñemoherakuã rire."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Emog̃uahẽ peteĩ mba'e reikotevẽva",
+      "title": "Toñemoambue tekotevê añetéva tekopykuaa rehegua peteî proyecto público-pe"
+    },
+    "paragraphs": [
+      "IATF ohesa'ỹijo mba'e mba'épa oikotevẽ ojehupyty hag̃ua, ikatu hag̃uáicha oiko ichugui tembiapo tekopykuaa hesakãva."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ko'ágã peve noñeguenohẽi gueteri proyecto",
+    "paragraphs": [
+      "IATF ombosako'i proyecto público tenondegua.",
+      "Ikatu gueteri emondo ne mba'ejerure, eikotevẽramo jeike añete."
+    ]
+  }
+}
