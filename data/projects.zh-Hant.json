@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF網站",
+    "summary": "這是國際可用性工作小組的公開網站.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF需要一個穩定的公共網站來解釋模型,列出計畫,",
+    "why": "這個網站是IATF的公共門口.",
+    "scopeIn": [
+      "公眾登陸頁面解釋了IATF模型",
+      "公眾登記已接受,現有及已存檔的IATF計畫,",
+      "要求接收頁面和表格",
+      "治理與透明頁面",
+      "英文來源與結構已準備翻譯",
+      "在 Cloudflare 工作人員的靜態資產上進行靜態部署"
+    ],
+    "scopeOut": [
+      "隱私的會員區域,帳戶或登入流程",
+      "在每個項目自己的資料庫中存儲的項目源代碼的托管",
+      "在 Discord 提供實時聊天.",
+      "在每個計畫的 GitHub 資料庫中存儲."
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF的自拍影片",
+    "summary": "在達到自然停止點後存檔的早期IATF原型.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "在IATF的傘下, 早期探索以可及性為重點的工具.",
+    "why": "儘管已停止主動開發,",
+    "scopeIn": [
+      "一種以可及性為重點的工具的早期原型,"
+    ],
+    "scopeOut": [
+      "主動開發或特色工作",
+      "維護費的承諾",
+      "推薦在生產中的使用"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "沒有任何相關訊息.",
+    "summary": "一位IATF社群機器人, 在達到自然停止點後存檔.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "在IATF社群道的自動化.",
+    "why": "儘管已停止主動開發,",
+    "scopeIn": [
+      "關於IATF社群頻道的爭議自動化,"
+    ],
+    "scopeOut": [
+      "主動開發或特色工作",
+      "維護費的承諾",
+      "推薦在生產中的使用"
+    ]
+  }
+]
