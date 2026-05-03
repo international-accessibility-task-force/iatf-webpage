@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyek aksesibilitas umum",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyek aksesibilitas umum",
+    "lead": "Daftar nyoe geu peutheun proyek-proyek publik nyang geujaga le IATF. Proyek aksesibilitas nyang geuteurimeng, prasarana situs, ngon prototipe nyang ka geu arsipkan geupeutamong lam daftar nyoe.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registry[peusaneut _ peusaneut nè]",
+      "title": "Registre jinoë"
+    },
+    "intro": [
+      "Proyek-proyek nyang ka geuteurimeng akan teudapeuta di miyup nyoe lheuh ji publikasikan."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Neulakee saboh perlehan",
+      "title": "Meubah saboh kebutuhan aksesibilitas konkret jeut keu proyek publik"
+    },
+    "paragraphs": [
+      "IATF meupeuturi kebutuhan aksesibilitas konkret nyang jeut jiubah jeut keu karya sumber terbuka publik nyang meuguna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Hana proyek nyang dipublisit sampoë jinoë",
+    "paragraphs": [
+      "IATF teungoh jipeusiap proyek publik phon jih.",
+      "Droeneuh manteng jeut neukirem permintaan meunyo droeneuh na kebutuhan aksesibilitas nyang konkret."
+    ]
+  }
+}

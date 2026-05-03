@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Laman web IATF",
+    "summary": "Laman web umum keu International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF perle rumoh publik yang stabil nyang peujelaskan model, daftar proyek, dan peutunyok kontributor keu langkah selanjut jih.",
+    "why": "Laman nyoë nakeuh babah pintoe umum nibak IATF. Geupeugöt seubagoë saboh proyek statis nyang ubit mangat mudah geukeumeung baca, geubalék, ngon geujaga bak teumpat nyang teuhah.",
+    "scopeIn": [
+      "Laman landas publik nyang peujelaskan model IATF",
+      "Registri publik proyek IATF nyang ka geuteurimeng, aktif, ngon geucatat ngon status, peutahanan, repositori, ngon demo",
+      "Halaman ngon formulir penerimaan permintaan",
+      "Laman peumeurintahan dan transparansi",
+      "sumber bahasa inggreh deungen struktur siap untuk terjemahan",
+      "Deployment statis bak Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Wilayah anggota pribadi, akun, atawa aliran log-in",
+      "Hosting kode sumber proyek, yang tinggai di repositori masing-masing proyek",
+      "Real-time chat, nyang udep lam Discord",
+      "Jeulaih peukara keu saboh-saboh proyek, nyang tinggai lam gudang GitHub tieb-tieb proyek"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Saboh prototipe IATF awai, geucatat lheuh troh bak titek peudong alami.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "eksplorasi awai dari alat yang berfokus bak aksesibilitas di bawah payong IATF.",
+    "why": "Repository nyoe jijaga keu umum seubagoe catatan karya, bah pih pengembangan aktif ka jipiyoh.",
+    "scopeIn": [
+      "Prototipe awai alat nyang berfokus bak aksesibilitas nyang jijaga seubagoe catatan publik"
+    ],
+    "scopeOut": [
+      "Pengembangan aktif atau pekerjaan fitur",
+      "Kewajiban pemeliharaan",
+      "Penggunaan yeng direkomendasikan dalam produksi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Saboh bot komunitas IATF, geusimpan lheuh troh bak saboh titek peudong alami.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Otomatisasi di sekitar saluran komunitas IATF.",
+    "why": "Repository nyoe jijaga keu umum seubagoe catatan karya, bah pih pengembangan aktif ka jipiyoh.",
+    "scopeIn": [
+      "Otomatisasi perselisihan di sekitar saluran komunitas IATF, dipeutahan seubagai catatan publik"
+    ],
+    "scopeOut": [
+      "Pengembangan aktif atau pekerjaan fitur",
+      "Kewajiban pemeliharaan",
+      "Penggunaan yeng direkomendasikan dalam produksi"
+    ]
+  }
+]

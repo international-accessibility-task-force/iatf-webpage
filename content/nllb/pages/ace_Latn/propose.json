@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Meuminta proyek aksesibilitas",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Meuminta proyek aksesibilitas",
+    "lead": "IATF geu ulee permintaan proyek aksesibilitas yang dimulai dari kebutuhan nyata.",
+    "support": [
+      "Droeneuh hana peureulèe spesifikasi lengkap. Masalah nyang jeulah, soe nyang keunong jih, dan pakon peunteng nyan cukop keu mulai."
+    ],
+    "actions": [
+      {
+        "label": "Neulakee permintaan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Guna Discord seubalek jih",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saluran-saluran nyan",
+      "title": "Neupileh jalan nyang paleng mudah"
+    },
+    "intro": [
+      "Bandum rutee jitamong lam tinjauan nyang sama."
+    ],
+    "items": [
+      {
+        "label": "Laman web",
+        "body": "Pakek formulir di miyueb nyoe untok meutumeng permintaan yang terstruktur."
+      },
+      {
+        "label": "E-mail jih",
+        "body": "Kirem permintaan nyan langsong keu {{contact.requestsEmail}}Permintaan email jeut keu catatan permintaan publik lheh tinjauan dan redaksi."
+      },
+      {
+        "label": "Meucrebre",
+        "body": "mulai dari sana jika itu yang paleng mudah. permintaan tetap bergerak ke dalam tinjauan yang sama."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Seugolom neukirem permintaan",
+    "paragraphs": [
+      "IATF meubuet bak publik. Permintaan jeut diringkeskan dan dipeutubit seubagoe catatan permintaan publik di organisasi iATF GitHub, bak situs web nyoe, atawa mandua jih.",
+      "Bék tuleh alamat pribadi, nomor telepon, rincian medis, atawa informasi identifikasi teuntang pengguna teknologi bantu seulaen nyan perle dan droeneuh nyaman deungen IATF nyang peuriksa nyan.",
+      "IATF meupeugadeh rincian kontak pribadi nyang hana peureulèe seugolom jipeuteubiet catatan permintaan."
+    ]
+  },
+  "review": {
+    "title": "Tinjauan ekspektasi",
+    "paragraphs": [
+      "Neupeutron permintaan hana jeut keu jaminan bahwa barang nyan ka geuteurimong.",
+      "IATF geupeureksa permintaan keu keucocokan misi, kelayakan, kegunaan, ngon peu karya nyan lam repositori umum.",
+      "Padum-padum boh permintaan jeut ditolak, ditunda, atawa dipeuget lom seugolom geuteurimeng."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Bentuk permintaan",
+      "title": "Neupeutron permintaan"
+    },
+    "fields": [
+      {
+        "kind": "input (peuteubiet)",
+        "name": "ureueng meulakée",
+        "label": "Nan atawa organisasi droeneuh",
+        "helper": "Soe nyang meulakée?"
+      },
+      {
+        "kind": "geupiléh",
+        "name": "kontakRoute",
+        "label": "Rute kontak nyang leubeh get",
+        "helper": "Pakriban cara jih seulanjut jih?",
+        "required": true,
+        "options": [
+          "E-mail jih",
+          "Meucrebre"
+        ]
+      },
+      {
+        "kind": "input (peuteubiet)",
+        "name": "Rincian kontak",
+        "label": "Rincian kontak",
+        "helper": "Alamat email atawa alamat Discord keu tindak lanjut.",
+        "placeholder": "Alamat email atawa alamat Discord",
+        "required": true
+      },
+      {
+        "kind": "input (peuteubiet)",
+        "name": "basa jih",
+        "label": "Bahsa jih",
+        "helper": "Bahsa droeneuh, meunyo relevan.",
+        "value": "Bahsa Inggreh"
+      },
+      {
+        "kind": "textarea (ruweueng teunuléh)",
+        "name": "peukara",
+        "label": "Masalah peu kheueh nyang keuneuk gata peuseuleusoe?",
+        "helper": "Deskripsikan hambatan nyan dalam bahasa biasa.",
+        "required": true
+      },
+      {
+        "kind": "textarea (ruweueng teunuléh)",
+        "name": "ureueng ngui nyang keunong dampak",
+        "label": "Soe nyang keunong?",
+        "helper": "Soe nyang teuma geutulông lé nyang lagée nyoe?",
+        "required": true
+      },
+      {
+        "kind": "textarea (ruweueng teunuléh)",
+        "name": "extraContext[peusaneut _ peusaneut nè]",
+        "label": "Konteks tambahan",
+        "helper": "Berikan hal-hal laen yeng membantu menjelaskan kebutuhan: kenape penting, contoh, referensi, ide perangkat lunak kasar, atau batasan waktu."
+      },
+      {
+        "kind": "geupiléh",
+        "name": "openSourceConsent[peusaneut _ peusaneut nè]",
+        "label": "nyaman ngen pengembangan open source publik?",
+        "helper": "Proyek-proyek yeng diterimeng adalah repositori publik di baroh IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Nyan Nyan",
+          "Hana",
+          "Gohlom pasti le"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Meunyo geuteurimong",
+      "title": "Peue makna geuteurimeng"
+    },
+    "items": [
+      "saboh repositori publik lam organisasi IATF GitHub",
+      "seorang insinyur yang bertanggung jawab yang ditugaskan untuk proyek nyan",
+      "lisensi copyleft keu kode ngon bahan proyek",
+      "pengembangan publik bak repositori",
+      "entri registry bak situs IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Neujak peugah haba",
+      "title": "Permintaan singkat yang jeulah nyan cukup keu mulai"
+    },
+    "paragraphs": [
+      "Meunyo droeneuh sunggoh peureulee aksesibilitas dan neupike nyoe jeut keu proyek umum, kirem kheueh bak kamoe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

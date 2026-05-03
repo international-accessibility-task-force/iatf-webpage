@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Tata kelola ngon model repositori",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Tata kelola ngon model repositori",
+    "lead": "IATF geujaga proyek aksesibilitas jeut keu publik, jeut dibaca, dan jeut geujaga.",
+    "support": [
+      "Laman nyo geupeutrang peu nyang kualifikasi, pakiban repositori jijaga, dan peu tanggung jawab bak tingkat repositori nyang berlaku lheuh geuteurimeng."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Aturan-aturan jih",
+      "title": "Misi fit, kepemilikan, lisensi"
+    },
+    "cards": [
+      {
+        "title": "Misi nyang cocok",
+        "paragraphs": [
+          "IATF geuteurimeng karya nyang geuatasi hambatan aksesibilitas nyang nyata ngon na nilai publik nyang jeulah.",
+          "Saboh proyek haroh meuguna lubeh dari saboh alur kerja pribadi dan jeut ji kerjakan seubagoe repositori publik.",
+          "Untuk aksesibilitas web, IATF geupakek [W3C WAI](https://www.w3.org/WAI/) pengalaman langsung dari pengguna teknologi bantu juga merupakan bukti praktis tentang apa yang bekerja dalam penggunaan nyata."
+        ]
+      },
+      {
+        "title": "Penerimaan proyek",
+        "paragraphs": [
+          "Saboh proposal jeut geuteurimeng meunyo tinjauan geupeuleumah bahwa:"
+        ],
+        "items": [
+          "nyan meuatasi kebutuhan aksesibilitas yang nyata",
+          "masalah jih cukup jeulah untuk ji evaluasi",
+          "ruang lingkup nyan cukup realistis untuk peugöt",
+          "pekerjaan sejalan deungen misi IATF",
+          "na jalan yeng masuk akal untuk pemeliharaan atau penyempurnaan"
+        ]
+      },
+      {
+        "title": "kepemilikan repositori",
+        "paragraphs": [
+          "Proyek nyang geuteurimeng geupeugöt lam organisasi IATF GitHub.",
+          "Repositori teutap di sinan sehingga tiep-tiep proyek dipeutahan saboh rumoh publik yang stabil, bahkan meunyo pengurus kemudian meu ubah."
+        ]
+      },
+      {
+        "title": "Peulisensing",
+        "paragraphs": [
+          "Proyek-proyek IATF geupakek lisensi copyleft keucuali proyek menyatakan laen:"
+        ],
+        "items": [
+          "<strong>Kode jih:</strong> AGPL-3.0",
+          "<strong>Dokumen jih:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Insinyur atawa pemelihara yang bertanggung jawab",
+      "paragraphs": [
+        "tiep proyek yeng diterimeng haroh na sidroe insinyur atau pemelihara yeng bertanggung jawab. ureung nyan mungken dijok akses admin keu repositori ngen haroh:"
+      ],
+      "items": [
+        "pengembangan panduan bak publik",
+        "meupeutahan struktur repositori",
+        "Neulakee atawa neulaku peukara-peukara ngon neucok permintaan",
+        "dokumen keputusan teknis nyang peunteng",
+        "peuget proyek jeut dipahami le ureung laen"
+      ],
+      "footnote": "Ini adalah tanggung jawab tingkat repositori. kepemilikan organisasi tetap dengan IATF. tanggung jawab di sini adalah pengelolaan repositori, arahan teknis, dan koordinasi publik  bukan pengiriman pribadi yang tidak terbatas, integrasi kustom, atau komitmen tingkat layanan di luar peta jalan publik."
+    },
+    "publicDevelopment": {
+      "title": "Pembangunan publik",
+      "paragraphs": [
+        "Proyek-proyek yang dilansir melalui IATF dikembangkan secara umum secara default. Repository adalah sumber umum keubeunaran untuk:"
+      ],
+      "items": [
+        "kode sumber jih",
+        "peukara-peukara",
+        "dokumentasi jih",
+        "catatan peta jalan jih",
+        "riwayat peulheueh"
+      ],
+      "footnote": "Pengetahuan proyek yang peunteng hanjeut tinggai bak chat pribadi atawa inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Catatan publik",
+      "title": "Rekaman permintaan publik"
+    },
+    "paragraphs": [
+      "IATF meubuet bak publik seucara default. Permintaan nyang tamong lam IAT F rot website, email, Discord, GitHub, atawa saluran IATf la'en jeut keu catatan permintaan publik.",
+      "Rekam permintaan publik hanjeut keu peusan aseuli. IATF jeut keu peuseuleusoe, peuget redaksi, atawa peugöt ulang peusan seugolom publikasi mangat kebutuhan aksesibilitas jeut ji ujoe ngon hana jipeuleumah informasi pribadi nyang hana peureulèe.",
+      "Catatan permintaan publik jeut disimpan bak organisasi IATF GitHub, bak situs web nyoe, atawa mandua jih.",
+      "Seugolom publikasi, IATF ji peugadeh rincian kontak pribadi nyang hana perle, alamat pribadi, ngon rincian identifikasi teuntang pengguna teknologi bantu individu keucuali jika publikasi jitujuan ngon tepat.",
+      "Discord geungui keu koordinasi informal. IATF hana geu arsip percakapan Discord secara teupileh, dan retensi pesan geu kontrol le Discord. Keuputosan nyang geupeuget lam Discord haroh geupeusimpol lam catatan publik di GitHub atawa bak laman proyek nyang relevan.",
+      "Rekaman permintaan dikecualikan dari pengindeksan mesin pencari dimana secara teknis praktis. Publik berarti dapat ditinjau dan dipertanggungjawabkan. Ini tidak berarti dioptimalkan untuk penemuan melalui pencarian nama.",
+      "IATF jeut meu-update atawa meupeugadeh catatan dari permukaan publik nyang ji kontrol le IAT F, tapi hanjeut ji jamin penghapusan dari cache pihak keu lhee, pemberitahuan, garpu, tangkapan layar, mesin pencari, Discord, atawa sistem eksternal laen jih.",
+      "Meunyo saboh pesan haroh teutap pribadi, bék neu kirem melalui saluran publik IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Peranan organisasi",
+      "title": "Keureusi"
+    },
+    "lead": "Ulon meutanggong jaweub organisasi tingkat IATF. nyoe meubeda deungen peran insinyur yang bertanggung jawab per proyek: ulon bertanggung jawab keu organisasi seucara keseluruhan, kon keu arah dari uroe keu uroe dari saboh repositori.",
+    "duties": {
+      "title": "Peue nyang geupubuet lé kurusi nyan",
+      "items": [
+        "Geupeugöt izin peuneugöt bak organisasi IATF GitHub",
+        "Tanda tanggong nibak persetujuan proyek dan keuputusan arsip",
+        "Peuget-peuget seubagoe titik kontak publik untuk IATF",
+        "Koordinasi pemilu keu tiep-tiep thon"
+      ],
+      "footnote": "Ketua hana meutanggong jaweub IATF keu pengiriman pribadi, kerja berbayar, atau perjanjian tingkat layanan, dan hana meulanggehkan keputusan pemelihara per-repository teuntang arah teknis."
+    },
+    "election": {
+      "title": "Pemilu tiep-tiep thon",
+      "paragraphs": [
+        "Ketua geupileh sigoe dalam sithon. Pemilihan berlangsung bak dua minggu phon Desember, hase jih diumumkan bak 15 Desember, dan masa jabatan baroe dimulai bak 1 Januari.",
+        "Peuniléh nyang sah nakeuh ureueng-ureueng nyang ka geuduëk bak saboh repository IATF lam thôn nyan ngon geupeugot seutidak jih saboh peuniléh keu repositary IATf lam thôn nyang na. Tieb-tieb ureueng nyang na hak geupiléh na saboh suara. Kandidat nyang na suara leubèh meuhase; lam keujadian hana meuteumeung, putaran keudua geupeugot bak minggu keu lhèe buleuen Desember.",
+        "Pemilihan geupimpin seubagoe Diskusi GitHub publik lam gudang peumeurintahan IATF nyang ditunjuk, sehingga kandidat, vot, dan hasee mandum jeut keu bagian dari catatan publik."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitas",
+      "paragraphs": [
+        "Meunyo hana pemilu bak saboh thon, ketua saat nyoe manteng bak jabatan sampoe pemilu ukeu. nyoe adalah lanjutan yang hana meuteuntang, kon masa lapang  model jih dirancang untuk peutahankan organisasi stabil watee aktivitas jih rendah, kon untuk dipaksa transisi yang hana soe siap.",
+        "Ketua jeut meulangkah bak seutiap saat. pengurus aktif jeut cit meukheun pemilu luar biasa deungen alasan yeng dipeugah, dipeurele deungen aturan yeng sama deungen pemilu tahunan."
+      ]
+    },
+    "current": {
+      "title": "Kursi jinoë",
+      "fields": [
+        {
+          "label": "Keureusi",
+          "value": "geunyang mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Istilah jih",
+          "value": "Sampoe pemilu Desember 2026"
+        },
+        {
+          "label": "Peranan dipeurmalkan",
+          "value": "2026"
+        },
+        {
+          "label": "Pemilihan umum nyang phon",
+          "value": "Buleuen Siblaih 2026"
+        }
+      ]
+    },
+    "footnote": "Peranan ketua geuformalkan bak thon 2026 keu geu peujeulah peumeurintahan tingkat organisasi secara eksplisit. Sampoe saat nyan, tanggong jaweub organisasi geu jok seucara informal le ureueng nyang peudong organisasi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Keujadian-keujadian proyek",
+      "paragraphs": [
+        "Proyek-proyek geupakek serangkaian kecil dari negara-negara publik:"
+      ],
+      "items": [
+        "Proposal nyan",
+        "Teuteurimong",
+        "Aktif",
+        "Stabil jih",
+        "Meu mita ureueng peuduli",
+        "Geu arsipkan"
+      ],
+      "footnote": "Negara-negara nyoe geupeuget registry nyan mudah untuk geu scan."
+    },
+    "reassignment": {
+      "title": "Reassignasi ngen pengarsipan",
+      "paragraphs": [
+        "Meunyo ureung nyang peugot nyan jipiyoh atawa hana aktif, IATF jeut ji seurah lom tanggong jaweub, ji peupiyoh pengembangan, atawa ji arsipkan proyek nyan.",
+        "Saboh proyek jeut cit diarsipkan wate kebutuhan awai ka diteurimeng, pemeliharaan ka jipiyoh, atau keureja lanjutan hana manteng realistis."
+      ],
+      "footnote": "Proyek-proyek yeng diarsipkan teutap deuh keu umum kecuali na alasan yeng memaksa untuk meupeuget laen jih."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota batah",
+      "title": "Peue nyang hana ji jamin le IATF"
+    },
+    "items": [
+      "pengiriman keu klien swasta",
+      "perjanjian tingkat layanan",
+      "penerimaan dari tiep-tiep proposal",
+      "pemeliharaan jangka panyang untuk tiep proyek"
+    ],
+    "footnote": "IATF adalah model repositori publik, kon layanan peungiriman swasta."
+  }
+}

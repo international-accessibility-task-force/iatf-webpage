@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap[peusaneut _ peusaneut nè]"
+  },
+  "hero": {
+    "eyebrow": "Indèks",
+    "title": "Sitemap[peusaneut _ peusaneut nè]",
+    "lead": "tiep-tiep halaman publik bak iatf.cc, bak saboh teumpat."
+  },
+  "sections": [
+    {
+      "title": "Laman utama",
+      "items": [
+        {
+          "label": "Rumoh droe",
+          "href": "/"
+        },
+        {
+          "label": "Proyek-proyek",
+          "href": "/projects/"
+        },
+        {
+          "label": "Meuminta proyek",
+          "href": "/propose/"
+        },
+        {
+          "label": "Tata kelola",
+          "href": "/governance/"
+        },
+        {
+          "label": "Meugabong",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksesibilitas",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparansi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyek-proyek",
+  "projectsEmpty": "Gohlom na publikasi proyek."
+}

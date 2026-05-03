@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Hana meurumpok"
+  },
+  "hero": {
+    "eyebrow": "Hana meurumpok",
+    "title": "Laman nyang neutanyong hana meurumpok",
+    "lead": "Pakek jalan utama di miyueb untuk woe u situs umum.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Rumoh droe",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Rute nyang droeneuh tanyong hana na."
+    ],
+    "items": [
+      {
+        "label": "Rumoh droe",
+        "href": "/"
+      },
+      {
+        "label": "Proyek-proyek",
+        "href": "/projects/"
+      },
+      {
+        "label": "Meugabong",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksesibilitas",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Tata kelola",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparansi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparansi",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparansi",
+    "lead": "IATF meubuet bak publik seucara default. keputusan proyek, perubahan kode, perubahan peumeurintah, dan biaya operasi geu catat bak teumpat-teumpat umum. halaman nyoe geu daftar pat mandum jenis catatan nyan na dan cara geu baca.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Catatan-catatan nyan",
+      "title": "Di pat catatan nyan tinggai"
+    },
+    "items": [
+      "<strong>Keuputosan proyek.</strong> keputusan penerimaan, arsip, dan penugasan ulang direkodkan sebage isu atau rilis di repositori relevan, dan diringkaskan di registry publik. <a href=\"/projects/\">registry (peuteugeot)</a>. nyan",
+      "<strong>Permintaan rekaman.</strong> Catatan permintaan publik disimpan di organisasi IATF GitHub, di situs web nyoe, atau keduanya. Catatan jeut meringkas, menyunting, atau merestrukturisasi permintaan asli sehingga kebutuhan aksesibilitas dapat ditinjau tanpa mengekspos informasi pribadi yang tidak perlu. Keputusan perselisihan diringkaskan ke dalam catatan publik ketika mereka mempengaruhi proyek atau keputusan tata kelola. Catetan permintaan dikecualikan dari pengindeksan mesin pencari jika praktis secara teknis. Lihat catatan: permintaan publikasi pertama tertunda.",
+      "<strong>Kode meuubah.</strong> tiep-tiep perubahan kode adalah saboh komitmen publik bak repositori nyang relevan. <a href=\"{{contact.githubOrgUrl}}\">Organisasi GitHub</a>. nyan",
+      "<strong>Perubahan peumeurintahan.</strong> Pembaruan bak halaman peumeurintahan ji lacak seubagai komitmen keu <code>iatf-website</code> repository. View the <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">seuneulheuëh jeuët</a> bak GitHub.",
+      "<strong>biaya operasi.</strong> IATF geujaga biaya operasi nyang rendah dan geu catat biaya infrastruktur publik nyang meuulang-ulang.",
+      "<strong>Catatan koordinasi.</strong> Catatan dari mandum tinjauan atawa keuputusan nyang terkoordinasi udep di GitHub Diskusi bak repositori nyang bersangkutan  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Pembahasan</a> bak <code>iatf-website</code> Repository nyan."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Biaya-biaya jih",
+      "title": "Rekaman biaya operasi"
+    },
+    "paragraphs": [
+      "IATF geujaga prasarana publik jih seucara sengaja ubeut. seujak thon 2022, biaya pengoperasian utama nyan nakeuh nan domain.",
+      "Rekaman nyo bukan laporan keuanggotaan yang diaudit. nyan adalah log biaya operasi publik untuk infrastruktur yang dipakek untuk meutahankan IATF secara online."
+    ],
+    "footnote": "Kwitansi jeut dirujuk atau dipeutubit lheuh redaksi. Alamat pribadi, rincian tagihan, dan informasi akun yang hana perle hana jeut keu bagian dari catatan publik.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domain[peusaneut _ peusaneut nè]",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Biaya jih",
+            "value": "USD 3,40 Meulaboh"
+          },
+          {
+            "label": "Catatan-catatan",
+            "value": "Biaya domain dibiayai oleh mugiwarafx. Hosting geupakek prasarana tingkat gratis atau murah melalui Cloudflare. Proyek geupinah dari Vercel keu CloudFlare dan mulai geupake <code>iatf.cc</code> domain."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domain[peusaneut _ peusaneut nè]",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Biaya jih",
+            "value": "USD 18,68 Meulaboh"
+          },
+          {
+            "label": "Catatan-catatan",
+            "value": "Biaya domain geubayeue le mugiwarafx. Hosting geupakek prasarana tingkat gratis atawa murah."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domain[peusaneut _ peusaneut nè]",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Biaya jih",
+            "value": "USD 17,06 Meulaboh"
+          },
+          {
+            "label": "Catatan-catatan",
+            "value": "Biaya domain dibiayai le mugiwarafx. Hosting geupakek prasarana tingkat gratis atawa murah melalui Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domain[peusaneut _ peusaneut nè]",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Biaya jih",
+            "value": "USD 14,76 Meulaboh"
+          },
+          {
+            "label": "Catatan-catatan",
+            "value": "Biaya domain geubayeue le mugiwarafx. Hosting geupakek prasarana tingkat gratis atawa murah."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domain[peusaneut _ peusaneut nè]",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Biaya jih",
+            "value": "USD 7,76 Meulaboh"
+          },
+          {
+            "label": "Catatan-catatan",
+            "value": "Biaya domain dibiayai le mugiwarafx. Hosting geupakek prasarana tingkat gratis atawa murah melalui GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota batah",
+      "title": "Peue nyang hana umum"
+    },
+    "paragraphs": [
+      "Padum-padum boh bahan jijaga dari catatan publik ngon tujuan:"
+    ],
+    "items": [
+      "Rincian kontak pribadi pelamar.",
+      "korespondensi pribadi yang hanya digunakan untuk memperjelas permintaan seugolom diterima, ditolak, atau diringkaskan.",
+      "Alamat pribadi, nomor telepon, dan rincian pribadi nyang hana perle.",
+      "Peue-peue mantong nyang jeut ji identifikasi sidroe-droe ureueng nyang ji pakek teknologi bantu ngon hana izin.",
+      "Percakapan Raw Discord, keucuali beurita nyang spesifik geuminah lam catatan proyek umum."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Membaca leubeh lanjot",
+      "title": "Tata kelola adalah buku aturan di balik catatan-catatan nyo"
+    },
+    "paragraphs": [
+      "Meunyo droeneuh keuneuk muphom pakriban proyek-proyek nyan geuteurimeng, geupeutamong lam arsip, atawa geujok lom, bacalah laman peumeurintahan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

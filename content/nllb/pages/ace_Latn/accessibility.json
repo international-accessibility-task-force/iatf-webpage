@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksesibilitas",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksesibilitas",
+    "lead": "IATF meukeusud untuk peuget situs web nyoe sederhana, mudah dibaca, jeut diakses ngen keyboard, dan kompatibel ngen teknologi bantu.",
+    "support": [
+      "Untuk aksesibilitas web, IATF geupakek [W3C WAI](https://www.w3.org/WAI/) aksesibilitas praktis cit dipeuturi le pengalaman langsong ureung pakek teknologi bantu."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "laporan keu",
+      "title": "Laporkan masalah aksesibilitas"
+    },
+    "paragraphs": [
+      "Meunye droeneuh teume saboh halangan aksesibilitas bak laman web nyoe, neu laporkan melalui email:",
+      "{{contact.accessibilityEmail}}",
+      "Laporan-laporan nyang meuguna na kheueh:"
+    ],
+    "items": [
+      "halaman pat peukara nyan teujadi",
+      "Peue nyang gata cuba peubuet",
+      "teknologi bantu, browser, atau perangkat apa yang awak gunakan, jika relevan",
+      "Peue nyang salah",
+      "peu yang jeut keu bantuan"
+    ],
+    "footnote": "Droeneuh hana peureulèe neutuléh laporan bug formal. Deskripsi nyang jeulah ka seb."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Pengolahan",
+      "title": "Pengelolaan isu publik"
+    },
+    "paragraphs": [
+      "masalah aksesibilitas jeut diringkaskan bak repositori publik yang relevan seuhingga jeut diperbaiki secara terbuka. rincian kontak pribadi dan informasi pribadi yang hana perle dipeugadeh seugolom publikasi.",
+      "Meunyo laporan droeneuh meuasoe informasi pribadi, peugah beuleubeh jeulah lam peusan."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Keadaan jinoe",
+      "title": "Pembatasan yang dituri"
+    },
+    "paragraphs": [
+      "Laman nyoë seucara sengaja ubit ngon leubèh statis."
+    ]
+  }
+}
