@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Akwan a wɔfa so kɔ hɔ",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Akwan a wɔfa so kɔ hɔ",
+    "lead": "IATF botae ne sɛ wɔbɛma wɛbsaet yi ayɛ tiawa, akenkan yɛ mmerɛw, na wotumi de keyboard di dwuma, na ɛne mfiri a wɔde boa adwuma no ahyia.",
+    "support": [
+      "Wɔ wɛbsaet no mu a, IATF de di dwuma [W3C WAI](https://www.w3.org/WAI/) Saa ara nso na wɔn a wɔde mmoa a wɔde di dwuma no di dwuma tẽẽ no nso boa ma wotumi hu ɔkwan a wɔfa so di dwuma."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Amanneɛbɔ",
+      "title": "Ka ɔkwan a wɔfa so kɔ hɔ ho asɛm kyerɛ"
+    },
+    "paragraphs": [
+      "Sɛ wuhu sɛ w'ani nnye biribi ho wɔ wɛbsaet yi so a, yɛsrɛ wo ka ho asɛm kyerɛ yɛn wɔ e-mail so:",
+      "{{contact.accessibilityEmail}}",
+      "Amanneɛbɔ a mfaso wɔ so no bi ni:"
+    ],
+    "items": [
+      "kratafa a asɛm no sii",
+      "nea na worebɔ mmɔden sɛ wobɛyɛ",
+      "abɛɛfo mfidie, browser, anaa afidie a wode dii dwuma, sɛ ɛho hia a",
+      "Dɛn na ɛkɔfaa asɛm no bae?",
+      "dɛn na anka ɛbɛboa"
+    ],
+    "footnote": "Ɛho nhia sɛ wokyerɛw mfomso ho amanneɛbɔ pɔtee bi. Nkyerɛkyerɛmu a emu da hɔ a wode bɛma no ara dɔɔso."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Sɛnea wɔde di dwuma",
+      "title": "Ɔmanfo nsɛm a wobedi ho dwuma"
+    },
+    "paragraphs": [
+      "Wobetumi aka nsɛm a ɛfa kwan a obi betumi afa so anya bi ho no ho asɛm tiawa wɔ baguam adansedibea a ɛfata no mu sɛnea ɛbɛyɛ a wobetumi asiesie no. Wɔyi nnipa bi ho nsɛm ne kokoam nsɛm a ɛho nhia no fi hɔ ansa na wɔatintim.",
+      "Sɛ wo kyerɛwtohɔ no fa kokoam nsɛm ho a, ka no pefee wɔ asɛm no mu."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Seesei tebea",
+      "title": "Nsɛnnennen a yenim"
+    },
+    "paragraphs": [
+      "Saa wɛbsaet yi yɛ nketenkete na ne fã kɛse no ara wɔ hɔ daa. Ebetumi aba sɛ kasa ahorow bi mu nkyerɛase no nni mũ bere a wɔrekyerɛ ase no."
+    ]
+  }
+}

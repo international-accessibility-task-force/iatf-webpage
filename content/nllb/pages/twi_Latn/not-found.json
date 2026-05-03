@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Wannya bi"
+  },
+  "hero": {
+    "eyebrow": "Wannya bi",
+    "title": "Wuntua kratafa a wopɛ no",
+    "lead": "Fa akwan atitiriw a ɛwɔ ase hɔ no so san kɔ baguam hɔ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Efie",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Akwan a wohwehwɛ no nni hɔ."
+    ],
+    "items": [
+      {
+        "label": "Efie",
+        "href": "/"
+      },
+      {
+        "label": "Nhyehyɛe",
+        "href": "/projects/"
+      },
+      {
+        "label": "Fa wo ho hyɛ mu",
+        "href": "/join/"
+      },
+      {
+        "label": "Akwan a wɔfa so kɔ hɔ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Nniso",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ahonya a wɔda no adi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

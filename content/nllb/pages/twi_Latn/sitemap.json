@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Ɔfã a Ɛto so Abien",
+    "title": "Sitemap",
+    "lead": "Iatf.cc so nkratafa biara wɔ faako."
+  },
+  "sections": [
+    {
+      "title": "Kratafa a edi kan",
+      "items": [
+        {
+          "label": "Efie",
+          "href": "/"
+        },
+        {
+          "label": "Nhyehyɛe",
+          "href": "/projects/"
+        },
+        {
+          "label": "Hwehwɛ dwumadi bi",
+          "href": "/propose/"
+        },
+        {
+          "label": "Nniso",
+          "href": "/governance/"
+        },
+        {
+          "label": "Fa wo ho hyɛ mu",
+          "href": "/join/"
+        },
+        {
+          "label": "Akwan a wɔfa so kɔ hɔ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ahonya a wɔda no adi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Nhyehyɛe",
+  "projectsEmpty": "Nhyehyɛe biara nni hɔ a wɔatintim."
+}

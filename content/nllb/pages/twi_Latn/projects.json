@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Nhyehyɛe a ɛbɛma ɔmanfo anya ho kwan",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Nhyehyɛe a ɛbɛma ɔmanfo anya ho kwan",
+    "lead": "Nhyehyɛe yi kyerɛ ɔmanfo nnwuma a wɔhwɛ so wɔ IATF no mu. Nhyehyɛeɛ a wɔagye ato mu a ɛfa kwan a nnipa betumi afa so anya mu kyɛfa, beae mu nneɛma, ne nnwinnade a wɔakora so wɔ hɔ no wɔ hɔ wɔ ha.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Nhyehyɛe",
+      "title": "Nhyehyɛeɛ a ɛwɔ hɔ seesei"
+    },
+    "intro": [
+      "Wɔakyerɛw nnwuma a wɔagye ato mu no wɔ ha bere a wɔatintim no."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Kyerɛ nea wuhia",
+      "title": "Sɛ wohia ɔkwan pɔtee bi a wobɛfa so anya mu kyɛfa a, fa no sɛ ɛyɛ ɔmanfo adwuma"
+    },
+    "paragraphs": [
+      "IATF yɛ nhwehwɛmu wɔ ahwehwɛde pɔtee bi a ɛwɔ hɔ a wobetumi de ayɛ adwuma a mfaso wɔ so wɔ ɔmanfo ani so."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nhyehyɛe biara nni hɔ a wɔatintim",
+    "paragraphs": [
+      "IATF reyɛ n'adwuma ho nhyehyɛe a edi kan.",
+      "Wubetumi de adesrɛ akɔma bere a wohia ɔkwan pɔtee bi a wobɛfa so anya bi no."
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Akwankyerɛ ne nnwinnade a wɔkora so",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Akwankyerɛ ne nnwinnade a wɔkora so",
+    "lead": "IATF ma kwan ma obiara tumi kenkan, kenkan ade, na wɔhwɛ so.",
+    "support": [
+      "Saa kratafa yi kyerɛkyerɛ nea wɔfata, ɔkwan a wɔfa so kura nkorabea, ne asɛyɛde a ɛwɔ nkoraase-fapem so a wɔde di dwuma bere a wɔagye ato mu no mu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Nhyehyɛe",
+      "title": "Adwuma a ɛsɛ sɛ obi yɛ, hokwan a obi wɔ, ne tumi krataa a wɔde ma no"
+    },
+    "cards": [
+      {
+        "title": "Adwuma a Ɛfata",
+        "paragraphs": [
+          "IATF gye adwuma a ɛboa ma wɔfa ɔkwan pa so yɛ adwuma no tom, na emu da hɔ pefee sɛ mfaso wɔ so ma ɔmanfo.",
+          "Ɛsɛ sɛ adwuma no yɛ nea mfaso wɔ so sen adwuma a wɔyɛ ma ankorankoro no, na ɛsɛ sɛ ɛyɛ adwuma sɛ baabi a wɔkora nsɛm wɔ baguam.",
+          "Wɔ wɛbsaet no mu a, IATF de di dwuma [W3C WAI](https://www.w3.org/WAI/) Wɔn a wɔde mmoa a wɔde di dwuma no di dwuma tẽẽ no nso yɛ adanse a ɛkyerɛ sɛ nea wɔde yɛ adwuma ankasa no yɛ adwuma."
+        ]
+      },
+      {
+        "title": "Adwuma no a wobegye atom",
+        "paragraphs": [
+          "Wobetumi agye nyansahyɛ bi atom bere a nhwehwɛmu no da no adi sɛ:"
+        ],
+        "items": [
+          "ɛboa wɔn a wɔn nsa ka nneɛma a wɔhia ankasa",
+          "Ɔhaw no mu da hɔ yiye a yebetumi asusuw ho",
+          "nsunsuanso no yɛ nokwaredi a ɛbɛtumi ama wɔatu afiri no",
+          "adwuma no ne IATF dwumadi no hyia",
+          "ɔkwan pa bi wɔ hɔ a wɔfa so siesie anaa wie"
+        ]
+      },
+      {
+        "title": "Nnwinnade a wɔkora so",
+        "paragraphs": [
+          "Nhyehyɛe a wɔagye ato mu no wɔ IATF GitHub ahyehyɛde no ase.",
+          "Nneɛma a wɔde sie no wɔ hɔ sɛnea ɛbɛyɛ a ɔdan biara bɛkɔ so ayɛ ɔmanfo fie a edi mũ, sɛ akyiri yi wɔn a wɔhwɛ so no sesa mpo a."
+        ]
+      },
+      {
+        "title": "Mmaransɛm a Wɔde Ma",
+        "paragraphs": [
+          "IATF nnwuma de copyleft tumi krataa di dwuma gye sɛ adwuma bi kyerɛ ɔkwan foforo so:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Nkrataafa:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ɔbenfo a ɔhwɛ adwuma no so",
+      "paragraphs": [
+        "Adwuma biara a wobegye ato mu no, ɛsɛ sɛ wɔhyɛ ɔbenfo anaa obi a ɔhwɛ adwuma no so din. Wobetumi ama saa nipa no kwan ma wakɔ akorae hɔ, na wɔhwɛ kwan sɛ ɔbɛyɛ nea edidi so yi:"
+      ],
+      "items": [
+        "akwankyerɛ a wɔfa so di dwuma wɔ baguam",
+        "hwɛ nneɛma a wɔde asie no so yiye",
+        "hwɛ nsɛmmisa no so anaa hwɛ so na twe nsɛmmisa",
+        "kyerɛw nyansahu mu gyinae ahorow a ɛho hia",
+        "ma afoforo nte adwuma no ase"
+      ],
+      "footnote": "Eyi yɛ nnwumakuw no asɛde. Ahyehyɛde no agyapade wɔ IATF. Asɛyɛde wɔ ha ne nnwumayɛbea so hwɛ, ɔfã mu akwankyerɛ, ne ɔmanfo nhyehyεe  ɛnyɛ ankorankoro dwumadi a enni ano, amammerɛ mu nkabom, anaa ɔsom ho asɛde a enni ɔmanfo akwankyerε no mu."
+    },
+    "publicDevelopment": {
+      "title": "Ɔmanfo nkɔso",
+      "paragraphs": [
+        "Nhyehyɛe ahorow a wɔfa IATF so yɛ no wɔ baguam."
+      ],
+      "items": [
+        "mfidie a wɔde di dwuma",
+        "nsɛm",
+        "nkrataa",
+        "akwantu ho nkrataa",
+        "Nkyekyɛmu abakɔsɛm"
+      ],
+      "footnote": "Ɛnsɛ sɛ adwuma no ho nimdeɛ a ɛho hia no tra ankorankoro nkitahodi anaa nkrataa a wɔde mena mu nkutoo."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ɔmanfo kyerɛwtohɔ",
+      "title": "Ɔmanfo adesrɛ ho kyerɛwtohɔ"
+    },
+    "paragraphs": [
+      "IATF yɛ adwuma wɔ baguam wɔ ɔkwan a wɔfa so di dwuma no so. Nkrataa a wɔde kɔ IAT F mu wɔ wɛbsaet, e-mail, Discord, GitHub, anaa akwan foforo so no betumi abɛyɛ baguamu nkrataa.",
+      "IATF bɛtumi atwe adwene asi biribi so, akyerɛkyerɛ mu, anaa ayɛ no foforo ansa na wɔabɔ ho dawuru sɛnea ɛbɛyɛ a wɔbɛtumi asusu hia a ɛho hia sɛ wɔn nsa ka nsɛm no ho a wɔrenyi wɔn ho nsɛm biara a ɛho nhia adi.",
+      "Wubetumi asie nkrataa a wɔhwehwɛ no wɔ IATF GitHub ahyehyɛde no mu, wɔ wɛbsaet yi so, anaa ne nyinaa mu.",
+      "Ansa na IATF bɛtintim no, ɛsɛ sɛ woyi nkitahodi ho nsɛm a ɛho nhia, nnipa bi din, ne wɔn a wɔde mmoa a wɔde di dwuma no ho nsɛm nyinaa fi hɔ, gye sɛ wɔn ani da so sɛ wɔbɛtintim na ɛfata.",
+      "IATF no mfa Discord nkɔmmɔbɔ no nto hɔ, na Discord na ɛhwɛ nsɛm no so. Gyinae ahorow a wɔsi wɔ Discord mu no, ɛsɛ sɛ wɔtoto no tiawa wɔ baguam kyerɛwtohɔ a ɛwɔ GitHub so anaa wɔ ɔfã a ɛfa adwuma no ho.",
+      "Wontumi mfa nsɛm a wɔhwehwɛ no nyɛ adwuma wɔ search engine indexing mu. Public kyerɛ sɛ wobetumi ahwehwɛ mu na wɔadi ho akontaa. Ɛnkyerɛ sɛ wɔasiesie no yiye ama wɔn a wɔbɛhu no denam din a wɔbɛhwehwɛ so.",
+      "IATF betumi asesa anaa ayi nkrataa afi baabi a wɔhwɛ no so, nanso entumi mma kwan sɛ wobeyi afiri baabi a nnipa a wɔn ho nni mfaso te te te sɛ caches, notifications, forks, screenshots, search engines, Discord, anaa mfiri afoforo so.",
+      "Sɛ asɛm bi hia sɛ ɛkɔ so yɛ kokoam asɛm a, mfa IATF baguam akwan so nkɔ."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ahyehyɛde no dwumadi",
+      "title": "Ɔpanyin"
+    },
+    "lead": "Ɔpanyin no na ɔhwɛ IATF dwumadi no so wɔ ahyehyɛde no nyinaa mu. Eyi da nsow wɔ ɔbenfo a ɔhwɛ adwuma no so no dwumadi ho: ɔpanin no di ahyehyɛde mũ no nyinaa ho dwuma, na ɛnyɛ da biara da akwankyerɛ a wɔde ma akorae biako pɛ.",
+    "duties": {
+      "title": "Adwuma a ɔmansin agua no yɛ",
+      "items": [
+        "Ɛkura owura kyɛfa wɔ IATF GitHub ahyehyɛde no mu",
+        "Ɔyɛ nhyehyɛɛ a wɔagye ato mu ne gyinaesi ahorow a ɛfa archive ho no ho kyerɛwtohɔ",
+        "Ɔyɛ IATF no badwemfo a ɔboa ɔmanfo ma wɔne no di nkitaho",
+        "Ɔyɛ afe afe abatoɔ no ho nhyehyɛe"
+      ],
+      "footnote": "Ɔmampanyin no mfa IATF nni dwuma wɔ ankorankoro kyɛfa, adwuma a wɔtua ho ka, anaa ɔsom ho nhyehyɛe nhyehyɛe mu, na ɔnni tumi wɔ gyinaesi ahorow a ɔhwɛ nnwinnade a wɔakora so ho so wɔ ɔfã biara mu no so."
+    },
+    "election": {
+      "title": "Afe biara abatoɔ",
+      "paragraphs": [
+        "Wɔpaw ɔmampanyin no afe biara, wɔ December mu nnawɔtwe abien a edi kan no mu, na wɔhyɛ da ka nea ebefi mu aba no ho asɛm ansa na December 15 adu, na January 1 na ɔsɛmpatrɛwfo foforo no fi adwuma ase.",
+        "Nnipa a wɔfata sɛ wɔtow aba no yɛ nnipa a wɔyɛɛ adwuma wɔ IATF akorae biara mu wɔ afe no mu, na anyɛ yiye koraa no, wɔyɛɛ adwuma bi a wɔakyekyɛ maa IAT F akorae bi saa afe no. Obiara a ɔfata sɛ ɔtow aba wɔ abatoɔ baako. Ogyinafo a ɔwɔ abatoɔ dodow no ara no di nkonim; sɛ ɛba sɛ nnipa no nyinaa yɛ pɛ a, wɔto aba no wɔ dapɛn a ɛtɔ so abiɛsa wɔ December mu.",
+        "Wodi abatoɔ no ho dwuma sɛ baguam GitHub Nkɔmmɔ wɔ IATF nnwumakuo no mu, enti wɔn a wɔpaw wɔn, abatoɔ, ne wɔn aba no nyinaa yɛ bagua no mu nsɛm."
+      ]
+    },
+    "continuity": {
+      "title": "Nkɔsoɔ",
+      "paragraphs": [
+        "Sɛ wɔanyɛ abatoɔ wɔ afe bi mu a, ɔmampanyin a ɔwɔ hɔ seesei no kɔ so di dwuma no kosi abatoɔ a edi hɔ no. Eyi yɛ bere a enni awiei, ɛnnyɛ bere a wɔde bɛkyɛ - wɔasiesie no sɛnea ɛbɛyɛ a ahyehyɛde no bɛgyina pintinn bere a adwuma nyɛ den, na ɛnyɛ sɛ wɔbɛhyɛ nsakrae a obiara nsiesie ne ho ama no.",
+        "Ɔpanyin no betumi agyae adwuma bere biara. Akwanhwɛfo a wɔwɔ adwuma no mu nso betumi ato nsa afrɛ ma wɔapaw no bere a wɔn ani nna so, na wɔde mmara koro no ara a wɔde yɛ afe afe abatoɔ no na edi dwuma."
+      ]
+    },
+    "current": {
+      "title": "Agyinatufo a ɔwɔ hɔ nnɛ",
+      "fields": [
+        {
+          "label": "Ɔpanyin",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Asɛmfua",
+          "value": "Kosi December 2026 abatoɔ no"
+        },
+        {
+          "label": "Ɔfã a wɔagye ato hɔ",
+          "value": "2026"
+        },
+        {
+          "label": "Nhyiamu a edi kan a wɔahyɛ ato hɔ",
+          "value": "December 2026"
+        }
+      ]
+    },
+    "footnote": "Wɔyɛɛ ɔmampanyin adwuma no ho nhyehyɛe wɔ afe 2026 mu de kyerɛe sɛ adwuma no yɛ adwuma wɔ ahyehyɛde no nyinaa mu. Ansa na saa bere no reba no, na adwuma no dibea hyɛ ɔhyehyɛfo no nsa wɔ ɔkwan foforo so."
+  },
+  "continuity": {
+    "states": {
+      "title": "Nhyehyɛe no mu nsɛm",
+      "paragraphs": [
+        "Nhyehyɛe ahorow no de ɔmanfo nsɛm kakra bi di dwuma:"
+      ],
+      "items": [
+        "Nkɔmmɔbɔ",
+        "Wogye toom",
+        "Adwuma",
+        "Ɛte hɔ",
+        "Obi a ɔrehwehwɛ ɔhwɛfo",
+        "Wɔakora so"
+      ],
+      "footnote": "Saa aman yi ma ɛyɛ mmerɛw sɛ wobedi kan ahwehwɛ nhoma no mu."
+    },
+    "reassignment": {
+      "title": "Wɔsan de to hɔ na wɔkora so",
+      "paragraphs": [
+        "Sɛ obi a ɔhwɛ adwuma no so gyae anaa ɔyɛ adwuma no bi a, IATF betumi de asɛyɛde no ama obi foforo, asiesie adwuma no, anaa wɔayi adwuma no afi hɔ.",
+        "Wobetumi de adwuma bi nso ato hɔ bere a wɔadi kan ahiade no ho dwuma, wɔagyae ɔhwɛ a wɔhwɛ so, anaa adwuma a wɔbɛkɔ so ayɛ no nyɛ yiye bio no."
+      ],
+      "footnote": "Nhyehyɛe ahorow a wɔakora so no da so ara wɔ hɔ ma ɔmanfo gye sɛ biribi a emu yɛ den bi wɔ hɔ a ɛkyerɛ sɛ ɛnsɛ sɛ wɔyɛ saa."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Akwankyerɛ",
+      "title": "Nea IATF nnhyɛ ho bɔ"
+    },
+    "items": [
+      "adansedi a wɔde ma ankorankoro",
+      "nhyehyɛe ahorow a ɛfa ɔsom adwuma ho",
+      "sɛ́ wɔbɛpene ɔkwampa biara a wɔpaw no so",
+      "bere tenten a wɔde bɛhwɛ adwuma biara so"
+    ],
+    "footnote": "IATF yɛ baguam adansedi ho mfatoho, na ɛnyɛ ɔsom a wɔde ma ankorankoro."
+  }
+}
