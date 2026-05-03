@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Sito IATF",
+    "summary": "El sito pùblego de ła International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF gaveva bisogno de una casa publica stabile che spiegasse el modello, elencasse i progetti, e indicasse ai contribuenti el giusto passo dopo.",
+    "why": "El sito el xe ła porta pùblega de l'IATF. El xe costruìo come un projeto pìcoło statego, parché el xe fazile da leger, tradur e mantegner a l'aperto.",
+    "scopeIn": [
+      "Pagine de destinasion publeghe che łe spiega el modeło IATF",
+      "Registro pùblico dei projeti IATF acetà, ativi e archivai co statuto, mantenidore, repositorio e demo",
+      "Pagina e modulo de ricevimento de richieste",
+      "Pagine su governance e trasparenza",
+      "Fonte inglese co strutura pronta par ła tradusion",
+      "Deployment statico su Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Aree de menbri privadi, conti o flussi de login",
+      "Hosting del còdexe sorgente del projeto, che vive inte el propio repositorio de ogni projeto",
+      "Chat in tempo reale, che vive in Discord",
+      "Tracciamento dei problemi dei singoli progetti, che vive nel repositorio GitHub de ogni progetto"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Un primo prototipo IATF, archivià dopo aver raggiunto un punto de fermo naturale.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Prima esplorasion de un strumento incentrà so l'acesibiłità soto l'ombrello de l'IATF.",
+    "why": "El repositorio el xe tegnùo pùblego come registro del laoro, anca se el svilupo ativo el se ga fermà.",
+    "scopeIn": [
+      "Prototipo precoxe de un struménto orientà a l'acesibiłità tegnù come registro pùblego"
+    ],
+    "scopeOut": [
+      "Lavoro ativo de sviłupo o de caraterìstega",
+      "impegni alimentari",
+      "Uso racomandà inte ła produsion"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Un robot comunità IATF, archivià dopo aver raggiunto un punto de fermo naturale.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automazion intorno ai canali comunitari IATF.",
+    "why": "El repositorio el xe tegnùo pùblego come registro del laoro, anca se el svilupo ativo el se ga fermà.",
+    "scopeIn": [
+      "Discord automation around IATF community channels, kept as a public record[canbia _ canbia el còdaxe]"
+    ],
+    "scopeOut": [
+      "Lavoro ativo de sviłupo o de caraterìstega",
+      "impegni alimentari",
+      "Uso racomandà inte ła produsion"
+    ]
+  }
+]

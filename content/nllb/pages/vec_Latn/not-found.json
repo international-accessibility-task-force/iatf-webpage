@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "No trovà"
+  },
+  "hero": {
+    "eyebrow": "No trovà",
+    "title": "La pagina richiesta no xe stà trovà",
+    "lead": "Utiłixare i percorsi prinsipałi de soto par tornar al sito pùblego.",
+    "support": [],
+    "actions": [
+      {
+        "label": "A casa",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "El percorso che te ga domandà no esiste."
+    ],
+    "items": [
+      {
+        "label": "A casa",
+        "href": "/"
+      },
+      {
+        "label": "Projeti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Uniscitevi",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilità",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governance",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trasparensa",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

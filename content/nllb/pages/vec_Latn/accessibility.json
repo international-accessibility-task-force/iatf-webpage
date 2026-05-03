@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilità",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilità",
+    "lead": "IATF ga l'obietivo de mantegnere sto sito senplice, leggibile, accessibile a tastiera, e conpatibile co le tecnologie assistive.",
+    "support": [
+      "Par l'acesibiłità del web, l'IATF usa [W3C WAI](https://www.w3.org/WAI/) l'accessibilità pratica xe informà anca da l'esperiensa direta dei utenti de le tecnologie assistive."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Segnałasion",
+      "title": "Segnałare un problema de acessibiłità"
+    },
+    "paragraphs": [
+      "Se te trovi na bariera de accessibilità su sto sito, te prego de segnalarlo par e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Tra i resoconti utiłi ghe xe:"
+    ],
+    "items": [
+      "la pagina dove el problema xe capità",
+      "quel che te volevi far",
+      "che tecnologia assistiva, browser o dispositivo che te stavi doparando, se pertinente",
+      "cossa xe andado mal?",
+      "cos'avrìa aiutà"
+    ],
+    "footnote": "No te ghè bisogno de scrivare un raporto de bug formałe. Basta na descrision ciara."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Trattamento",
+      "title": "Gestione dei problemi pubblici"
+    },
+    "paragraphs": [
+      "I problemi de accessibiłità i pol esar riassunti inte el repositorio pùblego corispondente in modo da poder esar risolti in publico. i dati de contato personałi e łe informasion prive inutiłi łe vien cavàe prima de ła publegasion.",
+      "Se el to resoconto el contien informasion private, dimelo in maniera ciara inte el mesajo."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Stato atuale",
+      "title": "Limitasion conoseste"
+    },
+    "paragraphs": [
+      "Sto sito el xe intenzionalmente picenino e in gran parte statico. Alcune version lenghistiche łe pol esare incomplete mentre se sta preparando łe tradusion."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indice",
+    "title": "Sitemap",
+    "lead": "Ogni pagina publica su iatf.cc, in un solo posto."
+  },
+  "sections": [
+    {
+      "title": "Pajine prinsipałi",
+      "items": [
+        {
+          "label": "A casa",
+          "href": "/"
+        },
+        {
+          "label": "Projeti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Richiedi un projeto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Governance",
+          "href": "/governance/"
+        },
+        {
+          "label": "Uniscitevi",
+          "href": "/join/"
+        },
+        {
+          "label": "Accessibilità",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Trasparensa",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projeti",
+  "projectsEmpty": "No ghe xe ancora progeti publicà."
+}

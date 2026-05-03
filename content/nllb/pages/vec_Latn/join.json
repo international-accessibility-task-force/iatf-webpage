@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Unirse a IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Unirse a IATF",
+    "lead": "L'apartenensa l'è aperta. Ghe xe diversi modi par partecipar, sia che te te fidi de ła tecnołogia assistiva, che te costrui software accessibiłe, te tradusi, te testi o te mantegni un projeto. łe discusion e łe decixion łe vien fate in pùblego su GitHub e Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ruoli",
+      "title": "Modi de contribuir"
+    },
+    "items": [
+      "<strong>Richiedi un projeto.</strong> Se te trovi na bariera de accessibiłità che ła podaria esar risolta da un software pùblego open source, mandalo co l'inporto de richieste.",
+      "<strong>Proba e revixion.</strong> Prova i projeti de l'IATF co l'assistivo che te dopari, segnala cossa che funsiona e cossa che no, e archivi i problemi diretamente sul repository pertinente.",
+      "<strong>Traduci.</strong> El contenuto de ła fonte el vien publegà prima in inglexe, e łe tradusion łe vien zontà quando i contribuenti i xe disponibiłi, scuminsiando dal spagnoło.",
+      "<strong>Costruire.</strong> Ritira problemi in qualsiasi repositorio IATF, invia richieste de ritiro, o ciapa un projeto come ingegner responsabile.",
+      "<strong>Mantene.</strong> I projeti esistenti a volte i ga bisogno de un novo mantenidore.La rotazion dei mantenidori xe una parte normale del modello, no un'eccezion."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canałi",
+      "title": "Dove la IATF laora in publico"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problemi, richieste de ritiro, rilasci, e archivi de projeto.",
+      "<strong>Discordia.</strong> Discussion dal vivo, coordinamento e domande informali.",
+      "<strong>E-mail.</strong> Utiłixasion <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> se nè GitHub nè Discord se adatta."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Prossimo passo",
+      "title": "Scegli el canale che corisponde a come te vol contribuir"
+    },
+    "paragraphs": [
+      "Tuti i canałi i entra inte ła stesa revisione publica e inte i stesi archivi pùbleghi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

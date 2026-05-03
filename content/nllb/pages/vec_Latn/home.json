@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Da la necessità de l'acesibilità ai depositi pubblici",
+    "lead": "IATF aiuta łe asociasion, i grupi e i individui a trasformar i veri bisogni de accessibiłità in projeti pùbleghi open source.",
+    "support": [
+      "I projeti acetai i vien publicà inte l'organixasion IATF GitHub soto na licenza copyleft e sviłupà in pùblego da un inzegner responsabiłe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modeło de funsionamento pùblego",
+      "title": "Un semplice percorso publico par el software accessibile"
+    },
+    "paragraphs": [
+      "Traverso un form, chiunque el pol someter un problema de acessibilità a l'IATF. Se el team el pol ciapar su, un repositorio publico de GitHub el vien apresto par el laoro.",
+      "Ogni projeto acetà el ga na casa publica ciara par el còdexe, i problemi, ła documentasion, e łe versioni, co el sviłupo guidà in abierto da un inzegner responsabiłe."
+    ],
+    "specCard": {
+      "title": "Modeło de funsionamento pùblego",
+      "terms": [
+        {
+          "term": "Necessità",
+          "definition": "Reale problema de accessibilità"
+        },
+        {
+          "term": "Revision",
+          "definition": "Adeguamento a la mission e fattibilità pratica"
+        },
+        {
+          "term": "Espaçio de projeto",
+          "definition": "Repositorio publico su GitHub"
+        },
+        {
+          "term": "Stewardship (Gestione)",
+          "definition": "IATF organizational ownership"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Processo",
+      "title": "Come funsiona",
+      "intro": "El modèło el resta intenzionalmente picenin parché el percorso pùblego el sia faxiłe da seguir."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Se presenta un bisogno",
+        "paragraphs": [
+          "Un'associazion, un grupo o un individuo el pol presentar na richiesta basà su un vero bisogno de accessibilità.",
+          "Łe richieste łe pol scominsiar dal sito, par e-mail a: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o tramite Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF la revise",
+        "paragraphs": [
+          "Rivediamo l'adeguatezza de la missione, la portata pratica, e se el laoro el fa parte de un projeto publico open source."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Se crea un repositorio publico",
+        "paragraphs": [
+          "Se un projeto el vien acetà, el vien publicà inte l'organixasion IATF GitHub soto na licenza copyleft.",
+          "El repositorio el deventa ła sede publica del còdexe, dei problemi, de ła documentasion e dei rilassi."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un ingegnere responsabile guida el projeto",
+        "paragraphs": [
+          "Un ingegner responsabiłe el vien assegnà al repositorio del projeto e el sviłupo el vien fato in publico."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro publico de projeti"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Comincia da qua",
+      "title": "Navigare tra i lavori in corso o scuminsiar un projeto concreto"
+    },
+    "paragraphs": [
+      "Utiłixare el registro par vedare cosa che xe xà pùblego, o scuminsiar a catar se un problema concreto de acessibiłità el deventa un projeto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Richiedi un projeto de acessibilità",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Richiedi un projeto de acessibilità",
+    "lead": "IATF revisiona łe richieste de projeti de accessibiłità che parte da na reałe nesesità.",
+    "support": [
+      "No te serve na specifegasion conpleta, basta un problema ciaro, chi che el riguarda e parché el xe inportante."
+    ],
+    "actions": [
+      {
+        "label": "Inizia na richiesta",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Utiłixare Discord invese",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canałi",
+      "title": "Scegli la strada più facile"
+    },
+    "intro": [
+      "Tuti i percorsi i entra inte ła stesa revixion."
+    ],
+    "items": [
+      {
+        "label": "Sito web",
+        "body": "Utiłixare el modulo qua soto par inviar na richiesta struturada."
+      },
+      {
+        "label": "E-mail",
+        "body": "Inviare la richiesta diretamente a: {{contact.requestsEmail}}Le richieste de e-mail łe połe diventar archivi de richieste publeghe dopo l'esame e ła redazion."
+      },
+      {
+        "label": "Discordia",
+        "body": "Inizia là se questo xe più facile. La richiesta la se sposta comunque inte la stesa revisione."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Prima de mandare na richiesta",
+    "paragraphs": [
+      "IATF ła funsiona in pùblego. łe richieste łe pol esar riassunte e publegà cofà record de richieste publeghe inte l'organixasion GitHub de l'IATF, in sto sito, o in tute e do.",
+      "No includer indirissi privadi, numari de telefono, dati medici, o informazion identificativa su utenti individuali de tecnologie assistive a meno che no sia necessario e che te si conforte co l'IATF che le revisiona.",
+      "IATF elimina i dati de contato personałi inutiłi prima de publicar i registri de łe richieste."
+    ]
+  },
+  "review": {
+    "title": "Aspettative de revisione",
+    "paragraphs": [
+      "La presentazion de na richiesta no ła garantisce l'açeitamento.",
+      "L'IATF revise łe richieste par l'idoneità a ła mision, ła fattibiłità, l'utiłità e se el laoro el fa parte de un archivio pùblego.",
+      "Alcune richieste łe pol esar rifiutàe, rinviàe o modifegàe prima de esar accettàe."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Modulo de richiesta",
+      "title": "Inviare na richiesta"
+    },
+    "fields": [
+      {
+        "kind": "input input",
+        "name": "richiedente",
+        "label": "El to nome o l'organixasion",
+        "helper": "Chi fa la richiesta?"
+      },
+      {
+        "kind": "selezionare",
+        "name": "Strada de contato",
+        "label": "Strada de contato preferibile",
+        "helper": "Come se deve far el follow-up?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Discordia"
+        ]
+      },
+      {
+        "kind": "input input",
+        "name": "ContattoDetałi",
+        "label": "Dati de contato",
+        "helper": "Indirizzo e-mail o indirizzo Discord par el follow-up.",
+        "placeholder": "Indirizzo e-mail o nome discord",
+        "required": true
+      },
+      {
+        "kind": "input input",
+        "name": "lengua",
+        "label": "Lengua",
+        "helper": "La to łéngua preferìa, se pertinente.",
+        "value": "Inglese"
+      },
+      {
+        "kind": "area de testo",
+        "name": "problema",
+        "label": "Che problema te vol risolver?",
+        "helper": "Descrivi la barriera in parole semplici.",
+        "required": true
+      },
+      {
+        "kind": "area de testo",
+        "name": "utenti coinvolti",
+        "label": "Chi xe colpito?",
+        "helper": "A chi servirà questo?",
+        "required": true
+      },
+      {
+        "kind": "area de testo",
+        "name": "extraContext",
+        "label": "Contesto extra",
+        "helper": "Condividi qualcossa altro che aiuta a spiegar la necessità: perché xe importante, esempi, riferimenti, un'idea bruta de software, o vincoli temporali."
+      },
+      {
+        "kind": "selezionare",
+        "name": "openSourceConsent",
+        "label": "Sei a tuo agio col sviluppo open source?",
+        "helper": "I projeti acetà i xe repositori publici soto l'IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Sì sì sì",
+          "No",
+          "No so ancora."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se accettato",
+      "title": "Che cos'è l'accettazione"
+    },
+    "items": [
+      "un repositorio pùblego inte l'organixasion GitHub de l'IATF",
+      "un ingegnere responsabile assegnà al projeto",
+      "na licenza copyleft par el còdexe e i materiali del projeto",
+      "sviluppo publico nel repositorio",
+      "na voxe de registro sul sito de l'IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Inizia la conversazion",
+      "title": "Basta na richiesta curta e ciara par scuminsiar"
+    },
+    "paragraphs": [
+      "Se te ghe un vero bisogno de accessibilità e te pensi che el dovaria diventar un projeto publico, mandalo a noi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

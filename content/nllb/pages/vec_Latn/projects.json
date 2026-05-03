@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projeti de acessibilità publega",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projeti de acessibilità publega",
+    "lead": "Sto registro el elenca i projeti publeghi mantegnesti da l'IATF. I projeti de accessibiłità, l'infrastrutura del sito e i prototipi archiviadi i xe tuti visibiłi qua.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro atuale"
+    },
+    "intro": [
+      "I projeti accettà i vien elencà qua una volta che i vien publegà."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Inviare un bisogno",
+      "title": "Trasformare un bisogno concreto de accessibilità in un projeto pùblico"
+    },
+    "paragraphs": [
+      "IATF revisiona i bisogni concreti de accessibiłità che i pol esar trasformà in utiłi laori publeghi open source."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "No ghe xe ancora projeti publegà",
+    "paragraphs": [
+      "IATF sta preparando el so primo set de projeti publici.",
+      "Te pol ancora mandar na richiesta se te ga na necessità concreta de accessibilità."
+    ]
+  }
+}

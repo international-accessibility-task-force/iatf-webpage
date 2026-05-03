@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance e repository model",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance e repository model",
+    "lead": "IATF tien i projeti de accessibiłità publici, legibiłi e mantegnìbiłi.",
+    "support": [
+      "Sta pàxena ła spiega cosa che se cualifica, come i repositori i vien tegnùi, e che responsabiłità a liveło de repositori ła se aplica dopo l'acexion."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regołe",
+      "title": "Mission fit, proprietà, licensa"
+    },
+    "cards": [
+      {
+        "title": "Mission fit",
+        "paragraphs": [
+          "IATF aceta el laoro che risponde a un vero ostacoło de accessibiłità e el ga un evidente vałore pùblego.",
+          "Un projeto el dovaria esar utiłe oltre un singolo flusso de lavoro privà e funsionabiłe come repositorio publico.",
+          "Par l'acesibiłità del web, l'IATF usa [W3C WAI](https://www.w3.org/WAI/) l'esperiensa direta dei utenti de le tecnologie assistive la xe anca na prova pratica de quel che funsiona in uso reale."
+        ]
+      },
+      {
+        "title": "Acetasion del projeto",
+        "paragraphs": [
+          "Na proposta ła pol esar aceta se da l'esame vien fora che:"
+        ],
+        "items": [
+          "risponde a un vero bisogno de accessibilità",
+          "el problema l'è bastansa ciaro par valutare",
+          "el scopo xe bastanza realistico par lanciar",
+          "el laoro el se alinea co ła mision de l'IATF",
+          "ghe xe un percorso verosimile verso la manutension o el completamento"
+        ]
+      },
+      {
+        "title": "Proprietà del repositorio",
+        "paragraphs": [
+          "I projeti acetai i vien creai soto l'organixasion GitHub de l'IATF.",
+          "I depositi i resta là parché ogni projeto el tien na casa publega stabile, anca se dopo i mantenieri i canbia."
+        ]
+      },
+      {
+        "title": "Licensa",
+        "paragraphs": [
+          "I projeti de l'IATF i dopara ła licensa copyleft, a meno che un projeto el disi altrimenti:"
+        ],
+        "items": [
+          "<strong>Codice:</strong> AGPL-3.0",
+          "<strong>Documentasion:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingegnere o manutentore responsabile",
+      "paragraphs": [
+        "Ogni projeto acetà el ga da aver un ingegner o un manutentor responsabiłe. 'Sta persona ła pol ricever l'aceso de aministrador al repositorio e se ga da:"
+      ],
+      "items": [
+        "guida de sviłupo in pùblego",
+        "mantegnere la strutura del repositorio",
+        "revisionar o gestir problemi e richieste de tiramento",
+        "documentar łe decixion tecniche inportanti",
+        "tegner el projeto comprensibile par i altri"
+      ],
+      "footnote": "Questa xe responsabiłità a liveło de repositorio. La proprietà organizativa resta co l'IATF. La responsabiƚità qua l'è l'aministrasion de i repositori, ła diresion tecnica e el coordinamento publico  no ła consegna privada ilimitada, łe integrasion personalizade o i impegni a liveƚo de servisio fora de ła roadmap publica."
+    },
+    "publicDevelopment": {
+      "title": "Sviluppo publico",
+      "paragraphs": [
+        "I projeti lansià da l'IATF i xe sviłupà de default in publico."
+      ],
+      "items": [
+        "Codice sorgente",
+        "tematiche",
+        "documentasion",
+        "note de cartina de marcia",
+        "storia de rilascio"
+      ],
+      "footnote": "Ła conosensa inportante del projeto no ła dovaria esar solo inte łe chat o inte łe inbox private."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registri pùblici",
+      "title": "Registri de richieste publeghe"
+    },
+    "paragraphs": [
+      "IATF ła funsiona in publico par default. łe richieste che łe entra inte l'IATF atraverso el sito, e-mail, Discord, GitHub, o altri canałi de l'iATF łe pol deventar archivi de richieste publeghe.",
+      "IATF pol riassumere, redigir, o ristruturar na richiesta prima de ła publicasion in modo che ła nesesità de acessibiłità ła possa esar revisionada sensa esonerar informasion personałi inutiłi.",
+      "I archivi de łe richieste publeghe i pol esar archiviài inte l'organixasion GitHub de l'IATF, in sto sito, o in tute e do.",
+      "Prima de ła publicasion, l'IATF ła scanseła i dati de contato personałi inutiłi, i indirisi privadi e i dati identificativi so i singoli utenti de łe tecnologie de asistensa, a meno che ła publegasion no ła sia chiaramente prevista e adata.",
+      "Discord el vien doparà par el coordinamento informałe. IATF no el archivixa separatamente łe conparse Discord par default, e ła retiension dei mesaji ła vien controłada da Discord. łe decixion fate in Discord łe va riassunte inte el registro pùblego su GitHub o so ła pajina del projeto pertinente.",
+      "I archivi de richieste i xe esclusi da l'indexazion dei motori de ricerca dove tecnicamente praticabile. Pubblico vol dir revisionabile e responsabiłe. No vol dir ottimizà par la descoverta co la ricerca de nomi.",
+      "IATF pol agiornar o scansełar i record da łe superfise publeghe controłàe da I ATF, ma no pol garantir ła scanseła da caxe de terze parti, notifiche, forks, screenshots, motori de sercà, Discord o altri sistemi esterni.",
+      "Se un mesajo el ga da restar privà, no mandarlo par i canałi pùbleghi de l'IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ruolo organizativo",
+      "title": "Cadea"
+    },
+    "lead": "El presidente el detien ła responsabiłità a livel organizativo de l'IATF. Questo el xe distinto dal ruolo de inzegner responsabile par projeto: el presidente el xe responsabiłe par l'organixasion in tuto, no par ła diresion giornaliera de un singolo repositorio.",
+    "duties": {
+      "title": "Quel che fa la poltrona",
+      "items": [
+        "Mantiene i permessi del proprietario su l'organixasion GitHub de l'IATF",
+        "Firme su decise de acetazion de projeto e decision de archivio",
+        "Funziona come punto de contato publico par l'IATF",
+        "Coordena l'elesion anuałe"
+      ],
+      "footnote": "El presidente no el impegna l'IATF a consegne private, lavori pagadi o acordi de liveło de servisio, e no el canbia łe decixion de l'aministrador par archivio in materia de diresion tecnica."
+    },
+    "election": {
+      "title": "Ełesion anuałe",
+      "paragraphs": [
+        "El presidente el vien ełezesto na olta l'ano: łe ełesion łe se svolge inte łe prime do setimane de disenbre, i rexultadi i vien anunziài entro el 15 disenbre e el novo mandato el taca el 1o de zenaro.",
+        "I votanti eleggibili i xe persone che i ga avù un ruolo de mantenidori su un repositorio de l'IATF durante l'anno e i ga fato almanco un contributo fuso a un repositorio del IATF in quel anno. Ogni votante eleggibile el ga un voto. El candidato co pì voti el vinse; in caso de pareggio, un secondo turno el se tien inte ła tersa setimana de diçenbre.",
+        "Łe elesion łe vien gestìe cofà na discusion publica su GitHub inte el repositorio de governansa de l'IATF, parché i candidati, el voto e el risultato i fa parte del registro pùblego."
+      ]
+    },
+    "continuity": {
+      "title": "Continuità",
+      "paragraphs": [
+        "Se no ghe xe elesion in un dato anno, el presidente in carica el continua el so incarico fin a łe elesion sucesive. Questo el xe un periodo indefinìo, no un periodo de grazia  el modèło el xe pensà par mantegner l'organixasion stabile quando l'atività ła xe bassa, no par forzar na transizion par ła cuała nisuni i xe pronti.",
+        "El presidente el pol dimetarse in ogni momento. i mantenienti ativi i pol anca ciamare na elesion straordinaria co na motivasion, eseguida secondo le stesse regole de l'elesion anuałe."
+      ]
+    },
+    "current": {
+      "title": "Presidente atual",
+      "fields": [
+        {
+          "label": "Cadea",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "termine",
+          "value": "Fin a l'elesion de disenbre del 2026"
+        },
+        {
+          "label": "Role formałizà",
+          "value": "2026"
+        },
+        {
+          "label": "Prima elesion programada",
+          "value": "Dicenbre 2026"
+        }
+      ]
+    },
+    "footnote": "El ruolo de presidente el xe stà formałixà inte el 2026 par rendare esplicita l'aministrasion a liveło organizativo."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stati del projeto",
+      "paragraphs": [
+        "I projeti i usa na picenina serie de stati publici:"
+      ],
+      "items": [
+        "Proposta",
+        "Acceptà",
+        "Attivo",
+        "Stabiłe",
+        "Cerco manutentore",
+        "Archivià"
+      ],
+      "footnote": "Sti stati i tien el registro facile da scansionar."
+    },
+    "reassignment": {
+      "title": "Riassegnamento e archivamento",
+      "paragraphs": [
+        "Se un mantenidore el se ne va o el diventa inativo, l'IATF el pol riassegnare responsabiłità, fermar el sviłupo o archivar el projeto.",
+        "Un projeto el pol anca esar archivià quando ła nesesità orixinałe ła xe stà sodisfà, ła manutension ła se ga fermà, o ła continuasion del laoro no ła xe pì realìstega."
+      ],
+      "footnote": "I progeti archivià i resta visibiłi al publico a meno che no ghe sia na motivasion convincente par far altrimenti."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota de confinamento",
+      "title": "Cossa che l'IATF no garantisce"
+    },
+    "items": [
+      "consegna al cliente privà",
+      "accordi a livello de servisio",
+      "acetazion de ogni proposta",
+      "manutension a lungo termine par ogni projeto"
+    ],
+    "footnote": "IATF xe un modèl de repositorio publico, no un servisio de consegna privato."
+  }
+}
