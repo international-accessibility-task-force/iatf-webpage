@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATFに加入する",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATFに加入する",
+    "lead": "メンバーシップはオープンです.支援技術に頼ったり,アクセシブルなソフトウェアを構築したり,翻訳したり,テストしたり,プロジェクトを維持したり,参加するにはいくつかの方法があります.ディスカッションと決定はGitHubとDiscordで公開されます.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "役割",
+      "title": "貢献する方法"
+    },
+    "items": [
+      "<strong>プロジェクトを依頼する</strong> 公開オープンソースソフトウェアで解決できる アクセシビリティの障壁に遭遇した場合,リクエストインプットで送信してください.",
+      "<strong>テストとレビュー</strong> IATFのプロジェクトで あなたが使用しているアシスティヴ・テクノロジーを試し,何が機能し何が機能しないかを報告し,関連するリポジトリに直接問題をファイルします.",
+      "<strong>訳して</strong> ソースコンテンツは最初に英語で公開されます.翻訳はスペイン語から始め,貢献者が利用可能になると追加されます.",
+      "<strong>建設する</strong> IATFのリポジトリから問題をピックアップし,プルリクエストを送信し,またはプロジェクトを担当エンジニアとして実行します.",
+      "<strong>維持する</strong> 既存のプロジェクトには,時には新しいメンテナが必要になります.メンテナーのローテーションは,例外ではなく,モデルの通常の部分です."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "チャンネル",
+      "title": "IATFが公の場で活動する場所"
+    },
+    "items": [
+      "<strong>GitHubで公開しています</strong> 課題,プルリクエスト,リリース,プロジェクト記録",
+      "<strong>意見の相違だ</strong> ライブ・ディスカッション,協調,そして非公式な質問.",
+      "<strong>メールで</strong> 使い方 <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHubもDiscordも適合しない場合"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "次のステップ",
+      "title": "コントribuートしたいチャネルを選択します."
+    },
+    "paragraphs": [
+      "すべてのチャネルは同じ公共のレビューと 公共のリポジトリに供給されます."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "公共アクセシビリティプロジェクト",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "公共アクセシビリティプロジェクト",
+    "lead": "このレジストリには,IATFを通じて維持されている公共プロジェクトがリストされています. 受け入れられたアクセシビリティプロジェクト,サイトインフラストラクチャ,およびアーカイブされたプロトタイプはここに表示されます.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "レジストリ",
+      "title": "現在のレジストリ"
+    },
+    "intro": [
+      "承認されたプロジェクトは,公表された後にここに記載されています."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "需要を提出する",
+      "title": "具体的なアクセシビリティの必要性を公共のプロジェクトに変える"
+    },
+    "paragraphs": [
+      "IATFは,有用な公開オープンソースワークに変換できる具体的なアクセシビリティの必要性を検討します."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "プロジェクトはまだ公表されていません",
+    "paragraphs": [
+      "IATFは最初の公開プロジェクトセットを準備しています",
+      "特定のアクセシビリティの必要性がある場合は,まだリクエストを送信できます."
+    ]
+  }
+}

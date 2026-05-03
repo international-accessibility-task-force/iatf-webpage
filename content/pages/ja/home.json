@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "アクセシビリティの必要性から公共レポへ",
+    "lead": "IATFは,協会,グループ,個人を支援し,実際のアクセシビリティのニーズを公開のオープンソースプロジェクトに変換します.",
+    "support": [
+      "承認されたプロジェクトは,コピレフトライセンスでIATFのGitHub組織に公開され,責任あるエンジニアによって公開されています."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "公共の運営モデル",
+      "title": "アクセシブルなソフトウェアのためのシンプルなパブリックパス"
+    },
+    "paragraphs": [
+      "フォームを通じて,誰もがIATFにアクセシビリティの問題を提出することができます.チームがそれを引き受けることができれば,その作業のために公開のGitHubリポジトリが開きます.",
+      "承認された各プロジェクトには,コード,問題,ドキュメント,リリースのための明確な公開ホームがあり,開発は責任あるエンジニアによってオープンに主導されます."
+    ],
+    "specCard": {
+      "title": "公共の運営モデル",
+      "terms": [
+        {
+          "term": "必要なこと",
+          "definition": "現実のアクセシビリティの問題"
+        },
+        {
+          "term": "審査",
+          "definition": "任務の適性と実用性"
+        },
+        {
+          "term": "プロジェクトスペース",
+          "definition": "パブリックGitHubリポジトリ"
+        },
+        {
+          "term": "管理",
+          "definition": "IATFの組織的な所有権"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "プロセス",
+      "title": "機能する仕組み",
+      "intro": "モデルが意図的に小さいので 公共の道が簡単です"
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "需要が提出される",
+        "paragraphs": [
+          "アクセシビリティの真の必要性に基づいた申請は,協会,グループ,または個人によって提出できます.",
+          "申請はウェブサイトから開始できます. <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>,またはディスコルドを通して."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATFが審査する",
+        "paragraphs": [
+          "公共のオープンソースプロジェクトに 属しているかどうかを検討します"
+        ]
+      },
+      {
+        "index": "03",
+        "title": "公開リポジトリが作成される",
+        "paragraphs": [
+          "プロジェクトが受け入れられれば,コピレフトライセンスの下で IATF GitHub 組織に公開されます.",
+          "リポジトリは,コード,問題,ドキュメント,リリースの公共のホームになります."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "責任あるエンジニアがプロジェクトを指揮する",
+        "paragraphs": [
+          "責任あるエンジニアがプロジェクトリポジトリに割り当てられ,開発は公開されます."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "レジストリ",
+      "title": "公共のプロジェクト登録"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "ここから始めよう",
+      "title": "現在進行中の作業を閲覧するか,具体的なプロジェクトを開始する"
+    },
+    "paragraphs": [
+      "レジストリを利用して既に公開されているものを確認するか, 具体的なアクセシビリティの問題がプロジェクトになる場合, 入力を開始します."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

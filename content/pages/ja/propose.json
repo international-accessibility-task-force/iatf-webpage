@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "アクセシビリティプロジェクトを依頼する",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "アクセシビリティプロジェクトを依頼する",
+    "lead": "IATFは,実際のニーズから始まる アクセシビリティプロジェクトの要求を審査します.",
+    "support": [
+      "詳細な説明は不要です. 明確な問題,それが誰に影響するか,そしてなぜそれが重要なのか, それだけで始めることができます."
+    ],
+    "actions": [
+      {
+        "label": "リクエストを開始",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "代わりにDiscordを使用します.",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "チャンネル",
+      "title": "一番楽な道を選べ"
+    },
+    "intro": [
+      "すべてのルートは同じレビューに入ります."
+    ],
+    "items": [
+      {
+        "label": "ウェブサイト",
+        "body": "下のフォームを使って 構造化されたリクエストを提出してください."
+      },
+      {
+        "label": "メールアドレス",
+        "body": "直接送信してください {{contact.requestsEmail}}電子メールのリクエストは,審査と編集後,公開リクールの記録になる可能性があります."
+      },
+      {
+        "label": "意見の相違",
+        "body": "要求は同じレビューに移動します."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "請求書を送る前に",
+    "paragraphs": [
+      "IATFは公開で活動しています.リクエストは,IATFのGitHub組織,このウェブサイト,またはその両方において,公開要求記録としてまとめ,公開することができます.",
+      "個人の住所や電話番号や 医療上の情報や 補助技術の個々の利用者に関する識別情報は 必要で,IATFの審査に 満足している場合を除き,記載しないでください.",
+      "IATFは,リクエストの記録を公開する前に,不要な個人連絡先を削除します."
+    ]
+  },
+  "review": {
+    "title": "期待の見直し",
+    "paragraphs": [
+      "申請を提出しても 受け入れられるとは限らない",
+      "IATFは,ミッションの適性,実現可能性,有用性,そして作品が公共のリポジトリに属しているかどうかを検討します.",
+      "承認される前に,いくつかの要求は拒否され,延期され,または改造されることがあります."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "申請書",
+      "title": "申請を提出する"
+    },
+    "fields": [
+      {
+        "kind": "入力",
+        "name": "申請者",
+        "label": "あなたの名前や組織",
+        "helper": "誰が要求してるの?"
+      },
+      {
+        "kind": "選択する",
+        "name": "コンタクトルート",
+        "label": "最好の接触ルート",
+        "helper": "フォローアップはどのように行われますか?",
+        "required": true,
+        "options": [
+          "メールアドレス",
+          "意見の相違"
+        ]
+      },
+      {
+        "kind": "入力",
+        "name": "連絡先 詳細",
+        "label": "連絡先",
+        "helper": "フォローアップのためのEメールアドレスまたはDiscordアドレス.",
+        "placeholder": "メールアドレスまたはDiscord アドレス",
+        "required": true
+      },
+      {
+        "kind": "入力",
+        "name": "言語",
+        "label": "言語",
+        "helper": "あなたの好みの言語,関係がある場合.",
+        "value": "英語"
+      },
+      {
+        "kind": "テキストエリア",
+        "name": "問題",
+        "label": "どんな問題を解こうとしているの?",
+        "helper": "その障壁を簡潔に説明してください.",
+        "required": true
+      },
+      {
+        "kind": "テキストエリア",
+        "name": "影響を受けたユーザー",
+        "label": "影響を受けるのは誰か?",
+        "helper": "これは誰を助けますか?",
+        "required": true
+      },
+      {
+        "kind": "テキストエリア",
+        "name": "extra 文脈",
+        "label": "余分な文脈",
+        "helper": "なぜそれが重要なのか,例,参考文献,粗略なソフトウェアのアイデア,またはタイミングの制限など,その必要性を説明するのに役立つものを共有してください."
+      },
+      {
+        "kind": "選択する",
+        "name": "openSourceConsent (オープンソースの同意)",
+        "label": "オープンソースの公開開発に 満足していますか?",
+        "helper": "受け入れられたプロジェクトは,IATFの公共のリポジトリです.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "そうだ",
+          "できない",
+          "まだわからない"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "受け入れられた場合",
+      "title": "受け入れ の 意味"
+    },
+    "items": [
+      "IATF GitHub 組織の公開リポジトリ",
+      "プロジェクトに割り当てられた責任あるエンジニア",
+      "コードとプロジェクト資料の copyleft ライセンス",
+      "リポジトリの公開開発",
+      "IATFのサイトに登録"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "会話を始める",
+      "title": "簡単な明快な要求で始めれば十分です"
+    },
+    "paragraphs": [
+      "公共のプロジェクトになるべきだと 考えているなら 送ってください"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

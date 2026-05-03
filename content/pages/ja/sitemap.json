@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "サイトマップ"
+  },
+  "hero": {
+    "eyebrow": "インデックス",
+    "title": "サイトマップ",
+    "lead": "IATF.CCの全ての公開ページを 1つの場所に"
+  },
+  "sections": [
+    {
+      "title": "メインページ",
+      "items": [
+        {
+          "label": "家に帰る",
+          "href": "/"
+        },
+        {
+          "label": "プロジェクト",
+          "href": "/projects/"
+        },
+        {
+          "label": "プロジェクトをリクエストする",
+          "href": "/propose/"
+        },
+        {
+          "label": "統治",
+          "href": "/governance/"
+        },
+        {
+          "label": "加入する",
+          "href": "/join/"
+        },
+        {
+          "label": "アクセシビリティ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "透明性",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "プロジェクト",
+  "projectsEmpty": "プロジェクトはまだ公表されていません."
+}

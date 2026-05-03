@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "見つかりませんでした."
+  },
+  "hero": {
+    "eyebrow": "見つかりませんでした.",
+    "title": "要求されたページが見つかりませんでした.",
+    "lead": "公共の場所に戻るには 下の主要ルートを利用してください.",
+    "support": [],
+    "actions": [
+      {
+        "label": "家に帰る",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "要求したルートは存在しない."
+    ],
+    "items": [
+      {
+        "label": "家に帰る",
+        "href": "/"
+      },
+      {
+        "label": "プロジェクト",
+        "href": "/projects/"
+      },
+      {
+        "label": "加入する",
+        "href": "/join/"
+      },
+      {
+        "label": "アクセシビリティ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "統治",
+        "href": "/governance/"
+      },
+      {
+        "label": "透明性",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

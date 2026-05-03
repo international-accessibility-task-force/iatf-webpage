@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATFのウェブサイト",
+    "summary": "国際アクセシビリティタスクフォースの公開サイトです.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATFは モデルを説明し プロジェクトをリストアップし 貢献者を次のステップに導く 安定した公共のホームを必要としていました",
+    "why": "このサイトはIATFのパブリックフロントドアです.小さな静的なプロジェクトとして構築されているので,オープンで読み,翻訳し,維持するのが簡単です.",
+    "scopeIn": [
+      "IATFモデルを説明する公開ランディングページ",
+      "ステータス,メンテナント,リポジトリ,デモを含む承認された,アクティブで,アーカイブされたIATFプロジェクトの公開レジストリ",
+      "リクエストの受信ページとフォーム",
+      "統治と透明性のページ",
+      "翻訳の準備が整った英語のソース",
+      "Cloudflare ワーカーの静的資産の静的展開"
+    ],
+    "scopeOut": [
+      "プライベートなメンバーエリア,アカウント,またはログインの流れ",
+      "各プロジェクトの独自のリポジトリに存在するプロジェクトのソースコードのホスト",
+      "リアルタイムのチャット,これはディスコルドに生きている",
+      "各プロジェクトの GitHub リポジトリに保存されている個々のプロジェクトの問題追跡"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATFのセルフィー",
+    "summary": "初期のIATFプロトタイプで,自然停止点に達した後にアーカイブされています.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATFの傘の下でアクセシビリティに焦点を当てたツールの早期探索.",
+    "why": "リポジトリは,活発な開発が停止したにもかかわらず,仕事の記録として公開されています.",
+    "scopeIn": [
+      "公開記録として保存されるアクセシビリティに焦点を当てたツールの初期のプロトタイプ"
+    ],
+    "scopeOut": [
+      "アクティブ開発または機能作業",
+      "メンテナンス義務",
+      "生産における推奨用途"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATFボット",
+    "summary": "IATFコミュニティのボット,自然停止点に達した後にアーカイブ.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATFのコミュニティチャネルの自動化",
+    "why": "リポジトリは,活発な開発が停止したにもかかわらず,仕事の記録として公開されています.",
+    "scopeIn": [
+      "IATFのコミュニティチャネルに関するディスコルドの自動化,公開記録として保持"
+    ],
+    "scopeOut": [
+      "アクティブ開発または機能作業",
+      "メンテナンス義務",
+      "生産における推奨用途"
+    ]
+  }
+]

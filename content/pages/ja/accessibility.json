@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "アクセシビリティ",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "アクセシビリティ",
+    "lead": "IATFは,このウェブサイトをシンプルで読みやすく,キーボードでアクセスし,補助技術と互換性を保つことを目指しています.",
+    "support": [
+      "ウェブアクセシビリティのために,IATFは [W3C WAI](https://www.w3.org/WAI/) 実践的なアクセシビリティは,補助技術の利用者の直接の経験によっても知られる."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "報告する",
+      "title": "アクセシビリティの問題を報告する"
+    },
+    "paragraphs": [
+      "このウェブサイトでアクセシビリティの障壁を見つけたら,メールで報告してください.",
+      "{{contact.accessibilityEmail}}",
+      "役立つ 報告 に は 次 の もの が 含ま れ ます."
+    ],
+    "items": [
+      "問題が発生したページ",
+      "やってみたかったこと",
+      "あなたが使用していた支援技術,ブラウザ,またはデバイス,該当する場合",
+      "どうしたの?",
+      "助けてくれたらどうする?"
+    ],
+    "footnote": "正式なバグレポートを書く必要はありません.明確な説明で十分です."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "ハンドリング",
+      "title": "公的問題処理"
+    },
+    "paragraphs": [
+      "アクセシビリティの問題は,公開された状態で修正できるように,関連する公開リポジトリにまとめられます.個人連絡先と不要なプライベート情報は,公開前に削除されます.",
+      "報告に 個人的な情報が含まれているなら メッセージで 明確に言ってください"
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "現在の状態",
+      "title": "既知の制限"
+    },
+    "paragraphs": [
+      "このサイトは意図的に小さく,ほとんど静的である.翻訳が準備されている間,いくつかの言語のバージョンは不完全である可能性があります."
+    ]
+  }
+}
