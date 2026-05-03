@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Հանրային հասանելիության նախագծեր",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Հանրային հասանելիության նախագծեր",
+    "lead": "Այս ռեգիստրը թվարկում է IATF- ի միջոցով պահպանվող հանրային նախագծերը: Ընդունված մատչելիության ծրագրերը, կայքի ենթակառուցվածքները եւ արխիվացված նախատիպերը տեսանելի են այստեղ:",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Գրասենյակ",
+      "title": "Ներկայիս գրանցամատյան"
+    },
+    "intro": [
+      "Ընդունված նախագծերը ցուցակագրվում են այստեղ, երբ դրանք հրապարակվում են:"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ներկայացրեք ձեր պահանջը",
+      "title": "Հասանելիության կոնկրետ անհրաժեշտությունը դարձնել հանրային նախագիծ"
+    },
+    "paragraphs": [
+      "IATF- ը վերանայում է մատչելիության կոնկրետ կարիքները, որոնք կարող են վերածվել օգտակար հանրային բաց աղբյուրի աշխատանքների:"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ոչ մի նախագիծ դեռ չի հրապարակվել",
+    "paragraphs": [
+      "IATF-ը նախապատրաստում է իր առաջին հանրային նախագծերը:",
+      "Դուք դեռ կարող եք ուղարկել խնդրանք, եթե ունեք մատչելիության կոնկրետ կարիք:"
+    ]
+  }
+}

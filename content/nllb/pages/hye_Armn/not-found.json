@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Չի գտնվել"
+  },
+  "hero": {
+    "eyebrow": "Չի գտնվել",
+    "title": "Պահանջված էջը չի գտնվել",
+    "lead": "Օգտագործեք ներքեւի գլխավոր երթուղիները, որպեսզի վերադառնաք հանրային կայք:",
+    "support": [],
+    "actions": [
+      {
+        "label": "Տուն",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ձեր պահանջած երթուղին գոյություն չունի:"
+    ],
+    "items": [
+      {
+        "label": "Տուն",
+        "href": "/"
+      },
+      {
+        "label": "Ծրագրեր",
+        "href": "/projects/"
+      },
+      {
+        "label": "Միանալ",
+        "href": "/join/"
+      },
+      {
+        "label": "Հասանելիություն",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Կառավարման համակարգ",
+        "href": "/governance/"
+      },
+      {
+        "label": "Թափանցիկություն",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

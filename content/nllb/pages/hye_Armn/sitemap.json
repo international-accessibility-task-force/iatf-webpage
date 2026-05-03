@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Կայքի քարտեզ"
+  },
+  "hero": {
+    "eyebrow": "Ցուցանիշ",
+    "title": "Կայքի քարտեզ",
+    "lead": "IATF.CC-ի բոլոր էջերը մեկ տեղում:"
+  },
+  "sections": [
+    {
+      "title": "Գլխավոր էջեր",
+      "items": [
+        {
+          "label": "Տուն",
+          "href": "/"
+        },
+        {
+          "label": "Ծրագրեր",
+          "href": "/projects/"
+        },
+        {
+          "label": "Պահանջել նախագիծ",
+          "href": "/propose/"
+        },
+        {
+          "label": "Կառավարման համակարգ",
+          "href": "/governance/"
+        },
+        {
+          "label": "Միանալ",
+          "href": "/join/"
+        },
+        {
+          "label": "Հասանելիություն",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Թափանցիկություն",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Ծրագրեր",
+  "projectsEmpty": "Դեռեւս հրապարակված նախագծեր չկան:"
+}
