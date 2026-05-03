@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "سائٹ نقشہٕ"
+  },
+  "hero": {
+    "eyebrow": "انڈیکس",
+    "title": "سائٹ نقشہٕ",
+    "lead": "ہر کُنہِ عوٲمی صفحہٕ iatf.cc پیٹھ، اکہِ جایہِ پیٹھ۔"
+  },
+  "sections": [
+    {
+      "title": "اہم صفہٕ",
+      "items": [
+        {
+          "label": "خانہٕ دار",
+          "href": "/"
+        },
+        {
+          "label": "پروجیکٹس",
+          "href": "/projects/"
+        },
+        {
+          "label": "اکھ منصوبہٕ کَرنہٕ خٲطرٕ درخواست",
+          "href": "/propose/"
+        },
+        {
+          "label": "گورننس",
+          "href": "/governance/"
+        },
+        {
+          "label": "شٲمل کٔرِتھ",
+          "href": "/join/"
+        },
+        {
+          "label": "رسٲئی",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "شفافیتٕ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "پروجیکٹس",
+  "projectsEmpty": "ونہٕ کینٛہہ تہٕ پروجیکٹس چِھ نہٕ وننہٕ آمٕتۍ۔"
+}

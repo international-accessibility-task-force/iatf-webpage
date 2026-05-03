@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "عوٲمی رسٲئی خٲطرٕ پروجیکٹس",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "عوٲمی رسٲئی خٲطرٕ پروجیکٹس",
+    "lead": "یہٕ رجسٹری چِھ IATF کہٕ ذریعہٕ برقرار تھون وٲل عوٲمی منصوبن ہنٛز فہرست بناوان۔ قبول شدٕ رسائی ہنٛد منصوبہٕ، سائٹ انفراسٹرکچر، تہٕ آرکائیوڈ پروٹو ٹائپ چُھ ییتہٕ وچھنہٕ یوان۔",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "رجسٹرٕ",
+      "title": "موجودٕ رجسٹری"
+    },
+    "intro": [
+      "منظور شدہ پروجیکٹس چِھ یمن ہنٛز اشاعتہٕ پتہٕ ییتہٕ درج آمت کرنہٕ۔"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "اکھ ضرورت پیش کرُن",
+      "title": "اکھ ٹھوس رسٲئی ہنٛز ضرورتس عوٲمی پروجیکٹس منٛز تبدیل کرُن"
+    },
+    "paragraphs": [
+      "IATF چُھ قابلہِ رسٲئی ہنزن ٹھوس ضروریاتن ہند جٲئزہ نوان یم مفید عوٲمی اوپن سورس کامہِ منز تبدیل ہیکو کٔرِتھ۔"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "چھنہٕ وُنہٕ تہٕ پروجیکٹس شائع کرنہٕ آمت۔",
+    "paragraphs": [
+      "۔IATF چُھ پنُن گۄڈنیُک عوٲمی پروجیکٹ سیٹ تیار کران۔",
+      "اگر تہِ چُھ تیلہِ ہیکہِ تُہۍ اکہِ درخواستہِ بھیجِتھ اگر توہیہ ہکو کُنہِ مخصوص رسٲئی ہنز ضرورت پورٕ کٔرِتھ۔"
+    ]
+  }
+}

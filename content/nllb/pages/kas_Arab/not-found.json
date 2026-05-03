@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "نہٕ لَبنہٕ آمُت"
+  },
+  "hero": {
+    "eyebrow": "نہٕ لَبنہٕ آمُت",
+    "title": "مطلوبہ صَفہٕ آو نہٕ لَبنہٕ",
+    "lead": "عوٲمی سائٹہٕ پیٹھ واپس ینہٕ خٲطرٕہ استعمال کٔرِو بۄنہٕ کنہِ بنیٲدی روٹہٕ۔",
+    "support": [],
+    "actions": [
+      {
+        "label": "خانہٕ دار",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "توہہ ہکو بَحَژ مَنٛز تھۆد تَرجَمہٕ کٔرِتھ۔"
+    ],
+    "items": [
+      {
+        "label": "خانہٕ دار",
+        "href": "/"
+      },
+      {
+        "label": "پروجیکٹس",
+        "href": "/projects/"
+      },
+      {
+        "label": "شٲمل کٔرِتھ",
+        "href": "/join/"
+      },
+      {
+        "label": "رسٲئی",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "گورننس",
+        "href": "/governance/"
+      },
+      {
+        "label": "شفافیتٕ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
