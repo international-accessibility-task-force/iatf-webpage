@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ka fara IATF kan",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ka fara IATF kan",
+    "lead": "I be se ka don o baara la cogo caaman na, i n'a fɔ ka baara kɛ ni fɛɛrɛ kuraw ye, ka porogramu dɔw labɛn, ka dɔw bayɛlɛma, k'u sɛgɛsɛgɛ, wala ka baara dɔw kɛ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Kunkanbaaraw",
+      "title": "I be se ka dɛmɛ don cogo minw na"
+    },
+    "items": [
+      "<strong>Baara dɔ ɲini.</strong> N'i ye fɛɛn dɔ sɔrɔ min be se ka gwɛlɛya lase i ma k'a sɔrɔ i ka porogramu labɛnna ka ɲɛ, i be se k'o ci Jehova Seerew ka tɔnbolo dɔ ma.",
+      "<strong>A ɲini k'a lɔn n'i be se k'o kɛ.</strong> I be baara min kɛra n'o fɛɛrɛ ye, i k'a filɛ o bena i nafa cogo min na.",
+      "<strong>A bayɛlɛma.</strong> A bayɛlɛmana angilikan lo la fɔlɔ.",
+      "<strong>A ɲini ka dɔ fara i ka baara kan.</strong> I be se ka ɲiningaliw jaabiliw sɔrɔ IATF ka porogramuw kɔnɔ, k'u bɔ site web dɔw kan wala ka baara dɔw kɛ i n'a fɔ a lɔbaga.",
+      "<strong>A ɲini k'a lɔn i be se k'o kɛ cogo min na.</strong> Baara minw be kɛ ka ban, tuma dɔw la, u mako be baarakɛla kura la."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Julakan karanbagaw ta yɔrɔ",
+      "title": "IATF be baara kɛ forobayɔrɔw la"
+    },
+    "items": [
+      "<strong>An be se k'o kɛ cogo di?</strong> Julakan karanbagaw ta yɔrɔ",
+      "<strong>Bɛnbaliya.</strong> I be se k'a ɲini u fɛ u ka kumaɲɔgɔnya kɛ n'i ye gwansan ani k'u ɲininga u ka fɛtaw la.",
+      "<strong>I ka e-mail ci a ma.</strong> Ka baara kɛ n'a ye <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> n'o tɛ, GitHub ni Discord tɛ se ka bɛn."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Koo nataw",
+      "title": "I b'a fɛ ka baara kɛ n'a ye cogo min na, i k'o sugandi"
+    },
+    "paragraphs": [
+      "O porogramuw bɛɛ labɛnna ka ɲɛsin jama ka laɲinitaw lo ma ani u bɛɛ be sɔrɔ site kelen kan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

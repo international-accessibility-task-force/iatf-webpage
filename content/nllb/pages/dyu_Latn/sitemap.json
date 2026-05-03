@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Julakan karanbagaw ta yɔrɔ",
+    "title": "Sitemap",
+    "lead": "IATF.CC kɔnɔna gafew bɛɛ be sɔrɔ yɔrɔ kelen na."
+  },
+  "sections": [
+    {
+      "title": "Gafew",
+      "items": [
+        {
+          "label": "Duniɲa kura kɔnɔ",
+          "href": "/"
+        },
+        {
+          "label": "Koow labɛnninw",
+          "href": "/projects/"
+        },
+        {
+          "label": "Baara dɔ ɲini",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gofɛrɛnɛman",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ka fara an kan",
+          "href": "/join/"
+        },
+        {
+          "label": "A be se ka sɔrɔ yɔrɔ o yɔrɔ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Julakan karanbagaw ta yɔrɔ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Koow labɛnninw",
+  "projectsEmpty": "Foyi ma bɔ fɔlɔ."
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Julakan karanbagaw ta yɔrɔ",
+    "lead": "IATF b'a ɲini ka jɛnkuluw, mɔgɔw ani mɔgɔ kelen kelen bɛɛ dɛmɛ u ka se ka baara kɛ ni ɛntɛrɛnɛti ye cogo nɔgɔman na.",
+    "support": [
+      "Sɛbɛ minw sɔnna, olu be sɔrɔ IATF ka GitHub yɔrɔ la. U be sɔrɔ copyleft sariyasɛbɛw kɔnɔ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Jamana ka baara kɛcogo",
+      "title": "Porogramu minw labɛnna mɔgɔw ye, olu labɛnna cogo nɔgɔman na"
+    },
+    "paragraphs": [
+      "Mɔgɔ o mɔgɔ be se ka baara kɛ n'o ye, o tigi be se k'a ka ɲiningali lase IATF ma.",
+      "Baara o baara kalifara, o bɛɛ be sɔrɔ forobaciyɛn dɔ kɔnɔ, yɔrɔ min na bɛɛ be se k'a filɛ a be baara kɛ cogo min na."
+    ],
+    "specCard": {
+      "title": "Jamana ka baara kɛcogo",
+      "terms": [
+        {
+          "term": "N' mako b'a la",
+          "definition": "Ɲiningali minw ɲɛsinna saratiw koo ma"
+        },
+        {
+          "term": "An k'a lajɛ",
+          "definition": "Baara min ka ɲi ka kɛ, n'a be se ka kɛ"
+        },
+        {
+          "term": "Baara kɛyɔrɔ",
+          "definition": "Julakan karanbagaw ta yɔrɔ"
+        },
+        {
+          "term": "Koow ɲɛnabɔla jɛnkulu",
+          "definition": "IATF ka jɛnkuluw ka kunkanbaaraw"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "A kɛcogo",
+      "title": "A be baara kɛ cogo di?",
+      "intro": "O cogo la, a be kɛ i n'a fɔ a be mobili bolicogo ɲɛfɔra cogo min na."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "A ɲini k'a lɔn n'i mako b'a la",
+        "paragraphs": [
+          "Jɛnkulu dɔ, jɛnkulu wala mɔgɔ dɔ be se k'o kɛ sabu a mako b'a la ka dɛmɛ don o baara la.",
+          "I be se k'o kɛ site web nin wala e-mail nin fɛ: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, wala n'u ye bɛnbaliyako dɔ kɛ n'an ye."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF b'a sɛgɛsɛgɛ",
+        "paragraphs": [
+          "An b'a filɛ n'u be se ka baara kɛ n'an ye, n'a ka ɲi ani n'o baara bɛnnin lo ni Bibulu ka sariyakolow ye."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Julakan karanbagaw ta yɔrɔ",
+        "paragraphs": [
+          "N'u sɔnna baara dɔ la, u b'a bila IATF ka GitHub porogramu kɔnɔ ni copyleft sira ye.",
+          "O yɔrɔ lo be kɛ an ka gafew, barokunw, an ka ɔridinatɛri ka porogramuw ani videwo dɔw dogoyɔrɔ ye."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "O baara ɲɛminɛbaga ye enjenɛri ye",
+        "paragraphs": [
+          "O baara be kɛ forobayɔrɔ la."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ɲiningali",
+      "title": "Julakan karanbagaw ta yɔrɔ"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "A daminɛ yan",
+      "title": "I be baara min kɛra sisan, o filɛ ani baara kɛrɛnkɛrɛnnin dɔ daminɛ"
+    },
+    "paragraphs": [
+      "I be se ka baara kɛ n'o porogramu ye k'a filɛ fɛɛn minw labɛnna ka ɲɛ walisa mɔgɔw ka se k'u kalan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

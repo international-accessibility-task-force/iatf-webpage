@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "A ma sɔrɔ"
+  },
+  "hero": {
+    "eyebrow": "A ma sɔrɔ",
+    "title": "I ye min nyininka o ma sɔrɔ",
+    "lead": "N'i b'a fɛ ka kɔsegi i ka sigiyɔrɔ la, i ka siraba min kofɔra jukɔrɔ, o sira lo ta.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Duniɲa kura kɔnɔ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "I ye sira min ɲini, o tɛ yen."
+    ],
+    "items": [
+      {
+        "label": "Duniɲa kura kɔnɔ",
+        "href": "/"
+      },
+      {
+        "label": "Koow labɛnninw",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ka fara an kan",
+        "href": "/join/"
+      },
+      {
+        "label": "A be se ka sɔrɔ yɔrɔ o yɔrɔ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gofɛrɛnɛman",
+        "href": "/governance/"
+      },
+      {
+        "label": "Julakan karanbagaw ta yɔrɔ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

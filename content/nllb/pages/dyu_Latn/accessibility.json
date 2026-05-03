@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "A be se ka sɔrɔ yɔrɔ o yɔrɔ",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "A be se ka sɔrɔ yɔrɔ o yɔrɔ",
+    "lead": "IATF ka laɲinita ye ka site web nin labɛn cogo nɔgɔman na, a kalancogo ka nɔgɔ ani a be se ka labɛn ni ɔridinatɛri ye fana.",
+    "support": [
+      "Weleweledala minw b'a fɛ ka baara kɛ ni ɛntɛrɛnɛti ye, olu be tɛmɛ IATF fɛ k'o kɛ. [W3C WAI](https://www.w3.org/WAI/) Ka fara o kan, mɔgɔ minw be baara kɛ ni fɛɛrɛ kuraw ye walisa ka kunnafoniw sɔrɔ, olu yɛrɛ lo b'a yira n'u be se ka baara kɛ n'o fɛɛrɛw ye cogo min na."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ka kunnafoniw di",
+      "title": "A ɲini k'a lɔn n'i be se ka kaan wɛrɛ degi"
+    },
+    "paragraphs": [
+      "N'i ye fɛɛn dɔ ye site web nin kan min b'a to a tɛ se ka ladon i ka kaan na, i k'o ci an ma e-mail fɛ:",
+      "{{contact.accessibilityEmail}}",
+      "Gafe nin ka kalankɛfɛnw be se k'i dɛmɛ:"
+    ],
+    "items": [
+      "Ɲiningali kɛra yɔrɔ min na, o ye nin ye",
+      "i tun b'a fɛ ka min kɛ",
+      "I tun be baara kɛra ni ɔridinatɛri ye cogo min na, wala i tun be tɛmɛ fɛɛrɛ wɛrɛ min fɛ ka ɔriganisasiyɔn ka baara kɛ, n'o be se ka kɛ",
+      "mun lo kɛra?",
+      "mun lo tun be se k'a dɛmɛ?"
+    ],
+    "footnote": "I man kan ka sɛbɛri kɛ walisa k'a yira ko fili dɔ donna i ka ɔridinatɛri kɔnɔ."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "N'u be baara kɛ n'a ye",
+      "title": "Jamanadenw ka koow ɲɛnabɔli"
+    },
+    "paragraphs": [
+      "Kunnafoni dɔw be se ka sɔrɔ gafew bayɛlɛmani kɔnɔ, u be sɔrɔ yɔrɔ minw na mɔgɔw be se k'u ka fɛɛnw kalan.",
+      "N'i be kunnafoniw di mɔgɔw ma, a to u k'a lɔn i be se k'u lajɛ cogo min na."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Koo minw be kɛra bi",
+      "title": "Kunnafoni minw be se k'i dɛmɛ"
+    },
+    "paragraphs": [
+      "O y'a to an ka site web tun ka dɔgɔ ani a tun tɛ ɲɛtaga kɛ bɛrɛbɛrɛ. A bayɛlɛmana kaan dɔw la tuma dɔw la."
+    ]
+  }
+}

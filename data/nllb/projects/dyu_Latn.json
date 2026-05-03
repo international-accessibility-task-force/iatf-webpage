@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF ka ɛntɛrɛnɛti yɔrɔ",
+    "summary": "Koow Ɲɛnabɔla Jɛnkulu be baara min kɛra duniɲa kuru bɛɛ kɔnɔ walisa ka mɔgɔw dɛmɛ ka Bibulu faamu, o jɛnkulu be weele ko: International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF mako tun be sɛbɛri la walisa ka se ka Bibulu bayɛlɛmani caaman faamu. O sɛbɛri tun bena i dɛmɛ k'a faamu i ka ɲi ka min kɛ walisa ka baara kɛ Jehova ye bɛrɛbɛrɛ.",
+    "why": "IATF y'a labɛn cogo min na, o b'a to a ka nɔgɔ a ka mɔgɔw kalan, k'a bayɛlɛma ani ka baara kɛ n'a ye.",
+    "scopeIn": [
+      "Forobakalan minw ɲɛsinna IATF ma",
+      "IATF ka porogramu minw sɔnna, minw be baara la ani minw maranin lo, u bɛɛ tɔgɔ sɛbɛra yen",
+      "Walisa k'o ɲiningali jaabi, i ka ɲi k'i ka sɛbɛ dafa.",
+      "Kunnafoniw ani kunnafoni kuraw",
+      "Bibulu bayɛlɛmani labɛnnin lo angilikan na",
+      "Cloudflare ka baarakɛlaw ka baara kɛcogo"
+    ],
+    "scopeOut": [
+      "Forobakalan kɛyɔrɔ minw tɛ mɔgɔw ta ye, kunnafoniw, wala kunnafoni kuraw",
+      "Julakan karanbagaw ta yɔrɔ",
+      "An be se ka baro kɛ n'u ye wagati tigitigi kɔnɔ",
+      "Gbanflɛn nin talua'm be su tranman lɛ'n, ɔ nin be nga be o GitHub'n nun lɔ'n"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF yɛrɛ ye",
+    "summary": "IATF ka porototipe kɔrɔman dɔ, u y'a mara yɔrɔ min na u tun be se ka tɛmɛ o yɔrɔ la ka taga yɔrɔ wɛrɛ la.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF b'a fɛ ka baara kɛ ni fɛɛrɛ min ye ka mɔgɔw dɛmɛ ka se ka Bibulu kalan k'a sɔrɔ u yɔrɔ man jan.",
+    "why": "Sɛbɛ nin be to ka mara forobayɔrɔw la walisa mɔgɔw k'a lɔn k'u y'o sɛbɛw labɛn cogo min na, hali n'u m'o kɛ tugun.",
+    "scopeIn": [
+      "Sɛbɛ min labɛnna mɔgɔw ye walisa u ka se ka Bibulu kalan k'a sɔrɔ mɔgɔw ma se k'u kalan, u ye ɲɛyirali ɲuman di o koo la."
+    ],
+    "scopeOut": [
+      "Ka baara kɛ ka ɲɛtaga kɛ",
+      "Kunkanbaara minw ɲɛsinna baloɲini baara ma",
+      "A ka ɲi ka baara kɛ n'a ye cogo min na"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF ka baara",
+    "summary": "IATF jɛnkulu dɔ ka ɔriganisasiyɔn dɔ lo, a be se ka baara kɛ n'a ye k'a sɔrɔ a ma se a lɔyɔrɔ la fɔlɔ.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF b'a fɛ ka baara kɛ n'a ye cogo nɔgɔman na.",
+    "why": "Sɛbɛ nin be to ka mara forobayɔrɔw la walisa mɔgɔw k'a lɔn k'u y'o sɛbɛw labɛn cogo min na, hali n'u m'o kɛ tugun.",
+    "scopeIn": [
+      "Koow Ɲɛnabɔla Jɛnkulu ka desizɔnw be se k'a to an ka ɔriganisasiyɔn be baara kɛ n'an ka fɛɛrɛw ye cogo nɔgɔman na."
+    ],
+    "scopeOut": [
+      "Ka baara kɛ ka ɲɛtaga kɛ",
+      "Kunkanbaara minw ɲɛsinna baloɲini baara ma",
+      "A ka ɲi ka baara kɛ n'a ye cogo min na"
+    ]
+  }
+]

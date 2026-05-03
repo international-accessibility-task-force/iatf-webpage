@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Jamanadenw be se ka baara kɛ n'o porogramuw ye cogo di?",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Jamanadenw be se ka baara kɛ n'o porogramuw ye cogo di?",
+    "lead": "Sɛbɛ nin b'a yira ko baara minw be kɛ ka ɲɛsin mɔgɔw ma, IATF be to ka baara kɛ n'o ye.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ɲiningali",
+      "title": "Sɛbɛ min be yen sisan"
+    },
+    "intro": [
+      "Barokun nin be kuma porogramu dɔw koo la an ye minw sugandi."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "A ɲini k'a lɔn i mako be min na",
+      "title": "A ɲini k'a faamu fɛɛn min kama mɔgɔw mako b'a la ka kɛ mɔgɔ dafanin ye"
+    },
+    "paragraphs": [
+      "IATF b'a ɲini ka baara dɔw kɛ minw ka ɲi ka kɛ sababu ye mɔgɔw ka se ka baara kɛ ni ɛntɛrɛnɛti ye cogo nɔgɔman na."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Baara si ma bɔ fɔlɔ",
+    "paragraphs": [
+      "IATF b'a ka porogramu fɔlɔ labɛnna.",
+      "I bele be se k'o sɛbɛ ci n'i mako b'a la k'a kalan."
+    ]
+  }
+}

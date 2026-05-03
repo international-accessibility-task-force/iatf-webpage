@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Sɛgɛsɛgɛri kɛ walisa k'a lɔn Bibulu be min fɔ tigitigi",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Sɛgɛsɛgɛri kɛ walisa k'a lɔn Bibulu be min fɔ tigitigi",
+    "lead": "IATF b'a ɲini ka baara dɔw kɛ minw bɛnnin lo ni Bibulu ka sariyakolow ye.",
+    "support": [
+      "I mako t'a la k'a ɲɛfɔ fɛɛn min y'a to i lara o la."
+    ],
+    "actions": [
+      {
+        "label": "Ɲiningali daminɛ",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Aw ye Discord kɛ a nɔ na",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Julakan karanbagaw ta yɔrɔ",
+      "title": "Sira min ka nɔgɔ, i k'o ta"
+    },
+    "intro": [
+      "O cogo kelen na, an ka ɲi k'an ka koow kɛ ka kɛɲɛ ni Bibulu ka sariyakolow ye."
+    ],
+    "items": [
+      {
+        "label": "Ɛntɛrinɛti yɔrɔ",
+        "body": "I be se k'o kɛ cogo di do?"
+      },
+      {
+        "label": "Tɛmɛ ɛntɛrɛnɛti kan",
+        "body": "A ɲini k'a lɔn i be se k'o kɛ cogo min na. {{contact.requestsEmail}}E-mailw be se ka kɛ sababu ye mɔgɔw k'u ka ɲiningaliw jaabi."
+      },
+      {
+        "label": "Bɛnbaliya",
+        "body": "I be se k'a daminɛ o yɔrɔ la n'o ka nɔgɔ i fɛ."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Sanni i k'a ɲini mɔgɔ dɔ fɛ a k'i dɛmɛ",
+    "paragraphs": [
+      "IATF bε baara kε jama fε.",
+      "I kana a to mɔgɔw k'i ka ladɛrɛsiw, i ka telefɔni nimɔrɔw wala i ka kɛnɛyakow lakali i ye.",
+      "IATF be tɛmɛ kunnafoni dɔw fɛ k'a yira mɔgɔw la u be se ka min kɛ walisa ka baara kɛ n'u ye."
+    ]
+  },
+  "review": {
+    "title": "Kunnafoni kuraw",
+    "paragraphs": [
+      "N'i ye sɛbɛ dɔ dafa k'a ci Jehova Seerew ka tɔnbolo dɔ ma, i ka ɲi k'o sɛbɛ dafa koɲuman.",
+      "IATF b'a ɲini k'a lɔn n'u ye baara dɔ kɛ min ka ɲi, n'a be se ka kɛ, ani n'o ye baara nafaman ye.",
+      "U be se k'a ɲini an fɛ ko an ka yɛlɛmani don koo dɔw la wala ko an k'an ka wagati ta k'u ɲɛnabɔ ka kɛɲɛ ni Bibulu ka sariyakolow ye."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Sɛgɛsɛgɛri kɛcogo",
+      "title": "A ɲini k'o kɛ"
+    },
+    "fields": [
+      {
+        "kind": "min be don",
+        "name": "mɔgɔ min b'a fɛ",
+        "label": "I tɔgɔ wala i ka ɔriganisasiyɔn",
+        "helper": "Jɔn lo b'a fɛ k'o kɛ?"
+      },
+      {
+        "kind": "sugandi",
+        "name": "sira min b'a to a be se ka taga yɔrɔ wɛrɛ",
+        "label": "A ka fisa i ka sira min ta walisa ka se ka kuma n'a ye",
+        "helper": "O kɔ, i ka ɲi ka mun lo kɛ do?",
+        "required": true,
+        "options": [
+          "Tɛmɛ ɛntɛrɛnɛti kan",
+          "Bɛnbaliya"
+        ]
+      },
+      {
+        "kind": "min be don",
+        "name": "I ka kunnafoniw",
+        "label": "I be se ka kaan bɔ min ma",
+        "helper": "I be se ka e-mail wala Discord tɔgɔ sɛbɛ walisa ka kunnafoni wɛrɛw sɔrɔ.",
+        "placeholder": "I ka ɛntɛrɛnɛti adresi walima i ka telefɔni nimɔrɔ",
+        "required": true
+      },
+      {
+        "kind": "min be don",
+        "name": "kaan",
+        "label": "Kanw",
+        "helper": "I be kaan min fɛ, n'i b'a fɛ k'a mɛn, a sɛbɛ o kaan na.",
+        "value": "Angilikan"
+      },
+      {
+        "kind": "kumasen yɔrɔ",
+        "name": "gwɛlɛya",
+        "label": "I b'a fɛ ka gwɛlɛya juman lo ɲɛnabɔ?",
+        "helper": "A ɲɛfɔ fɛɛn min kama o koo man nɔgɔ.",
+        "required": true
+      },
+      {
+        "kind": "kumasen yɔrɔ",
+        "name": "minw delila k'a sɔrɔ",
+        "label": "O koo ɲɛsinna jɔn lo ma?",
+        "helper": "O be se ka mun lo kɛ?",
+        "required": true
+      },
+      {
+        "kind": "kumasen yɔrɔ",
+        "name": "extraN'i b'a fɛ k'a filɛ",
+        "label": "Kunnafoni wɛrɛw",
+        "helper": "I be se k'a ɲɛfɔ fɛɛn min kama i mako b'a la k'o kɛ, i ka vɛrisew wala videwo dɔw ta ka ɲɛsin o koo ma."
+      },
+      {
+        "kind": "sugandi",
+        "name": "openSourceConsent (dɔgɔtɔrɔ tɛ sigida min na)",
+        "label": "I be se ka baara kɛ ni ɔridinatɛri ye wa?",
+        "helper": "Sɛbɛ minw be sɔrɔ o forobakalanw kɔnɔ, olu be sɔrɔ IATF ka porogramuw kɔnɔ.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ɔnhɔn",
+          "Ayi",
+          "N' ma la a la halibi"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "N'u sɔnna",
+      "title": "Ka sɔn mɔgɔ wɛrɛ ma, o kɔrɔ ko di?"
+    },
+    "items": [
+      "IATF ka jɛnkulu dɔ kɔnɔ min tɔgɔ ko GitHub",
+      "Baarakɛla dɔ lo b'o baara ɲɛminɛ",
+      "Copyleft sariyasɛbɛ ka kɛ gafew ni porogramuw sɛbɛ ye",
+      "forobakalan minw be kɛ forobayɔrɔ la",
+      "IATF ka ɛntɛrɛnɛti kan"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "I be se k'a daminɛ ka kuma n'a ye cogo di?",
+      "title": "I be se k'a daminɛ n'i ka delili fitinin ye"
+    },
+    "paragraphs": [
+      "N'i b'a fɛ mɔgɔw k'i ka gafew kalan, i k'u ci an ma."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
