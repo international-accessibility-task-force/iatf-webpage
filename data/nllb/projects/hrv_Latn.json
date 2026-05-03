@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF-ova internetska stranica",
+    "summary": "Javna stranica Međunarodne radne skupine za pristupačnost.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF je trebao stabilnu javnu kuću koja objašnjava model, popisuje projekte i upućuje doprinosnike na pravi sljedeći korak.",
+    "why": "Stranica je javna ulazna vrata IATF-a. Izgrađena je kao mali statički projekt, tako da je lako čitati, prevoditi i održavati na otvorenom.",
+    "scopeIn": [
+      "Javne stranice s objašnjenjem modela IATF-a",
+      "Javni registar prihvaćenih, aktivnih i arhiviranih IATF projekata s statusom, održavačem, repozitorijem i demonstracijom",
+      "Stranica za prijem zahtjeva i obrazac",
+      "Stranice o upravljanju i transparentnosti",
+      "Engleski izvor sa strukturom spremnom za prijevod",
+      "Statistička implementacija na Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Privatna područja članova, računi ili tokovi prijavljivanja",
+      "Hosting izvornog koda projekta, koji živi u vlastitom repozitoriju svakog projekta",
+      "Chat u stvarnom vremenu, koji živi u neslaganju",
+      "Praćenje problema za pojedinačne projekte, koje se nalazi u GitHub repozitoriju svakog projekta"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Rani prototip IATF-a, arhiviran nakon što je dostigao prirodnu tačku zaustavljanja.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Odluka Vijeća (EU) br. 182/2011 od 12. prosinca 2011. o provedbi Odluke Europskog parlamenta i Vijeća 2014/25/EU o Europskoj trgovinskoj suradnji (SL L 347, 20.12.2011., str. 1.).",
+    "why": "Repozitorij se čuva kao javni zapis o radu, iako je aktivni razvoj zaustavljen.",
+    "scopeIn": [
+      "Rani prototip alata usmjerenog na pristupačnost koji se čuva kao javna evidencija"
+    ],
+    "scopeOut": [
+      "Aktivni razvoj ili rad na značajkama",
+      "Obveze o uzdržavanju",
+      "Preporučena upotreba u proizvodnji"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF-ov bot",
+    "summary": "Zajednički bot IATF-a, arhiviran nakon što je dostigao prirodnu tačku zaustavljanja.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatizacija oko kanala zajednice IATF-a.",
+    "why": "Repozitorij se čuva kao javni zapis o radu, iako je aktivni razvoj zaustavljen.",
+    "scopeIn": [
+      "Automatizacija neslaganja oko kanala zajednice IATF-a, čuvana kao javni zapis"
+    ],
+    "scopeOut": [
+      "Aktivni razvoj ili rad na značajkama",
+      "Obveze o uzdržavanju",
+      "Preporučena upotreba u proizvodnji"
+    ]
+  }
+]

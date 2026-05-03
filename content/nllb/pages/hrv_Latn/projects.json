@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projekti javne pristupačnosti",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projekti javne pristupačnosti",
+    "lead": "Ovaj registar navodi javne projekte koji se održavaju putem IATF-a. Prihvaćeni projekti pristupačnosti, infrastruktura lokacije i arhivirani prototipi ovdje su vidljivi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Uredba (EU) br.",
+      "title": "Trenutni registar"
+    },
+    "intro": [
+      "Prihvaćeni projekti navedeni su ovdje nakon objavljivanja."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Pošaljite zahtjev.",
+      "title": "Pretvoriti konkretnu potrebu za pristupačnošću u javni projekt"
+    },
+    "paragraphs": [
+      "IATF razmatra konkretne potrebe pristupačnosti koje se mogu pretvoriti u korisno javno djelo otvorenog koda."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Još nema objavljenih projekata",
+    "paragraphs": [
+      "IATF priprema svoj prvi skup javnih projekata.",
+      "Još uvijek možete poslati zahtjev ako imate konkretnu potrebu za pristupačnošću."
+    ]
+  }
+}

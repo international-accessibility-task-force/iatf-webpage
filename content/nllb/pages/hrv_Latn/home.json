@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Od potrebe za pristupačnošću do javnih repo",
+    "lead": "IATF pomaže udruženjima, skupinama i pojedincima da stvarne potrebe pristupačnosti pretvore u javne projekte otvorenog koda.",
+    "support": [
+      "Prihvaćeni projekti objavljuju se u IATF GitHub organizaciji pod copyleft licencom i razvija ih odgovorni inženjer."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Javni operativni model",
+      "title": "Jednostavan javni put za pristupačan softver"
+    },
+    "paragraphs": [
+      "Kroz obrazac, svatko može podnijeti problem pristupačnosti IATF-u. Ako ga tim može preuzeti, za rad se otvara javni GitHub repozitorij.",
+      "Svaki prihvaćen projekt ima jasan javni dom za kod, pitanja, dokumentaciju i izdanja, a razvoj vodi odgovorni inženjer."
+    ],
+    "specCard": {
+      "title": "Javni operativni model",
+      "terms": [
+        {
+          "term": "Potreba",
+          "definition": "Pravi problem pristupačnosti"
+        },
+        {
+          "term": "Preispitivanje",
+          "definition": "Odgovaranje misiji i praktična izvedivost"
+        },
+        {
+          "term": "Projektni prostor",
+          "definition": "Javni GitHub repozitorij"
+        },
+        {
+          "term": "Upravljanje",
+          "definition": "IATF-ova vlast u organizaciji"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proces",
+      "title": "Kako to funkcionira",
+      "intro": "Model namjerno ostaje mali, tako da je javni put lak za pratiti."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Potreba je podnesena",
+        "paragraphs": [
+          "Svaka organizacija, skupina ili pojedinac može podnijeti zahtjev koji se temelji na stvarnoj potrebi za pristupačnošću.",
+          "Zahtjevi se mogu pokrenuti putem internetske stranice, putem e-pošte na <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ili kroz neslaganje."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ga preispituje",
+        "paragraphs": [
+          "Pregledavamo prikladnost misije, praktičan opseg, i da li rad pripada javnom projektu otvorenog koda."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Stvaranje javnog repozitorija",
+        "paragraphs": [
+          "Ako je projekt prihvaćen, objavljuje se u organizaciji IATF GitHub pod copyleft licencom.",
+          "Repozitorij postaje javna kuća koda, pitanja, dokumentacije i izdanja."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Odgovorni inženjer vodi projekt",
+        "paragraphs": [
+          "Odgovorni inženjer je dodijeljen repozitoriju projekta, a razvoj se odvija u javnosti."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Uredba (EU) br.",
+      "title": "Javni registar projekata"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Počni ovdje.",
+      "title": "Pregledajte trenutni rad ili započnite konkretni projekt"
+    },
+    "paragraphs": [
+      "Koristite registar kako biste vidjeli što je već javno dostupno ili započnite unos ako bi konkretni problem pristupačnosti trebao postati projekt."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
