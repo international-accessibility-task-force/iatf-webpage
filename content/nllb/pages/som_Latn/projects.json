@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Mashaariicda la xiriira helitaanka dadweynaha",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Mashaariicda la xiriira helitaanka dadweynaha",
+    "lead": "Diiwaankani wuxuu liis garaynayaa mashaariicda dadweynaha ee lagu hayo IATF. Mashruucyada marin u helka ee la aqbalay, kaabayaasha goobta, iyo tusaalooyinka la keydiyay ayaa halkan lagu hayaa muuqaal ahaan.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Diiwaangelinta",
+      "title": "Diiwaanka hadda jira"
+    },
+    "intro": [
+      "Mashruucyada la aqbalay ayaa halkan lagu soo bandhigayaa marka la daabaco."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Soo gudbi baahidaada",
+      "title": "U beddel baahiyaha la taaban karo ee la xiriira helitaanka mashruuc dadweyne"
+    },
+    "paragraphs": [
+      "IATF waxay dib u eegis ku sameyneysaa baahiyaha la taaban karo ee helitaanka kuwaas oo loo rogi karo shaqo furan oo dadweyne oo faa'iido leh."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Wali ma jiraan wax mashruuc ah oo la daabacay",
+    "paragraphs": [
+      "IATF waxay diyaarinaysaa mashruucyadeedii ugu horeeyay ee dadweynaha.",
+      "Weli waad soo diri kartaa codsi haddii aad u baahantahay helitaan gaar ah."
+    ]
+  }
+}

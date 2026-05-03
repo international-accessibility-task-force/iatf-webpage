@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sawirka goobta"
+  },
+  "hero": {
+    "eyebrow": "Tilmaamaha",
+    "title": "Sawirka goobta",
+    "lead": "Dhamaan boggaga dadweynaha ee iatf.cc, hal meel."
+  },
+  "sections": [
+    {
+      "title": "Bogagga ugu waaweyn",
+      "items": [
+        {
+          "label": "Guriga",
+          "href": "/"
+        },
+        {
+          "label": "Mashaariicda",
+          "href": "/projects/"
+        },
+        {
+          "label": "Codso mashruuc",
+          "href": "/propose/"
+        },
+        {
+          "label": "Maamul u sameynta",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ku soo biir",
+          "href": "/join/"
+        },
+        {
+          "label": "Helitaanka",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Daahfurnaanta",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Mashaariicda",
+  "projectsEmpty": "Wax mashruuc ah oo la daabacay weli ma jiraan."
+}

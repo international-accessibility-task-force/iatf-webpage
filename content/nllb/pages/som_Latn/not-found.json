@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Lama helin"
+  },
+  "hero": {
+    "eyebrow": "Lama helin",
+    "title": "Bogga la rabay lama helin",
+    "lead": "Isticmaal wadooyinka waaweyn ee hoos ku qoran si aad ugu noqotid goobta dadweynaha.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Guriga",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Wadada aad codsatay ma jirto."
+    ],
+    "items": [
+      {
+        "label": "Guriga",
+        "href": "/"
+      },
+      {
+        "label": "Mashaariicda",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ku soo biir",
+        "href": "/join/"
+      },
+      {
+        "label": "Helitaanka",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Maamul u sameynta",
+        "href": "/governance/"
+      },
+      {
+        "label": "Daahfurnaanta",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

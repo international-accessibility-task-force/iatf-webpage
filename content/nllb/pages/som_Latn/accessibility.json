@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Helitaanka",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Helitaanka",
+    "lead": "IATF waxay ujeedadeedu tahay in boggan uu noqdo mid fudud, la aqrin karo, keyboard-la heli karo, oo la jaan qaadi kara tikniyoolajiyadaha caawinta.",
+    "support": [
+      "IATF waxay isticmaashaa [W3C WAI](https://www.w3.org/WAI/) Awoodda la heli karo ee wax ku oolka ah waxaa sidoo kale lagu wargeliyaa waayo-aragnimada tooska ah ee isticmaalayaasha tikniyoolajiyadaha caawinta."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Warbixinta",
+      "title": "Sheeg arrin la xiriirta helitaanka"
+    },
+    "paragraphs": [
+      "Haddii aad hesho caqabad ku saabsan helitaanka boggan, fadlan ku soo wargeli emayl ahaan:",
+      "{{contact.accessibilityEmail}}",
+      "Warbixinno waxtar leh waxaa ka mid ah:"
+    ],
+    "items": [
+      "bogga ay dhibaatadu ka dhacday",
+      "waxaad isku dayeysay inaad sameyso",
+      "tiknoolajiyada caawimaadda, biraawsarka ama qalabka aad isticmaalayso, haddii ay khuseyso",
+      "maxaa khaldamay",
+      "maxaa kaa caawin lahaa"
+    ],
+    "footnote": "Uma baahnid inaad qorto warbixinta cayayaanka ee rasmiga ah. Sharaxaad cad ayaa ku filan."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ka shaqaynta",
+      "title": "Wax ka qabashada arrimaha dadweynaha"
+    },
+    "paragraphs": [
+      "Dhibaatooyinka la xiriira helitaanka waxaa lagu soo koobi karaa keydka dadweynaha ee ku habboon si loo hagaajiyo si furan. Faahfaahinta xiriirka shaqsiyeed iyo macluumaadka gaarka ah ee aan loo baahnayn waa la tirtirayaa ka hor daabacaadda.",
+      "Haddii warbixintaadu ay ku jirto macluumaad gaar ah, si cad ugu sheeg farriinta."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Xaaladda hadda jirta",
+      "title": "Xaddidaadaha la yaqaan"
+    },
+    "paragraphs": [
+      "Boggan si ula kac ah ayaa loo yareeyay oo inta badan waa mid joogto ah. Noocyada luqadaha qaarkood ayaa laga yaabaa inaysan dhammaystirnayn inta turjumaadaha la diyaarinayo."
+    ]
+  }
+}

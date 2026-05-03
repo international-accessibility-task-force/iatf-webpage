@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Nidaamka maamulka iyo qaabka keydka macluumaadka",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Nidaamka maamulka iyo qaabka keydka macluumaadka",
+    "lead": "IATF waxay ilaalisaa mashaariicda la heli karo ee dadweynaha, akhriska, iyo dayactirka.",
+    "support": [
+      "Boggan wuxuu sharaxayaa waxa u qalma, sida keydadka loo hayo, iyo waxa mas'uuliyadda heerka keydka ah ay khuseyso ka dib marka la aqbalo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Xeerarka",
+      "title": "Ku habboonaanta shaqada, lahaanshaha, ruqsadaha"
+    },
+    "cards": [
+      {
+        "title": "Ku haboonaanta howlgalka",
+        "paragraphs": [
+          "IATF waxay aqbashaa shaqada wax ka qabata caqabadaha dhabta ah ee helitaanka waxayna leedahay qiimo cad oo dadweyne.",
+          "Mashruuc waa in uu ahaadaa mid faa'iido leh oo ka baxsan hal socodka shaqada ee gaarka loo leeyahay oo loo shaqeyn karo sida keydka dadweynaha.",
+          "IATF waxay isticmaashaa [W3C WAI](https://www.w3.org/WAI/) waayo aragnimada tooska ah ee dadka isticmaala teknoolajiyada kaabayaasha ah sidoo kale waa caddeyn la taaban karo oo ah waxa ka shaqeeya isticmaalka dhabta ah."
+        ]
+      },
+      {
+        "title": "Aqbalaadda mashruuca",
+        "paragraphs": [
+          "Soo jeedinta waa la aqbali karaa haddii dib-u-eegistu ay muujiso in:"
+        ],
+        "items": [
+          "waxay daboolaysaa baahida dhabta ah ee la xiriirta helitaanka",
+          "Dhibaatadu waa mid cad si loo qiimeeyo",
+          "baaxadda waa mid macquul ah oo ku filan si ay u bilaabaan",
+          "shaqada waxay la jaanqaadeysaa shaqada IATF",
+          "waxaa jira wado macquul ah oo lagu gaari karo dayactirka ama dhameystirka"
+        ]
+      },
+      {
+        "title": "lahaanshaha keydka macluumaadka",
+        "paragraphs": [
+          "Mashruucyada la aqbalo waxaa lagu abuuraa hay'adda IATF ee GitHub.",
+          "Meelaha wax lagu keydiyaa waa halkaa, sidaa darteed mashruuc kastaa wuxuu hayaa guri dadweyne oo xasiloon, xitaa haddii dayactirayaashu hadhow isbedelaan."
+        ]
+      },
+      {
+        "title": "Ruqsad siinta",
+        "paragraphs": [
+          "Mashruucyada IATF waxay isticmaalaan ruqsadaha copyleft haddii aysan mashruuc sheegin wax kale:"
+        ],
+        "items": [
+          "<strong>Koodhka:</strong> AGPL-3.0 iyo wixii la mid ah",
+          "<strong>Waxyaabaha ay ka kooban yihiin:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injineerka mas'uulka ka ah ama qofka dayactirka sameeya",
+      "paragraphs": [
+        "Mashruuc kasta oo la aqbalo waa inuu lahaadaa injineer ama ilaaliye mas'uul ah. Qofkaasi wuxuu heli karaa marin maamul oo ku saabsan keydka waxaana laga filayaa inuu:"
+      ],
+      "items": [
+        "hagaha horumarinta ee dadweynaha",
+        "in la ilaaliyo qaab dhismeedka keydka macluumaadka",
+        "dib u eegista ama maareynta arrimaha iyo codsiyada soo jiidashada",
+        "diiwaangelinta go'aanada muhiimka ah ee farsamada",
+        "inuu qofku fahmi karo hawsha la qabanayo"
+      ],
+      "footnote": "Tani waa mas'uuliyadda heerka keydka. lahaanshaha ururku wuxuu ku sii jiraa IATF. Masuuliyada halkan waa maareynta kaydka, jihada farsamada, iyo isuduwidda dadweynaha  ma ahan gaarsiinta gaarka ah ee aan xadidnayn, isdhexgalka gaarka loo leeyahay, ama ballanqaadyada heerka adeegga ee ka baxsan khariidadda wadada dadwaynaha."
+    },
+    "publicDevelopment": {
+      "title": "Horumarinta bulshada",
+      "paragraphs": [
+        "Mashruucyada la bilaabay iyada oo loo marayo IATF waxaa lagu horumariyaa dadweynaha sida caadiga ah."
+      ],
+      "items": [
+        "Koodhka asalka ah",
+        "arrimaha",
+        "waraaqaha",
+        "faahfaahinta khariidada wadada",
+        "taariikhda sii deynta"
+      ],
+      "footnote": "Macluumaadka mashruuca muhiimka ahi waa inuusan ku koobnaan wada sheekaysiga gaarka ah ama sanduuqa boostada."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Diiwaanka dadweynaha",
+      "title": "Diiwaanka codsiga dadweynaha"
+    },
+    "paragraphs": [
+      "IATF waxay u shaqeysaa dadweynaha sida caadiga ah. Codsiyada ku soo gala websaydhka, emaylka, khilaafaadka, GitHub, ama kanaalada kale ee loo yaqaan 'IATF channels' ayaa laga yaabaa inay noqdaan diiwaanada codsiyada dadwaynaha.",
+      "Diiwaanka codsiga dadweynaha ma ahan farriinta asalka ah. IATF waxay soo koobi kartaa, tirtiri kartaa, ama dib u habeyn kartaa codsi ka hor daabacaadda si loo eego baahida loo qabo helitaanka iyada oo aan la soo bandhigin macluumaad shakhsiyeed oo aan loo baahnayn.",
+      "Diiwaanada codsiyada dadweynaha waxaa lagu kaydin karaa ururka IATF GitHub, boggan, ama labadaba.",
+      "Ka hor inta aan la daabacin, IATF waxay meesha ka saartaa faahfaahinta xiriirka ee shakhsiga ah ee aan loo baahnayn, cinwaanada gaarka ah, iyo macluumaadka aqoonsiga ee ku saabsan isticmaaleyaasha shakhsi ahaaneed ee tikniyoolajiyadaha taageerada ah haddii aan si cad loogu talagelin oo aan ku habboonayn daabacaadda.",
+      "Khilaafka waxaa loo isticmaalaa isuduwidda aan rasmiga ahayn. IATF si gooni gooni ah uma kaydiso wada sheekaysiga khilaafaadka sida caadiga ah, iyo haynta farriinta waxaa gacanta ku haya khilaafka. Go'aannada laga gaaro khilaafku waa in lagu soo koobo diiwaanka dadweynaha ee GitHub ama bogga mashruuca la xiriira.",
+      "Diiwaanada codsiyada waxaa laga saaray raadinta mashiinka raadinta halka farsamo ahaan macquul ah. Dadweynaha waxaa loola jeedaa dib loo eegi karo iyo la xisaabtami karo. Macnaheedu maahan in lagu hagaajiyay helitaanka iyada oo loo marayo raadinta magaca.",
+      "IATF waxay cusbooneysiin kartaa ama ka saari kartaa diiwaanada dusha sare ee dadweynaha ee ay gacanta ku hayso, laakiin ma dammaanad qaadi karto ka saarista kaydka dhinac saddexaad, ogeysiisyada, isgoysyada, shaashadda, mashiinnada raadinta, Khilaafka, ama nidaamyada kale ee dibadda.",
+      "Haddii fariin loo baahdo in ay ahaato mid gaar ah, ha u dirin iyada oo loo marayo wadiiqooyinka dadweynaha ee IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Doorka ururka",
+      "title": "Guddoomiyaha"
+    },
+    "lead": "Guddoomiyaha wuxuu hayaa maamulka heerka hay'adeed ee IATF. Tani way ka duwan tahay doorka injineerka mas'uulka ka ah mashruuca: guddoomiyuhu wuxuu masuul ka yahay ururka oo dhan, ma ahan hogaaminta maalinlaha ah ee keyd kasta.",
+    "duties": {
+      "title": "Waxyaabaha uu kursigu qabanayo",
+      "items": [
+        "Wuxuu hayaa ruqsadaha milkiilaha ee ururka IATF GitHub",
+        "Saxiixyada aqbalaadda mashruuca iyo go'aannada keydinta",
+        "Wuxuu u shaqeeyaa sida xarunta xiriirka dadweynaha ee IATF",
+        "Wuxuu qabanqaabiyaa doorashooyinka sannadlaha ah"
+      ],
+      "footnote": "Guddoomiyuhu kuma xirna IATF bixinta gaarka ah, shaqada mushaarka leh, ama heshiisyada heerka adeegga, mana diido go'aannada dayactirka keydka ee ku saabsan jihada farsamada."
+    },
+    "election": {
+      "title": "Doorashooyinka sanadlaha ah",
+      "paragraphs": [
+        "Guddoomiyaha waxaa la doortaa hal mar sanadkii. Doorashadu waxay dhacdaa labadii toddobaad ee ugu horreeyay bisha Diseembar, natiijooyinka waxaa la shaaciyaa Diseembar 15, muddada cusubna waxay bilaabmaysaa Janaayo 1.",
+        "Codbixiyayaasha xaq u leh waa dadka qabtay doorka dayactirka ee keyd kasta oo IATF ah sanadka gudihiisa oo ugu yaraan hal ku darsaday keydka IAT F sanadkaas. Codbixin kasta oo xaq u leeyahay wuxuu leeyahay hal cod. Musharaxa codadka ugu badan leh ayaa guuleysta; haddii ay dhacdo isku dheelitirnaan, wareeg labaad ayaa la qabtaa usbuuca saddexaad ee Diseembar.",
+        "Doorashada waxaa loo maamulaa sidii dood dadweyne oo GitHub ah oo ku jirta keydka maamulka IATF ee loo qoondeeyay, sidaa darteed musharixiinta, codbixinta, iyo natiijada dhammaantood waa qayb ka mid ah diiwaanka dadweynaha."
+      ]
+    },
+    "continuity": {
+      "title": "Sii socoshada",
+      "paragraphs": [
+        "Haddii aan doorasho la qaban sannad cayiman, guddoomiyaha hadda jira wuxuu sii wadaa doorka illaa doorashada soo socota. Tani waa sii socod aan la cayimin, ma aha muddada nasashada  qaabkan waxaa loogu talagalay in lagu ilaaliyo xasilloonida ururka marka waxqabadka uu hooseeyo, ma ahan in lagu qasbo ku-meel-gaar ah oo aan cidna diyaar u ahayn.",
+        "Guddoomiyuhu wuu iska casili karaa wakhti kasta. Maamulayaasha firfircoon waxay sidoo kale ku yeeri karaan doorasho aan caadi ahayn sababo la caddeeyay, oo ku saleysan isla xeerarka doorashada sanadlaha ah."
+      ]
+    },
+    "current": {
+      "title": "Guddoomiyaha hadda",
+      "fields": [
+        {
+          "label": "Guddoomiyaha",
+          "value": "xawaaladda",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ereyga",
+          "value": "Ilaa iyo doorashada Diseembar 2026"
+        },
+        {
+          "label": "Aqoonsi rasmi ah",
+          "value": "2026"
+        },
+        {
+          "label": "Doorashadii ugu horeysay ee la qorsheeyey",
+          "value": "Bisha 12aad ee sanadka 2026"
+        }
+      ]
+    },
+    "footnote": "Doorka guddoomiyaha waxaa loo qaabeeyey 2026 si loo sameeyo maamul heer urur ah oo cad. Ilaa waqtigaas, mas'uuliyadda ururka waxaa si aan rasmi ahayn u hayey aasaasaha."
+  },
+  "continuity": {
+    "states": {
+      "title": "Xaaladaha mashruuca",
+      "paragraphs": [
+        "Mashruucyadu waxay isticmaalaan noocyo yar oo dawladeed:"
+      ],
+      "items": [
+        "Soo jeedinta",
+        "la aqbalay",
+        "Dhaqdhaqaaqa",
+        "Joogto ah",
+        "Raadiyaha dayactirka",
+        "Waxyaabaha la keydiyay"
+      ],
+      "footnote": "Xaaladahaas awgood diiwaanka si sahlan ayaa loo baari karaa."
+    },
+    "reassignment": {
+      "title": "Kala wareejinta iyo kaydinta",
+      "paragraphs": [
+        "Haddii qof dayactire ah uu ka tago ama uu noqdo mid aan firfircooneyn, IATF waxay dib u qoondeyn kartaa mas'uuliyadda, joojin kartaa horumarka, ama waxay arki kartaa mashruuca.",
+        "Mashruuc ayaa sidoo kale la arki karaa marka baahida asalka ah la buuxiyo, dayactirka la joojiyo, ama shaqada sii socota aysan macquul ahayn."
+      ],
+      "footnote": "Mashaariicda la keydiyay waa la arki karaa marka laga reebo haddii ay jirto sabab kale oo qasab ah."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Qoraalka xuduudaha",
+      "title": "Waxa IATF aysan damaanad qaadin"
+    },
+    "items": [
+      "gaarsiinta macaamiisha gaarka loo leeyahay",
+      "heshiisyada heerka adeegga",
+      "aqbalaadda codsi kasta",
+      "dayactirka mudada dheer ee mashruuc kasta"
+    ],
+    "footnote": "IATF waa qaabka keydka macluumaadka dadweynaha, ma ahan adeeg gaar loo leeyahay."
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Bogga internetka ee IATF",
+    "summary": "Bogga dadweynaha ee Kooxda Shaqada ee Helitaanka Caalamiga ah.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF waxay u baahneed meel xasilooni ah oo ay ku sheegeen qaabka, qorshayaasha, iyo tilmaamaha dadka wax ku biirinaya talaabada xigta ee saxda ah.",
+    "why": "Boggu waa albaabka hore ee dadweynaha ee IATF. Waxaa loo dhisay sidii mashruuc yar oo xasilloon si ay u fududaato in la akhriyo, loo turjumo, loona ilaaliyo meel bannaan.",
+    "scopeIn": [
+      "Bogagga dadweynaha ee sharaxaya qaabka IATF",
+      "Diiwaanka dadweynaha ee mashaariicda IATF ee la aqbalay, kuwa firfircoon, iyo kuwa la keydiyay oo leh xaalad, dayactir, keyd, iyo bandhig",
+      "Bogga codsiga iyo foomka codsiga",
+      "Bogagga maamulka iyo daahfurnaanta",
+      "Qoraal Ingiriis ah oo qaab dhismeedkiisu diyaar u yahay turjumaadda",
+      "Macmiilka Cloudflare ee ku shaqeeya hantida ma guurtada ah (static deployment on CloudFlare Workers Static Assets)"
+    ],
+    "scopeOut": [
+      "Meelaha xubnaha gaarka loo leeyahay, xisaabaadka, ama socodka gelitaanka",
+      "Martigelinta koodhka isha ee mashruuca, kaas oo ku nool keydka mashruuc kasta",
+      "Wada sheekeysiga waqtiga dhabta ah, kaas oo ku nool Khilaafka",
+      "Raadinta arrimaha mashaariicda gaarka ah, oo ku nool keydka GitHub ee mashruuc kasta"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Sawir gacmeedka IATF",
+    "summary": "Nooc hore oo IATF ah, oo la keydiyay ka dib markii la gaadhay barta joogsiga dabiiciga ah.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Baadhitaan hore oo ku saabsan qalab ku wajahan helitaanka shaqaalaha oo hoos yimaada hay'adda IATF.",
+    "why": "Kaydinta waxaa loo hayaa dadweynaha sida diiwaanka shaqada, xitaa haddii horumarka firfircoon la joojiyay.",
+    "scopeIn": [
+      "Tijaabada hore ee qalab ku wajahan helitaanka oo lagu keydiyo diiwaanka dadweynaha"
+    ],
+    "scopeOut": [
+      "Horumarinta firfircoon ama shaqada muuqaalka",
+      "Waajibaadka masruufka",
+      "Isticmaalka lagu taliyey ee wax soo saarka"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Qalabka IATF",
+    "summary": "Robot bulsho oo IATF ah, oo la keydiyay ka dib markii ay gaareen barta joogsiga dabiiciga ah.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Qalabaynta kanaalada bulshada ee IATF.",
+    "why": "Kaydinta waxaa loo hayaa dadweynaha sida diiwaanka shaqada, xitaa haddii horumarka firfircoon la joojiyay.",
+    "scopeIn": [
+      "Qalabaynta khilaafka ee hareeraha kanaalada bulshada ee IATF, oo loo haysto diiwaanka dadweynaha"
+    ],
+    "scopeOut": [
+      "Horumarinta firfircoon ama shaqada muuqaalka",
+      "Waajibaadka masruufka",
+      "Isticmaalka lagu taliyey ee wax soo saarka"
+    ]
+  }
+]

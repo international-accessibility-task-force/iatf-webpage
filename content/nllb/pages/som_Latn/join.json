@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ku biir IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ku biir IATF",
+    "lead": "Xubinnimadu waa furan tahay. Waxaa jira dhowr siyaabood oo aad uga qayb qaadan karto, haddii aad ku tiirsan tahay tikniyoolajiyadda caawinta, dhisida barnaamij la heli karo, tarjumaadda, tijaabinta, ama dayactirka mashruuc. Doodaha iyo go'aamada waxay ka dhacaan dadweynaha GitHub iyo Khilaafka.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Waajibaadka",
+      "title": "Siyaabo aad wax ugu biirin karto"
+    },
+    "items": [
+      "<strong>Codsashada mashruuc.</strong> Haddii aad la kulanto caqabad dhanka helitaanka ah oo ay wax ka qaban karto barnaamijka furan ee dadweynaha, u gudbi codsiga.",
+      "<strong>Imtixaanka iyo dib u eegista.</strong> Isku day mashruucyada IATF adigoo adeegsanaya tiknoolajiyada taageerada ah ee aad isticmaasho, soo sheeg waxa shaqeynaya iyo waxa aan shaqeynayn, oo si toos ah u soo gudbi arrimaha keydka ku habboon.",
+      "<strong>Turjumaad ahaan.</strong> Macluumaadka asalka ah waxaa marka hore lagu daabacaa luuqadda Ingiriisiga, tarjumaadaha waxaa lagu daraa marka ay ka qaybgalayaashu diyaar u yihiin, laga bilaabo Isbaanishka.",
+      "<strong>Dhisid.</strong> Soo qaado arimaha keyd kasta oo IATF ah, u dir codsiyada soo jiidashada, ama u qaado mashruuc sida injineerka mas'uulka ka ah.",
+      "<strong>Waxaa lagu hayaa.</strong> Mashruucyada jira mararka qaarkood waxay u baahan yihiin dayactir cusub. Wareegga dayactirka waa qayb caadi ah oo ka mid ah qaabka, ma aha wax aan caadi ahayn."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Wadooyinka",
+      "title": "Goobaha ay IATF ka shaqeyso meel fagaare ah"
+    },
+    "items": [
+      "<strong>waa GitHub.</strong> Dhibaatooyinka, codsiyada soo jiidashada, sii deynta, iyo diiwaanada mashruuca.",
+      "<strong>Khilaafka ka dhexeeya.</strong> Wada sheekaysiga tooska ah, isuduwidda, iyo su'aalaha aan rasmiga ahayn.",
+      "<strong>emaylka</strong> Isticmaalka <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> haddii aysan GitHub iyo Discord midna ku haboonayn."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tallaabada xigta",
+      "title": "Dooro kanaalka aad rabto inaad wax ku darsato"
+    },
+    "paragraphs": [
+      "Dhamaan kanaalada waxay ku quudiyaan isla dib u eegista dadweynaha iyo keydadka dadwaynaha ee isku midka ah."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

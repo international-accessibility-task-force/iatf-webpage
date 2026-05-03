@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Laga soo bilaabo baahida loo qabo helitaanka dib u soo celinta dadweynaha",
+    "lead": "IATF waxay ka caawisaa ururada, kooxaha, iyo shaqsiyaadka inay u beddelaan baahiyaha dhabta ah ee marin u helka mashaariicda dadweynaha ee furan.",
+    "support": [
+      "Mashaariicda la aqbalo waxaa lagu daabacaa hay'adda IATF ee GitHub iyadoo la raacayo ruqsadda copyleft waxaana horumarinaya injineer mas'uul ah."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Qaabka hawlgalka dadweynaha",
+      "title": "Waddo sahlan oo dadweyne oo loogu talagalay barnaamijyada la heli karo"
+    },
+    "paragraphs": [
+      "Qofkasta oo isticmaala foomka, wuxuu u gudbin karaa IATF dhibaato la xiriirta helitaanka. Haddii kooxdu qabato, keydka GitHub ee dadweynaha ayaa loo furayaa shaqada.",
+      "Mashruuc kasta oo la aqbalo wuxuu leeyahay guri cad oo dadweyne oo loogu talagalay koodhka, arrimaha, dukumiintiyada, iyo sii deynta, iyadoo horumarka uu hogaaminayo injineer mas'uul ah."
+    ],
+    "specCard": {
+      "title": "Qaabka hawlgalka dadweynaha",
+      "terms": [
+        {
+          "term": "Baahida",
+          "definition": "Dhibaatada dhabta ah ee helitaanka"
+        },
+        {
+          "term": "Dib u eegista",
+          "definition": "Ku habboonaanta howsha iyo suurtagalnimada dhabta ah"
+        },
+        {
+          "term": "Goobta mashruuca",
+          "definition": "Kaydka dadweynaha ee GitHub"
+        },
+        {
+          "term": "Maamulka",
+          "definition": "lahaanshaha ururka IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Geedi socodka",
+      "title": "Sida ay u shaqeyso",
+      "intro": "Qaab-dhismeedku si ula kac ah ayuu u yaryahay sidaa daraadeed wadada dadweynaha way fududahay in la raaco."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Baahida la soo gudbiyay",
+        "paragraphs": [
+          "Urur, koox ama shaqsi ayaa soo gudbin kara codsi ku salaysan baahida dhabta ah ee helitaanka.",
+          "Codsigu wuxuu ka bilaaban karaa bogga internetka ama emaylka cinwaanka: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ama dhinaca muranka."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ayaa dib u eegis ku sameysa",
+        "paragraphs": [
+          "Waxan dib u eegeynaa waajibaadka, baaxada wax ku oolka ah, iyo in shaqadu ka tirsantahay mashruuc furan oo dadweyne."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Waxaa la abuuraa kaydka macluumaadka dadweynaha",
+        "paragraphs": [
+          "Haddii mashruuc la aqbalo, waxaa lagu daabacaa hay'adda IATF GitHub iyadoo la raacayo liisanka copyleft.",
+          "Kaydinta waxay noqoneysaa guriga dadweynaha ee koodhka, arrimaha, dukumiintiyada, iyo sii deynta."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injineer mas'uul ah ayaa hoggaaminaya mashruuca",
+        "paragraphs": [
+          "Injineer mas'uul ah ayaa loo xilsaaray kaydka mashruuca iyo horumarka wuxuu ka dhacaa dadweynaha."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Diiwaangelinta",
+      "title": "Diiwaanka mashruuca dadweynaha"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Halkaan ka bilow",
+      "title": "Raadinta shaqooyinka socda ama bilowga mashruuc la taaban karo"
+    },
+    "paragraphs": [
+      "Isticmaal diiwaanka si aad u aragto waxa dadweynuhu horey u haystaan, ama bilow inaad soo qaadato haddii dhibaato gaar ah oo ku saabsan helitaanka ay noqoto mashruuc."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

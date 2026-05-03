@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Daahfurnaanta",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Daahfurnaanta",
+    "lead": "IATF waxay ka shaqeysaa meel dadweyne ah sida caadiga ah. Go'aannada mashruuca, isbeddelada koodhka, isbeddellada maamulka, iyo kharashyada hawlgalka waxaa lagu diiwaangeliyaa goobaha dadweynaha. Boggan wuxuu ku taxan yahay halka nooc kasta oo diiwaan ah uu ku nool yahay iyo sida loo akhriyo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Diiwaanka",
+      "title": "Meesha ay diiwaanadu ku nool yihiin"
+    },
+    "items": [
+      "<strong>Go'aanka mashruuca.</strong> Aqbalaadda, kaydinta, iyo go'aannada dib u habaynta waxaa lagu diiwaangeliyaa arrimaha ama sii deynta keydka ku habboon, waxaana lagu soo koobay diiwaanka dadweynaha. <a href=\"/projects/\">diiwaanka</a>Waxaan ku iri:",
+      "<strong>Codsashada diiwaanka.</strong> Diiwaanada codsiyada dadweynaha waxaa lagu kaydiyaa hay'adda IATF GitHub, websaydhkan, ama labadaba. Diiwaanka ayaa soo koobi kara, tirtiri kara, ama dib u habeyn kara codsiga asalka ah si loo hubiyo baahida loo qabo marin u helka iyada oo aan la soo bandhigin macluumaad shakhsi ah oo aan loo baahnayn. Go'aannada khilaafka waxaa lagu soo koobayaa diiwaanka guud marka ay saameeyaan mashruuc ama go'aan maamul. diiwaanka codsiga waxaa laga saaray tusmada mashiinka raadinta halka farsamo ahaan macquul ah. Daawo diiwaanka: codsiga daabacaadda ugu horeysa ee la sugayo.",
+      "<strong>Isbedelka lambarka sirta ah</strong> Isbedel kasta oo lagu sameeyo koodhka waxaa loo gudbiyaa kaydka ku haboon. Fiiri IATF <a href=\"{{contact.githubOrgUrl}}\">Ururka GitHub</a>Waxaan ku iri:",
+      "<strong>Isbedelada maamulka.</strong> Cusboonaysiinta bogga maamulka waxaa loo raad raacaa sida ay u go'an tahay <code>bogga internetka ee IATF</code> Daawashada xogta <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">soo gudbinta taariikhda</a> waxaa laga heli karaa GitHub.",
+      "<strong>Kharashaadka hawlgalka.</strong> IATF waxay hoos u dhigeysaa kharashaadka hawlgalka waxayna diiwaangelisaa kharashyada soo noqnoqda ee kaabayaasha dadweynaha.",
+      "<strong>Qoraalada isuduwidda.</strong> Qoraalada dib u eegista ama go'aan kasta oo la isku hagaajiyay waxay ku nool yihiin GitHub Doodaha ku saabsan keydka la xiriira  aragti <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Wada xaajoodka</a> ku saabsan <code>bogga internetka ee IATF</code> keydka macluumaadka."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Kharashaadka",
+      "title": "Diiwaanka kharashka hawlgalka"
+    },
+    "paragraphs": [
+      "IATF waxay si ula kac ah u haysaa kaabayaasheeda dadweynaha inay yar yihiin. Tan iyo 2022, kharashyada hawlgalka ee soo noqnoqda ee ugu weyn waxay ahaayeen magacyada domain. Marti gelintu waxay isticmaashay kaabayaal bilaash ah ama kharash yar halka ay suurtogal tahay.",
+      "Diiwaankani ma aha xisaab hubineed. Waa diiwaanka kharashka hawlgalka dadweynaha ee kaabayaasha loo isticmaalo in lagu hayo IATF khadka tooska ah."
+    ],
+    "footnote": "Risiidyada waxaa loo tixraaci karaa ama la daabici karaa ka dib markii la qoro. Cinwaanada shaqsiyadeed, faahfaahinta biilasha, iyo macluumaadka koontada aan loo baahnayn ma aha qayb ka mid ah diiwaanka dadweynaha.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Aqoonsiga",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Qiimaha",
+            "value": "3,40 doolarka Maraykanka ah"
+          },
+          {
+            "label": "Qoraalada",
+            "value": "Kharashka domain waxaa maalgeliyay mugiwarafx. martigelinta waxay isticmaashay kaabayaal bilaash ah ama kharash yar iyada oo loo marayo Cloudflare. mashruucu wuxuu ka soo wareegay Vercel ilaa CloudFlare wuxuuna bilaabay isticmaalka gaaban <code>iatf.cc</code> Aqoon ahaan."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Aqoonsiga",
+            "value": "<code>helitaanka caalamiga ah ee shabakada taskforce.com</code>"
+          },
+          {
+            "label": "Qiimaha",
+            "value": "18.68 oo doolarka Maraykanka ah"
+          },
+          {
+            "label": "Qoraalada",
+            "value": "Kharashka domain waxaa maalgeliya mugiwarafx. martigelinta waxaa loo adeegsaday kaabayaasha heerka bilaashka ah ama qiimaha hooseeya."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Aqoonsiga",
+            "value": "<code>helitaanka caalamiga ah ee shabakada taskforce.com</code>"
+          },
+          {
+            "label": "Qiimaha",
+            "value": "17,06 doolarka Maraykanka ah"
+          },
+          {
+            "label": "Qoraalada",
+            "value": "Kharashka domain waxaa maalgeliya mugiwarafx. Marti gelinta waxaa loo adeegsaday kaabayaal heer-bilaash ah ama qiimo jaban iyada oo loo marayo Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Aqoonsiga",
+            "value": "<code>helitaanka caalamiga ah ee shabakada taskforce.com</code>"
+          },
+          {
+            "label": "Qiimaha",
+            "value": "14.76 doolarka Maraykanka ah"
+          },
+          {
+            "label": "Qoraalada",
+            "value": "Kharashka domain waxaa maalgeliya mugiwarafx. martigelinta waxaa loo adeegsaday kaabayaasha heerka bilaashka ah ama qiimaha hooseeya."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Aqoonsiga",
+            "value": "<code>helitaanka caalamiga ah ee shabakada taskforce.com</code>"
+          },
+          {
+            "label": "Qiimaha",
+            "value": "7,76 doolarka Maraykanka ah"
+          },
+          {
+            "label": "Qoraalada",
+            "value": "Kharashka domain waxaa maalgeliya mugiwarafx. Martigelinta waxaa loo adeegsaday kaabayaal bilaash ah ama kharash yar iyada oo loo marayo Boggaga GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Qoraalka xuduudaha",
+      "title": "Waxyaabaha aan dadweynaha ahayn"
+    },
+    "paragraphs": [
+      "Waxyaabaha qaarkood waxaa loo hayaa meel ka baxsan diiwaanka dadweynaha ujeeddooyin gaar ah awgood:"
+    ],
+    "items": [
+      "Faahfaahinta xiriirka shaqsiga ah ee codsadaha.",
+      "Waraaqaha gaarka loo leeyahay waxaa loo isticmaalaa oo kaliya in lagu caddeeyo codsiga ka hor inta aan la aqbalin, la diidin, ama la soo koobin.",
+      "Cinwaanada gaarka ah, lambarrada taleefannada, iyo faahfaahinta shakhsiga ah ee aan loo baahnayn.",
+      "wax walbo oo lagu garan karo qofka isticmaala qalabka caawimaada aan ogolaansha laheyn.",
+      "Wada-hadallada Raw Discord, ilaa farriin gaar ah si ula kac ah loogu wareejiyo diiwaanka mashruuca dadweynaha."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Warar dheeraad ah ka sii aqri",
+      "title": "Maamulku waa buugga xeerarka ee diiwaanadaas ka dambeeya."
+    },
+    "paragraphs": [
+      "Haddii aad rabto inaad fahanto sida mashaariicda loo aqbalo, loo keydiyo, ama loo wareejiyo, aqri bogga maamulka."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

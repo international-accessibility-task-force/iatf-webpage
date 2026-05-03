@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Codsashada mashruuca helitaanka",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Codsashada mashruuca helitaanka",
+    "lead": "IATF waxay dib u eegis ku sameysaa codsiyada mashaariicda marin u helka ee ka bilaabma baahida dhabta ah.",
+    "support": [
+      "Uma baahnid faahfaahin dhamaystiran. Dhibaato cad, cidda ay saameyneyso, iyo sababta ay muhiim u tahay ayaa ku filan in laga bilaabo."
+    ],
+    "actions": [
+      {
+        "label": "Bilaabida codsi",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Isticmaal Discord halkii",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Wadooyinka",
+      "title": "Dooro wadada ugu sahlan"
+    },
+    "intro": [
+      "Dhammaan wadooyinka waxay galaan isla dib u eegista."
+    ],
+    "items": [
+      {
+        "label": "Bogga internetka",
+        "body": "Si aad u soo gudbiso codsi qaab-dhismeed leh, isticmaal foomka hoose."
+      },
+      {
+        "label": "Warqadda e-mailka",
+        "body": "Codsiga si toos ah ugu dir {{contact.requestsEmail}}Codsiyada emaylka waxaa laga yaabaa inay noqdaan diiwaanada codsiyada dadweynaha ka dib dib u eegista iyo tirtirka."
+      },
+      {
+        "label": "Khilaafka",
+        "body": "Halkaas ka bilaw haddii ay kuu sahlan tahay. codsiga wali wuxuu u wareegayaa isla dib u eegista."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ka hor intaadan codsi dirin",
+    "paragraphs": [
+      "IATF waxay ka shaqeysaa meel fagaare ah. Codsiyada waxaa lagu soo koobi karaa oo lagu daabici karaa diiwaanada codsiyada dadweynaha ee hay'adda GitHub, websaydhkan, ama labadaba.",
+      "Ha ku darin cinwaanada gaarka ah, lambarrada taleefanka, faahfaahinta caafimaadka, ama aqoonsiga macluumaadka ku saabsan isticmaaleyaasha shakhsiga ah ee tikniyoolajiyadaha taageerada haddii aysan lagama maarmaan ahayn oo aadan ku qanacsaneyn in IATF dib u eegis ku sameyso.",
+      "IATF waxay tirtirtaa faahfaahinta xiriirka shakhsiga ah ee aan loo baahnayn ka hor intaan la daabacin diiwaanka codsiga."
+    ]
+  },
+  "review": {
+    "title": "Dib u eegista waxyaabaha la filayo",
+    "paragraphs": [
+      "Soo gudbinta codsigu damaanad uma aha in la aqbalo.",
+      "IATF waxay dib u eegis ku sameysaa codsiyada ku saabsan ku habboonaanta howlgalka, suurtagalnimada, faa'iidada, iyo in shaqadu ku habboon tahay keydka dadweynaha.",
+      "Codsiyada qaarkood waa la diidi karaa, dib loo dhigi karaa, ama dib loo qaabeyn karaa ka hor inta aan la aqbalin."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Foomka codsiga",
+      "title": "Soo gudbinta codsiga"
+    },
+    "fields": [
+      {
+        "kind": "waxyaabaha la soo geliyo",
+        "name": "codsadaha",
+        "label": "Magacaaga ama ururkaaga",
+        "helper": "Yaa codsiga sameynaya?"
+      },
+      {
+        "kind": "dooro",
+        "name": "Wadada xiriirka",
+        "label": "Wadada xiriirka ee la doorbidayo",
+        "helper": "Sidee loo sameeyaa dabagalka?",
+        "required": true,
+        "options": [
+          "Warqadda e-mailka",
+          "Khilaafka"
+        ]
+      },
+      {
+        "kind": "waxyaabaha la soo geliyo",
+        "name": "Faahfaahinta xiriirka",
+        "label": "Faahfaahinta xiriirka",
+        "helper": "Cinwaanka emaylka ama cinwaanka Discord si aad ula socoto.",
+        "placeholder": "Cinwaanka emaylka ama cinwaanka Discord",
+        "required": true
+      },
+      {
+        "kind": "waxyaabaha la soo geliyo",
+        "name": "afka hooyo",
+        "label": "Luqadda",
+        "helper": "Luqadda aad doorbideyso, haddii ay khuseyso.",
+        "value": "Ingiriis"
+      },
+      {
+        "kind": "aagga qoraalka",
+        "name": "Dhibaato",
+        "label": "Dhibaato noocee ah ayaad isku dayeysaa inaad xalliso?",
+        "helper": "Qeex caqabadda adigoo isticmaalaya luuqad fudud.",
+        "required": true
+      },
+      {
+        "kind": "aagga qoraalka",
+        "name": "Isticmaalayaasha",
+        "label": "Yaa saameeya?",
+        "helper": "Caawimaaddaydu waa maxay?",
+        "required": true
+      },
+      {
+        "kind": "aagga qoraalka",
+        "name": "macnaha guud",
+        "label": "Macnaha guud ee dheeraadka ah",
+        "helper": "La wadaag wax kasta oo kale oo kaa caawinaya sharaxaadda baahida: sababta ay muhiim u tahay, tusaalooyinka, tixraacyada, fikradaha software-ka ee qallafsan, ama xaddidaadaha waqtiga."
+      },
+      {
+        "kind": "dooro",
+        "name": "openSourceConsent (Ogolaanshaha Isticmaalka Macluumaadka)",
+        "label": "hagaagsan tahay horumarinta furan ee dadweynaha?",
+        "helper": "Mashaariicda la aqbalay waa kaydad dadweyne oo hoos yimaada IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Haa waa sax",
+          "Saas ma aha",
+          "Wali ma hubo"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Haddii la aqbalo",
+      "title": "Macnaha aqbalaadda"
+    },
+    "items": [
+      "kaydka dadweynaha ee ururka IATF GitHub",
+      "injineer mas'uul ah oo loo xilsaaray mashruuca",
+      "liisanka copyleft ee koodhka iyo agabyada mashruuca",
+      "horumarinta dadweynaha ee keydka macluumaadka",
+      "qoraalka diiwaanka ee goobta IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Wada hadalka bilow",
+      "title": "Codsi cad oo kooban ayaa ku filan in lagu bilaabo"
+    },
+    "paragraphs": [
+      "Haddii aad u baahantahay helitaan dhab ah oo aad u maleyneyso inay tahay mashruuc dadweyne, noo soo dir."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
