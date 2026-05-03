@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "İdare etüv ve malümat anbarı modeli",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "İdare etüv ve malümat anbarı modeli",
+    "lead": "IATF irişilebilirlik leyhalarını açıq, oqulğan ve devam ettirilebilgen tuta.",
+    "support": [
+      "Bu saifede ne alınacağı, depo nasıl tutulacağı ve qabul etilgen soñ depo seviyesinde nasıl mesüliyet qullanılacağı añlatıla."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Qaydalar",
+      "title": "Missiya uyğunlığı, saiplik, litsenziyalar"
+    },
+    "cards": [
+      {
+        "title": "Missiyağa uyğun",
+        "paragraphs": [
+          "IATF, kerçek irişim baryerini çezgen ve açıq-aydın cemaat qıymeti olğan işni qabul ete.",
+          "Bir leyha şahsiy iş ketişatından tış faydalı olmalı ve umumhalq anbarı olaraq çalışa bile.",
+          "İnternetke irişim içün, IATF [W3C WAI](https://www.w3.org/WAI/) Yardımcı tehnologiyalar qullanıcılarınıñ doğrudan-doğru tecribesi de kerçek qullanuvda ne işlegeniniñ ameliy delili ola."
+        ]
+      },
+      {
+        "title": "Leyhanıñ qabul etilüvi",
+        "paragraphs": [
+          "Teklif, teşkerüv neticesinde şunı kösterecek olsa, qabul etile bile:"
+        ],
+        "items": [
+          "o, kerçek irişilebilirlik ihtiyacına cevap bere",
+          "Mesele qıymetlendirmek içün yeterli qadar açıq-aydın.",
+          "çerçivesi başlatmaq içün yeterli derecede kerçektir",
+          "iş IATF missiyasınen uyğunlaşa",
+          "Temizlev ya da tamamlav içün mantıqlı bir yol bar"
+        ]
+      },
+      {
+        "title": "Repozitoriya saipligi",
+        "paragraphs": [
+          "Qabul etilgen leyhalar IATF GitHub teşkilâtı çerçivesinde yaratıla.",
+          "Repozitoriyalar anda qala, böylece er bir leyha, daa soñra idareciler deñişse bile, stabil bir cemiyet evini saqlay."
+        ]
+      },
+      {
+        "title": "Litsenziyalar",
+        "paragraphs": [
+          "IATF leyhaları copyleft litsenziyasını qullana, eger leyha başqaca aytmasa:"
+        ],
+        "items": [
+          "<strong>Kodı:</strong> AGPL-3.0",
+          "<strong>Vesiqalar:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Mesüliyetli müendis ya da idareci",
+      "paragraphs": [
+        "Er bir qabul etilgen leyhanıñ mesüliyetli mütehassısı ya da idarecisi olmalı."
+      ],
+      "items": [
+        "cemiyet içinde yol köstergiç inkişafı",
+        "Repozitoriya qurulışını saqlamaq",
+        "meselelerni baqıp çıqmaq ya da idare etmek ve isteklerni çıqarmaq",
+        "müim tehnikiy qararlarnı belgile",
+        "leyhanı başqaları içün añlayışlı yapmaq"
+      ],
+      "footnote": "Bu, anbar seviyesi mesüliyetidir. Teşkilât saipligi IATF-de qala. Bu yerde mesüliet, amanlıq, tehnikiy yol ve cemaat koordinatsiyasıdır  sıñırsız şahsiy teslimat, özelleştirüv ya da cemaat yol haritası tışında hızmet seviyesi mecburiyetleri degil."
+    },
+    "publicDevelopment": {
+      "title": "Cemiyet inkişafı",
+      "paragraphs": [
+        "IATF vastasınen başlatılğan leyhalar standart olaraq açıq olaraq işlep çıqarıla."
+      ],
+      "items": [
+        "menba kodı",
+        "meseleler",
+        "vesiqalar",
+        "yol haritasınıñ qaydları",
+        "çıqarılış tarihı"
+      ],
+      "footnote": "Leyha aqqında müim bilgiler yalıñız şahsiy subetlerde ya da poçtalarda qalmamalı."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Cemiyet arhivleri",
+      "title": "Açıq muracaat qaydları"
+    },
+    "paragraphs": [
+      "IATF standart olaraq açıq çalışmaqta. İnternet saifesi, e-poçta, Discord, GitHub ya da diger kanallar vastasınen kirsetilgen istekler açıq istek qaydları ola bile.",
+      "Açıq muracaat qaydı asıl beyanat degildir. IATF, yayınlanmazdan evel, kereksiz şahsiy malümat bermeyip, irişilebilirlik ihtiyacını baqıp çıqmaq içün, muracaatı qısqartmaq, yañartmaq ya da yañıdan qurmaq mümkün.",
+      "Açıq muracaat qaydları IATF GitHub teşkilâtında, bu saytta ya da ekisinde de saqlana bile.",
+      "Neşir etilmezden evel IATF, derc etilmesi açıq-aydın niyetlengen ve kerekli olmasa, kerekli olmağan şahsiy kontakt malümatlarını, şahsiy adreslerni ve yardımcı tehnologiyalarnıñ ayrı qullanıcıları aqqında malümatnı yoq ete.",
+      "Discord resmi olmağan koordinatsiya içün qullanıla. IATF, standart olaraq, Discord subetlerini ayrı-ayrı arhivlemey ve mesajlarnıñ saqlanuvı Discord tarafından nezaret etile.",
+      "Arama motorlarınıñ indekslenmesinden, tehnikiy ceetten mümkün olsa, istek qaydları istisna etile. Açıq, teşkerilgen ve mesüliyetli demektir. Adı qıdıruvları vastasınen tapılması içün optimallaştırılğan demek degil.",
+      "IATF tarafından nezaret etilgen açıq saifelerden qaydlarnı yañartmaq ya da yoq etmek mümkün, amma üçünci şahıslarnıñ keşlerinden, bildirüvlerinden, çatallarından, ekran resimlerinden, qıdıruv motorlarından, Discord ya da diger tış sistemlerden çıqarılmasını kefil etip olamay.",
+      "Bir mesaj şahsiy qalmaq kerek olsa, onı IATF açıq kanallarından yollamañız."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Teşkiliy rolü",
+      "title": "Sandalye"
+    },
+    "lead": "Başlıq IATF teşkilât seviyesinde idare ete. Bu, leyha boyunca mesüliyetli müendis rolünden farqlıdır: başlıq tek bir deposınıñ kün-künden idare etüvi içün degil de, bütün teşkilât içün mesülietlidir.",
+    "duties": {
+      "title": "Sandalyenıñ vazifesi",
+      "items": [
+        "IATF GitHub teşkilâtında saip izinlerini tuta",
+        "Leyha qabul etilüvi ve arhiv qararlarınıñ imzalanuvı",
+        "IATF içün açıq kontakt noqtası olaraq çalışa",
+        "Er yıllıq saylavlarnı idare ete"
+      ],
+      "footnote": "Başlıq IATF-nı şahsiy teslimat, ücretli iş ya da hızmet seviyesiniñ añlaşmaları ile bağlı tutmay ve tehnikiy yolbaşçılıqnen bağlı malümat anbarı idarecileriniñ qararlarını lâğu etmey."
+    },
+    "election": {
+      "title": "Er yıllıq saylav",
+      "paragraphs": [
+        "Reisi yılda bir kere saylana.Saylavlar dekabrniñ ilk eki aftasında keçirile, neticeler dekabrniñ 15-nde ilân etile ve yañı müddet yanvarniñ 1-nde başlana.",
+        "Saylav aqqı olğan şahıslar, yıl devamında bir IATF anbarında muhafazacı vazifesini eda etken ve o yıl içinde eñ az bir kere birleştirilgen issesini qoşqan şahıslardır. Er bir saylav aqqına malik şahıs bir reyge maliktir. Eñ çoq reyler qazanğan namzet ğalebe qazana; teñ çıqsa, dekabrniñ üçünci aftasında ekinci tur keçirile.",
+        "Saylavlar, tayin etilgen IATF idarecilik anbarında açıq bir GitHub Muzakere olaraq keçirile, şunıñ içün namzetler, rey berüv ve neticelerniñ episi açıq malümatnıñ bir qısmı ola."
+      ]
+    },
+    "continuity": {
+      "title": "Devamlılıq",
+      "paragraphs": [
+        "Eger bir senede iç bir saylav keçirilmese, şimdiki yolbaşçı nevbetteki saylavğa qadar vazifede qala. Bu müddetsiz devam etüvdir, keçici müddet degil  model, faaliyet az olğanda teşkilâtnı stabil tutmaq içün qurulğan, kimse azır olmağan bir deñişüvni zorlamaq içün degil.",
+        "Prezident istalğan vaqıtta istifağa çıqa bile. Faal hızmetçiler, er yıl keçirilgen saylavlarnen aynı qaidelerge köre keçirilecek nevbetten tış saylavlarnı belgilegen bir sebepnen çağıra bileler."
+      ]
+    },
+    "current": {
+      "title": "Şimdiki yolbaşçılıq",
+      "fields": [
+        {
+          "label": "Sandalye",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Mevzu",
+          "value": "2026 senesi dekabr saylavlarına qadar"
+        },
+        {
+          "label": "Rol resmiyleştirildi",
+          "value": "2026"
+        },
+        {
+          "label": "Birinci planlaştırılğan saylavlar",
+          "value": "2026 senesiniñ dekabr ayı"
+        }
+      ]
+    },
+    "footnote": "Teşkilât seviyesinde idare etüvni açıq etmek içün 2026 senesi yolbaşçı vazifesi resmiyleştirildi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Leyha vaziyetleri",
+      "paragraphs": [
+        "Leyhalar az sayıda devlet devletlerini qullanalar:"
+      ],
+      "items": [
+        "Teklif",
+        "Qabul etilgen",
+        "Faal olğan",
+        "Sabit olğan",
+        "Temizleyicini qıdırmaq",
+        "Arhivlengen"
+      ],
+      "footnote": "Bu ştatlar cedvelni taramaqnı qolaylaştıra."
+    },
+    "reassignment": {
+      "title": "Yañıdan tayin etüv ve arhivlenüv",
+      "paragraphs": [
+        "Eger bir idareci işten çıqsa ya da faaliyetsiz olsa, IATF mesüliyetni yañıdan tayin ete, inkişafnı toqtata ya da leyhanı arhiv ete bile.",
+        "Esas ihtiyac yerine ketirilgen soñ, teminlev toqtatılğan soñ ya da işniñ devam ettirilmesi artıq kerçek olmağanda, leyha arhiv etile bile."
+      ],
+      "footnote": "Arhivlengen leyhalar, aksini yapmağa mecbur etken bir sebep olmasa, er keske açıq qala."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Sıñır notası",
+      "title": "IATF ne kefil etmey"
+    },
+    "items": [
+      "şahsiy müşteriniñ teslimatı",
+      "hızmet seviyesi añlaşmaları",
+      "er bir teklifniñ qabul etilmesi",
+      "er bir leyha içün uzun müddetli teminlev"
+    ],
+    "footnote": "IATF, şahsiy teslimat hızmeti degil de, cemiyet yedegi modeldir."
+  }
+}

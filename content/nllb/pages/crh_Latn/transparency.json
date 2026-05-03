@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Şeffaflıq",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Şeffaflıq",
+    "lead": "IATF standart olaraq açıq şekilde çalışa. Leyha qararları, kod deñişmeleri, idare etüv deñişmeleri ve işletüv masrafları açıq yerlerde qayd etile.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Vesiqalar",
+      "title": "Vesiqalar yaşağan yer"
+    },
+    "items": [
+      "<strong>Leyha qararları.</strong> Qabul etüv, arhivlenüv ve yañıdan tayin etüv qararları mütenasip anbarda meseleler ya da çıqaruvlar olaraq qayd etile ve açıq cedvelde qısqartıla. <a href=\"/projects/\">cedvelge aluv</a>. dep yazğan edi .",
+      "<strong>Vesiqalarnı iste.</strong> Açıq muracaat qaydları IATF GitHub teşkilâtında, bu saytta ya da ekisinde de saqlanıla. qaydlar, kerekli şahsiy malümatnı bermeyip, irişilebilirlik ihtiyacını ğayrıdan baqıp çıqmaq içün asıl muracaatni qısqartmaq, redaktsiya etmek ya da ğayrıdan qurmaq mümkün. qarışıqlıq qararları, leyha ya da idare etüv qararına tesir etkende, açıq qaydlarğa qısqartalar. muracaatlar qaydları, tehnikiy ceetten mümkün olğan yerde, qıdıruv motorlarınıñ indekslenmesinden çıqarılalar. qaydlarnı baqmaq: ilk yayınlav muracaatı beklenile.",
+      "<strong>Kod deñişe.</strong> Er bir kod deñiştirmesi, mütenasip esasında açıq bir tesbit ola. IATF-ni baqıñız <a href=\"{{contact.githubOrgUrl}}\">GitHub teşkilâtı</a>. dep yazğan edi .",
+      "<strong>İdareniñ deñişmeleri.</strong> İdare saifesindeki yañartmalar, <code>IATF-nıñ saytı</code> Mağazanı baqıñız. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">yañartma tarihı</a> GitHub saifesinde.",
+      "<strong>İşlev masrafları.</strong> IATF işletüv masraflarını alçaq tuta ve tekrarlanğan ictimaiy infrastruktura masraflarnı qayd ete. 2022 senesinden başlap esas tekrarlanğan masraflar domen adları oldı.",
+      "<strong>Koordinatsion qaydlar.</strong> Er bir koordinatsion teftiş ya da qarardan alınğan qaydlar GitHub'ta canlı olaraq bulunalar Mütenasip malümat deposınıñ muzakereleri  baqmaq <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Muzakereler</a> Şimdiki vaqıtta <code>IATF-nıñ saytı</code> Repozitoriya."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Masraflar",
+      "title": "İşlev masraflarınıñ cedveli"
+    },
+    "paragraphs": [
+      "IATF ictimaiy infrastrukturasını bilerek küçük tuta. 2022 senesinden başlap, esas tekrarlanğan işletüv masrafları domen adları oldı.",
+      "Bu cedvel teşkerilgen maliyeviy esabat degil, IATF-nı online tutmaq içün qullanılğan infrastruktura içün açıq işletüv masrafları cedvelidir."
+    ],
+    "footnote": "Qıdıruvlar redaksiyadan soñ qayd etile ya da derc etile bile. Şahsiy adresler, faturalama tafsilâtları ve kerekli olmağan esap malümatı açıq malümatnıñ bir qısmı degil.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "İdaresi",
+            "value": "<code>IATF.CC</code>"
+          },
+          {
+            "label": "Maliyeti",
+            "value": "3,40 AQŞ dolları"
+          },
+          {
+            "label": "Qeydler",
+            "value": "Mugiwarafx tarafından maliye etilgen domen fiyatı. Hosting Cloudflare vastasınen bedava seviye ya da ucuz infrastruktura qullanıldı. <code>IATF.CC</code> Qırım.Aqiqat mühbiri"
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "İdaresi",
+            "value": "<code>Halqara irişilebilirlik taskforce.com</code>"
+          },
+          {
+            "label": "Maliyeti",
+            "value": "18,68 AQŞ dolları"
+          },
+          {
+            "label": "Qeydler",
+            "value": "Mugiwarafx tarafından maliye etilgen domen fiyatı. Ücretsiz ya da ucuz infrastruktura qullanılğan hosting."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "İdaresi",
+            "value": "<code>Halqara irişilebilirlik taskforce.com</code>"
+          },
+          {
+            "label": "Maliyeti",
+            "value": "17,06 AQŞ dolları"
+          },
+          {
+            "label": "Qeydler",
+            "value": "Mugiwarafx tarafından maliye etilgen domen fiyatı."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "İdaresi",
+            "value": "<code>Halqara irişilebilirlik taskforce.com</code>"
+          },
+          {
+            "label": "Maliyeti",
+            "value": "14,76 AQŞ dolları"
+          },
+          {
+            "label": "Qeydler",
+            "value": "Mugiwarafx tarafından maliye etilgen domen fiyatı. Ücretsiz ya da ucuz infrastruktura qullanılğan hosting."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "İdaresi",
+            "value": "<code>Halqara irişilebilirlik taskforce.com</code>"
+          },
+          {
+            "label": "Maliyeti",
+            "value": "7,76 AQŞ dolları"
+          },
+          {
+            "label": "Qeydler",
+            "value": "Mugiwarafx tarafından maliye etilgen domen fiyatı. GitHub Saifeleri vastasınen bedava seviye ya da ucuz infrastruktura qullanılğan."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Sıñır notası",
+      "title": "Halqqa açıq olmağan şeyler"
+    },
+    "paragraphs": [
+      "Bazı malümatlar açıq arhivlerden mahsus bir maqsatnen saqlanıla:"
+    ],
+    "items": [
+      "Teklif etkenlerniñ şahsiy kontakt malümatları.",
+      "Şahsiy mektüpler yalıñız qabul etilmeden, red etilmeden ya da qısqartılmadan evel bir muracaatnı aydınlatmaq içün qullanıla.",
+      "Şahsiy adresler, telefon nomeraları ve kerekli olmağan şahsiy malümatlar.",
+      "Yardımcı tehnologiyasınıñ şahsiy qullanıcısını razılıqsız belgileycek er şey.",
+      "Raw Discord subetleri, muayyen bir mesaj bilerek açıq leyha cedveline avuştırılmasa."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Daa oquñız",
+      "title": "Ükümdarlıq - bu cedvellerniñ ardındaki qaideler kitabıdır"
+    },
+    "paragraphs": [
+      "Leyhalarnıñ nasıl qabul etilgenini, arhivlengenini ya da yañıdan berilgenini añlamaq isteseñiz, idare saifesini oquñız."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

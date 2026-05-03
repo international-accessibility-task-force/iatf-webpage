@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Tapılmadı"
+  },
+  "hero": {
+    "eyebrow": "Tapılmadı",
+    "title": "İstenilgen saife tapılmadı",
+    "lead": "Cemaat saytına qaytmaq içün aşağıdaki esas yollarnı qullanıñız.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Evge qaytuv",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "İstegen marşrut yoq."
+    ],
+    "items": [
+      {
+        "label": "Evge qaytuv",
+        "href": "/"
+      },
+      {
+        "label": "Leyhalar",
+        "href": "/projects/"
+      },
+      {
+        "label": "Qoşulıñız",
+        "href": "/join/"
+      },
+      {
+        "label": "Erişilebilirlik",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "İdare etüv",
+        "href": "/governance/"
+      },
+      {
+        "label": "Şeffaflıq",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

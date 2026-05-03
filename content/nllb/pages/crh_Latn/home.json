@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Erişilebilirlik ihtiyacından devlet repoğa",
+    "lead": "IATF birleşmelerge, gruppalarğa ve şahıslarğa kerçek irişilebilirlik ihtiyaclarını açıq menba leyhalarına çevirmege yardım ete.",
+    "support": [
+      "Qabul etilgen leyhalar IATF GitHub teşkilâtında copyleft litsenziyası altında derc etile ve mesuliyetli müendis tarafından açıq şekilde işlep çıqarıla."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Cemaat faaliyetiniñ modeli",
+      "title": "Erişilebilir programma içün adiy bir açıq yol"
+    },
+    "paragraphs": [
+      "Formanı vastasınen er kes IATF-ğa irişilebilirlik meselesini yollay bile. Ekipa onı alsa, iş içün umumi GitHub anbarı açıla.",
+      "Er bir qabul etilgen leyhanıñ kodu, meseleleri, vesiqaları ve çıqaruvları içün açıq bir cemiyet evi bar, ve inkişafı mesuliyetli müendis tarafından açıq şekilde alıp barıla."
+    ],
+    "specCard": {
+      "title": "Cemaat faaliyetiniñ modeli",
+      "terms": [
+        {
+          "term": "İhtiyacı",
+          "definition": "Kerçek irişilebilirlik problemi"
+        },
+        {
+          "term": "Teşkerüv",
+          "definition": "Missiyağa uyğunlıq ve ameliy amelge keçirilmesi"
+        },
+        {
+          "term": "Leyha meydanı",
+          "definition": "Umumiy GitHub anbarı"
+        },
+        {
+          "term": "İdarecilik",
+          "definition": "IATF teşkilâtınıñ saipligi"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Esnas",
+      "title": "Nasıl çalışa",
+      "intro": "Model bilerek küçük qala, böylece cemaat yolunı qolay taqip etmek mümkün."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Bir ihtiyac taqdim etildi",
+        "paragraphs": [
+          "Birlik, gruppa ya da şahıs kerçek irişim ihtiyacına esaslanıp, muracaat ete bile.",
+          "Sorğularnı internet saytından ya da elektron poçta vastasınen şu adreske yollay bilesiñiz: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ya da Discord vastasınen."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF onı baqıp çıqa",
+        "paragraphs": [
+          "Biz vazife uyğunlığını, ameliy maqsatnı ve işniñ açıq menba leyhasına ait olğanını teftiş etemiz."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Cemiyet malümat deposı meydanğa ketirildi",
+        "paragraphs": [
+          "Bir leyha qabul etilse, o, copyleft litsenziyası altında IATF GitHub teşkilâtında derc etile.",
+          "Repozitoriya kod, meseleler, vesiqalar ve neşirlerniñ cemaat evine çevirile."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Mütehassıs leyhanı idare ete",
+        "paragraphs": [
+          "Bir mütehassıs leyha malümat deposına tayin etile ve işbu leyha halq ögünde işlep çıqarıla."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kütüphane",
+      "title": "Leyhalarnıñ açıq cedveli"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bu yerden başlañız",
+      "title": "Şimdiki işni baqmaq ya da konkret bir leyhağa başlamaq"
+    },
+    "paragraphs": [
+      "Cemiyetke açıq olğanlarnı körmek içün reyestrni qullanıñız, ya da konkret irişilebilirlik probleması leyhağa çevirilse, malümatnı almağa başlañız."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

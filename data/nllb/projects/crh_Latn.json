@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATFnıñ saytı",
+    "summary": "Halqara irişilebilirlik iş gruppasınıñ açıq saifesi.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF, modelni añlatqan, leyhalarnı cedvelge alğan ve iştirakçilerge doğru nevbetteki adımnı köstergen stabil cemaat evine muhtac edi.",
+    "why": "Sayt IATF-nıñ açıq qapısıdır. O, küçük bir statik leyha olaraq quruldı, böylece açıq yerde oqumaq, tercime etmek ve saqlamaq qolay olur.",
+    "scopeIn": [
+      "IATF modelini añlatqan açıq açılış saifeleri",
+      "Qabul etilgen, faal ve arhivlengen IATF leyhalarınıñ devlet, idareci, anbar ve numayış ile açıq cedveli",
+      "Bir muracaat aluv saifesi ve şekli",
+      "İdare ve şeffaflıq saifeleri",
+      "Tercime içün azır struktura ile ingliz menbası",
+      "Cloudflare işçileriniñ statik aktivlerinde statik qullanıluvı"
+    ],
+    "scopeOut": [
+      "Şahsiy aza alanları, esaplar ya da kiriş aqımları",
+      "Er bir leyhanıñ öz depolarında yaşağan leyha menba kodunıñ barlığı",
+      "Discord-da yaşağan aqiqiy vaqıt subeti",
+      "Er bir leyhanıñ GitHub anbarında olğan ayrı leyhalar içün meselelerniñ izlenüvi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfi",
+    "summary": "Erte IATF prototipi, tabiiy toqtatuv noqtasına yetken soñ arhivlengen.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF çerçivesinde irişilebilirlikke baqtırılğan aletniñ ilk teşkerüvi.",
+    "why": "Aktiv inkişaf toqtatılğanına baqmadan, malümat yedegi işniñ qaydı olaraq açıq tutula.",
+    "scopeIn": [
+      "Açıq bir cedvel olaraq saqlanğan irişilebilirliknen bağlı aletniñ ilk prototipi"
+    ],
+    "scopeOut": [
+      "Faal inkişaf ya da hususiyet işi",
+      "Azatlıq mecburiyetleri",
+      "İstehsalda tevsiye etilgen qullanuv"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF-nıñ botı",
+    "summary": "IATF cemiyet botı, tabiiy toqtatuv noqtasına yetken soñ arhivlengen.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF cemiyet kanalları etrafında avtomatlaştıruv.",
+    "why": "Aktiv inkişaf toqtatılğanına baqmadan, malümat yedegi işniñ qaydı olaraq açıq tutula.",
+    "scopeIn": [
+      "IATF cemiyet kanalları etrafında añlaşılmamazlıq avtomatlaşması, açıq bir qayd olaraq saqlana"
+    ],
+    "scopeOut": [
+      "Faal inkişaf ya da hususiyet işi",
+      "Azatlıq mecburiyetleri",
+      "İstehsalda tevsiye etilgen qullanuv"
+    ]
+  }
+]

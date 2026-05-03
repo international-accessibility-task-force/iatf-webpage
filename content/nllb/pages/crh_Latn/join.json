@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF-ke qoşulıñız",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF-ke qoşulıñız",
+    "lead": "Üyelik açıq. Qoşulmaq içün bir qaç yol bar, yardım tehnologiyalarına işanacaqsıñızmı, erişilebilir programma qurmaq, tercime etmek, teşkermek ya da bir leyhanı devam ettirmek isteysiñizmi. Muzakereler ve qararlar GitHub ve Discord üzerinde cemaat ögünde keçe.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Vazifeler",
+      "title": "Yardım etüv usulları"
+    },
+    "items": [
+      "<strong>Bir leyha talap etiñiz.</strong> Açıq menba yazılımı ile çezmek mümkün olğan irişilebilirlik baryerine rastkelseñiz, onı istek aluvı vastasınen yollañız.",
+      "<strong>Sınav ve teşkerüv.</strong> IATF leyhalarını qullanğan yardım tehnologiyası ile teşkeriñiz, ne işlegenini ve ne işlemegenini bildiriniz, ve meselelerni doğrudan-doğru mütenasip malümat deposına kirsetiñiz.",
+      "<strong>Tercime etiñiz.</strong> Menba mündericesi başta sade ingliz tilinde derc etile.",
+      "<strong>Quruñız.</strong> IATF anbarındaki meselelerni alıñız, çekme isteklerini yollañız ya da mesüliyetli müendis olaraq bir leyhanı alıñız.",
+      "<strong>Saqlamañız.</strong> Mevcut leyhalar, bazıda yañı bir idarecige muhtac olalar.İdareci aylanuvı, istisna degil de, modelniñ adiy bir qısmıdır."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanallar",
+      "title": "IATF-nıñ halq ögünde çalışqan yerleri"
+    },
+    "items": [
+      "<strong>GitHub içün.</strong> Mevzular, çeküv istekleri, çıqaruvlar ve leyha malümatları.",
+      "<strong>Añlaşmamazlıq.</strong> Canlı munaqaşa, koordinatsiya ve resmiy olmağan sualler.",
+      "<strong>E-poçta.</strong> İstifadesi <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHub ya da Discord uyğun kelmese."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nevbetteki adım",
+      "title": "Öz istegeniñizge uyğun kanalnı saylañız"
+    },
+    "paragraphs": [
+      "Bütün kanallar aynı cemaat baqıluvına ve aynı cemiyet saqlavlarına kire."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

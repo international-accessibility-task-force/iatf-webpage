@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Cemiyet içün irişim leyhaları",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Cemiyet içün irişim leyhaları",
+    "lead": "Bu cedvel IATF vastasınen idare etilgen cemiyet leyhalarını cedvelge ala. Qabul etilgen irişilebilirlik leyhaları, sayt infrastrukturu ve arhivlengen prototipler mında körüne.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kütüphane",
+      "title": "Şimdiki cedvel"
+    },
+    "intro": [
+      "Qabul etilgen leyhalar, derc etilgen soñ, mında qayd etile."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Bir ihtiyacnı bildir",
+      "title": "Erişilebilirlikniñ konkret ihtiyacını cemaat leyhasına çevirmek"
+    },
+    "paragraphs": [
+      "IATF, faydalı açıq menba işlerine çevirile bilecek konkret irişilebilirlik ihtiyaclarını közden keçire."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Leyhalar daa derc etilmedi",
+    "paragraphs": [
+      "IATF ilk açıq leyha taqımını azırlay.",
+      "Adiy bir irişim ihtiyacıñız olsa, alâ daa muracaat ete bilesiñiz."
+    ]
+  }
+}

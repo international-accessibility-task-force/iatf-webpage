@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Erişilebilirlik leyhasını soramaq",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Erişilebilirlik leyhasını soramaq",
+    "lead": "IATF kerçek bir ihtiyacnen başlağan irişilebilirlik leyhaları içün muracaatlarnı baqıp çıqa.",
+    "support": [
+      "Tam bir hususiyetke ihtiyacıñız yoq. Belli bir mesele, kimge tesir etkeni ve ne içün müim olğanı başlamaq içün yeterlidir."
+    ],
+    "actions": [
+      {
+        "label": "Bir istekni başla",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Onıñ yerine Discord qullan",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanallar",
+      "title": "Eñ qolay yolnı saylañız"
+    },
+    "intro": [
+      "Bütün marşrutlar aynı teşkerüvge kire."
+    ],
+    "items": [
+      {
+        "label": "Veb-sayt",
+        "body": "Qurulışlı bir muracaatnı bermek içün aşağıdaki formanı qullanıñız."
+      },
+      {
+        "label": "E-poçta adresi",
+        "body": "İstegiñizni doğrudan-doğru {{contact.requestsEmail}}E-poçta muracaatları, teşkerüv ve redaksiyadan soñ, açıq muracaatlar cedveline çevirile bile."
+      },
+      {
+        "label": "Añlaşmamazlıq",
+        "body": "Bu eñ qolay olsa, o yerden başlañız."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Bir istek yollamadan evel",
+    "paragraphs": [
+      "IATF açıq şekilde çalışa. Sorğular qısqartıla ve açıq sorğular qaydları olaraq GitHub teşkilâtında, bu saytta ya da ekisinde de derc etile bile.",
+      "Şahsiy adreslerni, telefon nomeralarını, tibbiy malümatnı ya da yardım tehnologiyalarınıñ ayrı qullanıcıları aqqında malümatnı kirsetmeñiz, kerekli olsa ve siz IATF tarafından baqılmasına razı olmasañız.",
+      "IATF, muracaat malümatlarını derc etmeden evel, kerekli olmağan şahsiy kontakt malümatlarını alıp taşlay."
+    ]
+  },
+  "review": {
+    "title": "Nezaret etüv beklevleri",
+    "paragraphs": [
+      "Bir muracaatnıñ berilmesi onıñ qabul etilmesini kefil etmey.",
+      "IATF, vazife uyğunlığı, amelge keçirilüv qabiliyeti, faydası ve işniñ açıq hazinede yer alması aqqında muracaatlarnı baqıp çıqa.",
+      "Bazı muracaatlar qabul etilmezden evel red etile, başqa künge qaldırıla ya da deñişe bile."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "İstegi şekli",
+      "title": "Bir muracaatnı ber"
+    },
+    "fields": [
+      {
+        "kind": "kiriş",
+        "name": "muracaat etken",
+        "label": "Adıñız ya da teşkilâtıñız",
+        "helper": "Talapnı kim bere?"
+      },
+      {
+        "kind": "saylañız",
+        "name": "temas yolu",
+        "label": "Tercih etilgen temas yolu",
+        "helper": "Nasıl taqip etilmeli?",
+        "required": true,
+        "options": [
+          "E-poçta adresi",
+          "Añlaşmamazlıq"
+        ]
+      },
+      {
+        "kind": "kiriş",
+        "name": "temas tafsilâtları",
+        "label": "Temas tafsilâtları",
+        "helper": "İzlev içün e-poçta adresi ya da Discord adresi.",
+        "placeholder": "E-poçta adresi ya da Discord qullanıcı adı",
+        "required": true
+      },
+      {
+        "kind": "kiriş",
+        "name": "tilniñ",
+        "label": "Tiller",
+        "helper": "İstenilgen tiliñiz, kerek olsa.",
+        "value": "İngliz tili"
+      },
+      {
+        "kind": "metin alanı",
+        "name": "mesele",
+        "label": "Ne meseleni çezmege tırışasıñız?",
+        "helper": "Sıñırnı adiy tilde tarif etiñiz.",
+        "required": true
+      },
+      {
+        "kind": "metin alanı",
+        "name": "tesirlengen qullanıcılar",
+        "label": "Kimge tesir ete?",
+        "helper": "Bu kimge yardım eter edi?",
+        "required": true
+      },
+      {
+        "kind": "metin alanı",
+        "name": "extraContext[kodunı deñiştir]",
+        "label": "Qoşma kontekst",
+        "helper": "İhtiyacnı añlatmağa yardım etken er bir şeyni paylaşıñız: ne içün müim, misaller, istinadlar, kaba bir programma ğayesi, ya da vaqıt sıñırlavları."
+      },
+      {
+        "kind": "saylañız",
+        "name": "openSourceConsent[kodunı deñiştir]",
+        "label": "Açıq menba inkişafı ile raatsızsıñızmı?",
+        "helper": "Qabul etilgen leyhalar, IATF astında açıq malümat anbarları olalar.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ebet",
+          "Yoq",
+          "Şimdilik emin degilim."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Eger qabul etilse",
+      "title": "Qabul etüvniñ manası"
+    },
+    "items": [
+      "IATF GitHub teşkilâtında açıq bir mündericesi",
+      "leyhağa tayin etilgen mesüliyetli müendis",
+      "kod ve leyha materialları içün copyleft litsenziyası",
+      "Repozitordaki cemiyet inkişafı",
+      "IATF saytında bir cedvel yazısı"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Subetni başlañız",
+      "title": "Qısqa, açıq-aydın bir istek başlamaq içün yeterlidir"
+    },
+    "paragraphs": [
+      "Eger kerçek irişilebilirlik ihtiyacıñız bar ise ve bu leyha cemaat leyhası olmalı, dep tüşünseñiz, bizge yollañız."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

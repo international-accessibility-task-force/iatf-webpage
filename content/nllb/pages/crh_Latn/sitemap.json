@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sayt haritası"
+  },
+  "hero": {
+    "eyebrow": "İndeks",
+    "title": "Sayt haritası",
+    "lead": "IATF.CC saytınıñ er bir saifesi, bir yerde."
+  },
+  "sections": [
+    {
+      "title": "Esas saifeler",
+      "items": [
+        {
+          "label": "Evge qaytuv",
+          "href": "/"
+        },
+        {
+          "label": "Leyhalar",
+          "href": "/projects/"
+        },
+        {
+          "label": "Bir leyhanı talap et",
+          "href": "/propose/"
+        },
+        {
+          "label": "İdare etüv",
+          "href": "/governance/"
+        },
+        {
+          "label": "Qoşulıñız",
+          "href": "/join/"
+        },
+        {
+          "label": "Erişilebilirlik",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Şeffaflıq",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Leyhalar",
+  "projectsEmpty": "Daa iç bir leyha derc etilmedi."
+}

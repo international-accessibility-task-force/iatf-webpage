@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Erişilebilirlik",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Erişilebilirlik",
+    "lead": "IATF, bu saytnı sade, oquna bilgen, klaviatura vastasınen irişile bilgen ve yardım tehnologiyalarınen uyğun tutmağa tırışa.",
+    "support": [
+      "İnternetke irişim içün, IATF [W3C WAI](https://www.w3.org/WAI/) Pratik irişilebilirlik, yardımcı tehnologiyalarnıñ qullanıcılarınıñ doğrudan tecribesi ile de şekillendirile."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Haber berüv",
+      "title": "Erişilebilirlik meselesi aqqında haber etiñiz"
+    },
+    "paragraphs": [
+      "Eger siz bu saytta irişim sıñırını tapsañız, lütfen, mında e-poçta vastasınen haber etiñiz:",
+      "{{contact.accessibilityEmail}}",
+      "Faydalı olğan maruzalar arasında:"
+    ],
+    "items": [
+      "meseleniñ yüz bergen saifesi",
+      "ne yapmağa tırışqanıñnı",
+      "qullanğanıñız yardımcı tehnologiya, tarayıcı ya da cihaz, kerek olsa",
+      "ne yañlış ketti?",
+      "ne yardım eter edi"
+    ],
+    "footnote": "Resmiy bir hata esabatını yazmağa kerekmey. Aydın bir tasvir yeterli."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Muamele etüv",
+      "title": "Cemaat meseleleriniñ çezilüvi"
+    },
+    "paragraphs": [
+      "Erişilebilirlik meseleleri, açıqtan-açıq çezilmesi içün, mütenasip açıq malümat deposında qısqartıla bile. Şahsiy temas malümatı ve kerekli olmağan şahsiy malümat derc etilmezden evel siline.",
+      "Raporıñızda şahsiy malümat bar ise, bunı mesajda açıqtan-açıq aytıñız."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Şimdiki vaziyet",
+      "title": "Belli sıñırlavlar"
+    },
+    "paragraphs": [
+      "Bu sayt bilerek küçük ve çoqusı statiktir. Bazı til versiyaları tercimeler azırlanğanda tolu olmağan ola bile."
+    ]
+  }
+}
