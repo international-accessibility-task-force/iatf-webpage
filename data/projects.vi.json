@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Trang web của IATF",
+    "summary": "Trang web công khai cho Lực lượng Đặc nhiệm Tiếp cận Quốc tế.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF cần một ngôi nhà công cộng ổn định giải thích mô hình, liệt kê các dự án, và chỉ những người đóng góp cho bước tiếp theo đúng đắn.",
+    "why": "Trang web này là cửa trước công cộng của IATF. Nó được xây dựng như một dự án tĩnh nhỏ để dễ đọc, dịch và duy trì ở nơi mở.",
+    "scopeIn": [
+      "Các trang đích công khai giải thích mô hình IATF",
+      "Sổ đăng ký công khai các dự án IATF đã được chấp nhận, đang hoạt động và được lưu trữ với trạng thái, người duy trì, kho lưu trữ và bản demo",
+      "Trang nhận yêu cầu và biểu mẫu",
+      "Các trang quản trị và minh bạch",
+      "Nguồn tiếng Anh với cấu trúc sẵn sàng để dịch",
+      "Việc triển khai tĩnh trên Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Khu vực thành viên tư nhân, tài khoản hoặc luồng đăng nhập",
+      "Lưu trữ mã nguồn dự án, sống trong kho lưu trữ riêng của mỗi dự án",
+      "Trò chuyện thời gian thực, sống trong Discord",
+      "Theo dõi vấn đề cho các dự án riêng lẻ, sống trong kho GitHub của mỗi dự án"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Một nguyên mẫu IATF ban đầu, được lưu trữ sau khi đạt đến điểm dừng tự nhiên.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Khám phá sớm về một công cụ tập trung vào khả năng tiếp cận dưới sự bảo trợ của IATF.",
+    "why": "Kho lưu trữ được giữ công khai như một bản ghi của công việc, mặc dù sự phát triển tích cực đã dừng lại.",
+    "scopeIn": [
+      "Nguyên mẫu ban đầu của một công cụ tập trung vào khả năng tiếp cận được lưu giữ như một hồ sơ công khai"
+    ],
+    "scopeOut": [
+      "Công việc phát triển hoặc tính năng tích cực",
+      "Cam kết bảo dưỡng",
+      "Sử dụng khuyến cáo trong sản xuất"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Một bot cộng đồng IATF, được lưu trữ sau khi đạt đến điểm dừng tự nhiên.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Tự động hóa xung quanh các kênh cộng đồng IATF.",
+    "why": "Kho lưu trữ được giữ công khai như một bản ghi của công việc, mặc dù sự phát triển tích cực đã dừng lại.",
+    "scopeIn": [
+      "Tự động hóa mâu thuẫn xung quanh các kênh cộng đồng IATF, được lưu giữ dưới dạng hồ sơ công khai"
+    ],
+    "scopeOut": [
+      "Công việc phát triển hoặc tính năng tích cực",
+      "Cam kết bảo dưỡng",
+      "Sử dụng khuyến cáo trong sản xuất"
+    ]
+  }
+]
