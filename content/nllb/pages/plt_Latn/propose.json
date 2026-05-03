@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Mangataka tetikasa ho an'ny fahazoana miditra",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Mangataka tetikasa ho an'ny fahazoana miditra",
+    "lead": "Ny IATF dia mandinika ny fangatahana ho an'ny tetikasa azo idirana izay manomboka amin'ny filàna tena izy.",
+    "support": [
+      "Tsy mila famaritana feno ianao. Ny olana mazava, izay misy fiantraikany, ary ny antony maha-zava-dehibe azy dia ampy hanombohana."
+    ],
+    "actions": [
+      {
+        "label": "Atombohy ny fangatahana",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Ampiasao ny Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Fantsona",
+      "title": "Fidio ny lalana mora indrindra"
+    },
+    "intro": [
+      "Ny làlana rehetra dia miditra amin'ny famerenana mitovy."
+    ],
+    "items": [
+      {
+        "label": "Tranonkala",
+        "body": "Ampiasao ny taratasy eto ambany mba handefasana fangatahana voalamina."
+      },
+      {
+        "label": "Hafatra mailaka",
+        "body": "Alefaso mivantana any amin'ny {{contact.requestsEmail}}Ny fangatahana mailaka dia mety ho lasa rakitsoratra fangatahana ampahibemaso aorian'ny famerenana sy ny fanafoanana."
+      },
+      {
+        "label": "Fifandirana",
+        "body": "Manomboka eo raha izany no mora indrindra. Ny fangatahana dia mbola mifindra amin'ny famerenana mitovy ihany."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Alohan'ny handefasanao fangatahana",
+    "paragraphs": [
+      "Ny IATF dia miasa ho an'ny daholobe. Ny fangatahana dia azo fintinina sy avoaka ho rakitsoratra fangatahana ampahibemaso ao amin'ny fikambanana GitHub, amin'ity tranonkala ity, na izy roa.",
+      "Aza ampidirina ny adiresy manokana, ny nomeraon-telefaona, ny antsipiriany ara-pitsaboana, na ny fampahafantarana ny mombamomba ny mpampiasa tsirairay ny teknolojia fanampiana raha tsy ilaina izany ary mahazo aina ianao amin'ny IATF mandinika izany.",
+      "Esorin'ny IATF ny antsipirian'ny fifandraisana tsy ilaina alohan'ny hamoahana ny rakitsoratry ny fangatahana."
+    ]
+  },
+  "review": {
+    "title": "Famerenana ny zavatra andrasana",
+    "paragraphs": [
+      "Tsy miantoka ny fanekena ny fangatahana.",
+      "Ny IATF dia mandinika ny fangatahana ho an'ny fahaizan'ny iraka, ny fahaiza-manao, ny mahasoa, ary raha tokony ho ao amin'ny tahiry ampahibemaso ny asa.",
+      "Ny fangatahana sasany dia mety ho nolavina, na nahemotra, na nohavaozina alohan'ny handraisana azy."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Taratasy fangatahana",
+      "title": "Mametraha fangatahana"
+    },
+    "fields": [
+      {
+        "kind": "fampidirana",
+        "name": "mpangataka",
+        "label": "Ny anaranao na ny fikambanana misy anao",
+        "helper": "Iza no mangataka izany?"
+      },
+      {
+        "kind": "mifidy",
+        "name": "làlan'ny fifandraisany",
+        "label": "Làlan'ny fifandraisana ankafizina",
+        "helper": "Ahoana no tokony hanatanterahana ny fanaraha-maso?",
+        "required": true,
+        "options": [
+          "Hafatra mailaka",
+          "Fifandirana"
+        ]
+      },
+      {
+        "kind": "fampidirana",
+        "name": "antsipirihany",
+        "label": "Antsipirian'ny fifandraisana",
+        "helper": "Adiresy mailaka na adiresy Discord ho an'ny fanaraha-maso.",
+        "placeholder": "Adiresy mailaka na adiresy Discord",
+        "required": true
+      },
+      {
+        "kind": "fampidirana",
+        "name": "fiteny",
+        "label": "Fiteny",
+        "helper": "Ny fiteny tianao, raha ilaina.",
+        "value": "Anglisy"
+      },
+      {
+        "kind": "faritry ny soratra",
+        "name": "olana",
+        "label": "Inona no olana tadiavinao ho voavaha?",
+        "helper": "Lazao amin'ny teny tsotra ny sakana.",
+        "required": true
+      },
+      {
+        "kind": "faritry ny soratra",
+        "name": "Mpampiasa voakasik'izany",
+        "label": "Iza no voakasik'izany?",
+        "helper": "Iza no hahasoa an'izany?",
+        "required": true
+      },
+      {
+        "kind": "faritry ny soratra",
+        "name": "Teny manodidina",
+        "label": "Lahatsoratra fanampiny",
+        "helper": "Zarao izay zavatra hafa manampy amin'ny fanazavana ny filàna: ny antony maha-zava-dehibe azy, ohatra, fanovozan-kevitra, hevitra momba ny rindrambaiko, na famerana ny fotoana."
+      },
+      {
+        "kind": "mifidy",
+        "name": "openSourceConsent (Faneken-kevitra momba ny loharano misokatra)",
+        "label": "Mahazo aina amin'ny fampivoarana loharano misokatra ho an'ny daholobe?",
+        "helper": "Ireo tetikasa nekena dia tahiry ho an'ny daholobe eo ambanin'ny IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Eny tokoa",
+          "Tsia",
+          "Tsy mbola azo antoka"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Raha ekena",
+      "title": "Inona no dikan'ny hoe ekena?"
+    },
+    "items": [
+      "tahiry ho an'ny daholobe ao amin'ny fikambanana IATF GitHub",
+      "injeniera tompon'andraikitra voatendry ho an'ny tetikasa",
+      "fahazoan-dàlana copyleft ho an'ny kaody sy ny fitaovan'ny tetikasa",
+      "fampandrosoana ho an'ny daholobe ao amin'ny tahiry",
+      "fisoratana anarana ao amin'ny tranokalan'ny IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Atombohy ny resaka",
+      "title": "Ny fangatahana fohy sy mazava dia ampy hanombohana"
+    },
+    "paragraphs": [
+      "Raha manana filàna azo idirana marina ianao ary mihevitra fa tokony ho lasa tetikasa ho an'ny daholobe, alefaso aminay izany."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

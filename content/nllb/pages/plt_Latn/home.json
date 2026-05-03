@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Avy amin'ny filàna azo idirana mankany amin'ireo repo ho an'ny daholobe",
+    "lead": "Manampy ny fikambanana, ny vondrona ary ny olon-tsotra ny IATF hanova ny tena filàna azo idirana ho tetikasa loharano misokatra ho an'ny daholobe.",
+    "support": [
+      "Ny tetikasa ekena dia avoaka ao amin'ny fikambanana IATF GitHub eo ambanin'ny fahazoan-dàlana copyleft ary novolavolain'ny injeniera tompon'andraikitra ampahibemaso."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modely miasa ho an'ny daholobe",
+      "title": "Làlana tsotra ho an'ny rindrambaiko azo idirana"
+    },
+    "paragraphs": [
+      "Amin'ny alalan'ny endrika iray, na iza na iza dia afaka mandefa olana momba ny fahazoana miditra amin'ny IATF.",
+      "Ny tetikasa tsirairay nekena dia manana tranom-bahoaka mazava ho an'ny kaody, olana, antontan-taratasy ary famoahana, miaraka amin'ny fampandrosoana tarihin'ny injeniera tompon'andraikitra."
+    ],
+    "specCard": {
+      "title": "Modely miasa ho an'ny daholobe",
+      "terms": [
+        {
+          "term": "Ilaina",
+          "definition": "Tena olana amin'ny fahazoana miditra"
+        },
+        {
+          "term": "Famerenana",
+          "definition": "Mifanaraka amin'ny iraka sy ny fahaiza-manao azo ampiharina"
+        },
+        {
+          "term": "Toeran'ny tetikasa",
+          "definition": "Fitehirizam-bokin'ny GitHub ho an'ny daholobe"
+        },
+        {
+          "term": "Fitantanan-draharaha",
+          "definition": "Fananan'ny fikambanana IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Fomba fiasa",
+      "title": "Ahoana no fiasany?",
+      "intro": "Mijanona ho kely fanahy iniana ny maodely ka mora ny manaraka ny làlam-bahoaka."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Misy zavatra takiana",
+        "paragraphs": [
+          "Ny fikambanana, ny vondrona, na ny olona tsirairay dia afaka mametraka fangatahana mifototra amin'ny filàna azo idirana tena izy.",
+          "Ny fangatahana dia afaka manomboka amin'ny alalan'ny vohikala, <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, na amin'ny alalan'ny Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Mandinika izany ny IATF",
+        "paragraphs": [
+          "Dinihinay ny maha-mety ny iraka, ny sakany azo ampiharina, ary raha tafiditra ao anatin'ny tetikasa loharano misokatra ho an'ny daholobe ny asa."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Noforonina ny tahiry ho an'ny daholobe",
+        "paragraphs": [
+          "Raha ekena ny tetikasa iray, dia avoaka ao amin'ny fikambanana IATF GitHub izy io eo ambanin'ny fahazoan-dàlana copyleft.",
+          "Lasa fonenan'ny daholobe ny fehezan-dalàna, ny olana, ny antontan-taratasy, ary ny famoahana."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injeniera tompon'andraikitra no mitarika ny tetikasa",
+        "paragraphs": [
+          "Misy injeniera tompon'andraikitra voatendry ao amin'ny tahirin'ny tetikasa ary ny fampandrosoana dia atao ampahibemaso."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Fitehirizam-boky",
+      "title": "Fitehirizam-bokin'ny tetikasa ho an'ny daholobe"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Manomboka eto",
+      "title": "Hijery ny asa amin'izao fotoana izao na hanomboka tetikasa mivaingana"
+    },
+    "paragraphs": [
+      "Ampiasao ny rejisitra hijerena izay efa ampahibemaso, na atombohy ny fandraisana raha toa ka lasa tetikasa ny olana azo idirana."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

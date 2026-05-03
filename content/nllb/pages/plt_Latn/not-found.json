@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Tsy hita"
+  },
+  "hero": {
+    "eyebrow": "Tsy hita",
+    "title": "Tsy hita ilay pejy nangatahina",
+    "lead": "Ampiasao ny làlana lehibe etsy ambany mba hiverenana any amin'ny toerana ho an'ny daholobe.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Any an-trano",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Tsy misy ny làlana nangatahinao."
+    ],
+    "items": [
+      {
+        "label": "Any an-trano",
+        "href": "/"
+      },
+      {
+        "label": "Tetikasa",
+        "href": "/projects/"
+      },
+      {
+        "label": "Manatevin-daharana",
+        "href": "/join/"
+      },
+      {
+        "label": "Fahafahana miditra",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Fitantanana",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ny mangarahara",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

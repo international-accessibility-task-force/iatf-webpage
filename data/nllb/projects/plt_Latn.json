@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Tranonkala IATF",
+    "summary": "Tranonkala ho an'ny daholobe an'ilay Vondron'asa Iraisam-pirenena misahana ny Fahafahana miditra.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ilain'ny IATF ny tranom-bahoaka marin-toerana izay manazava ny maodely, mitanisa ireo tetikasa, ary manondro ireo mpandray anjara amin'ny dingana manaraka.",
+    "why": "Ity tranonkala ity no varavarana fidirana ho an'ny daholobe ao amin'ny IATF. Namboarina ho toy ny tetikasa kely tsy miovaova izy io ka mora vakiana, adikaina, ary tazomina eny imasom-bahoaka.",
+    "scopeIn": [
+      "Pejy fampidirana ho an'ny daholobe izay manazava ny maodelin'ny IATF",
+      "Fisoratana anarana ho an'ny daholobe momba ny tetikasa IATF ekena, mavitrika ary voatahiry miaraka amin'ny sata, mpikirakira, tahiry ary fampisehoana",
+      "Pejy fandraisana fangatahana sy endrika",
+      "Pejy momba ny fitantanana sy ny mangarahara",
+      "Loharanom-baovao amin'ny teny anglisy miaraka amina rafitra vonona ho adika",
+      "Fandefasana tsy miovaova amin'ny Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Faritra ho an'ny mpikambana tsy miankina, kaonty, na fikorianan'ny fidirana",
+      "Fampiantranoana ny fehezan-dalàna loharanon'ny tetikasa, izay mipetraka ao amin'ny tahirin-kevitry ny tetikasa tsirairay",
+      "Fifampiresahana amin'ny fotoana tena izy, izay miaina ao Discord",
+      "Fanaraha-maso ny olana ho an'ny tetikasa tsirairay, izay miaina ao amin'ny tahiry GitHub isaky ny tetikasa"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Saripika avy amin'ny IATF",
+    "summary": "Prototype IATF tany am-boalohany, voatahiry taorian'ny nahatratrarana teboka fijanonana voajanahary.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Fikarohana mialoha ny fitaovana mifantoka amin'ny fahazoana miditra eo ambanin'ny elo IATF.",
+    "why": "Ny tahiry dia voatahiry ho an'ny daholobe ho toy ny rakitsoratry ny asa, na dia nijanona aza ny fampandrosoana mavitrika.",
+    "scopeIn": [
+      "Fitaovana iray mifantoka amin'ny fahazoana miditra voatahiry ho toy ny rakitsoratra ho an'ny daholobe"
+    ],
+    "scopeOut": [
+      "Fivoarana mavitrika na asa endri-javatra",
+      "Fanoloran-tena amin'ny fikojakojana",
+      "Ampiasaina amin'ny famokarana"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot iray avy amin'ny vondrom-piarahamonin'ny IATF, voatahiry taorian'ny nahatratrarany ny toerana fijanonana voajanahary.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation manodidina ny fantsom-piarahamonin'ny IATF.",
+    "why": "Ny tahiry dia voatahiry ho an'ny daholobe ho toy ny rakitsoratry ny asa, na dia nijanona aza ny fampandrosoana mavitrika.",
+    "scopeIn": [
+      "Fifandirana mandeha ho azy manodidina ny fantsom-piarahamonina IATF, voatahiry ho rakitsoratra ampahibemaso"
+    ],
+    "scopeOut": [
+      "Fivoarana mavitrika na asa endri-javatra",
+      "Fanoloran-tena amin'ny fikojakojana",
+      "Ampiasaina amin'ny famokarana"
+    ]
+  }
+]

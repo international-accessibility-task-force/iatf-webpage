@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Midira ao amin'ny IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Midira ao amin'ny IATF",
+    "lead": "Misokatra ny maha-mpikambana. Misy fomba maro ahafahana mandray anjara, na miankina amin'ny teknolojia mpanampy ianao, manangana rindrambaiko azo idirana, mandika, mizaha toetra, na mitazona tetikasa. Ny fifanakalozan-kevitra sy ny fanapahan-kevitra dia mitranga ampahibemaso ao GitHub sy Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Andraikitra",
+      "title": "Fomba ahafahana mandray anjara"
+    },
+    "items": [
+      "<strong>Mangataka tetikasa.</strong> Raha sendra sakana amin'ny fahazoana miditra izay mety ho voavahan'ny rindrambaiko loharano misokatra ho an'ny daholobe ianao, alefaso amin'ilay fangatahana fandraisana izany.",
+      "<strong>Fitsapana sy famerenana.</strong> Andramo ny tetikasan'ny IATF miaraka amin'ny teknolojia fanampiana ampiasainao, mitatitra izay mandeha sy izay tsy mandeha, ary apetraho mivantana ao amin'ilay tahiry mifandraika amin'izany ny olana.",
+      "<strong>Mandika teny.</strong> Ny votoatin'ny loharano dia avoaka amin'ny teny Anglisy tsotra aloha.",
+      "<strong>Manangana zavatra.</strong> Mitadiava olana ao amin'ny tahiry IATF, mandefasa fangatahana fisintonana, na mandray tetikasa ho injeniera tompon'andraikitra.",
+      "<strong>Tazomy izany.</strong> Ny tetikasa efa misy indraindray dia mila mpitazona vaovao. Ny fihodinan'ny mpitahiry dia ampahany mahazatra amin'ny maodely, fa tsy ny maningana."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Fantsona",
+      "title": "Izay iasan'ny IATF eny imasom-bahoaka"
+    },
+    "items": [
+      "<strong>Ny GitHub.</strong> Olana, fangatahana fisintonana, famoahana, ary rakitsoratry ny tetikasa.",
+      "<strong>Tsy fitovian-kevitra.</strong> Fifanakalozan-kevitra mivantana, fandrindrana, ary fanontaniana tsy ara-potoana.",
+      "<strong>Hafatra mailaka.</strong> Fampiasana <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> raha tsy mifanaraka na GitHub na Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Dingana manaraka",
+      "title": "Fidio ny fantsona izay mifanaraka amin'ny fomba tianao handraisana anjara"
+    },
+    "paragraphs": [
+      "Ny fantsona rehetra dia miditra amin'ny famerenam-bahoaka sy ny tahiry ho an'ny daholobe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Tetikasa ho an'ny fahafahan'ny daholobe miditra",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Tetikasa ho an'ny fahafahan'ny daholobe miditra",
+    "lead": "Ity lisitra ity dia mitanisa ireo tetikasa ho an'ny daholobe voatazona amin'ny alàlan'ny IATF. Ny tetikasa azo idirana ekena, ny fotodrafitrasan'ny tranokala, ary ny prototypes voatahiry dia hita eto.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Fitehirizam-boky",
+      "title": "Firaketana an-tsoratra amin'izao fotoana izao"
+    },
+    "intro": [
+      "Ny tetikasa nekena dia voatanisa eto raha vantany vao navoaka izy ireo."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Alefaso ny filàna",
+      "title": "Manova ny filàna azo tsapain-tanana ho lasa tetik'asa ho an'ny daholobe"
+    },
+    "paragraphs": [
+      "Ny IATF dia mandinika ny filàna azo idirana azo tsapain-tanana izay azo avadika ho asa loharano misokatra ho an'ny daholobe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Tsy mbola misy tetikasa navoaka",
+    "paragraphs": [
+      "Manomana ny tetikasa voalohany ho an'ny daholobe ny IATF.",
+      "Mbola afaka mandefa fangatahana ianao raha manana filàna azo idirana manokana."
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Fitantanana sy maodelin'ny tahiry",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Fitantanana sy maodelin'ny tahiry",
+    "lead": "Ny IATF dia mitazona ny tetikasan'ny fahazoana miditra ho ampahibemaso, azo vakiana ary azo tazonina.",
+    "support": [
+      "Ity pejy ity dia manazava izay mahafeno fepetra, ny fomba fitehirizana ny tahiry, ary ny andraikitra amin'ny ambaratonga tahiry aorian'ny fanekena."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Fitsipika",
+      "title": "Fifanarahana amin'ny iraka, fananana, fahazoan-dàlana"
+    },
+    "cards": [
+      {
+        "title": "Mifanaraka amin'ny iraka",
+        "paragraphs": [
+          "Ny IATF dia manaiky ny asa izay miatrika sakana tena misy amin'ny fahazoana miditra ary manana sanda mazava ho an'ny daholobe.",
+          "Ny tetikasa iray dia tokony ho mahasoa mihoatra ny fizotry ny asa tsy miankina tokana ary azo ampiasaina ho toy ny tahiry ho an'ny daholobe.",
+          "Ho an'ny fahazoana miditra amin'ny tranonkala, IATF dia mampiasa [W3C WAI](https://www.w3.org/WAI/) Ny traikefa mivantana ananan'ireo mpampiasa ireo teknolojia mpanampy dia porofo azo tsapain-tanana ihany koa ny amin'izay tena mahomby amin'ny fampiasana azy."
+        ]
+      },
+      {
+        "title": "Fankatoavana ny tetikasa",
+        "paragraphs": [
+          "Azo ekena ny tolo-kevitra raha hita amin'ny fandinihana fa:"
+        ],
+        "items": [
+          "mamaly ny tena filàna amin'ny fahazoana miditra izany",
+          "Ny olana dia mazava tsara mba hanombanana",
+          "ny sehatra dia tena zava-misy ampy mba hanombohana",
+          "mifanaraka amin'ny iraka IATF ny asa",
+          "misy làlana azo inoana mankany amin'ny fikojakojana na famaranana"
+        ]
+      },
+      {
+        "title": "Fananana ny tahiry",
+        "paragraphs": [
+          "Ny tetikasa ekena dia noforonina tao anatin'ny fikambanana IATF GitHub.",
+          "Mijanona ao ireo trano fitahirizam-bokatra mba hahafahan'ny tetikasa tsirairay mihazona ny tranom-bahoaka marin-toerana, na dia miova aza ny mpikarakara any aoriana."
+        ]
+      },
+      {
+        "title": "Fanomezana fahazoan-dàlana",
+        "paragraphs": [
+          "Ny tetikasan'ny IATF dia mampiasa fahazoan-dàlana amin'ny alàlan'ny copyleft raha tsy milaza ny mifanohitra amin'izany ny tetikasa:"
+        ],
+        "items": [
+          "<strong>Kaody:</strong> AGPL-3.0",
+          "<strong>Antontan-taratasy:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injeniera tompon'andraikitra na mpikarakara ny fikojakojana",
+      "paragraphs": [
+        "Isaky ny tetikasa ekena dia tokony hisy injeniera tompon'andraikitra na mpihazona voatonona anarana. Mety hahazo fidirana amin'ny fitantanana ny tahiry io olona io ary antenaina fa:"
+      ],
+      "items": [
+        "torolàlana ho an'ny daholobe",
+        "mitazona ny rafitry ny tahiry",
+        "hamerina hijery na hitantana olana ary hisintona fangatahana",
+        "handrakitra ireo fanapahan-kevitra ara-teknika manan-danja",
+        "Ataovy takatry ny hafa ilay tetikasa"
+      ],
+      "footnote": "Ity dia andraikitra amin'ny haavon'ny tahiry. Mijanona ho an'ny IATF ny fananan'ny fikambanana. Ny andraikitra eto dia ny fitantanana ny tahiry, ny torolàlana ara-teknika, ary ny fandrindrana ny besinimaro  tsy ny fanaterana tsy miankina tsy misy fetra, ny fampidirana manokana, na ny fanoloran-tena eo anivon'ny serivisy ivelan'ny tondrozotra ampahibemaso."
+    },
+    "publicDevelopment": {
+      "title": "Fampandrosoana ho an'ny daholobe",
+      "paragraphs": [
+        "Ireo tetikasa natomboka tamin'ny alalan'ny IATF dia novolavolaina ho an'ny daholobe amin'ny alàlan'ny default."
+      ],
+      "items": [
+        "kaody loharano",
+        "olana",
+        "antontan-taratasy",
+        "Fanamarihana momba ny tondrozotra",
+        "Tantaran'ny famoahana"
+      ],
+      "footnote": "Ny fahalalana manan-danja momba ny tetikasa dia tsy tokony hipetraka ao amin'ny chat manokana na boaty."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Rakitra ho an'ny daholobe",
+      "title": "Firaketana fangatahana ampahibemaso"
+    },
+    "paragraphs": [
+      "Ny IATF dia miasa ho an'ny daholobe amin'ny alàlan'ny default.",
+      "Ny rakitsoratry ny fangatahana ampahibemaso dia tsy voatery ho ny hafatra tany am-boalohany. IATF dia afaka mamintina, manitsy, na manamboatra indray ny fangatahana alohan'ny famoahana azy ka ny filàna azo idirana dia azo averina jerena nefa tsy mamoaka fampahalalana manokana tsy ilaina.",
+      "Azo tehirizina ao amin'ny fikambanana IATF GitHub, amin'ity tranonkala ity, na izy roa ireo ny rakitsoratry ny fangatahana ho an'ny daholobe.",
+      "Alohan'ny hamoahana azy, esorin'ny IATF ny antsipirian'ny fifandraisana tsy ilaina, ny adiresy manokana, ary ny fampahafantarana ireo antsipiriany momba ny mpampiasa tsirairay ny teknolojia mpanampy raha tsy hoe natao mazava sy mety ny famoahana azy.",
+      "Ny fifandirana dia ampiasaina ho an'ny fandrindrana tsy ara-dalàna. IATF dia tsy mitahiry misaraka ny fifampiresahana Discord amin'ny alàlan'ny default, ary ny fitazonana ny hafatra dia fehezin'ny Discord.",
+      "Ny rakitsoratry ny fangatahana dia tsy tafiditra ao amin'ny fanondroana ny motera fikarohana raha azo ampiharina ara-teknika.",
+      "Ny IATF dia afaka manavao na manaisotra ireo rakitsoratra avy amin'ny sehatra ho an'ny daholobe fehezin'ny IATA, saingy tsy afaka manome antoka ny fanesorana azy ireo amin'ireo cache, fampandrenesana, forks, pikantsary, fitaovam-pikarohana, Discord, na rafitra ivelany hafa.",
+      "Raha mila mijanona ho tsiambaratelo ny hafatra iray dia aza alefa amin'ny alàlan'ny fantsona IATF ampahibemaso."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Andraikitry ny fandaminana",
+      "title": "Filoha"
+    },
+    "lead": "Ny filoha dia mitantana ny IATF amin'ny ambaratonga fandaminana. Tsy mitovy amin'ilay injeniera tompon'andraikitra isaky ny tetikasa izany: ny filoha dia tompon'andraikitry ny fikambanana iray manontolo, fa tsy ny fitarihana isan'andro ny tahiry tokana.",
+    "duties": {
+      "title": "Inona no ataon'ilay seza?",
+      "items": [
+        "Mihazona ny fahazoan-dàlana ho an'ny tompony ao amin'ny fikambanana IATF GitHub",
+        "Manao sonia ny fanekena ny tetikasa sy ny fanapahan-kevitra momba ny fitehirizana",
+        "Miasa ho toy ny teboka fifandraisana ampahibemaso ho an'ny IATF",
+        "Mandrindra ny fifidianana fanao isan-taona"
+      ],
+      "footnote": "Ny filoham-pirenena dia tsy manery ny IATF amin'ny fanaterana tsy miankina, ny asa karama, na ny fifanarahana momba ny haavon'ny serivisy, ary tsy manitsakitsaka ny fanapahan-kevitry ny mpihazona isaky ny repository momba ny torolàlana ara-teknika."
+    },
+    "election": {
+      "title": "Fifidianana fanao isan-taona",
+      "paragraphs": [
+        "Voafidy indray mandeha isan-taona ny filohan'ny filankevi-pitantanana. Ny fifidianana dia atao ao anatin'ny tapa-bolana voalohany amin'ny volana Desambra, ambara ny 15 Desambra ny voka-pifidianana, ary manomboka ny 1 Janoary ny fe-potoam-piasana vaovao.",
+        "Ny mpifidy mendrika dia olona izay nitana andraikitra amin'ny fikojakojana ny tahiry IATF nandritra ny taona ary nanao fandraisana anjara natambatra farafahakeliny ho an'ny tahirin'ny IATf tamin'io taona io. Ny mpilatsaka hofidina manana vato iray. Mandresy ny kandidà manana vato betsaka indrindra; raha sendra misy fifamatorana, dia atao ny fihodinana fahatelo ny herinandro fahatelon'ny volana Desambra.",
+        "Ny fifidianana dia tanterahina ho toy ny fifanakalozan-kevitra GitHub ampahibemaso ao amin'ny tahiry fitantanana IATF voatondro, noho izany ny kandidà, ny latsa-bato, ary ny vokatra dia anisan'ny rakitsoratry ny daholobe."
+      ]
+    },
+    "continuity": {
+      "title": "Fitohizan'ny asa",
+      "paragraphs": [
+        "Raha tsy misy fifidianana atao ao anatin'ny taona iray, ny filoha amin'izao fotoana izao dia mitohy amin'ny anjara asany mandra-pahatongan'ny fifidianana manaraka. Fitohizan'ny fotoana tsy voafetra izany, fa tsy fe-potoana fialantsasatra  ny maodely dia natao hitazomana ny fandaminana ho marin-toerana rehefa ambany ny hetsika, tsy hanery ny tetezamita izay tsy misy vonona.",
+        "Ny filoha dia afaka miala amin'ny fotoana rehetra. Ny mpikarakara mavitrika dia afaka miantso fifidianana tsy ara-potoana ihany koa miaraka amina antony voalaza, mandeha araka ny fitsipika mitovy amin'ireo fifidianana isan-taona."
+      ]
+    },
+    "current": {
+      "title": "Filoha amin'izao fotoana izao",
+      "fields": [
+        {
+          "label": "Filoha",
+          "value": "mpifanolobodirindrina",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Fe-potoana",
+          "value": "Mandra-pahatongan'ny fifidianana amin'ny Desambra 2026"
+        },
+        {
+          "label": "Natao ho ara-dalàna ny anjara asany",
+          "value": "2026"
+        },
+        {
+          "label": "Fifidianana voatondro voalohany",
+          "value": "Desambra 2026"
+        }
+      ]
+    },
+    "footnote": "Tamin'ny taona 2026 no natao ofisialy ny andraikitry ny filohan'ny fikambanana mba hanazavana mazava ny fitantanana eo amin'ny sehatry ny fikambanana."
+  },
+  "continuity": {
+    "states": {
+      "title": "Toetran'ny tetikasa",
+      "paragraphs": [
+        "Mampiasa andiam-panjakana kely ny tetikasa:"
+      ],
+      "items": [
+        "Tolo-kevitra",
+        "Nankatoavina",
+        "Mavitrika",
+        "Milamina",
+        "Mitady mpikarakara",
+        "Voatahiry"
+      ],
+      "footnote": "Ireo fanjakana ireo dia manamora ny fandinihana ny rejisitra."
+    },
+    "reassignment": {
+      "title": "Fanendrena indray sy fitehirizana",
+      "paragraphs": [
+        "Raha miala na tsy mavitrika intsony ny mpanara-maso iray, dia azon'ny IATF atao ny mamindra andraikitra, mampiato ny fampandrosoana, na manangona ny tetikasa.",
+        "Azo arovana ihany koa ny tetikasa iray rehefa tratra ny filàna tany am-boalohany, nijanona ny fikojakojana, na tsy azo tanterahina intsony ny asa mitohy."
+      ],
+      "footnote": "Mijanona ho hitan'ny besinimaro ireo tetikasa voatahiry raha tsy misy antony matotra hanaovana zavatra hafa."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Fanamarihana momba ny sisintany",
+      "title": "Inona no tsy iantohan'ny IATF"
+    },
+    "items": [
+      "fanaterana ho an'ny mpanjifa tsy miankina",
+      "fifanarahana amin'ny haavon'ny tolotra",
+      "fanekena ny tolo-kevitra rehetra",
+      "fikojakojana maharitra ho an'ny tetikasa tsirairay"
+    ],
+    "footnote": "Modely fitehirizam-bokatra ho an'ny daholobe ny IATF, fa tsy tolotra fanaterana tsy miankina."
+  }
+}

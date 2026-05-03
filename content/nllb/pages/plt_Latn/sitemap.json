@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sarintanin'ny tranokala"
+  },
+  "hero": {
+    "eyebrow": "Fanondroana",
+    "title": "Sarintanin'ny tranokala",
+    "lead": "Ny pejy ho an'ny daholobe rehetra ao amin'ny iatf.cc, toerana iray."
+  },
+  "sections": [
+    {
+      "title": "Pejy lehibe",
+      "items": [
+        {
+          "label": "Any an-trano",
+          "href": "/"
+        },
+        {
+          "label": "Tetikasa",
+          "href": "/projects/"
+        },
+        {
+          "label": "Mangataka tetikasa",
+          "href": "/propose/"
+        },
+        {
+          "label": "Fitantanana",
+          "href": "/governance/"
+        },
+        {
+          "label": "Manatevin-daharana",
+          "href": "/join/"
+        },
+        {
+          "label": "Fahafahana miditra",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ny mangarahara",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Tetikasa",
+  "projectsEmpty": "Tsy mbola misy tetikasa navoaka."
+}

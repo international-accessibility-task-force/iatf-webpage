@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Fahafahana miditra",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Fahafahana miditra",
+    "lead": "Ny IATF dia mikendry ny hitazona ity tranonkala ity ho tsotra, azo vakiana, azo idirana amin'ny fitendry, ary mifanaraka amin'ireo teknolojia mpanampy.",
+    "support": [
+      "Ho an'ny fahazoana miditra amin'ny tranonkala, IATF dia mampiasa [W3C WAI](https://www.w3.org/WAI/) Amin'ny alalan'ny traikefa mivantana ananan'ireo mpampiasa ireo teknolojia mpanampy ihany koa ny fahazoana miditra amin'ny fomba azo ampiharina."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Fanamarihana",
+      "title": "Ampahafantaro ny olana momba ny fahazoana miditra"
+    },
+    "paragraphs": [
+      "Raha mahita sakana amin'ny fahazoana miditra amin'ity tranonkala ity ianao, azafady mba ampahafantaro izany amin' ny alalan'ny mailaka:",
+      "{{contact.accessibilityEmail}}",
+      "Ireto ny tatitra mahasoa:"
+    ],
+    "items": [
+      "ny pejy izay nitrangan'ny olana",
+      "izay notadiavinao hatao",
+      "izay teknolojia mpanampy, navigateur, na fitaovana ampiasainao, raha ilaina",
+      "Inona no tsy nety?",
+      "inona no mety ho nanampy"
+    ],
+    "footnote": "Tsy mila manoratra tatitra ofisialy momba ny bibikely ianao. Ampy izay ny famaritana mazava."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Fitaovana",
+      "title": "Famahana olana ho an'ny daholobe"
+    },
+    "paragraphs": [
+      "Azo atao ny mamintina ireo olana momba ny fahazoana miditra ao amin'ny tahiry ho an'ny daholobe mifandraika amin'izany mba hahafahan'izy ireo manamboatra azy ireo misokatra. Ny antsipirian'ny fifandraisana manokana sy ny fampahalalana tsy miankina tsy ilaina dia esorina alohan'ny famoahana.",
+      "Raha misy fampahalalana manokana ao amin'ny tatitra ataonao, dia lazao mazava tsara izany ao anatin'ny hafatrao."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Toe-javatra misy amin'izao fotoana izao",
+      "title": "Famerana fantatra"
+    },
+    "paragraphs": [
+      "Ity tranonkala ity dia natao ho kely sy tsy miovaova. Mety ho tsy feno ny dikanteny amin'ny fiteny sasany raha mbola eo am-panomanana ny fandikan-teny."
+    ]
+  }
+}

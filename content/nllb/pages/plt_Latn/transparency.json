@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Ny mangarahara",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Ny mangarahara",
+    "lead": "Ny IATF dia miasa ho an'ny daholobe amin'ny alàlan'ny default. Ny fanapahan-kevitry ny tetikasa, ny fiovan'ny kaody, ny fanovana ny fitantanana, ary ny vidin'ny fandidiana dia voarakitra ao amin'ireo toerana ampahibemaso. Ity pejy ity dia mitanisa ny toerana misy ny karazana rakitsoratra tsirairay sy ny fomba famakiana azy.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Fanamarihana",
+      "title": "Aiza no misy ny rakitsoratra?"
+    },
+    "items": [
+      "<strong>Fanapahan-kevitra momba ny tetikasa.</strong> Ny fanapahan-kevitra momba ny fanekena, ny fitahirizana ary ny famindrana dia voarakitra ho toy ny olana na famoahana ao amin'ny tahiry mifandraika amin'izany, ary fintinina ao anaty rejisitra ho an'ny daholobe. <a href=\"/projects/\">fisoratana anarana</a>... amin'ny alalan'ny",
+      "<strong>Angataho ny rakitsoratra.</strong> Ny rakitsoratry ny fangatahana ampahibemaso dia voatahiry ao amin'ny fikambanana IATF GitHub, amin'ity tranonkala ity, na izy roa. Mety hamintina, hanitsy, na hamerina ny fangatahana tany am-boalohany ny rakitsoratra mba hahafahana mamerina mijery ny filàna fidirana nefa tsy mamoaka fampahalalana manokana tsy ilaina. Ny fanapahan-kevitry ny tsy fitovian-kevitra dia voafintina ao anatin'ny firaketana ho an'ny daholobe rehefa misy fiatraikany amin'ireo tetikasa na fanapahan-kevitra momba ny fitantanana. Ny rakitra fangatahana dia nesorina tamin'ny fanondroan'ny motera fikarohana raha azo ampiharina ara-teknika. Hijery rakitra: fangatahana famoahana voalohany miandry.",
+      "<strong>Miova ny fehezan-dalàna.</strong> Ny fanovana kaody rehetra dia fanekena ampahibemaso ao amin'ny tahiry mifandraika amin'izany. Jereo ny IATF <a href=\"{{contact.githubOrgUrl}}\">Fikambanana GitHub</a>... amin'ny alalan'ny",
+      "<strong>Fiovana eo amin'ny fitantanana.</strong> Ny fanavaozam-baovao ao amin'ny pejin'ny fitantanana dia arahana ho toy ny fanoloran-tena ho an'ny <code>tranonkalan'ny IATF</code> Jereo ny <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Tantaran'ny fanoloran-tena</a> ao amin'ny GitHub.",
+      "<strong>Ny fandaniana amin'ny asa.</strong> Ny IATF dia mitazona ny vidin'ny fandidiana ambany ary mirakitra ny fandaniana amin'ny fotodrafitrasa ho an'ny daholobe miverimberina.",
+      "<strong>Fanamarihana momba ny fandrindrana.</strong> Fanamarihana avy amin'ny famerenana na fanapahan-kevitra mifandrindra mivantana ao amin'i GitHub Fifanakalozan-kevitra momba ny tahiry mifandraika amin'izany  View <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Fifanakalozan-kevitra</a> amin'ny <code>tranonkalan'ny IATF</code> fitehirizana."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Fandaniam-bola",
+      "title": "Fanamarihana momba ny fandaniana amin'ny asa"
+    },
+    "paragraphs": [
+      "Ny IATF dia mitazona ny fotodrafitrasa ho an'ny daholobe amin'ny toerana kely. Hatramin'ny taona 2022, ny vidin'ny fandidiana miverimberina dia ny anaran'ny sehatra. Ny fampiantranoana dia nampiasa foto-drafitrasa maimaim-poana na mora vidy raha azo atao.",
+      "Ity rakitsoratra ity dia tsy fanambarana ara-bola voamarina fa rakitsoratry ny vidin'ny fandidiana ampahibemaso ho an'ny fotodrafitrasa ampiasaina hitazomana ny IATF amin'ny Internet."
+    ],
+    "footnote": "Ny adiresy manokana, ny antsipirian'ny faktiora, ary ny fampahalalana momba ny kaonty tsy ilaina dia tsy ao anatin'ny firaketana ampahibemaso.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Sehatra",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Vidiny",
+            "value": "3,40 dolara amerikana"
+          },
+          {
+            "label": "Fanamarihana",
+            "value": "Ny tetikasa dia nifindra avy any Vercel ho any Cloudflare ary nanomboka nampiasa ny fotoana fohy kokoa <code>iatf.cc</code> faritany."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Sehatra",
+            "value": "<code>ny fahafahana miditra iraisam-pirenena ao amin'ny taskforce.com</code>"
+          },
+          {
+            "label": "Vidiny",
+            "value": "18,68 dolara amerikana"
+          },
+          {
+            "label": "Fanamarihana",
+            "value": "Ny vidin'ny sehatra dia vatsian'ny mugiwarafx. Ny fampiantranoana dia mampiasa fotodrafitrasa maimaim-poana na mora vidy."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Sehatra",
+            "value": "<code>ny fahafahana miditra iraisam-pirenena ao amin'ny taskforce.com</code>"
+          },
+          {
+            "label": "Vidiny",
+            "value": "17,06 dolara amerikana"
+          },
+          {
+            "label": "Fanamarihana",
+            "value": "Ny vidin'ny sehatra dia vatsian'ny mugiwarafx. Ny fampiantranoana dia mampiasa fotodrafitrasa maimaim-poana na mora vidy amin'ny alàlan'ny Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Sehatra",
+            "value": "<code>ny fahafahana miditra iraisam-pirenena ao amin'ny taskforce.com</code>"
+          },
+          {
+            "label": "Vidiny",
+            "value": "14,76 dolara amerikana"
+          },
+          {
+            "label": "Fanamarihana",
+            "value": "Ny vidin'ny sehatra dia vatsian'ny mugiwarafx. Ny fampiantranoana dia mampiasa fotodrafitrasa maimaim-poana na mora vidy."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Sehatra",
+            "value": "<code>ny fahafahana miditra iraisam-pirenena ao amin'ny taskforce.com</code>"
+          },
+          {
+            "label": "Vidiny",
+            "value": "7,76 dolara amerikana"
+          },
+          {
+            "label": "Fanamarihana",
+            "value": "Ny vidin'ny sehatra dia vatsian'ny mugiwarafx. Ny fampiantranoana dia mampiasa fotodrafitrasa maimaim-poana na mora vidy amin'ny alàlan'ny Pejy GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Fanamarihana momba ny sisintany",
+      "title": "Izay tsy ampahibemaso"
+    },
+    "paragraphs": [
+      "Ny fitaovana sasany dia tazonina ivelan'ny firaketana an-tsoratra ho an'ny daholobe amin'ny tanjona:"
+    ],
+    "items": [
+      "Ny antsipirian'ny fifandraisan'ny olona manolotra tolo-kevitra.",
+      "Taratasy manokana ampiasaina fotsiny mba hanazavana ny fangatahana alohan'ny handraisana azy, ny fandavana azy, na ny famintinana azy.",
+      "Adiresy manokana, nomeraon-telefaona, ary antsipirihany tsy ilaina.",
+      "Na inona na inona mety hamantarana ny mpampiasa tsirairay amin'ny teknolojia mpanampy tsy misy fanekena.",
+      "Ny fifampiresahana Raw Discord, raha tsy hoe misy hafatra manokana afindra amin'ny rakitsoratry ny tetikasa ampahibemaso."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Vakio ny tohiny",
+      "title": "Ny fitantanana no boky fitsipika ao ambadik'ireo rakitsoratra ireo"
+    },
+    "paragraphs": [
+      "Raha te-hahatakatra ny fomba fanekena ny tetikasa, ny fitahirizana azy, na ny fanendrena azy indray ianao, vakio ny pejy fitantanana."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}
