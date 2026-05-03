@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "مشاريع إمكانية الوصول للجمهور",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "مشاريع إمكانية الوصول للجمهور",
+    "lead": "هاد التسجيل يدرج المشاريع العامة التي يتم الاحتفاظ بها من خلال IATF. مشاريع إمكانية الوصول المقبولة، البنية التحتية للموقع، والنموذج الأولي المحفوظ يبقى مرئي هنا.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "السجل",
+      "title": "السجل الحالي"
+    },
+    "intro": [
+      "المشاريع المقبولة تم إدراجها هنا بمجرد نشرها."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "صيفط حاجة",
+      "title": "تحويل حاجة ملموسة في إمكانية الوصول إلى مشروع عام"
+    },
+    "paragraphs": [
+      "الـIATF كايستعرض احتياجات الوصول الملموسة التي يمكن تحويلها إلى عمل مفيد مفتوح المصدر."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ماكاينش مشاريع منشورة لحد دابا",
+    "paragraphs": [
+      "إيه إيه تي إف كانت تحضر أول مجموعة من المشاريع العامة.",
+      "يمكن ليك لا تزال ترسل الطلب إذا كان عندك حاجة ملموسة للوصول."
+    ]
+  }
+}

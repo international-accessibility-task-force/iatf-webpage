@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ما تلقيتش"
+  },
+  "hero": {
+    "eyebrow": "ما تلقيتش",
+    "title": "الصفحة المطلوبة ما تلقاتش",
+    "lead": "استخدمو الطرقات الرئيسية للاسفل باش ترجعوا للموقع العام.",
+    "support": [],
+    "actions": [
+      {
+        "label": "الديار",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "الطريق اللي طلبتيه ما كاينش."
+    ],
+    "items": [
+      {
+        "label": "الديار",
+        "href": "/"
+      },
+      {
+        "label": "المشاريع",
+        "href": "/projects/"
+      },
+      {
+        "label": "انضم",
+        "href": "/join/"
+      },
+      {
+        "label": "إمكانية الوصول",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "الحوكمة",
+        "href": "/governance/"
+      },
+      {
+        "label": "الشفافية",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "موقع الـIATF على الانترنت",
+    "summary": "الموقع العام لفريق العمل الدولي للوصول.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "إيه إيه تي إف كان يحتاج لبيت عام ثابت يشرح النموذج، يدرج المشاريع، ويشير للمساهمين في الخطوة التالية الصحيحة.",
+    "why": "الموقع هو الباب الرئيسي للجمهور في IATF. تم بناؤه كمشروع ثابت صغير حتى يبقى سهل القراءة والترجمة والصيانة في الأماكن المفتوحة.",
+    "scopeIn": [
+      "الصفحات العامة التي تشرح نموذج IATF",
+      "السجل العام للمشاريع المعتمدة والنشطة والمحفوظة من قبل الـ IATF مع الوضع، والحافظ، والمستودع، والتجريبي",
+      "صفحة و نموذج لاستقبال الطلب",
+      "صفحات الحوكمة والشفافية",
+      "المصدر باللغة الإنجليزية مع الهيكل جاهز للترجمة",
+      "التنفيذ الثابت على الأصول الثابتة لموظفي Cloudflare"
+    ],
+    "scopeOut": [
+      "مناطق الأعضاء الخاصة، الحسابات، أو تدفقات الدخول",
+      "استضافة الشفرة المصدرة للمشروع، والتي تعيش في مستودع كل مشروع",
+      "دردشة في الوقت الفعلي، اللي تعيش في ديسكورد",
+      "تعقب المسائل للمشاريع الفردية، واللي كايعيش في مستودع GitHub لكل مشروع"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "سلفي IATF",
+    "summary": "نموذج أولي مبكر من IATF، تم حفظه بعد الوصول إلى نقطة التوقف الطبيعية.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "الاستكشاف المبكر لأداة تركز على إمكانية الوصول تحت مظلة IATF.",
+    "why": "المحفوظات تبقى عامة على أنها سجل للعمل، على الرغم من توقف التطوير النشط.",
+    "scopeIn": [
+      "نموذج أولي مبكر من أداة تركز على إمكانية الوصول يتم الاحتفاظ بها كسجل عام"
+    ],
+    "scopeOut": [
+      "التطوير النشط أو العمل على الميزات",
+      "التزامات الصيانة",
+      "الاستخدام الموصى به في الإنتاج"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "إيه إيه تي إف",
+    "summary": "ربوت مجتمع IATF، تم حفظه بعد ما وصل إلى نقطة التوقف الطبيعية.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "التشغيل الآلي حول قنوات مجتمع IATF.",
+    "why": "المحفوظات تبقى عامة على أنها سجل للعمل، على الرغم من توقف التطوير النشط.",
+    "scopeIn": [
+      "أتمتة الخلاف حول قنوات مجتمع IATF، احتفظت بسجل عام"
+    ],
+    "scopeOut": [
+      "التطوير النشط أو العمل على الميزات",
+      "التزامات الصيانة",
+      "الاستخدام الموصى به في الإنتاج"
+    ]
+  }
+]
