@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "פּובליק אַקסעססיביליטי פּראַדזשעקס",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "פּובליק אַקסעססיביליטי פּראַדזשעקס",
+    "lead": "דעם רעגיסטרי רשימות עפנטלעך פּראַדזשעקס מיינטיינד דורך IATF. אנגענומען אַקסעסיביליטי פּראַזשעקס, פּלאַץ ינפראַסטראַקטשער, און אַרטשיוועד פּראָוטאַטייפּס זענען געהאלטן קענטיק דאָ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "רעגיסטרי",
+      "title": "קראַנט רעגיסטרי"
+    },
+    "intro": [
+      "אנגענומען פּראַדזשעקס זענען ליסטעד דאָ אַמאָל זיי זענען ארויס."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "פאָרלייגן אַ נויט",
+      "title": "טורנס אַ באַטאָנען אַקסעסיביליטי דאַרפֿן אין אַ ציבור פּרויעקט"
+    },
+    "paragraphs": [
+      "IATF ריוויוז באַטייַטיק אַקסעסאַביליטי באדערפענישן וואָס קענען זיין פארקערט אין נוציק עפנטלעך עפענען מקור אַרבעט."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "קיין פּראַדזשעקס דערווייַל ארויס",
+    "paragraphs": [
+      "IATF איז פּריפּערינג זייַן ערשטער עפנטלעך פּרויעקט שטעלן.",
+      "איר קענט נאָך שיקן אַ בקשה אויב איר האָט אַ באַטייטיק אַקסעסאַביליטי נויט."
+    ]
+  }
+}

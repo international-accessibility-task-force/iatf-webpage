@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "נישט געפונען"
+  },
+  "hero": {
+    "eyebrow": "נישט געפונען",
+    "title": "די פארלאנגטע בלאט איז נישט געפונען געווארן",
+    "lead": "ניצט די הויפּט ראָוטעס אונטן צו צוריקקומען צו דעם ציבור פּלאַץ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "היים",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "די רוט וואָס איר האָט געבעטן עקזיסטירט נישט."
+    ],
+    "items": [
+      {
+        "label": "היים",
+        "href": "/"
+      },
+      {
+        "label": "פּראַדזשעקס",
+        "href": "/projects/"
+      },
+      {
+        "label": "פאַרבינדן",
+        "href": "/join/"
+      },
+      {
+        "label": "צוטריטלעכקייט",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "גאַווערנאַנס",
+        "href": "/governance/"
+      },
+      {
+        "label": "טראַנספּאַרענסי",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

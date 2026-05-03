@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "פּלאַץ מאַפּע"
+  },
+  "hero": {
+    "eyebrow": "אינדעקס",
+    "title": "פּלאַץ מאַפּע",
+    "lead": "יעדער עפנטלעך בלאַט אויף iatf.cc, אין איין אָרט."
+  },
+  "sections": [
+    {
+      "title": "הויפט בלעטער",
+      "items": [
+        {
+          "label": "היים",
+          "href": "/"
+        },
+        {
+          "label": "פּראַדזשעקס",
+          "href": "/projects/"
+        },
+        {
+          "label": "בעטן אַ פּרויעקט",
+          "href": "/propose/"
+        },
+        {
+          "label": "גאַווערנאַנס",
+          "href": "/governance/"
+        },
+        {
+          "label": "פאַרבינדן",
+          "href": "/join/"
+        },
+        {
+          "label": "צוטריטלעכקייט",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "טראַנספּאַרענסי",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "פּראַדזשעקס",
+  "projectsEmpty": "קיין פּראַדזשעקס ארויס נאָך."
+}
