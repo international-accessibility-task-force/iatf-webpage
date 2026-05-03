@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indici",
+    "title": "Sitemap",
+    "lead": "Cada pagina publica sus iatf.cc, dins un sol luòc."
+  },
+  "sections": [
+    {
+      "title": "Paginas principalas",
+      "items": [
+        {
+          "label": "Cap a l'ostal",
+          "href": "/"
+        },
+        {
+          "label": "Projèctes",
+          "href": "/projects/"
+        },
+        {
+          "label": "Demandar un projècte",
+          "href": "/propose/"
+        },
+        {
+          "label": "Governança",
+          "href": "/governance/"
+        },
+        {
+          "label": "Junhètz-vos",
+          "href": "/join/"
+        },
+        {
+          "label": "Accessibilitat",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparéncia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projèctes",
+  "projectsEmpty": "Cap de projècte publicat encara."
+}

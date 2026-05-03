@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governança e modèl de repertòri",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governança e modèl de repertòri",
+    "lead": "L'IATF manten los projèctes d'accessibilitat publics, legibles, e mantenguts.",
+    "support": [
+      "Aquesta pagina explica çò que califica, cossí los archius son tenguts, e quina responsabilitat al nivèl del archiu s'aplica aprèp l'acceptacion."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reglaments",
+      "title": "Aplicacion de la mission, proprietat, autorizacion"
+    },
+    "cards": [
+      {
+        "title": "Mission adaptada",
+        "paragraphs": [
+          "L'IATF accepta lo trabalh qu'adreça una barrièra d'accessibilitat reala e qu'a una valor publica clara.",
+          "Un projècte deu èsser util al delà d'un sol flux de trabalh privat e fonciona coma un repertòri public.",
+          "Per l'accessibilitat web, l'IATF utiliza [W3C WAI](https://www.w3.org/WAI/) L'experiéncia dirècta dels utilizaires de las tecnologias d'assisténcia es tanben una evidéncia practica de çò que fonciona dins l'utilizacion reala."
+        ]
+      },
+      {
+        "title": "Acceptacion del projècte",
+        "paragraphs": [
+          "Una proposicion pòt èsser acceptada quand l'analisi mòstra que:"
+        ],
+        "items": [
+          "respond a un besonh vertadièr d'accessibilitat",
+          "lo problèma es pro clar per l'evaluar",
+          "la portada es pro realista per lançar",
+          "lo trabalh s'alinha amb la mission de l'IATF",
+          "Existís un camin plausible cap a la mantenença o a l'acabament"
+        ]
+      },
+      {
+        "title": "Proprietat del repertòri",
+        "paragraphs": [
+          "Los projèctes acceptats son creats jos l'organizacion IATF GitHub.",
+          "Los archius demoran aquí perque cada projècte garda un ostal public estable, quitament se los manteneires cambian mai tard."
+        ]
+      },
+      {
+        "title": "Licéncia",
+        "paragraphs": [
+          "Los projèctes IATF utilizan las licéncias copyleft levat se un projècte indica lo contrari:"
+        ],
+        "items": [
+          "<strong>Còde:</strong> AGPL-3.0",
+          "<strong>Documentacion:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Engenhaire o manteneire responsable",
+      "paragraphs": [
+        "Cada projècte acceptat deuriá aver un engenhaire o manteneire responsable nomenat."
+      ],
+      "items": [
+        "Guida de desvolopament en public",
+        "manténer l'estructura del repertòri",
+        "revisar o gerir los problèmas e traire las demandas",
+        "documentar las decisions tecnicas importantas",
+        "far comprene lo projècte als autres"
+      ],
+      "footnote": "La responsabilitat aquí es l'administracion del repertòri, la direccion tecnica, e la coordinacion publica  pas la distribucion privada illimitada, las integracions personalizadas, o los engatjaments al nivèl del servici fòra de la mapa de camin publica."
+    },
+    "publicDevelopment": {
+      "title": "Desvolopament public",
+      "paragraphs": [
+        "Los projèctes lançats a travèrs de l'IATF son desvolopats en public per defaut."
+      ],
+      "items": [
+        "Còde font",
+        "tèmas",
+        "documentacion",
+        "Notas sus la mapa de camin",
+        "Istoric de liberacion"
+      ],
+      "footnote": "Las coneissenças importantas del projècte devon pas viure sonque dins de chats privats o de caissas de dintrada."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registres publics",
+      "title": "Registres publics de demanda"
+    },
+    "paragraphs": [
+      "L'IATF fonciona en public per defaut. las requèstas que dintran dins IATF a travèrs lo site, e-mail, Discord, GitHub, o d'autres canals de l'IATF pòdon venir de registres de requèsta publics.",
+      "Un registre public de demanda es pas necessàriament lo messatge original. l'IATF pòt resumir, redigir, o reestructurar una demanda abans la publicacion per que la necessitat d'accessibilitat siá revisada sens expausar d'informacions personalas innecessàrias.",
+      "Los registres de las demandas publicas pòdon èsser emmagazinats dins l'organizacion GitHub de l'IATF, sus aqueste sit web, o los dos.",
+      "Abans la publicacion, l'IATF suprimís las donadas de contacte personalas innecessàrias, las adreças privadas, e los detalhs d'identificacion dels utilizaires individuals de las tecnologias d'assisténcia levat s'aquela publicacion es clarament prevista e apropriada.",
+      "Discord es utilizat per la coordinacion informala. IATF archiva pas separatament las conversacions de Discord per defaut, e la retencion del messatge es contrarotlada per Discord.",
+      "Los registres de demanda son exclusits de l'indexacion del motor de recèrca quand es tecnicament practic.",
+      "L'IATF pòt actualizar o suprimir d'enregistraments de las superfícias publicas contrarotladas per IATF, mas pòt pas garantir la supression de las cache, notificacions, forks, screenshots, motors de recèrca, Discord, o autres sistèmas extèrnes.",
+      "Se un messatge deu demorar privat, l'enviatz pas pel canal public de l'IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ròtle organizacional",
+      "title": "Presidéncia"
+    },
+    "lead": "Lo president ten l'administracion a nivèl organizacion de l'IATF. Aquò es diferent del ròtle d'engenhaire responsable per projècte: lo president es responsable per l'organizacion entièra, pas per la direccion quotidiana d'un sol repertòri.",
+    "duties": {
+      "title": "Çò que fa la cadièra",
+      "items": [
+        "Ten las autorizacions del proprietari sus l'organizacion GitHub de l'IATF",
+        "Signatura de las decisions d'acceptacion dels projèctes e d'archivacion",
+        "Agís coma punt de contacte public per l'IATF",
+        "Coordina l'eleccion annadièra"
+      ],
+      "footnote": "Lo president engatja pas l'IATF dins la realizacion privada, lo trabalh remunerat, o los acòrdis de nivèl de servici, e contraròtla pas las decisions per manteneire de repertòri sus l'orientacion tecnica."
+    },
+    "election": {
+      "title": "Eleccion annadièra",
+      "paragraphs": [
+        "Lo president es elegit un còp l'an. L'eleccion se debana dins las doas primièras setmanas de decembre.",
+        "Los votants elegibles son las personas qu'aguèron un ròtle de manteneire sus un repertòri de l'IATF pendent l'an e faguèron al mens una contribucion fusionada a l'iATF d'aquel an. Cada votant elegible a un vòte. Lo candidat amb mai de vòtes ganha; en cas d'egalitat, un segond torn se debana dins la tresena setmana de decembre.",
+        "L'eleccion se fa coma una Discussion GitHub publica dins lo repositòri de governança IATF designat, doncas los candidats, lo vòte, e lo resultat fan totes partida del registre public."
+      ]
+    },
+    "continuity": {
+      "title": "Continuitat",
+      "paragraphs": [
+        "Se pas cap d'eleccion se debana dins una annada donada, lo president actual contunha dins lo ròtle fins a las eleccions seguentas. Aquò es una continuacion indefinida, pas un periòde de gràcia  lo modèl es concebut per manténer l'organizacion establa quand l'activitat es bassa, pas per forçar una transicion que degun es pas prèst.",
+        "Lo president pòt demissionar a quin moment que siá. Los manteneires actius pòdon tanben cridar una eleccion extraordinària amb una rason declarada, menada jos las meteissas règlas que l'eleccion annadièra."
+      ]
+    },
+    "current": {
+      "title": "Presidéncia actuala",
+      "fields": [
+        {
+          "label": "Presidéncia",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tèrme",
+          "value": "Fins a las eleccions de decembre de 2026"
+        },
+        {
+          "label": "Ròtle formalizat",
+          "value": "2026"
+        },
+        {
+          "label": "Primièra eleccion programada",
+          "value": "Decembre de 2026"
+        }
+      ]
+    },
+    "footnote": "Lo ròtle de president foguèt formalizat en 2026 per far l'administracion al nivèl de l'organizacion explicita."
+  },
+  "continuity": {
+    "states": {
+      "title": "Estat del projècte",
+      "paragraphs": [
+        "Los projèctes utilizan un pichon ensems d'estats publics:"
+      ],
+      "items": [
+        "Proposicion",
+        "Acceptat",
+        "Actiu",
+        "Establa",
+        "Cercant manteneire",
+        "Archiviat"
+      ],
+      "footnote": "Aqueles estats gardan lo registre aisit d'escanejar."
+    },
+    "reassignment": {
+      "title": "Reassignacion e archivacion",
+      "paragraphs": [
+        "Se un manteneire se retira o ven inactiu, l'IATF pòt reassignar la responsabilitat, pausar lo desvolopament, o archivar lo projècte.",
+        "Un projècte pòt tanben èsser archivat quand lo besonh original es estat satisfach, la mantenença s'arrestèt, o lo trabalh contunhat es pas mai realista."
+      ],
+      "footnote": "Los projèctes archivats demòran publicament visibles levat s'i a una rason complèxa per far autrament."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota de limitacion",
+      "title": "Çò que l'IATF garantís pas"
+    },
+    "items": [
+      "liuracion de client privat",
+      "acòrds de nivèl de servici",
+      "l'acceptacion de cada proposicion",
+      "la mantenença a long tèrme per cada projècte"
+    ],
+    "footnote": "L'IATF es un modèl de repertòri public, pas un servici de distribucion privat."
+  }
+}

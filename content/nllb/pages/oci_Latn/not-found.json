@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Pas trobat"
+  },
+  "hero": {
+    "eyebrow": "Pas trobat",
+    "title": "La pagina demandada es pas estada trobada",
+    "lead": "Utilizatz las rotas principalas per tornar al site public.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Cap a l'ostal",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "La rota que demandatz existís pas."
+    ],
+    "items": [
+      {
+        "label": "Cap a l'ostal",
+        "href": "/"
+      },
+      {
+        "label": "Projèctes",
+        "href": "/projects/"
+      },
+      {
+        "label": "Junhètz-vos",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilitat",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governança",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparéncia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

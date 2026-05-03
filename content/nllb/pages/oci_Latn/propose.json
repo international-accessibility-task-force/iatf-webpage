@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Demandar un projècte d'accessibilitat",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Demandar un projècte d'accessibilitat",
+    "lead": "L'IATF examina las demandas de projèctes d'accessibilitat que partisson d'un besonh real.",
+    "support": [
+      "Vos cal pas una especificacion complèta. un problèma clar, que tòca, e perque es important es sufisent per començar."
+    ],
+    "actions": [
+      {
+        "label": "Començar una requèsta",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Utilizatz Discord a la plaça",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canalièrs",
+      "title": "Elegissètz la rota mai facila."
+    },
+    "intro": [
+      "Totas las rotas dintran dins la meteissa revision."
+    ],
+    "items": [
+      {
+        "label": "Site web",
+        "body": "Utilizatz lo formulari çaijós per presentar una demanda estructurada."
+      },
+      {
+        "label": "Corrièr electronic",
+        "body": "Mandatz la demanda dirèctament a: {{contact.requestsEmail}}Las requèstas per corrièr electronic pòdon venir de registres publics après revision e redaccion."
+      },
+      {
+        "label": "Discòrdi",
+        "body": "Comencem d'aquí se aquò es mai aisit. La demanda passa totjorn dins la meteissa revision."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Abans d'enviar una demanda",
+    "paragraphs": [
+      "Las requèstas pòdon èsser resumidas e publicadas coma de registres publics dins l'organizacion GitHub de l'IATF, sus aqueste sit web, o los dos.",
+      "Inclusissètz pas d'adreças privadas, de numèros de telefòn, de detalhs medicals, o d'informacions d'identificacion d'utilizaires individuals de tecnologias d'assisténcia levat s'es necessari e se sètz a l'aise amb l'IATF que las revisa.",
+      "L'IATF suprimís las donadas de contacte personalas inutilas abans de publicar los registres de las demandas."
+    ]
+  },
+  "review": {
+    "title": "Revisar las esperanças",
+    "paragraphs": [
+      "La presentacion d'una demanda garantís pas l'acceptacion.",
+      "L'IATF examina las demandas per la mission, la viabilitat, l'utilitat, e se l'òbra aparten a un archiu public.",
+      "De demandas pòdon èsser refusadas, diferidas, o modificadas abans d'èsser acceptadas."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulari de demanda",
+      "title": "Presentar una demanda"
+    },
+    "fields": [
+      {
+        "kind": "Intrada",
+        "name": "sollicitant",
+        "label": "Vòstre nom o vòstra organizacion",
+        "helper": "Qui fa la demanda?"
+      },
+      {
+        "kind": "seleccionar",
+        "name": "ContactRòtle",
+        "label": "Ròta de contacte preferida",
+        "helper": "Coma se deu far lo seguiment?",
+        "required": true,
+        "options": [
+          "Corrièr electronic",
+          "Discòrdi"
+        ]
+      },
+      {
+        "kind": "Intrada",
+        "name": "Detalhs de contacte",
+        "label": "Detalhs de contacte",
+        "helper": "Adreiça de corrièr electronic o de Discord per lo seguiment.",
+        "placeholder": "Adreiça de corrièr electronic o nom d'utilizaire de Discord",
+        "required": true
+      },
+      {
+        "kind": "Intrada",
+        "name": "lenga",
+        "label": "Lengas",
+        "helper": "Vòstra lenga preferida, se pertinent.",
+        "value": "Anglés"
+      },
+      {
+        "kind": "zòna de tèxte",
+        "name": "Problèma",
+        "label": "Quin problèma volètz resòlvre?",
+        "helper": "Descriu la barrièra en lengas simplas.",
+        "required": true
+      },
+      {
+        "kind": "zòna de tèxte",
+        "name": "Utilizaires afectats",
+        "label": "Qui es afectat?",
+        "helper": "A qui aquò ajudariá?",
+        "required": true
+      },
+      {
+        "kind": "zòna de tèxte",
+        "name": "extraContext",
+        "label": "Contèxte suplementari",
+        "helper": "Partatjatz tot çò qu'ajuda a explicar lo besonh: perque es important, exemples, referéncias, una idèa de logicial, o de limitacions de temps."
+      },
+      {
+        "kind": "seleccionar",
+        "name": "openSourceConsent",
+        "label": "Siás a l'aise amb lo desvolopament de font dobèrta publica?",
+        "helper": "Los projèctes acceptats son de repertòris publics jos l'IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Òc",
+          "Non",
+          "Ne soi pas segur encara."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se acceptat",
+      "title": "Çò que significa l'acceptacion"
+    },
+    "items": [
+      "un repertòri public dins l'organizacion GitHub de l'IATF",
+      "un engenhaire responsable assignat al projècte",
+      "una licéncia copyleft pel còde e los materials del projècte",
+      "Desvolopament public dins lo repertòri",
+      "una intrada de registre sul site de l'IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Començar la conversacion",
+      "title": "Una demanda corta e clara es sufisenta per començar"
+    },
+    "paragraphs": [
+      "Se avètz un besonh vertadièr d'accessibilitat e pensatz que deuriá venir un projècte public, enviatz-lo a nosautres."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

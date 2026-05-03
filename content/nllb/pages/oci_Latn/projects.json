@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projèctes d'accessibilitat publica",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projèctes d'accessibilitat publica",
+    "lead": "Aqueste registre enumèra los projèctes publics mantenguts pel biais de l'IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registre",
+      "title": "Registre actual"
+    },
+    "intro": [
+      "Los projèctes acceptats son listats aicí quand son publicats."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Presentacion d'un besonh",
+      "title": "Transformar una necessitat concrèta d'accessibilitat en un projècte public"
+    },
+    "paragraphs": [
+      "L'IATF examina de besonhs concrèts d'accessibilitat que pòdon èsser transformats en un trabalh public de còde dobèrt util."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Cap de projècte publicat encara",
+    "paragraphs": [
+      "L'IATF prepara son primièr projècte public.",
+      "Podètz encara mandar una demanda se avètz un besonh concret d'accessibilitat."
+    ]
+  }
+}

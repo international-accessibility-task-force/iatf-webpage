@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilitat",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilitat",
+    "lead": "L'IATF vòl que lo site siá simple, legible, accessible amb clavièr, e compatible amb las tecnologias d'assisténcia.",
+    "support": [
+      "Per l'accessibilitat web, l'IATF utiliza [W3C WAI](https://www.w3.org/WAI/) L'accessibilitat practica es tanben informada per l'experiéncia dirècta dels utilizaires de las tecnologias d'assisténcia."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapòrtatge",
+      "title": "Rapòrtar un problèma d'accessibilitat"
+    },
+    "paragraphs": [
+      "Se trobatz un obstacle d'accessibilitat sus aqueste sit web, vos prepausam de lo comunicar per e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Los rapòrts utils comprenon:"
+    ],
+    "items": [
+      "la pagina ont se debanèt lo problèma",
+      "çò qu'ensajavas de far",
+      "la tecnologia d'assisténcia, lo navigador, o lo dispositiu qu'utilizatz, se pertinent",
+      "çò que s'es escadut",
+      "çò qu'auriá ajudat"
+    ],
+    "footnote": "Vos cal pas escriure un rapòrt formal de bug. Una descripcion clara es sufisenta."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipulacion",
+      "title": "Manipulacion de las questions publicas"
+    },
+    "paragraphs": [
+      "Los problèmas d'accessibilitat pòdon èsser resumits dins lo repertòri public pertinent per que se pòscan corregir a l'obrièr.",
+      "Se vòstre rapòrt inclutz d'informacions privadas, o digue clarament dins lo messatge."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Estat actual",
+      "title": "Limitacions conegudas"
+    },
+    "paragraphs": [
+      "Aqueste site es intencionalament pichon e mai que mai estatic."
+    ]
+  }
+}

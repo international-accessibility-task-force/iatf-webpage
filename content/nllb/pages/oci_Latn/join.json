@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "S'ajudar a l'IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "S'ajudar a l'IATF",
+    "lead": "L'adesion es dobèrta. I a mai d'un biais de participar, que dependètz de la tecnologia d'assisténcia, de crear un logicial accessible, de traduire, testar, o manténer un projècte. Las discussions e decisions se debanan en public sus GitHub e Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ròles",
+      "title": "Camin de contribucion"
+    },
+    "items": [
+      "<strong>Demandar un projècte.</strong> S'encontratz una barrièra d'accessibilitat que poiriá èsser abordada pel logicial public de font dobèrta, enviatz-la per l'intrada de demanda.",
+      "<strong>Testar e revisar.</strong> Provatz los projèctes IATF amb la tecnologia d'ajuda qu'utilizatz, reportatz çò que fonciona e çò que fa pas, e presentatz los problèmas dirèctament sul repertòri pertinent.",
+      "<strong>Tradusir.</strong> Lo contengut de la font es publicat en anglés primièr.",
+      "<strong>Construissètz.</strong> Trobar de problèmas dins un repertòri de l'IATF, mandar de demandas d'extraccion, o prene un projècte coma engenhaire responsable.",
+      "<strong>Mantenètz-vos.</strong> Los projèctes existents pòdon aver besonh d'un manteneire novèl."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canalièrs",
+      "title": "Quand l'IATF trabalha en public"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problèmas, demandas d'extraccion, publicacions, e registres del projècte.",
+      "<strong>Discòrdi.</strong> Discussion en viu, coordinacion, e questions informalas.",
+      "<strong>Lo mail.</strong> Utilizacion <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> se ni GitHub ni Discord s'ajustan."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Primièra etapa",
+      "title": "Seleccionatz lo canal que correspond a çò que volètz contribuir"
+    },
+    "paragraphs": [
+      "Totes los canals s'alimentan dins la meteissa revision publica e los meteisses archius publics."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

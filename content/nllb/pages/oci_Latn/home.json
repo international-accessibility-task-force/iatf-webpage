@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "De la necessitat d'accessibilitat als repo publics",
+    "lead": "L'IATF ajuda d'associacions, grops e individús a transformar de besonhs reals d'accessibilitat en projèctes publics de font dobèrta.",
+    "support": [
+      "Los projèctes acceptats son publicats dins l'organizacion IATF GitHub jos una licéncia copyleft e desvolopats en public per un engenhaire responsable."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modèl de foncionament public",
+      "title": "Un camin public simple pel logicial accessible"
+    },
+    "paragraphs": [
+      "Per mejan d'un formulari, qualqu'un pòt presentar un problèma d'accessibilitat a l'IATF.",
+      "Cada projècte acceptat a un luòc public clar per lo còde, los problèmas, la documentacion, e las publicacions, amb lo desvolopament dirigit en dobertura per un engenhaire responsable."
+    ],
+    "specCard": {
+      "title": "Modèl de foncionament public",
+      "terms": [
+        {
+          "term": "Necessitat",
+          "definition": "Problèma vertadièr d'accessibilitat"
+        },
+        {
+          "term": "Revisar",
+          "definition": "Apropriacion de la mission e viabilitat practica"
+        },
+        {
+          "term": "Espaci de projècte",
+          "definition": "Repositòri public GitHub"
+        },
+        {
+          "term": "Administracion",
+          "definition": "Proprietat organizacionala de l'IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Procès",
+      "title": "Coma fonciona",
+      "intro": "Lo modèl demòra intencionalament pichon per que lo camin public siá aisit de seguir."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Un besonh es presentat",
+        "paragraphs": [
+          "Una associacion, un grop o un individú pòt presentar una demanda basada sus una necessitat reala d'accessibilitat.",
+          "Las demandas pòdon començar pel site, per e-mail a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o per Discòrdi."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "L'IATF lo revisa",
+        "paragraphs": [
+          "Revisam la mission, la portada practica, e se lo trabalh aparten a un projècte public de còdi obèrt."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Un archiu public es creat",
+        "paragraphs": [
+          "Se un projècte es acceptat, es publicat dins l'organizacion IATF GitHub jos una licéncia copyleft.",
+          "Lo repertòri ven lo luòc public del còde, de las questions, de la documentacion, e de las publicacions."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un engenhaire responsable mena lo projècte",
+        "paragraphs": [
+          "Un engenhaire responsable es assignat al repertòri del projècte e lo desvolopament se fa en public."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registre",
+      "title": "Registre public dels projèctes"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Comença d'aquí.",
+      "title": "Veire los trabalhs en cors o començar un projècte concret"
+    },
+    "paragraphs": [
+      "Utilizatz lo registre per veire çò qu'es ja public, o començatz l'intrada se un problèma concret d'accessibilitat deu venir un projècte."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
