@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Okuviira ddala ku bwetaavu bw'okubeerawo okutuuka ku biwandiiko bya gavumenti",
+    "lead": "IATF eyamba ebibiina, ebibinja, n'abantu kinnoomu okukyusa obwetaavu obw'amazima obw'okubeerawo mu pulojekiti z'abantu bonna.",
+    "support": [
+      "Pulojekiti ezikkirizibwa zifulumizibwa mu kitongole kya IATF GitHub wansi wa layisensi ya copyleft era nga zikoleddwa mu lujjudde yinginiya avunaanyizibwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Enkola y'emirimu mu lujjudde",
+      "title": "Ekkubo ly'abantu bonna eryangu eri programu esobola okukozesebwa"
+    },
+    "paragraphs": [
+      "Okuyitira mu foomu, omuntu yenna asobola okutegeeza IATF ekizibu ky'obutabeerawo. Ekibinja bwe kisobola okukitwala, ekifo eky'okuterekamu ebitabo ekya GitHub kiggulwawo okukola omulimu.",
+      "Buli pulojekiti ekkirizibwa erina ennyumba ya bonna eya code, ensonga, ebiwandiiko, n'ebifulumizibwa, nga n'enkulaakulana ekulemberwa mu lujjudde yinginiya avunaanyizibwa."
+    ],
+    "specCard": {
+      "title": "Enkola y'emirimu mu lujjudde",
+      "terms": [
+        {
+          "term": "Obwetaavu",
+          "definition": "Ekizibu eky'amazima eky'okutuuka ku bantu"
+        },
+        {
+          "term": "Okwejjukanya",
+          "definition": "Okutuukiriza obuvunaanyizibwa n'okutuukirizibwa mu nkola"
+        },
+        {
+          "term": "Ekifo kya pulojekiti",
+          "definition": "Ekiwandiiko ky'abantu bonna ku GitHub"
+        },
+        {
+          "term": "Obulabirizi",
+          "definition": "Obuvunaanyizibwa bw'ekitongole kya IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Enkola",
+      "title": "Engeri gy'ekola",
+      "intro": "Ekifananyi kibeera kitono mu bugenderevu olwo ekkubo ly'abantu bonna libeere lyangu okugoberera."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Obwetaavu buweerezebwa",
+        "paragraphs": [
+          "Ekibiina, ekibinja, oba omuntu kinnoomu asobola okuwaayo okusaba okusinziira ku bwetaavu obwennyini obw'okubeerawo.",
+          "Ebiruubirirwa biyinza okutandika okuyita mu webusayiti, okuyita ku email ku <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, oba okuyita Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ekyetegereza",
+        "paragraphs": [
+          "Twetegereza obutuufu bw'omulimu, obuwanvu bw'emirimu, n'okuba nti omulimu guli mu pulojekiti y'abantu bonna."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ekiwandiiko eky'abantu bonna kitandikibwawo",
+        "paragraphs": [
+          "Singa pulojekiti ekkirizibwa, efulumizibwa mu kitongole kya IATF GitHub wansi wa layisensi ya copyleft.",
+          "Ekifo eky'okuterekamu kifuuka amaka g'abantu bonna ag'empapula, ensonga, ebiwandiiko, n'ebifulumizibwa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Munnasayansi ow'obuvunaanyizibwa akulembera pulojekiti",
+        "paragraphs": [
+          "Munnasayansi avunaanyizibwa asindikibwa ku kiwandiiko kya pulojekiti era okukulaakulana kukolebwa mu lujjudde."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Okuwandiisa",
+      "title": "Lipooti y'ebiwandiiko bya pulojekiti"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tandikira wano",
+      "title": "Okukebera omulimu ogukolebwa kati oba okutandikawo pulojekiti entuufu"
+    },
+    "paragraphs": [
+      "Kozesa ekiwandiiko okulaba ekiri mu lujjudde, oba tandika okutwala singa ekizibu eky'enjawulo eky'okutuuka ku bantu kiyinza okufuuka pulojekiti."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

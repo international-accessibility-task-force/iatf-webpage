@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Olukalala lw'ebifo"
+  },
+  "hero": {
+    "eyebrow": "Olukalala",
+    "title": "Olukalala lw'ebifo",
+    "lead": "Buli lupapula lw'abantu bonna ku iatf.cc, mu kifo kimu."
+  },
+  "sections": [
+    {
+      "title": "Empapula enkulu",
+      "items": [
+        {
+          "label": "Awaka",
+          "href": "/"
+        },
+        {
+          "label": "Enteekateeka",
+          "href": "/projects/"
+        },
+        {
+          "label": "Saba pulojekiti",
+          "href": "/propose/"
+        },
+        {
+          "label": "Obufuzi",
+          "href": "/governance/"
+        },
+        {
+          "label": "Weegatte",
+          "href": "/join/"
+        },
+        {
+          "label": "Okutuukirikika",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Obuggya",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Enteekateeka",
+  "projectsEmpty": "Tewakyali pulojekiti zaakufulumizibwa."
+}

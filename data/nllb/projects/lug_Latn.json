@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Omukutu gwa IATF",
+    "summary": "Ekifo ky'abantu bonna ekya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF yali yeetaaga ekifo ekinywevu eky'abantu bonna ekiyinza okunnyonnyola eky'okulabirako, okuwa olukalala lwa pulojekiti, n'okulaga abawagizi ekkubo ettuufu ery'okutambuliramu.",
+    "why": "Ekifo kino y'omulyango gw'olukale ogwa IATF. Kyakolebwa nga pulojekiti entonotono esobola okusomebwa, okuvvuunulwa, n'okukuumibwa mu lujjudde.",
+    "scopeIn": [
+      "Empapula z'okutuuka mu lujjudde ezinnyonnyola enkola ya IATF",
+      "Ekiwandiiko eky'olukale eky'ebivvulu bya IATF ebyakkirizibwa, ebikolebwa, n'okuteekebwa mu buwandiike n'embeera, omukuumi, ekifo eky'okuterekamu n'okulaga",
+      "Olupapula lw'okwaniriza okusaba n'ekiwandiiko",
+      "Empapula ezikwata ku bufuzi n'obutebenkevu",
+      "Ensibuko y'Olungereza n'enkola eyeetegekeddwa okuvvuunulwa",
+      "Okusaasaanya okw'omulembe ku Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Ebifo by'abammemba eby'obwannannyini, akawunti, oba entambula y'okuyingira",
+      "Okwaniriza code source ya pulojekiti, esangibwa mu buwandiike bwa polojekiti buli emu",
+      "Empuliziganya mu budde obwa nnamaddala, esangibwa mu Discord",
+      "Okugoberera ensonga za pulojekiti ez'enjawulo, ezibeera mu ggwanika lya GitHub lya buli pulojekthi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie eya IATF",
+    "summary": "Enkola ya IATF eyasooka, eyateekebwa mu buwandiike oluvannyuma lw'okutuuka ku nkomerero yaayo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Okukebera mu ntandikwa ekyuma ekyesigamiziddwa ku buyambi wansi w'ekitebe kya IATF.",
+    "why": "Ekiwandiiko kyekuumibwa mu lujjudde ng'ebiwandiiko by'omulimu, newankubadde ng'okukulaakulana okw'amaanyi kuweddewo.",
+    "scopeIn": [
+      "Ekyokulabirako ekisooka eky'ekintu eky'omugaso ekiteekeddwa mu buwandiike mu lujjudde"
+    ],
+    "scopeOut": [
+      "Okukulaakulana okw'amaanyi oba emirimu egy'enjawulo",
+      "Obweyamo bw'okulabirira",
+      "Enkozesa ekubirizibwa mu kukola"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Enkola ya IATF",
+    "summary": "Ekitongole kya IATF eky'obwannakyewa, ekikuumibwa oluvannyuma lw'okutuuka ku nkomerero y'obutonde.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation okwetooloola IATF community channels.",
+    "why": "Ekiwandiiko kyekuumibwa mu lujjudde ng'ebiwandiiko by'omulimu, newankubadde ng'okukulaakulana okw'amaanyi kuweddewo.",
+    "scopeIn": [
+      "Okwonoona okw'omu butonde okwetooloola IATF community channels, okukuumibwa ng'ekiwandiiko eky'olukale"
+    ],
+    "scopeOut": [
+      "Okukulaakulana okw'amaanyi oba emirimu egy'enjawulo",
+      "Obweyamo bw'okulabirira",
+      "Enkozesa ekubirizibwa mu kukola"
+    ]
+  }
+]

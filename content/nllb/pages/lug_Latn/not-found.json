@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Teyazuulibwa"
+  },
+  "hero": {
+    "eyebrow": "Teyazuulibwa",
+    "title": "Olupapula lw'oyagala terusangibwa",
+    "lead": "Kozesa amakubo amanene agali wansi okudda mu kifo eky'olukale.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Awaka",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Olugendo lw'osabye teruliwo."
+    ],
+    "items": [
+      {
+        "label": "Awaka",
+        "href": "/"
+      },
+      {
+        "label": "Enteekateeka",
+        "href": "/projects/"
+      },
+      {
+        "label": "Weegatte",
+        "href": "/join/"
+      },
+      {
+        "label": "Okutuukirikika",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Obufuzi",
+        "href": "/governance/"
+      },
+      {
+        "label": "Obuggya",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

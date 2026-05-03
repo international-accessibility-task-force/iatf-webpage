@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Okutuukirikika",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Okutuukirikika",
+    "lead": "IATF erina ekigendererwa eky'okuteeka webusayiti eno mu ngeri ennyangu, esomeka obulungi, esobola okukwatibwako ng'okozesa keyboard, era nga ekwatagana n'obukodyo obuyamba.",
+    "support": [
+      "Olw'okutuuka ku mutimbagano, IATF ekozesa [W3C WAI](https://www.w3.org/WAI/) Obusobozi bw'okutuuka ku bantu mu ngeri ey'omugaso bwesigamiziddwa ne ku bumanyirivu bw'abo abakozesa enkola z'ebikozesebwa okuyamba."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Okutegeeza",
+      "title": "Lipoota y'ekizibu ky'okubeerawo"
+    },
+    "paragraphs": [
+      "Bw'osanga obuzibu ku kibanja kino, tukusaba okitubuulire ku email:",
+      "{{contact.accessibilityEmail}}",
+      "Mu alipoota ez'omugaso mwe muli:"
+    ],
+    "items": [
+      "olupapula ekizibu we kyabeererawo",
+      "ky'obadde ogezaako okukola",
+      "tekinologiya ki ow'obuyambi, browsera, oba ekyuma ky'okozesa, bwe kiba nga kyetaagisa",
+      "kiki ekitaagenda bulungi",
+      "kiki ekyannyamba"
+    ],
+    "footnote": "Tekikwetaagisa kuwandiika lipoota y'ekikyamu mu butongole. Ennyinnyonnyola etegeerekeka emala."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Okukwata",
+      "title": "Okukola ku nsonga ezikwata ku bantu bonna"
+    },
+    "paragraphs": [
+      "Ensonga z'okufuna obuyambi ziyinza okuteekebwa mu bulambulukufu mu biwandiiko ebikwatagana n'embeera y'obuntu okusobola okutereezebwa mu lujjudde. Ebintu eby'obwannannyini eby'okutuukirira n'eby'ekyama ebiteetaagisa biggibwawo nga tebinnaba kufulumizibwa.",
+      "Bwe kiba nti alipoota yo erimu ebintu eby'ekyama, kyogereko bulungi mu bubaka."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Embeera eriwo kati",
+      "title": "Obumu obumanyiddwa"
+    },
+    "paragraphs": [
+      "Ekifo kino kyekigendereddwamu okuba ekitono era ekisinga okubeera eky'omulembe. Enkyusa ezimu ez'ennimi ziyinza okuba nga tezituukiridde ng'okuvvuunula kutegekebwa."
+    ]
+  }
+}

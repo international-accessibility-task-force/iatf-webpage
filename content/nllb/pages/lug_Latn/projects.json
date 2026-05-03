@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Enteekateeka z'okutuuka ku bantu bonna",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Enteekateeka z'okutuuka ku bantu bonna",
+    "lead": "Olukalala luno lukwata ku pulojekiti z'abantu bonna ezikuumibwa okuyita mu IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Okuwandiisa",
+      "title": "Ekiwandiiko ekiriwo kati"
+    },
+    "intro": [
+      "Pulojekiti ezikkiriziddwa ziwandiikiddwa wano nga zimaze okufulumizibwa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Saba obuyambi",
+      "title": "Okukyusa obwetaavu obw'okutuuka ku bantu abalala mu pulojekiti y'abantu bonna"
+    },
+    "paragraphs": [
+      "IATF ekebera obwetaavu obwenjawulo obw'okutuukirikika obusobola okufuulibwa emirimu egy'omugaso eri abantu bonna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Tewakyafulumizibwa pulojekiti",
+    "paragraphs": [
+      "IATF eteekateeka pulojekiti yaayo esooka ey'olukale.",
+      "Osobola okusindika okusaba bw'oba olina obwetaavu obw'okutuuka ku bantu."
+    ]
+  }
+}

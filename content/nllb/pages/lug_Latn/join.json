@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Weegatte ku IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Weegatte ku IATF",
+    "lead": "Okubeera omu ku bammemba kyangu. Waliwo engeri eziwerako ez'okwenyigiramu, ka kibe nti weesigama ku tekinologiya omuyambi, okuzimba programu esobola okukozesebwa, okuvvuunula, okugezesa, oba okukuuma pulojekiti. Emboozi n'okusalawo bibaawo mu lujjudde ku GitHub ne Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Emirimu",
+      "title": "Engeri z'okuyambamu"
+    },
+    "items": [
+      "<strong>Saba pulojekiti.</strong> Bw'osanga obuzibu obw'okufuna obuyinza okugonjoolebwa programu ya bonna ey'obwannannyini, busindikire okuyita mu kukkiriza okusaba.",
+      "<strong>Okukebera n'okwekenneenya.</strong> Gezaako pulojekiti za IATF ng'okozesa enkola ey'obuyambi gy'okozesezza, lagira ekikola n'ekitaakola, era owandiise ensonga butereevu ku kifo eky'okuterekamu ebikozesebwa.",
+      "<strong>Okuvvuunula.</strong> Ebiri mu nsibuko bifulumizibwa mu Lungereza olutongole okusooka. Enkyusa zeyongerwako ng'abawagizi bwe babeerawo, nga batandika n'Olusipeyini.",
+      "<strong>Okuzimba.</strong> Londa ensonga mu buwandiike bwonna obwa IATF, tuma ebisale, oba weegatte ku pulojekiti nga yinginiya waayo avunaanyizibwa.",
+      "<strong>Okukuuma.</strong> Emirundi egimu pulojekiti eziriwo zeetaaga omukuumi omuggya. Okukyukakyuka kw'omukuumi kitundu kya bulijjo eky'omulembe guno, si kyewuunyisa."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Enguudo",
+      "title": "Wonna IATF w'ekola mu lujjudde"
+    },
+    "items": [
+      "<strong>GitHub. bye bye.</strong> Ensonga, okuggya okusaba, okufulumya, n'ebiwandiiko bya pulojekiti.",
+      "<strong>Obutakkaanya.</strong> Okukubaganya ebirowoozo, okukolaganira awamu, n'okubuuza ebibuuzo mu ngeri ey'ekyewuunyo.",
+      "<strong>Emaili.</strong> Okukozesa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> singa ne GitHub ne Discord tebituukana."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Omutendera oguddako",
+      "title": "Londa omutindo ogukwatagana n'engeri gy'oyagala okuyambamu"
+    },
+    "paragraphs": [
+      "Emikutu gyonna gigenda mu kwekenneenya kw'abantu kw'emu era n'ebitabo by'abantu bye bimu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

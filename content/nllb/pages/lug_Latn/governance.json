@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Enkola y'obufuzi n'okutereka ebiwandiiko",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Enkola y'obufuzi n'okutereka ebiwandiiko",
+    "lead": "IATF ekuuma pulojekiti z'okutuukirikika ng'ez'olukale, nga zisomeka, era nga zisobola okukuumibwa.",
+    "support": [
+      "Olupapula luno lunnyonnyola ekituukiriza ebisaanyizo, engeri ebiwandiiko gye bikuumibwamu, n'obuvunaanyizibwa obuli ku mutendera gw'ebiwandiiko bwe bukola oluvannyuma lw'okukkiriza."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Amateeka",
+      "title": "Okutuukiriza obuvunaanyizibwa, obwannannyini, okuweebwa layisensi"
+    },
+    "cards": [
+      {
+        "title": "Okutuukiriza obuvunaanyizibwa",
+        "paragraphs": [
+          "IATF ekkiriza emirimu egigonjoola ekizibu eky'amazima eky'obutabeerawo era nga kirina omugaso mu bantu.",
+          "Pulojekiti erina okuba ey'omugaso okusinga ku nkola y'emirimu egy'obwannannyini era ng'esobola okukozesebwa ng'ekizimbe ky'ebitabo eky'olukale.",
+          "Olw'okutuuka ku mutimbagano, IATF ekozesa [W3C WAI](https://www.w3.org/WAI/) Ebyafaayo by'abo abakozesa enkola z'obuyambi nabyo biwa obukakafu ku bintu ebikozesebwa mu bulamu obwa bulijjo."
+        ]
+      },
+      {
+        "title": "Okukkiriza pulojekiti",
+        "paragraphs": [
+          "Ekiteeso kiyinza okukkirizibwa singa okunoonyereza kulaga nti:"
+        ],
+        "items": [
+          "kyogera ku bwetaavu obwa nnamaddala obw'okutuuka ku bantu",
+          "ekizibu kitegeerekeka bulungi okwetegereza",
+          "obuwanvu bw'ekigendererwa butegeerekeka bulungi okwanjula",
+          "omulimu gukwatagana n'omulimu gwa IATF",
+          "waliwo ekkubo ettuufu ery'okuddaabiriza oba okumaliriza"
+        ]
+      },
+      {
+        "title": "Obwannannyini ku tterekero ly'ebiwandiiko",
+        "paragraphs": [
+          "Pulojekiti ezikkirizibwa zikolebwa wansi w'ekitongole kya IATF GitHub.",
+          "Ebisumuluzo bibeera awo buli pulojekiti n'ekuuma amaka g'abantu ag'enkalakkalira, newankubadde ng'abakuuma oluvannyuma bakyuka."
+        ]
+      },
+      {
+        "title": "Okuweebwa layisensi",
+        "paragraphs": [
+          "Pulojekiti za IATF zikozesa layisensi ya copyleft okuggyako nga pulojekiti egamba ekirala:"
+        ],
+        "items": [
+          "<strong>Koodi:</strong> AGPL-3.0",
+          "<strong>Ebiwandiiko:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Engineer oba omubeezi avunaanyizibwa",
+      "paragraphs": [
+        "Buli pulojekiti ekkirizibwa erina okuba ne yinginiya oba omukuumi ow'obuvunaanyizibwa. Omuntu oyo ayinza okuweebwa obuyinza obw'okukozesa ebiwandiiko era asuubirwa okukola bino wammanga:"
+      ],
+      "items": [
+        "okulabula okukulaakulana mu lujjudde",
+        "okukuuma entegeka y'ekizimbe ky'amawulire",
+        "okwekenneenya oba okulabirira ensonga n'okusaba okuggya",
+        "okuwandiisa okusalawo okw'amaanyi okw'ekikugu",
+        "okuteeka pulaani mu ngeri abalala gye bayinza okugitegeera"
+      ],
+      "footnote": "Obuvunaanyizibwa buno bubeera ku mutendera gwa repository. Obwannannyini bw'entegeka busigadde ku IATF. Obuvunaanyizibwa wano bulina kuba ku by'okuddukanya, obukulembeze bw'ebyenjigiriza, n'okukolagana n'abantu bonna."
+    },
+    "publicDevelopment": {
+      "title": "Okukulaakulana kw'abantu bonna",
+      "paragraphs": [
+        "Pulojekiti ezaatandikibwawo okuyita mu IATF zikolebwa mu lujjudde."
+      ],
+      "items": [
+        "Kkoodi y'ensibuko",
+        "ensonga",
+        "ebiwandiiko",
+        "ebiwandiiko ebikwata ku pulaani y'ebidduka",
+        "ebyafaayo by'okufulumya"
+      ],
+      "footnote": "Okumanya okw'omugaso okukwata ku pulojekiti tekusaanidde kubeera mu bifo byokka eby'okukubaganya ebirowoozo oba ebiwandiiko."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ebiwandiiko by'abantu bonna",
+      "title": "Ebiwandiiko by'okusaba eby'olukale"
+    },
+    "paragraphs": [
+      "IATF ekola mu lujjudde okusinziira ku buzaaliranwa. Ebiruubirirwa ebiyingira mu IAT F okuyita mu webusayiti, e-mail, Discord, GitHub, oba amakubo amalala aga IAT f biyinza okufuuka ebiwandiiko by'ebiruubirirwa eby'olukale.",
+      "Ekiwandiiko ky'okusaba mu lujjudde tekitegeeza bubaka obwasooka. IATF eyinza okujuliza, okutereeza, oba okuddaabiriza okusaba nga tekunnaba kufulumizibwa olwo obwetaavu bw'okusaasaanya busobole okwekenneenyezebwa awatali kuteekawo bubaka bw'omuntu obwetaagisa.",
+      "Ebiwandiiko by'okusaba eby'olukale biyinza okuteekebwa mu kitongole kya IATF GitHub, ku mukutu guno, oba byombi.",
+      "Nga tekinnaba kufulumizibwa, IATF eggyako ebintu ebiteetaagisa ebikwata ku nkolagana n'omuntu, endagiriro ez'obwannannyini, n'eby'okumanya ebikwata ku bakozesa kinnoomu ab'obuyambi bw'ebyempuliziganya okuggyako ng'ekigendererwa eky'okubiteeka mu buwandiike kitegeerekeka bulungi era nga kisaanira.",
+      "Enkola ya Discord ekozesebwa mu nteekateeka ez'obutebenkevu. IATF teyateeka mu buwandiike emboozi za Discord mu ngeri ey'enjawulo, era n'okukuuma obubaka kulagibwa Discord. Okusalawo okukoleddwa mu Discord kulina okussibwa mu bufunze mu kiwandiiko eky'olukale ku GitHub oba ku lupapula lwa pulojekiti olukwatagana.",
+      "Ebiwandiiko by'obwetaavu tebisobola kulagibwa mu yingini z'okunoonya bwe kiba nga kisoboka mu ngeri ey'ekikugu. Obw'olukale butegeeza obusobola okwetegerezebwa n'obuvunaanyizibwa. Tekitegeeza nti busobola okuzuulibwa okuyita mu kunoonya amannya.",
+      "IATF esobola okuzza obuggya oba okuggya ebiwandiiko okuva mu bifo ebya lukale ebikulemberwa Iatf, naye tesobola kukakasa nti bijja kuggibwa okuva mu byapa bya bantu abalala, okutegeeza, ebikoola, ebifaananyi by'ebifaananyi, enkola z'okunoonya, Discord, oba enkola endala ez'ebweru.",
+      "Singa obubaka bwetaaga okusigala nga bwa kyama, tobutuma okuyita mu mikutu gya IATF egy'olukale."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ekifo ky'entegeka",
+      "title": "Ssentebe"
+    },
+    "lead": "Ssentebe abeera n'obuvunaanyizibwa ku IATF ku mutendera gw'ekitongole. Kino kyawukana ku mulimu gw'omunjiniya akulira pulojekiti: ssentebe avunaanyizibwa eri ekitongole mu bujjuvu, so si ku bukulembeze obwa bulijjo obw'ekizimbe ekimu.",
+    "duties": {
+      "title": "Ekifo ky'entebe ky'ekola",
+      "items": [
+        "Akwata ebiragiro bya nnannyini ku kitongole kya IATF GitHub",
+        "Okussa omukono ku kusalawo okw'okukkiriza pulojekiti n'okukuuma ebiwandiiko",
+        "Akola ng'omukutu gw'okutuusa obubaka ku bantu bonna eri IATF",
+        "Akubiriza okulonda kwa buli mwaka"
+      ],
+      "footnote": "Ssentebe tayingirira IATF ku by'okuwaayo eby'obwannannyini, emirimu egisasulwa, oba endagaano z'omutindo gw'obuweereza, era tayingiddewo ku kusalawo kw'oyo akuuma ebiwandiiko ebikwata ku bulagirizi bw'ebyemikono."
+    },
+    "election": {
+      "title": "Okulonda kwa buli mwaka",
+      "paragraphs": [
+        "Ssentebe alondebwa omulundi gumu mu mwaka. Okulonda kugenda mu wiiki bbiri ezisooka mu Ddesemba, ebyava mu kulonda bifulumizibwa nga December 15, era ekisanja ekipya kitandika nga January 1.",
+        "Abalonzi abasaanira okulonda be bantu ababadde n'obuvunaanyizibwa obw'okulabirira ebiwandiiko bya IATF mu mwaka era nga bawaddeyo waakiri omuwendo gumu mu mwaka ogwo.",
+        "Okulonda kukolebwa ng'empaka z'abantu bonna ku GitHub mu ggwanika ly'obukulembeze bwa IATF, n'olwekyo abeesimbyewo, obululu, n,ebyavuddemu byonna kitundu kya fayiro ya bantu bonna."
+      ]
+    },
+    "continuity": {
+      "title": "Okweyongera",
+      "paragraphs": [
+        "Singa tewali kulonda kukolebwa mu mwaka ogumu, ssentebe w'akaseera kano yeeyongera mu kifo kino okutuusa okulonda okujja. Kino kwe kugenda mu maaso okw'olubeerera, so si ekiseera eky'obusaasizi  Enkola eno yateekebwawo okukuuma ekitongole nga kiri mu mbeera entuufu ng'emirimu gitono, si kukaka muntu yenna okudda mu kifo kye nga teyeeteeseteese.",
+        "Ssentebe ayinza okulekulira ekiseera kyonna. Abalabirizi abakyaliwo nabo basobola okuyita okulonda okw'enjawulo n'ensonga eyogerwako, nga bagoberera amateeka ge gamu ng'okulonda okwa buli mwaka."
+      ]
+    },
+    "current": {
+      "title": "Katikkiro w'omu kiseera kino",
+      "fields": [
+        {
+          "label": "Ssentebe",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ekiseera",
+          "value": "Okutuusa okulonda kwa December 2026"
+        },
+        {
+          "label": "Omulimu gwakolebwa mu butongole",
+          "value": "2026"
+        },
+        {
+          "label": "Okulonda okwasooka okwateekebwawo",
+          "value": "Ddesemba 2026"
+        }
+      ]
+    },
+    "footnote": "Omulimu gwa ssentebe gwateekebwa mu nkola mu 2026 okufuula obukulembeze ku ddaala ly'ekitongole okubeera obwerufu. Okutuusa olwo, obuvunaanyizibwa mu kitongole bwali mu mikono gy'oyo eyatandikawo."
+  },
+  "continuity": {
+    "states": {
+      "title": "Embeera ya pulojekiti",
+      "paragraphs": [
+        "Pulojekiti zikozesa akatundu akatono ak'amawanga ag'obwannannyini:"
+      ],
+      "items": [
+        "Ekiteeso",
+        "Yakkirizibwa",
+        "Ekikola",
+        "Ekinywevu",
+        "Okunoonya omubeezi",
+        "Ebyakuumibwa mu tterekero"
+      ],
+      "footnote": "Embeera zino zireetera okuwandiisa okuba okwangu okukebera."
+    },
+    "reassignment": {
+      "title": "Okuddaabiriza n'okutereka ebiwandiiko",
+      "paragraphs": [
+        "Omukuumi bw'avaawo oba n'alekera awo okukola, IATF eyinza okuddamu okuwa obuvunaanyizibwa, okuyimiriza enkulaakulana, oba okuggya pulojekiti mu tterekero.",
+        "Pulojekiti eyinza n'okuteekebwa mu buwandiike ng'obwetaavu obwasooka butuukiriziddwa, okulabirira kuweddewo, oba omulimu ogugenda mu maaso nga tegukyalina mugaso."
+      ],
+      "footnote": "Ebiwandiiko ebyakuumibwa mu tterekero bisobola okulabibwa abantu bonna okuggyako nga waliwo ensonga ey'amaanyi."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ekiwandiiko eky'ensalo",
+      "title": "Biki IATF by'etakuuma"
+    },
+    "items": [
+      "okuwaayo eri kasitoma ow'obwannannyini",
+      "endagaano z'omutindo gw'empeereza",
+      "okukkiriza buli pulojekiti",
+      "obujjanjabi obw'ekiseera ekiwanvu ku buli pulojekiti"
+    ],
+    "footnote": "IATF y'emu ku ndagiriro z'abantu bonna, so si nkola ey'obwannannyini ey'okutuusa obubaka ku bantu."
+  }
+}

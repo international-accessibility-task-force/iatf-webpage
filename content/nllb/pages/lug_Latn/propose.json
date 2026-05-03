@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Saba pulojekiti ey'okutuukirikika",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Saba pulojekiti ey'okutuukirikika",
+    "lead": "IATF ekebera okusaba kwa pulojekiti z'okutuukirikika eziva ku bwetaavu obwa nnamaddala.",
+    "support": [
+      "Tekikwetaagisa kunnyonnyola mu bulambulukufu ekizibu, ani akikutteeko, n'ensonga lwaki kikulu, kimala okutandika."
+    ],
+    "actions": [
+      {
+        "label": "Tandika okusaba",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Kozesa Discord mu kifo kyekyo",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Enguudo",
+      "title": "Londa ekkubo erisinga okuba eryangu"
+    },
+    "intro": [
+      "Amakubo gonna gayingira mu kukebera kumu."
+    ],
+    "items": [
+      {
+        "label": "Omukutu gwa Intaneeti",
+        "body": "Kozesa foomu eno wammanga okuwaayo okusaba okutegekeddwa obulungi."
+      },
+      {
+        "label": "E-mail yo",
+        "body": "Tuma okusaba kwo butereevu ku: {{contact.requestsEmail}}Ebintu ebiba bisabiddwa ku email biyinza okufuuka ebiwandiiko ebisabibwa mu lujjudde oluvannyuma lw'okubitunuulira n'okubirongoosa."
+      },
+      {
+        "label": "Obutakkaanya",
+        "body": "Tandika awo bwekiba kyangu. Okusaba kukyagenda mu kwekenneenya kwe kumu."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Nga tonnaba kutuma bubaka",
+    "paragraphs": [
+      "IATF ekola mu lujjudde. Ebiruubirirwa biyinza okukuŋŋaanyizibwa n'okufulumizibwa ng'ebiwandiiko by'ebiruubirirwa mu kitongole kya GitHub, ku mukutu guno, oba byombi.",
+      "Togattako mannya go ag'ekyama, ennamba z'essimu, obujjanjabi, oba okumanya ebikwata ku buli muntu akozesa tekinologiya akuyamba okuggyako nga kyetaagisa era ng'oli mukakafu nti IATF eyinza okukebera ebintu ebyo.",
+      "IATF eggyako ebintu by'omuntu eby'obwetaavu nga tennaba kufulumya biwandiiko by'okusaba."
+    ]
+  },
+  "review": {
+    "title": "Ebisuubirwa mu kwekenneenya",
+    "paragraphs": [
+      "Okuweereza okusaba tekitegeeza nti okusaba kwo kujja kukkirizibwa.",
+      "IATF ekebera okusaba kw'okutuukiriza obuvunaanyizibwa, okusoboka, omugaso, n'okuba nti omulimu guli mu tterekero ly'ebitabo ly'abantu bonna.",
+      "Ebintu ebimu by'osaba biyinza okugaanwa, okuyimirizibwawo, oba okukyusibwa nga tebinnaba kukkirizibwa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Ekiwandiiko ky'okusaba",
+      "title": "Okuweereza okusaba"
+    },
+    "fields": [
+      {
+        "kind": "bye bayingiza",
+        "name": "eyeegayirira",
+        "label": "Erinnya lyo oba ekibiina kyo",
+        "helper": "Ani asaba?"
+      },
+      {
+        "kind": "okulonda",
+        "name": "Enkola y'okuwuliziganya",
+        "label": "Ekkubo ly'okukwatagana ly'oyagala",
+        "helper": "Okulondoola kuno kulina kukolebwa kutya?",
+        "required": true,
+        "options": [
+          "E-mail yo",
+          "Obutakkaanya"
+        ]
+      },
+      {
+        "kind": "bye bayingiza",
+        "name": "Okumanya ebisingawo",
+        "label": "Obubaka bw'okuwuliziganya nabo",
+        "helper": "Endagiriro ya e-mail oba akawayiro ka Discord okusobola okugoberera.",
+        "placeholder": "Endagiriro ya e-mail oba akawayiro ka Discord",
+        "required": true
+      },
+      {
+        "kind": "bye bayingiza",
+        "name": "olulimi",
+        "label": "Olulimi",
+        "helper": "Olulimi lw'oyagala, bwe kiba kyetaagisa.",
+        "value": "Olungereza"
+      },
+      {
+        "kind": "ekifo ekirimu ebiwandiiko",
+        "name": "ekizibu",
+        "label": "Kizibu ki ky'ogezaako okugonjoola?",
+        "helper": "Nnyonnyola ekizibu mu bigambo ebyangu okutegeera.",
+        "required": true
+      },
+      {
+        "kind": "ekifo ekirimu ebiwandiiko",
+        "name": "Abakozesa abakwatibwako",
+        "label": "Baani abakwatibwako?",
+        "helper": "Kino kyandiyambye ani?",
+        "required": true
+      },
+      {
+        "kind": "ekifo ekirimu ebiwandiiko",
+        "name": "extraEnnyiriri eziriraanyeewo",
+        "label": "Ensonga endala",
+        "helper": "Buulira ekintu ekirala kyonna ekiyamba okunnyonnyola obwetaavu: lwaki kikulu, eby'okulabirako, ebiwandiiko, ekirowoozo kya programu, oba obutakwata budde."
+      },
+      {
+        "kind": "okulonda",
+        "name": "openSourceConsent[kyusa _ edit source]",
+        "label": "Owulira bulungi n'enkulaakulana y'ebiwandiiko ebikubibwa mu lujjudde?",
+        "helper": "Pulojekiti ezikkiriziddwa z'ebiwandiiko ebikuumibwa mu lujjudde wansi wa IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Weewaawo",
+          "Nedda",
+          "Sisobola kumanyira ddala."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Bw'okkirizibwa",
+      "title": "Okukkiriza kye kitegeeza"
+    },
+    "items": [
+      "ekifo ekikuumibwa abantu bonna mu kitongole kya IATF GitHub",
+      "yinginiya avunaanyizibwa eyateekebwa ku pulojekiti",
+      "layisensi ya copyleft ku code n'ebikozesebwa mu pulojekiti",
+      "okwekulaakulanya mu lujjudde mu tterekero",
+      "ekiwandiiko ku mukutu gwa IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tandika emboozi",
+      "title": "Okusaba okutonotono era okutegeerekeka obulungi kimala okutandika"
+    },
+    "paragraphs": [
+      "Bw'oba olina obwetaavu obwenkukunala era ng'olowooza nti kirina okufuuka pulojekiti y'abantu bonna, butusindikire."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
