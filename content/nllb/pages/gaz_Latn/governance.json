@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Bulchiinsaa fi malli galmee odeeffannoo (repository model)",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Bulchiinsaa fi malli galmee odeeffannoo (repository model)",
+    "lead": "IATF piroojektoota dandeettii fayyadamummaa uummataa, dubbifamuu danda'uu fi kunuunsuu danda'u ni qabaata.",
+    "support": [
+      "Fuulli kun maal akka eeyyamamu, bakkeewwan kuusaa akkamitti akka qabaman, fi erga fudhatama argatanii booda itti gaafatamummaan sadarkaa bakka kuusaa kamiin akka hojiirra oolu ibsa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Qajeelfama",
+      "title": "Ga'umsa hojii, abbummaa, hayyama kennuu"
+    },
+    "cards": [
+      {
+        "title": "Ergamni gahaa ta'uu",
+        "paragraphs": [
+          "IATF hojii hanqina ga'umsa dhugaa qabuu fi faayidaa uummataa ifa qabu ni fudhata.",
+          "Piroojektiin tokko adeemsa hojii dhuunfaa tokkoo ol fayyadamaa ta'uu qaba, akkasumas akka galmee uummataa ta'ee hojjechuu danda'a.",
+          "IATF fayyadamummaa Weeb irratti fayyadama [W3C WAI](https://www.w3.org/WAI/) muuxannoo fayyadamtoota teeknooloojiiwwan gargaaranis ragaa bu'a qabeessa wanta dhugumaan hojiirra ooluu danda'u kan agarsiisudha."
+        ]
+      },
+      {
+        "title": "Appilikeeshinii pirojektii",
+        "paragraphs": [
+          "Yaaliin tokko yoo gamaaggamni agarsiise fudhatama argachuu ni danda'a:"
+        ],
+        "items": [
+          "Barbaachisummaa ga'umsa dhugaatiif furmaata ta'a",
+          "rakkoon kun madaaluuf baay'ee ifaadha",
+          "Daangaan gahaa ta'uu isaa mirkaneessuun ni danda'ama",
+          "hojiin isaa hojii IATF waliin wal simata",
+          "eegumsa ykn xumuramaaf daandiin amansiisaa ta'e jira"
+        ]
+      },
+      {
+        "title": "Abbummaa galmee odeeffannoo",
+        "paragraphs": [
+          "Piroojektoonni fudhataman dhaabbata IATF GitHub jalatti ni uumamu.",
+          "Repozitoriin achitti ni jiraata kanaaf pirojektiin hundi mana hawaasaa tasgabbaa'aa ta'e ni qabaata, eegdonni yeroo booda yoo jijjiiramanillee."
+        ]
+      },
+      {
+        "title": "Hayyama kennuun",
+        "paragraphs": [
+          "Proojektoonni IATF copyleft hayyama kan fayyadaman yoo ta'e malee:"
+        ],
+        "items": [
+          "<strong>Koodii:</strong> AGPL-3.0",
+          "<strong>Dokumantiin:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injinara itti gaafatamaa ykn nama hojii suphaa hojjetu",
+      "paragraphs": [
+        "Pirojektiin fudhatama argate hundi injinara ykn nama itti gaafatamaa ta'e qabachuu qaba.Namni kun mana kuusaa galmeessisuuf mirga bulchiinsaa argachuu ni danda'a:"
+      ],
+      "items": [
+        "qindeessituu misooma uummataa",
+        "Qabeenya buufata odeeffannoo (repository structure) eeguu",
+        "dhimmoota irra deebi'anii ilaaluu yookiin to'achuu fi gaaffiiwwan fuudhuu",
+        "murtiiwwan teeknikaa barbaachisoo ta'an galmeessuu",
+        "pirojektichi warra kaaniif kan hubatamu akka ta'u gochuu"
+      ],
+      "footnote": "Kun itti gaafatamummaa sadarkaa mana kuusaa ti. Abbummaan jaarmiyaa IATF waliin ni jiraata. Itti gaafatamummaan asitti kan argamu waa'ee bulchiinsa mana kuusaati, qajeelfama teeknikaa, fi qindoomina uummataa  osoo hin taane dhiyeessii dhuunfaa daangaa hin qabne, walta'iinsa aadaa, ykn waadaa sadarkaa tajaajilaa kaartaa daandii ummataa alatti."
+    },
+    "publicDevelopment": {
+      "title": "Misooma ummataa",
+      "paragraphs": [
+        "Pirojektoonni karaa IATF'n jalqabaman duraan dursanii hawaasa biratti ni qophaa'u. Kutaan kun madda dhugaa hawaasaatiif ta'a:"
+      ],
+      "items": [
+        "koodii madda",
+        "dhimmoota",
+        "waraqaa",
+        "Yaadawwan kaartaa daandii",
+        "Seenaa gadhiisuu"
+      ],
+      "footnote": "Beekumsi piroojektii barbaachisaa ta'e waltajjii dhuunfaa ykn saanduqa ergaa qofa keessa jiraachuu hin qabu."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Galmee uummataa",
+      "title": "Galmee gaaffii uummataa"
+    },
+    "paragraphs": [
+      "IATF duraan dursee kan uummataa ta'ee hojjeta. Gaafiiwwan karaa website, email, Discord, GitHub, yookiin karaa kanneelota IAT F biraa IATf seenan galmee gaaffiilee uummataan ta'uu danda'u.",
+      "IATF gaaffii tokko maxxansuu isaa dura gabaabsee, sirreessee, yookiin haaromsee ilaaluu ni danda'a, kanaaf barbaachisummaa argachuun isaa odeeffannoo dhuunfaa barbaachisaa hin taane osoo hin saaxiliniin ilaalama.",
+      "Galteewwan gaaffiilee ummataa dhaabbata IATF GitHub, weebsaayitii kana irratti, yookiin lamaanuu keessatti kuufamuu danda'u.",
+      "IATF maxxansuu isaa dura odeeffannoowwan qunnamtii dhuunfaa barbaachisaa hin taane, teessoowwan dhuunfaa, fi odeeffannoo fayyadamtoota tekinooloojii gargaarsaa dhuunfaa adda baasuu kan hambisu yoo ta'e malee, maxxansichi ifatti kan kaayyeffatamee fi sirrii ta'ee hin jiru.",
+      "IATF haasa'oota Discord adda baasee kan hin arkifne yoo ta'u, odeeffannoon qabatamaan kan to'atamu Discord dha. Murtoowwan Discord keessatti godhaman galmee uummataa GitHub irratti ykn fuula pirojektii dhimmichi ilaallatu irratti walitti qabamuu qabu.",
+      "Barreefamni gaaffiiwwan (request records) indeksii motora barbaaduu (search engine indexing) irraa kan hin fudhanne yoo ta'e teknooloojiidhaan kan danda'amu ta'a. Hawaasa jechuun irra deebi'amee ilaalamuu fi itti gaafatamuu danda'a jechuu dha. Maqaa barbaadaa (name searches) fayyadamuun akka argamuuf kan fooyya'e jechuu miti.",
+      "IATF'n galmeewwan to'ataman irraa fooyyessuu ykn baasuu ni danda'a, garuu kaachewwan qaama sadaffaa, beeksiisa, foorkii, screenshots, search engine, Discord, ykn sirnoota alaa biroo irraa baasuu mirkaneessuu hin danda'u.",
+      "Ergaan tokko dhuunfaa ta'ee turuu kan qabu yoo ta'e, karaa IATF'n karaa ummataa hin ergin."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ga'ee jaarmiyaa",
+      "title": "Teessoo"
+    },
+    "lead": "Pireezidaantichi sadarkaa jaarmiyaa IATF kan hoogganamu yoo ta'u, kunis ga'ee injinarii pirojektiif itti gaafatamaa ta'e irraa adda ta'a: pireezidantichi guutummaa dhaabbatichaaf itti gaafatama qaba malee, qajeelfama guyyaa guyyaan mana kuusaa tokkoo qofaaf miti.",
+    "duties": {
+      "title": "Wanta teessichi hojjetu",
+      "items": [
+        "Dhaabbata IATF GitHub irratti eeyyama abbaa qabeenyaa qaba",
+        "Murtiiwwan fudhatama pirojektii fi arkivaalaa irratti mallatteessuu",
+        "IATF'f akka madda qunnamtii uummataa ta'ee hojjeta",
+        "Filannoo waggaatti gaggeeffamu ni qindeessa"
+      ],
+      "footnote": "Pireezidaantichi IATF'n dhiyeessii dhuunfaa, hojii kaffaltii qabu, yookiin waliigaltee sadarkaa tajaajilaa akka hin raawwanne hin taasisu, akkasumas murtoowwan eegdota galmeessituu dhuunfaa kallattii teeknikaa irratti fudhatan irratti ol'aantummaa hin qabaatu."
+    },
+    "election": {
+      "title": "Filannoo waggaa",
+      "paragraphs": [
+        "Pireezidaantichi waggaatti al tokko ni filatama. Filannoon torban lamaan jalqabaa Muddee keessa ni gaggeeffama, bu'aansaa hanga Mudde 15tti ni beeksifama, yeroo haaraan ammoo Amajjii 1 ni jalqaba.",
+        "Filannoo kan filataman namoota waggaatti galmee IATF kamiiyyuu irratti ga'ee eegdota kan qaban yoo ta'u, waggaa sanattis yoo xiqqaate gumaacha walta'iinsa tokko galmaa'ee galmeessa IAT F tokkoof gumaacha kan taasisanidha. Namni filatamaa ta'e tokko sagalee tokko qaba. Kaadhimamaan sagalee hedduu argate ni mo'ata; yoo walqixxummaan jiraate, filannoon lammaffaan torban sadaffaa Muddee keessa ni gaggeeffama.",
+        "Filannichi akka marii GitHub hawaasaatti galmee bulchiinsa IATF keessatti gaggeeffama, kanaaf kaadhimamtoonni, sagalee fi bu'aan hundi kutaa galmee hawaasaa ti."
+      ]
+    },
+    "continuity": {
+      "title": "Itti fufiinsa",
+      "paragraphs": [
+        "Filannoon waggaa tokko keessatti hin gaggeeffamu taanaan, dura taa'aan amma jiru hanga filannoon itti aanuutti ga'ee isaa itti fufa. Kun itti fufiinsa hin murtoofne dha, yeroo araaraa miti  Moodelichi yeroo sochiin xiqqaa ta'etti dhaabbaticha tasgabbaa'aa ta'ee akka itti fufuuf kan qophaa'e dha, jijjirama namni kamiyyuu hin qophoofneef dirqisiisuuf miti.",
+        "Pireezidaantiin yeroo kamittiyyuu aangoo gadi dhiisuu ni danda'u.Abbootiin taayitaa sochii irra jiranis filannoon adda ta'e sababii ibsameen akka seera filannoo waggaatti gaggeeffamuutti waamamuu danda'a."
+      ]
+    },
+    "current": {
+      "title": "Dura taa'aa yeroo ammaa",
+      "fields": [
+        {
+          "label": "Teessoo",
+          "value": "mugiwaraafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Jecha",
+          "value": "Hanga filannoon Muddee 2026"
+        },
+        {
+          "label": "Gaheen seera qabeessa ta'e",
+          "value": "2026"
+        },
+        {
+          "label": "Filannoo yeroo jalqabaatiif karoorfame",
+          "value": "Muddee 2026"
+        }
+      ]
+    },
+    "footnote": "Gaheen dura taa'aa dhaabbatichaa bara 2026tti kan fooyya'e yoo ta'u, hanga yeroo sanaatti itti gaafatamummaan dhaabbatichaas kan gaggeeffamu hundeessaa dhaan ture."
+  },
+  "continuity": {
+    "states": {
+      "title": "Haala pirojektichaa",
+      "paragraphs": [
+        "Piroojektoonni heera mootummaa xiqqaa fayyadamu:"
+      ],
+      "items": [
+        "Yaadachiisa",
+        "fudhatame",
+        "Sochii",
+        "Tasgabbaa'aa",
+        "Qophaa'aa barbaadaa jira",
+        "Arkiveera"
+      ],
+      "footnote": "Mootummoonni kunneen galmeessichi salphaatti akka sakatta'amu godhu."
+    },
+    "reassignment": {
+      "title": "Deebi'ee ramaduu fi arkifachuu",
+      "paragraphs": [
+        "Yoo namni hojii kunuunsaa hojjetu irraa ka'e ykn hojii dhabe, IATF itti gaafatamummaa irra deebiin ramaduu, misooma dhaabsisuu, yookiin pirojekticha archive gochuu ni danda'a.",
+        "Pirojektiin tokko yeroo barbaachisummaan inni jalqabaa guutame, kunuunsi dhaabbate, yookiin hojiin itti fufiinsa qabu kan hin jirre ta'uus ni danda'ama."
+      ],
+      "footnote": "Kaayyoowwan kaa'aman sababii amansiisaa kan biraatiin yoo ta'e malee hawaasaaf kan mul'atan ta'u."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ibsa daangaa",
+      "title": "Waan IATF hin mirkaneessine"
+    },
+    "items": [
+      "dhiyeessii maamiltootaa dhuunfaa",
+      "waliigaltee sadarkaa tajaajilaa",
+      "fudhatama yaada hunda",
+      "eegumsa yeroo dheeraa pirojektii hundaaf"
+    ],
+    "footnote": "IATF model public repository malee private delivery service miti."
+  }
+}

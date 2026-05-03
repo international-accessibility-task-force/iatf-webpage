@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proojektoota hawaasaaf banamuu danda'an",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proojektoota hawaasaaf banamuu danda'an",
+    "lead": "Barreefamni kun pirojektoota hawaasaa IATF'n eegaman ni tarreessa.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "galmee",
+      "title": "galmee yeroo ammaa jiru"
+    },
+    "intro": [
+      "Pirojektoonni fudhataman erga maxxanfaman booda asitti tarreeffamaniiru."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Barbaachisummaa dhiyeessuu",
+      "title": "Barbaachisummaa ga'umsa qabatamaa gara pirojektii hawaasaatti jijjiiruun"
+    },
+    "paragraphs": [
+      "IATF (IATF) barbaachisummaa ga'umsa qabiyyee qabatamaa hojii faayida qabeessa uummataa kan madda bilisaa ta'een jijjiiramuu danda'u ni ilaala."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Hojiiwwan hanga ammaatti maxxanfaman hin jiran",
+    "paragraphs": [
+      "IATF garee pirojektii uummataa isa jalqabaa qopheessaa jira.",
+      "Barbaachisummaa qabiyyee qabu yoo qabaatte ammallee gaaffii erguu ni dandeessa."
+    ]
+  }
+}

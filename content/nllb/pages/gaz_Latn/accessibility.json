@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Danda'amummaa",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Danda'amummaa",
+    "lead": "IATF weebsaayitii kana salphaa, dubbisuu kan danda'u, klaawwordii fayyadamuun kan argamuu fi teeknooloojii gargaarsaa waliin kan wal simu taasisuu barbaada.",
+    "support": [
+      "IATF fayyadamummaa Weeb irratti fayyadama [W3C WAI](https://www.w3.org/WAI/) Fayyadamtoonni teeknooloojii gargaarsaa muuxannoosaaniitiin kan fayyadaman yoo ta'u, bu'aa qabeessummaan hojiirra ooluu danda'uus kan hubatamuudha."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Gabaasa",
+      "title": "Rakkoo dandeettii fayyadamummaa gabaasuu"
+    },
+    "paragraphs": [
+      "Weebsaayitii kana irratti gufuuwwan argamuu danda'an yoo argitan, ergaa iimeeliidhaan gabaasaa:",
+      "{{contact.accessibilityEmail}}",
+      "Gabaasawwan buʼa qabeeyyii taʼan keessaa tokko tokko:"
+    ],
+    "items": [
+      "Fuula rakkoon itti uumame",
+      "maal gochuuf yaalaa turte",
+      "yoo barbaachisaa ta'e, teeknooloojii gargaarsaa, biraawusara ykn meeshaa akkamiitti fayyadamaa turte",
+      "maaltu dogoggora ta'e",
+      "maaltu isa gargaaruu dandaʼa ture?"
+    ],
+    "footnote": "Gabaasa gufuu seera qabeessa barreessuun hin barbaachisu. Ibsi ifa ta'e ga'aadha."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Raawwachuu",
+      "title": "Raawwii dhimmoota uummataa"
+    },
+    "paragraphs": [
+      "Rakkooleen quunnamtii uummataan walqabatan galmee hawaasaa dhimmichi ilaallatu keessatti walitti qabamuu danda'u. Odeeffannoon dhuunfaa fi odeeffannoowwan dhuunfaa barbaachisoo hin taane maxxanfamuu isaanii dura ni haqamu.",
+      "Gabaasi keessan odeeffannoo dhuunfaa kan dabalatu yoo ta'e, ergaa keessan keessatti ifatti ibsaa."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Haala yeroo ammaa",
+      "title": "Hanqinoota beekaman"
+    },
+    "paragraphs": [
+      "Weebsaayitiin kun kaayyoodhaan xiqqaa fi yeroo baay'ee kan hin sochoone dha. Hiikkaawwan afaan tokko tokko yeroo hiikkaawwan qophaa'an guutuu ta'uu dhiisuu danda'u."
+    ]
+  }
+}

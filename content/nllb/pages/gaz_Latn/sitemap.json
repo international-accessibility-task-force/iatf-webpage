@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Kaartaa Weebsaayitii"
+  },
+  "hero": {
+    "eyebrow": "Indeeksii",
+    "title": "Kaartaa Weebsaayitii",
+    "lead": "Weebsaayitii iatf.cc irratti, bakka tokkotti."
+  },
+  "sections": [
+    {
+      "title": "Fuulawwan ijoo",
+      "items": [
+        {
+          "label": "Mana jireenyaa",
+          "href": "/"
+        },
+        {
+          "label": "Pirojektoota",
+          "href": "/projects/"
+        },
+        {
+          "label": "Proojektii gaafadhu",
+          "href": "/propose/"
+        },
+        {
+          "label": "Bulchiinsa",
+          "href": "/governance/"
+        },
+        {
+          "label": "Hirmaachuu",
+          "href": "/join/"
+        },
+        {
+          "label": "Danda'amummaa",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ifaa ta'uu",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Pirojektoota",
+  "projectsEmpty": "Hanga ammaatti pirojektii maxxanfame hin jiru."
+}

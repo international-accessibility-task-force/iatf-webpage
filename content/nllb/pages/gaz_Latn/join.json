@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATFtti makamuu",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATFtti makamuu",
+    "lead": "Miseensummaan banaa dha. Teeknooloojii gargaarsaa irratti kan hundaa'an, sooftiweerii salphaatti argamuu danda'u kan ijaaran, kan hiikan, kan qoratan, yookiin pirojektii kan eegalan yoo ta'e, hirmaachuuf karaawwan hedduutu jira. Marii fi murtiiwwan GitHub fi Discord irratti uummatatti ni raawwatamu.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Gahee",
+      "title": "Karaan itti gumaachuun danda'amu"
+    },
+    "items": [
+      "<strong>Proojektii tokko gaafadhu.</strong> Yoo hanqinni argamuu danda'uu fi sooftiweerii maddi isaa banaa ta'e fayyadamuun furmaata argachuu danda'u argattan, karaa galmaa'iinsa gaaffii itti ergaa.",
+      "<strong>Qorannaa fi irra deebi'uu.</strong> Proojektoota IATF teeknooloojii gargaarsaa ati itti fayyadamtu waliin yaali, wanta hojjatu fi hin hojjanne gabaasi, akkasumas dhimmoota kallattiidhaan galmee dhimmichi ilaallatu irratti galchi.",
+      "<strong>Hiikaa.</strong> Barreeffamni madda isaa jalqaba Afaan Ingiliziitiin kan maxxanfamu yoo ta'u, Afaan Ispaanishiitiin jalqabee, hiikkaawwan kan dabalamanis kan qooda fudhattootaaf qophaa'an yeroo ta'anittiidha.",
+      "<strong>Ijaarsa.</strong> Rakkoolee mana kuusaa IATF kamiiyyuu keessa jiran filadhu, gaaffiiwwan harkisu ergi, yookiin pirojektii tokko akka injinara itti gaafatamaa isaatti fudhadhu.",
+      "<strong>Itti fufi.</strong> Piroojektoonni jiran yeroo tokko tokko nama hojii kunuunsaa hojjetu haaraa barbaadu."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kaanaalota",
+      "title": "Bakka IATF hawaasa biratti hojjetu"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Dhimmoota, gaaffilee harkisu, ba'iinsa, fi galmee pirojektii.",
+      "<strong>Walitti buʼiinsa.</strong> Marii sagaleedhaan geggeeffamu, wal qindeessuu, akkasumas gaaffiiwwan wal hin caalchifne.",
+      "<strong>Ergaa iimeelii.</strong> Fayyadama <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> yoo GitHub ykn Discord wal hin simanne."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Adeemsa itti aanu",
+      "title": "Akkaataan ati itti gumaachuu barbaaddu kan walfakkaatu filadhu"
+    },
+    "paragraphs": [
+      "Marsaaleen hundi gara sakatta'iinsa ummataafi galmeewwan ummataa walfakkaatanitti ni galu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

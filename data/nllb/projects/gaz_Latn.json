@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Weebsaayitii IATF",
+    "summary": "Weebsaayitii hawaasaa 'International Accessibility Task Force' jedhamu.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF'n mana hawaasaa amansiisaa ta'e kan moodeelicha ibsu, pirojektoota tarreessu, fi qooda fudhattoota gara tarkaanfii itti aanuutti qajeelchu barbaada ture.",
+    "why": "Weebsaayitiin kun balbala duraa IATF ti. Akka pirojektii xinnoo ta'eetti kan ijaarame waan ta'eef salphaatti dubbisuun, hiikuun, fi bakkeetti kunuunsuun ni danda'ama.",
+    "scopeIn": [
+      "Fuulaalee bu'uuraa hawaasaa malli IATF ibsu",
+      "Reejistrii uummataa pirojektoota IATF fudhatama argatan, socho'an, fi kaa'aman haala, eeggataa, kuusaa, fi agarsiisa (demo) waliin",
+      "Fuula fi foormii galmaa'insa gaaffii",
+      "Fuula bulchiinsaafi iftoominaa",
+      "Madda Ingiliffaa hiikkaaf qophii ta'e",
+      "Hojjettoota 'Cloudflare Workers Static Assets' irratti 'static deployment'"
+    ],
+    "scopeOut": [
+      "Naannolee miseensota dhuunfaa, herregaa, yookiin sochii galmaa'iinsa",
+      "Hordoffii koodii madda pirojektii, kan mana kuusaa dhuunfaa pirojektichaa keessa jiraatu",
+      "Wal qunnamtii sa'aatii dhugaa, kan Diskordii keessa jiraatu",
+      "Raawwii dhimmoota pirojektoota dhuunfaa, kan galmee GitHub pirojektii hunda keessa jiraatu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Pirootootiippiin IATF duraa, erga bakka dhaabbataa uumamaa ga'ee booda kaa'ame.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Qorannoon duraa meeshaa IATF jalatti argamuu danda'uu irratti xiyyeefate.",
+    "why": "Qorannoon hojichaa kan dhaabbate ta'us, galmeen kun akka galmee uummataa ta'ee ni eegama.",
+    "scopeIn": [
+      "Akka galmee uummataa ta'ee kan eegamu meeshaa fayyadamummaa irratti xiyyeefate duraa"
+    ],
+    "scopeOut": [
+      "Hojiiwwan misoomaa yookiin hojiiwwan adda addaa irratti hojjataman",
+      "Kaffaltii jireenyaa",
+      "Itti fayyadama oomisha keessatti gorfamu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bootiin hawaasaa IATF, erga bakka dhaabbataa ga'ee booda kaa'ame.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kanneelee hawaasaa IATF irratti otoomaasiin ni hojjata.",
+    "why": "Qorannoon hojichaa kan dhaabbate ta'us, galmeen kun akka galmee uummataa ta'ee ni eegama.",
+    "scopeIn": [
+      "Tooftaalee hawaasa IATF'n walitti bu'iinsa uumuun, akka galmee hawaasaatti ni eegama"
+    ],
+    "scopeOut": [
+      "Hojiiwwan misoomaa yookiin hojiiwwan adda addaa irratti hojjataman",
+      "Kaffaltii jireenyaa",
+      "Itti fayyadama oomisha keessatti gorfamu"
+    ]
+  }
+]

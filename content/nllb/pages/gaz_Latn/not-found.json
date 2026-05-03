@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Hin argamne"
+  },
+  "hero": {
+    "eyebrow": "Hin argamne",
+    "title": "Fuulli barbaadame hin argamne",
+    "lead": "Gara bakka hawaasaatti deebi'uuf daandiiwwan gurguddaa armaan gadii fayyadami.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Mana jireenyaa",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Daandiin ati gaafatte hin jiru."
+    ],
+    "items": [
+      {
+        "label": "Mana jireenyaa",
+        "href": "/"
+      },
+      {
+        "label": "Pirojektoota",
+        "href": "/projects/"
+      },
+      {
+        "label": "Hirmaachuu",
+        "href": "/join/"
+      },
+      {
+        "label": "Danda'amummaa",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Bulchiinsa",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ifaa ta'uu",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

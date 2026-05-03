@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pirojektii argamuu danda'uu gaafadhu",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pirojektii argamuu danda'uu gaafadhu",
+    "lead": "IATF gaaffilee proojektoota walqixxummaa barbaachisummaa dhugaa irraa ka'an ilaala.",
+    "support": [
+      "Rakkoo ifa ta'e, eenyutti akka miidhamuufi maaliif akka barbaachise beekuun jalqabuuf ga'aadha."
+    ],
+    "actions": [
+      {
+        "label": "Gaaffii jalqabuu",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Kanaafu Discord fayyadami",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kaanaalota",
+      "title": "Karaa salphaa taʼe filadhu"
+    },
+    "intro": [
+      "Daandiiwwan hundumtuu gamaaggama walfakkaatuun galmaa'u."
+    ],
+    "items": [
+      {
+        "label": "Weebsaayitii",
+        "body": "Foormii armaan gadii fayyadamtee gaaffii qabiyyee qabu dhiyeessuu dandeessa."
+      },
+      {
+        "label": "Iimeelii",
+        "body": "Gaaficha kallattiidhaan ergi {{contact.requestsEmail}}Gaaffiiwwan iimeelii qorannoo fi sirreeffama erga godhamee booda galmee gaaffii uummataa ta'uu danda'u."
+      },
+      {
+        "label": "Walitti bu'iinsa",
+        "body": "Yoo salphaa ta'e achirraa jalqabi. Gaaffiin ammallee gara qormaata walfakkaataatti ce'a."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Gaaffii erguu kee dura",
+    "paragraphs": [
+      "IATF hawaasa biratti hojjeta. Waamichi gabaabsamee akka galmee waamichaa hawaasaatti dhaabbata GitHub, marsariitii kana irratti ykn lamaanuu irratti maxxanfamuu danda'a.",
+      "Odeeffannoo dhuunfaa, lakkoofsa bilbilaa, odeeffannoo fayyaa, yookiin waa'ee fayyadamtoota tekinooloojii gargaarsaa dhuunfaa odeeffannoon adda baasu kan hin dabalamne yoo ta'ee fi IATF'n gamaaggamuu isaa yoo isinitti tole ta'e malee.",
+      "IATF galmee gaaffii maxxansuu dura odeeffannoo qunnamtii dhuunfaa barbaachisaa hin taane ni balleessa."
+    ]
+  },
+  "review": {
+    "title": "Abdiiwwan irra deebi'anii ilaalu",
+    "paragraphs": [
+      "Gaaffii dhiheessuun fudhatama isaa hin mirkaneessu.",
+      "IATF gaaffiiwwan ga'umsa hojii, danda'amummaa, faayida qabeessummaa, fi hojiin kun bakka galmee uummataa keessa jiraachuu fi dhiisuu isaa ni ilaala.",
+      "Gaaffiiwwan tokko tokko fudhatama argachuusaanii dura fudhatama dhabuu, yeroo biraatti dabarsuu ykn sirreeffamuu danda'u."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Foormii gaaffii",
+      "title": "Gaaffii dhiyeessuu"
+    },
+    "fields": [
+      {
+        "kind": "galii",
+        "name": "gaafatamaa",
+        "label": "Maqaa ykn jaarmiyaa kee",
+        "helper": "Gaaffii kana kan dhiheessu eenyudha?"
+      },
+      {
+        "kind": "filadhu",
+        "name": "ContactRoute (Daandii wal qunnamtii)",
+        "label": "Daandii wal qunnamtii filatame",
+        "helper": "Akkamitti hordoffiin taasifamuu qaba?",
+        "required": true,
+        "options": [
+          "Iimeelii",
+          "Walitti bu'iinsa"
+        ]
+      },
+      {
+        "kind": "galii",
+        "name": "ContactDetails",
+        "label": "Odeeffannoo wal qunnamtii",
+        "helper": "Teessoo iimeelii ykn Diskordii hordoffii gochuuf.",
+        "placeholder": "Teessoo Iimeelii ykn Diskoordii",
+        "required": true
+      },
+      {
+        "kind": "galii",
+        "name": "afaan",
+        "label": "Afaan",
+        "helper": "Yoo barbaachisaa ta'e afaan filattan.",
+        "value": "Afaan Ingilizii"
+      },
+      {
+        "kind": "textarea",
+        "name": "rakkoon",
+        "label": "Rakkoo akkamii hiikuuf yaalaa jirta?",
+        "helper": "Gufuun kun maal akka taʼe karaa salphaa taʼeen ibsi.",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "fayyadamtoota miidhaman",
+        "label": "Kan miidhaman eenyufaʼi?",
+        "helper": "Kun eenyuun gargaaruu danda'a?",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "extraContext",
+        "label": "Seenaa dabalataa",
+        "helper": "Wantoota barbaachisummaa isaa ibsuuf gargaaran kan biroo waliin qoodaa: maaliif barbaachisaa ta'e, fakkeenyota, caqasoota, yaada sooftiweerii qindaa'aa, yookiin daangaa yeroo."
+      },
+      {
+        "kind": "filadhu",
+        "name": "openSourceConsent",
+        "label": "Misooma madda bilisaa hawaasaatiif mijaa'aa dhaa?",
+        "helper": "Pirojektoonni fudhataman IATF jalatti galteewwan hawaasaa ti.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Eeyyee",
+          "Lakki",
+          "Ammaaf mirkanaa'aa miti"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Yoo fudhatame",
+      "title": "Kan fudhatamu taʼuu jechuun maal jechuu dha?"
+    },
+    "items": [
+      "IATF gurmaa'ina GitHub keessatti kuusaa uummataa",
+      "Injiinarri itti gaafatamaa pirojektichaaf ramadame",
+      "koodii fi meeshaalee pirojektiif hayyama copyleft",
+      "Adeemsa misooma uummataa galmee odeeffannoo keessatti",
+      "galmee IATF irratti galmaa'e"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Maree jalqabuu",
+      "title": "Gaaffiin gabaabduufi ifa ta'e jalqabuuf ga'aadha"
+    },
+    "paragraphs": [
+      "Barbaachisummaa dhugaa kan qabdu yoo ta'ee fi pirojektii uummataa ta'uu qaba jettee yoo yaadde, nuuf ergi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Barbaachisummaa argachuurraa gara repoo ummataa",
+    "lead": "IATF waldaalee, gareelee fi namoota dhuunfaa barbaachisummaa ga'umsa dhugaa gara pirojektoota madda bilisaa hawaasaatti akka jijjiiran ni gargaara.",
+    "support": [
+      "Piroojektoonni fudhataman dhaabbata IATF GitHub keessatti liisensii copyleft jalatti maxxanfamu, akkasumas injinariin itti gaafatamaa ta'e hawaasaaf qopheessa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Moodeelii hojii uummataa",
+      "title": "Daandiin hawaasaa salphaan sooftiweeriin walquunnamsiisuu danda'u"
+    },
+    "paragraphs": [
+      "Karaa foormii, namni kamiyyuu rakkoo wal-danda'uu IATF'f dhiyeessuu ni danda'a. gareen kun kan fudhatu yoo ta'e, galmeen GitHub hojii kanaaf ni banama.",
+      "Pirojektiin fudhatame hundumtuu koodii, dhimmoota, dokimanteshinii fi ba'iinsaaf mana hawaasaa ifa ta'e kan qabu yoo ta'u, guddinni isaa kan geggeeffamu injinara itti gaafatamummaa qabuun ifatti ta'a."
+    ],
+    "specCard": {
+      "title": "Moodeelii hojii uummataa",
+      "terms": [
+        {
+          "term": "Barbaachisummaa",
+          "definition": "Rakkoo ga'umsa dhugaa"
+        },
+        {
+          "term": "Xiinxala",
+          "definition": "Ga'umsa hojii fi dandeettii hojiirra oolmaa"
+        },
+        {
+          "term": "Bakka pirojektii",
+          "definition": "Bakka bu'uura GitHub hawaasaaf qophaa'e"
+        },
+        {
+          "term": "Bulchiinsa",
+          "definition": "Qabeenya dhaabbatichaa IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Adeemsa",
+      "title": "Akkamitti akka hojjatu",
+      "intro": "Moodelichi akka salphaatti daandii uummataa hordofuu akka danda'uuf akeekaadhaan xiqqaa ta'ee jira."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Barbaachisummaan ni dhiyaata",
+        "paragraphs": [
+          "Waldaan, tuutni ykn namni dhuunfaa tokko fedhii dhugaan qabatamaa ta'e irratti hundaa'ee gaaffii dhiyeessuu ni danda'a.",
+          "Gaaffiiwwan karaa weebsaayitii, ergaa iimeelii gara <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ykn karaa Diskoordii."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF irra deebi'ee ilaala",
+        "paragraphs": [
+          "Kaayyoo hojichaaf ga'umsa, daangaa hojiirra oolmaa, fi hojiin kun pirojektii madda bilisaa uummataa ta'uu fi dhiisuu isaa ni ilaalla."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Galmeen odeeffannoo uummataa ni uumama",
+        "paragraphs": [
+          "Proojektiin tokko yoo fudhatame, IATF GitHub keessatti copyleft liisensii jalatti maxxanfama.",
+          "Kutaan kun koodii, dhimmoota, dokimanteshinii fi maxxansaalee hundaaf bakka uummataa ta'a."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injiinarri itti gaafatamummaa qabu pirojekticha geggeessa",
+        "paragraphs": [
+          "Injinariin itti gaafatamaa ta'e galmee proojektii keessatti ramadama, akkasumas misoomni uummataa keessatti raawwatama."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "galmee",
+      "title": "galmee pirojektii ummataa"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Asirraa jalqabi",
+      "title": "Hojiiwwan yeroo ammaa hojjetamaa jiran bira ga'uu ykn pirojektii tokko jalqabuu"
+    },
+    "paragraphs": [
+      "Galmee fayyadamuudhaan wanta yeroo ammaa uummataa biratti beekamaa ta'e ilaaluu ykn rakkoon ga'umsa qabiyyee qabuu pirojektii ta'uu yoo barbaade galmeessuu jalqabuu dandeessa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
