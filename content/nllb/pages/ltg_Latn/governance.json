@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Puorvaļdeibu i datu bazis modeļs",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Puorvaļdeibu i datu bazis modeļs",
+    "lead": "IATF veicynoj, lai pīejamameibys projekti byutu publiski, izlaseiti i uzturami.",
+    "support": [
+      "Itamā puslopā izskaidruots, kas atbylst praseibom, kai teik turāti repozitoriji i kaida ir atbiļdeiba repozitora leiminī piec pījimšonys."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Rūbežvieliejumi",
+      "title": "Misis pīlītuojums, eipašums, licenciešona"
+    },
+    "cards": [
+      {
+        "title": "Misis pīteikameiba",
+        "paragraphs": [
+          "IATF pījam dorbus, kas rysynoj realu pīejameibys barjeru i kam ir skaidra sabīdreibys vierteiba.",
+          "Projektim juobyut nūdereigim ari uorpus vīnys atseviškys darbeibys i juostruodoj kai publiskajom datu bazem.",
+          "Tīšsaistis pīejamameibys deļ IATF izmontoj: [W3C WAI](https://www.w3.org/WAI/) Asistentu tehnologeju lītuotuoju tīsa pīredze ari ir praktisks pīruodejums tam, kas dorbojās realajā lītuošonā."
+        ]
+      },
+      {
+        "title": "Projekta pījimšona",
+        "paragraphs": [
+          "Pīduovojumu var pījimt, ka pietejums paruoda, ka:"
+        ],
+        "items": [
+          "tys atbylst realajai pīejameibys vajadzeibai",
+          "problema ir pīteikūši skaidra, kab varātu nūviertēt",
+          "īmesli ir pīteikūši realistiski, kab varātu izstruoduot",
+          "dorbs ir saskaņots ar IATF miseju",
+          "ir īspiejams ceļš iz uzturiešonu voi pabeigšonu"
+        ]
+      },
+      {
+        "title": "Repozitorija eipašums",
+        "paragraphs": [
+          "Pījimtī projekti teik radeiti IATF GitHub organizacejā.",
+          "Repozitori tī palīk, lai kotrs projekts saglobuotu stabilu sabīdrisku sātu, pat ka vāluok mainuos uzturātuoji."
+        ]
+      },
+      {
+        "title": "Licenciešona",
+        "paragraphs": [
+          "IATF projekti izmontoj kopilefta licenciešonu, ka projektā nav cytaiži nūruodeits:"
+        ],
+        "items": [
+          "<strong>Kods:</strong> AGPL-3.0",
+          "<strong>Dokumenti:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Atbiļdeigs inženeris voi uzturātuojs",
+      "paragraphs": [
+        "Kotram pījimtam projektam juobyut nūsaceitam atbiļdeigajam inženeram voi uzturātuojam."
+      ],
+      "items": [
+        "vadeituoju atteisteiba sabīdreibā",
+        "saglobuot datu bazis strukturu,",
+        "puorskateit voi vadeit problemys i atjimt pīprasejumus",
+        "dokumentuot svareigus tehniskuos lītys lāmumus;",
+        "veicynuot, lai cyti varātu izprast projektu"
+      ],
+      "footnote": "Itys ir repozitoriju leimiņa atbiļdeiba. Organizacejis eipašums palīk ar IATF."
+    },
+    "publicDevelopment": {
+      "title": "Vaļsts atteisteiba",
+      "paragraphs": [
+        "Projekti, kas aizsuokti caur IATF, par standartu teik izstruoduoti publiski."
+      ],
+      "items": [
+        "olūtskods",
+        "vaicuojumi",
+        "dokumentaceja",
+        "Ceļu karteņa īvāruojumi",
+        "izlītuošonys viesture"
+      ],
+      "footnote": "Nūzeimeigom projekta zynuošonom navajadzātu dzeivuot tikai privatuos sarunuos voi īluos."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Vaļsteibys īroksti",
+      "title": "Publiski pīprasejumu īroksti"
+    },
+    "paragraphs": [
+      "IATF nu suokuma dorbojās publiski.",
+      "IATF var apkūpuot, redigēt voi restrukturēt pīprasejumu pyrma publiciešonys, lai pīejamameibys vajadzeibys varātu puorbaudeit bez napīcīšamu personeigu informaceju.",
+      "Publiskuos pīprasejuma īrokstus var uzglobuot IATF GitHub organizacejā, itamā vītnē voi obejūs.",
+      "Pyrma publiciešonys IATF nūvierš napīcīšamus personeigūs kontaktdatus, privatys adresis i identifikacejis datus par atseviškim paleidzynojūšuos tehnologejis lītuotuojim, izjamūt gadīnī, ka publiciešona ir skaidri paradzāta i ir vajadzeiga.",
+      "Discord teik izmontuots naformaluos koordiniešonys deļ. IATF naatkareigi naarkivej Discord sarunu, i viestuļu saglobuošonu kontrolej Discord.",
+      "Pīprasejumu īroksti nav īkļauti mekliešonys sistemys indeksiešonā, kur tys ir tehniski īspiejams.",
+      "IATF var atjaunuot voi nūjimt īrokstus nu IAT F kontrolātūs publiskuos vītnis, tok navar garantēt nūjimšonu nu trešuos pusis kašu, ziņuojumu, forku, ekrana attālu, mekliešonys sistemys, \"Discord\" voi cytu uoreju sistemu.",
+      "Ka viesteišonai ir juoatstuoj privatā formā, navajag tū nūsyuteit caur IATF publiskim kanalim."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organizacejis lūma",
+      "title": "Vaļsteibys"
+    },
+    "lead": "Šei ir atškireiga nu inženera lūmys, kas ir atbiļdeigs par projektu: prīšksādātuojs ir atbylstūšs organizacejai kūpumā, na kotra vīneiguo datu kruojuma dīnysgruomotu vadeišonai.",
+    "duties": {
+      "title": "Kū veic krēsls",
+      "items": [
+        "Sagloboj eipašnīka atļuovis IATF GitHub organizacejā",
+        "Projekta pījimšonys i arhiva lāmumu apstyprynuošona",
+        "Darbojās kai IATF publiskais kontaktpunkts",
+        "Koordinej kotru godu nūteikūšuos vieliešonu"
+      ],
+      "footnote": "Pasuokuma vadeituojs napīsaista IATF ar privatu pīduovuojumu, apmoksuotu dorbu voi pakolpuojumu leimiņa leigumim, kai ari napīmiņ datu bazis uzturātuoju lāmumus par tehniskuos vadeibys nūteikumim."
+    },
+    "election": {
+      "title": "Godišī vieliejumi",
+      "paragraphs": [
+        "Volūda nūteik decembra pyrmajuos divejuos nedeļūs, rezultati teik paziņuoti da 15. decembra, i jauns termins suocēs 1. janvarī.",
+        "Kotram kandidatam ir vīna bolsuošona. Kandidats ar leluokū skaitu bolsuojumu uzvar; ka rezultats ir vīnaids, ūtrs raidejums teik izsludynuots decembra trešajā nedeļā.",
+        "Izvēle teik organizāta kai sabīdriska diskuseja \"GitHub\" nūsaceitajā \"IATF\" puorvaļdeibys atsarasšonys vītnē, deļtam kandidati, bolsuojums i rezultati ir daļa nu sabīdreibys īrokstu."
+      ]
+    },
+    "continuity": {
+      "title": "Turpynuojums",
+      "paragraphs": [
+        "Ka nūteiktūs godūs nateik izsludynuots nivīns vieliejums, nuokušais vadeituojs turpynoj dorbu leidz nuokušajom vieliešonom. Tys ir naīteikts turpynuojums, na paleidzeibys periods - modeļs ir veiduots, kab uzturātu organizaceju stabilu, kod aktivitate ir zamuo, na kab pīspīstu puormaiņu, kam nivīns nav gatavs.",
+        "Pasuokuma vadeituojs var atsasaceit sevkurā laikā. Aktivi uzturātuoji var ari aicynuot iz uorkuortejim vieliešonom ar paskaidruotu īmesli, kurys teik organizātys saskaņā ar taidim pošim nūsacejumim kai ikgadis vieliešonys."
+      ]
+    },
+    "current": {
+      "title": "Myusu dīnu vadeituojs",
+      "fields": [
+        {
+          "label": "Vaļsteibys",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Vuords",
+          "value": "Leidz 2026. goda decembra vieleišonom"
+        },
+        {
+          "label": "Rola formalizāta",
+          "value": "2026"
+        },
+        {
+          "label": "Pyrmuos nūsaceitys vieliešonys",
+          "value": "2026. goda decembris"
+        }
+      ]
+    },
+    "footnote": "2026. godā tyka formalizāta vadeibys lūma, kab padareitu organizacejis leimiņa vadeibu skaidru."
+  },
+  "continuity": {
+    "states": {
+      "title": "Projekta stuosti",
+      "paragraphs": [
+        "Projekti izmontoj nalelys sabīdriskuos vaļsts:"
+      ],
+      "items": [
+        "Pīduovojums",
+        "Pījimts",
+        "Aktivi aktivi aktivi",
+        "Stabila situaceja",
+        "Atbaļsteituoja mekliešona",
+        "Arhivuošona"
+      ],
+      "footnote": "Ituos vaļsts nūdrūsynoj, ka registrā ir vīgli puorbaudeit."
+    },
+    "reassignment": {
+      "title": "Puorsyuteišona i arhiveišona",
+      "paragraphs": [
+        "Ka uzturātuojs atsakuop voi palīk neaktivs, IATF var puorškiert atbiļdeibu, paust atteisteibu voi arhivēt projektu.",
+        "Projekts var tikt ari arhiveits, kod suokūtnejuo vajadzeiba ir atbiļdeita, uzturiešona ir beigta voi turpynuotuo dorba vaira nav realuo."
+      ],
+      "footnote": "Arhiveitī projekti palīk publiski radzami, cikom nav nūzeimeiga īmesļa dareit cytaiži."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Rūbežu nūzeime",
+      "title": "Kū IATF nagarantej"
+    },
+    "items": [
+      "privatuo klientu pīguode",
+      "pakolpuojumu leimiņa leigumi",
+      "kotra pīduovuojuma pījimšona",
+      "ilgtermiņa uzturiešona kotram projektam"
+    ],
+    "footnote": "IATF ir sabīdriskais datu bazis modeļs, na privats pīguodis pakolpuojums."
+  }
+}

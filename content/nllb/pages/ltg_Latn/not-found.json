@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Naradzāts"
+  },
+  "hero": {
+    "eyebrow": "Naradzāts",
+    "title": "Papraseituo lopys lapa nav atrūnama",
+    "lead": "Kab atsagrīzt publiskajā vītā, izmontojit golvonūs maršrutu.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Sāta",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Jūs prasītais maršruts naeksistej."
+    ],
+    "items": [
+      {
+        "label": "Sāta",
+        "href": "/"
+      },
+      {
+        "label": "Projekti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Saisteit",
+        "href": "/join/"
+      },
+      {
+        "label": "Pīejamameiba",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Vaļsteibys puorvaļde",
+        "href": "/governance/"
+      },
+      {
+        "label": "Skaidrums",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

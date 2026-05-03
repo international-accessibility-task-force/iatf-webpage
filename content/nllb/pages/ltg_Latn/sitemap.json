@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Vītys karte"
+  },
+  "hero": {
+    "eyebrow": "Indekss",
+    "title": "Vītys karte",
+    "lead": "Vysys publiskuos puslopys ITF.CC vīnā vītā."
+  },
+  "sections": [
+    {
+      "title": "Golvonuos puslopys",
+      "items": [
+        {
+          "label": "Sāta",
+          "href": "/"
+        },
+        {
+          "label": "Projekti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Pīpraseit projektu",
+          "href": "/propose/"
+        },
+        {
+          "label": "Vaļsteibys puorvaļde",
+          "href": "/governance/"
+        },
+        {
+          "label": "Saisteit",
+          "href": "/join/"
+        },
+        {
+          "label": "Pīejamameiba",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Skaidrums",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekti",
+  "projectsEmpty": "Nivīns projekts vēļ nav publicāts."
+}

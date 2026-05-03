@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Publikai pīejameibys projekti",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Publikai pīejameibys projekti",
+    "lead": "Itymā registrā īkļauti publiski projekti, kas teik uzturāti caur IATF. Te ir radzami pījimti pīejamameibys projekti, vītys infrastruktura i arhiveiti prototipi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Reigys registraceja",
+      "title": "Myusdīnu registrs"
+    },
+    "intro": [
+      "Atbaļsteitī projekti ir sadaleiti ite piec tuo, kai tī ir publicāti."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Nūsaceit vajadzeibu",
+      "title": "Konkretu pīejamameibys vajadzeibu puorveiduot par sabīdrisku projektu"
+    },
+    "paragraphs": [
+      "IATF pietej konkretys pīejamameibys vajadzeibys, kurys var puorveiduot par nūdereigu publisku atvārtu olūtu dorbu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Projekti vēļ nav publicāti",
+    "paragraphs": [
+      "IATF sagatavoj sovu pyrmū publisku projektu komplektu.",
+      "Tu vys vēļ vari syuteit pīprasejumu, ka tev ir konkreta pīejameibys vajadzeiba."
+    ]
+  }
+}

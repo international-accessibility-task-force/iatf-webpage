@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pīpraseit pīejamameibys projektu",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pīpraseit pīejamameibys projektu",
+    "lead": "IATF puorbauda pīsacejumus pīejamameibys projektim, kas suocās ar realu vajadzeibu.",
+    "support": [
+      "Tev nav vajadzeiga piļneiga specifikaceja."
+    ],
+    "actions": [
+      {
+        "label": "Suokt pīprasejumu",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Tuo vītā lītuot Diskordu",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanali",
+      "title": "Izavielej vīnkuoršuokū maršrutu."
+    },
+    "intro": [
+      "Vysi maršruti teik puorbaudeiti vīnā i tymā pošā analizei."
+    ],
+    "items": [
+      {
+        "label": "Vītne",
+        "body": "Struoduota pīprasejuma syuteišonai izmontoj zamuok nūruodeitū formu."
+      },
+      {
+        "label": "E-pasts",
+        "body": "Īsyuti lyugumu ite: {{contact.requestsEmail}}E-pastu pīprasejumi piec puorskateišonys i redigiešonys var palikt par publiskim pīprasteibys īrokstim."
+      },
+      {
+        "label": "Napīmiņu",
+        "body": "Suocūt nu tuo, ka tys ir vīgļuok. pīprasejums vys vēļ puorsaceļ iz tū pošu puorskateišonu."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Pyrma pīprasejuma syuteišonys",
+    "paragraphs": [
+      "IATF dorbojās sabīdreibā. pīprasejumi var tikt apkūpuoti i publicāti kai sabīdreibys pīprasajumu īroksti IAT F GitHub organizacejā, itamā vītnē voi obejūs.",
+      "Napateik privatys adresis, telefona numerus, mediciniskuos informacejis voi individualu informaceju par paleidzynojūšuos tehnologejis lītuotuojim, ka tys nav napīcīšams i tu naesi komfortabli ar tū, ka tū puorbaudej IATF.",
+      "Pyrma pīprasejuma īrokstu publiciešonys IATF nūvierš napīcīšamus personeigūs kontaktdatus."
+    ]
+  },
+  "review": {
+    "title": "Nūteikumu puorskots",
+    "paragraphs": [
+      "Pīduovojumu īsnīgšona nagarantej pījimšonu.",
+      "IATF puorbauda pīprasejumus par misejis pīlītuošonu, izdareigumu, nūdereigumu i tū, voi dorbs pīdar publiskajā datu bazē.",
+      "Cyti pīprasejumi var tikt nūraideiti, nūvacuoti voi puorveiduoti pyrma pījimšonys."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Pīprasejuma forma",
+      "title": "Īsyuteit pīprasejumu"
+    },
+    "fields": [
+      {
+        "kind": "īeja",
+        "name": "pīpraseituojs",
+        "label": "Tava vuords voi organizaceja",
+        "helper": "Kas tū praseja?"
+      },
+      {
+        "kind": "izavēlēt",
+        "name": "kontaktu maršruts",
+        "label": "Lobuokais sakaru ceļš",
+        "helper": "Kai juodora turpynuojums?",
+        "required": true,
+        "options": [
+          "E-pasts",
+          "Napīmiņu"
+        ]
+      },
+      {
+        "kind": "īeja",
+        "name": "kontaktdetaili",
+        "label": "Kontaktinformacejis",
+        "helper": "E-posta adrese voi Diskordis kontaktpersona sekuošonai.",
+        "placeholder": "E-pasta adrese voi diskordis saite",
+        "required": true
+      },
+      {
+        "kind": "īeja",
+        "name": "volūda",
+        "label": "Volūda",
+        "helper": "Tova izvieleituo volūda, ja vajadzeiga.",
+        "value": "Vaļsteibys volūda"
+      },
+      {
+        "kind": "teksta laukums",
+        "name": "problemys",
+        "label": "Kaidu problemu tu raugi atrysynuot?",
+        "helper": "Apsavuiceit barjeru vīnkuorši.",
+        "required": true
+      },
+      {
+        "kind": "teksta laukums",
+        "name": "īspaiduotī lītuotuoji",
+        "label": "Kam tys ītekmej?",
+        "helper": "Kam tys paleidzātu?",
+        "required": true
+      },
+      {
+        "kind": "teksta laukums",
+        "name": "ekstraKontexts",
+        "label": "Papyldu konteksts",
+        "helper": "Puordūdit koč kū cytu, kas paleidz izskaidruot vajadzeibu: parkū tys ir svareigi, pīmārus, atsauces, gryutu programys ideju voi laika īrūbežuojumus."
+      },
+      {
+        "kind": "izavēlēt",
+        "name": "openSourceConsent (apstyprynuojums)",
+        "label": "Voi tev ir labi ar publisku atvārtu olūtu izstruodi?",
+        "helper": "Atbaļsteitī projekti ir IATF publiski repositori.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Vīnkuorši",
+          "Nikuo.",
+          "Vēļ nabeju puorlīcynuots."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ka pījimts",
+      "title": "Kū nūzeimoj pījimšona"
+    },
+    "items": [
+      "IATF GitHub organizacejā asūšuo publiskuo datu kruojuma atsarasšonys vīta",
+      "projektam pīškierts atbiļdeigs inženeris",
+      "kopilefta licence kodam i projekta materialim",
+      "publiskuo atteisteiba datubāzē",
+      "IATF registrā īroksts"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Suoc runuot",
+      "title": "Suokumam ir pīteikami vīnkuorši i skaidri pīprasejumi."
+    },
+    "paragraphs": [
+      "Ka jums ir napīcīšama pīejamameiba i jius dūmojat, ka tys byutu juodora par publisku projektu, pastuostit mums."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Nu pīejameibys vajadzeibys iz publiskim repo",
+    "lead": "IATF paleidz asociacejom, grupom i individim puorveiduot eistys pīejamameibys vajadzeibys par publiskim atvārtu olūtu projektim.",
+    "support": [
+      "Atbaļsteitī projekti teik publicāti IATF GitHub organizacejā ar kopilefta licenzi i tū atbolsta atbiļdeigs inženers."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Vaļsts darbeibu modeļs",
+      "title": "Vīnkuoršs publisks ceļš pi pīejamys programmaturys"
+    },
+    "paragraphs": [
+      "Ar formu sevkurs var īsnēgt pīejamameibys problemu IATF.",
+      "Kotram pījimtam projektam ir skaidra publiskuo sāta kodam, problemom, dokumentacejai i izdavumim, ar atteisteibu, kū vadej atbiļdeigs inženeris."
+    ],
+    "specCard": {
+      "title": "Vaļsts darbeibu modeļs",
+      "terms": [
+        {
+          "term": "Vajadzeiba",
+          "definition": "Reala pīejamameibys problema"
+        },
+        {
+          "term": "Puorskots",
+          "definition": "Misis pīlītuošona i praktiskuo īspiejameiba"
+        },
+        {
+          "term": "Projekta telpa",
+          "definition": "Publisks GitHub uztaiseituojs"
+        },
+        {
+          "term": "Puorvaļdeiba",
+          "definition": "IATF organizacejis eipašums"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Pasuokums",
+      "title": "Kai tys dorbojās",
+      "intro": "Modeļs nūzeimeigi palīk mozs, kab varātu vīgli sekot publiskajam celim."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Vajadzeiba ir pīduovuota",
+        "paragraphs": [
+          "Asociaceja, grupa voi individa var īsnēgt pīprasejumu, kas baļsteits iz realu pīejamameibys vajadzeibu.",
+          "Pīduovojumus var īsnēgt caur interneta vītni voi e-pastu iz adresu: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>voi caur Napīteikumu."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF tū puorbauda",
+        "paragraphs": [
+          "Mes puorskaitejam misejis pīteikameibu, praktiskū īspiejameibu i voi dorbs pīdar publiskajam atvārtuo koda projektam."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Tyka izveiduots sabīdriskais datu kruojums",
+        "paragraphs": [
+          "Ka projekts teik pījimts, tys teik publicāts IATF GitHub organizacejā ar kopilefta licenci.",
+          "Repozitorijs palīk par kodeja, problemu, dokumentacejis i izdavumu publisku sātu."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Projekta vadeituojs ir atbiļdeigs inženers",
+        "paragraphs": [
+          "Atbiļdeigais inženers teik pīškierts projektam i atteisteiba nūteik publiski."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Reigys registraceja",
+      "title": "Publisks projekta registrs"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Suoc te.",
+      "title": "Puorskaiteit aktualu dorbu voi suokt konkretu projektu"
+    },
+    "paragraphs": [
+      "Izmontuot registru, kab varātu apsavērt, kas jau ir publiski pieejams, voi suokt pījimšonu, ka konkreta pīejamameibys problema varātu kliut par projektu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Pīejamameiba",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Pīejamameiba",
+    "lead": "IATF mierkis ir saglobuot itū interneta vītni vīnkuoršu, skaiteitu, pīejamū ar klaviaturu i saisteitu ar paleidzynojūšajom tehnologejom.",
+    "support": [
+      "Tīšsaistis pīejamameibys deļ IATF izmontoj: [W3C WAI](https://www.w3.org/WAI/) Praktiskai pīejamameiba teik informāta ari ar palīkūšuos tehnologeju lītuotuoju tīšu pīredzi."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ziņuošona",
+      "title": "Ziņuot par pīejameibys problemu"
+    },
+    "paragraphs": [
+      "Ka jius atrassit īspiejams pīejams īrūbežuojumus itymā interneta vītnē, lyudzu, syutiet par tū e-postu:",
+      "{{contact.accessibilityEmail}}",
+      "Nūdereigi ziņuojumi īkļaun:"
+    ],
+    "items": [
+      "puslopys, kur nūtyka problema",
+      "kū tu raudzeji dareit",
+      "kaidu paleidzeibys tehnologeju, vītnīku voi īreicis tu izmontuoji, ja tys ir atbylstūši",
+      "kas nūtyka",
+      "kas byutu paleidziejs"
+    ],
+    "footnote": "Nav vajadzeigs pīraksteit formalu klaida raportu."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Puorvadynuošona",
+      "title": "Publiskuos problemys rysynuošona"
+    },
+    "paragraphs": [
+      "Pīejamameibys vaicuojumi var tikt apkūpuoti atbylstūšā publiskajā datu kruojumā, kab tī varātu byut atvārti. personiskuos kontaktinformacejis i navajagūša privatuo informaceja teik izjimta pyrma publiciešonys.",
+      "Ka jiusu ziņojumā ir īkļauta privata informaceja, tū skaidri paruodi ziņuojumā."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Myusdīnu situaceja",
+      "title": "Zynomi īrūbežuojumi"
+    },
+    "paragraphs": [
+      "Itei vītne ir nūzeimeigi moza i leluokūtīs statiska. Cytys volūdys versejis var byut napiļneigys, cikom teik sagataveiti tulkuojumi."
+    ]
+  }
+}

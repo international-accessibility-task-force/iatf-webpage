@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Skaidrums",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Skaidrums",
+    "lead": "IATF nu suokuma dorbojās publiski. Projekta lāmumi, koda izmaiņis, vadeibys izmainis i darbeibu izmoksys teik īroksti publiskuos vītys.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Īroksti",
+      "title": "Kur atsarūn īroksti"
+    },
+    "items": [
+      "<strong>Projekta lāmumi.</strong> Pījimšonys, arhiveišonys i puorsavieršonys lāmumi teik īroksti kai izdavumi voi publiciejumi attīceigajā datubāzē i apkūpuoti publiskajā registrā. <a href=\"/projects/\">registriešona</a>Kaids tys beja?",
+      "<strong>Pīpraseju īrokstus.</strong> Publiski pīprasejumu īroksti ir uzglobuoti IATF GitHub organizacejā, itamā vītnē voi obejūs. Īroksti var apkūpuot, redigēt voi restrukturēt suokūtnejuo pīprastejuma vajadzeibu, kab varātu puorbaudeit bez napīcīšamu personeigu informaceju. Napīteikumu lāmumi ir apkūpieti publiskajā īrokstā, kod tī ītekmej projektu voi puorvaļdeibys lāmumu.",
+      "<strong>Kods mainuos.</strong> Kotrys koda izmainis ir publisks pīsacejums atbylstūšajā datubāzē. <a href=\"{{contact.githubOrgUrl}}\">GitHub organizaceja</a>Kaids tys beja?",
+      "<strong>Vaļsteibys puormejis.</strong> Apstyprynuojumi puorvaļdeibys puslopā teik nūvāruoti kai pīsacejumi <code>iatf interneta vītne</code> Repozitorijs. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">pīraksteit viesturi</a> GitHub tīšsaistis vītnē.",
+      "<strong>Darbnīceibys izmoksys.</strong> Nu 2022. goda golvonuos atkuortuojušuos izmoksys ir domenu nūsaukumi.",
+      "<strong>Koordinacejis īroksti.</strong> Sevkura saskaņuotuo puorskateišonys voi lāmumu īvāruojumi dzeivoj GitHub diskusejuos par attīceiguos atsarasšonys vītu  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Diskusejis</a> par tū, ka <code>iatf interneta vītne</code> uzglabātuojs."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Izdavumi",
+      "title": "Darbeibu izmaksu uzskaite"
+    },
+    "paragraphs": [
+      "Nu 2022. goda golvonuos atkuortuojušuos darbeibu izmoksys ir domenu nūsaukumi.",
+      "Itys īroksts nav revidāts finanšu atskaite. Tys ir publisks darbeibu izmaksu žurnals par infrastrukturu, kas teik izmontuota, kab uzturātu IATF tīšsaistē."
+    ],
+    "footnote": "Pīteikumi var tikt nūruodeiti voi publicāti piec redigiešonys. Personiskī adresi, rēķinu detalis i navajagū konta informaceja nav publiskuos īrokstuos.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Vaļsteibys",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Izmoksuošona",
+            "value": "ASV dolars 3,40"
+          },
+          {
+            "label": "Īvāruojumi",
+            "value": "Projekts puorsacēle nu Vercella iz Cloudflare i suoce izmontuot mozuokūzeimeigū <code>iatf.cc</code> domenis."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Vaļsteibys",
+            "value": "<code>storptautyskuo pīejamameibaaskforce.com</code>"
+          },
+          {
+            "label": "Izmoksuošona",
+            "value": "ASV dolari 18,68"
+          },
+          {
+            "label": "Īvāruojumi",
+            "value": "Domena cena, kū finansēja mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Vaļsteibys",
+            "value": "<code>storptautyskuo pīejamameibaaskforce.com</code>"
+          },
+          {
+            "label": "Izmoksuošona",
+            "value": "ASV dolari 17,06"
+          },
+          {
+            "label": "Īvāruojumi",
+            "value": "Domena cena, kū finansēja mugiwarafx. Hosting izmontuoja bezmoksys voi zemuokū infrastrukturu, izmontojūt Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Vaļsteibys",
+            "value": "<code>storptautyskuo pīejamameibaaskforce.com</code>"
+          },
+          {
+            "label": "Izmoksuošona",
+            "value": "14,76 ASV dolaru"
+          },
+          {
+            "label": "Īvāruojumi",
+            "value": "Domena cena, kū finansēja mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Vaļsteibys",
+            "value": "<code>storptautyskuo pīejamameibaaskforce.com</code>"
+          },
+          {
+            "label": "Izmoksuošona",
+            "value": "ASV dolari 7,76"
+          },
+          {
+            "label": "Īvāruojumi",
+            "value": "Domaina cena, kū finansēja mugiwarafx. Hosting izmontuoja bezmoksys voi zemu cenu infrastrukturu caur GitHub puslopom."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Rūbežu nūzeime",
+      "title": "Kas nav publisks"
+    },
+    "paragraphs": [
+      "Cyti materiali teik aizglobuoti nu publiskūs īrokstu ar taidim mierkim:"
+    ],
+    "items": [
+      "Pīduovuotuoju personiskuos kontaktinformacejis.",
+      "Privatys korespondence, kas teik izmontuota tikai, kab paskaidruotu pīprasejumu pyrma tuo pījimšonys, nūraideišonys voi apkūpuojuma.",
+      "Privatys adresis, telefona numerus i navajagys personeiguos detalis.",
+      "Vysys lītys, kas varātu identificēt atsevišku paleidzeibys tehnologeju lītuotuoju bez pīteikuma.",
+      "Raudys diskordys sarunuos, cikom konkrets ziņuojums napuorprūtami teik puorvītuots publiskajā projekta īrokstā."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Skaiti vairuok",
+      "title": "vaļdeišona ir ituos īrokstu pamatā asūšuo nūsacejumu gruomota"
+    },
+    "paragraphs": [
+      "Ka gribi izprast, kai projekti teik pījimti, arhiveiti voi puordaleiti, puorskaiti puorvaļdeibys puslopu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Saisteitīs ar IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Saisteitīs ar IATF",
+    "lead": "Bīdreiba ir atvārta. Ir vairuoki veidi, kai pīsadaleit, voi tu pasateic pa paleidzynojūšajom tehnologejom, veidoj pīejamū programu, tulkoj, puorbauda voi uztur projektu. Diskusejis i lāmumi nūteik publiski GitHub i Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rolys",
+      "title": "veidu, kai pīsadaleit"
+    },
+    "items": [
+      "<strong>Papraseit projektu.</strong> Ka asat sasaskuoruši ar pīejamameibys barjeru, kuru varātu atrysynuot ar publisku atvārtuo olūta programaturu, syutit tū caur pīprasejumu pījimšonu.",
+      "<strong>Testa i puorskateišona.</strong> Izsakuot IATF projektus ar izmontuotu paleidzeibys tehnologeju, ziņuot par tū, kas dorbojās i kas nā, i īrokstēt problemys tīši attīceigajā datubāzē.",
+      "<strong>Iztulkuot.</strong> Pamatnūsacejumi pyrmū reizi teik publicāti vīnkuoršā angļu volūdā, bet tulkuojumi teik papyldynuoti, kod ir īspieja īsasaisteit, suocūt ar spāņu volūdu.",
+      "<strong>Iztaiseit.</strong> Izavielej problemys sevkurā IATF datu bazē, syutej atjimšonys pīprasejumus voi izavielej projektu kai atbiļdeiguo inženere.",
+      "<strong>Turpynoj.</strong> Eksistejūšim projektim cytkuort ir vajadzeigs jauns uzturātuojs."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanali",
+      "title": "Kur IATF struodoj publiski"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Izdavumi, atjimšonys pīprasejumi, izdavumi i projekta īroksti.",
+      "<strong>Napīmiņu.</strong> Dzeiveigys diskusejis, koordiniešona i naformalī vaicuojumi.",
+      "<strong>E-pastu pa pastu.</strong> Izmontuot <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ka ni GitHub, ni Discord napateik."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nuokušais sūļs",
+      "title": "Izavielej kanalu, kas atbylst tam, kai tu gribi pīsadaleit"
+    },
+    "paragraphs": [
+      "Vysi kanali teik apkūpuoti ar vīnu i tū pošu publiskū puorskateišonu i tūs pošu publiskuos datu bazis."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

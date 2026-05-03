@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF interneta vītne",
+    "summary": "Storptautyskuo pīejamameibys darbinīku grupys publiskuo vītne.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF beja vajadzeiga stabila sabīdreibys sāta, kas izskaidruotu modeli, sarokstu projektus i nūruodeitu atbaļsteituojus iz pareizu nuokušū sūli.",
+    "why": "Sāta ir IATF publiskuo durovys. Tei ir veiduota kai mozs statisks projekts, kab tū vīgli varātu skaiteit, tulkuot i uzturēt atvārtajā vītā.",
+    "scopeIn": [
+      "Publiskuos nūnuokamuos puslopys, kurys izskaidroj IATF modeli",
+      "Atbaļsteitūs, aktivūs i arhiveitūs IATF projektu publiskais registrs ar statusu, uzturātuoju, uzglabātuoju i demonstraceju",
+      "Pīsacejuma pījimšonys lops i forma",
+      "Vaļsteibys puorvaļdeibys i skaidreibys puslopys",
+      "Angļu volūdys olūts ar strukturys sagataveibu tulkuošonai",
+      "Statiska izstruode \"Cloudflare\" darbinīku statiskajūs aktivūs"
+    ],
+    "scopeOut": [
+      "Privatys dalinīku vītys, konti voi īīšonys plyusmys",
+      "Projekta izceļs kodis hostiešona, kas dzeivoj kotra projekta pošā repozitorijā",
+      "Realajā laikā runojūt, kas dzeivoj diskordā",
+      "Individualūs projektu vaicuojumu nūvāruošona, kas atsarūn kotra projekta GitHub repozitorijā"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Agruo IATF prototips, arhiveits piec dabisku apstuošonys punkta sasnīgšonys.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Īprīkšejuo pīeja pīejamameibys vierzīnī izmontuotajam instrumentam, kas teik izmontuots saskaņā ar IATF.",
+    "why": "Repozitorijs teik turāts publiski kai dorba īroksts, koč i aktiva atteisteiba ir puortraukta.",
+    "scopeIn": [
+      "Agruokais pīejamameibys fokusāta instrumenta prototips, kas teik saglobuots kai publisks īroksts"
+    ],
+    "scopeOut": [
+      "Aktivi atteisteibys voi funkceju dorbi",
+      "Puordūmys par uzturiešonu",
+      "Rekomendāta lītuošona ražuošonā"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot (Nav nūruodeits)",
+    "summary": "IATF kūpīnys bots, arhiveits piec dabisku beigu punkta sasnīgšonys.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF kūpīnys kanalu automatizaceja.",
+    "why": "Repozitorijs teik turāts publiski kai dorba īroksts, koč i aktiva atteisteiba ir puortraukta.",
+    "scopeIn": [
+      "IATF kūpīnys kanalu diskordis automatizaceja, kas saglobuota kai publisks īroksts"
+    ],
+    "scopeOut": [
+      "Aktivi atteisteibys voi funkceju dorbi",
+      "Puordūmys par uzturiešonu",
+      "Rekomendāta lītuošona ražuošonā"
+    ]
+  }
+]
