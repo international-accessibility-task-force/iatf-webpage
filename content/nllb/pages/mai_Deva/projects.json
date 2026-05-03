@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "सार्वजनिक अभिगम्यता परियोजनाएं",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "सार्वजनिक अभिगम्यता परियोजनाएं",
+    "lead": "ई रजिस्ट्री सार्वजनिक परियोजनासभके सूचीबद्ध करैत अछि जे आईएटीएफके माध्यमसँ राखल गेल अछि । स्वीकृत अभिगम्यता परियोजनासभ, साइट अवसंरचना, आ अभिलेखित प्रोटोटाइपसभ एहिठाम दृश्यमान राखल जाइत अछि ।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "रजिस्ट्री",
+      "title": "वर्तमान रजिस्टर"
+    },
+    "intro": [
+      "स्वीकृत परियोजनाक सूची एहिठाम प्रकाशित भेलाक बाद देल गेल अछि।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "एकटा आवश्यकता सबमिट करू",
+      "title": "एक्सेसिबिलिटी कें एक ठोस जरूरत कें एक सार्वजनिक परियोजना मे बदलूं"
+    },
+    "paragraphs": [
+      "IATF ठोस सुलभताक आवश्यकताक समीक्षा करैत अछि जे उपयोगी सार्वजनिक खुला स्रोत कार्यमे परिवर्तित कएल जा सकैत अछि।"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "एखन धरि कोनो परियोजना प्रकाशित नहि भेल अछि",
+    "paragraphs": [
+      "IATF अपन पहिल सार्वजनिक परियोजना सेट तैयार कए रहल अछि।",
+      "अगर अहां कें एक्सेसिबिलिटी कें कोनो खास जरूरत अछि त' अहां एखनहुँ एकटा अनुरोध भेज सकय छी."
+    ]
+  }
+}

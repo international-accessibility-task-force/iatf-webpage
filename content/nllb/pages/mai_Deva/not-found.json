@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "नहि भेटल"
+  },
+  "hero": {
+    "eyebrow": "नहि भेटल",
+    "title": "निवेदित पृष्ठ नहि भेटल",
+    "lead": "सार्वजनिक स्थल पर लौटबाक लेल नीचाँक मुख्य मार्गक उपयोग करू।",
+    "support": [],
+    "actions": [
+      {
+        "label": "घर",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "अहाँक अनुरोधित मार्ग अवस्थित नहि अछि."
+    ],
+    "items": [
+      {
+        "label": "घर",
+        "href": "/"
+      },
+      {
+        "label": "परियोजनासभ",
+        "href": "/projects/"
+      },
+      {
+        "label": "सम्मिलित होइए",
+        "href": "/join/"
+      },
+      {
+        "label": "अभिगम्यता",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "शासन-प्रणाली",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शिता",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

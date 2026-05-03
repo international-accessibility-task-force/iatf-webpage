@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइटमैप"
+  },
+  "hero": {
+    "eyebrow": "सूचकांक",
+    "title": "साइटमैप",
+    "lead": "आई.ए.टी.एफ.सी. पर सभ सार्वजनिक पृष्ठ, एक ठाम।"
+  },
+  "sections": [
+    {
+      "title": "मुख्य पृष्ठसभ",
+      "items": [
+        {
+          "label": "घर",
+          "href": "/"
+        },
+        {
+          "label": "परियोजनासभ",
+          "href": "/projects/"
+        },
+        {
+          "label": "एकटा परियोजनाक अनुरोध करू",
+          "href": "/propose/"
+        },
+        {
+          "label": "शासन-प्रणाली",
+          "href": "/governance/"
+        },
+        {
+          "label": "सम्मिलित होइए",
+          "href": "/join/"
+        },
+        {
+          "label": "अभिगम्यता",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शिता",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "परियोजनासभ",
+  "projectsEmpty": "एखन धरि कोनो परियोजना प्रकाशित नहि भेल अछि।"
+}
