@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "គម្រោងបើកទូលាយដល់សាធារណជន",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "គម្រោងបើកទូលាយដល់សាធារណជន",
+    "lead": "បញ្ជីនេះបញ្ជីគម្រោងសាធារណៈដែលត្រូវបានថែទាំតាមរយៈ IATF គម្រោងអាចចូលបានដែលត្រូវបានទទួលស្គាល់, ហេដ្ឋារចនាសម្ព័ន្ធកន្លែង, និងគំរូដើមដែលត្រូវបានចងក្រងត្រូវបានរក្សាទុកនៅទីនេះ។",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "បញ្ជី",
+      "title": "បញ្ជីបច្ចុប្បន្ន"
+    },
+    "intro": [
+      "គម្រោងដែលត្រូវបានទទួលស្គាល់ត្រូវបានបញ្ជីនៅទីនេះនៅពេលដែលពួកគេត្រូវបានបោះពុម្ពផ្សាយ។"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "បញ្ជូនតម្រូវការ",
+      "title": "ប្តូរតម្រូវការអាចចូលបានជាក់លាក់ទៅជាគម្រោងសាធារណៈ"
+    },
+    "paragraphs": [
+      "IATF ពិនិត្យឡើងវិញនូវតម្រូវការដែលអាចទទួលបានបានជាក់លាក់ដែលអាចត្រូវបានបម្លែងទៅជាការងារដែលមានប្រភពបើកទូលាយសាធារណៈដែលមានប្រយោជន៍។"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "មិនទាន់មានគម្រោងបោះពុម្ពផ្សាយនៅឡើយទេ",
+    "paragraphs": [
+      "IATF កំពុងរៀបចំគម្រោងសាធារណៈដំបូងរបស់ខ្លួន។",
+      "អ្នកនៅតែអាចផ្ញើការស្នើសុំបាន ប្រសិនបើអ្នកមានតម្រូវការអាចចូលបានជាក់លាក់។"
+    ]
+  }
+}

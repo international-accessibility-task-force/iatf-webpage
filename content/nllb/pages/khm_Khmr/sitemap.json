@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "កំណត់ត្រា",
+    "title": "Sitemap",
+    "lead": "ទំព័រសាធារណៈទាំងអស់នៅលើ iatf.cc នៅកន្លែងតែមួយ។"
+  },
+  "sections": [
+    {
+      "title": "ទំព័រសំខាន់",
+      "items": [
+        {
+          "label": "ផ្ទះ",
+          "href": "/"
+        },
+        {
+          "label": "គម្រោង",
+          "href": "/projects/"
+        },
+        {
+          "label": "ស្នើសុំគម្រោង",
+          "href": "/propose/"
+        },
+        {
+          "label": "ការគ្រប់គ្រង",
+          "href": "/governance/"
+        },
+        {
+          "label": "ចូលរួម",
+          "href": "/join/"
+        },
+        {
+          "label": "លទ្ធភាព",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "តម្លាភាព",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "គម្រោង",
+  "projectsEmpty": "មិនទាន់មានគម្រោងណាមួយត្រូវបានបោះពុម្ពផ្សាយនៅឡើយទេ។"
+}

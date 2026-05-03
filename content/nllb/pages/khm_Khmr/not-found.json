@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "មិនបានរកឃើញ"
+  },
+  "hero": {
+    "eyebrow": "មិនបានរកឃើញ",
+    "title": "ទំព័រដែលចង់បានមិនអាចរកបានទេ",
+    "lead": "សូម ប្រើ ផ្លូវ សំខាន់ ខាង ក្រោម ដើម្បី វិល ត្រឡប់ ទៅ កាន់ ទីតាំង សាធារណៈ។",
+    "support": [],
+    "actions": [
+      {
+        "label": "ផ្ទះ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ផ្លូវ ដែល អ្នក ស្នើ សុំ មិន មាន ទេ។"
+    ],
+    "items": [
+      {
+        "label": "ផ្ទះ",
+        "href": "/"
+      },
+      {
+        "label": "គម្រោង",
+        "href": "/projects/"
+      },
+      {
+        "label": "ចូលរួម",
+        "href": "/join/"
+      },
+      {
+        "label": "លទ្ធភាព",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ការគ្រប់គ្រង",
+        "href": "/governance/"
+      },
+      {
+        "label": "តម្លាភាព",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
