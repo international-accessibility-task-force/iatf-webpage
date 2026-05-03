@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Progetti per l'accessibilità del publich",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Progetti per l'accessibilità del publich",
+    "lead": "Chësta lista de proiet publich che vëgn mantignù da l'IATF. I proiet d'accessibilité, l'infrastructura dl sit y i prototip archivé vëgn metüs a jì.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro atual"
+    },
+    "intro": [
+      "I progett accettà hinn elencà chì una volta che hinn publegaa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Sottoscriv un bisogn",
+      "title": "Trasformà una necessità concreta d'accessibilità in un progett pùblich"
+    },
+    "paragraphs": [
+      "L'IATF reverda i bisogn concret de accessibilità che pœden vesser trasformad in lavor publich de font aparta."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nissun progett publegaa ancamò",
+    "paragraphs": [
+      "L'IATF l'è in preparaziun al sò prim set de progett publich.",
+      "A l'è ancamò possibil mandà una dumanda se te gh'hee ona necessità concreta de accessibilità."
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Chiedi un progett per l'accessibilità",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Chiedi un progett per l'accessibilità",
+    "lead": "L'IATF reverda i domandes per i progett d'accessibilità che partiss da un bisogn real.",
+    "support": [
+      "No gh'è besogn de una specificazion completa, basta un problema ciar, chi l'è e perchè l'ha importanza per cumincià."
+    ],
+    "actions": [
+      {
+        "label": "Inizia una richiesta",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Use Discord instead",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canales",
+      "title": "Scegli la strada piu' facile."
+    },
+    "intro": [
+      "Tutt i percors i entra in la stessa revisiù."
+    ],
+    "items": [
+      {
+        "label": "Sito web",
+        "body": "Utilizà u furmulariu quì sottu per invià una dumanda strutturata."
+      },
+      {
+        "label": "E-mail",
+        "body": "Invià la domanda diretament a: {{contact.requestsEmail}}Les domandes por e-mail pó deventè recordes de domandes publiches dòp la revisiun y la redaziun."
+      },
+      {
+        "label": "Discordia",
+        "body": "Cumincià lì se l'è più facil. La dumanda la va ancamò in de la stessa revisione."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Prima de mandà una dumanda",
+    "paragraphs": [
+      "IATF laurà in pùblich. Le richieste pòden vèss resümàde e publegàde cumè record de richieste publiche in de l'organizzazion IATT GitHub, in de sto sit web, o in tutt e duu.",
+      "No includì adrezes privades, numeres de telefon, detaj mediches, o informaziuns d'identificaziun de utënc individuai de tecnologies d'assistënza, sce l'é necessar y l'è bon che l'IATF la reverda.",
+      "IATF rimuove i dettagli di contatt personali inutili prima di pubblicà i record di richiesta."
+    ]
+  },
+  "review": {
+    "title": "Aspettative de revisione",
+    "paragraphs": [
+      "La presentazion de na domanda ne garantiss nia l'accetazion.",
+      "L'IATF revisa i dumanda per l'idoneità a la missione, la fattibilità, l'utilità, e se l'opera appartene a un repository publeg.",
+      "Alcune richieste pòden vèss rifiutade, rinviade, o rimodellade prima de l'accettazion."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Modulo de domanda",
+      "title": "Presenta 'na dumanda"
+    },
+    "fields": [
+      {
+        "kind": "input",
+        "name": "richiedent",
+        "label": "El tò nòm o l'organizassiù",
+        "helper": "Chi fà la richiesta?"
+      },
+      {
+        "kind": "selezziunà",
+        "name": "contatRoute",
+        "label": "Strada de contatt preferida",
+        "helper": "Come deve succedere il follow-up?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Discordia"
+        ]
+      },
+      {
+        "kind": "input",
+        "name": "contattDetails",
+        "label": "Dettagli di contatt",
+        "helper": "Indirizzi e-mail o indirizzi Discord per i follow-up.",
+        "placeholder": "Indirizzi e-mail o indirizzi Discord",
+        "required": true
+      },
+      {
+        "kind": "input",
+        "name": "lengua",
+        "label": "Lengua",
+        "helper": "La lengua preferida, se pertinente.",
+        "value": "Italian"
+      },
+      {
+        "kind": "textarea[Modifega _ mudìfica 'l sorgènt]",
+        "name": "problema",
+        "label": "Chì prublema stai pruvendu à risolve?",
+        "helper": "Descrivi la barriera in un linguaggio semplice.",
+        "required": true
+      },
+      {
+        "kind": "textarea[Modifega _ mudìfica 'l sorgènt]",
+        "name": "Utenti in difficoltà",
+        "label": "Chi è colpito?",
+        "helper": "Chi l'avrìa aiutà?",
+        "required": true
+      },
+      {
+        "kind": "textarea[Modifega _ mudìfica 'l sorgènt]",
+        "name": "extraContext",
+        "label": "Contest extra",
+        "helper": "Condividi qualunque altra cosa che aiuta a spiegà la necessità: perchè l'è impurtant, esempi, riferiment, una idea bruta de software, o limitazion de temp."
+      },
+      {
+        "kind": "selezziunà",
+        "name": "openSourceConsent",
+        "label": "Comodità con l'evoluzion de l'open source publega?",
+        "helper": "I progett accettà hinn di repository publich sott'a l'IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Sì sì",
+          "No, no, no.",
+          "Non sò ancora."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se l'è accettada",
+      "title": "Cos'è l'accettazione"
+    },
+    "items": [
+      "a public repository in the IATF GitHub organization",
+      "un ingegner responsabil assegnà al progett",
+      "una licenza copyleft per el codif e i material del progett",
+      "svilup publich tl repository",
+      "una iscrizion in del register in del sit de l'IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Comincià la conversazion",
+      "title": "Una dumanda curta e ciara l'è bastaa per cumincià"
+    },
+    "paragraphs": [
+      "Se te gh'hee ona vera bisogn de accessibilità e te penset che l'ha de diventà on progett publich, mandamela a noi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

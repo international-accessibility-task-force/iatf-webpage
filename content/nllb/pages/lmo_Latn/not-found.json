@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "N'è gnüda"
+  },
+  "hero": {
+    "eyebrow": "N'è gnüda",
+    "title": "La pagina richiesta no l'è stada trovada",
+    "lead": "Usà i percors principai chì sot per tornà al situ publich.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Cà",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "L'itinerari che t'hee dumandàa l'è minga esistuu."
+    ],
+    "items": [
+      {
+        "label": "Cà",
+        "href": "/"
+      },
+      {
+        "label": "Progett",
+        "href": "/projects/"
+      },
+      {
+        "label": "Come on.",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilità",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governance",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trasparenza",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

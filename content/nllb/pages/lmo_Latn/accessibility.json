@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilità",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilità",
+    "lead": "La IATF la mira a tegnì sto sit web semplici, leggibili, accessibili con la tastiera e compatibili con le tecnologie d'assistenza.",
+    "support": [
+      "Per l'accessibilità del web, l'IATF el dopera [W3C WAI](https://www.w3.org/WAI/) L'accessibilità pratica l'è informada anca de l'esperienza diretta di utent di tecnologie d'assistenza."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Segnalazion",
+      "title": "Segnala un problema di accessibilità"
+    },
+    "paragraphs": [
+      "Se te troeuv una barriera d'accessibilità in su 'sta pagina web, per piasè segnalla per e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "I raporti ùtili i è:"
+    ],
+    "items": [
+      "la pagina indove l'è suceduu el problema",
+      "quèl che t' tentivi de fà",
+      "che tecneghìa assistiva, browser o dispositìv l'è stàit dopràt, se pertinent",
+      "quèll che l'è andaa mal",
+      "che l'avrìa aiutà"
+    ],
+    "footnote": "Te gh'è minga bisògn de scriv una segnalazion de bug formal."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipolazion",
+      "title": "gestione dei problemi pubblici"
+    },
+    "paragraphs": [
+      "I prublemi de accessibilità pœden vess riassunti in del repository publich pertinent per pudè vess sistemà in de l'open. I dettagli de contatt personal e i infurmazion privata innecessaria hinn staa cavà prima de la publicazion.",
+      "Se la tò relazion la gh'ha di informazion privada, dighelo chiarament in del messagg."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Statù atuàl",
+      "title": "LIMITATIONS KNOWN"
+    },
+    "paragraphs": [
+      "Chèsto sit l'è intenzionalment püssee piscinin e püsee statigh."
+    ]
+  }
+}

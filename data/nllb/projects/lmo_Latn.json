@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Sito web IATF",
+    "summary": "El sit publeg per la International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "L'IATF a l'avìa bisògn d'un sit publich stabil ch'a spiegasse ël model, a listesse ij proget, e a indicasse ai contributor ël pròssim pass giust.",
+    "why": "El sit l'è la pòrta pùblica de l'IATF. L'è costruì cumè un progett stategh püssee piscinin per restà fazil de lèzer, tradur e mantignì a l'apert.",
+    "scopeIn": [
+      "Pagine publiche de destinazion che spieghen el model IATF",
+      "Registro pùblico di progett IATF accettà, atif e archivà cun status, mantenidùr, repository e demo",
+      "Una pagina e un modulo per la ricezione di richieste",
+      "Pagine governance e trasparenza",
+      "Fonte in inglese con la struttura pronta per la traduzion",
+      "Static Deployment on Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "aree di membri privati, conti o flussi di login",
+      "Hosting del còde sorgente del progett, che l'è in del propi repository de ogni progett",
+      "Chat in tempo reale, che vive in Discord",
+      "Issue tracking for individual projects, which lives in each project's GitHub repository[Modifega _ mudìfica 'l sorgènt]"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Un prim prototip de l'IATF, archivà dòpo de rivà a un pont de fermada natural.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "L'esplorazion primaria de n'instrumënt incentrà su l'accessibilité sota l'ombrel de l'IATF.",
+    "why": "El repository a l'è tegnuu publeg per registrà el lavorà, anca se l'evoluzion attiva a s'è fermada.",
+    "scopeIn": [
+      "Prìm prototip d'un strumènt orientà a l'accessibilità conservàt come archivi pùblich"
+    ],
+    "scopeOut": [
+      "Lavur de svilup atif o di carateristich",
+      "Impegni di manteniment",
+      "USO RECOMENDADO EN LA PRODUCCIÓN"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Un bot de la comunità IATF, archivà dòpo de rivà a un pont de fermada natural.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automazion intorna ai canali comunitari de l'IATF.",
+    "why": "El repository a l'è tegnuu publeg per registrà el lavorà, anca se l'evoluzion attiva a s'è fermada.",
+    "scopeIn": [
+      "Discord automation around IATF community channels, kept as a public record"
+    ],
+    "scopeOut": [
+      "Lavur de svilup atif o di carateristich",
+      "Impegni di manteniment",
+      "USO RECOMENDADO EN LA PRODUCCIÓN"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Join IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Join IATF",
+    "lead": "L'iscrizion a l'associazion l'è aperta. A gh'è di manera de fà part, sia che te se fidet de la tecnologia assistiva, de costruì software accessibil, de tradur, de testà o de mantegnì on progett.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Roles",
+      "title": "Modi de cuntribuì"
+    },
+    "items": [
+      "<strong>Chiedi un progett.</strong> Se te troeuvi on obstacol a l'accessibilità che 'l pudaria vess risoltuu cont on software publeg open source, mandala per via de l'intesa de domanda.",
+      "<strong>Test e revisiù.</strong> Pruvà i prughjet IATF cun la tecnulugia d'assistenza che uset, segnalà ciò chì funziona è ciò chì ùn funziona, è archivà i prublemi direttamente in u repositoriu pertinente.",
+      "<strong>Traduci.</strong> El cuntent de la font l'è publegaa in ingles primm, e i tradutt i è staa aggiuntaa quand che i contributor hinn staa disponibil, a comincià dal spagnoeu.",
+      "<strong>Costruì.</strong> Pick up issues in any IATF repository, send pull requests, or take on a project as its responsible engineer.",
+      "<strong>Mantenì.</strong> I progett esistent a vegnen de vult bisogn de on noeuv manutentor.La rotazion del manutentur a l'è ona part normal del model, minga un'eccezion."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canales",
+      "title": "Dove l'IATF lavora in pubblico"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issue, pull requests, releases, and project records.",
+      "<strong>La discordia.</strong> Live discussion, coordination, and informal questions.",
+      "<strong>E-mail.</strong> USO <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> if neither GitHub nor Discord fits."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Prossimo passo",
+      "title": "Sceglie 'l canale che coincide con come te voeuret contribuì"
+    },
+    "paragraphs": [
+      "Tutt i canaj i va in de la medema revisiun publega e in di medemm repository publeg."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
