@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Sluit aan by IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Sluit aan by IATF",
+    "lead": "Lidmaatskap is oop. Daar is verskeie maniere om deel te neem, of jy op hulp-tegnologie staatmaak, toeganklike sagteware bou, vertaal, toets of 'n projek onderhou. Besprekings en besluite vind plaas in die openbaar op GitHub en Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rolspel",
+      "title": "Maniere om by te dra"
+    },
+    "items": [
+      "<strong>Versoek 'n projek.</strong> As jy 'n toeganklikheid versperring wat aangespreek kan word deur openbare open source sagteware teëkom, stuur dit deur die versoek inname.",
+      "<strong>Toets en hersiening.</strong> Probeer IATF-projekte met die ondersteunende tegnologie wat jy gebruik, rapporteer wat werk en wat nie, en lê probleme direk in die relevante bewaarplek.",
+      "<strong>Vertaal</strong> Oorspronklike inhoud word eers in gewone Engels gepubliseer. Vertalings word bygevoeg soos bydraers beskikbaar is, begin met Spaans.",
+      "<strong>Bou voort.</strong> Pick up kwessies in enige IATF bewaarplek, stuur trek versoeke, of neem op 'n projek as sy verantwoordelike ingenieur.",
+      "<strong>Handhaaf.</strong> Bestaande projekte het soms 'n nuwe onderhouer nodig."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanale",
+      "title": "Waar IATF in die openbaar werk"
+    },
+    "items": [
+      "<strong>Dit is GitHub.</strong> Kwessies, trek versoeke, vrystellings, en projek rekords.",
+      "<strong>Onenigheid.</strong> Lewendige bespreking, koördinasie en informele vrae.",
+      "<strong>E-pos gestuur.</strong> Gebruik <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> as nie GitHub of Discord pas nie."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Volgende stap",
+      "title": "Kies die kanaal wat ooreenstem met hoe jy wil om by te dra"
+    },
+    "paragraphs": [
+      "Alle kanale voer in dieselfde openbare hersiening en dieselfde openbare bewaarplekke."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

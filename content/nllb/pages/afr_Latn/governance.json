@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Bestuur en bewaarplekmodel",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Bestuur en bewaarplekmodel",
+    "lead": "Die IATF hou toeganklikheidsprojekte openbaar, leesbaar en onderhoubaar.",
+    "support": [
+      "Hierdie bladsy verduidelik wat kwalifiseer, hoe bewaarplekke gehou word, en watter verantwoordelikheid op bewaarplekvlak van toepassing is na aanvaarding."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reëls",
+      "title": "Missie pas, eienaarskap, lisensiëring"
+    },
+    "cards": [
+      {
+        "title": "Missie pas",
+        "paragraphs": [
+          "Die IATF aanvaar werk wat 'n werklike hindernis vir toeganklikheid aanspreek en 'n duidelike openbare waarde het.",
+          "'n Projek moet nuttig wees buite 'n enkele private werkstroom en werk as 'n openbare bewaarplek.",
+          "Vir web toeganklikheid, gebruik IATF [W3C WAI](https://www.w3.org/WAI/) Die direkte ervaring van gebruikers van ondersteunende tegnologie is ook praktiese bewyse van wat werk in werklike gebruik."
+        ]
+      },
+      {
+        "title": "Projek aanvaarding",
+        "paragraphs": [
+          "'n Voorstel kan aanvaar word wanneer die hersiening toon dat:"
+        ],
+        "items": [
+          "dit spreek 'n werklike behoefte aan toeganklikheid aan",
+          "die probleem is duidelik genoeg om te evalueer",
+          "die omvang is realisties genoeg om te begin",
+          "die werk is in ooreenstemming met die IATF-missie",
+          "daar is 'n geloofwaardige pad na instandhouding of voltooiing"
+        ]
+      },
+      {
+        "title": "Eienaarskap van die bewaarplek",
+        "paragraphs": [
+          "Aanvaarde projekte word geskep onder die IATF GitHub organisasie.",
+          "Repositories bly daar sodat elke projek 'n stabiele openbare huis behou, selfs al verander die instandhouders later."
+        ]
+      },
+      {
+        "title": "lisensiëring",
+        "paragraphs": [
+          "IATF projekte gebruik copyleft lisensiëring tensy 'n projek anders verklaar:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Dokumentasie:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Verantwoordelike ingenieur of onderhouer",
+      "paragraphs": [
+        "Elke aanvaarde projek moet 'n aangewese verantwoordelike ingenieur of instandhouer hê. Daardie persoon kan admin toegang tot die bewaarplek ontvang en word verwag om:"
+      ],
+      "items": [
+        "gids ontwikkeling in die openbare",
+        "handhaaf die bewaarplekstruktuur",
+        "hersien of bestuur kwessies en trek versoeke",
+        "dokumenteer belangrike tegniese besluite",
+        "die projek vir ander verstaanbaar te hou"
+      ],
+      "footnote": "Dit is verantwoordelikheid op bewaarplekvlak. Organisatoriese eienaarskap bly by IATF. Verantwoordelikheid hier is bewaarplekbestuur, tegniese rigting en openbare koördinasie  nie onbeperkte privaat aflewering, pasgemaakte integrasies of diensvlakverpligtinge buite die openbare padkaart nie."
+    },
+    "publicDevelopment": {
+      "title": "Openbare ontwikkeling",
+      "paragraphs": [
+        "Projekte wat deur IATF geloods word, word standaard in die openbaar ontwikkel. Die bewaarplek is die openbare bron van waarheid vir:"
+      ],
+      "items": [
+        "bronkode",
+        "kwessies",
+        "dokumentasie",
+        "padkaart aantekeninge",
+        "vrystelling geskiedenis"
+      ],
+      "footnote": "Belangrike projek kennis moet nie net leef in private geselsies of posbusse."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Openbare rekords",
+      "title": "Openbare versoekrekords"
+    },
+    "paragraphs": [
+      "IATF werk by verstek in die openbaar. Versoeke wat deur die webwerf, e-pos, Discord, GitHub, of ander kanale van die IAT F ingedien word, kan openbare versoekrekords word.",
+      "'n Openbare versoekrekord is nie noodwendig die oorspronklike boodskap nie. IATF kan 'n versoek saamvat, redigeer of herstruktureer voordat dit gepubliseer word sodat die toeganklikheidsbehoefte hersien kan word sonder om onnodige persoonlike inligting bloot te stel.",
+      "Openbare versoek rekords kan gestoor word in die IATF GitHub organisasie, op hierdie webwerf, of albei.",
+      "Voor publikasie verwyder die IATF onnodige persoonlike kontakbesonderhede, privaat adresse en identifiserende besonderhede oor individuele gebruikers van ondersteunende tegnologieë, tensy publikasie duidelik bedoel en toepaslik is.",
+      "Discord word gebruik vir informele koördinasie. IATF argief nie standaard afsonderlik Discord-gesprekke nie, en boodskapbewaring word deur Discord beheer. Besluite wat in Discord geneem word, moet saamgevat word in die openbare rekord op GitHub of op die relevante projekbladsy.",
+      "Versoek rekords is uitgesluit van soekenjin indeksering waar tegnies prakties. Openbaar beteken hersienbaar en verantwoordbaar. Dit beteken nie geoptimaliseer vir ontdekking deur naamsoektogte nie.",
+      "Die IATF kan rekords bywerk of verwyder van openbare oppervlaktes wat deur die IACF beheer word, maar kan nie die verwydering van caches, kennisgewings, vurke, skermkiekies, soekenjins, Discord of ander eksterne stelsels van derdepartye waarborg nie.",
+      "As 'n boodskap privaat moet bly, moet dit nie deur IATF se openbare kanale gestuur word nie."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisatoriese rol",
+      "title": "Voorsitter"
+    },
+    "lead": "Die voorsitter hou organisasie-vlak bestuur van IATF. Dit is verskillend van die per-projek verantwoordelike ingenieur rol: die voorsitter is verantwoordelik vir die organisasie as 'n geheel, nie vir die dag-tot-dag rigting van enige enkele bewaarplek.",
+    "duties": {
+      "title": "Wat die stoel doen",
+      "items": [
+        "Hou eienaar regte op die IATF GitHub organisasie",
+        "Ondertekeninge op projek aanvaarding en argief besluite",
+        "Werk as die openbare kontakpunt vir IATF",
+        "Koördineer die jaarlikse verkiesing"
+      ],
+      "footnote": "Die voorsitter verbind die IATF nie tot privaat aflewering, betaalde werk of diensvlak-ooreenkomste nie, en oorheers nie per-bewaarplek-instandhouer-besluite oor tegniese rigting nie."
+    },
+    "election": {
+      "title": "Jaarlikse verkiesing",
+      "paragraphs": [
+        "Die voorsitter word een keer per jaar verkies. Die verkiesing vind in die eerste twee weke van Desember plaas, die resultate word teen 15 Desember bekend gemaak en die nuwe termyn begin op 1 Januarie.",
+        "In aanmerking komende kiesers is mense wat gedurende die jaar 'n instandhoudende rol op enige IATF-bewaarplek gehad het en in daardie jaar ten minste een saamgesmelte bydrae tot 'n IATA-bewaring gemaak het. Elke in aanmerkingkomende kieser het een stem. Die kandidaat met die meeste stemme wen; in die geval van 'n geveg word 'n tweede ronde in die derde week van Desember gehou.",
+        "Die verkiesing word uitgevoer as 'n openbare GitHub-bespreking in die aangewese IATF-bestuursbewaarplek, dus die kandidate, die stem en die resultaat is almal deel van die openbare rekord."
+      ]
+    },
+    "continuity": {
+      "title": "Voortdurendheid",
+      "paragraphs": [
+        "As geen verkiesing in 'n gegewe jaar gehou word nie, bly die huidige voorsitter in die rol tot die volgende verkiesing. Dit is 'n onbepaalde voortsetting, nie 'n grasietydperk nie - die model is ontwerp om die organisasie stabiel te hou wanneer aktiwiteit laag is, nie om 'n oorgang te dwing waarvoor niemand gereed is nie.",
+        "Die voorsitter kan te eniger tyd bedank. Aktiewe instandhouders kan ook 'n buitengewone verkiesing met 'n verklaarde rede uitroep, wat volgens dieselfde reëls as die jaarlikse verkiesing gehou word."
+      ]
+    },
+    "current": {
+      "title": "Huidige voorsitter",
+      "fields": [
+        {
+          "label": "Voorsitter",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termyn",
+          "value": "Tot die Desember 2026 verkiesing"
+        },
+        {
+          "label": "Rol geformaliseer",
+          "value": "2026"
+        },
+        {
+          "label": "Eerste geskeduleerde verkiesing",
+          "value": "Desember 2026"
+        }
+      ]
+    },
+    "footnote": "Die rol van voorsitter is in 2026 geformaliseer om organisasie-vlak bestuur eksplisiet te maak. Tot dan toe is organisatoriese verantwoordelikheid informeel deur die stigter gehou."
+  },
+  "continuity": {
+    "states": {
+      "title": "Projek state",
+      "paragraphs": [
+        "Projekte gebruik 'n klein stel openbare state:"
+      ],
+      "items": [
+        "Voorstel",
+        "Aanvaar",
+        "Aktiewe",
+        "Stabiele",
+        "Op soek na 'n onderhouer",
+        "Argiewe"
+      ],
+      "footnote": "Hierdie state maak die register maklik om te skandeer."
+    },
+    "reassignment": {
+      "title": "Hertoewysing en argief",
+      "paragraphs": [
+        "As 'n onderhouer wegstap of onaktief raak, kan die IATF verantwoordelikheid hertoewys, ontwikkeling stop of die projek argief.",
+        "'n Projek kan ook geargiewe word wanneer aan die oorspronklike behoefte voldoen is, instandhouding gestop is of voortgesette werk nie meer realisties is nie."
+      ],
+      "footnote": "Argiefprojekte bly publiek sigbaar, tensy daar 'n dwingende rede is om anders te doen."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Grensnoot",
+      "title": "Wat die IATF nie waarborg nie"
+    },
+    "items": [
+      "privaat kliënt aflewering",
+      "ooreenkomste oor diensvlakke",
+      "aanvaarding van elke voorstel",
+      "langtermynonderhoud vir elke projek"
+    ],
+    "footnote": "IATF is 'n openbare bewaarplek model, nie 'n private lewering diens."
+  }
+}

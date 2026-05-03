@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Toeganklikheid",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Toeganklikheid",
+    "lead": "Die IATF beoog om hierdie webwerf eenvoudig, leesbaar, klawerbord-toeganklik en versoenbaar te hou met ondersteunende tegnologieë.",
+    "support": [
+      "Vir web toeganklikheid, gebruik IATF [W3C WAI](https://www.w3.org/WAI/) Praktiese toeganklikheid word ook ingelig deur die direkte ervaring van gebruikers van ondersteunende tegnologieë."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Verslagdoening",
+      "title": "Meld 'n toeganklikheidsprobleem"
+    },
+    "paragraphs": [
+      "As jy 'n toegangsversperring op hierdie webwerf vind, meld dit asseblief per e-pos aan:",
+      "{{contact.accessibilityEmail}}",
+      "Nuttige verslae sluit in:"
+    ],
+    "items": [
+      "die bladsy waar die probleem plaasgevind het",
+      "wat jy probeer doen",
+      "watter ondersteunende tegnologie, blaaier of toestel jy gebruik het, indien van toepassing",
+      "wat het verkeerd gegaan",
+      "wat sou gehelp het"
+    ],
+    "footnote": "Jy hoef nie 'n formele foutverslag te skryf nie. 'n Duidelike beskrywing is genoeg."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Hantering",
+      "title": "Openbare kwessie hantering"
+    },
+    "paragraphs": [
+      "Toeganklikheidskwessies kan in die relevante openbare bewaarplek opgesom word sodat dit in die openbaar reggestel kan word. Persoonlike kontakbesonderhede en onnodige privaat inligting word voor publikasie verwyder.",
+      "As jou verslag private inligting bevat, moet jy dit duidelik in die boodskap sê."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Huidige toestand",
+      "title": "Bekende beperkings"
+    },
+    "paragraphs": [
+      "Hierdie webwerf is doelbewus klein en meestal staties. Sommige taal weergawes kan onvolledig wees terwyl vertalings voorberei word."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projekte vir openbare toeganklikheid",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projekte vir openbare toeganklikheid",
+    "lead": "Hierdie register bevat openbare projekte wat deur die IATF onderhou word. Geaccepteerde toeganklikheidsprojekte, werfinfrastruktuur en argiefprototipes word hier sigbaar gehou.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrasie",
+      "title": "Huidige register"
+    },
+    "intro": [
+      "Aanvaarde projekte word hier gelys sodra hulle gepubliseer is."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Voer 'n behoefte in",
+      "title": "Verander 'n konkrete toeganklikheidsbehoefte in 'n openbare projek"
+    },
+    "paragraphs": [
+      "IATF hersien konkrete toeganklikheid behoeftes wat kan omskep word in nuttige openbare open source werk."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Geen projekte wat nog gepubliseer is nie",
+    "paragraphs": [
+      "IATF is die voorbereiding van sy eerste openbare projek stel.",
+      "Jy kan nog steeds 'n versoek stuur as jy 'n spesifieke toeganklikheidsbehoefte het."
+    ]
+  }
+}

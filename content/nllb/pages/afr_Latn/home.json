@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Van toeganklikheidsbehoefte tot openbare repo",
+    "lead": "Die IATF help verenigings, groepe en individue om werklike toeganklikheidsbehoeftes in openbare open source-projekte te omskep.",
+    "support": [
+      "Aanvaarde projekte word gepubliseer in die IATF GitHub organisasie onder 'n copyleft lisensie en ontwikkel in die openbaar deur 'n verantwoordelike ingenieur."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Openbare bedryfsmodel",
+      "title": "'n Eenvoudige openbare pad vir toeganklike sagteware"
+    },
+    "paragraphs": [
+      "Deur middel van 'n vorm kan enigiemand 'n toeganklikheidsprobleem aan die IATF voorlê. As die span dit kan hanteer, word 'n openbare GitHub-bewaarplek vir die werk geopen.",
+      "Elke aanvaarde projek het 'n duidelike openbare huis vir kode, kwessies, dokumentasie en vrystellings, met ontwikkeling wat in die oop deur 'n verantwoordelike ingenieur gelei word."
+    ],
+    "specCard": {
+      "title": "Openbare bedryfsmodel",
+      "terms": [
+        {
+          "term": "Behoefte",
+          "definition": "Werklike probleem van toeganklikheid"
+        },
+        {
+          "term": "Hersiening",
+          "definition": "Missie pas en praktiese uitvoerbaarheid"
+        },
+        {
+          "term": "Projekruimte",
+          "definition": "Openbare GitHub-bewaarplek"
+        },
+        {
+          "term": "Toesighouding",
+          "definition": "IATF organisatoriese eienaarskap"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proses",
+      "title": "Hoe dit werk",
+      "intro": "Die model bly doelbewus klein sodat die openbare pad maklik is om te volg."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "'n Behoefte word voorgelê",
+        "paragraphs": [
+          "'n Vereniging, groep of individu kan 'n versoek indien wat gebaseer is op 'n werklike behoefte aan toeganklikheid.",
+          "Versoeke kan begin deur die webwerf, per e-pos aan <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, of deur middel van onenigheid."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF hersien dit",
+        "paragraphs": [
+          "Ons hersien missie pas, praktiese omvang, en of die werk behoort in 'n openbare open source projek."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "'n Openbare bewaarplek word geskep",
+        "paragraphs": [
+          "As 'n projek aanvaar word, word dit gepubliseer in die IATF GitHub organisasie onder 'n copyleft lisensie.",
+          "Die bewaarplek word die openbare tuiste van die kode, kwessies, dokumentasie en vrystellings."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "'n Verantwoordelike ingenieur lei die projek",
+        "paragraphs": [
+          "'n Verantwoordelike ingenieur word aan die projekbewaarplek toegewys en ontwikkeling vind in die openbaar plaas."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrasie",
+      "title": "Openbare projekregister"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Begin hier",
+      "title": "Blaai deur huidige werk of begin 'n konkrete projek"
+    },
+    "paragraphs": [
+      "Gebruik die register om te sien wat reeds openbaar is, of begin die inname as 'n konkrete toeganklikheidsprobleem 'n projek moet word."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

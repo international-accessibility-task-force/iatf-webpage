@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Versoek 'n toeganklikheidsprojek",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Versoek 'n toeganklikheidsprojek",
+    "lead": "Die IATF beoordeel versoeke vir toeganklikheidsprojekte wat uit 'n werklike behoefte begin.",
+    "support": [
+      "Jy het nie 'n volledige spesifikasie nodig nie. 'n Duidelike probleem, wie dit raak en waarom dit belangrik is, is genoeg om te begin."
+    ],
+    "actions": [
+      {
+        "label": "Begin 'n versoek",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gebruik eerder Diskord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanale",
+      "title": "Kies die maklikste roete"
+    },
+    "intro": [
+      "Alle roetes kom in dieselfde hersiening in."
+    ],
+    "items": [
+      {
+        "label": "Webwerf",
+        "body": "Gebruik die onderstaande vorm om 'n gestruktureerde versoek in te dien."
+      },
+      {
+        "label": "E-posadres",
+        "body": "Stuur die versoek direk na {{contact.requestsEmail}}E-pos versoeke kan openbare versoek rekords word na hersiening en redaksie."
+      },
+      {
+        "label": "Onenigheid",
+        "body": "Begin daar as dit die maklikste is. Die versoek beweeg steeds in dieselfde hersiening."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Voordat jy 'n versoek stuur",
+    "paragraphs": [
+      "IATF werk in die openbaar. Versoeke kan saamgevat word en gepubliseer word as openbare versoekrekords in die GitHub-organisasie, op hierdie webwerf, of albei.",
+      "Moenie privaat adresse, telefoonnommers, mediese besonderhede of identifiserende inligting oor individuele gebruikers van ondersteunende tegnologieë insluit nie, tensy dit nodig is en u gemaklik is met die IATF wat dit hersien.",
+      "Die IATF verwyder onnodige persoonlike kontakbesonderhede voordat versoekrekords gepubliseer word."
+    ]
+  },
+  "review": {
+    "title": "Oorsig van verwagtinge",
+    "paragraphs": [
+      "Die indiening van 'n versoek waarborg nie aanvaarding nie.",
+      "IATF hersien versoeke vir missie pas, uitvoerbaarheid, bruikbaarheid, en of die werk behoort in 'n openbare bewaarplek.",
+      "Sommige versoeke kan afgekeur, uitgestel of verander word voordat dit aanvaar word."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Versoekvorm",
+      "title": "Stuur 'n versoek"
+    },
+    "fields": [
+      {
+        "kind": "insette",
+        "name": "aansoeker",
+        "label": "Jou naam of organisasie",
+        "helper": "Wie doen die versoek?"
+      },
+      {
+        "kind": "kies",
+        "name": "kontakroete",
+        "label": "Voorkeur kontakroete",
+        "helper": "Hoe moet opvolgwerk gedoen word?",
+        "required": true,
+        "options": [
+          "E-posadres",
+          "Onenigheid"
+        ]
+      },
+      {
+        "kind": "insette",
+        "name": "Kontakbesonderhede",
+        "label": "Kontakbesonderhede",
+        "helper": "E-pos adres of Discord adres vir opvolg.",
+        "placeholder": "E-pos adres of nie ooreenstem nie",
+        "required": true
+      },
+      {
+        "kind": "insette",
+        "name": "taal",
+        "label": "Taal",
+        "helper": "Jou voorkeurtaal, indien relevant.",
+        "value": "Afrikaans"
+      },
+      {
+        "kind": "teksarea",
+        "name": "probleem",
+        "label": "Watter probleem probeer jy oplos?",
+        "helper": "Beskryf die versperring in eenvoudige taal.",
+        "required": true
+      },
+      {
+        "kind": "teksarea",
+        "name": "Geaffekteerde gebruikers",
+        "label": "Wie word daardeur geraak?",
+        "helper": "Wie sou dit help?",
+        "required": true
+      },
+      {
+        "kind": "teksarea",
+        "name": "Ekstra konteks",
+        "label": "Bykomende konteks",
+        "helper": "Deel enigiets anders wat help om die behoefte te verduidelik: waarom dit belangrik is, voorbeelde, verwysings, 'n rowwe sagteware-idee of tydsbeperkings."
+      },
+      {
+        "kind": "kies",
+        "name": "openSourceConsent",
+        "label": "Voel jy gemaklik met openbare open source ontwikkeling?",
+        "helper": "Aanvaarde projekte is openbare bewaarplekke onder IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ja, ek het",
+          "Nee",
+          "Nog nie seker nie"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Indien aanvaar",
+      "title": "Wat aanvaarding beteken"
+    },
+    "items": [
+      "'n openbare bewaarplek in die IATF GitHub organisasie",
+      "'n verantwoordelike ingenieur wat aan die projek toegewys is",
+      "'n copyleft lisensie vir die kode en projek materiaal",
+      "openbare ontwikkeling in die bewaarplek",
+      "'n inskrywing in die register op die IATF-webwerf"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Begin die gesprek",
+      "title": "'n Kort, duidelike versoek is genoeg om te begin"
+    },
+    "paragraphs": [
+      "As jy 'n werklike behoefte aan toeganklikheid het en dink dit moet 'n openbare projek word, stuur dit vir ons."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

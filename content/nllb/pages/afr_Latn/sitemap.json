@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Sitemap",
+    "lead": "Elke openbare bladsy op iatf.cc, op een plek."
+  },
+  "sections": [
+    {
+      "title": "Belangrikste bladsye",
+      "items": [
+        {
+          "label": "Huis",
+          "href": "/"
+        },
+        {
+          "label": "Projekte",
+          "href": "/projects/"
+        },
+        {
+          "label": "Versoek 'n projek",
+          "href": "/propose/"
+        },
+        {
+          "label": "Bestuur",
+          "href": "/governance/"
+        },
+        {
+          "label": "Sluit aan",
+          "href": "/join/"
+        },
+        {
+          "label": "Toeganklikheid",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Deursigtigheid",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekte",
+  "projectsEmpty": "Geen projekte wat nog gepubliseer is nie."
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nie gevind nie"
+  },
+  "hero": {
+    "eyebrow": "Nie gevind nie",
+    "title": "Die versoekte bladsy is nie gevind nie",
+    "lead": "Gebruik die hoofroetes hieronder om na die openbare terrein terug te keer.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Huis",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Die roete wat u gevra het, bestaan nie."
+    ],
+    "items": [
+      {
+        "label": "Huis",
+        "href": "/"
+      },
+      {
+        "label": "Projekte",
+        "href": "/projects/"
+      },
+      {
+        "label": "Sluit aan",
+        "href": "/join/"
+      },
+      {
+        "label": "Toeganklikheid",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Bestuur",
+        "href": "/governance/"
+      },
+      {
+        "label": "Deursigtigheid",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
