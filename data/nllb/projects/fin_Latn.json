@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF:n verkkosivusto",
+    "summary": "Kansainvälisen saavutettavuuden työryhmän julkinen sivusto.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF tarvitsi vakaan julkisen kodin, joka selittäisi mallin, luetteloisi projektit ja ohjaisi osallistujia oikeaan seuraavaan vaiheeseen.",
+    "why": "Sivusto on IATF:n julkinen etuovi. Se on rakennettu pieneksi staattiseksi projektiksi, joten se on helppo lukea, kääntää ja ylläpitää avoimesti.",
+    "scopeIn": [
+      "IATF-mallia selittävät julkiset osoitteet",
+      "Julkinen rekisteri hyväksytyistä, aktiivisista ja arkistoiduista IATF-hankkeista, joissa on tila, ylläpitäjä, säilytysasema ja esittely",
+      "Pyynnön vastaanottosivu ja lomake",
+      "Hallituksen ja avoimuuden sivut",
+      "Englanninkielinen lähde, jonka rakenne on käännettävissä",
+      "Staattinen käyttöönotto Cloudflare-työntekijöiden staattisissa resursseissa"
+    ],
+    "scopeOut": [
+      "Yksityiset jäsenalueet, tilit tai kirjautumisvirrat",
+      "Hankkeen lähdekoodin ylläpito, joka sijaitsee kunkin hankkeen omassa tallennuskeskuksessa",
+      "Real-time chat, joka elää Discordissa",
+      "Ongelmien seuranta yksittäisissä hankkeissa, joka elää kunkin hankkeen GitHub-arkistossa"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF:n mukainen selfie",
+    "summary": "Varhainen IATF-prototyyppi, arkistoitu luonnollisen pysähdyspisteen saavuttamisen jälkeen.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Saavutettavuuteen keskittyvän työkalun varhainen tutkiminen IATF:n alaisuudessa.",
+    "why": "Tietoa säilytetään julkisena asiakirjana siitä huolimatta, että aktiivinen kehitys on loppunut.",
+    "scopeIn": [
+      "Julkisena asiakirjana pidettävän esteettömyyteen keskittyneen työkalun varhainen prototyyppi"
+    ],
+    "scopeOut": [
+      "Aktiivinen kehitystyö tai ominaisuustyö",
+      "Rahoitusvelvoitteet",
+      "Suositeltu käyttö tuotannossa"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF-ohjelma",
+    "summary": "IATF-yhteisöbotti, arkistoitu luonnollisen pysähdyspisteen saavuttamisen jälkeen.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF-yhteisökanavien automaatio.",
+    "why": "Tietoa säilytetään julkisena asiakirjana siitä huolimatta, että aktiivinen kehitys on loppunut.",
+    "scopeIn": [
+      "IATF-yhteisökanavien epäselvyyden automaatio, jota säilytetään julkisena tietueena"
+    ],
+    "scopeOut": [
+      "Aktiivinen kehitystyö tai ominaisuustyö",
+      "Rahoitusvelvoitteet",
+      "Suositeltu käyttö tuotannossa"
+    ]
+  }
+]

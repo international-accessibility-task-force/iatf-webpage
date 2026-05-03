@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Käytettävyys",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Käytettävyys",
+    "lead": "IATF pyrkii pitämään tämän verkkosivuston yksinkertaisena, luettavana, näppäimistöllä käytettävänä ja avustavien teknologioiden kanssa yhteensopivana.",
+    "support": [
+      "Internetin saavutettavuuden kannalta IATF käyttää [W3C WAI](https://www.w3.org/WAI/) Käytännöllinen saavutettavuus perustuu myös avustavien teknologioiden käyttäjien suoralle kokemukselle."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Raportointi",
+      "title": "Ilmoita esteettömyysongelmasta"
+    },
+    "paragraphs": [
+      "Jos löydät esteitä verkkosivustollamme, ilmoita siitä sähköpostitse:",
+      "{{contact.accessibilityEmail}}",
+      "Hyödyllisiä raportteja ovat mm."
+    ],
+    "items": [
+      "sivu, jossa ongelma tapahtui",
+      "Mitä yritit tehdä?",
+      "mitä avustavaa teknologiaa, selainta tai laitetta käytit, jos se on relevanttia",
+      "Mikä meni pieleen ?",
+      "Mikä olisi auttanut?"
+    ],
+    "footnote": "Sinun ei tarvitse kirjoittaa virallista vika-ilmoitusta. Selkeä kuvaus riittää."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Käsittely",
+      "title": "Julkisten asioiden käsittely"
+    },
+    "paragraphs": [
+      "Käytettävyysongelmat voidaan tiivistää asiaankuuluvassa julkisessa tallennustilassa, jotta ne voidaan korjata avoimesti. Henkilökohtaiset yhteystiedot ja tarpeettomat yksityiset tiedot poistetaan ennen julkaisemista.",
+      "Jos raportissasi on yksityisiä tietoja, kerro se selkeästi viestissä."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Nykyinen tila",
+      "title": "Tunnetut rajoitukset"
+    },
+    "paragraphs": [
+      "Tämä sivusto on tarkoituksellisesti pieni ja enimmäkseen staattinen."
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Läpinäkyvyys",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Läpinäkyvyys",
+    "lead": "IATF toimii oletusarvoisesti julkisesti. Hankkeen päätökset, koodin muutokset, hallinnon muutokset ja toimintakustannukset kirjataan julkisissa paikoissa.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Rekisterit",
+      "title": "Missä arkistot asuvat"
+    },
+    "items": [
+      "<strong>Hankkeita koskevat päätökset.</strong> Hyväksyntä-, arkistointi- ja uudelleensijoittamispäätökset kirjataan asiaankuuluvassa tallennustilassa julkaisuina ja tiivistetään julkisessa rekisterissä. <a href=\"/projects/\">rekisterinpitäjä</a>- Niinpä .",
+      "<strong>Pyydä tietoja.</strong> Julkiset pyyntötiedot tallennetaan IATF GitHub -organisaatiossa, tällä verkkosivustolla tai molemmissa. Tiedot voivat tiivistää, muokata tai rakentaa uudelleen alkuperäisen pyynnön, jotta saavutettavuuden tarvetta voidaan tarkastella paljastamatta tarpeettomia henkilökohtaisia tietoja. Epäselvyyspäätökset tiivistyvät julkisuuteen, kun ne vaikuttavat hankkeeseen tai hallintopäätökseen. Pyyntötietoja ei indeksoida hakukoneissa, jos se on teknisesti käytännöllistä. Näytä tiedot: ensimmäinen julkaisupyyntö on vireillä.",
+      "<strong>Koodi muuttuu.</strong> Jokainen koodin muutos on julkinen sitoutuminen asiaankuuluvaan varastoon. Katso IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub-organisaatio</a>- Niinpä .",
+      "<strong>Hallituksen muutokset.</strong> Sääntelysivun päivitykset seurataan <code>IATF:n verkkosivusto</code> Näytä <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">Tehtävähistoria</a> GitHubissa.",
+      "<strong>Toimintakustannukset.</strong> IATF pitää toimintakustannukset alhaisina ja kirjaa toistuvat julkisen infrastruktuurin kulut.",
+      "<strong>Koordinaatiotiedot.</strong> Muistiinpanot koordinoidusta tarkastelusta tai päätöksestä näkyvät GitHubissa Keskustelut asiaankuuluvassa tallennustilassa  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Neuvottelut</a> Euroopan parlamentin ja neuvoston asetus (EY) N:o <code>IATF:n verkkosivusto</code> säilytyspaikka."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Kustannukset",
+      "title": "Toimintakustannusrekisteri"
+    },
+    "paragraphs": [
+      "IATF pitää julkisen infrastruktuurinsa tarkoituksellisesti pienenä. Vuodesta 2022 lähtien pääasialliset toistuvat toimintakustannukset ovat olleet verkkotunnuksia. Hosting on käyttänyt mahdollisuuksien mukaan ilmaista tai edullista infrastruktuuria.",
+      "Tämä kirjaus ei ole tilintarkastettu tilinpäätös, vaan IATF:n verkossa pitämiseksi käytetyn infrastruktuurin julkiset toimintakustannukset."
+    ],
+    "footnote": "Henkilökohtaiset osoitteet, laskutustiedot ja tarpeettomat tilitiedot eivät kuulu julkisuuteen.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Verkkotunnus",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Kustannukset",
+            "value": "3,40 Yhdysvaltain dollaria"
+          },
+          {
+            "label": "Muistiinpanot",
+            "value": "Domain-kulut rahoitti mugiwarafx. Hosting käytti ilmaista tasoa tai edullista infrastruktuuria Cloudflareen kautta. Hanke siirtyi Vercelistä Cloudflereen ja alkoi käyttää lyhyempää <code>iatf.cc</code> Alue."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Verkkotunnus",
+            "value": "<code>Kansainvälinen tavoitettavuustaskforce.com</code>"
+          },
+          {
+            "label": "Kustannukset",
+            "value": "18,68 Yhdysvaltain dollaria"
+          },
+          {
+            "label": "Muistiinpanot",
+            "value": "Domenikustannukset mugiwarafxin rahoittamat."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Verkkotunnus",
+            "value": "<code>Kansainvälinen tavoitettavuustaskforce.com</code>"
+          },
+          {
+            "label": "Kustannukset",
+            "value": "17,06 Yhdysvaltain dollaria"
+          },
+          {
+            "label": "Muistiinpanot",
+            "value": "Domainin kustannukset rahoitti mugiwarafx. Vercelin kautta käytetty ilmainen tai edullinen infrastruktuuri."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Verkkotunnus",
+            "value": "<code>Kansainvälinen tavoitettavuustaskforce.com</code>"
+          },
+          {
+            "label": "Kustannukset",
+            "value": "14,76 Yhdysvaltain dollaria"
+          },
+          {
+            "label": "Muistiinpanot",
+            "value": "Domenikustannukset mugiwarafxin rahoittamat."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Verkkotunnus",
+            "value": "<code>Kansainvälinen tavoitettavuustaskforce.com</code>"
+          },
+          {
+            "label": "Kustannukset",
+            "value": "7,76 Yhdysvaltain dollaria"
+          },
+          {
+            "label": "Muistiinpanot",
+            "value": "Domainin kustannukset rahoitti mugiwarafx. Hostingissa käytettiin ilmaista tai edullista infrastruktuuria GitHub Pages -sivujen kautta."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Raja-ilmoitus",
+      "title": "Mikä ei ole julkista"
+    },
+    "paragraphs": [
+      "Joitakin aineistoja pidetään julkisten asiakirjojen ulkopuolella tarkoituksella:"
+    ],
+    "items": [
+      "Ehdottajien henkilökohtaiset yhteystiedot.",
+      "Yksityinen kirjeenvaihto, jota käytetään vain pyynnön selventämiseksi ennen sen hyväksymistä, hylkäämistä tai tiivistämistä.",
+      "Yksityiset osoitteet, puhelinnumerot ja tarpeettomat henkilökohtaiset tiedot.",
+      "Kaikki, mikä voisi tunnistaa avustavan teknologian käyttäjän ilman suostumusta.",
+      "Raw Discord-keskustelut, ellei tiettyä viestiä siirretä tarkoituksella julkiseen hankkeen tietueeseen."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Lue lisää",
+      "title": "Hallinto on näihin tietoihin perustuva sääntökirja"
+    },
+    "paragraphs": [
+      "Jos haluat ymmärtää, miten hankkeet hyväksytään, arkistoidaan tai siirretään, lue hallinto-osa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

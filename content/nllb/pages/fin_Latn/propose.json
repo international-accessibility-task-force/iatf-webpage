@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pyydä esteettömyyshanketta",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pyydä esteettömyyshanketta",
+    "lead": "IATF tarkastelee sellaisia saavutettavuushankkeita koskevia pyyntöjä, jotka perustuvat todellisiin tarpeisiin.",
+    "support": [
+      "Tarvitset vain selkeän ongelman, sen, kenelle se koskee, ja sen, miksi se on tärkeää."
+    ],
+    "actions": [
+      {
+        "label": "Aloita pyyntö",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Käytä Discordia sen sijaan",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanavat",
+      "title": "Valitse helpoin reitti ."
+    },
+    "intro": [
+      "Kaikki reitit sisällytetään samaan tarkastukseen."
+    ],
+    "items": [
+      {
+        "label": "Verkkosivusto",
+        "body": "Käytä alla olevaa lomaketta rakenteellisen pyynnön esittämiseksi."
+      },
+      {
+        "label": "Sähköpostiosoite",
+        "body": "Lähetä pyyntö suoraan {{contact.requestsEmail}}Sähköpostipyyntöistä voi tulla julkisia pyyntötietoja tarkastelun ja muokkauksen jälkeen."
+      },
+      {
+        "label": "Erimielisyys",
+        "body": "Aloita siitä, jos se on helpointa. Pyyntö siirtyy edelleen samaan tarkistukseen."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ennen kuin lähetät pyynnön",
+    "paragraphs": [
+      "Pyynnöt voidaan tiivistää ja julkaista julkisina pyyntötietoina IATF:n GitHub-organisaatiossa, tällä verkkosivustolla tai molemmissa.",
+      "Älä anna henkilökohtaisia osoitteita, puhelinnumeroita, lääketieteellisiä tietoja tai yksilöllisiä tietoja avustavien teknologioiden yksittäisistä käyttäjistä, ellei se ole välttämätöntä ja olet tyytyväinen siihen, että IATF tarkastelee niitä.",
+      "IATF poistaa tarpeettomat henkilökohtaiset yhteystiedot ennen pyyntötietojen julkaisemista."
+    ]
+  },
+  "review": {
+    "title": "Jälkitarkastusten odotukset",
+    "paragraphs": [
+      "Pyynnön jättäminen ei takaa sen hyväksymistä.",
+      "IATF tarkastelee pyyntöjä tehtävän soveltuvuudesta, toteutettavuudesta ja hyödyllisyydestä sekä siitä, kuuluuko teos julkiseen arkistoon.",
+      "Jotkin pyynnöt voidaan hylätä, lykätä tai muokata ennen hyväksymistä."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Hakemuslomake",
+      "title": "Pyynnön esittäminen"
+    },
+    "fields": [
+      {
+        "kind": "syöttö",
+        "name": "pyynnön esittäjä",
+        "label": "Nimesi tai organisaatiosi",
+        "helper": "Kuka tekee pyynnön?"
+      },
+      {
+        "kind": "valinta",
+        "name": "yhteysreitit",
+        "label": "Suositeltu yhteysreitti",
+        "helper": "Miten seuranta olisi toteutettava?",
+        "required": true,
+        "options": [
+          "Sähköpostiosoite",
+          "Erimielisyys"
+        ]
+      },
+      {
+        "kind": "syöttö",
+        "name": "Yhteystiedot",
+        "label": "Yhteystiedot",
+        "helper": "Sähköpostiosoite tai Discord-osoite seurantaa varten.",
+        "placeholder": "Sähköpostiosoite tai Discord- tunniste",
+        "required": true
+      },
+      {
+        "kind": "syöttö",
+        "name": "kieli",
+        "label": "Kieli",
+        "helper": "Valittava kieli, jos se on tarpeen.",
+        "value": "Englanti"
+      },
+      {
+        "kind": "tekstialue",
+        "name": "ongelma",
+        "label": "Mitä ongelmaa yrität ratkaista?",
+        "helper": "Kuvailkaa este selkeillä sanoilla.",
+        "required": true
+      },
+      {
+        "kind": "tekstialue",
+        "name": "vaikuttavat käyttäjät",
+        "label": "Keitä se koskettaa?",
+        "helper": "Kenelle tämä auttaisi?",
+        "required": true
+      },
+      {
+        "kind": "tekstialue",
+        "name": "extraKonteksti",
+        "label": "Lisäyhteys",
+        "helper": "Jaa mitä tahansa muuta, mikä auttaa selittämään tarvetta: miksi se on tärkeää, esimerkkejä, viitteitä, karkeaa ohjelmistoideaa tai ajoitusrajoituksia."
+      },
+      {
+        "kind": "valinta",
+        "name": "OpenSourceConsent (suostumus)",
+        "label": "Oletko tyytyväinen avoimen lähdekoodin kehitykseen?",
+        "helper": "Hyväksytyt hankkeet ovat IATF:n julkisia tallennustiloja.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "- Kyllä .",
+          "- Ei ole .",
+          "En ole vielä varma ."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Jos hyväksytään",
+      "title": "Mitä hyväksyminen tarkoittaa"
+    },
+    "items": [
+      "IATF:n GitHub-organisaatiossa oleva julkinen tallennustila",
+      "hankkeelle määrätty vastuullinen insinööri",
+      "Copyleft-lisenssi koodille ja projektimateriaaleille",
+      "julkinen kehitys tallennuskeskuksessa",
+      "IATF:n verkkosivustolla oleva rekisterin merkintä"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Aloita keskustelu",
+      "title": "Aluksi riittää lyhyt ja selkeä pyyntö."
+    },
+    "paragraphs": [
+      "Jos sinulla on todellinen saavutettavuuden tarve ja ajattelet, että siitä pitäisi tulla julkinen hanke, lähetä se meille."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

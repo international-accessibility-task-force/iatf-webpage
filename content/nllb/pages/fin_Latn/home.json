@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Saavutettavuuden tarpeesta julkisiin repoihin",
+    "lead": "IATF auttaa yhdistyksiä, ryhmiä ja yksityishenkilöitä kääntämään todelliset saavutettavuustarpeet julkisiin avoimen lähdekoodin hankkeisiin.",
+    "support": [
+      "Hyväksytyt projektit julkaistaan IATF:n GitHub-organisaatiossa copyleft-lisenssin mukaisesti ja niitä kehittää vastuullinen insinööri julkisesti."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Julkinen toimintamalli",
+      "title": "Yksinkertainen julkinen reitti esteettömille ohjelmistoille"
+    },
+    "paragraphs": [
+      "Jos ryhmä pystyy ottamaan sen vastaan, julkinen GitHub-varasto avataan työhön.",
+      "Jokaisella hyväksytyllä hankkeella on selkeä julkinen koti koodiin, ongelmiin, dokumentaatioon ja julkaisuihin, ja vastuullisen insinöörin johtama kehitys on avoin."
+    ],
+    "specCard": {
+      "title": "Julkinen toimintamalli",
+      "terms": [
+        {
+          "term": "Tarve",
+          "definition": "Todellinen esteettömyysongelma"
+        },
+        {
+          "term": "Tarkastelu",
+          "definition": "Tehtävän soveltuvuus ja käytännön toteutettavuus"
+        },
+        {
+          "term": "Hankkeelle tarkoitettu tila",
+          "definition": "Julkinen GitHub-arkisto"
+        },
+        {
+          "term": "Johtaminen",
+          "definition": "IATF-organisaation omistusoikeus"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prosessi",
+      "title": "Miten se toimii",
+      "intro": "Malli pysyy tarkoituksellisesti pienenä, jotta yleinen polku on helppo seurata."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Tarve on esitetty",
+        "paragraphs": [
+          "Yhdistys, ryhmä tai yksittäinen henkilö voi esittää pyynnön, joka perustuu todelliseen saavutettavuustarpeeseen.",
+          "Hakemukset voidaan aloittaa verkkosivustolla tai sähköpostitse osoitteeseen <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, tai Discordin kautta."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF tarkastelee sitä",
+        "paragraphs": [
+          "Tarkistamme tehtävän soveltuvuuden, käytännön laajuuden ja sen, kuuluuko työ julkiseen avoimeen lähdekoodiin."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Luodaan julkinen tietokanta",
+        "paragraphs": [
+          "Jos hanke hyväksytään, se julkaistaan IATF:n GitHub-organisaatiossa copyleft-lisenssillä.",
+          "Repositoriosta tulee koodin, ongelmien, dokumentaation ja julkaisujen julkinen koti."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Vastuullinen insinööri johtaa hanketta",
+        "paragraphs": [
+          "Projektin tallennustilaan on määrätty vastuullinen insinööri, ja kehitys tapahtuu julkisesti."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kirjanpito",
+      "title": "Julkinen hankerekisteri"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Aloita täältä .",
+      "title": "Käynnissä olevan työn tarkasteleminen tai konkreettisen hankkeen aloittaminen"
+    },
+    "paragraphs": [
+      "Käytä rekisteriä nähdäksesi, mikä on jo julkista, tai aloita otto, jos konkreettinen esteettömyysongelma tulee hankkeeksi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Hallinnointi ja rekisterimalli",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Hallinnointi ja rekisterimalli",
+    "lead": "IATF pitää esteettömyyshankkeet julkisina, luettavina ja ylläpidettävinä.",
+    "support": [
+      "Tässä sivulla selitetään, mitkä vaatimukset täyttyvät, miten tallennustiloja ylläpidetään ja mitä vastuita säilytystiloilla on hyväksymisen jälkeen."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Säännöt",
+      "title": "Tehtävän soveltuvuus, omistusoikeus, toimiluvat"
+    },
+    "cards": [
+      {
+        "title": "Tehtävään soveltuvuus",
+        "paragraphs": [
+          "IATF hyväksyy työt, jotka ratkaisevat todellisen esteen saavutettavuudelle ja joilla on selkeä yleinen arvo.",
+          "Hankkeen tulisi olla hyödyllinen muutakin kuin yksittäinen yksityinen työnkulku ja toimiva julkisena tietokannana.",
+          "Internetin saavutettavuuden kannalta IATF käyttää [W3C WAI](https://www.w3.org/WAI/) Avustavien teknologioiden käyttäjien suora kokemus on myös käytännön todiste siitä, mikä toimii todellisessa käytössä."
+        ]
+      },
+      {
+        "title": "Hankkeen hyväksyminen",
+        "paragraphs": [
+          "Ehdotus voidaan hyväksyä, jos tarkastelu osoittaa, että"
+        ],
+        "items": [
+          "se vastaa todelliseen saavutettavuustarpeeseen",
+          "Ongelma on riittävän selvä arvioitavaksi",
+          "Kohde on riittävän realistinen laukaistavaksi",
+          "Työ on linjassa IATF:n tehtävän kanssa",
+          "on olemassa uskottava polku kunnossapitoon tai täydentämiseen"
+        ]
+      },
+      {
+        "title": "Säilytysyhteisön omistusoikeus",
+        "paragraphs": [
+          "Hyväksytyt projektit luodaan IATF:n GitHub-organisaation alaisuudessa.",
+          "Varastot pysyvät siellä, jotta jokainen projekti säilyttää vakaan julkisen kodin, vaikka ylläpitäjät myöhemmin vaihtuisivat."
+        ]
+      },
+      {
+        "title": "Lisenssin myöntäminen",
+        "paragraphs": [
+          "IATF-hankkeissa käytetään copyleft-lisensointia, ellei hankkeessa toisin mainita:"
+        ],
+        "items": [
+          "<strong>Koodi:</strong> AGPL-3.0",
+          "<strong>Asiakirjat:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Vastuussa oleva insinööri tai huoltohenkilö",
+      "paragraphs": [
+        "Jokaisessa hyväksytyssä hankkeessa on oltava nimetty vastuussa oleva insinööri tai ylläpitäjä."
+      ],
+      "items": [
+        "oppaiden kehittäminen julkisissa",
+        "säilytyskeskuksen rakenteen ylläpitäminen",
+        "tarkastella tai hallinnoida ongelmia ja poistaa pyyntöjä",
+        "tärkeiden teknisten päätösten dokumentointi",
+        "pitää hanketta ymmärrettävänä muille"
+      ],
+      "footnote": "Tämä on varasto-tason vastuu. Organisaation omistus pysyy IATF:llä. Vastuu tässä on varaston hallinnointi, tekninen ohjaus ja julkinen koordinointi  ei rajoittamaton yksityinen toimitus, mukautetut integroinnit tai julkisen etenemissuunnitelman ulkopuoliset palvelutason sitoumukset."
+    },
+    "publicDevelopment": {
+      "title": "Julkinen kehitys",
+      "paragraphs": [
+        "IATF:n kautta käynnistettyjä hankkeita kehitetään oletusarvoisesti julkisesti."
+      ],
+      "items": [
+        "Lähdekoodi",
+        "kysymykset",
+        "asiakirja-aineisto",
+        "Maantiekartasta tehdyt muistiinpanot",
+        "julkaisuhistoria"
+      ],
+      "footnote": "Tärkeän projektitiedon ei pitäisi elää vain yksityisissä keskusteluissa tai postilaatikkoissa."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Julkiset tietueet",
+      "title": "Julkiset pyyntötiedot"
+    },
+    "paragraphs": [
+      "IATF toimii oletusarvoisesti julkisesti. Pyynnöt, jotka tulevat IATFiin verkkosivuston, sähköpostin, Discordin, GitHubin tai muiden IATFin kanavien kautta, voivat tulla julkisiksi pyyntötiedostoiksi.",
+      "Julkinen pyyntörekisteri ei välttämättä ole alkuperäinen viesti. IATF voi tiivistää, muokata tai rakentaa uudelleen pyyntöä ennen julkaisua, jotta saavutettavuuden tarvetta voidaan tarkastella paljastamatta tarpeettomia henkilökohtaisia tietoja.",
+      "Julkiset pyyntötiedot voidaan tallentaa IATF:n GitHub-organisaatiossa, tällä verkkosivustolla tai molemmissa.",
+      "IATF poistaa ennen julkaisua tarpeettomat henkilökohtaiset yhteystiedot, yksityiset osoitteet ja yksilöivät tiedot avustavien teknologioiden yksittäisistä käyttäjistä, paitsi jos julkaisun tarkoitus on selkeä ja se on tarkoituksenmukaista.",
+      "Discordia käytetään epäviralliseen koordinointiin. IATF ei oletusarvoisesti arkistoi erikseen Discord-keskusteluja, ja Discord hallitsee viestien säilyttämistä. Discordissa tehdyt päätökset tulisi tiivistää julkisuuteen GitHubissa tai asiaankuuluvalla projektisivulla.",
+      "Pyyntötietoja ei indeksoida hakukoneissa, jos se on teknisesti käytännöllistä. Julkinen tarkoittaa tarkistettavissa olevaa ja vastuullista. Se ei tarkoita, että se on optimoitu nimihakemusten avulla.",
+      "IATF voi päivittää tai poistaa tietueita sen valvonnassa olevista julkisista sivuista, mutta se ei voi taata niiden poistamista kolmansien osapuolten välimuistoista, ilmoituksista, haarukoista, näytönkuvista, hakukoneista, Discordista tai muista ulkoisista järjestelmistä.",
+      "Jos viestin on pysyttävä yksityisenä, älä lähetä sitä IATF:n julkisten kanavien kautta."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisaation rooli",
+      "title": "Tuoli"
+    },
+    "lead": "Puheenjohtaja hoitaa IATF:n organisaatiotason hallintoa. Tämä eroaa projektinkohtaisesta vastuullisesta insinöörin roolista: puheenjohtaja on vastuussa koko organisaatiosta, ei yksittäisen tietokannan päivittäisestä johtamisesta.",
+    "duties": {
+      "title": "Mitä tuoli tekee",
+      "items": [
+        "Säilyttää omistajan oikeudet IATF: n GitHub-organisaatiossa",
+        "Projektin hyväksymis- ja arkistointipäätösten hyväksyminen",
+        "Toimii IATF:n julkisena yhteyspisteenä",
+        "Koordinoi vuotuisia vaaleja"
+      ],
+      "footnote": "Johtaja ei sitoo IATF:tä yksityisiin toimituksiin, palkkatyöhön tai palvelutasosopimuksiin eikä ohita tietokannan ylläpitäjän teknistä ohjausta koskevia päätöksiä."
+    },
+    "election": {
+      "title": "Vuosittaiset vaalit",
+      "paragraphs": [
+        "Puheenjohtaja valitaan kerran vuodessa; vaalit järjestetään joulukuun kahden ensimmäisen viikon aikana, tulokset julkistetaan 15. joulukuuta mennessä ja uusi toimikausi alkaa 1. tammikuuta.",
+        "Äänestyskelpoisia ovat henkilöt, jotka ovat pitäneet ylläpitäjän roolia missä tahansa IATF: n tallennuskeskuksessa vuoden aikana ja tehneet vähintään yhden yhdistetyn panoksen kyseisenä vuonna. Jokaisella äänioikeudellisella äänestäjällä on yksi ääni. Eniten ääniä saanut ehdokas voittaa; tasapelin tapauksessa toisella kierroksella pidetään joulukuun kolmannella viikolla.",
+        "Vaalit käydään julkisena GitHub-keskusteluna IATF:n hallinto-arkistossa, joten ehdokkaat, äänestys ja tulos ovat kaikki osa julkista tallennusta."
+      ]
+    },
+    "continuity": {
+      "title": "Jatkuvuus",
+      "paragraphs": [
+        "Jos vaaleja ei järjestetä tiettynä vuonna, nykyinen puheenjohtaja jatkaa tehtäväänsä seuraavaan vaaleihin saakka. Tämä on määrittelemätön jatkuminen, ei lykkäaika - malli on suunniteltu pitämään organisaatio vakaana, kun toiminta on alhainen, eikä pakottaa siirtymää, jota kukaan ei ole valmis.",
+        "Puheenjohtaja voi erota milloin tahansa.Aktiiviset ylläpitäjät voivat myös kutsua koolle ylimääräisiä vaaleja ilmoitetun syyn vuoksi, jotka järjestetään samoin sääntöihin kuin vuotuiset vaalit."
+      ]
+    },
+    "current": {
+      "title": "Nykyinen puheenjohtaja",
+      "fields": [
+        {
+          "label": "Tuoli",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Käyttöaika",
+          "value": "Vuoden 2026 joulukuun vaaleihin saakka"
+        },
+        {
+          "label": "Virallistettu rooli",
+          "value": "2026"
+        },
+        {
+          "label": "Ensimmäiset suunnitellut vaalit",
+          "value": "Joulukuu 2026"
+        }
+      ]
+    },
+    "footnote": "Puheenjohtajan rooli virallistettiin vuonna 2026, jolloin organisaation tason johtaminen tuli selväksi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Hankkeen tilat",
+      "paragraphs": [
+        "Hankkeissa käytetään pieniä julkisia tiloja:"
+      ],
+      "items": [
+        "Ehdotus",
+        "Hyväksytty",
+        "Aktiivinen",
+        "Vakaa",
+        "Tarvitsemme ylläpitäjää",
+        "Arkistoitu"
+      ],
+      "footnote": "Näillä osavaltioilla rekisteriä on helppo skannata."
+    },
+    "reassignment": {
+      "title": "Uudelleensijoittaminen ja arkistointi",
+      "paragraphs": [
+        "Jos ylläpitäjä eroaa tai jää toimettomaksi, IATF voi siirtää vastuuta, keskeyttää kehityksen tai arkistoida projektin.",
+        "Projekti voidaan myös arkistoida, kun alkuperäinen tarve on täytetty, kun kunnossapito on lopetettu tai kun työn jatkaminen ei ole enää realistista."
+      ],
+      "footnote": "Arkistoidut hankkeet pysyvät julkisesti näkyvissä, ellei ole pakottavaa syytä tehdä toisin."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Raja-ilmoitus",
+      "title": "Mitä IATF ei takaa"
+    },
+    "items": [
+      "yksityisen asiakkaan toimitus",
+      "palvelutasosopimukset",
+      "jokaisen ehdotuksen hyväksyminen",
+      "kunkin hankkeen pitkän aikavälin huolto"
+    ],
+    "footnote": "IATF on julkinen tallennusmalli, ei yksityinen toimituspalvelu."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sivun kartta"
+  },
+  "hero": {
+    "eyebrow": "Indeksi",
+    "title": "Sivun kartta",
+    "lead": "Kaikki IATFCC:n julkisista sivuista samassa paikassa."
+  },
+  "sections": [
+    {
+      "title": "Tärkeimmät sivut",
+      "items": [
+        {
+          "label": "Kotiin .",
+          "href": "/"
+        },
+        {
+          "label": "Hankkeet",
+          "href": "/projects/"
+        },
+        {
+          "label": "Pyydä hanketta",
+          "href": "/propose/"
+        },
+        {
+          "label": "Johtaminen",
+          "href": "/governance/"
+        },
+        {
+          "label": "Liity mukaan",
+          "href": "/join/"
+        },
+        {
+          "label": "Käytettävyys",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Läpinäkyvyys",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Hankkeet",
+  "projectsEmpty": "Ei vielä julkaistuja hankkeita."
+}

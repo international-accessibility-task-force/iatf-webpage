@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Julkisen saavutettavuuden hankkeet",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Julkisen saavutettavuuden hankkeet",
+    "lead": "Tässä rekisterissä luetellaan julkisia hankkeita, joita ylläpidetään IATF:n kautta. Hyväksytyt saavutettavuushankkeet, sivuston infrastruktuuri ja arkistoidut prototyypit pidetään täällä näkyvinä.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kirjanpito",
+      "title": "Nykyinen rekisteri"
+    },
+    "intro": [
+      "Hyväksytyt hankkeet luetellaan tässä, kun ne on julkaistu."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Lähetä tarve",
+      "title": "Käännä konkreettinen saavutettavuustarve julkiseksi hankkeeksi"
+    },
+    "paragraphs": [
+      "IATF tarkastelee konkreettisia saavutettavuustarpeita, jotka voidaan muuttaa hyödyllisiksi avoimen lähdekoodin julkisiksi teoksiksi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ei vielä julkaistuja hankkeita",
+    "paragraphs": [
+      "IATF valmistelee ensimmäistä julkista projektikokonaisuuttaan.",
+      "Voit silti lähettää pyynnön, jos sinulla on konkreettisia saavutettavuustarpeita."
+    ]
+  }
+}

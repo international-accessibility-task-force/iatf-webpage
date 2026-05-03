@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ei löytynyt"
+  },
+  "hero": {
+    "eyebrow": "Ei löytynyt",
+    "title": "Hakemattua sivua ei löytynyt",
+    "lead": "Käyttäkää alla olevia pääreittejä palataksenne julkiselle paikalle.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Kotiin .",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Pyytämiänne reittejä ei ole olemassa."
+    ],
+    "items": [
+      {
+        "label": "Kotiin .",
+        "href": "/"
+      },
+      {
+        "label": "Hankkeet",
+        "href": "/projects/"
+      },
+      {
+        "label": "Liity mukaan",
+        "href": "/join/"
+      },
+      {
+        "label": "Käytettävyys",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Johtaminen",
+        "href": "/governance/"
+      },
+      {
+        "label": "Läpinäkyvyys",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Liity IATF:ään",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Liity IATF:ään",
+    "lead": "Osallistuminen on avointa. On olemassa useita tapoja osallistua, riippumatta siitä, luotko aputeollisuuteen, rakennatko saatavilla olevaa ohjelmistoa, käännät, testaat tai ylläpidät projektia. Keskustelut ja päätökset tapahtuvat julkisesti GitHubissa ja Discordissa.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Roolit",
+      "title": "Tavat osallistua"
+    },
+    "items": [
+      "<strong>Pyydä hanketta.</strong> Jos kohtaat esteen, jonka avoimen lähdekoodin ohjelmisto voisi ratkaista, lähetä se pyynnön vastaanoton kautta.",
+      "<strong>Testaus ja tarkastelu.</strong> Kokeile IATF-hankkeita käyttämäsi avustavan teknologian avulla, ilmoita, mikä toimii ja mikä ei, ja tallenna ongelmat suoraan asiaankuuluvaan tietokantaan.",
+      "<strong>Käännä.</strong> Alkuperäinen sisältö julkaistaan ensin tavallisella englanniksi. Käännökset lisätään, kun osallistujat ovat käytettävissä, alkaen espanjan kielellä.",
+      "<strong>Rakennetaan.</strong> Valitse ongelmat mistä tahansa IATF-arkistosta, lähetä pull-pyyntöjä tai ota projekti vastuullisena insinöörinä.",
+      "<strong>Pitäkää kiinni.</strong> Olemassa olevat hankkeet tarvitsevat joskus uuden ylläpitäjän."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanavat",
+      "title": "Kun IATF toimii julkisesti"
+    },
+    "items": [
+      "<strong>Se on GitHub.</strong> Ongelmia, pull-pyyntöjä, julkaisuja ja projektitietoja.",
+      "<strong>Erimielisyys.</strong> Elävä keskustelu, koordinointi ja epäviralliset kysymykset.",
+      "<strong>Sähköposti.</strong> Käyttö <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> jos GitHub tai Discord eivät sovi."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Seuraava askel",
+      "title": "Valitse kanava, joka sopii siihen, miten haluat osallistua"
+    },
+    "paragraphs": [
+      "Kaikki kanavat kulkevat samaan julkisuuteen ja samaan julkiseen tietokantaan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
