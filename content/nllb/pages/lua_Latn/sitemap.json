@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Tshimfuanyi tshia site"
+  },
+  "hero": {
+    "eyebrow": "Tshikebelu",
+    "title": "Tshimfuanyi tshia site",
+    "lead": "Tshibejibeji tshionso tshia bantu bonso tshia iatf.cc, muaba umue."
+  },
+  "sections": [
+    {
+      "title": "Tshitupa tshinene",
+      "items": [
+        {
+          "label": "Ku nzubu",
+          "href": "/"
+        },
+        {
+          "label": "Malu adibu balongolole",
+          "href": "/projects/"
+        },
+        {
+          "label": "Lomba mudimu",
+          "href": "/propose/"
+        },
+        {
+          "label": "Mbulamatadi",
+          "href": "/governance/"
+        },
+        {
+          "label": "Buela mu tshisumbu",
+          "href": "/join/"
+        },
+        {
+          "label": "Kuikalaku",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Diumvuija malu patoke",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Malu adibu balongolole",
+  "projectsEmpty": "Kakuena mudimu udibu banji kupatula to."
+}

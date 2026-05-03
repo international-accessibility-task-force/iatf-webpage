@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Lomba mudimu wa diambuluishangana",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Lomba mudimu wa diambuluishangana",
+    "lead": "Tshibambalu tshia IATF tshidi tshikonkonona dilomba dia kuenza midimu idi itangila mushindu wa kupeta bantu idi ifumina ku dijinga dilelela.",
+    "support": [
+      "Kuena dijinga ne malu a bungi to, kadi bidi bikengela anu kumanya bimpe muntu udi bualu ebu butangila ne bua tshinyi budi ne mushinga."
+    ],
+    "actions": [
+      {
+        "label": "Tuadija dilomba",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Kuenza mudimu ne Discord pamutu pa kuenza nanku",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mishindu ya kuyisha",
+      "title": "Sungula njila udi mutambe kupepela"
+    },
+    "intro": [
+      "Mishindu yonso ya luendu itu ilonda malu a muomumue."
+    ],
+    "items": [
+      {
+        "label": "Site wa Enternete",
+        "body": "Enza mudimu ne dibeji didi kuinshi eku bua kufila dilomba didi ne malu masunguluke."
+      },
+      {
+        "label": "Enternete",
+        "body": "Tuma dilomba edi buludiludi kudi: {{contact.requestsEmail}}Malu adibu balomba ku diambuluisha dia Enternete adi mua kulua mikanda ya bantu bonso panyima pa bamane kuakonkonona ne kuakajilula."
+      },
+      {
+        "label": "Dishilangana",
+        "body": "Bikalabi bipepele bua kutuadija muaba eu, dilomba edi didi ditungunuka anu ne kutangila muaba umue."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Kumpala kua wewe kutuma dilomba",
+    "paragraphs": [
+      "Malu adibu balomba adi mua kuikala mu tshikoso ne kuapatulabu bu mikanda idibu balombe bantu bonso mu tshibambalu tshia IATF GitHub, mu site eu, anyi mu bionso bibidi.",
+      "Kuambi adresi ya muntu, nimero ya telefone, malu a luondapu anyi malu adi atangila muntu yonso udi wenza mudimu ne biamu bidi biambuluisha to, anu bikalabi ne mushinga ne wewe musue bua bena tshibambalu tshia IATF bakonkonone malu aa.",
+      "Tshibambalu tshidibu babikila ne: IATF tshidi tshiumbusha malu adi kaayi ne mushinga adi atangila muntu kumpala kua kupatula mukanda wa dilomba."
+    ]
+  },
+  "review": {
+    "title": "Dikonkonona malu adibu batekemene",
+    "paragraphs": [
+      "Kufila dilomba kakuena kujadika ne: nebakuitabe to.",
+      "Tshibambalu tshia IATF tshidi tshikonkonona malu adibu balomba bua kumona ni adi makumbane bua kuenza mudimu kampanda, ni adi mua kukumbana, ne a mushinga, ne ni mudimu au udi ne bua kuikala mu tshilaminu tshia mikanda tshia bantu bonso.",
+      "Badi mua kubenga amue malu adibu balombe, kuangataku dîba dikuabu, anyi kuashintulula kumpala kua kubitaba."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Tshimfuanyi tshia dilomba",
+      "title": "Kufila dilomba"
+    },
+    "fields": [
+      {
+        "kind": "malu adibu bafila",
+        "name": "mulombodi",
+        "label": "Dîna diebe anyi dia bulongolodi buebe",
+        "helper": "Nnganyi udi wenza dilomba edi?"
+      },
+      {
+        "kind": "kusungula",
+        "name": "Mushindu wa kutuilangana",
+        "label": "Njila wa kumonangana nende udibu basue",
+        "helper": "Mmushindu kayi udi malu adibu balonda ne bua kuenzeka?",
+        "required": true,
+        "options": [
+          "Enternete",
+          "Dishilangana"
+        ]
+      },
+      {
+        "kind": "malu adibu bafila",
+        "name": "Malu adibu mua kutuambila",
+        "label": "Malu adibu mua kumonangana nawu",
+        "helper": "Adrese wa e-mail anyi dîna dia muntu wa mu Discord bua kumulonda.",
+        "placeholder": "Adresse e-mail anyi adresse wa Discord",
+        "required": true
+      },
+      {
+        "kind": "malu adibu bafila",
+        "name": "muakulu",
+        "label": "Muakulu",
+        "helper": "Muakulu uudi musue, bikalabi ne mushinga.",
+        "value": "Tshiluba"
+      },
+      {
+        "kind": "muaba wa miaku",
+        "name": "lutatu",
+        "label": "Ntshilumbu kayi tshiudi ukeba bua kujikija?",
+        "helper": "Umvuija tshipumbishi mu muakulu mupepele.",
+        "required": true
+      },
+      {
+        "kind": "muaba wa miaku",
+        "name": "Bantu badibu bakuate",
+        "label": "Mbanganyi badibu bakuata?",
+        "helper": "Kuenza nunku kudi mua kuambuluisha nganyi?",
+        "required": true
+      },
+      {
+        "kind": "muaba wa miaku",
+        "name": "extraMalu adi mu tshiena-bualu",
+        "label": "Tshiena-bualu tshikuabu",
+        "helper": "Umvuija bualu bukuabu buonso budi buambuluisha bua kumvuija dijinga edi: bua tshinyi didi ne mushinga, bilejilu, mvese, lungenyi lukese lua programe, anyi malu adi atangila dîba dia kuenza mudimu."
+      },
+      {
+        "kind": "kusungula",
+        "name": "OpenSourceConsent (Ditabuja dia ku budisuile)",
+        "label": "Udiku udiumvua bimpe bua kuenza mudimu ne mikanda ya bantu bonso anyi?",
+        "helper": "Malu adibu bitabe bua kuenza adi mu mikanda ya bantu bonso idibu babikila ne: IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Eyowa",
+          "Tòo",
+          "Tshiena mujadike to"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Bobu bitabe",
+      "title": "Tshidi dianyisha diumvuija"
+    },
+    "items": [
+      "tshilaminu tshia bantu bonso mu bulongolodi bua IATF GitHub",
+      "muenjinere udi ne bujitu bua mudimu eu",
+      "mukanda wa dianyisha wa copyleft bua code ne bintu bia mudimu",
+      "Malu adibu balongolole bua bantu bonso mu tshilaminu",
+      "difunda dia mikanda mu site wa IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tuadija muyuki",
+      "title": "Udi mua kutuadija ne dilomba dikese kadi ditoke"
+    },
+    "paragraphs": [
+      "Biwikala ne dijinga dilelela dia mushindu wa kupeta mikanda ne umona ne: bidi bikengela bua ikale mudimu wa bantu bonso, ututuminewu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

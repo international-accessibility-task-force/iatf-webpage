@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Bidi bikengela kuikala ne mushindu wa kubuelamu bua kupeta mikanda ya bantu bonso",
+    "lead": "IATF udi wambuluisha malongolodi, bisumbu, ne bantu pa nkayabu bua kukudimuna majinga abu malelela adi atangila mushindu wa kupeta mikanda mu mikanda ya bantu bonso.",
+    "support": [
+      "Malu adibu bitabe adibu bapatula mu tshibambalu tshia IATF GitHub muinshi mua mukanda wa dianyisha wa copyleft ne adibu balongolola kudi muenji wa mudimu udi ne bujitu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mushindu udi mbulamatadi wenza mudimu",
+      "title": "Mushindu mupepele wa kufila programe udi bantu bonso mua kupeta"
+    },
+    "paragraphs": [
+      "Muntu yonso udi mua kufila tshilumbu tshiende ku IATF ku diambuluisha dia formule kampanda.",
+      "Tshipatshila tshionso tshidibu bitabe tshidi ne muaba udi bantu ba bungi mua kupeta malu adi atangila mikenji, malu adibu bapatule, mikanda, ne mikanda idibu bapatula."
+    ],
+    "specCard": {
+      "title": "Mushindu udi mbulamatadi wenza mudimu",
+      "terms": [
+        {
+          "term": "Bidi bikengela",
+          "definition": "Tshilumbu tshilelela tshia mushindu wa kupeta mikanda"
+        },
+        {
+          "term": "Dikonkonona",
+          "definition": "Mudimu eu udi mukumbanyine ne udi mua kukumbana"
+        },
+        {
+          "term": "Muaba wa mudimu",
+          "definition": "Tshisakidila tshia bantu bonso tshia GitHub"
+        },
+        {
+          "term": "Mudimu wa kulombola",
+          "definition": "Bukole bua bulongolodi bua IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Mushindu wa dienza malu",
+      "title": "Mushindu udiye wenza mudimu",
+      "intro": "Tshimfuanyi etshi tshidi tshikale tshikese bua bantu bonso bikale ne mushindu wa kutshienza bipepele."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Badi balomba diambuluisha",
+        "paragraphs": [
+          "Tshisumbu, kasumbu anyi muntu nkayende udi mua kufila dilomba didi dimanyine pa dijinga dilelela dia mushindu wa kupeta bintu.",
+          "Udi mua kufila dilomba edi ku Enternete anyi ku email ku adrese eu: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, anyi ku diambuluisha dia dishilangana."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF udi uyitangila",
+        "paragraphs": [
+          "Tudi tukonkonona mushinga udi nawu mudimu eu, mushindu udiwu mua kukumbana, ne bikala mudimu eu muikale wa bantu bonso."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Badi benza tshilaminu tshia malu a bantu bonso",
+        "paragraphs": [
+          "Bobu bitabe mudimu kampanda, badi bawupatula mu bulongolodi bua IATF ku diambuluisha dia mukanda wa dianyisha wa copyleft.",
+          "Tshilaminu etshi tshidi tshilua muaba udi bantu ba bungi mua kupeta mikenji, biena-bualu, mikanda ne mikanda idibu bapatula."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Muenji wa mudimu udi ulombola mudimu eu",
+        "paragraphs": [
+          "Badi bapesha muenji wa mudimu udi ulombola mudimu eu mudimu wa dilama mikanda, ne mudimu eu udi wenzeka muaba udi bantu bonso."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Tshibejibeji",
+      "title": "Tshisakidila tshia malu a mushinga tshia bantu bonso"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tuanji kutuadija apa.",
+      "title": "Kukeba mudimu uudi wenza anyi kutuadija mudimu kampanda wa mushinga"
+    },
+    "paragraphs": [
+      "Enza mudimu ne liste eu bua kumanya malu adi bantu bonso bamanye anyi utuadijile bua kumanya bikala bualu kampanda busunguluke budi butangila mushindu wa kupeta mikanda budi mua kulua bualu bua mushinga."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

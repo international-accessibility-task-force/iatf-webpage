@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Kakuena tshintu nansha tshimue"
+  },
+  "hero": {
+    "eyebrow": "Kakuena tshintu nansha tshimue",
+    "title": "Tshiena-bualu tshiudi ukeba katshivuabu bapete to",
+    "lead": "Angata njila minene idi kuinshi eku bua kupingana ku muaba wa bantu bonso.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ku nzubu",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Dishinda diudi ulomba kadiena kuoku to."
+    ],
+    "items": [
+      {
+        "label": "Ku nzubu",
+        "href": "/"
+      },
+      {
+        "label": "Malu adibu balongolole",
+        "href": "/projects/"
+      },
+      {
+        "label": "Buela mu tshisumbu",
+        "href": "/join/"
+      },
+      {
+        "label": "Kuikalaku",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Mbulamatadi",
+        "href": "/governance/"
+      },
+      {
+        "label": "Diumvuija malu patoke",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

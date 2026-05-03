@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Mbulamatadi ne tshilaminu tshia malu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Mbulamatadi ne tshilaminu tshia malu",
+    "lead": "Tshisumbu tshia IATF tshidi tshienza bua bantu bonso bikale ne mushindu wa kubala mikanda ne kuyilama bimpe.",
+    "support": [
+      "Tshiena-bualu etshi tshidi tshiumvuija tshidi tshipetangana ne malu aa, mushindu udibu balame bintu ebi, ne bujitu budibu ne bua kuambula padibu babitaba."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Mikenji",
+      "title": "Mudimu udi mukumbanyine, bumfumu, difila dia mikanda ya dianyisha"
+    },
+    "cards": [
+      {
+        "title": "Mudimu udi mukumbanyine",
+        "paragraphs": [
+          "IATF udi witaba mudimu udi wambuluisha bua kujikija lutatu lukole ne udi ne mushinga wa bungi ku mêsu kua bantu.",
+          "Mudimu kampanda udi ne bua kuikala ne mushinga pa mutu pa mudimu udi muntu nkayende wenza ne udi mua kuenza mudimu bu tshilaminu tshia malu a bantu bonso.",
+          "Bua bantu kufikabu ku Enternete, IATF udi wenza mudimu ne: [W3C WAI](https://www.w3.org/WAI/) Malu adi bantu badi benza mudimu ne biamu bidi biambuluisha adi aleja kabidi tshidi tshiambuluisha mu nsombelu wa bushuwa."
+        ]
+      },
+      {
+        "title": "Diitaba dia mudimu",
+        "paragraphs": [
+          "Badi mua kuitaba dilomba kampanda padi dikonkonona dileja ne:"
+        ],
+        "items": [
+          "Udi ukumbaja majinga malelela adi atangila mushindu wa kupeta bintu",
+          "tshilumbu tshidi tshiumvuika bimpe bua kutshiangata ne mushinga",
+          "tshipatshila tshidi tshikumbane bua kuteka",
+          "mudimu eu udi upetangana ne mudimu wa tshibambalu tshia IATF",
+          "kudi mushindu muimpe wa kulongolola anyi kujikija mudimu eu"
+        ]
+      },
+      {
+        "title": "Mbulamatadi wa muaba wa dilamina mikanda",
+        "paragraphs": [
+          "Bipatshila bidibu bitaba bidi bienza ku diambuluisha dia bulongolodi bua IATF budi mu GitHub.",
+          "Nzubu ya tshibutshilu idi ishala muaba au bua mudimu wonso ushale mushindame, nansha bikala bantu badi benza mudimu eu bashintuluka pashishe."
+        ]
+      },
+      {
+        "title": "Difila mikanda ya dianyisha",
+        "paragraphs": [
+          "Bipatshila bia tshibambalu tshia IATF bidi bienza mudimu ne mukanda wa dianyisha wa copyleft bikalaku kakuyi bualu bukuabu:"
+        ],
+        "items": [
+          "<strong>Tshimanyinu:</strong> AGPL-3.0",
+          "<strong>Malu adibu bafunde:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Muenjinere anyi muntu udi ulombola mudimu wa dilama bintu",
+      "paragraphs": [
+        "Mudimu wonso udibu bitaba udi ne bua kuikala ne muntu udibu babikila ne: muenji wa mudimu anyi muntu udi ulombola mudimu eu. Muntu eu udi mua kupeta bukenji bua kulombola bintu bidibu balame ebi ne udi mua kuenza malu adi alonda aa:"
+      ],
+      "items": [
+        "dilongesha bantu mu miaba idi bantu ba bungi",
+        "kulama tshibambalu tshia tshilaminu",
+        "kutangila anyi kulombola malu ne kulomba malu",
+        "Kufunda mapangadika manene a malu a biamu",
+        "Kuenza bua bantu bakuabu bumvue malu audi ulonga"
+      ],
+      "footnote": "Mudimu eu udi mu tshibambalu tshidibu balamina bintu biabu (repository-level responsibility). Bulongolodi budi ne bukenji bua kuambula bintu ebi (organizational ownership stays with IATF). Mudimu udibu benza muaba eu mmudimu wa dilama bintu ebi, buludiki bua malu a biamu, ne diumvuangana ne bantu bonso  kadi ki nkufila bintu bia muntu nkayende kakuyi mikalu, kudisangisha ne bantu bakuabu, anyi malu adibu benza pa muaba wa mudimu (service-level commitments outside the public roadmap)."
+    },
+    "publicDevelopment": {
+      "title": "Dikudimuna dia malu a bantu",
+      "paragraphs": [
+        "Midimu idibu benza ku diambuluisha dia tshibambalu tshia IATF itu yenzeka patoke."
+      ],
+      "items": [
+        "Kode wa ntuadijilu",
+        "malu adi enzeka",
+        "mikanda",
+        "Malu adibu bafunde mu karte ka njila",
+        "malu a kale adibu bapatule"
+      ],
+      "footnote": "Dimanya dia mushinga dia mudimu kadiena ne bua kuikala anu mu miyuki ya pa nkayadi anyi mu mesaje adibu bafila ku Enternete to."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Mikanda ya bantu bonso",
+      "title": "Mikanda ya malu adibu balomba bantu"
+    },
+    "paragraphs": [
+      "IATF udi wenza mudimu ne bantu bonso ku mpukampuka. Malomba adibu bafila ku diambuluisha dia site wetu wa Enternete, email, Discord, GitHub, anyi mishindu mikuabu ya malu a malu a ku enternete adi mua kulua mikanda ya malu adibu balomba bantu bonso.",
+      "IATF udi mua kumvuija mu tshikoso, kuakajilula anyi kuakaja mushindu wa dienza dilomba kumpala kua kudipatula, nunku badi mua kukonkonona dijinga dia mushindu wa kubuelamu kakuyi kuleja malu adi kaayi ne mushinga adi atangila muntu nkayende.",
+      "Mifundu ya malu adibu balomba bantu idi mua kuikala mu bulongolodi bua IATF budi mu GitHub, mu site eu anyi mu bionso bibidi.",
+      "Kumpala kua kupatula mukanda eu, bena mu tshibambalu tshia IATF badi bumbusha malu adi kaayi ne mushinga adi atangila mushindu wa kumonangana ne bantu, mêna a bantu, ne malu adi atuambuluisha bua kumanya muntu yonso udi wenza mudimu ne biamu bidi biambuluisha ku dienza mudimu, bikalabi kabiyi bimueneka patoke ne: bidi bikengela kuwupatula.",
+      "Dipangadika didibu bangate mu Discord didi ne bua kuikala mu mukanda wa bantu bonso udi mu GitHub anyi mu dibeji dia mudimu.",
+      "Biena-bualu bidibu balomba kabitu bibuela mu mikanda idibu balondesha ku diambuluisha dia Enternete padibi bikengela to.",
+      "IATF udi mua kuakajilula anyi kumbusha mikanda idi mu miaba idibu batangila kudi bena kuibaka, kadi kena mua kujadika diumbushibua dia mikanda eyi mu biamu bia bantu bakuabu, mu bimanyishilu, mu malu adibu babikila ne: \"forks\", mu bimfuanyi bidibu bakuata ku ordinatere, mu motere wa makebulula, mu programe wa Discord, anyi mu mishindu mikuabu ya malu a pambelu to.",
+      "Bikalabi ne: mukenji kampanda udi ne bua kushala musokome, kuutumayi ku diambuluisha dia njila idibu bafila kudi bena IATF to."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Mudimu wa bulongolodi",
+      "title": "Kabadi"
+    },
+    "lead": "Mulombodi udi ulombola tshibambalu tshionso tshia IATF. Bualu ebu budi bushilangane ne mudimu wa muenjinia udi utangila mudimu wonso: mulombodi utu ulombola bulongolodi bujima, kadi ki ng'uludiki wa ku dituku ne ku dituku wa tshilaminu nansha tshimue to.",
+    "duties": {
+      "title": "Malu adi dikunji dienza",
+      "items": [
+        "Udi ne dianyisha dia muena mudimu mu bulongolodi bua IATF ku GitHub",
+        "Udi ujadika dipangadika dia kuitaba mudimu ne dia kulama malu a kale",
+        "Udi wenza mudimu bu muaba udi bantu mua kutuilangana ne bena mu tshibambalu tshia malu a luibaku tshidibu babikila ne: IATF",
+        "Udi ulombola masungula adi enzeka ku tshidimu tshionso"
+      ],
+      "footnote": "Mulombodi wa tshibambalu etshi kena wambila bena IATF bua kufila bintu biabu nkayabu, kufuta bantu bua midimu idibu benza anyi bua malu adibu benza to, ne kena ukandika mapangadika adi muntu udi ulombola muaba wa dilamina bintu wenza bua malu a biamu to."
+    },
+    "election": {
+      "title": "Disungula dia ku tshidimu tshionso",
+      "paragraphs": [
+        "Badi basungula mulombodi musangu umue ku tshidimu, badi bamusungula munkatshi mua mbingu ibidi ya kumpala ya ngondo wa dikumi ne muibidi, ne badi bamanyisha bipeta bia tshisangilu etshi mu dia 15 ngondo eu, ne mudimu mupiamupia udi utuadija mu dia 1 ngondo wa kumpala.",
+        "Muntu yonso udi ne mushindu wa kusungula udi ne diboko dimue. Muntu udi mupete mavoti a bungi ke udi upeta diboko dia ndekelu. Bikalaku kakuyi diboko dikuabu, badi benza dia ndekelu mu lumingu luisatu lua ngondo wa dikumi ne muibidi.",
+        "Disungula edi didi dienzeka mu mushindu wa muyuki wa bantu bonso wa mu GitHub mu tshilaminu tshia malu a mbulamatadi tshia IATF, nunku bakandida, divota, ne bipeta bionso bidi mu mikanda ya bantu bonso."
+      ]
+    },
+    "continuity": {
+      "title": "Ditungunuka",
+      "paragraphs": [
+        "Bikalaku kakuyi masungula mu tshidimu kampanda, mulombodi wa mpindieu udi utungunuka ne mudimu wende too ne ku masungula adi alonda.",
+        "Mulombodi udi mua kulekela mudimu wende dîba dionso, ne balami badi benza mudimu badi kabidi mua kubikila bantu bua kuenza masungula a pa buawu bua bualu kampanda budibu baleje, bilondeshile mikenji ya muomumue ne ya masungula adi enzeka ku tshidimu tshionso."
+      ]
+    },
+    "current": {
+      "title": "Mulombodi wa mpindieu",
+      "fields": [
+        {
+          "label": "Kabadi",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tshikondo",
+          "value": "Too ne ku disungula dia mu ngondo wa dikumi ne muibidi mu tshidimu tshia 2026"
+        },
+        {
+          "label": "Mudimu mujadika",
+          "value": "2026"
+        },
+        {
+          "label": "Disungula dia kumpala divuabu balongolole",
+          "value": "Ngondo wa dikumi ne umue wa 2026"
+        }
+      ]
+    },
+    "footnote": "Bakenza mudimu wa mulombodi mu tshidimu tshia 2026 bua kujadika mudimu wa kulombola bulongolodi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Malu adibu balongolole bua kuenza",
+      "paragraphs": [
+        "Mudimu eu udi wenza mudimu ne mishindu mikese ya mbulamatadi:"
+      ],
+      "items": [
+        "Dipangadika",
+        "Bakitaba",
+        "Malu adi enzeka",
+        "Malu adi enda ashintuluka",
+        "Badi bakeba muntu udi mua kubalama",
+        "Malu adi mu bizubu"
+      ],
+      "footnote": "Mbulamatadi eyi idi yenza bua mikanda ikale mipepele bua kuyitangila."
+    },
+    "reassignment": {
+      "title": "Difila tshiakabidi ne dilamina mu bintu bia kale",
+      "paragraphs": [
+        "Bikala muntu udi ulombola mudimu wa dilama bintu ulekela mudimu anyi kayi wenza mudimu, IATF udi mua kupingajila muntu mukuabu mudimu, kuimanyika dienza dia mudimu, anyi kubueja mudimu au mu bizubu.",
+        "Mudimu kampanda udi mua kujimina padi dijinga dia ku ntuadijilu dimane kukumbana, padibu balekela kuwulama anyi padibi kabiyi bikumbane bua kutungunuka ne kuwenza."
+      ],
+      "footnote": "Malu adibu balamina mu bintu bia kale adi anu mua kumueneka kudi bantu bonso, bikalaku kakuyi bualu bukuabu budi mua kupangisha bua kuenza nanku."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Diumvuija dia mikalu",
+      "title": "Malu adi IATF kayi mua kujadika"
+    },
+    "items": [
+      "Kufila bintu kudi muntu udi kayi muena ku Betele",
+      "Malu adibu bumvuangane bua mudimu",
+      "kuitaba dilomba dionso",
+      "Kuenza mudimu wa dilama bintu bua matuku a bungi bua mudimu wonso"
+    ],
+    "footnote": "IATF mmukanda wa bantu bonso, ki mbulamatadi to."
+  }
+}

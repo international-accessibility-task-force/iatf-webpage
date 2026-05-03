@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Diumvuija malu patoke",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Diumvuija malu patoke",
+    "lead": "Tshiena-bualu etshi tshidi tshileja muaba udi malu onso adibu bafunde ne mushindu wa kuabadika.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Malu adibu bafunde",
+      "title": "Muaba udi mikanda ya malu a kale misombele"
+    },
+    "items": [
+      "<strong>Dipangadika dia mudimu.</strong> Badi bafunda mapangadika adi atangila dianyisha, dilama mu bintu bia kale ne dia kupingaja bintu bidibu bapatule mu mikanda mu tshilaminu tshidibu balonda, ne badi bafunda mu tshikoso mu difunda dia mikanda dia bantu bonso. <a href=\"/projects/\">tshilaminu</a>Udi umvua bishi ?",
+      "<strong>Lomba mikanda.</strong> Mikanda ya malu adibu balomba bantu idi mu tshibambalu tshia IATF GitHub, mu site eu, anyi mu bionso bibidi. Mikanda eyi idi mua kumvuija mu tshikoso, kuakajilula anyi kuakaja mushindu wa dilomba dia ntuadijilu bua muntu ikale mua kukonkonona dijinga diende dia kuikala ne mushindu wa kupeta malu adiye kayi ne bualu bua kumanya.",
+      "<strong>Mikenji idi ishintuluka.</strong> Tshintu tshionso tshidibu bashintulula tshidi tshipatuka mu tshilaminu tshidi tshilonda. <a href=\"{{contact.githubOrgUrl}}\">Tshisumbu tshia GitHub</a>Udi umvua bishi ?",
+      "<strong>Dishintuluka dia malu a mbulamatadi.</strong> Badi balonda malu adibu bajadike mu dibeji dia malu a mbulamatadi padibu balua ku <code>site wa IATF</code> Tangila malu adi mu tshilaminu etshi. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">malu adibu bafunde</a> pa GitHub.",
+      "<strong>Malu a dienza nawu mudimu.</strong> IATF udi ushala ne mushinga mukese wa dienza mudimu ne udi ufunda malu adi enzeka misangu ne misangu adi atangila biamu bidi bantu benza nabi mudimu.",
+      "<strong>Malu adibu bafunde bua kudilongolola.</strong> Malu adibu bafunde mu dikonkonona anyi mu dipangadika didi dikumbanangane adi mu GitHub Discussions on the relevant repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Diyukidilangana</a> bua <code>site wa IATF</code> tshilaminu."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Malu adibu bakumbaje",
+      "title": "Mifundu idi yakula bua bipeta bia mudimu"
+    },
+    "paragraphs": [
+      "IATF udi ushala ne bibambalu biende bikese. Katshia mu tshidimu tshia 2022, makuta manene adibu bafuta bua kuenza mudimu adi atangila mêna a miaba (domain names).",
+      "Tshiena-bualu etshi ki ntshijadiki tshia malu a mpetu tshidibu bakonkonone to, kadi ntshibejibeji tshidi tshileja malu a mushinga adibu benza nawu mudimu bua kulama tshiamu tshidibu babikila ne: IATF ku Enternete."
+    ],
+    "footnote": "Badi mua kutangila malu adibu bafunde mu mikanda anyi kuapatula panyima pa bamane kuapingaja, kadi mêna a bantu, malu adi atangila difutu dia makuta ne malu adi kaayi ne mushinga a mu mikanda kayena mu mikanda ya bantu bonso to.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Mbulamatadi",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Mushinga",
+            "value": "Dolare ya États-Unis 3,40"
+          },
+          {
+            "label": "Malu adibu bambe",
+            "value": "Tshiena-bualu etshi tshivua tshifila makuta kudi mugiwarafx. Tshivua tshienza mudimu ne Cloudflare bua kufila bintu bia mushinga mukese anyi bia mushinga mukole. <code>iatf.cc</code> mbulamatadi."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Mbulamatadi",
+            "value": "<code>bantu ba pa buloba bujima badi mua kubuela mu site wa Taskforce.com</code>"
+          },
+          {
+            "label": "Mushinga",
+            "value": "Dolare 18,68 bua ditunga dia États-Unis"
+          },
+          {
+            "label": "Malu adibu bambe",
+            "value": "Tshintu tshidibu babikila ne: \"domain\" tshidibu bafuta kudi mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Mbulamatadi",
+            "value": "<code>bantu ba pa buloba bujima badi mua kubuela mu site wa Taskforce.com</code>"
+          },
+          {
+            "label": "Mushinga",
+            "value": "Dolare 17,06 bua ditunga dia États-Unis"
+          },
+          {
+            "label": "Malu adibu bambe",
+            "value": "Tshikuma tshienza kudi mugiwarafx. Tshisumbu tshienza mudimu ne bintu bia mushinga mukese ku diambuluisha dia Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Mbulamatadi",
+            "value": "<code>bantu ba pa buloba bujima badi mua kubuela mu site wa Taskforce.com</code>"
+          },
+          {
+            "label": "Mushinga",
+            "value": "Dolare 14,76 bua ditunga dia États-Unis"
+          },
+          {
+            "label": "Malu adibu bambe",
+            "value": "Tshintu tshidibu babikila ne: \"domain\" tshidibu bafuta kudi mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Mbulamatadi",
+            "value": "<code>bantu ba pa buloba bujima badi mua kubuela mu site wa Taskforce.com</code>"
+          },
+          {
+            "label": "Mushinga",
+            "value": "Dolare ya mu États-Unis 7,76"
+          },
+          {
+            "label": "Malu adibu bambe",
+            "value": "Tshikebelu tshia site tshienza ne makuta a mugiwarafx. Hosting uvua wenza mudimu ne biamu bia mushinga mukese anyi bia mushinga mutekete ku diambuluisha dia GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Diumvuija dia mikalu",
+      "title": "Malu adi kaayi a bantu bonso"
+    },
+    "paragraphs": [
+      "Bimue bintu kabitu bibuela mu mikanda ya bantu bonso bua:"
+    ],
+    "items": [
+      "Malu adi atangila bantu badi balomba bua kuenza mudimu eu.",
+      "Mikanda idibu bafundila muntu pa nkayende idibu benza nayi mudimu anu bua kumvuija bimpe bualu budibu balombe kumpala kua kubuitaba, kububenga anyi kubuumvuija mu tshikoso.",
+      "Adrese ya muntu nkayende, nimero ya telefone ne malu adi kaayi ne mushinga.",
+      "Tshintu tshionso tshidi mua kuleja muntu udi wenza mudimu ne biamu bidi biambuluisha kadiyi ne dianyisha diende.",
+      "Diyukidilangana dia Raw Discord, anu bikala mukenji kampanda musunguluke muye mu difunda dia mudimu wa bantu bonso ku bukole."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bala malu makuabu",
+      "title": "Mbulamatadi ke udi ulombola malu aa"
+    },
+    "paragraphs": [
+      "Wewe musue kumanya mudibu bitaba midimu, bayibaka anyi bayipingaja, bala dibeji dia malu a mbulamatadi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

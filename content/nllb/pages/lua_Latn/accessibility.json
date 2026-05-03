@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Kuikalaku",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Kuikalaku",
+    "lead": "IATF idi ne tshipatshila tshia kuenza bua site eu ikale mupepele, mupepele bua kubala, muntu udi mua kumubala anu ku biamu, ne ikale umvuangana ne biamu bidi biambuluisha.",
+    "support": [
+      "Bua bantu kufikabu ku Enternete, IATF udi wenza mudimu ne: [W3C WAI](https://www.w3.org/WAI/) Malu adi bantu badi benza mudimu ne biamu bia diambuluishangana bapeta adi kabidi aleja mudibi mua kuenzeka."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Difila luapolo",
+      "title": "Kufila luapolo lua tshilumbu tshia mushindu wa kupeta mikanda"
+    },
+    "paragraphs": [
+      "Wewe mupete bualu kampanda budi bukupangisha bua kubuela mu site eu, utuambile ku Enternete:",
+      "{{contact.accessibilityEmail}}",
+      "Mu miyuki idi mua kukuambuluisha mudi eyi:"
+    ],
+    "items": [
+      "dibeji didi bualu buenzeke",
+      "tshiuvua ukeba kuenza",
+      "tshiamu tshiudi wenza natshi mudimu, navigateur anyi tshiamu, bikalabi ne mushinga",
+      "Tshiakanyanguka ntshinyi?",
+      "tshivua mua kuikala tshibambuluishe"
+    ],
+    "footnote": "Kuena ne bua kufunda luapolo lua bilema to."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Dienza mudimu ne bintu",
+      "title": "Diyukidilangana ne malu adi atangila bantu bonso"
+    },
+    "paragraphs": [
+      "Badi mua kumvuija mu tshikoso malu adi atangila mushindu wa kupeta mikanda mu tshilaminu tshia mikanda tshia bantu bonso bua ikalebu mua kuyilongolola patoke. Badi bumbusha malu a muntu nkayende ne malu adi kaayi ne mushinga kumpala kua kuapatulabu.",
+      "Bikala luapolo luebe luikale ne malu a muntu nkayende, umuleje patoke mu mesaje."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Malu adi enzeka lelu",
+      "title": "Malu adibu kabayi bamanye"
+    },
+    "paragraphs": [
+      "Tshiena-bualu etshi ntshienza ku bukole bua kuikala tshipiatshipia ne katshiena tshishintuluka to."
+    ]
+  }
+}

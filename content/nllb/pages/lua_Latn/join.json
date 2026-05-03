@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Buela mu tshibambalu tshia IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Buela mu tshibambalu tshia IATF",
+    "lead": "Kudi mishindu ya bungi ya kubuelamu, nansha wewe wenza mudimu ne biamu bidi biambuluisha bua kukuatshisha bakuabu, wenza programe udi bantu mua kupeta, ukudimuna, kuteta, anyi kulama mudimu kampanda. Diyukidilangana ne mapangadika bidi bienzeka patoke mu GitHub ne mu Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Midimu",
+      "title": "Mishindu ya kufila mapa"
+    },
+    "items": [
+      "<strong>Lomba mudimu.</strong> Wewe mupete bualu budi mua kukupangisha bua kubuela mu programe udi bantu bonso mua kubala, utume dilomba edi ku Enternete.",
+      "<strong>Diteta ne dikonkonona.</strong> Teta midimu ya IATF ne biamu bidi biambuluisha biudi wenza nabi mudimu, umanyisha tshidi tshienza ne tshidi katshiyi tshienza, ne umanyishe malu adi atangila tshilumbu atshi buludiludi mu tshilaminu tshidi tshikutangila.",
+      "<strong>Ukudimune.</strong> Mifundu ya ntuadijilu idibu bapatula kumpala mu muakulu wa Anglais, ne badi bayikudimuna padibu bapeta bantu badi benza nayi mudimu, kutuadijila ku wa tshiena Espagne.",
+      "<strong>Kuibaka.</strong> Ambula malu adi mu tshilaminu tshionso tshia mikanda tshia IATF, utume malu adibu balomba bua kupatula (pull requests), anyi wangate mudimu kampanda bu muenji wa mudimu udi ne bujitu buawu.",
+      "<strong>Tungunukayi.</strong> Imue misangu, midimu idibu benza idi ilomba muntu mukuabu bua kuyilombola."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mishindu ya kuyisha",
+      "title": "Muaba udi tshibambalu tshia IATF tshienza mudimu kumpala kua bantu"
+    },
+    "items": [
+      "<strong>GitHub: muaba udi bantu ba bungi basombele.</strong> Biena-bualu, dilomba bua kupatula bintu, dipatula mikanda, ne mikanda ya malu a mudimu.",
+      "<strong>Dishilangana.</strong> Diyukidilangana dimpe, diumvuangana ne nkonko idi kayiyi ya tshianana.",
+      "<strong>Difundila ku Enternete.</strong> Dienza mudimu <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> bikala nansha GitHub nansha Discord kabiyi bipetangana to."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bualu budi bulonda",
+      "title": "Sungula njila udi upetangana ne mushindu uudi musue kufila"
+    },
+    "paragraphs": [
+      "Biamu bionso ebi bidi bibuela mu tshiamu tshimue tshimue tshia bantu bonso ne mu bintu biabu bia malu a bantu bonso."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

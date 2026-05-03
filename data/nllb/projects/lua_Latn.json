@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Muaba wa Enternete wa IATF",
+    "summary": "Site wa bantu bonso wa International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Tshisumbu tshia IATF tshivua dijinga ne nzubu wa bantu bonso udi umvuija bimpe tshilejilu etshi, utela midimu idibu benza, ne uleja bantu badi benza mudimu eu tshidibu ne bua kuenza.",
+    "why": "Site eu udi tshiibi tshia kumpala tshia bantu bonso tshia IATF. Bavua bamuibake bu mudimu mukese udi kawuyi ushintuluka bua ikale bipepele bua kubala, kukudimuna ne kulama muaba udi bantu bonso.",
+    "scopeIn": [
+      "Tshikebelu tshia bantu bonso tshidi tshiumvuija tshilejilu tshia IATF",
+      "Rejistre wa patoke wa midimu ya IATF idibu bitabe, idibu benza ne idibu balamina mu nzubu wa dilamina mikanda ne nsombelu, muntu udi uyilombola, muaba udibu balamina malu ne mushindu wa kuleja (demo)",
+      "Tshiena-bualu tshia dilomba ne dibeji dia dilomba",
+      "Tshitupa tshia malu a mbulamatadi ne malu adi amueneka patoke",
+      "Tshimfuanyi tshia mu Anglais tshidibu balongolole bua kukudimuna",
+      "Dienza mudimu ne Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Muaba wa muntu nkayende, malu adibu bafundamu, anyi malu adi afumina ku dibueja dia muntu mu ordinatere",
+      "Disangisha dia code source wa mudimu, udi musombele mu tshilaminu tshia mudimu wonso",
+      "Diyukidilangana mu dîba dilelela, didi disanganyibua mu dishilangana",
+      "Dilondangana dia biena-bualu bia midimu ya muntu ne muntu, bidi mu nzubu wa dilamina malu wa GitHub wa mudimu wonso"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Tshimfuanyi tshia kumpala tshia tshiamu tshia mvita tshia IATF tshivuabu bafile panyima pa difika muaba wa kuimana.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Dikebulula dia kumpala dia tshiamu tshia kuenza natshi mudimu tshidi tshitamba kuimanyina pa mushindu wa kupeta bintu mu bulongolodi bua tshibambalu tshidibu babikila ne: IATF.",
+    "why": "Badi balama muaba eu bua bantu bonso bamanye malu adibu benza, nansha mudibu kabayi benza mudimu eu to.",
+    "scopeIn": [
+      "Tshimfuanyi tshia ntuadijilu tshia tshiamu tshia kuenza natshi mudimu tshidi tshiakula bua mushindu wa kupeta bantu tshidibu balame mu mikanda ya bantu bonso"
+    ],
+    "scopeOut": [
+      "Mudimu wa dikudimuna anyi wa dienza malu",
+      "Malu adibu ne bua kuenza bua kufuta makuta a mêku",
+      "Mudibu balomba bua kuenza mudimu mu dienza dia bintu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot wa tshisumbu tshia bena IATF, mulamibue panyima pa yeye mumane kufika muaba wa kuimana.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kuenza mudimu ne biamu ku biamu bia tshisumbu tshia IATF.",
+    "why": "Badi balama muaba eu bua bantu bonso bamanye malu adibu benza, nansha mudibu kabayi benza mudimu eu to.",
+    "scopeIn": [
+      "Dienza mudimu ne biamu bia dishilangana pa bidi bitangila bibambalu bia tshisumbu tshia IATF, bidibu balame mu mikanda ya bantu bonso"
+    ],
+    "scopeOut": [
+      "Mudimu wa dikudimuna anyi wa dienza malu",
+      "Malu adibu ne bua kuenza bua kufuta makuta a mêku",
+      "Mudibu balomba bua kuenza mudimu mu dienza dia bintu"
+    ]
+  }
+]

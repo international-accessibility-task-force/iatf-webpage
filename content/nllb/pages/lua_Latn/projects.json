@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Midimu ya bantu bonso",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Midimu ya bantu bonso",
+    "lead": "Mu mukanda eu mudi liste wa midimu ya bantu bonso idibu balombola ku diambuluisha dia tshibambalu tshia IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Tshibejibeji",
+      "title": "Tshibejibeji tshidibu bafunda mpindieu"
+    },
+    "intro": [
+      "Mifundu idibu bitaba idi mu dibeji edi padibu bayipatula."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Umvuija dijinga diebe",
+      "title": "Kukudimuna dijinga dilelela dia kuikala ne mushindu wa kufika ku miaba idi bantu ba bungi"
+    },
+    "paragraphs": [
+      "IATF udi utangila majinga masunguluke adi atangila mushindu wa kupeta mikanda idi mua kulua mikanda idi bantu bonso mua kubala."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Kakuena mudimu udibu banji kupatula to",
+    "paragraphs": [
+      "Tshibambalu tshidibu babikila ne: IATF tshidi tshilongolola mudimu wabu wa kumpala bua bantu bonso.",
+      "Nansha nanku udi mua kutuma dilomba edi biwikala dijinga ne mushindu wa kufika ku muaba uudi uya."
+    ]
+  }
+}
