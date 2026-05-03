@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Kufikika",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Kufikika",
+    "lead": "IATF ikufuna kuti webusaitiyi ikhale yosavuta, yowerengeka, yopezeka ndi kiyibodi, komanso yogwirizana ndi matekinoloje othandizira.",
+    "support": [
+      "Kupezeka pa intaneti, IATF imagwiritsa ntchito [W3C WAI](https://www.w3.org/WAI/) Kufikira kwa machitidwe kumadziwikanso ndi zochitika zenizeni za ogwiritsa ntchito matekinoloje othandizira."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kupereka malipoti",
+      "title": "Lankhulani za vuto la kupezeka"
+    },
+    "paragraphs": [
+      "Ngati mupeza choletsa kupeza pa webusaitiyi, chonde lipoti izo ndi imelo:",
+      "{{contact.accessibilityEmail}}",
+      "Malipoti othandiza akuphatikizapo:"
+    ],
+    "items": [
+      "tsamba limene nkhaniyo inachitika",
+      "zimene munali kuyesa kuchita",
+      "luso lothandiza, msakatuli, kapena chipangizo chimene mukugwiritsa ntchito, ngati n'koyenera",
+      "Kodi chinalakwika n'chiyani?",
+      "zimene zikanathandiza"
+    ],
+    "footnote": "Simukufunikira kulemba lipoti la kachilombo. Kufotokoza momveka bwino n'kokwanira."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kusamalidwa",
+      "title": "Kusamalira nkhani za anthu onse"
+    },
+    "paragraphs": [
+      "Nkhani zopezeka zitha kufotokozedwa mwachidule m'malo osungira anthu kuti athe kuwongoleredwa poyera. Zambiri zamalumikizidwe ndi zosafunikira zachinsinsi zimachotsedwa zisanafalitsidwe.",
+      "Ngati lipoti lanu likuphatikizapo chidziŵitso chaumwini, nenani momveka bwino m'uthengawo."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Mmene zinthu zilili panopa",
+      "title": "Zofooka zodziŵika"
+    },
+    "paragraphs": [
+      "Tsambali mwadala ndi laling'ono ndipo makamaka lokhazikika. Mabaibulo ena azilankhulo atha kukhala osakwanira pomwe matembenuzidwe akukonzekera."
+    ]
+  }
+}

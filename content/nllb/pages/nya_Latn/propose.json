@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Pemphani polojekiti yopezeka mosavuta",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Pemphani polojekiti yopezeka mosavuta",
+    "lead": "IATF imayang'anitsitsa zopempha za polojekiti zopezeka zomwe zimachokera ku chosowa chenicheni.",
+    "support": [
+      "Simufunikanso kudziŵa zonse zokhudza vutoli, koma muyenera kungodziŵa kuti likukhudza ndani, ndiponso chifukwa chake ndi lofunika."
+    ],
+    "actions": [
+      {
+        "label": "Yambitsani pempho",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gwiritsani ntchito Discord m'malo mwake",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Zitsulo",
+      "title": "Sankhani njira yosavuta"
+    },
+    "intro": [
+      "Njira zonse zimaloŵa m'kufufuza kofanana."
+    ],
+    "items": [
+      {
+        "label": "Webusaiti",
+        "body": "Gwiritsani ntchito fomu ili m'munsiyi kuti mupereke pempho lokonzedwa bwino."
+      },
+      {
+        "label": "Imelo",
+        "body": "Tumizani pempho mwachindunji ku {{contact.requestsEmail}}. Mapempho amaimelo akhoza kukhala zolemba zofunsira pagulu atawunikiridwa ndi kusinthidwa."
+      },
+      {
+        "label": "Kusagwirizana",
+        "body": "Yambani pamenepo ngati zimenezo ziri zophweka. Pempho likuyendabe m'kulingalira kofananako."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Musanatumize pempho",
+    "paragraphs": [
+      "IATF imagwira ntchito pagulu. Zopempha zitha kufotokozedwa mwachidule ndikufalitsidwa ngati zolemba zofunsira pagulu mu bungwe la IATT GitHub, patsamba lino, kapena zonse ziwiri.",
+      "Musaphatikizepo maadiresi a anthu ena, manambala a foni, madokotala, kapena zinthu zina zokhudza munthu aliyense amene akugwiritsa ntchito zipangizo zothandizira, pokhapokha ngati n'zofunika ndiponso ngati simukuopa kuti bungwe la IATF lingafufuze nkhaniyo.",
+      "IATF imachotsa zinthu zosafunikira zokhudza munthuyo asanafalitse zolemba za pempho."
+    ]
+  },
+  "review": {
+    "title": "Ziyembekezo za Kupenda",
+    "paragraphs": [
+      "Kupereka pempho sikutanthauza kuti lidzalandiridwa.",
+      "IATF imayang'ana zopempha za ntchito yoyenera, kuthekera, phindu, komanso ngati ntchitoyo ili m'malo osungira anthu.",
+      "Pempho lina lingakanidwe, kuimitsidwa, kapena kusinthidwa lisanavomerezedwe."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomu ya pempho",
+      "title": "Tumizani pempho"
+    },
+    "fields": [
+      {
+        "kind": "kulowetsa",
+        "name": "wopempha",
+        "label": "Dzina lanu kapena gulu lanu",
+        "helper": "Kodi ndani amene akupempha zimenezi?"
+      },
+      {
+        "kind": "sankhani",
+        "name": "KuyankhulanaNjira",
+        "label": "Njira yabwino yolankhulirana",
+        "helper": "Kodi kutsatirako kuyenera kuchitika motani?",
+        "required": true,
+        "options": [
+          "Imelo",
+          "Kusagwirizana"
+        ]
+      },
+      {
+        "kind": "kulowetsa",
+        "name": "KuyankhulanaZambiri",
+        "label": "Zambiri zokhudza munthu amene mungakumane naye",
+        "helper": "Adilesi ya Imelo kapena dzina la Discord kuti mulandire.",
+        "placeholder": "Adilesi ya Imelo kapena dzina la Discord",
+        "required": true
+      },
+      {
+        "kind": "kulowetsa",
+        "name": "chinenero",
+        "label": "Chilankhulo",
+        "helper": "Chilankhulo chimene mumakonda, ngati chili chofunika.",
+        "value": "Chingelezi"
+      },
+      {
+        "kind": "malo olembedwa",
+        "name": "vuto",
+        "label": "Kodi mukufuna kuthetsa vuto lotani?",
+        "helper": "Fotokozani vutoli m'mawu osavuta kumva.",
+        "required": true
+      },
+      {
+        "kind": "malo olembedwa",
+        "name": "Ogwiritsa ntchito okhudzidwa",
+        "label": "Kodi ndani amene amakhudzidwa?",
+        "helper": "Kodi zimenezi zingathandize ndani?",
+        "required": true
+      },
+      {
+        "kind": "malo olembedwa",
+        "name": "nkhani yotsatira",
+        "label": "Mkhalidwe wowonjezera",
+        "helper": "Gawani china chirichonse chimene chimathandiza kufotokoza kufunika: chifukwa chake kuli kofunika, zitsanzo, maumboni, lingaliro la mapulogalamu, kapena zoletsa za nthaŵi."
+      },
+      {
+        "kind": "sankhani",
+        "name": "openSourceConsent",
+        "label": "Kodi mumakhala omasuka ndi chitukuko cha magwero otseguka a anthu onse?",
+        "helper": "Mapulojekiti ovomerezeka ndi malo osungira anthu pansi pa IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Inde ndi choncho.",
+          "Ayi ndithu",
+          "Sindikudziŵa bwinobwino"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ngati avomerezedwa",
+      "title": "Zimene kuvomerezedwa kumatanthauza"
+    },
+    "items": [
+      "malo osungira anthu onse m'bungwe la IATF GitHub",
+      "injiniya woyang'anira amene wapatsidwa ntchitoyo",
+      "layisensi ya copyleft ya code ndi zipangizo za polojekiti",
+      "chitukuko pagulu mu nkhokwe",
+      "Kulembetsa m'kaundula pa tsamba la IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Yambani kukambirana nawo",
+      "title": "Pempho lalifupi ndi lomveka bwino n'lokwanira kuti muyambe"
+    },
+    "paragraphs": [
+      "Ngati muli ndi chosowa chenicheni cha kupezeka ndipo mukuganiza kuti chiyenera kukhala polojekiti yapagulu, titumizireni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

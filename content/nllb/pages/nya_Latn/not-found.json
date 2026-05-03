@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Sanapezeke"
+  },
+  "hero": {
+    "eyebrow": "Sanapezeke",
+    "title": "Tsamba lofunsidwa silinapezeke",
+    "lead": "Gwiritsani ntchito misewu ikuluikulu ili m'munsiyi kubwerera ku malo a anthu onse.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Kunyumba",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Njira imene mwapempha kulibe."
+    ],
+    "items": [
+      {
+        "label": "Kunyumba",
+        "href": "/"
+      },
+      {
+        "label": "Mapulojekiti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Lowani nawo",
+        "href": "/join/"
+      },
+      {
+        "label": "Kufikika",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ulamuliro",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kuonetsetsa Kuti Zinthu Zikuyenda Bwino",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

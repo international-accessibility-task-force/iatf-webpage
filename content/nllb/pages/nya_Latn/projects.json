@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Ntchito zopezeka kwa anthu onse",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Ntchito zopezeka kwa anthu onse",
+    "lead": "Kulembetsa kumeneku kumatchula mapulojekiti a anthu omwe amasungidwa kudzera mu IATF. Ntchito zovomerezeka, zomangamanga, ndi zolemba zakale zimasungidwa pano.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kulembetsa",
+      "title": "Kulembetsa kwaposachedwa"
+    },
+    "intro": [
+      "Mapulojekiti ovomerezeka alembedwa pano akangofalitsidwa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Tumizani pempho",
+      "title": "Sinthani zosoŵa zenizeni za kupezeka kukhala polojekiti ya anthu onse"
+    },
+    "paragraphs": [
+      "IATF imayang'ana zofunikira zenizeni zopezeka zomwe zitha kusinthidwa kukhala ntchito yothandiza pagulu lotseguka."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Palibe mapulojekiti ofalitsidwabe",
+    "paragraphs": [
+      "IATF ikukonzekera polojekiti yake yoyamba.",
+      "Mungathebe kutumiza pempho ngati muli ndi zosowa zenizeni zopezeka."
+    ]
+  }
+}

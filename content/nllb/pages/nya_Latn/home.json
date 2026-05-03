@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kufunika kokhala ndi mwayi wopezeka m'mabanki a anthu onse",
+    "lead": "IATF imathandiza mabungwe, magulu, ndi anthu ena kutembenuza zosowa zenizeni zopezeka kukhala ntchito zotseguka pagulu.",
+    "support": [
+      "Mapulojekiti ovomerezeka amafalitsidwa mu bungwe la IATF GitHub pansi pa layisensi ya copyleft ndipo amapangidwa pagulu ndi mainjiniya oyang'anira."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mtundu wa kayendetsedwe ka boma",
+      "title": "Njira yosavuta yopezera mapulogalamu ofikirika"
+    },
+    "paragraphs": [
+      "Kupyolera mu mawonekedwe, aliyense akhoza kutumiza vuto la kupezeka kwa IATF. Ngati gulu likhoza kutenga izo, malo osungirako anthu a GitHub amatsegulidwa kuti agwire ntchito.",
+      "Ntchito iliyonse yovomerezeka ili ndi malo omveka bwino a code, nkhani, zolemba, ndi kumasulidwa, ndi chitukuko chotsogoleredwa poyera ndi injiniya wodalirika."
+    ],
+    "specCard": {
+      "title": "Mtundu wa kayendetsedwe ka boma",
+      "terms": [
+        {
+          "term": "Kufunika",
+          "definition": "Vuto lenileni la kupezeka"
+        },
+        {
+          "term": "Kupenda",
+          "definition": "Kuyenerera kwa ntchito ndi kuthekera kwa ntchito"
+        },
+        {
+          "term": "Malo a polojekiti",
+          "definition": "Malo osungira anthu onse a GitHub"
+        },
+        {
+          "term": "Udindo wa Woyang'anira",
+          "definition": "Umwini wa bungwe la IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Zochitika",
+      "title": "Mmene imagwirira ntchito",
+      "intro": "Chitsanzocho chimakhala chaching'ono mwadala kotero kuti njira ya onse ikhale yosavuta kutsatira."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Pempho laperekedwa",
+        "paragraphs": [
+          "Bungwe, gulu, kapena munthu aliyense payekha angapereke pempho lozikidwa pa chosoŵa chenicheni cha kupezeka.",
+          "Zopempha zingayambe kudzera pa webusaitiyi, kudzera pa imelo ku <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kapena kupyolera mu Kusagwirizana."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF imayang'ananso",
+        "paragraphs": [
+          "Timayang'ananso ngati ntchitoyo ikugwirizana ndi cholinga chake, ngati ndi yothandiza, ndiponso ngati ndi ya pulojekiti yotseguka."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Malo osungirako anthu onse akupangidwa",
+        "paragraphs": [
+          "Ngati polojekiti ikuvomerezedwa, imafalitsidwa mu bungwe la IATF GitHub pansi pa layisensi ya copyleft.",
+          "Malo osungirako zinthu amakhala malo a anthu onse a code, nkhani, zolemba, ndi kumasulidwa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Katswiri wa zomangamanga ndi amene amayang'anira ntchitoyo",
+        "paragraphs": [
+          "Katswiri wa zomangamanga amapatsidwa ntchito yosunga zinthu za polojekitiyo ndipo ntchitoyo imachitika pagulu."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kulembetsa",
+      "title": "Kaundula wa polojekiti ya anthu onse"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Yambani apa",
+      "title": "Fufuzani ntchito yapano kapena yambani polojekiti yeniyeni"
+    },
+    "paragraphs": [
+      "Gwiritsani ntchito kaundula kuti muwone zomwe zilipo kale, kapena yambani kudya ngati vuto lenileni la kupezeka liyenera kukhala polojekiti."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

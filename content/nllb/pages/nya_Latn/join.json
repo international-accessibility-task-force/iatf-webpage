@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Lowani ndi IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Lowani ndi IATF",
+    "lead": "Umembala ndi wotseguka. Pali njira zingapo zotenga nawo mbali, kaya mumadalira ukadaulo wothandizira, kupanga pulogalamu yopezeka, kumasulira, kuyesa, kapena kukonza ntchito. Zokambirana ndi zisankho zimachitika pagulu pa GitHub ndi Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Maudindo",
+      "title": "Njira zimene mungathandizire"
+    },
+    "items": [
+      "<strong>Pemphani polojekiti.</strong> Ngati mwakumana ndi chotchinga cha kupezeka chimene chingagwiritsiridwe ntchito ndi mapulogalamu otseguka a anthu onse, chitumizeni kupyolera mu kuitanitsa pempho.",
+      "<strong>Yesani ndi kuonanso.</strong> Yesani mapulojekiti a IATF ndi matekinoloje othandizira omwe mumagwiritsa ntchito, nenani zomwe zikugwira ntchito ndi zomwe sizigwira ntchito, ndipo lembani zovuta mwachindunji pa nkhokwe yoyenera.",
+      "<strong>Tanthauzirani.</strong> Zolemba zoyambirira zimasindikizidwa m'Chingelezi choyamba. Kutanthauzira kumawonjezeredwa monga othandizira alipo, kuyambira ndi Chisipanishi.",
+      "<strong>Kumanga.</strong> Tengani nkhani mu nkhokwe iliyonse ya IATF, tumizani zopempha zokoka, kapena tengani polojekiti monga injiniya wake woyang'anira.",
+      "<strong>Khalani ndi moyo.</strong> Mapulojekiti amene alipo kale nthaŵi zina amafunikira wosamalira watsopano. Kusinthasintha kwa wosamalira ndi mbali yachibadwa ya chitsanzocho, osati zosiyana."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Zitsulo",
+      "title": "Kumene IATF imagwira ntchito pagulu"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Nkhani, kukoka zopempha, kumasulidwa, ndi mbiri polojekiti.",
+      "<strong>Kusemphana maganizo.</strong> Kukambitsirana mwachindunji, kugwirizanitsa, ndi mafunso achisawawa.",
+      "<strong>Tumizani imelo.</strong> Gwiritsani ntchito <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ngati GitHub kapena Discord sizikugwirizana."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Gawo Lotsatira",
+      "title": "Sankhani njira yomwe ikugwirizana ndi momwe mukufuna kuthandizira"
+    },
+    "paragraphs": [
+      "Njira zonse zimadyetsa kuwunika komweko kwa anthu ndi malo osungira anthu omwewo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Mndandanda wa Zinthu",
+    "title": "Sitemap",
+    "lead": "Tsamba lililonse la anthu onse pa iatf.cc, pamalo amodzi."
+  },
+  "sections": [
+    {
+      "title": "Masamba akuluakulu",
+      "items": [
+        {
+          "label": "Kunyumba",
+          "href": "/"
+        },
+        {
+          "label": "Mapulojekiti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Pemphani polojekiti",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ulamuliro",
+          "href": "/governance/"
+        },
+        {
+          "label": "Lowani nawo",
+          "href": "/join/"
+        },
+        {
+          "label": "Kufikika",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kuonetsetsa Kuti Zinthu Zikuyenda Bwino",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Mapulojekiti",
+  "projectsEmpty": "Palibe mapulojekiti ofalitsidwabe."
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Kuonetsetsa Kuti Zinthu Zikuyenda Bwino",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Kuonetsetsa Kuti Zinthu Zikuyenda Bwino",
+    "lead": "IATF ntchito poyera ndi kusakhulupirika. zisankho Project, kusintha malamulo, kusintha kayendetsedwe, ndi ndalama opaleshoni zalembedwa mu malo onse. tsamba lino limatchula kumene mtundu uliwonse wa mbiri amakhala ndi mmene kuwerenga izo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Zolemba",
+      "title": "Kumene kuli zolembedwazo"
+    },
+    "items": [
+      "<strong>Zosankha za polojekiti.</strong> Zosankha za kuvomereza, kusungidwa, ndi kusinthidwa zimalembedwa ngati nkhani kapena kumasulidwa mu nkhokwe yoyenera, ndi kufotokozedwa mwachidule m'kaundula wa anthu. <a href=\"/projects/\">m'kaundula</a>Ndilibe nazo ntchito .",
+      "<strong>Pemphani zolemba.</strong> Zolemba zofunsidwa pagulu zimasungidwa mu bungwe la IATF GitHub, patsamba lino, kapena zonse ziwiri. Zolemba zitha kufotokozera mwachidule, kukonza, kapena kukonzanso pempho loyambirira kuti zosowa zopezeka zitha kuwunikiridwa popanda kuwulula zosafunikira zaumwini. Zosankha zosagwirizana zimafotokozedwa mwachidule m'mbiri yapagulu zikakhudza polojekiti kapena chigamulo cha kayendetsedwe ka zinthu. Zolembera zopempha siziphatikizidwa ndi makina osakira pomwe zili zotheka mwaukadaulo. Onani zolemba: Pempho loyamba lofalitsa likuyembekezeka.",
+      "<strong>Kusintha kwa malamulo.</strong> Kusintha kulikonse kwa code ndi kudzipereka kwa anthu onse pa malo osungirako ofunikira. Onani IATF <a href=\"{{contact.githubOrgUrl}}\">Gulu la GitHub</a>Ndilibe nazo ntchito .",
+      "<strong>Kusintha kwa kayendetsedwe ka zinthu.</strong> Zosintha pa tsamba la kayendetsedwe ka kayendedwe zimatsatiridwa ngati zikugwirizana ndi <code>webusaiti ya IATF</code> Onani malo osungirako zinthu. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">pangani mbiriyakale</a> pa GitHub.",
+      "<strong>Ndalama zogwirira ntchito.</strong> IATF imasunga ndalama zoyendetsera ntchito ndipo imalemba ndalama zomwe zimagwiritsidwa ntchito mobwerezabwereza. Kuyambira 2022, ndalama zazikuluzikulu zomwe zakhala zikugwiritsidwa ntchito ndi mayina amtundu. Kusunga kwakhala ndikugwiritsa ntchito zomangamanga zaulere kapena zotsika mtengo ngati kuli kotheka. Onani mbiri ya ndalama zomwe zikugwira ntchito pansipa.",
+      "<strong>Zolemba za kugwirizanitsa.</strong> Zindikirani kuchokera ku ndemanga iliyonse yolumikizidwa kapena chisankho chamoyo mu GitHub Zokambirana pa malo osungirako  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Zokambirana</a> pa <code>webusaiti ya IATF</code> malo osungiramo zinthu."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Mtengo",
+      "title": "Kaundula wa ndalama zogwirira ntchito"
+    },
+    "paragraphs": [
+      "IATF imasunga zomangamanga zake pagulu mwadala pang'ono. Kuyambira 2022, ndalama zazikuluzikulu zogwirira ntchito zakhala mayina amtundu.",
+      "Lipoti limeneli si lipoti la zachuma lofufuzidwa ndi oyang'anira, koma ndi lipoti la mtengo wogwiritsira ntchito ntchito zogwirira ntchito zomwe zimagwiritsidwa ntchito kuti IATF ikhale pa intaneti."
+    ],
+    "footnote": "Ma risiti angagwiritsidwe ntchito kapena kufalitsidwa pambuyo polemba. Maadiresi aumwini, tsatanetsatane wa zolipiritsa, ndi chidziwitso cha akaunti zosafunikira sizili mbali ya mbiri ya anthu.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Ulamuliro",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Mtengo",
+            "value": "Ndalama za ku United States zokwana madola 3.40"
+          },
+          {
+            "label": "Zindikirani",
+            "value": "Domain mtengo ndalama ndi mugiwarafx. kuchititsa ntchito ufulu wosanjikiza kapena otsika mtengo zomangamanga kudzera Cloudflare. <code>iatf.cc</code> m'dzikoli."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Ulamuliro",
+            "value": "<code>Kufikika Padziko Lonse la Taskforce.com</code>"
+          },
+          {
+            "label": "Mtengo",
+            "value": "Ndalama za ku United States zokwana madola 18.68"
+          },
+          {
+            "label": "Zindikirani",
+            "value": "Domain mtengo ndalama ndi mugiwarafx. kuchititsa ntchito ufulu wosanjikiza kapena otsika mtengo zomangamanga."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Ulamuliro",
+            "value": "<code>Kufikika Padziko Lonse la Taskforce.com</code>"
+          },
+          {
+            "label": "Mtengo",
+            "value": "Ndalama za ku United States zokwana madola 17.06"
+          },
+          {
+            "label": "Zindikirani",
+            "value": "Domain mtengo ndalama ndi mugiwarafx. kuchititsa ntchito ufulu wosanjikiza kapena otsika mtengo zomangamanga kudzera Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Ulamuliro",
+            "value": "<code>Kufikika Padziko Lonse la Taskforce.com</code>"
+          },
+          {
+            "label": "Mtengo",
+            "value": "Ndalama za ku United States zokwana madola 14.76"
+          },
+          {
+            "label": "Zindikirani",
+            "value": "Domain mtengo ndalama ndi mugiwarafx. kuchititsa ntchito ufulu wosanjikiza kapena otsika mtengo zomangamanga."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Ulamuliro",
+            "value": "<code>Kufikika Padziko Lonse la Taskforce.com</code>"
+          },
+          {
+            "label": "Mtengo",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Zindikirani",
+            "value": "Domain mtengo ndalama ndi mugiwarafx. kuchititsa ntchito ufulu wosanjikiza kapena otsika mtengo zomangamanga kudzera GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Mfundo ya m'malire",
+      "title": "Zimene si za anthu onse"
+    },
+    "paragraphs": [
+      "Zinthu zina sizimasungidwa m'mabuku a boma ndi cholinga chakuti:"
+    ],
+    "items": [
+      "Zambiri zokhudza anthu amene akufuna kulemba ntchito.",
+      "Makalata achinsinsi ogwiritsiridwa ntchito kokha kumveketsa pempho lisanavomerezedwe, kukanidwa, kapena kufupikitsidwa.",
+      "Maadiresi achinsinsi, manambala a telefoni, ndi mfundo zaumwini zosafunikira.",
+      "Chilichonse chimene chingazindikiritse munthu wogwiritsa ntchito zipangizo zamakono popanda chilolezo.",
+      "Zokambirana za Raw Discord, pokhapokha ngati uthenga winawake wasunthidwa mwadala kukhala mbiri ya projekiti yapagulu."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Werengani zambiri",
+      "title": "Ulamuliro ndiwo buku la malamulo kumbuyo kwa zolembedwa zimenezi"
+    },
+    "paragraphs": [
+      "Ngati mukufuna kumvetsa mmene mapulojekiti amavomerezedwa, kusungidwa, kapena kuperekedwa, werengani tsamba la kayendetsedwe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

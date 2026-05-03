@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Ulamuliro ndi malo osungira zinthu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Ulamuliro ndi malo osungira zinthu",
+    "lead": "IATF imasunga mapulojekiti opezeka pagulu, owerengeka, ndi osamalika.",
+    "support": [
+      "Tsambali limalongosola zomwe zimavomerezedwa, momwe malo osungiramo zinthu amasungidwira, ndi maudindo ati omwe amagwiritsidwa ntchito pambuyo povomereza."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Malamulo",
+      "title": "Kuyenerera kwa ntchito, umwini, chilolezo"
+    },
+    "cards": [
+      {
+        "title": "Kuyenerera kwa ntchito",
+        "paragraphs": [
+          "IATF imavomereza ntchito yomwe imayang'ana zopinga zenizeni zopezeka ndipo ili ndi phindu lowonekera pagulu.",
+          "Ntchito ayenera kukhala zothandiza kupitirira limodzi payekha workflow ndi workable monga malo ogulitsira pagulu.",
+          "Kupezeka pa intaneti, IATF imagwiritsa ntchito [W3C WAI](https://www.w3.org/WAI/) Zochitika zenizeni za ogwiritsa ntchito matekinoloje othandizira ndi umboni weniweni wa zomwe zimagwira ntchito zenizeni."
+        ]
+      },
+      {
+        "title": "Kuvomerezedwa kwa polojekiti",
+        "paragraphs": [
+          "Pempho lingavomerezedwe pamene kufufuza kukuwonetsa kuti:"
+        ],
+        "items": [
+          "chimakwaniritsa zosoŵa zenizeni za kupezeka kwa zinthu",
+          "Vutoli n'loonekeratu moti n'zotheka kulithetsa",
+          "m'lifupi ndi zenizeni mokwanira kukhazikitsa",
+          "ntchitoyo ikugwirizana ndi ntchito ya IATF",
+          "pali njira yodalirika yokonzera kapena kumaliza"
+        ]
+      },
+      {
+        "title": "Umwini wa malo osungirako zinthu",
+        "paragraphs": [
+          "Ntchito zovomerezeka zimapangidwa pansi pa bungwe la IATF GitHub.",
+          "Malo osungiramo zinthu amakhala kumeneko kotero kuti ntchito iliyonse imasunga nyumba yaboma yokhazikika, ngakhale ngati osamalira amasintha pambuyo pake."
+        ]
+      },
+      {
+        "title": "Kupereka zilolezo",
+        "paragraphs": [
+          "Mapulojekiti a IATF amagwiritsa ntchito chilolezo cha copyleft pokhapokha ngati polojekitiyo ikunena zina:"
+        ],
+        "items": [
+          "<strong>Makhalidwe:</strong> AGPL-3.0",
+          "<strong>Zolemba:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Katswiri wa zomangamanga kapena wogwira ntchito yokonza zinthu",
+      "paragraphs": [
+        "Pulojekiti iliyonse yovomerezeka iyenera kukhala ndi injiniya woyang'anira kapena wosamalira. Munthu ameneyo akhoza kulandira mwayi wothandizira ku malo osungirako zinthu ndipo akuyembekezeredwa kuti:"
+      ],
+      "items": [
+        "chitsogozo chitukuko mu anthu",
+        "sungani nyumba yosungiramo zinthu",
+        "kubwereza kapena kusamalira nkhani ndi kukoka zopempha",
+        "kulemba zosankha zofunika zaumisiri",
+        "kuonetsetsa kuti ena akumvetsa bwino ntchitoyo"
+      ],
+      "footnote": "Izi ndi udindo yosungirako mlingo. bungwe umwini amakhala ndi IATF. Udindo pano ndi yosungiramo stewardship, malangizo luso, ndi kugwirizana pagulu  osati zopanda malire yobereka payekha, kusakanikirana mwambo, kapena utumiki mlingo kudzipereka kunja mapu poyera."
+    },
+    "publicDevelopment": {
+      "title": "Kukula kwa anthu",
+      "paragraphs": [
+        "Mapulojekiti oyambitsidwa kudzera mu IATF amapangidwa pagulu mwachisawawa."
+      ],
+      "items": [
+        "kachidindo gwero",
+        "nkhani",
+        "zolembedwa",
+        "zolemba za mapu a msewu",
+        "kumasulidwa mbiri"
+      ],
+      "footnote": "Chidziŵitso chofunika cha polojekiti sichiyenera kukhala m'makambitsirano achinsinsi kapena m'mabokosi a makalata."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Zolemba za anthu onse",
+      "title": "Zolemba za pempho la anthu onse"
+    },
+    "paragraphs": [
+      "IATF amagwira ntchito pagulu mwachisawawa. zopempha kuti kulowa IAT F kudzera webusaiti, imelo, Discord, GitHub, kapena njira zina IATf angakhale zolemba zopempha pagulu.",
+      "IATF ikhoza kufotokozera mwachidule, kukonza, kapena kukonzanso pempho lisanafalitsidwe kuti zosowa zopezeka zitha kuwunikiridwa popanda kuwulula zidziwitso zosafunikira.",
+      "Zolemba zofunsidwa pagulu zitha kusungidwa mu bungwe la IATF GitHub, patsamba lino, kapena zonse ziwiri.",
+      "Asanafalitse, IATF imachotsa zosafunikira zaumwini, ma adilesi achinsinsi, ndi zidziwitso za ogwiritsa ntchito matekinoloje othandizira pokhapokha ngati kufalitsa kuli koyenera komanso koyenera.",
+      "Kusagwirizana amagwiritsidwa ntchito kwa mgwirizano wosavomerezeka. IATF si payekha Archive kusagwirizana kukambirana ndi kusakhulupirika, ndi uthenga posungira umalamulidwa ndi kusagwirizanako. Zosankha anapanga mu kusamvana ayenera mwachidule mu mbiri pagulu pa GitHub kapena pa tsamba zogwirizana polojekiti.",
+      "Zolemba zopempha sizikuphatikizidwa mu injini zosakira pomwe ndizovomerezeka mwaukadaulo. Anthu onse amatanthauza kuwunikiridwa ndi kuyankha. Sizitanthauza kukhathamiritsidwa kuti mupeze kudzera pakusaka mayina.",
+      "IATF ikhoza kusintha kapena kuchotsa zolemba kuchokera kumalo omwe amawongoleredwa ndi iATF, koma sangatsimikizire kuchotsedwa kwa ma caches a chipani chachitatu, zidziwitso, mafoloko, zithunzi, makina osakira, Discord, kapena machitidwe ena akunja.",
+      "Ngati uthenga uyenera kukhala wachinsinsi, musautumize kudzera pa njira za IATF za anthu onse."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Udindo wa gulu",
+      "title": "Mpando"
+    },
+    "lead": "Mpando ali bungwe mlingo stewardship wa IATF. Izi n'zosiyana ndi pa polojekiti udindo woyang'anira injiniya: mpando ndi udindo gulu lonse, osati tsiku ndi tsiku malangizo a aliyense nkhokwe limodzi.",
+    "duties": {
+      "title": "Zimene mpando umachita",
+      "items": [
+        "Imakhala ndi zilolezo za mwini pa bungwe la IATF GitHub",
+        "Kusayina pa kuvomereza kwa polojekiti ndi zosankha zosunga zakale",
+        "Amagwira ntchito ngati malo oyankhulirana ndi anthu onse a IATF",
+        "Akugwirizanitsa chisankho cha pachaka"
+      ],
+      "footnote": "Purezidenti satenga IATF kuti ipereke payekha, ntchito yolipidwa, kapena mapangano amtundu wautumiki, ndipo samayang'anira zosankha za woyang'anira nkhokwe iliyonse pazitsogozo zaukadaulo."
+    },
+    "election": {
+      "title": "Kusankhidwa kwapachaka",
+      "paragraphs": [
+        "Wapampando amasankhidwa kamodzi pachaka. Kusankhidwa kumachitika m'masabata awiri oyamba a Disembala, zotsatira zimalengezedwa pofika pa Disembala 15, ndipo nthawi yatsopano imayamba pa Januware 1.",
+        "Woyenerera kuvota ndi anthu amene anali ndi udindo woyang'anira pa malo aliwonse a IATF chaka chonse ndipo adapereka ndalama zosachepera chimodzi ku malo osungirako a I AT F chaka chimenecho. Wovota aliyense woyenerera ali ndi voti imodzi. Wosankhidwa ndi mavoti ambiri amapambana; pakakhala mgwirizano, gawo lachiwiri limachitika sabata lachitatu la Disembala.",
+        "Kusankhidwa kumayendetsedwa ngati zokambirana pagulu la GitHub m'malo osungirako kayendetsedwe ka IATF, kotero ofuna, mavoti, ndi zotsatira zonse ndi gawo la mbiri ya anthu."
+      ]
+    },
+    "continuity": {
+      "title": "Kupitirizabe",
+      "paragraphs": [
+        "Ngati palibe chisankho imachitika mu chaka anapatsidwa, wapampando panopa akupitiriza mu udindo mpaka chisankho lotsatira. Izi ndi kupitiriza kosatha, osati nthawi yachisomo  chitsanzo lakonzedwa kusunga gulu khola pamene ntchito ndi otsika, osati kukakamiza kusintha kuti palibe wokonzeka.",
+        "Pulezidenti akhoza kusiya pa nthawi iliyonse. oyang'anira yogwira angathenso kuitanitsa chisankho chapadera ndi chifukwa ananena, kuthamanga pansi pa malamulo omwewo monga chisankho pachaka."
+      ]
+    },
+    "current": {
+      "title": "Mpando wapano",
+      "fields": [
+        {
+          "label": "Mpando",
+          "value": "m'mphepete mwa mtsinje",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Nthawi",
+          "value": "Mpaka chisankho cha Disembala 2026"
+        },
+        {
+          "label": "Udindo wokhazikitsidwa mwalamulo",
+          "value": "2026"
+        },
+        {
+          "label": "Chisankho choyamba chokonzedweratu",
+          "value": "December 2026"
+        }
+      ]
+    },
+    "footnote": "Udindo wa mpando unakhazikitsidwa mu 2026 kuti ukhale woyang'anira bungwe. Mpaka nthawi imeneyo, udindo wa bungwe unali wosavomerezeka ndi woyambitsa."
+  },
+  "continuity": {
+    "states": {
+      "title": "Mkhalidwe wa polojekiti",
+      "paragraphs": [
+        "Mapulojekiti amagwiritsa ntchito magulu ang'onoang'ono a boma:"
+      ],
+      "items": [
+        "Pempho",
+        "Kuvomerezedwa",
+        "Zochita zolimbitsa thupi",
+        "Kukhazikika",
+        "Kufunafuna wothandizira",
+        "Zosungidwa"
+      ],
+      "footnote": "Maiko ameneŵa amasunga kaundula wa mayina kukhala wosavuta kusanthula."
+    },
+    "reassignment": {
+      "title": "Kusinthidwa ndi kusungidwa m'kaundula",
+      "paragraphs": [
+        "Ngati munthu amene akuyang'anira ntchitoyo wasiya ntchitoyo kapena wasiya kugwira ntchito, bungwe la IATF lingaperekenso munthu wina ntchitoyo, kuimitsa ntchitoyo pang'onopang'ono, kapena kuichotsa.",
+        "Pulojekiti ingasungidwenso pamene chofunika choyambirira chachitidwa, kukonza kwatha, kapena ntchito yopitiriza siichitikanso."
+      ],
+      "footnote": "Mapulojekiti osungidwa amakhalabe oonekera kwa anthu onse pokhapokha ngati pali chifukwa chomveka chochitira mosiyana."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Mfundo ya m'malire",
+      "title": "Zimene bungwe la IATF silinena"
+    },
+    "items": [
+      "kutumizidwa kwa kasitomala wachinsinsi",
+      "mapangano a mlingo wa utumiki",
+      "kuvomereza lingaliro lirilonse",
+      "kukonza kwa nthawi yaitali kwa polojekiti iliyonse"
+    ],
+    "footnote": "IATF ndi chitsanzo cha malo osungira anthu onse, osati ntchito yoperekera anthu ena."
+  }
+}
