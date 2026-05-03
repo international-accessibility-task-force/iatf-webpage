@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ndyeekĩiwe ũvano wa kũtũmĩwa"
+  },
+  "hero": {
+    "eyebrow": "Ndyeekĩiwe ũvano wa kũtũmĩwa",
+    "title": "Tekinolongyi ĩla ĩkwendeka ndĩ vo",
+    "lead": "Wavika vala tũkwendaa kũthi, no wĩsĩle malelũnĩ ala me vau ĩtheo.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Mũsyĩ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Nzĩa ĩla wawetie vau ĩũlũ ndĩ vo."
+    ],
+    "items": [
+      {
+        "label": "Mũsyĩ",
+        "href": "/"
+      },
+      {
+        "label": "Mĩvango",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ĩka Ũmbano wa Kũlilikana Kĩkw'ũ",
+        "href": "/join/"
+      },
+      {
+        "label": "Kũtetheka",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Kũtongoew'a nĩ Ngai",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ũsili wa katĩ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

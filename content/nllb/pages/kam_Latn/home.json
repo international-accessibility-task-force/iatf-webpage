@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kwĩthĩwa na Ndĩni Ĩvangĩtwe Nesa na Kũsianĩsya Kĩla Ũĩkĩĩaa na Kĩla Mbivilia Ĩmanyĩasya",
+    "lead": "IATF nĩtetheeasya kambunĩ, ikundi, na andũ me na vata mũnene wa kũtetheew'a nĩ kana matethye wĩa wa kũalyũla Mbivilia kwa ithyomo syĩ kĩvathũkany'o.",
+    "support": [
+      "Mĩvango ĩla yeetĩkĩlĩtw'e nĩ ũseũvyo wa IATF nĩyĩkĩawa kĩsesenĩ kya GitHub kwosana na mwĩao wa copyleft, na yaseũvaw'a nĩ mũndũ wĩ na ũtũĩka wa kũseũvya."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Ũndũ silikalĩ ĩtũmĩĩte mbesa",
+      "title": "Kĩsese kya jw.org kĩtetheeasya andũ kwĩka ũkunĩkĩli nesa"
+    },
+    "paragraphs": [
+      "Kwĩsĩla vulongulamu, kĩla mũndũ no aelesye IATF ĩũlũ wa thĩna mũna wĩ naw'o, ethĩwa ũu nĩw'o ala angĩ mekwenda, na ĩndĩ ũvoo ũsu ũisianĩw'a nthĩnĩ wa GitHub kwondũ wa ala mekwenda kũtetheew'a.",
+      "Kĩla kĩlungu kya ũseũvyo wa Yeova kya kũũ nthĩ kĩ na ilungu iseũvĩtw'e kwondũ wa kũtetheesya ala me na vata wa kũtetheew'a kĩ na myolooto ya Maandĩko ta mũvangĩthya wa nzama ĩla ĩtongoesye, mũsyaĩĩsya wa ovisi wa ũvonge, vamwe na asyaĩĩsya ma mũthyũlũlũko."
+    ],
+    "specCard": {
+      "title": "Ũndũ silikalĩ ĩtũmĩĩte mbesa",
+      "terms": [
+        {
+          "term": "Kwĩthĩwa na Woni Waĩle",
+          "definition": "Thĩna wĩ va?"
+        },
+        {
+          "term": "Kũneenea",
+          "definition": "Kwĩanĩw'a kwa Maũndũ ma Wĩa na Kũatĩanĩa na Maũndũ"
+        },
+        {
+          "term": "Kĩsese kya jw.org",
+          "definition": "Kĩsese kya andũ onthe kya GitHub"
+        },
+        {
+          "term": "Wĩa wa Kũũngamĩa",
+          "definition": "Mĩvango ya IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Ũndũ waĩle kwĩka",
+      "title": "Ũndũ mũvango ũsu ũthũkũmaa",
+      "intro": "Nzĩa ĩsu yĩthĩawa yĩ laisi kũatĩanĩa na ala meũthooa syĩndũ."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Kwĩ na vata wa kũtetheew'a",
+        "paragraphs": [
+          "Kĩla nzama, kĩkundi, kana mũndũ no atũme valũa ũeleetye vata wake wa kũtetheew'a maũndũnĩ ma kombiũta.",
+          "Kũlya ũmanyĩw'e Mbivilia Kĩsesenĩ kya www.jw.org/kam <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kana nĩvatonyeka kwĩsĩla kĩsesenĩ kya jw.org/kam."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF nĩyaũsisya",
+        "paragraphs": [
+          "Twĩkaa ũkunĩkĩli nĩ kana tũmanye wĩa ũsu nĩ wĩva, vala ũtonya kũtethw'a, na tũimanya ethĩwa wĩa ũsu no ũtethw'e vandũ vangĩ."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Kĩsese kya jw.org kĩ na kũndũ kwa kwĩkĩa mavuku kwa ithyomo syĩ kĩvathũkany'o",
+        "paragraphs": [
+          "Ethĩwa kĩlungu kĩ na wonany'o kĩna nĩkyetĩkĩlĩtw'e, nĩkĩnyaĩĩkaw'a Kĩsesenĩ kya IATF kĩtawa GitHub nũndũ kĩtũmĩĩte mbulosua yĩtawa copyleft.",
+          "Kĩsese kĩu nĩkĩthĩawa na syĩndũ mbingĩ itonya ũkũtetheesya ĩla ũkwĩyũmbany'a, kũsola na kũseũvya vitio."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Mũsomi wa maũndũ ma saenzi nĩwe waũngamĩe wĩa ũsu",
+        "paragraphs": [
+          "Mũndũ ũla ũkũtata kwosa ĩtambya yĩu nĩ ũla wĩsĩ nesa vyũ ũndũ maũndũ mailyĩ."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kũtumbĩthw'a",
+      "title": "Kĩsese kya jw.org/kam"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ambĩĩa vau.",
+      "title": "Kũneenea ũndũ mũna kana kwambĩĩa kwĩka ũndũ mũna"
+    },
+    "paragraphs": [
+      "Tũmĩa ũvoo ũla wĩ nthĩnĩ wa mbulosua ĩno nĩ kana ũmanye maũvoo ala matonya kũtũmĩwa nĩ andũ nthĩ syĩ kĩvathũkany'o."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

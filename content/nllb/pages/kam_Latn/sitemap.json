@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap (Kĩsese kya Indaneti)"
+  },
+  "hero": {
+    "eyebrow": "Maũndũ ala me Vo",
+    "title": "Sitemap (Kĩsese kya Indaneti)",
+    "lead": "Kĩla ĩthangũ yĩ na ũvoo wa andũ onthe yĩ Kĩsesenĩ kya www.jw.org/kam."
+  },
+  "sections": [
+    {
+      "title": "Ilungu sya mbee",
+      "items": [
+        {
+          "label": "Mũsyĩ",
+          "href": "/"
+        },
+        {
+          "label": "Mĩvango",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kũlya ũmanyĩw'e Mbivilia",
+          "href": "/propose/"
+        },
+        {
+          "label": "Kũtongoew'a nĩ Ngai",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ĩka Ũmbano wa Kũlilikana Kĩkw'ũ",
+          "href": "/join/"
+        },
+        {
+          "label": "Kũtetheka",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ũsili wa katĩ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Mĩvango",
+  "projectsEmpty": "Vai mavuku maeleetw'e ũndũ mũna ĩũlũ wa Mbivilia."
+}

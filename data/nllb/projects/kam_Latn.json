@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Kĩsese kya IATF",
+    "summary": "Kĩsese kya andũ onthe kya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF yaĩ na vata wa kwĩthĩwa na mũvĩa ũtonya kũtetheesya andũ maelewe nĩ kĩla kĩendeee, wĩ na ũvoo ũtonya kũmatetheesya mamanye matambya ala maĩle kwosa, na wĩ na mĩvango mĩseo ya kũtethya wĩa ũsu.",
+    "why": "Kĩsese kĩu kĩthĩawa na syĩndũ mbingĩ itonya kũtũmĩwa nĩ mũndũ maũndũnĩ ta kũsoma, kũalyũla, na kũsũvĩa.",
+    "scopeIn": [
+      "Kĩsese kya Indaneti kya Ngũsĩ sya Yeova kĩ na Mwanya wa Kũseũvya Mbulosua Kĩsesenĩ kya www.jw.org",
+      "Kĩeleelo kya kũandĩka ũvoo ũsu nĩ kwony'a andũ ala mekwenda kũtetheew'a maume ndĩninĩ sya ũvũngũ kana nĩ aseo.",
+      "Tulakiti ĩla yĩthĩawa yĩandĩkĩtwe maũndũ ala makonanĩtye na ũmbano na vala ũmbano ũsu ũkekĩwa",
+      "Kĩsese kya jw.org/kam",
+      "Kĩthyomo kya Andũ ala Matew'aa kya Ireland",
+      "Static deployment on Cloudflare Workers Static Assets Ũkũnĩa ũmbano ũtakathela"
+    ],
+    "scopeOut": [
+      "Private member areas, accounts, or login flows Ũtumbĩthyo wa ilungu na mĩvĩa ya kũea ngewa Indanetinĩ",
+      "Kũseũvya kombiũta ĩthũkũmaa nesa",
+      "Kũea Ngewa Indanetinĩ Ĩte Kũvĩngĩĩswa",
+      "Kĩsio kĩla kĩthĩawa na vulongulamu sya kũtumbĩthya mavuku kwa ithyomo syĩ kĩvathũkany'o"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Kĩndũ kĩu kĩseũvĩtw'e kĩthĩwe nĩ kyũma kya masinĩ sya sitima ila itũmĩawa wĩanĩ wa kũseũvya ngalĩ (IATF).",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Mĩvango ya tene ya kũseũvya syĩndũ sya masinĩ sya kw'oko na syĩndũ ingĩ ta simũ, kombiũta, na syĩndũ sya kũtũmĩa kombiũtanĩ",
+    "why": "Kĩndũ kĩu kĩseũvĩtw'e kĩtetheesye andũ aingĩ makamanya ũvoo ũla wĩ Mbivilianĩ o na ethĩwa mũsomi emanyĩsye ata.",
+    "scopeIn": [
+      "Kĩndũ kĩseũvĩtw'e tene mũno kĩtonya kũtũmĩwa kũtetheesya andũ makwate ũvoo ũla mekwenda"
+    ],
+    "scopeOut": [
+      "Kũseũvya nesa syĩndũ kana kwĩseũvĩsya syĩndũ sya matukũ aa",
+      "Mĩvango ya kũsũvĩa asyai",
+      "Kũtũmĩa syĩndũ sya kũseũvya"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF yĩkaa ũu kwa nzĩa syĩ kĩvathũkany'o.",
+    "summary": "IATF community bot, archived after reaching a natural stopping point. Kĩndũ kĩseũvĩtw'e na masinĩ sya kw'oko kwa mũndũ.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kũea ngewa Indanetinĩ kwĩsĩla simũ kwĩthĩĩtwe kwĩ kwa vata mũno ũseũvyonĩ wa IATF",
+    "why": "Kĩndũ kĩu kĩseũvĩtw'e kĩtetheesye andũ aingĩ makamanya ũvoo ũla wĩ Mbivilianĩ o na ethĩwa mũsomi emanyĩsye ata.",
+    "scopeIn": [
+      "Kũea ngewa Indanetinĩ kwĩsĩla simũ kwĩthĩĩtwe kwĩ kwa vata mũno ũseũvyonĩ wa IATF"
+    ],
+    "scopeOut": [
+      "Kũseũvya nesa syĩndũ kana kwĩseũvĩsya syĩndũ sya matukũ aa",
+      "Mĩvango ya kũsũvĩa asyai",
+      "Kũtũmĩa syĩndũ sya kũseũvya"
+    ]
+  }
+]

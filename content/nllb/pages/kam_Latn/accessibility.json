@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Kũtetheka",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Kũtetheka",
+    "lead": "Kĩeleelo kya IATF nĩ kũĩkĩĩthya kana ũvoo ũla wĩ kĩsesenĩ kĩu nĩ mũseango, wĩ laisi kũeleeka, na nũtũmĩawa nĩ andũ ala me na ũtũĩka wa kũandĩka na kombiũta.",
+    "support": [
+      "Nĩ kana ũlike Kĩsesenĩ kya www.jw.org/kam, no ũtũmĩe ũvano ũũ wa QR. [W3C WAI](https://www.w3.org/WAI/) O na ĩngĩ, andũ ala matũmĩaa tekinolongyia ĩsu nĩmatethekaa mũno nũndũ ĩmatetheeasya kũmanya ũndũ matonya kũtũmĩa syĩndũ isu nesa."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Livoti sya maũndũ ala meekĩkie",
+      "title": "Onany'a kana wĩ na thĩna"
+    },
+    "paragraphs": [
+      "Ethĩwa ve ũndũ ũũkũsiĩĩa kũlika Kĩsesenĩ kitũ, neena na ovisi wa ũvonge wa Ngũsĩ sya Yeova ũla wĩ kĩsionĩ kyenyu kana ũthi kĩsesenĩ kya jw.org/kam.",
+      "{{contact.accessibilityEmail}}",
+      "Ve maũvoo amwe matonya kũtũtethya:"
+    ],
+    "items": [
+      "kĩsese kĩla kĩthĩawa na ũvoo ũsu",
+      "Ũndũ ũla weekaa waĩ o kũtata kũvathũkany'a ũseo na ũthũku.",
+      "kĩsese, vulongulamu, kana simũ ĩla ũtũmĩaa",
+      "Thĩna walikĩile va?",
+      "nĩ kyaũ kyesaa kũmũtetheesya?"
+    ],
+    "footnote": "Ti lasima ũandĩke ũvoo ĩũlũ wa mavĩtyo maku."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kũkua",
+      "title": "Kũneenea maũndũ ala me mavukunĩ maitũ"
+    },
+    "paragraphs": [
+      "Ũvoo ũla wĩ mavukunĩ maitũ ĩũlũ wa ũndũ andũ matonya kũvikĩwa nĩ syĩndũ isu nĩ mũkuvĩ mũno na kwoou andũ no maũsome nesa matũmĩĩte syĩndũ ingĩ ite sya lasima.",
+      "Ethĩwa ũvoo ũla wĩ nthĩnĩ wa livoti yaku nũkonetye maũndũ ma mũndũ mwene, neena na andũ ala angĩ ũteũvithany'a."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Maũndũ ala me kw'o ũmũnthĩ",
+      "title": "Mĩthemba ĩla yĩ kĩvathũkany'o ya syĩndũ"
+    },
+    "paragraphs": [
+      "Kĩsese kĩĩ nĩkĩthĩawa na syĩndũ mbingĩ itonya ũkũtetheesya ĩla ũkwĩyũmbany'a nĩ kana ũsome Mbivilia kwa ithyomo syĩ kĩvathũkany'o."
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kũlya ũmanyĩw'e Mbivilia",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kũlya ũmanyĩw'e Mbivilia",
+    "lead": "IATF nĩtetheeasya andũ kwĩka ũkunĩkĩli nũndũ ve vata mũnene wa kwĩka ũu.",
+    "support": [
+      "Ndũkeanĩwe no kũmanya ũsũngĩo wa ĩkũlyo yĩu, ĩndĩ nũseo ũsũanĩe ĩkũlyo yĩĩ ya vata. Ĩkũlye-ĩ, 'Nĩ kyaũ kĩtonya kũndetheesya ngethĩwa na mũĩkĩĩo mũlũmu vyũ kana kwĩ Ngai?'"
+    ],
+    "actions": [
+      {
+        "label": "Kũlya makũlyo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Vandũ va ũu tũmĩa Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mĩthemba ya mĩtĩ",
+      "title": "Mantha nzĩa ĩla nzeo vyũ"
+    },
+    "intro": [
+      "Syĩndũ syonthe ila iseũvĩtw'e syaĩle kũseũvw'a nesa vyũ ũndũ vatonyeka."
+    ],
+    "items": [
+      {
+        "label": "Kĩsese kya Indaneti",
+        "body": "Tũmĩa vomu ĩla yĩ vaa ĩtheo nĩ kana ũandĩke maũndũ maku ma kũtũmĩa ũtavany'anĩ."
+      },
+      {
+        "label": "Email-ĩ yaku",
+        "body": "Kũlya ũmanyĩw'e Mbivilia ĩmwe kwa ĩmwe {{contact.requestsEmail}}Ethĩwa ũvoo ũla wĩ nthĩnĩ wa kaati ĩno nũũkũlw'a nĩ mũndũ ũngĩ eka ũla ũkwendaa kũwĩtya, no avĩndũe ũvoo ũsu nĩ kana awikethye andũ ala angĩ."
+      },
+      {
+        "label": "Kwĩthĩwa na Ngusanĩsyo",
+        "body": "Ethĩwa ũu nĩw'o vaĩle kwĩthĩwa vailyĩ, wĩona ata ũkosa ĩvinda yĩu wĩ nayo ũkethukĩĩsya kĩla kĩũneenewa?"
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ũtanamba kũtũma e-mail",
+    "paragraphs": [
+      "IATF ĩtethasya wĩa wayo andũnĩ onthe. Makũlyo ala me vo no masũngĩwe na mũandĩkĩle wa mawoni ma andũ onthe nthĩnĩ wa GitHub, Kĩsesenĩ kĩĩ, kana o kũndũ kũngĩ kw'onthe.",
+      "Ndũkatate kũweta masyĩtwa ma ala ũũneena namo, namba syoo sya simũ, ũvoo woo ĩũlũ wa ũiiti ũla manakuie, kana o maũndũ angĩ makonetye andũ ala matũmĩĩte simũ ĩsu. Ethĩwa nũkwĩw'a ũu, manya kana ti lasima IATF ĩlike wĩanĩ wayo.",
+      "IATF nĩyumasya ũvoo w'onthe ũla ũkonetye andũ ĩtanamba kũwumya."
+    ]
+  },
+  "review": {
+    "title": "Maũndũ ala mekwatĩtw'e",
+    "paragraphs": [
+      "Kũkũlya ũtethyo ti kwonany'a kana ũkasũvĩwa.",
+      "IATF nĩsiasya kana mawĩa asu me kĩvathũkany'o, nĩ ma vata, na nĩmatonya kũtũmĩwa nĩ nzama ĩla ĩtongoesye.",
+      "O na ĩngĩ, ngalama yĩthĩawa yongeleka kuma vu na kũendeea."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Kaati ya kwĩtya ũtethyo",
+      "title": "Kũkũlya Ũtetheew'e"
+    },
+    "fields": [
+      {
+        "kind": "maũndũ ala maandĩkĩtwe",
+        "name": "mũndũ ũla ũkũmũkũlya ũtethyo",
+        "label": "Ĩsyĩtwa yaku kana ũseũvyo waku",
+        "helper": "Nũũ ũnũkũtavya ndeto isu?"
+      },
+      {
+        "kind": "kũnyuva",
+        "name": "Kĩsese kya Indaneti kya Ngũsĩ sya Yeova",
+        "label": "Nzĩa ĩla ĩtonya kwĩkwatw'a ya kũthi kũu",
+        "helper": "Waĩle kwĩka ata vathi ũu?",
+        "required": true,
+        "options": [
+          "Email-ĩ yaku",
+          "Kwĩthĩwa na Ngusanĩsyo"
+        ]
+      },
+      {
+        "kind": "maũndũ ala maandĩkĩtwe",
+        "name": "Ũneenany'a na Ala Angĩ",
+        "label": "Maelesyo ma kwĩkwatany'a",
+        "helper": "Email address kana kĩsese kya kũea ngewa na ala mekwendeew'a kĩsesenĩ kya Discord nĩ kana ũmanye ũndũ ũtonya kwĩka.",
+        "placeholder": "Email address kana mũndũ ũngĩ ũtonya kũneena nake",
+        "required": true
+      },
+      {
+        "kind": "maũndũ ala maandĩkĩtwe",
+        "name": "Kĩthyomo kya ala matew'aa",
+        "label": "Kĩthyomo",
+        "helper": "Kĩthyomo kĩla ũkwenda kũtũmĩa.",
+        "value": "Kĩsũngũ"
+      },
+      {
+        "kind": "Kĩsio kya maũvoo",
+        "name": "thĩna",
+        "label": "Nĩ thĩna wĩva wĩ naw'o?",
+        "helper": "Elesya thĩna ũla ũtonya kwĩthĩwa naw'o.",
+        "required": true
+      },
+      {
+        "kind": "Kĩsio kya maũvoo",
+        "name": "Andũ Ala Matatĩĩaa Ũthaithi wa Mũsyĩ",
+        "label": "Naaũ makonetw'e nĩ ũndũ ũsu?",
+        "helper": "Ve mũndũ ũtonya kũtetheka nĩ ngelekany'o ĩsu?",
+        "required": true
+      },
+      {
+        "kind": "Kĩsio kya maũvoo",
+        "name": "extraMavuku ala me kĩlungunĩ kĩĩ",
+        "label": "Maũndũ angĩ",
+        "helper": "Ĩthĩwa na syĩndũ ingĩ itonya kũũtetheesya kũelewa ĩandĩko yĩu. Kwa ngelekany'o, sũanĩa ĩũlũ wa vandũ vana vethĩĩtwe kũseũvw'a syĩndũ sya tene, kana ve vandũ vatũmĩĩtwe ĩvinda ya tene."
+      },
+      {
+        "kind": "kũnyuva",
+        "name": "openSourceConsent (Kĩsese kya kw'oko kwa aũme)",
+        "label": "We nĩwĩtĩkĩlanaa na maũndũ ala tweewa nĩtwĩke makonetye ũtavany'a?",
+        "helper": "Mĩvango ĩla yeetĩkĩlĩtw'e nĩ IATF nĩyaĩlĩte kũatĩĩwa nĩ nthĩ syonthe.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ĩĩ",
+          "Aiee",
+          "Ndyĩsĩ nesa."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ethĩwa nĩweetĩkĩlw'a",
+      "title": "Nĩ kyaũ kyonanaw'a nĩ ndeto ĩsu?"
+    },
+    "items": [
+      "Kĩsese kya kwĩkwatany'a kya IATF GitHub",
+      "mũsomi ũla ũnengetwe wĩa ũsu",
+      "Mĩaonĩ ya copyleft, namba na syĩndũ ila itũmĩawa kũseũvya vitio no iandĩkwe, o na no ikwatĩkane kwa ithyomo syĩ kĩvathũkany'o.",
+      "Kĩsese kya Indaneti kya Ngũsĩ sya Yeova",
+      "Kĩsese kya IATF kĩ na ũandĩko wa ũtheinĩ"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ũneenany'a na Ala Angĩ",
+      "title": "Kũkũlya ũtethyo o kwa ũkuvĩ na kwa nzĩa ĩyumĩlĩtye nĩkũtethasya mũno."
+    },
+    "paragraphs": [
+      "Ethĩwa kwa w'o ve thĩna wĩ naw'o na nũkwenda kũtetheew'a vala ũtonya na ũyĩthĩa no ũkwĩw'a waĩle kwongelanga kĩthito ũndũnĩ ũsu, neena naitũ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

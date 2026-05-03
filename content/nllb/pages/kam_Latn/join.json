@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ndũkelikye Ngusanĩsyonĩ sya Nthĩ",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ndũkelikye Ngusanĩsyonĩ sya Nthĩ",
+    "lead": "Ve nzĩa syĩ kĩvathũkany'o sya kũthi maũmbanonĩ asu. No ũnyuve ĩsomo yĩla ũkwenda, ũkanyuva ĩvuku yĩla ũkwenda kũsoma, ũnyuva ĩvuku yĩla ũkwendeew'a nayo, ũyosa ĩtambya yĩla yaĩle, kana ũkeka mũvango mũseo wa kwĩmanyĩsya Mbivilia na andũ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Kĩanda",
+      "title": "Nzĩa sya kumya mĩvothi"
+    },
+    "items": [
+      "<strong>Kũlya ũmanyĩw'e wĩa mũna.</strong> Ethĩwa ve thĩna ũkwona ũtonya kũema kũtethw'a nĩ syĩndũ iseũvĩtw'e na masinĩ sya kw'oko sya matukũ aa, osa ĩtambya na mĩtũkĩ na ũiũtũnga ovisinĩ wa ũvonge wa Ngũsĩ sya Yeova.",
+      "<strong>Kũthima na kũsisya.</strong> Tata ũsũanĩe nzĩa syĩ kĩvathũkany'o ila ũtonya kũtũmĩa ũtetheesye andũ maũndũnĩ ma tekinolongyia. O na ũisisya nĩ nzĩa syĩva itũmĩawa kũelesya maũndũ.",
+      "<strong>Ũalyũle.</strong> Maũndũ ala maeleetw'e nthĩnĩ wa mbulosua ĩno makwatĩkanaa na kĩthyomo kya Kĩsũngũ na kya Spanish na mavĩndũawa kwosana na mavata ma ala maneyĩandĩkĩthisye.",
+      "<strong>Ĩkĩa kĩthito.</strong> No ũtũmĩe ũvano ũũ wa QR ũtũmĩĩte simũ yaku.",
+      "<strong>Ĩkalaa ũu.</strong> Mavinda amwe vethĩawa ve vata wa kũvĩndũa andũ ala matethasya wĩa mũna nĩ kana wĩa ũsu ũtethw'e nesanga. Kwĩka ũu ti ũndũ wa ũsengy'o o na ti ũndũ waĩle kũvũthĩĩw'a."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mĩthemba ya mĩtĩ",
+      "title": "Vala IATF ĩthũkũmaa andũnĩ"
+    },
+    "items": [
+      "<strong>Kĩsese kya GitHub.</strong> Kũkũna visa, kumya maelesyo, na kumya maũvoo.",
+      "<strong>Kwĩthĩwa na mũtilĩkangano.</strong> Ũneenany'a na ala mekwendeew'a, na kũkũlya makũlyo.",
+      "<strong>Kũtũmanĩa mesengyi.</strong> Kũtũmĩa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHub na Discord iyĩthĩawa ivw'anene."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ĩsomo yĩla yĩatĩĩe",
+      "title": "Nyuva nzĩa ĩla ũkwenda kumya mũvothi"
+    },
+    "paragraphs": [
+      "Syĩndũ isu syĩthĩawa syĩkĩwe ũkunĩkĩli nĩ andũ ala me na ũtũĩka wa kũiseũvya."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

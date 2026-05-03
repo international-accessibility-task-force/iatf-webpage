@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Ũsili wa katĩ",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Ũsili wa katĩ",
+    "lead": "Kĩsese kĩĩ kĩ na maũvoo mataeleetw'e nĩ Ngũsĩ sya Yeova, na kĩ na ilungu iseũvĩtw'e kwondũ wa kũtavya andũ ĩũlũ wa Ũsumbĩ wa Ngai.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Maũndũ ala maandĩkĩtwe",
+      "title": "Vala mavuku asu maumĩĩw'a"
+    },
+    "items": [
+      "<strong>Kwĩka Motwi Maseo Ĩũlũ wa Wĩa</strong> Maũndũ asu maandĩkĩtwe mbulosuanĩ ĩsu nĩmo maeleetw'e nthĩnĩ wa mbulosua yĩtawa Ũvoo Mũseo Ũla Tũkwataa Ĩvinda Yonthe. <a href=\"/projects/\">kaati sya kwĩlilikany'a maũndũ</a>Kwa w'o .",
+      "<strong>Kũlya ũmanyĩw'e maũndũ maingangĩ.</strong> Maelesyo ma kwongeleela ala me nthĩnĩ wa IATF GitHub me vo, nthĩnĩ wa Kĩsese kĩĩ, kana o kũndũ kũngĩ kw'onthe. Maũndũ ala me vo no maeleany'e, mavĩndũe, kana maalyũlwe ũndũ vaĩle nĩ kana mũndũ akwatye kĩla kĩũneenewa ĩndĩ ndakethĩwe na nzika kana kĩ na ũvoo ũte vo.",
+      "<strong>Koodi nĩ ĩvĩndũe.</strong> Kĩla ũalyũlo weekawa ũvoonĩ ũsu wĩthĩawa ũandĩkĩwe ala angĩ mavukunĩ ma w'o ma kwia mavuku (public commit). <a href=\"{{contact.githubOrgUrl}}\">Kĩsese kya GitHub</a>Kwa w'o .",
+      "<strong>Silikalĩ ĩngĩ yoosa ũtongoi.</strong> Maũndũ ala maeleetw'e nthĩnĩ wa kaati ĩno mambaa kũandĩkwa na Kĩsese kya www.jw.org. <code>Kĩsese kya IATF</code> Sisya ĩsandũkũ yĩ na kyongo \"Maelesyo Ĩũlũ wa Ĩvuku Yitũ\". <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">maũndũ ala maandĩkĩtwe mavukunĩ ma kũkũnĩa simũ</a> kĩsesenĩ kya GitHub.",
+      "<strong>Mathangũ ma kũthooa na kũthoosya syĩndũ.</strong> IATF yĩkaa ũu kwa kũsiany'a mbesa ila itũmĩawa kũũngamĩa myako ĩkonetye maũndũ ma viasala, o vamwe na kumya mĩvothi ya viasala nĩ kana ĩtetheesye wĩanĩ ũsu.",
+      "<strong>Maũndũ ala maeleetw'e ngewanĩ ya Ndaviti.</strong> Comments from any coordinated review or decision live in GitHub Ũneenany'a ĩũlũ wa ĩsandũkũ ya maũvoo yĩla yĩkwatanĩlw'a  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Ũneenany'a</a> Ĩkaseti ya Mũsyaĩĩsya (Kĩswaili) <code>Kĩsese kya IATF</code> Kĩsese kya Indaneti kya Ngũsĩ sya Yeova"
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Mĩvothi",
+      "title": "Maelesyo ĩũlũ wa kũthooa na kũthoosya syĩndũ"
+    },
+    "paragraphs": [
+      "IATF ĩsũvĩaa myako ĩte ya vata mũno. Kuma mwaka wa 2022, mbesa ila itũmĩawa kũũngamĩa isese sya kũea ngewa Indanetinĩ (domain names) nitũmĩkaa kĩla ĩvinda.",
+      "Ĩvuku yĩu yĩthĩawa yĩandĩkĩtwe syĩndũ ila syatũmĩawa wĩanĩ ũsu wa myako na yĩkonetye maũndũ ma kambunĩ ya International Air Transport Association (IATF)."
+    ],
+    "footnote": "Maelesyo ĩũlũ wa kũthooa, kũthoosya, na kũĩva syĩndũ ila syaĩle kũthoow'a, nĩmonekaa nthĩnĩ wa kaati sya kumya ũkũsĩ.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Kĩsio kĩla waweta",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Thooa wa syĩndũ",
+            "value": "Mĩvothi ya kũtetheesya wĩa wa kũtavany'a"
+          },
+          {
+            "label": "Maũndũ ma kwĩmanyĩsya",
+            "value": "Cloudflare nĩyo yaũngamĩe wĩa wa kũseũvya na kũtumbĩthya syĩndũ ta mbulosua na vitio. <code>iatf.cc</code> Kĩsio kĩla ũkwenda kũthamĩĩa."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Kĩsio kĩla waweta",
+            "value": "<code>Kĩsese kya www.internationalaccessibilityytaskforce.com</code>"
+          },
+          {
+            "label": "Thooa wa syĩndũ",
+            "value": "$18.68 sya Amelika"
+          },
+          {
+            "label": "Maũndũ ma kwĩmanyĩsya",
+            "value": "Domain cost funded by mugiwarafx. Kũthokya andũ ũtũmĩĩte mbulosua yĩtawa free-tier kana low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Kĩsio kĩla waweta",
+            "value": "<code>Kĩsese kya www.internationalaccessibilityytaskforce.com</code>"
+          },
+          {
+            "label": "Thooa wa syĩndũ",
+            "value": "Mĩvothi ya kũtetheesya wĩa wa myako ya Nyũmba sya Ũsumbĩ"
+          },
+          {
+            "label": "Maũndũ ma kwĩmanyĩsya",
+            "value": "Domain cost funded by mugiwarafx. Kĩtumi kya kwĩka ũu nĩ kana kambunĩ ya Hostinger nĩyatũmĩie mbulosua ya Free-Tier kana ya Low-Cost nĩ kana ĩlike Indanetinĩ."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Kĩsio kĩla waweta",
+            "value": "<code>Kĩsese kya www.internationalaccessibilityytaskforce.com</code>"
+          },
+          {
+            "label": "Thooa wa syĩndũ",
+            "value": "Mĩvothi ya kũtetheesya wĩa wa myako ya Nyũmba sya Ũsumbĩ"
+          },
+          {
+            "label": "Maũndũ ma kwĩmanyĩsya",
+            "value": "Domain cost funded by mugiwarafx. Kũthokya andũ ũtũmĩĩte mbulosua yĩtawa free-tier kana low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Kĩsio kĩla waweta",
+            "value": "<code>Kĩsese kya www.internationalaccessibilityytaskforce.com</code>"
+          },
+          {
+            "label": "Thooa wa syĩndũ",
+            "value": "Dollar ya Amelika 7,76"
+          },
+          {
+            "label": "Maũndũ ma kwĩmanyĩsya",
+            "value": "Domain cost funded by mugiwarafx. Kũũngamĩa mĩvĩa ya kũea ngewa Indanetinĩ ũtũmĩĩte GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Kĩlungu kya mũvaka",
+      "title": "Maũndũ ala matatonya kwĩkĩwa ũkunĩkĩli"
+    },
+    "paragraphs": [
+      "Syĩndũ imwe sya ũkunĩkĩli ila syaumw'a kũndũ ta kũu syĩthĩawa syĩ sya ũsengy'a mũno."
+    ],
+    "items": [
+      "Maelesyo ĩũlũ wa ũndũ ũtonya kũkomana na mũndũ ũkwenda kũtwaana kana kũtwawa.",
+      "Kaati ĩsu nĩyo yĩthĩawa yonanĩtye wendi waku maũndũnĩ ma kĩ-veva.",
+      "Adresi sya vala wĩkalaa, namba syaku sya simũ, na maũndũ angĩ mate ma lasima.",
+      "Syĩndũ syonthe ila itonya kũtuma mũndũ atũmĩa syĩndũ ta simũ kana syĩndũ ingĩ sya kwĩloela nĩ sya ũvũngũ.",
+      "Kũea ngewa Indanetinĩ kwĩ kĩvathũkany'o na kũtũmanĩa mesengyi mbuku, nũndũ kwĩka ũu kwĩkaa kwimbya maũndũ."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Soma mũnango",
+      "title": "Maũndũ asu maandĩkĩtwe mbulosuanĩ ĩsu nĩmo maeleetye ũndũ wĩa witũ wa kũtavany'a waĩle kwĩthĩwa ũilyĩ."
+    },
+    "paragraphs": [
+      "Ethĩwa nũkwenda kũmanya ũndũ mĩvango ĩsu yĩkĩtwe, neena na ovisi wa ũvonge."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

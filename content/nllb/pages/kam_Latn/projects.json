@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Mĩvango ya kũtetheesya andũ methĩwe matonya kwĩthukĩĩsya",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Mĩvango ya kũtetheesya andũ methĩwe matonya kwĩthukĩĩsya",
+    "lead": "Kĩlungu kĩĩ kĩ na maũvoo matavanĩtw'e ĩũlũ wa maũndũ me kĩvathũkany'o ala matethetw'e nĩ ũseũvyo wa Yeova (International Telecommunication Task Force).",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kũtumbĩthw'a",
+      "title": "Kĩsese kya matukũ aa kya kũtumbĩthya mavuku"
+    },
+    "intro": [
+      "Mĩvango ĩla yeekiwe nĩyonanĩtw'e vaa ĩtheo."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Onany'a kana wĩ na vata nake",
+      "title": "Kwĩthĩwa na mũvango mũseo wa kũtetheesya ala mate na ũkwati"
+    },
+    "paragraphs": [
+      "IATF nĩtetheeasya ala mekwenda kũtetheew'a mamanthe myanya ya kwony'a andũ nzĩa nzeo sya kwĩmanyĩasya Mbivilia vate ndĩvi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "O na yu vai mavuku maeleetw'e ũndũ mũna ĩũlũ wa Mbivilia.",
+    "paragraphs": [
+      "IATF nĩendeee kũseũvya ĩvuku yayo ya mbee ya kũmanyĩsya andũ Mbivilia.",
+      "No ũtũmĩe ũvano ũũ wa QR ũtũmĩĩte simũ yaku."
+    ]
+  }
+}

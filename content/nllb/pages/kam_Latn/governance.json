@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Kũũngamĩa maũndũ na nzĩa ĩla yaĩlĩte",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Kũũngamĩa maũndũ na nzĩa ĩla yaĩlĩte",
+    "lead": "IATF nĩtetheeasya andũ kwĩka ũkunĩkĩli matũmĩĩte syĩndũ ila ikonanĩtw'e, na nĩtumaa andũ methĩwa matonya kũsoma na kũandĩka ũvoo ũla wĩ mavukunĩ maitũ.",
+    "support": [
+      "Kĩlungu kĩĩ nĩkĩeleetye maũndũ ala mũndũ waĩle kwĩka nĩ kana akwate mĩao ĩmwe, ũndũ mĩao ĩsu ĩkwatĩkanaa nthĩnĩ wa nduka sya maũvoo, na ũndũ kĩla ũmwe waĩle kwĩanĩsya kĩanda kyake ũandĩkĩthw'e."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Mĩao",
+      "title": "Kwĩanĩw'a kwa Maũndũ ma Vata Nthĩnĩ wa Wĩa wa Kũtavany'a"
+    },
+    "cards": [
+      {
+        "title": "Wĩa wa kũtavany'a",
+        "paragraphs": [
+          "IATF nĩyĩtĩkĩlanaa na wĩa w'onthe ũla ũkonetye syĩndũ ila syĩnzawa nthĩ, na maũndũ ala mekwonany'a syĩ sya vata andũnĩ.",
+          "Wĩa ũsu waĩle kũtethw'a nĩ mũndũ kwa nzĩa syĩ kĩvathũkany'o.",
+          "Nĩ kana ũlike Kĩsesenĩ kya www.jw.org/kam, no ũtũmĩe ũvano ũũ wa QR. [W3C WAI](https://www.w3.org/WAI/) O na ĩngĩ, ũkunĩkĩli ũla wĩkĩtwe wĩonany'a kana tekinolongyia ĩsu nĩyo ĩtetheeasya andũ mamanye kĩla maĩle kwĩka ĩla makwatwa nĩ mathĩna mana."
+        ]
+      },
+      {
+        "title": "Ũndũ mũvango ũsu watethiw'e",
+        "paragraphs": [
+          "Mũvango nũtonya kwĩtĩkĩlw'a ethĩwa ũkunĩkĩli ũla wĩkĩtwe wĩonany'a kana:"
+        ],
+        "items": [
+          "kwĩanĩw'a kwa kĩeleelo kyaĩle",
+          "ũsũngĩo ũla waĩle nĩ wĩva?",
+          "No nginya vethĩwe ve kĩtumi kĩseo kya kũĩkĩĩa kana syĩndũ syeekie kwĩyumĩlya.",
+          "wĩa ũla ũtethaw'a nĩ kambunĩ ya IATF",
+          "ve ũndũ ũtonya kwĩkwa nĩ kana ũu ũsiĩĩwe"
+        ]
+      },
+      {
+        "title": "Kĩsese kya jw.org/kam",
+        "paragraphs": [
+          "Mĩvango ĩla yeetĩkĩlĩtw'e nĩ IATF nĩyumanĩte na ũmbano ũla wĩtawa GitHub.",
+          "Kĩla nyũmba yĩthĩawa na syĩndũ itonya kũsũvĩwa nĩ ũla ũkũũngamĩa wĩa ũsu, na syĩndũ isu nitonya kũtũmĩwa wĩanĩ o na ethĩwa vailyĩ ata."
+        ]
+      },
+      {
+        "title": "Kũandĩkĩthw'a Mbetheli",
+        "paragraphs": [
+          "IATF projects use copyleft licensing unless a project states otherwise:"
+        ],
+        "items": [
+          "<strong>Ĩsyĩtwa:</strong> AGPL-3.0",
+          "<strong>Maelesyo ma kwongeleela:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Mũndũ ũla ũthũkũmaa wĩa wa myako kana wa kũũngamĩa myako",
+      "paragraphs": [
+        "Kĩla mũũngamĩi wa ũkunĩkĩli wa maũndũ ma saenzi waĩle kwĩthĩwa e na mũndũ wa kũũngamĩa maũndũ."
+      ],
+      "items": [
+        "Kĩsese kya Indaneti kya Ngũsĩ sya Yeova",
+        "Kũseũvya nesa syĩndũ ila sya vata",
+        "kwĩthukĩĩsya na kwĩtĩkĩlana na kĩla kĩũneenewa kana kwĩkwa",
+        "maũndũ ala ma vata mavangĩtwe nĩ kana matethw'e",
+        "kwa kũtũmĩa ndeto itonya kũeleeka nĩ ala angĩ"
+      ],
+      "footnote": "Wĩa wa kũũngamĩa mwako ũũngamĩwe nĩ andũ me na ũtũĩka wa kũseũvya syĩndũ (technical direction) na nĩmaũngamĩe wĩa w'onthe ũla ũũtethw'a nĩ mwako ũsu."
+    },
+    "publicDevelopment": {
+      "title": "Wĩa wa kũtetheesya andũ",
+      "paragraphs": [
+        "Mĩvango yonthe ĩla yĩthĩawa kambunĩnĩ sya ũkunĩkĩli sya IATF yĩthĩawa ĩseũvĩtw'e nĩ kana ĩtetheesye andũ maũndũnĩ ta:"
+      ],
+      "items": [
+        "namba ĩla yonanĩtw'e",
+        "maũndũ",
+        "maũndũ ala maandĩkĩtwe",
+        "Maũndũ ala maeleetw'e nthĩnĩ wa mbulosua ĩsu",
+        "Maũndũ ala meekĩkie ĩvinda ĩvĩtu"
+      ],
+      "footnote": "Kũneena ũla w'o, ũvoo ũla wa vata ndwĩthĩawa nthĩnĩ wa isese sya kũea ngewa kana isese sya maũvoo."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ũvoo ũla wĩ mavukunĩ maitũ",
+      "title": "Kaati sya kwĩthukĩĩsya sya andũ onthe"
+    },
+    "paragraphs": [
+      "IATF ĩtethasya wĩa wa kũandĩka mavalũa ma kwĩtya syĩndũ nthĩnĩ wa Kĩsese kya jw.org, Indaneti, Discord, GitHub, kana o kũndũ kũngĩ kũla andũ matonya kũlikĩla nĩ kana metĩkĩle ũndũ mekwenda.",
+      "IATF nĩtonya kũandĩka mawoni mayo ĩũlũ wa ũvoo mũna wĩtĩkwa ũtanamba kũtumbĩthw'a, kana o yĩkasya ũvoo ũsu nĩwavĩndũawa o ũndũ vataĩle nĩ kana ũvoo ũsu ndũkatũmĩwe kũndũ kũngĩ.",
+      "Maelesyo ma kwĩkwatany'a ma mbulosua ĩsu no mekĩwe Kĩsesenĩ kya www.jw.org/kam.",
+      "IATF nĩyosaa ũvoo w'onthe ũte wa vata ũkonetye mũndũ mwene, ta namba syake sya simũ, na syĩndũ ila ũtonya kũtũmĩa kũandĩka ũvoo ĩũlũ wa andũ ala matũmĩaa tekinolongyia, o na ethĩwa ũvoo ũsu nũũkũeleeka naĩ.",
+      "Discord ĩtũmĩawa nĩ andũ mate ma nzama ĩmwe. IATF ndĩkaa ũkunĩkĩli ĩũlũ wa ũneenany'a ũla wĩ nthĩnĩ wa Discord kwa nzĩa ya mwanya, na ũkuvĩ wa ũvoo ũla wĩ vo ũũngamĩawa nĩ Discord. Motw'ĩo ala meekwa Discord nĩmaĩle kũandĩkwa na mũandĩkĩle wa andũ onthe nthĩnĩ wa GitHub kana kĩsesenĩ kya wĩa ũla ũandĩkĩthĩtw'e.",
+      "Maelesyo ma kwongeleela ala me ĩvukunĩ ya wũmbi me na ũvoo mwingĩ ũtonya kũeleeka nesanga kuma mavukunĩ ala maeleasya ĩũlũ wa wũmbi.",
+      "IATF nĩtonya kũvĩndũa kana kũvetanga ũvoo ũla wĩ mavukunĩ ma kũkũnĩa simũ kana kombiũtanĩ, ĩndĩ ndĩtonya kũĩkĩĩthya kana ũvoo ũsu nũũtũngwa mavukunĩ matonya kũtũmĩwa nĩ mũndũ ũngĩ, ta valeta, visa, search engine, Discord, kana syĩndũ ingĩ syumanĩte na simũ.",
+      "Ethĩwa ũvoo ũla ũũsoma ũtekwenda kũwetwa nĩ andũ angĩ, ndwaĩle kũũtũmĩa Indanetinĩ kana o kũndũ kũngĩ."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Wĩa wa Nzama Ĩla Ĩtongoesye",
+      "title": "Kĩvĩla"
+    },
+    "lead": "Ũũngamĩe wĩa wa kũũngamĩa mwako (organization-level stewardship) wa kambunĩ ya IATF. Mũvango ũsu wĩ kĩvathũkany'o vyũ na ũla ũũngamĩwe nĩ mũsomi wa maũndũ ma tekinolongyia (project-responsible engineer).",
+    "duties": {
+      "title": "Wĩa wa kĩvĩla kĩu",
+      "items": [
+        "Kũlikĩlĩĩla ene nthĩ ma IATF GitHub organization",
+        "Kũandĩkĩthw'a ĩsandũkũnĩ ya valũa yonanĩtye kana mũvango wa kũtũngĩĩa syĩndũ sya tene nũnavĩtiwe",
+        "Kũthũkũmana na mũvĩa wĩtawa IATF",
+        "Kũvanga maũmbano ma kĩla mwaka"
+      ],
+      "footnote": "Ũla ũũngamĩe ndĩthĩawa na ũkũmũ wa kũsiĩĩa IATF ndĩkese kwanangĩa ala angĩ wĩa, ndĩkesa kũnenga athũkũmi ĩtuvi, kana kũlikĩlĩĩla ianda ila manengetwe siasanĩ. O na ndatonya kũvĩndũa motwi ala ala meekiwe nĩ mũũngamĩi wa ũkunĩkĩli wa maũndũ ma tekinolongyia."
+    },
+    "election": {
+      "title": "Ũnyuvani wa kĩla mwaka",
+      "paragraphs": [
+        "Kamitii ĩsu yambĩĩw'a Matukũ 15, Mwei wa 12, 1971, na yu yĩtawa Kamitii ya Ũthũkũmi wa Kĩtheokulasi.",
+        "Kĩla mũndũ wĩ na kavuku ka kwĩnyuvĩa nũnengetwe mwanya wa kũlika kĩlungunĩ kya kũsisya kana nĩ ka kwosany'a mavuku ala me mavukunĩ ma mĩthemba yĩ kĩvathũkany'o ma IATF.",
+        "Ũnyuvani ũsu wĩkawa nthĩnĩ wa kĩsese kya GitHub kĩla kĩthĩawa na ũvano wa IATF wa mavoti ma ala meũkũlya kĩvalũa kĩu, na vala mavota mavota, na ĩndĩ ũvoo ũsu ũisomwa nĩ andũ onthe."
+      ]
+    },
+    "continuity": {
+      "title": "Kũendeea",
+      "paragraphs": [
+        "Mũndũ ũsu ndethĩawa aithing'ĩĩw'a nĩ kana eke maũndũ mana, ĩndĩ ethĩawa aitetheka nũndũ wa kwĩthĩwa na ngwatanĩo na ala angĩ, na nũndũ wa ũu ethĩawa atonya kũvanga maũndũ make nesa.",
+        "Mũũngamĩi wa nzama ya makanisa no alee kũlika siasanĩ saa o na wĩva, ĩndĩ no anyuvwe nĩ andũ angĩ eka ala ũnyuvĩte, na ayĩkaa ũu atongoew'e nĩ myolooto ĩla yĩ Mbivilianĩ."
+      ]
+    },
+    "current": {
+      "title": "Ũmũnthĩ nĩ mũũngamĩi wa nzama ĩsu.",
+      "fields": [
+        {
+          "label": "Kĩvĩla",
+          "value": "mũkũyũ (mugiwarafx)",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ĩvinda yĩla yĩwetetwe",
+          "value": "Kũvika mwei wa ĩkũmi na ilĩ mwaka wa 2026"
+        },
+        {
+          "label": "Wĩa Waĩle Kũtethw'a Mĩtũkĩ",
+          "value": "2026"
+        },
+        {
+          "label": "Kaũ wa Mbee wa Nthĩ Yonthe",
+          "value": "Mwei wa 12 mwaka wa 2026"
+        }
+      ]
+    },
+    "footnote": "Vatavĩtĩte ĩvinda yĩasa kuma Nzama Ĩla Ĩtongoesye yambĩĩw'a mwaka wa 1926, na ũndũ ũsu nũtumĩte yĩthĩwa na mũvango wa kũtwaĩĩsya maũmbano onthe kĩkundinĩ."
+  },
+  "continuity": {
+    "states": {
+      "title": "Mĩvango ya kambeini",
+      "paragraphs": [
+        "Mĩvango ĩsu yĩthĩawa yĩ ya kũatĩanĩa nĩ kana nthĩ ila syakwatĩanĩe syĩthĩwe na ngwatanĩo."
+      ],
+      "items": [
+        "Kĩeleelo kya ĩsomo yĩĩ",
+        "Nĩweetĩkĩlĩtw'e",
+        "Maũndũ mate ma w'o",
+        "Kwĩthĩwa na Woni Waĩle Ĩũlũ wa Makũlyo",
+        "Nĩenda mũndũ wa kũũngamĩa wĩa wakwa",
+        "Maũndũ ala me Vukunĩ ya Ũvoo Mũseo"
+      ],
+      "footnote": "Kwoou nĩ laisi mũndũ akamanya maũndũ ala maandĩkĩtwe mavukunĩ ma kũkũnzwa."
+    },
+    "reassignment": {
+      "title": "Kũtũmĩwa kũndũ kũngĩ na kũsũvĩwa",
+      "paragraphs": [
+        "Ethĩwa mũndũ ũla ũũngamĩe wĩa wa kũseũvya na kũsũvĩa syĩndũ sya kambunĩ ĩsu nũemetwe, IATF no ĩtw'e kũmũnenga wĩa ũngĩ wĩ kĩvathũkany'o, ĩkamũũngamya, kana ĩkamwĩkya vaasa vyũ na wĩa wake.",
+        "Wĩa ũtonya kũtũngwa ũitethw'a ũndũ vaĩle ethĩwa ala mekwambĩĩa kũũtethya wĩa ũsu nĩmamwĩtĩkĩlilye aekane na wĩa ũsu, kana ethĩwa ve maũndũ angĩ mekwonany'a kana wĩa ũsu ndwaĩ wa kũendeea nesa."
+      ],
+      "footnote": "Mavuku ala matũmĩawa kũalyũla Mbivilia no makwatĩkane kwa ithyomo syĩ kĩvathũkany'o."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Kĩlungu kya mũvaka",
+      "title": "Kĩla IATF ĩtetĩkĩlĩtye"
+    },
+    "items": [
+      "kũthoosya syĩndũ sya kambunĩ ya viasala",
+      "Mĩvango ya Ũseũvyo wa Yeova",
+      "kwĩthukĩĩsya na kwĩtĩkĩlana na kĩla kĩũneenewa",
+      "mũvango wa kũtũngĩĩa syĩndũ ila syaanangĩkĩte tene"
+    ],
+    "footnote": "IATF nĩ mũvango wa kũmbany'a mathangũ ma maũvoo ma andũ onthe ĩndĩ ti o kũmanenga mavuku."
+  }
+}
