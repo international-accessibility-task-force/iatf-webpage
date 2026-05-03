@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Endèks",
+    "title": "Sitemap",
+    "lead": "Tout paj piblik sou iatf.cc, nan yon sèl kote."
+  },
+  "sections": [
+    {
+      "title": "Paj prensipal yo",
+      "items": [
+        {
+          "label": "Kay",
+          "href": "/"
+        },
+        {
+          "label": "Pwojè yo",
+          "href": "/projects/"
+        },
+        {
+          "label": "Mande yon pwojè",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gouvènans",
+          "href": "/governance/"
+        },
+        {
+          "label": "Antre nan",
+          "href": "/join/"
+        },
+        {
+          "label": "Aksè",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparans",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Pwojè yo",
+  "projectsEmpty": "Pa gen pwojè pibliye ankò."
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Gouvènans ak modèl depo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Gouvènans ak modèl depo",
+    "lead": "IATF kenbe pwojè aksè piblik, lizib, ak antretyen.",
+    "support": [
+      "Paj sa a eksplike sa ki kalifye, ki jan depo yo kenbe, ak ki responsablite depo-nivo aplike apre akseptasyon."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Règleman yo",
+      "title": "Misyon an anfòm, posesyon, lisans"
+    },
+    "cards": [
+      {
+        "title": "Misyon an anfòm",
+        "paragraphs": [
+          "IATF aksepte travay ki adrese yon baryè aksè reyèl e ki gen valè piblik klè.",
+          "Yon pwojè ta dwe itil pi lwen pase yon sèl workflow prive ak travay kòm yon depo piblik.",
+          "Pou aksè entènèt, IATF itilize [W3C WAI](https://www.w3.org/WAI/) eksperyans dirèk nan itilizatè yo nan teknoloji asistans se tou prèv pratik nan sa ki travay nan itilizasyon reyèl."
+        ]
+      },
+      {
+        "title": "Akseptasyon pwojè",
+        "paragraphs": [
+          "Yon pwopozisyon ka aksepte lè revizyon montre ke:"
+        ],
+        "items": [
+          "li adrese yon bezwen aksè reyèl",
+          "pwoblèm lan klè ase pou evalye",
+          "sijè ki abòde lan se reyalis ase pou lanse",
+          "travay la aliyen ak misyon IATF la",
+          "gen yon chemen plausib pou antretyen oswa fini"
+        ]
+      },
+      {
+        "title": "Pwopriyete depo",
+        "paragraphs": [
+          "Pwojè aksepte yo kreye anba òganizasyon IATF GitHub.",
+          "Repozitwa rete la pou chak pwojè kenbe yon kay piblik ki estab, menm si antrenè pita chanje."
+        ]
+      },
+      {
+        "title": "Lisans",
+        "paragraphs": [
+          "Pwojè IATF itilize lisans copyleft sof si yon pwojè deklare otreman:"
+        ],
+        "items": [
+          "<strong>Kòd:</strong> AGPL-3.0",
+          "<strong>Dokimantasyon:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Responsab enjenyè oswa antrenè",
+      "paragraphs": [
+        "Chak pwojè aksepte ta dwe gen yon enjenyè responsab nonmen oswa antretyen. moun sa a ka resevwa aksè administrasyon nan depo a epi li espere:"
+      ],
+      "items": [
+        "gid devlòpman nan piblik",
+        "kenbe estrikti depo a",
+        "revize oswa jere pwoblèm ak rale demann",
+        "dokiman desizyon teknik enpòtan",
+        "fè pwojè a konprann pou lòt moun"
+      ],
+      "footnote": "Sa a se responsablite depo-nivo. pwopriyete òganizasyonèl rete ak IATF. Responsablite isit la se depo stewardship, direksyon teknik, ak kowòdinasyon piblik  pa livrezon prive san limit, entegrasyon koutim, oswa angajman nivo sèvis deyò plan wout piblik la."
+    },
+    "publicDevelopment": {
+      "title": "Devlopman piblik",
+      "paragraphs": [
+        "Pwojè yo te lanse nan IATF yo devlope nan piblik pa default. depo a se sous piblik la nan verite pou:"
+      ],
+      "items": [
+        "kòd sous",
+        "pwoblèm",
+        "dokimantasyon",
+        "nòt sou plan wout la",
+        "istwa liberasyon"
+      ],
+      "footnote": "Pwojè enpòtan konesans pa ta dwe viv sèlman nan chat prive oswa bwat resepsyon."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Dosye piblik",
+      "title": "Dosye demann piblik"
+    },
+    "paragraphs": [
+      "IATF travay nan piblik pa default. Demann ki antre nan IAT F atravè sit entènèt la, imèl, Discord, GitHub, oswa lòt chanèl IATf ka vin dosye demann piblik.",
+      "Yon dosye demann piblik se pa nesesèman mesaj orijinal la. IATF ka rezime, redaksyon, oswa restriktire yon demann anvan piblikasyon pou bezwen aksè a ka revize san yo pa ekspoze enfòmasyon pèsonèl nesesè.",
+      "Dosye demann piblik yo ka estoke nan òganizasyon IATF GitHub, sou sit entènèt sa a, oswa tou de.",
+      "Anvan piblikasyon, IATF retire detay kontak pèsonèl ki pa nesesè, adrès prive, ak idantifikasyon detay sou itilizatè endividyèl nan teknoloji asistans sof si piblikasyon se klèman gen entansyon ak apwopriye.",
+      "Diskont se itilize pou kowòdinasyon enfòmèl. IATF pa separe achiv diskont konvèsasyon pa default, ak retansyon mesaj se kontwole pa diskont. Desizyon ki fèt nan diskont yo ta dwe rezime nan dosye piblik la sou GitHub oswa sou paj la pwojè ki enpòtan.",
+      "Dosye demann yo eskli nan motè rechèch endèks kote teknikman pratik. Piblik vle di revize ak responsab. Li pa vle di optimize pou dekouvèt nan rechèch non.",
+      "IATF ka mete ajou oswa retire dosye ki soti nan sifas piblik ki anba kontwòl li, men li pa ka garanti retire nan kachèt twazyèm-pati, notifikasyon, forks, Ekran, motè rechèch, Discord, oswa lòt sistèm ekstèn.",
+      "Si yon mesaj bezwen rete prive, pa voye li atravè chanèl piblik IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Wòl òganizasyonèl",
+      "title": "Chèz"
+    },
+    "lead": "Prezidan an kenbe jesyon òganizasyon-nivo nan IATF. Sa a se distenk de wòl nan enjenyè responsab pou chak pwojè: prezidan an responsab nan òganizasyon an kòm yon antye, pa pou direksyon an jou-a-jou nan nenpòt ki repozitwa sèl.",
+    "duties": {
+      "title": "Sa chèz la fè",
+      "items": [
+        "Kenbe pèmisyon mèt sou òganizasyon an IATF GitHub",
+        "Siyen sou akseptasyon pwojè ak desizyon achiv",
+        "Li aji kòm pwen kontak piblik pou IATF",
+        "Kowòdone eleksyon anyèl la"
+      ],
+      "footnote": "Prezidan an pa angaje IATF nan livrezon prive, travay peye, oswa akò nivo sèvis, epi li pa ranplase desizyon pou chak administratè depo sou direksyon teknik."
+    },
+    "election": {
+      "title": "Eleksyon anyèl",
+      "paragraphs": [
+        "Se chèz la eli yon fwa chak ane. eleksyon an kouri nan de premye semèn yo nan mwa desanm, rezilta yo te anonse pa Desanm 15, ak tèm nan nouvo kòmanse sou 1 janvye.",
+        "Votè ki kalifye yo se moun ki te kenbe yon wòl antrenè sou nenpòt depo IATF pandan ane a epi ki te fè omwen yon kontribisyon melanje nan yon repozitwa IATAF nan ane sa a. Chak votè kalifye gen yon sèl vòt. Kandida a ki gen plis vòt genyen; nan evènman an nan yon ratrapaj, se yon kouri-soti ki te fèt nan twazyèm semèn nan mwa desanm.",
+        "Eleksyon an kouri kòm yon Diskisyon GitHub piblik nan depo gouvènans IATF ki deziyen an, kidonk kandida yo, vòt la, ak rezilta a tout fè pati dosye piblik la."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinyite",
+      "paragraphs": [
+        "Si pa gen okenn eleksyon ki fèt nan yon ane bay, chèz aktyèl la kontinye nan wòl la jiskaske eleksyon kap vini an. Sa a se yon kontinyasyon endefini, pa yon peryòd gras  modèl la fèt pou kenbe òganizasyon an ki estab lè aktivite a ba, pa fòse yon tranzisyon ke pesonn pa pare pou.",
+        "Prezidan an ka demisyone nan nenpòt ki lè. antrenè aktif kapab tou rele yon eleksyon ekstraòdinè ak yon rezon deklare, kouri anba règleman yo menm jan ak eleksyon anyèl la."
+      ]
+    },
+    "current": {
+      "title": "Prezidan aktyèl",
+      "fields": [
+        {
+          "label": "Chèz",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tèm",
+          "value": "Jiska eleksyon Desanm 2026 la"
+        },
+        {
+          "label": "Wòl fòmalize",
+          "value": "2026"
+        },
+        {
+          "label": "Premye eleksyon pwograme",
+          "value": "Desanm 2026"
+        }
+      ]
+    },
+    "footnote": "Wòl la chèz te fòmalize nan 2026 fè jesyon òganizasyon-nivo eksplisit. Jiska lè sa a, responsablite òganizasyonèl te fèt enfòmèlman pa fondatè a."
+  },
+  "continuity": {
+    "states": {
+      "title": "Eta pwojè yo",
+      "paragraphs": [
+        "Pwojè yo itilize yon ti seri eta piblik:"
+      ],
+      "items": [
+        "Pwopozisyon",
+        "Aksepte",
+        "Aktif",
+        "Ki estab",
+        "Kap chèche antretè",
+        "Archive"
+      ],
+      "footnote": "Eta sa yo kenbe rejis la fasil pou eskane."
+    },
+    "reassignment": {
+      "title": "Re-atribisyon ak achiv",
+      "paragraphs": [
+        "Si yon antrenè kite oswa vin inaktif, IATF ka re-atribye responsablite, sispann devlopman, oswa achiv pwojè a.",
+        "Yon pwojè kapab tou dwe achiv lè bezwen orijinal la te satisfè, antretyen te sispann, oswa kontinye travay se pa reyalis ankò."
+      ],
+      "footnote": "Pwojè achiv rete piblikman vizib sof si gen yon rezon konvenkan fè otreman."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nòt fwontyè",
+      "title": "Ki sa IATF pa garanti"
+    },
+    "items": [
+      "livrezon kliyan prive",
+      "akò nivo sèvis",
+      "aksepte tout pwopozisyon",
+      "antretyen alontèm pou chak pwojè"
+    ],
+    "footnote": "IATF se yon modèl depo piblik, pa yon sèvis livrezon prive."
+  }
+}

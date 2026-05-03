@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Pwojè aksè piblik",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Pwojè aksè piblik",
+    "lead": "Rejis sa a lis pwojè piblik ki kenbe nan IATF. Pwojè aksè aksepte, enfrastrikti sit, ak prototip achiv yo kenbe vizib isit la.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejis",
+      "title": "Rejis aktyèl"
+    },
+    "intro": [
+      "Pwojè aksepte yo ki nan lis isit la yon fwa yo te pibliye."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Soumèt yon bezwen",
+      "title": "Transfòme yon bezwen aksesibilite konkrè nan yon pwojè piblik"
+    },
+    "paragraphs": [
+      "IATF revize bezwen aksesibilite konkrè ki ka vire nan travay sous louvri piblik itil."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Pa gen pwojè pibliye ankò",
+    "paragraphs": [
+      "IATF ap prepare premye seri pwojè piblik li yo.",
+      "Ou ka toujou voye yon demann si ou gen yon bezwen aksesibilite konkrè."
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Soti nan bezwen aksè nan repo piblik",
+    "lead": "IATF ede asosyasyon, gwoup, ak moun vire bezwen aksè reyèl nan pwojè sous louvri piblik.",
+    "support": [
+      "Pwojè aksepte yo pibliye nan òganizasyon an IATF GitHub anba yon lisans copyleft ak devlope an piblik pa yon enjenyè responsab."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modèl operasyon piblik",
+      "title": "Yon chemen piblik senp pou lojisyèl aksesib"
+    },
+    "paragraphs": [
+      "Atravè yon fòm, nenpòt moun ka soumèt yon pwoblèm aksè nan IATF. Si ekip la ka pran li, yon depo piblik GitHub louvri pou travay la.",
+      "Chak pwojè aksepte gen yon kay piblik klè pou kòd, pwoblèm, dokiman, ak lage, ak devlopman ki te dirije nan louvri pa yon enjenyè responsab."
+    ],
+    "specCard": {
+      "title": "Modèl operasyon piblik",
+      "terms": [
+        {
+          "term": "Bezwen",
+          "definition": "Pwoblèm aksè reyèl"
+        },
+        {
+          "term": "Revizyon",
+          "definition": "Misyon an anfòm ak posiblite pratik"
+        },
+        {
+          "term": "Espas pwojè",
+          "definition": "Repozitwa piblik GitHub"
+        },
+        {
+          "term": "Administrasyon",
+          "definition": "Pwopriyete òganizasyonèl IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Pwosesis",
+      "title": "Ki jan li fonksyone",
+      "intro": "Modèl la rete entansyonèlman piti pou chemen piblik la fasil pou swiv."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Yon bezwen soumèt",
+        "paragraphs": [
+          "Yon asosyasyon, gwoup, oswa moun ka soumèt yon demann ki baze sou yon bezwen aksè reyèl.",
+          "Demann yo ka kòmanse nan sit wèb la, pa imèl nan <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, oswa nan diskisyon."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF revize li",
+        "paragraphs": [
+          "Nou revize misyon anfòm, sijè ki abòde pratik, ak si wi ou non travay la fè pati nan yon pwojè sous louvri piblik."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Yon depo piblik kreye",
+        "paragraphs": [
+          "Si yon pwojè se aksepte, li se pibliye nan òganizasyon an IATF GitHub anba yon lisans copyleft.",
+          "Depo a vin kay piblik la nan kòd la, pwoblèm, dokiman, ak lage."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Yon enjenyè ki responsab ap dirije pwojè a",
+        "paragraphs": [
+          "Yon enjenyè responsab asiyen nan repozitwa pwojè a ak devlopman rive nan piblik la."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejis",
+      "title": "Rejis pwojè piblik"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kòmanse isit la",
+      "title": "Browse aktyèl travay oswa kòmanse yon pwojè konkrè"
+    },
+    "paragraphs": [
+      "Sèvi ak rejis la pou wè sa ki deja piblik, oswa kòmanse konsomasyon an si yon pwoblèm aksesibilite konkrè ta dwe vin yon pwojè."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "sit entènèt IATF",
+    "summary": "Sit piblik la pou International Accessibility Task Force la.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF te bezwen yon kay piblik ki estab ki eksplike modèl la, lis pwojè, ak pwen kontribye nan pwochen etap la dwat.",
+    "why": "Sit la se pòt devan piblik la nan IATF. Li bati kòm yon ti pwojè estatik se konsa li rete fasil li, tradui, ak kenbe nan louvri.",
+    "scopeIn": [
+      "Paj aterisaj piblik ki eksplike modèl IATF la",
+      "Rejis piblik nan pwojè IATF aksepte, aktif, ak achiv ak estati, antrenè, depo, ak Demo",
+      "Yon paj resepsyon demann ak fòm",
+      "Gouvènans ak transparans paj",
+      "Anglè sous ak estrikti pare pou tradiksyon",
+      "Deplase estatik sou Cloudflare Travayè Estatik Byen"
+    ],
+    "scopeOut": [
+      "Zòn manm prive, kont, oswa koule login",
+      "Hosting nan kòd sous pwojè, ki ap viv nan depo pwòp chak pwojè a",
+      "Chat an tan reyèl, ki ap viv nan diskisyon",
+      "Tracking pwoblèm pou pwojè endividyèl, ki ap viv nan repozitwa GitHub chak pwojè a"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Yon pwototip IATF byen bonè, achiv apre yo fin rive nan yon pwen arè natirèl.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Eksplwatasyon bonè nan yon zouti ki konsantre sou aksè anba parapli IATF la.",
+    "why": "Se depo a kenbe piblik kòm yon dosye nan travay la, menm si devlopman aktif te sispann.",
+    "scopeIn": [
+      "Prototype bonè nan yon zouti ki konsantre sou aksè kenbe kòm yon dosye piblik"
+    ],
+    "scopeOut": [
+      "Devlopman aktif oswa travay karakteristik",
+      "Angajman antretyen",
+      "Itilizasyon rekòmande nan pwodiksyon"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Yon bot kominote IATF, achiv apre yo fin rive nan yon pwen arè natirèl.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Otomatik alantou chanèl kominote IATF.",
+    "why": "Se depo a kenbe piblik kòm yon dosye nan travay la, menm si devlopman aktif te sispann.",
+    "scopeIn": [
+      "Otomatik diskisyon alantou chanèl kominote IATF, kenbe kòm yon dosye piblik"
+    ],
+    "scopeOut": [
+      "Devlopman aktif oswa travay karakteristik",
+      "Angajman antretyen",
+      "Itilizasyon rekòmande nan pwodiksyon"
+    ]
+  }
+]

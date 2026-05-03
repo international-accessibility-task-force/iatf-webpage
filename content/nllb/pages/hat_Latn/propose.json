@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Mande yon pwojè aksesibilite",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Mande yon pwojè aksesibilite",
+    "lead": "IATF revize demann pou pwojè aksè ki kòmanse soti nan yon bezwen reyèl.",
+    "support": [
+      "Ou pa bezwen yon espesifikasyon konplè. Yon pwoblèm klè, ki moun li afekte, e poukisa li enpòtan se ase pou kòmanse."
+    ],
+    "actions": [
+      {
+        "label": "Kòmanse yon demann",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Sèvi ak Discord olye",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Chanèl",
+      "title": "Chwazi wout ki pi fasil la"
+    },
+    "intro": [
+      "Tout wout antre nan menm revizyon an."
+    ],
+    "items": [
+      {
+        "label": "Sit wèb",
+        "body": "Sèvi ak fòm ki anba a pou soumèt yon demann estriktire."
+      },
+      {
+        "label": "Imèl",
+        "body": "Voye demann lan dirèkteman nan {{contact.requestsEmail}}E-mail demann ka vin dosye demann piblik apre revizyon ak redaksyon."
+      },
+      {
+        "label": "Distenksyon",
+        "body": "Kòmanse la si sa se pi fasil. demann lan toujou deplase nan menm revizyon an."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Anvan ou voye yon demann",
+    "paragraphs": [
+      "IATF travay nan piblik. Demann yo ka rezime epi pibliye kòm dosye demann piblik nan òganizasyon IAT F GitHub, sou sit entènèt sa a, oswa tou de.",
+      "Pa gen ladan adrès prive, nimewo telefòn, detay medikal, oswa idantifye enfòmasyon sou itilizatè endividyèl nan teknoloji asistans sof si li nesesè epi ou konfòtab ak IATF revize li.",
+      "IATF retire detay kontak pèsonèl ki pa nesesè anvan li pibliye dosye demann yo."
+    ]
+  },
+  "review": {
+    "title": "Revize atant yo",
+    "paragraphs": [
+      "Soumèt yon demann pa garanti akseptasyon.",
+      "IATF revize demann pou misyon anfòm, posiblite, itilite, ak si travay la ki dwe nan yon depo piblik.",
+      "Gen kèk demann ki ka refize, ranvwaye, oswa modifye anvan yo aksepte."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fòm demann",
+      "title": "Soumèt yon demann"
+    },
+    "fields": [
+      {
+        "kind": "antre",
+        "name": "moun k ap fè demann lan",
+        "label": "Non ou oswa òganizasyon ou",
+        "helper": "Ki moun k ap fè demann lan?"
+      },
+      {
+        "kind": "chwazi",
+        "name": "kontakRoute",
+        "label": "Wout kontak pi pito",
+        "helper": "Ki jan yo ta dwe swiv-up rive?",
+        "required": true,
+        "options": [
+          "Imèl",
+          "Distenksyon"
+        ]
+      },
+      {
+        "kind": "antre",
+        "name": "kontakDetay yo",
+        "label": "Detay kontak yo",
+        "helper": "Adrès imèl oswa adrès Discord pou swiv-up.",
+        "placeholder": "Adrès Imèl oswa adrès Discord",
+        "required": true
+      },
+      {
+        "kind": "antre",
+        "name": "lang",
+        "label": "Lang",
+        "helper": "Lang ou pito, si sa enpòtan.",
+        "value": "Anglè"
+      },
+      {
+        "kind": "zòn tèks",
+        "name": "pwoblèm",
+        "label": "Ki pwoblèm w ap eseye rezoud?",
+        "helper": "Dekri baryè a nan lang senp.",
+        "required": true
+      },
+      {
+        "kind": "zòn tèks",
+        "name": "afekte Itilizatè yo",
+        "label": "Ki moun sa afekte?",
+        "helper": "Ki moun sa t ap ede?",
+        "required": true
+      },
+      {
+        "kind": "zòn tèks",
+        "name": "extraKontèks",
+        "label": "Kontèks siplemantè",
+        "helper": "Pataje nenpòt lòt bagay ki ede eksplike bezwen an: poukisa li enpòtan, egzanp, referans, yon lide lojisyèl ki graj, oswa restriksyon tan."
+      },
+      {
+        "kind": "chwazi",
+        "name": "openSourceConsent",
+        "label": "konfòtab ak piblik devlòpman sous louvri?",
+        "helper": "Pwojè aksepte yo se depo piblik anba IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Wi wi",
+          "Non",
+          "Mwen poko sèten"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Si yo aksepte",
+      "title": "Ki sa aksepte vle di"
+    },
+    "items": [
+      "yon depo piblik nan òganizasyon IATF GitHub",
+      "yon enjenyè responsab ki asiyen nan pwojè a",
+      "yon lisans copyleft pou kòd la ak materyèl pwojè",
+      "devlòpman piblik nan depo a",
+      "yon antre nan rejis sou sit IATF la"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kòmanse konvèsasyon an",
+      "title": "Yon kout, klè demann se ase yo kòmanse"
+    },
+    "paragraphs": [
+      "Si ou gen yon bezwen aksè reyèl epi ou panse li ta dwe vin yon pwojè piblik, voye li ban nou."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

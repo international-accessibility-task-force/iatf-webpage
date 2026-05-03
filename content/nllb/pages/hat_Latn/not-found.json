@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Pa jwenn"
+  },
+  "hero": {
+    "eyebrow": "Pa jwenn",
+    "title": "Paj ou mande a pa jwenn",
+    "lead": "Sèvi ak wout prensipal yo anba a pou retounen nan sit piblik la.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Kay",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Wout ou mande a pa egziste."
+    ],
+    "items": [
+      {
+        "label": "Kay",
+        "href": "/"
+      },
+      {
+        "label": "Pwojè yo",
+        "href": "/projects/"
+      },
+      {
+        "label": "Antre nan",
+        "href": "/join/"
+      },
+      {
+        "label": "Aksè",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gouvènans",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparans",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

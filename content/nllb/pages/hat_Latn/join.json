@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Rantre nan IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Rantre nan IATF",
+    "lead": "Manm se ouvè. Gen plizyè fason yo patisipe, si ou konte sou teknoloji asistans, bati lojisyèl aksesib, tradui, tès, oswa kenbe yon pwojè. Diskisyon ak desizyon rive nan piblik sou GitHub ak diskisyon.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Wòl yo",
+      "title": "Fason pou kontribye"
+    },
+    "items": [
+      "<strong>Mande yon pwojè.</strong> Si ou rankontre yon baryè aksè ki ta ka adrese pa lojisyèl sous louvri piblik, voye li nan resepsyon demann lan.",
+      "<strong>Tès ak revizyon.</strong> Eseye pwojè IATF ak teknoloji asistans ou itilize, rapòte sa ki travay ak sa ki pa, ak dosye pwoblèm dirèkteman sou depo ki enpòtan an.",
+      "<strong>Tradui.</strong> Se sous kontni pibliye nan lang angle senp premye. tradiksyon yo te ajoute kòm kontribitè ki disponib, kòmanse ak Panyòl.",
+      "<strong>Konstwi.</strong> Chwazi pwoblèm nan nenpòt depo IATF, voye demann rale, oswa pran sou yon pwojè kòm enjenyè responsab li yo.",
+      "<strong>Kenbe li.</strong> Pwojè ki deja egziste pafwa bezwen yon nouvo antrenè. wotasyon Mantener se yon pati nòmal nan modèl la, se pa yon eksepsyon."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Chanèl",
+      "title": "Ki kote IATF travay nan piblik"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Pwoblèm, rale demann, lage, ak dosye pwojè.",
+      "<strong>Yo pa dakò.</strong> Live diskisyon, kowòdinasyon, ak kesyon enfòmèl yo.",
+      "<strong>Imèl.</strong> Itilize <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si ni GitHub ni diskisyon anfòm."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Pwochen etap",
+      "title": "Chwazi chanèl la ki matche ak jan ou vle kontribye"
+    },
+    "paragraphs": [
+      "Tout chanèl manje nan menm revizyon piblik la ak depo piblik yo menm."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

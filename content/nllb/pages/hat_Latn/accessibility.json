@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aksè",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aksè",
+    "lead": "IATF gen pou objaktif pou kenbe sit entènèt sa a senp, lizib, klavye aksesib, ak konpatib ak teknoloji asistans.",
+    "support": [
+      "Pou aksè entènèt, IATF itilize [W3C WAI](https://www.w3.org/WAI/) Pratik aksè tou enfòme pa eksperyans dirèk la nan itilizatè yo nan teknoloji asistans."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapòte",
+      "title": "Rapòte yon pwoblèm aksesibilite"
+    },
+    "paragraphs": [
+      "Si ou jwenn yon baryè aksè sou sit entènèt sa a, tanpri rapòte li pa imèl:",
+      "{{contact.accessibilityEmail}}",
+      "Rapò ki itil yo gen ladan yo:"
+    ],
+    "items": [
+      "paj kote pwoblèm nan te rive",
+      "sa w t ap eseye fè",
+      "ki teknoloji asistans, navigatè, oswa aparèy ou te itilize, si sa enpòtan",
+      "ki sa ki te pase mal",
+      "ki sa ki ta ede"
+    ],
+    "footnote": "Ou pa bezwen ekri yon rapò fòmèl sou ensèk. Yon deskripsyon klè ase."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manyen",
+      "title": "Jere pwoblèm piblik"
+    },
+    "paragraphs": [
+      "Pwoblèm aksè ka rezime nan depo piblik la ki enpòtan pou yo ka ranje nan ouvè a. Detay kontak pèsonèl ak enfòmasyon prive ki pa nesesè yo retire anvan piblikasyon.",
+      "Si rapò ou gen ladan enfòmasyon prive, di sa klèman nan mesaj la."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Eta aktyèl",
+      "title": "Limite li te ye"
+    },
+    "paragraphs": [
+      "Sit sa a se entansyonèlman ti ak sitou estatik. Kèk vèsyon lang ka enkonplè pandan y ap tradiksyon yo te prepare."
+    ]
+  }
+}
