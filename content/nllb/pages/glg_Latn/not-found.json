@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Non se atopou"
+  },
+  "hero": {
+    "eyebrow": "Non se atopou",
+    "title": "Non se atopou a páxina solicitada",
+    "lead": "Use as rutas principais de abaixo para volver ao sitio público.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Casa",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "A ruta que solicitou non existe."
+    ],
+    "items": [
+      {
+        "label": "Casa",
+        "href": "/"
+      },
+      {
+        "label": "Proxectos",
+        "href": "/projects/"
+      },
+      {
+        "label": "Únete",
+        "href": "/join/"
+      },
+      {
+        "label": "Accesibilidade",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Goberno",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparencia",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

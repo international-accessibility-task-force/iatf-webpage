@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accesibilidade",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accesibilidade",
+    "lead": "A IATF ten como obxectivo manter este sitio web sinxelo, lexible, accesible mediante teclado e compatible coas tecnoloxías de asistencia.",
+    "support": [
+      "Para a accesibilidade web, a IATF utiliza [W3C WAI](https://www.w3.org/WAI/) A accesibilidade práctica tamén está informada pola experiencia directa dos usuarios de tecnoloxías de asistencia."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Presentación de informes",
+      "title": "Comunicar un problema de accesibilidade"
+    },
+    "paragraphs": [
+      "Se atopa unha barreira de accesibilidade neste sitio web, por favor, informe-o por correo electrónico:",
+      "{{contact.accessibilityEmail}}",
+      "Os informes útiles inclúen:"
+    ],
+    "items": [
+      "a páxina onde ocorreu o problema",
+      "o que estabas a tentar facer",
+      "que tecnoloxía de asistencia, navegador ou dispositivo utilizabas, se é o caso",
+      "O que pasou mal?",
+      "o que tería axudado"
+    ],
+    "footnote": "Non é necesario escribir un informe formal de erros, basta cunha descrición clara."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipulación",
+      "title": "Xestión de cuestións públicas"
+    },
+    "paragraphs": [
+      "Os problemas de accesibilidade pódense resumir no repositorio público relevante para que poidan ser corrixidos de forma aberta.",
+      "Se o seu informe inclúe información privada, indiqueo claramente na mensaxe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Estado actual",
+      "title": "Limitacións coñecidas"
+    },
+    "paragraphs": [
+      "Este sitio é intencionalmente pequeno e estático. Algunhas versións lingüísticas poden estar incompletas mentres se preparan as traducións."
+    ]
+  }
+}

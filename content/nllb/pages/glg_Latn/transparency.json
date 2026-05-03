@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparencia",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparencia",
+    "lead": "A IATF traballa en público por defecto. As decisións do proxecto, os cambios de código, as modificacións de gobernanza e os custos operativos rexístranse en lugares públicos. Esta páxina enumera onde vive cada tipo de rexistro e como leelo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Registros",
+      "title": "Onde viven os rexistros"
+    },
+    "items": [
+      "<strong>As decisións do proxecto.</strong> As decisións de aceptación, arquivo e reasignación rexístranse como emisións ou liberacións no repositorio relevante e resúmanse no rexistro público. <a href=\"/projects/\">rexistro</a>- Por que non ?",
+      "<strong>Solicitar rexistros.</strong> Os rexistros públicos de solicitudes almacénanse na organización IATF GitHub, neste sitio web, ou en ambos. Os registros poden resumir, editar ou reestruturar a solicitude orixinal para que se poida revisar a necesidade de accesibilidade sen expoñer información persoal innecesaria. As decisións de discordia resúmanse no rexistro público cando afectan a un proxecto ou decisión de gobernanza. Os rexistos de solicitude están excluídos da indexación do motor de busca cando sexa técnicamente práctico. Ver rexistras: primeira solicitude de publicación pendente.",
+      "<strong>Cambios de código.</strong> Cada cambio de código é un compromiso público no repositorio relevante. <a href=\"{{contact.githubOrgUrl}}\">Organización GitHub</a>- Por que non ?",
+      "<strong>Cambios na gobernanza.</strong> As actualizacións da páxina de gobernanza son rastrexadas como compromisos coa <code>IATF-sitio web</code> Repositorio. Ver o <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">cometer historial</a> en GitHub.",
+      "<strong>Custos de explotación.</strong> A IATF mantén baixos os custos operativos e rexistra os gastos recorrentes de infraestrutura pública.",
+      "<strong>Notas de coordinación.</strong> Notas de calquera revisión ou decisión coordinada en directo en GitHub Discusións sobre o repositorio relevante  vista <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Discusións</a> sobre o <code>IATF-sitio web</code> Repositorio."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Costos",
+      "title": "Registro de custos de explotación"
+    },
+    "paragraphs": [
+      "A IATF mantén a súa infraestrutura pública intencionalmente pequena. Desde 2022, os principais custos operativos recorrentes foron os nomes de dominio.",
+      "Este rexistro non é un estado financeiro auditado, senón un rexistro público dos custos de explotación da infraestrutura utilizada para manter a IATF en liña."
+    ],
+    "footnote": "Os recibos poden ser referenciados ou publicados despois da redacción. Os enderezos persoais, os detalles de facturación e a información innecesaria da conta non forman parte do rexistro público.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Custo",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Notas",
+            "value": "O custo do dominio financiado por mugiwarafx. <code>iatf.cc</code> dominio."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custo",
+            "value": "USD 18,68"
+          },
+          {
+            "label": "Notas",
+            "value": "Custo do dominio financiado por mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custo",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Notas",
+            "value": "Custo do dominio financiado por mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custo",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Notas",
+            "value": "Custo do dominio financiado por mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custo",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Notas",
+            "value": "Custo do dominio financiado por mugiwarafx."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota de contorna",
+      "title": "O que non é público"
+    },
+    "paragraphs": [
+      "Algúns materiais mantéñense fóra dos rexistros públicos con propósitos:"
+    ],
+    "items": [
+      "Datos de contacto persoais dos proponentes.",
+      "Correspondencia privada usada só para aclarar unha solicitude antes de que sexa aceptada, rexeitada ou resumida.",
+      "Direccións privadas, números de teléfono e datos persoais innecesarios.",
+      "Calquera cousa que identifique a un usuario individual de tecnoloxía auxiliar sen o seu consentimento.",
+      "Conversacións de Raw Discord, a menos que unha mensaxe específica sexa intencionalmente movida a un rexistro público do proxecto."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ler máis",
+      "title": "A gobernanza é o libro de regras detrás destes rexistros."
+    },
+    "paragraphs": [
+      "Se queres entender como os proxectos son aceptados, arquivados ou reasignados, léa a páxina de gobernanza."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

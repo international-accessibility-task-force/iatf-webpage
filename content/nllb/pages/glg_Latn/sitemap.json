@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapa do sitio"
+  },
+  "hero": {
+    "eyebrow": "Índice",
+    "title": "Mapa do sitio",
+    "lead": "Todas as páxinas públicas de IATF.CC, nun só lugar."
+  },
+  "sections": [
+    {
+      "title": "Páxinas principais",
+      "items": [
+        {
+          "label": "Casa",
+          "href": "/"
+        },
+        {
+          "label": "Proxectos",
+          "href": "/projects/"
+        },
+        {
+          "label": "Solicitar un proxecto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Goberno",
+          "href": "/governance/"
+        },
+        {
+          "label": "Únete",
+          "href": "/join/"
+        },
+        {
+          "label": "Accesibilidade",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparencia",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proxectos",
+  "projectsEmpty": "Aínda non se publicaron proxectos."
+}
