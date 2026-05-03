@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Mula sa pangangailangan sa pag-access sa pampublikong repo",
+    "lead": "Tinutulungan ng IATF ang mga asosasyon, grupo, at indibidwal na i-convert ang tunay na mga pangangailangan sa pag-access sa mga pampublikong proyekto ng bukas na mapagkukunan.",
+    "support": [
+      "Ang tinanggap na mga proyekto ay nai-publish sa IATF GitHub organisasyon sa ilalim ng isang copyleft lisensya at binuo sa publiko sa pamamagitan ng isang responsable na inhinyero."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Pampublikong modelo ng pagpapatakbo",
+      "title": "Isang simpleng pampublikong daan para sa maa-access na software"
+    },
+    "paragraphs": [
+      "Sa pamamagitan ng isang form, kahit sino ay maaaring magsumite ng isang problema sa pag-access sa IATF. Kung ang koponan ay maaaring gawin ito, ang isang pampublikong GitHub repository ay binuksan para sa trabaho.",
+      "Ang bawat tinanggap na proyekto ay may malinaw na pampublikong tahanan para sa code, mga isyu, dokumentasyon, at mga paglabas, na may pag-unlad na pinamumunuan sa bukas ng isang responsable na inhinyero."
+    ],
+    "specCard": {
+      "title": "Pampublikong modelo ng pagpapatakbo",
+      "terms": [
+        {
+          "term": "Pangangailangan",
+          "definition": "Tunay na problema sa kakayahang ma-access"
+        },
+        {
+          "term": "Pagsusuri",
+          "definition": "Ang pagiging angkop sa misyon at praktikal na kakayahang maisagawa"
+        },
+        {
+          "term": "Lugar ng proyekto",
+          "definition": "Pampublikong repositoryo ng GitHub"
+        },
+        {
+          "term": "Pamamahala",
+          "definition": "Pagmamay-ari ng organisasyon ng IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proseso",
+      "title": "Paano ito gumagana",
+      "intro": "Ang modelo ay sadyang nananatiling maliit upang ang pampublikong landas ay madaling sundin."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Isang pangangailangan ang isinumite",
+        "paragraphs": [
+          "Ang isang asosasyon, grupo, o indibidwal ay maaaring magsumite ng kahilingan batay sa isang tunay na pangangailangan sa pagiging naa-access.",
+          "Ang mga kahilingan ay maaaring magsimula sa pamamagitan ng website, sa pamamagitan <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o sa pamamagitan ng Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Sinusuri ito ng IATF",
+        "paragraphs": [
+          "Sinusuri namin ang pagiging angkop ng misyon, praktikal na saklaw, at kung ang trabaho ay kabilang sa isang pampublikong proyektong open source."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ang isang pampublikong repositoryo ay nilikha",
+        "paragraphs": [
+          "Kung ang isang proyekto ay tinatanggap, ito ay nai-publish sa IATF GitHub organisasyon sa ilalim ng isang copyleft lisensya.",
+          "Ang repositoryo ay nagiging pampublikong tahanan ng code, mga isyu, dokumentasyon, at mga release."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Isang responsableng inhinyero ang nangunguna sa proyekto",
+        "paragraphs": [
+          "Ang isang responsable na inhinyero ay itinalaga sa repository ng proyekto at ang pag-unlad ay nangyayari sa publiko."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Pampublikong rehistro ng proyekto"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Simulan dito",
+      "title": "Mag-browse sa kasalukuyang trabaho o simulan ang isang kongkretong proyekto"
+    },
+    "paragraphs": [
+      "Gamitin ang rehistro upang makita kung ano ang publiko na, o simulan ang pag-inom kung ang isang tiyak na problema sa kakayahang ma-access ay dapat maging isang proyekto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

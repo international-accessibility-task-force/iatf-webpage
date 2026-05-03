@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Mga proyekto sa pag-access ng publiko",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Mga proyekto sa pag-access ng publiko",
+    "lead": "Ang rehistro na ito ay naglilista ng mga pampublikong proyekto na pinananatili sa pamamagitan ng IATF. Tinanggap na mga proyekto sa kakayahang ma-access, imprastraktura ng site, at na-archive na mga prototype ay pinananatiling nakikita dito.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Kasalukuyang rehistro"
+    },
+    "intro": [
+      "Ang tinanggap na mga proyekto ay nakalista dito sa sandaling sila ay nai-publish."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Magsumite ng pangangailangan",
+      "title": "Baguhin ang isang konkreto na pangangailangan sa pag-access sa isang pampublikong proyekto"
+    },
+    "paragraphs": [
+      "Sinusuri ng IATF ang mga tiyak na pangangailangan sa kakayahang ma-access na maaaring maging kapaki-pakinabang na pampublikong gawaing bukas na mapagkukunan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Walang mga proyekto na inilathala pa",
+    "paragraphs": [
+      "Ang IATF ay naghahanda ng unang publikong hanay ng mga proyekto.",
+      "Maaari ka pa ring magpadala ng isang kahilingan kung mayroon kang isang tiyak na pangangailangan sa kakayahang ma-access."
+    ]
+  }
+}

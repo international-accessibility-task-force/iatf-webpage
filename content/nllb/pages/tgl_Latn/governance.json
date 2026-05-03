@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Pamamahala at modelo ng repositoryo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Pamamahala at modelo ng repositoryo",
+    "lead": "Ang IATF ay nagpapanatili ng mga proyekto sa pag-access na pampublikong, mababasa, at mapanatili.",
+    "support": [
+      "Ipinaliliwanag sa pahinang ito kung ano ang kwalipikado, kung paano pinananatili ang mga repositoryo, at kung anong pananagutan sa antas ng repositoriyo ang nalalapat pagkatapos ng pagtanggap."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Mga Panuntunan",
+      "title": "Angkop na misyon, pagmamay-ari, pagbibigay ng lisensya"
+    },
+    "cards": [
+      {
+        "title": "Angkop sa misyon",
+        "paragraphs": [
+          "Tinatanggap ng IATF ang trabaho na tumutugon sa isang tunay na hadlang sa kakayahang ma-access at may malinaw na halaga sa publiko.",
+          "Ang isang proyekto ay dapat na kapaki-pakinabang na lampas sa isang solong pribadong daloy ng trabaho at maaaring gumana bilang isang pampublikong imbakan.",
+          "Para sa pag-access sa web, ginagamit ng IATF [W3C WAI](https://www.w3.org/WAI/) Ang direktang karanasan ng mga gumagamit ng mga teknolohiyang tumutulong ay praktikal ding katibayan ng kung ano ang gumagana sa tunay na paggamit."
+        ]
+      },
+      {
+        "title": "Pagtanggap ng proyekto",
+        "paragraphs": [
+          "Ang isang panukala ay maaaring tanggapin kapag ang pagsusuri ay nagpapakita na:"
+        ],
+        "items": [
+          "sinasagot nito ang isang tunay na pangangailangan sa pagiging naa-access",
+          "Ang problema ay sapat na malinaw upang suriin",
+          "ang saklaw ay sapat na makatotohanang upang ilunsad",
+          "ang gawain ay nakahanay sa misyon ng IATF",
+          "may makatuwirang landas tungo sa pagpapanatili o pagkumpleto"
+        ]
+      },
+      {
+        "title": "Pagmamay-ari ng repositoryo",
+        "paragraphs": [
+          "Ang tinanggap na mga proyekto ay nilikha sa ilalim ng IATF GitHub organisasyon.",
+          "Ang mga repositoryo ay nananatili doon upang ang bawat proyekto ay mapanatili ang isang matatag na pampublikong tahanan, kahit na ang mga tagapag-alaga ay magbabago sa kalaunan."
+        ]
+      },
+      {
+        "title": "Pagbibigay ng lisensya",
+        "paragraphs": [
+          "Ang mga proyekto ng IATF ay gumagamit ng copyleft licensing maliban kung ang isang proyekto ay nagsasabi ng iba pa:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> Ang AGPL-3.0",
+          "<strong>Dokumentasyon:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Responsableng inhinyero o tagapagmintinar",
+      "paragraphs": [
+        "Ang bawat tinanggap na proyekto ay dapat magkaroon ng isang pinangalanang responsable na inhinyero o tagapagpapanatili. Ang taong iyon ay maaaring makatanggap ng pag-access ng admin sa repositoryo at inaasahan na:"
+      ],
+      "items": [
+        "gabay sa pag-unlad sa pampublikong",
+        "mapanatili ang istraktura ng repository",
+        "suriin o pamahalaan ang mga isyu at i-pull ang mga kahilingan",
+        "dokumentohin ang mahahalagang teknikal na mga desisyon",
+        "gawin ang proyekto na mauunawaan ng iba"
+      ],
+      "footnote": "Ito ay responsibilidad ng antas ng repositoryo. Ang pagmamay-ari ng organisasyon ay mananatiling kasama ng IATF. Ang responsibilidad dito ay ang pangangasiwa ng repositoriyo, teknikal na direksyon, at koordinasyon ng publiko  hindi walang limitasyong pribadong paghahatid, pasadyang pagsasama, o mga pangako sa antas ng serbisyo sa labas ng pampublikong roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Pampublikong pag-unlad",
+      "paragraphs": [
+        "Ang mga proyekto na inilunsad sa pamamagitan ng IATF ay binuo sa publiko bilang default. Ang repositoryo ay ang pampublikong mapagkukunan ng katotohanan para sa:"
+      ],
+      "items": [
+        "pinagmulan ng kodigo",
+        "mga isyu",
+        "dokumentasyon",
+        "mga tala ng roadmap",
+        "kasaysayan ng paglabas"
+      ],
+      "footnote": "Ang mahalagang kaalaman sa proyekto ay hindi dapat manirahan lamang sa pribadong mga chat o inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Mga pampublikong talaan",
+      "title": "Mga talaan ng pampublikong kahilingan"
+    },
+    "paragraphs": [
+      "Ang mga kahilingan na pumapasok sa IATF sa pamamagitan ng website, email, Discord, GitHub, o iba pang mga channel ng Iatf ay maaaring maging pampublikong mga talaan ng kahilingang.",
+      "Ang isang pampublikong talaan ng kahilingan ay hindi kinakailangang ang orihinal na mensahe. Ang IATF ay maaaring magsumaryo, mag-edit, o mag-restructure ng isang kahilingang bago ang pag-publish upang ang pangangailangan sa kakayahang ma-access ay maaaring suriin nang hindi nakalantad ng di-kailangang personal na impormasyon.",
+      "Ang mga talaan ng pampublikong kahilingan ay maaaring maiimbak sa organisasyon ng IATF GitHub, sa website na ito, o pareho.",
+      "Bago ang paglalathala, inaalis ng IATF ang hindi kinakailangang personal na mga detalye ng pakikipag-ugnay, pribadong mga address, at pagkilala ng mga detalye tungkol sa mga indibidwal na gumagamit ng mga katulong na teknolohiya maliban kung malinaw na inilaan at naaangkop ang paglathala.",
+      "Ang Discord ay ginagamit para sa di-pormal na koordinasyon. Ang IATF ay hindi hiwalay na nag-archive ng mga pag-uusap sa Discord sa pamamagitan ng default, at ang pagpapanatili ng mensahe ay kinokontrol ng Discord.",
+      "Ang mga talaan ng kahilingan ay hindi kasama sa pag-index ng search engine kung saan praktikal sa teknikal. Ang publiko ay nangangahulugang reviewable at accountable. Hindi ito nangangahulugan na na-optimize para sa pagtuklas sa pamamagitan ng mga paghahanap ng pangalan.",
+      "Ang IATF ay maaaring mag-update o mag-alis ng mga talaan mula sa mga pampublikong ibabaw na kinokontrol ng Iatf, ngunit hindi maaaring garantiyahin ang pagtanggal mula sa third-party caches, notifications, forks, screenshots, search engines, Discord, o iba pang mga panlabas na sistema.",
+      "Kung ang isang mensahe ay kailangang manatiling pribado, huwag ipadala ito sa pamamagitan ng mga pampublikong channel ng IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisasyong tungkulin",
+      "title": "Tagapangasiwa"
+    },
+    "lead": "Ang pinuno ay nagtataglay ng pamamahala sa antas ng organisasyon ng IATF. Ito ay naiiba mula sa tungkulin ng may pananagutan na inhinyero sa bawat proyekto: ang pangulo ay responsable para sa samahan sa kabuuan, hindi para sa pang-araw-araw na direksyon ng anumang solong repositoryo.",
+    "duties": {
+      "title": "Ano ang ginagawa ng upuan",
+      "items": [
+        "May hawak na mga pahintulot ng may-ari sa IATF GitHub organisasyon",
+        "Pag-sign off sa pagtanggap ng proyekto at mga desisyon sa pag-archive",
+        "Kumikilos bilang pampublikong punto ng pakikipag-ugnayan para sa IATF",
+        "Nag-uugnay sa taunang halalan"
+      ],
+      "footnote": "Ang chair ay hindi nag-uutos sa IATF sa pribadong paghahatid, bayad na trabaho, o mga kasunduan sa antas ng serbisyo, at hindi pinalalampas ang mga desisyon sa bawat tagapapanatili ng repository sa teknikal na direksyon."
+    },
+    "election": {
+      "title": "Taunang halalan",
+      "paragraphs": [
+        "Ang pinuno ay nahalal nang isang beses sa isang taon. Ang halalan ay tumatakbo sa unang dalawang linggo ng Disyembre, ang mga resulta ay inihayag sa Disyembre 15, at ang bagong termino ay nagsisimula sa Enero 1.",
+        "Ang mga karapat-dapat na botante ay mga taong humahawak ng papel ng tagapapanatili sa anumang repositoryo ng IATF sa loob ng isang taon at gumawa ng hindi bababa sa isang pinagsamang kontribusyon sa isang repositoryon ng IATAF sa taong iyon. Ang bawat may karapatang boto ay may isang boto. Ang kandidato na may pinakamaraming mga boto ay nanalo; sa kaganapan ng isang pantay, isang run-off ay gaganapin sa ikatlong linggo ng Disyembre.",
+        "Ang halalan ay pinatatakbo bilang isang pampublikong Diskusyon sa GitHub sa itinalagang repository ng pamamahala ng IATF, kaya ang mga kandidato, ang boto, at ang resulta ay lahat ng bahagi ng publikong talaan."
+      ]
+    },
+    "continuity": {
+      "title": "Pagpapatuloy",
+      "paragraphs": [
+        "Ang modelong ito ay dinisenyo upang panatilihing matatag ang organisasyon kapag ang aktibidad ay mababa, hindi upang pilitin ang isang paglipat na walang sinumang handa.",
+        "Ang mga aktibong tagapag-alaga ay maaari ring magtawag ng isang pambihirang halalan na may isang naiulat na dahilan, na pinatatakbo sa ilalim ng parehong mga panuntunan tulad ng taunang eleksyon."
+      ]
+    },
+    "current": {
+      "title": "Kasalukuyang pinuno",
+      "fields": [
+        {
+          "label": "Tagapangasiwa",
+          "value": "mgagiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Katapusan",
+          "value": "Hanggang sa Disyembre 2026 eleksyon"
+        },
+        {
+          "label": "Pormal na papel",
+          "value": "2026"
+        },
+        {
+          "label": "Unang nakaiskedyul na halalan",
+          "value": "Disyembre 2026"
+        }
+      ]
+    },
+    "footnote": "Ang tungkulin ng pinuno ay pormal noong 2026 upang gawing malinaw ang pamamahala sa antas ng organisasyon. Hanggang noon, ang responsibilidad sa organisasyon ay isinasagawa nang di-pormal ng tagapagtatag."
+  },
+  "continuity": {
+    "states": {
+      "title": "Mga estado ng proyekto",
+      "paragraphs": [
+        "Ang mga proyekto ay gumagamit ng isang maliit na hanay ng mga pampublikong estado:"
+      ],
+      "items": [
+        "Panukala",
+        "Tinanggap",
+        "Aktibong",
+        "Patatag",
+        "Naghahanap ng tagapag-alaga",
+        "Arkibo"
+      ],
+      "footnote": "Ang mga estado na ito ay ginagawang madali ang pag-scan ng rehistro."
+    },
+    "reassignment": {
+      "title": "Ang muling pagbibigay at pag-archive",
+      "paragraphs": [
+        "Kung ang isang tagapapanatili ay umalis o nagiging hindi aktibo, maaaring muling magtalaga ng responsibilidad ang IATF, i-pause ang pag-unlad, o i-archive ang proyekto.",
+        "Maaaring i-archive din ang isang proyekto kapag natugunan na ang orihinal na pangangailangan, tumigil na ang pagpapanatili, o hindi na makatotohanang ipagpatuloy ang trabaho."
+      ],
+      "footnote": "Ang na-archive na mga proyekto ay nananatiling nakikita ng publiko maliban na lamang kung may isang kapaki-pakinabang na dahilan upang gawin ito sa ibang paraan."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Talaan ng hangganan",
+      "title": "Ano ang hindi ginagarantiyahan ng IATF"
+    },
+    "items": [
+      "paghahatid ng pribadong kliyente",
+      "mga kasunduan sa antas ng serbisyo",
+      "pagtanggap sa bawat panukala",
+      "pangmatagalang pagpapanatili para sa bawat proyekto"
+    ],
+    "footnote": "Ang IATF ay isang modelo ng pampublikong imbakan, hindi isang pribadong serbisyo sa paghahatid."
+  }
+}

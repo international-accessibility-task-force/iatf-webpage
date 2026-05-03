@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indise",
+    "title": "Sitemap",
+    "lead": "Lahat ng pampublikong pahina sa iatf.cc, sa iisang lugar."
+  },
+  "sections": [
+    {
+      "title": "Pangunahing mga pahina",
+      "items": [
+        {
+          "label": "Bahay",
+          "href": "/"
+        },
+        {
+          "label": "Mga Proyekto",
+          "href": "/projects/"
+        },
+        {
+          "label": "Humiling ng isang proyekto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pamamahala",
+          "href": "/governance/"
+        },
+        {
+          "label": "Sumali",
+          "href": "/join/"
+        },
+        {
+          "label": "Pagkakaroon ng kakayahang ma-access",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparensya",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Mga Proyekto",
+  "projectsEmpty": "Walang mga proyekto na inilathala pa."
+}

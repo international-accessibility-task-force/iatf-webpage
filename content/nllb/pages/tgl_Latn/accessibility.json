@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Pagkakaroon ng kakayahang ma-access",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Pagkakaroon ng kakayahang ma-access",
+    "lead": "Ang IATF ay naglalayong panatilihin ang website na ito na simple, mabasa, naa-access sa keyboard, at katugma sa mga teknolohiyang katulong.",
+    "support": [
+      "Para sa pag-access sa web, ginagamit ng IATF [W3C WAI](https://www.w3.org/WAI/) Ang praktikal na kakayahang ma-access ay binabanggit din sa pamamagitan ng direktang karanasan ng mga gumagamit ng mga teknolohiyang tumutulong."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Pag-uulat",
+      "title": "Ireport ang isang isyu sa kakayahang ma-access"
+    },
+    "paragraphs": [
+      "Kung natagpuan mo ang isang hadlang sa pag-access sa website na ito, mangyaring iulat ito sa pamamagitan ng email:",
+      "{{contact.accessibilityEmail}}",
+      "Kabilang sa kapaki-pakinabang na mga ulat ang:"
+    ],
+    "items": [
+      "ang pahina kung saan nangyari ang isyu",
+      "kung ano ang sinusubukan mong gawin",
+      "kung anong tulong na teknolohiya, browser, o aparato ang iyong ginagamit, kung may kinalaman",
+      "ano ang mali",
+      "kung ano ang nakatulong"
+    ],
+    "footnote": "Hindi mo kailangang magsulat ng pormal na ulat ng bug. Ang isang malinaw na paglalarawan ay sapat na."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Paghawak",
+      "title": "Pamamahala ng pampublikong isyu"
+    },
+    "paragraphs": [
+      "Ang mga isyu sa kakayahang ma-access ay maaaring summarized sa may-katuturang pampublikong repository upang sila ay maaaring ayusin sa bukas. Personal na mga detalye ng contact at hindi kinakailangang pribadong impormasyon ay tinanggal bago ang publication.",
+      "Kung ang iyong ulat ay may pribadong impormasyon, sabihin ito nang malinaw sa mensahe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Kasalukuyang kalagayan",
+      "title": "Kilalang mga limitasyon"
+    },
+    "paragraphs": [
+      "Ang site na ito ay sadyang maliit at karamihan ay static. Ang ilang mga bersyon ng wika ay maaaring hindi kumpleto habang inihahanda ang mga pagsasalin."
+    ]
+  }
+}

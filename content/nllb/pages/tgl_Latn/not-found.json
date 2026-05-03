@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Hindi natagpuan"
+  },
+  "hero": {
+    "eyebrow": "Hindi natagpuan",
+    "title": "Hindi natagpuan ang hiniling na pahina",
+    "lead": "Gamitin ang pangunahing mga ruta sa ibaba upang makabalik sa pampublikong lugar.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Bahay",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ang ruta na iyong hiniling ay hindi umiiral."
+    ],
+    "items": [
+      {
+        "label": "Bahay",
+        "href": "/"
+      },
+      {
+        "label": "Mga Proyekto",
+        "href": "/projects/"
+      },
+      {
+        "label": "Sumali",
+        "href": "/join/"
+      },
+      {
+        "label": "Pagkakaroon ng kakayahang ma-access",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pamamahala",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparensya",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

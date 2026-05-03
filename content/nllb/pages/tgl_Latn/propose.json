@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Humiling ng isang proyekto sa kakayahang ma-access",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Humiling ng isang proyekto sa kakayahang ma-access",
+    "lead": "Sinusuri ng IATF ang mga kahilingan para sa mga proyekto sa pag-access na nagsisimula mula sa isang tunay na pangangailangan.",
+    "support": [
+      "Hindi mo kailangan ng isang kumpletong detalye. Ang isang malinaw na problema, kung sino ang apektado nito, at kung bakit ito mahalaga ay sapat na upang magsimula."
+    ],
+    "actions": [
+      {
+        "label": "Magsimula ng isang kahilingan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Gamitin ang Discord sa halip",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mga kanal",
+      "title": "Piliin ang pinakamadaling ruta"
+    },
+    "intro": [
+      "Ang lahat ng ruta ay pumapasok sa iisang pagsusuri."
+    ],
+    "items": [
+      {
+        "label": "Opisyal na website",
+        "body": "Gamitin ang form sa ibaba upang magsumite ng isang nakabalangkas na kahilingan."
+      },
+      {
+        "label": "E-mail",
+        "body": "Ipadala ang kahilingan nang direkta sa {{contact.requestsEmail}}Ang mga kahilingan sa email ay maaaring maging pampublikong mga talaan ng kahilingang pagkatapos ng pagsusuri at pag-edit."
+      },
+      {
+        "label": "Di-pagkakasundo",
+        "body": "Magsimula doon kung iyon ang pinakamadaling. Ang kahilingan ay lumilipat pa rin sa parehong pagsusuri."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Bago ka magpadala ng kahilingan",
+    "paragraphs": [
+      "Ang mga kahilingan ay maaaring ma-summarize at mai-publish bilang mga pampublikong talaan ng kahilingang sa organisasyon ng IATF GitHub, sa website na ito, o pareho.",
+      "Huwag isama ang pribadong mga address, numero ng telepono, medikal na mga detalye, o pagkilala ng impormasyon tungkol sa mga indibidwal na gumagamit ng mga teknolohiyang katulong maliban kung ito ay kinakailangan at ikaw ay komportable na suriin ito ng IATF.",
+      "Inalis ng IATF ang hindi kinakailangang personal na mga detalye ng pakikipag-ugnay bago i-publish ang mga talaan ng kahilingan."
+    ]
+  },
+  "review": {
+    "title": "Mga inaasahan sa pagsusuri",
+    "paragraphs": [
+      "Ang pagsumite ng kahilingan ay hindi garantiya ng pagtanggap.",
+      "Sinusuri ng IATF ang mga kahilingan para sa pagiging angkop sa misyon, pagiging posible, pagiging kapaki-pakinabang, at kung ang trabaho ay kabilang sa isang pampublikong repositoryo.",
+      "Ang ilang mga kahilingan ay maaaring tanggihan, ipagpaliban, o baguhin bago tanggapin."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Form ng kahilingan",
+      "title": "Magsumite ng kahilingan"
+    },
+    "fields": [
+      {
+        "kind": "mga input",
+        "name": "humihiling",
+        "label": "Ang iyong pangalan o organisasyon",
+        "helper": "Sino ang gumagawa ng kahilingan?"
+      },
+      {
+        "kind": "pumili",
+        "name": "Kontak na Landas",
+        "label": "Pinakamahusay na ruta ng pakikipag-ugnayan",
+        "helper": "Paano dapat magaganap ang follow-up?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Di-pagkakasundo"
+        ]
+      },
+      {
+        "kind": "mga input",
+        "name": "mga detalye ng pakikipag-ugnayan",
+        "label": "Mga detalye sa pakikipag-ugnayan",
+        "helper": "Email address o Discord handle para sa follow-up.",
+        "placeholder": "E-mail address o pangalan ng Discord",
+        "required": true
+      },
+      {
+        "kind": "mga input",
+        "name": "wika",
+        "label": "Wika",
+        "helper": "Ang iyong ginustong wika, kung may kaugnayan.",
+        "value": "Ingles"
+      },
+      {
+        "kind": "lugar ng teksto",
+        "name": "problema",
+        "label": "Anong problema ang sinusubukan mong lutasin?",
+        "helper": "Ilarawan ang hadlang sa simpleng wika.",
+        "required": true
+      },
+      {
+        "kind": "lugar ng teksto",
+        "name": "apektadong mga gumagamit",
+        "label": "Sino ang apektado?",
+        "helper": "Sino ang matutulungan nito?",
+        "required": true
+      },
+      {
+        "kind": "lugar ng teksto",
+        "name": "extraKonteksto",
+        "label": "Dagdag na konteksto",
+        "helper": "Ibahagi ang anumang bagay na makakatulong na ipaliwanag ang pangangailangan: kung bakit mahalaga ito, mga halimbawa, mga sanggunian, isang malupit na ideya sa software, o mga paghihigpit sa oras."
+      },
+      {
+        "kind": "pumili",
+        "name": "openSourceConsent (pagbibigay ng pahintulot)",
+        "label": "Kumportable ka ba sa pampublikong pag-unlad ng open source?",
+        "helper": "Ang tinanggap na mga proyekto ay pampublikong mga repositoryo sa ilalim ng IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Oo naman",
+          "Hindi",
+          "Hindi pa sigurado"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Kung tatanggapin",
+      "title": "Ano ang ibig sabihin ng pagtanggap"
+    },
+    "items": [
+      "isang pampublikong imbakan sa IATF GitHub organisasyon",
+      "isang responsable na inhinyero na nakatalaga sa proyekto",
+      "isang copyleft lisensya para sa code at mga materyales ng proyekto",
+      "pampublikong pag-unlad sa repositoryo",
+      "isang talaan sa rehistro sa site ng IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Magsimula ng pag-uusap",
+      "title": "Ang isang maikli, malinaw na kahilingan ay sapat na upang magsimula"
+    },
+    "paragraphs": [
+      "Kung mayroon kang tunay na pangangailangan sa pag-access at sa palagay mo dapat itong maging isang pampublikong proyekto, ipadala ito sa amin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

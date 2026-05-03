@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparensya",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparensya",
+    "lead": "Ang IATF ay gumagana sa publiko sa pamamagitan ng default. Ang mga desisyon ng proyekto, pagbabago ng code, pagbabago sa pamamahala, at mga gastos sa pagpapatakbo ay naitala sa mga pampublikong lokasyon. Ang pahinang ito ay nakalista kung saan nakatira ang bawat uri ng record at kung paano ito mabasa.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Mga talaan",
+      "title": "Kung saan nakatira ang mga talaan"
+    },
+    "items": [
+      "<strong>Mga Desisyon sa Proyekto.</strong> Ang mga desisyon sa pagtanggap, pag-archive, at muling pag-aatas ay naitala bilang mga isyu o mga paglabas sa naaangkop na repositoryo, at pinagsama-sama sa pampublikong rehistro. <a href=\"/projects/\">rehistro</a>. sa pamamagitan ng .",
+      "<strong>Humiling ng mga talaan.</strong> Ang mga talaan ng pampublikong kahilingan ay nakaimbak sa organisasyon ng IATF GitHub, sa website na ito, o pareho. Maaaring magsumaryo, mag-edit, o mag-restructure ang orihinal na kahilisan upang ang pangangailangan sa kakayahang ma-access ay maaaring suriin nang hindi nakalantad ng hindi kinakailangang personal na impormasyon. Ang mga desisyon ng di-pagkakasundo ay pinagsama-sama sa mga publikong talaan kapag nakakaapekto sila sa isang proyekto o desisyon sa pamamahala.",
+      "<strong>Nagbabago ang code.</strong> Ang bawat pagbabago ng code ay isang pampublikong commit sa naaangkop na repositoryo. Tingnan ang IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub na organisasyon</a>. sa pamamagitan ng .",
+      "<strong>Pagbabago sa pamamahala.</strong> Ang mga pag-update sa pahina ng pamamahala ay sinusubaybayan bilang mga pangako sa <code>iatf-website</code> Tingnan ang <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">kasaysayan ng commit</a> sa GitHub.",
+      "<strong>Mga gastos sa pagpapatakbo.</strong> Ang IATF ay nagpapanatili ng mga gastos sa pagpapatakbo na mababa at mga talaan ng paulit-ulit na gastos sa pampublikong imprastraktura.",
+      "<strong>Mga tala ng koordinasyon.</strong> Mga tala mula sa anumang coordinated review o desisyon na nakatira sa GitHub Mga talakayan sa naaangkop na imbakan  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Pag-uusap</a> sa <code>iatf-website</code> repositoryo."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Mga gastos",
+      "title": "Talaan ng gastos sa pagpapatakbo"
+    },
+    "paragraphs": [
+      "Ang IATF ay nagpapanatiling maliit ang pampublikong imprastraktura nito. Mula 2022, ang pangunahing paulit-ulit na gastos sa pagpapatakbo ay mga pangalan ng domain.",
+      "Ang talaan na ito ay hindi isang na-audit na pahayag sa pananalapi. Ito ay isang pampublikong talaan ng gastos sa pagpapatakbo para sa imprastraktura na ginagamit upang panatilihing online ang IATF."
+    ],
+    "footnote": "Ang mga resibo ay maaaring ma-referensya o ma-publish pagkatapos ng pag-edit. Ang mga personal na address, mga detalye sa pagbili, at hindi kinakailangang impormasyon sa account ay hindi bahagi ng pampublikong talaan.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Gastos",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Mga tala",
+            "value": "Ang gastos ng domain na pinondohan ng mugiwarafx. Ang pagho-host ay gumagamit ng libreng antas o mababang gastos na imprastraktura sa pamamagitan ng Cloudflare. Ang proyekto ay lumipat mula sa Vercel hanggang sa CloudFlare at nagsimulang gumamit ng mas maikling <code>iatf.cc</code> sangkatauhan."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internasyunal na pag-access ng taskforce.com</code>"
+          },
+          {
+            "label": "Gastos",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Mga tala",
+            "value": "Gastos ng domain na pinondohan ng mugiwarafx. Ang pagho-host ay gumagamit ng libreng antas o mababang gastos na imprastraktura."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internasyunal na pag-access ng taskforce.com</code>"
+          },
+          {
+            "label": "Gastos",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Mga tala",
+            "value": "Gastos ng domain na pinondohan ng mugiwarafx. Ang pagho-host ay gumagamit ng libreng antas o mababang gastos na imprastraktura sa pamamagitan ng Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internasyunal na pag-access ng taskforce.com</code>"
+          },
+          {
+            "label": "Gastos",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Mga tala",
+            "value": "Gastos ng domain na pinondohan ng mugiwarafx. Ang pagho-host ay gumagamit ng libreng antas o mababang gastos na imprastraktura."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domain",
+            "value": "<code>internasyunal na pag-access ng taskforce.com</code>"
+          },
+          {
+            "label": "Gastos",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Mga tala",
+            "value": "Gastos ng domain na pinondohan ng mugiwarafx. Ang pagho-host ay gumagamit ng libreng tier o mababang gastos na imprastraktura sa pamamagitan ng GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Talaan ng hangganan",
+      "title": "Ano ang hindi pampublikong"
+    },
+    "paragraphs": [
+      "Ang ilang materyal ay hindi inilalagay sa pampublikong mga talaan sa layuning:"
+    ],
+    "items": [
+      "Personal na impormasyon sa pakikipag-ugnayan ng mga nag-propose.",
+      "Pribadong sulat na ginagamit lamang upang linawin ang isang kahilingan bago ito tanggapin, tanggihan, o buod.",
+      "Mga pribadong address, numero ng telepono, at di-kailangang personal na impormasyon.",
+      "Anumang bagay na makikilala ang isang indibidwal na gumagamit ng teknolohiyang tumutulong nang walang pahintulot.",
+      "Mga pag-uusap ng Raw Discord, maliban kung ang isang tiyak na mensahe ay sadyang inilipat sa isang pampublikong talaan ng proyekto."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Magbasa nang higit pa",
+      "title": "Ang pamamahala ay ang aklat ng panuntunan sa likod ng mga talaan na ito"
+    },
+    "paragraphs": [
+      "Kung nais mong maunawaan kung paano tinatanggap, na-archive, o muling itinalaga ang mga proyekto, basahin ang pahina ng pamamahala."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

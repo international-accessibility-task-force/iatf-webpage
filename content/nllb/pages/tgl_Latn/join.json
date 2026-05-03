@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Sumali sa IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Sumali sa IATF",
+    "lead": "Ang pagiging kasapi ay bukas. Mayroong maraming mga paraan upang makilahok, kung umaasa ka sa tumutulong na teknolohiya, bumuo ng naa-access na software, magsalin, subukan, o mapanatili ang isang proyekto. Ang mga talakayan at desisyon ay nangyayari sa publiko sa GitHub at Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Mga tungkulin",
+      "title": "Mga paraan ng pagbibigay ng kontribusyon"
+    },
+    "items": [
+      "<strong>Humiling ng isang proyekto.</strong> Kung nakatagpo ka ng isang hadlang sa pag-access na maaaring matugunan ng pampublikong open source software, ipadala ito sa pamamagitan ng pagtanggap ng kahilingan.",
+      "<strong>Subukan at suriin.</strong> Subukan ang mga proyekto ng IATF gamit ang teknolohiyang tumutulong na ginagamit mo, iulat kung ano ang gumagana at kung ano ay hindi, at i-file ang mga isyu nang direkta sa naaangkop na repositoryo.",
+      "<strong>Magsalin.</strong> Ang nilalaman ng pinagmulan ay nai-publish sa simpleng Ingles muna. Ang mga pagsasalin ay idinagdag habang ang mga nag-ambag ay magagamit, na nagsisimula sa Kastila.",
+      "<strong>Magtatayo.</strong> Pumili ng mga isyu sa anumang IATF repository, magpadala ng mga kahilingan sa pag-alis, o kumuha ng isang proyekto bilang responsable na inhinyero nito.",
+      "<strong>Panatilihin.</strong> Ang mga umiiral na proyekto kung minsan ay nangangailangan ng isang bagong tagapag-alaga. Ang pag-ikot ng taga-alaga ay isang normal na bahagi ng modelo, hindi isang pagbubukod."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Mga kanal",
+      "title": "Kung saan gumagana ang IATF sa publiko"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Mga isyu, pull request, release, at mga talaan ng proyekto.",
+      "<strong>Di-pagkakasundo.</strong> Buhay na talakayan, koordinasyon, at di-pormal na mga katanungan.",
+      "<strong>Mag-email.</strong> Paggamit <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> kung hindi magkasya ang GitHub o Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Susunod na hakbang",
+      "title": "Piliin ang channel na tumutugma sa kung paano mo nais na mag-ambag"
+    },
+    "paragraphs": [
+      "Ang lahat ng mga channel ay naka-feed sa parehong pampublikong pagsusuri at parehong pampubliko na mga repositoryo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
