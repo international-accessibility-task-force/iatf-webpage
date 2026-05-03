@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nun truvatu"
+  },
+  "hero": {
+    "eyebrow": "Nun truvatu",
+    "title": "La pàggina dumandata nun fu attruvata",
+    "lead": "Pigghiati li rotti principali ccà sutta p'arriturnari ô situ pùbblicu.",
+    "support": [],
+    "actions": [
+      {
+        "label": "A casa",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "La strata ca dumannasti nun esisti."
+    ],
+    "items": [
+      {
+        "label": "A casa",
+        "href": "/"
+      },
+      {
+        "label": "Prughjetti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Unisciti",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilità",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Guvernanza",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trasparenza",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

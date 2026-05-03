@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap[cancia _ cancia la surgenti]"
+  },
+  "hero": {
+    "eyebrow": "Indici",
+    "title": "Sitemap[cancia _ cancia la surgenti]",
+    "lead": "Ogni pàggina pùbbrica di l'iatf.cc, 'n un locu."
+  },
+  "sections": [
+    {
+      "title": "Pàggini principali",
+      "items": [
+        {
+          "label": "A casa",
+          "href": "/"
+        },
+        {
+          "label": "Prughjetti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Richiedi nu pruggettu",
+          "href": "/propose/"
+        },
+        {
+          "label": "Guvernanza",
+          "href": "/governance/"
+        },
+        {
+          "label": "Unisciti",
+          "href": "/join/"
+        },
+        {
+          "label": "Accessibilità",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Trasparenza",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Prughjetti",
+  "projectsEmpty": "Nisun prugettu pubbricatu ancora."
+}

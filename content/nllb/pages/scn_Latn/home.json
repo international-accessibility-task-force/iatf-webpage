@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Da u bisognu di l'accessibilità à i repo publichi",
+    "lead": "L'IATF aiuta l'associazioni, i gruppi, è l'individui à trasfurmà i veri bisogni d'accessibilità in prughjetti publichi open source.",
+    "support": [
+      "Li pruggetti accittati sunnu pubbricati nta l'urganizzazzioni GitHub di l'IATF sutta na licenza copyleft e sviluppati pubbricamenti di n'ingegneri rispunsabbili."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mudellu operativu publicu",
+      "title": "Un percorsu publicu simplice per u software accessu"
+    },
+    "paragraphs": [
+      "Attraversu un furmulariu, ognunu pò presentà un prublema d'accessibilità à l'IATF. Se a squadra pò piglià, un repositoriu GitHub publicu hè apertu per u travagliu.",
+      "Ogni pruggettu accettatu hà una casa publica chjara per u codice, i prublemi, a documentazione è e versioni, cù u sviluppu guidatu in apertu da un ingegnere rispunsevule."
+    ],
+    "specCard": {
+      "title": "Mudellu operativu publicu",
+      "terms": [
+        {
+          "term": "Bisognu",
+          "definition": "Prubblema riali di l'accessibilità"
+        },
+        {
+          "term": "Revisione",
+          "definition": "Idoneità à a missione è fattibilità pratica"
+        },
+        {
+          "term": "Spaziu di u prugettu",
+          "definition": "Repositoriu pùbblicu GitHub"
+        },
+        {
+          "term": "Amministrazzioni",
+          "definition": "Proprietà organizzativa di l'IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prucessu",
+      "title": "Cumu funziona",
+      "intro": "Lu mudellu resta intenzionalmenti nicu accussì lu caminu pùbblicu è facili a seguiri."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Un bisognu hè presentatu",
+        "paragraphs": [
+          "Un'associu, un gruppu o un individuu ponu presentà una dumanda basata annantu à un veru bisognu d'accessibilità.",
+          "Li richiesti ponnu accuminciari pi menzu dû situ web, pi na mail a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o attraversu Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "L'IATF lu revidi",
+        "paragraphs": [
+          "Revemu l'adeguatezza à a missione, l'ambitu praticu, è se u travagliu appartene à un prughjettu publicu open source."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Un repositoriu publicu hè creatu",
+        "paragraphs": [
+          "Se un prugettu hè accettatu, hè publicatu in l'organizazione IATF GitHub sottu una licenza copyleft.",
+          "U repositoriu diventa a casa publica di u codice, i prublemi, a documentazione è i rilasci."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un ingegnere rispunsevule guida u prugettu",
+        "paragraphs": [
+          "Un ingegnere rispunsevule hè assignatu à u repositoriu di u prugettu è u sviluppu si face in publicu."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registru",
+      "title": "Registru publicu di prugetti"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Accumincia ccà",
+      "title": "Pruvate u travagliu attuale o cuminciate un prughjettu cuncretu"
+    },
+    "paragraphs": [
+      "Aduprate u registru per vede ciò chì hè dighjà publicu, o cuminciate l'ingressu se un prublema d'accessibilità cuncretu deve diventà un prugettu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

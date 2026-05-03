@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Dumandà un prugettu d'accessibilità",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Dumandà un prugettu d'accessibilità",
+    "lead": "L'IATF revede e richieste di prughjetti d'accessibilità chì partenu da un veru bisognu.",
+    "support": [
+      "Ùn avete bisognu di una specificazione cumpleta. Un prublema chjaru, à quale affetta, è perchè hè impurtante hè abbastanza per cumincià."
+    ],
+    "actions": [
+      {
+        "label": "Accuminciari na richiesta",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Aduprate invece u Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canali",
+      "title": "Scegghi la via cchiù facili"
+    },
+    "intro": [
+      "Tutte e rotte entranu in u listessu cuntrollu."
+    ],
+    "items": [
+      {
+        "label": "Pàggina web",
+        "body": "Aduprate u furmulariu quì sottu per invià una dumanda strutturata."
+      },
+      {
+        "label": "Email[cancia _ cancia la surgenti]",
+        "body": "Inviate a dumanda direttamente à {{contact.requestsEmail}}. Richieste di e-mail ponu diventà registri di richieste pubbliche dopu a revisione è a redazzione."
+      },
+      {
+        "label": "Discursioni",
+        "body": "Accuminciari ccà si chistu è cchiù facili. La dumanda passa ancora a la stissa revisioni."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Prima di mandà una dumanda",
+    "paragraphs": [
+      "Li richiesti ponnu èssiri riassunti e pubbricati comu registri pubblici di richiesti nta l'urganizzazzioni GitHub di l'IATF, nta stu situ web, o tutti dui.",
+      "Ùn includite indirizzi privati, numeri di telefunu, dettagli medichi, o infurmazioni d'identificazione nantu à l'utilizatori individuali di tecnulugie assistive a menu chì sia necessariu è site cunfortu cù l'IATF chì li rivede.",
+      "IATF elimina i dati di cuntattu persunali inutili prima di publicà i registri di a dumanda."
+    ]
+  },
+  "review": {
+    "title": "Aspettative di rivista",
+    "paragraphs": [
+      "A presentazione di una dumanda ùn garantisce micca l'accettazione.",
+      "L'IATF revede e richieste per l'idoneità à a missione, a fattibilità, l'utilità, è se u travagliu appartene à un repositoriu publicu.",
+      "Arcuni richiesti ponnu èssiri rifiutati, rinviati, o rimodulati prima di èssiri accittati."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Modulu di dumanda",
+      "title": "Invià una dumanda"
+    },
+    "fields": [
+      {
+        "kind": "cuntribbuzzioni",
+        "name": "richiedenti",
+        "label": "Lu tò nomu o l'urganizzazzioni",
+        "helper": "Chi sta facennu la richiesta?"
+      },
+      {
+        "kind": "selezziunari",
+        "name": "cuntattuRuta",
+        "label": "Via di cuntattu prifirita",
+        "helper": "Comu avissi a succediri?",
+        "required": true,
+        "options": [
+          "Email[cancia _ cancia la surgenti]",
+          "Discursioni"
+        ]
+      },
+      {
+        "kind": "cuntribbuzzioni",
+        "name": "Dati di cuntattu",
+        "label": "Dati di cuntattu",
+        "helper": "Indirizzu e-mail o indirizzu Discord pè u seguitu.",
+        "placeholder": "Indirizzu e-mail o indirizzu Discord",
+        "required": true
+      },
+      {
+        "kind": "cuntribbuzzioni",
+        "name": "lingua",
+        "label": "Lingua",
+        "helper": "A vostra lingua preferita, s'ellu hè pertinente.",
+        "value": "Lingua ngrisa"
+      },
+      {
+        "kind": "spazziu di testu",
+        "name": "prubblema",
+        "label": "Chì prublema pruvate à risolve?",
+        "helper": "Descrivi la barriera cu na parrata chiara.",
+        "required": true
+      },
+      {
+        "kind": "spazziu di testu",
+        "name": "Utenti affetti",
+        "label": "A chi è rivolto?",
+        "helper": "A chi servirebbe?",
+        "required": true
+      },
+      {
+        "kind": "spazziu di testu",
+        "name": "extraCuntestu",
+        "label": "Cuntestu addiziunali",
+        "helper": "Cuntattate qualchissia altru chì aiuta à spiegà a necessità: perchè hè impurtante, esempi, riferimenti, una idea di software approssimativa, o limitazioni di tempu."
+      },
+      {
+        "kind": "selezziunari",
+        "name": "openSourceConsent[cancia _ cancia la surgenti]",
+        "label": "Ti senti bonu cu lu sviluppu pùbblicu open source?",
+        "helper": "I prughjetti accettati sò repositorii publichi sottu IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Sì sì sì",
+          "No, nun c'è.",
+          "Nun sugnu ancora sicuru."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se accittatu",
+      "title": "Ciò chì significa accettazione"
+    },
+    "items": [
+      "nu repositoriu pùbblicu nta l'urganizzazzioni GitHub di l'IATF",
+      "un ingegnere rispunsevule assignatu à u prugettu",
+      "na licenza copyleft pi lu còdici e li matiriali dû pruggettu",
+      "sviluppu publicu in u repositoriu",
+      "un'entrata di u registru nant'à u situ di l'IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Accuminciari a parrari",
+      "title": "Una dumanda corta è chjara hè abbastanza per cumincià"
+    },
+    "paragraphs": [
+      "Se avete un veru bisognu d'accessibilità è pensate chì duverebbe diventà un prughjettu publicu, inviatelu à noi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

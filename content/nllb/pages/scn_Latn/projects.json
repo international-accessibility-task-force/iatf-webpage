@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Prughjetti d'accessibilità publica",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Prughjetti d'accessibilità publica",
+    "lead": "Stu registru elenca i prughjetti publichi mantinuti attraversu l'IATF. I prugetti d'accessibilità accettati, l'infrastruttura di u situ, è i prototipi archiviati sò tenuti visibili quì.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registru",
+      "title": "Registru currenti"
+    },
+    "intro": [
+      "I prugetti accettati sò elencati quì una volta chì sò publicati."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Cumunicà un bisognu",
+      "title": "Trasfurmà una necessità concreta d'accessibilità in un prugettu publicu"
+    },
+    "paragraphs": [
+      "L'IATF esamina i bisogni cuncreti d'accessibilità chì ponu esse trasformati in un travagliu publicu apertu d'utilità."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nisun prugettu pubbricatu ancora",
+    "paragraphs": [
+      "L'IATF pripara u so primu gruppu publicu di prughjetti.",
+      "Pudete ancu mandà una dumanda s'è vo avete una necessità concreta d'accessibilità."
+    ]
+  }
+}

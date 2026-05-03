@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Modellu di guvernanza è di repositoriu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Modellu di guvernanza è di repositoriu",
+    "lead": "IATF manteni i prughjetti d'accessibilità publichi, leggibili è mantenibili.",
+    "support": [
+      "Sta pàggina spiega ciò chì si qualifica, cumu si tenenu i repositorii, è chì rispunsabilità à u livellu di u repositoriu si applica dopu l'accettazione."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reguli",
+      "title": "Adattamentu à a missione, pruprietà, licenziamentu"
+    },
+    "cards": [
+      {
+        "title": "Adatta à a missione",
+        "paragraphs": [
+          "IATF accetta u travagliu chì affronta una vera barriera d'accessibilità è hà un valore publicu chjaru.",
+          "Nu pruggettu avissi a èssiri ùtili oltri nu singulu flussu di travagghiu privatu e travagghiari comu nu repositoriu pùbblicu.",
+          "Pi l'accessibilità web, l'IATF usa [W3C WAI](https://www.w3.org/WAI/) L'esperienza diretta di l'utilizatori di e tecnulugie d'aiutu hè ancu una prova pratica di ciò chì funziona in l'usu reale."
+        ]
+      },
+      {
+        "title": "Accettazzioni dû pruggettu",
+        "paragraphs": [
+          "Una pruposta pò esse accettata quandu l'esame mostra chì:"
+        ],
+        "items": [
+          "risponde à un veru bisognu d'accessibilità",
+          "lu prubblema è abbastanza chiaru pi valutari",
+          "lu scopu hè abbastanza realistu à lancià",
+          "lu travagghiu s'allinea cu la missioni di l'IATF",
+          "c'è na via plausibili pi mantèniri o cumpletari"
+        ]
+      },
+      {
+        "title": "Pruprietà di u repositoriu",
+        "paragraphs": [
+          "Li pruggetti accittati sunnu criati sutta l'organizzazzioni IATF GitHub.",
+          "I depositi restanu quì per chì ogni prughjettu mantene una casa publica stabile, ancu s'è i mantenitori cambianu più tardi."
+        ]
+      },
+      {
+        "title": "Licenziamentu",
+        "paragraphs": [
+          "I prughjetti IATF utilizanu licenze copyleft a menu chì un prugettu ùn dichjara altrimenti:"
+        ],
+        "items": [
+          "<strong>Codici:</strong> AGPL-3.0",
+          "<strong>Documentazione:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingegnere o manutentore rispunsevule",
+      "paragraphs": [
+        "Ogni prugettu accettatu deve avè un ingegnere o un mantenitore rispunsevule chjamatu. Quella persona pò riceve accessu di amministratore à u repositoriu è hè prevista per:"
+      ],
+      "items": [
+        "sviluppu guida in publicu",
+        "mantene a struttura di u repositoriu",
+        "Revisione o gestione di prublemi è richieste di ritruvamentu",
+        "Documentazzioni dî dicisioni tècnichi mpurtanti",
+        "mantèniri lu pruggettu capisìbbili pi l'àutri"
+      ],
+      "footnote": "Chista è a rispunsabilità a liveddu di repository. A pruprietà organizzativa resta cu l'IATF. A risponsabilità quì hè l'amministrazione di u repositoriu, a direzzione tecnica è a coordinazione publica  micca a consegna privata illimitata, l'integrazioni persunalizate o l'impegni à livellu di serviziu fora di a roadmap publica."
+    },
+    "publicDevelopment": {
+      "title": "Sviluppu publicu",
+      "paragraphs": [
+        "I prughjetti lanciati attraversu l'IATF sò sviluppati in publicu per difettu."
+      ],
+      "items": [
+        "còdici fonti",
+        "prubblemi",
+        "Documentazzioni",
+        "appunti pi la roadmap",
+        "storia di libbirtati"
+      ],
+      "footnote": "A cunniscenza impurtante di u prugettu ùn deve micca campà solu in chats o inbox privati."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registri pubblici",
+      "title": "Registri pubblici di dumanda"
+    },
+    "paragraphs": [
+      "IATF travagghia 'n pùbblicu pi difettu. Li richiesti ca vèninu nta l'IATF pi menzu dû situ web, email, Discord, GitHub, o àutri canali di l'iATF ponnu addivintari archivi di richiesti pùbblici.",
+      "Un registru di dumanda publica ùn hè micca necessariamente u messagiu uriginale. IATF pò riassumere, redattà, o ristrutturà una dumanda prima di a publicazione in modu chì a necessità di l'accessibilità pò esse rivista senza espunendu infurmazioni persunali inutili.",
+      "Li registri pubblici di li richiesti ponnu èssiri sarvati nta l'urganizzazzioni GitHub di l'IATF, nta stu situ web, o nta tutti dui.",
+      "Prima di a publicazione, l'IATF elimina i dati di cuntattu persunali inutili, indirizzi privati, è dettagli d'identificazione nantu à l'utilizatori individuali di e tecnulugie d'assistenza, a menu chì a pubblicazione sia chiaramente intenzionata è adatta.",
+      "Lu Discord veni usatu pi lu coordinamentu informali. IATF nun archivizza li cunversazzioni di Discord di default, e la ritenzioni di li missaggi è cuntrullata di lu Discord. Li dicisioni fatti ntô Discord avìssiru a èssiri riassunti ntô documentu pùbblicu di GitHub o ntâ pàggina dû pruggettu currispundenti.",
+      "I registri di richieste sò esclusi da l'indicizazione di i mutori di ricerca induve tecnicamente praticu. Pubblicu significa revisibile è rispunsevule. Ùn significa micca ottimizatu per a scuperta per mezu di ricerche di nomi.",
+      "L'IATF pò aghjurnà o rimuovere i registri da e superfici pubbliche cuntrullate da IATF, ma ùn pò micca garantisce a rimozione da cache di terze parti, notifiche, forchi, screenshots, mutori di ricerca, Discord o altri sistemi esterni.",
+      "Se un missaghju deve stà privatu, ùn l'inviate micca attraversu i canali publichi IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rolu urganizzativu",
+      "title": "Cattedra"
+    },
+    "lead": "U presidente tene a gestione à livellu organizzativu di l'IATF. Questu hè distintu da u rolu di ingegnere responsabile per prughjettu: u presidente hè rispunsevule per l'urganizazione cum'è un inseme, micca per a direzzione di ogni ghjornu di un singulu repositoriu.",
+    "duties": {
+      "title": "Ciò chì face a sedia",
+      "items": [
+        "Cuntenni li pirmissu di lu pruprietariu nta l'urganizzazzioni GitHub di l'IATF",
+        "Firma di l'accettazione di u prugettu è di e decisioni d'archiviu",
+        "Agisce cum'è u puntu di cuntattu publicu per l'IATF",
+        "Coordina l'elezzioni annuali"
+      ],
+      "footnote": "U presidente ùn impegna micca l'IATF à a consegna privata, u travagliu pagatu, o l'accordi di u livellu di serviziu, è ùn annulla micca e decisioni per mantenitore di repositoriu nantu à a direzzione tecnica."
+    },
+    "election": {
+      "title": "Elezzioni annuali",
+      "paragraphs": [
+        "U presidente hè elettu una volta à l'annu. L'elezzione si svolge in e prime duie settimane di dicembre, i risultati sò annunziati da u 15 di dicembre è u novu mandatu principia u 1u di ghjennaghju.",
+        "Li votanti eliggibili sunnu li pirsuni ca hannu avutu un rolu di mantinimentu nta qualunqui repository di l'IATF duranti l'annu e hannu fattu almenu na cuntribbuzzioni cumminata a un repositary di l\"IAT F nta st'annu. Ogni votanti eleggibili havi un votu. Lu candidatu cu cchiù voti vinci; nta l'eventu di un pareggiu, un secondu turnu si teni ntâ terza simana di dicèmmiru.",
+        "L'elezzione hè gestita cum'è una Discussione GitHub publica in u repositoriu di guvernanza IATF designatu, cusì i candidati, u votu è u risultatu sò tutti parte di u registru publicu."
+      ]
+    },
+    "continuity": {
+      "title": "Cuntinuità",
+      "paragraphs": [
+        "Se ùn si tenenu elezioni in un annu datu, u presidente attuale cuntinueghja in u rolu finu à l'elezzioni prossime. Questa hè una cuntinuazione indefinita, micca un periodu di grazia  u mudellu hè cuncepitu per mantene l'urganizazione stabile quandu l'attività hè bassa, micca per furzà una transizione chì nimu ùn hè prontu.",
+        "U presidente pò rinunzià in ogni mumentu. I mantenitori attivi ponu ancu chjamà una elezzione straordinaria cù una ragione dichjarata, eseguita sottu e stesse regule cum'è l'elezzione annuale."
+      ]
+    },
+    "current": {
+      "title": "Prisidenti attuali",
+      "fields": [
+        {
+          "label": "Cattedra",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Terminu",
+          "value": "Finu a l'elezzioni di dicèmmiru 2026"
+        },
+        {
+          "label": "Rolu furmalizzatu",
+          "value": "2026"
+        },
+        {
+          "label": "Prima elezzioni pianificata",
+          "value": "Dicèmmiru 2026"
+        }
+      ]
+    },
+    "footnote": "U rolu di presidente hè statu formalizatu in u 2026 per rende l'amministrazione à livellu organizzativu esplicita. Finu à tandu, a rispunsabilità organizzativa era tenuta informalmente da u fundatore."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stati dû pruggettu",
+      "paragraphs": [
+        "I prughjetti utilizanu un picculu gruppu di stati publichi:"
+      ],
+      "items": [
+        "Pruposta",
+        "Accittatu",
+        "Attivu",
+        "Stabbili",
+        "Cercu u mantinidori",
+        "Archiviati"
+      ],
+      "footnote": "Sti stati mantèninu u registru faciule da scansà."
+    },
+    "reassignment": {
+      "title": "Riassignamentu è archiviamentu",
+      "paragraphs": [
+        "Se un mantenitore si ritira o diventa inattivu, l'IATF pò riassegnà a rispunsabilità, pausa u sviluppu, o archivià u prugettu.",
+        "Un pruggettu pò ancu esse archiviatu quandu a necessità uriginale hè stata soddisfatta, a manutenzione hè stata fermata, o u travagliu cuntinuu ùn hè più realisticu."
+      ],
+      "footnote": "I prughjetti archiviati restanu visibili à u publicu à menu chì ùn ci sia una ragione impellente per fà altrimenti."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota di cunfini",
+      "title": "Ciò chì l'IATF ùn garantisce micca"
+    },
+    "items": [
+      "consegna à u cliente privatu",
+      "Accordi di livellu di serviziu",
+      "accettazzioni di ogni pruposta",
+      "mantenimentu à longu andà per ogni prughjettu"
+    ],
+    "footnote": "IATF hè un mudellu di repositoriu publicu, micca un serviziu di consegna privatu."
+  }
+}

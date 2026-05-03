@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilità",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilità",
+    "lead": "IATF hà u scopu di mantene stu situ web simplice, leggibile, accessibile à tastiera, è cumpatibile cù e tecnulugie d'assistenza.",
+    "support": [
+      "Pi l'accessibilità web, l'IATF usa [W3C WAI](https://www.w3.org/WAI/) L'accessibilità pratica hè ancu infurmata da l'esperienza diretta di l'utilizatori di e tecnulugie d'assistenza."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapurtamentu",
+      "title": "Segnala un prublema d'accessibilità"
+    },
+    "paragraphs": [
+      "Se truvate una barriera d'accessibilità nant'à stu situ web, per piacè signalate lu per email:",
+      "{{contact.accessibilityEmail}}",
+      "Li rapporti ùtili sunnu:"
+    ],
+    "items": [
+      "la pàggina unni succidìu lu prubblema",
+      "chiddu ca stavi circannu di fari",
+      "quali tecnulugia assistiva, navigatore, o dispusitivu stai usannu, s'è pertinenti",
+      "cu' s'è misu male",
+      "chi avissi aiutatu"
+    ],
+    "footnote": "Nun c'è bisognu di scriviri nu raportu ufficiali di bug. Basta na descrizzioni chiara."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipulamentu",
+      "title": "Trattamentu di prublemi publichi"
+    },
+    "paragraphs": [
+      "I prublemi d'accessibilità ponu esse riassunti in u repositoriu publicu pertinente in modu chì ponu esse risolti in apertu. I dati di cuntattu persunali è l'infurmazioni private inutili sò rimossi prima di a publicazione.",
+      "Se u vostru rapportu cuntene infurmazione privata, dite cusì chjaramente in u messagiu."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Statu attuali",
+      "title": "Limitazzioni canusciuti"
+    },
+    "paragraphs": [
+      "Stu situ è intenzionalmenti nicu e quasi sempri staticu. Certi versioni linguistichi ponnu èssiri ncompleti mentri ca si stannu priparannu li traduzzioni."
+    ]
+  }
+}

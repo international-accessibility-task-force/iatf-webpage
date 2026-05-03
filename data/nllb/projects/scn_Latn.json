@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Pàggina web di l'IATF",
+    "summary": "Lu situ pùbblicu dâ International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "L'IATF avia bisognu d'una casa publica stabile chì spieca u mudellu, elenca i prughjetti, è indica à i cuntributori u prossimu passu giustu.",
+    "why": "U situ hè a porta d'entrata publica di l'IATF. Hè custruitu cum'è un picculu prughjettu staticu per chì sia faciule da leghje, traduce è mantene à l'apertu.",
+    "scopeIn": [
+      "Pàggini d'accessu pùbblicu ca spieganu lu mudellu IATF",
+      "Registru publicu di prughjetti IATF accettati, attivi è archiviati cù statutu, mantenitore, repositoriu è dimostrazione",
+      "Na pàggina e nu modulu pi accittari na dumanna",
+      "Pagine di guvernanza è di trasparenza",
+      "Fonte inglese cù struttura pronta per a traduzzione",
+      "Implementazione statica nantu à l'assi statichi di i travagliadori di Cloudflare"
+    ],
+    "scopeOut": [
+      "Aree di membri privati, conti, o flussi di cunnessione",
+      "Hosting di u còdice surghjente di u prugettu, chì campa in u repositoriu di ogni prugettu",
+      "Chat in tempu reale, chì campa in Discord",
+      "U tracciamentu di i prublemi di i prugetti individuali, chì si trova in u repositoriu GitHub di ogni prugettu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie[cancia _ cancia la surgenti]",
+    "summary": "Un primu prototipu IATF, archivatu dopu avè righjuntu un puntu di arrestu naturale.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Prima esplorazione di un strumentu incentratu annantu à l'accessibilità sottu l'ombrello di l'IATF.",
+    "why": "U repositoriu hè tenutu publicu cum'è un registru di u travagliu, ancu s'è u sviluppu attivu hè piantatu.",
+    "scopeIn": [
+      "Primu prototipu di un strumentu incentratu annantu à l'accessibilità tenutu cum'è un registru publicu"
+    ],
+    "scopeOut": [
+      "Sviluppu attivu o travagghiu di funziunalità",
+      "Impegni di mantenimentu",
+      "Usu cunsigliatu in pruduzzione"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "bot IATF",
+    "summary": "Un bot di a cumunità IATF, archiviatu dopu avè righjuntu un puntu di arrestu naturale.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automazione intornu à i canali di a cumunità IATF.",
+    "why": "U repositoriu hè tenutu publicu cum'è un registru di u travagliu, ancu s'è u sviluppu attivu hè piantatu.",
+    "scopeIn": [
+      "Automazione di a discordia intornu à i canali di a cumunità IATF, mantinuti cum'è un registru publicu"
+    ],
+    "scopeOut": [
+      "Sviluppu attivu o travagghiu di funziunalità",
+      "Impegni di mantenimentu",
+      "Usu cunsigliatu in pruduzzione"
+    ]
+  }
+]

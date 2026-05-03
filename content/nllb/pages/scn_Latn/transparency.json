@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Trasparenza",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Trasparenza",
+    "lead": "IATF travagghia 'n publicu pi difettu. Li dicisioni di pruggettu, li canciamenti di còdici, li cambiamenti di guvernanza, e li costi di funziunamentu sunnu riggistrati 'n lucali pùbblichi. Sta pàggina elenca unni ogni tipu di riggistru campa e comu lu si pò lèggiri.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Registrazzioni",
+      "title": "Unni vivunu li dischi"
+    },
+    "items": [
+      "<strong>Decisioni di prugettu.</strong> L'accettazione, l'archiviu è e decisioni di riattribuzione sò registrati cum'è emissioni o rilasci in u repositoriu pertinente, è riassunti in u registru publicu. <a href=\"/projects/\">riggistru</a>Cchiù picca .",
+      "<strong>Richiedi i registri.</strong> I registri publichi di richieste sò archiviati in l'organizazione IATF GitHub, nantu à stu situ web, o tramindui. I registri ponu riassumere, redattà, o ristrutturà a richiesta originale in modu chì a necessità di l'accessibilità pò esse rivista senza espone informazioni persunali inutili. E decisioni di discordia sò riassunte in u registru publicu quandu influenzanu un prughjettu o una decisione di guvernanza. I registrazioni di richiesta sò escluse da l'indicizazione di i mutori di ricerca induve tecnicamente pratica. Vede i registri: prima richiesta di publicazione pendente.",
+      "<strong>Canciamenti di còdici.</strong> Ogni canciamentu di còdici è nu cummittamentu pùbblicu ntô repositoriu currispundenti. <a href=\"{{contact.githubOrgUrl}}\">Organizzazzioni GitHub</a>Cchiù picca .",
+      "<strong>Canciamenti di guvernanza.</strong> L'aghjurnamenti di a pagina di a guvernanza sò tracciati cum'è impegni à u <code>iatf-website</code> Visualizza lu repository. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">cuntribbuiri storia</a> supra GitHub.",
+      "<strong>Costi di funziunamentu.</strong> L'IATF mantene i costi di funziunamentu bassi è registra e spese ricorrenti di l'infrastruttura publica.",
+      "<strong>Appunti di coordinamentu.</strong> Notes from any coordinated review or decision live in GitHub Discussions on the relevant repository  visualizzazzioni <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Discussioni</a> supra lu <code>iatf-website</code> lu repositoriu."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Costi",
+      "title": "Registru di u costu operativu"
+    },
+    "paragraphs": [
+      "IATF mantene a so infrastruttura publica intenzionalmente chjuca.Dapoi u 2022, i principali costi operativi ricorrenti sò stati nomi di duminiu. L'ospitu hà adupratu infrastrutture di livellu gratuitu o à bassu costu induve hè pussibule.",
+      "Stu registru ùn hè micca un bilanciu auditu. Hè un log di costi di funziunamentu publicu per l'infrastruttura aduprata per mantene l'IATF in linea."
+    ],
+    "footnote": "I ricevuti ponu esse riferiti o publicati dopu a redazzione. Indirizzi persunali, dettagli di fatturazione, è informazioni di contu inutili ùn facenu micca parte di u registru publicu.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Duminiu",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Custituzione",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Appunti",
+            "value": "U costu di u duminiu finanziatu da mugiwarafx. L'ospitu hà adupratu infrastruttura di livellu gratuitu o à bassu costu attraversu Cloudflare. U prugettu hè passatu da Vercel à cloudflare è hà cuminciatu à aduprà u più cortu <code>iatf.cc</code> duminiu."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Duminiu",
+            "value": "<code>internazziunaliaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custituzione",
+            "value": "USD 18,68"
+          },
+          {
+            "label": "Appunti",
+            "value": "U costu di u duminiu finanziatu da mugiwarafx. Hosting utilizatu infrastruttura di livellu gratuitu o à bassu costu."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Duminiu",
+            "value": "<code>internazziunaliaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custituzione",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Appunti",
+            "value": "U costu di u duminiu finanziatu da mugiwarafx. Hosting utilizatu infrastruttura di livellu gratuitu o à bassu costu attraversu Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Duminiu",
+            "value": "<code>internazziunaliaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custituzione",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Appunti",
+            "value": "U costu di u duminiu finanziatu da mugiwarafx. Hosting utilizatu infrastruttura di livellu gratuitu o à bassu costu."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Duminiu",
+            "value": "<code>internazziunaliaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Custituzione",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Appunti",
+            "value": "U costu di u duminiu finanziatu da mugiwarafx. Hosting utilizatu infrastruttura di livellu gratuitu o à bassu costu attraversu Pagine GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota di cunfini",
+      "title": "Ciò chì ùn hè micca publicu"
+    },
+    "paragraphs": [
+      "Certi materiali sò tenuti fora di i registri publichi à propositu:"
+    ],
+    "items": [
+      "Dati di cuntattu persunali di i pruponenti.",
+      "Corrispondenza privata usata sulu pi chiarificari na dumanda prima ca sia accittata, rifiutata o riassunta.",
+      "Indirizzi privati, numari di telefunu, e dittagli pirsunali nun nicissari.",
+      "Tuttu ciò chì puderia identificà un utilizatore individuale di tecnulugia assistiva senza accunsentu.",
+      "Cunversazioni Raw Discord, a menu chì un missaghju specificu ùn sia spustatu intenzionalmente in un registru publicu di u prugettu."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Leggi di piu",
+      "title": "Lu cuvernu è lu libbru di li règuli ca s'attrova sutta sti dischi"
+    },
+    "paragraphs": [
+      "Se vulete capisce cumu i prughjetti sò accettati, archiviati, o riassegnati, leghjite a pagina di guvernanza."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

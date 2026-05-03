@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Unisciti a l'IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Unisciti a l'IATF",
+    "lead": "L'adesioni è aperta. Ci sunnu diversi maneri pi participari, sia ca si basa supra la tecnulugia assistiva, custruiri software accessibili, tradùciri, pruvari, o mantèniri nu pruggettu. Discussioni e dicisioni succedinu pubbricamenti supra GitHub e Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ròlli",
+      "title": "Modi pi cuntribbuiri"
+    },
+    "items": [
+      "<strong>Richiedi nu pruggettu.</strong> Se truvate una barriera d'accessibilità chì puderia esse indirizzata da u software publicu di fonte aperta, inviatela attraversu l'ingressu di a dumanda.",
+      "<strong>Pruva e revisioni.</strong> Pruvate i prughjetti IATF cù a tecnulugia assistiva chì aduprate, riferite ciò chì funziona è ciò chì ùn funziona micca, è archiviate prublemi direttamente nantu à u repositoriu pertinente.",
+      "<strong>Traduci.</strong> Lu cuntinutu urigginariu veni pubbricatu prima 'n ngrisi semplici. Li traduzzioni vennu agghiunciuti comu li cuntribbuti sunnu dispunìbbili, accuminciannu cu lu spagnolu.",
+      "<strong>Custruisci.</strong> Pigliate prublemi in ogni repositoriu IATF, inviate richieste di ritruvamentu, o pigliate un prughjettu cum'è ingegnere rispunsevule.",
+      "<strong>Manteniri.</strong> I prughjetti esistenti anu qualchì volta bisognu di un novu mantenitore. A rotazione di u mantenitore hè una parte nurmale di u mudellu, micca una eccezione."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canali",
+      "title": "Induve l'IATF travaglia in publicu"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Issues, pull requests, releases, e record di pruggettu.",
+      "<strong>Discòrdia.</strong> Discussioni viventi, coordinamentu, e dumanni informali.",
+      "<strong>E-mail. (Rinnirizzata)</strong> Usu <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> se nè GitHub nè Discord si adattanu."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Prossimu passu",
+      "title": "Sceglite u canale chì currisponde à cumu vulete cuntribuisce"
+    },
+    "paragraphs": [
+      "Tutti i canali alimentanu a stessa revisione publica è i stessi repositorii publichi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
