@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Uburyo bwo kuboneka",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Uburyo bwo kuboneka",
+    "lead": "IATF ifise umugambi wo gutuma uru rubuga ruguma rworoshe, rusomeka, rushobora gukoreshwa n'imashini, kandi rushobora no gukorana n'ubuhinga bwa none.",
+    "support": [
+      "IATF ikoresha uburyo bwo gushikira imbuga ngurukanabumenyi [W3C WAI](https://www.w3.org/WAI/) Ubuhinga bwo gushikira abantu mu buryo buboneka na bwo nyene buterwa n'ivyo abakoresha ubuhinga bwo gufasha bahuye na vyo."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Gutanga raporo",
+      "title": "Gutanga raporo y'ikibazo c'ukworoherwa"
+    },
+    "paragraphs": [
+      "Mu gihe ubonye ko urubuga rwawe rufise ingorane, turagusavye ubimenyeshe kuri e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Muri izo raporo ngirakamaro harimwo izi zikurikira:"
+    ],
+    "items": [
+      "urupapuro aho ikibazo cabaye",
+      "ivyo wariko uragerageza gukora",
+      "ubuhinga bufasha, browser, canke igikoresho wakoresha, nimba bihari",
+      "vyagenze gute?",
+      "ni igiki cari kumufasha"
+    ],
+    "footnote": "Ntibikenewe ko wandika icegeranyo c'igicumuro."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Gukoresha",
+      "title": "Gucungera ibibazo vy'abanyagihugu"
+    },
+    "paragraphs": [
+      "Ibibazo bijanye n'ubushobozi bwo kuronka amakuru birashobora gushirwa mu ncamake mu bubiko bw'amakuru bwa bose kugira ngo bushobore gutunganywa ku mugaragaro. Amakuru y'abantu n'amakuru y'ibanga adakenewe arakurwaho imbere y'uko ashirwa ahabona.",
+      "Nimba icegeranyo cawe kirimwo amakuru y'ibanga, nubivuge mu buryo butomoye muri ubwo butumwa."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Uko ibintu vyifashe ubu",
+      "title": "Impaka zizwi"
+    },
+    "paragraphs": [
+      "Uru rubuga ni ruto kandi ahanini ntiruhinduka. Indimi zimwe zimwe zirashobora kuba zidatunganye mu gihe impinduro ziriko zirategurwa."
+    ]
+  }
+}

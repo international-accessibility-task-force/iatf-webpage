@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Ibikorwa vy'ugushikira abanyagihugu",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Ibikorwa vy'ugushikira abanyagihugu",
+    "lead": "Urwo rutonde ruratanga urutonde rw'ibikorwa rusangi bikorwa n'ishirahamwe IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ububiko bw'ibitabu",
+      "title": "Icegeranyo kiriho ubu"
+    },
+    "intro": [
+      "Ibikorwa vyemewe birerekanwa ngaha bimaze gusohorwa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Gushikiriza ivyo ukeneye",
+      "title": "Guhindura ikintu c'ukuri gikenewe mu bijanye n'ugushikira abantu mu mugambi w'abanyagihugu"
+    },
+    "paragraphs": [
+      "Ishirahamwe IATF rirasuzuma ibikenewe vy'ukuri mu bijanye n'ukworoherezwa gushobora guhindurwa mu buryo bw'ibikoresho vy'ubuhinga bwa none bikoreshwa n'abantu benshi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nta migambi irashirwa ahabona",
+    "paragraphs": [
+      "IATF iriko irategura integuro yayo ya mbere y'igikorwa ca bose.",
+      "Urashobora kurungika icegeranyo mu gihe ufise ivyo ukeneye vy'ukuri mu bijanye n'ukworoherwa."
+    ]
+  }
+}

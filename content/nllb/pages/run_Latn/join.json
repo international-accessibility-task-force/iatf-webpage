@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kwinjira muri IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kwinjira muri IATF",
+    "lead": "Uburyo bwo kuba umunyamuryango buruguruye. Hari uburyo butandukanye bwo kwitabira, waba ukoresha ubuhinga bufasha, ugakora porogaramu iboneka, guhindura, kugerageza, canke kubungabunga umushinga. Ibiganiro n'ingingo bibaho ku mugaragaro kuri GitHub na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ibikorwa",
+      "title": "Uburyo bwo gutanga intererano"
+    },
+    "items": [
+      "<strong>Nusabe umushinga.</strong> Nimba uhuye n'intambamyi mu bijanye n'ukworoherezwa gushobora gutorerwa umuti n'ubuhinga bwa porogarama bugurukira abantu bose, nuce uburungikira biciye ku buhinga bwo kwakira ivyo usaba.",
+      "<strong>Gusuzuma no gusuzuma.</strong> Gerageza imigambi ya IATF ukoresheje ubuhinga bw'ubufasha ukoresha, wandike ibikora n'ibidakora, wongere wandike ibibazo bihari mu bubiko bujanye n'ico kibazo.",
+      "<strong>Guhindura.</strong> Ibiri mu gisomwa c'umwimerere bibanza gusohorwa mu congereza gisanzwe.",
+      "<strong>Niwubake.</strong> Nurondere ingorane mu bubiko ubwo ari bwo bwose bwa IATF, urungike ivyo ukeneye, canke ufate umugambi nk'umuhinga w'ivy'ubwubatsi ajejwe.",
+      "<strong>Niwihangane.</strong> Ibikorwa biriko birakorwa rimwe na rimwe birakenera umukozi mushasha."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Imiyoboro",
+      "title": "Aho IATF ikorera ku mugaragaro"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Ibibazo, ibisabwa, ibisohokayandikiro, be n'ivyandikano vy'igikorwa.",
+      "<strong>Ukutumvikana.</strong> Ikiganiro kibereye, ugusenyera ku mugozi umwe be n'ibibazo bidakenewe.",
+      "<strong>Kurungika ubutumwa kuri internet.</strong> Gukoresha <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> nimba ata GitHub canke Discord bihuye."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Intambwe ikurikira",
+      "title": "Hitamwo umuyoboro uhuye n'ukuntu ushaka gutanga intererano"
+    },
+    "paragraphs": [
+      "Amashusho yose yo kuri iyo televiziyo araja mu bubiko bumwe bw'amakuru y'abantu bose."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

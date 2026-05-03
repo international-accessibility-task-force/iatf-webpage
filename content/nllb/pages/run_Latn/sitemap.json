@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Ikarata y'urubuga"
+  },
+  "hero": {
+    "eyebrow": "Urutonde",
+    "title": "Ikarata y'urubuga",
+    "lead": "Urutonde rw'abantu bose kuri IATF.CC, mu kibanza kimwe."
+  },
+  "sections": [
+    {
+      "title": "Urupapuro nyamukuru",
+      "items": [
+        {
+          "label": "I muhira",
+          "href": "/"
+        },
+        {
+          "label": "Imigambi",
+          "href": "/projects/"
+        },
+        {
+          "label": "Gusaba umushinga",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ubutegetsi",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kwinjira",
+          "href": "/join/"
+        },
+        {
+          "label": "Uburyo bwo kuboneka",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Isuku",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Imigambi",
+  "projectsEmpty": "Nta migambi irashirwa ahabona."
+}

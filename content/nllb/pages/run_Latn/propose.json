@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Gusaba umugambi wo kworohereza abantu",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Gusaba umugambi wo kworohereza abantu",
+    "lead": "Ishirahamwe IATF rirasuzuma ivyasabwe ku bijanye n'imigambi ijanye n'ukworohereza abantu kuronka ibitabu bivuye ku bintu vy'ukuri bikenewe.",
+    "support": [
+      "Ntibikenewe ko umenya ibintu vyose bijanye n'iyo ngorane, ahubwo urakeneye gusa kumenya neza uwo iteye n'ico ivuze be n'igituma ihambaye."
+    ],
+    "actions": [
+      {
+        "label": "Gutangura gusaba",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Koresha Discord mu kibanza cayo",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Imiyoboro",
+      "title": "Hitamwo inzira yoroshe kuruta izindi"
+    },
+    "intro": [
+      "Inzira zose zirasuzumwa mu buryo bumwe."
+    ],
+    "items": [
+      {
+        "label": "Urubuga",
+        "body": "Koresha urupapuro ruri aho hepfo kugira urungike ivyo usavye mu buryo butunganijwe neza."
+      },
+      {
+        "label": "E-mail yawe",
+        "body": "Kurungika icegeranyo c'ibisabwa ku {{contact.requestsEmail}}Ibisabwa biciye kuri e-mail birashobora kuba inyandiko zisabwa ku mugaragaro inyuma yo gusubirwamwo no guhanagurwa."
+      },
+      {
+        "label": "Ukutumvikana",
+        "body": "Mu gutangura ngaho nimba ari vyo vyoroshe. Ico gisabwa kiracabandanya mu gusuzumwa kumwe."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Imbere yo kurungika icegeranyo",
+    "paragraphs": [
+      "IATF ikora ku mugaragaro. Ibisabwa birashobora kuvugwa mu ncamake hanyuma bigasohorwa nk'inyandiko z'ibisabwa n'abanyagihugu mw'ishirahamwe rya GitHub, kuri uru rubuga, canke kuri ivyo vyompi.",
+      "Ntimushireho aderese z'abantu, inomero za telefone, amakuru ajanye n'ivy'ubuvuzi, canke amakuru yerekana umwidondoro w'abantu bakoresha ubuhinga bwo gufasha, kiretse bibaye ngombwa kandi mwemeye ko IATF ibisuzuma.",
+      "IATF ikuraho amakuru y'abantu adakenewe imbere y'uko isohora inyandiko z'ibisabwa."
+    ]
+  },
+  "review": {
+    "title": "Ivyitezwe ku vyerekeye isubirwamwo",
+    "paragraphs": [
+      "Gushikiriza icegeranyo ntibitanga icemeza c'uko kizokwemerwa.",
+      "Ishirahamwe IATF rirasuzuma ivyo basavye kugira risuzume ko bihuye n'igikorwa, ko bishoboka, ko ari ngirakamaro, be n'uko ico gikorwa coba gikwiye gushirwa mu bubiko bwa bose.",
+      "Ibisabwa bimwebimwe vyoshobora kwankwa, gusubirwamwo canke guhindurwa imbere y'uko vyemerwa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Uburyo bwo gusaba",
+      "title": "Gushikiriza icegeranyo"
+    },
+    "fields": [
+      {
+        "kind": "amakuru y'ibanze",
+        "name": "uwusaba",
+        "label": "Izina ryanyu canke ishirahamwe ryanyu",
+        "helper": "Ni nde ariko arasaba ico kintu?"
+      },
+      {
+        "kind": "gutora",
+        "name": "Uburyo bwo guhanahana amakuru",
+        "label": "Inzira yo guhanahana amakuru",
+        "helper": "None bikwiye gukurikiranwa gute?",
+        "required": true,
+        "options": [
+          "E-mail yawe",
+          "Ukutumvikana"
+        ]
+      },
+      {
+        "kind": "amakuru y'ibanze",
+        "name": "amakuru y'umwirondoro",
+        "label": "Ido n'ido ry'abavugana",
+        "helper": "Aderese ya e-mail canke nomero ya Discord yo gukurikirana.",
+        "placeholder": "Aderese imeyili canke izina rya Discord",
+        "required": true
+      },
+      {
+        "kind": "amakuru y'ibanze",
+        "name": "ururimi",
+        "label": "Ururimi",
+        "helper": "Ururimi ukunda, nimba bibereye.",
+        "value": "Ikirundi"
+      },
+      {
+        "kind": "akarere k'inyandiko",
+        "name": "ikibazo",
+        "label": "Ni ingorane iyihe uriko uragerageza gutorera umuti?",
+        "helper": "Dondora iyo ntambamyi mu mvugo itomoye.",
+        "required": true
+      },
+      {
+        "kind": "akarere k'inyandiko",
+        "name": "Abakoresha bageramiwe",
+        "label": "Ni bande bigira ico bikoze kuri bo?",
+        "helper": "Ni nde ivyo vyofasha?",
+        "required": true
+      },
+      {
+        "kind": "akarere k'inyandiko",
+        "name": "extraUrutonde rw'ibivugwamwo",
+        "label": "Iyindi nkuru",
+        "helper": "Gutanga ikindi kintu cose cofasha gusigura ibikenewe: igituma bihambaye, uturorero, ivyerekezo, iciyumviro c'imishinga y'ubuhinga bwa none, canke imvo z'ibihe."
+      },
+      {
+        "kind": "gutora",
+        "name": "openSourceConsent",
+        "label": "Woba wumva utekanye ku bijanye n'uguhingura ivyandikano ku mugaragaro?",
+        "helper": "Ibikorwa vyemewe n'ishirahamwe IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Egome",
+          "Oya",
+          "Ntituramenya neza"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Nimba vyemewe",
+      "title": "Ico kwemerwa bisobanura"
+    },
+    "items": [
+      "ububiko bwa bose mw'ishirahamwe rya IATF GitHub",
+      "umuhinga mu vy'ubwubatsi ajejwe uwo mugambi",
+      "uruhusha rwa copyleft kuri code n'ibikoresho vy'umushinga",
+      "iterambere ry'abanyagihugu mu bubiko",
+      "inyandiko y'inyandiko ku rubuga rwa IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Gutanguza ikiyago",
+      "title": "Gusaba ikintu muri make kandi mu buryo butomoye birahagije kugira dutangure"
+    },
+    "paragraphs": [
+      "Nimba mu vy'ukuri mufise ico mukeneye mu bijanye n'ugushikira abantu kandi mukaba mubona ko ico gikorwa gikwiye gushirwa ahabona n'abantu bose, murashobora kuturungikira ico kibazo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

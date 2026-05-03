@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ntibiboneka"
+  },
+  "hero": {
+    "eyebrow": "Ntibiboneka",
+    "title": "Urupapuro rwasabwe ntiruboneka",
+    "lead": "Koresha inzira nyamukuru ziri hepfo kugira usubire ku kibanza c'abantu bose.",
+    "support": [],
+    "actions": [
+      {
+        "label": "I muhira",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Inzira wasavye ntibaho."
+    ],
+    "items": [
+      {
+        "label": "I muhira",
+        "href": "/"
+      },
+      {
+        "label": "Imigambi",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kwinjira",
+        "href": "/join/"
+      },
+      {
+        "label": "Uburyo bwo kuboneka",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ubutegetsi",
+        "href": "/governance/"
+      },
+      {
+        "label": "Isuku",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

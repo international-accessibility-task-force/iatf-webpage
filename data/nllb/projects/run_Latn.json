@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Urubuga rwa IATF",
+    "summary": "Urubuga rusangi rwa International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ishirahamwe IATF ryari rikeneye ikibanza kigenewe abantu bose gisigura neza ico cigwa, kigatanga urutonde rw'imigambi, kikongera kikerekana abatanga intererano intambwe ikurikira bakwiye gutera.",
+    "why": "Uwo muhora ni urugi rw'imbere rwa IATF. Wubatswe nk'umushinga mutoyi utagira aho uhengamiye ku buryo biguma vyoroshe gusoma, guhindura no kubungabunga ku mugaragaro.",
+    "scopeIn": [
+      "Urupapuro rw'intango rusigura imiterere ya IATF",
+      "Urutonde rusangi rw'imishinga ya IATF yemewe, ikora, n'iyibitswe hamwe n'ukuntu imeze, abayibungabunga, ububiko bwayo n'igiteramo",
+      "Urupapuro rw'ubutumire bw'ibisabwa n'umwirondoro",
+      "Urupapuro ruvuga ibijanye n'intwaro n'ugushira ahabona",
+      "Inkomoko y'icongereza ifise inyubako yiteguriye guhindurwa",
+      "Ikoreshwa rya Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Ibibanza vy'abanyamuryango bigenga, amakonte, canke ingendo zo kwinjira",
+      "Kubungabunga code source y'umushinga, iba mu bubiko bwa buri mugambi",
+      "Ikiganiro mu gihe nyaco, kibaho muri Discord",
+      "Urukurikirane rw'ibibazo ku migambi imwimwe, iboneka mu bubiko bwa GitHub bwa buri mugambi"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Ikigereranyo ca kera c'ishirahamwe IATF, cashizwe mu bubiko inyuma y'aho gihagaze mu buryo busanzwe.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Gusuzuma hakiri kare igikoresho gifasha mu bijanye n'ukworoherezwa kw'ibinyabuzima mu rwego rw'ishirahamwe IATF.",
+    "why": "Ububiko burabikwa ku mugaragaro nk'inyandiko y'igikorwa, naho iterambere rikomeye ryahagaze.",
+    "scopeIn": [
+      "Ikigereranyo ca mbere c'igikoresho gifasha mu bijanye no kworoherezwa gushikira amakuru, kizigamwa ku mugaragaro"
+    ],
+    "scopeOut": [
+      "Ibikorwa vy'iterambere canke ivy'ibikoresho",
+      "Amasezerano yo kubungabunga abana",
+      "Gukoreshwa mu mwuga wo guhingura"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Robot y'umuryango wa IATF, yatunganijwe inyuma y'ugushika ku mwanya wo guhagarara.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Gukoresha ubuhinga bwa none mu bijanye n'imigenderanire y'ishirahamwe IATF.",
+    "why": "Ububiko burabikwa ku mugaragaro nk'inyandiko y'igikorwa, naho iterambere rikomeye ryahagaze.",
+    "scopeIn": [
+      "Gushira mu buryo bw'imashini amatati yo ku mbuga ngurukanabumenyi za IATF, ibikwiragizwa ku mugaragaro"
+    ],
+    "scopeOut": [
+      "Ibikorwa vy'iterambere canke ivy'ibikoresho",
+      "Amasezerano yo kubungabunga abana",
+      "Gukoreshwa mu mwuga wo guhingura"
+    ]
+  }
+]

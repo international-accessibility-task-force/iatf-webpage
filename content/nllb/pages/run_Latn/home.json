@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ibikenewe mu bijanye n'ugushikira amabanki y'abikorera utwabo",
+    "lead": "IATF ifasha amashirahamwe, imigwi, hamwe n'abantu ku giti cabo guhindura ibikenewe vy'ukuri mu bijanye n'ukworoherezwa kw'amasoko mu migambi ya bose.",
+    "support": [
+      "Ibikorwa vyemewe birasohorwa mw'ishirahamwe rya IATF GitHub munsi y'uruhusha rwa copyleft kandi bigakorwa ku mugaragaro n'umuhinga ajejwe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Uburyo bwo gukora ku mugaragaro",
+      "title": "Uburyo bworoshe bw'ugukoresha ubuhinga bwa none bworohereza abantu"
+    },
+    "paragraphs": [
+      "Biciye ku rupapuro, umuntu wese arashobora gushikiriza ikibazo c'ubushobozi bwo gushikira IATF. Niba umurwi ushobora kuvyakira, ububiko bwa GitHub bwa bose burugururwa ku bw'ico gikorwa.",
+      "Umushinga wose wemejwe uba ufise ahantu hatomoye ku bijanye n'amategeko, ibibazo, ivyandikano, n'ibisohorwa, aho iterambere riyoborwa ku mugaragaro n'umuhinga afise ibanga."
+    ],
+    "specCard": {
+      "title": "Uburyo bwo gukora ku mugaragaro",
+      "terms": [
+        {
+          "term": "Ibikenewe",
+          "definition": "Ikibazo c'ukuri c'ukworoherwa"
+        },
+        {
+          "term": "Gusuzuma",
+          "definition": "Uburyo bwo kurangura iryo banga be n'ukuntu rishoboka mu vy'ukuri"
+        },
+        {
+          "term": "Ikibanza c'umushinga",
+          "definition": "Ububiko bwa GitHub"
+        },
+        {
+          "term": "Ubucungezi",
+          "definition": "Ubukene bw'ishirahamwe rya IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Ingene bikorwa",
+      "title": "Ingene bikora",
+      "intro": "Ico gishushanyo kiguma ari gitoyi kugira ngo abantu bashobore kugikurikirana bitagoranye."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Igisabwa kirashikirizwa",
+        "paragraphs": [
+          "Ishirahamwe, umugwi, canke umuntu ku giti ciwe arashobora gutanga icegeranyo gishingiye ku bintu vy'ukuri bikenewe mu bijanye n'ukworoherezwa.",
+          "Ibisabwa birashobora gutangurira ku rubuga rwa internet, biciye kuri e-mail kuri <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, canke biciye kuri Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF irisuzuma",
+        "paragraphs": [
+          "Turasuzuma ko igikorwa gihuye n'igikorwa, ko gifise akamaro, be n'uko ico gikorwa coba kiri mu mugambi wugururiwe bose."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ububiko bw'amakuru bwa bose burashizweho",
+        "paragraphs": [
+          "Mu gihe umushinga wemerewe, urasohorwa mw'ishirahamwe rya IATF GitHub hakurikijwe uruhusha rwa copyleft.",
+          "Ico kibanza c'ububiko kiba icicaro c'ibisohokayandikiro, ibintu vyasohowe, ivyandikano be n'ivyasohotse."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Umuhinga mu vy'ubwubatsi ni we ayobora ico gikorwa",
+        "paragraphs": [
+          "Umuhinga mu vy'ubwubatsi ni we ashingwa igikorwa co gushira mu bubiko bw'igikorwa, ivyo bikorwa bigakorwa ku mugaragaro."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ububiko bw'ibitabu",
+      "title": "Urutonde rw'ibikorwa rusangi"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tangura ngaha",
+      "title": "Kurabira hamwe ibikorwa biriko birakorwa canke gutanguza umugambi kanaka"
+    },
+    "paragraphs": [
+      "Nukoreshe ico cegeranyo kugira urabe ivyamaze gushikirizwa ku mugaragaro, canke utangure kwinjiza amakuru mu gihe ingorane kanaka ijanye n'ukworoherwa yoba igiye kuba umushinga."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

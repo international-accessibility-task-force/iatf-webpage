@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Imiyoborere n'uburyo bwo kubika amakuru",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Imiyoborere n'uburyo bwo kubika amakuru",
+    "lead": "Ishirahamwe IATF riratuma imigambi ijanye no kworohereza abantu gushikira ibitabu iguma ku mugaragaro, isomeka kandi ishobora kubungabungwa.",
+    "support": [
+      "Uru rupapuro rurasigura ibisabwa, ingene ububiko bugenzurwa, n'ibisabwa ku rwego rw'ububiko inyuma yo kwemerwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Ingingo ngenderwako",
+      "title": "Ukwihuza n'igikorwa, ubwenegihugu, ugutanga uruhusha"
+    },
+    "cards": [
+      {
+        "title": "Uburyo bwo kurangura igikorwa",
+        "paragraphs": [
+          "Ishirahamwe IATF ryemera igikorwa gifasha gutorera umuti intambamyi z'ukuri zibuza abantu kuronka amakuru kandi gifise akamaro ku bantu.",
+          "Igikorwa gikwiye kuba ngirakamaro kiretse gusa igikorwa c'umuntu ku giti ciwe kandi kigashobora gukoreshwa nk'ububiko bw'amakuru bwa bose.",
+          "IATF ikoresha uburyo bwo gushikira imbuga ngurukanabumenyi [W3C WAI](https://www.w3.org/WAI/) Ivyashitsweko n'abakoresha ubuhinga bwo gufasha, na vyo nyene birerekana mu buryo buboneka ibifasha abakoresha ubwo buhinga mu buzima bwabo bwa misi yose."
+        ]
+      },
+      {
+        "title": "Kwemera umugambi",
+        "paragraphs": [
+          "Umushinga urashobora kwemerwa igihe isuzumwa ryerekana ko:"
+        ],
+        "items": [
+          "irishura ikintu gikenewe vy'ukuri mu bijanye n'ukworoherezwa",
+          "ikibazo kiratomoye bihagije kugira ngo gishobore gusuzumwa",
+          "uburyo bukwiye bwo gutanguza",
+          "igikorwa gihuye n'igikorwa ca IATF",
+          "hariho inzira y'ukuri yo kubungabunga canke kurangiza"
+        ]
+      },
+      {
+        "title": "Ubwigenge bw'ububiko bw'amakuru",
+        "paragraphs": [
+          "Imigambi yemewe ikorwa mw'ishirahamwe rya IATF GitHub.",
+          "Ibikoresho vy'ububiko biguma ng'aho kugira ngo igikorwa kimwekimwe cose kigume ari ikibanza gisanzwe, naho nyene abajejwe kubungabunga ico kibanza bohava bahinduka."
+        ]
+      },
+      {
+        "title": "Gutanga uruhusha",
+        "paragraphs": [
+          "Imigambi ya IATF ikoresha uruhusha rwa copyleft kiretse iyo umugambi uvuze ukundi:"
+        ],
+        "items": [
+          "<strong>Ikidodo:</strong> AGPL-3.0",
+          "<strong>Inyandiko:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Umwenjeniyeri canke umukozi ajejwe ibikorwa vyo kubungabunga inyubakwa",
+      "paragraphs": [
+        "Umushinga wose wemerewe ukwiye kuba ufise injeniyeri canke uwujejwe kubungabunga izina. Uwo muntu arashobora guhabwa uburenganzira bwo gucungera ububiko kandi yitezwe:"
+      ],
+      "items": [
+        "gutunganya indero y'abantu ku mugaragaro",
+        "kubungabunga inyubako y'ububiko",
+        "gusuzuma canke gucungera ibibazo no gukuramo ibisabwa",
+        "kwandika ingingo zihambaye zijanye n'ivy'ubuhinga",
+        "gutuma abandi batahura neza igikorwa uriko urakora"
+      ],
+      "footnote": "Ubu ni ibanga ry'ububiko. Ubwigenge bw'ishirahamwe buguma kuri IATF. Ububasha ngaha ni ububiko bwo gucungera, ubuyobozi bwa tekiniki, no guhuza abanyagihugu  ntabwo ari ugutanga kw'abikorera utwabo kutagira imipaka, ukuja hamwe kw'imigenzo, canke imihigo yo ku rwego rw'umurimo hanze y'umugambi w'abanyagihugu."
+    },
+    "publicDevelopment": {
+      "title": "Iterambere ry'abanyagihugu",
+      "paragraphs": [
+        "Ibikorwa vyatangujwe biciye muri IATF vyatunganijwe ku mugaragaro. Ububiko ni isoko rusange ry'ukuri kuri:"
+      ],
+      "items": [
+        "kode y'isoko",
+        "ibibazo",
+        "ivyandikano",
+        "Ibimenyeshejwe ku rupapuro rw'inzira",
+        "kahise k'ugushirwa ahabona"
+      ],
+      "footnote": "Ubumenyi buhambaye bw'umushinga ntibukwiye kuba mu biganiro canke mu dusandugu tw'ubutumwa."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Inyandiko z'abantu bose",
+      "title": "Inyandiko z'ibisabwa ku mugaragaro"
+    },
+    "paragraphs": [
+      "IATF ikora ku mugaragaro mu buryo bw'ibisanzwe. Ibibazo binjira muri iATF biciye ku rubuga rwa internet, email, Discord, GitHub, canke izindi nzira zaIATF bishobora kuba inyandiko z'ibisabwa n'abantu bose.",
+      "Inyandiko y'ibisabwa ku mugaragaro si ngombwa ngo ibe ari yo butumwa bw'umwimerere. IATF irashobora gushikiriza icegeranyo, gutunganya, canke gusubiramwo igisabwa imbere y'uko ishirwa ahabona kugira ngo ibisabwa vyo kuboneka bishobore gusubirwamwo bidashikirije amakuru y'umuntu adakenewe.",
+      "Inyandiko z'ibisabwa n'abanyagihugu zirashobora kubikwa mw'ishirahamwe rya IATF GitHub, kuri uru rubuga, canke kuri ivyo vyompi.",
+      "Imbere y'ugushira ahabona, IATF ikuraho amakuru y'abantu adakenewe yo guhanahana amakuru, aderese z'abantu ku giti cabo, hamwe n'amakuru yerekana umwidondoro w'abakoresha ubuhinga bufasha, kiretse mu gihe gushirwa ahabona bifise intumbero itomoye kandi bibereye.",
+      "Discord ikoreshwa mu guhanahana amakuru. IATF ntizigama ibiganiro vya Discord mu buryo butandukanye, kandi kubika ubutumwa bigenzurwa na Discord. Ingingo zafashwe muri Discord zikwiye kuvugwa mu ncamake mu nyandiko rusange kuri GitHub canke kurupapuro rw'umushinga rwihariye.",
+      "Inyandiko z'ibisabwa ntizishobora gushirwa ku rutonde rw'ibikoresho vy'ubushakashatsi aho bishoboka.",
+      "IATF irashobora kuvugurura canke gukuraho inyandiko zivuye ku mbuga zikoreshwa n'IATF, ariko ntishobora kwemeza ko zizokurwa mu bubiko bw'ibibanza vy'abantu, mu bimenyeshamakuru, mu mashami, mu mafoto y'amasanamu, mu vyuma vyo kurondera, muri Discord, canke mu bindi bikoresho vyo hanze.",
+      "Nimba ubutumwa bukeneye kuguma ari ubw'ibanga, ntubutumeko biciye mu nzira za IATF zisanzwe."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Uruhara rw'ishirahamwe",
+      "title": "Intebe y'icegera c'umukuru w'igihugu"
+    },
+    "lead": "Umukuru w'ishirahamwe ni we ashinzwe gucungera IATF. Ivyo biratandukanye n'uruhara rw'umuhinga ajejwe imigambi: umukuru ajejwe ishirahamwe ryose uko ryakabaye, si ukurongora ikigega kimwekimwe cose ku musi ku musi.",
+    "duties": {
+      "title": "Ico iyo ntebe ikora",
+      "items": [
+        "Ifise uburenganzira bw'umutware ku muryango wa IATF GitHub",
+        "Amasezerano ajanye n'ukwemererwa kw'igikorwa n'ingingo zijanye n'ugushira ibintu mu bubiko",
+        "Ikora nk'urwego rushinzwe guhanahana amakuru n'ishirahamwe IATF",
+        "Aratunganya amatora ya buri mwaka"
+      ],
+      "footnote": "Umukuru w'urwo rwego ntashinga IATF ku bijanye n'ugutanga ibidandazwa ku giti ciwe, akazi gahembwa, canke amasezerano y'urwego rw'umurimo, kandi ntasubirira ingingo zafashwe n'abajejwe kubungabunga ububiko bw'amakuru ku vyerekeye ubuyobozi mu vy'ubuhinga."
+    },
+    "election": {
+      "title": "Amatora ya buri mwaka",
+      "paragraphs": [
+        "Umukuru w'inama atorwa rimwe mu mwaka. Amatora aba mu ndwi zibiri za mbere z'ukwezi kw'icumi na kabiri, ivyavuye mu matora bitangazwa imbere y'itariki 15 z'ukwo kwezi, kandi ikiringo gishasha gitangura kw'igenekerezo rya 1 Nzero.",
+        "Abafise uburenganzira bwo gutora ni abantu bafise uruhara rwo kubungabunga ububiko bwose bwa IATF mu mwaka kandi bagize n'imiburiburi intererano imwe yashizwe hamwe mu bubiko bwa IATAF muri uwo mwaka. Buri mutora afise uburenganzira afise ijwi rimwe. Umukandida afise amajwi menshi aratsinda; mu gihe habaye umwumvikano, igice ca kabiri kiraba mu ndwi ya gatatu y'ukwezi kwa cumi na kabiri.",
+        "Amatora atunganijwe nk'ibiganiro vya GitHub mu bubiko bw'ubutegetsi bwa IATF, rero abakandida, amajwi, n'ivyavuye vyose biri mu nyandiko ya bose."
+      ]
+    },
+    "continuity": {
+      "title": "Ukubandanya",
+      "paragraphs": [
+        "Mu gihe ata matora aba mu mwaka kanaka, umukuru w'urwo rwego aguma muri ico kibanza gushika ku matora akurikira. Iki ni ikiringo kitagira aho kigarukira, si ikiringo c'akaruhuko  ubwo buryo bwatunganijwe kugira ngo ishirahamwe rigume ritekanye igihe ibikorwa biri hasi, si ukugira ngo hatangwe impinduka ata n'umwe yiteguriye.",
+        "Umukuru w'inama arashobora gutanga imihoho umwanya uwariwo wose. Abajejwe ibikorwa barashobora kandi gutumako amatora adasanzwe ku mvo zerekanywe, hakurikijwe amategeko amwe n'ayo amatora ya buri mwaka."
+      ]
+    },
+    "current": {
+      "title": "Umukuru w'inama nshingamateka",
+      "fields": [
+        {
+          "label": "Intebe y'icegera c'umukuru w'igihugu",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ikiringo",
+          "value": "Gushika ku matora yo muri Kigarama 2026"
+        },
+        {
+          "label": "Uruhara rwatunganijwe",
+          "value": "2026"
+        },
+        {
+          "label": "Amatora ya mbere ategekanijwe",
+          "value": "Kigarama 2026"
+        }
+      ]
+    },
+    "footnote": "Uruhara rw'umukuru w'ishirahamwe rwaratunganijwe mu mwaka w'i 2026 mu ntumbero y'ugushira ahabona ibijanye n'ukurongora ishirahamwe."
+  },
+  "continuity": {
+    "states": {
+      "title": "Uko igikorwa kimeze",
+      "paragraphs": [
+        "Imigambi ikoresha urukurikirane ruto rw'ibihugu vya Leta:"
+      ],
+      "items": [
+        "Icegeranyo",
+        "Yakiriwe",
+        "Ibikorwa",
+        "Idahungabana",
+        "Kurondera uwubungabunga",
+        "Ibiri mu bubiko"
+      ],
+      "footnote": "Utwo turere turatuma urwo rutonde rworoshe gusuzuma."
+    },
+    "reassignment": {
+      "title": "Guhindurirwa igikorwa n'ugushirwa mu bushinguro bw'inyandiko",
+      "paragraphs": [
+        "Mu gihe uwuriko arakora igikorwa co kubungabunga ico gisata ataco akora, IATF irashobora gusubira kumuha amabanga, guhagarika ico gikorwa canke kugishira mu gisata c'ubuhinga bwa none.",
+        "Umushinga woshobora kandi gushirwa mu bubiko igihe icari gikenewe mu ntango carangutse, igihe igikorwa co kuwubungabunga gihagaze, canke igihe bitagishoboka ko igikorwa kibandanya."
+      ],
+      "footnote": "Ibikorwa vyo mu bushinguro bw'ibitabu biguma biboneka ku mugaragaro, kiretse igihe hari imvo ikomeye ituma ataba ari ko biri."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Insiguro y'urubibe",
+      "title": "Ico ishirahamwe IATF ritemera"
+    },
+    "items": [
+      "ugutanga ku bakiriya ku giti cabo",
+      "amasezerano y'urwego rw'umurimo",
+      "kwemera icegeranyo cose",
+      "ibikorwa vyo kubungabunga igihe kirekire ku mugambi uwo ari wo wose"
+    ],
+    "footnote": "IATF ni ikigega ca bose, si ikigo c'abikorera utwabo."
+  }
+}
