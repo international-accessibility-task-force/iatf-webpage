@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "সাইতমেপ"
+  },
+  "hero": {
+    "eyebrow": "ইন্দেক্স",
+    "title": "সাইতমেপ",
+    "lead": "আই.এ.তি.এফ.সি.গী পব্লিক পেজ খুদিংমক মফম অমখক্তদা।"
+  },
+  "sections": [
+    {
+      "title": "মরুওইবা পেজশিং",
+      "items": [
+        {
+          "label": "য়ুমদা",
+          "href": "/"
+        },
+        {
+          "label": "প্রোজেক্তশিং",
+          "href": "/projects/"
+        },
+        {
+          "label": "প্রোজেক্ত অমা রিক্বেস্ত তৌবীয়ু",
+          "href": "/propose/"
+        },
+        {
+          "label": "গবর্নান্স",
+          "href": "/governance/"
+        },
+        {
+          "label": "য়াওশিনবিয়ু",
+          "href": "/join/"
+        },
+        {
+          "label": "এক্সেসিবিলিটি",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ত্রান্সপরেন্সী",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "প্রোজেক্তশিং",
+  "projectsEmpty": "হৌজিক ফাওবদা প্রোজেক্ত অমত্তা ফোংদ্রি।"
+}

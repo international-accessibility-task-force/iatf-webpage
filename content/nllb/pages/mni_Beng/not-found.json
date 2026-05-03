@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ফংদ্রে"
+  },
+  "hero": {
+    "eyebrow": "ফংদ্রে",
+    "title": "অদোম্না খংলিবা পেজ অসি ফংদ্রে",
+    "lead": "মীয়াম তিনবা মফম অদুদা হল্লক্নবগীদমক্তা মখাগী মরুওইবা লম্বীশিং অসি শিজিন্নৌ।",
+    "support": [],
+    "actions": [
+      {
+        "label": "য়ুমদা",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "অদোম্না খংলিবা লম্বী অসি লৈতে."
+    ],
+    "items": [
+      {
+        "label": "য়ুমদা",
+        "href": "/"
+      },
+      {
+        "label": "প্রোজেক্তশিং",
+        "href": "/projects/"
+      },
+      {
+        "label": "য়াওশিনবিয়ু",
+        "href": "/join/"
+      },
+      {
+        "label": "এক্সেসিবিলিটি",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "গবর্নান্স",
+        "href": "/governance/"
+      },
+      {
+        "label": "ত্রান্সপরেন্সী",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
