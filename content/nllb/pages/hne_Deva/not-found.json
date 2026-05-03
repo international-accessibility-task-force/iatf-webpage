@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "पाइस नी गिस"
+  },
+  "hero": {
+    "eyebrow": "पाइस नी गिस",
+    "title": "अनुरोधित पृष्ठ नइ मिलिस",
+    "lead": "सार्वजनिक साइट म वापस आहर बर नीचे मुख्य मार्गों का उपयोग करव।",
+    "support": [],
+    "actions": [
+      {
+        "label": "होम (घर) करे",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "आप मन जऊन राऊट के अनुरोध करे हव, ओहा मौजूद नइ हे।"
+    ],
+    "items": [
+      {
+        "label": "होम (घर) करे",
+        "href": "/"
+      },
+      {
+        "label": "परियोजनाओं",
+        "href": "/projects/"
+      },
+      {
+        "label": "शामिल होइए",
+        "href": "/join/"
+      },
+      {
+        "label": "सुलभता (एक्सेसिबिलिटी)",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "शासन अउ प्रशासन",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शिता",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "सार्वजनिक सुलभता परियोजनामन",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "सार्वजनिक सुलभता परियोजनामन",
+    "lead": "ए रजिस्ट्री आईएटीएफ के माध्यम ले बनाए गए सार्वजनिक परियोजनाओं ल सूचीबद्ध करत हवय। स्वीकृत अभिगम्यता परियोजनाओं, साइट बुनियादी ढांचे, अउ संग्रहीत प्रोटोटाइप ल इहां दिखाई देत हवय।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "रजिस्ट्री करे",
+      "title": "वर्तमान रजिस्ट्री"
+    },
+    "intro": [
+      "स्वीकृत परियोजना के सूची इहां प्रकाशित होए के बाद रखे गे हे।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "एक आवश्यकता सबमिट करे",
+      "title": "एक सार्वजनिक परियोजना म एक ठोस पहुंच आवश्यकता म बदलना"
+    },
+    "paragraphs": [
+      "आईएटीएफ ठोस अभिगम्यता के जरूरतों के समीक्षा करत हवय जेला उपयोगी सार्वजनिक ओपन सोर्स काम म तब्दील करे जा सकत हवय।"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "अभी तक काखरो घलो प्रकाशित परियोजना नीए",
+    "paragraphs": [
+      "आईएटीएफ अपन पहीली सार्वजनिक परियोजना सेट तैयार करत हवय।",
+      "आप अभी भी एक अनुरोध भेज सकत हव यदि आपके पास एक विशिष्ट अभिगम्यता आवश्यकता हवय।"
+    ]
+  }
+}

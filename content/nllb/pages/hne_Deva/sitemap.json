@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइटमैप"
+  },
+  "hero": {
+    "eyebrow": "सूचकांक",
+    "title": "साइटमैप",
+    "lead": "आईएटीएफसीसी म हर सार्वजनिक पृष्ठ, एक ही जगह म।"
+  },
+  "sections": [
+    {
+      "title": "मुख्य पन्ने",
+      "items": [
+        {
+          "label": "होम (घर) करे",
+          "href": "/"
+        },
+        {
+          "label": "परियोजनाओं",
+          "href": "/projects/"
+        },
+        {
+          "label": "एक परियोजना के अनुरोध करव",
+          "href": "/propose/"
+        },
+        {
+          "label": "शासन अउ प्रशासन",
+          "href": "/governance/"
+        },
+        {
+          "label": "शामिल होइए",
+          "href": "/join/"
+        },
+        {
+          "label": "सुलभता (एक्सेसिबिलिटी)",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शिता",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "परियोजनाओं",
+  "projectsEmpty": "अभी तक कन्हु परियोजना प्रकाशित नी होए हे।"
+}
