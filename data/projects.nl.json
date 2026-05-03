@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF-website",
+    "summary": "De openbare website van de International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF had behoefte aan een stabiel openbaar huis dat het model uitlegt, projecten opnoemt en bijdragers wijst op de juiste volgende stap.",
+    "why": "De site is de openbare voordeur van IATF. Het is gebouwd als een klein statisch project, zodat het gemakkelijk te lezen, te vertalen en te onderhouden is in de open lucht.",
+    "scopeIn": [
+      "Openbare landingspagina's die het IATF-model uitleggen",
+      "Openbaar register van geaccepteerde, actieve en gearchiveerde IATF-projecten met status, maintainer, repository en demo",
+      "Een aanvraagontvangstpagina en -formulier",
+      "Pagina's over bestuur en transparantie",
+      "Engelse bron met structuur klaar voor vertaling",
+      "Statische implementatie op Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Privé-lidgebieden, -accounts of inlogstromen",
+      "Hosting van de broncode van het project, die in de eigen repository van elk project wordt opgeslagen",
+      "Real-time chat, die leeft in Discord",
+      "Issue-tracking voor individuele projecten, die in de GitHub-repository van elk project wordt opgeslagen"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Een vroeg IATF-prototype, gearchiveerd na het bereiken van een natuurlijk stoppunt.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Vroegtijdige verkenning van een op toegankelijkheid gerichte tool in het kader van de IATF.",
+    "why": "De repository wordt openbaar bewaard als een verslag van het werk, ook al is de actieve ontwikkeling gestopt.",
+    "scopeIn": [
+      "Vroeg prototype van een op toegankelijkheid gerichte tool die als openbaar dossier wordt bewaard"
+    ],
+    "scopeOut": [
+      "Actieve ontwikkeling of functionaliteit",
+      "Onderhoudsverplichtingen",
+      "Aanbevolen gebruik in de productie"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF-bot",
+    "summary": "Een IATF-gemeenschapsbot, gearchiveerd na het bereiken van een natuurlijk stoppunt.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatisering rond IATF-gemeenschapskanalen.",
+    "why": "De repository wordt openbaar bewaard als een verslag van het werk, ook al is de actieve ontwikkeling gestopt.",
+    "scopeIn": [
+      "Discord-automatisering rond IATF-gemeenschapskanalen, bewaard als openbaar dossier"
+    ],
+    "scopeOut": [
+      "Actieve ontwikkeling of functionaliteit",
+      "Onderhoudsverplichtingen",
+      "Aanbevolen gebruik in de productie"
+    ]
+  }
+]
