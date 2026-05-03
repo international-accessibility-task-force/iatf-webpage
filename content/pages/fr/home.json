@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Du besoin d'accessibilité au repos public",
+    "lead": "L'IATF aide les associations, les groupes et les individus à transformer les besoins réels en matière d'accessibilité en projets publics open source.",
+    "support": [
+      "Les projets acceptés sont publiés dans l'organisation IATF GitHub sous une licence copyleft et développés en public par un ingénieur responsable."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modèle de fonctionnement public",
+      "title": "Une voie publique simple pour les logiciels accessibles"
+    },
+    "paragraphs": [
+      "Grâce à un formulaire, n'importe qui peut soumettre un problème d'accessibilité à l'IATF. Si l'équipe peut le prendre en charge, un référentiel public GitHub est ouvert pour le travail.",
+      "Chaque projet accepté dispose d'une adresse publique claire pour le code, les problèmes, la documentation et les versions, le développement étant dirigé en plein air par un ingénieur responsable."
+    ],
+    "specCard": {
+      "title": "Modèle de fonctionnement public",
+      "terms": [
+        {
+          "term": "Nécessité",
+          "definition": "Problème réel d'accessibilité"
+        },
+        {
+          "term": "Compte rendu",
+          "definition": "Adaptation à la mission et faisabilité pratique"
+        },
+        {
+          "term": "Espace du projet",
+          "definition": "Référentiel public GitHub"
+        },
+        {
+          "term": "Le rôle de l'intendant",
+          "definition": "Propriété organisationnelle de l'IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Le processus",
+      "title": "Comment cela fonctionne",
+      "intro": "Le modèle reste intentionnellement petit pour que le chemin public soit facile à suivre."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Un besoin est présenté",
+        "paragraphs": [
+          "Une association, un groupe ou un individu peut soumettre une demande fondée sur un besoin réel d'accessibilité.",
+          "Les demandes peuvent commencer par le site Web, par courrier électronique à l'adresse suivante: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ou à travers Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Elle est examinée par l'IATF",
+        "paragraphs": [
+          "Nous examinons l'adéquation de la mission, la portée pratique et si le travail appartient à un projet open source public."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Un référentiel public est créé",
+        "paragraphs": [
+          "Si un projet est accepté, il est publié dans l'organisation GitHub de l'IATF sous une licence copyleft.",
+          "Le dépôt devient la maison publique du code, des problèmes, de la documentation et des versions."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Un ingénieur responsable dirige le projet",
+        "paragraphs": [
+          "Un ingénieur responsable est affecté au référentiel du projet et le développement se fait en public."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Enregistrement",
+      "title": "Registre public des projets"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Commencez par ici .",
+      "title": "Parcourir les travaux en cours ou démarrer un projet concret"
+    },
+    "paragraphs": [
+      "Utilisez le registre pour voir ce qui est déjà public, ou commencez l'absorption si un problème d'accessibilité concret devrait devenir un projet."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

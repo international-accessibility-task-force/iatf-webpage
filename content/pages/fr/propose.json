@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Demander un projet d'accessibilité",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Demander un projet d'accessibilité",
+    "lead": "L'IATF examine les demandes de projets d'accessibilité qui découlent d'un besoin réel.",
+    "support": [
+      "Vous n'avez pas besoin d'une spécification complète, un problème clair, qui il affecte et pourquoi il est important suffit pour commencer."
+    ],
+    "actions": [
+      {
+        "label": "Démarrer une requête",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Utilisez plutôt Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Les canaux",
+      "title": "Choisissez le chemin le plus facile ."
+    },
+    "intro": [
+      "Tous les itinéraires font l'objet du même examen."
+    ],
+    "items": [
+      {
+        "label": "Le site web",
+        "body": "Utilisez le formulaire ci-dessous pour soumettre une demande structurée."
+      },
+      {
+        "label": "Le courrier électronique",
+        "body": "Envoyez la demande directement à: {{contact.requestsEmail}}Les demandes par courrier électronique peuvent devenir des dossiers de demande publics après examen et rédaction."
+      },
+      {
+        "label": "La discorde",
+        "body": "Commencez par là si c'est le plus facile. La demande passe toujours dans la même revue."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Avant d'envoyer une demande",
+    "paragraphs": [
+      "Les demandes peuvent être résumées et publiées sous forme d'enregistrements de demandes publiques dans l'organisation GitHub de l'IATF, sur ce site Web ou les deux.",
+      "N'incluez pas d'adresses privées, de numéros de téléphone, de détails médicaux ou d'informations permettant d'identifier des utilisateurs individuels de technologies d'assistance, sauf si cela est nécessaire et que vous êtes à l'aise avec l'examen de l'IATF.",
+      "L'IATF supprime les coordonnées personnelles inutiles avant de publier les dossiers des demandes."
+    ]
+  },
+  "review": {
+    "title": "Vue d'ensemble des attentes",
+    "paragraphs": [
+      "La présentation d'une demande ne garantit pas l'acceptation.",
+      "L'IATF examine les demandes pour l'adéquation à la mission, la faisabilité, l'utilité et si le travail appartient à un référentiel public.",
+      "Certaines demandes peuvent être refusées, reportées ou modifiées avant d'être acceptées."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulaire de demande",
+      "title": "Soumettre une demande"
+    },
+    "fields": [
+      {
+        "kind": "entrée",
+        "name": "demandeur",
+        "label": "Votre nom ou votre organisation",
+        "helper": "Qui fait la demande ?"
+      },
+      {
+        "kind": "sélectionner",
+        "name": "Nom de l'expéditeur",
+        "label": "Route de contact préférée",
+        "helper": "Comment devrait se dérouler le suivi?",
+        "required": true,
+        "options": [
+          "Le courrier électronique",
+          "La discorde"
+        ]
+      },
+      {
+        "kind": "entrée",
+        "name": "Détails de contact",
+        "label": "Détails de contact",
+        "helper": "Adresse e-mail ou adresse Discord pour le suivi.",
+        "placeholder": "Adresse électronique ou adresse Discord",
+        "required": true
+      },
+      {
+        "kind": "entrée",
+        "name": "langue du pays",
+        "label": "La langue",
+        "helper": "Votre langue préférée, le cas échéant.",
+        "value": "Anglais"
+      },
+      {
+        "kind": "zone de texte",
+        "name": "problème",
+        "label": "Quel problème essayez-vous de résoudre ?",
+        "helper": "Décrivez la barrière en termes simples.",
+        "required": true
+      },
+      {
+        "kind": "zone de texte",
+        "name": "Utilisateurs affectés",
+        "label": "Qui est concerné?",
+        "helper": "À qui ça aiderait ?",
+        "required": true
+      },
+      {
+        "kind": "zone de texte",
+        "name": "extraContexte",
+        "label": "Contextes complémentaires",
+        "helper": "Partagez tout ce qui aide à expliquer le besoin: pourquoi c'est important, des exemples, des références, une idée approximative de logiciel ou des contraintes de temps."
+      },
+      {
+        "kind": "sélectionner",
+        "name": "Je suis d'accord.",
+        "label": "Vous êtes à l'aise avec le développement open source ?",
+        "helper": "Les projets acceptés sont des référentiels publics sous l'égide de l'IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Oui , c' est ça .",
+          "Pas du tout .",
+          "Je n' en suis pas encore sûr ."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Si elle est acceptée",
+      "title": "Ce que signifie l'acceptation"
+    },
+    "items": [
+      "un référentiel public dans l'organisation GitHub de l'IATF",
+      "un ingénieur responsable affecté au projet",
+      "une licence copyleft pour le code et le matériel du projet",
+      "développement public dans le référentiel",
+      "une entrée de registre sur le site de l'IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Commencez la conversation",
+      "title": "Une demande courte et claire suffit pour commencer"
+    },
+    "paragraphs": [
+      "Si vous avez un réel besoin d'accessibilité et que vous pensez que cela devrait devenir un projet public, envoyez-le nous."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

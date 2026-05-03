@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Carte du site"
+  },
+  "hero": {
+    "eyebrow": "Indicateur",
+    "title": "Carte du site",
+    "lead": "Toutes les pages publiques sur IATF.CC, au même endroit."
+  },
+  "sections": [
+    {
+      "title": "Pages principales",
+      "items": [
+        {
+          "label": "Retour à la maison",
+          "href": "/"
+        },
+        {
+          "label": "Projets",
+          "href": "/projects/"
+        },
+        {
+          "label": "Demander un projet",
+          "href": "/propose/"
+        },
+        {
+          "label": "La gouvernance",
+          "href": "/governance/"
+        },
+        {
+          "label": "Joignez-vous à nous .",
+          "href": "/join/"
+        },
+        {
+          "label": "Accès à l'information",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "La transparence",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projets",
+  "projectsEmpty": "Aucun projet encore publié."
+}

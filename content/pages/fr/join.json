@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Joignez-vous à l'IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Joignez-vous à l'IATF",
+    "lead": "L'adhésion est ouverte. Il y a plusieurs façons de participer, que vous vous appuyiez sur la technologie d'assistance, construisez un logiciel accessible, traduisez, testez ou maintenez un projet. Les discussions et les décisions se déroulent en public sur GitHub et Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rôles",
+      "title": "Façons de contribuer"
+    },
+    "items": [
+      "<strong>Demandez un projet.</strong> Si vous rencontrez un obstacle à l'accessibilité qui pourrait être résolu par un logiciel open source public, envoyez-le par l'intermédiaire de la réception des demandes.",
+      "<strong>Test et révision.</strong> Essayez les projets IATF avec la technologie d'assistance que vous utilisez, signalez ce qui fonctionne et ce qui ne fonctionne pas, et déposez les problèmes directement sur le référentiel pertinent.",
+      "<strong>Je traduis.</strong> Le contenu source est d'abord publié en anglais, les traductions sont ajoutées au fur et à mesure que les contributeurs sont disponibles, en commençant par l'espagnol.",
+      "<strong>Pour construire.</strong> Récupérer des problèmes dans n'importe quel référentiel IATF, envoyer des demandes d'extraction ou prendre en charge un projet en tant qu'ingénieur responsable.",
+      "<strong>Je m'en occupe.</strong> Les projets existants ont parfois besoin d'un nouveau responsable de la maintenance.La rotation des responsables de l'entretien est une partie normale du modèle, et non une exception."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Les canaux",
+      "title": "Lorsque l'IATF travaille dans un lieu public"
+    },
+    "items": [
+      "<strong>Il est sur GitHub.</strong> Problèmes, demandes de retrait, communiqués et dossiers de projet.",
+      "<strong>La discorde.</strong> Des discussions en direct, une coordination et des questions informelles.",
+      "<strong>Le courrier électronique.</strong> Utilisation <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si ni GitHub ni Discord ne sont adaptés."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "La prochaine étape",
+      "title": "Choisissez le canal qui correspond à la façon dont vous voulez contribuer"
+    },
+    "paragraphs": [
+      "Tous les canaux alimentent le même examen public et les mêmes référentiels publics."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

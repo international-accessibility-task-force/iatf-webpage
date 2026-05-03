@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "La transparence",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "La transparence",
+    "lead": "L'IATF fonctionne en public par défaut. Les décisions de projet, les modifications de code, les changements de gouvernance et les coûts d'exploitation sont enregistrés dans des lieux publics. Cette page répertorie où chaque type d'enregistrement vit et comment le lire.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Les dossiers",
+      "title": "Où sont les archives ?"
+    },
+    "items": [
+      "<strong>Décisions du projet.</strong> Les décisions d'acceptation, d'archivage et de réaffectation sont enregistrées sous forme d'émissions ou de communiqués dans le référentiel concerné et résumées dans le registre public. <a href=\"/projects/\">le registre</a>- Je sais .",
+      "<strong>Je demande les dossiers.</strong> Les enregistrements de requêtes publiques sont stockés dans l'organisation GitHub de l'IATF, sur ce site Web, ou les deux. Ils peuvent résumer, modifier ou restructurer la requête originale afin que le besoin d'accessibilité puisse être examiné sans exposer d'informations personnelles inutiles. Les décisions de désaccord sont résumées dans le dossier public lorsqu'elles affectent un projet ou une décision de gouvernance.",
+      "<strong>Le code change.</strong> Chaque modification de code est un engagement public sur le référentiel concerné. <a href=\"{{contact.githubOrgUrl}}\">L'organisation de GitHub</a>- Je sais .",
+      "<strong>Des changements dans la gouvernance.</strong> Les mises à jour de la page de gouvernance sont suivies en tant qu'engagements <code>Le site internet de l'IATF</code> Voir le répertoire. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">l'historique des commandes</a> sur GitHub.",
+      "<strong>Les coûts d'exploitation.</strong> L'IATF maintient les coûts d'exploitation bas et enregistre les dépenses récurrentes d'infrastructure publique.",
+      "<strong>Des notes de coordination.</strong> Notes de tout examen ou décision coordonné en direct dans GitHub Discussions sur le référentiel concerné  vue <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Débats du Parlement européen</a> sur le <code>Le site internet de l'IATF</code> dépôt."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Coûts",
+      "title": "Registre des coûts d'exploitation"
+    },
+    "paragraphs": [
+      "L'IATF maintient son infrastructure publique intentionnellement petite. Depuis 2022, les principaux coûts d'exploitation récurrents ont été les noms de domaine. L'hébergement a utilisé des infrastructures gratuites ou à faible coût dans la mesure du possible.",
+      "Il s'agit d'un registre public des coûts d'exploitation de l'infrastructure utilisée pour maintenir l'IATF en ligne."
+    ],
+    "footnote": "Les adresses personnelles, les détails de facturation et les informations de compte inutiles ne font pas partie du dossier public.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Nom de domaine",
+            "value": "<code>à l'aéroport international de l'aviation civile (iatf.cc)</code>"
+          },
+          {
+            "label": "Coût",
+            "value": "États-Unis d'Amérique 3,40 USD"
+          },
+          {
+            "label": "Notes détaillées",
+            "value": "Le coût du domaine financé par mugiwarafx. L'hébergement utilisait une infrastructure de niveau gratuit ou à faible coût via Cloudflare. Le projet est passé de Vercel à CloudFlare et a commencé à utiliser le plus court <code>à l'aéroport international de l'aviation civile (iatf.cc)</code> le domaine."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Nom de domaine",
+            "value": "<code>L'accès à l'information au niveau international est assuré par la Taskforce.com.</code>"
+          },
+          {
+            "label": "Coût",
+            "value": "États-Unis d'Amérique 18,68 USD"
+          },
+          {
+            "label": "Notes détaillées",
+            "value": "Le coût du domaine est financé par mugiwarafx. L'hébergement a utilisé une infrastructure de niveau gratuit ou à faible coût."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Nom de domaine",
+            "value": "<code>L'accès à l'information au niveau international est assuré par la Taskforce.com.</code>"
+          },
+          {
+            "label": "Coût",
+            "value": "États-Unis d'Amérique 17,06"
+          },
+          {
+            "label": "Notes détaillées",
+            "value": "Le coût du domaine est financé par mugiwarafx. L'hébergement a utilisé une infrastructure de niveau gratuit ou à faible coût via Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Nom de domaine",
+            "value": "<code>L'accès à l'information au niveau international est assuré par la Taskforce.com.</code>"
+          },
+          {
+            "label": "Coût",
+            "value": "États-Unis d'Amérique 14,76 USD"
+          },
+          {
+            "label": "Notes détaillées",
+            "value": "Le coût du domaine est financé par mugiwarafx. L'hébergement a utilisé une infrastructure de niveau gratuit ou à faible coût."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Nom de domaine",
+            "value": "<code>L'accès à l'information au niveau international est assuré par la Taskforce.com.</code>"
+          },
+          {
+            "label": "Coût",
+            "value": "États-Unis d'Amérique 7,76"
+          },
+          {
+            "label": "Notes détaillées",
+            "value": "Le coût du domaine est financé par mugiwarafx. L'hébergement utilise une infrastructure gratuite ou à faible coût via GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Note de démarcation",
+      "title": "Ce qui n'est pas public"
+    },
+    "paragraphs": [
+      "Certains documents sont tenus à l'écart des archives publiques dans les buts suivants:"
+    ],
+    "items": [
+      "Les coordonnées personnelles des proposants.",
+      "Correspondance privée utilisée uniquement pour clarifier une demande avant qu'elle ne soit acceptée, refusée ou résumée.",
+      "Adresses privées, numéros de téléphone, et détails personnels inutiles.",
+      "Tout ce qui pourrait identifier un utilisateur de technologie d'assistance sans son consentement.",
+      "Les conversations Raw Discord, à moins qu'un message spécifique ne soit délibérément déplacé dans un enregistrement de projet public."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "En savoir plus",
+      "title": "La gouvernance est le carnet de règles derrière ces dossiers"
+    },
+    "paragraphs": [
+      "Si vous voulez comprendre comment les projets sont acceptés, archivés ou réaffectés, lisez la page de gouvernance."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

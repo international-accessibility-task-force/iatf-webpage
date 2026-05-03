@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Pas trouvé"
+  },
+  "hero": {
+    "eyebrow": "Pas trouvé",
+    "title": "La page demandée n'a pas été trouvée",
+    "lead": "Utilisez les routes principales ci-dessous pour retourner au site public.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Retour à la maison",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "L'itinéraire que vous avez demandé n'existe pas."
+    ],
+    "items": [
+      {
+        "label": "Retour à la maison",
+        "href": "/"
+      },
+      {
+        "label": "Projets",
+        "href": "/projects/"
+      },
+      {
+        "label": "Joignez-vous à nous .",
+        "href": "/join/"
+      },
+      {
+        "label": "Accès à l'information",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "La gouvernance",
+        "href": "/governance/"
+      },
+      {
+        "label": "La transparence",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
