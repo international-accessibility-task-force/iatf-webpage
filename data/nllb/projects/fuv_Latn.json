@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Web siteji IATF",
+    "summary": "Wakkere ummatore je International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ɗon mari haaje galle ummatore je ɗon tabitina misaalu, limti kujeji, e holla ɓe walligo ha yahde yeeso.",
+    "why": "Wuro man woni dammbugal yeeso IATF. Wurtinol ndu bana taskaram pamaro ngam ɗum jaangina jangugo, fassirgo, be aynugo ha nder babal maɓɓitol.",
+    "scopeIn": [
+      "Jaɓɓorgo Daartol dabare IATF",
+      "Jaɓɓorgo kujeji IATF je jaɓɓaama, je ɗon huwida, be je ɗo mari taskaramji je mari darnde, jaɓɓoowo, dabareji, be sappinol",
+      "Laawol jaɓɓol doolugo be ɗerewol",
+      "Governance be transparency pagesji",
+      "Ɗemngal Engele'en je fuɗɗoode be dabare je ɗon dari ngam fassirgo",
+      "Wurtinol static ha Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Wakkereji je yimɓe feere-feere, kujeji, mala jaahangal nastugo",
+      "Wondugo lawol aslu taskaram, je ɗon wondi ha nder taska taskarama feere-feere",
+      "Wolwugo ha wakkatiiji goonga, je ɗon nder Discord",
+      "Tokkitol taskaramji ngam kujeji feere-feere, je ɗon nder kujeje kala's GitHub repository"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfieji IATF",
+    "summary": "Fuɗɗorde IATF arandeere, je haɓɓama ha ɓawo yaaki ha wakkere darnugo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Jaɓɓol aranol dow kujeji je ɗon mari hakkiilo ha jaɓɓol ha les jaɓɓorgo IATF.",
+    "why": "Repository ɗon aynama ngam ummaatoore bana limtol kuugal, koo ngam ɓesdugo kuugal ɗon darii.",
+    "scopeIn": [
+      "Lartol arandewol kuje je ɗon mari hakkiilo ha jahol yeeso je ɗon aynama bana deftere ummatore"
+    ],
+    "scopeOut": [
+      "Ɓamtaare kuugal mala kuugal feerotiral",
+      "Jaɓɓorgo Kewuuji",
+      "Naftirol je ɗum foondi ha kujeji"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot ummaatoore IATF, je haɓɓama ha ɓawo yottaaki wakkere darnugo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation ha nder dabareji ummatore IATF.",
+    "why": "Repository ɗon aynama ngam ummaatoore bana limtol kuugal, koo ngam ɓesdugo kuugal ɗon darii.",
+    "scopeIn": [
+      "Discord automation ha IATF community channels, je ɗon aynama bana deftere ummaatoore"
+    ],
+    "scopeOut": [
+      "Ɓamtaare kuugal mala kuugal feerotiral",
+      "Jaɓɓorgo Kewuuji",
+      "Naftirol je ɗum foondi ha kujeji"
+    ]
+  }
+]

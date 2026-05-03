@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Laamuji be dabareji taskaramji",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Laamuji be dabareji taskaramji",
+    "lead": "IATF ɗon waɗa taskaramji je footi heɓa jaɓɓugo, jaangugo, be aynugo.",
+    "support": [
+      "Duɗal ndu ɗon sappina ko larni, no repository'en ɗo mari, be ko laarata-repository ha ɓawo jaɓol."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Sariyaji",
+      "title": "Naffugo kuugal, jeyugo, jaɓɓol jaɓɓorɗe"
+    },
+    "cards": [
+      {
+        "title": "Naffugo kuugal",
+        "paragraphs": [
+          "IATF jaɓay kugal je ɗon jaɓɓa dabareji je ɗon wallina je ɗon mari daraja je yimɓe mari.",
+          "Kujeji haani heɓa naffa ha yaasi jaahangal kujeji feere-feere be huwugo bana babal jaangirde ummatore.",
+          "Ngam nastugo Web, IATF ɗon naftirta [W3C WAI](https://www.w3.org/WAI/) kujeji huwooɓe juuɗeeji wallugo bo'o tabbitinan ko ɗon huuwa nder naftorgo goonga."
+        ]
+      },
+      {
+        "title": "Jaɓɓol taskaram",
+        "paragraphs": [
+          "Jaɓɓol footi jaɓa to lartol holli:"
+        ],
+        "items": [
+          "ndu ɗon jaɓa haaje je ɗon mari haaje heɓugo nastugo",
+          "larula ndu ɗon laaɓɗum ngam foondol",
+          "laɓɓinol man ɗon laɓɓina ngam fuɗɗugo",
+          "kugal ɗon hawti be kugal IATF",
+          "woodi laawol je footi wurtina kujeji mala timminol"
+        ]
+      },
+      {
+        "title": "Jaɓɓorgo Kewuuji",
+        "paragraphs": [
+          "Kujeji je jaɓɓaama wurtinaama ha les jaahargal GitHub IATF.",
+          "Repositories ɗon jooɗi ha ton ngam kala taskaram ɗon mari galle ummatore je ɗon tabiti, koo to jaɓɓooɓe ɗon wayla ɓawo man."
+        ]
+      },
+      {
+        "title": "Jaɓɓol jaɓɓorɗe",
+        "paragraphs": [
+          "Kujeji IATF ɗon naftirta copyleft licensing sey ni to kujeji ɗon wi'a feere:"
+        ],
+        "items": [
+          "<strong>Koode:</strong> AGPL-3.0",
+          "<strong>Dokumentiji:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injinjo je ɗon mari hakkiilo mala jaɓɓoowo",
+      "paragraphs": [
+        "Kala taskaram je jaɓɓaama haani mari injinirjo je ɗon mari hakkiilo mala jaɓɓoowo. Neɗɗo je ɗon footi heɓa jaɓɓorgal jaɓɓugo ha kujeji e tammi:"
+      ],
+      "items": [
+        "jahol yeeso nder ummaatoore",
+        "aynugo taskaramji kujeji",
+        "aynugo mala aynugo kujeji be ɗaɓɓitolji",
+        "kujeji dabareji jaangirdeji mawɗi",
+        "waɗugo taskaram fahmugo ngam woɓɓe"
+      ],
+      "footnote": "Ɗu'um woni kuugal ha nder taskaram kujeji. Jaɓɓorgo kujejeji ɗon haa IATF. Kujeji ɗo'o woni kuujeji, dabareji, be hawtirde yimɓe  naa hokkuki yimɓe feere-feere, matotiralji, mala ko hauti be kuɗeji ha yaasi taskarama laawol ummatore."
+    },
+    "publicDevelopment": {
+      "title": "Ɓamtaare ummaatoore",
+      "paragraphs": [
+        "Kujeji je fuɗɗama gal IATF je wurtinaama ha nder ummaatoore."
+      ],
+      "items": [
+        "Koode asngol",
+        "kujeji",
+        "kujeji",
+        "habaruji dow taskaram jaahangal",
+        "habaru wurtinol"
+      ],
+      "footnote": "Andal kuje je ɗon mari feerootiral ha nder jaahargal mala nder inboxes."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Defte ummaatoore",
+      "title": "Defte dookaji ummaatoore"
+    },
+    "paragraphs": [
+      "IATF ɗon huwa ha nder ummaatoore be lawol. Kujeji je don nasta IATf gal gal gal internet, e-mail, Discord, GitHub, mala feereji dabareji IAT F footi wartira kujeji ha nder ummatore.",
+      "Jaɓɓorgo dookaji je ummaatoore footay laato habaru arandejum. IATF footi hawtina, jaɓɓa, mala wangina dooka je hiddeko ɗum wurtina, ngam a footi laara dookaje je footi heɓa bila wurtinugo habaruji je ɗon naffa bo'o.",
+      "Matinolji doolugo ummatore footi taska ha IATF GitHub organization, ha ndu'u ɗerewol intanet, mala fuu ɗiɗi.",
+      "Ha yeeso wurtinol, IATF ɗon itta matinolji laɓɓinolji je wala haaje, jaɓɓorɗe feere-feere, be tinndolji anditol dow yimɓe je ɗon huwida be kujeji wallugo, sey ni to wurtinki wurtinaama be laaɓɗum.",
+      "Discord naftirama ngam hawtirki be kujeji. IATF don't archive separately Discord conversations by default, and message retention is controlled by Discord. Decisions made in Discord should be summarized into the public record on GitHub or on the relevant project page.",
+      "Bindolji ɗaɓɓitol wala nder indeji moftal ɗaɓɓugo to ɗum footi.",
+      "IATF footi ɓesda mala itta bindolji diga babalji je IAT F ɗon laara, amma footi tabbitina ittuki diga cachesji feere-feere, habaruuji, forks, screenshots, search engines, Discord, mala dabareji feere feere.",
+      "To habaru je ɗon mari haaje jooɗugo feere-feere, taa' neldi ndu gal dabareji IATF je ummaatoore."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Nafoore kawtal",
+      "title": "Hooreejo"
+    },
+    "lead": "Arduɗo ɗon mari kuugal arduɗo nder IATF. Ɗu'um ferɗoodiri bee kuugal injinirjo je ɗon mari hakkiilo dow kugal: araduɗo ɗon hoosi kuugal nder kawtal man fuu, naa do arduɓe kuugal ko'e nder kuugal.",
+    "duties": {
+      "title": "Ko jooɗorde waɗata",
+      "items": [
+        "Ɗo mari jaɓol joomum ha IATF GitHub organization",
+        "Jaɓɓol jaɓugo taskaramji be jaɓɓorɗe archiving",
+        "Wondugo bana wakkere hawtuki ummatore ngam IATF",
+        "Wurtinugo suɓol hitaande kala"
+      ],
+      "footnote": "Arduɗo maɓɓata IATF ngam hokkugo kujeji feere-feere, kuɗe je ɗon hokka ceede, mala alkawalji je darnugo kuɗe, nden bo'o maɓɓataa dabareji jaɓɓoowo jaɓɓorgo je ɗon mari hakkiilo dow dabareeji jaɓɓorde."
+    },
+    "election": {
+      "title": "Suɓol hitaande kala",
+      "paragraphs": [
+        "Arduɗo ɗon suɓa nde woore nder hitaande. Suɓol ɗon waɗa ha nder balɗe ɗiɗi arandeeje nder lewru Desambar, sappinolji ɗon anndina ha Desambar 15, nden wakkere kesum fuɗɗoto ha 1 Zaanviye.",
+        "Elegible voters ko yimɓe je mari kuugal nder IATF repository ha nder hitaade nden ɓe waɗi ko ɓuri go'o nder hitaande nden. Koomoye je mari hakke suɓugo ɗon mari suɓngo woore.",
+        "Suɓol ngol ɗon waɗa bana wolwol ummatore ha GitHub ha nder taskaram laamorde IATF, ngam non jaɓooɓe, jaɓol, be sappinol fuu ɗon nder defte ummatore."
+      ]
+    },
+    "continuity": {
+      "title": "Jaɓɓorgo",
+      "paragraphs": [
+        "To wala cuɓol je ɗum waɗata ha nder hitaande woore, hooreejo je ɗon jooni ɗon tokki nder kuugal man ha yaake suɓol feere.",
+        "Arduɗo footi wurtina kuugal maako ha wakkatiiji feere-feere."
+      ]
+    },
+    "current": {
+      "title": "Arduɗo jonta",
+      "fields": [
+        {
+          "label": "Hooreejo",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Kalmawol",
+          "value": "Wakkati suɓol Desammbar 2026"
+        },
+        {
+          "label": "Kuugal wangini",
+          "value": "2026"
+        },
+        {
+          "label": "Ummaatoore arandeere",
+          "value": "Desammbar 2026"
+        }
+      ]
+    },
+    "footnote": "Kuugal ardiiɗo hausaama ha 2026 ngam waɗugo ardiiɓe ha nder hukuumaaji."
+  },
+  "continuity": {
+    "states": {
+      "title": "Lesɗe taskaram",
+      "paragraphs": [
+        "Kujeji ɗon naftirta dabareji yimɓe seɗɗa:"
+      ],
+      "items": [
+        "Jaɓɓorgo",
+        "Jaɓɓaama",
+        "Kuugal",
+        "Laɓɓinol",
+        "Ɗaɓɓugo jaɓɓoowo",
+        "Fijirde"
+      ],
+      "footnote": "Laddeji ndu'u ɗon waɗa limtol ngol salla ngam laarugo."
+    },
+    "reassignment": {
+      "title": "Jaɓɓol feere be archiving",
+      "paragraphs": [
+        "To goɗɗo je ɗon aynugo ɗon acca ko'e maako, IATF footi wurtina kuugal, jooɗina jahol yeeso, mala itta taskaram man.",
+        "Kujeji footi wurtina nder kujeji jaangirde to haaje je fuɗɗam hebbinaama, wallugo ɗon acca, ko bo tokkitugo kuɗe ɗon naffa."
+      ],
+      "footnote": "Kujeji je ɗon nder taskaram ɗon laara yimɓe sai to wala daliilaji je haani waɗugo feere."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nootol keerol",
+      "title": "Ko IATF tabbitintaako"
+    },
+    "items": [
+      "Jaɓɓorgo Cuuɗi",
+      "matotiralji jaahargal kuugal",
+      "jaɓol kala dabare",
+      "jahol yeeso juutɗum ngam kala taskaram"
+    ],
+    "footnote": "IATF woni dabareji matotiral ummatore, naa kuugal jaɓɓol feere-feere."
+  }
+}

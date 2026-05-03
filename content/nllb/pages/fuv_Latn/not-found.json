@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Walaa heɓugo"
+  },
+  "hero": {
+    "eyebrow": "Walaa heɓugo",
+    "title": "Ɗerewol ngol a ɗaɓɓiri heɓataake",
+    "lead": "Naftora laabi je ɗon les ɗo ngam yahugo ha wakkere ummatore.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ha saare",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Laawol ngol on torii walaa."
+    ],
+    "items": [
+      {
+        "label": "Ha saare",
+        "href": "/"
+      },
+      {
+        "label": "Kujeji",
+        "href": "/projects/"
+      },
+      {
+        "label": "Wondugo",
+        "href": "/join/"
+      },
+      {
+        "label": "Jaɓɓorgo",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Laamugo",
+        "href": "/governance/"
+      },
+      {
+        "label": "Jaɓɓorgo",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

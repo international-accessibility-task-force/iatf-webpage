@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indeji",
+    "title": "Sitemap",
+    "lead": "Fuu habaruji yimɓe ha iatf.cc, ha nokkuure woore."
+  },
+  "sections": [
+    {
+      "title": "Duɗe mawɗe",
+      "items": [
+        {
+          "label": "Ha saare",
+          "href": "/"
+        },
+        {
+          "label": "Kujeji",
+          "href": "/projects/"
+        },
+        {
+          "label": "Teddinugo taskaram",
+          "href": "/propose/"
+        },
+        {
+          "label": "Laamugo",
+          "href": "/governance/"
+        },
+        {
+          "label": "Wondugo",
+          "href": "/join/"
+        },
+        {
+          "label": "Jaɓɓorgo",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Jaɓɓorgo",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Kujeji",
+  "projectsEmpty": "Wala kujeji je sappinama fahin."
+}

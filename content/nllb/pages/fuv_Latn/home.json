@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Daga haaje heɓugo nastugo yahugo repoji ummatore",
+    "lead": "IATF ɗon wallina kawtalji, matotiralji, be yimɓe feere-feere wayla haaje je ɗon mari haaje nder taskaramji je maɓɓiti.",
+    "support": [
+      "Kujeji je jaɓɓaama ɗon winnda ha nder taskaram GitHub IATF ha les les lisansa copyleft e ɓe ɓesda nder ummaatoore be injinjo je ɗon mari hakkiilo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Laawol kuugal ummaatoore",
+      "title": "Laawol ummatore je ɗon saɗi ngam softwares je footi heɓa"
+    },
+    "paragraphs": [
+      "Ha nder ɗerewol, koo moye footi wurtina caɗeele heɓugo nastugo ha IATF. To mooɓre footi hoo'a ɗum, babal matotiral GitHub ɗon maɓɓita ngam kugal man.",
+      "Kala taskaram je jaɓɓaama ɗon mari galle je ummaatoore ngam lawol, kujeji, binndi, be wurtinolji, be jahol yeeso je ardama ha maɓɓo je injinjo je ɗon mari hakkiilo."
+    ],
+    "specCard": {
+      "title": "Laawol kuugal ummaatoore",
+      "terms": [
+        {
+          "term": "Needi",
+          "definition": "Hakkilanki heɓugo jaahangal"
+        },
+        {
+          "term": "Ɗaɓɓitol",
+          "definition": "Nafoore kuugal be jahol yeeso"
+        },
+        {
+          "term": "Wakkere taskaram",
+          "definition": "Jaɓɓorgo GitHub"
+        },
+        {
+          "term": "Jaɓɓorgo",
+          "definition": "Jaɓɓorgo Jawdi IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Lartol",
+      "title": "No ɗum ɗon huwa",
+      "intro": "Lappol ngol ɗon laama seɗɗa ngam laawol ummatore ɗon salla ngam tokkugo."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Needi wurtinaama",
+        "paragraphs": [
+          "Matotiralji, matotiral, mala neɗɗo footi wurtina tornde je ɗon mari haaje ha jaɓɓolji.",
+          "Kujeji footi fuɗɗama gal gal galle internet, be emel ha <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ko bo laawol Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ɗon laara ɗum",
+        "paragraphs": [
+          "Min ɗon laara no kugal ngal fotirta, dabareji, be to kugal man lati nder taskaram je maɓɓiti."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Jaɓɓorgo Kuwtorɗe je ummaatoore wurtinaama",
+        "paragraphs": [
+          "To taskaram jaɓɓaama, ɗum wurtinama nder jaahargal GitHub IATF les lisansa copyleft.",
+          "Repository warti wuro ummatore je code, issues, documentation, be releases."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injiniya je ɗon mari hakkiilo ɗon arda kugal man",
+        "paragraphs": [
+          "Injiniya je ɗon mari hakkiilo hokkata taskaram kujeji be jahol yeeso ɗon waɗa ha nder ummaatoore."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Jaɓɓorgo",
+      "title": "Jaɓɓorgo Kuwtorɗe"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fuɗɗam ɗo'o",
+      "title": "Browse kugal je ɗon waɗama mala fuɗɗam taskaram"
+    },
+    "paragraphs": [
+      "Naftore limtol ngam yi'ugo ko woni ummatore je ɗon mari, mala fuɗɗam jaɓugo to larula je footi heɓa je warti taskaram."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

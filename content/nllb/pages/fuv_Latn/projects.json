@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Kujeji jaɓɓol ummatore",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Kujeji jaɓɓol ummatore",
+    "lead": "Kuwtal man ɗon limta kujeji ummatore je ɗon aynama gal IATF. Kujeji je ɗon jaɓɓa, babalji babalji, be kujejeji ardibe ɗon ɗo laara ha ɗo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Jaɓɓorgo",
+      "title": "Jaɓɓorgo Kuwtorɗe"
+    },
+    "intro": [
+      "Kujeji je jaɓɓaama limtaama ha ɗo to ɓe wurtinaama."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Wurtinugo haaje",
+      "title": "Wurtinugo haaje heɓugo nastugo nder taskaram ummatore"
+    },
+    "paragraphs": [
+      "IATF ɗon laara haajeji je footi watta nder kujeji maɓɓiti je yimɓe footi huwida."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Wala kujeji winndaama fahin",
+    "paragraphs": [
+      "IATF ɗon sirya kujeji maɓɓe arandeji.",
+      "A footi nelda doolugo to a ɗon mari haajeji je footi heɓa."
+    ]
+  }
+}

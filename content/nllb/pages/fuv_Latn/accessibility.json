@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Jaɓɓorgo",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Jaɓɓorgo",
+    "lead": "IATF yiɗi aynugo kujeji gal internet ndu je ɗon saɗi, je footi jaangugo, je ɗon footi heɓa gal keyboard, be je ɗon larni be dabareji wallugo.",
+    "support": [
+      "Ngam nastugo Web, IATF ɗon naftirta [W3C WAI](https://www.w3.org/WAI/) bana ko larni nder dabareji je ɗum larni. Ɗaɓɓitolji je footi naftira be foondolji huwooɓe kujeji wallugo."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Lollinol",
+      "title": "Lollinol larugo dabareji nastugo"
+    },
+    "paragraphs": [
+      "To a heɓti ko haɗata jaɓɓolji ha Web site ndu, sey a wi'a ɗum gal e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Kibaaruji je ɗon naffa hauti be:"
+    ],
+    "items": [
+      "lappol to jahol yeeso wurtini",
+      "ko a yiɗi waɗugo",
+      "kujeji je ɗon wallina, browsers, mala kuje je on ɗon naftirta, to ɗum lati bana non",
+      "ko waɗi kalluɗum",
+      "ko wallini mo"
+    ],
+    "footnote": "A don mari haaje wurtinugo habaruuji kujeji. Bayanu je ɗon laaɓu ɗon heɓa."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Jaɓɓorgo",
+      "title": "Hokkitol haalaji je ummaatoore"
+    },
+    "paragraphs": [
+      "Lartolji je footi heɓaama ha nder babal jaangirde je larni ngam ɓe footi jaɓɓa ha nder maɓɓoore. Luttuɗum je haandi be yimɓe be matinolji feere-feere je wala haaje ɗon itta hiddeko ɗum wurtina.",
+      "To habaru maaɗa ɗon hawti be matinolji feere-feere, wi'u ɗum laaɓɗum nder habaruuji."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Darnde jonta",
+      "title": "Limtolji je anndaama"
+    },
+    "paragraphs": [
+      "Ɗo'o taskaram ɗo mari famarol seɗɗa be ɓurna man ɗon ɗon ɗon. Ɗerewol feere footi lattake to ɓe ɗon wurtina fassirol."
+    ]
+  }
+}

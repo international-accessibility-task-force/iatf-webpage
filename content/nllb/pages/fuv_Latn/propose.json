@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Ɗaɓɓugo taskaram jaahangal",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Ɗaɓɓugo taskaram jaahangal",
+    "lead": "IATF ɗon laara dookaji ngam kujeji je footi heɓa je ɗon fuɗɗama ha nder haaje goonga.",
+    "support": [
+      "On don mari haaje limtolji je timmi. Matinol je mari laaɓɗum, je ɗon mari batakkeji, be ngam ɗume ɗum mari mangu, ɗon heɓa ngam fuɗɗugo."
+    ],
+    "actions": [
+      {
+        "label": "Fuɗɗu ɗaɓɓitol",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Naftirgo Discord ha wakkere man",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Dabareeji",
+      "title": "Suɓo laawol ɓurɗum salligo"
+    },
+    "intro": [
+      "Laawolji fu ɗon nder lartol gootol."
+    ],
+    "items": [
+      {
+        "label": "Web siteji",
+        "body": "Naftir foorma ha les ɗo ngam wurtinugo doolugo dabareji feere-feere."
+      },
+      {
+        "label": "Emailji",
+        "body": "Lollinol ngol to {{contact.requestsEmail}}E-mailji je ɗon ɗaɓɓa footi laato defte je yimɓe ɗon ɗaɓɓita ha ɓawo lartol be senndol."
+      },
+      {
+        "label": "Wurtinol",
+        "body": "Fuɗɗam ton to ɗum ɓurndi saɗugo. Jaɓɓorgo ɗon yahda ha nder lartol gootol."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Haande a nelda do'aare",
+    "paragraphs": [
+      "IATF ɗon huwa ha nder ummaatoore. Kujeji je footi hauti be wurtinama ha nder defte kujeji ha nder jaahargal GitHub, ha nder duniyaru ndu, mala fuu ɗiɗi.",
+      "Wonda be adresji feere-feere, limɗe fownde, matinolji lekki, mala andal andal dow yimɓe je ɗon huwida be kujeji wallugo, sey ni to ɗum mari haaje be on jaɓii IATF foonda ɗum.",
+      "IATF ɗon itta matinolji laɓɓinolji je wala naffuugo hiddeko ɓe wurtina kujeji jaɓɓol."
+    ]
+  },
+  "review": {
+    "title": "Laarugo tammundeji",
+    "paragraphs": [
+      "Jaɓɓol dooka ɗon tabbitina jaɓɓol.",
+      "IATF ɗon raara dookaji ngam kuugal je ɗon lati, je ɗum footi waɗugo, be naffuda, be to kugal je ɗon nder babal babal ko yimɓe je mari.",
+      "Lammbuɗe feere footi sallaama, jaangina, mala wangina yeeso jaɓɓugo."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fuladu ɗaɓɓitol",
+      "title": "Wurtinugo ɗaɓɓitol"
+    },
+    "fields": [
+      {
+        "kind": "nastugo",
+        "name": "jaɓɓoowo",
+        "label": "Innde maaɗa malla kawtal maaɗa",
+        "helper": "Moye ɗon ɗaɓɓa?"
+      },
+      {
+        "kind": "suɓugo",
+        "name": "Jaɓɓorgo",
+        "label": "Jaɓɓorgo Jaɓɓaande",
+        "helper": "How should follow-up happen?",
+        "required": true,
+        "options": [
+          "Emailji",
+          "Wurtinol"
+        ]
+      },
+      {
+        "kind": "nastugo",
+        "name": "Wurtinolji",
+        "label": "Bayanuji nastinol",
+        "helper": "Email address mala Discord handle ngam tokkitol.",
+        "placeholder": "Jaɓɓorgo E-mail malla Discord handle",
+        "required": true
+      },
+      {
+        "kind": "nastugo",
+        "name": "ɗemngal",
+        "label": "Ɗemngal",
+        "helper": "Ɗemngal je on ɓuri yiɗugo, to ɗum lati.",
+        "value": "Ɗemngal Engele"
+      },
+      {
+        "kind": "jeere binndi",
+        "name": "caɗeele",
+        "label": "Ɗume woni caɗeele ɗe a yiɗi timmugo?",
+        "helper": "Wi'u ko haɗata man nder ɗemngal laaɓal.",
+        "required": true
+      },
+      {
+        "kind": "jeere binndi",
+        "name": "Yimɓe je ɗon mari batte",
+        "label": "Moye ɗon mari nyau ndu?",
+        "helper": "Moye ɗu'um wallan?",
+        "required": true
+      },
+      {
+        "kind": "jeere binndi",
+        "name": "extraContext",
+        "label": "Ɓesdugo haala",
+        "helper": "Hokka goɗɗum feere je ɗon wallina faamugo haaje: ngam ɗume ɗum mari feerootiral, misaalji, tinndolji, dabare kujeji, mala ko hauti be wakkatiiji."
+      },
+      {
+        "kind": "suɓugo",
+        "name": "openSourceConsent",
+        "label": "A ɗon nana belɗum be jahol yeeso maral maɓɓitol je ummaatoore?",
+        "helper": "Kujeji jaɓɓaama je limtol ummatore les IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ee'e",
+          "Walaa",
+          "Wala tammunde fahin"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "To ɓe jaɓii",
+      "title": "Ko jaɓol yiɗi wi'ugo"
+    },
+    "items": [
+      "Jaɓɓorgo Kuwtorɗe nder taskaram GitHub IATF",
+      "injinjo je ɗon mari hakkiilo je ɗum hokki kuje man",
+      "lisansa copyleft ngam lawol be kuje taskaram",
+      "jahol yeeso ummatore ha repository",
+      "Kude limgal ha IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fuɗɗam wolwugo",
+      "title": "Jaabawol seɗɗa, je ɗon laaɓɗum lati ngam fuɗɗugo"
+    },
+    "paragraphs": [
+      "To on mari haaje je ɗon mari jahol yeeso e on tammi yo'o ɗum laato taskaram ummatore, nelan min ndu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

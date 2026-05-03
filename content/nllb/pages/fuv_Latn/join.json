@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Naati IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Naati IATF",
+    "lead": "Memba'al ɗon maɓɓita. Woodi laabi ɗuɗɗi ngam hootugo, koo on ɗon hoosa juuɗeeji wallugo, on ɗon nyiɓa softwares je ɗum heɓata, on ɗo fassira, on lartina, mala on ɗon aynina taskaram. Haalaji be matotiral ɗon waɗa ha nder ummaatoore ha GitHub be Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Kuugalji",
+      "title": "Dabareji ngam wallugo"
+    },
+    "items": [
+      "<strong>Ɗaɓɓitugo taskaram.</strong> To a heɓa dabareji je footi salla be softwares je maɓɓitoto, neldi ndu gal jaɓɓol doolugo.",
+      "<strong>Foondo be lartol.</strong> Foondugo taskaramji IATF be jaahargal wallugo je ngaɗata, wi'ugo ko huwa be ko wala, be wurtinugo kujeji ha jaangirde je larni.",
+      "<strong>Wartinɗam.</strong> Ɗerewol aslu ɗon winnda nder ɗemngal English arandejum. Ɗemɗe feere ɗon ɓesda to ɓe wallini ɗum, fuɗɗugo be ɗemɗe Spanish.",
+      "<strong>Wurtinugo.</strong> Pick up issues ha IATF repository, send pull requests, mala hoo'a kuje bana injinjo je ɗon mari hakkiilo.",
+      "<strong>Wurtinugo.</strong> Kujeji je ɗon nder wakkatiije feere ɗon mari haaje jaɓɓowo keso. Jaɓɓorgo je ɗon jaɓɓo be jaɓɓorɗe je ɗon jeya ha nder misaalu, naa feere feere."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Dabareeji",
+      "title": "To IATF ɗon huwa ha ummaatoore"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Ɗaɓɓolji, jaɓugo do'aaji, wurtinol, be defte taskaram.",
+      "<strong>Wala hawtuki.</strong> Jaɓɓorgo Kewuuji, hawtiinde, be ƴamolji je haani.",
+      "<strong>E-mailji.</strong> Naftirgo <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> to wala GitHub wala Discord ɗon fotta."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kuje feere",
+      "title": "Suɓo taskaram je hawti be no a yiɗi wallugo"
+    },
+    "paragraphs": [
+      "Dabareji fu ɗon nyaama nder lartol ummaatoore woore be kujeji jaɓɓorɗe yimɓe woore."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
