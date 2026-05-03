@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ኣይተረኽበን"
+  },
+  "hero": {
+    "eyebrow": "ኣይተረኽበን",
+    "title": "እቲ ዝድለ ገጽ ኣይተረኽበን",
+    "lead": "ናብቲ ህዝባዊ ቦታ ንምምላስ ኣብ ታሕቲ ዘሎ ቀንዲ መስመራት ተጠቐሙ።",
+    "support": [],
+    "actions": [
+      {
+        "label": "ገዛ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "እቲ ዝሓተትካዮ መንገዲ የለን።"
+    ],
+    "items": [
+      {
+        "label": "ገዛ",
+        "href": "/"
+      },
+      {
+        "label": "ፕሮጀክትታት",
+        "href": "/projects/"
+      },
+      {
+        "label": "ተሳተፍ",
+        "href": "/join/"
+      },
+      {
+        "label": "ተደራሽነት",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ምምሕዳር",
+        "href": "/governance/"
+      },
+      {
+        "label": "ግሉጽነት",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

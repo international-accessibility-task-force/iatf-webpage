@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF መርበብ ሓበሬታ",
+    "summary": "ህዝባዊ ወብ ሳይት ናይ ዓለምለኻዊ ተደራሽነት ናይ ስራሕ ጉጅለ።",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF፡ ነቲ ሞዴል ዝገልጽ፡ ፕሮጀክትታት ዝዝርዝር፡ ከምኡ'ውን ኣበርክቶ ዝገብሩ ኣካላት ናብ ቅኑዕ ቀጻሊ ስጉምቲ ዘምርሕ ጽኑዕ ህዝባዊ ገዛ የድልዮም ነይሩ።",
+    "why": "እዚ ወብሳይት ናይ IATF ህዝባዊ ኣፍደገ እዩ። ከም ሓደ ንእሽቶ ስታቲካዊ ፕሮጀክት እዩ ተሰሪሑ ስለዚ ብቐሊሉ ክተንብቦን ክተርጎሞን ክዕቀብን ይኽእል።",
+    "scopeIn": [
+      "ነቲ IATF ሞዴል ዝገልጹ ህዝባዊ ገጻት መዕረፊ",
+      "ህዝባዊ መዝገብ ተቐባልነት ዝረኸቡ፡ ንጡፋትን ተመዝጊቦም ዘለዉን ፕሮጀክትታት IATF ምስ ኩነታት፡ ሓላዊ፡ መዝገብ፡ ከምኡ'ውን መረጋገጺ",
+      "ናይ ሕቶ መእተዊ ገጽን ቅጥዕን",
+      "ገጻት ምምሕዳርን ግሉጽነትን",
+      "ንትርጉም ድሉው ዝኾነ ቅርጺ ዘለዎ ናይ እንግሊዝኛ ምንጪ",
+      "ኣብ Cloudflare Workers Static Assets ስታቲክ ምዝርጋሕ"
+    ],
+    "scopeOut": [
+      "ውልቃዊ ናይ ኣባልነት ቦታታት፡ ሕሳብ፡ ወይ ናይ ምእታው ፍሰት",
+      "ኣብ ናይ ነፍስወከፍ ፕሮጀክት ናይ ገዛእ ርእሱ መዝገብ (ሪፖዚቶሪ) ዝነብር ናይ ፕሮጀክት (ፕሮጀክት) ምንጪ ኮድ ምቅማጥ",
+      "ኣብ ሓቀኛ ግዜ ዝካየድ ዝርርብ፡ ኣብ Discord ዝነብር",
+      "ኣብ ናይ ነፍስወከፍ ፕሮጀክት GitHub መዝገብ ዝቕመጥ ናይ ውልቀ ፕሮጀክትታት ናይ ጉዳይ መከታተል"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF ሰልፍይ",
+    "summary": "ናይ ቀደም ናይ IATF ፕሮቶታይፕ፡ ተፈጥሮኣዊ ናይ ምቁራጽ ነጥቢ ምስ በጽሐ ዝተዓቀበ።",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "ኣብ ተደራሽነት ዘተኮረ መሳርሒ ኣብ ትሕቲ ጽላል IATF ኣብ ፈለማ ምርምር ምግባር።",
+    "why": "እቲ መዝገብ ከም መዝገብ ናይ'ቲ ስራሕ፡ ዋላ'ኳ እቲ ንጡፍ ምዕባለ ደው ኢሉ እንተሃለወ፡ ህዝባዊ ኮይኑ እዩ ዝቕጽል።",
+    "scopeIn": [
+      "ኣብ ተደራሽነት ዘተኮረ መሳርሒ ከም ህዝባዊ መዝገብ ዝተሓዘ ፈላማይ መርኣያ"
+    ],
+    "scopeOut": [
+      "ንጡፍ ምዕባለ ወይ ባህሪ ስራሕ",
+      "ናይ ቀለብ ግዴታታት",
+      "ኣብ ምፍራይ ክትጥቀመሉ ዝክኣል ኣጠቓቕማ"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF ቦት",
+    "summary": "ናይ IATF ኮምዩኒቲ ቦት፡ ኣብ ባህርያዊ መዕረፊ ቦታ ምስ በጽሐ ተመዝጊቡ።",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "ኣብ ከባቢ ናይ IATF ኮምዩን ቻነላት ዘሎ ኣውቶማቲክ።",
+    "why": "እቲ መዝገብ ከም መዝገብ ናይ'ቲ ስራሕ፡ ዋላ'ኳ እቲ ንጡፍ ምዕባለ ደው ኢሉ እንተሃለወ፡ ህዝባዊ ኮይኑ እዩ ዝቕጽል።",
+    "scopeIn": [
+      "ኣብ IATF ኮምዩኒቲ ቻነላት ናይ ዘይምርድዳእ ኣውቶማቲክ፡ ከም ህዝባዊ መዝገብ ይተሓዝ"
+    ],
+    "scopeOut": [
+      "ንጡፍ ምዕባለ ወይ ባህሪ ስራሕ",
+      "ናይ ቀለብ ግዴታታት",
+      "ኣብ ምፍራይ ክትጥቀመሉ ዝክኣል ኣጠቓቕማ"
+    ]
+  }
+]

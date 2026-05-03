@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "ናብ IATF ኣቲኻ",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "ናብ IATF ኣቲኻ",
+    "lead": "ኣባልነት ክፉት እዩ። ኣብ ሓጋዚ ቴክኖሎጂ ትውከል እንተ ዄንካ፡ ቀሊል ዝኾነ ሶፍትዌር ትሃንጽ እንተ ኴንካ፡ ትትርጉሞ፡ ትፍትኖ፡ ወይ ፕሮጀክት ትሕሉ እንተ ኾንካ፡ ንምስታፍ ዝተፈላለዩ መገድታት ኣለዉ። ዘተታትን ውሳኔታትን ኣብ ጂትሃብን ዲስኮርድን ብወግዒ እዩ ዝካየድ።",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "ግደታት",
+      "title": "ኣገባብ ኣበርክቶ"
+    },
+    "items": [
+      "<strong>ፕሮጀክት ሓተት።</strong> ብህዝባዊ ሶፍትዌር ክፉት ምንጪ መፍትሒ ክግበረሉ ዝኽእል ናይ ተደራሽነት ዕንቅፋት እንተ ኣጋጢሙካ፡ በቲ ናይ ጠለብ መእተዊ ኣቢልካ ስደዶ።",
+      "<strong>መርመራን ገምጋምን</strong> IATF ፕሮጀክትታት ምስ እትጥቀመሉ ሓጋዚ ቴክኖሎጂ ፈትኑ፡ እንታይ ይሰርሕ እንታይ ድማ ኣይሰርሕን ሪፖርት ግበሩ፡ ከምኡ'ውን ጉዳያት ብቐጥታ ኣብቲ ዝምልከቶ መዝገብ ፋይል ግበሩ።",
+      "<strong>ተርጐሞ።</strong> መበገሲ ትሕዝቶ ብቐዳምነት ብእንግሊዘኛ እዩ ዝሕተም። ትርጉማት ተወሰኽቲ ኮንትራክተራት ምስ ዝህልዉ እዮም ዝውስኹ፡ ካብ ስፓኒሽ ጀሚሩ።",
+      "<strong>ምህናጽ።</strong> ኣብ ዝኾነ IATF ሪፖዚቶሪ ዝርከቡ ጉዳያት ኣረኪብካ፣ ናይ መእተዊ ጠለባት ልኣኽ፣ ወይ ድማ ሓደ ፕሮጀክት ከም ሓላፊ ኢንጂነር ጌርካ ውሰዶ።",
+      "<strong>ዓቅቦ።</strong> ህሉዋት ፕሮጀክታት ሓደ ሓደ ግዜ ሓደሽቲ ሓለውቲ የድልይዎም እዮም። ምቅይያር ሓላዊ ሓደ ልሙድ ክፋል ናይ'ቲ ሞዴል'ዩ፡ ፍሉይ ኣይኮነን።"
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "ቻነላት",
+      "title": "IATF ኣብ ህዝቢ ዝሰርሓሉ ቦታ"
+    },
+    "items": [
+      "<strong>ጊትሃብ (GitHub) ።</strong> ጉዳያት፡ ጠለባት ምስሓብ፡ ሓተታታት፡ ከምኡ'ውን መዝገብ ፕሮጀክት።",
+      "<strong>ዘይምስምማዕ።</strong> ቀጥታዊ ዘተ፡ ምትሕብባር፡ ከምኡ'ውን ዘይወግዓዊ ሕቶታት።",
+      "<strong>ኢመይል።</strong> ኣጠቓቕማ <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> እንተድኣ GitHub ወይ Discord ኣይሰማምዑን።"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "ቀጻሊ ስጉምቲ",
+      "title": "ብኸመይ ከተበርክቱ ከምትደልዩ ዝሰማማዕ ቻነል ምረጹ"
+    },
+    "paragraphs": [
+      "ኩለን ቻነላት ናብ ሓደ ዓይነት ህዝባዊ ገምጋም ይኣትዋ ከምኡ'ውን ተመሳሳሊ ህዝባዊ መዛግብቲ።"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

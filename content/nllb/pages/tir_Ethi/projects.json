@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ህዝባዊ ተደራሽነት ፕሮጀክትታት",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ህዝባዊ ተደራሽነት ፕሮጀክትታት",
+    "lead": "እዚ መዝገብ'ዚ ብመንገዲ IATF ዝሕለፉ ህዝባዊ ፕሮጀክትታት ይዝርዝር። ተቐባልነት ዝረኸቡ ፕሮጀክታት ተደራሽነት፡ መሰረተ ልምዓት ቦታ፡ ከምኡ'ውን ተመዝጊቦም ዝጸንሑ ፕሮቶታይፕ ኣብ'ዚ ይርኣዩ።",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "መዝገብ",
+      "title": "እዋናዊ መዝገብ"
+    },
+    "intro": [
+      "ተቐባልነት ዝረኸቡ ፕሮጀክታት ምስ ተሓተሙ ኣብዚ ተዘርዚሮም ኣለዉ።"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ጠለብ ኣቕርብ",
+      "title": "ጭቡጥ ናይ ተደራሽነት ድልየት ናብ ህዝባዊ ፕሮጀክት ምቕያር"
+    },
+    "paragraphs": [
+      "IATF ናብ ሓጋዚ ህዝባዊ ክፉት ምንጪ ስራሕ ክቅየር ዝኽእል ጭቡጥ ድልየት ተደራሽነት ይምርምር።"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ዛጊት ዝተሓትሙ ፕሮጀክትታት የብሎምን",
+    "paragraphs": [
+      "IATF ናይ መጀመርያ ህዝባዊ ፕሮጀክት ትዳሎ ኣላ።",
+      "ተጨባጢ ናይ ተደራሽነት ድልየት ምስ ዝህልወካ ሕጂ'ውን ሕቶ ክትልእኽ ትኽእል ኢኻ።"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ናይ ቦታ ካርታ"
+  },
+  "hero": {
+    "eyebrow": "መወከሲ",
+    "title": "ናይ ቦታ ካርታ",
+    "lead": "ኣብ IATF.CC ዘሎ ኩሉ ህዝባዊ ገጻት ኣብ ሓደ ቦታ።"
+  },
+  "sections": [
+    {
+      "title": "ቀንዲ ገጻት",
+      "items": [
+        {
+          "label": "ገዛ",
+          "href": "/"
+        },
+        {
+          "label": "ፕሮጀክትታት",
+          "href": "/projects/"
+        },
+        {
+          "label": "ፕሮጀክት ሓተት",
+          "href": "/propose/"
+        },
+        {
+          "label": "ምምሕዳር",
+          "href": "/governance/"
+        },
+        {
+          "label": "ተሳተፍ",
+          "href": "/join/"
+        },
+        {
+          "label": "ተደራሽነት",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ግሉጽነት",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ፕሮጀክትታት",
+  "projectsEmpty": "ዛጊት ዝተሓትመ ፕሮጀክት የለን።"
+}

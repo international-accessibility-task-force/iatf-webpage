@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "ካብ ኣድላይነት ተደራሽነት ናብ ህዝባዊ ሪፖ",
+    "lead": "IATF ንማሕበራት፣ ጉጅለታትን ውልቀ ሰባትን ሓቀኛ ድልየት ተደራሽነት ናብ ህዝባዊ ፕሮጀክትታት ክፉት ምንጪ ንምቕያር ይሕግዝ።",
+    "support": [
+      "ተቐባልነት ዝረኸቡ ፕሮጀክታት ኣብ IATF GitHub ትካል ኣብ ትሕቲ ናይ ኮፒ ሌፍት ፍቃድ ዝሕተሙ ኮይኖም ብሓላፍነታዊ ኢንጂነር ድማ ብህዝቢ ዝዳለዉ እዮም።"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "ህዝባዊ ኣሰራርሓ ሞዴል",
+      "title": "ቀሊል ህዝባዊ መንገዲ ንቀሊል ሶፍትዌር"
+    },
+    "paragraphs": [
+      "ብመልክዕ ዝኾነ ሰብ ናይ ተደራሽነት ጸገም ናብ IATF ከቕርብ ይኽእል እዩ። እቲ ጉጅለ ክወስዶ እንተኽኢሉ፣ ህዝባዊ ናይ GitHub መዝገብ ንቲ ስራሕ ይኽፈት።",
+      "ነፍሲ ወከፍ ተቐባልነት ዝረኸበ ፕሮጀክት ንኮድ፡ ጉዳያት፡ ሰነዳትን ሕትመታትን ንጹር ህዝባዊ መንበሪ ኣለዎ፡ ምዕባለ ድማ ብሓላፍነት ብዘለዎ ኢንጂነር ይምራሕ።"
+    ],
+    "specCard": {
+      "title": "ህዝባዊ ኣሰራርሓ ሞዴል",
+      "terms": [
+        {
+          "term": "ኣድላይነት",
+          "definition": "ሓቀኛ ጸገም ተደራሽነት"
+        },
+        {
+          "term": "ገምጋም",
+          "definition": "ናይ ተልእኾ ብቕዓትን ተግባራዊ ክውንነትን"
+        },
+        {
+          "term": "ናይ ፕሮጀክት ቦታ",
+          "definition": "ህዝባዊ GitHub መዝገብ"
+        },
+        {
+          "term": "ምምሕዳር",
+          "definition": "ናይ IATF ትካል ናይ ገዛእ ርእሱ ምዃን"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "መስርሕ",
+      "title": "ብኸመይ ይሰርሕ",
+      "intro": "እቲ ሞዴል ብዕላማ ንእሽቶ ኮይኑ ስለ ዝጸንሕ፡ እቲ ህዝባዊ መገዲ ብቐሊሉ ክትስዕቦ ይከኣል እዩ።"
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "ጠለብ ቀሪቡ",
+        "paragraphs": [
+          "ሓደ ማሕበር፡ ጉጅለ ወይ ውልቀሰብ ኣብ ሓቀኛ ድልየት ተደራሽነት ዝተመርኮሰ ሕቶ ከቕርብ ይኽእል እዩ።",
+          "ጠለባት ብዌብሳይት ወይ ብኢመይል ናብ <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ወይ ድማ ብ Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ይግምግሞ",
+        "paragraphs": [
+          "ንተልእኾ ብቑዕነት፡ ንተግባራዊ ስፍሓት፡ ከምኡ'ውን እቲ ስራሕ ኣብ ህዝባዊ ፕሮጀክት ክፉት ምንጪ ይግባይ እንተኾይኑ ንምርምር።"
+        ]
+      },
+      {
+        "index": "03",
+        "title": "ህዝባዊ መዝገብ ይፍጠር",
+        "paragraphs": [
+          "ሓደ ፕሮጀክት ተቐባልነት እንተ ረኺቡ፡ ኣብ IATF GitHub ትካል ኣብ ትሕቲ ኮፒ ሌፍት ፍቃድ እዩ ዝሕተም።",
+          "እቲ መወከሲ ኮድ፡ ጉዳያት፡ ሰነድ፡ ከምኡ'ውን ሕትመታት ህዝባዊ መንበሪ ይኸውን።"
+        ]
+      },
+      {
+        "index": "04",
+        "title": "ሓላፍነት ዘለዎ መሃንድስ ነቲ ፕሮጀክት ይመርሖ",
+        "paragraphs": [
+          "ሓደ ሓላፊ ኢንጂነር ኣብ ናይ ፕሮጀክት መዝገብ ይምደብ፡ እቲ ምዕባለ ድማ ኣብ ቅድሚ ህዝቢ እዩ ዝካየድ።"
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "መዝገብ",
+      "title": "ህዝባዊ መዝገብ ፕሮጀክት"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "ኣብዚ ጀምር",
+      "title": "እዋናዊ ስራሕ ወይ ድማ ጭቡጥ ፕሮጀክት ምጅማር"
+    },
+    "paragraphs": [
+      "ነቲ መዝገብ ተጠቂምካ ድሮ ህዝባዊ ዝኾነ ነገር ርአ፣ ወይ ከኣ ሓደ ጭቡጥ ናይ ተደራሽነት ጸገም ፕሮጀክት ክኸዉን እንተኾይኑ ነቲ ምውሳድ ጀምር።"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
