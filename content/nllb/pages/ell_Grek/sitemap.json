@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Χάρτης του ιστότοπου"
+  },
+  "hero": {
+    "eyebrow": "Δείκτης",
+    "title": "Χάρτης του ιστότοπου",
+    "lead": "Κάθε δημόσια σελίδα στο iatf.cc, σε ένα μέρος."
+  },
+  "sections": [
+    {
+      "title": "Κεντρικές σελίδες",
+      "items": [
+        {
+          "label": "Σπίτι",
+          "href": "/"
+        },
+        {
+          "label": "Έργα",
+          "href": "/projects/"
+        },
+        {
+          "label": "Αίτηση σχεδίου",
+          "href": "/propose/"
+        },
+        {
+          "label": "Διακυβέρνηση",
+          "href": "/governance/"
+        },
+        {
+          "label": "Συμμετοχή",
+          "href": "/join/"
+        },
+        {
+          "label": "Προσβασιμότητα",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Διαφάνεια",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Έργα",
+  "projectsEmpty": "Δεν έχουν δημοσιευθεί ακόμα σχέδια."
+}

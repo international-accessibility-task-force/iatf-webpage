@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Δεν βρέθηκε"
+  },
+  "hero": {
+    "eyebrow": "Δεν βρέθηκε",
+    "title": "Η ζητούμενη σελίδα δεν βρέθηκε",
+    "lead": "Χρησιμοποιήστε τις κύριες διαδρομές παρακάτω για να επιστρέψετε στον δημόσιο χώρο.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Σπίτι",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Η διαδρομή που ζητήσατε δεν υπάρχει."
+    ],
+    "items": [
+      {
+        "label": "Σπίτι",
+        "href": "/"
+      },
+      {
+        "label": "Έργα",
+        "href": "/projects/"
+      },
+      {
+        "label": "Συμμετοχή",
+        "href": "/join/"
+      },
+      {
+        "label": "Προσβασιμότητα",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Διακυβέρνηση",
+        "href": "/governance/"
+      },
+      {
+        "label": "Διαφάνεια",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

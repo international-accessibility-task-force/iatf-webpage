@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Έργα προσβασιμότητας στο κοινό",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Έργα προσβασιμότητας στο κοινό",
+    "lead": "Αυτό το μητρώο απαριθμεί τα δημόσια έργα που διατηρούνται μέσω της IATF. Τα εγκεκριμένα έργα προσβασιμότητας, η υποδομή του χώρου και τα αρχειοθετημένα πρωτότυπα διατηρείται ορατά εδώ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Μητρώο",
+      "title": "Τρέχον μητρώο"
+    },
+    "intro": [
+      "Τα εγκεκριμένα σχέδια παρατίθενται εδώ μόλις δημοσιευθούν."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Υποβάλλετε μια ανάγκη",
+      "title": "Μετατροπή μιας συγκεκριμένης ανάγκης προσβασιμότητας σε δημόσιο έργο"
+    },
+    "paragraphs": [
+      "Η IATF εξετάζει συγκεκριμένες ανάγκες προσβασιμότητας που μπορούν να μετατραπούν σε χρήσιμα δημόσια έργα ανοικτού κώδικα."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Δεν έχουν ακόμη δημοσιευθεί σχέδια",
+    "paragraphs": [
+      "Η IATF ετοιμάζει το πρώτο δημόσιο σύνολο έργων της.",
+      "Μπορείτε ακόμα να στείλετε ένα αίτημα εάν έχετε μια συγκεκριμένη ανάγκη προσβασιμότητας."
+    ]
+  }
+}
