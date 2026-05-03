@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Taswirar Yanar Gizo"
+  },
+  "hero": {
+    "eyebrow": "Ƙididdiga",
+    "title": "Taswirar Yanar Gizo",
+    "lead": "Kowane shafi na jama'a a kan iatf.cc, a wuri guda."
+  },
+  "sections": [
+    {
+      "title": "Babban shafuka",
+      "items": [
+        {
+          "label": "Gida",
+          "href": "/"
+        },
+        {
+          "label": "Ayyuka",
+          "href": "/projects/"
+        },
+        {
+          "label": "Nemi wani aiki",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gudanarwa",
+          "href": "/governance/"
+        },
+        {
+          "label": "Shiga ciki",
+          "href": "/join/"
+        },
+        {
+          "label": "Samun dama",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Bayyanawa",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Ayyuka",
+  "projectsEmpty": "Babu ayyukan da aka buga har yanzu."
+}

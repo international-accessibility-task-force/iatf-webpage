@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Shiga cikin IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Shiga cikin IATF",
+    "lead": "Kasancewa memba yana buɗewa. Akwai hanyoyi da yawa don shiga, ko kun dogara da fasahar taimako, gina software mai sauƙin amfani, fassara, gwaji, ko kula da aikin. Tattaunawa da yanke shawara suna faruwa a bainar jama'a akan GitHub da Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Matsayi",
+      "title": "Hanyoyin bayar da gudummawa"
+    },
+    "items": [
+      "<strong>Nemi wani aiki.</strong> Idan kun haɗu da shinge na samun dama wanda za a iya magance shi ta hanyar software na bude tushen jama'a, aika ta ta hanyar karɓar buƙata.",
+      "<strong>Gwaji da sake dubawa.</strong> Gwada ayyukan IATF tare da fasahar taimako da kuke amfani da ita, ku ba da rahoton abin da ke aiki da abin da ba ya aiki, kuma ku gabatar da al'amura kai tsaye a kan ma'ajiyar da ta dace.",
+      "<strong>Ka fassara.</strong> Ana buga abun cikin tushe a cikin Ingilishi mai sauƙi da farko. Ana ƙara fassara yayin da masu ba da gudummawa suke, farawa da Mutanen Espanya.",
+      "<strong>Ka yi gini.</strong> Pick up al'amurran da suka shafi a cikin wani IATF mangaza, aika ja buƙatun, ko dauki a kan wani shiri a matsayin da alhakin injiniya.",
+      "<strong>Ka riƙe shi.</strong> Shirye-shiryen da ake da su a wasu lokuta suna buƙatar sabon mai kulawa. Tsarin mai kulawa yana da wani ɓangare na samfurin, ba banda ba."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Hanyoyi",
+      "title": "Inda IATF ke aiki a cikin jama'a"
+    },
+    "items": [
+      "<strong>Gidan yanar gizo na GitHub.</strong> Batutuwa, jan buƙatun, saki, da bayanan aikin.",
+      "<strong>Rashin jituwa.</strong> Tattaunawa kai tsaye, daidaitawa, da tambayoyi na yau da kullun.",
+      "<strong>Imel ɗin imel.</strong> Amfani <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> idan ko GitHub ko Discord bai dace ba."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mataki na gaba",
+      "title": "Zaɓi hanyar da ta dace da yadda kake son bayar da gudummawa"
+    },
+    "paragraphs": [
+      "Dukkanin tashoshi suna ciyarwa a cikin bita na jama'a guda ɗaya da kuma wuraren ajiyar jama'ar."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

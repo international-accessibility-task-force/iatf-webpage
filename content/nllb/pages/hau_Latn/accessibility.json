@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Samun dama",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Samun dama",
+    "lead": "IATF tana da burin kiyaye wannan rukunin yanar gizon mai sauƙi, mai iya karantawa, mai amfani da keyboard, kuma ya dace da fasahohin taimako.",
+    "support": [
+      "Don samun damar yanar gizo, IATF yana amfani da [W3C WAI](https://www.w3.org/WAI/) Har ila yau, ana iya samun damar amfani da shi ta hanyar kwarewar kai tsaye na masu amfani da fasahohin taimakawa."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Bayar da rahoto",
+      "title": "Yi rahoton batun samun dama"
+    },
+    "paragraphs": [
+      "Idan ka sami shinge na samun dama a kan wannan shafin yanar gizon, don Allah a bayar da rahoto ta hanyar imel:",
+      "{{contact.accessibilityEmail}}",
+      "Rahotanni masu amfani sun haɗa da:"
+    ],
+    "items": [
+      "shafin da batun ya faru",
+      "abin da kuke ƙoƙarin yi",
+      "wane fasahar taimako, mai bincike, ko na'urar da kake amfani da ita, idan ya dace",
+      "abin da ya faru ba daidai ba",
+      "abin da zai taimaka"
+    ],
+    "footnote": "Ba kwa buƙatar rubuta rahoton kwaro na yau da kullun. Bayani mai ma'ana ya isa."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Gudanarwa",
+      "title": "Gudanar da al'amuran jama'a"
+    },
+    "paragraphs": [
+      "Ana iya taƙaita al'amuran samun dama a cikin ma'ajiyar jama'a ta yadda za a iya gyara su a buɗe. Ana cire bayanan tuntuɓar mutum da bayanan sirri da ba dole ba kafin bugawa.",
+      "Idan rahotonka ya ƙunshi bayanan sirri, ka faɗi hakan a cikin saƙon."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Yanayin yanzu",
+      "title": "Iyakancewar da aka sani"
+    },
+    "paragraphs": [
+      "Wannan shafin ne da gangan kananan da kuma mafi yawa a tsaye. Wasu harsuna versions iya zama bai cika ba, alhãli kuwa fassarorin da ake shirya."
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Bayyanawa",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Bayyanawa",
+    "lead": "IATF yana aiki a cikin jama'a ta hanyar tsoho. Ana yin rikodin yanke shawara na aikin, canje-canjen lambar, canjin gudanarwa, da farashin aiki a wurare na gari. Wannan shafin yana lissafin inda kowane nau'in rikodin yake rayuwa da yadda ake karanta shi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Rubuce-rubuce",
+      "title": "A ina ne aka adana bayanan?"
+    },
+    "items": [
+      "<strong>Shawarwarin aikin.</strong> Amincewa, archiving, da kuma reassignment yanke shawara an rubuta a matsayin al'amurran da suka shafi ko sake a cikin dacewa ajiya, kuma summed a cikin jama'a rajista. <a href=\"/projects/\">rajista</a>Ka yi haƙuri .",
+      "<strong>Ku nemi takardun.</strong> Ana adana bayanan buƙatun jama'a a cikin ƙungiyar IATF GitHub, a kan wannan rukunin yanar gizon, ko duka biyun. Ana iya taƙaita bayanan, gyara, ko sake fasalin buƙatun asali don a sake duba buƙatun samun damar ba tare da fallasa bayanan sirri da ba dole ba. Ana tattara yanke shawara game da rikice-rikice a cikin bayanan jama'ar lokacin da suka shafi aikin ko shawarar gudanarwa. Ana cire bayanan buƙatu daga ƙididdigar injin bincike inda ya dace da fasaha. Duba bayanan: buƙatar bugawa ta farko tana jiran.",
+      "<strong>Canje-canje a cikin lambar.</strong> Kowace canjin lambar ita ce al'ada a kan ma'auni mai dacewa. Duba IATF <a href=\"{{contact.githubOrgUrl}}\">Ƙungiyar GitHub</a>Ka yi haƙuri .",
+      "<strong>Canje-canjen shugabanci.</strong> Ana bin diddigin sabuntawa zuwa shafin gudanarwa kamar yadda aka yi alkawari ga <code>shafin yanar gizon IATF</code> wurin ajiya. Duba <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">yi tarihi</a> akan GitHub.",
+      "<strong>Kudin aiki.</strong> IATF tana kiyaye farashin aiki a ƙasa kuma tana yin rikodin farashi na yau da kullun na kayan aikin jama'a. Tun daga 2022, manyan farashi masu maimaitawa sun kasance sunayen yanki. Gidan yanar gizon ya yi amfani da kayan aikin kyauta ko ƙananan farashi a inda zai yiwu. Duba rikodin farashin aiki da ke ƙasa.",
+      "<strong>Bayanan kula da haɗin kai.</strong> Bayanan kula daga duk wani daidaitaccen bita ko yanke shawara suna rayuwa a GitHub Tattaunawa akan mahimman bayanai  duba <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Tattaunawa</a> a kan <code>shafin yanar gizon IATF</code> wurin ajiya."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Kudin da ake kashewa",
+      "title": "Rubuce-rubucen farashin aiki"
+    },
+    "paragraphs": [
+      "IATF tana kiyaye kayan aikinta na jama'a da gangan. Tun daga 2022, manyan farashi na yau da kullun sun kasance sunayen yanki. Gidan yanar gizon ya yi amfani da kayan aikin kyauta ko ƙananan farashi inda zai yiwu.",
+      "Wannan rikodin ba lissafin kuɗi ne da aka bincika ba.Littafin kuɗin gudanarwa ne na jama'a don kayan aikin da aka yi amfani da su don kiyaye IATF akan layi."
+    ],
+    "footnote": "Ana iya ambaton rasit ko bugawa bayan an gyara. Adireshin mutum, bayanan biyan kuɗi, da bayanan asusun da ba dole ba wani ɓangare ne na rikodin jama'a.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Yankin yanki",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Farashin kuɗi",
+            "value": "Dalar Amurka 3.40"
+          },
+          {
+            "label": "Bayanan kula",
+            "value": "Kudin yankin da mugiwarafx ke bayarwa. Gidan yanar gizon da aka yi amfani da shi kyauta ko ƙananan kayan aikin ta hanyar Cloudflare. <code>iatf.cc</code> yankin."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Yankin yanki",
+            "value": "<code>kasa da kasaaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Farashin kuɗi",
+            "value": "Dalar Amurka 18.68"
+          },
+          {
+            "label": "Bayanan kula",
+            "value": "Kudin yanki wanda mugiwarafx ya ba da kuɗi. Gidan yanar gizon da aka yi amfani da shi kyauta ko ƙarancin farashi."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Yankin yanki",
+            "value": "<code>kasa da kasaaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Farashin kuɗi",
+            "value": "Dalar Amurka 17.06"
+          },
+          {
+            "label": "Bayanan kula",
+            "value": "Kudin yanki wanda mugiwarafx ya ba da kuɗi. Gidan yanar gizon da aka yi amfani da shi kyauta ko ƙarancin farashi ta hanyar Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Yankin yanki",
+            "value": "<code>kasa da kasaaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Farashin kuɗi",
+            "value": "Dalar Amurka 14.76"
+          },
+          {
+            "label": "Bayanan kula",
+            "value": "Kudin yanki wanda mugiwarafx ya ba da kuɗi. Gidan yanar gizon da aka yi amfani da shi kyauta ko ƙarancin farashi."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Yankin yanki",
+            "value": "<code>kasa da kasaaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Farashin kuɗi",
+            "value": "Dalar Amurka 7.76"
+          },
+          {
+            "label": "Bayanan kula",
+            "value": "Kudin yanki wanda mugiwarafx ya ba da kuɗi. Gidan yanar gizon da aka yi amfani da shi kyauta ko ƙarancin farashi ta hanyar Shafukan GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Bayanin iyaka",
+      "title": "Abin da ba jama'a ba ne"
+    },
+    "paragraphs": [
+      "Wasu kayan ana kiyaye su daga bayanan jama'a a kan manufa:"
+    ],
+    "items": [
+      "Bayanan tuntuɓar masu ba da shawara.",
+      "Wasikun sirri da ake amfani da su kawai don fayyace buƙata kafin a karɓa, ƙi, ko taƙaitawa.",
+      "Adireshin sirri, lambobin waya, da kuma bayanan sirri da ba dole ba.",
+      "Duk wani abu da zai iya gano mutum mai amfani da fasahar taimako ba tare da izini ba.",
+      "Tattaunawar Raw Discord, sai dai idan an motsa takamaiman saƙo a cikin rikodin aikin jama'a da gangan."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ƙara karantawa",
+      "title": "Gudanarwa shine littafin dokoki a bayan wadannan bayanan"
+    },
+    "paragraphs": [
+      "Idan kana son fahimtar yadda ake karɓar ayyukan, adanawa, ko sake sanyawa, karanta shafin gudanarwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

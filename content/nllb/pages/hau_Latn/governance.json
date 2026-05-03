@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Gudanarwa da tsarin adana bayanai",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Gudanarwa da tsarin adana bayanai",
+    "lead": "IATF tana kiyaye ayyukan samun damar jama'a, mai iya karantawa, da kiyayewa.",
+    "support": [
+      "Wannan shafin yana bayanin abin da ya cancanci, yadda ake gudanar da ɗakunan ajiya, da kuma abin da alhakin ajiyar ajiya ya shafi bayan yarda."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Dokokin",
+      "title": "Amfani da manufa, mallaka, lasisi"
+    },
+    "cards": [
+      {
+        "title": "Aikin da ya dace",
+        "paragraphs": [
+          "IATF tana karɓar aikin da ke magance ainihin shingen samun dama kuma yana da ƙimar jama'a.",
+          "A aikin ya zama da amfani fiye da guda zaman kansa aiki kwarara da kuma aiki a matsayin jama'a repository.",
+          "Don samun damar yanar gizo, IATF yana amfani da [W3C WAI](https://www.w3.org/WAI/) Kwarewar kai tsaye na masu amfani da fasahohin tallafi kuma hujja ce ta zahiri game da abin da ke aiki a ainihin amfani."
+        ]
+      },
+      {
+        "title": "Amincewa da aikin",
+        "paragraphs": [
+          "Za'a iya karɓar shawara idan binciken ya nuna cewa:"
+        ],
+        "items": [
+          "yana magance ainihin buƙatar samun dama",
+          "Matsalar ta bayyana sosai don kimantawa",
+          "da ikon yinsa, shi ne mai idon basira isa ya kaddamar",
+          "aikin ya yi daidai da aikin IATF",
+          "akwai wata hanya mai yiwuwa zuwa kiyayewa ko kammalawa"
+        ]
+      },
+      {
+        "title": "Mallakar wurin ajiya",
+        "paragraphs": [
+          "Ayyukan da aka karɓa an ƙirƙira su a ƙarƙashin ƙungiyar IATF GitHub.",
+          "Gidajen ajiya suna kasancewa a can don kowane aikin ya ci gaba da zama gidan jama'a, koda kuwa masu kula da su sun canza daga baya."
+        ]
+      },
+      {
+        "title": "Ba da lasisi",
+        "paragraphs": [
+          "Ayyukan IATF suna amfani da lasisi na copyleft sai dai idan aikin ya bayyana in ba haka ba:"
+        ],
+        "items": [
+          "<strong>Lambar:</strong> AGPL-3.0",
+          "<strong>Takaddun shaida:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injiniyan da ke da alhakin ko mai kulawa",
+      "paragraphs": [
+        "Kowane aikin da aka karɓa ya kamata a sanya sunan injiniyan da ke da alhakin ko mai kulawa. Wannan mutumin zai iya samun damar shiga wurin ajiya kuma ana sa ran:"
+      ],
+      "items": [
+        "jagora ci gaba a cikin jama'a",
+        "kula da tsarin adana bayanai",
+        "duba ko sarrafa al'amurran da suka shafi da kuma janye buƙatun",
+        "rubuta muhimman shawarwari na fasaha",
+        "Ka sa mutane su fahimci aikin da kake yi"
+      ],
+      "footnote": "Wannan shi ne ajiya-matakin alhakin. kungiya mallaka zauna tare da IATF. Alhakin a nan shi ne repository stewardship, fasaha shugabanci, da kuma jama'a aiki tare  ba Unlimited masu zaman kansu bayarwa, al'ada integrations, ko sabis-mataki alkawura a waje da jama'ar taswirar hanya."
+    },
+    "publicDevelopment": {
+      "title": "Ci gaban jama'a",
+      "paragraphs": [
+        "Ayyukan da aka kaddamar ta hanyar IATF suna ci gaba a cikin jama'a ta hanyar tsoho."
+      ],
+      "items": [
+        "lambar tushe",
+        "al'amurran da suka shafi",
+        "takardun shaida",
+        "bayanin kula game da taswirar hanya",
+        "tarihin saki"
+      ],
+      "footnote": "Muhimmin ilimin aikin bai kamata ya kasance a cikin tattaunawar sirri ko akwatin saƙo ba."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Bayanan jama'a",
+      "title": "Bayanan buƙatun jama'a"
+    },
+    "paragraphs": [
+      "IATF yana aiki a cikin jama'a ta hanyar tsoho. Buƙatun da suka shiga I ATF ta hanyar gidan yanar gizo, imel, Discord, GitHub, ko wasu tashoshin I AT F na iya zama bayanan buƙatun jama'ar.",
+      "Bayanan buƙatun jama'a ba lallai bane ainihin saƙon. IATF na iya taƙaitawa, gyarawa, ko sake fasalin buƙata kafin bugawa don a sake nazarin buƙatar samun dama ba tare da fallasa bayanan sirri da ba dole ba.",
+      "Ana iya adana bayanan buƙatun jama'a a cikin ƙungiyar IATF GitHub, akan wannan rukunin yanar gizon, ko duka biyun.",
+      "Kafin bugawa, IATF tana cire bayanan tuntuɓar mutum da ba dole ba, adiresoshin masu zaman kansu, da kuma gano bayanai game da masu amfani da fasahohin tallafi na mutum sai dai idan an yi niyyar bugawa kuma ya dace.",
+      "Ana amfani da Discord don daidaitawa na yau da kullun. IATF baya adana tattaunawar Discord daban ta hanyar tsoho, kuma Discord ne ke sarrafa riƙe saƙo. Ya kamata a taƙaita shawarar da aka yanke a cikin Discord a cikin bayanan jama'a akan GitHub ko akan shafin aikin da ya dace.",
+      "Ana cire bayanan buƙata daga ƙididdigar injin bincike inda ya dace da fasaha. Jama'a yana nufin sake dubawa da lissafi. Ba yana nufin ingantawa don ganowa ta hanyar binciken suna ba.",
+      "IATF na iya sabuntawa ko cire bayanai daga bangarorin jama'a da ke karkashin kulawar ta, amma ba za ta iya ba da tabbacin cirewa daga ɓoyayyen ɓoye na ɓangare na uku ba, sanarwa, forks, hotunan allo, injunan bincike, Discord, ko wasu tsarin waje.",
+      "Idan saƙo yana buƙatar zama mai zaman kansa, kar a aika shi ta hanyar tashoshin jama'a na IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Matsayin ƙungiya",
+      "title": "Kujerar"
+    },
+    "lead": "Shugaban yana riƙe da kulawar kungiyar ta IATF. Wannan ya bambanta da aikin injiniya mai kula da aikin: shugaban yana da alhakin ƙungiyar gaba ɗaya, ba don jagorancin kowace rana ba.",
+    "duties": {
+      "title": "Abin da kujera ke yi",
+      "items": [
+        "Yana riƙe da izinin mai shi akan ƙungiyar IATF GitHub",
+        "Sa hannu a kan yarda da aikin da kuma archiving yanke shawara",
+        "Ayyuka a matsayin wurin tuntuɓar jama'a don IATF",
+        "Yana tsara zaɓen shekara-shekara"
+      ],
+      "footnote": "Shugaban ba ya tilasta IATF zuwa isar da sirri, aikin da aka biya, ko yarjejeniyar matakin sabis, kuma ba ya yin watsi da yanke shawara na mai kula da adana bayanai game da jagorancin fasaha."
+    },
+    "election": {
+      "title": "Zaben shekara-shekara",
+      "paragraphs": [
+        "Ana zaɓar shugaban ne sau ɗaya a shekara. Za'a gudanar da zaɓen a farkon makonni biyu na Disamba, ana sanar da sakamakon a ranar 15 ga Disambar, kuma sabon wa'adin zai fara ne a ranar 1 ga Janairu.",
+        "Masu jefa ƙuri'a masu cancanta sune mutanen da suka riƙe matsayin mai kulawa a kan kowane ɗakin ajiyar IATF a cikin shekara kuma sun yi aƙalla gudummawar haɗuwa guda ɗaya zuwa ɗakin ajiya na IAT F a wannan shekarar. Kowane mai zaɓen da ya cancanta yana da kuri'a ɗaya. Dan takarar da ya fi yawan kuri'u ya ci nasara; a yayin da aka daidaita, ana gudanar da zagaye na uku a mako na uku na Disamba.",
+        "Ana gudanar da zaɓen a matsayin Tattaunawar GitHub na jama'a a cikin ma'ajiyar gudanarwa ta IATF, don haka 'yan takara, ƙuri'a, da sakamakon duk ɓangare ne na rikodin jama'ar."
+      ]
+    },
+    "continuity": {
+      "title": "Ci gaba",
+      "paragraphs": [
+        "Idan ba a gudanar da zaɓe a cikin wata shekara ba, shugaban na yanzu yana ci gaba da aiki har zuwa zaɓe na gaba. Wannan ci gaba ne mara iyaka, ba lokacin jinƙai ba  an tsara samfurin ne don kiyaye ƙungiyar cikin kwanciyar hankali lokacin da aiki ya yi ƙasa, ba don tilasta sauyawa wanda babu wanda ya shirya ba.",
+        "Shugaban na iya yin murabus a kowane lokaci. Masu kula da aiki na iya kiran zaɓe na musamman tare da dalilin da aka bayyana, ana gudanar da su a ƙarƙashin ƙa'idodi iri ɗaya kamar zaɓen shekara-shekara."
+      ]
+    },
+    "current": {
+      "title": "Shugaban yanzu",
+      "fields": [
+        {
+          "label": "Kujerar",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ƙayyadaddun lokaci",
+          "value": "Har zuwa zaben Disamba 2026"
+        },
+        {
+          "label": "Matsayin da aka tsara",
+          "value": "2026"
+        },
+        {
+          "label": "Zaben farko da aka tsara",
+          "value": "Disamba 2026"
+        }
+      ]
+    },
+    "footnote": "Matsayin shugaban ya zama na yau da kullun a cikin 2026 don sanya kulawar matakin ƙungiya a bayyane. Har zuwa wannan lokacin, wanda ya kafa shi ne ke da alhakin ƙungiyar ba da izini ba."
+  },
+  "continuity": {
+    "states": {
+      "title": "Yanayin aikin",
+      "paragraphs": [
+        "Ayyuka suna amfani da ƙananan jihohi na jama'a:"
+      ],
+      "items": [
+        "Shawarar",
+        "An karɓa",
+        "Mai aiki",
+        "Tsayayye",
+        "Neman mai kula",
+        "An adana shi"
+      ],
+      "footnote": "Wadannan jihohi suna sa rajista ya zama mai sauƙin dubawa."
+    },
+    "reassignment": {
+      "title": "Sake sanyawa da adanawa",
+      "paragraphs": [
+        "Idan mai kulawa ya bar ko ya zama ba shi da aiki, IATF na iya sake ba da alhakin, dakatar da ci gaba, ko adana aikin.",
+        "Hakanan za'a iya adana aikin lokacin da aka cika buƙata ta asali, an dakatar da kulawa, ko kuma ci gaba da aiki ba shi da ma'ana."
+      ],
+      "footnote": "Ayyukan da aka adana sun kasance a bayyane ga jama'a sai dai idan akwai dalili mai mahimmanci don yin hakan."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Bayanin iyaka",
+      "title": "Abin da IATF ba ta ba da tabbacin ba"
+    },
+    "items": [
+      "isar da abokin ciniki mai zaman kansa",
+      "yarjejeniyar matakin sabis",
+      "amincewa da kowane tsari",
+      "kiyayewa na dogon lokaci ga kowane aikin"
+    ],
+    "footnote": "IATF ne mai jama'a repository model, ba mai zaman kansa bayarwa sabis."
+  }
+}

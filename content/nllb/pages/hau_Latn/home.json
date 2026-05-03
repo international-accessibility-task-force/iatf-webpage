@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Daga buƙatar samun dama ga jama'a repo",
+    "lead": "IATF tana taimaka wa ƙungiyoyi, ƙungiyoyi da daidaikun mutane juya ainihin buƙatun samun dama zuwa ayyukan buɗe tushen jama'a.",
+    "support": [
+      "Ana buga ayyukan da aka karɓa a cikin ƙungiyar IATF GitHub a ƙarƙashin lasisin copyleft kuma injiniyan da ke da alhakin ya haɓaka a bainar jama'a."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Tsarin aiki na jama'a",
+      "title": "Hanya mai sauƙi ga jama'a don software mai sauƙi"
+    },
+    "paragraphs": [
+      "Ta hanyar fom, kowa na iya gabatar da matsalar samun dama ga IATF. Idan ƙungiyar za ta iya ɗaukar ta, za a buɗe maɓallin GitHub na jama'a don aikin.",
+      "Kowane aikin da aka karɓa yana da gidan jama'a a bayyane don lambar, batutuwa, takaddara, da saki, tare da ci gaban da aka jagoranta a buɗe ta injiniyan da ke da alhakin."
+    ],
+    "specCard": {
+      "title": "Tsarin aiki na jama'a",
+      "terms": [
+        {
+          "term": "Bukatar",
+          "definition": "Matsalar samun dama ta gaske"
+        },
+        {
+          "term": "Bincike",
+          "definition": "Amincewa da manufa da kuma yiwuwar aiki"
+        },
+        {
+          "term": "Sararin aikin",
+          "definition": "Gidan ajiyar GitHub na jama'a"
+        },
+        {
+          "term": "Gudanarwa",
+          "definition": "Mallakar kungiyar IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Tsarin aiki",
+      "title": "Yadda yake aiki",
+      "intro": "Samfurin ya kasance da gangan kaɗan don haka hanyar jama'a tana da sauƙin bi."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "An gabatar da buƙata",
+        "paragraphs": [
+          "Ƙungiya, ƙungiya, ko mutum zai iya gabatar da buƙata bisa ga ainihin buƙatar samun dama.",
+          "Ana iya fara buƙatun ta hanyar yanar gizo, ta hanyar imel zuwa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, ko kuma ta hanyar Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ta sake duba shi",
+        "paragraphs": [
+          "Muna nazarin dacewar manufa, yanayin aiki, da kuma ko aikin ya kasance a cikin aikin bude tushen jama'a."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "An ƙirƙiri wurin ajiyar jama'a",
+        "paragraphs": [
+          "Idan aka karɓi aikin, ana buga shi a cikin ƙungiyar IATF GitHub a ƙarƙashin lasisin copyleft.",
+          "Wurin ajiyar ya zama gidan jama'a na lambar, batutuwa, takardu, da sakewa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injiniyan da ke da alhakin ya jagoranci aikin",
+        "paragraphs": [
+          "An sanya injiniyan da ke da alhakin zuwa wurin ajiyar aikin kuma ci gaba yana faruwa a bainar jama'a."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rubuce-rubuce",
+      "title": "Rubuce-rubucen aikin jama'a"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fara daga nan",
+      "title": "Bincika aikin da ke gudana ko fara wani aiki na musamman"
+    },
+    "paragraphs": [
+      "Yi amfani da rajista don ganin abin da ya riga ya zama jama'a, ko fara shigarwa idan takamaiman matsalar samun dama ya kamata ya zama aikin."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

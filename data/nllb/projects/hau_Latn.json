@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Shafin yanar gizo na IATF",
+    "summary": "Shafin yanar gizon jama'a na Ƙungiyar Ƙasa ta Ƙasashen Duniya.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF yana buƙatar gidan jama'a mai ɗorewa wanda ke bayanin samfurin, ya lissafa ayyukan, kuma ya nuna masu ba da gudummawa ga matakin da ya dace na gaba.",
+    "why": "Shafin shine ƙofar jama'a ta IATF. An gina shi azaman ƙaramin aikin tsaye don haka yana da sauƙin karantawa, fassara, da kiyayewa a buɗe.",
+    "scopeIn": [
+      "Shafukan sauka na jama'a da ke bayanin tsarin IATF",
+      "Rukunin jama'a na ayyukan IATF da aka yarda da su, masu aiki, da kuma adana su tare da matsayi, mai kulawa, ajiya, da demo",
+      "Shafin karɓar buƙata da fom",
+      "Shafukan gudanarwa da nuna gaskiya",
+      "Tushen Turanci tare da tsari a shirye don fassara",
+      "Tsayayyen turawa a kan Cloudflare Ma'aikata Tsayayyar kadara"
+    ],
+    "scopeOut": [
+      "Yankunan membobin masu zaman kansu, asusun, ko hanyoyin shiga",
+      "Gudanar da lambar tushe na aikin, wanda ke rayuwa a cikin kowane ɗakin ajiyar aikin kansa",
+      "Real-lokaci chat, wanda yake zaune a cikin Discord",
+      "Binciken matsala don ayyukan mutum, wanda ke rayuwa a cikin kowane aikin GitHub repository"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF kai tsaye",
+    "summary": "Wani samfurin IATF na farko, wanda aka adana bayan ya isa wurin tsayawa na halitta.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Bincike na farko na kayan aikin da aka mayar da hankali kan samun dama a karkashin inuwar IATF.",
+    "why": "Ana adana wurin ajiyar jama'a a matsayin rikodin aikin, koda kuwa an dakatar da ci gaban aiki.",
+    "scopeIn": [
+      "Samfurin farko na kayan aikin da aka mayar da hankali kan samun damar da aka adana a matsayin rikodin jama'a"
+    ],
+    "scopeOut": [
+      "Ci gaba mai aiki ko aikin fasali",
+      "Alkawurran biyan kuɗi",
+      "Amfani da aka ba da shawarar a cikin samarwa"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Ƙungiyar IATF",
+    "summary": "Bot ɗin al'umma na IATF, an adana shi bayan ya isa wurin tsayawa na halitta.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation a kusa da tashoshin al'umma na IATF.",
+    "why": "Ana adana wurin ajiyar jama'a a matsayin rikodin aikin, koda kuwa an dakatar da ci gaban aiki.",
+    "scopeIn": [
+      "Automation na rikice-rikice a kusa da tashoshin al'umma na IATF, wanda aka ajiye a matsayin rikodin jama'a"
+    ],
+    "scopeOut": [
+      "Ci gaba mai aiki ko aikin fasali",
+      "Alkawurran biyan kuɗi",
+      "Amfani da aka ba da shawarar a cikin samarwa"
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Ayyukan samun damar jama'a",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Ayyukan samun damar jama'a",
+    "lead": "Wannan rajista ya lissafa ayyukan jama'a da aka gudanar ta hanyar IATF. An yarda da ayyukan samun dama, kayan aikin yanar gizon, da kuma samfurori da aka adana a bayyane a nan.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rubuce-rubuce",
+      "title": "Rajista na yanzu"
+    },
+    "intro": [
+      "An jera ayyukan da aka karɓa a nan da zarar an buga su."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Bayar da buƙata",
+      "title": "Juya takamaiman buƙatar samun dama cikin aikin jama'a"
+    },
+    "paragraphs": [
+      "IATF tana nazarin takamaiman buƙatun samun damar da za a iya canzawa zuwa aikin buɗe tushen jama'a mai amfani."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Babu ayyukan da aka buga har yanzu",
+    "paragraphs": [
+      "IATF tana shirya saitin aikinta na farko na jama'a.",
+      "Har yanzu kuna iya aika buƙata idan kuna da takamaiman buƙatar samun dama."
+    ]
+  }
+}

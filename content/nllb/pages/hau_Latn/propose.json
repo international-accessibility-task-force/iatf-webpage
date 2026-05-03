@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Buƙatar aikin samun dama",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Buƙatar aikin samun dama",
+    "lead": "IATF tana nazarin buƙatun don ayyukan samun dama waɗanda suka fara daga ainihin buƙata.",
+    "support": [
+      "Ba kwa buƙatar cikakken bayani dalla-dalla. Bayyana matsalar, wanda ya shafa, da kuma dalilin da ya sa yake da muhimmanci ya isa ya fara."
+    ],
+    "actions": [
+      {
+        "label": "Fara buƙata",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Yi amfani da Discord maimakon",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Hanyoyi",
+      "title": "Zaɓi hanya mafi sauƙi"
+    },
+    "intro": [
+      "Dukkan hanyoyi suna shiga cikin wannan bita."
+    ],
+    "items": [
+      {
+        "label": "Shafin yanar gizo",
+        "body": "Yi amfani da fom ɗin da ke ƙasa don aika buƙata mai tsari."
+      },
+      {
+        "label": "Adireshin Imel",
+        "body": "Aika da bukatar kai tsaye zuwa {{contact.requestsEmail}}Buƙatun imel na iya zama bayanan buƙatun jama'a bayan dubawa da gyarawa."
+      },
+      {
+        "label": "Rashin jituwa",
+        "body": "Farawa a can idan hakan ya fi sauƙi. Buƙatar har yanzu tana motsawa cikin wannan bita."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Kafin ka aika da buƙata",
+    "paragraphs": [
+      "Ana iya taƙaita buƙatun kuma a buga su azaman bayanan buƙatun jama'a a cikin ƙungiyar IATF GitHub, akan wannan rukunin yanar gizon, ko duka biyun.",
+      "Kada ku haɗa da adiresoshin sirri, lambobin waya, bayanan likita, ko bayanin ganowa game da masu amfani da mutum na fasahohin taimako sai dai idan ya zama dole kuma kuna da kwanciyar hankali tare da IATF duba shi.",
+      "IATF tana cire bayanan tuntuɓar mutum da ba dole ba kafin buga bayanan buƙatun."
+    ]
+  },
+  "review": {
+    "title": "Binciken abubuwan da ake tsammani",
+    "paragraphs": [
+      "Bayar da buƙata ba ya tabbatar da karɓa.",
+      "IATF tana nazarin buƙatun don dacewa da manufa, yiwuwa, amfani, da kuma ko aikin ya kasance a cikin ma'ajiyar jama'a.",
+      "Wasu buƙatun za a iya ƙi, jinkirta, ko sake fasalin kafin karɓa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Takardar neman aiki",
+      "title": "Aika da buƙata"
+    },
+    "fields": [
+      {
+        "kind": "shigar da bayanai",
+        "name": "mai nema",
+        "label": "Sunanka ko kungiyarka",
+        "helper": "Wanene yake yin roƙon?"
+      },
+      {
+        "kind": "zaɓa",
+        "name": "hanyar sadarwa",
+        "label": "Hanyar tuntuɓar da aka fi so",
+        "helper": "Ta yaya za a ci gaba?",
+        "required": true,
+        "options": [
+          "Adireshin Imel",
+          "Rashin jituwa"
+        ]
+      },
+      {
+        "kind": "shigar da bayanai",
+        "name": "Ƙarin bayani",
+        "label": "Bayanan tuntuɓar",
+        "helper": "Adireshin imel ko lambar Discord don ci gaba.",
+        "placeholder": "Adireshin Imel ko sunan mai amfani na Discord",
+        "required": true
+      },
+      {
+        "kind": "shigar da bayanai",
+        "name": "harshe",
+        "label": "Harshe",
+        "helper": "Yaren da kuka fi so, idan ya dace.",
+        "value": "Turanci"
+      },
+      {
+        "kind": "yankin rubutu",
+        "name": "matsala",
+        "label": "Wace matsala ce kake ƙoƙarin warwarewa?",
+        "helper": "Bayyana shingen a cikin harshe mai sauƙi.",
+        "required": true
+      },
+      {
+        "kind": "yankin rubutu",
+        "name": "masu amfani",
+        "label": "Wanene abin ya shafa?",
+        "helper": "Wanene wannan zai taimaki?",
+        "required": true
+      },
+      {
+        "kind": "yankin rubutu",
+        "name": "extraAbubuwan da ke ciki",
+        "label": "Ƙarin mahallin",
+        "helper": "Raba duk wani abu da ke taimakawa bayyana buƙatar: dalilin da yasa yake da mahimmanci, misalai, nassoshi, ra'ayin software mara kyau, ko ƙuntataccen lokaci."
+      },
+      {
+        "kind": "zaɓa",
+        "name": "openSourceConsent Ƙaddamarwa",
+        "label": "Kuna jin dadi da ci gaban bude tushen jama'a?",
+        "helper": "Ayyukan da aka karɓa sune wuraren ajiyar jama'a a ƙarƙashin IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Haka ne",
+          "A'a",
+          "Har yanzu ban tabbata ba"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Idan aka karɓa",
+      "title": "Abin da karɓuwa ke nufi"
+    },
+    "items": [
+      "wani wurin ajiyar jama'a a cikin kungiyar IATF GitHub",
+      "Injiniyan da ke da alhakin aikin da aka sanya wa aikin",
+      "lasisin copyleft don lambar da kayan aikin",
+      "ci gaban jama'a a cikin rumbun adana bayanai",
+      "shigar da rajista a shafin IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fara tattaunawar",
+      "title": "Taƙaitacciyar, roƙo mai ma'ana ya isa ya fara"
+    },
+    "paragraphs": [
+      "Idan kuna da ainihin buƙatar samun dama kuma kuna tunanin ya kamata ya zama aikin jama'a, aika mana da shi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

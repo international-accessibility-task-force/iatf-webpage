@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ba a samu ba"
+  },
+  "hero": {
+    "eyebrow": "Ba a samu ba",
+    "title": "Ba a samo shafin da aka nema ba",
+    "lead": "Yi amfani da manyan hanyoyin da ke ƙasa don komawa wurin jama'a.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Gida",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Hanyar da ka nema ba ta wanzu."
+    ],
+    "items": [
+      {
+        "label": "Gida",
+        "href": "/"
+      },
+      {
+        "label": "Ayyuka",
+        "href": "/projects/"
+      },
+      {
+        "label": "Shiga ciki",
+        "href": "/join/"
+      },
+      {
+        "label": "Samun dama",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gudanarwa",
+        "href": "/governance/"
+      },
+      {
+        "label": "Bayyanawa",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
