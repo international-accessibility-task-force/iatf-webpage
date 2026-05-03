@@ -56,6 +56,10 @@ do not leave dead keys behind when a page or UI element is removed.
 To enable a new language, set its entry to `"enabled": true` in
 `content/languages.json`. The build only emits routes for enabled languages.
 
+The repo also ships translated READMEs (`README.<lang>.md`). English is the
+canonical version. If you change `README.md` substantively, please update
+the translated copies you can read, or note in your PR that they are stale.
+
 ## Accessibility
 
 Accessibility is the point of this project. If you change the rendered
