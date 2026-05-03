@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Aðild að IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Aðild að IATF",
+    "lead": "Aðild er opin. Það eru nokkrar leiðir til að taka þátt, hvort sem þú treystir á aðstoðartækni, smíða aðgengilegan hugbúnað, þýða, prófa eða viðhalda verkefni. Umræður og ákvarðanir gerast opinberlega á GitHub og Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Hlutverk",
+      "title": "Aðferðir til að leggja sitt af mörkum"
+    },
+    "items": [
+      "<strong>Óska eftir verkefni.</strong> Ef þú lendir í hindrun í aðgengi sem hægt er að leysa með opinberum opnum hugbúnaði skaltu senda hana í gegnum innheimtu beiðna.",
+      "<strong>Próf og endurskoðun.</strong> Prófaðu IATF verkefni með aðstoðartækni sem þú notar, tilkynntu hvað virkar og hvað ekki og skráðu vandamál beint á viðeigandi geymslu.",
+      "<strong>Þýða.</strong> Heimildarefnið er fyrst birt á ensku en þýðingar eru bættar við eftir því sem stuðningsmenn eru í boði, byrjað á spænsku.",
+      "<strong>Að byggja.</strong> Taka upp vandamál í hvaða IATF geymslu, senda draga beiðnir, eða taka á verkefni sem ábyrgur verkfræðingur þess.",
+      "<strong>Haltu áfram.</strong> Núverandi verkefni þurfa stundum nýjan viðhaldsmann. Viðhaldsmannsbreyting er eðlilegur hluti af fyrirmyndinni, ekki undantekning."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Rásir",
+      "title": "Þar sem IATF starfar á opinberum vettvangi"
+    },
+    "items": [
+      "<strong>Á GitHub.</strong> Málefni, sækja beiðnir, útgáfur, og verkefni skrár.",
+      "<strong>Ósamræmi.</strong> Lífleg umræða, samræming og óformlegar spurningar.",
+      "<strong>Í tölvupósti.</strong> Notkun <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ef hvorki GitHub né Discord passar."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Næsta skref",
+      "title": "Veldu rás sem passar hvernig þú vilt stuðla"
+    },
+    "paragraphs": [
+      "Allar rásir renna inn í sömu opinberar skoðanir og sömu opinberum geymslum."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

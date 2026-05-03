@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Stjórnun og geymslumynd",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Stjórnun og geymslumynd",
+    "lead": "IATF heldur aðgengisverkefnum opinberum, læsilegum og viðhaldandi.",
+    "support": [
+      "Á þessari síðu er útskýrt hvað uppfyllir skilyrði, hvernig geymslur eru haldnar og hvaða ábyrgð á geymslastigi gildir eftir samþykki."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reglur",
+      "title": "Aðgengi að verkefninu, eignarhald, leyfisveitingar"
+    },
+    "cards": [
+      {
+        "title": "Aðgangur að verkefninu",
+        "paragraphs": [
+          "IATF samþykkir verk sem takast á við raunverulega hindrun í aðgengi og hefur skýrt almenningsgildi.",
+          "Verkefni ætti að vera gagnlegt umfram eitt einka vinnuflæði og virka sem opinber geymsla.",
+          "Fyrir aðgengi á vefnum notar IATF [W3C WAI](https://www.w3.org/WAI/) Bein reynsla notenda aðstoðartækni er einnig raunhæf sönnun þess hvað virkar í raunverulegu notkun."
+        ]
+      },
+      {
+        "title": "Samþykkt verkefnis",
+        "paragraphs": [
+          "Tillögu er heimilt að samþykkja ef eftir endurskoðun kemur í ljós að:"
+        ],
+        "items": [
+          "Það bregst við raunverulegri þörf fyrir aðgengi",
+          "Vandamálið er nógu skýrt til að meta",
+          "Umfang er nægilega raunhæf til að hleypa",
+          "Starfið er í samræmi við verkefni IATF.",
+          "það er trúverðug leið til viðhalds eða fullnustu"
+        ]
+      },
+      {
+        "title": "Eignarhald á geymslum",
+        "paragraphs": [
+          "Samþykkt verkefni eru stofnuð undir IATF GitHub samtökunum.",
+          "Geymslur standa þar svo hvert verkefni heldur stöðugu almenningsheimili, jafnvel þótt viðhaldarar breytist síðar."
+        ]
+      },
+      {
+        "title": "Leyfisveitingar",
+        "paragraphs": [
+          "IATF verkefni nota copyleft leyfi nema verkefni segir annað:"
+        ],
+        "items": [
+          "<strong>Líkami:</strong> AGPL-3.0",
+          "<strong>Skjöl:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ábyrgður verkfræðingur eða viðhaldsmaður",
+      "paragraphs": [
+        "Hver samþykkt verkefni ætti að hafa nafngreindur ábyrgur verkfræðingur eða viðhaldsmaður. Sá einstaklingur getur fengið aðgang að stjórnanda að geymslunni og er gert ráð fyrir að:"
+      ],
+      "items": [
+        "leiðbeinandi þróun á almannafæri",
+        "viðhalda söfnunarkerfi",
+        "endurskoða eða stjórna málefnum og draga beiðnir",
+        "skjalfesta mikilvægar tæknilegar ákvarðanir",
+        "gera verkefnið skiljanlegt fyrir aðra"
+      ],
+      "footnote": "Þetta er ábyrgð á geymslustigi. Skipulagsleg eignarréttur er hjá IATF. Ábyrgð hér er geymsluþjónusta, tæknileg stefna og opinber samhæfing  ekki ótakmörkuð einkaafhending, sérsniðnar samþættingar eða skuldbindingar á þjónustustigi utan opinberrar stefnukerfis."
+    },
+    "publicDevelopment": {
+      "title": "Almenningur",
+      "paragraphs": [
+        "Verkefni hleypt af stokkunum í gegnum IATF eru þróuð opinberlega að sjálfgefni."
+      ],
+      "items": [
+        "Heimildarkóði",
+        "málefni",
+        "skjölin",
+        "athugasemdir við áætlun",
+        "útgáfufrásögn"
+      ],
+      "footnote": "Mikilvægt verkefnisþekking ætti ekki aðeins að lifa í einkaumræðum eða pósthólfum."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Opinberar skrár",
+      "title": "Opinberar skrár um beiðnir"
+    },
+    "paragraphs": [
+      "Fyrirspurnir sem koma inn í IATF í gegnum vefsíðuna, tölvupóstinn, Discord, GitHub eða aðrar leiðir fyrirspurnar geta orðið opinberar.",
+      "Opinber fyrirspurn skrá er ekki endilega upprunalega skilaboð. IATF getur tekið saman, redigera, eða endurskipuleggja beiðni fyrir birtingu svo aðgengi þörf er hægt að endurskoða án þess að afhjúpa óþarfa persónulegar upplýsingar.",
+      "Opinber fyrirspurn skrár geta verið geymd í IATF GitHub skipulagi, á þessari vefsíðu, eða bæði.",
+      "Fyrir birtingu fjarlægir IATF óþarfa persónulegar tengiliðaupplýsingar, einkatölur og upplýsingar um auðkenni einstakra notenda aðstoðartækni nema birting sé greinilega ætluð og viðeigandi.",
+      "Discord er notaður til óformlegrar samhæfingar. IATF skráir ekki sérstaklega Discord samtöl sjálfgefið og Discord stjórnar varðveislu skilaboða. Ákvarðanir sem teknar eru í Discord ætti að taka saman í opinberum skrá á GitHub eða á viðeigandi verkefnissíðu.",
+      "Fyrirspurn skrár eru undanskilin frá leitarvél vísitölu þar sem tæknilega hagnýt. Almenningur þýðir endurskoðanlegur og ábyrgur. Það þýðir ekki hagnýtur fyrir uppgötvun í gegnum nafn leitar.",
+      "IATF getur uppfært eða fjarlægt skrár frá opinberum yfirborðum undir stjórn IATA, en getur ekki ábyrgst fjarlægingu úr geymslum þriðja aðila, tilkynningum, gafflum, skjáskotum, leitarvélum, Discord eða öðrum ytri kerfum.",
+      "Ef skilaboð þurfa að vera persónuleg skal ekki senda þau í gegnum opinberar leiðir IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Skipulagsleg hlutverk",
+      "title": "Stóllinn"
+    },
+    "lead": "Formaðurinn hefur umsjón með IATF á skipulagsstigi. Þetta er ólíkt hlutverki verkfræðings sem ber ábyrgð á verkefni: Formaður er ábyrgur fyrir samtökin í heild sinni, ekki fyrir daglega stjórnun einhvers einnar geymslu.",
+    "duties": {
+      "title": "Það sem stólurinn gerir",
+      "items": [
+        "Heldur heimildum eiganda á IATF GitHub samtökunum",
+        "Undirritun ákvarðana um samþykki verkefna og skjalasöfnun",
+        "Starfar sem opinberur tengiliður fyrir IATF",
+        "Samræmir árlega kosningu"
+      ],
+      "footnote": "Formaður skuldbindur IATF ekki til einkaframboðs, launaðrar vinnu eða samninga um þjónustustigi og hefur ekki yfirráð yfir ákvörðunum viðhaldsmanns á hvern geymslu um tæknilega stefnu."
+    },
+    "election": {
+      "title": "Árleg kosning",
+      "paragraphs": [
+        "Formaður er kjörinn einu sinni á ári, kosningarnar fara fram fyrstu tvær vikurnar í desember, niðurstöður eru kynntar fyrir 15. desember og nýja kjörtímabilið hefst 1. janúar.",
+        "Kjörgengir kjósendur eru fólk sem gegndi viðhaldshlutverki á hvaða IATF geymslu á árinu og gerði að minnsta kosti eitt sameinað framlag til IAT F geymslur á því ári. Hver kjósandi hefur eitt atkvæði. Frambjóðandi með flestar atkvæður vinnur; í tilviki jafntefli er rennsli haldið í þriðju viku desember.",
+        "Kosningarnar fara fram sem opinber GitHub umræða í tilnefndri IATF stjórnsýslu geymslu, þannig að frambjóðendur, atkvæði og niðurstaða eru allir hluti af opinberri skráningu."
+      ]
+    },
+    "continuity": {
+      "title": "Áframhaldið",
+      "paragraphs": [
+        "Ef engin kosning er haldin á tilteknu ári heldur núverandi formaður áfram í hlutverkinu til næstu kosninga. Þetta er óákveðinn framhald, ekki þoltími  líkanið er hannað til að halda stofnuninni stöðugri þegar virkni er lítil, ekki til að neyða til umskipta sem enginn er tilbúinn fyrir.",
+        "Framkvæmdastjóri getur sagt af sér hvenær sem er. Virkir umsjónarmenn geta einnig boðað til undantekningarkosninga með greindri ástæðu, sem fara fram samkvæmt sömu reglum og árlegar kosningar."
+      ]
+    },
+    "current": {
+      "title": "Núverandi formaður",
+      "fields": [
+        {
+          "label": "Stóllinn",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Skilmáli",
+          "value": "Fram til kosninganna í desember 2026"
+        },
+        {
+          "label": "Hlutverk formlegt",
+          "value": "2026"
+        },
+        {
+          "label": "Fyrsta áætluð kosning",
+          "value": "desember 2026"
+        }
+      ]
+    },
+    "footnote": "Forstöðuhlutverk var formaliserað árið 2026 til að gera stjórnun á stofnunarstigi skýrt. Fram að þeim tíma var stofnunarábyrgð óformlega í höndum stofnanda."
+  },
+  "continuity": {
+    "states": {
+      "title": "Staða verkefnisins",
+      "paragraphs": [
+        "Verkefnin nota lítið sett af opinberum ríkjum:"
+      ],
+      "items": [
+        "Tillaga",
+        "Samþykkt",
+        "Virk",
+        "Stöðug",
+        "Óska eftir viðhaldsmanni",
+        "Skjalasafn"
+      ],
+      "footnote": "Í ūessum fylkjum er auðveldara ađ skanna skráninguna."
+    },
+    "reassignment": {
+      "title": "Endurúthlutun og skjalasöfnun",
+      "paragraphs": [
+        "Ef viðhaldsmaður hættir eða verður óvirkur getur IATF endurúthlutað ábyrgð, stöðvað þróun eða skráð verkefnið.",
+        "Verkefni er einnig hægt að skrá þegar upphaflegri þörf hefur verið fullnægt, viðhald hefur hætt eða áframhaldandi vinna er ekki lengur raunhæf."
+      ],
+      "footnote": "Skjalasagaverkefni eru opinbert nema ástæða sé til að gera annað."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Takmörkunarmerki",
+      "title": "Það sem IATF tryggir ekki"
+    },
+    "items": [
+      "afhending til einkaviðskiptavinar",
+      "samningar um þjónustustigi",
+      "að samþykkja allar tillögur",
+      "langtíma viðhald fyrir hvert verkefni"
+    ],
+    "footnote": "IATF er opinber geymslumiðill, ekki einkaútgáfuþjónusta."
+  }
+}

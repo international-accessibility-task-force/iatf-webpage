@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Vefsíða"
+  },
+  "hero": {
+    "eyebrow": "Skýrsla",
+    "title": "Vefsíða",
+    "lead": "Allar opinberar síður á IATF.CC, á einum stað."
+  },
+  "sections": [
+    {
+      "title": "Helstu síður",
+      "items": [
+        {
+          "label": "Heimilið",
+          "href": "/"
+        },
+        {
+          "label": "Verkefni",
+          "href": "/projects/"
+        },
+        {
+          "label": "Óska eftir verkefni",
+          "href": "/propose/"
+        },
+        {
+          "label": "Stjórnun",
+          "href": "/governance/"
+        },
+        {
+          "label": "Vertu með",
+          "href": "/join/"
+        },
+        {
+          "label": "Aðgengi",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Gagnsæi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Verkefni",
+  "projectsEmpty": "Engin verkefni birt enn."
+}

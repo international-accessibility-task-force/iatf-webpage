@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Gagnsæi",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Gagnsæi",
+    "lead": "IATF vinnur opinberlega að sjálfgefnu. Ákvarðanir um verkefni, breytingar á kóða, stjórnarbreytingar og rekstrarkostnaður eru skráðar á opinberum stöðum.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Skráningar",
+      "title": "Hvar skráin býr"
+    },
+    "items": [
+      "<strong>Ákvarðanir um verkefni.</strong> Ákvarðanir um samþykki, skjalasöfnun og endurupptöku eru skráðar sem útgáfur eða útgávur í viðeigandi geymslu og samantekt í opinberri skráningu. <a href=\"/projects/\">skráning</a>Ég veit ūađ ekki.",
+      "<strong>Óska eftir gögnum.</strong> Opinber fyrirspurn skrár eru geymd í IATF GitHub stofnun, á þessari vefsíðu, eða bæði. Skrár geta samantekt, redact, eða endurskipuleggja upprunalega beiðni þannig að aðgengi þörf er hægt að endurskoða án þess að birta óþarfa persónulegar upplýsingar. Ósamræmi ákvarðanir eru samantekin í opinberum skrá þegar þeir hafa áhrif á verkefni eða stjórnsýslu ákvörðun.",
+      "<strong>Lögin breytast.</strong> Hver kóðabreyting er opinbera skuldbinding á viðkomandi geymslu. <a href=\"{{contact.githubOrgUrl}}\">GitHub samtökin</a>Ég veit ūađ ekki.",
+      "<strong>Stjórnunarbreytingar.</strong> Uppfærslur á stjórnsýslu síðu eru rekin eins og skuldbindur til <code>heimasíða IATF</code> Skjalasafn. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">framkvæmdarsögu</a> á GitHub.",
+      "<strong>Rekstrarkostnaður.</strong> IATF heldur rekstrarkostnaði lágum og skráir endurtekna kostnað við opinber innviði.",
+      "<strong>Samhæfingar athugasemdir.</strong> Athugasemdir frá samræmdum endurskoðun eða ákvörðun lifa á GitHub Umræður um viðkomandi geymslu  skoðun <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Umræður</a> á <code>heimasíða IATF</code> geymsla."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Kostnaður",
+      "title": "Skráning á rekstrarkostnaði"
+    },
+    "paragraphs": [
+      "IATF heldur opinberum innviðum sínum vísvitandi litlum. Frá árinu 2022 hafa helstu endurteknir rekstrarkostir verið lénanafn. Hýsing hefur notað ókeypis eða lágkostnaðar innviði þar sem mögulegt er.",
+      "Þessi skrá er ekki endurskoðað fjárhagsskýrsla heldur opinber rekstrarkostnaðarskrá fyrir innviði sem notaður er til að halda IATF á netinu."
+    ],
+    "footnote": "Persónuleg heimilisfang, reikningsupplýsingar og óþarfar upplýsingar um reikning eru ekki hluti af opinberum skrám.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Heimsvæði",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Kostnaður",
+            "value": "3,40 Bandaríkjadala"
+          },
+          {
+            "label": "Athugasemdir",
+            "value": "Verkefnið fluttist frá Vercel til Cloudflare og byrjaði að nota styttri <code>iatf.cc</code> svæðið."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Heimsvæði",
+            "value": "<code>alþjóðlegt aðgengi</code>"
+          },
+          {
+            "label": "Kostnaður",
+            "value": "18,68 Bandaríkjadala"
+          },
+          {
+            "label": "Athugasemdir",
+            "value": "Vinnslukostnaður styrktur af mugiwarafx. Hýsing notuð ókeypis eða ódýr innviði."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Heimsvæði",
+            "value": "<code>alþjóðlegt aðgengi</code>"
+          },
+          {
+            "label": "Kostnaður",
+            "value": "17,06 Bandaríkjadala"
+          },
+          {
+            "label": "Athugasemdir",
+            "value": "Vinnslukostnaður fjármögnuð af mugiwarafx. Hýsing notaði ókeypis eða ódýrt innviði í gegnum Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Heimsvæði",
+            "value": "<code>alþjóðlegt aðgengi</code>"
+          },
+          {
+            "label": "Kostnaður",
+            "value": "14,76 Bandaríkjadala"
+          },
+          {
+            "label": "Athugasemdir",
+            "value": "Vinnslukostnaður styrktur af mugiwarafx. Hýsing notuð ókeypis eða ódýr innviði."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Heimsvæði",
+            "value": "<code>alþjóðlegt aðgengi</code>"
+          },
+          {
+            "label": "Kostnaður",
+            "value": "7,76 Bandaríkjadala"
+          },
+          {
+            "label": "Athugasemdir",
+            "value": "Vinnslukostnaður fjármögnuð af mugiwarafx. Hýsing notaði ókeypis eða ódýrt innviði í gegnum GitHub síður."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Takmörkunarmerki",
+      "title": "Það sem er ekki opinbert"
+    },
+    "paragraphs": [
+      "Nokkuð efni er haldið utan opinberra skjala í þeim tilgangi að:"
+    ],
+    "items": [
+      "Persónuupplýsingar umsagnaraðila.",
+      "Einkabréf eru eingöngu notuð til að skýra beiðni áður en hún er samþykkt, hafnað eða tekið saman.",
+      "Einkaleg heimilisföng, símanúmer og óþarfar persónuupplýsingar.",
+      "Allt sem myndi bera kennsl á einstakling sem notar hjálpartækni án samþykkis.",
+      "Raw Discord samræður, nema tiltekinn skilaboð er vísvitandi flutt í opinbera verkefni skrá."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Lesa meira",
+      "title": "Stjórnsýsla er reglubókin á bak við þessar skrár."
+    },
+    "paragraphs": [
+      "Ef þú vilt skilja hvernig verkefni eru samþykkt, skjalað eða endurúthlutað skaltu lesa stjórnarsíðuna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

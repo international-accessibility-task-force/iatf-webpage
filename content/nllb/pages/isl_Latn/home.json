@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Frá aðgengi að opinberum endurgreiðslum",
+    "lead": "IATF hjálpar samtökum, hópum og einstaklingum að breyta raunverulegum þörfum fyrir aðgengi í opinbera opna uppspretta verkefni.",
+    "support": [
+      "Samþykkt verkefni eru birt í IATF GitHub samtökunum undir copyleft leyfi og þróuð opinberlega af ábyrgum verkfræðingi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Opinbert rekstrarfyrirkomulag",
+      "title": "Einföld almannaleið fyrir aðgengilegan hugbúnað"
+    },
+    "paragraphs": [
+      "Með eyðublaði getur hver og einn sent inn aðgengisvandamál til IATF. Ef teymið getur tekið á því, er opinbert GitHub geymsla opnuð fyrir verkið.",
+      "Hvert samþykkt verkefni hefur skýrt opinbert heimili fyrir kóða, málefni, skjöl og útgáfur, með þróun sem er undir stjórn ábyrgs verkfræðings."
+    ],
+    "specCard": {
+      "title": "Opinbert rekstrarfyrirkomulag",
+      "terms": [
+        {
+          "term": "Þörf",
+          "definition": "Raunverulegt vandamál með aðgengi"
+        },
+        {
+          "term": "Endurskoðun",
+          "definition": "Aðgengi að verkefninu og hagnýtur möguleiki"
+        },
+        {
+          "term": "Verkefnisrýmið",
+          "definition": "Opinber GitHub geymsla"
+        },
+        {
+          "term": "Stjórnun",
+          "definition": "Eignarhald í IATF samtökunum"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Ferli",
+      "title": "Hvernig það virkar",
+      "intro": "Fyrirmyndin er af ásettu viti lítil svo að auðvelt sé að fylgja almennri braut."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Þörf er lögð fram",
+        "paragraphs": [
+          "Samtök, hópar eða einstaklingar geta sent inn beiðni sem byggir á raunverulegri þörf fyrir aðgengi.",
+          "Fyrirspurnir geta byrjað á heimasíðunni, með tölvupósti á netfangið: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, eða í gegnum Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF endurskoðar það",
+        "paragraphs": [
+          "Við endurskoðum verkefnastarfsemi, hagnýt umfang og hvort verkið tilheyrir opinberu opnu uppsprettaverkefni."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Opinber skrá er stofnuð",
+        "paragraphs": [
+          "Ef verkefni er samþykkt, er það birt í IATF GitHub samtökunum undir copyleft leyfi.",
+          "Geymslan verður opinbert heimili kóðans, málefna, skjala og útgáfa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "A ábyrgur verkfræðingur leiðir verkefnið",
+        "paragraphs": [
+          "A ábyrgur verkfræðingur er úthlutað til verkefnisgeymslu og þróun gerist opinberlega."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Skráning",
+      "title": "Opinber verkefnaskrá"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Byrjađu hér.",
+      "title": "Skoða núverandi vinnu eða hefja ákveðið verkefni"
+    },
+    "paragraphs": [
+      "Notaðu skráninguna til að sjá hvað er þegar opinbert, eða byrjaðu að taka inn ef ákveðið aðgengisvandamál ætti að verða verkefni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

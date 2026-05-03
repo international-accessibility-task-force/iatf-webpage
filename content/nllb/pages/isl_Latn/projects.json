@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Verkefni um aðgengi almennings",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Verkefni um aðgengi almennings",
+    "lead": "Þessi skráning skráir opinber verkefni viðhaldið í gegnum IATF. Samþykkt aðgengi verkefni, innviði á staðnum, og skjalasafn frumgerðir eru haldið sýnilegur hér.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Skráning",
+      "title": "Núverandi skráning"
+    },
+    "intro": [
+      "Samþykkt verkefni eru talin upp hér þegar þau eru birt."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Láttu mig vita af þörfum þínum.",
+      "title": "Að breyta ákveðinni þörf fyrir aðgengi í almenningsverkefni"
+    },
+    "paragraphs": [
+      "IATF endurskoðar ákveðnar aðgengisþarfir sem hægt er að breyta í gagnlegt opinbert uppsprettaverk."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Engin verkefni birt ennþá",
+    "paragraphs": [
+      "IATF er að undirbúa sitt fyrsta opinbera verkefnasett.",
+      "Þú getur samt sent beiðni ef þú hefur ákveðna þörf fyrir aðgengi."
+    ]
+  }
+}

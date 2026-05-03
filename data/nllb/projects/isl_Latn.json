@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Heimasíða IATF",
+    "summary": "Almennilegur vefur fyrir alþjóðlega aðgengi starfshópsins.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF þurfti stöðugan almenningshús sem útskýrir fyrirmyndina, listar verkefni og bendir stuðningsmönnum á rétt næsta skref.",
+    "why": "Heimasíðan er opinbera inngangsdyr IATF. Hún er byggð sem lítið statískt verkefni þannig að auðvelt er að lesa, þýða og viðhalda henni í opnum.",
+    "scopeIn": [
+      "Opinber áfangasíður sem útskýra IATF líkanið",
+      "Opinber skrá yfir samþykkta, virka og skjalasafna verkefni IATF með stöðu, viðhaldara, geymslu og sýnishorn",
+      "Síða fyrir innheimtu beiðna og eyðublað",
+      "Síður um stjórnsýslu og gagnsæi",
+      "Enskur uppspretta með uppbyggingu tilbúin til þýðingar",
+      "Static útbreiðsla á Cloudflare Workers Static eignir"
+    ],
+    "scopeOut": [
+      "Einkaaðildarsvæði, reikningar eða innritunarflæði",
+      "Að hýsa uppspretta kóða verkefnisins, sem býr í eigin geymslu hvers verkefns",
+      "Rauntíma spjall, sem býr í Discord",
+      "Spurning á málum fyrir einstaka verkefni, sem býr í GitHub geymslu hvers verkefnis"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF sjálfsmynd",
+    "summary": "Snemma IATF frumgerð, skjalað eftir að hafa náð náttúrulegum stöðvunarpunkti.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Fyrstu rannsóknir á aðgengismiðaðri tækni undir stjórn IATF.",
+    "why": "Skjalasafn er haldið opinbert sem skrá af verkinu, jafnvel þó að virk þróun hafi stöðvast.",
+    "scopeIn": [
+      "Fyrsta frumgerð aðgengismiðaðra verkfæra sem geymd er sem opinber skrá"
+    ],
+    "scopeOut": [
+      "Virk þróun eða eiginleika vinna",
+      "Greiðsluskylda",
+      "Ráðlagð notkun í framleiðslu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF-bót",
+    "summary": "IATF samfélagsbót, skráð eftir að hafa náð náttúrulegum stöðvunarpunkti.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Sjálfvirkni í kringum samfélagsleiðir IATF.",
+    "why": "Skjalasafn er haldið opinbert sem skrá af verkinu, jafnvel þó að virk þróun hafi stöðvast.",
+    "scopeIn": [
+      "Sjálfvirkni ágreinings um IATF samfélagsleiðir, geymd sem opinber skrá"
+    ],
+    "scopeOut": [
+      "Virk þróun eða eiginleika vinna",
+      "Greiðsluskylda",
+      "Ráðlagð notkun í framleiðslu"
+    ]
+  }
+]

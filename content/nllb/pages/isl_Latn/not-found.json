@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ekki fundið"
+  },
+  "hero": {
+    "eyebrow": "Ekki fundið",
+    "title": "Óskað síða fannst ekki",
+    "lead": "Notađu helstu leiđirnar hér fyrir neđan til ađ komast aftur á almennan stađ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Heimilið",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Leiðin sem þú baðst um er ekki til."
+    ],
+    "items": [
+      {
+        "label": "Heimilið",
+        "href": "/"
+      },
+      {
+        "label": "Verkefni",
+        "href": "/projects/"
+      },
+      {
+        "label": "Vertu með",
+        "href": "/join/"
+      },
+      {
+        "label": "Aðgengi",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Stjórnun",
+        "href": "/governance/"
+      },
+      {
+        "label": "Gagnsæi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

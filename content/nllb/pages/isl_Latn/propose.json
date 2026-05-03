@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Óska eftir aðgengisverkefni",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Óska eftir aðgengisverkefni",
+    "lead": "IATF fer yfir umsóknir um aðgengiverkefni sem byrja á raunverulegri þörf.",
+    "support": [
+      "Þú þarft ekki að fá allar upplýsingar, það er nóg að vera með skýrt vandamál, hverjir verða fyrir því og hvers vegna það skiptir máli."
+    ],
+    "actions": [
+      {
+        "label": "Byrjaðu beiðni",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Notaðu Discord í staðinn",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Rásir",
+      "title": "Veldu auðveldustu leiðina."
+    },
+    "intro": [
+      "Allar leiðir fara í sömu skoðun."
+    ],
+    "items": [
+      {
+        "label": "Heimasíða",
+        "body": "Notaðu eyðublaðið hér að neðan til að senda inn skipulagða beiðni."
+      },
+      {
+        "label": "Netfang",
+        "body": "Senda beiðnina beint til {{contact.requestsEmail}}Umsóknir í tölvupósti geta orðið opinberar umsóknir eftir endurskoðun og útgáfu."
+      },
+      {
+        "label": "Ósamræmi",
+        "body": "Byrjaðu þar ef það er auðveldast."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Áður en þú sendir beiðni",
+    "paragraphs": [
+      "IATF vinnur opinberlega og er hægt að taka saman beiðnir og birta þær sem opinberar beiðni skrár í IATA GitHub samtökunum, á þessari vefsíðu eða báðum.",
+      "Ekki gefa upp persónulegar heimilisföng, símanúmer, læknisupplýsingar eða upplýsingar um einstaklinga sem nota aðstoðartækni nema það sé nauðsynlegt og þér líði vel að IATF endurskoði þær.",
+      "IATF fjarlægir óþarfa persónulegar tengiliðaupplýsingar áður en umsóknir eru birtar."
+    ]
+  },
+  "review": {
+    "title": "Væntingar um endurskoðun",
+    "paragraphs": [
+      "Að senda inn beiðni tryggir ekki að hún verði samþykkt.",
+      "IATF endurskoðar beiðnir um að verkefnið sé viðeigandi, raunhæft, gagnlegt og hvort verkið tilheyrir opinberum geymslum.",
+      "Sumar beiðnir geta verið hafnaðar, frestaðar eða breytt áður en þær eru samþykktar."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Umsóknareyðublað",
+      "title": "Að senda inn beiðni"
+    },
+    "fields": [
+      {
+        "kind": "innflutningur",
+        "name": "sóknaraðili",
+        "label": "Nafn þitt eða samtökin þín",
+        "helper": "Hver gerir beiđnina?"
+      },
+      {
+        "kind": "veldu",
+        "name": "tengiliðsleið",
+        "label": "Ákjósanleg samskiptaleið",
+        "helper": "Hvernig ætti eftirfylgni að fara fram?",
+        "required": true,
+        "options": [
+          "Netfang",
+          "Ósamræmi"
+        ]
+      },
+      {
+        "kind": "innflutningur",
+        "name": "Samskiptaupplýsingar",
+        "label": "Samskiptaupplýsingar",
+        "helper": "Tölvupóstfang eða Discord nafn fyrir eftirfylgni.",
+        "placeholder": "Tölvupóstfang eða Discord nafn",
+        "required": true
+      },
+      {
+        "kind": "innflutningur",
+        "name": "tungumál",
+        "label": "Tungumál",
+        "helper": "Valinn tungumál, ef við á.",
+        "value": "Íslenska"
+      },
+      {
+        "kind": "textasvæði",
+        "name": "vandamálið",
+        "label": "Hvaða vandamál ertu að reyna að leysa?",
+        "helper": "Lýstu hindruninni á einföldu máli.",
+        "required": true
+      },
+      {
+        "kind": "textasvæði",
+        "name": "áhrifaðir notendur",
+        "label": "Hverjir verða fyrir áhrifum?",
+        "helper": "Hverjum myndi ūetta hjálpa?",
+        "required": true
+      },
+      {
+        "kind": "textasvæði",
+        "name": "extraSamskipti",
+        "label": "Nánari samhengi",
+        "helper": "Deildu einhverju öðru sem hjálpar til við að útskýra þörfina: hvers vegna það skiptir máli, dæmi, heimildir, grófa hugmyndir um hugbúnað eða tímasetningar."
+      },
+      {
+        "kind": "veldu",
+        "name": "openSource Samþykki",
+        "label": "Líður þér vel með opinbert uppsprettaþróun?",
+        "helper": "Samþykkt verkefni eru opinberir geymslur undir IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Já, það er.",
+          "Nei, ekki.",
+          "Ég er ekki viss enn."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ef samþykkt",
+      "title": "Hvað samþykki þýðir"
+    },
+    "items": [
+      "opinber geymsla í IATF GitHub samtökunum",
+      "ábyrgur verkfræðingur sem er úthlutaður verkefninu",
+      "copyleft leyfi fyrir kóðann og verkefnið efni",
+      "opinber þróun í geymslunni",
+      "skráningarfærsla á vefsvæði IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Byrjaðu samtalið.",
+      "title": "Stutt og skýr beiðni er nóg til að byrja"
+    },
+    "paragraphs": [
+      "Ef þú hefur raunverulega þörf fyrir aðgengi og heldur að það ætti að verða opinber verkefni, sendu það til okkar."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

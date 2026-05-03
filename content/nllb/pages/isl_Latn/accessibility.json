@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aðgengi",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aðgengi",
+    "lead": "IATF stefnir að því að halda þessari vefsíðu einföldu, læsilegri, aðgengilegri með lyklaborði og samhæfi við aðstoðartækni.",
+    "support": [
+      "Fyrir aðgengi á vefnum notar IATF [W3C WAI](https://www.w3.org/WAI/) Aðgengileika í raun og veru er einnig upplýst af beinni reynslu notenda aðstoðartækni."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Skýrsla",
+      "title": "Tilkynna um aðgengismál"
+    },
+    "paragraphs": [
+      "Ef þú finnur aðgengi hindrun á þessari vefsíðu, vinsamlegast tilkynna það með tölvupósti:",
+      "{{contact.accessibilityEmail}}",
+      "Meðal gagnlegra skýrslna má nefna:"
+    ],
+    "items": [
+      "síðu þar sem málið gerðist",
+      "hvað þú varst að reyna að gera",
+      "hvaða aðstoðartækni, vafra eða tæki þú varst að nota, ef við á,",
+      "Hvað fór úrskeiðis?",
+      "hvað hefði hjálpað"
+    ],
+    "footnote": "Þú þarft ekki að skrifa formlega bilunarskýrslu."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Meðhöndlun",
+      "title": "Meðhöndlun opinberra mála"
+    },
+    "paragraphs": [
+      "Hægt er að taka saman upplýsingar um aðgengi í viðeigandi opinberum geymslum þannig að hægt sé að laga þær á opnum vettvangi. Persónulegar tengiliðsupplýsingar og óþarfar persónulegar upplýsingar eru fjarlægðar áður en þær eru birtar.",
+      "Ef skýrslan þín inniheldur persónulegar upplýsingar skaltu segja það skýrt í skilaboðunum."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Núverandi ástand",
+      "title": "Þekktar takmarkanir"
+    },
+    "paragraphs": [
+      "Þessi síða er vísvitandi lítil og að mestu leyti statísk. Sumar tungumálsútgáfur geta verið ófullkomnar á meðan þýðingar eru í vinnslu."
+    ]
+  }
+}
