@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Iarr pròiseact ruigsinneachd",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Iarr pròiseact ruigsinneachd",
+    "lead": "Bidh IATF a' sgrùdadh iarrtasan airson pròiseactan ruigsinneachd a tha a' tòiseachadh bho fhìor fheum.",
+    "support": [
+      "Chan eil feum agad air sònrachadh iomlan. Tha duilgheadas soilleir, cò a tha a' toirt buaidh air, agus carson a tha e cudromach gu leòr airson tòiseachadh."
+    ],
+    "actions": [
+      {
+        "label": "Tòisich iarrtas",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Cleachd Discord an àite sin",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Seanailean",
+      "title": "Tagh an t-slighe as fhasa"
+    },
+    "intro": [
+      "Bidh a h-uile slighe a 'dol a-steach don aon sgrùdadh."
+    ],
+    "items": [
+      {
+        "label": "Làrach-lìn",
+        "body": "Cleachd am foirm gu h-ìosal gus iarrtas structaraichte a chuir a-steach."
+      },
+      {
+        "label": "Post-dealain",
+        "body": "Cuir an t-iarrtas gu dìreach gu {{contact.requestsEmail}}Faodaidh iarrtasan puist-d a bhith nan clàran iarrtas poblach às deidh sgrùdadh agus deasachadh."
+      },
+      {
+        "label": "Eadar-dhealachadh",
+        "body": "Tòisich an sin ma tha sin nas fhasa. Tha an t-iarrtas fhathast a 'gluasad a-steach don aon sgrùdadh."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Mus cuir thu iarrtas",
+    "paragraphs": [
+      "Faodaidh iarrtasan a bhith air an geàrr-chunntas agus air an fhoillseachadh mar chlàran iarrtas poblach ann an buidheann IATF GitHub, air an làrach-lìn seo, no an dà chuid.",
+      "Na bi a 'toirt a-steach seòlaidhean prìobhaideach, àireamhan fòn, mion-fhiosrachadh meidigeach, no fiosrachadh aithriseach mu luchd-cleachdaidh fa leth de theicneòlasan cuideachail mura h-eil sin riatanach agus ma tha thu comhfhurtail le IATF ga sgrùdadh.",
+      "Bidh IATF a 'toirt air falbh mion-fhiosrachadh conaltraidh pearsanta gun fheum mus foillsich iad clàran iarrtasan."
+    ]
+  },
+  "review": {
+    "title": "Ro-sheallaidhean ath-sgrùdaidh",
+    "paragraphs": [
+      "Chan eil a bhith a' cur a-steach iarrtas a' dèanamh cinnteach gun tèid gabhail ris.",
+      "Bidh IATF a 'sgrùdadh iarrtasan airson freagarrachd, comas, feumail, agus a bheil an obair a' tighinn ann an tasglann poblach.",
+      "Faodar cuid de dh 'iarrtasan a dhiùltadh, a chuir dheth, no ath-dhealbhadh mus tèid gabhail riutha."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Foirm iarrtas",
+      "title": "Cuir a-steach iarrtas"
+    },
+    "fields": [
+      {
+        "kind": "inntrigidh",
+        "name": "neach a tha ag iarraidh",
+        "label": "D' ainm no d' bhuidheann",
+        "helper": "Cò a tha a' dèanamh an iarrtas?"
+      },
+      {
+        "kind": "taghadh",
+        "name": "ContactRoute",
+        "label": "Slighe conaltraidh as fheàrr",
+        "helper": "Ciamar a bu chòir leantainn-suas a dhèanamh?",
+        "required": true,
+        "options": [
+          "Post-dealain",
+          "Eadar-dhealachadh"
+        ]
+      },
+      {
+        "kind": "inntrigidh",
+        "name": "Mion-fhiosrachadh",
+        "label": "Fiosrachadh conaltraidh",
+        "helper": "Seòladh puist-d no seòladh Discord airson leantainn.",
+        "placeholder": "Seòladh puist-d no seòladh Discord",
+        "required": true
+      },
+      {
+        "kind": "inntrigidh",
+        "name": "cànan",
+        "label": "Cànain",
+        "helper": "An cànan as fheàrr leat, ma tha sin buntainneach.",
+        "value": "Beurla"
+      },
+      {
+        "kind": "sgìre-teacsa",
+        "name": "duilgheadas",
+        "label": "Dè an duilgheadas a tha thu a' feuchainn ri fhuasgladh?",
+        "helper": "Thoir cunntas air an casg ann an cànan sìmplidh.",
+        "required": true
+      },
+      {
+        "kind": "sgìre-teacsa",
+        "name": "Luchd-cleachdaidh a tha fo bhuaidh",
+        "label": "Cò a tha fo bhuaidh?",
+        "helper": "Cò a bhiodh seo a' cuideachadh?",
+        "required": true
+      },
+      {
+        "kind": "sgìre-teacsa",
+        "name": "extraContext",
+        "label": "Co-theacsa a bharrachd",
+        "helper": "Co-roinn rud sam bith eile a chuidicheas le bhith a 'mìneachadh an fheum: carson a tha e cudromach, eisimpleirean, iomraidhean, beachd bathar-bog garbh, no cuingealachaidhean ùine."
+      },
+      {
+        "kind": "taghadh",
+        "name": "openSourceConsent[deasaich _ deasaich an tùs]",
+        "label": "A bheil thu comhfhurtail le leasachadh stòr fosgailte poblach?",
+        "helper": "Tha pròiseactan a chaidh gabhail ris nan tasgaidhean poblach fo IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Tha",
+          "Chan eil",
+          "Chan eil mi cinnteach fhathast"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ma thèid gabhail ris",
+      "title": "Dè tha gabhail a' ciallachadh"
+    },
+    "items": [
+      "tasglann poblach ann an buidheann GitHub IATF",
+      "Neach-innleadair cunntachail air a chur ris a' phròiseict",
+      "cead copyleft airson an còd agus stuthan a' phròiseict",
+      "leasachadh poblach anns an tasglann",
+      "Earrann clàraidh air làrach IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tòisich an còmhradh",
+      "title": "Tha iarrtas goirid, soilleir gu leòr airson tòiseachadh"
+    },
+    "paragraphs": [
+      "Ma tha fìor fheum agad air ruigsinneachd agus ma tha thu den bheachd gum bu chòir dha a bhith na phròiseact poblach, cuir e thugainn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

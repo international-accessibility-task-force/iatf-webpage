@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Modal riaghlaidh agus stòr-dàta",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Modal riaghlaidh agus stòr-dàta",
+    "lead": "Bidh IATF a 'cumail phròiseactan ruigsinneachd poblach, so-leughaidh, agus a ghabhas cumail suas.",
+    "support": [
+      "Tha an duilleag seo a' mìneachadh dè a tha airidh air, mar a thèid tasgaidhean a chumail, agus dè an uallach aig ìre tasgaidh a tha a' buntainn às dèidh gabhail ris."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Riaghailtean",
+      "title": "Co-fhreagarrachd na misean, seilbh, ceadachd"
+    },
+    "cards": [
+      {
+        "title": "Misean freagarrach",
+        "paragraphs": [
+          "Tha IATF a' gabhail ri obair a tha a' dèiligeadh ri fìor bhacadh ruigsinneachd agus aig a bheil luach poblach soilleir.",
+          "Bu chòir do phròiseact a bhith feumail nas fhaide na aon sruth-obrach prìobhaideach agus obrachail mar stòr poblach.",
+          "Airson ruigsinneachd lìn, tha IATF a' cleachdadh [W3C WAI](https://www.w3.org/WAI/) Tha eòlas dìreach luchd-cleachdaidh teicneòlasan cuideachail cuideachd na fhianais phractaigeach air na tha ag obair ann an cleachdadh fìor."
+        ]
+      },
+      {
+        "title": "Glacadh a' phròiseict",
+        "paragraphs": [
+          "Faodar gabhail ri moladh nuair a bhios sgrùdadh a' sealltainn:"
+        ],
+        "items": [
+          "tha e a' dèiligeadh ri fìor fheum air ruigsinneachd",
+          "Tha an duilgheadas soilleir gu leòr airson a mheasadh",
+          "tha an raon-obrach fìor gu leòr airson a chur air bhog",
+          "tha an obair co-chòrdail ri misean an IATF",
+          "tha slighe plausible gu cumail suas no crìochnachadh"
+        ]
+      },
+      {
+        "title": "Seilbh stòr-dàta",
+        "paragraphs": [
+          "Tha pròiseactan a chaidh gabhail riutha air an cruthachadh fo bhuidheann GitHub IATF.",
+          "Bidh tasgaidhean a 'fuireach an sin gus am bi gach pròiseact a' cumail dachaigh phoblach seasmhach, eadhon ged a dh 'atharraicheas luchd-gleidhidh nas fhaide air adhart."
+        ]
+      },
+      {
+        "title": "Ceadachd",
+        "paragraphs": [
+          "Bidh pròiseactan IATF a 'cleachdadh ceadachas copyleft mura h-eil pròiseict ag ràdh eile:"
+        ],
+        "items": [
+          "<strong>Còd:</strong> AGPL-3.0",
+          "<strong>Sgrìobhainnean:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Neach-innleadair no neach-cumail suas",
+      "paragraphs": [
+        "Bu chòir a bhith aig gach pròiseact a thathas a' gabhail ris innleadair no neach-gleidhidh cunntachail ainmeil. 'S urrainn don neach sin ruigsinneachd rianaire fhaighinn air an tasglann agus tha dùil gum bi e:"
+      ],
+      "items": [
+        "leasachadh stiùireadh ann an poblach",
+        "a 'cumail suas structar an stòr-dàta",
+        "ath-sgrùdadh no riaghladh chùisean agus iarrtasan tarraing",
+        "clàraich co-dhùnaidhean teicnigeach cudromach",
+        "cùm am pròiseact tuigseach do dhaoine eile"
+      ],
+      "footnote": "Tha seo na dhleastanas aig ìre stòraidh. Bidh seilbh eagrachaidh a 'fuireach le IATF. Is e uallach an seo rianachd stòrais, stiùireadh teicnigeach, agus co-òrdanachadh poblach  chan e lìbhrigeadh prìobhaideach gun chrìoch, amalachadh gnàthaichte, no dealas aig ìre seirbheis taobh a-muigh a' mhapa-rathaid poblach."
+    },
+    "publicDevelopment": {
+      "title": "Leasachadh poblach",
+      "paragraphs": [
+        "Tha pròiseactan a chaidh a chur air bhog tro IATF air an leasachadh gu poblach gu bunaiteach. 'S e an tasglann an stòr poblach de fhìrinn airson:"
+      ],
+      "items": [
+        "còd stòr",
+        "cùisean",
+        "sgrìobhainnean",
+        "notaichean air clàr-rathaid",
+        "eachdraidh sgaoilidh"
+      ],
+      "footnote": "Cha bu chòir eòlas cudromach pròiseict a bhith beò a-mhàin ann an còmhraidhean prìobhaideach no bogsaichean a-steach."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Clàran poblach",
+      "title": "Clàran iarrtasan poblach"
+    },
+    "paragraphs": [
+      "Bidh IATF ag obair gu poblach gu bunaiteach.",
+      "Chan e an teachdaireachd tùsail a th' ann an clàr iarrtas poblach. 'S dòcha gum bi IATF a' toirt geàrr-chunntas air, a' deasachadh, no ag ath-structaradh iarrtas mus tèid fhoillseachadh gus an tèid ath-sgrùdadh a dhèanamh air an fheum air ruigsinneachd gun a bhith a' nochdadh fiosrachadh pearsanta gun fheum.",
+      "Faodar clàran iarrtasan poblach a stòradh ann an buidheann GitHub IATF, air an làrach-lìn seo, no an dà chuid.",
+      "Ro fhoillseachadh, bidh an IATF a' toirt air falbh mion-fhiosrachadh conaltraidh pearsanta gun fheum, seòlaidhean prìobhaideach, agus fiosrachadh aithriseach mu luchd-cleachdaidh fa leth de theicneòlasan cuideachaidh mura h-eil foillseachadh gu soilleir an dùil agus iomchaidh.",
+      "Tha Discord air a chleachdadh airson co-òrdanachadh neo-fhoirmeil. Chan eil IATF a' tasglann còmhraidhean Discord gu sònraichte gu bunaiteach, agus tha cumail suas teachdaireachdan fo smachd Discord. Bu chòir co-dhùnaidhean a chaidh a dhèanamh ann an Discord a bhith air an geàrr-chunntas a thoirt a-steach don chlàr poblach air GitHub no air duilleag a 'phròiseict buntainneach.",
+      "Tha clàran iarrtas air an toirt a-mach à clàradh einnsean rannsachaidh far a bheil e practaigeach gu teicnigeach.",
+      "Faodaidh an IATF clàran ùrachadh no a thoirt air falbh bho uachdar poblach fo smachd an Iatf, ach chan urrainn dha a bhith a 'gealltainn gun tèid an toirt a-mach à cachean treas-phàrtaidh, sanasan, forks, dealbhan-sgrìn, einnseanan luirg, Discord, no siostaman taobh a-muigh eile.",
+      "Ma dh 'fheumas teachdaireachd fuireach prìobhaideach, na cuir e tro shianalan poblach IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Dreuchd eagrachaidh",
+      "title": "Ceann-suidhe"
+    },
+    "lead": "Tha an cathaoirleach a 'cumail stiùiridh aig ìre eagrachaidh de IATF. Tha seo eadar-dhealaichte bho dhreuchd an innleadair a tha an urra ri gach pròiseact: tha an cathraiche an urra ris a' bhuidheann gu h-iomlan, chan ann airson stiùireadh làitheil aon stòr-dàta singilte.",
+    "duties": {
+      "title": "Dè tha an cathair a 'dèanamh",
+      "items": [
+        "A 'cumail ceadan sealbhadair air buidheann GitHub IATF",
+        "A' soidhnigeadh air gabhail ri pròiseactan agus co-dhùnaidhean clàraidh",
+        "Bidh e na phuing-conaltraidh poblach airson an IATF",
+        "Bidh e a' co-òrdanachadh an taghadh bhliadhnail"
+      ],
+      "footnote": "Chan eil an cathaoirleach a' ceangal IATF ri lìbhrigeadh prìobhaideach, obair pàighte, no cùmhnantan ìre seirbheis, agus chan eil e a' cur thairis air co-dhùnaidhean neach-gleidhidh gach tasglann air stiùireadh teicnigeach."
+    },
+    "election": {
+      "title": "Taghadh bliadhnail",
+      "paragraphs": [
+        "Tha an cathraiche air a thaghadh aon uair sa bhliadhna.Tha an taghadh a' ruith anns a' chiad dà sheachdain de dhen Dùbhlachd, tha toraidhean air an ainmeachadh ro 15 an Nollaig, agus bidh an teirm ùr a' tòiseachadh air 1 Faoilleach.",
+        "Tha luchd-bhòtaidh airidh air daoine aig an robh dreuchd neach-gleidhidh air tasglann IATF sam bith tron bhliadhna agus a rinn co-dhiù aon rannsachadh aonaichte gu tasglanair IATAF anns a' bhliadhna sin. Tha aon bhòt aig gach neach a tha airidh. Bidh an tagraiche leis a 'mhòr-chuid de bhòtaichean a' buannachadh; ma tha corrachd ann, thèid cuairt eile a chumail anns an treas seachdain den Dùbhlachd.",
+        "Tha an taghadh air a ruith mar Chòmhradh GitHub poblach ann an tasglann riaghlaidh IATF ainmichte, agus mar sin tha na tagraichean, an bhòt, agus an toradh uile mar phàirt den chlàr poblach."
+      ]
+    },
+    "continuity": {
+      "title": "Leantainneachd",
+      "paragraphs": [
+        "Mura tèid taghadh sam bith a chumail ann am bliadhna sònraichte, bidh an cathraiche gnàthach a 'leantainn san dreuchd gus an ath taghadh. 'S e leantainn neo-chinnteach a tha seo, chan e ùine gràs a th' ann  tha am modail air a dhealbhadh gus an eagrachadh a chumail seasmhach nuair a tha gnìomhachd ìosal, gun a bhith a' toirt air gluasad nach eil duine deiseil airson.",
+        "Faodaidh an cathaoirleach a dhol às a dhreuchd aig àm sam bith. Faodaidh luchd-gleidhidh gnìomhach cuideachd taghadh air leth a ghairm le adhbhar ainmichte, air a ruith fo na h-aon riaghailtean ris an taghadh bliadhnail."
+      ]
+    },
+    "current": {
+      "title": "Ceann-suidhe gnàthach",
+      "fields": [
+        {
+          "label": "Ceann-suidhe",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tearmainn",
+          "value": "Gus an taghadh san Dùbhlachd 2026"
+        },
+        {
+          "label": "Dreuchd foirmeil",
+          "value": "2026"
+        },
+        {
+          "label": "A' chiad taghadh clàraichte",
+          "value": "Dùbhlachd 2026"
+        }
+      ]
+    },
+    "footnote": "Chaidh an dreuchd cathraiche a chuir gu foirmeil ann an 2026 gus riaghladh aig ìre na buidhne a dhèanamh follaiseach."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stàitean a' phròiseict",
+      "paragraphs": [
+        "Bidh pròiseactan a 'cleachdadh seata beag de stàitean poblach:"
+      ],
+      "items": [
+        "Ro-ràdh",
+        "Glacadh",
+        "Gnìomhach",
+        "Seasmhach",
+        "A' sireadh neach-gleidhidh",
+        "Air a chlàradh"
+      ],
+      "footnote": "Tha na stàitean sin a' cumail an clàr furasta a sganadh."
+    },
+    "reassignment": {
+      "title": "Ath-cheangal agus clàradh",
+      "paragraphs": [
+        "Ma tha neach-gleidhidh a 'dol air falbh no a' fàs neo-ghnìomhach, faodaidh IATF uallach ath-roinneadh, stad a chuir air leasachadh, no tasglann a dhèanamh air a 'phròiseact.",
+        "Faodar pròiseact a chlàradh cuideachd nuair a tha an fheum tùsail air a choileanadh, tha cumail suas air stad, no chan eil obair leantainneach fìor tuilleadh."
+      ],
+      "footnote": "Bidh pròiseactan clàraichte a' fuireach follaiseach don phoball mura h-eil adhbhar èiginneach ann an dòigh eile a dhèanamh."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota crìochnachaidh",
+      "title": "Dè nach eil an IATF a 'gealltainn"
+    },
+    "items": [
+      "lìbhrigeadh neach-dèiligidh prìobhaideach",
+      "cùmhnantan ìre seirbheis",
+      "gabhail ri gach moladh",
+      "cumail suas fad-ùine airson gach pròiseact"
+    ],
+    "footnote": "Tha IATF na mhodail stòras poblach, chan e seirbheis lìbhrigidh prìobhaideach."
+  }
+}

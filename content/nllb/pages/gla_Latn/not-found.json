@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Cha deach a lorg"
+  },
+  "hero": {
+    "eyebrow": "Cha deach a lorg",
+    "title": "Cha deach an duilleag a chaidh iarraidh a lorg",
+    "lead": "Cleachd na prìomh shlighean gu h-ìosal gus tilleadh chun làrach poblach.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Dachaigh",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Chan eil an t-slighe a dh'iarr thu ann."
+    ],
+    "items": [
+      {
+        "label": "Dachaigh",
+        "href": "/"
+      },
+      {
+        "label": "Pròiseactan",
+        "href": "/projects/"
+      },
+      {
+        "label": "Thig còmhla",
+        "href": "/join/"
+      },
+      {
+        "label": "Ruigsinneachd",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Riaghladh",
+        "href": "/governance/"
+      },
+      {
+        "label": "Tràilleachd",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

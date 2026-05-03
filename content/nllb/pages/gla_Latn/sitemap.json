@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapa an làraich"
+  },
+  "hero": {
+    "eyebrow": "Clàr-amais",
+    "title": "Mapa an làraich",
+    "lead": "A h-uile duilleag poblach air iatf.cc, ann an aon àite."
+  },
+  "sections": [
+    {
+      "title": "Prìomh dhuilleagan",
+      "items": [
+        {
+          "label": "Dachaigh",
+          "href": "/"
+        },
+        {
+          "label": "Pròiseactan",
+          "href": "/projects/"
+        },
+        {
+          "label": "Iarr pròiseact",
+          "href": "/propose/"
+        },
+        {
+          "label": "Riaghladh",
+          "href": "/governance/"
+        },
+        {
+          "label": "Thig còmhla",
+          "href": "/join/"
+        },
+        {
+          "label": "Ruigsinneachd",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Tràilleachd",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Pròiseactan",
+  "projectsEmpty": "Chan eil pròiseactan air fhoillseachadh fhathast."
+}

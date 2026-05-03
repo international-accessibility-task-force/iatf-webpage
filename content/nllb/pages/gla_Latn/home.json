@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Bho fheum air ruigsinneachd gu repo poblach",
+    "lead": "Tha IATF a 'cuideachadh bhuidhnean, buidhnean agus daoine fa leth gus fìor fheumalachdan ruigsinneachd a thionndadh gu pròiseactan stòr fosgailte poblach.",
+    "support": [
+      "Tha pròiseactan a chaidh gabhail ris air an fhoillseachadh ann an buidheann IATF GitHub fo chead copyleft agus air an leasachadh gu poblach le innleadair cunntachail."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modal obrachaidh poblach",
+      "title": "Slighe poblach sìmplidh airson bathar-bog ruigsinneach"
+    },
+    "paragraphs": [
+      "Tro fhoirm, faodaidh duine sam bith duilgheadas ruigsinneachd a chuir gu IATF. Ma ghabhas an sgioba ris, thèid stòr-stòr poblach GitHub fhosgladh airson na h-obrach.",
+      "Tha dachaigh poblach soilleir aig gach pròiseact a chaidh gabhail ris airson còd, cùisean, sgrìobhainnean, agus sgaoilidhean, le leasachadh air a stiùireadh gu fosgailte le innleadair cunntachail."
+    ],
+    "specCard": {
+      "title": "Modal obrachaidh poblach",
+      "terms": [
+        {
+          "term": "Feumalachdan",
+          "definition": "Duilgheadas ruigsinneachd fìor"
+        },
+        {
+          "term": "Ath-sgrùdadh",
+          "definition": "Freagarrachd na misean agus co-dhèantachd practaigeach"
+        },
+        {
+          "term": "Àrainn a' phròiseict",
+          "definition": "Stòr-stòr poblach GitHub"
+        },
+        {
+          "term": "Stiùiricheachd",
+          "definition": "Seilbh eagrachaidh an IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Pròiseas",
+      "title": "Mar a tha e ag obair",
+      "intro": "Tha am modail a 'fuireach gu mionaideach beag gus am bi an t-slighe poblach furasta a leantainn."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Tha feum air a chuir a-steach",
+        "paragraphs": [
+          "Faodaidh buidheann, buidheann no neach fa leth iarrtas a chuir a-steach stèidhichte air fìor fheum ruigsinneachd.",
+          "Faodaidh iarrtasan tòiseachadh tron làrach-lìn, tro phost-d gu <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, no tro Chaochladh."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Bidh IATF ga sgrùdadh",
+        "paragraphs": [
+          "Bidh sinn ag ath-sgrùdadh iomchaidh na misean, farsaingeachd practaigeach, agus a bheil an obair a 'tachairt ann am pròiseact stòr fosgailte poblach."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Tha tasglann poblach air a chruthachadh",
+        "paragraphs": [
+          "Ma ghabhas gabhail ri pròiseact, thèid fhoillseachadh ann an buidheann GitHub IATF fo chead copyleft.",
+          "Tha an tasglann a 'fàs na dachaigh poblach den chòd, cùisean, sgrìobhainnean, agus sgaoilidhean."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Tha innleadair cunntachail a 'stiùireadh a' phròiseict",
+        "paragraphs": [
+          "Tha innleadair cunntachail air a cho-roinn ris an tasglann phròiseict agus tha an leasachadh a' tachairt gu poblach."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Clàr",
+      "title": "Clàr poblach de phròiseactan"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tòisich an seo",
+      "title": "Dèan sgrùdadh air obair gnàthach no tòisich air pròiseact sònraichte"
+    },
+    "paragraphs": [
+      "Cleachd an clàr gus faicinn dè a tha poblach mar-thà, no tòisich air an inntrigeadh ma dh'fheumadh duilgheadas ruigsinneachd sònraichte a bhith na phròiseact."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

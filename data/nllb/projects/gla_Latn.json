@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Làrach-lìn IATF",
+    "summary": "Tha an làrach poblach airson an International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Bha IATF feumach air dachaigh poblach seasmhach a mhìnich am modail, a liostadh phròiseactan, agus a 'comharrachadh luchd-cuideachaidh don ath cheum ceart.",
+    "why": "Tha e air a thogail mar phròiseact statigeach beag gus am bi e furasta a leughadh, eadar-theangachadh, agus cumail suas san àite fosgailte.",
+    "scopeIn": [
+      "Duilleagan tòiseachaidh poblach a tha a 'mìneachadh modail IATF",
+      "Clàr poblach de phròiseactan IATF a chaidh gabhail ris, gnìomhach, agus air an clàradh le inbhe, neach-cumail, stòr-dàta, agus taisbeanadh",
+      "Duilleag inntrigidh iarrtas agus foirm",
+      "Duilleagan riaghlaidh agus follaiseachd",
+      "Stòr Beurla le structar deiseil airson eadar-theangachadh",
+      "Static deployment on Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Sgìrean buill prìobhaideach, cunntasan, no sruthan logadh a-steach",
+      "A 'toirt aoigheachd do chòd stòr a' phròiseict, a tha a 'fuireach ann an tasglann fhèin gach pròiseact",
+      "Cabadaich ann an àm fìor, a tha beò ann an Discord",
+      "Tracadh chùisean airson pròiseactan fa leth, a tha a 'fuireach ann an stòras GitHub gach pròiseict"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie IATF",
+    "summary": "Pròta-dhealbhadh tràth IATF, air a chlàradh às deidh dha puing stad nàdarra a ruighinn.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Sgrùdadh tràth air inneal a tha ag amas air ruigsinneachd fo sgàthan an IATF.",
+    "why": "Tha an tasglann air a chumail poblach mar chlàr den obair, eadhon ged a tha leasachadh gnìomhach air stad.",
+    "scopeIn": [
+      "Pròta-dhealbh tràth de inneal a tha ag amas air ruigsinneachd air a chumail mar chlàr poblach"
+    ],
+    "scopeOut": [
+      "Obair leasachaidh no feart gnìomhach",
+      "Iomairtean cumail suas",
+      "Cleachdadh a thathar a 'moladh ann an cinneasachadh"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Bot IATF",
+    "summary": "Bot coimhearsnachd IATF, air a chlàradh às deidh dha stad nàdarra a ruighinn.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "fèin-ghluasad timcheall air sianalan coimhearsnachd IATF.",
+    "why": "Tha an tasglann air a chumail poblach mar chlàr den obair, eadhon ged a tha leasachadh gnìomhach air stad.",
+    "scopeIn": [
+      "fèin-ghluasad eas-aonta timcheall air sianalan coimhearsnachd IATF, air a chumail mar chlàr poblach"
+    ],
+    "scopeOut": [
+      "Obair leasachaidh no feart gnìomhach",
+      "Iomairtean cumail suas",
+      "Cleachdadh a thathar a 'moladh ann an cinneasachadh"
+    ]
+  }
+]

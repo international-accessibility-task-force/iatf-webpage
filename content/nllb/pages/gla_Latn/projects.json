@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Pròiseactan ruigsinneachd poblach",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Pròiseactan ruigsinneachd poblach",
+    "lead": "Tha an clàr seo a' liostadh phròiseactan poblach a tha air an cumail tro IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Clàr",
+      "title": "Clàr gnàthach"
+    },
+    "intro": [
+      "Tha pròiseactan a chaidh gabhail ris air an liostadh an seo aon uair 's gu bheil iad air am foillseachadh."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Cuir a-steach feum",
+      "title": "A' tionndadh feumalachdan sònraichte ann an ruigsinneachd gu bhith na phròiseact poblach"
+    },
+    "paragraphs": [
+      "Bidh IATF a' sgrùdadh feumalachdan ruigsinneachd sònraichte a dh'fhaodar a thionndadh gu obair stòr fosgailte poblach feumail."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Chan eil pròiseactan foillsichte fhathast",
+    "paragraphs": [
+      "Tha IATF ag ullachadh a' chiad sheata pròiseact poblach.",
+      "Faodaidh tu fhathast iarrtas a chuir ma tha feum sònraichte agad air ruigsinneachd."
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Thig a-steach gu IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Thig a-steach gu IATF",
+    "lead": "Tha ballrachd fosgailte. Tha grunn dhòighean ann airson pàirt a ghabhail, ge bith a bheil thu an urra ri teicneòlas cuideachail, a 'togail bathar-bog ruigsinneach, a' eadar-theangachadh, deuchainn, no a 'cumail suas pròiseact. Bidh deasbadan agus co-dhùnaidhean a' tachairt gu poblach air GitHub agus Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Dreuchd",
+      "title": "Dòighean air cur ris"
+    },
+    "items": [
+      "<strong>Iarr pròiseact.</strong> Ma tha thu a 'coinneachadh ri bacaidh ruigsinneachd a dh' fhaodadh a bhith air a làimhseachadh le bathar-bog fosgailte poblach, cuir e tro inntrigeadh iarrtas.",
+      "<strong>Deuchainn agus ath-sgrùdadh.</strong> Feuch ri pròiseactan IATF leis an teicneòlas cobhair a tha thu a' cleachdadh, aithris dè a tha ag obair agus dè nach eil, agus faidhleadh cùisean gu dìreach air an tasglann iomchaidh.",
+      "<strong>A' eadar-theangachadh.</strong> Tha stuth tùsail air fhoillseachadh ann an Beurla sìmplidh an toiseach. Tha eadar-theangachaidhean air an cur ris mar a tha luchd-cuideachaidh rim faighinn, a 'tòiseachadh leis an Spàinntis.",
+      "<strong>Togail.</strong> Tagh cùisean ann an tasglann IATF sam bith, cuir iarrtasan tarraing, no gabh air pròiseact mar an innleadair cunntachail aige.",
+      "<strong>Cùm suas.</strong> Tha feum aig pròiseactan a th' ann uaireannan air neach-gleidhidh ùr."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Seanailean",
+      "title": "Far a bheil IATF ag obair ann an àite poblach"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Cùisean, iarrtasan tarraing, sgaoilidhean, agus clàran pròiseact.",
+      "<strong>Chaochladh.</strong> Deasbad beò, co-òrdanachadh, agus ceistean neo-fhoirmeil.",
+      "<strong>Post-d.</strong> Cleachdadh <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> mura h-eil GitHub no Discord a 'freagairt."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "An ath cheum",
+      "title": "Tagh an t-sianal a tha co-ionann ri mar a tha thu airson cur ris"
+    },
+    "paragraphs": [
+      "Bidh a h-uile sianal a 'toirt a-steach an aon sgrùdadh poblach agus na h-aon stòran-tasgaidh poblach."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ruigsinneachd",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ruigsinneachd",
+    "lead": "Tha IATF ag amas air an làrach-lìn seo a chumail sìmplidh, furasta a leughadh, ruigsinneach le meur-chlàr, agus co-chòrdail ri teicneòlasan cuideachaidh.",
+    "support": [
+      "Airson ruigsinneachd lìn, tha IATF a' cleachdadh [W3C WAI](https://www.w3.org/WAI/) Tha ruigsinneachd practaigeach cuideachd air a dhearbhadh le eòlas dìreach luchd-cleachdaidh theicneòlasan cuideachaidh."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Aithisg",
+      "title": "Cuir fios air cùis ruigsinneachd"
+    },
+    "paragraphs": [
+      "Ma lorgas tu bacaidh ruigsinneachd air an làrach-lìn seo, cuir fios thuige le post-d:",
+      "{{contact.accessibilityEmail}}",
+      "Am measg nan aithrisean feumail tha:"
+    ],
+    "items": [
+      "an duilleag far an do thachair an cùis",
+      "dè bha thu a' feuchainn ri dhèanamh",
+      "dè an teicneòlas cuideachaidh, brabhsair, no inneal a bha thu a' cleachdadh, ma tha sin iomchaidh",
+      "dè chaidh ceàrr",
+      "dè a bhiodh air cuideachadh"
+    ],
+    "footnote": "Chan fheum thu aithisg bug foirmeil a sgrìobhadh. Tha tuairisgeul soilleir gu leòr."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Làimhseachadh",
+      "title": "Làimhseachadh cùisean poblach"
+    },
+    "paragraphs": [
+      "Faodaidh cùisean ruigsinneachd a bhith air an geàrr-chunntas anns an tasglann poblach iomchaidh gus an gabh iad a chàradh gu fosgailte Tha mion-fhiosrachadh conaltraidh pearsanta agus fiosrachadh prìobhaideach gun fheum air an toirt air falbh mus tèid fhoillseachadh.",
+      "Ma tha fiosrachadh prìobhaideach anns an aithisg agad, abair sin gu soilleir anns an teachdaireachd."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Stàit làithreach",
+      "title": "Cuingealachaidhean aithnichte"
+    },
+    "paragraphs": [
+      "Tha an làrach seo gu mionaideach beag agus gu ìre mhòr seasmhach. Dh'fhaodadh gum bi dreachan cuid de chànanan neo-iomlan fhad 's a tha eadar-theangachaidhean gan ullachadh."
+    ]
+  }
+}
