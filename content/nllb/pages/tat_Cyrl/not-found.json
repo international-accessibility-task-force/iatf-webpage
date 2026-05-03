@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Табылмаган"
+  },
+  "hero": {
+    "eyebrow": "Табылмаган",
+    "title": "Соралган бит табылмады",
+    "lead": "Җәмәгать урыннарына кире кайтыр өчен, түбәндәге төп юллардан йөрегез.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Өйгә кайту",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Сез сораган маршрут юк."
+    ],
+    "items": [
+      {
+        "label": "Өйгә кайту",
+        "href": "/"
+      },
+      {
+        "label": "Проектлар",
+        "href": "/projects/"
+      },
+      {
+        "label": "Кушылыгыз",
+        "href": "/join/"
+      },
+      {
+        "label": "Уңайлылык",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Идарә итү",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ачыклык",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

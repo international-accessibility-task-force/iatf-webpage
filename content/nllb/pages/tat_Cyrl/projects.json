@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Җәмәгатьчелек өчен ачыклык проектлары",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Җәмәгатьчелек өчен ачыклык проектлары",
+    "lead": "Бу реестр IATF аша алып барылган иҗтимагый проектларны исемлекли.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Реестр",
+      "title": "Хәзерге реестр"
+    },
+    "intro": [
+      "Кабул ителгән проектлар, алар басылып чыккач, биредә китерелә."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ихтыяҗны белдерегез",
+      "title": "Конкрет ихтыяҗны иҗтимагый проектка әйләндерү"
+    },
+    "paragraphs": [
+      "IATF ачык чыганаклы файдалы эшкә әверелергә мөмкин булган конкрет ихтыяҗларны тикшерә."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Әлегә проектлар басылмаган",
+    "paragraphs": [
+      "IATF үзенең беренче иҗтимагый проект җыелмасын әзерли.",
+      "Әгәр дә сезнең конкрет ихтыяҗларыгыз бар икән, сез шулай ук мөрәҗәгать итә аласыз."
+    ]
+  }
+}
