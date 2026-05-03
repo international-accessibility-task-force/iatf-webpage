@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Pridať sa k IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Pridať sa k IATF",
+    "lead": "Členstvo je otvorené. Existuje niekoľko spôsobov, ako sa zúčastniť, či už sa spoliehate na asistenčné technológie, budujete prístupný softvér, prekladate, testujete alebo udržiavate projekt. Diskusia a rozhodnutia sa konajú verejne na GitHub a Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Úlohy",
+      "title": "Spôsoby prispievania"
+    },
+    "items": [
+      "<strong>Požiadajte o projekt.</strong> Ak narazíte na prekážku prístupnosti, ktorá by mohla byť riešená verejným softvérom s otvoreným zdrojovým kódom, odošlite ho prostredníctvom príjmu žiadostí.",
+      "<strong>Test a prehodnotenie.</strong> Vyskúšajte projekty IATF s podpornou technológiou, ktorú používate, hláste, čo funguje a čo nie, a položte problémy priamo do príslušného úložiska.",
+      "<strong>Preložiť.</strong> Zdrojový obsah sa najprv uverejňuje v bežnej angličtine. Preklady sa pridávajú, keď sú k dispozícii prispievatelia, počnúc španielštinou.",
+      "<strong>Budovať.</strong> Zobraziť problémy v akomkoľvek úložisku IATF, odoslať pull request alebo prevziať projekt ako jeho zodpovedný inžinier.",
+      "<strong>Udržiavať.</strong> Existujúce projekty niekedy potrebujú nového správcu. Rotácia správcu je bežnou súčasťou modelu, nie výnimkou."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanály",
+      "title": "Kde IATF pracuje na verejnosti"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problémy, pull requesty, vydania a projektové záznamy.",
+      "<strong>Nesúhlas.</strong> Živá diskusia, koordinácia a neformálne otázky.",
+      "<strong>E-mail.</strong> Použitie <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ak sa nezhoduje ani GitHub, ani Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ďalší krok",
+      "title": "Vyberte si kanál, ktorý zodpovedá tomu, ako chcete prispieť"
+    },
+    "paragraphs": [
+      "Všetky kanály vstupujú do rovnakého verejného revízneho systému a rovnakých verejných archívov."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

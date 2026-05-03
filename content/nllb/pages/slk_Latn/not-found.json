@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nie nájdené"
+  },
+  "hero": {
+    "eyebrow": "Nie nájdené",
+    "title": "Žiadaná stránka nebola nájdená",
+    "lead": "Použite hlavné cesty nižšie, aby ste sa vrátili na verejné miesto.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Domov",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Trasa, ktorú ste si vyžiadali, neexistuje."
+    ],
+    "items": [
+      {
+        "label": "Domov",
+        "href": "/"
+      },
+      {
+        "label": "Projekty",
+        "href": "/projects/"
+      },
+      {
+        "label": "Pridaj sa .",
+        "href": "/join/"
+      },
+      {
+        "label": "Prístupnosť",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Riadenie",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparentnosť",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Žiadať o projekt v oblasti prístupnosti",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Žiadať o projekt v oblasti prístupnosti",
+    "lead": "IATF posudzuje žiadosti o projekty v oblasti prístupnosti, ktoré vychádzajú z skutočnej potreby.",
+    "support": [
+      "Na začiatok stačí jasný problém, kto je dotknutý a prečo je to dôležité."
+    ],
+    "actions": [
+      {
+        "label": "Začať s požiadavkou",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Namiesto toho použite Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanály",
+      "title": "Vyberte si najľahšiu cestu ."
+    },
+    "intro": [
+      "Všetky trasy podliehajú rovnakému preskúmaniu."
+    ],
+    "items": [
+      {
+        "label": "Webová stránka",
+        "body": "Na predloženie štruktúrovanej žiadosti použite nižšie uvedený formulár."
+      },
+      {
+        "label": "E-mailová adresa",
+        "body": "Pošlite žiadosť priamo na {{contact.requestsEmail}}E-mailové žiadosti sa môžu po preskúmaní a vymazaní stať verejnými záznamami o žiadostiach."
+      },
+      {
+        "label": "Neshody",
+        "body": "Začnite tam, ak je to najjednoduchšie."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Pred odoslaním žiadosti",
+    "paragraphs": [
+      "Žiadosti môžu byť zhrnuté a zverejnené ako verejné záznamy žiadostí v organizácii IATF GitHub, na tejto webovej stránke alebo na oboch.",
+      "Nezahŕňajte súkromné adresy, telefónne čísla, lekárske údaje ani identifikačné informácie o jednotlivých používateľoch asistentných technológií, pokiaľ to nie je nevyhnutné a vy nie ste spokojní s tým, že to IATF preskúma.",
+      "IATF pred zverejnením záznamov o žiadosti odstraňuje zbytočné osobné kontaktné údaje."
+    ]
+  },
+  "review": {
+    "title": "Očakávania z revízie",
+    "paragraphs": [
+      "Odovzdanie žiadosti nezaručuje prijatie.",
+      "IATF posudzuje žiadosti o vhodnosť, uskutočniteľnosť, užitočnosť a to, či práca patrí do verejného úložiska.",
+      "Niektoré žiadosti môžu byť zamietnuté, odložené alebo zmenené pred prijatím."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formulár žiadosti",
+      "title": "Podanie žiadosti"
+    },
+    "fields": [
+      {
+        "kind": "vstupné údaje",
+        "name": "žiadateľ",
+        "label": "Vaše meno alebo organizácia",
+        "helper": "Kto to žiada?"
+      },
+      {
+        "kind": "vyberte",
+        "name": "Kontaktná trasa",
+        "label": "Preferovaná kontaktná trasa",
+        "helper": "Ako by malo prebiehať následné sledovanie?",
+        "required": true,
+        "options": [
+          "E-mailová adresa",
+          "Neshody"
+        ]
+      },
+      {
+        "kind": "vstupné údaje",
+        "name": "Kontaktné údaje",
+        "label": "Kontaktné údaje",
+        "helper": "E-mailová adresa alebo adresa Discord pre ďalšie informácie.",
+        "placeholder": "E-mailová adresa alebo adresa Discord",
+        "required": true
+      },
+      {
+        "kind": "vstupné údaje",
+        "name": "jazyk",
+        "label": "Jazyk",
+        "helper": "Váš preferovaný jazyk, ak je to relevantné.",
+        "value": "angličtina"
+      },
+      {
+        "kind": "textová oblasť",
+        "name": "problém",
+        "label": "Aký problém sa snažíš vyriešiť?",
+        "helper": "Popíšte prekážku jednoduchým jazykom.",
+        "required": true
+      },
+      {
+        "kind": "textová oblasť",
+        "name": "postihnutí užívatelia",
+        "label": "Koho to postihuje?",
+        "helper": "Komu by to pomohlo?",
+        "required": true
+      },
+      {
+        "kind": "textová oblasť",
+        "name": "extraKontext",
+        "label": "Ďalší kontext",
+        "helper": "Zdieľajte čokoľvek iné, čo pomôže vysvetliť potrebu: prečo je to dôležité, príklady, odkazy, hrubý nápad na softvér alebo časové obmedzenia."
+      },
+      {
+        "kind": "vyberte",
+        "name": "openSourceConsent",
+        "label": "Ste spokojný s verejným open source vývojom?",
+        "helper": "Prijaté projekty sú verejné archívy v rámci IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Áno .",
+          "Nie , nie .",
+          "Ešte nie som si istý."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ak sú prijaté",
+      "title": "Čo znamená prijatie"
+    },
+    "items": [
+      "verejné úložisko v organizácii IATF GitHub",
+      "zodpovedný inžinier pridelený k projektu",
+      "licenciu copyleft pre kód a projektové materiály",
+      "verejný vývoj v archíve",
+      "záznam v registri na stránke IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Začnite konverzáciu",
+      "title": "Na začiatok stačí krátka a jasná žiadosť"
+    },
+    "paragraphs": [
+      "Ak máte skutočnú potrebu prístupnosti a myslíte si, že by sa mal stať verejným projektom, pošlite nám ju."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

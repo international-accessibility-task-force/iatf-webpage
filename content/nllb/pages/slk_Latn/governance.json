@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Model riadenia a archívu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Model riadenia a archívu",
+    "lead": "IATF zabezpečuje, aby projekty prístupnosti boli verejné, čitateľné a udržiavateľné.",
+    "support": [
+      "Táto stránka vysvetľuje, čo sa kvalifikuje, ako sa uchovávajú archívy a aká zodpovednosť na úrovni archívu sa uplatňuje po prijatí."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Pravidlá",
+      "title": "Vhodnosť misie, vlastníctvo, udeľovanie licencií"
+    },
+    "cards": [
+      {
+        "title": "Úloha vhodná",
+        "paragraphs": [
+          "IATF akceptuje prácu, ktorá rieši skutočné prekážky prístupnosti a má jasnú verejnú hodnotu.",
+          "Projekt by mal byť užitočný mimo jedného súkromného pracovného postupu a fungovať ako verejné úložisko.",
+          "Pre prístupnosť webových stránok IATF používa [W3C WAI](https://www.w3.org/WAI/) Bezprostredná skúsenosť používateľov podporných technológií je tiež praktickým dôkazom toho, čo funguje v reálnom použití."
+        ]
+      },
+      {
+        "title": "Akceptácia projektu",
+        "paragraphs": [
+          "Návrh sa môže prijať, ak preskúmanie preukáže, že:"
+        ],
+        "items": [
+          "rieši skutočnú potrebu dostupnosti",
+          "problém je dostatočne jasný na vyhodnotenie",
+          "rozsah je dostatočne realistický na spustenie",
+          "práca je v súlade s misiou IATF,",
+          "existuje pravdepodobná cesta k údržbe alebo dokončeniu"
+        ]
+      },
+      {
+        "title": "Vlastníctvo archívu",
+        "paragraphs": [
+          "Prijaté projekty sú vytvorené v rámci organizácie IATF GitHub.",
+          "Sklady tam zostávajú, takže každý projekt udržuje stabilný verejný domov, aj keď sa neskôr menia správcovia."
+        ]
+      },
+      {
+        "title": "Poskytovanie licencií",
+        "paragraphs": [
+          "Projekty IATF používajú licenciu copyleft, pokiaľ sa v projekte neuvádza inak:"
+        ],
+        "items": [
+          "<strong>Kód:</strong> AGPL-3.0",
+          "<strong>Dokumentácia:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Zodpovedný inžinier alebo údržbár",
+      "paragraphs": [
+        "Každý prijatý projekt by mal mať menovaný zodpovedný inžinier alebo údržbár. Táto osoba môže získať prístup administrátora do úložiska a od nej sa očakáva, že:"
+      ],
+      "items": [
+        "vývoj sprievodcu v verejnom",
+        "udržiavať štruktúru archívu,",
+        "preskúmať alebo spravovať problémy a vytiahnuť žiadosti",
+        "dokumentovať dôležité technické rozhodnutia",
+        "Udržujte projekt zrozumiteľný pre ostatných"
+      ],
+      "footnote": "Toto je zodpovednosť na úrovni úložiska. Organizácia zostáva vlastníkom IATF. Zodpovednosťou je správcovstvo úschovy, technické riadenie a verejná koordinácia  nie neobmedzená súkromná dodávka, prispôsobené integrácie alebo záväzky na úrovni služieb mimo verejnej cestovnej mapy."
+    },
+    "publicDevelopment": {
+      "title": "Verejný rozvoj",
+      "paragraphs": [
+        "Projekty spustené prostredníctvom IATF sa štandardne vyvíjajú na verejnosti."
+      ],
+      "items": [
+        "zdrojový kód",
+        "otázky",
+        "dokumentácia",
+        "Poznámky k plánu",
+        "História vydania"
+      ],
+      "footnote": "Dôležité projektové poznatky by nemali žiť len v súkromných chatoch alebo poštových schránkach."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Verejné záznamy",
+      "title": "Verejné záznamy o žiadostiach"
+    },
+    "paragraphs": [
+      "Požiadavky, ktoré vstupujú do IATF prostredníctvom webovej stránky, e-mailu, Discord, GitHub alebo iných kanálov IATf, sa môžu stať verejnými záznamami požiadaviek.",
+      "Verejný záznam žiadosti nie je nevyhnutne pôvodnou správou. IATF môže pred zverejnením zhrnúť, upraviť alebo reštrukturalizovať žiadosť, aby sa mohla preskúmať potreba dostupnosti bez toho, aby boli odhalené zbytočné osobné informácie.",
+      "Verejné záznamy požiadaviek môžu byť uložené v organizácii IATF GitHub, na tejto webovej stránke alebo na oboch.",
+      "Pred zverejnením IATF odstráni zbytočné osobné kontaktné údaje, súkromné adresy a identifikačné údaje o jednotlivých používateľoch podporných technológií, pokiaľ nie je zverejnenie jasne zamýšľané a vhodné.",
+      "Diskord sa používa na neformálnu koordináciu. IATF nezachováva diskordové konverzácie samostatne a uchovávanie správ je riadené Discordom. Rozhodnutia prijaté v Discorde by mali byť zhrnuté do verejného záznamu na GitHub alebo na príslušnej stránke projektu.",
+      "Záznamy žiadostí sú vylúčené z indexovania vyhľadávačov, ak je to technicky možné. Verejnosť znamená, že je možné ich preskúmať a zodpovedať za ne. Neznamená to, že sú optimalizované na objavenie prostredníctvom vyhľadávania názvov.",
+      "IATF môže aktualizovať alebo odstraňovať záznamy z verejných priestorov, ktoré kontroluje, ale nemôže zaručiť ich odstránenie z vyrovnávacích pamäťov tretích strán, oznámení, forkov, snímok obrazovky, vyhľadávačov, Discordu alebo iných externých systémov.",
+      "Ak správa musí zostať súkromná, neposielajte ju prostredníctvom verejných kanálov IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organizačná úloha",
+      "title": "Predsedníctvo"
+    },
+    "lead": "Predseda je zodpovedný za riadenie IATF na úrovni organizácie. To sa odlišuje od úlohy inžiniera zodpovedného za každý projekt: predseda zodpovedá za organizáciu ako celok, nie za každodenné riadenie akéhokoľvek jednotlivého úložiska.",
+    "duties": {
+      "title": "Čo robí stolička",
+      "items": [
+        "Udržiava oprávnenia vlastníka v organizácii IATF GitHub",
+        "Podpísanie rozhodnutí o prijatí projektu a archivácie",
+        "Pôsobí ako verejná kontaktná osoba pre IATF",
+        "Koordinuje každoročné voľby"
+      ],
+      "footnote": "Predseda nezaväzuje IATF k súkromným dodávkam, plateným prácam ani k dohodám o úrovni služieb a nepokračuje v rozhodnutiach o technickom riadení, ktoré prijíma správca jednotlivých archívov."
+    },
+    "election": {
+      "title": "Každoročné voľby",
+      "paragraphs": [
+        "Predseda sa volí raz do roka. Voľby prebiehajú v prvých dvoch týždňoch decembra, výsledky sa oznamujú do 15. decembra a nový termín začína 1. januára.",
+        "Každý oprávnený volič má jeden hlas. Kandidát s najväčším počtom hlasov vyhráva; v prípade remízy sa druhé kolo koná v treťom týždni decembra.",
+        "Voľby sa uskutočňujú ako verejná diskusia GitHub v určenom úložisku správy IATF, takže kandidáti, hlasovanie a výsledok sú súčasťou verejného záznamu."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuita",
+      "paragraphs": [
+        "Ak sa v danom roku neuskutočnia žiadne voľby, súčasný predseda pokračuje v úlohe až do nasledujúcich volieb. Ide o neurčité pokračovanie, nie o odkladné obdobie  model je navrhnutý tak, aby udržal organizáciu stabilnú, keď je aktivita nízka, a nie aby vynútil prechod, na ktorý nikto nie je pripravený.",
+        "Predseda môže kedykoľvek odstúpiť. Aktívni správcovia môžu tiež vyhlásiť mimoriadne voľby s uvedeným dôvodom, ktoré sa konajú podľa rovnakých pravidiel ako každoročné voľby."
+      ]
+    },
+    "current": {
+      "title": "Súčasný predseda",
+      "fields": [
+        {
+          "label": "Predsedníctvo",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Pojem",
+          "value": "Do volieb v decembri 2026"
+        },
+        {
+          "label": "Formalizovaná úloha",
+          "value": "2026"
+        },
+        {
+          "label": "Prvé plánované voľby",
+          "value": "december 2026"
+        }
+      ]
+    },
+    "footnote": "Úloha predsedu bola formalizovaná v roku 2026, aby bola explicitná správa na úrovni organizácie."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stav projektu",
+      "paragraphs": [
+        "Projekty používajú malý súbor verejných stavov:"
+      ],
+      "items": [
+        "Návrh",
+        "Prijaté",
+        "Aktívne",
+        "Stabilné",
+        "Hľadám správcu",
+        "Archivované"
+      ],
+      "footnote": "Tieto štáty umožňujú, aby bol registr ľahko skenovateľný."
+    },
+    "reassignment": {
+      "title": "Prerozdelenie a archivácia",
+      "paragraphs": [
+        "Ak sa údržbár vzdá alebo sa stane nečinným, IATF môže prerozdeliť zodpovednosť, prerušiť vývoj alebo archivovať projekt.",
+        "Projekt sa môže archivovať aj vtedy, keď bola splnená pôvodná potreba, zastavila sa údržba alebo pokračovanie práce už nie je reálne."
+      ],
+      "footnote": "Archivované projekty zostávajú verejne viditeľné, pokiaľ nie je na to presvedčivý dôvod."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Hraničná poznámka",
+      "title": "Čo IATF nezaručuje"
+    },
+    "items": [
+      "doručenie súkromnému klientovi",
+      "dohody o úrovni služieb",
+      "prijatie každého návrhu",
+      "dlhodobá údržba každého projektu"
+    ],
+    "footnote": "IATF je modelom verejného úložiska, nie súkromnou doručovacou službou."
+  }
+}

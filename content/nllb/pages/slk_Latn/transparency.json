@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Transparentnosť",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Transparentnosť",
+    "lead": "Projektové rozhodnutia, zmeny kódu, zmeny riadenia a prevádzkové náklady sa zaznamenávajú na verejných miestach.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Záznamy",
+      "title": "Kde sú záznamy"
+    },
+    "items": [
+      "<strong>Rozhodnutia o projekte.</strong> Rozhodnutia o prijatí, archivovaní a prerozdelení sa zaznamenávajú ako vydania alebo uvoľnenia v príslušnom úložisku a sú zhrnuté vo verejnom registri. <a href=\"/projects/\">registrácia</a>- Áno .",
+      "<strong>Žiadať záznamy.</strong> Verejné záznamy o žiadostiach sa ukladajú v organizácii IATF GitHub, na tejto webovej stránke alebo na oboch. Záznamy môžu zhrnúť, upraviť alebo reštrukturalizovať pôvodnú žiadosť, aby sa mohla preskúmať potreba prístupnosti bez odhalenia zbytočných osobných informácií. Rozhodnutia o nesúhlasu sa zhrnú do verejných záznamov, keď ovplyvňujú rozhodnutie o projekte alebo riadení. Zápisy o požiadavkách sú vylúčené z indexovania vyhľadávačov, ak je to technicky možné. Zobraziť záznamy: čakajúca prvá žiadosť o zverejnenie.",
+      "<strong>Zmeny kódu.</strong> Každá zmena kódu je verejným záväzkom v príslušnom repozitóriu. <a href=\"{{contact.githubOrgUrl}}\">Organizácia GitHub</a>- Áno .",
+      "<strong>Zmeny v riadení.</strong> Aktualizácie na stránke správy a riadenia sa sledujú ako <code>internetová stránka IATF</code> Zobraziť repozitórium. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">História spáchania</a> na GitHub.",
+      "<strong>Prevádzkové náklady.</strong> IATF udržiava nízke prevádzkové náklady a zaznamenáva opakujúce sa výdavky na verejnú infraštruktúru.",
+      "<strong>Poznámky o koordinácii.</strong> Poznámky z akéhokoľvek koordinovaného preskúmania alebo rozhodnutia žijú na GitHub Diskusia o príslušnom repozitóriu  Zobraziť <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Diskusia</a> na <code>internetová stránka IATF</code> úložisko."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Náklady",
+      "title": "Záznamy o prevádzkových nákladoch"
+    },
+    "paragraphs": [
+      "IATF udržiava svoju verejnú infraštruktúru úmyselne malú. Od roku 2022 sú hlavnými opakujúcimi sa prevádzkovými nákladmi doménové mená.",
+      "Tento záznam nie je overená účtovná závierka, ale verejný denník prevádzkových nákladov na infraštruktúru používanú na udržiavanie IATF online."
+    ],
+    "footnote": "Osobné adresy, fakturačné údaje a nepotrebné informácie o účtoch nie sú súčasťou verejných záznamov.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Doména",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Náklady",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Poznámky",
+            "value": "Náklady na domény financované spoločnosťou mugiwarafx. Hosting používal bezplatnú alebo nízkonákladovú infraštruktúru prostredníctvom Cloudflare. Projekt sa presťahoval z Vercelu na CloudFlare a začal používať kratšiu <code>iatf.cc</code> doména."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Doména",
+            "value": "<code>medzinárodnáaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Náklady",
+            "value": "18,68 USD"
+          },
+          {
+            "label": "Poznámky",
+            "value": "Náklady na doménu financované spoločnosťou mugiwarafx. Hosting využíva bezplatnú alebo nízkonákladovú infraštruktúru."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Doména",
+            "value": "<code>medzinárodnáaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Náklady",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Poznámky",
+            "value": "Náklady na domény financované spoločnosťou mugiwarafx. Hosting využíva bezplatnú alebo nízkonákladovú infraštruktúru prostredníctvom Vercelu."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Doména",
+            "value": "<code>medzinárodnáaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Náklady",
+            "value": "14,76 USD"
+          },
+          {
+            "label": "Poznámky",
+            "value": "Náklady na doménu financované spoločnosťou mugiwarafx. Hosting využíva bezplatnú alebo nízkonákladovú infraštruktúru."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Doména",
+            "value": "<code>medzinárodnáaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Náklady",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Poznámky",
+            "value": "Náklady na domény financované spoločnosťou mugiwarafx. Hosting využíva bezplatnú alebo nízkonákladovú infraštruktúru prostredníctvom stránok GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Hraničná poznámka",
+      "title": "Čo nie je verejné"
+    },
+    "paragraphs": [
+      "Niektoré materiály sa z verejných záznamov vynechávajú s cieľom:"
+    ],
+    "items": [
+      "Osobné kontaktné údaje navrhovateľov.",
+      "Súkromná korešpondencia používaná len na objasnenie žiadosti pred jej prijatím, zamietnutím alebo zhrnutím.",
+      "Súkromné adresy, telefónne čísla a zbytočné osobné údaje.",
+      "Čokoľvek, čo by identifikovalo jednotlivého používateľa asistentnej technológie bez súhlasu.",
+      "Rozhovory Raw Discord, pokiaľ nie je konkrétna správa úmyselne presunutá do verejného záznamu projektu."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Čítajte ďalej",
+      "title": "Riadenie je kniha pravidiel, ktorá stojí za týmito záznamami."
+    },
+    "paragraphs": [
+      "Ak chcete pochopiť, ako sú projekty prijaté, archivované alebo prerozdelené, prečítajte si stránku správy."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

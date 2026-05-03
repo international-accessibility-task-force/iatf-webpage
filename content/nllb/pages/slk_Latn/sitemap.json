@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapa lokality"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Mapa lokality",
+    "lead": "Každá verejná stránka na iatf.cc, na jednom mieste."
+  },
+  "sections": [
+    {
+      "title": "Hlavné stránky",
+      "items": [
+        {
+          "label": "Domov",
+          "href": "/"
+        },
+        {
+          "label": "Projekty",
+          "href": "/projects/"
+        },
+        {
+          "label": "Žiadať o projekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Riadenie",
+          "href": "/governance/"
+        },
+        {
+          "label": "Pridaj sa .",
+          "href": "/join/"
+        },
+        {
+          "label": "Prístupnosť",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparentnosť",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekty",
+  "projectsEmpty": "Zatiaľ neboli zverejnené žiadne projekty."
+}

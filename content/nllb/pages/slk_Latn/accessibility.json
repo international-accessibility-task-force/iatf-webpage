@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Prístupnosť",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Prístupnosť",
+    "lead": "Cieľom IATF je, aby bola táto webová stránka jednoduchá, čitateľná, prístupná pomocou klávesnice a kompatibilná s podpornými technológiami.",
+    "support": [
+      "Pre prístupnosť webových stránok IATF používa [W3C WAI](https://www.w3.org/WAI/) Praktická dostupnosť je tiež informovaná priamymi skúsenosťami používateľov podporných technológií."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Oznámenie",
+      "title": "Nahlásiť problém s prístupnosťou"
+    },
+    "paragraphs": [
+      "Ak nájdete prekážku prístupnosti na tejto webovej stránke, prosím, nahláste to e-mailom:",
+      "{{contact.accessibilityEmail}}",
+      "Medzi užitočné správy patria:"
+    ],
+    "items": [
+      "stránka, na ktorej sa problém vyskytol",
+      "čo si sa snažil urobiť",
+      "akú pomocnú technológiu, prehliadač alebo zariadenie ste používali, ak je to relevantné",
+      "Čo sa pokazilo ?",
+      "čo by pomohlo"
+    ],
+    "footnote": "Nie je potrebné písať formálnu správu o chybe."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipulácia",
+      "title": "Riadenie verejných záležitostí"
+    },
+    "paragraphs": [
+      "Osobné kontaktné údaje a zbytočné súkromné informácie sa pred zverejnením odstránia.",
+      "Ak vaša správa obsahuje súkromné informácie, jasne to uveďte v správe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Súčasný stav",
+      "title": "Známe obmedzenia"
+    },
+    "paragraphs": [
+      "Táto stránka je úmyselne malá a väčšinou statická. Niektoré jazykové verzie môžu byť neúplné počas prípravy prekladov."
+    ]
+  }
+}

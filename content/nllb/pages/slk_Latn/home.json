@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Od potreby dostupnosti k verejným repo",
+    "lead": "IATF pomáha združeniam, skupinám a jednotlivcom premeniť skutočné potreby prístupnosti na verejné projekty s otvoreným zdrojom.",
+    "support": [
+      "Prijaté projekty sú uverejnené v organizácii IATF GitHub pod licenciou copyleft a vyvíjané verejne zodpovedným inžinierom."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Verejný prevádzkový model",
+      "title": "Jednoduchá verejná cesta pre prístupný softvér"
+    },
+    "paragraphs": [
+      "Prostredníctvom formulára môže ktokoľvek predložiť problém s prístupnosťou IATF. Ak sa tím môže postarať o to, otvorí sa verejné úložište GitHub pre prácu.",
+      "Každý prijatý projekt má jasný verejný domov pre kód, problémy, dokumentáciu a vydania, pričom vývoj vedie otvorene zodpovedný inžinier."
+    ],
+    "specCard": {
+      "title": "Verejný prevádzkový model",
+      "terms": [
+        {
+          "term": "Potreba",
+          "definition": "Skutočný problém s prístupnosťou"
+        },
+        {
+          "term": "Preskúmanie",
+          "definition": "Vhodnosť misie a praktická uskutočniteľnosť"
+        },
+        {
+          "term": "Projektový priestor",
+          "definition": "Verejné úložište GitHub"
+        },
+        {
+          "term": "Správcovstvo",
+          "definition": "vlastníctvo organizácie IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proces",
+      "title": "Ako to funguje",
+      "intro": "Model zostáva úmyselne malý, takže je ľahké sledovať verejnú cestu."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Potreba je predložená",
+        "paragraphs": [
+          "Združenie, skupina alebo jednotlivec môžu predložiť žiadosť založenú na skutočnej potrebe v oblasti prístupnosti.",
+          "Žiadosti sa môžu podať prostredníctvom webovej stránky alebo e-mailom na adresu: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, alebo cez Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ho preskúma",
+        "paragraphs": [
+          "Preskúmame vhodnosť misie, praktický rozsah a či práca patrí do verejného projektu s otvoreným zdrojom."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Vytvorenie verejného úložiska",
+        "paragraphs": [
+          "Ak je projekt prijatý, je uverejnený v organizácii IATF GitHub pod licenciou copyleft.",
+          "Skladnica sa stáva verejným domovom kódu, problémov, dokumentácie a vydaní."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Projekt vedie zodpovedný inžinier",
+        "paragraphs": [
+          "Do archívu projektu je pridelený zodpovedný inžinier a vývoj sa uskutočňuje na verejnosti."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrácia",
+      "title": "Verejný register projektov"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Začnite tu.",
+      "title": "Prehľadávanie aktuálnej práce alebo začatie konkrétneho projektu"
+    },
+    "paragraphs": [
+      "Použite register, aby ste zistili, čo je už verejné, alebo začnite prijímať, ak by sa konkrétny problém s prístupnosťou mal stať projektom."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
