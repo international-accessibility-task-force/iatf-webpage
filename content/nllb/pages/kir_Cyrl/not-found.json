@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Табылган жок"
+  },
+  "hero": {
+    "eyebrow": "Табылган жок",
+    "title": "Керектүү баракча табылган жок",
+    "lead": "Коомдук жайга кайтып келүү үчүн төмөндөгү негизги жолдорду колдонуңуз.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Үйү",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Сиз сураган маршрут жок."
+    ],
+    "items": [
+      {
+        "label": "Үйү",
+        "href": "/"
+      },
+      {
+        "label": "Долбоорлор",
+        "href": "/projects/"
+      },
+      {
+        "label": "Кошуу",
+        "href": "/join/"
+      },
+      {
+        "label": "Жеткиликтүүлүк",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Башкаруу",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ачык-айкындуулук",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

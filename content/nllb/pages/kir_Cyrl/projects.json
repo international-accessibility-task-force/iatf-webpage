@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Коомдук жеткиликтүүлүк долбоорлору",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Коомдук жеткиликтүүлүк долбоорлору",
+    "lead": "Бул реестр IATF аркылуу жүргүзүлгөн коомдук долбоорлорду тизмектейт.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Каттоо",
+      "title": "Учурдагы реестр"
+    },
+    "intro": [
+      "Кабыл алынган долбоорлор жарыялангандан кийин бул жерде көрсөтүлөт."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Керектөөңүздү билдириңиз",
+      "title": "Конкреттүү жеткиликтүүлүк муктаждыгын коомдук долбоорго айландыруу"
+    },
+    "paragraphs": [
+      "IATF ачык булактагы пайдалуу жумушка айландырылышы мүмкүн болгон конкреттүү жеткиликтүүлүк муктаждыктарын карап чыгат."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Азырынча жарыяланган долбоорлор жок",
+    "paragraphs": [
+      "IATF өзүнүн биринчи коомдук долбоор топтомун даярдап жатат.",
+      "Сиз дагы деле өтүнүч жөнөтө аласыз, эгерде сизде жеткиликтүүлүктүн конкреттүү муктаждыгы болсо."
+    ]
+  }
+}

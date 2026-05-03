@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Сайттын картасы"
+  },
+  "hero": {
+    "eyebrow": "Индекс",
+    "title": "Сайттын картасы",
+    "lead": "IATF.CC сайтынын баардык баракчалары бир жерге жайгаштырылган."
+  },
+  "sections": [
+    {
+      "title": "Негизги беттер",
+      "items": [
+        {
+          "label": "Үйү",
+          "href": "/"
+        },
+        {
+          "label": "Долбоорлор",
+          "href": "/projects/"
+        },
+        {
+          "label": "Долбоорду талап кылуу",
+          "href": "/propose/"
+        },
+        {
+          "label": "Башкаруу",
+          "href": "/governance/"
+        },
+        {
+          "label": "Кошуу",
+          "href": "/join/"
+        },
+        {
+          "label": "Жеткиликтүүлүк",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ачык-айкындуулук",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Долбоорлор",
+  "projectsEmpty": "Азырынча жарыяланган долбоорлор жок."
+}
