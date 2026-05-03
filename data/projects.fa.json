@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "وب سایت IATF",
+    "summary": "سایت عمومی برای نیروی کار دسترسی بین المللی.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF به یک خانه عمومی پایدار نیاز داشت که مدل را توضیح دهد، پروژه ها را لیست کند، و کمک کنندگان را به گام بعدی درست راهنمایی کند.",
+    "why": "این سایت در ورودی عمومی IATF است. این به عنوان یک پروژه ای کوچک استاتیک ساخته شده است تا خواندن، ترجمه و نگهداری آن در فضای باز آسان باشد.",
+    "scopeIn": [
+      "صفحات فرود عمومی که مدل IATF را توضیح می دهند",
+      "ثبت عمومی پروژه های پذیرفته شده ، فعال و بایگانی شده IATF با وضعیت ، نگهدارنده ، مخزن و نمایشی",
+      "صفحه دریافت درخواست و فرم",
+      "صفحات حاکمیت و شفافیت",
+      "منبع انگلیسی با ساختار آماده برای ترجمه",
+      "مستقر کردن در Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "مناطق عضو خصوصی، حساب ها یا جریان ورود به سیستم",
+      "میزبانی کد منبع پروژه ، که در مخزن خود هر پروژه زندگی می کند",
+      "چت در زمان واقعی، که در Discord زندگی می کند",
+      "ردیابی مسئله برای پروژه های فردی، که در مخزن GitHub هر پروژه زندگی می کند"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "سلفی IATF",
+    "summary": "یک نمونه اولیه IATF، پس از رسیدن به یک نقطه توقف طبیعی بایگانی شده است.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "بررسی اولیه یک ابزار متمرکز بر دسترسی تحت چتر IATF.",
+    "why": "این مخزن به عنوان یک سوابق از کار عمومی نگه داشته می شود، حتی اگر توسعه فعال متوقف شده باشد.",
+    "scopeIn": [
+      "نمونه اولیه اولیه یک ابزار متمرکز بر دسترسی که به عنوان یک سوابق عمومی نگهداری می شود"
+    ],
+    "scopeOut": [
+      "توسعه فعال یا کار ویژگی",
+      "تعهدات نگهداری",
+      "استفاده توصیه شده در تولید"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "ربات IATF",
+    "summary": "یک ربات جامعه IATF، پس از رسیدن به یک نقطه توقف طبیعی بایگانی شده است.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "اتوماسیون در اطراف کانال های جامعه IATF.",
+    "why": "این مخزن به عنوان یک سوابق از کار عمومی نگه داشته می شود، حتی اگر توسعه فعال متوقف شده باشد.",
+    "scopeIn": [
+      "اتوماسیون اختلافات در اطراف کانال های جامعه IATF، به عنوان یک سوابق عمومی نگهداری می شود"
+    ],
+    "scopeOut": [
+      "توسعه فعال یا کار ویژگی",
+      "تعهدات نگهداری",
+      "استفاده توصیه شده در تولید"
+    ]
+  }
+]
