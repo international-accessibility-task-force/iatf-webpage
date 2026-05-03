@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Unirse a la IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Unirse a la IATF",
+    "lead": "La membresía es abierta. Hay varias maneras de participar, ya sea que confíe en la tecnología de asistencia, construya software accesible, traduzca, pruebe o mantenga un proyecto. Las discusiones y decisiones ocurren en público en GitHub y Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Las funciones",
+      "title": "Maneras de contribuir"
+    },
+    "items": [
+      "<strong>Solicitar un proyecto.</strong> Si encuentra una barrera de accesibilidad que podría ser abordada por el software de código abierto público, envíelo a través de la entrada de solicitudes.",
+      "<strong>Prueba y revisión.</strong> Pruebe los proyectos IATF con la tecnología de asistencia que utiliza, informe qué funciona y qué no, y archive los problemas directamente en el repositorio correspondiente.",
+      "<strong>¿Qué quieres decir?</strong> El contenido de origen se publica primero en inglés, y las traducciones se agregan a medida que los contribuyentes están disponibles, comenzando con el español.",
+      "<strong>Construye.</strong> Recoger problemas en cualquier repositorio IATF, enviar solicitudes de extracción, o asumir un proyecto como su ingeniero responsable.",
+      "<strong>Mantenerlo.</strong> Los proyectos existentes a veces necesitan un nuevo mantenedor.La rotación del mantenedor es una parte normal del modelo, no una excepción."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Los canales",
+      "title": "Donde el IATF trabaja en público"
+    },
+    "items": [
+      "<strong>Es GitHub.</strong> Problemas, solicitudes de extracción, lanzamientos y registros de proyectos.",
+      "<strong>La discordia.</strong> Discusión en vivo, coordinación y preguntas informales.",
+      "<strong>El correo electrónico.</strong> Utilización <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> si ni GitHub ni Discord encajan."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "El siguiente paso",
+      "title": "Elige el canal que coincida con la forma en que quieres contribuir"
+    },
+    "paragraphs": [
+      "Todos los canales alimentan la misma revisión pública y los mismos repositorios públicos."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

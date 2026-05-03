@@ -1,29 +1,55 @@
 {
   "meta": {
     "currentPath": "/404.html",
-    "title": "No encontrada"
+    "title": "No se encuentra"
   },
   "hero": {
-    "eyebrow": "No encontrada",
+    "eyebrow": "No se encuentra",
     "title": "No se encontró la página solicitada",
-    "lead": "Usa las rutas principales de abajo para volver al sitio público.",
+    "lead": "Utilice las rutas principales a continuación para regresar al sitio público.",
     "support": [],
     "actions": [
-      { "label": "Inicio", "href": "/", "variant": "primary" },
-      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "secondary" }
+      {
+        "label": "El hogar",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
     ]
   },
   "body": {
     "paragraphs": [
-      "La ruta que solicitaste no existe."
+      "La ruta que pidió no existe."
     ],
     "items": [
-      { "label": "Inicio", "href": "/" },
-      { "label": "Proyectos", "href": "/projects/" },
-      { "label": "Únete", "href": "/join/" },
-      { "label": "Accesibilidad", "href": "/accessibility/" },
-      { "label": "Gobernanza", "href": "/governance/" },
-      { "label": "Transparencia", "href": "/transparency/" }
+      {
+        "label": "El hogar",
+        "href": "/"
+      },
+      {
+        "label": "Proyectos",
+        "href": "/projects/"
+      },
+      {
+        "label": "Unirse",
+        "href": "/join/"
+      },
+      {
+        "label": "Acceso a la información",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gobernanza de las finanzas públicas",
+        "href": "/governance/"
+      },
+      {
+        "label": "La transparencia",
+        "href": "/transparency/"
+      }
     ]
   }
 }

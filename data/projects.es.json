@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Página web de la IATF",
+    "summary": "El sitio público para el Grupo de Trabajo de Accesibilidad Internacional.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "La IATF necesitaba una casa pública estable que explicara el modelo, enumerara los proyectos y apuntara a los contribuyentes hacia el siguiente paso correcto.",
+    "why": "El sitio es la puerta de entrada pública de IATF. Está construido como un pequeño proyecto estático para que sea fácil de leer, traducir y mantener al aire libre.",
+    "scopeIn": [
+      "Páginas de destino públicas que explican el modelo IATF",
+      "Registro público de proyectos IATF aceptados, activos y archivados con estado, mantenedor, repositorio y demostración",
+      "Una página de recepción de solicitudes y un formulario",
+      "Páginas de gobernanza y transparencia",
+      "Fuente en inglés con estructura lista para traducción",
+      "Despliegue estático en los activos estáticos de los trabajadores de Cloudflare"
+    ],
+    "scopeOut": [
+      "Áreas de miembros privados, cuentas o flujos de inicio de sesión",
+      "Alojamiento del código fuente del proyecto, que vive en el propio repositorio de cada proyecto",
+      "Chat en tiempo real, que vive en Discord",
+      "Seguimiento de problemas para proyectos individuales, que vive en el repositorio GitHub de cada proyecto"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie de la IATF",
+    "summary": "Un prototipo temprano de IATF, archivado después de alcanzar un punto de parada natural.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Exploración temprana de una herramienta centrada en la accesibilidad bajo el paraguas de la IATF.",
+    "why": "El repositorio se mantiene público como un registro del trabajo, a pesar de que el desarrollo activo se ha detenido.",
+    "scopeIn": [
+      "Prototipo temprano de una herramienta centrada en la accesibilidad mantenida como registro público"
+    ],
+    "scopeOut": [
+      "Desarrollo activo o trabajo de características",
+      "Compromiso de mantenimiento",
+      "Uso recomendado en la producción"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Bot de la IATF",
+    "summary": "Un bot de la comunidad IATF, archivado después de alcanzar un punto de parada natural.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatización en torno a los canales comunitarios de la IATF.",
+    "why": "El repositorio se mantiene público como un registro del trabajo, a pesar de que el desarrollo activo se ha detenido.",
+    "scopeIn": [
+      "Automatización de la discordia en torno a los canales comunitarios de la IATF, mantenida como registro público"
+    ],
+    "scopeOut": [
+      "Desarrollo activo o trabajo de características",
+      "Compromiso de mantenimiento",
+      "Uso recomendado en la producción"
+    ]
+  }
+]

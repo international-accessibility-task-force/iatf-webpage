@@ -7,32 +7,52 @@
   },
   "hero": {
     "eyebrowKey": "hero.home.eyebrow",
-    "title": "De una necesidad de accesibilidad a un repositorio público",
-    "lead": "IATF ayuda a asociaciones, grupos y personas a convertir necesidades reales de accesibilidad en proyectos públicos de código abierto.",
+    "title": "De la necesidad de accesibilidad a los repos públicos",
+    "lead": "IATF ayuda a asociaciones, grupos e individuos a convertir las necesidades reales de accesibilidad en proyectos públicos de código abierto.",
     "support": [
-      "Los proyectos aceptados se publican en la organización de GitHub de IATF bajo una licencia copyleft y se desarrollan en público por una persona responsable."
+      "Los proyectos aceptados se publican en la organización IATF GitHub bajo una licencia copyleft y son desarrollados en público por un ingeniero responsable."
     ],
     "actions": [
-      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "primary" },
-      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "secondary" }
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
     ]
   },
   "model": {
     "header": {
-      "kicker": "Modelo operativo público",
+      "kicker": "Modelo de funcionamiento público",
       "title": "Un camino público sencillo para el software accesible"
     },
     "paragraphs": [
-      "Una necesidad real de accesibilidad se revisa y, si se acepta, se convierte en un repositorio público de GitHub bajo la tutela de IATF.",
-      "Cada proyecto aceptado tiene una casa pública clara para el código, las incidencias, la documentación y las publicaciones, con el desarrollo liderado en abierto por una persona responsable."
+      "A través de un formulario, cualquier persona puede enviar un problema de accesibilidad a IATF. Si el equipo puede asumirlo, se abre un repositorio público de GitHub para el trabajo.",
+      "Cada proyecto aceptado tiene un hogar público claro para el código, los problemas, la documentación y los lanzamientos, con el desarrollo dirigido en abierto por un ingeniero responsable."
     ],
     "specCard": {
-      "title": "Modelo operativo público",
+      "title": "Modelo de funcionamiento público",
       "terms": [
-        { "term": "Necesidad", "definition": "Problema real de accesibilidad" },
-        { "term": "Revisión", "definition": "Encaje con la misión y viabilidad práctica" },
-        { "term": "Espacio del proyecto", "definition": "Repositorio público de GitHub" },
-        { "term": "Tutela", "definition": "Propiedad organizativa de IATF" }
+        {
+          "term": "Necesidad",
+          "definition": "Problemas reales de accesibilidad"
+        },
+        {
+          "term": "Revisado",
+          "definition": "Adecuación a la misión y viabilidad práctica"
+        },
+        {
+          "term": "Espacio del proyecto",
+          "definition": "Repositorio público de GitHub"
+        },
+        {
+          "term": "La mayordomía",
+          "definition": "Propiedad organizativa de la IATF"
+        }
       ]
     }
   },
@@ -45,32 +65,32 @@
     "steps": [
       {
         "index": "01",
-        "title": "Se envía una necesidad",
+        "title": "Se presenta una necesidad",
         "paragraphs": [
-          "Una asociación, un grupo o una persona puede enviar una necesidad real de accesibilidad.",
-          "Las solicitudes pueden empezar en la web, por correo a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> o a través de Discord."
+          "Una asociación, un grupo o un individuo pueden presentar una solicitud basada en una necesidad real de accesibilidad.",
+          "Las solicitudes pueden iniciarse a través del sitio web, por correo electrónico a <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, o a través de la Discordia."
         ]
       },
       {
         "index": "02",
-        "title": "IATF la revisa",
+        "title": "IATF lo revisa",
         "paragraphs": [
-          "Revisamos el encaje con la misión, el alcance práctico y si el trabajo pertenece a un proyecto público de código abierto."
+          "Revisamos la adecuación de la misión, el alcance práctico y si el trabajo pertenece a un proyecto público de código abierto."
         ]
       },
       {
         "index": "03",
         "title": "Se crea un repositorio público",
         "paragraphs": [
-          "Si un proyecto se acepta, se publica en la organización de GitHub de IATF bajo una licencia copyleft.",
-          "El repositorio pasa a ser la casa pública del código, las incidencias, la documentación y las publicaciones."
+          "Si un proyecto es aceptado, se publica en la organización IATF GitHub bajo una licencia copyleft.",
+          "El repositorio se convierte en el hogar público del código, los problemas, la documentación y los lanzamientos."
         ]
       },
       {
         "index": "04",
-        "title": "Una persona responsable lidera el desarrollo",
+        "title": "Un ingeniero responsable dirige el proyecto",
         "paragraphs": [
-          "Se asigna una persona responsable al repositorio del proyecto y el desarrollo ocurre en público."
+          "Se asigna un ingeniero responsable al repositorio del proyecto y el desarrollo se lleva a cabo en público."
         ]
       }
     ]
@@ -83,15 +103,23 @@
   },
   "closing": {
     "header": {
-      "kicker": "Empieza aquí",
-      "title": "Explora el trabajo actual o propone una necesidad concreta"
+      "kicker": "Empieza por aquí.",
+      "title": "Explorar los trabajos en curso o iniciar un proyecto concreto"
     },
     "paragraphs": [
-      "Usa el registro para ver qué ya es público o inicia la recepción si un problema concreto de accesibilidad debería convertirse en un proyecto."
+      "Utilice el registro para ver lo que ya es público, o inicie la entrada si un problema concreto de accesibilidad se convierte en un proyecto."
     ],
     "actions": [
-      { "labelKey": "actions.viewProjects", "href": "/projects/", "variant": "primary" },
-      { "labelKey": "actions.proposeProject", "href": "/propose/", "variant": "secondary" }
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
     ]
   }
 }

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Acceso a la información",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Acceso a la información",
+    "lead": "La IATF tiene como objetivo mantener este sitio web simple, legible, accesible con teclado y compatible con tecnologías de asistencia.",
+    "support": [
+      "Para la accesibilidad web, la IATF utiliza [W3C WAI](https://www.w3.org/WAI/) La accesibilidad práctica también se basa en la experiencia directa de los usuarios de las tecnologías de asistencia."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Presentación de informes",
+      "title": "Informe de un problema de accesibilidad"
+    },
+    "paragraphs": [
+      "Si encuentra una barrera de accesibilidad en este sitio web, por favor informe por correo electrónico:",
+      "{{contact.accessibilityEmail}}",
+      "Entre los informes útiles se encuentran:"
+    ],
+    "items": [
+      "la página donde ocurrió el problema",
+      "lo que estabas tratando de hacer",
+      "qué tecnología de asistencia, navegador o dispositivo estaba utilizando, si es pertinente",
+      "¿Qué fue lo que salió mal?",
+      "lo que habría ayudado"
+    ],
+    "footnote": "No es necesario escribir un informe formal de errores. Una descripción clara es suficiente."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manejo",
+      "title": "Manejo de asuntos públicos"
+    },
+    "paragraphs": [
+      "Los problemas de accesibilidad pueden resumirse en el repositorio público correspondiente para que puedan corregirse abiertamente. Los datos de contacto personales y la información privada innecesaria se eliminan antes de la publicación.",
+      "Si su informe incluye información privada, dígalo claramente en el mensaje."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Estado actual",
+      "title": "Limitaciones conocidas"
+    },
+    "paragraphs": [
+      "Este sitio es intencionalmente pequeño y en su mayoría estático. Algunas versiones lingüísticas pueden estar incompletas mientras se preparan las traducciones."
+    ]
+  }
+}
