@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kos-y tɩ b maan porze sẽn na yɩl tɩ nebã tõe n paam b sẽn datã",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kos-y tɩ b maan porze sẽn na yɩl tɩ nebã tõe n paam b sẽn datã",
+    "lead": "IATF vaeesda no-rɩkds nins sẽn kẽed ne soog-n-mengã tʋʋm-teedo sẽn yit ratem sẽn yaa takɩ pʋgẽ.",
+    "support": [
+      "Y pa segd n bao n bãng yɛlã fãa ye. Y sã n bãng yellã sẽn yaa to-to wã vẽenega, a sẽn namsd neb ninsã, la a sẽn tar yõodã, y tõe n sɩnga ne rẽ bala."
+    ],
+    "actions": [
+      {
+        "label": "Rɩk kosgo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Rɩk-y Discord n ledge",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Zĩis nins b sẽn boond tɩ",
+      "title": "Bao-y sor ning sẽn yaa nana n yɩɩdã"
+    },
+    "intro": [
+      "Soayã fãa kẽeda vaeesg a yembr pʋgẽ."
+    ],
+    "items": [
+      {
+        "label": "ẽntɛrnetã zugu",
+        "body": "Sebr ning sẽn be tẽngrã pʋgẽ wã pʋgẽ, y tõe n paama kosg sẽn zems ne y sẽn datã."
+      },
+      {
+        "label": "Gʋls-y-yã",
+        "body": "Yãk-y n tool-y-yã {{contact.requestsEmail}}E-mailã no-rɩkds tõe n lebgame tɩ nebã fãa tõe n yã-ba, b sã n vaees-ba la b yiis-ba."
+      },
+      {
+        "label": "Sãmb-sãmb ka be ye",
+        "body": "Sã n yaa woto n yaa nana n yɩɩd bɩ y sɩng be. Kosgã ket n kẽeda vaeesg kãng pʋgẽ."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Nand tɩ y tʋm kosgo",
+    "paragraphs": [
+      "IATF tʋʋmda zãma wã pʋga. B tõe n tigma la b yiis-b tɩ yɩ zãma no-tũuds sull ning sẽn boond tɩ \"IATF GitHub\" siglgẽ wã, ẽtɛrnet kãnga zugu, bɩ b yiibã fãa.",
+      "Ra sak-y tɩ b wilg-y b sẽn boond-b to-to, b telefõnnã nimero, b logtoɛɛmbã, bɩ b sẽn tõe n bãng ned ning fãa sẽn tũnugd ne seglsã ye, sã n pa tɩlɛ tɩ y sak tɩ IATF ges rẽ yelle.",
+      "IATF yiisda neb nins sẽn pa tar sor n tõe n paam n paam-b tɩ b tõe n sõs ne-ba, nand tɩ b yiis b kosgã kibayã."
+    ]
+  },
+  "review": {
+    "title": "Gʋls-y sẽn gũud-y to-to",
+    "paragraphs": [
+      "Y sã n kos woto, pa rat n yeel tɩ b na n sakame ye.",
+      "IATF vaeesda kosg nins sẽn kẽed ne tʋʋmda zemsgo, tʋʋma maanego, b yõodã, la tʋʋmdã sã n segd n zĩnda zãma wã bĩngr zĩigẽ.",
+      "B tõe n tõdga kosg kẽere, n kaoos-a bɩ n toeeme, tɩ b yaool n sak n deeg-a."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Kosg sebre",
+      "title": "Yãk-y n tool-y neda"
+    },
+    "fields": [
+      {
+        "kind": "sẽn kẽed ne",
+        "name": "ned ning sẽn dat-a wã",
+        "label": "Y yʋʋr bɩ y sullã",
+        "helper": "Yaa ãnda n kot woto?"
+      },
+      {
+        "kind": "tũus-y-yã",
+        "name": "Sõng-y-yã-a",
+        "label": "B sẽn dat n tũ sor ning n tɩ seg taabã",
+        "helper": "Wãn-wãn la b segd n maan vaeesg n paase?",
+        "required": true,
+        "options": [
+          "Gʋls-y-yã",
+          "Sãmb-sãmb ka be ye"
+        ]
+      },
+      {
+        "kind": "sẽn kẽed ne",
+        "name": "Y sẽn tõe n maan to-to n paam-a",
+        "label": "Sebr ning b sẽn tõe n tɩ sõs ne-yã",
+        "helper": "E-mail bɩ Discord sẽn na n sõng-y tɩ y bãng y sẽn tõe n maan to-to.",
+        "placeholder": "E-mail bɩ Discord yʋʋr",
+        "required": true
+      },
+      {
+        "kind": "sẽn kẽed ne",
+        "name": "buud-gomde",
+        "label": "Gʋlsgo",
+        "helper": "Y sẽn dat ne buud-gomdã, sã n yaa tɩlɛ.",
+        "value": "Bãngr-goama"
+      },
+      {
+        "kind": "Gʋlsg zĩiga",
+        "name": "zu-loeese",
+        "label": "Yaa zu-loɛɛg bʋg la y rat n welg-yã?",
+        "helper": "Wilg-y bũmb ning sẽn gɩdgd-a wã ne gom-vɩɩd sẽn yaa vẽenega.",
+        "required": true
+      },
+      {
+        "kind": "Gʋlsg zĩiga",
+        "name": "Neb nins yell b sẽn gomã",
+        "label": "Yaa ãnd dãmb yell la b gomda?",
+        "helper": "Yaa ãnda la woto na n sõng-yã?",
+        "required": true
+      },
+      {
+        "kind": "Gʋlsg zĩiga",
+        "name": "extraBãngr-goama",
+        "label": "Yɛl a taab sẽn tõe n sõng-do",
+        "helper": "Togs-y bũmb a to sẽn tõe n sõng tɩ y bãng y sẽn datã võore. Wala makre, bũmb ning sẽn kɩt t'a tar yõodã, makr dãmba, vɛrse-rãmba, porze-rãmb sẽn pa sõma, wall wakat ning y sẽn segd n maan dẽ wã."
+      },
+      {
+        "kind": "tũus-y-yã",
+        "name": "OpenSourceConsent",
+        "label": "Y sũur nooma y sẽn tõe n paam n tʋm ne b sẽn yiisd b sɛbã to-to wã bɩ?",
+        "helper": "Tʋʋm nins b sẽn sak n deegã yaa IATF taoor dãmb sɛba.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "N-ye",
+          "N-ye",
+          "M ket n pa mi ye"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "B sã n sakame",
+      "title": "D sẽn na n sak n deeg-b to-to"
+    },
+    "items": [
+      "a zãma wã bĩngr sẽn be IATF GitHub siglgẽ wã",
+      "yaa inɛgnɛɛr ning b sẽn yãk t'a na n ges tʋʋmdã yelle",
+      "a copyleft lisãnsã sẽn kẽed ne koodã la porze wã teedã wɛɛngẽ",
+      "zãma wã zãab sẽn kẽed ne sɛbã b sẽn bĩngã pʋgẽ",
+      "A IATF web-rɩtɛɛrã pʋgẽ, b gʋls-a-la roog pʋga"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Rɩk-y sõsg ne-a",
+      "title": "Yaa kosg sẽn yaa koɛɛg la sẽn yaa vẽenega bal n sek sẽn na yɩl n sɩng"
+    },
+    "paragraphs": [
+      "Y sã n dat tɩ b sõng-y tɩ y tõe n paam n kẽ, la y sã n tagsdẽ tɩ y segd n lebga nin-buiidã fãa tʋʋmde, bɩ y tʋm-d-la seb-kãngã."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

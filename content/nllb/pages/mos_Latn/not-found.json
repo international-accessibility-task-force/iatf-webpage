@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "B pa yã ye"
+  },
+  "hero": {
+    "eyebrow": "B pa yã ye",
+    "title": "Sebr ning y sẽn datã pa be ye",
+    "lead": "Sẽn na yɩl n lebg n wa zãma wã zĩigẽ, bɩ y tũ sor-bɛdã sẽn be tẽngrã.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Roogo",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "So-toak ning y sẽn kosã pa be ye."
+    ],
+    "items": [
+      {
+        "label": "Roogo",
+        "href": "/"
+      },
+      {
+        "label": "Tʋʋmd dãmba",
+        "href": "/projects/"
+      },
+      {
+        "label": "Tũ-y-yã-a",
+        "href": "/join/"
+      },
+      {
+        "label": "B sẽn tõe n paam-b to-to",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Soog-m-mengã",
+        "href": "/governance/"
+      },
+      {
+        "label": "Vẽenemã",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

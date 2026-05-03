@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Sẽn nan yɩll tɩ b tõog n paam b sẽn datã",
+    "lead": "IATF sõngda lagem-n-taar dãmba, sull dãmba, la nin-yend fãa tɩ b lebg neb sẽn tõe n paam b sẽn datã, n lebg nin-buiida tʋʋm-teedo.",
+    "support": [
+      "Tʋʋm nins b sẽn sakã b yiisda IATF GitHub siglg pʋgẽ ne copyleft lisãnse la b sigl-b-la zãma wã sʋk ne injinɛɛr sẽn tar zɩɩbo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Zãma wã sẽn tʋmd to-to wã",
+      "title": "Ned fãa tõe n paamame t'a tõe n ges porze rãmb nins b sẽn yiisdã"
+    },
+    "paragraphs": [
+      "Ne sebre, ned kam fãa tõe n wilga IATF sẽn yaa bũmb ning sẽn tõe n kɩt tɩ ned pa tõe n paam n kẽ, tɩ sullã sã n tõe n maan dẽ, b na n paka zãma wã GitHub bĩng sẽn na yɩl n maan tʋʋm-kãnga.",
+      "Tʋʋmd ning fãa b sẽn sakã tara zĩig sẽn yaa vẽenese, b sẽn tõe n yã koodã, yel-kãsemsã, sɛbã la b sẽn yiisd-b to-to wã, t'a yel-bũndã na n yɩ nin-buiid taoor soaba."
+    ],
+    "specCard": {
+      "title": "Zãma wã sẽn tʋmd to-to wã",
+      "terms": [
+        {
+          "term": "Yaa tɩlae",
+          "definition": "No-rɩk-n-tɩ-loogã zu-loees meng-menga"
+        },
+        {
+          "term": "Gʋls-y-yã",
+          "definition": "Tʋʋmdã sẽn zems ne tʋʋmdã la a sẽn tõe n yɩ to-to"
+        },
+        {
+          "term": "Tʋʋmd zĩiga",
+          "definition": "Zãma wã GitHub bĩngre"
+        },
+        {
+          "term": "Soog-m-mengã",
+          "definition": "IATF siglg pʋɩɩre"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "B sẽn maand to-to",
+      "title": "A sẽn maand to-to",
+      "intro": "Modellã yaa bilf ne yamleoogo, sẽn na yɩl tɩ nebã tõe n tũ sorã nana-nana."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "B wilga b sẽn datã",
+        "paragraphs": [
+          "Yaa sull bɩ sull bɩ nin-yend n tõe n kõ kosg sẽn tik bũmb ning sẽn sɩd yaa tɩlae sẽn kẽed ne b sẽn tõe n paam b sẽn datã.",
+          "Y tõe n sɩnga y kosgã ne ẽntɛrnetã zugu, wall ne e-mail ning b sẽn gʋls tɩ: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, bɩ y tũnug ne Discordã."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF vaeesd-a lame",
+        "paragraphs": [
+          "D vaeesda tʋʋm-noorã sẽn zems to-to, a sẽn tõe n yɩ bũmb ning pʋgẽ, la a sã n zemsa ne zãma wã sẽn na n tũnug ne seb-vãoog sẽn yaa vẽenegã."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "B na n maana zãma wã sɛb b sẽn na n tall n bĩngã",
+        "paragraphs": [
+          "B sã n sak n deeg tʋʋmde, b yiisda-a-la IATF GitHub siglg pʋgẽ ne copyleft lisãnse.",
+          "Zĩ-kãng lebgda b sẽn boond tɩ code wã, b sẽn yiisd-a wã, la b sẽn gʋls-a to-to wã zĩig neba fãa yĩnga."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Yaa inɛgnɛɛr n na n ges tʋʋmdã yelle",
+        "paragraphs": [
+          "B yãkda nin-saamb sẽn na n ges tʋʋm-no-kãnga yelle, la b maand-a-la zãma wã taoore."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Gʋlsgo",
+      "title": "Rɩk-n-tɩ-gese"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Y na n sɩnga ka.",
+      "title": "Bao-y n bãng-y tʋʋm nins y sẽn maand masã wã, bɩ y sɩng tʋʋm takɩ"
+    },
+    "paragraphs": [
+      "Sõng-y-yã-a n ges bũmb nins sẽn zoe n be neba fãa nifẽ wã, bɩ y sɩng n bao n bãng b sã n na n wa lebga tʋʋm-noy sẽn na n sõng nebã tɩ b bãng b sẽn tõe n maan to-to."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Soog-n-taar la bĩngr modɛl",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Soog-n-taar la bĩngr modɛl",
+    "lead": "IATF kɩtdame tɩ b tʋʋm-noy nins sẽn tɩ loe ne b sẽn tõe n paamã yɩ zãma wã rẽnda, tɩ b tõe n karem-ba, la b tõog n zã-ba.",
+    "support": [
+      "Seb-kãngã wilgda bũmb ning sẽn zemsã, b sẽn zãad b sɛbã to-to wã, la b sẽn na n maan bũmb ning sɛbã reegr poore."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "No-rɩkdsã",
+      "title": "Tʋʋmd sẽn zemsã, soog-m-mengã, lisensã"
+    },
+    "cards": [
+      {
+        "title": "Tʋʋmd sẽn zemse",
+        "paragraphs": [
+          "IATF sak n deegda tʋʋm nins sẽn zabd ne bũmb sẽn tõe n gɩdg nebã tɩ b pa tõe n paam n kẽ wã, la sẽn tar yõod zãma wã nifẽ vẽenega.",
+          "Tʋʋm-noor segd n yɩɩ sõma n yɩɩd tʋʋm-no-rɩk a yembr sẽn yaa soog-m-meng t'a tõe n yɩ zãma wã bĩngr zĩig me.",
+          "Sẽn kẽed ne ẽtɛgnetã sẽn tõe n paamã wɛɛngẽ, IATF tũnugda ne [W3C WAI](https://www.w3.org/WAI/) Sẽn yɩɩd fãa, yaa sẽn na yɩl tɩ b tõog n bãng b sẽn tõe n maan to-to n sõng b kambã tɩ b wʋm Biiblã goam võor sõma n paase."
+        ]
+      },
+      {
+        "title": "Tʋʋmdã sakre",
+        "paragraphs": [
+          "B tõe n deega no-tũudg sã n mikame tɩ:"
+        ],
+        "items": [
+          "yaa sẽn na n sõng tɩ b tõog n paam b sẽn datã",
+          "Yel-kãngã yaa vẽenega, tɩ d tõe n vaees-a",
+          "yaa sɩd tɩ b na n sɩngame",
+          "tʋʋmda zemsa ne IATF tʋʋmda",
+          "yaa bũmb sẽn tõe n kɩt tɩ b tõog n maan yel-gɛtg bɩ n baas-a"
+        ]
+      },
+      {
+        "title": "Seb-vãoogã soog-m-mengã",
+        "paragraphs": [
+          "Tʋʋm nins b sẽn sak n deegã b sẽn naanã bee IATF GitHub siglgẽ wã.",
+          "Yaa be la b bĩngd sɛba, sẽn na yɩl tɩ tʋʋm-noy fãa kell n tall zĩig sẽn yaa kãn-kãe zãma wã yĩnga, baa sã n mikame tɩ b na n toeema b sẽn zãad b sɛbã to-to wã."
+        ]
+      },
+      {
+        "title": "Sã n yaa ne lisensã",
+        "paragraphs": [
+          "IATF tʋʋm-noyã tũuda ne copyleft tɩ sã n pa tʋʋmnoy sẽn wilgd a to:"
+        ],
+        "items": [
+          "<strong>Koodã:</strong> AGPL-3.0",
+          "<strong>Sɛb nins sẽn yetã:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Masĩn-soab bɩ yel-gɛt ning sẽn get tʋʋmdã yelle",
+      "paragraphs": [
+        "Tʋʋmd ning fãa b sẽn na n sak n deegã segd n paama insenɛɛr bɩ ned a to sẽn yaa yel-gɛt t'a tõe n paam sor n tõe n zã bĩngrã, la b segd n maana woto:"
+      ],
+      "items": [
+        "seb-vãoog b sẽn na n maan zãma wã pʋgẽ",
+        "n kell n tall b sɛbã b sẽn da bĩngã.",
+        "vaeesg bɩ yel-kãsemsã zãabo, la bool kosgo",
+        "Gʋls-y bũmb nins b sẽn yãk yam n na n maanã",
+        "sõng-y neb a taabã tɩ b wʋm y sẽn maandã võore"
+      ],
+      "footnote": "Yaa sullã taoor soab n segd n ges yel-kãnga yelle. Yaa sull ning sẽn get tʋʋm-noyã yelle."
+    },
+    "publicDevelopment": {
+      "title": "Zãma wã yidgr",
+      "paragraphs": [
+        "Tʋʋm nins b sẽn sɩng ne IATF wã yaa zãma wã rẽnda."
+      ],
+      "items": [
+        "Sebr ning b sẽn gʋlsã",
+        "yel-kãsems",
+        "Sɛb nins b sẽn gʋlsã",
+        "Sebr ning sẽn wilgd b sẽn na n maan to-to wã",
+        "B sẽn yiisd-a to-to"
+      ],
+      "footnote": "Tʋʋmdã bãngr sẽn tar yõodã pa segd n zĩnd ned ne a to sõsg babgẽ wall b sẽn gʋlsd-b bũmb ningã pʋgẽ bal ye."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Zãma wã sɛba",
+      "title": "Sebr b sẽn gʋls n wilg nebã b sẽn dat n maan bũmb ningã"
+    },
+    "paragraphs": [
+      "IATF tʋʋmda zãma wã pʋgẽ sẽn nan yɩll tɩ b tõog n maan b sẽn datã.",
+      "Sebr ning b sẽn boond tɩ \"public request record\" wã pa segd n yɩ pipi koɛɛg ye. IATF tõe n tigma, n lebs n gʋls bɩ n toeeme, sẽn nan yɩll tɩ b tõog n ges b sẽn dat n maan bũmb ningã, n pa wilg ned ning sẽn dat tɩ b maan-a bũmb ningã ye.",
+      "B tõe n bĩng-a-la IATF GitHub siglgẽ wã, ẽtɛrnet kãnga zugu, bɩ a yiibã fãa.",
+      "Nand tɩ b yiis seb-kãngã, IATF yiisda kibay nins sẽn pa tɩlae sẽn na yɩl tɩ b tõe n paam n sõs ne nedã, la b yiisd kibay sẽn na n sõng ned t'a bãng a sẽn segd n maan to-to, sã n pa yaa vẽeneg tɩ b rat n yiis-a lame, la tɩ rẽ zemsame.",
+      "Yaa sẽn nan yɩll tɩ b tõog n maan b sẽn tõe fãa sẽn kẽed ne tʋʋm-noy nins b sẽn tʋmdã wɛɛngẽ.",
+      "B sẽn boond tɩ \"public\" wã rat n yeelame tɩ b tõe n vaeesame n bãng b sẽn maand bũmb ningã, la pa rat n yeel tɩ b sẽn tõe n yã-a ne yʋy baoob ye.",
+      "IATF tõe n paasame bɩ n yiis kibayã sẽn be b zãma wã pʋgẽ wã, la b pa tõe n kɩs sɩd tɩ b na n yiis-b-la zĩis a taab ye.",
+      "Y sã n dat tɩ koɛɛg kell n yɩ yɩlemde, bɩ y ra tʋm-a ne IATF zãma wã soay ye."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Tʋʋmd ning b sẽn maand siglgã pʋgẽ",
+      "title": "Kãsem-soaba"
+    },
+    "lead": "Tʋʋmdã taoor soab geta IATF siglg fãa yelle, la rẽ yaa toor ne tʋʋm-no-kẽndr taoor soab sẽn get tʋʋmdã yelle: a geta siglgã zãng yelle, n pa get bũmb ning fãa b sẽn maand daar fãa wã yell ye.",
+    "duties": {
+      "title": "Bõn-naandgã sẽn maand to-to",
+      "items": [
+        "A gãda soog-n-meng sor-wilgr IATF GitHub sullã zugu",
+        "B gʋlsa sɛb sẽn wilgd tɩ b sak n deegame tɩ b na n maana b tʋʋma, la b sẽn yãk yam n na n bĩng sɛbã",
+        "A yaa IATF zãma wã taoor soaba.",
+        "A sigla yʋʋm-vẽkrã"
+      ],
+      "footnote": "Tʋʋmdã taoor soab pa kõt IATF sor t'a tʋm tʋʋm-noy sẽn kẽed ne neb a taab pʋɩɩr wɛɛngẽ, tʋʋma yaoodgo, bɩ tʋʋma pʋɩɩrã wɛɛngẽ, la a pa na n tõog tɩ b yãk b sẽn na n maan bũmb ning b sẽn segd n maan n zã b sɛbã bĩngr wɛɛngẽ wã ye."
+    },
+    "election": {
+      "title": "Yʋʋmd fãa, b yãka ned t'a na n zĩnd be.",
+      "paragraphs": [
+        "B yãkda sullã taoor soab yʋʋmdã pʋgẽ, tʋʋl-nif kiuug pipi semen a yiib-n-soabã pʋgẽ, la b sã n wa yãk-a, b na n wilg-a-la yʋʋm-sar kiuug rasem 15 daare, t'a na n sɩnga yʋʋm-vẽkr kiuug pipi daarã.",
+        "Neb nins sẽn tõe n votã yaa neb nins sẽn da tʋmd IATF bĩngr zĩig pʋgẽ yʋʋmdã pʋgẽ wã, la sẽn maan bũmb a ye sẽn naag taab n sõng tɩ b tõog n deeg bĩngo. Ned fãa tara vot a ye. Ned ning sẽn paam-a vot n yɩɩdã n na n tõoge; sã n mik tɩ b votã pa zemse, b na n maana vot a yiib-n-soabã sigr kiuug rasem a tãab soabã.",
+        "Rɩk-n-migsã yaa zãma wã GitHub sõsg sẽn be IATF goosneerã b sẽn yãk zĩigã pʋgẽ, sẽn na n yɩlẽ tɩ nin-sabls sullã, votã, la sẽn wa ne-a wã fãa yɩ zãma taoor sebre."
+      ]
+    },
+    "continuity": {
+      "title": "Kẽngr-n-taaga",
+      "paragraphs": [
+        "Sã n pa yãkr n zĩndi, taoor soab ning sẽn yaa taoor soabã ket n yaa taoor soab hal tɩ ta yãkr ning sẽn pʋgdã.",
+        "A taoor soabã tõe n basa a tʋʋmdã wakat ning fãa a sẽn datã."
+      ]
+    },
+    "current": {
+      "title": "Tʋʋmd ning b sẽn maand rũndã-rũndã",
+      "fields": [
+        {
+          "label": "Kãsem-soaba",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Gom-bilã",
+          "value": "Sẽn ta yʋʋm 2026 yʋʋm-sar kiuugã na-kẽndre"
+        },
+        {
+          "label": "Tʋʋmd ning b sẽn da tʋmdẽ wã",
+          "value": "2026"
+        },
+        {
+          "label": "Pipi yãkrã",
+          "value": "Yʋʋmd 2026 yʋʋm-sar kiuugã"
+        }
+      ]
+    },
+    "footnote": "Sẽn nan yɩll tɩ siglgã taoor lʋɩtbã tõog n ges b tʋʋmdã yell sõma wã, b lugla sull ning sẽn get siglgã yell yʋʋmd 2026."
+  },
+  "continuity": {
+    "states": {
+      "title": "Tʋʋmdã sẽn yaa to-to",
+      "paragraphs": [
+        "Tʋʋmdã tũuda ne goosneerã sẽn yetã:"
+      ],
+      "items": [
+        "B sẽn na n maan to-to",
+        "B sakame",
+        "Tʋʋmd sẽn maandã",
+        "Yɛl sẽn pa vigsd ye",
+        "B baooda ned sẽn na n ges b yell sõma",
+        "B sẽn bĩngã"
+      ],
+      "footnote": "Tẽns kãensã kɩtdame tɩ ned tõe n ges b sɛbã nana-nana."
+    },
+    "reassignment": {
+      "title": "B leb n kõ-a-la zĩig a to la b bĩng-a sɛbẽ",
+      "paragraphs": [
+        "Sã n yaa ned n na n bas tʋʋmda, IATF tõe n lebs n pʋɩ-a-la tʋʋmde, n gɩdg tʋʋma, bɩ n bĩng tʋʋmda.",
+        "B leb n tõe n basa tʋʋmde, b sã n wa tõog n pids raab ning b sẽn da tar sɩngrẽ wã, tɩ b pa le tõe n kell n maan tʋʋm-kãng ye."
+      ],
+      "footnote": "Tʋʋm nins b sẽn bĩng sɛbã pʋsẽ wã ket n yaa neba fãa n tõe n yã, sã n pa be bʋʋm sẽn tar pãng sẽn kɩt tɩ b maan a to."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Bãngr-gomd sẽn wilgd b sẽn segd n maan to-to",
+      "title": "Bõe la IATF pa kõt bas-m-yam ye"
+    },
+    "items": [
+      "neb nins b sẽn dɩkd n kõt neb a taabã",
+      "Sõng-y-yã-b tɩ b bãng b sẽn segd n maan to-to",
+      "B sak n deegda b sẽn dat n maan bũmb ningã fãa",
+      "Sẽn na n yɩlẽ n tõog n maan bũmba fãa tɩ yɩ sõma, b segd n maana b sẽn tõe fãa."
+    ],
+    "footnote": "IATF yaa zãma wã bĩngr makre, la pa soog-m-meng pʋɩɩr tʋʋmde."
+  }
+}

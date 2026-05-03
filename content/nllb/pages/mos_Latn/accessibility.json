@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "B sẽn tõe n paam-b to-to",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "B sẽn tõe n paam-b to-to",
+    "lead": "IATF baoodame n na n kɩt tɩ seb-kãngã yɩ nana, tɩ ned tõe n karem-a sõma, tɩ b tõe n tik-a-a ne-a, la t'a zems ne segls sẽn sõngd nebã.",
+    "support": [
+      "Sẽn kẽed ne ẽtɛgnetã sẽn tõe n paamã wɛɛngẽ, IATF tũnugda ne [W3C WAI](https://www.w3.org/WAI/) Sẽn yɩɩd fãa, yaa sẽn na yɩl n sõng nebã tɩ b bãng b sẽn tõe n maan to-to n paam sõngrã."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Bãngr-goama",
+      "title": "Rɩk-y koɛɛg n wilg tɩ bũmb n kɩt tɩ y pa tõe n paam-a"
+    },
+    "paragraphs": [
+      "Y sã n mik tɩ bũmb n gɩdgd yãmb tɩ y pa tõe n kẽ ẽntɛrnetã pʋgẽ, y tõe n tɩ togs-a-la y e-mailã pʋgẽ:",
+      "{{contact.accessibilityEmail}}",
+      "Ad kibay nins sẽn tõe n sõng-yã:"
+    ],
+    "items": [
+      "seb-neng ning yell ning sẽn zĩnd-a wã",
+      "y sẽn da baood n na n maan bũmb ningã",
+      "y sẽn da tũnugd ne bũmb ning sẽn na n sõng-y tɩ y tõog n bãngã, wall y sẽn tũnug ne seb-gʋlsd bɩ ne bũmb ninga, sã n yaa tɩlɛ",
+      "Bõe n wa n pa yɩ sõma?",
+      "Bõe n da na n sõng-a?"
+    ],
+    "footnote": "Y pa segd n gʋls bug-rɩk-rãmb yell kɩbar ye. Y sã n bilg-a vẽenega, sekame."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "B sẽn zãad-a to-to",
+      "title": "Zãma wã yell gesgo"
+    },
+    "paragraphs": [
+      "B tõe n togsa yɛl nins sẽn tɩ loe ne b sẽn tõe n paam n kẽ wã koɛɛg-koɛɛga, sẽn na yɩl tɩ b tõog n welg-ba.",
+      "Y sã n na n togs-y bũmb y sẽn pa segd n togs neb a taabã, bɩ y togs-a-la y lɛtrã pʋgẽ tɩ vẽenega."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "D sẽn vɩ to-to rũndã-rũndã",
+      "title": "B sẽn mi b sẽn tõe n maan to-to"
+    },
+    "paragraphs": [
+      "Zĩ-kãngã yaa bilf ne yamleoogo, la sẽn yɩɩd fãa yaa sẽn pa tõe n toeem ye. Gʋls kẽer tõe n pa pidsi, b sẽn wa n segend n na n lebg-b to-to wã."
+    ]
+  }
+}

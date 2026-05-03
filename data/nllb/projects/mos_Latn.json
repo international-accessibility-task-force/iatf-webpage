@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF ẽtɛgnetã",
+    "summary": "Sebr ning b sẽn boond tɩ International Accessibility Task Force wã.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ra rata zãma roog sẽn yaa kãn-kãe sẽn na n wilg modɛlã, n sõd tʋʋm-teedo, la a wilg neb nins sẽn sõngd-a wã b sẽn segd n maan bũmb ning sẽn pʋgdã.",
+    "why": "Zĩ-kãng yaa IATF zãma wã taoor kʋɩlengã. B me-a-la wa tʋʋm-bil sẽn yaa bilf sẽn na yɩl tɩ b tõe n karem-a nana-nana, n lebg-a, la b kell n tall-a zĩig ning b sẽn tõe n yã-a wã.",
+    "scopeIn": [
+      "Sebr ning sẽn wilgd IATF modɛlã",
+      "IATF tʋʋm-noy nins b sẽn sak n deegã, b sẽn tʋmdẽ wã, la b sẽn bĩng-b b sɛbã pʋgẽ wã, ne b sẽn be zĩig ninga, b yel-gɛtbã, b bĩisrã la b makrã",
+      "Yãk-y n tool-y neda",
+      "Goosneerã la vẽnegr sebre",
+      "Bãngr-gomd ning b sẽn lebg ne ãngilindã, la b sẽn tõe n lebg-a to-to",
+      "Sẽn kẽed ne Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Kẽer sẽn yaa ninsabls tẽnsa, kɩbay bɩ sẽn kẽed ne log-n-migs wɛɛngẽ",
+      "Gʋls-no-rɩkdgã sẽn be tʋʋm-noy fãa bĩngr zĩigẽ wã",
+      "Gʋls-y-yã wakat-tɩrga, sẽn be Discord pʋgẽ",
+      "Yãk-y n tool-y neda"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie wã",
+    "summary": "Yaa IATF pipi makr a ye, b sẽn bĩng-a a sẽn ta zĩig ning b sẽn da segd n yals n bas-a wã poore.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Sẽn na n yɩlẽ tɩ b tõog n paam tʋʋm-noor sẽn kẽed ne b sẽn tõe n paam b sẽn datã, b na n tigma ne IATF t'a ges b sẽn na n maan to-to.",
+    "why": "Sebã b sẽn bĩng n be wã yaa zãma wã fãa yĩnga, baa ne tʋʋm-noy nins b sẽn da maandã sẽn yalsã.",
+    "scopeIn": [
+      "Bãngr-gomd ning b sẽn tũnug ne n na n sõng nebã tɩ b bãng b sẽn segd n maan to-to wã"
+    ],
+    "scopeOut": [
+      "Yãk-y n tool-y neda",
+      "Rɩk-n-tɩ-m-mengã",
+      "B sẽn sagend tɩ b rɩk-a n maan bũmbu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF botã",
+    "summary": "A IATF community bot, a sẽn wa n ta zĩig ning a sẽn na n yalsã.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatisã sẽn kẽed ne IATF siglgã soayã.",
+    "why": "Sebã b sẽn bĩng n be wã yaa zãma wã fãa yĩnga, baa ne tʋʋm-noy nins b sẽn da maandã sẽn yalsã.",
+    "scopeIn": [
+      "Yãk-y n tool-y ned kam fãa t'a bãng a sẽn segd n maan to-to"
+    ],
+    "scopeOut": [
+      "Yãk-y n tool-y neda",
+      "Rɩk-n-tɩ-m-mengã",
+      "B sẽn sagend tɩ b rɩk-a n maan bũmbu"
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Yãk-y n tool-y IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Yãk-y n tool-y IATF",
+    "lead": "Y tõe n kẽesa y meng tʋʋm-noy toor-toor pʋga, y sã n dat n sõng-y tɩ y tõog n tʋm tʋʋm-teedo, n tõog n maan porze rãmb sẽn tõe n tũ, n tõe n lebg-b ne buud-goam toɛy-toɛyã, n mak-b bɩ n maneg b tʋʋm-teedã. Y sã n baood n na n kẽnge, y tõe n sõsa ne taab GitHub la Discord zugu, tɩ nebã fãa tõe n bãnge.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Tʋʋmã",
+      "title": "Bũmb nins y sẽn tõe n maan n sõngã"
+    },
+    "items": [
+      "<strong>Kos-y b t'a kõ-y tʋʋmde.</strong> Y sã n wa ne bũmb sẽn tõe n kɩt tɩ y pa tõe n paam-a, tɩ y tõe n tũnug ne porze-rãmb sẽn yaa zãma wã rẽnda, bɩ y tʋm-a ne kosgã reegre.",
+      "<strong>Mak-y n ges-y-yã.</strong> Modg-y IATF tʋʋm-noy ne sõngr teknolozi ning y sẽn tũnugd ne wã, togs-y bũmb nins sẽn tʋmd la sẽn pa tʋmdẽ wã, la y tall zu-loees n tall n kẽng zĩig ning sẽn zemsã pʋgẽ.",
+      "<strong>Yãk-y n tool-y neda</strong> Yaa ne ãngilindã la b reng n yiis seb-kãngã, la b sã n wa paam neb sẽn tõe n lebg-a n paase, b leb n lebgd-a lame.",
+      "<strong>Maan-y-yã-a.</strong> Bao-y n bãng-y bũmb nins sẽn be IATF sɛbã fãa pʋgẽ wã, bɩ y tʋm tɩ b bool-y tɩ y wa ges-a, wall y tʋm tʋʋm-noor a ye n lebg a yel-gɛtã.",
+      "<strong>B kell n tall-a lame.</strong> Tʋʋm nins sẽn be wã mi n baoodame tɩ b tall yel-gɛt paalga."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Zĩis nins b sẽn boond tɩ",
+      "title": "IATF sã n tʋmd zãma sʋk"
+    },
+    "items": [
+      "<strong>GitHub pʋgẽ.</strong> Yãk-y n tool-y neda",
+      "<strong>Pa zems ye.</strong> B sõsda ne taab wakat fãa, la b sokd taab sogsg wakat fãa.",
+      "<strong>Yãk-y n tool-y neda</strong> B sẽn na n maan to-to <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> sã n mik tɩ GitHub la Discord ka zems ye."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bũmb ning sẽn na n pʋglã",
+      "title": "Rɩk channel ning sẽn zemsd ne f sẽn dat n kẽes f toog to-to wã"
+    },
+    "paragraphs": [
+      "Siglsã fãa kẽeda nin-buiidã sẽn get-b to-to wã pʋgẽ, la b bĩngd-b zĩig a yembre."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

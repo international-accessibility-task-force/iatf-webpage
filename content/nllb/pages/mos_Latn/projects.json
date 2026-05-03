@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Nebã fãa sẽn tõe n paam n kẽ wã tʋʋm-teedo",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Nebã fãa sẽn tõe n paam n kẽ wã tʋʋm-teedo",
+    "lead": "Seb-kãngã pʋgẽ, b sõdga zãma wã tʋʋm-teedo, sẽn tũ ne IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Gʋlsgo",
+      "title": "Sebr ning sẽn be rũndã-rũndã wã"
+    },
+    "intro": [
+      "B sõdga tʋʋm nins b sẽn sakã ka, b sã n wa yiis-ba."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Yãk-y n tool-y neda",
+      "title": "Yãk-y n tool-y nebã tɩ b bãng b sẽn segd n maan to-to n tõog n paam b sẽn datã"
+    },
+    "paragraphs": [
+      "IATF vaeesda bũmb nins sẽn yaa tɩlae sẽn na yɩl tɩ b tõog n paam b sẽn datã, tɩ b tõe n lebg tʋʋm-no-bɛd sẽn tõe n sõng zãma wã."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "B pa yiis tʋʋm-te-kãsems ye",
+    "paragraphs": [
+      "IATF segenda a pipi zãma wã tʋʋm-teedo.",
+      "Y ket n tõe n tʋma kosgo, y sã n tar bũmb sẽn yaa takɩ y sẽn dat tɩ b maan n sõng-y tɩ y tõe n kẽ."
+    ]
+  }
+}

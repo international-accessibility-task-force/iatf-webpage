@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Bãngr-goama",
+    "title": "Sitemap",
+    "lead": "Sebr ning fãa sẽn be IATF.CC wã pʋgẽ, zĩig a ye pʋgẽ."
+  },
+  "sections": [
+    {
+      "title": "Sɩngr sebre",
+      "items": [
+        {
+          "label": "Roogo",
+          "href": "/"
+        },
+        {
+          "label": "Tʋʋmd dãmba",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kos tʋʋmde",
+          "href": "/propose/"
+        },
+        {
+          "label": "Soog-m-mengã",
+          "href": "/governance/"
+        },
+        {
+          "label": "Tũ-y-yã-a",
+          "href": "/join/"
+        },
+        {
+          "label": "B sẽn tõe n paam-b to-to",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Vẽenemã",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Tʋʋmd dãmba",
+  "projectsEmpty": "B nan pa yiis b tʋʋma ye."
+}
