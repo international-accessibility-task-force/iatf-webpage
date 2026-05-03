@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Na Rawa ni Rawati",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Na Rawa ni Rawati",
+    "lead": "E inaki ni IATF me rawarawa na kena vakayagataki na website qo, me wiliki rawarawa, me rawa ni vakayagataki ena piano livaliva, qai salavata kei na iyaya vovou.",
+    "support": [
+      "Me baleta na kena rawa ni curumi na mataveilawa, e vakayagataka na IATF [W3C WAI](https://www.w3.org/WAI/) E kilai tale ga na kena rawa ni vakayagataki na ka era sotava sara ga o ira era vakayagataka na iyaya vovou ni veivuke."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "iTukutuku",
+      "title": "Tukuna e dua na leqa me baleta na kena rawa ni veisoliyaki na itukutuku"
+    },
+    "paragraphs": [
+      "Ke o raica e dua na ka e vakalatilati ena kena rawa ni vakayagataki na website qo, yalovinaka volavola ena imeli:",
+      "{{contact.accessibilityEmail}}",
+      "Qo eso na itukutuku yaga:"
+    ],
+    "items": [
+      "na tabana e yaco kina na leqa",
+      "na ka o via cakava",
+      "na ivukevuke vovou cava, na barausa, se iyaya cava o vakayagataka, ke veiganiti",
+      "na cava e cala kina",
+      "na cava e rawa ni vukei"
+    ],
+    "footnote": "E sega ni gadrevi mo vola e dua na ripote me baleta na ka e vakaleqai."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Vakayagataki",
+      "title": "Qaravi ni veika e baleti ira na lewenivanua"
+    },
+    "paragraphs": [
+      "E rawa ni vakalekalekataki na veika me baleta na kena rawa ni vakayagataki na itukutuku ena vanua e maroroi kina na itukutuku me rawa ni vakadodonutaki. Na itukutuku ni veitaratara kei ira na tamata yadua kei na itukutuku vakaitaukei e sega ni gadrevi ena kau laivi ni bera ni tabaki.",
+      "Ke okati ena nomu ripote na itukutuku e baleti iko ga, tukuna vakamatata ena itukutuku."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "iTuvaki ena Gauna Oqo",
+      "title": "Na kena yalani e kilai"
+    },
+    "paragraphs": [
+      "Na vanua oqo e nakita me lailai ka tudei. Eso na vosa e rawa ni sega ni taucoko ena gauna e vakarautaki tiko kina na vakadewa."
+    ]
+  }
+}

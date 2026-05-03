@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "iTuvatuva ni Veiliutaki kei na iVolatukutuku",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "iTuvatuva ni Veiliutaki kei na iVolatukutuku",
+    "lead": "Na IATF e maroroya na porokaramu ni kena rawa ni kilai raraba, wiliki, kei na kena maroroi.",
+    "support": [
+      "Na tabana oqo e vakamacalataka na veika e ganita, na ivakarau ni kena maroroi na repository, kei na cava na itavi ena ivakatagedegede ni Repository e vakayagataki ni oti na kena ciqomi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "iTuvatuva",
+      "title": "Vakayacori vinaka na itavi e lesi vei ira, na kena taukeni, kei na kena soli na laiseni"
+    },
+    "cards": [
+      {
+        "title": "Vakayacori vinaka na ilesilesi",
+        "paragraphs": [
+          "E dau vakadonuya na IATF na cakacaka e rawa ni wali kina e dua na ka e vakalatilati ena kena vakarawarawataki na kena vakayagataki na iyaya, qai matata na kena yaga vei ira na lewenivanua.",
+          "Na cakacaka e dodonu me yaga vakalevu cake mai na dua ga na iwalewale ni cakacaka vakaitaukei ka rawa ni vakayagataki me vaka e dua na repository raraba.",
+          "Me baleta na kena rawa ni curumi na mataveilawa, e vakayagataka na IATF [W3C WAI](https://www.w3.org/WAI/) Na ka era sotava sara ga o ira na vakayagataka na iyaya vovou ni veivuke e ivakadinadina ni ka e rawa ni caka ena gauna e vakayagataki kina."
+        ]
+      },
+      {
+        "title": "Ciqomi ni cakacaka",
+        "paragraphs": [
+          "E rawa ni ciqomi e dua na vakatutu kevaka e laurai ena kena dikevi ni:"
+        ],
+        "items": [
+          "e saumi kina na gagadre dina ni kena vakarawarawataki na vakayagataki ni iyaya",
+          "e matata vinaka na leqa me rawa ni dikevi",
+          "na kena levu e veiganiti me rawa ni vakatekivutaki",
+          "na cakacaka e salavata kei na ilesilesi ni IATF",
+          "e tiko e dua na sala e rawa ni yaco kina na kena maroroi se vakaoti"
+        ]
+      },
+      {
+        "title": "Taukei ni repository",
+        "paragraphs": [
+          "Na cakacaka e ciqomi e buli ena ruku ni IATF GitHub isoqosoqo.",
+          "E tiko ga e kea na veika e maroroi me rawa ni dei tiko ga kina na vale ni tamata yadua, ke mani veisau na kena itaukei ena dua na gauna e muri."
+        ]
+      },
+      {
+        "title": "Na kena soli na laiseni",
+        "paragraphs": [
+          "Na cakacaka ni IATF e vakayagataka na copyleft vakalaiseni vakavo kevaka e dua na cakacaka e kaya na kena vo:"
+        ],
+        "items": [
+          "<strong>iVakatakilakila:</strong> AGPL-3.0",
+          "<strong>iVolatukutuku:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Daunimisini se daunivakavinakataki",
+      "paragraphs": [
+        "Na cakacaka yadua e ciqomi e dodonu me tiko kina e dua na idinia se dauniveiqaravi. Na tamata e rawa ni ciqoma na veitaratara ki na repository ka sa namaki me:"
+      ],
+      "items": [
+        "iDusidusi ni Veivakatorocaketaki",
+        "maroroi na ituvatuva ni repository",
+        "railesuva se qarava na leqa kei na kerekere ni toso",
+        "vola na vakatulewa bibi vakamisini",
+        "me matata na cakacaka vei ira tale eso"
+      ],
+      "footnote": "Oqo e itavi ni ivakatagedegede ni repository. na taukeni ni isoqosoqo e tiko vata kei na IATF. na itavi oqo e na repositories stewardship, idusidusi vakamisini, kei na veisemati raraba  sega ni vakaiyalayala vakaitaukei ni vakau, custom integrations, se veiqaravi-ni-iWasewase ni veidinadinati ena taudaku ni na gaunisala raraba."
+    },
+    "publicDevelopment": {
+      "title": "Veivakatorocaketaki raraba",
+      "paragraphs": [
+        "Na cakacaka e tauyavutaki ena IATF era sa vakatorocaketaki raraba ena kena ivakarau. Na repository sai koya na ivurevure raraba ni dina me baleta na:"
+      ],
+      "items": [
+        "iVurevure ni iVola",
+        "Veika bibi",
+        "ivolatukutuku",
+        "iVakamacala me baleta na ituvatuva ni gaunisala",
+        "iTukutuku makawa ni kena vagalalataki"
+      ],
+      "footnote": "E sega ni dodonu me tiko ga ena noda veitalanoa se noda inbox na veika bibi eda kila me baleta na cakacaka."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "iVolatukutuku raraba",
+      "title": "iVolatukutuku ni kerekere raraba"
+    },
+    "paragraphs": [
+      "Na kerekere ni curu IATF mai na mataveilawa, imeli, Discord, GitHub, se so tale na sala ni IAT F e rawa ni yaco me itukutuku ni kerekere raraba.",
+      "E dua na itukutuku ni kerekere raraba e sega ni kena ibalebale na itukutuku taumada. IATF rawa ni vakalekalekataka, redact, se restructure e dua na kerekere ni bera na kena tabaki me rawa ni railesuvi na gagadre ni accessibility ka sega ni vakavotuya na itukutuku vakaitaukei sega ni yaga.",
+      "E rawa ni maroroi na itukutuku ni kerekere raraba ena isoqosoqo ni IATF GitHub, ena mataveilawa oqo, se ruarua.",
+      "Ni bera ni tabaki, na IATF ena kauta tani na itukutuku ni veitaratara kei na tamata yadua e sega ni gadrevi, na itikotiko vakaitaukei, kei na kena kilai na itukutuku me baleti ira yadua era vakayagataka na tekinolaji ni veivuke vakavo ga ke sa nakita vakamatata ka veiganiti na kena tabaki.",
+      "Discord e vakayagataki me baleta na veidinadinati sega ni vakadonui. IATF e sega ni maroroya vakatikitiki na veitalanoa ni Discord ena kena ivakarau, kei na itukutuku maroroi e lewa mai vei Discord. Na vakatulewa e caka ena Discord me vakalekalekataki ki na itukutuku raraba ena GitHub se ena tabana ni cakacaka veiganiti.",
+      "Na ivolatukutuku ni kerekere e sega ni okati mai na indexing ni idini ni vakasaqaqara ena vanua e vakatorocaketaki kina.",
+      "Na IATF e rawa ni vakavoui se kauta tani na itukutuku mai na veivanua raraba e lewa na IAT F, ia e sega ni rawa ni vakadeitaki na kena kau tani mai na caches ni ikatolu ni ilawalawa, notisi, forks, screenshots, search engines, Discord, se so tale na gacagaca ni taudaku.",
+      "Ke vinakati me taqomaki na itukutuku, kua ni vakauta ena sala raraba ni IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "iTavi ni isoqosoqo",
+      "title": "Na idabedabe"
+    },
+    "lead": "Na itutu oqo e duidui mai na itavi ni idinia liutaka na cakacaka yadua: na itutu ni itutu e qarava na isoqosoqo taucoko, ka sega ni baleta na ituvatuva ni veisiga ni dua ga na repository.",
+    "duties": {
+      "title": "Ka e cakava na idabedabe",
+      "items": [
+        "Taura na veivakadonui ni itaukei ena isoqosoqo ni IATF GitHub",
+        "Vakadonuya na vakadonuya ni cakacaka kei na vakatulewa me baleta na maroroi ni itukutuku",
+        "Cakacaka me vaka e dua na vanua ni veitaratara raraba me baleta na IATF",
+        "Cakava na veidigidigi vakayabaki"
+      ],
+      "footnote": "Na mataveiliutaki e sega ni vauca na IATF ki na veisoliyaki vakaitaukei, cakacaka saumi, se veidinadinati ni ivakatagedegede ni veiqaravi, ka sega ni veisautaka na vakatulewa ni kena maroroi na repository me baleta na idusidusi vakamisini."
+    },
+    "election": {
+      "title": "Digidigi vakayabaki",
+      "paragraphs": [
+        "E dau digitaki ga vakadua ena dua na yabaki, ena imatai ni rua na macawa ni Tiseba, qai kacivaki na macala ni veidigidigi ena ika15 ni Teseba, ena tekivu na gauna vou ena ika1 ni Janueri.",
+        "O ira na digidigi e rawa ni ra digitaka na tamata era a taura e dua na itavi ni maintainer ena dua na repository ni IATF ena loma ni yabaki ka cakava e dua se dua na cau ni merged ki na dua na Repository iIATF e na yabaki o ya.",
+        "Na veidigidigi e cicivaki me vaka e dua na veitalanoa raraba ni GitHub ena repository ni veiliutaki ni IATF, o koya gona o ira na digidigi, na veidigitaki, kei na kena macala era sa tiki kece ni itukutuku raraba."
+      ]
+    },
+    "continuity": {
+      "title": "Tudei tiko ga",
+      "paragraphs": [
+        "Kevaka e sega ni vakayacori e dua na veidigidigi ena dua na yabaki, na italai ena gauna oqo e tomana tiko ena itavi me yacova na veidigitaki ka tarava.",
+        "E rawa ni cegu na peresitedi ena dua ga na gauna, e rawa tale ga ni kacivaki e dua na veidigidigi tawanamaki ena dua na vuna, ena sala vata ga e dau vakayacori kina na veidigitaki vakayabaki."
+      ]
+    },
+    "current": {
+      "title": "Dauvakatulewa ena gauna oqo",
+      "fields": [
+        {
+          "label": "Na idabedabe",
+          "value": "matavuvale",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "iTuvatuva",
+          "value": "Me yacova na veidigidigi ni Tiseba 2026"
+        },
+        {
+          "label": "Vakayacori vakalawa na itavi",
+          "value": "2026"
+        },
+        {
+          "label": "Na imatai ni veidigidigi sa tuvanaki",
+          "value": "Tiseba 2026"
+        }
+      ]
+    },
+    "footnote": "Na itavi ni dautulewa e a vakalawa ena 2026 me ra cakava na ituvatuva ni veiliutaki ena ivakatagedegede ni isoqosoqo. Me yacova mai na gauna o ya, na itavi vakaisoqosoqo a vakayacori informally mai vua na tauyavutaka."
+  },
+  "continuity": {
+    "states": {
+      "title": "iTuvatuva ni Cakacaka",
+      "paragraphs": [
+        "Na cakacaka e vakayagataki kina e dua na iwase lailai ni itukutuku raraba:"
+      ],
+      "items": [
+        "Vakatutu",
+        "Ciqomi",
+        "Cakacaka",
+        "Tudei",
+        "Vakasaqara e dua e qarava",
+        "Vanua e Maroroi Kina"
+      ],
+      "footnote": "E rawarawa na kena vakadikevi na itukutuku ena vanua qori."
+    },
+    "reassignment": {
+      "title": "Vakadeitaki tale kei na maroroi ni itukutuku",
+      "paragraphs": [
+        "Ke gole tani se sega ni cakacaka e dua e qarava na cakacaka, e rawa ni lesia tale o IATF na itavi, tarova na veivakatorocaketaki, se maroroya na cakacaka.",
+        "E rawa ni maroroi tale ga e dua na cakacaka ni sa vakayacori na kena inaki taumada, sa oti na kena vakavinakataki, se sa sega ni rawa ni tomani na cakacaka."
+      ],
+      "footnote": "Na cakacaka e maroroi tu ena ivolatukutuku e rawa ni raici raraba, vakavo ga ke tiko e dua na vuna bibi me caka kina e dua tale na ka."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "iVakamacala ni iyalayala",
+      "title": "Na ka e sega ni vakadeitaka na IATF"
+    },
+    "items": [
+      "soli vei ira na kasitama vakaitaukei",
+      "veidinadinati ni ivakatagedegede ni veiqaravi",
+      "na kena ciqomi na vakatutu kece",
+      "maroroi balavu ni cakacaka yadua"
+    ],
+    "footnote": "Na IATF e dua na ivolavakamacala raraba, e sega ni dua na veiqaravi vakaitaukei."
+  }
+}

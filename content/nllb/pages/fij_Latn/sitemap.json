@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mape ni vanua"
+  },
+  "hero": {
+    "eyebrow": "iVakamacala",
+    "title": "Mape ni vanua",
+    "lead": "Na tabana raraba kece ena iatf.cc, ena dua ga na vanua."
+  },
+  "sections": [
+    {
+      "title": "Tabana e liu",
+      "items": [
+        {
+          "label": "Vale",
+          "href": "/"
+        },
+        {
+          "label": "Cakacaka",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kerea e dua na cakacaka",
+          "href": "/propose/"
+        },
+        {
+          "label": "Veiliutaki",
+          "href": "/governance/"
+        },
+        {
+          "label": "Duavata",
+          "href": "/join/"
+        },
+        {
+          "label": "Na Rawa ni Rawati",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Veivakadodonutaki",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Cakacaka",
+  "projectsEmpty": "E se sega ni dua na cakacaka e tabaki."
+}

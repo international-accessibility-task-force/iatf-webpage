@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Mai na kena gadrevi me rawa ni ra curuma na tamata raraba na repo",
+    "lead": "E vukei ira na isoqosoqo, ilawalawa, kei na tamata yadua na IATF mera vukica na veika e gadrevi dina me baleta na kena rawa ni vakayagataki na itukutuku raraba.",
+    "support": [
+      "Na cakacaka e ciqomi e tabaki ena isoqosoqo ni IATF GitHub ena ruku ni dua na laiseni ni copyleft ka vakatorocaketaki raraba mai vua e dua na idinia."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "iVakaraitaki ni Cakacaka ni Matanitu",
+      "title": "E dua na sala rawarawa me vakayagataki kina na porokaramu ni kompiuta e rawarawa na kena vakayagataki"
+    },
+    "paragraphs": [
+      "Ena dua na fomu, e dua e rawa ni vakauta e dua na leqa ni accessibility ki na IATF.",
+      "Na cakacaka yadua e ciqomi e tiko kina e dua na itikotiko raraba me baleta na nabavuni, na leqa, ivolatukutuku, kei na vagalalataki, ena kena liutaki na veivakatorocaketaki ena dua na idinia nuitaki."
+    ],
+    "specCard": {
+      "title": "iVakaraitaki ni Cakacaka ni Matanitu",
+      "terms": [
+        {
+          "term": "Gadrevi",
+          "definition": "Leqa dina ni kena rawa ni vakayagataki"
+        },
+        {
+          "term": "Railesuvi",
+          "definition": "Na kena veiganiti kei na kena rawa ni vakayacori"
+        },
+        {
+          "term": "Vanua ni cakacaka",
+          "definition": "Repository raraba ni GitHub"
+        },
+        {
+          "term": "Vakaitutu",
+          "definition": "iTaukei ni iSoqosoqo ni IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "iTuvatuva",
+      "title": "E cakacaka vakacava?",
+      "intro": "E inaki ni droini me lailai na kena irairai, me rawarawa kina na kena muri na gaunisala era dau muria na lewenivanua."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "E vakau mai e dua na kerekere",
+        "paragraphs": [
+          "E rawa ni kerea e dua na isoqosoqo, ilawalawa, se tamata yadua me baleta na kena vakarawarawataki na kena vakayagataki.",
+          "E rawa ni tekivu na kerekere ena website, ena imeli ena <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, se na Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Vakadikeva na IATF",
+        "paragraphs": [
+          "Keimami dau dikeva tale ga na kena yaga, na kena e rawa ni vakayagataki, kei na kena dodonu me dua na porokaramu e sega ni saumi na kena itukutuku."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Tauyavutaki e dua na repository raraba",
+        "paragraphs": [
+          "Kevaka e dua na cakacaka e ciqomi, sa tabaki ena IATF GitHub isoqosoqo ena ruku ni dua na laiseni ni copyleft.",
+          "Na repository sa yaco me na itikotiko raraba ni nabavuni, leqa, ivolatukutuku, kei na vagalalataki."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "E dua na idinia e liutaka na cakacaka",
+        "paragraphs": [
+          "E lesi e dua na idinia me liutaka na cakacaka, qai caka na kena vakatorocaketaki ena matanalevu."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "iVolatukutuku",
+      "title": "iVolatukutuku raraba ni cakacaka"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tekivu eke",
+      "title": "Raica na cakacaka sa caka tiko se tekivuna e dua na cakacaka bibi"
+    },
+    "paragraphs": [
+      "Vakayagataka na rejisita mo raica kina na veika sa tabaki oti, se tekivutaka na vakadidike kevaka e dua na leqa ni kena rawa ni vakayagataki e dodonu me yaco me dua na cakacaka."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

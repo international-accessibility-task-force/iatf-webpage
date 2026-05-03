@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Mataveilawa ni IATF",
+    "summary": "Na vanua raraba ni International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Na IATF e gadreva e dua na itikotiko raraba tudei e vakamacalataka na ivakaraitaki, lisi na cakacaka, ka dusimaki ira na cau ki na ikalawa e tarava.",
+    "why": "Na vanua oqo sai koya na katuba ni mataveilawa raraba ni IATF. E tara me vaka e dua na cakacaka ni static lailai me rawa ni rawarawa na kena wiliki, vakavakadewa, kei na kena maroroi ena vanua e dola tu.",
+    "scopeIn": [
+      "Na tabana ni vanua raraba e vakamacalataka na ivakaraitaki ni IATF",
+      "Rejisita raraba ni vakadonuya, bulabula, kei na archived na cakacaka ni IATF vata kei na ituvaki, maintainer, repository, kei demo",
+      "Tabana kei na fomu ni kerekere",
+      "Tabana ni veiliutaki vinaka kei na kena laurai e matanalevu",
+      "Na ivurevure ni vosa vakavalagi kei na kena ituvatuva sa vakarautaki tu me vakadewataki",
+      "Static deployment on Cloudflare Workers Static Assets Vakayagataki ni iyaya vakalivaliva"
+    ],
+    "scopeOut": [
+      "Vanua ni lewenilotu vakaitaukei, akaude, se na drodro ni curu",
+      "Na kena maroroi na ivurevure ni cakacaka, ka tiko ena repository ni cakacaka yadua",
+      "Na veitalanoa ena gauna dina, ka tiko ena Discord",
+      "Na kena vakamuri na leqa me baleta na dui cakacaka, ka tiko ena repository ni GitHub ni cakacaka yadua"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "E dua na ivakatakarakara taumada ni IATF, maroroi ni sa yacova e dua na vanua ni tu vakadua.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Na vakadidike taumada me baleta e dua na iyaya ni cakacaka e vakabibitaki ena kena rawa ni vakayagataki ena ruku ni IATF.",
+    "why": "Na repository e maroroi raraba me vaka e dua na itukutuku ni cakacaka, e dina ga ni sa tu vakadua na veivakatorocaketaki bulabula.",
+    "scopeIn": [
+      "iVakaraitaki taumada ni dua na iyaya ni cakacaka e vakabibitaki kina na kena rawa ni vakayagataki, e maroroi me ivolatukutuku raraba"
+    ],
+    "scopeOut": [
+      "Veivakatorocaketaki se cakacaka ni ivakatakilakila",
+      "Veidinadinati ni maroroi",
+      "Vakatututaki me vakayagataki ena veivakamarautaki"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "E dua na bot ni itikotiko ni IATF, archived after reaching a natural stopping point.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Vakalivaliva ena sala ni veitaratara ni isoqosoqo ni IATF.",
+    "why": "Na repository e maroroi raraba me vaka e dua na itukutuku ni cakacaka, e dina ga ni sa tu vakadua na veivakatorocaketaki bulabula.",
+    "scopeIn": [
+      "Na cakacaka vakalivaliva ni veileti me baleta na sala ni veimaliwai ni IATF, maroroi me vaka e dua na itukutuku raraba"
+    ],
+    "scopeOut": [
+      "Veivakatorocaketaki se cakacaka ni ivakatakilakila",
+      "Veidinadinati ni maroroi",
+      "Vakatututaki me vakayagataki ena veivakamarautaki"
+    ]
+  }
+]

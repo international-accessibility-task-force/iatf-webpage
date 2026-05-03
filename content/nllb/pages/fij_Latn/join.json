@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Lewena na IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Lewena na IATF",
+    "lead": "E tiko e vica na sala me ra vakaitavi kina, se o vakararavi ena veivuke ni tekinolaji, tara na parokaramu ni komipiuta, vakadewataka, vakatovotovo, se maroroya e dua na cakacaka. Veivosaki kei na vakatulewa e yaco raraba ena GitHub kei na veileti.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "iTavi",
+      "title": "Sala mo cau kina"
+    },
+    "items": [
+      "<strong>Kerea e dua na cakacaka.</strong> Ke o sotava e dua na leqa e rawa ni walia na porokaramu ni komipiuta e dola tu, vakauta na kerekere.",
+      "<strong>Vakatovotovo qai railesuva.</strong> Tovolea na cakacaka ni IATF ena iyaya vovou o vakayagataka, vola na ka e yaga kei na kena e sega, qai vola vakadodonu na leqa ena vanua ni maroroi itukutuku e veiganiti.",
+      "<strong>Vakadewataka.</strong> Na ivurevure ni itukutuku e tabaki taumada ena vosa vakavalagi. Na vakadewa e vakuri ni sa vakarautaki tu na cau, tekivu ena vosa vakasipeni.",
+      "<strong>Tara vale.</strong> Digitaka na leqa ena dua na repository ni IATF, vakauta na kerekere ni toso, se taura e dua na cakacaka me vaka na kena idinia ni itavi.",
+      "<strong>Maroroya tiko ga.</strong> Ena so na gauna ena vinakati me dua tale e qarava na cakacaka sa caka oti."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Gaunisala",
+      "title": "Na vanua e cakacaka kina e matanalevu na IATF"
+    },
+    "items": [
+      "<strong>Na GitHub.</strong> Veitaratara, vakauta na kerekere, vagalalataki, kei na ivolatukutuku ni cakacaka.",
+      "<strong>Sega ni duavata.</strong> Veivosaki, veidinadinati, kei na vakatataro.",
+      "<strong>iMeli.</strong> Vakayagataki <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ke sega ni veirauti na GitHub se na Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "iKalawa e tarava",
+      "title": "Digitaka na sala e veiganiti kei na sala o via cau kina"
+    },
+    "paragraphs": [
+      "Na porokaramu kece qori e vakayagataki ena vanua vata ga e dau dikevi kina na itukutuku kei na vanua e dau maroroi kina."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

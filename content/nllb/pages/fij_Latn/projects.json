@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Cakacaka ni kena rawa ni ra curuma na lewenivanua",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Cakacaka ni kena rawa ni ra curuma na lewenivanua",
+    "lead": "Na rejisita oqo e lisi kina na cakacaka raraba e maroroi ena IATF. Sa ciqomi na cakacaka ni rawa-ka, na yavu ni vanua, kei na archived prototypes era sa maroroi tu eke.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "iVolatukutuku",
+      "title": "iVolatukutuku ni gauna oqo"
+    },
+    "intro": [
+      "Na cakacaka e ciqomi e volai toka e ke ni sa tabaki oti."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Tukuna e dua na ka o gadreva",
+      "title": "Vukica me dua na cakacaka raraba na veika e gadrevi ena kena vakarawarawataki na veitaratara kei ira na lewenivanua"
+    },
+    "paragraphs": [
+      "E raica lesu na IATF na veika e gadrevi me rawa ni vakayagataki ena cakacaka raraba e dolavi kina na ivurevure ni itukutuku."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Sega ni dua na cakacaka e se tabaki",
+    "paragraphs": [
+      "Sa vakarautaka tiko na IATF na kena imatai ni porokaramu me tabaki raraba.",
+      "E se rawa tiko ga ni o vakauta e dua na kerekere kevaka e tiko na ka o gadreva."
+    ]
+  }
+}

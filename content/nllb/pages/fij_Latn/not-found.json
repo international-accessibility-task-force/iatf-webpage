@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Sega ni kune"
+  },
+  "hero": {
+    "eyebrow": "Sega ni kune",
+    "title": "Na tabana o vinakata e sega ni kune",
+    "lead": "Vakayagataka na gaunisala levu e toka e ra mo lesu ina vanua ni sarasara.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Vale",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Na gaunisala o kerea e sega ni tiko."
+    ],
+    "items": [
+      {
+        "label": "Vale",
+        "href": "/"
+      },
+      {
+        "label": "Cakacaka",
+        "href": "/projects/"
+      },
+      {
+        "label": "Duavata",
+        "href": "/join/"
+      },
+      {
+        "label": "Na Rawa ni Rawati",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Veiliutaki",
+        "href": "/governance/"
+      },
+      {
+        "label": "Veivakadodonutaki",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

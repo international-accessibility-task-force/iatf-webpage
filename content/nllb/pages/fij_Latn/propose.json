@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kerea e dua na cakacaka me baleta na rawarawa ni veitaratara",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kerea e dua na cakacaka me baleta na rawarawa ni veitaratara",
+    "lead": "E dau vakadikeva na IATF na kerekere me baleta na porokaramu ni kena vakarawarawataki na kena vakayagataki na iyaya e gadrevi dina.",
+    "support": [
+      "E sega ni gadrevi me vakamacalataki vakamatailalai na leqa, ia me matata ga vei ira na vakaleqai tiko, kei na vuna e bibi kina."
+    ],
+    "actions": [
+      {
+        "label": "Tekivuna e dua na kerekere",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Vakayagataka na Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Gaunisala",
+      "title": "Digia na sala rawarawa duadua"
+    },
+    "intro": [
+      "Na gaunisala kece e dau dikevi vata."
+    ],
+    "items": [
+      {
+        "label": "Mataveilawa",
+        "body": "Vakayagataka na fomu e toka e ra mo vakauta kina na nomu kerekere."
+      },
+      {
+        "label": "iMeli ni imeli",
+        "body": "Vakauta na kerekere vei: {{contact.requestsEmail}}Na kerekere ena imeli e rawa ni dua na itukutuku raraba ni kerekere ni oti na kena dikevi kei na kena vakadodonutaki."
+      },
+      {
+        "label": "Sega ni duavata",
+        "body": "Tekivu mai kea kevaka e rawarawa. Na kerekere e se toso tiko ga ina dua ga na ituvatuva ni vakadidike."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ni bera ni o vakauta e dua na kerekere",
+    "paragraphs": [
+      "Na kerekere e rawa ni vakalekalekataki ka tabaki me vaka na itukutuku ni kerekere raraba ena isoqosoqo ni IATF GitHub, ena mataveilawa oqo, se ruarua.",
+      "Mo kua ni vola na nomu itikotiko, naba ni talevoni, itukutuku vakavuniwai, se so tale na itukutuku me baleti ira na dau vakayagataka na iyaya vovou, vakavo ga ke gadrevi qai donu vei iko me dikeva na IATF.",
+      "E dau kauta tani na IATF na itukutuku ni veitaratara e sega ni gadrevi ni bera ni tabaki na ivolatukutuku ni kerekere."
+    ]
+  },
+  "review": {
+    "title": "Railesuvi na ka e namaki",
+    "paragraphs": [
+      "E sega ni vakadeitaka na kena ciqomi na kerekere.",
+      "E dau dikeva na IATF na kerekere me baleta na kena veiganiti na itavi, kena rawa, kena yaga, kei na kena tiko na cakacaka ena dua na vanua ni maroroi itukutuku raraba.",
+      "E so na kerekere ena rairai sega ni ciqomi, vakadaroi, se veisautaki ni bera ni vakadonui."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "iVola ni kerekere",
+      "title": "Vakauta e dua na kerekere"
+    },
+    "fields": [
+      {
+        "kind": "itukutuku ni curuiloma",
+        "name": "o koya e kerea",
+        "label": "Nomu yaca se isoqosoqo",
+        "helper": "O cei e kerea?"
+      },
+      {
+        "kind": "digitaka",
+        "name": "sala ni veitaratara",
+        "label": "Sala ni veitaratara",
+        "helper": "Me caka vakacava na vakadidike?",
+        "required": true,
+        "options": [
+          "iMeli ni imeli",
+          "Sega ni duavata"
+        ]
+      },
+      {
+        "kind": "itukutuku ni curuiloma",
+        "name": "Veitaratara",
+        "label": "iTukutuku ni veitaratara",
+        "helper": "Email address or Discord handle for follow-up. Na itikotiko ni imeli se na yaca ni Discord me baleta na vakadidike.",
+        "placeholder": "Na itikotiko ni imeli se na yaca ni Discord",
+        "required": true
+      },
+      {
+        "kind": "itukutuku ni curuiloma",
+        "name": "vosa",
+        "label": "Na Vosa",
+        "helper": "Na vosa o vinakata, ke veiganiti.",
+        "value": "Vakavalagi"
+      },
+      {
+        "kind": "Vanua ni volavola",
+        "name": "leqa",
+        "label": "Na leqa cava o via walia?",
+        "helper": "Vakamacalataka na ka e vakalatilati ena vosa rawarawa.",
+        "required": true
+      },
+      {
+        "kind": "Vanua ni volavola",
+        "name": "Yaga vei ira na Dau Vakayagataka",
+        "label": "O cei e vakaleqai?",
+        "helper": "O cei ena vukei kina?",
+        "required": true
+      },
+      {
+        "kind": "Vanua ni volavola",
+        "name": "iKuri ni iTuvatuva",
+        "label": "iVakavakayagataki tale eso",
+        "helper": "Tukuna e so tale na ka e rawa ni vakamacalataka na kena gadrevi: na vuna e bibi kina, na kena ivakaraitaki, na ivakamacala, na vakasama ni porokaramu, se na kena vakaiyalayala na gauna."
+      },
+      {
+        "kind": "digitaka",
+        "name": "openSourceConsent (Vakadonui ni iVurevure)",
+        "label": "O marautaka na kena tu vakarawarawa e matanalevu?",
+        "helper": "Na cakacaka e vakadonuya na IATF e maroroi tu kina na itukutuku raraba.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Io, e vaka kina.",
+          "Sega",
+          "Sega ni macala"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ke ciqomi",
+      "title": "Na ibalebale ni ciqomi"
+    },
+    "items": [
+      "e dua na repository raraba ena isoqosoqo ni IATF GitHub",
+      "dua na idinia e qarava na cakacaka",
+      "e dua na laiseni ni copyleft me baleta na nabavuni kei na iyaya ni cakacaka",
+      "Veivakatorocaketaki raraba ena repository",
+      "dua na itukutuku ni rejisita ena vanua ni IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tekivu veitalanoa",
+      "title": "E rawa ni tekivu ena dua ga na kerekere lekaleka qai matata"
+    },
+    "paragraphs": [
+      "Ke o nanuma ni dodonu me dua na porokaramu raraba, mo vakauta ga mai vei keitou."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
