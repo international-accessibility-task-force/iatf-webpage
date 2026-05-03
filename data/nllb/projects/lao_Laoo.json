@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "ເວັບໄຊທ໌ IATF",
+    "summary": "ເວັບໄຊທ໌ສາທາລະນະສໍາລັບ International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ຕ້ອງການເຮືອນສາທາລະນະທີ່ ຫມັ້ນ ຄົງທີ່ອະທິບາຍຮູບແບບ, ບັນຊີລາຍຊື່ໂຄງການ, ແລະແນະ ນໍາ ຜູ້ປະກອບສ່ວນສູ່ບາດກ້າວຕໍ່ໄປທີ່ຖືກຕ້ອງ.",
+    "why": "ເວັບໄຊທ໌ນີ້ແມ່ນປະຕູທາງເຂົ້າສາທາລະນະຂອງ IATF. ມັນຖືກສ້າງຂຶ້ນເປັນໂຄງການ static ຂະຫນາດນ້ອຍດັ່ງນັ້ນມັນຈະຢູ່ງ່າຍທີ່ຈະອ່ານ, ແປ, ແລະຮັກສາໃນເປີດ.",
+    "scopeIn": [
+      "ຫນ້າທີ່ລົງຈອດສາທາລະນະທີ່ອະທິບາຍຮູບແບບ IATF",
+      "ຈົດທະບຽນສາທາລະນະຂອງໂຄງການ IATF ທີ່ຖືກຍອມຮັບ, ເຄື່ອນໄຫວ, ແລະເກັບຮັກສາໄວ້ດ້ວຍສະຖານະພາບ, ຜູ້ບໍາລຸງຮັກສາ, ສາງເກັບຂໍ້ມູນ, ແລະຕົວຢ່າງ",
+      "ຫນ້າຮັບຄໍາຮ້ອງຂໍ ແລະ ແບບຟອມ",
+      "ຫນ້າຄຸ້ມຄອງແລະຄວາມໂປ່ງໃສ",
+      "ແຫຼ່ງພາສາອັງກິດທີ່ມີໂຄງສ້າງພ້ອມທີ່ຈະແປ",
+      "ການຈັດຕັ້ງປະຕິບັດແບບຄົງທີ່ໃນ Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "ພື້ນທີ່ສະມາຊິກສ່ວນຕົວ, ບັນຊີ, ຫຼືການໄຫຼເຂົ້າສູ່ລະບົບ",
+      "ໂຮດຕິ້ງຂອງລະຫັດແຫຼ່ງຂອງໂຄງການ, ເຊິ່ງອາໄສຢູ່ໃນບ່ອນເກັບຂໍ້ມູນຂອງແຕ່ລະໂຄງການ",
+      "ການສົນທະນາໃນເວລາຈິງ, ເຊິ່ງອາໄສຢູ່ໃນ Discord",
+      "ການຕິດຕາມບັນຫາ ສໍາ ລັບໂຄງການສ່ວນບຸກຄົນ, ເຊິ່ງອາໄສຢູ່ໃນຄັງ GitHub ຂອງແຕ່ລະໂຄງການ"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "ຮູບແບບຕົ້ນສະບັບຂອງ IATF, ຖືກເກັບຮັກສາໄວ້ຫຼັງຈາກບັນລຸຈຸດຢຸດເຊົາ ທໍາ ມະຊາດ.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "ການຄົ້ນຄວ້າໃນເບື້ອງຕົ້ນຂອງເຄື່ອງມືທີ່ສຸມໃສ່ການເຂົ້າເຖິງພາຍໃຕ້ IATF.",
+    "why": "ການເກັບຮັກສາແມ່ນຖືກຮັກສາໄວ້ເປັນສາທາລະນະເປັນບັນທຶກຂອງວຽກງານ, ເຖິງແມ່ນວ່າການພັດທະນາຢ່າງຈິງຈັງໄດ້ຢຸດເຊົາ.",
+    "scopeIn": [
+      "ຮູບແບບຕົ້ນສະບັບຂອງເຄື່ອງມືທີ່ສຸມໃສ່ການເຂົ້າເຖິງທີ່ຖືກເກັບໄວ້ເປັນບັນທຶກສາທາລະນະ"
+    ],
+    "scopeOut": [
+      "ການພັດທະນາແບບເຄື່ອນໄຫວ ຫຼື ວຽກງານຄຸນລັກສະນະ",
+      "ຄໍາຫມັ້ນສັນຍາການບໍາລຸງຮັກສາ",
+      "ການ ນໍາ ໃຊ້ທີ່ແນະ ນໍາ ໃນການຜະລິດ"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "ໂບດຊຸມຊົນຂອງ IATF, ຖືກເກັບຮັກສາໄວ້ຫຼັງຈາກບັນລຸຈຸດຢຸດເຊົາຕາມ ທໍາ ມະຊາດ.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "ອັດຕະໂນມັດອ້ອມຮອບຊ່ອງທາງຊຸມຊົນ IATF.",
+    "why": "ການເກັບຮັກສາແມ່ນຖືກຮັກສາໄວ້ເປັນສາທາລະນະເປັນບັນທຶກຂອງວຽກງານ, ເຖິງແມ່ນວ່າການພັດທະນາຢ່າງຈິງຈັງໄດ້ຢຸດເຊົາ.",
+    "scopeIn": [
+      "Discord automation around IATF community channels, ຮັກສາໄວ້ເປັນບັນທຶກສາທາລະນະ"
+    ],
+    "scopeOut": [
+      "ການພັດທະນາແບບເຄື່ອນໄຫວ ຫຼື ວຽກງານຄຸນລັກສະນະ",
+      "ຄໍາຫມັ້ນສັນຍາການບໍາລຸງຮັກສາ",
+      "ການ ນໍາ ໃຊ້ທີ່ແນະ ນໍາ ໃນການຜະລິດ"
+    ]
+  }
+]

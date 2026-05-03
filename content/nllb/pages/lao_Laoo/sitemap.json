@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ແຜນທີ່ເວັບໄຊທ໌"
+  },
+  "hero": {
+    "eyebrow": "ດັດຊະນີ",
+    "title": "ແຜນທີ່ເວັບໄຊທ໌",
+    "lead": "ທຸກໆຫນ້າສາທາລະນະໃນ iatf.cc, ຢູ່ບ່ອນດຽວ."
+  },
+  "sections": [
+    {
+      "title": "ຫນ້າຫຼັກ",
+      "items": [
+        {
+          "label": "ບ້ານ",
+          "href": "/"
+        },
+        {
+          "label": "ໂຄງການ",
+          "href": "/projects/"
+        },
+        {
+          "label": "ຂໍໂຄງການ",
+          "href": "/propose/"
+        },
+        {
+          "label": "ການປົກຄອງ",
+          "href": "/governance/"
+        },
+        {
+          "label": "ເຂົ້າຮ່ວມ",
+          "href": "/join/"
+        },
+        {
+          "label": "ການເຂົ້າເຖິງ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ຄວາມໂປ່ງໃສ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ໂຄງການ",
+  "projectsEmpty": "ຍັງບໍ່ທັນໄດ້ເຜີຍແຜ່ໂຄງການໃດເທື່ອ."
+}

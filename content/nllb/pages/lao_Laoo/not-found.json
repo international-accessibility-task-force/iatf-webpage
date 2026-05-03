@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ບໍ່ພົບ"
+  },
+  "hero": {
+    "eyebrow": "ບໍ່ພົບ",
+    "title": "ບໍ່ສາມາດຊອກຫາຫນ້າທີ່ຕ້ອງການໄດ້",
+    "lead": "ໃຊ້ເສັ້ນທາງຕົ້ນຕໍຂ້າງລຸ່ມນີ້ເພື່ອກັບໄປຫາສະຖານທີ່ສາທາລະນະ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "ບ້ານ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ເສັ້ນທາງທີ່ທ່ານຂໍບໍ່ໄດ້ມີ."
+    ],
+    "items": [
+      {
+        "label": "ບ້ານ",
+        "href": "/"
+      },
+      {
+        "label": "ໂຄງການ",
+        "href": "/projects/"
+      },
+      {
+        "label": "ເຂົ້າຮ່ວມ",
+        "href": "/join/"
+      },
+      {
+        "label": "ການເຂົ້າເຖິງ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ການປົກຄອງ",
+        "href": "/governance/"
+      },
+      {
+        "label": "ຄວາມໂປ່ງໃສ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

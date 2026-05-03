@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ໂຄງການເຂົ້າເຖິງສາທາລະນະ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ໂຄງການເຂົ້າເຖິງສາທາລະນະ",
+    "lead": "ບັນຊີລາຍຊື່ນີ້ບັນທຶກບັນດາໂຄງການສາທາລະນະທີ່ຖືກຮັກສາໂດຍຜ່ານ IATF. ໂຄງການເຂົ້າເຖິງທີ່ຖືກຍອມຮັບ, ພື້ນຖານໂຄງລ່າງຂອງສະຖານທີ່, ແລະແບບ ຈໍາ ລອງທີ່ເກັບຮັກສາໄວ້ແມ່ນຖືກເບິ່ງເຫັນຢູ່ບ່ອນນີ້.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "ຈົດທະບຽນ",
+      "title": "ຈົດທະບຽນໃນປະຈຸບັນ"
+    },
+    "intro": [
+      "ໂຄງການທີ່ຖືກຍອມຮັບໄດ້ຖືກລະບຸໄວ້ທີ່ນີ້ເມື່ອພວກເຂົາຖືກເຜີຍແຜ່."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ສົ່ງຄວາມຕ້ອງການ",
+      "title": "ປ່ຽນຄວາມຕ້ອງການດ້ານການເຂົ້າເຖິງເປັນໂຄງການສາທາລະນະ"
+    },
+    "paragraphs": [
+      "IATF ກວດກາຄວາມຕ້ອງການດ້ານການເຂົ້າເຖິງຕົວຈິງທີ່ສາມາດປ່ຽນເປັນວຽກງານແຫຼ່ງເປີດສາທາລະນະທີ່ມີປະໂຫຍດ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ບໍ່ມີໂຄງການທີ່ຖືກເຜີຍແຜ່ເທື່ອ",
+    "paragraphs": [
+      "IATF ກໍາ ລັງກະກຽມຊຸດໂຄງການສາທາລະນະ ທໍາ ອິດຂອງມັນ.",
+      "ທ່ານຍັງສາມາດສົ່ງ ຄໍາ ຮ້ອງຂໍໄດ້ຖ້າທ່ານມີຄວາມຕ້ອງການດ້ານການເຂົ້າເຖິງຕົວຈິງ."
+    ]
+  }
+}
