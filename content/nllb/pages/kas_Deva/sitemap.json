@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइटमैप"
+  },
+  "hero": {
+    "eyebrow": "इंडेक्स",
+    "title": "साइटमैप",
+    "lead": "हर आख पब्लिक पेज आईएटीएफ.सीसी. पेठ,अख जाइ पेठ."
+  },
+  "sections": [
+    {
+      "title": "मुख्य पन्नें",
+      "items": [
+        {
+          "label": "घर पेठ",
+          "href": "/"
+        },
+        {
+          "label": "प्रोजेक्ट्स",
+          "href": "/projects/"
+        },
+        {
+          "label": "प्रोजेक्ट बनावुन",
+          "href": "/propose/"
+        },
+        {
+          "label": "गवर्नेंस",
+          "href": "/governance/"
+        },
+        {
+          "label": "ज्वाइन करे",
+          "href": "/join/"
+        },
+        {
+          "label": "एक्सेसिबिलिटी",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शिता (Transparency)",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "प्रोजेक्ट्स",
+  "projectsEmpty": "नो प्रोजेक्ट्स पब्लिश्ड अवे."
+}

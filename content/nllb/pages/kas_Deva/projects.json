@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "पब्लिक ऐक्सेसिबिलिटी प्रोजेक्ट्स",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "पब्लिक ऐक्सेसिबिलिटी प्रोजेक्ट्स",
+    "lead": "ये रजिस्ट्री छू पब्लिक प्रोजेक्ट्स हिंज लिस्ट करा येम IATF ज़िरया कायम छू येवा करने.एक्सेप्टेड एक्सेसिबिलिटी प्रोजेक्ट्स,साइट इंफ्रास्ट्रक्चर,ते आर्काइव प्रोटोटाइप छू येथ पइठ विज़िबल तावनी येवा.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "रजिस्ट्रेशन",
+      "title": "करंट रजिस्ट्री"
+    },
+    "intro": [
+      "यिल तेम पब्लिश आय करने ,एम् आय एक्सेप्ट करने"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "अकिस ज़रूरतस सबमिट करिथ",
+      "title": "कंक्रीट एक्सेसिबिलिटी ज़रूरत पब्लिक प्रोजेक्ट मंज़ तब्दील करना"
+    },
+    "paragraphs": [
+      "आई.ए.टी.एफ. छु मुतहरिक़ ज़रुरतन हुन्द तजरुब करान यिम ज़न फ़ायदह आसिथ आम लूकन ह्न्दि सॉफटवेयर बनाविथ हेक्न।"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "कह ते प्रोजेक्ट चुन पब्लिश्ड अमृत करने",
+    "paragraphs": [
+      "आईएटीएफ छी तैयार कारन पनुन पब्लिक प्रोजेक्ट सेट",
+      "तुह्य़ हेकिव तुही अख दरख़ास्त जमा करिथ अगर तुहीस कांसिर रियासतुक ज़रुरत आसि।"
+    ]
+  }
+}

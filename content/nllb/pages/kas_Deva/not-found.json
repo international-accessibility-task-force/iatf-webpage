@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "छान आढळले."
+  },
+  "hero": {
+    "eyebrow": "छान आढळले.",
+    "title": "मागितले पान छान सापडले.",
+    "lead": "पब्लिक साइटस पेठ वापिस वातने खातिर अये मेनिन रुट्स इस्तिमाल करने.",
+    "support": [],
+    "actions": [
+      {
+        "label": "घर पेठ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "युस राट छी तुह वुन ने एक्सिस्ट कारन"
+    ],
+    "items": [
+      {
+        "label": "घर पेठ",
+        "href": "/"
+      },
+      {
+        "label": "प्रोजेक्ट्स",
+        "href": "/projects/"
+      },
+      {
+        "label": "ज्वाइन करे",
+        "href": "/join/"
+      },
+      {
+        "label": "एक्सेसिबिलिटी",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "गवर्नेंस",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शिता (Transparency)",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
