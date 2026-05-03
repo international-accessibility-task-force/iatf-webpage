@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइटमैप"
+  },
+  "hero": {
+    "eyebrow": "सूचकांक",
+    "title": "साइटमैप",
+    "lead": "आई ए टी एफ सी सी पर सभे सार्वजनिक पृष्ठ, एगो स्थान पर."
+  },
+  "sections": [
+    {
+      "title": "मुख्य पृष्ठवन",
+      "items": [
+        {
+          "label": "घरवा",
+          "href": "/"
+        },
+        {
+          "label": "प्रोजेक्ट्स कैलकुलेटर्स",
+          "href": "/projects/"
+        },
+        {
+          "label": "एगो परियोजना के अनुरोध",
+          "href": "/propose/"
+        },
+        {
+          "label": "गवर्नेंस",
+          "href": "/governance/"
+        },
+        {
+          "label": "शामिल होयल",
+          "href": "/join/"
+        },
+        {
+          "label": "सुलभता (एक्सेसिबिलिटी)",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शिता",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "प्रोजेक्ट्स कैलकुलेटर्स",
+  "projectsEmpty": "अभी तक तो ई फिल्म के सीडी तइयार नयँ हकइ ।"
+}

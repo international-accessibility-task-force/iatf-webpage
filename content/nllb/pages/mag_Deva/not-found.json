@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "न मिलल हई"
+  },
+  "hero": {
+    "eyebrow": "न मिलल हई",
+    "title": "वांछित पृष्ठ नहीं मिला (कोई नया पृष्ठ नहीं)",
+    "lead": "सार्वजनिक स्थल पर लौटने के लिए नीचे के मुख्य मार्गों का उपयोग करे",
+    "support": [],
+    "actions": [
+      {
+        "label": "घरवा",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "जे पथवा के आप अनुरोध कईले हई उ अस्तित्व में न हई।"
+    ],
+    "items": [
+      {
+        "label": "घरवा",
+        "href": "/"
+      },
+      {
+        "label": "प्रोजेक्ट्स कैलकुलेटर्स",
+        "href": "/projects/"
+      },
+      {
+        "label": "शामिल होयल",
+        "href": "/join/"
+      },
+      {
+        "label": "सुलभता (एक्सेसिबिलिटी)",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "गवर्नेंस",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शिता",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

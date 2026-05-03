@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "सार्वजनिक पहुंच परियोजनाएं",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "सार्वजनिक पहुंच परियोजनाएं",
+    "lead": "ई रजिस्ट्री IATF के माध्यमवा से रखल गेल सार्वजनिक परियोजनावन के सूचीबद्ध कर है। स्वीकृत अभिगम्यता परियोजना, साइट अवसंरचना, और संग्रहीत प्रोटोटाइपवा एहिजा दिखाई दे है।",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "रजिस्ट्री",
+      "title": "वर्तमान रजिस्ट्री"
+    },
+    "intro": [
+      "स्वीकृत परियोजना के प्रकाशन के बाद यहां सूचीबद्ध कियल गलय हा।"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "एगो जरूरत के निवेदन करऽ हिअइ ।",
+      "title": "एक ठोस पहुंच आवश्यकता को एक सार्वजनिक परियोजना में बदलना"
+    },
+    "paragraphs": [
+      "IATF ठोस पहुंच आवश्यकता के समीक्षा करो हय जेकरा उपयोगी सार्वजनिक ओपन सोर्स कार्य में बदलल जा सको हय।"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "अभी तक जारी ना हई",
+    "paragraphs": [
+      "IATF अपना पहला सार्वजनिक परियोजना सेट तैयार कर रहल हई।",
+      "यदि आपके पास अभी भी एक विशिष्ट पहुंच आवश्यकता है, तो आप अभी भी अनुरोध भेज सकते/सकती हैं।"
+    ]
+  }
+}
