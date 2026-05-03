@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Dostympność",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Dostympność",
+    "lead": "IATF cyluje w to, coby ta strōna była ajnfachowo, czytelno, dostympno za pōmocōm klawiatury i zgodno z technologijami wspomagajōncymi.",
+    "support": [
+      "Do dostympu do strōny internetowyj IATF używo: [W3C WAI](https://www.w3.org/WAI/) Praktyczno dostympność je tyż informowano bezpostrzednim doświadczyniym użytkowników technologiji wspomagajōncych."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Sprawozdawczość",
+      "title": "Dŏwać znać ô problymie z dostympnościōm"
+    },
+    "paragraphs": [
+      "Jeźli znojdziecie bariery dostympności na tyj strōnie, proszymy o zgłoszenie bez e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Przydatne raporty ôbyjmujōm:"
+    ],
+    "items": [
+      "strōna, na keryj trefiōł sie problym",
+      "to, co żeś se prōbowoł zrobić",
+      "jakŏ technologijŏ pōmożōnco, przeglōndarka abo maszynka była używanŏ, jeźli to istne",
+      "co poszło źle?",
+      "co by pōmōgło"
+    ],
+    "footnote": "Niy trza pisać ôficjalnego raportu ô wadze. Wystarczy jasny ôpis."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Używanie",
+      "title": "Zarzōndzanie publicznymi kwestyjami"
+    },
+    "paragraphs": [
+      "Problymy z dostympnościōm mogōm być podsumowane w ôdpednim publicznym repozytorium, coby mogły być rozwiōnzane w ôtwartym placu. Ôsobiste dane kōntaktowe i niypotrzebne informacyje prywatne sōm usuwane przed publikacyjōm.",
+      "Jeźli wasz raport ôbyjmuje informacyje prywatne, wyraźnie to napiszcie we wiadōmości."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Aktualnŏ sytuacyjŏ",
+      "title": "Znane ôgraniczynia"
+    },
+    "paragraphs": [
+      "Ta strōna je celowo mała i w wiynkszości statyczno. Niykere wersyje jynzykowe mogōm być niekōmpletne w czasie przygotowywanio przekładōw."
+    ]
+  }
+}

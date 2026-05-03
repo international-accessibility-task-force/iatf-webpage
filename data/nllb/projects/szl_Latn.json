@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Strōna internetowo IATF",
+    "summary": "Ôpublikowano strōna ôd International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF potrzebowoł stabilnego publicznego dōmu, kery by klarownoł model, wyliczōł projekty i wskazowoł spōłpracownikom na nastympny krok.",
+    "why": "Strōna je publicznōm bramōm IATF. Je zbudowano za mały statyczny projekt, tōż je łacno czytać, tłumaczyć i utrzimować we ôtwartym placu.",
+    "scopeIn": [
+      "Ôpublikowane strōny docelowe, co klarujōm model IATF",
+      "Publiczny rejestr przijyntych, aktywnych i archiwizowanych projektōw IATF ze stanym, utrzymujōncym, repozytorium i demonstracyjōm",
+      "Strōna ôdbioru wniosku i formular",
+      "Strōny ô zarzōndzaniu i przejrzystości",
+      "Angielskie źrōdło ze strukturōm gotowōm do przekładu",
+      "Statyczne wdrożynie na statycznych aktywach robotnikōw Cloudflare"
+    ],
+    "scopeOut": [
+      "Prywatne przestrzyństwa dlo czōnkōw, kōnty abo przepływy logowanio",
+      "Hosting kodōw zdrzōdłowych projektōw, kere sōm we włŏsnym repozytorium kożdego projektu",
+      "Czat w czasie rzeczywistym, co żyje w Discord",
+      "Śledzyniŏ problymōw dlŏ poszczegōlnych projektōw, kere żyjōm w repozytorium GitHub kożdego projektu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Wczesny prototyp IATF, archiwizowany po ôsiōngniyńciu naturalnego pōnktu zatrzymania.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Wczesnŏ eksploracyjŏ nŏrzyńdzia skupiōnego na dostympności we ôbrymbie IATF.",
+    "why": "Repozytōr je trzimowany publicznie za rekord roboty, nawet kej aktywny rozrost ôstoł zastawiōny.",
+    "scopeIn": [
+      "Wczesny prototyp nŏrzyńdzia skupiōnego na dostympności przechowywany za publiczny rekord"
+    ],
+    "scopeOut": [
+      "Aktywny rozwōj abo robota nad funkcyjōm",
+      "Zobowiōnzania do utrzimowanio",
+      "Rekomendowane użycie w produkcyji"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Robot społecznościowy IATF, archiwizowany po ôsiōngniyńciu naturalnego pōnktu zatrzymania.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatyzacyjo naôbkoło kanałōw społecznościowych IATF.",
+    "why": "Repozytōr je trzimowany publicznie za rekord roboty, nawet kej aktywny rozrost ôstoł zastawiōny.",
+    "scopeIn": [
+      "Automatyzacyjo dyskordōw na kanałach społecznościowych IATF, przechowywano za publiczny rekord"
+    ],
+    "scopeOut": [
+      "Aktywny rozwōj abo robota nad funkcyjōm",
+      "Zobowiōnzania do utrzimowanio",
+      "Rekomendowane użycie w produkcyji"
+    ]
+  }
+]

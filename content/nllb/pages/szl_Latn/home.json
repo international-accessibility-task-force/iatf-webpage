@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Z potrzeby dostympności do publicznych repo",
+    "lead": "IATF pōmoże zwiōnzkom, grupōm i ôsōbōm przekształcić prawdziwe potrzeby dostympności we publiczne projekty ôtwartego zdrzōdła.",
+    "support": [
+      "Akceptowane projekty sōm ôpublikowane we ôrganizacyji IATF GitHub pod licencyjōm copyleft i ôbrobiane publicznie bez ôdpowiedzialnego inżyniera."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Publiczny model funkcjōniyrowanio",
+      "title": "Prosty publiczny szlak dlŏ dostympnego ôprogramowaniŏ"
+    },
+    "paragraphs": [
+      "Bez formular, kożdy może złożyć problym dostympności do IATF. Jeźli zespōł może go wziōnś na siebie, ôtwiyro sie publiczne repozytorium GitHub do roboty.",
+      "Kożdy przijynty projekt mo klarowny publiczny dōm do kodu, problymōw, dokumyntacyje i wydanych wersyji, z rozrostym prowadzōnym w ôtwarciu bez ôdpowiedzialnego inżyniera."
+    ],
+    "specCard": {
+      "title": "Publiczny model funkcjōniyrowanio",
+      "terms": [
+        {
+          "term": "Potrzeba",
+          "definition": "Rzeczywisty problym dostympności"
+        },
+        {
+          "term": "Przeglōnd",
+          "definition": "Pasujōnco do misyje i wykōnalność praktyczno"
+        },
+        {
+          "term": "Przestrzyństwo projektowe",
+          "definition": "Publiczne repozytorium GitHub"
+        },
+        {
+          "term": "Zarzōndzanie",
+          "definition": "Ôrganizacyjno włosność IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proces",
+      "title": "Jak to funguje",
+      "intro": "Model ôstowo celowo mały, tōż drōga publiczno je łacno do naśladowanio."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Podano je potrzeba",
+        "paragraphs": [
+          "Stowarziszynie, grupa abo ôsoba może złożyć wniosek, co ôpiyro sie na rzeczywistyj potrzebie dostympu.",
+          "Prośby idzie zaczōńć ôd strōny internetowyj, bez e-mail na: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, abo bez Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF je weryfikuje",
+        "paragraphs": [
+          "Ôbserwujymy dostymp do misyje, praktyczny zakres, i eli robota przinoleży do publicznego projektu ôtwartego zdrzōdła."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Stworzōne je publiczne repozytorium",
+        "paragraphs": [
+          "Jeźli projekt je przijynty, je ôpublikowany we ôrganizacyji IATF GitHub pod licencyjōm copyleft.",
+          "Repozytorium stowo sie publicznym dōmym kodōw, numerōw, dokumyntacyje i wydŏw."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Zodpowiedzialny inżynier kieruje projektym",
+        "paragraphs": [
+          "Do repozytorium projektōw je przidŏwany ôdpowiedzialny inżynier, a ôbrobiynie ôdbywo sie publicznie."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejestr",
+      "title": "Publiczny rejestr projektōw"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Zacznij ôd tego.",
+      "title": "Ôbejzdrzić bieżōnco robota abo zaczōnć kōnkretny projekt"
+    },
+    "paragraphs": [
+      "Użyj rejestru, coby ôbejrzeć, co je już publiczne, abo zacznij przijmować, jeźli kōnkretny problym dostympności bydzie ôstoł projektym."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

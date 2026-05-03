@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Niy znodli"
+  },
+  "hero": {
+    "eyebrow": "Niy znodli",
+    "title": "Życzōnŏ strōna niy była znojdzōnŏ",
+    "lead": "Użyj głōwnych drōg, coby wrōcić do publicznego placu.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Dōm",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Trasa, co jōm szukŏsz niy istniyje."
+    ],
+    "items": [
+      {
+        "label": "Dōm",
+        "href": "/"
+      },
+      {
+        "label": "Projekty",
+        "href": "/projects/"
+      },
+      {
+        "label": "Prziłōncz",
+        "href": "/join/"
+      },
+      {
+        "label": "Dostympność",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Zarzōndzanie",
+        "href": "/governance/"
+      },
+      {
+        "label": "Przejrzystość",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Karta placu"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Karta placu",
+    "lead": "Kożdo publiczno strōna na iatf.cc, na jednym placu."
+  },
+  "sections": [
+    {
+      "title": "Główne strōny",
+      "items": [
+        {
+          "label": "Dōm",
+          "href": "/"
+        },
+        {
+          "label": "Projekty",
+          "href": "/projects/"
+        },
+        {
+          "label": "Wymŏgać projekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Zarzōndzanie",
+          "href": "/governance/"
+        },
+        {
+          "label": "Prziłōncz",
+          "href": "/join/"
+        },
+        {
+          "label": "Dostympność",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Przejrzystość",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekty",
+  "projectsEmpty": "Żŏdne projekty jeszcze niy ôpublikowane."
+}

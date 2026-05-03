@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Model zarzōndzanio i repozytorium",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Model zarzōndzanio i repozytorium",
+    "lead": "IATF utrzimŏ projekty dostympności publiczne, czytelne i utrzimowalne.",
+    "support": [
+      "Ta strōna klaruje, co kwalifikuje, jak archiwa sōm ôbchowywane i kero ôdpowiedzialność na poziōmie repozytorium mo zastosowanie po akceptacyji."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reguly",
+      "title": "Pasuje do misyje, włosność, licencjōnowanie"
+    },
+    "cards": [
+      {
+        "title": "Pasuje do misyje",
+        "paragraphs": [
+          "IATF akceptuje robota, co ôdnosi sie do istnyj bariery dostympności i mo klarowno wert publiczny.",
+          "Projekt musi być użyteczny poza pojedynczym prywatnym przepływym roboczym i fungować za publiczne repozytorium.",
+          "Do dostympu do strōny internetowyj IATF używo: [W3C WAI](https://www.w3.org/WAI/) Bezpostrzednie doświadczynie użytkowników technologiji wspomagajōncych je tyż praktycznym dowodym tego, co funguje w rzeczywistym użyciu."
+        ]
+      },
+      {
+        "title": "Akceptacyjo projektu",
+        "paragraphs": [
+          "Propozycyjo może być zaakceptowano, kej przeglōnd wykoże, iże:"
+        ],
+        "items": [
+          "ôdnosi sie do prowdziwyj potrzeby dostympu",
+          "Problym je dostatecznie klarowny, coby ôcynić",
+          "zakres je dostatecznie realistyczny, coby ôdkryncić",
+          "robota je zgodno z misyjōm IATF",
+          "je wiarygodno ścieżka do utrzimowanio abo skōńczanio"
+        ]
+      },
+      {
+        "title": "Włŏsność repozytorium",
+        "paragraphs": [
+          "Akceptowane projekty sōm tworzōne we ôrganizacyji IATF GitHub.",
+          "Repozytory sōm tam, tōż kożdy projekt utrzimo stabilny publiczny dōm, nawet jeźli ôpiekunowie niyskorzij sie zmiyniōm."
+        ]
+      },
+      {
+        "title": "Licyncyje",
+        "paragraphs": [
+          "Projekty IATF używajōm licencyji copyleft, chyba że projekt stwiyrdzi inakszyj:"
+        ],
+        "items": [
+          "<strong>Kōd:</strong> AGPL-3.0",
+          "<strong>Dokumyntacyjo:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ôdpowiedzialny inżynier abo utrzymujōncy",
+      "paragraphs": [
+        "Kożdy przijynty projekt musi mieć miano ôdpowiedzialnego inżyniera abo utrzymujōncego. Ta ôsoba może dostać dostymp administracyjny do repozytorium i ôczekuje sie, iże:"
+      ],
+      "items": [
+        "rozwōj przewodnika we publicznym",
+        "utrzimować strukturã repozytorium",
+        "przeglōnd abo zarzōndzanie problymami i wycofanie prośbōw",
+        "udokumentować wożne decyzje techniczne",
+        "mieć projekt zrozumiały dlŏ inkszych"
+      ],
+      "footnote": "Je to ôdpedzialność na poziōmie repozytorium. Włŏsność ôrganizacyjno ôstowo u IATF. Zodpedzalność to je zarzōndzanie repozytoriym, dyrekcyjŏ technicznŏ i koordynacyjŏ publicznŏ, a niy niyôgraniczōnŏ prywatnŏ dostawa, spōlne integracyje abo ôbowiōnzania na poziōmie usug poza publicznōm mapōm drōgi."
+    },
+    "publicDevelopment": {
+      "title": "Rozrost ôbywatelski",
+      "paragraphs": [
+        "Projekty zainicjowane bez IATF zaôbycz sōm ôbrobiane publicznie. Repozytorium je publicznym zdrzōdłym prowdy do:"
+      ],
+      "items": [
+        "kod źrōdeł",
+        "kwestyje",
+        "dokumentacyjo",
+        "Noty z drōgōwki drōgowyj",
+        "Historyjŏ wydŏwaniŏ"
+      ],
+      "footnote": "Ważno wiedza ô projekcie niy powinna miyszkać ino w prywatnych czatach abo skrzynkach pocztowych."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Publiczne archiwacyje",
+      "title": "Ôpublikowane zapisy wnioskōw"
+    },
+    "paragraphs": [
+      "IATF fōnguje publicznie zaôbycz. Prośby, co wchodzōm do IATV bez strōna internetowŏ, email, Discord, GitHub abo inksze kanały IATW mogōm stać sie publicznymi rekordami prośb.",
+      "IATF może podsumować, redagować abo restrukturyzować prośba przed publikacyjōm, tak coby potrzeba dostympności mogła być przeglōndano bez ujawnianio niypotrzebnych danych ôsobowych.",
+      "Publiczne zapisy prośb mogōm być przechowywane we ôrganizacyji IATF GitHub, na tyj strōnie internetowyj, abo ôba.",
+      "Przed publikacyjōm IATF usuwa niypotrzebne ôsobiste dane kōntaktowe, prywatne adresy i idyntyfikujōnce dane ô indywidualnych używŏczach technologiji wspomagajōncych, chyba że publikacyjŏ je klarownie zamierzōno i przidajno.",
+      "Dyskord je używany do niyformalnyj koordynacyje. IATF niy archiwizuje dyskordōw ôsobnie, a zachowanie wiadōmości je kōntrolowane bez Discord. Decyzje podejmowane w Discord powinny być podsumowane w publicznym zapisie na GitHub abo na ôdpednij strōnie projektu.",
+      "Rejestry prośb sōm wykluczōne z indeksowanio ôd wyszukowarek, kaj je to praktyczne.",
+      "IATF może zaktualizować abo usuwać zapisy z kōntrolowanych bez niego ôbrozkōw publicznych, ale niy może zagwarantować usuniyńcio z kasōw strōn trzecich, powiadōmiyń, forkōw, zrzutōw ekranu, wyszukowarek, Discord abo inkszych zewnyntrznych systymōw.",
+      "Jeźli wiadomość musi ôstać prywatno, niy wysyłaj je bez publiczne kanały IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rola ôrganizacyjno",
+      "title": "Krzesło"
+    },
+    "lead": "Przewodniczōncy zajmuje sie zarzōndzaniym IATF na poziōmie ôrganizacyje, co je ôdrōżniōne ôd roli ôdpowiedzialnego za projekt inżyniera: przewodniczyni ôdpowiado za cołko organizacyjo, a niy za dziynne kierowanie jakimś pojedynczym repozytorium.",
+    "duties": {
+      "title": "Co robi krziż",
+      "items": [
+        "Utrzymuje przizwolyniŏ ôd posiedziciela na ôrganizacyji GitHub IATF",
+        "Podpisuje decyzje ô akceptacyji projektōw i ô archiwizacyji",
+        "Działa za publiczny pōnkt kōntaktu dlŏ IATF",
+        "Koordynuje coroczne wybory"
+      ],
+      "footnote": "Przewodniczōncy niy zobowiązuje IATF do prywatnyj dostawy, płatnyj roboty ani ugodōw na poziōm usug, a niy nadrzyndzo decyzjom ô technicznym zarzōndzaniu w relacyji do poszczegōlnych podmiotōw zajmujōncych sie utrzimowaniym repozytorium."
+    },
+    "election": {
+      "title": "Roczne ôblyczynie",
+      "paragraphs": [
+        "Przewodniczōncy je ôbiyrany raz na rok. Wybory ôdbywajōm sie w piyrszych dwōch tydniach grudnia, wyniki sōm ôgłoszōne do 15 grudnia a nowo kadyncyjo zaczyno sie 1 stycznia.",
+        "Kożdy kandydat, kery dostoł nojwiyncyj głosōw, wygrywo, a w przipadku remisji drugŏ rundŏ ôdbywŏ sie w trzecim tydniu grudnia.",
+        "Wybory ôdbywajōm sie we formie publicznyj dyskusyje GitHub we ôkryślōnym repozytorium zarzōndzanio IATF, beztōż kandydaty, głosowanie i wynik sōm tajlōm publicznego zapisu."
+      ]
+    },
+    "continuity": {
+      "title": "Kontynuacyjo",
+      "paragraphs": [
+        "Jeźli żodne wybory niy bydōm ôdbywać sie w danym roku, to terŏźny przewodniczōncy ôstowo na stanowisku do nastympnych wyborōw. Je to dalsze funkcjōniyrowanie na czas niyôkryślōny, a niy ôkres łaski - model je zaprojektowany, coby utrzimać ôrganizacyjõ stabilnŏ, kej aktywność je niskŏ, niy do zmuszyniŏ przejściowego, do kerego żŏdyn niy je gotowy.",
+        "Przewodniczōncy może ôdstōmpić w kożdym czasie. Aktywni utrzymujōncy tyż mogōm zazwōnić do ekstraordynaryjnych wyborōw z podanym powodym, przeprowadzōnych podle tych samych prawideł jak coroczne wybory."
+      ]
+    },
+    "current": {
+      "title": "Aktualnŏ prezydyncyjŏ",
+      "fields": [
+        {
+          "label": "Krzesło",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termin ôznaczyniŏ",
+          "value": "Do grudniowych wyborōw 2026"
+        },
+        {
+          "label": "Formalizacyjo roli",
+          "value": "2026"
+        },
+        {
+          "label": "Piyrsze planowane wybory",
+          "value": "Grudziyń 2026"
+        }
+      ]
+    },
+    "footnote": "Rola prezydynta ôstała sformalizowano w 2026 roku, coby klarować zarzōndzanie na poziōmie ôrganizacyje."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stany projektu",
+      "paragraphs": [
+        "Projekty używajōm małego zestawu stanōw publicznych:"
+      ],
+      "items": [
+        "Propozycyjo",
+        "Akceptowane",
+        "Aktywne",
+        "Stabilnŏ",
+        "Poszukujōncy utrzymujōncego",
+        "Archiwizowane"
+      ],
+      "footnote": "Te stany sprawujōm, iże rejestr je łacny do skanowanio."
+    },
+    "reassignment": {
+      "title": "Przekształcynie i archiwizowanie",
+      "paragraphs": [
+        "Jeźli czowiek zajmujōncy sie utrzimowaniym ôdchodzi abo stowo sie niyaktywny, IATF może przekształcić ôdpowiedzialność, przerwać rozwōj abo archiwizować projekt.",
+        "Projekt może być tyż archiwizowany, kej ôryginalno potrzeba je zaspokojōno, utrzimanie sie kōńczyło abo kōntynuowanie roboty niyma już realistyczne."
+      ],
+      "footnote": "Archiwizowane projekty sōm publicznie widzialne, chyba że istnieje przekōnujōncy powōd, coby zrobić inakszyj."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Ôkryślōnek graniczny",
+      "title": "Co IATF niy gwarantuje"
+    },
+    "items": [
+      "dostawy do prywatnego klijynta",
+      "umowy na poziōm usug",
+      "akceptacyjo kożdyj propozycyje",
+      "długoterminowo utrzymanie kożdego projektu"
+    ],
+    "footnote": "IATF je modelym publicznego repozytorium, a niy prywatnōm usugōm dostaw."
+  }
+}

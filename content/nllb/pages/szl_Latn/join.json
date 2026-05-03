@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Przystōń do IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Przystōń do IATF",
+    "lead": "Człōnkostwo je ôtwarte. Je pŏrã knifōw, coby wziōnś udział, bez to, iże ôpiyrocie sie na technologijach wspomagajōncych, budowie dostympnego ôprogramowanio, przekłŏdaniu, testowaniu abo utrzimowaniu projektu. Dyskusyje i decyzyje ôdbywajōm sie publicznie na GitHub i Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Role",
+      "title": "Zorty wkładu"
+    },
+    "items": [
+      "<strong>Wymŏgać projekt.</strong> Jeźli treficie na bariery dostympności, co mogōm być rozwiōnzane bez ôdewrzōne ôprogramowanie, posyłajcie je bez wejzdrzynie prośbōw.",
+      "<strong>Prōba i przeglōnd.</strong> Sprōbuj projektōw IATF z używanōm technologijōm wspomagajōncōm, zgłoszaj, co funguje, a co niy, i skłodaj problymy bezpostrzednio do ôdpednigo repozytorium.",
+      "<strong>Przetłumacz.</strong> Zawartość źrōdeł je nojprzōd ôpublikowano we zwykłym angelskim jynzyku.",
+      "<strong>Budować.</strong> Wybrać problymy z dowolnego repozytorium IATF, posłać prośby ô wyciōnganie, abo wziōnś projekt za ôdpowiedzialnego inżyniera.",
+      "<strong>Trzimej.</strong> Istniejōnce projekty czasami potrzebujōm nowego ôrganizatora."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanały",
+      "title": "Kaj IATF robi we publicznym miyjscu"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problymy, prośby ô wyciōnganie, publikacyje i dokumynta projektōw.",
+      "<strong>Niyzgody.</strong> Żywe dyskusyje, koordynacyjo i niyformalne pytania.",
+      "<strong>Majlōm.</strong> Użycie <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> jeźli ani GitHub, ani Discord niy pasujōm."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nastympny krok",
+      "title": "Wybŏcz kanał, co pasuje do tego, jak chcesz pōmōc"
+    },
+    "paragraphs": [
+      "Wszyjske kanały dostympujōm do tego samego publicznego przeglōndu i tych samych publicznych repozytoriōw."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

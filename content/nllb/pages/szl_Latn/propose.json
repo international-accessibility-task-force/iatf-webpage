@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Wymŏgać projekt dostympności",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Wymŏgać projekt dostympności",
+    "lead": "IATF przeglōnduje prośby ô projekty dostympności, co wychodzōm z istnyj potrzeby.",
+    "support": [
+      "Niy potrzebujecie cołkij specyfikacyje. Wystarczy klarowny problym, fto go dotyko i czymu je to ważne, coby zaczōńć."
+    ],
+    "actions": [
+      {
+        "label": "Zacznij żōnanie",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Użyj zamiast tego Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanały",
+      "title": "Wybierz nojprostszo trasa."
+    },
+    "intro": [
+      "Wszyjske trasy wkludzōm sie do tego samego przeglōndu."
+    ],
+    "items": [
+      {
+        "label": "Strōna internetowo",
+        "body": "Użyj poniższego formularza, coby złożyć ustrukturyzowany wniosek."
+      },
+      {
+        "label": "E-mail",
+        "body": "Wyślij wniosek bezpostrzednio do: {{contact.requestsEmail}}Prośby e-mail mogōm stać sie publicznymi zapisami prośb po przeglōndzie i redagowaniu."
+      },
+      {
+        "label": "Niyzgody",
+        "body": "Zacznij ôd tego, jeźli to je nojprostsze."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Przed wysłaniym prośby",
+    "paragraphs": [
+      "Prośby mogōm być podsumowane i ôpublikowane jako publiczne zapisy prośb we ôrganizacyji IATF GitHub, na tyj strōnie internetowyj, abo ôba.",
+      "Niy wkludzaj prywatnych adresōw, numerōw telefonōw, danych medycznych ani idyntyfikujōncych informacyji ô indywidualnych używŏczach technologiji wspōlnych, chyba że je to konieczne i niy czujesz sie komfortowo, kej IATF je przeglōnduje.",
+      "IATF usuwo niypotrzebne ôsobiste dane kōntaktowe przed ôpublikowaniym rekordōw prośb."
+    ]
+  },
+  "review": {
+    "title": "Ôczekiwania ôd przeglōndu",
+    "paragraphs": [
+      "Podanie wniosku niy gwarantuje akceptacyje.",
+      "IATF weryfikuje prośby ô dostosowanie do misyje, wykōnawczość, przidajność i czy robota przinoleży do publicznego repozytorium.",
+      "Niykere prośby mogōm być ôdciepniynte, ôdłożōne abo zmiyniōne, zanim bydōm zaakceptowane."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formularz wniosku",
+      "title": "Wrōć wniosek"
+    },
+    "fields": [
+      {
+        "kind": "wkludzynie",
+        "name": "wnioskodawca",
+        "label": "Twoje miano abo ôrganizacyjo",
+        "helper": "Fto podŏwŏ wniosek?"
+      },
+      {
+        "kind": "wybrać",
+        "name": "Kontaktowe drōgi",
+        "label": "Preferyncjo sztreki kōntaktu",
+        "helper": "Jak by to miało sie trefić?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Niyzgody"
+        ]
+      },
+      {
+        "kind": "wkludzynie",
+        "name": "Szczegōły kōntaktu",
+        "label": "Dane kōntaktowe",
+        "helper": "Adres e-mail abo adres Discord do kōntynuacyje.",
+        "placeholder": "Adresa e-mailowo abo idyntyfikator Discord",
+        "required": true
+      },
+      {
+        "kind": "wkludzynie",
+        "name": "godka",
+        "label": "Jynzyk",
+        "helper": "Twoj preferowany jynzyk, jeźli je to istne.",
+        "value": "Polskŏ gŏdka"
+      },
+      {
+        "kind": "przestrzyństwo tekstowe",
+        "name": "problym",
+        "label": "Jaki problym chcesz rozwiōnzać?",
+        "helper": "Ôpisować bariera prostym jynzykiym.",
+        "required": true
+      },
+      {
+        "kind": "przestrzyństwo tekstowe",
+        "name": "dotkniyte Użytkownicy",
+        "label": "Kogo to dotyko?",
+        "helper": "Komu by to pōmōgło?",
+        "required": true
+      },
+      {
+        "kind": "przestrzyństwo tekstowe",
+        "name": "ekstraKontekst",
+        "label": "Ekstra kōntekst",
+        "helper": "Podziel sie wszyskim inkszym, co pomoże wyklarować potrzeba: skuli czego je to ważne, przikładami, ôdniesiyniami, grubym idyjōm ôprogramowanio abo ôgraniczyniami czasowymi."
+      },
+      {
+        "kind": "wybrać",
+        "name": "openSourceConsent[edytuj zdrzōdło]",
+        "label": "Cieszysz sie ze ôtwartym źrōdłym?",
+        "helper": "Akceptowane projekty sōm publicznymi repozytoriami IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ano, niy.",
+          "Niy",
+          "Jeszcze niy wiym."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Jeźli zaakceptowane",
+      "title": "Co ôznaczo akceptacyjo"
+    },
+    "items": [
+      "publiczne repozytorium we ôrganizacyji IATF GitHub",
+      "ôdpowiedzialny inżynier przydzielōny do projektu",
+      "licyncyjo copyleft na kod i materiały projektowe",
+      "publiczne ôbrobiynie w repozytorium",
+      "wpis rejestrowy na strōnie IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Zacznij rozmowa",
+      "title": "Krōtko, klarowno prośba styknie, coby zaczōńć"
+    },
+    "paragraphs": [
+      "Jeźli mŏcie prowda potrzeba dostympu i myślicie, iże powinno sie to stać projektym publicznym, posyłajcie nōm."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Projekty dostympności publicznyj",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Projekty dostympności publicznyj",
+    "lead": "Tyn rejestr zawiyro projekty publiczne utrzimowane bez IATF. Akceptowane projekty dostympności, infrastruktura placu i archiwizowane prototypy sōm widoczne.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejestr",
+      "title": "Aktualny rejestr"
+    },
+    "intro": [
+      "Akceptowane projekty sōm wymieniōne tukej, kej sōm ôpublikowane."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Wrōć kōntakt",
+      "title": "Przekształcić kōnkretno potrzeba dostympności we publiczny projekt"
+    },
+    "paragraphs": [
+      "IATF ôbserwuje kōnkretne potrzeby dostympności, co mogōm być przekształcone we przidajne publiczne dzieła ôtwartego zdrzōdła."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Żŏdne projekty jeszcze niy ôpublikowane",
+    "paragraphs": [
+      "IATF szykuje piyrszy publiczny zestaw projektōw.",
+      "Możecie jeszcze posłać prośba, jeźli mŏcie kōnkretno potrzeba dostympu."
+    ]
+  }
+}
