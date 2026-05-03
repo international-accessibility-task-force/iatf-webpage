@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "خَرْطَةُ المَوْضِعِ"
+  },
+  "hero": {
+    "eyebrow": "دَرَجَ",
+    "title": "خَرْطَةُ المَوْضِعِ",
+    "lead": "كُلُّ صَفْحَةٍ عَامَّةٍ فِي iatf.cc، في مَكَانٍ وَاحِدٍ."
+  },
+  "sections": [
+    {
+      "title": "الصُّفُوفُ الأُولَى",
+      "items": [
+        {
+          "label": "دَارِي",
+          "href": "/"
+        },
+        {
+          "label": "مَشَارِيْ",
+          "href": "/projects/"
+        },
+        {
+          "label": "يَطْلُبُ مَشْيًا",
+          "href": "/propose/"
+        },
+        {
+          "label": "حُكْمُ",
+          "href": "/governance/"
+        },
+        {
+          "label": "انْضِمْ",
+          "href": "/join/"
+        },
+        {
+          "label": "إِمْكَانُ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "الشَّفَافَةَ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "مَشَارِيْ",
+  "projectsEmpty": "لَمْ يُنْشَرْ مَشْغُولُ"
+}

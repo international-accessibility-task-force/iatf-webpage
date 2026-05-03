@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "مَشَارِيْكَ الْجَمَاعَةِ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "مَشَارِيْكَ الْجَمَاعَةِ",
+    "lead": "هَذَا الْمَسْجِدُ يَدُلُّ عَلَى مُشْتَرَكَاتِ الْجَمَاعَةِ الَّتِي تُحْفَظُ مِنْ قِبَلِ IATF. مَشْرُوكَاتُ الْوُصُولِ، وَبُنْيَانُ المَوْضِعِ وَالْمُصَنَّفُونَ تُرَى هُنَا.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "سِجِلْ",
+      "title": "سِجِلْتَةٌ حَالِيَّةٌ"
+    },
+    "intro": [
+      "مَشَارِكُ مَقْبُولَةٌ مُسَمَّاةٌ هُنَا بَعْدَمَا تُنْشَرُ."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "أَرْسِلْ بِحَاجَةٍ",
+      "title": "تُحَوِّلُ حَاجَةَ الْوُصُولِ مَعْمُولَةً إِلَى مُشْتَرَكَةٍ عَامَّةٍ"
+    },
+    "paragraphs": [
+      "IATF يَرْجِعُ إِلَى الْحَاجَاتِ الْمُتَمَكِّنَةِ الَّتِي يُمْكِنُ أَنْ تَتَحَوَّلَ إلَى أَعْمَالٍ عَامَّةٍ مُفْتَتِحَةٍ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "لَمْ يُنْشَرْ مَشْغُولُ",
+    "paragraphs": [
+      "IATF يُحَضِّرُ أَوَّلَ مَصْنَعَةِ عَامَّةٍ.",
+      "تَسْتَطِيعُ أَنْ تُرْسِلَ طَلَبًا إِذَا كَانَتْ لَكَ حَاجَةٌ مَعْرُوفَة."
+    ]
+  }
+}

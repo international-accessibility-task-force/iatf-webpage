@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "لَمْ يُوجَدْ"
+  },
+  "hero": {
+    "eyebrow": "لَمْ يُوجَدْ",
+    "title": "لَمْ تُوجَدْ الصَفْحَةُ المَطْلُوبَة",
+    "lead": "إِسْتَعْمِلْ الطُّرُقَ الرَّئِيسَةَ أَسْفَلَ لِتَرْجِعَ إِلَى المَوْضِعِ العَامِّ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "دَارِي",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "الطَّرِيقُ الَّذِي طَلَبْتَهُ لَيْسَ بِمَوْجُودٍ."
+    ],
+    "items": [
+      {
+        "label": "دَارِي",
+        "href": "/"
+      },
+      {
+        "label": "مَشَارِيْ",
+        "href": "/projects/"
+      },
+      {
+        "label": "انْضِمْ",
+        "href": "/join/"
+      },
+      {
+        "label": "إِمْكَانُ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حُكْمُ",
+        "href": "/governance/"
+      },
+      {
+        "label": "الشَّفَافَةَ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
