@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "È mɔ ǎ"
+  },
+  "hero": {
+    "eyebrow": "È mɔ ǎ",
+    "title": "Wema e è byɔ ɔ è mɔ ǎ",
+    "lead": "Mi zán ali taji e ɖò d'ewu lɛ é bo lɛ́ kɔ yì fí e è nɔ mɔ mɛ lɛ bǐ ɖè é.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Xwé",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ali e a byɔ é ɖè ǎ."
+    ],
+    "items": [
+      {
+        "label": "Xwé",
+        "href": "/"
+      },
+      {
+        "label": "Tɛnkpɔn lɛ",
+        "href": "/projects/"
+      },
+      {
+        "label": "D'alɔ mì",
+        "href": "/join/"
+      },
+      {
+        "label": "Nǔ e è sixu mɔ lɛ é",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Axɔ́súɖuɖu",
+        "href": "/governance/"
+      },
+      {
+        "label": "Nǔ kpinkplɔn",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

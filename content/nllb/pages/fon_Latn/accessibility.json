@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Nǔ e è sixu mɔ lɛ é",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Nǔ e è sixu mɔ lɛ é",
+    "lead": "IATF kpɔn bo na hɛn weziza elɔ bɔ e na vɛwǔ bɔ è na xà, bo na mɔ ye gbɔn keyboard jí, bo bɔ é na sɔgbe xá azɔwanú e nɔ d'alɔ mɛ lɛ é.",
+    "support": [
+      "Bo na dó sixu mɔ nǔ ɖò webu jí ɔ, IATF nɔ zán [W3C WAI](https://www.w3.org/WAI/) Nǔ e mɛ e nɔ zán azɔwanú e nɔ d'alɔ mɛ lɛ é nɔ mɔ ɖò gbɛzán yetɔn mɛ é nɔ lɛ́ zɔ́n bɔ è nɔ mɔ nǔ jɛ nǔ lɛ wu ganji."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Akɔnkpɔnmɛ",
+      "title": "Ðɔ xó dó nùɖé jí"
+    },
+    "paragraphs": [
+      "Enyi mi mɔ nǔ e nɔ lɛ́ zɔ́n bɔ è sixu yì tɛn ɛntɛnɛti tɔn elɔ jí ǎ é ɖé ɔ, mi w'azɔ̌ dó wlan dó alokan jí:",
+      "{{contact.accessibilityEmail}}",
+      "Wemaɖiɖɔ e na d'alɔ mɛ lɛ é ɖé lɛ ɖíe:"
+    ],
+    "items": [
+      "xota e mɛ xó ɔ jɛ ɖè é",
+      "nǔ e a ɖò tɛnkpɔn wɛ bo na wà é",
+      "azɔwanú e nɔ d'alɔ mɛ lɛ é, nukplɔnmátɔ́ ɔ, alǒ alɔnu e a nɔ zán é, enyi é sɔgbe ɔ",
+      "etɛ wá gblé",
+      "etɛ ka na d'alɔ"
+    ],
+    "footnote": "A sɔ́ ɖó ná w'azɔ̀ bó ná wlan nùɖé dó nùɖé wú ǎ. Nǔɖɔɖókpɔ́ e ɖò wɛn é kɛ́ɖɛ́ jɛ́n ná kpé."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ðɔɖɔɖókpɔ́",
+      "title": "Akpàkpà nú mɛ lɛ tɔn"
+    },
+    "paragraphs": [
+      "È hɛn ɔ, è na w'azɔ̌ dó nùɖé lɛ jí ɖò fí e è nɔ wlan nǔ lɛ ɖè lɛ é, bɔ è na hɛn ɔ è na ɖɔ xó dó ye wu. È nɔ ɖè xó kpɔ́n dó mɛɖesunɔ tɔn lɛ jí, bo nɔ ɖè nǔ e ma ɖò dandan ǎ lɛ é síin cobo nɔ ɖè.",
+      "Nú tinmɛ mɛɖesunɔ tɔn ɖé ɖò xóɖiɖɔ towe mɛ hǔn, ɖɔ ɖò wɛn ɔ mɛ."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Nǔ e ɖò jijɛ wɛ dìn lɛ é",
+      "title": "Akpàkpà e è tuùn lɛ é"
+    },
+    "paragraphs": [
+      "Tɛntɛn elɔ ɖò gbesisɔmɛ bo na nyí kpɛví bo na nɔ nɔte. Xóɖevoɖevo ɖé lɛ sixu ma sɔgbe ɖò gbè ɖé lɛ mɛ ǎ hwenu e è ɖò lilɛdogbeɖevomɛ lɛ bló wɛ é."
+    ]
+  }
+}

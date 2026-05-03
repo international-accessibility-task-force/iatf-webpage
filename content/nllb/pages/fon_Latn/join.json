@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ðɔ nú IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ðɔ nú IATF",
+    "lead": "Akpàkpà ɖò hunhun. Ali gègě wɛ ɖè bɔ è na nɔ gɔ́ alɔ, enyi a nɔ ɖeji dó mɔ̌hun lɛ jí, alǒ a nɔ bló bɔ è nɔ mɔ nukúnnú jɛ nǔ lɛ mɛ, bo nɔ lilɛ̌n, bó nɔ dó kpɔ́n, alǒ bo nɔ kpé nukún dó azɔ̌ ɖé wu ɔ. Xóɖɔɖókpɔ́ lɛ kpo gbeta lɛ kpo nɔ jɛ ɖò agbawungba jí ɖò GitHub kpo Discord kpo jí.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Azɔ̌ lɛ",
+      "title": "Ali e mi na sɔnǔ gbɔn lɛ é"
+    },
+    "items": [
+      "<strong>Sɛ́n ɖɔ è ni bló azɔ̌ ɖé nú emi.</strong> Nú a mɔ nǔ e nɔ hɛn nǔ lɛ yì jí é ɖé bɔ è sixu kpé nukún dó wu gbɔn nùwlanwlan e è hɛn ɔ è na zán lɛ é jí ɔ, sɛ́n ɛ gbɔn nùxwlémɛ e è nɔ yí lɛ é gblamɛ.",
+      "<strong>Kpɔ́n bó lɛ́ kpɔ́n.</strong> Zɔ́n azɔ̀ IATF tɔn lɛ́ɛ kpɔ́n kpodo azɔ̀ alɔdo tɔn e a nɔ zán é kpo, wlan nǔ e nɔ wà é kpo ée ma nɔ wà ǎ é kpo bo wlan nùɖé lɛ kpò ɖò fí e è nɔ sɔ́ nǔ lɛ dó lɛ é.",
+      "<strong>Ðɔ gbe ɔ.</strong> Nǔ e è nɔ dó lɛ́ɛ ɔ́, è nɔ wlan dó Glɛ̌sigbe mɛ jɛ nukɔn.",
+      "<strong>Ðɔ nǔ.</strong> Zɔ̀ nùɖé lɛ́ɛ kpɔ́n ɖò nùɖíɖó IATF tɔn ɖé mɛ, sɛ́n nǔ e è byɔ lɛ é dó, alǒ w'azɔ̀ azɔ̌ ɖé mɛ bo nyí mɔ̀jɛnǔtɔ́ e nɔ kpé nukún dó azɔ̌ ɔ wu é.",
+      "<strong>Mi hɛn dó ayi mɛ.</strong> Azɔ̌ e ɖò jijɛ wɛ dìn lɛ́ɛ nɔ byɔ ɖɔ è ni sɔ́ mɛ e nɔ kpé nukún dó azɔ̌ ɔ́ wu é ɖé ɖó tɛn yetɔn mɛ hweɖelɛnu."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanlin lɛ",
+      "title": "Fítɛ́ IATF nɔ w'azɔ̌ ɖò togun mɛ"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Nǔ lɛ, byɔ nǔ lɛ, sɛ́n lɛ, kpo azɔ̌ lɛ sín wuntun lɛ kpo.",
+      "<strong>Ðè÷àðäà.</strong> Xóɖɔɖókpɔ́ ɖò gbesisɔmɛ, nǔ kpinkplɔn, kpo nùkanbyɔ mɛtɔn lɛ kpo.",
+      "<strong>Alɔ e-mail tɔn.</strong> Nǔ e è na zán é <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> enyi GitHub kpo Discord kpo ɖě ma sɔgbe ǎ ɔ."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ali e bɔ d'ewu é",
+      "title": "Kplá ali e sɔgbe xá lě e a jló na d'alɔ gbɔn é"
+    },
+    "paragraphs": [
+      "Kanlin ɖokpo ɔ wɛ mɛ lɛ nɔ gbɔn bo nɔ ɖɔ xó nú mɛ lɛ, bo nɔ lɛ́ ɖò nǔ e è nɔ dó lɛ é bǐ mɛ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

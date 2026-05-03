@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Nǔ kpinkplɔn",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Nǔ kpinkplɔn",
+    "lead": "IATF nɔ w'azɔ̀ ɖò mɛ̀ mɛ̀. Nǔ e è nɔ wá gbeta mɛ̀ lɛ́ɛ ɔ́, nǔ è è nɔ ɖyɔ́ ɖò sɛ́n ɔ́ mɛ é, nǔ e nɔ jɛ ɖò acɛkpikpa mɛ é kpo akwɛ́ è nɔ zán dó azɔ̌ ɔ́ wu é kpo ɔ́ bǐ wɛ è nɔ wlan ɖò fí è nɔ ɖè mɛ lɛ é. Akpá élɔ́ mɛ ɔ́ è wlan fí e wlan alɔkpa ɖokpo ɖokpo nɔ nɔ é kpo lee è na wlan gbɔn é kpo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Sɛ́dó lɛ",
+      "title": "Fí e wema lɛ nɔ nɔ é"
+    },
+    "items": [
+      "<strong>Nǔ e è na wá gbeta ɔ kɔn é.</strong> Ðåøåíèÿ ïðèíÿòèÿ, àäìèíèñòðàöèè è ïåðåäà÷è ðåãèñòðèðóþòñÿ êàê ýêçàìåíû èëè âûïóñêè â ñîîòâåòñòâóþùåé áèáëèîòåêå è ñîîáùåíû â ïóáëè÷íîì ðåêîðäå. <a href=\"/projects/\">wemaxɔmɛ</a>é ɖò wɛn .",
+      "<strong>Ðɔ nǔ e è wlan lɛ é.</strong> è hɛn ɔ è na wlan nǔ e è byɔ ɖò mɛ lɛ sí lɛ́ɛ ɖò tutoblonunu IATF GitHub tɔn mɛ, alǒ ɖò tɛn ɛntɛnɛti tɔn elɔ jí. è sixu wlan, ɖyɔ, alǒ bló tuto nú nǔ e ye byɔ ɖ'ayǐ é, bɔ è na mɔ nukúnnú jɛ nǔ e sín hudo mɛ lɛ é mɛ cóbó ma wá ɖɔ xó dó nǔ mɛɖesunɔ tɔn lɛ wu ó. è nɔ wlan gbeta e mɛ è ma mɔ nǔ jɛ mɛ ǎ lɛ é dó ɔ́ mɛ hwenu e ye ɖò nǔ wà dó azɔ̌ ɖé wu alǒ gbeta acɛkpikpa tɔn ɖé wu é. è kún nɔ sɔ́ nǔ è byɔ dó nǔ lɛ jí ɖò mɔto baɖabaɖa lɛ tɔn mɛ ó.",
+      "<strong>Sɛ́n ɔ ɖyɔ.</strong> wèmá lɛ́ɛ bǐ ɔ́' è nɔ sɔ́ ɖó vo nú mɛ bǐ ɖò fí e è nɔ lɛ́ sɔ́ lɛ é. Kpɔ́n IATF <a href=\"{{contact.githubOrgUrl}}\">Ahwan GitHub tɔn</a>é ɖò wɛn .",
+      "<strong>Axɔ́súzɔ́ lɛ́ɛ ɖyɔ́.</strong> E nɔ w'azɔ̀ nú acɛkpikpa ɔ́ sín akpáxwé lɛ́ɛ ɔ́, è nɔ wlan ye dó nùɖé jí hwenu e è nɔ sɔ́ ye dó ɖó nú nǔ ɔ́ é. <code>xojlawema ɔ tɔn</code> kpɔ́n nǔ e è wlan lɛ é <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">ɖŏ wŭ</a> ɖò GitHub jí.",
+      "<strong>Akpàkpà azɔzɔ́ tɔn lɛ́ɛ.</strong> IATF nɔ sɔ́ akwɛ́ e è nɔ zán dó wà azɔ̌ ɔ́ ná ɔ́ dín, bo nɔ lɛ́ wlan akwɛ́ è è nɔ sú dó azɔ̌ lɛ́ɛ jí é. Sín xwè 2022 tɔn ɔ́, akwɛ́ ɖaxó e è lɛ́ zán dó azɔ̀ ɔ́ jí ɔ́ wɛ nyí domɛ́ɛn sín nyikɔ.",
+      "<strong>Nǔ e è ɖɔ dó nǔ lɛ wu é.</strong> Nǔ e è wlan dó kpɔ́n dó nǔ lɛ jí alǒ gbeta lɛ jí lɛ é ɖò gbɛ̀ ɖò GitHub Mɛ ɖò xó ɖɔ dó nǔ e kàn nǔ lɛ é jí é jí  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Xóɖɔɖókpɔ́</a> ɖò <code>xojlawema ɔ tɔn</code> fí e è nɔ sɔ́ nǔ lɛ dó ɖè é."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Akpàkpà lɛ",
+      "title": "Akwɛ e è nɔ zán dó wà azɔ̌ ɔ́ ná é"
+    },
+    "paragraphs": [
+      "IATF nɔ sɔ́ nǔ e è nɔ zán dó bló tuto nǔ lɛ́ɛ tɔn lɛ é ɖó jlɛ̌ jí. Sín 2022, nǔ e nɔ xɔ akwɛ ɖò nǔwiwa mɛ lɛ é ɔ́ wɛ nyí nyikɔ mɛɖesunɔ tɔn lɛ.",
+      "Akɔnta elɔ nyí akwɛsɛxwetɔ́n e è bló akɔnta na é ǎ. Nǔ e è wlan bɔ è nɔ mɔ nǔ jɛ é wɛ nyí akwɛ́ e è zán dó bló tuto nú azɔ̌ e è nɔ bló nú IATF bɔ é nɔ ɖò ali jí é."
+    ],
+    "footnote": "È hɛn ɔ, è na wlan nǔ e è wlan lɛ é alǒ è na lɛ́ wlan ye hwenu e è ko wlan xó ɔ gudo é. Adrɛsi mɛɖesunɔ tɔn lɛ, nǔ ɖěɖee è nɔ zán dó xɔ akwɛ lɛ é kpo nǔ ɖevo e è ma sɔ́ ɖó hudo tɔn ǎ lɛ́ɛ kpo nɔ nyí nǔ è è nɔ dó wlan mɛ lɛ é ǎ.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Tɛnkpɔnmɛ",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "Akwínkpénúmɛ sín akwɛ́ ɔ́, mugiwarafx wɛ ná. Akwɛ́ e è nɔ dó xɔ nǔ lɛ́ɛ ɔ́' è nɔ zán mɛ e ma nɔ xɔ akwɛ́ ǎ é alǒ mɛ e nɔ sɔ́ akwɛ́ kpɛví ǎ é gbɔn Cloudflare jí. <code>iatf.cc</code> fí e è nɔ ɖɔ xó dó é."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Tɛnkpɔnmɛ",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Tɛnkpɔnmɛ",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure through Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Tɛnkpɔnmɛ",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Tɛnkpɔnmɛ",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Akpàkpà",
+            "value": "Domain cost funded by mugiwarafx. Hosting used free-tier or low-cost infrastructure through GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Akpàkpà",
+      "title": "Nǔ e ma nyí togun ɔ tɔn ǎ é"
+    },
+    "paragraphs": [
+      "Wema ɖé lɛ wɛ è nɔ hɛn ɖó vo nú nǔ e è wlan dó sɛ́dó mɛ lɛ é:"
+    ],
+    "items": [
+      "Mɛɖesɔ̀ lɛ́ɛ sín xóɖɔɖókpɔ́.",
+      "Akpàkpà mɛɖesunɔ tɔn e è nɔ zán kɛ́ɖɛ́ dó tín nǔ e è byɔ mɛ é mɛ jɛ nukɔn nú è na yí gbè é, è na gbɛ́ é, alǒ è na ɖɔ tinmɛ tɔn lɛ é.",
+      "Adlɛsi mɛɖesunɔ tɔn lɛ, telefɔni númɛ lɛ, kpo tinmɛ mɛɖée tɔn e ma ɖò dandan ǎ lɛ é kpo.",
+      "Nǔ ɖebǔ e na ɖe mɛ e nɔ zán azɔwanú e nɔ d'alɔ mɛ lɛ é mɛ é xlɛ́ mɛ ɖevo lɛ có é ka ɖó gbè tɔn ǎ é.",
+      "Xóɖɔɖókpɔ́ Raw Discord tɔn lɛ́ɛ, nú è ma sɔ́ wèmá ɖé ɖó linlin jí bo ɖíɖá dó azɔ̌ ɔ sín nǔ e è nɔ kpé nukún dó mɛ lɛ é mɛ ǎ ɔ́."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Xà nǔ ɖevo lɛ",
+      "title": "acɛkpikpa ɔ wɛ nyí nugbodòdó e ɖò nǔ e è wlan lɛ é gudo é"
+    },
+    "paragraphs": [
+      "Nú a jló na mɔ nukúnnú jɛ lee è nɔ yí azɔ̌ lɛ gbè gbɔn é, bo nɔ w'azɔ̌ lɛ, alǒ bo nɔ lɛ́ lɛ́ ɖó gbɔn é mɛ ɔ, kpɔ́n akpáxwé e ɖɔ xó dó acɛkpikpa wu é."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

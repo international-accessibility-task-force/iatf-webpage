@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "É ɖò dandan ɖɔ è ni kpé nukún dó nǔ e è nɔ mɔ lɛ é wu",
+    "lead": "IATF nɔ d'alɔ agun lɛ, kplékplé lɛ, kpo mɛɖesunɔ lɛ kpo bɔ ye nɔ ɖyɔ nǔ e ye ɖó bo na kpé nukún dó nǔ lɛ wu tawun lɛ é dó huzu azɔ̌ta mɛɖesúsínínɔ lɛ tɔn.",
+    "support": [
+      "azɔ̀ e è yí gbè ná lɛ́ɛ ɔ́' è nɔ tɔ́n ɖò IATF GitHub tò ɔ́ mɛ̀ ɖò copyleft license mɛ̀ bó nɔ́ blóɖó ɖò mɛ̀ nú mɔ̀jɛnǔtɔ́ e nɔ́ kpé nukún dó azɔ̌ ɔ́ wú é."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Tɛnkpénúmɛ azɔ̌ tɔn",
+      "title": "Alɔ e nyí mɛ bǐ tɔn bɔ è hɛn ɔ è na d'alɔ mɛɖesɔhwe lɛ é"
+    },
+    "paragraphs": [
+      "Mɛɖebǔ hɛn ɔ́, é na w'azɔ̌ ɔ́ nú IATF gbɔn wema ɖé jí. Nú azɔ̌watɔ́ lɛ́ɛ kpéwú bo yí gbè nú xó ɔ ɔ́ hǔn, è na bló tuto nú azɔ̌ ɔ gbɔn GitHub jí.",
+      "Tɛnkpinkpan e è yí gbè na é ɖokpo ɖokpo ɖó fí e è nɔ mɔ nǔ jɛ mɛ lɛ bǐ wu ɖè é ɖé dó sɛ́nxomɛ, nùkanbyɔ lɛ, wema lɛ kpo nǔ e è ɖè lɛ é kpo wu, bɔ mɛ e nɔ kpé nukún dó azɔ̌ lɛ wu é ɖé nɔ xlɛ́ ali mɛ lɛ ɖò mɛɖesunɔ tɔn mɛ."
+    ],
+    "specCard": {
+      "title": "Tɛnkpénúmɛ azɔ̌ tɔn",
+      "terms": [
+        {
+          "term": "Nǔ e hu dó mɛ lɛ é",
+          "definition": "Nukúntínkpénúmɛ titewungbe tɔn"
+        },
+        {
+          "term": "Ðèñóíîê",
+          "definition": "Nǔ e è sɔ́ dó wà azɔ̌ ɔ́ ná é kpo nǔ e è sixu wà é kpo"
+        },
+        {
+          "term": "Xò azɔ̌ ɔ́ tɔn",
+          "definition": "Togun ɔ tɔn e è nɔ ylɔ ɖɔ GitHub é"
+        },
+        {
+          "term": "Akpàkpàkpà",
+          "definition": "IATF tito tɔn tɔn"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Sɛ́n ɔ",
+      "title": "Nɛ̌ é nɔ w'azɔ̀ gbɔn",
+      "intro": "Modèle ɔ nɔ nɔ kpɛví bo nɔ zɔ́n bɔ ali tobutóbú ɔ nɔ bɔwǔ bɔ è na xwedó."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "È ɖɔ nǔ e sín hudo è ɖó é",
+        "paragraphs": [
+          "Ahwan ɖokpo, kplékplé ɖokpo, alǒ mɛ ɖokpo ɖokpo sixu sɛ́n nǔ byɔ́ mɛ é ɖé dó mɛɖesɔhwe sín hudo titewungbe ɖé wu.",
+          "Nǔ byɔ lɛ sixu bɛ́ gbɔn ɛntɛnɛti jí, alǒ gbɔn alokan e mɛ è nɔ sɛ́ alokan lɛ dó é jí <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, alǒ gbɔn Discord jí."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF nɔ kpɔn é",
+        "paragraphs": [
+          "Mǐ nɔ kpɔ́n azɔ̌ e è sɔ́ dó wà é, nǔ e è sixu wà é kpo, bo nɔ ɖɔ ɖɔ azɔ̌ ɔ kún nyí azɔ̌ mɛɖesunɔ tɔn ɖé ó à jí."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "è blǒ wemaxɔmɛ̀ mɛ̀ nú mɛ̀ lɛ́ɛ",
+        "paragraphs": [
+          "Enyi è yí gbè nú azɔ̌ ɖé ɔ, è nɔ tɔ́n ɛ ɖò tutoblonunu IATF tɔn mɛ ɖò acɛkpikpa copyleft tɔn mɛ.",
+          "Nǔɖókpɔ́ ɔ́ nɔ́ wá nyí xwégbe nú mɛ lɛ́ɛ bǐ bɔ è nɔ mɔ sɛ́n ɔ́, nǔ e è nɔ lɛ́ w'ɛ, wema lɛ, kpo nǔ è nɔ jla lɛ é kpo."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Gbenɔzɔ́watɔ́ ɖé wɛ nɔ kpé nukún dó azɔ̌ ɔ wu",
+        "paragraphs": [
+          "E nɔ sɔ́ azɔ̌watɔ́ e nɔ kpé nukún dó azɔ̌ ɔ́ wu é ɖokpó ɖó azɔ̌xwé è nɔ bló azɔ̌ lɛ́ɛ dó é jí, bɔ mɛ bǐ nɔ mɔ azɔ̌ e è nɔ wa é."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Sɛ́dó",
+      "title": "Tɛnkpénúmɛ nú azɔ̌ lɛ"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fín fí jɛ́n mi na bɛ́",
+      "title": "Zɔ́n azɔ̌ e ɖò jijɛ wɛ é kpɔ́n, alǒ bɛ́ azɔ̌ tawun tawun ɖé"
+    },
+    "paragraphs": [
+      "Zɔ́n wema jí bo kpɔ́n nǔ e nyí togun ɔ tɔn ɖ'ayǐ lɛ é, alǒ bɛ́ nùɖé lɛ dó wema jí, nú tagba tawun tawun ɖé ɖò alɔwliwli jí wá huzu azɔ̌ ɖé ɔ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

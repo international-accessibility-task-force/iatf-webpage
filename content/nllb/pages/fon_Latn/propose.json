@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Sɛ́n azɔ̌ e jí è sixu kpéwú gbɔn é ɖé byɔ",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Sɛ́n azɔ̌ e jí è sixu kpéwú gbɔn é ɖé byɔ",
+    "lead": "IATF nɔ kpɔ́n nùxwlémɛ lɛ́ɛ dó azɔ̌ e è nɔ bló bɔ è nɔ mɔ nǔ jɛ mɛ lɛ é wu bɔ é nɔ bɛ́ sín hudo titewungbe ɖé mɛ.",
+    "support": [
+      "É byɔ ɖɔ è ni ɖɔ nùɖé lɛ́ɛ bǐ nú we ǎ, amɔ̌, nú a ko mɔ nukúnnú jɛ tagba ɔ wu céɖécéɖé, bo ɖɔ mɛ e é wà nǔ dó wu é, bo lɛ́ ɖɔ nǔ e wu é ɖò taji é ɔ́, é ko kpé."
+    ],
+    "actions": [
+      {
+        "label": "D'azɔ̀ nù byɔ̀",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Zɔ́n Discord ɖó tɛn tɔn mɛ̀",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanlin lɛ",
+      "title": "Ðɔ ali e bɔwǔ hugǎn é"
+    },
+    "intro": [
+      "Ali ɖokpo ɔ wɛ è nɔ gbɔn nú ali lɛ bǐ."
+    ],
+    "items": [
+      {
+        "label": "Tɛntɛn ɛntɛnɛti tɔn",
+        "body": "Mi zán wema e ɖò do ɔ mɛ é bo wlan nǔ e mi byɔ lɛ é."
+      },
+      {
+        "label": "E-mail",
+        "body": "Sɛ́n ɔ sɛ́ dó {{contact.requestsEmail}}Sɛ́n e è nɔ sɛ́ dó mɛ gbɔn alokan jí lɛ́ɛ hɛn ɔ́, ye na wlan dó nǔ e è byɔ mɛ lɛ é jí hwenu e è na ɖɔ xó dó nǔ enɛ lɛ wu vɔ é."
+      },
+      {
+        "label": "Akpàkpà",
+        "body": "Mi bɛ́ fí ɔ́ nú é nyɔ́ hú mɔ̌. Nǔ e è byɔ ɔ́ nɔ lɛ́ yì fí ɖokpó ɔ́."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "cobonu a na sɛ́ nǔ byɔ mɛ dó",
+    "paragraphs": [
+      "IATF nɔ w'azɔ̀ ɖò mɛ̀ lɛ́ɛ sí. È hɛn ɔ è na wlan nǔ e è byɔ lɛ é sín tinmɛ bɔ è na lɛ́ wlan ɖò mɛ́ lɛ sí ɖò GitHub tɔn mɛ̀, ɖò tɛn ɛntɛnɛti tɔn elɔ jí, alǒ ɖò wè lɛ bǐ jí.",
+      "Mi ma sɔ́ adlɛsi mɛɖesunɔ tɔn lɛ, telefɔ́n númɛ́ lɛ, xóɖiɖɔ dotóoxwé tɔn lɛ alǒ mɛ e nɔ zán azɔwanú e nɔ d'alɔ mɛ lɛ é ɖě dó mɛ ó, enyi é ɖò dandan bɔ mi yí gbè bɔ IATF na kpɔ́n nǔ enɛ lɛ jí ǎ ɔ nɛ.",
+      "IATF nɔ ɖe mɛɖesunɔ sín nǔ e ma sɔ́ byɔ́ ǎ lɛ́ɛ síin cobɔ é na nɔ jla nǔ e è byɔ lɛ é."
+    ]
+  },
+  "review": {
+    "title": "Kpɔ́n nǔ e è ɖò te kpɔ́n lɛ é",
+    "paragraphs": [
+      "Sɛ́n e è sɛ́ dó ɖɔ è ni yí gbè nú nǔ e è byɔ é ɔ́ kún ɖɔ è yí gbè n'i ó.",
+      "IATF nɔ kpɔ́n nùxwlémɛ lɛ́ɛ jí dó azɔ̌ e è w'azɔ̌ ɔ́ wú é wu, nǔ e è sixu wà é, lè e è hɛn ɔ́ è na mɔ é kpo, bo nɔ ɖɔ ɖɔ azɔ̌ ɔ ɖó na nɔ kplé ɖò fí è nɔ ɖó nǔ lɛ bǐ dó é ɖé mɛ à jí.",
+      "È sixu gbɛ́ nǔ e è byɔ lɛ é ɖé lɛ, è sixu gbɔ nú ye, alǒ è sixu ɖyɔ tito nǔ lɛ tɔn cobɔ è na yí gbè nú ye."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Sɛ́nkpíkpé",
+      "title": "Sɛ́n dó"
+    },
+    "fields": [
+      {
+        "kind": "nǔ è nɔ byɔ mɛ é",
+        "name": "mɛ e ɖò nǔ byɔ wɛ é",
+        "label": "nyikɔ towe alǒ tutoblonunu towe",
+        "helper": "Mɛ̌ ka ɖò nǔ byɔ wɛ?"
+      },
+      {
+        "kind": "ɖè",
+        "name": "ali e jí è nɔ gbɔn bó nɔ mɔ mɛ é",
+        "label": "Ali e jí è nɔ yí gbè bɔ è nɔ gbɔn bo nɔ mɔ mɛ é",
+        "helper": "Nɛ̌ è ka ɖó na wà nǔ gbɔn?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Akpàkpà"
+        ]
+      },
+      {
+        "kind": "nǔ è nɔ byɔ mɛ é",
+        "name": "Xóɖɔɖókpɔ́",
+        "label": "Sɛ́dó e è na dó kàn xá mɛ lɛ é",
+        "helper": "E-mail address or Discord handle for follow-up.",
+        "placeholder": "E-mail address alǒ Discord handle",
+        "required": true
+      },
+      {
+        "kind": "nǔ è nɔ byɔ mɛ é",
+        "name": "gbè",
+        "label": "Gbe e è nɔ dó é",
+        "helper": "Gbe e mi nɔ yí wǎn na é, enyi é ɖò taji ɔ.",
+        "value": "Glɛ̌sigbe"
+      },
+      {
+        "kind": "wemaxixa",
+        "name": "tagba",
+        "label": "Nùkanbyɔ tɛ a ka ɖò tɛnkpɔn wɛ bo na ɖeɖɛ?",
+        "helper": "Ðɔ nǔ e nɔ zɔ́n bɔ è nɔ mɔ nukúnnú jɛ nǔ mɛ ǎ é.",
+        "required": true
+      },
+      {
+        "kind": "wemaxixa",
+        "name": "mɛ e nǔ enɛ wà nǔ dó wu lɛ é",
+        "label": "Mɛ̌ e nǔ enɛ na wà nǔ dó wu?",
+        "helper": "Mɛ̌ é ka na d'alɔ?",
+        "required": true
+      },
+      {
+        "kind": "wemaxixa",
+        "name": "extraContext",
+        "label": "E kpodo nu ɖevo lɛ kpo",
+        "helper": "Ðɔ nǔ ɖevo ɖebǔ e na d'alɔ bo tinmɛ hudo ɔ: etɛwu é ɖò taji, kpɔ́ndéwú, nùjlɛdonǔwu lɛ, nùnywɛ xwitixwiti ɖé, alǒ ganxixo lɛ."
+      },
+      {
+        "kind": "ɖè",
+        "name": "openSourceConsent",
+        "label": "É nyɔ́ nú we ɖɔ è ni bló bɔ nǔ lɛ bǐ na nyí nǔ è è nɔ ylɔ ɖɔ open source é à?",
+        "helper": "azɔ̀ e è yí gbè ná lɛ́ɛ ɔ́' è nɔ ylɔ́ ɖɔ \"public repositories under IATF\".",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ɛɛn",
+          "É kún nyí mɔ̌ ó",
+          "Un ko tuùn ǎ"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Enyi è yí gbè ɔ",
+      "title": "Nǔ e yí gbè nyí é"
+    },
+    "items": [
+      "fí e è nɔ w'azɔ̀ nú mɛ lɛ́ɛ ɖò tutoblonunu IATF tɔn mɛ é wɛ nyí GitHub",
+      "mɔ̀jɛnǔtɔ́ e nɔ kpé nukún dó azɔ̌ ɔ́ wu é",
+      "copyleft license nú sɛ́n ɔ kpo azɔ̌ ɔ sín nǔ lɛ́ɛ kpo",
+      "kplékplé nǔ lɛ tɔn ɖò wemaxɔmɛ ɔ mɛ",
+      "wema e è wlan ɖò wemaxɔmɛ IATF tɔn mɛ é"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bǐ dó xóɖiɖɔ ɔ jí",
+      "title": "Sɛ́n klewun, bo ɖò wɛn é jɛxa bo bɛ́"
+    },
+    "paragraphs": [
+      "Enyi mi ɖó hudo bo na kpé nukún dó nǔ lɛ wu tawun bo lin ɖɔ é ɖó na nyí azɔ̌ nú mɛ lɛ bǐ ɔ, mi sɛ́ dó mǐ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

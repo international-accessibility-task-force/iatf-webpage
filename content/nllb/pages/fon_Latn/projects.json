@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Akɔ́nkpinkpan mɛ lɛ́ɛ tɔn",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Akɔ́nkpinkpan mɛ lɛ́ɛ tɔn",
+    "lead": "Sɛ́dó elɔ ɖò azɔ̌ e è nɔ bló nú togun ɔ bɔ IATF nɔ kpé nukún d'é wu lɛ é jí. Azɔ̌ è è yí gbè bɔ è nɔ wà lɛ é, azɔ̌xwé è nɔ wlan nǔ lɛ é kpo nùjlɛdonǔwu è è hɛn dó sɛ́xwé lɛ é kpó nɔ ɖò fí.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Sɛ́dó",
+      "title": "Sɛ́dó è ɖò wlan wɛ dìn é"
+    },
+    "intro": [
+      "Azɔ̌ e è yí gbè lɛ́ɛ ɔ́, è wlan ye ɖò fí hwenu e è ɖè ye tɔ́n é."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ðɔ nǔ e sín hudo a ɖó é",
+      "title": "Ðéóôåýù üôé ðñÝðåé íá ãßíåôáé ëïãéêü ðñüãñáììá"
+    },
+    "paragraphs": [
+      "IATF nɔ kpɔ́n nǔ e ɖò dandan bɔ è na bló bɔ mɛ lɛ ná mɔ lɛ é, bo na dó sixu huzu azɔ̌ e nyí mɛ bǐ tɔn bɔ è hɛn ɔ è na wlan é."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "È ko tɔ́n azɔ̌ lɛ́ɛ kpɔ́n ǎ",
+    "paragraphs": [
+      "IATF ɖò azɔ̌ tɔn nukɔn nukɔntɔn ɔ bló wɛ.",
+      "Mi hɛn ɔ, mi na lɛ́ sɛ́ nǔ byɔ́ ɔ́ dó, enyi mi ɖó hudo tawun ɖé bo na dó kpé nukún dó nǔ lɛ wu ɔ́."
+    ]
+  }
+}

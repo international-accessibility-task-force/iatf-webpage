@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Ðɔɖɔɖókpɔ́",
+    "title": "Sitemap",
+    "lead": "Akpá lɛ bǐ ɖò tɛn ɛntɛnɛti tɔn e è nɔ ylɔ ɖɔ iatf.cc é jí ɖò fí ɖokpo."
+  },
+  "sections": [
+    {
+      "title": "Akpá taji lɛ",
+      "items": [
+        {
+          "label": "Xwé",
+          "href": "/"
+        },
+        {
+          "label": "Tɛnkpɔn lɛ",
+          "href": "/projects/"
+        },
+        {
+          "label": "Sɛ́n azɔ̌ ɖé byɔ",
+          "href": "/propose/"
+        },
+        {
+          "label": "Axɔ́súɖuɖu",
+          "href": "/governance/"
+        },
+        {
+          "label": "D'alɔ mì",
+          "href": "/join/"
+        },
+        {
+          "label": "Nǔ e è sixu mɔ lɛ é",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Nǔ kpinkplɔn",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Tɛnkpɔn lɛ",
+  "projectsEmpty": "Nukúnɖókpɔ́ ɖé tíìn bɔ è tɔ́n ǎ."
+}
