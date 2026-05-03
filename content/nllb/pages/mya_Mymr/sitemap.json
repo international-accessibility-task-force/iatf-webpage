@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ဝက်ဘ်ဆိုက်မြေပုံ"
+  },
+  "hero": {
+    "eyebrow": "အညွှန်းကိန်း",
+    "title": "ဝက်ဘ်ဆိုက်မြေပုံ",
+    "lead": "iatf.cc မှာရှိတဲ့ စာမျက်နှာအားလုံး တစ်နေရာတည်းမှာ။"
+  },
+  "sections": [
+    {
+      "title": "ပင်မစာမျက်နှာများ",
+      "items": [
+        {
+          "label": "အိမ်",
+          "href": "/"
+        },
+        {
+          "label": "စီမံကိန်းများ",
+          "href": "/projects/"
+        },
+        {
+          "label": "စီမံကိန်းတစ်ခု တောင်းဆိုပါ",
+          "href": "/propose/"
+        },
+        {
+          "label": "အုပ်ချုပ်မှု",
+          "href": "/governance/"
+        },
+        {
+          "label": "ပူးပေါင်းပါ",
+          "href": "/join/"
+        },
+        {
+          "label": "လက်လှမ်းမီနိုင်မှု",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ပွင့်လင်းမြင်သာမှု",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "စီမံကိန်းများ",
+  "projectsEmpty": "မည်သည့် စီမံကိန်းမျှ မထုတ်ဝေရသေးပါ။"
+}

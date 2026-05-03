@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "မတွေ့ရ"
+  },
+  "hero": {
+    "eyebrow": "မတွေ့ရ",
+    "title": "တောင်းဆိုထားသော စာမျက်နှာကို ရှာမတွေ့နိုင်ပါ",
+    "lead": "အများပြည်သူဆိုင်ရာ နေရာသို့ ပြန်သွားရန် အောက်ပါ အဓိကလမ်းကြောင်းများကို သုံးပါ။",
+    "support": [],
+    "actions": [
+      {
+        "label": "အိမ်",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "သင်တောင်းဆိုထားသော လမ်းကြောင်းသည် မတည်ရှိပါ။"
+    ],
+    "items": [
+      {
+        "label": "အိမ်",
+        "href": "/"
+      },
+      {
+        "label": "စီမံကိန်းများ",
+        "href": "/projects/"
+      },
+      {
+        "label": "ပူးပေါင်းပါ",
+        "href": "/join/"
+      },
+      {
+        "label": "လက်လှမ်းမီနိုင်မှု",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "အုပ်ချုပ်မှု",
+        "href": "/governance/"
+      },
+      {
+        "label": "ပွင့်လင်းမြင်သာမှု",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
