@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Progetti di accessibilità al pubblico",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Progetti di accessibilità al pubblico",
+    "lead": "Questo registro elenca i progetti pubblici gestiti tramite IATF. I progetti di accessibilità accettati, le infrastrutture del sito e i prototipi archiviati sono mantenuti visibili qui.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Registro corrente"
+    },
+    "intro": [
+      "I progetti accettati sono elencati qui una volta pubblicati."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Fornire una richiesta",
+      "title": "Trasformare un'esigenza concreta di accessibilità in un progetto pubblico"
+    },
+    "paragraphs": [
+      "L'IATF esamina le esigenze concrete di accessibilità che possono essere trasformate in un utile lavoro pubblico open source."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nessun progetto ancora pubblicato",
+    "paragraphs": [
+      "L'IATF sta preparando il suo primo set di progetti pubblici.",
+      "È comunque possibile inviare una richiesta se si ha un'esigenza concreta di accessibilità."
+    ]
+  }
+}

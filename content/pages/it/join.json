@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Iscriversi all'IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Iscriversi all'IATF",
+    "lead": "L'adesione è aperta. Ci sono diversi modi per partecipare, sia che si faccia affidamento su tecnologie assistive, costruire software accessibile, tradurre, testare o mantenere un progetto. Le discussioni e le decisioni avvengono in pubblico su GitHub e Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ruoli",
+      "title": "Modi di contribuire"
+    },
+    "items": [
+      "<strong>Richiedi un progetto.</strong> Se si incontra un ostacolo all'accessibilità che potrebbe essere affrontato dal software pubblico open source, invialo attraverso l'ammissione delle richieste.",
+      "<strong>Test e revisione.</strong> Provare i progetti IATF con la tecnologia assistiva che si utilizza, segnalare ciò che funziona e ciò che non funziona, e archiviare i problemi direttamente sul repository pertinente.",
+      "<strong>Traduci.</strong> Il contenuto originale viene pubblicato prima in inglese, mentre le traduzioni vengono aggiunte man mano che i contributori sono disponibili, a cominciare dallo spagnolo.",
+      "<strong>Costruire.</strong> Raccogliere problemi in qualsiasi repository IATF, inviare richieste di estrazione o assumere un progetto come ingegnere responsabile.",
+      "<strong>Mantenere.</strong> I progetti esistenti hanno a volte bisogno di un nuovo operatore di manutenzione, la cui rotazione è una parte normale del modello, non un'eccezione."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canali",
+      "title": "Dove l'IATF lavora in pubblico"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problemi, richieste di estrazione, rilasci e documenti di progetto.",
+      "<strong>Discordia.</strong> Discussioni dal vivo, coordinamento e domande informali.",
+      "<strong>E-mail.</strong> Utilizzo <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> se né GitHub né Discord si adattano."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Passo successivo",
+      "title": "Scegli il canale che corrisponde a come vuoi contribuire"
+    },
+    "paragraphs": [
+      "Tutti i canali alimentano la stessa revisione pubblica e gli stessi archivi pubblici."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

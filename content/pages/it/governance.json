@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Modello di governance e di archivio",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Modello di governance e di archivio",
+    "lead": "IATF mantiene i progetti di accessibilità pubblici, leggibili e gestibili.",
+    "support": [
+      "Questa pagina spiega quali sono i requisiti, come vengono tenuti i repository e quali responsabilità a livello di repositorio si applicano dopo l'accettazione."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regolamento",
+      "title": "Adattamento alla missione, proprietà, autorizzazione"
+    },
+    "cards": [
+      {
+        "title": "Missione adeguata",
+        "paragraphs": [
+          "L'IATF accetta lavori che affrontano una reale barriera all'accessibilità e hanno un chiaro valore pubblico.",
+          "Un progetto dovrebbe essere utile oltre un singolo flusso di lavoro privato e utilizzabile come repository pubblico.",
+          "Per l'accessibilità al web, l'IATF utilizza [W3C WAI](https://www.w3.org/WAI/) L'esperienza diretta degli utenti delle tecnologie assistive è anche la prova pratica di ciò che funziona nell'uso reale."
+        ]
+      },
+      {
+        "title": "Accettazione del progetto",
+        "paragraphs": [
+          "Una proposta può essere accettata se l'esame dimostra che:"
+        ],
+        "items": [
+          "risponde ad una reale esigenza di accessibilità",
+          "il problema è sufficientemente chiaro da poter essere valutato",
+          "la portata è abbastanza realistico per lanciare",
+          "il lavoro è in linea con la missione dell'IATF",
+          "c'è un percorso plausibile per la manutenzione o il completamento"
+        ]
+      },
+      {
+        "title": "Proprietà del repository",
+        "paragraphs": [
+          "I progetti accettati sono creati nell'ambito dell'organizzazione IATF GitHub.",
+          "I repository rimangono lì in modo che ogni progetto mantenga una casa pubblica stabile, anche se i mantenitori cambiano in seguito."
+        ]
+      },
+      {
+        "title": "Licenziamento",
+        "paragraphs": [
+          "I progetti IATF utilizzano licenze copyleft a meno che un progetto non indichi diversamente:"
+        ],
+        "items": [
+          "<strong>Codice:</strong> AGPL-3.0",
+          "<strong>Documentazione:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingegnere o operatore di manutenzione responsabile",
+      "paragraphs": [
+        "Ogni progetto accettato deve avere un ingegnere o un responsabile della manutenzione nominato, che può ricevere l'accesso di amministrazione al repository ed è tenuto a:"
+      ],
+      "items": [
+        "sviluppo della guida in pubblico",
+        "mantenere la struttura del repository",
+        "rivedere o gestire i problemi e richieste di estrazione",
+        "Documentazione di importanti decisioni tecniche",
+        "mantenere il progetto comprensibile per gli altri"
+      ],
+      "footnote": "Questa è la responsabilità a livello di repository. La proprietà organizzativa rimane con l'IATF. La responsabilità qui è l'amministrazione del repertorio, la direzione tecnica e il coordinamento pubblico  non la consegna privata illimitata, le integrazioni personalizzate o gli impegni di livello di servizio al di fuori della tabella di marcia pubblica."
+    },
+    "publicDevelopment": {
+      "title": "Sviluppo pubblico",
+      "paragraphs": [
+        "I progetti lanciati attraverso l'IATF sono sviluppati in pubblico di default."
+      ],
+      "items": [
+        "Codice sorgente",
+        "tematiche",
+        "Documentazione",
+        "note sulla tabella di marcia",
+        "Storia di rilascio"
+      ],
+      "footnote": "Le conoscenze importanti del progetto non dovrebbero vivere solo nelle chat private o nelle caselle di posta."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Registri pubblici",
+      "title": "Registri pubblici delle richieste"
+    },
+    "paragraphs": [
+      "Le richieste che entrano nell'IATF tramite il sito web, e-mail, Discord, GitHub o altri canali IATF possono diventare record di richieste pubbliche.",
+      "Un record di richiesta pubblica non è necessariamente il messaggio originale. IATF può riassumere, modificare o ristrutturare una richiesta prima della pubblicazione in modo che la necessità di accessibilità possa essere riesaminata senza esporre informazioni personali inutili.",
+      "I record delle richieste pubbliche possono essere archiviati nell'organizzazione IATF GitHub, su questo sito web o entrambi.",
+      "Prima della pubblicazione, l'IATF rimuove i dati di contatto personali non necessari, gli indirizzi privati e i dati identificativi relativi ai singoli utenti di tecnologie di assistenza, a meno che la pubblicazione non sia chiaramente prevista e appropriata.",
+      "Discord viene utilizzato per il coordinamento informale. IATF non archivia separatamente le conversazioni di Discord per impostazione predefinita e la conservazione dei messaggi è controllata da Discord. Le decisioni prese in Discord dovrebbero essere riassunte nel registro pubblico su GitHub o sulla pagina del progetto pertinente.",
+      "I record di richiesta sono esclusi dall'indicizzazione dei motori di ricerca quando tecnicamente pratico. Pubblico significa revisionabile e responsabile. Non significa ottimizzato per la scoperta attraverso ricerche di nomi.",
+      "IATF può aggiornare o rimuovere i record dalle superfici pubbliche controllate dall'IATF, ma non può garantire la rimozione da cache di terze parti, notifiche, forks, screenshot, motori di ricerca, Discord o altri sistemi esterni.",
+      "Se un messaggio deve rimanere privato, non inviarlo attraverso i canali pubblici IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ruolo organizzativo",
+      "title": "Presidenza"
+    },
+    "lead": "Questo è distinto dal ruolo di ingegnere responsabile per progetto: il presidente è responsabile dell'organizzazione nel suo complesso, non della direzione quotidiana di un singolo repository.",
+    "duties": {
+      "title": "Cosa fa la sedia",
+      "items": [
+        "Contiene le autorizzazioni del proprietario sull'organizzazione IATF GitHub",
+        "Firma delle decisioni di accettazione del progetto e di archiviazione",
+        "Funziona come punto di contatto pubblico per l'IATF",
+        "Coordina l'elezione annuale"
+      ],
+      "footnote": "Il presidente non impegna l'IATF a forniture private, lavori retribuiti o accordi di livello di servizio, e non prevale sulle decisioni del responsabile della manutenzione per repository in materia di direzione tecnica."
+    },
+    "election": {
+      "title": "Elezione annuale",
+      "paragraphs": [
+        "Il presidente viene eletto una volta all'anno, le elezioni si svolgono nelle prime due settimane di dicembre, i risultati vengono annunciati entro il 15 dicembre e il nuovo mandato inizia il 1° gennaio.",
+        "I votanti ammissibili sono persone che hanno svolto un ruolo di mantenimento su qualsiasi repository IATF durante l'anno e hanno fatto almeno un contributo fuso a un repertorio dell'IATF in quell'anno. Ogni votante ammissibile ha un voto. Il candidato con il maggior numero di voti vince; in caso di parità, un ballottaggio si svolge nella terza settimana di dicembre.",
+        "L'elezione viene eseguita come una discussione pubblica su GitHub nel repository di governance IATF designato, quindi i candidati, il voto e il risultato fanno tutti parte del registro pubblico."
+      ]
+    },
+    "continuity": {
+      "title": "Continuità",
+      "paragraphs": [
+        "Se non si svolgono elezioni in un dato anno, il presidente attuale continua nel ruolo fino alle prossime elezioni. Questa è una continuazione indefinita, non un periodo di grazia  il modello è progettato per mantenere l'organizzazione stabile quando l'attività è bassa, non per forzare una transizione per la quale nessuno è pronto.",
+        "Il presidente può dimettersi in qualsiasi momento; i mantenitori attivi possono anche convocare un'elezione straordinaria con una ragione dichiarata, eseguita secondo le stesse regole delle elezioni annuali."
+      ]
+    },
+    "current": {
+      "title": "Presidente attuale",
+      "fields": [
+        {
+          "label": "Presidenza",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Termine",
+          "value": "Fino alle elezioni di dicembre 2026"
+        },
+        {
+          "label": "Funzione formalizzata",
+          "value": "2026"
+        },
+        {
+          "label": "Prima elezione prevista",
+          "value": "Dicembre 2026"
+        }
+      ]
+    },
+    "footnote": "Il ruolo di presidente è stato formalizzato nel 2026 per rendere esplicita la gestione a livello organizzativo."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stato del progetto",
+      "paragraphs": [
+        "I progetti utilizzano un piccolo insieme di stati pubblici:"
+      ],
+      "items": [
+        "Proposta",
+        "Accettato",
+        "Attivo",
+        "Stabile",
+        "Ricerca di un operatore di manutenzione",
+        "Archiviato"
+      ],
+      "footnote": "Questi stati rendono il registro facile da scansionare."
+    },
+    "reassignment": {
+      "title": "Riassegnazione e archiviazione",
+      "paragraphs": [
+        "Se un mantenitore si allontana o diventa inattivo, l'IATF può riassegnare la responsabilità, sospendere lo sviluppo o archiviare il progetto.",
+        "Un progetto può anche essere archiviato quando la necessità originaria è stata soddisfatta, la manutenzione è stata interrotta o il lavoro continuato non è più realistico."
+      ],
+      "footnote": "I progetti archiviati rimangono visibili al pubblico a meno che non vi sia una ragione impellente per fare altrimenti."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota di confine",
+      "title": "Ciò che l'IATF non garantisce"
+    },
+    "items": [
+      "consegna a clienti privati",
+      "accordi di livello di servizio",
+      "accettazione di ogni proposta",
+      "manutenzione a lungo termine per ogni progetto"
+    ],
+    "footnote": "IATF è un modello di archivio pubblico, non un servizio di consegna privato."
+  }
+}

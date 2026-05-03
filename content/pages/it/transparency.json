@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Trasparenza",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Trasparenza",
+    "lead": "IATF funziona in pubblico per impostazione predefinita. Le decisioni di progetto, i cambiamenti di codice, le modifiche di governance e i costi operativi sono registrati in luoghi pubblici. Questa pagina elenca dove vive ogni tipo di record e come leggerlo.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Registrazioni",
+      "title": "Dove vivono gli archivi"
+    },
+    "items": [
+      "<strong>Decisioni di progetto.</strong> Le decisioni di accettazione, archiviazione e riassegnazione sono registrate come emissioni o rilasci nel repository pertinente e riassunte nel registro pubblico. <a href=\"/projects/\">Registro</a>- Cosa ?",
+      "<strong>Richiedi i registri.</strong> I record di richiesta pubblica sono archiviati nell'organizzazione IATF GitHub, su questo sito web o entrambi. I record possono riassumere, modificare o ristrutturare la richiesta originale in modo che la necessità di accessibilità possa essere rivista senza esporre informazioni personali inutili. Le decisioni di discordia sono riassunte nel record pubblico quando influenzano un progetto o una decisione di governance. I registri di richiesta sono esclusi dall'indicizzazione dei motori di ricerca laddove tecnicamente praticabile. Visualizzare i record: richiesta di prima pubblicazione in attesa.",
+      "<strong>Codice cambiato.</strong> Ogni modifica di codice è un commit pubblico sul repository pertinente. <a href=\"{{contact.githubOrgUrl}}\">Organizzazione GitHub</a>- Cosa ?",
+      "<strong>Cambiamenti di governo.</strong> Gli aggiornamenti alla pagina di governance sono tracciati come impegni al <code>sito Internet dell'IATF</code> Visualizza il repository. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">cronologia di commit</a> su GitHub.",
+      "<strong>Spese operative.</strong> IATF mantiene bassi i costi operativi e registra le spese ricorrenti per le infrastrutture pubbliche.",
+      "<strong>Note di coordinamento.</strong> Note da qualsiasi revisione o decisione coordinata in diretta su GitHub Discussioni sul repository pertinente  visualizzazione <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Discussioni</a> sulla <code>sito Internet dell'IATF</code> repository."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Costi",
+      "title": "Registrazione dei costi operativi"
+    },
+    "paragraphs": [
+      "L'IATF mantiene la sua infrastruttura pubblica intenzionalmente piccola. Dal 2022, i principali costi operativi ricorrenti sono stati i nomi di dominio. L'hosting ha utilizzato infrastrutture a livello gratuito o a basso costo laddove possibile.",
+      "Questo record non è un bilancio sottoposto a revisione contabile, ma un registro pubblico dei costi operativi dell'infrastruttura utilizzata per mantenere l'IATF online."
+    ],
+    "footnote": "Le ricevute possono essere citate o pubblicate dopo la redazione; gli indirizzi personali, i dettagli di fatturazione e le informazioni di conto non necessarie non fanno parte del registro pubblico.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Appendici",
+            "value": "Il progetto si è spostato da Vercel a Cloudflare e ha iniziato a utilizzare il più breve <code>iatf.cc</code> dominio."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>accessibilità internazionaletaskforce.com</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "18,68 dollari statunitensi"
+          },
+          {
+            "label": "Appendici",
+            "value": "Costo del dominio finanziato da mugiwarafx. Hosting utilizzato infrastruttura di livello gratuito o a basso costo."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>accessibilità internazionaletaskforce.com</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "17,06 dollari statunitensi"
+          },
+          {
+            "label": "Appendici",
+            "value": "Costo del dominio finanziato da mugiwarafx. Hosting utilizzato free-tier o infrastruttura a basso costo attraverso Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>accessibilità internazionaletaskforce.com</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Appendici",
+            "value": "Costo del dominio finanziato da mugiwarafx. Hosting utilizzato infrastruttura di livello gratuito o a basso costo."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Dominio",
+            "value": "<code>accessibilità internazionaletaskforce.com</code>"
+          },
+          {
+            "label": "Costo",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Appendici",
+            "value": "Costo del dominio finanziato da mugiwarafx. Hosting utilizzato infrastruttura di livello gratuito o a basso costo attraverso Pagine GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota di confine",
+      "title": "Ciò che non è pubblico"
+    },
+    "paragraphs": [
+      "Alcuni materiali sono tenuti fuori dai registri pubblici a scopo:"
+    ],
+    "items": [
+      "Dati personali di contatto dei proponenti.",
+      "Corrispondenza privata utilizzata solo per chiarire una richiesta prima che sia accettata, rifiutata o riassunta.",
+      "Indirizzi privati, numeri di telefono e dettagli personali non necessari.",
+      "Qualsiasi cosa che possa identificare un singolo utente di tecnologie assistive senza il suo consenso.",
+      "Conversazioni Raw Discord, a meno che un messaggio specifico non sia intenzionalmente spostato in un record di progetto pubblico."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Leggi di più",
+      "title": "La governance è il manuale di regole che sta dietro a questi documenti."
+    },
+    "paragraphs": [
+      "Se vuoi capire come i progetti vengono accettati, archiviati o riassegnati, leggi la pagina governance."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilità",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilità",
+    "lead": "IATF mira a mantenere questo sito web semplice, leggibile, accessibile tramite tastiera e compatibile con le tecnologie di assistenza.",
+    "support": [
+      "Per l'accessibilità al web, l'IATF utilizza [W3C WAI](https://www.w3.org/WAI/) L'accessibilità pratica si basa anche sull'esperienza diretta degli utenti delle tecnologie di assistenza."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Relazione",
+      "title": "Segnalare un problema di accessibilità"
+    },
+    "paragraphs": [
+      "Se trovate un ostacolo all'accessibilità su questo sito, vi preghiamo di segnalarlo via e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Tra le relazioni utili figurano:"
+    ],
+    "items": [
+      "la pagina in cui si è verificato il problema",
+      "quello che stavi cercando di fare .",
+      "la tecnologia di assistenza, il browser o il dispositivo utilizzato, se pertinente",
+      "Cosa è andato storto?",
+      "che cosa avrebbe aiutato"
+    ],
+    "footnote": "Non è necessario redigere un rapporto formale sul bug."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipolazione",
+      "title": "Gestione di questioni pubbliche"
+    },
+    "paragraphs": [
+      "I problemi di accessibilità possono essere riassunti nel repository pubblico pertinente in modo che possano essere risolti in modo aperto; i dati di contatto personali e le informazioni private non necessarie vengono rimossi prima della pubblicazione.",
+      "Se la sua relazione contiene informazioni private, lo indichi chiaramente nel messaggio."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Stato attuale",
+      "title": "Limitazioni note"
+    },
+    "paragraphs": [
+      "Questo sito è intenzionalmente piccolo e per lo più statico. Alcune versioni linguistiche potrebbero essere incomplete mentre vengono preparate le traduzioni."
+    ]
+  }
+}

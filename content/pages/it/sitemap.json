@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mappa del sito"
+  },
+  "hero": {
+    "eyebrow": "Indice",
+    "title": "Mappa del sito",
+    "lead": "Tutte le pagine pubbliche su iatf.cc, in un unico posto."
+  },
+  "sections": [
+    {
+      "title": "Pagine principali",
+      "items": [
+        {
+          "label": "A casa .",
+          "href": "/"
+        },
+        {
+          "label": "Progetti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Richiedi un progetto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Governance",
+          "href": "/governance/"
+        },
+        {
+          "label": "Unisciti .",
+          "href": "/join/"
+        },
+        {
+          "label": "Accessibilità",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Trasparenza",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Progetti",
+  "projectsEmpty": "Nessun progetto ancora pubblicato."
+}

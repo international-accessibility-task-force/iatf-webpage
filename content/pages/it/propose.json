@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Richiedere un progetto di accessibilità",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Richiedere un progetto di accessibilità",
+    "lead": "L'IATF esamina le richieste di progetti di accessibilità che partono da un reale bisogno.",
+    "support": [
+      "Non è necessaria una specifica completa, basta un problema chiaro, chi è interessato e perché è importante per iniziare."
+    ],
+    "actions": [
+      {
+        "label": "Iniziare una richiesta",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Usare invece Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Canali",
+      "title": "Scegli la strada più facile."
+    },
+    "intro": [
+      "Tutte le rotte sono sottoposte alla stessa analisi."
+    ],
+    "items": [
+      {
+        "label": "Sito web",
+        "body": "Utilizzare il seguente modulo per presentare una richiesta strutturata."
+      },
+      {
+        "label": "E-mail",
+        "body": "Inviare la richiesta direttamente a: {{contact.requestsEmail}}Le richieste di posta elettronica possono diventare registri di richieste pubbliche dopo la revisione e la redazione."
+      },
+      {
+        "label": "Discordia",
+        "body": "Iniziamo da lì se è più facile. La richiesta passa comunque alla stessa revisione."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Prima di inviare una richiesta",
+    "paragraphs": [
+      "Le richieste possono essere riassunte e pubblicate come record di richieste pubbliche nell'organizzazione IATF GitHub, su questo sito web o entrambi.",
+      "Non includere indirizzi privati, numeri di telefono, dettagli medici o informazioni identificative su singoli utenti di tecnologie assistive a meno che non sia necessario e non si sia a proprio agio con la revisione da parte dell'IATF.",
+      "L'IATF rimuove i dati di contatto personali non necessari prima di pubblicare i registri delle richieste."
+    ]
+  },
+  "review": {
+    "title": "Aspettative di revisione",
+    "paragraphs": [
+      "La presentazione di una richiesta non garantisce l'accettazione.",
+      "L'IATF esamina le richieste per l'idoneità alla missione, la fattibilità, l'utilità e se il lavoro appartiene a un repository pubblico.",
+      "Alcune richieste possono essere rifiutate, rinviate o modificate prima dell'accettazione."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Modulo di richiesta",
+      "title": "Invio di una richiesta"
+    },
+    "fields": [
+      {
+        "kind": "Input (input)",
+        "name": "richiedente",
+        "label": "Nome o organizzazione",
+        "helper": "Chi sta facendo la richiesta?"
+      },
+      {
+        "kind": "selezionare",
+        "name": "Strada di contatto",
+        "label": "Percorso di contatto preferito",
+        "helper": "Come dovrebbe avvenire il follow-up?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Discordia"
+        ]
+      },
+      {
+        "kind": "Input (input)",
+        "name": "Informazioni di contatto",
+        "label": "Dati di contatto",
+        "helper": "Indirizzo e-mail o indirizzo Discord per il follow-up.",
+        "placeholder": "Indirizzo e-mail o indirizzo Discord",
+        "required": true
+      },
+      {
+        "kind": "Input (input)",
+        "name": "lingua",
+        "label": "Lingua",
+        "helper": "La lingua preferita, se pertinente.",
+        "value": "Inglese"
+      },
+      {
+        "kind": "Area di testo",
+        "name": "problema",
+        "label": "Che problema stai cercando di risolvere?",
+        "helper": "Descrivete la barriera in parole semplici.",
+        "required": true
+      },
+      {
+        "kind": "Area di testo",
+        "name": "Utenti coinvolti",
+        "label": "Chi è colpito?",
+        "helper": "A chi potrebbe servire?",
+        "required": true
+      },
+      {
+        "kind": "Area di testo",
+        "name": "extraContext",
+        "label": "Contesto aggiuntivo",
+        "helper": "Condividi qualsiasi altra cosa che aiuti a spiegare la necessità: perché è importante, esempi, riferimenti, un'idea di software approssimativa o vincoli temporali."
+      },
+      {
+        "kind": "selezionare",
+        "name": "openSourceConsent",
+        "label": "Ti senti a tuo agio con lo sviluppo open source?",
+        "helper": "I progetti accettati sono depositi pubblici nell'ambito dell'IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "- Si ' , si ' .",
+          "No , no , no .",
+          "Non ne sono ancora sicuro."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se accettato",
+      "title": "Che cos'è l'accettazione"
+    },
+    "items": [
+      "un repository pubblico nell'organizzazione IATF GitHub",
+      "un ingegnere responsabile assegnato al progetto",
+      "una licenza copyleft per il codice e i materiali del progetto",
+      "sviluppo pubblico nel repository",
+      "una voce di registro sul sito dell'IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Iniziare la conversazione",
+      "title": "Una richiesta breve e chiara è sufficiente per iniziare"
+    },
+    "paragraphs": [
+      "Se avete un vero bisogno di accessibilità e pensate che dovrebbe diventare un progetto pubblico, inviatelo a noi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

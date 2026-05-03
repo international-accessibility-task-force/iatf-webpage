@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Non trovato"
+  },
+  "hero": {
+    "eyebrow": "Non trovato",
+    "title": "La pagina richiesta non è stata trovata",
+    "lead": "Usate i percorsi principali qui sotto per tornare al sito pubblico.",
+    "support": [],
+    "actions": [
+      {
+        "label": "A casa .",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Il percorso richiesto non esiste."
+    ],
+    "items": [
+      {
+        "label": "A casa .",
+        "href": "/"
+      },
+      {
+        "label": "Progetti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Unisciti .",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilità",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governance",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trasparenza",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
