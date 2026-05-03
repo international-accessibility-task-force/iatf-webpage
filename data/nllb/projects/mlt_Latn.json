@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Il-websajt tal-IATF",
+    "summary": "Is-sit pubbliku għat-Task Force dwar l-Aċċessibbiltà Internazzjonali.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "L-IATF kienet teħtieġ dar pubblika stabbli li tispjega l-mudell, telenka l-proġetti, u tipponta lill-kontributuri għall-pass li jmiss it-tajjeb.",
+    "why": "Is-sit huwa l-bieb ta' quddiem pubbliku ta' l-IATF. Huwa mibni bħala proġett statiku żgħir sabiex ikun faċli biex jinqara, jiġi tradott, u jinżamm miftuħ.",
+    "scopeIn": [
+      "Paġni ta' destinazzjoni pubbliċi li jispjegaw il-mudell tal-IATF",
+      "Reġistru pubbliku ta' proġetti IATF aċċettati, attivi, u arkivjati bl-istatus, il-manutenzjoni, ir-repożitorju, u d-demo",
+      "Paġna u formola ta' dħul ta' talba",
+      "Paġni dwar il-governanza u t-trasparenza",
+      "Sors bl-Ingliż b'istruttura lesta għat-traduzzjoni",
+      "L-użu statiku fuq l-assi statiċi tal-ħaddiema ta' Cloudflare"
+    ],
+    "scopeOut": [
+      "Żoni tal-membri privati, kontijiet, jew flussi ta' login",
+      "Hosting tal-kodiċi tas-sors tal-proġett, li jgħix fir-repożitorju proprju ta' kull proġett",
+      "Chat f'ħin reali, li jgħix f'Discord",
+      "Traċċar tal-kwistjonijiet għal proġetti individwali, li jgħixu fir-repożitorju GitHub ta 'kull proġett"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie tal-IATF",
+    "summary": "Prototip bikri tal-IATF, arkivjat wara li laħaq punt ta' waqfien naturali.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Esplorazzjoni bikrija ta' għodda ffokata fuq l-aċċessibbiltà taħt l-ombrella tal-IATF.",
+    "why": "Ir-repożitorju jinżamm pubbliku bħala rekord tax-xogħol, anke jekk l-iżvilupp attiv waqaf.",
+    "scopeIn": [
+      "Prototip bikri ta' għodda ffokata fuq l-aċċessibbiltà miżmuma bħala rekord pubbliku"
+    ],
+    "scopeOut": [
+      "Xogħol attiv ta' żvilupp jew karatteristika",
+      "Impenji ta' manteniment",
+      "Użu rakkomandat fil-produzzjoni"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Il-bot tal-IATF",
+    "summary": "Robot tal-komunità tal-IATF, arkivjat wara li laħaq punt ta' waqfien naturali.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Awtomazzjoni madwar il-kanali tal-komunità tal-IATF.",
+    "why": "Ir-repożitorju jinżamm pubbliku bħala rekord tax-xogħol, anke jekk l-iżvilupp attiv waqaf.",
+    "scopeIn": [
+      "L-awtomazzjoni tad-diskordija madwar il-kanali tal-komunità tal-IATF, miżmuma bħala rekord pubbliku"
+    ],
+    "scopeOut": [
+      "Xogħol attiv ta' żvilupp jew karatteristika",
+      "Impenji ta' manteniment",
+      "Użu rakkomandat fil-produzzjoni"
+    ]
+  }
+]

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Talba għal proġett ta' aċċessibbiltà",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Talba għal proġett ta' aċċessibbiltà",
+    "lead": "L-IATF jeżamina t-talbiet għal proġetti ta' aċċessibbiltà li jibdew minn ħtieġa reali.",
+    "support": [
+      "M'għandekx bżonn speċifikazzjoni sħiħa. B'problema ċara, lil min taffettwa, u għaliex hi importanti huwa biżżejjed biex tibda."
+    ],
+    "actions": [
+      {
+        "label": "Ibda talba",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Uża Discord minflok",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanali",
+      "title": "Agħżel l-eħfef rotta"
+    },
+    "intro": [
+      "Ir-rotot kollha jidħlu fl-istess reviżjoni."
+    ],
+    "items": [
+      {
+        "label": "Il-websajt",
+        "body": "Uża l-formola ta' hawn taħt biex tissottometti talba strutturata."
+      },
+      {
+        "label": "E-mail tiegħek",
+        "body": "Ibgħat it-talba direttament lil {{contact.requestsEmail}}It-talbiet bil-posta elettronika jistgħu jsiru rekords pubbliċi ta' talbiet wara li jiġu riveduti u rreġistrati."
+      },
+      {
+        "label": "Diskordju",
+        "body": "Ibda hemmhekk jekk dan ikun l-eħfef. It-talba xorta timxi fl-istess reviżjoni."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Qabel ma tibgħat talba",
+    "paragraphs": [
+      "L-IATF jaħdem fil-pubbliku. It-talbiet jistgħu jiġu miġbura fil-qosor u ppubblikati bħala rekords ta 'talbiet pubbliċi fl-organizzazzjoni IATF GitHub, fuq dan il-websajt, jew it-tnejn.",
+      "M'għandekx tinkludi indirizzi privati, numri tat-telefown, dettalji mediċi, jew informazzjoni ta' identifikazzjoni dwar utenti individwali ta' teknoloġiji ta' assistenza sakemm ma jkunx meħtieġ u ma tkunx komdu li l-IATF jirrevediha.",
+      "L-IATF tneħħi d-dettalji ta' kuntatt personali mhux meħtieġa qabel ma jippubblika r-rekords tat-talba."
+    ]
+  },
+  "review": {
+    "title": "L-aspettattivi tar-reviżjoni",
+    "paragraphs": [
+      "Is-sottomissjoni ta' talba ma tiggarantixxix l-aċċettazzjoni.",
+      "L-IATF jirrevedi t-talbiet għall-adegwatezza tal-missjoni, il-fattibbiltà, l-utilità, u jekk ix-xogħol għandux post f'repożitorju pubbliku.",
+      "Xi talbiet jistgħu jiġu miċħuda, posposti, jew imfassla mill-ġdid qabel ma jiġu aċċettati."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formola tat-talba",
+      "title": "Trid tissottometti talba"
+    },
+    "fields": [
+      {
+        "kind": "id-dħul",
+        "name": "applikanti",
+        "label": "L-isem jew l-organizzazzjoni tiegħek",
+        "helper": "Min qed jagħmel it-talba?"
+      },
+      {
+        "kind": "Agħżel",
+        "name": "Ir-rotta ta' kuntatt",
+        "label": "Ir-rotta tal-kuntatt preferuta",
+        "helper": "Kif għandu jsir is-segwitu?",
+        "required": true,
+        "options": [
+          "E-mail tiegħek",
+          "Diskordju"
+        ]
+      },
+      {
+        "kind": "id-dħul",
+        "name": "Dettalji ta' kuntatt",
+        "label": "Dettalji ta' kuntatt",
+        "helper": "Indirizz tal-posta elettronika jew indirizz ta' Discord għal segwitu.",
+        "placeholder": "Indirizz tal-posta elettronika jew indirizz ta ' Discord",
+        "required": true
+      },
+      {
+        "kind": "id-dħul",
+        "name": "lingwa",
+        "label": "Lingwa",
+        "helper": "Il-lingwa preferuta tiegħek, jekk rilevanti.",
+        "value": "Ingliż"
+      },
+      {
+        "kind": "żona tat-test",
+        "name": "problema",
+        "label": "Liema problema qed tipprova ssolvi?",
+        "helper": "Iddeskrivi l-ostaklu b'lingwaġġ sempliċi.",
+        "required": true
+      },
+      {
+        "kind": "żona tat-test",
+        "name": "Utenti affettwati",
+        "label": "Min hu affettwat?",
+        "helper": "Min se jgħin b'dan?",
+        "required": true
+      },
+      {
+        "kind": "żona tat-test",
+        "name": "extraKontest",
+        "label": "Kontest addizzjonali",
+        "helper": "Skopri kwalunkwe ħaġa oħra li tgħin biex tispjega l-ħtieġa: għaliex huwa importanti, eżempji, referenzi, idea ta' softwer approssimattiva, jew restrizzjonijiet ta' żmien."
+      },
+      {
+        "kind": "Agħżel",
+        "name": "openSourceConsent (Il-kunsens tas-sors miftuħ)",
+        "label": "Komdu ma 'żvilupp ta' sors miftuħ pubbliku?",
+        "helper": "Il-proġetti aċċettati huma repożitorji pubbliċi taħt l-IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Iva",
+          "M' għandix.",
+          "Għadu mhux ċert"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Jekk tiġi aċċettata",
+      "title": "Xi tfisser l- aċċettazzjoni"
+    },
+    "items": [
+      "repożitorju pubbliku fl-organizzazzjoni GitHub tal-IATF",
+      "inġinier responsabbli assenjat għall-proġett",
+      "liċenzja copyleft għall-kodiċi u l-materjali tal-proġett",
+      "żvilupp pubbliku fir-repożitorju",
+      "entrata fir-reġistru fis-sit tal-IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ibda l- konversazzjoni",
+      "title": "Talba qasira u ċara hija biżżejjed biex tibda"
+    },
+    "paragraphs": [
+      "Jekk għandek ħtieġa reali ta' aċċessibbiltà u taħseb li dan għandu jsir proġett pubbliku, ibgħatilna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ingħaqad mal-IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ingħaqad mal-IATF",
+    "lead": "Is-sħubija hija miftuħa. Hemm diversi modi kif tieħu sehem, kemm jekk tiddependi fuq it-teknoloġija assistiva, tibni softwer aċċessibbli, tittraduċi, tittestja, jew iżżomm proġett. Id-diskussjonijiet u d-deċiżjonijiet iseħħu fil-pubbliku fuq GitHub u Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ir-rwoli",
+      "title": "Modi kif tista' tikkontribwixxi"
+    },
+    "items": [
+      "<strong>Talba għal proġett.</strong> Jekk tiltaqa' ma' ostaklu ta' aċċessibbiltà li jista' jiġi indirizzat minn softwer pubbliku b'sors miftuħ, ibgħatu permezz tal-input tat-talba.",
+      "<strong>Test u reviżjoni.</strong> Ipprova l-proġetti tal-IATF bit-teknoloġija ta' assistenza li tuża, irrapporta dak li jaħdem u dak li ma jaħdemx, u fajl il-kwistjonijiet direttament fuq ir-repożitorju rilevanti.",
+      "<strong>Ittraduċi.</strong> Il-kontenut tas-sors jiġi ppubblikat l-ewwel bl-Ingliż sempliċi. It-traduzzjonijiet jiżdiedu hekk kif il-kontributuri jkunu disponibbli, li jibdew bl-Ispanjol.",
+      "<strong>Ibni.</strong> Agħżel kwistjonijiet f'kull repożitorju tal-IATF, ibgħat talbiet ta' ġbid, jew ħu proġett bħala l-inġinier responsabbli tiegħu.",
+      "<strong>Żomm.</strong> Proġetti eżistenti kultant jeħtieġu manutentur ġdid. Ir-rotazzjoni tat-tħaddim hija parti normali tal-mudell, mhux eċċezzjoni."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanali",
+      "title": "Fejn l-IATF jaħdem fil-pubbliku"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Kwistjonijiet, talbiet għall-ġbid, rilaxx, u rekords tal-proġett.",
+      "<strong>Diżkordazzjoni.</strong> Diskussjoni diretta, koordinazzjoni, u mistoqsijiet informali.",
+      "<strong>Il-posta elettronika.</strong> Użu <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> jekk la GitHub u lanqas Discord ma jaqblu."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Pass li jmiss",
+      "title": "Agħżel il-kanal li jaqbel kif tixtieq tikkontribwixxi"
+    },
+    "paragraphs": [
+      "Il-kanali kollha jidħlu fl-istess reviżjoni pubblika u l-istess repożitorji pubbliċi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

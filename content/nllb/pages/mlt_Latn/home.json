@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Minn ħtieġa ta' aċċessibbiltà għal repo pubbliku",
+    "lead": "L-IATF tgħin lil assoċjazzjonijiet, gruppi, u individwi jittrasformaw ħtiġijiet reali ta' aċċessibbiltà fi proġetti pubbliċi open source.",
+    "support": [
+      "Il-proġetti aċċettati jiġu ppubblikati fl-organizzazzjoni IATF GitHub taħt liċenzja copyleft u żviluppati fil-pubbliku minn inġinier responsabbli."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mudell operattiv pubbliku",
+      "title": "Triq pubblika sempliċi għal softwer aċċessibbli"
+    },
+    "paragraphs": [
+      "Permezz ta' formola, kull min jista' jissottometti problema ta' aċċessibbiltà lill-IATF.",
+      "Kull proġett aċċettat għandu post pubbliku ċar għall-kodiċi, il-kwistjonijiet, id-dokumentazzjoni, u r-rilaxxi, bl-iżvilupp immexxi fil-miftuħ minn inġinier responsabbli."
+    ],
+    "specCard": {
+      "title": "Mudell operattiv pubbliku",
+      "terms": [
+        {
+          "term": "Ħtieġa",
+          "definition": "Problema reali ta' aċċessibbiltà"
+        },
+        {
+          "term": "Reviżjoni",
+          "definition": "L-adegwatezza tal-missjoni u l-fattibbiltà prattika"
+        },
+        {
+          "term": "Spazju tal-proġett",
+          "definition": "Repożitorju pubbliku GitHub"
+        },
+        {
+          "term": "Immaniġġjar",
+          "definition": "Is-sjieda organizzattiva tal-IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proċess",
+      "title": "Kif jaħdem",
+      "intro": "Il-mudell jibqa' intenzjonalment żgħir sabiex il-mogħdija pubblika tkun faċli biex tiġi segwita."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Il-ħtieġa tiġi ppreżentata",
+        "paragraphs": [
+          "Assoċjazzjoni, grupp jew individwu jistgħu jissottomettu talba bbażata fuq ħtieġa reali ta' aċċessibbiltà.",
+          "It-talbiet jistgħu jibdew permezz tal-websajt, b'email lil <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, jew permezz Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "L-IATF jirrevediha",
+        "paragraphs": [
+          "Aħna nirrevedu l-adegwatezza tal-missjoni, l-ambitu prattiku, u jekk ix-xogħol jaqax fi proġett pubbliku b'sors miftuħ."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Repożitorju pubbliku huwa maħluq",
+        "paragraphs": [
+          "Jekk proġett jiġi aċċettat, huwa ppubblikat fl-organizzazzjoni IATF GitHub taħt liċenzja copyleft.",
+          "Ir-repożitorju jsir id-dar pubblika tal-kodiċi, il-kwistjonijiet, id-dokumentazzjoni u r-rilaxxi."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Inġinier responsabbli jmexxi l-proġett",
+        "paragraphs": [
+          "Inġinier responsabbli huwa assenjat għar-repożitorju tal-proġett u l-iżvilupp iseħħ fil-pubbliku."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Reġistru",
+      "title": "Reġistru pubbliku tal-proġetti"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ibda minn hawn",
+      "title": "Tfittex xogħol kurrenti jew tibda proġett konkret"
+    },
+    "paragraphs": [
+      "Uża r-reġistru biex tara x'għandu jkun diġà pubbliku, jew ibda l-konsum jekk problema konkreta ta' aċċessibbiltà għandha ssir proġett."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

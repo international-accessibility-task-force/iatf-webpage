@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proġetti ta' aċċessibbiltà pubblika",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proġetti ta' aċċessibbiltà pubblika",
+    "lead": "Dan ir-reġistru jelenka proġetti pubbliċi miżmuma permezz tal-IATF. Proġetti aċċettati ta' aċċessibbiltà, infrastruttura tas-sit, u prototipi arkivjati jinżammu viżibbli hawn.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Reġistru",
+      "title": "Reġistru kurrenti"
+    },
+    "intro": [
+      "Il-proġetti aċċettati huma elenkati hawnhekk ladarba jiġu ppubblikati."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Isottometti ħtieġa",
+      "title": "It-trasformazzjoni ta' ħtieġa konkreta ta' aċċessibbiltà f'proġett pubbliku"
+    },
+    "paragraphs": [
+      "L-IATF jeżamina ħtiġijiet konkreti ta' aċċessibbiltà li jistgħu jinbidlu f'xogħol pubbliku ta' sors miftuħ utli."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "L-ebda proġett ippubblikat s'issa",
+    "paragraphs": [
+      "L-IATF qed tipprepara l-ewwel sett ta' proġetti pubbliċi tagħha.",
+      "Int xorta tista' tibgħat talba jekk għandek bżonn ta' aċċessibbiltà konkreta."
+    ]
+  }
+}

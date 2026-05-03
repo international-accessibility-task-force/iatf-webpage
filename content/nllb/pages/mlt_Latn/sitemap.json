@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mappa tas-sit"
+  },
+  "hero": {
+    "eyebrow": "Indiċi",
+    "title": "Mappa tas-sit",
+    "lead": "Kull paġna pubblika fuq iatf.cc, f'post wieħed."
+  },
+  "sections": [
+    {
+      "title": "Paġni ewlenin",
+      "items": [
+        {
+          "label": "Id-dar",
+          "href": "/"
+        },
+        {
+          "label": "Proġetti",
+          "href": "/projects/"
+        },
+        {
+          "label": "Talba għal proġett",
+          "href": "/propose/"
+        },
+        {
+          "label": "Il-governanza",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ingħaqad",
+          "href": "/join/"
+        },
+        {
+          "label": "Aċċessibbiltà",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Trasparenza",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proġetti",
+  "projectsEmpty": "L-ebda proġett ippubblikat s'issa."
+}

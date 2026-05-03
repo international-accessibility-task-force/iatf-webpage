@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ma nstabx"
+  },
+  "hero": {
+    "eyebrow": "Ma nstabx",
+    "title": "Il- paġna mitluba ma nstabitx",
+    "lead": "Uża r- rotot ewlenin hawn taħt biex terġa 'lura lejn is- sit pubbliku.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Id-dar",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ir- rotta li talab ma teżistix."
+    ],
+    "items": [
+      {
+        "label": "Id-dar",
+        "href": "/"
+      },
+      {
+        "label": "Proġetti",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ingħaqad",
+        "href": "/join/"
+      },
+      {
+        "label": "Aċċessibbiltà",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Il-governanza",
+        "href": "/governance/"
+      },
+      {
+        "label": "Trasparenza",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

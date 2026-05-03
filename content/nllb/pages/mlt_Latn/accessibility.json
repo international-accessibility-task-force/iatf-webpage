@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Aċċessibbiltà",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Aċċessibbiltà",
+    "lead": "L-IATF għandu l-għan li jżomm dan il-websajt sempliċi, li jinqara, aċċessibbli bil-klawżola, u kompatibbli mat-teknoloġiji ta' assistenza.",
+    "support": [
+      "Għall-aċċessibbiltà tal-web, l-IATF juża [W3C WAI](https://www.w3.org/WAI/) L-aċċessibbiltà prattika hija wkoll informata mill-esperjenza diretta ta' l-utenti ta' teknoloġiji ta' assistenza."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Rapportar",
+      "title": "Irrapporta kwistjoni ta' aċċessibbiltà"
+    },
+    "paragraphs": [
+      "Jekk issib xi ostaklu ta' aċċessibbiltà fuq din il-websajt, jekk jogħġbok irrapportah permezz ta' email:",
+      "{{contact.accessibilityEmail}}",
+      "Rapporti utli jinkludu:"
+    ],
+    "items": [
+      "il-paġna fejn seħħet il-kwistjoni",
+      "dak li kont tipprova tagħmel",
+      "liema teknoloġija ta' għajnuna, brawżer, jew apparat kont qed tuża, jekk rilevanti",
+      "x'ġara ħażin",
+      "x'kien jgħin"
+    ],
+    "footnote": "M'għandekx għalfejn tikteb rapport formali dwar il-bugs. Deskrizzjoni ċara hija biżżejjed."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Maniġġar",
+      "title": "Immaniġġjar ta' kwistjonijiet pubbliċi"
+    },
+    "paragraphs": [
+      "Il-kwistjonijiet ta' aċċessibbiltà jistgħu jiġu miġbura fil-qosor fir-repożitorju pubbliku rilevanti sabiex ikunu jistgħu jiġu ffissati fil-beraħ. Id-dettalji ta' kuntatt personali u l-informazzjoni privata mhux meħtieġa jitneħħew qabel il-pubblikazzjoni.",
+      "Jekk ir-rapport tiegħek jinkludi informazzjoni privata, għid dan b'mod ċar fil-messaġġ."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Stat attwali",
+      "title": "Limitazzjonijiet magħrufa"
+    },
+    "paragraphs": [
+      "Dan is-sit huwa intenzjonalment żgħir u fil-biċċa l-kbira statiku."
+    ]
+  }
+}

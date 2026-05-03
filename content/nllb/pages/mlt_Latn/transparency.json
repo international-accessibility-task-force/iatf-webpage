@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Trasparenza",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Trasparenza",
+    "lead": "L-IATF jaħdem fil-pubbliku b'mod awtomatiku. Id-deċiżjonijiet tal-proġett, il-bidliet fil-kodiċi, it-tibdil fil-governanza, u l-ispejjeż operattivi huma rreġistrati f'postijiet pubbliċi. Din il-paġna telenka fejn jgħix kull tip ta' rekord u kif jinqara.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Rekords",
+      "title": "Fejn jgħixu r-rekords"
+    },
+    "items": [
+      "<strong>Deċiżjonijiet dwar il-proġett.</strong> Id-deċiżjonijiet ta' aċċettazzjoni, ta' arkivjar u ta' assenjazzjoni mill-ġdid huma rreġistrati bħala ħruġ jew rilaxx fir-repożitorju rilevanti, u miġbura fil-qosor fir-reġistru pubbliku. <a href=\"/projects/\">reġistru</a>Ħu ħsiebek .",
+      "<strong>Talba għal rekords.</strong> Ir-rekords tad-domanda pubblika huma maħżuna fl-organizzazzjoni GitHub tal-IATF, fuq dan il-websajt, jew it-tnejn li huma. Ir-reġistri jistgħu jiġbru fil-qosor, jirredikaw, jew jirristrutturaw it-talba oriġinali sabiex il-ħtieġa tal-aċċessibbiltà tkun tista' tiġi riveduta mingħajr ma tiġi esposta informazzjoni personali mhux meħtieġa. Id-deċiżjonijiet ta' nuqqas ta' qbil huma mqassma fir-rekord pubbliku meta jaffettwaw deċiżjoni ta' proġett jew ta' governanza. Rekords tat-talba huma esklużi mill-indiċjar tal-magna tat-tiftix fejn teknikament prattiku. Iċċekkja rekords: talba għall-ewwel pubblikazzjoni pendenti.",
+      "<strong>Il-kodiċi jinbidel.</strong> Kull bidla fil-kodiċi hija kompromess pubbliku fir-repożitorju rilevanti. Ara l-IATF <a href=\"{{contact.githubOrgUrl}}\">Organizzazzjoni GitHub</a>Ħu ħsiebek .",
+      "<strong>Bidliet fil-governanza.</strong> L-aġġornamenti għall-paġna tal-governanza huma rintraċċati <code>il-websajt tal-IATF</code> Repożitorju. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">l-istorja tal-kompromess</a> fuq GitHub.",
+      "<strong>Spejjeż operattivi.</strong> L-IATF iżomm l-ispejjeż operattivi baxxi u jirreġistra spejjeż rikorrenti tal-infrastruttura pubblika.",
+      "<strong>Noti ta' koordinazzjoni.</strong> Innotazzjonijiet minn kwalunkwe reviżjoni jew deċiżjoni kkoordinata jgħixu fil-GitHub Diskussjonijiet dwar ir-repożitorju rilevanti  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Diskussjonijiet</a> fuq il- <code>il-websajt tal-IATF</code> repożitorju."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Spejjeż",
+      "title": "Rekord tal-ispejjeż operattivi"
+    },
+    "paragraphs": [
+      "L-IATF iżżomm l-infrastruttura pubblika tagħha intenzjonalment żgħira. Mill-2022, l-ispejjeż operattivi rikorrenti ewlenin kienu l-ismijiet tad-dominju.",
+      "Dan ir-rekord mhuwiex dikjarazzjoni finanzjarja awditjata. Huwa ġurnal pubbliku tal-ispejjeż operattivi għall-infrastruttura użata biex iżżomm l-IATF online."
+    ],
+    "footnote": "L-indirizzi personali, id-dettalji tal-fatturazzjoni, u l-informazzjoni tal-kont mhux meħtieġa mhumiex parti mir-rekord pubbliku.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Id-dominju",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "L-ispiża",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Innotazzjonijiet",
+            "value": "L-ispiża tad-dominju ffinanzjata minn mugiwarafx. L-akkoljenza użat infrastruttura ta 'livell ħieles jew bi prezz baxx permezz ta' Cloudflare. Il-proġett imur minn Vercel għal cloudflare u beda juża l-aktar qasir <code>iatf.cc</code> id-dominju."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Id-dominju",
+            "value": "<code>l-aċċessibbiltà internazzjonali taskforce.com</code>"
+          },
+          {
+            "label": "L-ispiża",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Innotazzjonijiet",
+            "value": "L-ispiża tad-dominju ffinanzjata minn mugiwarafx. Hosting użat infrastruttura ta 'livell ħieles jew bi prezz baxx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Id-dominju",
+            "value": "<code>l-aċċessibbiltà internazzjonali taskforce.com</code>"
+          },
+          {
+            "label": "L-ispiża",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Innotazzjonijiet",
+            "value": "L-ispiża tad-dominju ffinanzjata minn mugiwarafx. Hosting użat infrastruttura ta 'livell ħieles jew bi prezz baxx permezz ta' Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Id-dominju",
+            "value": "<code>l-aċċessibbiltà internazzjonali taskforce.com</code>"
+          },
+          {
+            "label": "L-ispiża",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Innotazzjonijiet",
+            "value": "L-ispiża tad-dominju ffinanzjata minn mugiwarafx. Hosting użat infrastruttura ta 'livell ħieles jew bi prezz baxx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Id-dominju",
+            "value": "<code>l-aċċessibbiltà internazzjonali taskforce.com</code>"
+          },
+          {
+            "label": "L-ispiża",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Innotazzjonijiet",
+            "value": "L-ispiża tad-dominju ffinanzjata minn mugiwarafx. Hosting użat infrastruttura ta 'livell ħieles jew bi prezz baxx permezz ta' Paġni ta 'GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Nota tal-konfini",
+      "title": "Dak li mhuwiex pubbliku"
+    },
+    "paragraphs": [
+      "Xi materjal jinżamm barra mir-rekords pubbliċi bil-għan:"
+    ],
+    "items": [
+      "Id-dettalji ta' kuntatt personali tal-proponenti.",
+      "Korrispondenza privata użata biss biex tiċċara talba qabel ma tiġi aċċettata, miċħuda jew miġbura fil-qosor.",
+      "Indirizzi privati, numri tat-telefon, u dettalji personali mhux meħtieġa.",
+      "Kwalunkwe ħaġa li tista' tidentifika utent individwali ta' teknoloġija ta' assistenza mingħajr kunsens.",
+      "Konversazzjonijiet Raw Discord, sakemm messaġġ speċifiku ma jiġix intenzjonalment imċaqlaq f'rekord pubbliku tal-proġett."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Aqra aktar",
+      "title": "Il-governanza hija l-ktieb tar-regoli wara dawn ir-rekords"
+    },
+    "paragraphs": [
+      "Jekk trid tifhem kif il-proġetti jiġu aċċettati, arkivjati jew assenjati mill-ġdid, aqra l-paġna dwar il-governanza."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

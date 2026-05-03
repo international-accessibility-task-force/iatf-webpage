@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Il-governanza u l-mudell tar-repożitorju",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Il-governanza u l-mudell tar-repożitorju",
+    "lead": "L-IATF iżomm il-proġetti ta' aċċessibbiltà pubbliċi, li jinqraw, u li jistgħu jinżammu.",
+    "support": [
+      "Din il-paġna tispjega x'jikkwalifika, kif jinżammu repożitorji, u liema responsabbiltà fil-livell tar-repożitorju tapplika wara l-aċċettazzjoni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regoli",
+      "title": "L-adegwatezza tal-missjoni, is-sjieda, il-liċenzjar"
+    },
+    "cards": [
+      {
+        "title": "Aċċess għall-missjoni",
+        "paragraphs": [
+          "L-IATF taċċetta xogħol li jindirizza ostaklu reali għall-aċċessibbiltà u li għandu valur pubbliku ċar.",
+          "Proġett għandu jkun utli lil hinn minn fluss ta' xogħol privat wieħed u jista' jaħdem bħala repożitorju pubbliku.",
+          "Għall-aċċessibbiltà tal-web, l-IATF juża [W3C WAI](https://www.w3.org/WAI/) L-esperjenza diretta ta' l-utenti ta' teknoloġiji ta' assistenza hija wkoll evidenza prattika ta' dak li jaħdem fl-użu reali."
+        ]
+      },
+      {
+        "title": "Aċċettazzjoni tal-proġett",
+        "paragraphs": [
+          "Proposta tista' tiġi aċċettata meta l-eżami juri li:"
+        ],
+        "items": [
+          "jindirizza ħtieġa reali ta' aċċessibbiltà",
+          "il-problema hija ċara biżżejjed biex tiġi evalwata",
+          "l-ambitu huwa realistiku biżżejjed biex titnieda",
+          "il-ħidma hija allinjata mal-missjoni tal-IATF",
+          "hemm triq plawsibbli għall-manutenzjoni jew it-tlestija"
+        ]
+      },
+      {
+        "title": "Is-sjieda tar-repożitorju",
+        "paragraphs": [
+          "Il-proġetti aċċettati jinħolqu taħt l-organizzazzjoni GitHub tal-IATF.",
+          "Ir-repożitorji jibqgħu hemmhekk sabiex kull proġett iżomm dar pubblika stabbli, anki jekk il-maniġers jbiddlu aktar tard."
+        ]
+      },
+      {
+        "title": "Liċenzjar",
+        "paragraphs": [
+          "Il-proġetti tal-IATF jużaw liċenzjar bil-copyleft sakemm proġett ma jiddikjarax mod ieħor:"
+        ],
+        "items": [
+          "<strong>Kodiċi:</strong> AGPL-3.0",
+          "<strong>Dokumentazzjoni:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Inġinier jew manutentur responsabbli",
+      "paragraphs": [
+        "Kull proġett aċċettat għandu jkollu inġinier jew manutentur responsabbli msemmi. Dik il-persuna tista' tirċievi aċċess amministrattiv għar-repożitorju u hija mistennija li:"
+      ],
+      "items": [
+        "l-iżvilupp tal-gwida fil-pubbliku",
+        "iżżomm l-istruttura tar-repożitorju",
+        "tirrevedi jew timmaniġġja kwistjonijiet u tiġbed talbiet",
+        "id-dokumenti tad-deċiżjonijiet tekniċi importanti",
+        "iżżomm il-proġett jinftiehem għal oħrajn"
+      ],
+      "footnote": "Din hija responsabbiltà fil-livell tar-repożitorju. Is-sjieda organizzattiva tibqa' ma' l-IATF. Ir-responsabbiltà hawnhekk hija l-istwardship ta' repositorju, id-direzzjoni teknika, u l-koordinazzjoni pubblika  mhux kunsinna privata illimitata, integrazzjonijiet tad-dwana, jew impenji fuq il-livell tas-servizz barra mill-pjan direzzjonali pubbliku."
+    },
+    "publicDevelopment": {
+      "title": "Żvilupp pubbliku",
+      "paragraphs": [
+        "Ir-repożitorju huwa s-sors pubbliku tal-verità għal:"
+      ],
+      "items": [
+        "kodiċi tas-sors",
+        "kwistjonijiet",
+        "dokumentazzjoni",
+        "Noti dwar il-pjan direzzjonali",
+        "storja tar- rilaxx"
+      ],
+      "footnote": "L-għarfien importanti tal-proġett m'għandux jgħix biss f'chat privat jew f'inboxes."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Rekords pubbliċi",
+      "title": "Rekords pubbliċi ta' talbiet"
+    },
+    "paragraphs": [
+      "It-talbiet li jidħlu fl-IATF permezz tal-websajt, l-email, id-Discord, GitHub, jew kanali IATF oħra jistgħu jsiru rekords ta 'talbiet pubbliċi.",
+      "Ir-rekord pubbliku ta' talba mhuwiex neċessarjament il-messaġġ oriġinali. L-IATF jista' jiġbor fil-qosor, jirredika, jew jirristruttura talba qabel il-pubblikazzjoni sabiex il-ħtieġa ta' aċċessibbiltà tkun tista' tiġi riveduta mingħajr ma tiġi esposta informazzjoni personali bla bżonn.",
+      "Ir-rekords ta' talbiet pubbliċi jistgħu jinħażnu fl-organizzazzjoni GitHub tal-IATF, f'dan il-websajt, jew fit-tnejn li huma.",
+      "Qabel il-pubblikazzjoni, l-IATF tneħħi d-dettalji ta' kuntatt personali mhux meħtieġa, indirizzi privati, u dettalji ta' identifikazzjoni dwar utenti individwali ta' teknoloġiji ta' assistenza sakemm ma jkunx intenzjonat b'mod ċar u xieraq li tiġi ppubblikata.",
+      "Id-Discord jintuża għall-koordinazzjoni informali. L-IATF ma jaħżenx b'mod separat il-konversazzjonijiet ta' Discord bħala default, u ż-żamma tal-messaġġi hija kkontrollata minn Discord. Id-deċiżjonijiet li jittieħdu f'Disord għandhom jiġu miġbura fil-qosor fir-rekord pubbliku fuq GitHub jew fuq il-paġna tal-proġett rilevanti.",
+      "Ir-rekords tat-talba huma esklużi mill-indiċjar tal-magna tat-tiftix fejn teknikament prattiku. Pubbliku jfisser reviżibbli u responsabbli. Ma jfissirx ottimizzat għall-iskoperta permezz ta 'tfittxijiet ta' ismijiet.",
+      "L-IATF jista' jaġġorna jew ineħħi r-rekords minn superfiċji pubbliċi kkontrollati mill- IATF, iżda ma jistax jiggarantixxi t-tneħħija minn caches ta' partijiet terzi, notifiki, forks, screenshots, search engines, Discord, jew sistemi esterni oħra.",
+      "Jekk messaġġ jeħtieġ li jibqa' privat, ma jibgħatux permezz tal-kanali pubbliċi tal-IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ir-rwol organizzattiv",
+      "title": "Il-presidenza"
+    },
+    "lead": "Il-president għandu l-amministrazzjoni tal-IATF fil-livell tal-organizzazzjoni. Dan huwa distint mir-rwol tal-inġinier responsabbli għal kull proġett: il-president huwa responsabbli għall-organizzazzjoni kollha kemm hi, mhux għad-direzzjoni ta 'kuljum ta' kwalunkwe repożitorju wieħed.",
+    "duties": {
+      "title": "X'jagħmel is-siġġu",
+      "items": [
+        "Żomm il-permessi tas-sid fuq l-organizzazzjoni GitHub tal-IATF",
+        "Jiffirmaw l-aċċettazzjoni tal-proġett u d-deċiżjonijiet dwar l-arkivjar",
+        "Jaġixxi bħala l-punt ta' kuntatt pubbliku għall-IATF",
+        "Ikkoordina l-elezzjoni annwali"
+      ],
+      "footnote": "Il-president ma jimpenjax lill-IATF b'kunsinna privata, xogħol bi ħlas, jew ftehimiet dwar il-livell tas-servizz, u ma jevitax deċiżjonijiet ta' manutentur għal kull repożitorju dwar id-direzzjoni teknika."
+    },
+    "election": {
+      "title": "Elezzjoni annwali",
+      "paragraphs": [
+        "Il-president huwa elett darba fis-sena. L-elezzjoni sseħħ fl-ewwel ġimagħtejn ta' Diċembru, ir-riżultati jiġu mħabbra sal-15 ta 'Diċembru, u l-mandat il-ġdid jibda fl-1 ta' Jannar.",
+        "Il-votanti eliġibbli huma nies li kellhom rwol ta' manutentur fuq kwalunkwe repożitorju tal-IATF matul is-sena u għamlu mill-inqas kontribuzzjoni waħda magħquda għal repożitur IATF f'dik s-sena. Kull votant eliġibbli għandu vot wieħed. Il-kandidat bl-akbar numru ta' voti jirbaħ; f'każ ta' parità, isir run-off fit-tielet ġimgħa ta' Diċembru.",
+        "L-elezzjoni titmexxa bħala Diskussjoni Pubblika ta 'GitHub fir-repożitorju ta' governanza IATF magħżul, għalhekk il-kandidati, il-vot, u r-riżultat huma kollha parti mir-rekord pubbliku."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinwità",
+      "paragraphs": [
+        "Jekk ma ssir l-ebda elezzjoni f'sena partikolari, il-president attwali jkompli fir-rwol sal-elezzjoni li jmiss. Din hija kontinwazzjoni indefinita, mhux perjodu ta' konċessjoni  il-mudell huwa ddisinjat biex iżomm l-organizzazzjoni stabbli meta l-attività tkun baxxa, mhux biex iġiegħel tranżizzjoni li ħadd m'hu lest għaliha.",
+        "Il-President jista' jirriżenja fi kwalunkwe ħin.Mantenituri attivi jistgħu wkoll isejjaħ elezzjoni straordinarja b'raġuni ddikjarata, immexxija taħt l-istess regoli bħall-elezzjoni annwali."
+      ]
+    },
+    "current": {
+      "title": "President attwali",
+      "fields": [
+        {
+          "label": "Il-presidenza",
+          "value": "ħwejjeġ tal-ħnieżer",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Terminu",
+          "value": "Sa l-elezzjoni ta' Diċembru 2026"
+        },
+        {
+          "label": "Ir-rwol formalizzat",
+          "value": "2026"
+        },
+        {
+          "label": "L-ewwel elezzjoni skedata",
+          "value": "Diċembru 2026"
+        }
+      ]
+    },
+    "footnote": "Ir-rwol ta 'president ġie formalizzat fl-2026 biex jagħmel l-amministrazzjoni fil-livell tal-organizzazzjoni espliċita. Sa dak iż-żmien, ir-responsabbiltà organizzattiva kienet miżmuma b'mod informali mill-fundatur."
+  },
+  "continuity": {
+    "states": {
+      "title": "Stati tal-proġett",
+      "paragraphs": [
+        "Il-proġetti jużaw sett żgħir ta' stati pubbliċi:"
+      ],
+      "items": [
+        "Proposta",
+        "Milqugħ",
+        "Attiv",
+        "Stabbli",
+        "Tiftix għal mantenitur",
+        "Arkivjat"
+      ],
+      "footnote": "Dawn l-istati jżommu r-reġistru faċli biex jiġi skannat."
+    },
+    "reassignment": {
+      "title": "L-assenjazzjoni mill-ġdid u l-arkivjar",
+      "paragraphs": [
+        "Jekk manutentur jitlaq jew isir inattiv, l-IATF jista' jattribwixxi mill-ġdid ir-responsabbiltà, iwaqqaf l-iżvilupp, jew jaħżen il-proġett.",
+        "Proġett jista' wkoll jiġi arkivjat meta l-ħtieġa oriġinali tkun ġiet sodisfatta, il-manutenzjoni tkun waqfet, jew il-ħidma kontinwa ma tkunx aktar realistika."
+      ],
+      "footnote": "Il-proġetti arkivjati jibqgħu viżibbli għall-pubbliku sakemm ma jkunx hemm raġuni konvinċenti biex isir mod ieħor."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nota tal-konfini",
+      "title": "Dak li l-IATF ma jiggarantixxix"
+    },
+    "items": [
+      "Kunsinna lill-klijent privat",
+      "ftehimiet dwar il-livell tas-servizz",
+      "l-aċċettazzjoni ta' kull proposta",
+      "manutenzjoni fit-tul għal kull proġett"
+    ],
+    "footnote": "L-IATF huwa mudell ta' repożitorju pubbliku, mhux servizz ta' konsenja privat."
+  }
+}
