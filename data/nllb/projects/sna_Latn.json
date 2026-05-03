@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Nzvimbo yepaIndaneti yeIATF",
+    "summary": "Nzvimbo yepachena yeInternational Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF yaida musha wevoruzhinji wakagadzikana unotsanangura muenzaniso wacho, unonyora mapurojekiti, uye unonongedzera vanobetsera padanho rinotevera rakakodzera.",
+    "why": "Nzvimbo iyi ndiyo musuo wepamberi weIATF. Yakavakwa sepurojekiti diki isingachinji kuitira kuti igare iri nyore kuverenga, kushandura, uye kuchengetedza munzvimbo yakavhurika.",
+    "scopeIn": [
+      "Mapeji epachena anotsanangura muenzaniso weIATF",
+      "Public registry of accepted, active, and archived IATF projects with status, maintainer, repository, and demo",
+      "Peji rinogamuchira chikumbiro uye fomu",
+      "Mapeji ehutongi uye kujekesa",
+      "Chinyorwa chechiRungu chine chimiro chakagadzirira kushandurwa",
+      "Static deployment pamusoro Cloudflare Vashandi Static Assets"
+    ],
+    "scopeOut": [
+      "Nzvimbo dzemitezo dzakavanzika, maakaundi, kana kuyerera kwekupinda",
+      "Kubata kodhi yepurojekiti, iyo inogara mudura rega rega reprojekiti",
+      "Real-time chat, iyo inogara muDiscord",
+      "Nyaya yekutevera yemapurojekiti ega ega, ayo anogara mune yega purojekiti GitHub repository"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Muenzaniso wepakuvamba weIATF, wakachengetwa pashure pokunge wasvika pakumira kwomuzvarirwo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Kuongorora kwekutanga kwechishandiso chakanangana nekuwanika pasi pemuraira weIATF.",
+    "why": "Repository inochengetwa pachena sechinyorwa chebasa racho, kunyange zvazvo kuvandudzwa kwebasa kwakamira.",
+    "scopeIn": [
+      "Muenzaniso wekutanga wechishandiso chakanangana nekuwanika chinochengetwa sechinyorwa cheveruzhinji"
+    ],
+    "scopeOut": [
+      "Active kukura kana chinhu basa",
+      "Zvibvumirano zvekuchengetedza",
+      "Kushandiswa kunokurudzirwa mukugadzira"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "IATF nharaunda bot, yakachengetedzwa mushure mekusvika pakumira kwechisikigo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation kumativi IATF munharaunda migero.",
+    "why": "Repository inochengetwa pachena sechinyorwa chebasa racho, kunyange zvazvo kuvandudzwa kwebasa kwakamira.",
+    "scopeIn": [
+      "Discord automation around IATF community channels, yakachengetwa sechinyorwa cheveruzhinji"
+    ],
+    "scopeOut": [
+      "Active kukura kana chinhu basa",
+      "Zvibvumirano zvekuchengetedza",
+      "Kushandiswa kunokurudzirwa mukugadzira"
+    ]
+  }
+]

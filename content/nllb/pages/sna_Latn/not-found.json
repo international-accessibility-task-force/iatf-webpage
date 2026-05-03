@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Hauna kuwanikwa"
+  },
+  "hero": {
+    "eyebrow": "Hauna kuwanikwa",
+    "title": "Peji yawakakumbira haina kuwanikwa",
+    "lead": "Shandisa migwagwa mikuru iri pasi apa kuti udzokere kunzvimbo yavose.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Musha",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Nzira yamakumbira haipo."
+    ],
+    "items": [
+      {
+        "label": "Musha",
+        "href": "/"
+      },
+      {
+        "label": "Zvirongwa",
+        "href": "/projects/"
+      },
+      {
+        "label": "Batanidza",
+        "href": "/join/"
+      },
+      {
+        "label": "Kuwanika",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Kutonga",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kujeka",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

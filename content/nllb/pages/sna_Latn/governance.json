@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Kutungamira uye repository modhi",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Kutungamira uye repository modhi",
+    "lead": "IATF inochengeta mapurojekiti ekuwanika ari pachena, anoverengwa, uye anogadziriswa.",
+    "support": [
+      "Peji rino rinotsanangura zvinokodzera, kuti nzvimbo dzekuchengetera dzinochengetwa sei, uye kuti mutoro weiyo nzvimbo yekuchengetera unoshanda mushure mekugamuchirwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Mitemo",
+      "title": "Basa rakakodzera, kuva muridzi, kupiwa marezenisi"
+    },
+    "cards": [
+      {
+        "title": "Basa rakakodzera",
+        "paragraphs": [
+          "IATF inogamuchira basa rinogadzirisa chipingamupinyi chaicho chekuwanika uye rine pachena kukosha kwevanhu.",
+          "Chirongwa chinofanira kuva chinobatsira kupfuura rimwe basa roga roga uye rinoshanda sebhuku revanhu vose.",
+          "Nokuda kwekuwanika kwewebhu, IATF inoshandisa [W3C WAI](https://www.w3.org/WAI/) Ruzivo rwakananga rwevashandisi vehunyanzvi hwekubatsira huriwo humbowo hwechokwadi hwekuti chii chinoshanda mukushandiswa chaiko."
+        ]
+      },
+      {
+        "title": "Kugamuchirwa kweprojekti",
+        "paragraphs": [
+          "Chikumbiro chinogona kugamuchirwa apo kunzvera kunoratidza kuti:"
+        ],
+        "items": [
+          "rinotarisana nechinodiwa chaicho chokuwanika",
+          "chinetso chacho chakajeka zvakakwana kuti chiongororwe",
+          "nharaunda yacho ndeyechokwadi zvakakwana kuti itange",
+          "basa rinoenderana nebasa reIATF",
+          "pane nzira inonzwisisika yekuchengetedza kana kupedzisa"
+        ]
+      },
+      {
+        "title": "Repository muridzi",
+        "paragraphs": [
+          "Zvirongwa zvinogamuchirwa zvinogadzirwa pasi pesangano reIATF GitHub.",
+          "Midziyo inochengeterwa zvinhu inogara imomo kuitira kuti basa rimwe nerimwe rirambe riripo, kunyange kana vanorichengeta vakazochinja."
+        ]
+      },
+      {
+        "title": "Kubvumidzwa",
+        "paragraphs": [
+          "IATF mapurojekiti anoshandisa copyleft rezinesi kunze kwekunge chirongwa chakataura neimwe nzira:"
+        ],
+        "items": [
+          "<strong>Kodhi:</strong> AGPL-3.0",
+          "<strong>Zvinyorwa:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injiniya ane mutoro kana muchengeti",
+      "paragraphs": [
+        "Chirongwa chimwe nechimwe chinogamuchirwa chinofanira kuva neinjiniya ane mutoro ane zita kana muchengeti. Munhu iyeye anogona kugamuchira mvumo yekugadzirisa kune repository uye anotarisirwa ku:"
+      ],
+      "items": [
+        "nhungamiro kukura paruzhinji",
+        "chengetedza chimiro chekuchengetedza",
+        "ongorora kana kutarisira nyaya uye kudhonza zvikumbiro",
+        "gwaro rezvisarudzo zvakakosha zvetekinoroji",
+        "ita kuti basa racho rinzwisiswe nevamwe"
+      ],
+      "footnote": "Iri ndiro repository-pamwero mutoro. sangano muridzi anoramba pamwe IATF. mutoro pano ndiyo repositori stewardship, hwokugadzira nhungamiro, uye voruzhinji kwokubatana  kwete risingagumi private hurukuro, tsika integrations, kana basa pamwero kuzvipira kunze paruzhinji roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Kuvandudzwa kwevanhu",
+      "paragraphs": [
+        "Zvirongwa zvakatangwa kuburikidza neIATF zvinokudziridzwa pachena nekutadza. Repository ndiyo sosi yeruzhinji yezvokwadi ye:"
+      ],
+      "items": [
+        "gwaro remanyorerwo",
+        "nhau",
+        "zvinyorwa",
+        "zvinyorwa zve roadmap",
+        "nhoroondo yokusunungurwa"
+      ],
+      "footnote": "Ruzivo rwakakosha rweprojekti harufanire kungogara mukutaurirana kwepachivande kana mumabhokisi ekutumira."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Zvinyorwa zvevoruzhinji",
+      "title": "Zvinyorwa zvechikumbiro cheveruzhinji"
+    },
+    "paragraphs": [
+      "IATF inoshanda pachena nekutadza. Zvikumbiro zvinopinda muIATF kuburikidza newebhusaiti, email, Discord, GitHub, kana zvimwe zviteshi zveIATF zvinogona kuve zvinyorwa zveveruzhinji zvekukumbira.",
+      "IATF inogona kupfupisa, kugadzirisa, kana kugadzirisazve chikumbiro chisati chaburitswa kuitira kuti zvido zvekuwanika zviongororwe pasina kuburitsa ruzivo rwemunhu zvisina basa.",
+      "Zvinyorwa zveruzhinji zvikumbiro zvinogona kuchengetwa muIATF GitHub sangano, pane ino webhusaiti, kana zvese zviri zviviri.",
+      "IATF inobvisa zvisingadiwe zvemunhu zvekutaurirana, kero dzepachivande, uye ruzivo rwekuziva nezvevashandisi vega vega vehunyanzvi hwekubatsira kunze kwekunge kuburitswa kwacho kwakarongwa uye kwakakodzera.",
+      "Discord inoshandiswa pakuronga zvisina kurongwa. IATF haichengeti nhaurirano dzeDiscord zvakasiyana nekutadza, uye kuchengetwa kwemeseji kunodzorwa neDiskord. Zvisarudzo zvakaitwa muDiscort zvinofanirwa kupfupikiswa muzvinyorwa zveveruzhinji paGitHub kana papeji reprojekti rakakodzera.",
+      "Zvinyorwa zvekukumbira hazvibatanidzwe kubva pakutsvaga injini yekutsvaga kana zvichinyatsogoneka. Veruzhinji zvinoreva kuongororwa uye kuzvidavirira. Izvo hazvirevi kugadziriswa kwekuwanikwa kuburikidza nemazita ekutsvaga.",
+      "IATF inogona kugadzirisa kana kubvisa zvinyorwa kubva kunzvimbo dzeveruzhinji dzinodzorwa neIATF, asi haigone kuvimbisa kubviswa kubva kune yechitatu-bato caches, zviziviso, forks, screenshots, injini dzekutsvaga, Discord, kana mamwe masisitimu ekunze.",
+      "Kana shoko richida kuramba riri roga, usariendesa nomumigwagwa yevoruzhinji yeIATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Basa rokuronga",
+      "title": "Chigaro"
+    },
+    "lead": "Sachigaro anobata sangano-pamwero stewardship pamusoro IATF. Izvi zvakasiyana paminiti-chirongwa mutariri injiniya basa: sachigaro ndiye mutariri sangano rose, kwete zuva nezuva kutungamirirwa chero chete repository.",
+    "duties": {
+      "title": "Zvinoitwa nechigaro",
+      "items": [
+        "Anobata muridzi mvumo pamusoro IATF GitHub sangano",
+        "Anobvumidza kugamuchirwa kwepurojekiti uye zvisarudzo zvekuchengetedza",
+        "Inoshanda senzvimbo yeruzhinji yekutaurirana yeIATF",
+        "Anoronga kusarudzwa kwegore negore"
+      ],
+      "footnote": "Sachigaro haasungiri IATF kuti private pakukurukura, akabhadhara basa, kana basa-pamwero zvibvumirano, uye haaiti pamusoro-pa-repository maintainer zvisarudzo pamusoro hwokugadzira mirayiridzo."
+    },
+    "election": {
+      "title": "Kusarudzwa kwegore negore",
+      "paragraphs": [
+        "Sachigaro anosarudzwa kamwe chete pagore. Kusarudzwa kunoitwa mumavhiki maviri okutanga aDecember, migumisiro inoziviswa naDecember 15, uye nguva itsva inotanga musi waJanuary 1.",
+        "Vhoti vanokodzera vanhu vakabata chinzvimbo chekuchengetedza pane chero repository reIATF mukati megore uye vakaita kanokwana kamwe kubatanidzwa mupiro kune re IATF gore iro. Vhoti yega yega inokodzera ine vhoti imwe. Mumiriri ane mavhoti mazhinji anokunda; kana paine tie, runoff inoitwa muvhiki rechitatu raZvita.",
+        "Sarudzo inoitwa sehurukuro yeruzhinji yeGitHub mudura rakasarudzwa rehutongi hweIATF, saka vavhoterwa, kuvhota, uye mhedzisiro zvese chikamu chezvinyorwa zveveruzhinji."
+      ]
+    },
+    "continuity": {
+      "title": "Kupfuurira",
+      "paragraphs": [
+        "Kana pasina sarudzo inoitwa mugore rakapihwa, sachigaro aripo anoramba ari pachinzvimbo kusvika pasarudzo inotevera. Uku kuenderera mberi kusingazivikanwe, kwete nguva yekuzorora  modhi yakagadzirirwa kuchengetedza sangano rakagadzikana kana chiitiko chakaderera, kwete kumanikidza shanduko iyo isina munhu akagadzirira.",
+        "Sachigaro anogona kusiya basa chero nguva. Vanochengetedza vanoshanda vanogonawo kudana sarudzo dzinoshamisa nechikonzero chakataurwa, chinoitwa pasi pemitemo yakafanana nesarudzo yegore negore."
+      ]
+    },
+    "current": {
+      "title": "Sachigaro aripo iye zvino",
+      "fields": [
+        {
+          "label": "Chigaro",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Nguva",
+          "value": "Kusvikira kusarudzo dzaDecember 2026"
+        },
+        {
+          "label": "Basa rakagadziriswa",
+          "value": "2026"
+        },
+        {
+          "label": "Sarudzo yokutanga yakarongwa",
+          "value": "Zvita 2026"
+        }
+      ]
+    },
+    "footnote": "Basa sachigaro akanga formalized muna 2026 kuti sangano-pamwero utariri zvakajeka. Kusvikira ipapo, sangano basa raiitwa informally kubudikidza muvambi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Mamiriro ezvinhu epurojekiti",
+      "paragraphs": [
+        "Zvirongwa zvinoshandisa boka duku rehurumende dzehurumende:"
+      ],
+      "items": [
+        "Chikumbiro",
+        "Kugamuchirwa",
+        "Kushanda",
+        "Yakagadzikana",
+        "Kutsvaka mutarisiri",
+        "Zvakachengetwa"
+      ],
+      "footnote": "Nyika idzi dzinoita kuti kunyoresa kuve nyore kuongorora."
+    },
+    "reassignment": {
+      "title": "Kugoverwazve uye kuchengeta muzvinyorwa",
+      "paragraphs": [
+        "Kana muchengeti achienda kure kana kuti asingachaiti basa, IATF inogona kugovera mutoro, kumbomisa kuvandudza, kana kuchengeta purojekiti.",
+        "Gadziriro inogonawo kuchengetwa apo chinodikanwa chapakuvamba chakasangana, gadziriro yamira, kana kuti kupfuurira kwebasa hakusati kuchiri kwechokwadi."
+      ],
+      "footnote": "Zvirongwa zvakachengetwa zvinoramba zvichionekwa nevoruzhinji kunze kwokunge pane chikonzero chinogombedzera chokuti zviitwe neimwe nzira."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Chiziviso chemuganhu",
+      "title": "Izvo IATF isingavimbisi"
+    },
+    "items": [
+      "kuendesa mutengi wepachivande",
+      "zvibvumirano zvehutano hwebasa",
+      "kugamuchirwa kwezvikumbiro zvose",
+      "kuchengetedza kwenguva refu kweprojekti imwe neimwe"
+    ],
+    "footnote": "IATF i public repository model, kwete private delivery service."
+  }
+}

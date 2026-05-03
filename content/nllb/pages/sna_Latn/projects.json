@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Zvirongwa zvekuwanika kwevanhu vose",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Zvirongwa zvekuwanika kwevanhu vose",
+    "lead": "Iyi rejista inonyora mapurojekiti eruzhinji anochengetwa kuburikidza neIATF. Zvirongwa zvinogamuchirwa zvekuwanika, zvivakwa zvesaiti, uye zvinyorwa zvakachengetwa zvinochengetwa pano.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejista",
+      "title": "Rejista yazvino"
+    },
+    "intro": [
+      "Zvirongwa zvakagamuchirwa zvinorondedzerwa pano kana zvangobudiswa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Tumira chinodikanwa",
+      "title": "Kushandura chinodikanwa chaicho chokuwanika kuva chirongwa chevoruzhinji"
+    },
+    "paragraphs": [
+      "IATF inoongorora zvinodikanwa zvekuwanika izvo zvinogona kushandurwa kuita basa rinobatsira revanhu rakavhurika."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Hapana mapurojekiti akabudiswa",
+    "paragraphs": [
+      "IATF iri kugadzirira purogiramu yayo yokutanga yevoruzhinji.",
+      "Uchiri kukwanisa kutumira chikumbiro kana uine chimwe chinhu chaunoda kuti chiitwe."
+    ]
+  }
+}

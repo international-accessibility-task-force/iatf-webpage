@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Kuwanika",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Kuwanika",
+    "lead": "IATF ine chinangwa chekuita kuti webhusaiti iyi ive nyore, iverengeke, ishandiswe nekhibhodi, uye ienderane nematekinoroji anobatsira.",
+    "support": [
+      "Nokuda kwekuwanika kwewebhu, IATF inoshandisa [W3C WAI](https://www.w3.org/WAI/) Kuwanika kunoshanda kunoudzwawo nechiitiko chakananga chevashandisi vezvigadzirwa zvinobatsira."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kuzivisa",
+      "title": "Kuzivisa chinetso chokuwanika"
+    },
+    "paragraphs": [
+      "Kana iwe ukawana chipingamupinyi chekuwanika pane ino webhusaiti, ndapota chizivise neemail:",
+      "{{contact.accessibilityEmail}}",
+      "Mishumo inobatsira inosanganisira:"
+    ],
+    "items": [
+      "peji apo nyaya yakaitika",
+      "zvawaida kuita",
+      "uri kushandisa unyanzvi hupi hwokubatsira, bhurawuza, kana kuti mudziyo upi, kana zvichiita",
+      "chii chakakanganisika",
+      "chii chingadai chakabatsira"
+    ],
+    "footnote": "Haufaniri kunyora mushumo wepachena wechikanganiso. Rondedzero yakajeka yakakwana."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kubata",
+      "title": "Kubata nhau dzavose"
+    },
+    "paragraphs": [
+      "Nhau dzekuwanika dzinogona kupfupikiswa mudura revanhu rakakodzera kuitira kuti vagone kugadziriswa pachena. Ruzivo rwekuonana nemunhu uye ruzivo rwepachivande rusina basa rwunobviswa usati waburitswa.",
+      "Kana mushumo wako uchibatanidza mashoko omunhu oga, taura zvakajeka kudaro mumashoko."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Mamiriro ezvinhu azvino",
+      "title": "Miganhu inozivikanwa"
+    },
+    "paragraphs": [
+      "Nzvimbo iyi yakarongerwa kuti ive duku uye inenge isingachinji. Dzimwe shanduro dzemitauro dzingave dzisina kukwana apo shanduro dziri kugadzirirwa."
+    ]
+  }
+}

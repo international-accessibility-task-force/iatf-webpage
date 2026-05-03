@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kubva pakudiwa kwekuwanika kusvika kuzvitoro zvevoruzhinji",
+    "lead": "IATF inobatsira masangano, mapoka, uye vanhu voga voga kushandura zvido zvechokwadi zvekuwanika kuva mapurojekiti eruzhinji akavhurika.",
+    "support": [
+      "Zvirongwa zvinogamuchirwa zvinoburitswa muIATF GitHub sangano pasi pecopyleft rezinesi uye rakagadziriswa paruzhinji neinjiniya ane mutoro."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Muenzaniso wokushanda wevoruzhinji",
+      "title": "Nzira yakapfava yeruzhinji yesoftware inowanikwa"
+    },
+    "paragraphs": [
+      "Kuburikidza nefomu, chero munhu anogona kutumira dambudziko rekuwanika kuIATF. Kana timu ichigona kuitora, nzvimbo yeruzhinji yeGitHub inovhurwa yebasa.",
+      "Chirongwa chimwe nechimwe chinogamuchirwa chine musha wevoruzhinji wakajeka wekodhi, nyaya, zvinyorwa, uye zvinoburitswa, nekusimudzira kunotungamirwa pachena neinjiniya ane mutoro."
+    ],
+    "specCard": {
+      "title": "Muenzaniso wokushanda wevoruzhinji",
+      "terms": [
+        {
+          "term": "Kuda",
+          "definition": "Chinetso chaicho chokuwanika"
+        },
+        {
+          "term": "Ongororo",
+          "definition": "Kukodzera kwebasa uye kugona kushanda"
+        },
+        {
+          "term": "Nzvimbo yeprojekti",
+          "definition": "Ruzhinji GitHub repository"
+        },
+        {
+          "term": "Kutarisira",
+          "definition": "IATF muridzi wesangano"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Maitiro",
+      "title": "Mashandiro ainoita",
+      "intro": "Muenzaniso wacho unoramba uri muduku nemaune kuitira kuti nzira yavose ive nyore kutevera."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Chinodikanwa chinopiwa",
+        "paragraphs": [
+          "Sangano, boka, kana munhu oga oga anogona kutumira chikumbiro chakavakirwa pane chinodikanwa chaicho chokuwanika.",
+          "Zvikumbiro zvinogona kutanga kuburikidza newebhusaiti, neemail ku <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, kana kuti kupfurikidza neDiscord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF inoongorora",
+        "paragraphs": [
+          "Tinodzokorora kukodzera kwebasa racho, kushanda kwaro, uye kana basa racho richibatanidzwa muchirongwa chevoruzhinji chakavhurika."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Repository yeruzhinji inogadzirwa",
+        "paragraphs": [
+          "Kana chirongwa chakagamuchirwa, chinoburitswa muIATF GitHub sangano pasi pecopyleft rezinesi.",
+          "Repository inova musha wevoruzhinji wekodhi, nyaya, zvinyorwa, uye zvinoburitswa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injiniya ane mutoro anotungamirira basa racho",
+        "paragraphs": [
+          "Injiniya ane mutoro anogoverwa kunzvimbo yekuchengetera chirongwa uye kuvandudzwa kunoitika paruzhinji."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rejista",
+      "title": "Rejista yepurogiramu yeruzhinji"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tanga pano",
+      "title": "Ongorora basa razvino kana kutanga chirongwa chaicho"
+    },
+    "paragraphs": [
+      "Shandisa rejista kuti uone zviri pachena kare, kana kuti tanga kutora kana chinetso chaicho chokuwanika chichifanira kuva chirongwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

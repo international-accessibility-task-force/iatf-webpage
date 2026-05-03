@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kumbira chirongwa chekuwanika",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kumbira chirongwa chekuwanika",
+    "lead": "IATF inoongorora zvikumbiro zvemapurojekiti ekuwanika anotangira pane chinodiwa chaicho.",
+    "support": [
+      "Haudi tsanangudzo yakazara. Chinetso chakajeka, icho chinobata ani, uye chikonzero nei chichikosha chakakwana kutanga."
+    ],
+    "actions": [
+      {
+        "label": "Tanga chikumbiro",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Shandisa Discord pachinzvimbo",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Nhepfenyuro",
+      "title": "Sarudza nzira iri nyore"
+    },
+    "intro": [
+      "Nzira dzose dzinopinda mukunzvera kumwe chete."
+    ],
+    "items": [
+      {
+        "label": "Nzvimbo yepaIndaneti",
+        "body": "Shandisa fomu riri pasi apa kuti utumire chikumbiro chakarongwa."
+      },
+      {
+        "label": "Kero yepaIndaneti",
+        "body": "Tumira chikumbiro chacho zvakananga kuna {{contact.requestsEmail}}Zvikumbiro zveemail zvinogona kuva zvinyorwa zvechikumbiro zveveruzhinji mushure mekudzokororwa nekugadziriswa."
+      },
+      {
+        "label": "Kusawirirana",
+        "body": "Tanga ipapo kana izvozvo zviri nyore. Chikumbiro chichiri kupinda mukunzvera kumwe chete."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Usati watumira chikumbiro",
+    "paragraphs": [
+      "IATF inoshanda pachena. Zvikumbiro zvinogona kupfupikiswa uye kuburitswa sezvinyorwa zveveruzhinji zvikumbiro musangano reIATF GitHub, pane ino webhusaiti, kana zvese zviri zviviri.",
+      "Usapinza kero dzevanhu, nhamba dzerunhare, mashoko ezvokurapa, kana kuti mashoko anozivisa nezvemunhu mumwe nomumwe anoshandisa zvinhu zvinobatsira pakurapa kunze kwokunge zvakakodzera uye kana uchibvumirana kuti IATF iongorore mashoko acho.",
+      "IATF inobvisa zvisingakoshi zvemunhu ruzivo rwekuonana isati yaburitsa zvinyorwa zvekukumbira."
+    ]
+  },
+  "review": {
+    "title": "Kuongorora zvinotarisirwa",
+    "paragraphs": [
+      "Kuendesa chikumbiro hakuvimbisi kugamuchirwa.",
+      "IATF inoongorora zvikumbiro zvebasa rakakodzera, zvinokwanisika, zvinobatsira, uye kana basa racho riri mune repository revanhu.",
+      "Zvimwe zvikumbiro zvinogona kurambwa, kunonoka, kana kugadziridzwa zvisati zvatenderwa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomu rekukumbira",
+      "title": "Tumira chikumbiro"
+    },
+    "fields": [
+      {
+        "kind": "kupinza",
+        "name": "anokumbira",
+        "label": "Zita renyu kana kuti sangano renyu",
+        "helper": "Ndiani ari kuita chikumbiro chacho?"
+      },
+      {
+        "kind": "sarudza",
+        "name": "nzira yekutaurirana",
+        "label": "Nzira yokukurukurirana inosarudzwa",
+        "helper": "Kutevera kunofanira kuitika sei?",
+        "required": true,
+        "options": [
+          "Kero yepaIndaneti",
+          "Kusawirirana"
+        ]
+      },
+      {
+        "kind": "kupinza",
+        "name": "nhareDetails",
+        "label": "Mashoko okutaura naye",
+        "helper": "E-mail kero kana Discord kubata nokuda kutevera-up.",
+        "placeholder": "E-mail kero kana Discord kubata",
+        "required": true
+      },
+      {
+        "kind": "kupinza",
+        "name": "mutauro",
+        "label": "Mutauro",
+        "helper": "Mutauro waunofarira, kana uchikosha.",
+        "value": "Chirungu"
+      },
+      {
+        "kind": "nharaunda yemavara",
+        "name": "chinetso",
+        "label": "Uri kuedza kupedza chinetsoi?",
+        "helper": "Rondedzera chipingamupinyi chacho nemashoko akajeka.",
+        "required": true
+      },
+      {
+        "kind": "nharaunda yemavara",
+        "name": "Vashandisi Vanobatwa",
+        "label": "Ndivanaani vanotapurwa?",
+        "helper": "Ndiani waizobatsirwa neizvi?",
+        "required": true
+      },
+      {
+        "kind": "nharaunda yemavara",
+        "name": "mamweMashoko akapoteredza",
+        "label": "Mamwe mashoko akapoteredza",
+        "helper": "Goverana chimwe chinhu chipi nechipi chinobetsera kutsanangura chinodikanwa chacho: chikonzero nei chichikosha, mienzaniso, nongedzero, pfungwa yepurogiramu yakashata, kana ganhuriro dzenguva."
+      },
+      {
+        "kind": "sarudza",
+        "name": "openSourceConsent (kubvumirana)",
+        "label": "Unonyatsogutsikana nokuita basa rokugadzira zvinhu zviri pachena here?",
+        "helper": "Zvirongwa zvinogamuchirwa ndezvemabhuku ehurumende pasi peIATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Hungu",
+          "Kwete",
+          "Handisati ndava nechokwadi"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Kana ikagamuchirwa",
+      "title": "Zvinorehwa nokugamuchirwa"
+    },
+    "items": [
+      "repository yeruzhinji muIATF GitHub sangano",
+      "mainjiniya ane mutoro akapiwa basa racho",
+      "chibvumirano checopyleft chekodhi uye zvinhu zveprojekti",
+      "Kuvandudzwa kwevanhu mu repository",
+      "chinyorwa chekunyoresa panzvimbo yeIATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tanga kutaura",
+      "title": "Chikumbiro chipfupi, chakajeka chakakwana kutanga"
+    },
+    "paragraphs": [
+      "Kana une chinodikanwa chaicho chokuwanika uye uchifunga kuti chinofanira kuva chirongwa chevoruzhinji, titumire kwatiri."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

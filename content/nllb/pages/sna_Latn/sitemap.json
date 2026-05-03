@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indekisi",
+    "title": "Sitemap",
+    "lead": "Mapeji ose ari pachena paIatf.cc, ari panzvimbo imwe chete."
+  },
+  "sections": [
+    {
+      "title": "Mapeji makuru",
+      "items": [
+        {
+          "label": "Musha",
+          "href": "/"
+        },
+        {
+          "label": "Zvirongwa",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kumbira chirongwa",
+          "href": "/propose/"
+        },
+        {
+          "label": "Kutonga",
+          "href": "/governance/"
+        },
+        {
+          "label": "Batanidza",
+          "href": "/join/"
+        },
+        {
+          "label": "Kuwanika",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kujeka",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Zvirongwa",
+  "projectsEmpty": "Hapana mapurojekiti akabudiswa."
+}

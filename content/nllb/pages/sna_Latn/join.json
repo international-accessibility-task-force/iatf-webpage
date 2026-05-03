@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kujoina IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kujoina IATF",
+    "lead": "Nhengo yakavhurika. Kune nzira dzakawanda dzekutora chikamu, kunyangwe iwe uchivimba nehunyanzvi hwekubatsira, kuvaka software inowanikwa, kushandura, kuyedza, kana kuchengetedza chirongwa. Nhaurirano uye zvisarudzo zvinoitika paruzhinji paGitHub neDiscord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Mabasa",
+      "title": "Nzira dzokupa nadzo"
+    },
+    "items": [
+      "<strong>Kumbira basa.</strong> Kana ukasangana nechipingamupinyi chokugona kuwana chinogona kugadziriswa nesoftware yepachena yakavhurika, chiendese kuburikidza nechikumbiro chekugamuchira.",
+      "<strong>Ongorora uye ongorora.</strong> Edza IATF mapurojekiti netekinoroji yekubatsira yaunoshandisa, taura zvinoshanda nezvisingashande, uye faira zvinetso zvakananga pane repository rakakodzera.",
+      "<strong>Shandura.</strong> Zvinyorwa zvepakutanga zvinotanga kubudiswa mumutauro weChirungu. Shanduro dzinowedzerwa sezvo vanyori varipo, kutanga neSpanish.",
+      "<strong>Kuvaka.</strong> Tora zvinetso muIATF repository ipi neipi, tumira zvikumbiro zvekudhonza, kana kutora purojekiti seinjiniya wayo ane mutoro.",
+      "<strong>Chengeta.</strong> Zvirongwa zviripo dzimwe nguva zvinoda mutarisiri mutsva. Kutenderera kwevatarisiri chikamu chakajairika chemuenzaniso, kwete kusarudzika."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Nhepfenyuro",
+      "title": "Apo IATF inoshanda paruzhinji"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Nhau, kudhonza zvikumbiro, kubudiswa, uye zvinyorwa zvepurojekiti.",
+      "<strong>Kusawirirana.</strong> Kurukurirano mhenyu, kuronga, uye mibvunzo isina kurongwa.",
+      "<strong>Tumira tsamba dzepaIndaneti.</strong> Kushandisa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> kana GitHub kana kuti Discord zvikasashanda."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Danho Rinotevera",
+      "title": "Sarudza chiteshi chinowirirana nemashandiro aunoda kuita"
+    },
+    "paragraphs": [
+      "Nhepfenyuro dzose dzinopinda muongororo imwe chete yeruzhinji uye mudura rimwe chete reruzhinji."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

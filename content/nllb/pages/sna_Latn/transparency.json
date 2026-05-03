@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Kujeka",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Kujeka",
+    "lead": "IATF anoshanda paruzhinji default. chirongwa zvisarudzo, bumbiro kuchinja, utungamiri kuchinja, uye kushanda mari vari akanyorwa munzvimbo dzeruzhinji. peji rino rinoronga apo mhando imwe neimwe chinyorwa anorarama uye sei kuriverenga.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Zvinyorwa",
+      "title": "Nzvimbo inochengeterwa zvinyorwa"
+    },
+    "items": [
+      "<strong>Zvisarudzo zvepurojekiti.</strong> Kugamuchira, kuchengeta, uye kugoverazve zvisarudzo zvinonyorwa semibvunzo kana kusunungurwa munzvimbo yakakodzera yekuchengetera, uye inopfupikiswa mubhuku revanhu. <a href=\"/projects/\">rejista</a>Ndizvozvo .",
+      "<strong>Kumbira zvinyorwa.</strong> Public chikumbiro zvinyorwa zvinochengeterwa muna IATF GitHub sangano, website iyi, kana zvose. Records anogona muchidimbu, redact, kana restructure yepakutanga chikumbiro saka accessibility kudiwa inogona kudzokororwa pasina kufumura zvisingakoshi pachedu mashoko. kusanzwisisana zvisarudzo vanopfupikiswa kupinda paruzhinji chinyorwa pavanenge kukanganisa chirongwa kana utongi chisarudzo. Chikumbiro zvinyorwa vari kunze kutsvaka injini indexing apo zvazviri. View zvinyorwa: rokutanga bhuku chikumbiro pending.",
+      "<strong>Gwaro rinoshanduka.</strong> Shanduko yega yega yekodhi inogamuchirwa pachena pane inoenderana repository. Wona iyo IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub sangano</a>Ndizvozvo .",
+      "<strong>Kutonga kunochinja.</strong> Kuvandudzwa kwepeji rekutonga kunoongororwa sezvibvumirano ku <code>iatf-webhusaiti</code> Kuona repository. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">bvumidza nhoroondo</a> paGitHub.",
+      "<strong>Mari yokushandisa.</strong> IATF inochengetedza mari yekushandisa yakaderera uye inorekodha mari inodzokororwa yezvivakwa zveveruzhinji.",
+      "<strong>Zvinyorwa zvokuronga.</strong> Zvinyorwa kubva kune chero kuongororwa kwakarongeka kana sarudzo zvinorarama muGitHub Kukurukurirana pane rakakodzera repository  kuona <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Kurukurirano</a> pamusoro <code>iatf-webhusaiti</code> nzvimbo yokuchengetera zvinhu."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Zvinodhura",
+      "title": "Chinyorwa chemutengo wekushandisa"
+    },
+    "paragraphs": [
+      "IATF inochengetedza zvivakwa zveveruzhinji zvine chinangwa chidiki. Kubva muna 2022, mari huru inodzokororwa yekushandisa yanga iri mazita edomain. Hosting yakashandisa yemahara-tier kana yakaderera-mutengo zvivakwa pazvinogoneka.",
+      "Chinyorwa ichi hachisi chirevo chemari chakaongororwa. Icho chinyorwa chepachena chekushandisa mari yezvivakwa zvinoshandiswa kuchengetedza IATF online."
+    ],
+    "footnote": "Mari dzinogamuchirwa dzinogona kutaurwa kana kubudiswa mushure mekugadziriswa. Kero dzevanhu, ruzivo rwekubhadhara, uye ruzivo rweakaundi rusina basa harusi chikamu chezvinyorwa zveveruzhinji.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Nharaunda",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Mutengo",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Mashoko okuwedzera",
+            "value": "Domain mutengo mari nokuda mugiwarafx. Hosting akashandisa vakasununguka-pamwero kana yakaderera-mutengo kwezvivako kuburikidza Cloudflare. Chirongwa vakatamira kubva Vercel kuna CloudFlare uye akatanga kushandisa mapfupi <code>iatf.cc</code> nharaunda."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Nharaunda",
+            "value": "<code>nyika dzomunyika dzose accessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Mutengo",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Mashoko okuwedzera",
+            "value": "Domain mutengo mari nokuda mugiwarafx. Hosting akashandisa vakasununguka-tier kana yakaderera mutengo kwezvivako."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Nharaunda",
+            "value": "<code>nyika dzomunyika dzose accessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Mutengo",
+            "value": "US$17,06"
+          },
+          {
+            "label": "Mashoko okuwedzera",
+            "value": "Domain mutengo mari nokuda mugiwarafx. Hosting akashandisa vakasununguka-tier kana yakaderera mutengo kwezvivako kuburikidza Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Nharaunda",
+            "value": "<code>nyika dzomunyika dzose accessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Mutengo",
+            "value": "US$14,76"
+          },
+          {
+            "label": "Mashoko okuwedzera",
+            "value": "Domain mutengo mari nokuda mugiwarafx. Hosting akashandisa vakasununguka-tier kana yakaderera mutengo kwezvivako."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Nharaunda",
+            "value": "<code>nyika dzomunyika dzose accessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Mutengo",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Mashoko okuwedzera",
+            "value": "Domain mutengo mari nokuda mugiwarafx. Hosting akashandisa vakasununguka-tier kana yakaderera mutengo kwezvivako kuburikidza GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Chiziviso chemuganhu",
+      "title": "Izvo zvisiri zvevoruzhinji"
+    },
+    "paragraphs": [
+      "Zvimwe zvinhu hazviwaniki muzvinyorwa zvevoruzhinji nechinangwa:"
+    ],
+    "items": [
+      "Mashoko okutaura nevaya vanokumbira basa.",
+      "Tsamba yomunhu oga inoshandiswa bedzi kujekesa chikumbiro chisati chagamuchirwa, chakarambwa, kana kuti kupfupikiswa.",
+      "Kero dzomunhu oga, nhamba dzorunhare, uye mashoko omunhu oga asina basa.",
+      "Chinhu chipi nechipi chinogona kuzivisa mumwe munhu anoshandisa unyanzvi hunobatsira pasina kubvumirana.",
+      "Nhaurirano dzeRaw Discord, kunze kwekunge meseji yakatarwa yaendeswa nemaune muchirongwa cheveruzhinji."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Verenga zvimwe",
+      "title": "Utongi ndihwo bhuku remitemo riri seri kweaya marekodhi"
+    },
+    "paragraphs": [
+      "Kana uchida kunzwisisa kuti mapurojekiti anogamuchirwa sei, anochengetwa sei, kana kuti anopiwazve sei, verenga peji rehutongi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}
