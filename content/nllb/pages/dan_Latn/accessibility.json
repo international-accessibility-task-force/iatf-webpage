@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Tilgængelighed",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Tilgængelighed",
+    "lead": "IATF har til formål at holde denne hjemmeside enkel, læsbar, tastatur-tilgængelig og kompatibel med hjælpeteknologier.",
+    "support": [
+      "For webtilgængelighed anvender IATF [W3C WAI](https://www.w3.org/WAI/) Den praktiske tilgængelighed er også baseret på den direkte erfaring fra brugerne af hjælpeteknologier."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Indberetning",
+      "title": "Indberetning af et tilgængelighedsproblem"
+    },
+    "paragraphs": [
+      "Hvis du finder en adgangshindring på dette websted, bedes du rapportere det via e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Blandt de nyttige rapporter kan nævnes:"
+    ],
+    "items": [
+      "den side, hvor problemet opstod",
+      "hvad du prøvede at gøre",
+      "hvilken hjælpeteknologi, browser eller enhed du brugte, hvis relevant",
+      "Hvad gik galt?",
+      "hvad ville have hjulpet"
+    ],
+    "footnote": "Det er ikke nødvendigt at skrive en formel fejlrapport."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Håndtering",
+      "title": "Behandling af offentlige spørgsmål"
+    },
+    "paragraphs": [
+      "Tilgængelighedsproblemer kan opsummeres i det relevante offentlige arkiv, så de kan løses i det åbne. Personlige kontaktoplysninger og unødvendige private oplysninger fjernes før offentliggørelse.",
+      "Hvis din rapport indeholder private oplysninger, skal du gøre det klart i meddelelsen."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Aktuel situation",
+      "title": "Kendte begrænsninger"
+    },
+    "paragraphs": [
+      "Dette websted er med vilje lille og for det meste statisk. Nogle sprogversioner kan være ufuldstændige, mens oversættelser forberedes."
+    ]
+  }
+}

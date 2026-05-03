@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Tilmeld dig IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Tilmeld dig IATF",
+    "lead": "Medlemskab er åbent. Der er flere måder at deltage på, uanset om du er afhængig af hjælpeteknologi, bygger tilgængelig software, oversætter, tester eller vedligeholder et projekt. Diskussioner og beslutninger sker offentligt på GitHub og Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Roller",
+      "title": "Måder at bidrage på"
+    },
+    "items": [
+      "<strong>Anmod om et projekt.</strong> Hvis du støder på en tilgængelighedshindring, der kan løses med offentlig open source-software, skal du sende den via anmodningsindtagelsen.",
+      "<strong>Test og gennemgang.</strong> Prøv IATF-projekter med den hjælpeteknologi, du bruger, rapporter, hvad der virker, og hvad der ikke gør, og indsend problemer direkte til det relevante arkiv.",
+      "<strong>Oversæt.</strong> Kilden indhold udgives i almindelig engelsk først. Oversættelser tilføjes som bidragydere er tilgængelige, begyndende med spansk.",
+      "<strong>Byg.</strong> Hent problemer i et hvilket som helst IATF-repository, send pull-anmodninger eller overtag et projekt som ansvarlig ingeniør.",
+      "<strong>Fortsæt.</strong> Eksisterende projekter har undertiden brug for en ny vedligeholdelsesansvarlig."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanaler",
+      "title": "Hvor IATF arbejder offentligt"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problemer, pull-anmodninger, udgivelser og projektoptegnelser.",
+      "<strong>Uoverensstemmelse.</strong> Live diskussion, koordinering og uformelle spørgsmål.",
+      "<strong>E-mail.</strong> Anvendelse <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> hvis hverken GitHub eller Discord passer."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Næste trin",
+      "title": "Vælg den kanal, der passer til, hvordan du ønsker at bidrage"
+    },
+    "paragraphs": [
+      "Alle kanaler føres ind i den samme offentlige gennemgang og de samme offentlige databaser."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

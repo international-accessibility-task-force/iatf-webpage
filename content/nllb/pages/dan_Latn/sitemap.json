@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Webstedskort"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Webstedskort",
+    "lead": "Alle offentlige sider på IATF.CC, på ét sted."
+  },
+  "sections": [
+    {
+      "title": "Hovedsider",
+      "items": [
+        {
+          "label": "Hjem",
+          "href": "/"
+        },
+        {
+          "label": "Projekter",
+          "href": "/projects/"
+        },
+        {
+          "label": "Anmodning om et projekt",
+          "href": "/propose/"
+        },
+        {
+          "label": "Styring",
+          "href": "/governance/"
+        },
+        {
+          "label": "Tilmeld dig",
+          "href": "/join/"
+        },
+        {
+          "label": "Tilgængelighed",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Gennemsigtighed",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projekter",
+  "projectsEmpty": "Der er endnu ikke offentliggjort nogen projekter."
+}

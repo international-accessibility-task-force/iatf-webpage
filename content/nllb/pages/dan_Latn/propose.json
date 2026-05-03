@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Anmodning om et tilgængelighedsprojekt",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Anmodning om et tilgængelighedsprojekt",
+    "lead": "IATF gennemgår anmodninger om tilgængelighedsprojekter, der udspringer af et reelt behov.",
+    "support": [
+      "Det er ikke nødvendigt med en detaljeret beskrivelse, men et klart problem, hvem det berører, og hvorfor det er vigtigt, er nok til at komme i gang."
+    ],
+    "actions": [
+      {
+        "label": "Start en forespørgsel",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Brug Discord i stedet",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanaler",
+      "title": "Vælg den nemmeste vej."
+    },
+    "intro": [
+      "Alle ruter indgår i den samme gennemgang."
+    ],
+    "items": [
+      {
+        "label": "Hjemmeside",
+        "body": "Brug nedenstående formular til at indsende en struktureret anmodning."
+      },
+      {
+        "label": "E-mail",
+        "body": "Send anmodningen direkte til: {{contact.requestsEmail}}E-mail-anmodninger kan blive offentlige anmodningsoptegnelser efter gennemgang og redigering."
+      },
+      {
+        "label": "Uenighed",
+        "body": "Begynd der, hvis det er det nemmeste. anmodningen bevæger sig stadig ind i den samme gennemgang."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Inden du sender en anmodning",
+    "paragraphs": [
+      "Anmodninger kan opsummeres og offentliggøres som offentlige anmodningsoptegnelser i IATF GitHub-organisationen, på denne hjemmeside eller begge dele.",
+      "Indsæt ikke private adresser, telefonnumre, medicinske oplysninger eller identificerende oplysninger om individuelle brugere af hjælpeteknologier, medmindre det er nødvendigt, og du er tilfreds med, at IATF gennemgår det.",
+      "IATF fjerner unødvendige personlige kontaktoplysninger, før de offentliggør anmodningsoptegnelser."
+    ]
+  },
+  "review": {
+    "title": "Revisionsforventninger",
+    "paragraphs": [
+      "Indsendelse af en anmodning garanterer ikke accept.",
+      "IATF gennemgår anmodninger om mission fit, gennemførlighed, nytteværdi og om arbejdet hører til i et offentligt arkiv.",
+      "Nogle anmodninger kan afvises, udsættes eller ændres, før de godkendes."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Anmodningsformular",
+      "title": "Indsend en anmodning"
+    },
+    "fields": [
+      {
+        "kind": "Indtastning",
+        "name": "ansøger",
+        "label": "Dit navn eller din organisation",
+        "helper": "Hvem fremsætter anmodningen?"
+      },
+      {
+        "kind": "udvælge",
+        "name": "Kontaktrute",
+        "label": "Foretrukket kontaktrute",
+        "helper": "Hvordan skal opfølgningen foregå?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Uenighed"
+        ]
+      },
+      {
+        "kind": "Indtastning",
+        "name": "Kontaktdetaljer",
+        "label": "Kontaktoplysninger",
+        "helper": "E-mailadresse eller Discord-adresse til opfølgning.",
+        "placeholder": "E- mailadresse eller Discord- adresse",
+        "required": true
+      },
+      {
+        "kind": "Indtastning",
+        "name": "sprog",
+        "label": "Sprog",
+        "helper": "Dit foretrukne sprog, hvis relevant.",
+        "value": "Engelsk"
+      },
+      {
+        "kind": "tekstområde",
+        "name": "problemer",
+        "label": "Hvilket problem prøver du at løse?",
+        "helper": "Beskriv barrieren med enkle ord.",
+        "required": true
+      },
+      {
+        "kind": "tekstområde",
+        "name": "berørtbrugere",
+        "label": "Hvem er berørt?",
+        "helper": "Hvem ville det hjælpe?",
+        "required": true
+      },
+      {
+        "kind": "tekstområde",
+        "name": "ekstraKontext",
+        "label": "Ekstra sammenhæng",
+        "helper": "Del alt andet, der hjælper med at forklare behovet: hvorfor det er vigtigt, eksempler, referencer, en grov softwareidé eller tidsbegrænsninger."
+      },
+      {
+        "kind": "udvælge",
+        "name": "openSourceConsent",
+        "label": "Komfortabelt med offentlig open source udvikling?",
+        "helper": "Godkendte projekter er offentlige repositorier under IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ja, det gør jeg.",
+          "Nej, det gør jeg ikke.",
+          "Jeg ved det ikke endnu."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Hvis accepteret",
+      "title": "Hvad accept betyder"
+    },
+    "items": [
+      "et offentligt repository i IATF's GitHub-organisation",
+      "en ansvarlig ingeniør, der er tilknyttet projektet",
+      "en copyleft-licens til koden og projektmaterialet",
+      "offentlig udvikling i depotet",
+      "en registrering på IATF's websted"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Begynd samtalen",
+      "title": "En kort, klar anmodning er nok til at starte"
+    },
+    "paragraphs": [
+      "Hvis du har et reelt behov for tilgængelighed og mener, at det bør blive et offentligt projekt, så send det til os."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

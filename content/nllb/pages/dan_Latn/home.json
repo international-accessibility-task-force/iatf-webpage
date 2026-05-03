@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Fra tilgængelighedsbehov til offentlige repos",
+    "lead": "IATF hjælper foreninger, grupper og enkeltpersoner med at omdanne reelle tilgængelighedsbehov til offentlige open source-projekter.",
+    "support": [
+      "Godkendte projekter offentliggøres i IATF GitHub-organisationen under en copyleft-licens og udvikles offentligt af en ansvarlig ingeniør."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Offentlig driftsmodel",
+      "title": "En enkel offentlig vej til tilgængelig software"
+    },
+    "paragraphs": [
+      "Gennem en formular kan enhver indsende et tilgængelighedsproblem til IATF. Hvis holdet kan tage det på, åbnes et offentligt GitHub-repository for arbejdet.",
+      "Hvert accepteret projekt har et klart offentligt hjem for kode, problemer, dokumentation og udgivelser, med udvikling ledet i det åbne af en ansvarlig ingeniør."
+    ],
+    "specCard": {
+      "title": "Offentlig driftsmodel",
+      "terms": [
+        {
+          "term": "Behov",
+          "definition": "Virkelig tilgængelighedsproblem"
+        },
+        {
+          "term": "Gennemgang",
+          "definition": "Missionsmæssig egnethed og praktisk gennemførlighed"
+        },
+        {
+          "term": "Projektområde",
+          "definition": "Offentlig GitHub-repository"
+        },
+        {
+          "term": "Styring",
+          "definition": "IATF's organisatoriske ejerskab"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Fremgangsmåden",
+      "title": "Hvordan det virker",
+      "intro": "Modellen forbliver bevidst lille, så den offentlige vej er let at følge."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Der indgives et krav",
+        "paragraphs": [
+          "En forening, en gruppe eller en enkeltperson kan indgive en anmodning baseret på et reelt behov for tilgængelighed.",
+          "Anmodninger kan indgives via hjemmesiden eller via e-mail til: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, eller gennem Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF gennemgår det",
+        "paragraphs": [
+          "Vi gennemgår mission fit, praktisk omfang, og om arbejdet hører hjemme i et offentligt open source projekt."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Der oprettes et offentligt arkiv",
+        "paragraphs": [
+          "Hvis et projekt accepteres, offentliggøres det i IATF GitHub-organisationen under en copyleft-licens.",
+          "Repositoriet bliver det offentlige hjem for koden, problemstillinger, dokumentation og udgivelser."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "En ansvarlig ingeniør leder projektet",
+        "paragraphs": [
+          "En ansvarlig ingeniør er tildelt projektdatabasen, og udviklingen foregår offentligt."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registret",
+      "title": "Offentlig projektregister"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Begynd her.",
+      "title": "Gennemse det igangværende arbejde eller påbegynde et konkret projekt"
+    },
+    "paragraphs": [
+      "Brug registret til at se, hvad der allerede er offentligt tilgængeligt, eller start optagelsen, hvis et konkret tilgængelighedsproblem skulle blive et projekt."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

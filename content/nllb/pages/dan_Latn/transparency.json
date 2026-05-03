@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Gennemsigtighed",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Gennemsigtighed",
+    "lead": "IATF arbejder som standard offentligt. Projektbeslutninger, kodeændringer, styringsændringer og driftsomkostninger registreres på offentlige steder.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Optegnelser",
+      "title": "Hvor arkiverne bor"
+    },
+    "items": [
+      "<strong>Projektbeslutninger.</strong> Afgørelser om godkendelse, arkivering og omfordeling registreres som udstedelser eller frigivelser i det relevante register og opsummeres i det offentlige register. <a href=\"/projects/\">register</a>- Ja, det gør jeg.",
+      "<strong>Anmod om optegnelser.</strong> Offentlige anmodningsoptegnelser gemmes i IATF GitHub-organisationen, på denne hjemmeside eller begge dele. Optegnelser kan opsummere, redigere eller omstrukturere den oprindelige anmodning, så tilgængelighedsbehovet kan gennemgås uden at udsætte unødvendige personlige oplysninger. Uoverensstemmelsesbeslutninger opsummeres i det offentlige register, når de påvirker et projekt eller en styringsbeslutning.",
+      "<strong>Koden ændrer sig.</strong> Hver kodeændring er et offentligt commit på det relevante repository. Se IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub-organisation</a>- Ja, det gør jeg.",
+      "<strong>Styrelsesmæssige ændringer.</strong> Opdateringer til governance-siden registreres som commits til <code>IATF-hjemmeside</code> Databasen indeholder følgende oplysninger: <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">indlæse historie</a> på GitHub.",
+      "<strong>Driftsomkostninger.</strong> IATF holder driftsomkostningerne lave og registrerer tilbagevendende offentlige infrastrukturudgifter.",
+      "<strong>Samordningsnotater.</strong> Bemærkninger fra enhver koordineret gennemgang eller beslutning lever på GitHub Diskussioner om det relevante repository  visning <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Udtalelse fra Det Økonomiske og Sociale Udvalg</a> på den <code>IATF-hjemmeside</code> opbevaringsplads."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Omkostninger",
+      "title": "Registrering af driftsomkostninger"
+    },
+    "paragraphs": [
+      "IATF holder sin offentlige infrastruktur bevidst lille. Siden 2022 har de vigtigste tilbagevendende driftsomkostninger været domænenavne.",
+      "Denne post er ikke en revideret årsregnskab, men en offentlig driftsomkostningslog for den infrastruktur, der anvendes til at holde IATF online."
+    ],
+    "footnote": "Kvitteringer kan henvises til eller offentliggøres efter redigering. Personlige adresser, faktureringsoplysninger og unødvendige kontooplysninger er ikke en del af det offentlige register.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Domæne",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Omkostninger",
+            "value": "USD 3,40"
+          },
+          {
+            "label": "Bemærkninger",
+            "value": "Projektet flyttede fra Vercel til Cloudflare og begyndte at bruge den kortere <code>iatf.cc</code> domæne."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Domæne",
+            "value": "<code>Internationel adgangskapacitetskraften.com</code>"
+          },
+          {
+            "label": "Omkostninger",
+            "value": "18,68 USD"
+          },
+          {
+            "label": "Bemærkninger",
+            "value": "Domæneomkostninger finansieret af mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Domæne",
+            "value": "<code>Internationel adgangskapacitetskraften.com</code>"
+          },
+          {
+            "label": "Omkostninger",
+            "value": "USD 17,06"
+          },
+          {
+            "label": "Bemærkninger",
+            "value": "Domæneomkostninger finansieret af mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Domæne",
+            "value": "<code>Internationel adgangskapacitetskraften.com</code>"
+          },
+          {
+            "label": "Omkostninger",
+            "value": "14,76 USD"
+          },
+          {
+            "label": "Bemærkninger",
+            "value": "Domæneomkostninger finansieret af mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Domæne",
+            "value": "<code>Internationel adgangskapacitetskraften.com</code>"
+          },
+          {
+            "label": "Omkostninger",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Bemærkninger",
+            "value": "Domænekostnad finansieret af mugiwarafx. Hosting brugte gratis- eller lavprisinfrastruktur gennem GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Afgrænsning",
+      "title": "Hvad der ikke er offentligt"
+    },
+    "paragraphs": [
+      "Noget materiale holdes ude af offentlige arkiver med henblik på:"
+    ],
+    "items": [
+      "Ansøgernes personlige kontaktoplysninger.",
+      "Privat korrespondance, der kun bruges til at præcisere en anmodning, før den accepteres, afvises eller opsummeres.",
+      "Privat adresser, telefonnumre og unødvendige personlige oplysninger.",
+      "Alt, der kan identificere en individuel bruger af hjælpeteknologi uden samtykke.",
+      "Raw Discord-samtaler, medmindre en specifik besked forsætligt flyttes til en offentlig projektdatabase."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Læs mere",
+      "title": "Styring er reglementet bag disse optegnelser"
+    },
+    "paragraphs": [
+      "Hvis du vil forstå, hvordan projekter accepteres, arkiveres eller omfordeles, skal du læse side om styring."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

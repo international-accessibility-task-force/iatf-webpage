@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ikke fundet"
+  },
+  "hero": {
+    "eyebrow": "Ikke fundet",
+    "title": "Den ønskede side blev ikke fundet",
+    "lead": "Brug hovedvejene nedenfor for at komme tilbage til det offentlige område.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Hjem",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Den ønskede rute findes ikke."
+    ],
+    "items": [
+      {
+        "label": "Hjem",
+        "href": "/"
+      },
+      {
+        "label": "Projekter",
+        "href": "/projects/"
+      },
+      {
+        "label": "Tilmeld dig",
+        "href": "/join/"
+      },
+      {
+        "label": "Tilgængelighed",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Styring",
+        "href": "/governance/"
+      },
+      {
+        "label": "Gennemsigtighed",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
