@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Iiprojekthi zokufikeleleka koluntu",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Iiprojekthi zokufikeleleka koluntu",
+    "lead": "Olu luhlu luluhlu lweeprojekthi zoluntu ezigcinwe nge-IATF. Iiprojethi zokufikeleleka ezamkelweyo, iziseko zendawo, kunye neeprototypes ezigciniweyo zigcinwa zibonakala apha.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ubhaliso",
+      "title": "Ubhaliso lwangoku"
+    },
+    "intro": [
+      "Iiprojekthi ezamkelweyo zidweliswe apha emva kokuba zipapashiwe."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Thumela imfuno",
+      "title": "Ukuguqula imfuno engqalileyo yokufikeleleka ibe yiprojekthi yoluntu"
+    },
+    "paragraphs": [
+      "I-IATF ihlola iimfuno ezibonakalayo zokufikeleleka ezinokuthi ziguqulwe zibe ngumsebenzi woluntu oluncedo womthombo ovulekileyo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Azikho iiprojekthi ezipapashiweyo okwangoku",
+    "paragraphs": [
+      "I-IATF ilungiselela iseti yayo yokuqala yeeprojekthi zoluntu.",
+      "Usenako ukuthumela isicelo ukuba unemfuno engqalileyo yokufikeleleka."
+    ]
+  }
+}

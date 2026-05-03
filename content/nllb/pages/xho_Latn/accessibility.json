@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Ukufikeleleka",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Ukufikeleleka",
+    "lead": "I-IATF ijonge ukugcina le webhusayithi ilula, ifundeka, ifikeleleka ngekhibhodi, kwaye ihambelana neetekhnoloji ezincedisayo.",
+    "support": [
+      "Ukufikeleleka kwiWebhu, i-IATF isebenzisa [W3C WAI](https://www.w3.org/WAI/) Ukufikeleleka okusebenzayo kukwaxhaswa ngamava ngqo abasebenzisi beetekhnoloji ezincedisayo."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ingxelo",
+      "title": "Xela ingxaki yokufikeleleka"
+    },
+    "paragraphs": [
+      "Ukuba ufumana umqobo wokufikeleleka kule webhusayithi, nceda uxele nge-imeyile:",
+      "{{contact.accessibilityEmail}}",
+      "Iingxelo eziluncedo ziquka:"
+    ],
+    "items": [
+      "iphepha apho le ngxaki yenzeke khona",
+      "oko ubuzama ukukwenza",
+      "yeyiphi iteknoloji yokuncedisa, isikhangeli okanye isixhobo osisebenzisayo, ukuba kufanelekile",
+      "yintoni engahambanga kakuhle",
+      "yintoni eyayinokunceda"
+    ],
+    "footnote": "Akunyanzelekanga ukuba ubhale ingxelo yesiphene esemthethweni. Inkcazo ecacileyo yanele."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Ukuphathwa",
+      "title": "Ukuphathwa kwemiba yoluntu"
+    },
+    "paragraphs": [
+      "Imiba yokufikeleleka ingashwankathelwa kwindawo yokugcina yoluntu ukuze ilungiswe kwindawo evulekileyo. Iinkcukacha zoqhagamshelwano zobuqu kunye nolwazi oluyimfihlo olungeyomfuneko luyasuswa ngaphambi kokupapashwa.",
+      "Ukuba ingxelo yakho iquka inkcazelo yobuqu, yitsho ngokucacileyo kuloo myalezo."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Imeko yangoku",
+      "title": "Imida eyaziwayo"
+    },
+    "paragraphs": [
+      "Le webhsayithi incinane ngamabomu yaye inkoliso yayo ayiguquguquki. Ezinye iinguqulelo zeelwimi zisenokungaphelelanga ngoxa kulungiselelwa ukuguqulelwa."
+    ]
+  }
+}

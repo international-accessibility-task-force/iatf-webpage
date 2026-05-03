@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Iwebhsayithi ye-IATF",
+    "summary": "Indawo kawonke-wonke yeQela eliSebenzayo lokuFikelela kuZwelonke.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "I-IATF yayidinga ikhaya loluntu elizinzileyo elicacisa imodeli, lidwelise iiprojekthi, lize libonise abo banegalelo kwinyathelo elilandelayo elifanelekileyo.",
+    "why": "Le webhusayithi ngumnyango ophambili kawonke-wonke we-IATF. Yakhiwe njengeprojekthi encinci emileyo ukuze kube lula ukuyifunda, ukuguqulela, nokugcina kwindawo evulekileyo.",
+    "scopeIn": [
+      "Amaphepha okufika kawonke-wonke acacisa imodeli ye-IATF",
+      "Ubhaliso loluntu lweeprojekthi ze-IATF ezamkelweyo, ezisebenzayo nezigciniweyo ezinemeko, umgcini, ugcino, kunye nedemo",
+      "Iphepha lokwamkela isicelo kunye nefom",
+      "Amaphepha olawulo kunye nokungafihlisi",
+      "Umthombo wesiNgesi kunye nesakhiwo esilungele ukuguqulelwa",
+      "Ukusetyenziswa kwe-static kwi-Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Iindawo zamalungu abucala, iiakhawunti, okanye imijikelezo yokungena",
+      "Ukubamba ikhowudi yomthombo weprojekthi, ehlala kwindawo yokugcina nganye yeprojekthi",
+      "Ingxoxo yexesha lokwenyani, ehlala kwi-Discord",
+      "Ukulandelela imiba yeeprojekthi ezizodwa, ezihlala kwindawo yogcino lweprojekthi nganye yeGitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "I-selfie ye-IATF",
+    "summary": "Umzekelo wokuqala we-IATF, ogciniweyo emva kokufikelela kwindawo yokumisa yendalo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Ukuphononongwa kwangoko kwesixhobo esijolise ekufikelelekeni phantsi kwesambulela se-IATF.",
+    "why": "Indawo yokugcina igcinwa esidlangalaleni njengerekhodi yomsebenzi, nangona uphuhliso olusebenzayo luyekile.",
+    "scopeIn": [
+      "Iprototype yokuqala yesixhobo esijolise ekufikelelekeni egcinwe njengerekhodi yoluntu"
+    ],
+    "scopeOut": [
+      "Uphuhliso olusebenzayo okanye umsebenzi obonakalayo",
+      "Izibophelelo zemali yesondlo",
+      "Ukusetyenziswa okucetyiswayo kwimveliso"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "I-bot yoluntu lwe-IATF, egciniweyo emva kokufikelela kwindawo yokumisa yendalo.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Ukuzenzekelayo kwimijelo yoluntu ye-IATF.",
+    "why": "Indawo yokugcina igcinwa esidlangalaleni njengerekhodi yomsebenzi, nangona uphuhliso olusebenzayo luyekile.",
+    "scopeIn": [
+      "I-automation ye-Discord ejikeleze amajelo oluntu e-IATF, agcinwe njengerekhodi yoluntu"
+    ],
+    "scopeOut": [
+      "Uphuhliso olusebenzayo okanye umsebenzi obonakalayo",
+      "Izibophelelo zemali yesondlo",
+      "Ukusetyenziswa okucetyiswayo kwimveliso"
+    ]
+  }
+]

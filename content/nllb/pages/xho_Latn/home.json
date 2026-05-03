@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Ukusuka kwimfuno yokufikeleleka ukuya kwi-repo yoluntu",
+    "lead": "I-IATF inceda imibutho, amaqela, kunye nabantu ukuba baguqule iimfuno zokwenyani zokufikeleleka zibe ziiprojekthi zomthombo ovulekileyo.",
+    "support": [
+      "Iiprojekthi ezamkelweyo zipapashwa kumbutho we-IATF GitHub phantsi kwelayisensi ye-copyleft kwaye ziphuhliswe esidlangalaleni yinjineli enoxanduva."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Imodeli yokusebenza kawonke-wonke",
+      "title": "Indlela elula kawonke-wonke yesoftware efikelelekayo"
+    },
+    "paragraphs": [
+      "Ngokusebenzisa ifom, nabani na angathumela ingxaki yokufikeleleka kwi-IATF. Ukuba iqela lingayithatha, indawo yoluntu yeGitHub ivuliwe ngomsebenzi.",
+      "Iprojekthi nganye eyamkelekileyo inendawo ecacileyo yoluntu yekhowudi, imiba, amaxwebhu, kunye nokukhutshwa, kunye nophuhliso olukhokelwa kwindawo evulekileyo yinjineli enoxanduva."
+    ],
+    "specCard": {
+      "title": "Imodeli yokusebenza kawonke-wonke",
+      "terms": [
+        {
+          "term": "Imfuneko",
+          "definition": "Ingxaki yokwenene yokufikeleleka"
+        },
+        {
+          "term": "Uphengululo",
+          "definition": "Ukufaneleka koMsebenzi kunye nokuSebenza okuSebenzayo"
+        },
+        {
+          "term": "Indawo yeprojekthi",
+          "definition": "Indawo yokugcina yoluntu kwiGitHub"
+        },
+        {
+          "term": "Ulawulo",
+          "definition": "Ubunini boMbutho we-IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Inkqubo",
+      "title": "Isebenza njani",
+      "intro": "Imodeli ihlala incinci ngenjongo ukuze indlela kawonke-wonke ilula ukuyilandela."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Isidingo sichaziwe",
+        "paragraphs": [
+          "Umbutho, iqela okanye umntu ngamnye angenza isicelo esisekelwe kwimfuno yokwenene yokufikeleleka.",
+          "Izicelo zingaqaliswa kwiwebhsayithi, nge-imeyile <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, okanye ngeDiscord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "I-IATF iyayivavanya",
+        "paragraphs": [
+          "Siye sihlolisise ukufaneleka komsebenzi, ububanzi obusebenzisekayo, nokuba umsebenzi ufanelekile kusini na kwiprojekthi yomthombo ovulekileyo kawonke-wonke."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Indawo yokugcina yoluntu iyenziwa",
+        "paragraphs": [
+          "Ukuba iprojekthi yamkelwe, ipapashwa kwi-GitHub ye-IATF phantsi kwelayisensi ye-copyleft.",
+          "Indawo yokugcina iba likhaya loluntu lwekhowudi, imiba, amaxwebhu, kunye nokukhutshwa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injineli enoxanduva ikhokela iprojekthi",
+        "paragraphs": [
+          "Injineli enoxanduva yabelwe kwindawo yokugcina iiprojekthi kwaye uphuhliso lwenzeka esidlangalaleni."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Ubhaliso",
+      "title": "Irejista yeprojekthi kawonke-wonke"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Qala apha",
+      "title": "Khangela umsebenzi okhoyo okanye uqalise iprojekthi ethile"
+    },
+    "paragraphs": [
+      "Sebenzisa irejista ukubona ukuba yintoni esele isesidlangalaleni, okanye uqalise ukungenisa ukuba ingxaki ethile yokufikeleleka kufuneka ibe yiprojekthi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

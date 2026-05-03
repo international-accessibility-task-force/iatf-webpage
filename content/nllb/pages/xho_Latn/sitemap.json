@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Imephu yesiza"
+  },
+  "hero": {
+    "eyebrow": "Isalathiso",
+    "title": "Imephu yesiza",
+    "lead": "Lonke iphepha loluntu kwi-iatf.cc, kwindawo enye."
+  },
+  "sections": [
+    {
+      "title": "Amaphepha aphambili",
+      "items": [
+        {
+          "label": "Ikhaya",
+          "href": "/"
+        },
+        {
+          "label": "Iiprojekthi",
+          "href": "/projects/"
+        },
+        {
+          "label": "Cela iprojekthi",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ulawulo",
+          "href": "/governance/"
+        },
+        {
+          "label": "Dibanisa",
+          "href": "/join/"
+        },
+        {
+          "label": "Ukufikeleleka",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ukungafihlisi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Iiprojekthi",
+  "projectsEmpty": "Azikho iiprojekthi ezipapashiweyo okwangoku."
+}

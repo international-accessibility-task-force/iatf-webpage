@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ayifumanekanga"
+  },
+  "hero": {
+    "eyebrow": "Ayifumanekanga",
+    "title": "Iphepha eliceliweyo alifumanekanga",
+    "lead": "Sebenzisa iindlela eziphambili ezingezantsi ukubuyela kwindawo kawonke-wonke.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ikhaya",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Indlela oyicelileyo ayikho."
+    ],
+    "items": [
+      {
+        "label": "Ikhaya",
+        "href": "/"
+      },
+      {
+        "label": "Iiprojekthi",
+        "href": "/projects/"
+      },
+      {
+        "label": "Dibanisa",
+        "href": "/join/"
+      },
+      {
+        "label": "Ukufikeleleka",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ulawulo",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ukungafihlisi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

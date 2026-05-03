@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Ukucela iprojekthi yokufikeleleka",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Ukucela iprojekthi yokufikeleleka",
+    "lead": "I-IATF ihlola izicelo zeeprojekthi zokufikeleleka eziqala kwimfuno yokwenene.",
+    "support": [
+      "Akuyomfuneko ukuba uchaze zonke iinkcukacha, kodwa into efunekayo kukuchaza ingxaki ngokucacileyo, ukuba ichaphazela bani, nesizathu sokuba ibaluleke."
+    ],
+    "actions": [
+      {
+        "label": "Qalisa isicelo",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Sebenzisa i-Discord endaweni yoko",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Imijelo",
+      "title": "Khetha eyona ndlela ilula"
+    },
+    "intro": [
+      "Zonke iindlela zingena kuphononongo olunye."
+    ],
+    "items": [
+      {
+        "label": "IWebhusayithi",
+        "body": "Sebenzisa le fomu ingezantsi ukuze uthumele isicelo esicwangcisiweyo."
+      },
+      {
+        "label": "I-imeyile",
+        "body": "Thumela isicelo ngqo kwi- {{contact.requestsEmail}}Izicelo ze-imeyile zinokuba ziirekhodi zesicelo esidlangalaleni emva kokuphononongwa nokucinywa."
+      },
+      {
+        "label": "Ukungavisisani",
+        "body": "Qalisa apho ukuba oko kulula. Isicelo sisaqhubeka kuhlalutyo olunye."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Phambi kokuba uthumele isicelo",
+    "paragraphs": [
+      "I-IATF isebenza esidlangalaleni. Izicelo zinokushwankathelwa kwaye zipapashwe njengerekhodi yezicelo zoluntu kwi-GitHub, kule webhusayithi, okanye kuzo zombini.",
+      "Musa ukufaka iidilesi zabucala, iinombolo zefowuni, iinkcukacha zonyango, okanye iinkcukacha zokuchonga umsebenzisi ngamnye wezobugcisa obuncedisayo ngaphandle kokuba kuyimfuneko kwaye awukhathazeki ukuba i-IATF ihlaziye.",
+      "I-IATF isusa iinkcukacha zoqhagamshelwano ezingeyomfuneko phambi kokupapasha iirekhodi zesicelo."
+    ]
+  },
+  "review": {
+    "title": "Uhlalutyo lwezinto ezilindelweyo",
+    "paragraphs": [
+      "Ukungeniswa kwesicelo akuqinisekisi ukuba siya kwamkelwa.",
+      "I-IATF ihlolisisa izicelo zokufaneleka komsebenzi, ukusebenziseka, ukuba luncedo, nokuba umsebenzi ufanelekile na kwindawo yolondolozo yoluntu.",
+      "Ezinye izicelo zisenokwaliwa, zihlehliswe okanye zilungiswe ngaphambi kokuba zamkelwe."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Ifom yesicelo",
+      "title": "Ngenisa isicelo"
+    },
+    "fields": [
+      {
+        "kind": "igalelo",
+        "name": "umceli",
+        "label": "Igama okanye umbutho wakho",
+        "helper": "Ngubani owenza esi sicelo?"
+      },
+      {
+        "kind": "khetha",
+        "name": "Umzila woqhakamshelwano",
+        "label": "Indlela yokunxibelelana ekhethiweyo",
+        "helper": "Kufuneka kulandelwe njani?",
+        "required": true,
+        "options": [
+          "I-imeyile",
+          "Ukungavisisani"
+        ]
+      },
+      {
+        "kind": "igalelo",
+        "name": "Iinkcukacha zoqhagamshelwano",
+        "label": "Iinkcukacha zoqhagamshelwano",
+        "helper": "Idilesi ye-imeyile okanye idilesi yeDiscord yokulandelela.",
+        "placeholder": "Idilesi ye-imeyile okanye i-Discord handle",
+        "required": true
+      },
+      {
+        "kind": "igalelo",
+        "name": "ulwimi",
+        "label": "Ulwimi",
+        "helper": "Ulwimi oluthandayo, ukuba lubalulekile.",
+        "value": "IsiNgesi"
+      },
+      {
+        "kind": "indawo yokubhaliweyo",
+        "name": "ingxaki",
+        "label": "Yiyiphi ingxaki ozama ukuyicombulula?",
+        "helper": "Chaza umqobo ngolwimi olucacileyo.",
+        "required": true
+      },
+      {
+        "kind": "indawo yokubhaliweyo",
+        "name": "Abasebenzisi abachaphazelekayo",
+        "label": "Ngoobani abachaphazelekayo?",
+        "helper": "Loo nto yayiza kunceda bani?",
+        "required": true
+      },
+      {
+        "kind": "indawo yokubhaliweyo",
+        "name": "extraUmongo",
+        "label": "Umxholo owongezelelweyo",
+        "helper": "Yabelana ngayo nayiphi na enye into enokunceda ukucacisa imfuneko: isizathu sokuba ibalulekile, imizekelo, iimbekiselo, ingcamango yesoftware ekrwada, okanye imiqathango yexesha."
+      },
+      {
+        "kind": "khetha",
+        "name": "openSourceConsent",
+        "label": "Ngaba ukhululekile ekuphuhlisweni komthombo ovulekileyo?",
+        "helper": "Iiprojekthi ezamkelweyo zizigcini zoluntu phantsi kwe-IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ewe",
+          "Hayi",
+          "Andiqinisekanga okwangoku"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ukuba yamkelwe",
+      "title": "Oko kuthethwa kukwamkelwa"
+    },
+    "items": [
+      "Indawo yokugcina yoluntu kumbutho we-IATF GitHub",
+      "injineli enoxanduva eyabelwe iprojekthi",
+      "ilayisensi ye-copyleft yekhowudi kunye nezinto zeprojekthi",
+      "uphuhliso loluntu kwindawo yogcino",
+      "Ukungena kwirejista kwindawo ye-IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Qalisa incoko",
+      "title": "Isicelo esifutshane nesicacileyo sanele ukuqala"
+    },
+    "paragraphs": [
+      "Ukuba unemfuno yokwenyani yokufikeleleka kwaye ucinga ukuba kufanele ukuba ibe yiprojekthi yoluntu, thumela kuthi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

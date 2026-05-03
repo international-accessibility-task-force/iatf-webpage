@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Ulawulo kunye nemodeli yogcino",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Ulawulo kunye nemodeli yogcino",
+    "lead": "I-IATF igcina iiprojekthi zokufikeleleka zisesidlangalaleni, zifundeka, kwaye zilondolozeka.",
+    "support": [
+      "Eli phepha lichaza ukuba yintoni ebandakanyekayo, ukuba zigcinwa njani iindawo zokugcina izinto, kwaye yintoni uxanduva kwinqanaba lokugcina izinto olusebenzayo emva kokwamkelwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Imigaqo",
+      "title": "Ukufaneleka koMsebenzi, ubunini, ukuLayisenisa"
+    },
+    "cards": [
+      {
+        "title": "Umsebenzi ofanelekileyo",
+        "paragraphs": [
+          "I-IATF yamkela umsebenzi ojongene nomqobo wokwenyani wokufikeleleka kwaye unexabiso elicacileyo loluntu.",
+          "Iprojekthi kufuneka ibe luncedo ngaphaya kokuhamba komsebenzi wabucala kwaye isebenze njengendawo yokugcina yoluntu.",
+          "Ukufikeleleka kwiWebhu, i-IATF isebenzisa [W3C WAI](https://www.w3.org/WAI/) Amava ngqo abasebenzisi bobugcisa bokuncedisa abubungqina bokwenyani bokusebenza ekusebenziseni okwenyani."
+        ]
+      },
+      {
+        "title": "Ukwamkelwa kweprojekthi",
+        "paragraphs": [
+          "Isiphakamiso sinokwamkelwa xa uphononongo lubonisa ukuba:"
+        ],
+        "items": [
+          "ukujongana nemfuno yokwenyani yokufikeleleka",
+          "le ngxaki icace ngokwaneleyo ukuvavanya",
+          "ububanzi buchanekile ngokwaneleyo ukuba buqalise",
+          "umsebenzi uhambelana nomsebenzi we-IATF",
+          "kukho indlela ebonakalayo yokufumana ulondolozo okanye ukugqitywa"
+        ]
+      },
+      {
+        "title": "Ubunini bendawo yokugcina",
+        "paragraphs": [
+          "Iiprojekthi ezamkelweyo zenziwa phantsi kombutho we-IATF GitHub.",
+          "Iindawo zokugcina izinto zihlala apho ukuze iprojekthi nganye igcine ikhaya loluntu elizinzileyo, nokuba abagcini bayatshintsha kamva."
+        ]
+      },
+      {
+        "title": "Iilayisensi",
+        "paragraphs": [
+          "Iiprojekthi ze-IATF zisebenzisa iilayisensi ze-copyleft ngaphandle kokuba iprojekthi ithi ngenye indlela:"
+        ],
+        "items": [
+          "<strong>Ikhowudi:</strong> I-AGPL-3.0",
+          "<strong>Amaxwebhu:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Injineli enoxanduva okanye umgcini",
+      "paragraphs": [
+        "Iprojekthi nganye eyamkelweyo kufuneka ibe negcisa elinoxanduva okanye umgcini. Loo mntu angafumana ufikelelo lolawulo kwindawo yogcino kwaye kulindeleke ukuba:"
+      ],
+      "items": [
+        "ukuphuhliswa kwesikhokelo esidlangalaleni",
+        "ulondolozo lwesakhiwo sokugcina",
+        "ukuphonononga okanye ukulawula imiba nokukhupha izicelo",
+        "Uxwebhu lwezigqibo ezibalulekileyo zobugcisa",
+        "iprojekthi ibe yinto eqondakalayo kwabanye"
+      ],
+      "footnote": "Olu luxanduva lwenqanaba lokugcina. Ubunini benkampani buhlala ne-IATF. Uxanduva apha kukuphathwa kwendawo yokugcina, ulwalathiso lobuchwephesha, kunye nolungelelwaniso loluntu  hayi ukuhanjiswa kwangasese okungenamda, ukudityaniswa kwesiko, okanye izibophelelo zenqanaba lenkonzo ngaphandle kwemephu yendlela yoluntu."
+    },
+    "publicDevelopment": {
+      "title": "Uphuhliso loluntu",
+      "paragraphs": [
+        "Iiprojekthi eziqaliswe nge-IATF ziphuhliswa esidlangalaleni ngokuzenzekelayo."
+      ],
+      "items": [
+        "ikhowudi yomthombo",
+        "imiba",
+        "amaxwebhu",
+        "Iinkcukacha ze-Roadmap",
+        "Imbali yokukhutshwa"
+      ],
+      "footnote": "Ulwazi olubalulekileyo lweprojekthi akufuneki luphile kuphela kwiingxoxo zabucala okanye kwiibhokisi zeposi."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Iirekhodi zoluntu",
+      "title": "Iirekhodi zesicelo sikawonke-wonke"
+    },
+    "paragraphs": [
+      "IATF isebenza esidlangalaleni ngokuzenzekelayo. Izicelo ezingena kwi-IATF ngokusebenzisa iwebhusayithi, i-imeyile, iDiscord, iGitHub, okanye ezinye iindlela ze-IATA zinokuba ziirekhodi zezicelo zikawonkewonke.",
+      "Ingxelo yesicelo esisesidlangalaleni ayingomyalezo wokuqala. IATF ingasishwankathela, silungise, okanye silungelelanise isicelo phambi kokupapashwa ukuze imfuneko yokufikeleleka ihlolwe ngaphandle kokutyhila ulwazi lomntu siqu olungeyomfuneko.",
+      "Iirekhodi zezicelo zikawonke-wonke zingagcinwa kwi-IATF GitHub umbutho, kule webhusayithi, okanye zombini.",
+      "Phambi kokupapashwa, i-IATF isusa iinkcukacha zoqhagamshelwano ezingafunekiyo, iidilesi zabucala, kunye neenkcukacha zokuchonga malunga nabasebenzisi ngabanye bobugcisa bokuncedisa ngaphandle kokuba ukupapashwa kuzimisele ngokucacileyo kwaye kufanelekile.",
+      "I-Discord isetyenziselwa ukulungelelanisa okungacwangciswanga. I-IATF ayigcini ngokwahlukeneyo iincoko ze-Disord ngokungagqibekanga, kwaye ukugcinwa kwemiyalezo kulawulwa yi-Descord. Izigqibo ezenziwe kwi-Dicord kufuneka zishwankathelwe kwingxelo yoluntu kwi-GitHub okanye kwiphepha leprojekthi elifanelekileyo.",
+      "Iirekhodi zesicelo azibandakanywa kwi-injini yokukhangela apho kusebenzayo khona. Uluntu luthetha ukuhlaziywa kunye noxanduva. Akuthethi ukuba kulungiselelwe ukufunyanwa ngokukhangela igama.",
+      "I-IATF inokuhlaziya okanye isuse iirekhodi ezivela kwiindawo zikawonke-wonke ezilawulwa yi-IATF, kodwa ayinakuqinisekisa ukususwa kwii-caches zomntu wesithathu, izaziso, iifolokhwe, izikrini, iinjini zokukhangela, iDiscord, okanye ezinye iinkqubo zangaphandle.",
+      "Ukuba umyalezo kufuneka uhlale uyimfihlo, musa ukuwuthumela ngeendlela zikawonke-wonke ze-IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Indima yoMbutho",
+      "title": "Isihlalo"
+    },
+    "lead": "Usihlalo uphethe ulawulo lwe-IATF kwinqanaba lombutho. Oku kwahlukile kwindima yonjineli ojongene neprojekthi nganye: usihlalo unoxanduva lombutho uphela, hayi ulwalathiso lwemihla ngemihla loluphi na ugcino olunye.",
+    "duties": {
+      "title": "Into eyenziwa sisihlalo",
+      "items": [
+        "Igcina iimvume zomnini kumbutho we-IATF GitHub",
+        "Ukutyikitya kwizigqibo zokwamkelwa kweeprojekthi nokugcinwa koovimba",
+        "Isebenza njengendawo yokuqhagamshelana kawonke-wonke ye-IATF",
+        "Uququzelela unyulo lonyaka"
+      ],
+      "footnote": "Usihlalo akazibopheleli kwi-IATF ekunikezeleni kwangasese, umsebenzi ohlawulelwayo, okanye izivumelwano zenqanaba lenkonzo, kwaye akazigqithisi izigqibo zomgcini-ndawo nganye malunga nolwalathiso lobugcisa."
+    },
+    "election": {
+      "title": "Unyulo lonyaka",
+      "paragraphs": [
+        "Usihlalo ukhethwa kanye ngonyaka. Unyulo luqhutywa kwiiveki ezimbini zokuqala zikaDisemba, iziphumo zibhengezwa ngoDisemba 15, kwaye ixesha elitsha liqala ngoJanuwari 1.",
+        "Abavoti abafanelekileyo ngabantu ababambe indima yomgcini nakweyiphi na indawo yokugcina i-IATF ngonyaka kwaye benza ubuncinci igalelo elinye lokudibanisa kwindawo yokugcina ye- IATF kuloo nyaka. Umvoti ngamnye ofanelekileyo unevoti enye. Umgqatswa onamavoti amaninzi uyaphumelela; kwimeko yokulingana, umjikelo wokugqibela ubanjwa kwiveki yesithathu kaDisemba.",
+        "Ukhetho luqhutywa njengengxoxo kawonke-wonke yeGitHub kwindawo egciniweyo yolawulo lwe-IATF, ngoko ke abaviwa, ivoti, kunye nesiphumo zonke ziyinxalenye yerekhodi loluntu."
+      ]
+    },
+    "continuity": {
+      "title": "Ukuqhubeka",
+      "paragraphs": [
+        "Ukuba akukho nyulo lubanjwayo kunyaka onikiweyo, usihlalo okhoyo uyaqhubeka kwindima kude kube kunyulo olulandelayo. Oku kukuqhubeka okungapheliyo, hayi ixesha lokuxolelwa  imodeli yenzelwe ukugcina umbutho uzinzile xa umsebenzi uphantsi, hayi ukunyanzelisa inguqu ekungekho mntu ukulungeleyo.",
+        "USihlalo unokushiya isikhundla nangaliphi na ixesha. Abaphathi abasebenzayo banokubiza unyulo olungaqhelekanga ngesizathu esichaziweyo, esiqhutywa phantsi kwemigaqo efanayo nonyulo lonyaka."
+      ]
+    },
+    "current": {
+      "title": "Usihlalo wangoku",
+      "fields": [
+        {
+          "label": "Isihlalo",
+          "value": "i-mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ixesha",
+          "value": "Ukuya kunyulo lukaDisemba 2026"
+        },
+        {
+          "label": "Indima egqitywe ngokusemthethweni",
+          "value": "2026"
+        },
+        {
+          "label": "Ukhetho lokuqala olucwangcisiweyo",
+          "value": "ngoDisemba 2026"
+        }
+      ]
+    },
+    "footnote": "Indima yesitulo yabekwa ngokusemthethweni ngo-2026 ukwenza ulawulo kwinqanaba lombutho lucace. Kude kube lelo xesha, uxanduva lombutho lwalubanjwe ngokungacwangciswanga ngumsunguli."
+  },
+  "continuity": {
+    "states": {
+      "title": "Iimeko zeprojekthi",
+      "paragraphs": [
+        "Iiprojekthi zisebenzisa iseti encinci yamazwe karhulumente:"
+      ],
+      "items": [
+        "Isindululo",
+        "Yamkelwe",
+        "Ukusebenza",
+        "Uzinzile",
+        "Ukufuna umgcini",
+        "Izinto ezigciniweyo"
+      ],
+      "footnote": "La magunya agcina irejista kulula ukuyiskena."
+    },
+    "reassignment": {
+      "title": "Ulwabiwo olutsha nokugcinwa kwee-archive",
+      "paragraphs": [
+        "Ukuba umntu owenza ulondolozo uyemka okanye akasasebenzi, i-IATF ingasasaza uxanduva, ikhuphe uphuhliso, okanye igcine iprojekthi.",
+        "Iprojekthi ingalondolozwa xa imfuno yokuqala ihlangatyezwene nayo, ulondolozo luyekile, okanye umsebenzi oqhubekayo awusekho ngokoqobo."
+      ],
+      "footnote": "Iiprojekthi ezigciniweyo zihlala zibonakala esidlangalaleni ngaphandle kokuba kukho isizathu esibambekayo sokwenza ngenye indlela."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Inqaku lomda",
+      "title": "Oko i-IATF ingakuqinisekisiyo"
+    },
+    "items": [
+      "ukuhanjiswa komthengi wabucala",
+      "izivumelwano zenqanaba lenkonzo",
+      "ukwamkelwa kwesindululo ngasinye",
+      "ulondolozo lwexesha elide lweprojekthi nganye"
+    ],
+    "footnote": "I-IATF yimodeli yolondolozo loluntu, hayi inkonzo yokuhambisa yabucala."
+  }
+}
