@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ⵙⵉⵜⵎⴰⴱ"
+  },
+  "hero": {
+    "eyebrow": "ⵉⵏⴷⵉⵛⵙ",
+    "title": "ⵙⵉⵜⵎⴰⴱ",
+    "lead": "ⴼⵓⴾ ⵉⵂⴰⵏⴷⴰⴶⴰⵏ ⵓⵉⵏ ⴰⴷⴷⵉⵏⴰⵜ ⴷⴰⵗ Iⴰⵜⴼ.ⵛⵛⵉ, ⴷⴰⵗ ⵢⴷⴰⴶ ⵉⵉⵉⴰⵏ"
+  },
+  "sections": [
+    {
+      "title": "ⵜⵉⴼⵔⴰⵜⵉⵏ ⵜⵉⴷⵙⵍⴰⵏⵉⵏ",
+      "items": [
+        {
+          "label": "ⵜⴰⴷⴷⴰⵔⵜ",
+          "href": "/"
+        },
+        {
+          "label": "ⵉⵙⵏⴼⴰⵔⵏ",
+          "href": "/projects/"
+        },
+        {
+          "label": "ⴰⵙⵓⵜⵔ ⵏ ⵢⴰⵏ ⵓⵖⴰⵡⴰⵙ",
+          "href": "/propose/"
+        },
+        {
+          "label": "ⵜⴰⵏⴱⴰⴹⵜ",
+          "href": "/governance/"
+        },
+        {
+          "label": "ⴰⵛⵛⵉⵍ",
+          "href": "/join/"
+        },
+        {
+          "label": "ⴰⴷⴷⴰⴱⴰⵔⴰ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ⴰⴾⴰⵉⴰⴷ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ⵉⵙⵏⴼⴰⵔⵏ",
+  "projectsEmpty": "ⵓⴰⵔⴷ ⵉⵍⵍⴻⵏ ⵉⴾⵉⵜⴱⴰⵏ ⵂⴰⵔ ⴰⵋⵋⵓⴷⵉ"
+}
