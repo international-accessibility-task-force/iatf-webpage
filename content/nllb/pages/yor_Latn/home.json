@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Àtọ̀dọ̀ àwọn ilé ìfowópamọ́ tó wà fún gbogbo gbòò",
+    "lead": "IATF n ṣe iranlọwọ fun awọn ẹgbẹ, awọn ẹgbẹ ati awọn ẹni-kọọkan lati yi awọn aini wiwọle gidi pada si awọn iṣẹ akanṣe orisun ṣiṣi gbangba.",
+    "support": [
+      "Awọn iṣẹ akanṣe ti a gba ni a tẹjade ni agbari IATF GitHub labẹ iwe-aṣẹ copyleft ati idagbasoke ni gbangba nipasẹ onimọ-ẹrọ ti o ni iduro."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Àpẹẹrẹ ìgbòkègbodò ìjọba",
+      "title": "Ojú-ọ̀nà tó rọrùn fún gbogbo ènìyàn fún ẹ̀rọ alágbèéká tí ó wà lárọ̀ọ́wọ́tó"
+    },
+    "paragraphs": [
+      "Nipasẹ fọọmu kan, ẹnikẹni le firanṣẹ iṣoro iraye si IATF. Ti ẹgbẹ naa ba le gba o, ibi ipamọ GitHub ti gbogbo eniyan ni a ṣii fun iṣẹ naa.",
+      "Kọọkan gba ise agbese ni o ni a kedere gbangba ile fun koodu, oro, iwe aṣẹ, ati awọn itusilẹ, pẹlu idagbasoke asiwaju ni ṣiṣi nipa a lodidi onise."
+    ],
+    "specCard": {
+      "title": "Àpẹẹrẹ ìgbòkègbodò ìjọba",
+      "terms": [
+        {
+          "term": "Àìní",
+          "definition": "Ìṣòro ojúlówó wíwọlé"
+        },
+        {
+          "term": "Àtúnyẹ̀wò",
+          "definition": "Bí iṣẹ́ náà ṣe yẹ sí àti bó ṣe ṣeé ṣe tó"
+        },
+        {
+          "term": "Àyè ìtòlẹ́sẹẹsẹ",
+          "definition": "Àpamọ́ GitHub tí ó wà fún gbogbo ènìyàn"
+        },
+        {
+          "term": "Àbójútó",
+          "definition": "Àjọ IATF ní ẹ̀tọ́ láti ṣe ohun tó bá wù wọ́n"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Ìtòlẹ́sẹẹsẹ",
+      "title": "Bó ṣe ń ṣiṣẹ́",
+      "intro": "Àwòkọ́ṣe náà máa ń kéré gan-an nítorí náà ọ̀nà tí gbogbo ènìyàn máa ń gbà máa ń rọrùn láti tẹ̀ lé."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Wọ́n sọ pé àwọn nílò ìrànlọ́wọ́",
+        "paragraphs": [
+          "Ẹgbẹ́ kan, àwùjọ kan, tàbí ẹnì kan lè fi ìbéèrè kan tó dá lórí ohun tí wọ́n nílò gan-an.",
+          "Awọn ibeere le bẹrẹ nipasẹ oju opo wẹẹbu, nipasẹ imeeli si <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, tàbí nípasẹ̀ Àríyànjiyàn."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ṣe àyẹ̀wò rẹ̀",
+        "paragraphs": [
+          "A ṣe àtúnyẹ̀wò bí iṣẹ́ náà ṣe bá ohun tí wọ́n fẹ́ ṣe mu, bó ṣe wúlò tó, àti bóyá iṣẹ́ ọ̀hún wà lára àwọn iṣẹ́ tó wà fún gbogbo èèyàn láti máa lò."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "A dá ibi ìpamọ́ fún gbogbo ènìyàn sílẹ̀",
+        "paragraphs": [
+          "Ti a ba gba iṣẹ akanṣe kan, a tẹjade rẹ ni agbari IATF GitHub labẹ iwe-aṣẹ copyleft.",
+          "Ibi ipamọ naa di ile gbangba ti koodu, awọn ọrọ, iwe aṣẹ, ati awọn itusilẹ."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Onímọ̀ ẹ̀rọ tó mọṣẹ́ rẹ̀ níṣẹ́ ló ń darí iṣẹ́ náà",
+        "paragraphs": [
+          "Onímọ̀ ẹ̀rọ kan ni a yàn sí ibi ìpamọ́ iṣẹ́ náà, ìdàgbàsókè náà sì máa ń wáyé ní gbangba."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Àkọsílẹ̀",
+      "title": "Àkọsílẹ̀ àwọn iṣẹ́ tó wà fún gbogbo ènìyàn"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bẹ̀rẹ̀ níbí",
+      "title": "Wo iṣẹ lọwọlọwọ tabi bẹrẹ iṣẹ akanṣe kan"
+    },
+    "paragraphs": [
+      "Lo iforukọsilẹ lati wo ohun ti o wa ni gbangba tẹlẹ, tabi bẹrẹ gbigba ti o ba jẹ pe iṣoro wiwọle kan pato yẹ ki o di iṣẹ akanṣe kan."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

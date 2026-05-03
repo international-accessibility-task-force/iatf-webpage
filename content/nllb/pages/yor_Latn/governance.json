@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Ìdarí àti awoṣe ibi ìpamọ́",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Ìdarí àti awoṣe ibi ìpamọ́",
+    "lead": "IATF máa ń mú kí àwọn iṣẹ́ tí wọ́n ń ṣe láti mú kí ọ̀rọ̀ wọlé dé ọ̀dọ̀ àwọn èèyàn jẹ́ èyí tó ṣeé kà, tó sì ṣeé ṣètọ́jú.",
+    "support": [
+      "Oju-iwe yii ṣalaye ohun ti o yẹ, bawo ni a ṣe tọju awọn ibi ipamọ, ati iru ojuse ti o wa ni ipele ibi-ipamọ lẹhin itẹwọgba."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Àwọn Ìlànà",
+      "title": "Ìmúṣẹ iṣẹ́, ìní, fífúnni ní ìwé àṣẹ"
+    },
+    "cards": [
+      {
+        "title": "Iṣẹ́ tí ó yẹ",
+        "paragraphs": [
+          "IATF gba iṣẹ ti o koju idena iraye si gidi ati pe o ni iye gbangba gbangba.",
+          "Ise agbese kan yẹ ki o wulo ju ṣiṣan iṣẹ aladani kan lọ ati ṣiṣe bi ibi ipamọ gbogbo eniyan.",
+          "Fun iraye si oju opo wẹẹbu, IATF lo [W3C WAI](https://www.w3.org/WAI/) ìrírí tí àwọn tó ń lo àwọn ẹ̀rọ tó ń ranni lọ́wọ́ ní tààràtà tún jẹ́ ẹ̀rí tó ṣe kedere nípa ohun tó ń ṣiṣẹ́ nínú ìgbésí ayé gidi."
+        ]
+      },
+      {
+        "title": "Gbígbà tí wọ́n gba iṣẹ́ náà",
+        "paragraphs": [
+          "A lè gba àbá kan tí àyẹ̀wò bá fi hàn pé:"
+        ],
+        "items": [
+          "ó ń bójú tó ojúlówó àìní ní ti wíwọlé síbi ìsọfúnni",
+          "ìṣòro náà ṣe kedere débi tá a fi lè gbé e yẹ̀ wò",
+          "àyè náà jẹ́ èyí tí ó ṣeé ṣe láti ṣe ìfilọ́lẹ̀",
+          "iṣẹ́ náà bá iṣẹ́ IATF mu",
+          "ọ̀nà tó ṣeé ṣe wà láti ṣe àbójútó tàbí kí ó parí"
+        ]
+      },
+      {
+        "title": "Òmìnira ìkóhun-ìpamọ́",
+        "paragraphs": [
+          "Awọn iṣẹ akanṣe ti a gba ni a ṣẹda labẹ agbari IATF GitHub.",
+          "Àwọn ibi ìkówèéránṣẹ́ máa ń wà níbẹ̀, nítorí náà iṣẹ́ ìkọ́lé kọ̀ọ̀kan máa ń ní ilé tó dúró sán-ún, kódà bí àwọn tó ń bójú tó ilé náà bá pààrọ̀ nígbà tó bá yá."
+        ]
+      },
+      {
+        "title": "Fífún àwọn ìwé-àṣẹ",
+        "paragraphs": [
+          "Awọn iṣẹ akanṣe IATF lo iwe-aṣẹ copyleft ayafi ti iṣẹ kan ba sọ bibẹẹkọ:"
+        ],
+        "items": [
+          "<strong>Àkọsílẹ̀:</strong> AGPL-3.0 Àwọn ojúewé wọ̀nyí jápọ̀ mọ́:",
+          "<strong>Àkọsílẹ̀:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Onímọ̀ ẹ̀rọ tàbí ẹni tó ń ṣe àbójútó",
+      "paragraphs": [
+        "Kọọkan gba ise agbese yẹ ki o ni a lorukọ lodidi onise tabi alabojuto. ti eniyan le gba admin wiwọle si awọn ibi ipamọ ati ki o ti wa ni o ti ṣe yẹ lati:"
+      ],
+      "items": [
+        "ìdàgbàsókè ìwé atọ́nà ní gbangba",
+        "ṣetán ètò ìpamọ́ ìsọfúnni",
+        "ṣayẹwo tabi ṣakoso awọn ọran ati mu awọn ibeere",
+        "ṣe àkọsílẹ̀ àwọn ìpinnu pàtàkì tó jẹ́ ti ìmọ̀ ẹ̀rọ",
+        "máa jẹ́ kí àwọn èèyàn lóye ohun tó ò ń ṣe"
+      ],
+      "footnote": "Eyi jẹ ojuse ipele ibi ipamọ. Ominira agbari duro pẹlu IATF. Ojuse nibi jẹ abojuto ibi-ipamọ, itọsọna imọ-ẹrọ, ati isọdọkan ti gbogbo eniyan  kii ṣe ifijiṣẹ aladani ti ko ni opin, awọn iṣọpọ aṣa, tabi awọn ifaramọ ipele iṣẹ ni ita ọna opopona gbogbo eniyan."
+    },
+    "publicDevelopment": {
+      "title": "Ìdàgbàsókè fún gbogbo ènìyàn",
+      "paragraphs": [
+        "Awọn iṣẹ akanṣe ti a ṣe nipasẹ IATF ni a ṣe ni gbangba nipasẹ aiyipada. Ibi ipamọ jẹ orisun gbangba ti otitọ fun:"
+      ],
+      "items": [
+        "Àkọsílẹ̀ orísun",
+        "àwọn ọ̀ràn",
+        "àkọsílẹ̀",
+        "àwọn àkọsílẹ̀ nípa àwòrán ojú ọ̀nà",
+        "ìtàn ìfilọ́lẹ̀"
+      ],
+      "footnote": "Imọ iṣẹ akanṣe pataki ko yẹ ki o gbe nikan ni awọn iwiregbe ikọkọ tabi awọn apo-iwọle."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Àwọn àkọsílẹ̀ tó wà lárọ̀ọ́wọ́tó",
+      "title": "Àkọsílẹ̀ àwọn ìbéèrè tó wà fún gbogbo ènìyàn"
+    },
+    "paragraphs": [
+      "IATF n ṣiṣẹ ni gbangba nipasẹ aiyipada. Awọn ibeere ti o wọle si iATF nipasẹ oju opo wẹẹbu, imeeli, Discord, GitHub, tabi awọn ikanni iatf miiran le di awọn igbasilẹ ibeere gbangba.",
+      "Àkọsílẹ̀ ìbéèrè tí ó wà fún gbogbo ènìyàn kì í ṣe ìsọfúnni ìpilẹ̀ṣẹ̀. IATF lè ṣe àkópọ̀, àtúnṣe, tàbí àtúntò ìbéèrè kí wọ́n tó tẹ̀ ẹ́ jáde kí ó lè ṣeé ṣe láti ṣe àtúnyẹ̀wò wípé ó nílò ìwífún láìfi àlàyé àdáni tí kò pọn dandan hàn.",
+      "Àkọsílẹ̀ àwọn ìbéèrè tó wà fún gbogbo ènìyàn ni a lè fi pamọ́ sínú àjọ IATF GitHub, lórí ìkànnì yìí, tàbí àwọn méjèèjì.",
+      "Ṣaaju ki o to ṣe ikede, IATF yọ awọn alaye olubasọrọ ti ara ẹni ti ko ni dandan, awọn adirẹsi ikọkọ, ati awọn alaye idanimọ nipa awọn olumulo kọọkan ti awọn imọ-ẹrọ iranlọwọ ayafi ti ikede ba ti pinnu kedere ati pe o yẹ.",
+      "Discord ni a lo fun ifowosowopo laibikita. IATF ko ṣe igbasilẹ awọn ibaraẹnisọrọ Discord lọtọ nipasẹ aiyipada, ati idaduro ifiranṣẹ ni iṣakoso nipasẹ Discord. Awọn ipinnu ti a ṣe ni Discord yẹ ki o ṣe akopọ sinu igbasilẹ gbangba lori GitHub tabi lori oju-iwe iṣẹ akanṣe ti o yẹ.",
+      "Àkọsílẹ̀ àwọn ìbéèrè ni a kì í lò nínú àtòjọ àwọn ẹ̀rọ àwárí níbi tí ó bá ti lè ṣeé ṣe láti ṣe bẹ́ẹ̀. Ìpínlẹ̀ túmọ̀ sí àtúnyẹ̀wò àti ìjùmọ̀sọ̀rọ̀. Kì í ṣe ìtumọ̀ yíyanjú fún àwárí nípasẹ̀ àwọn àwárí orúkọ.",
+      "IATF le ṣe imudojuiwọn tabi yọ awọn igbasilẹ kuro lati awọn oju-aye gbangba ti iṣakoso IAT F, ṣugbọn ko le ṣe idaniloju yiyọ kuro ninu awọn ibi ipamọ ti ẹnikẹta, awọn iwifunni, awọn forks, awọn sikirinisoti, awọn ẹrọ wiwa, Discord, tabi awọn ọna ṣiṣe ita miiran.",
+      "Ti ifiranṣẹ kan ba nilo lati wa ni ikọkọ, maṣe firanṣẹ nipasẹ awọn ikanni gbangba IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Ipa ètò àjọ",
+      "title": "Ìjókòó"
+    },
+    "lead": "Oludari naa ni iṣakoso ti IATF ni ipele agbari. Eyi jẹ iyatọ lati ipa onimọ-ẹrọ ti o ni iduro fun iṣẹ akanṣe: alaga ni o ni idajọ fun agbari bi gbogbo rẹ, kii ṣe fun itọsọna ojoojumọ ti eyikeyi ibi ipamọ kan.",
+    "duties": {
+      "title": "Ohun tí àga yìí ń ṣe",
+      "items": [
+        "O ni awọn igbanilaaye oluwa lori agbari IATF GitHub",
+        "Ó fọwọ́ sí àwọn ìpinnu tí wọ́n ṣe láti gba iṣẹ́ náà àti àwọn ìpinnu tó jẹ́ ti ìpamọ́",
+        "Ó ń ṣiṣẹ́ gẹ́gẹ́ bí ẹni tó ń bá àwọn aráàlú sọ̀rọ̀ fún àjọ IATF",
+        "Ó ń ṣètò ìdìbò ọdọọdún"
+      ],
+      "footnote": "Alaga naa ko fi IATF si ifijiṣẹ ikọkọ, iṣẹ ti o sanwo, tabi awọn adehun ipele iṣẹ, ati pe ko ṣe atunṣe fun awọn ipinnu olutọju ibi ipamọ fun itọsọna imọ-ẹrọ."
+    },
+    "election": {
+      "title": "Ìdìbò ọdọọdún",
+      "paragraphs": [
+        "A yan alaga naa ni ẹẹkan ni ọdun kan. Idibo naa n lọ ni ọsẹ meji akọkọ ti Kejìlá, awọn esi ni a kede ni Oṣu kejila ọjọ 15, ati pe akoko tuntun bẹrẹ ni Oṣu Kini 1.",
+        "Awọn oludibo ti o ni ẹtọ jẹ awọn eniyan ti o ṣe ipa itọju lori eyikeyi ibi ipamọ IATF lakoko ọdun ati ṣe o kere ju idapọ idapọ kan si ibi-ipamọ IATA ni ọdun yẹn. Olukopa kọọkan ti o yẹ fun idibo ni ibo kan. Oludije pẹlu awọn ibo ti o pọ julọ ṣẹgun; ni iṣẹlẹ ti ibasepọ, a ṣe ayẹwo ni ọsẹ kẹta ti Kejìlá.",
+        "Ìdìbò náà ni wọ́n ṣe gẹ́gẹ́ bí Ìjíròrò GitHub ní ibi ìpamọ́ ìṣàkóso IATF tí a yàn, nítorí náà àwọn olùdíje, ìdìbò, àti àbájáde gbogbo wọn jẹ́ apá kan àkọsílẹ̀ aráàlú."
+      ]
+    },
+    "continuity": {
+      "title": "Ìlọsíwájú",
+      "paragraphs": [
+        "Ti a ko ba ṣe idibo ni ọdun kan, alaga lọwọlọwọ tẹsiwaju ni ipa titi di idibo ti o tẹle. Eyi jẹ itẹsiwaju ailopin, kii ṣe akoko itura  awoṣe ti a ṣe lati jẹ ki agbari naa duro ni iduroṣinṣin nigbati iṣẹ ba jẹ kekere, ko lati fi agbara mu iyipada ti ko si ẹnikan ti o ṣetan fun.",
+        "Alaga le fi ipo silẹ nigbakugba. Awọn olutọju ti nṣiṣe lọwọ tun le pe idibo pataki pẹlu idi ti a sọ, ṣiṣe labẹ awọn ofin kanna bi idibo ọdọọdun."
+      ]
+    },
+    "current": {
+      "title": "Alaga lọwọlọwọ",
+      "fields": [
+        {
+          "label": "Ìjókòó",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Ìtumọ̀",
+          "value": "Títí di ìgbà ìdìbò oṣù Kejìlá ọdún 2026"
+        },
+        {
+          "label": "Iṣẹ́ tí wọ́n ń ṣe",
+          "value": "2026"
+        },
+        {
+          "label": "Ìdìbò àkọ́kọ́ tí a yàn kalẹ̀",
+          "value": "Oṣù Kejìlá ọdún 2026"
+        }
+      ]
+    },
+    "footnote": "Ipa alaga ni a ṣe ni 2026 lati jẹ ki iṣakoso ipele-iṣẹ jẹ kedere. Titi di akoko yẹn, ojuse agbari ti waye ni aifọwọyi nipasẹ oludasile."
+  },
+  "continuity": {
+    "states": {
+      "title": "Àwọn ìpínlẹ̀ tí ètò náà wà",
+      "paragraphs": [
+        "Awọn iṣẹ akanṣe lo eto kekere ti awọn ipinlẹ ilu:"
+      ],
+      "items": [
+        "Àbá",
+        "A gbà á",
+        "Àwọn tó ń ṣiṣẹ́",
+        "Ó dúró sán-ún",
+        "Ẹni tó ń wá ẹni tó máa bójú tó ilé náà",
+        "Àwọn Àpamọ́"
+      ],
+      "footnote": "Àwọn ìpínlẹ̀ yìí máa ń jẹ́ kí ìwé ìforúkọsílẹ̀ náà rọrùn láti ṣàyẹ̀wò."
+    },
+    "reassignment": {
+      "title": "Àtúnyẹ̀wò àti ìpamọ́",
+      "paragraphs": [
+        "Bí alábòójútó kan bá fi iṣẹ́ náà sílẹ̀ tàbí tí kò bá ṣiṣẹ́ mọ́, IATF lè yí ojúṣe náà padà, kí ó dá ìdàgbàsókè dúró, tàbí kí ó ṣe àpamọ́ ẹ̀rọ náà.",
+        "Wọ́n tún lè fi iṣẹ́ kan pa mọ́ nígbà tí wọ́n bá ti rí i pé àwọn ṣe ohun tó yẹ ní ṣíṣe, nígbà tí iṣẹ́ àbójútó bá dáwọ́ dúró, tàbí tí kò bá ṣeé ṣe mọ́ láti máa bá iṣẹ́ náà lọ."
+      ],
+      "footnote": "Àwọn ìwé tí wọ́n tọ́jú pa mọ́ máa ń wà lárọ̀ọ́wọ́tó gbogbo èèyàn àyàfi tí ìdí pàtàkì kan bá wà tí kò fi yẹ kó rí bẹ́ẹ̀."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Àkọsílẹ̀ ààlà",
+      "title": "Ohun tí IATF kò ṣèlérí"
+    },
+    "items": [
+      "fífún àwọn oníbàárà àdáni",
+      "àwọn àdéhùn tó ní í ṣe pẹ̀lú iṣẹ́",
+      "ìdásílẹ̀ gbogbo àbá",
+      "ìtọ́jú tó wà fún àkókò gígùn fún gbogbo iṣẹ́"
+    ],
+    "footnote": "IATF jẹ awoṣe ibi ipamọ ti gbogbo eniyan, kii ṣe iṣẹ ifijiṣẹ aladani."
+  }
+}

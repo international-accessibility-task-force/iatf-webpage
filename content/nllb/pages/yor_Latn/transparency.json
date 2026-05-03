@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Ìfòyebánilò",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Ìfòyebánilò",
+    "lead": "IATF n ṣiṣẹ ni gbangba nipa aiyipada. Awọn ipinnu iṣẹ akanṣe, awọn iyipada koodu, awọn ayipada iṣakoso, ati awọn idiyele iṣiṣẹ ni a ṣe igbasilẹ ni awọn ipo gbangba. Oju-iwe yii ṣe atokọ ibi ti iru igbasilẹ kọọkan n gbe ati bi o ṣe le ka.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Àwọn àkọsílẹ̀",
+      "title": "Ibi tí àwọn àkọsílẹ̀ wà"
+    },
+    "items": [
+      "<strong>Ìpinnu tí wọ́n ń ṣe lórí iṣẹ́ náà.</strong> Ìmúṣẹ, ìpamọ́, àti ìyípadà ìpinnu ni a ṣe àkọsílẹ̀ gẹ́gẹ́ bí àwọn ọ̀rọ̀ tàbí àwọn ìtúsílẹ̀ nínú ibi ìkówèésí tí ó yẹ, tí a sì ṣe àkópọ̀ rẹ̀ nínú ìwé ìforúkọsílẹ̀ tí ó wà fún gbogbo ènìyàn. <a href=\"/projects/\">ìforúkọsílẹ̀</a>ẹ jẹ́ ká wò ó.",
+      "<strong>Wá àwọn àkọsílẹ̀.</strong> Àkọsílẹ̀ àwọn ìbéèrè tí ó wà fún gbogbo ènìyàn ni a fi pamọ́ sínú àjọ IATF GitHub, lórí ìkànnì yìí, tàbí àwọn méjèèjì. Àwọn àkọọ́lẹ̀ lè ṣe àkópọ̀, àtúnṣe, tàbí àtúntò àwọn ìbéèrè ìpilẹ̀ṣẹ̀ kí wọ́n lè ṣe àtúnyẹ̀wò wọn láìfi àwọn àlàyé àdáni tí kò pọn dandan hàn. Àwọn ìpinnu tí kò bá bá bára mu ni a máa ń ṣe àkópọ̀ sínú àkọọ̀lẹ̀ gbogbo ènìyàn nígbà tí wọn bá ní ipa lórí iṣẹ́ tàbí ìpinnu ìṣàkóso. A yọ àwọn àkọọ̣ àwọn ìbéèrè kúrò nínú àtòjọ àwọn ẹ̀rọ àwárí níbi tí ó bá ti ṣeé ṣe láti ṣe é.",
+      "<strong>Àkọsílẹ̀ yí padà.</strong> Gbogbo ìyípadà kòódì jẹ́ ìmúṣẹ fún gbogbo ènìyàn ní ibi ìpamọ́ tí ó yẹ. Wo IATF <a href=\"{{contact.githubOrgUrl}}\">Àjọ GitHub</a>ẹ jẹ́ ká wò ó.",
+      "<strong>Ìyípadà nínú ìṣàkóso.</strong> Awọn imudojuiwọn si oju-iwe iṣakoso ni a tọpinpin bi awọn adehun si <code>ojú-ìkànnì iatf</code> ìpamọ́. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">ṣe àkọsílẹ̀</a> lórí GitHub.",
+      "<strong>Owó ìnáwó.</strong> IATF n tọju awọn idiyele iṣiṣẹ kekere ati awọn igbasilẹ awọn inawo amayederun ti gbogbo eniyan. Lati ọdun 2022, awọn idiyele ti o ṣe pataki julọ ti jẹ awọn orukọ ìkápá. Gbalejo ti lo awọn ipilẹ ti o ni ọfẹ tabi awọn ohun elo kekere nigbati o ba ṣeeṣe. Wo igbasilẹ iye owo iṣiṣẹ ni isalẹ.",
+      "<strong>Àwọn àkọsílẹ̀ ìfọ̀rọ̀wérọ̀.</strong> Awọn akọsilẹ lati eyikeyi atunyẹwo tabi ipinnu ti a ṣepọ laaye ni GitHub Awọn ijiroro lori ibi ipamọ ti o yẹ  wo <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Àwọn Ìjíròrò</a> lórí <code>ojú-ìkànnì iatf</code> ibi ìpamọ́."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Àwọn ìnáwó",
+      "title": "Àkọsílẹ̀ ìnáwó"
+    },
+    "paragraphs": [
+      "IATF pa awọn oniwe-pupọ amayederun gangan kekere. niwon 2022, awọn ifilelẹ loorekoore ṣiṣe iye owo ti wa ni ìkápá awọn orukọ. alejo ti lo free-ipele tabi kekere-iye owo infrastructure nibi ti o ti ṣee.",
+      "Àkọsílẹ̀ yìí kì í ṣe àlàyé ìṣúnná owó tí wọ́n ṣàyẹ̀wò. Ó jẹ́ ìwé àkọsílẹ̀ ìnáwó ìṣiṣẹ́ fún àwọn ohun èèlò tí a lò láti mú kí IATF wà lórí ẹ̀rọ."
+    ],
+    "footnote": "A lè tọ́ka sí àkáǹtì tàbí kí a tẹ̀ ẹ́ jáde lẹ́yìn tí a bá ti ṣàtúnṣe rẹ̀. Adirẹsi ti ara ẹni, ìsọfúnni nípa owó tí wọ́n ń san, àti àlàyé nípa àkọọ́lẹ̀ tí kò pọn dandan kì í ṣe apá kan àkọsílẹ̀ tó wà fún gbogbo ènìyàn.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Àkòrí",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Ìnáwó",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Àwọn Àkíyèsí",
+            "value": "iye owó ìkápá tí mugiwarafx fi owó rẹ̀ ṣe. ìlé ìtura free-tier tàbí ti iye owó díẹ̀ ni wọ́n lò nípasẹ̀ Cloudflare. iṣẹ́ náà ṣí kúrò ní Vercel lọ sí cloudflare ó sì bẹ̀rẹ̀ sí lo iye owó tó kéré <code>iatf.cc</code> àdúgbò."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Àkòrí",
+            "value": "<code>ìkànnì internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Ìnáwó",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Àwọn Àkíyèsí",
+            "value": "Iye owo ìkápá tí mugiwarafx ṣe owó fún."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Àkòrí",
+            "value": "<code>ìkànnì internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Ìnáwó",
+            "value": "Owó ilẹ̀ Amẹ́ríkà 17.06"
+          },
+          {
+            "label": "Àwọn Àkíyèsí",
+            "value": "Iye owo ìkápá tí mugiwarafx ṣe owó rẹ̀."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Àkòrí",
+            "value": "<code>ìkànnì internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Ìnáwó",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Àwọn Àkíyèsí",
+            "value": "Iye owo ìkápá tí mugiwarafx ṣe owó fún."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Àkòrí",
+            "value": "<code>ìkànnì internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Ìnáwó",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Àwọn Àkíyèsí",
+            "value": "iye owó ìkápá tí mugiwarafx ṣe owó fún. ìkóra-ẹni-nífẹ̀ẹ́ tí a lo ní free-tier tàbí ní iye owó díẹ̀ nípasẹ̀ àwọn ojúewé GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Àkọsílẹ̀ ààlà",
+      "title": "Ohun tí kì í ṣe ti gbogbo ènìyàn"
+    },
+    "paragraphs": [
+      "Àwọn ìsọfúnni kan wà tí a kì í gbé jáde nínú àkọsílẹ̀ tó wà fún gbogbo ènìyàn nítorí ìdí kan pàtó:"
+    ],
+    "items": [
+      "Àwọn ìsọfúnni tó jẹ mọ́ ẹni tó ń ṣe ìfilọ̀ náà.",
+      "Ìfọ̀rọ̀wérọ̀ àdáni tí wọ́n máa ń lò kìkì láti mú kí ohun tí ẹnì kan béèrè ṣe kedere kó tó gbà á, kó tó kọ̀ ọ́, tàbí kó tó ṣàkópọ̀ rẹ̀.",
+      "Àwọn àdírẹ́sì àdáni, nọ́ńbà tẹlifóònù, àtàwọn ìsọfúnni nípa ara ẹni tí kò pọn dandan.",
+      "Ohunkohun ti yoo ṣe idanimọ olumulo kọọkan ti imọ-ẹrọ iranlọwọ laisi igbanilaaye.",
+      "Awọn ibaraẹnisọrọ Raw Discord, ayafi ti ifiranṣẹ kan pato ba gbe lọ si igbasilẹ iṣẹ akanṣe gbangba."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ka siwaju",
+      "title": "Ìdarí ni ìwé òfin tó wà lẹ́yìn àwọn àkọsílẹ̀ wọ̀nyí"
+    },
+    "paragraphs": [
+      "Ti o ba fẹ lati ni oye bi a ṣe gba awọn iṣẹ akanṣe, ṣe igbasilẹ, tabi ṣe atunṣe, ka oju-iwe iṣakoso."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

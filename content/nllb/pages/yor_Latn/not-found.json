@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "A kò rí i"
+  },
+  "hero": {
+    "eyebrow": "A kò rí i",
+    "title": "A kò rí ojúewé tí o béèrè",
+    "lead": "Lo àwọn òpópónà tó wà nísàlẹ̀ yìí láti padà síbi tí gbogbo èèyàn wà.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ilé",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Ọ̀nà tí o béèrè kò sí."
+    ],
+    "items": [
+      {
+        "label": "Ilé",
+        "href": "/"
+      },
+      {
+        "label": "Àwọn Ìpèsè",
+        "href": "/projects/"
+      },
+      {
+        "label": "Darapọ̀ mọ́",
+        "href": "/join/"
+      },
+      {
+        "label": "Wíwọlé",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Ìdarí",
+        "href": "/governance/"
+      },
+      {
+        "label": "Ìfòyebánilò",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

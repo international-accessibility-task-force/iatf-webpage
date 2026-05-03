@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Àwọn iṣẹ́ ìkórawọ́lé fún gbogbo ènìyàn",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Àwọn iṣẹ́ ìkórawọ́lé fún gbogbo ènìyàn",
+    "lead": "Iforukọsilẹ yii ṣe akojọ awọn iṣẹ ti gbogbo eniyan ti o ṣetọju nipasẹ IATF. Awọn iṣẹ iraye si ti a gba, amayederun aaye, ati awọn apẹrẹ ti a fipamọ ni a tọju han nibi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Àkọsílẹ̀",
+      "title": "Àkọsílẹ̀ tó wà báyìí"
+    },
+    "intro": [
+      "Wọ́n máa ń ṣe àkọsílẹ̀ àwọn ìwé ìkẹ́kọ̀ọ́ tí wọ́n tẹ́wọ́ gbà níbí yìí lẹ́yìn tí wọ́n bá ti tẹ̀ ẹ́ jáde."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Fi ohun tí o nílò ránṣẹ́",
+      "title": "Ṣíṣàtúnṣe àwọn ohun tó ṣe pàtó tó jẹ́ pé ó pọn dandan láti rí i pé ó ṣeé ṣe láti dé ọ̀dọ̀ àwọn èèyàn"
+    },
+    "paragraphs": [
+      "IATF n ṣayẹwo awọn iwulo wiwọle ti o daju ti o le yipada si iṣẹ orisun orisun gbangba ti o wulo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Kò tíì sí ìwé kankan tí wọ́n tẹ̀ jáde",
+    "paragraphs": [
+      "IATF ń múra àkójọ iṣẹ́ àkọ́kọ́ tó wà fún gbogbo ènìyàn.",
+      "O ṣì lè fi ìbéèrè ránṣẹ́ tó bá jẹ́ pé ohun kan pàtó lo nílò."
+    ]
+  }
+}

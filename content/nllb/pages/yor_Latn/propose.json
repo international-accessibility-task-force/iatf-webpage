@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Bẹ̀bẹ̀ fún iṣẹ́ àkànṣe tí ó ní í ṣe pẹ̀lú wíwọlé",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Bẹ̀bẹ̀ fún iṣẹ́ àkànṣe tí ó ní í ṣe pẹ̀lú wíwọlé",
+    "lead": "IATF n ṣayẹwo awọn ibeere fun awọn iṣẹ akanṣe wiwọle ti o bẹrẹ lati iwulo gidi.",
+    "support": [
+      "O ò nílò àlàyé tó kún rẹ́rẹ́, kó o kàn ní ìṣòro kan tó ṣe kedere, ẹni tí ìṣòro náà kàn àti ìdí tó fi ṣe pàtàkì."
+    ],
+    "actions": [
+      {
+        "label": "Bẹrẹ ìbéèrè kan",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Lo Àríyànjiyàn dípò",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Àwọn òpópónà",
+      "title": "Yan ọ̀nà tó rọrùn jù lọ"
+    },
+    "intro": [
+      "Gbogbo àwọn òpópónà ló wà nínú àyẹ̀wò kan náà."
+    ],
+    "items": [
+      {
+        "label": "Ìkànnì orí Íńtánẹ́ẹ̀tì",
+        "body": "Lo fọ́ọ̀mù tó wà nísàlẹ̀ yìí láti fi ránṣẹ́ sí wa."
+      },
+      {
+        "label": "Oríṣun àwòrán",
+        "body": "Fi ìbéèrè náà ránṣẹ́ ní tààràtà sí: {{contact.requestsEmail}}. Awọn ibeere imeeli le di igbasilẹ ibeere gbangba lẹhin atunyẹwo ati redaction."
+      },
+      {
+        "label": "Àríyànjiyàn",
+        "body": "Bẹrẹ nibẹ ti o ba jẹ pe o rọrun julọ. Ibeere naa tun nlọ sinu atunyẹwo kanna."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ṣaaju ki o to fi ibeere ranṣẹ",
+    "paragraphs": [
+      "IATF n ṣiṣẹ ni gbangba. Awọn ibeere ni a le ṣe akopọ ati tẹjade bi awọn igbasilẹ ibeere gbangba ni agbari GitHub IATA, lori oju opo wẹẹbu yii, tabi awọn mejeeji.",
+      "Má ṣe fi àdírẹ́sì àdáni, nọ́ńbà tẹlifóònù, ìsọfúnni nípa ìlera, tàbí àwọn àlàyé ìdánimọ̀ nípa ẹnì kọ̀ọ̀kan tó ń lo àwọn ẹ̀rọ tó ń ranni lọ́wọ́ àyàfi tó bá pọn dandan, tó o sì gbà kí àjọ IATF ṣe àtúnyẹ̀wò rẹ.",
+      "IATF máa ń yọ àwọn ìsọfúnni tó jẹ́ ti ara ẹni tí kò pọn dandan kúrò kí wọ́n tó gbé àkọsílẹ̀ àwọn ìbéèrè jáde."
+    ]
+  },
+  "review": {
+    "title": "Àtúnyẹ̀wò àwọn ohun tó ń retí",
+    "paragraphs": [
+      "Fífi ohun kan béèrè kò túmọ̀ sí pé wọ́n á tẹ́wọ́ gbà á.",
+      "IATF n ṣayẹwo awọn ibeere fun ibaramu iṣẹ-ṣiṣe, iṣeeṣe, iwulo, ati boya iṣẹ naa wa ni ibi ipamọ ti gbogbo eniyan.",
+      "A lè kọ àwọn ìbéèrè kan, a lè sún wọn síwájú, tàbí kí a tún wọn ṣe kí a tó gbà wọ́n."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Ọ̀nà ìforúkọsílẹ̀",
+      "title": "Fi ẹ̀bẹ̀ ránṣẹ́"
+    },
+    "fields": [
+      {
+        "kind": "ìsọfúnni",
+        "name": "ẹni tí ó bèèrè",
+        "label": "Orúkọ tàbí àjọ rẹ",
+        "helper": "Ta ló ń béèrè fún irú nǹkan bẹ́ẹ̀?"
+      },
+      {
+        "kind": "yan",
+        "name": "Ọ̀nà ìjápọ̀",
+        "label": "Ọ̀nà ìbánisọ̀rọ̀ tí a yàn",
+        "helper": "Báwo ló ṣe yẹ kí wọ́n ṣe àyẹ̀wò náà?",
+        "required": true,
+        "options": [
+          "Oríṣun àwòrán",
+          "Àríyànjiyàn"
+        ]
+      },
+      {
+        "kind": "ìsọfúnni",
+        "name": "Àwọn ìsọfúnni nípa ìbánisọ̀rọ̀",
+        "label": "Àwọn ìsọfúnni nípa ìbánisọ̀rọ̀",
+        "helper": "Adirẹsi imeeli tabi àpapọ̀ Discord fún àtúnyẹ̀wò.",
+        "placeholder": "Àdírẹ́ẹ̀sì ímeèlì tàbí orúkọ Discord",
+        "required": true
+      },
+      {
+        "kind": "ìsọfúnni",
+        "name": "èdè",
+        "label": "Èdè",
+        "helper": "Èdè tí o yàn, bí ó bá wúlò.",
+        "value": "Èdè Gẹ̀ẹ́sì"
+      },
+      {
+        "kind": "àgbègbè ọ̀rọ̀",
+        "name": "ìṣòro",
+        "label": "Ìṣòro wo lo ń gbìyànjú láti yanjú?",
+        "helper": "Ṣàpèjúwe ohun tó jẹ́ ìdènà náà lọ́nà tó ṣe kedere.",
+        "required": true
+      },
+      {
+        "kind": "àgbègbè ọ̀rọ̀",
+        "name": "àwọn olùṣàmúlò tó kàn",
+        "label": "Àwọn wo ló kàn?",
+        "helper": "Ta ni èyí máa ràn lọ́wọ́?",
+        "required": true
+      },
+      {
+        "kind": "àgbègbè ọ̀rọ̀",
+        "name": "extraÀyíká ọ̀rọ̀",
+        "label": "Àyíká àfikún",
+        "helper": "Pín ohunkóhun mìíràn tí ó ràn án lọ́wọ́ láti ṣàlàyé ìdí tí ó fi ṣe pàtàkì, àwọn àpẹẹrẹ, àwọn àtúnyẹ̀wò, àròjinlẹ̀ ètò ìṣiṣẹ́ kan, tàbí àwọn ààlà àkókò."
+      },
+      {
+        "kind": "yan",
+        "name": "openSourceConsent[àtúnṣe _ àtúnṣe àmìọ̀rọ̀]",
+        "label": "Ṣé o fara mọ́ ìdàgbàsókè fún gbogbo ènìyàn?",
+        "helper": "Awọn iṣẹ akanṣe ti a gba ni awọn ibi ipamọ gbangba labẹ IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Bẹ́ẹ̀ ni",
+          "Rárá o",
+          "Kò tíì dá mi lójú"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Bí wọ́n bá gbà á",
+      "title": "Ohun tí ìtẹ́wọ́gbà túmọ̀ sí"
+    },
+    "items": [
+      "ibi ipamọ ti gbogbo eniyan ni agbari IATF GitHub",
+      "onímọ̀ ẹ̀rọ tó ń bójú tó iṣẹ́ náà",
+      "iwe-aṣẹ copyleft fun koodu ati awọn ohun elo iṣẹ akanṣe",
+      "ìdàgbàsókè fún gbogbo ènìyàn nínú ibi ìpamọ́",
+      "àkọsílẹ̀ ìforúkọsílẹ̀ tó wà lórí ìkànnì IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bẹ̀rẹ̀ ìjíròrò náà",
+      "title": "Ìbéèrè tó ṣe ṣókí tó sì ṣe kedere ti tó láti bẹ̀rẹ̀"
+    },
+    "paragraphs": [
+      "Ti o ba ni iwulo gidi fun iraye si ati pe o ro pe o yẹ ki o di iṣẹ akanṣe ti gbogbo eniyan, firanṣẹ si wa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Àwòrán ojúlé"
+  },
+  "hero": {
+    "eyebrow": "Atọ́ka",
+    "title": "Àwòrán ojúlé",
+    "lead": "Gbogbo ojúewé tó wà fún gbogbo ènìyàn lórí iatf.cc, ní ibi kan."
+  },
+  "sections": [
+    {
+      "title": "Àwọn ojúewé pàtàkì",
+      "items": [
+        {
+          "label": "Ilé",
+          "href": "/"
+        },
+        {
+          "label": "Àwọn Ìpèsè",
+          "href": "/projects/"
+        },
+        {
+          "label": "Bẹ̀bẹ̀ fún iṣẹ́ àkànṣe",
+          "href": "/propose/"
+        },
+        {
+          "label": "Ìdarí",
+          "href": "/governance/"
+        },
+        {
+          "label": "Darapọ̀ mọ́",
+          "href": "/join/"
+        },
+        {
+          "label": "Wíwọlé",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Ìfòyebánilò",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Àwọn Ìpèsè",
+  "projectsEmpty": "Kò tíì sí ìwé kankan tí wọ́n tẹ̀ jáde."
+}

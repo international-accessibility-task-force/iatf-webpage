@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Wíwọlé",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Wíwọlé",
+    "lead": "IATF ni ifọkansi lati jẹ ki oju opo wẹẹbu yii rọrun, ka, wiwọle bọtini itẹwe, ati ibaramu pẹlu awọn imọ-ẹrọ iranlọwọ.",
+    "support": [
+      "Fun iraye si oju opo wẹẹbu, IATF lo [W3C WAI](https://www.w3.org/WAI/) bákan náà, ìrírí tààrà táwọn tó ń lo àwọn ẹ̀rọ tó ń ranni lọ́wọ́ bá ní tún máa ń jẹ́ kí wọ́n mọ bó ṣe wúlò tó."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ìròyìn",
+      "title": "Rántí ìṣòro wíwọlé"
+    },
+    "paragraphs": [
+      "Bí o bá rí ìdènà wíwọlé lórí ìkànnì yìí, jọ̀wọ́ sọ̀rọ̀ nípa rẹ̀ nípasẹ̀ imeeli:",
+      "{{contact.accessibilityEmail}}",
+      "Lára àwọn ìròyìn tó wúlò ni:"
+    ],
+    "items": [
+      "ojúewé tí ìṣòro náà ti wáyé",
+      "ohun tó ò ń gbìyànjú láti ṣe",
+      "èwo nínú àwọn ẹ̀rọ tó ń ranni lọ́wọ́, aṣàwákiri, tàbí ohun èlò tí o ń lò, bí ó bá ṣe pàtàkì",
+      "kí ló fà á tí kò fi rí bẹ́ẹ̀?",
+      "ohun tí ì bá ràn án lọ́wọ́"
+    ],
+    "footnote": "O kò nílò láti kọ ìròyìn àṣìṣe. Àpèjúwe tó ṣe kedere ti tó."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Bí wọ́n ṣe ń lò ó",
+      "title": "Ṣíṣe àbójútó àwọn ọ̀ràn tó jẹ́ ti aráàlú"
+    },
+    "paragraphs": [
+      "A le ṣe akopọ awọn ọran wiwọle ni ibi ipamọ ti gbogbo eniyan ti o yẹ ki wọn le ṣatunṣe ni ṣiṣi. Awọn alaye olubasọrọ ti ara ẹni ati alaye ikọkọ ti ko ni dandan ni a yọ kuro ṣaaju ikede.",
+      "Tó bá jẹ́ pé ọ̀rọ̀ àṣírí ló wà nínú ìròyìn rẹ, jẹ́ kó ṣe kedere nínú ìsọfúnni tó o fẹ́ fi ránṣẹ́."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Bí nǹkan ṣe rí báyìí",
+      "title": "Àwọn ààlà tí a mọ̀"
+    },
+    "paragraphs": [
+      "Ìkànnì yìí kéré ní àmọ̀ọ́mọ̀, ó sì máa ń dúró sójú kan. Àwọn èdè kan lè máà pé nígbà tí a bá ń ṣètò ìtumọ̀."
+    ]
+  }
+}

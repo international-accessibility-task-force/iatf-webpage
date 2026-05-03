@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Darapọ̀ mọ́ IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Darapọ̀ mọ́ IATF",
+    "lead": "Ẹ̀ka wà ní ṣíṣí sílẹ̀. Ọ̀pọ̀lọpọ̀ ọ̀nà ló wà láti kópa, bóyá o gbẹ́kẹ̀lé ìmọ̀-ẹ̀rọ tó ń ranni lọ́wọ́, kọ́ sọfitiwia tó ṣeé wọlé, túmọ̀, dán an wò, tàbí tọ́jú iṣẹ́ kan. Ìjíròrò àti ìpinnu máa ń wáyé ní gbangba lórí GitHub àti Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Àwọn ojúṣe",
+      "title": "Àwọn ọ̀nà tó o lè gbà ṣètìlẹyìn"
+    },
+    "items": [
+      "<strong>Ní kí wọ́n fún ẹ ní iṣẹ́ kan.</strong> Ti o ba pade idena wiwọle ti o le yanju nipasẹ sọfitiwia orisun ṣiṣi ti gbogbo eniyan, firanṣẹ nipasẹ gbigba ibeere.",
+      "<strong>Ìdánwò àti àtúnyẹ̀wò.</strong> Gbiyanju awọn iṣẹ IATF pẹlu imọ-ẹrọ iranlowo ti o lo, ṣe ijabọ ohun ti o ṣiṣẹ ati ohun ti ko ṣiṣẹ, ati fi awọn iṣoro silẹ taara lori ibi ipamọ ti o yẹ.",
+      "<strong>Túmọ̀ rẹ̀ sí èdè Gẹ̀ẹ́sì.</strong> A máa ń kọ́kọ́ tẹ̀ ẹ́ jáde ní èdè Gẹ̀ẹ́sì, a sì máa ń fi àwọn ìtumọ̀ kún un bí àwọn olùkópa bá ṣe wà lárọ̀ọ́wọ́tó, bẹ̀rẹ̀ látorí èdè Sípáníìṣì.",
+      "<strong>A máa ń kọ́lé.</strong> Mu awọn ọran ni eyikeyi ibi ipamọ IATF, firanṣẹ awọn ibeere fa, tabi gba iṣẹ akanṣe kan bi onimọ-ẹrọ ti o ni iduro.",
+      "<strong>Máa bá a lọ bẹ́ẹ̀.</strong> Àwọn iṣẹ́ tó ti wà tẹ́lẹ̀ máa ń nílò alábòójútó tuntun nígbà míì."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Àwọn òpópónà",
+      "title": "Ibi tí IATF ti ń ṣiṣẹ ní gbangba"
+    },
+    "items": [
+      "<strong>GitHub. (ìkànnì ìkànnì)</strong> Àwọn ọ̀rọ̀, àwọn ìbéèrè, àwọn ìfilọ́lẹ̀, àti àwọn àkọsílẹ̀ iṣẹ́.",
+      "<strong>Àìfohùnṣọ̀kan.</strong> Àjùmọ̀sọ̀rọ̀ ní tààràtà, ìfọ̀rọ̀wérọ̀, àti àwọn ìbéèrè tí kò bófin mu.",
+      "<strong>Àwọn lẹ́tà orí kọ̀ǹpútà.</strong> Ìlò <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> tó bá jẹ́ pé GitHub tàbí Discord kò bára wọn mu."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ìgbésẹ̀ tó tẹ̀ lé e",
+      "title": "Yan ikanni ti o baamu bi o ṣe fẹ lati ṣe alabapin"
+    },
+    "paragraphs": [
+      "Gbogbo awọn ikanni jẹun sinu atunyẹwo gbangba kanna ati awọn ibi ipamọ gbangba kanna."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
