@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu"
+  },
+  "hero": {
+    "eyebrow": "Takayɩhatʋ",
+    "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+    "lead": "Takayɩhatʋ ndʋ tɩ-tɩŋa tɩwɛ intɛrnɛɛtɩ yɔɔ yɔ, tɩwɛɛ lone kʋɖʋmɖɩyɛ taa."
+  },
+  "sections": [
+    {
+      "title": "Takayɩhatʋ sɔsɔtʋ",
+      "items": [
+        {
+          "label": "Ɛ-ɖɩɣa",
+          "href": "/"
+        },
+        {
+          "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+          "href": "/projects/"
+        },
+        {
+          "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu:",
+          "href": "/propose/"
+        },
+        {
+          "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+          "href": "/governance/"
+        },
+        {
+          "label": "Pɩsɩ nɛ ŋna-ɩ",
+          "href": "/join/"
+        },
+        {
+          "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+  "projectsEmpty": "Pɩtasɩɩna takayasɩ kɩkalasɩ."
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Samaɣ pɩzɩ nɛ katɩlɩ tɔm ndʋ Bibl wɩlɩɣ yɔ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Samaɣ pɩzɩ nɛ katɩlɩ tɔm ndʋ Bibl wɩlɩɣ yɔ",
+    "lead": "Takayɩhayʋʋ kʋnɛ kɩ-taa pamaɣ samaɣ taa tʋma wena palabɩ-yɛ pɩtɩŋna IATF yɔɔ yɔ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Takayɩhatʋ ndʋ tɩtamsɩna \\\\",
+      "title": "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ"
+    },
+    "intro": [
+      "Palaba ɖʋtʋ ndʋ lɛ, pama-tʋ takayaɣ kanɛ ka-taa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Yɔɔdɩ ña-kɩcɛyɩm",
+      "title": "Pɩsɩ nɛ ŋna-ɩ tɔm kɩsɔzɩtʋ"
+    },
+    "paragraphs": [
+      "IATF ñɩnɩɣ nɛ pana se papɩzɩ pala tʊma wena papɩzɩɣ nɛ pala nɛ papɩzɩ patɩlɩ-yɛ yɔ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Pɩtasɩɩna takayasɩ kɩkalasɩ",
+    "paragraphs": [
+      "IATF ñɔɔzʊʊ ɛ-tɛ kajalaɣ tʊmɩyɛ paɣtʊ takayaɣ.",
+      "Paa mbʋ yɔ, ŋpɩzɩɣ nɛ ŋtɩŋnɩ pɔrtaabɩlɩ yɔɔ nɛ ŋpɔzɩ-wɛ se pasɩnɩ-ŋ."
+    ]
+  }
+}

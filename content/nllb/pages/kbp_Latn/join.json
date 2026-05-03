@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Pɩsɩ takayɩhayʋʋ IATF ñɩŋgʋ yɔɔ",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Pɩsɩ takayɩhayʋʋ IATF ñɩŋgʋ yɔɔ",
+    "lead": "Ŋpɩzɩɣ ŋsʋʋ ŋgbɛyɛ nɖɩ ɖɩ-taa. Nʋmɔŋ ndɩ ndɩ yɔɔ ŋpɩzɩɣ ŋtɩŋna nɛ ŋɖʋ nesi, paa ŋtisiɣ sɩnʋʋ wondu yɔɔ, ŋñakɩ pana se ŋñɔɔzɩ wondu ndʋ tɩwɛ kɛlɛʋ yɔ, ŋɖɛzɩɣ kʋnʋmɩŋ lɛɛŋ, ŋtakɩɣ-tʋ yaa ŋcɔŋnɩ tɩ-yɔɔ yɔ. Pɔyɔɔdʋʋ tɔm nɛ pakpakɩɣ lɩmaɣza lɛ, patɩŋɩɣnɩ GitHub nɛ Discord pɔ-yɔɔ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+      "title": "Nʋmɔŋ weyi ɩ-yɔɔ ŋpɩzɩɣ ŋtɩŋna nɛ ŋɖʋ nesi yɔ"
+    },
+    "items": [
+      "<strong>Pɔzɩ-ɩ se ɛha-ŋ tʋmɩyɛ naɖɩyɛ.</strong> Ye ŋkatɩ mbʋ pɩpɩzɩɣ nɛ pɩɖɩɣ-ŋ nʋmɔʋ se ŋpɩzɩ nɛ ŋkalɩ ordinatɛɛrɩ yɔ, ŋpɩzɩɣ nɛ ŋtɩŋnɩ tɔm ndʋ tɩ-yɔɔ nɛ ŋcosi-i.",
+      "<strong>Ñɩnɩ nɛ ŋtazɩ kɩ-taa.</strong> Ñaɣ pana nɛ ŋlabɩnɩ tʋmɩyɛ IATF tʋma wena a-taa ŋlakɩnɩ tʋmɩyɛ sɩnʋʋ wondu yɔ, ŋla akɔnta nɛ ŋna mbʋ pɩwazɩɣ yɔ nɛ mbʋ pɩtaawɛɛkɩ yɔ.",
+      "<strong>Kpaɣ nɛ ŋlɛɣzɩ.</strong> Kajalaɣ taa lɛ, palɩzɩ tɔm ndʋ tɩ-taa paayɔɔdɩ kʋnʋŋ kʋnɛ kɩ-taa yɔ, nɛ pʋwayɩ lɛ, patasɩ-tʋ ɖɛzʋʋ alɩwaatʋ ndʋ patɩlɩɣ-tʋ yɔ.",
+      "<strong>Maɣzɩ nɛ ŋna.</strong> Ŋpɩzɩɣ nɛ ŋñɩnɩ tɔm ndʋ tɩwɛ IATF takayasɩ taa yɔ, ŋpɩzɩ ŋtiyi tɔm ndʋ tɩ-yɔɔ ŋñɩnɩɣ yɔ, yaa ŋla tʋmɩyɛ naɖɩyɛ nɛ ŋkɛ ɖɩ-yɔɔ cɔnɩyʋ.",
+      "<strong>Ñaɣ pana nɛ ŋɖɔkɩ-pʋ kpam.</strong> Nabʋyʋ taa lɛ, pɩpɔzʋʋ se paɖaɣnɩ nɔɔyʋ lɩzʋʋ nɛ ɛcɔnɩ tʋma wena palakɩ yɔ a-yɔɔ."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kpaŋnaŋ",
+      "title": "Alɩwaatʋ ndʋ IATF lakɩ tʋmɩyɛ samaɣ taa yɔ"
+    },
+    "items": [
+      "<strong>GitHub yɔɔ.</strong> Takayasɩ kɩkalasɩ, takayasɩ nzɩ pɔsɔɔlaa se pɔcɔna yɔ, takayɩsɩ nzɩ palɩzaa yɔ, nɛ takayɩsɩ lɛɛsɩ.",
+      "<strong>Lakasɩ kɩdɛkɛdɩsɩ.</strong> Palakɩ faawɩyɛ, pɔñɔɔzʋʋ tɔm nɛ pɔpɔzʋʋ tɔm lɛɛtʋ ɖɔɖɔ.",
+      "<strong>Tɩŋnɩ intɛrnɛɛtɩ yɔɔ.</strong> Tʋma ɖɩlaɖɛ nɛ a-taa wobu <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ye GitHub nɛ Discord pa-naalɛ ɩtɩmʋna yɔ."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ñʋʋ ŋgʋ kɩkɔŋ yɔ",
+      "title": "Lɩzɩ nʋmɔʋ ŋgʋ kɩ-yɔɔ ŋsɔɔlaa se ŋtɩŋna nɛ ŋha ña-tɩ yɔ"
+    },
+    "paragraphs": [
+      "Tɛtʊ ndʊ tɩ-tɩŋa tɩ-taa ɛyaa kɩlɩɣ ɖama yɔɔdʊʊ nɛ ɖama yɔɔ kandɩyʊʊ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

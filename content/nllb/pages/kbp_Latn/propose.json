@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Tʋma wena a-yɔɔ ŋpɩzɩɣ nɛ ŋtɩŋna nɛ ŋwɩlɩ se ŋsɔɔlɩ tɔm susuu yɔ",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Tʋma wena a-yɔɔ ŋpɩzɩɣ nɛ ŋtɩŋna nɛ ŋwɩlɩ se ŋsɔɔlɩ tɔm susuu yɔ",
+    "lead": "IATF takayasɩ kɩkalasɩ kpɛlɛkɩɣ tʊmɩyɛ nɖɩ ɖɩlɩna kɩcɛyɩm mbʊ pʊyɔɔ yɔ.",
+    "support": [
+      "Pɩtɩcɛyɩ se ŋtɩlɩ mbʋ pɩ-taa ɖeyi ɖeyi pɩlɩnaa yɔ, ɛlɛ ye ŋtɩlɩ ɛyʋ weyi pɩtalɩɣ-ɩ yɔ nɛ mbʋ pʋyɔɔ pɩ-tɔm kɩlɩ cɛyʋʋ yɔ, ŋpɩzɩɣ nɛ ŋpaɣzɩ kɛdaɣ."
+    ],
+    "actions": [
+      {
+        "label": "Pɩsɩ nɛ ŋna-ɩ kɩlɛlʋʋ",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Tɩŋnɩ Discord yɔɔ",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kpaŋnaŋ",
+      "title": "Lɩzɩ nʋmɔʋ ŋgʋ kɩwɛ kɛlɛʋ yɔ"
+    },
+    "intro": [
+      "Nʋmɔʋ kʋɖʋmʋʋ yɔɔ patɩŋɩɣna nɛ pɔcɔŋnɩ paa nʋmɔʋ ŋgʋ lɛ kɩ-yɔɔ."
+    ],
+    "items": [
+      {
+        "label": "Ɛ-tɛ intɛrnɛɛtɩ lone",
+        "body": "Ŋpɩzɩɣ nɛ ŋtɩŋnɩ tɔm pɔzʋʋ mbʋ pɩwɛ pɩ-tɛɛ yɔ pɩ-yɔɔ nɛ ŋcosi tɔm ndʋ tɩ-yɔɔ."
+      },
+      {
+        "label": "Ɛ-tɛ intɛrnɛɛtɩ",
+        "body": "Pɩsɩ nɛ ŋna-ɩ tɔm kɩcɛyɩtʋ {{contact.requestsEmail}}Papɩzɩɣ pakpaɣ tɔm ndʋ pɔpɔzɩ-wɛ intɛrnɛɛtɩ yɔɔ yɔ nɛ pɔñɔɔzɩ-tʋ nɛ pɩtɛ lɛ, papɩzɩ nɛ patɩlɩ-tʋ."
+      },
+      {
+        "label": "Kʋñɔŋ",
+        "body": "Ye pɩfɛyɩ-ŋ kaɖɛ yɔ, ŋpɩzɩɣ nɛ ŋpaɣzɩ lone nɖɩ ɖɩ-taa."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Pʋcɔ nɛ ŋtiyini-i ña-takayɩsɩ",
+    "paragraphs": [
+      "IATF lakɩ tʊmɩyɛ samaɣ taa. Papɩzɩɣ pɛkpɛlɛkʊʊ tɔm ndʊ pɔpɔzʋʋ yɔ nɛ palɩzɩ-tʊ ɛzɩ samaɣ tʊma takayasɩ yɔ, pɩlɩna ŋgbɛyɛ nɖɩ payaɣ-ɖɩ se GitHub yɔ, ɖɩ-tɛ intɛrnɛɛtɩ lone ɖɩnɛ ɖɩ-yɔɔ, yaa tɩ-naalɛ.",
+      "Taayɔɔdɩ ɛyaa hɩla, pɔ-nɔɔ yɔɔ tɔm, pa-kʋdɔmɩŋ waʋ tɔm, yaa tɔm ndʋ tɩsɩɣnɩ-ŋ nɛ ŋtɩlɩ weyi ɛlakɩnɩ tʋmɩyɛ wondu ndʋ yɔ, ye pɩtɩcɛyɩ se ŋla mbʋ nɛ ye ŋtisiɣ se IATF ɛcɔnɩ tɔm ndʋ ti-ɖeɖe yɔ.",
+      "IATF lakɩ tʊmɩyɛ nɛ pɩsa nɛ palɩzɩ ɛyaa mba pɔyɔɔdʊʊ pɔ-yɔɔ tɔm yɔ pa-takayɩsɩ."
+    ]
+  },
+  "review": {
+    "title": "Tɔm ndʋ ɖɩɖaŋaa yɔ tɩ-yɔɔ cɔnʋʋ",
+    "paragraphs": [
+      "Ye nɔɔyʋ ɛpɔzɩ se paha-ɩ takayaɣ ŋga yɔ, pɩtɩwɩlɩ se pamʋ-kɛ.",
+      "IATF ñɩnɩɣ se pana se tɔm ndʋ tɩmʋnɩ tʋmɩyɛ nɖɩ paɖʋ-ɩ yɔ, tɩkɛ toovenim, tɩwazɩ-ɩ yaa tɩtɩwazɩ ɛ-tʋmɩyɛ nɖɩ ɖɩ-yɔɔ.",
+      "Papɩzɩɣ nɛ pekizi tɔm ndʋ pɔpɔzɩ-ɩ yɔ tɩ-taa natʋyʋ, paɖaɣnɩ-tʋ kpaɣʋ nɛ pʋwayɩ, yaa pɛlɛɣzɩ-tʋ pʋcɔ nɛ pamʋ-tʋ."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ",
+      "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu:"
+    },
+    "fields": [
+      {
+        "kind": "Pɩlɩʋ",
+        "name": "Ɛyʋ weyi ɛ-tɔm pɔzɩ-ɩ yɔ",
+        "label": "Ña-hɩɖɛ yaa ŋgbɛyɛ nɖɩ ɖɩ-taa ŋwɛɛ yɔ",
+        "helper": "Mɛni he je nɛ wa ma nyɛ maa kase Baiblo ɔ?"
+      },
+      {
+        "kind": "lɩzʋʋ",
+        "name": "Pɩsɩ nɛ ŋna-ɩ",
+        "label": "Nʋmɔʋ ŋgʋ patɩŋɩɣna nɛ pɔñɔtɩnɩ-ɖʋ yɔ",
+        "helper": "Ɛzɩma pɩwɛɛ se pɔcɔnɩ tɔm ndʋ ti-ɖeɖe?",
+        "required": true,
+        "options": [
+          "Ɛ-tɛ intɛrnɛɛtɩ",
+          "Kʋñɔŋ"
+        ]
+      },
+      {
+        "kind": "Pɩlɩʋ",
+        "name": "Takayɩhatʋ ndʋ tɩtamsɩna \\\\ Kpɛlɩkʋʋ \\\\ yɔ",
+        "label": "Takayɩhatʋ ndʋ tɩtamsɩna \\\\",
+        "helper": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu:",
+        "placeholder": "Takayɩhatʋ ndʋ tɩtamsɩna \\\\ Discord \\\\ yɔ",
+        "required": true
+      },
+      {
+        "kind": "Pɩlɩʋ",
+        "name": "Kʋnʋmɩŋ",
+        "label": "Kʋnʋmɩŋ",
+        "helper": "Ye pɩsaŋ yɔ, kalɩ kʋnʋŋ ŋgʋ ŋsɔɔlaa yɔ.",
+        "value": "Ɛnglɩsɩ kʋnʋŋ taa"
+      },
+      {
+        "kind": "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ",
+        "name": "Kʋñɔŋ",
+        "label": "Kʋñɔŋ ŋgʋ ŋñɩnɩɣ se ŋñɔɔzɩ?",
+        "helper": "Kpaɣ tɔm pee kɩbana nɛ ŋlɩzɩ kaɖɛ nɖɩ ɖɩ-taa ŋwɛɛ yɔ ɖɩ-tɔbʋʋ.",
+        "required": true
+      },
+      {
+        "kind": "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ",
+        "name": "Ɛyaa mba pɩtalɩɣ-wɛ yɔ",
+        "label": "Mba pɩtalɩɣ-wɛ?",
+        "helper": "Anɩ pɩkaɣ sɩnʋʋ?",
+        "required": true
+      },
+      {
+        "kind": "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ",
+        "name": "Takayɩhatʋ ndʋ tɩtamsɩna \\\\ extraContext \\\\ yɔ",
+        "label": "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ",
+        "helper": "Tɩŋnɩ tɔm lɛɛtʋ yɔɔ nɛ ŋlɩzɩ mbʋ pɩ-yɔɔ pɩcɛyaa yɔ pɩ-taa."
+      },
+      {
+        "kind": "lɩzʋʋ",
+        "name": "Takayɩhatʋ ndʋ tɩtamsɩna \\\\ OpenSourceConsent \\\\ yɔ",
+        "label": "Pɩwɛ-ŋ kɛlɛʋ se ŋlabɩnɩ tʋmɩyɛ wondu ndʋ tɩ-yɔɔ papɩzɩɣ patɩŋna nɛ palabɩnɩ-tʋ tʋmɩyɛ yɔ?",
+        "helper": "Paɣtʊ ndʊ tɩ-yɔɔ tisiɣ nɛ palakɩ tʊmɩyɛ yɔ, tɩ-tɛ wɛtʊ wɛ IATF ŋgbɛyɛ taa.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ɛɛɛ",
+          "Aayɩ",
+          "Mantatɩlɩ mbʋ ɖeyi ɖeyi pɩlaba yɔ."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ye pamʋ-ɩ yɔ",
+      "title": "Ye nɔɔyʋ ɛmʋ-ŋ yɔ, pʋ-tɔbʋʋ lɛ suwe?"
+    },
+    "items": [
+      "Takayasɩ kɩkalasɩ kpɛlɛkʊʊ tʊmɩyɛ IATF GitHub ŋgbɛyɛ taa",
+      "Lɔŋsɩnɖʋ weyi ɛcɔŋnɩ tʋmɩyɛ nɖɩ ɖɩ-labʋ yɔɔ yɔ",
+      "Copyleft tʊma ɖɩlaɖɛ nɛ a-taa wɛ tʊmɩyɛ takayasɩ",
+      "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ tɩwɛna kpasɩ Ɛjaɖɛ yɔɔ tɔm yɔɔ:",
+      "Takayɩhatʋ ndʋ tɩtamsɩna \\\\ IATF \\\\ yɔ"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kpaɣnɩ kɛdaɣ",
+      "title": "Pʋcɔ nɛ ŋpaɣzɩ lɛ, ŋpɩzɩɣ nɛ ŋpɔzɩ-ɩ tɔm pazɩ yem"
+    },
+    "paragraphs": [
+      "Ye ŋmaɣzɩɣ se pɩcɛyaa se pɔñɔɔzɩ tɔm ndʋ nɛ tɩpɩsɩ samaɣ taa tɔm susuu tʋmɩyɛ yɔ, ŋpɩzɩɣ nɛ ŋheyi-ɖʋ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

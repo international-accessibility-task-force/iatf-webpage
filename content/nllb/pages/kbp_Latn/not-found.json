@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Patana-ɩ"
+  },
+  "hero": {
+    "eyebrow": "Patana-ɩ",
+    "title": "Takayɩhatʋ ndʋ tɩ-yɔɔ ŋñɩnɩɣ yɔ, paana-tʋ",
+    "lead": "Ɩtɩŋnɩ nʋmɔŋ sɔsɔŋ weyi ɩwɛ pɩ-tɛɛ yɔ ɩ-yɔɔ nɛ ɩpɩzɩ nɛ ɩpɩsɩ samaɣ kuduyuu tɛɛ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Ɛ-ɖɩɣa",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Nʋmɔʋ ŋgʋ ŋpɔzɩ-ɖʋ yɔ, kɩfɛyɩ."
+    ],
+    "items": [
+      {
+        "label": "Ɛ-ɖɩɣa",
+        "href": "/"
+      },
+      {
+        "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "href": "/projects/"
+      },
+      {
+        "label": "Pɩsɩ nɛ ŋna-ɩ",
+        "href": "/join/"
+      },
+      {
+        "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "href": "/governance/"
+      },
+      {
+        "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Nɔɔɖɛyaa Ɛgbɛyɛ nɛ kɩ-takayɩsɩ huyuu",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Nɔɔɖɛyaa Ɛgbɛyɛ nɛ kɩ-takayɩsɩ huyuu",
+    "lead": "IATF lakɩ tʊmɩyɛ se tʊma wena a-yɔɔ papɩzɩɣ nɛ patɩŋna yɔ, awɛɛ samaɣ taa, a-kalʊʊ taa nɛ a-ñɔɔzʋʋ taa.",
+    "support": [
+      "Takayɩhayʋʋ kʋnɛ kɩwɩlɩɣ mbʋ pɩmʋnaa yɔ, ɛzɩma pamaɣ takayɩsɩ yɔ, nɛ mbʋ pʋpɔzʋʋ se pala takayɩsɩ mayaa alɩwaatʋ ndʋ pamʋ-sɩ yɔ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Nɔɔɖɛyaa Ɛgbɛyɛ",
+      "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu, tɩ-yɔɔ wɛʋ lɩzʋʋ waɖɛ, nʋmɔʋ haʋ"
+    },
+    "cards": [
+      {
+        "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "paragraphs": [
+          "IATF tisiɣ nɛ pala tʊma wena ayeki se ɛyaa ɛtaatasɩ talʋʋ-yɛ yɔ nɛ awɛ wazaɣ siŋŋ ɛyaa ɛsɩndaa.",
+          "Pɩwɛɛ se tʋmɩyɛ nɖɩ ɖɩpɩzɩ nɛ ɖɩwazɩ ɛyaa sakɩyɛ nɛ pɩɖɛɛ pa-maɣmaɣ pa-tʋmɩyɛ yɔɔ nɛ papɩzɩ nɛ palabɩnɩ-ɖɩ tʋmɩyɛ ɖɔɖɔ ɛzɩ papɩzɩɣ nɛ palabɩ-ɖɩ samaɣ taa yɔ.",
+          "Pɩsa nɛ ɛyʋ ɛpɩzɩ ɛtalɩ intɛrnɛɛtɩ yɔɔ lɛ, IATF tɩŋɩɣna [W3C WAI](https://www.w3.org/WAI/) Pɩtasɩ lɛ, ɛzɩma ɛyaa lakɩnɩ tʋmɩyɛ sɩnʋʋ wondu yɔ, pɩwɩlɩɣ kpayɩ kpayɩ se wondu ndʋ tɩpɩzɩɣ nɛ tɩla tʋmɩyɛ toovenim taa."
+        ]
+      },
+      {
+        "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "paragraphs": [
+          "Papɩzɩɣ nɛ petisi tɔm natʋyʋ yɔɔ alɩwaatʋ ndʋ pɛtɛzɩɣ tɩ-yɔɔ cɔnʋʋ nɛ panaɣ se:"
+        ],
+        "items": [
+          "Pɩsɩ nɛ ŋna-ɩ tɔm kɩsɔzɩtʋ:",
+          "Kʋñɔmɩŋ weyi ɩ-taa ŋwɛɛ yɔ, ŋpɩzɩɣ nɛ ŋmaɣzɩ ɩ-yɔɔ",
+          "Ɖɩcɔna nɛ ɖɩna kɔyɔ, pɩpɩzɩɣ nɛ pʊcɔ nɛ palɩzɩ-kʊ.",
+          "Tʋma wena palakɩ yɔ, awɛ nɔɔ kʋɖʋmaɣ nɛ tʋma wena IATF ɖʋwa yɔ",
+          "Nʋmɔʋ kɩbaŋʋ ŋgʋ kɩ-yɔɔ papɩzɩɣ patɩŋna nɛ pɔñɔɔzɩ-wɛ yaa pɛtɛzɩ-wɛ ñɔɔzʋʋ yɔ"
+        ]
+      },
+      {
+        "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "paragraphs": [
+          "Tʊma wena pasɩma-yɛ yɔ, awɛ IATF ŋgbɛyɛ nɖɩ payaɣ-ɖɩ se GitHub yɔ ɖɩ-taa.",
+          "Kɩ-taa wɛ wondu ndɩ ndɩ nɛ paa tʋmɩyɛ nɖɩ ɖɩ-taa lɛ, ɖɩ-tɛtʋ wɛɣ paa ɛzɩmtaa, paa pʋwayɩ lɛ, mba pɔcɔŋnɩ-tʋ yɔɔ yɔ, pɛlɛɣzaa yɔ."
+        ]
+      },
+      {
+        "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "paragraphs": [
+          "IATF tʊma tɩŋɩɣna copyleft tʊmɩyɛ yɔɔ nɛ pɩtasɩɩna se paɣtʊ natʊyʊ wɩlɩɣ se pɩtɛkɛ mbʊ yɔ:"
+        ],
+        "items": [
+          "<strong>Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ</strong> Kpɛlɩ kpɛlɛkʊʊ tʊmɩyɛ",
+          "<strong>Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Lɔŋsɩnɖʋ weyi ɛcɔŋnɩ tʋmɩyɛ nɖɩ ɖɩ-labʋ yɔɔ yɔ",
+      "paragraphs": [
+        "Paa tʋmɩyɛ nɖɩ ɖɩmʋwa yɔ, pɩwɛɛ se ɖɩ-yɔɔ cɔnɩyʋ yaa weyi ɛcɔŋnɩ tʋmɩyɛ ɖɩnɛ ɖɩ-labʋ yɔɔ yɔ, ɛ-hɩɖɛ ɛsɛɛ."
+      ],
+      "items": [
+        "Pɩlɩʋ \\\\ Kpɛlɩ kpɛlɛkʋʋ \\\\ takayɩhatʋ",
+        "Pɩsɩ nɛ ŋna-ɩ tɔm ñʋŋ",
+        "Pɩsɩ nɛ ŋna-ɩ tɔm kɩcɛyɩtʋ",
+        "Takayɩhatʋ ndʋ tɩtamsɩna \\\\ Takayaɣ kɩkalaɣ \\\\ yɔ",
+        "Ñaɣ pana nɛ tɔm ndʋ ŋyɔɔdʋʋ yɔ, lalaa ɩnɩɩ tɩ-taa camɩyɛ"
+      ],
+      "footnote": "Tɛtʊ tʊnɛ tɩ-taa lɛ, paɣtʊ lɩzɩyaa wɛna waɖɛ se pala tʊmɩyɛ tʊma ndɩ ndɩ."
+    },
+    "publicDevelopment": {
+      "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+      "paragraphs": [
+        "Tɛtʊ tʊnɛ tɩ-taa palakɩ tʊma sɔsɔna ndɩ ndɩ ɛzɩ:"
+      ],
+      "items": [
+        "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ",
+        "Tɔm kɩcɛyɩtʋ",
+        "Takayɩhatʋ ndʋ tɩwɛ pɩ-tɛɛ yɔ",
+        "Takayɩhatʋ ndʋ tɩtamsɩna \\\\",
+        "Takayɩhatʋ ndʋ tɩtamsɩna \\\\"
+      ],
+      "footnote": "Pɩtɩmʋna se tɔm kɩcɛyɩtʋ ndʋ ɖɩkpɛlɩkɩɣ tʋmɩyɛ naɖɩyɛ yɔɔ yɔ, tɩwɛɛ ɖɛ-tɛ intɛrnɛɛtɩ lone yaa ɖa-takayɩsɩ nzɩ ɖɩlɩzɩɣ yɔ sɩ-taa ɖeke."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Tʋma wena a-taa ɛyaa wɛɛ yɔ",
+      "title": "Takayɩhatʋ ndʋ tɩtamsɩna \\\\ Kpɛlɩkʋʋ \\\\ yɔ"
+    },
+    "paragraphs": [
+      "IATF lakɩ tʊmɩyɛ samaɣ taa pɩtɩŋna mbʊ pʊtɔbʊʊ yɔ pɩ-yɔɔ. Tɔm ndʊ tɩtɩŋna intɛrnɛɛtɩ lone yɔɔ, intɛrnɛtɩ yɔɔ, Discord, GitHub, yaa tɔm ndʊ lɛɛŋ yɔ tɩpɩzɩ tɩpɩsɩ samaɣ tʊma takayaɣ.",
+      "Pɩtasɩɩna se tɔm ndʋ tɩ-taa pɔpɔzɩ-tʋ yɔ, tɩkɛ kajalaɣ ñɩndʋ. IATF pɩzɩɣ nɛ pɩñɔɔzɩ tɔm ndʋ nɛ pɩcɔ nɛ patasɩ-tʋ lɩzʋʋ se pɩsa nɛ papɩzɩ nɛ patɩlɩ-tʋ nɛ pɩtaakɩlɩ cɛyʋʋ se palɩzɩ-tʋ.",
+      "Papɩzʊ pakpaɣ tɔm ndʊ pɔyɔɔdʊʊ samaɣ taa yɔ nɛ paɖʊ-tʊ IATF GitHub ŋgbɛyɛ taa, intɛrnɛɛtɩ lone ɖɩnɛ ɖɩ-taa, yaa pa-naalɛ.",
+      "Pʋcɔ nɛ palɩzɩ takayaɣ ŋga lɛ, IATF kpakɩɣ tɔm ndʋ tɩtɩcɛyɩ yɔ tɩ-taa ndʋ tɩ-yɔɔ papɩzɩɣ nɛ patɩŋna nɛ pɔyɔɔdɩnɩ-wɛ yɔ, pa-maɣmaɣ pa-adɛsɩ, nɛ takayɩsɩ lɛɛsɩ nzɩ sɩpɩzɩɣ nɛ sɩsɩnɩ-wɛ nɛ patɩlɩ weyi ɛ-yɔɔ paayɔɔdɩ tɔm ndʋ yɔ, ye pɩtɛkɛ se pɔsɔɔlaa se palɩzɩ-tʋ yɔ.",
+      "Tɛtʊ tʊnɛ tɩ-taa palakɩ tʊmɩyɛ nɛ paɣtʊ ndʊ tɩ-yɔɔ. IATF ɛɛsɩɣna tʊma ndɩ ndɩ wena palakɩ yɔ.",
+      "Pʊtɔbʊʊ se papɩzɩɣ nɛ patɩlɩ-kʊ pɩtɩŋna hɩɖɛ ñɩɣyʊʊ yɔɔ.",
+      "IATF pɩzɩɣ nɛ kɩñɔɔzɩ yaa kɩlɩzɩ takayasɩ nzɩ sɩlɩna lona wena a-taa palakɩ tʊmɩyɛ yɔ, ɛlɛ pɩfɛyɩ se kɩpɩzɩ nɛ kɩlɩzɩ-sɩ lona lɛɛna taa ɛzɩ caches, notifications, forks, screenshots, search engines, Discord yaa wondu lɛɛtʋ taa.",
+      "Ye pɩpɔzʋʋ se tɔm natʋyʋ ɛwɛɛ mɛsaɣ tɛɛ yɔ, taayɔɔdɩ-tʋ pɩtɩŋnɩ IATF yɔɔ."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Tʋma wena ɛgbɛyɛ lakɩ yɔ",
+      "title": "Nɔɔɖɛyaa Ɛgbɛyɛ"
+    },
+    "lead": "Ɛyʊ ɛnʊ ɛcɔŋna IATF ŋgbɛyɛ nɖɩ ɖɩ-yɔɔ. Ɛwɛ ndɩ nɛ tʊmɩyɛ taa tʊ nɔyʊ: ɛnʊ cɔŋna ŋgbɛyɛ ɖɩnɛ ɖɩ-kʊyʊmɖɩyɛ yɔɔ, pɩtɛkɛ ɛ-maɣmaɣ ɛ-ñʊʊ yɔɔ.",
+    "duties": {
+      "title": "Tʋmɩyɛ nɖɩ kpelaɣ lakɩ yɔ",
+      "items": [
+        "Pɩsɩ takayɩhayʋʋ IATF GitHub ñɩŋgʋ yɔɔ",
+        "Ɛñɩɣ nesi ɖʋtʋ ndʋ tɩ-yɔɔ patɩŋnaa nɛ pakpaɣ lɩmaɣzɩyɛ se pɔñɔɔzɩ-tʋ yɔ",
+        "Ɛlakɩ tʊmɩyɛ se ɛkɛ IATF ŋgbɛyɛ nɖɩ ɖɩcɔŋna tʊma labʊ yɔɔ yɔ.",
+        "Ɛcɔŋnɩ paa pɩnaɣ ŋga lɛ, ɛzɩma palɩzɩɣ-ɩ yɔ pɩ-yɔɔ"
+      ],
+      "footnote": "Ɛyʊ ɛnʊ ɛɛkpaɣ ɛ-tɩ nɛ ɛcɛlɩɣ IATF tʊmɩyɛ naɖɩyɛ, ɛhɛyɩɣ ɛ-tʋmɩyɛ yɔɔ yaa ɛlakɩ tʊma sɔsɔna ndɩ ndɩ, nɛ ɛɛkpakɩɣ ɛ-ñʊʊ nɛ ɛcɔŋna ɖɔɖɔ takayasɩ kɩkalasɩ yɔɔ cɔnɩyaa lɩmaɣza yɔɔ."
+    },
+    "election": {
+      "title": "Pɩnaɣ taa lɩmaɣzɩyɛ",
+      "paragraphs": [
+        "Pɩnaɣ taa lɛ, palɩzɩɣ ñʊʊ tʊ nɛ palɩzɩɣ-ɩ kɔlaɣ fenaɣ kajalaɣ kpɩtaŋ naalɛ alɩwaatʊ taa.",
+        "Ɛyaa mba papɩzɩɣ nɛ palɩzɩ pa-tɩ se palɩzɩ-wɛ yɔ, mba lɛ ɛyaa mba paawɛɛ nɛ pɔcɔŋna IATF takayaɣ nakɛyɛ yɔɔ pɩnaɣ ŋga ka-taa nɛ paa weyi lɛ, ɛwɛna nɔɔ kʋɖʋmaɣ nɛ ɛ-takayaɣ ŋga. Ɛyʋ weyi ɛpɩzɩɣ nɛ ɛlɩzɩ-ɩ yɔ, ɛwɛnɩ nɔɔ kʋyʋmaɣ.",
+        "Palakɩ lɩmaɣzɩyɛ ɖɩnɛ ɛzɩ samaɣ yɔɔ tɔm heyuu GitHub yɔɔ yɔ, pɩlɩna IATF ñʊʊ tʊmɩyɛ yɔɔ, mbʊ pʊyɔɔ yɔ, paɣtʊ lɩzɩyaa, pa-ñʊʊtʊ nɛ pa-lɩmaɣza pa-tɩŋa pɛwɛ samaɣ taa takayaɣ taa."
+      ]
+    },
+    "continuity": {
+      "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+      "paragraphs": [
+        "Pɩtɛ alɩwaatʊ tʊnɛ tɩ-taa lɛ, pʊtɔbʊʊ se ɛyʊ weyi ɛcɔŋna ŋgbɛyɛ nɖɩ ɖɩ-yɔɔ yɔ, ɛnʊ lakɩ tʊmɩyɛ pɩkɔɔ pɩtalɩ ŋgbɛyɛ lɛɛɖɛ taa.",
+        "Ɛyʊ weyi ɛcɔŋna ɛ-tʊmɩyɛ yɔɔ yɔ, ɛpɩzɩɣ ɛlɩɩ ɛ-tʋmɩyɛ taa paa alɩwaatʋ ndʋ tɩ-taa."
+      ]
+    },
+    "current": {
+      "title": "Lone nɖɩ ɖɩ-taa ɛwɛɛ yɔ",
+      "fields": [
+        {
+          "label": "Nɔɔɖɛyaa Ɛgbɛyɛ",
+          "value": "Mugiwarafʋ",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tɔm loyaɣ",
+          "value": "Pɩkɔɔ pɩtalɩ pɩnaɣ 2026 tɛ saŋayɩŋ fenaɣ taa"
+        },
+        {
+          "label": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+          "value": "2026"
+        },
+        {
+          "label": "Kajalaɣ lɩmaɣzɩyɛ lɩzʋʋ",
+          "value": "Saŋayɩŋ fenaɣ 2026"
+        }
+      ]
+    },
+    "footnote": "Pɩnaɣ 2026 alɩwaatʊ taa lɛ, paɖʊ-ɩ hɩɖɛ se ɛnʊ kɛŋna ñʊʊ tʊ nɛ ɛcɔŋna ɛ-tʋmɩyɛ yɔɔ."
+  },
+  "continuity": {
+    "states": {
+      "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+      "paragraphs": [
+        "Palakɩ tʊmɩyɛ nɛ tʊma cikpena ndɩ ndɩ:"
+      ],
+      "items": [
+        "Takayɩhatʋ ndʋ tɩtamsɩna \\\\",
+        "Paha-ɩ waɖɛ",
+        "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+        "Pɩsɩ nɛ ŋna-ɩ tɔm",
+        "Ɛñɩnɩɣ weyi ɛcɔŋnɩ ɛ-yɔɔ yɔ",
+        "Pɩsɩ takayɩhayʋʋ"
+      ],
+      "footnote": "Ajɛɛ ana a-taa lɛ, pɩwɛ kɛlɛʋ se ɛyʋ ɛpɩzɩ nɛ ɛkalɩ-yɛ."
+    },
+    "reassignment": {
+      "title": "Pɩsɩ nɛ ŋna-ɩ kɩlɛlʋʋ",
+      "paragraphs": [
+        "Yee ɛyʊ weyi ɛcɔŋna tʊmɩyɛ ɖɩnɛ ɖɩ-yɔɔ yɔ ɛlɩɩ yaa ɛtaatasɩ tʋmɩyɛ labʋ kɔyɔ, IATF pɩzɩɣ nɛ kɩɖaɣnɩ-ɩ haʊ waɖɛ naɖɩyɛ, kɩpɩzɩɣ nɛ kɩɖɩzɩ tʊma labʊ yaa kɩpɩzɩ nɛ kɩkʊ-kʊ.",
+        "Pɩtasɩ lɛ, papɩzɩɣ peyele tʋmɩyɛ naɖɩyɛ labʋ alɩwaatʋ ndʋ pɔñɔɔzɩ-ɖɩ camɩyɛ yɔ, yaa alɩwaatʋ ndʋ paatasɩɣ pɩzʋʋ se paɖaɣnɩ-ɖɩ labʋ yɔ."
+      ],
+      "footnote": "Pɩwɛɛ se papɩzɩ nɛ pana tʋma wena palabɩ-yɛ caanaʋ taa yɔ, ye pɩtɩkɛ lɩmaɣza sɔsɔna naayɛ yɔɔ yɔ."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Tɛtʊ ndʊ tɩ-hɛkʊ taa",
+      "title": "Tɔm ndʋ IATF ɛɛtasɩɣ ɖʋʋ nesi yɔ"
+    },
+    "items": [
+      "Ɛyʋ ɛ-maɣmaɣ ɛ-cɔlɔ pɩlɩnaa",
+      "Tʋma ɖɩlaɖɛ nɛ a-taa wobu:",
+      "Takayɩsɩ mayaa tɩŋa tisi tɔm ndʋ pɔpɔzɩ-wɛ yɔ tɩ-yɔɔ",
+      "paa tʋmɩyɛ nɖɩ ɖɩ-taa lɛ, pɔñɔɔzʋʋ-ɖɩ nɛ pileɖi"
+    ],
+    "footnote": "IATF kɛna samaɣ tɔsʋʋ kɩlɛmʋʋ, pɩtɛkɛ tʊmɩyɛ nɖɩ ɖɩhaɣ tʊma ndɩ ndɩ yɔ."
+  }
+}

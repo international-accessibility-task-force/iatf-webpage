@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Pɩcɛyaa se papɩzɩ nɛ patɩlɩ mbʋ pɩ-yɔɔ papɩzɩɣ nɛ patɩŋna nɛ pehiɣ liidiye yɔ",
+    "lead": "IATF sɩɣnɩ agbaa, agbaa naayɛ nɛ ɛyaa nabɛyɛ se papɩzɩ nɛ pɔñɔɔzɩ tɔm ndʋ tɩcɛyɩ siŋŋ yɔ nɛ papɩzɩ patɩŋnɩ tɩ-yɔɔ nɛ pala tʋmɩyɛ.",
+    "support": [
+      "Palakɩ tʊmɩyɛ nɖɩ nɛ patʊlɩ-ɖɩ IATF GitHub ŋgbɛyɛ taa pɩtɩŋna copyleft tʊma yɔɔ nɛ paɣtʊ lɩzɩyʊ weyi ɛcɔŋna ɛ-yɔɔ yɔ ɛñɔɔzʊʊ-ɖɩ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Tʋma wena komina lakɩ yɔ",
+      "title": "Kpɛlɩ kpɛlɛkʊʊ tʊmɩyɛ"
+    },
+    "paragraphs": [
+      "Paa anɩ ɛpɩzɩɣ nɛ ɛlɩzɩ ɛ-tɩ tɔm nɛ ɛcɛlɩ IATF. Ye ɛ-ɛgbɛyɛ ɛpɩzɩ nɛ ɛlabɩnɩ tʋmɩyɛ tɔm ndʋ yɔ, patɩŋɩɣnɩ GitHub yɔɔ nɛ patɩŋnɩ tɔm ndʋ tɩ-yɔɔ.",
+      "Paa tʊmɩyɛ nɖɩ lɛ, ɖɩwɛna lone nɖɩ ɖɩ-taa papɩzʊ patʊlɩ-ɖɩ yɔ, pɩlɩna paɣtʊ takayaɣ yɔɔ, tɔm ndʊ tɩ-yɔɔ, takayasɩ ndɩ ndɩ yɔɔ, nɛ tʊma sɔsɔna yɔɔ."
+    ],
+    "specCard": {
+      "title": "Tʋma wena komina lakɩ yɔ",
+      "terms": [
+        {
+          "term": "Kɩcɛyɩm",
+          "definition": "Kaɖɛ nɖɩ ɖɩ-taa ɛyaa kaawɛɛ yɔ"
+        },
+        {
+          "term": "Tɔm taa tazʋʋ",
+          "definition": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu"
+        },
+        {
+          "term": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+          "definition": "Takayasɩ kɩkalasɩ yɔɔ wɛtʊ (GitHub)"
+        },
+        {
+          "term": "Nɔɔ yɔɔ cɔnʋʋ",
+          "definition": "Ɛgbɛyɛ nɖɩ payaɣ se IATF yɔ ɖɩ-tɩ ɖɔkʋʋ"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+      "title": "Ɛzɩma tɩlakɩ yɔ",
+      "intro": "Kɩwɛ ññɩɩ nɛ pɩsa nɛ pɔɖɔ nʋmɔʋ ŋgʋ ɛyaa tɩŋa tɩŋɩɣna yɔ kɩ-yɔɔ kɛlɛʋ."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Pɔpɔzɩ tɔm natʋyʋ",
+        "paragraphs": [
+          "Ɛgbɛyɛ naɖɩyɛ yaa samaɣ nakɛyɛ yaa paa ɛyʋ weyi lɛ, ɛpɩzɩɣ nɛ ɛpɔzɩ se pasɩnɩ-ɩ.",
+          "Ŋpɩzɩɣ nɛ ŋtɩŋnɩ intɛrnɛɛtɩ lone yɔɔ nɛ ŋtiyini-ɖʋ tɔm ndʋ. <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>Yaa pɩtɩŋnɩ Disikɔɔdɩ yɔɔ."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF cɔŋna kɩ-yɔɔ",
+        "paragraphs": [
+          "Ɖɩcɔŋna tʋmɩyɛ nɖɩ ɖɩlakɩ yɔ ɖɩ-yɔɔ nɛ ɖɩna se ɖɩwazɩɣ yaa ɖɩfɛyɩna wazaɣ nakɛyɛ, nɛ ɖɩnaɣ ɖɔɖɔ se tʋmɩyɛ nɖɩ, ɖɩmʋnaa yaa ɖɩtɩmʋna se ɖɩla-ɖɩ."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Palɩzɩ samaɣ taa tɔm kɩmamatʋ takayaɣ",
+        "paragraphs": [
+          "Ye pakpaɣ tʋmɩyɛ naɖɩyɛ yɔ, pahayɩɣ-ɖɩ IATF ŋgbɛyɛ nɖɩ payaɣ se GitHub yɔ ɖɩ-taa pɩtɩŋna copyleft tʊmɩyɛ yɔɔ.",
+          "Tɛtʊ tʊnɛ tɩ-taa palakɩ tʊmɩyɛ nɛ tʊma sɔsɔna ndɩ ndɩ."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Lɔŋsɩnɖʋ weyi ɛcɔŋnɩ tʋmɩyɛ nɖɩ ɖɩ-labʋ yɔɔ yɔ",
+        "paragraphs": [
+          "Ɛyʊ weyi ɛcɔŋna tʊmɩyɛ ɖɩnɛ ɖɩ-yɔɔ yɔ, ɛ-tʊmɩyɛ ñʊʊ tʊ nɛ tʊma ndɩ ndɩ labɩnaʊ kɛ samaɣ taa."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Takayɩhatʋ ndʋ tɩtamsɩna \\\\",
+      "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu ñɩndʋ"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Kpaɣnɩ cɩnɛ",
+      "title": "Ñɔɔzɩ ña-tɩ nɛ ŋla tʋma wena ŋwɛɛ nɛ ŋlakɩ yɔ yaa ŋpaɣzɩ tʋmɩyɛ nɖɩ ŋsɔɔlaa se ŋla yɔ"
+    },
+    "paragraphs": [
+      "Ŋpɩzɩɣ ŋtɩŋnɩ takayaɣ ŋga kɔ-yɔɔ nɛ ŋtɩlɩ mbʋ payɩ ɛyaa pɩzɩɣ nɛ patɩlɩ yɔ, yaa ŋpɩzɩɣ nɛ ŋpaɣzɩ tɔm susuu ye pɩpɔzʋʋ se ŋla ɖʋtʋ natʋyʋ yɔ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+    "lead": "IATF ñɩnɩɣ se kɩ-tɛ intɛrnɛɛtɩ lone ɖɩnɛ, ɖɩwɛɛ kɛlɛʋ, ɖɩkalɩ camɩyɛ, ɖɩ-yɔɔ papɩzɩɣ patɩŋna nɛ patɩŋnɩ taabɩlɛɛtɩ yɔɔ, nɛ ɖɩpɩzɩ nɛ ɖɩlabɩ nɔɔ kʋɖʋmaɣ nɛ sɩnʋʋ wondu.",
+    "support": [
+      "Pɩsa nɛ ɛyʋ ɛpɩzɩ ɛtalɩ intɛrnɛɛtɩ yɔɔ lɛ, IATF tɩŋɩɣna [W3C WAI](https://www.w3.org/WAI/) Pɩtasɩ lɛ, ɛzɩma ɛyaa mba palakɩnɩ tʋmɩyɛ sɩnʋʋ wondu yɔ, patɩŋɩɣnɩ pɔ-yɔɔ nɛ patɩlɩɣ ɛzɩma palabɩnɩ tʋmɩyɛ wondu ndʋ yɔ."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Takayaɣ ŋga ka-taa palɩzɩ-kɛ yɔ",
+      "title": "Yɔɔdɩ tɔm natʋyʋ pɩlɩɩnɩ nʋmɔʋ ŋgʋ kɩ-yɔɔ ŋpɩzɩɣ nɛ ŋtɩŋna nɛ ŋwolo kediɣzisi yɔ"
+    },
+    "paragraphs": [
+      "Ye ŋnawa se ŋfɛyɩnɩ waɖɛ se ŋwolo intɛrnɛɛtɩ lone ɖɩnɛ ɖɩ-yɔɔ yɔ, ɖitendi-ŋ nɛ ŋtiyini-ɖʋ:",
+      "{{contact.accessibilityEmail}}",
+      "Takayɩsɩ nzɩ sɩpɩzɩɣ nɛ sɩwazɩ-ŋ yɔ sɩ-taa nasɩyɩ yɔ:"
+    ],
+    "items": [
+      "Takayɩhatʋ ndʋ tɩtamsɩna \\\\ Nɔɔɖɛyaa Ɛgbɛyɛ \\\\ yɔ",
+      "Mbʋ ŋñɩnaɣ se ŋla yɔ",
+      "ye pɩsaŋ yɔ, sɩnʋʋ wondu ndʋ ŋlakɩnɩ tʋmɩyɛ yɔ, yaa intɛrnɛɛtɩ lone nɖɩ ɖɩ-yɔɔ ŋtɩŋɩɣna yɔ",
+      "Ɛbɛ kaalabɩ-ɩ?",
+      "Ɛbɛ pɩɩsɩnɩ-ɩ?"
+    ],
+    "footnote": "Pɩtɩcɛyɩ se ŋma takayaɣ nakɛyɛ nɛ ŋheyi-kɛ mbʋ pɩlaba yɔ pɩ-tɔm."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu",
+      "title": "Pɔcɔŋnɩ samaɣ taa tɔm yɔɔ"
+    },
+    "paragraphs": [
+      "Papɩzɩɣ nɛ palɩzɩ tɔm ndʋ tɩ-yɔɔ papɩzɩɣ nɛ patɩŋna nɛ pɔñɔɔzɩ-tʋ paa ɛzɩmtaa yɔ takayaɣ ŋga ka-taa nɛ pɩsa nɛ papɩzɩ nɛ pɔcɔnɩ tɔm ndʋ ti-ɖeɖe camɩyɛ.",
+      "Ye ña-takayaɣ taa tɔm natʋyʋ tɩkɛ ña-maɣmaɣ ñɔ-tɔm yɔ, yɔɔdɩ-tʋ kpayɩ kpayɩ takayaɣ ŋga ŋma-ɩ yɔ ka-taa."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Lone nɖɩ ɖɩ-taa ɖɩwɛɛ yɔ",
+      "title": "Hɔɔlɩŋ weyi patatɩlɩ-ɩ yɔ"
+    },
+    "paragraphs": [
+      "Tɛtʊ tʊnɛ tɩwɛ ññɩɩ nɛ tɩ-taa ɛyaa sakɩyɛ fɛyɩ."
+    ]
+  }
+}
