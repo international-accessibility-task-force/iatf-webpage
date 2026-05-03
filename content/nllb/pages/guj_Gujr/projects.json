@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "જાહેર સુલભતા પરિયોજનાઓ",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "જાહેર સુલભતા પરિયોજનાઓ",
+    "lead": "આ રજિસ્ટ્રી IATF દ્વારા જાળવવામાં આવતી જાહેર પ્રોજેક્ટ્સની યાદી આપે છે. સ્વીકૃત સુલભતા પ્રોજેક્ટ્સ, સાઇટ ઇન્ફ્રાસ્ટ્રક્ચર અને આર્કાઇવ્ડ પ્રોટોટાઇપ્સ અહીં દૃશ્યમાન રાખવામાં આવે છે.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "રજિસ્ટ્રી",
+      "title": "વર્તમાન રજિસ્ટ્રી"
+    },
+    "intro": [
+      "સ્વીકૃત પ્રોજેક્ટ્સ પ્રકાશિત થયા પછી અહીં સૂચિબદ્ધ છે."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "જરૂરિયાત સબમિટ કરો",
+      "title": "ચોક્કસ સુલભતાની જરૂરિયાતને જાહેર પ્રોજેક્ટમાં ફેરવો"
+    },
+    "paragraphs": [
+      "આઇએટીએફ ચોક્કસ સુલભતાની જરૂરિયાતોની સમીક્ષા કરે છે જે ઉપયોગી જાહેર ઓપન સોર્સ કાર્યમાં ફેરવી શકાય છે."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "હજી સુધી કોઈ પ્રોજેક્ટ પ્રકાશિત થયા નથી",
+    "paragraphs": [
+      "આઈએટીએફ પોતાનો પહેલો જાહેર પ્રોજેક્ટ સેટ તૈયાર કરી રહ્યું છે.",
+      "જો તમારી પાસે ચોક્કસ સુલભતાની જરૂરિયાત હોય તો તમે હજી પણ વિનંતી મોકલી શકો છો."
+    ]
+  }
+}

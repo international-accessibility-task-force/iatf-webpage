@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "મળ્યું નથી"
+  },
+  "hero": {
+    "eyebrow": "મળ્યું નથી",
+    "title": "વિનંતી કરેલ પૃષ્ઠ મળ્યું નથી",
+    "lead": "જાહેર સાઇટ પર પાછા ફરવા માટે નીચેના મુખ્ય માર્ગોનો ઉપયોગ કરો.",
+    "support": [],
+    "actions": [
+      {
+        "label": "ઘર",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "તમે જે માર્ગની વિનંતી કરી છે તે અસ્તિત્વમાં નથી."
+    ],
+    "items": [
+      {
+        "label": "ઘર",
+        "href": "/"
+      },
+      {
+        "label": "પ્રોજેક્ટ્સ",
+        "href": "/projects/"
+      },
+      {
+        "label": "જોડાઓ",
+        "href": "/join/"
+      },
+      {
+        "label": "સુલભતા",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "શાસન",
+        "href": "/governance/"
+      },
+      {
+        "label": "પારદર્શિતા",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "સાઇટમેપ"
+  },
+  "hero": {
+    "eyebrow": "અનુક્રમણિકા",
+    "title": "સાઇટમેપ",
+    "lead": "આઇએટીએફસીસી પર દરેક સાર્વજનિક પૃષ્ઠ, એક જ જગ્યાએ."
+  },
+  "sections": [
+    {
+      "title": "મુખ્ય પાના",
+      "items": [
+        {
+          "label": "ઘર",
+          "href": "/"
+        },
+        {
+          "label": "પ્રોજેક્ટ્સ",
+          "href": "/projects/"
+        },
+        {
+          "label": "પ્રોજેક્ટની વિનંતી કરો",
+          "href": "/propose/"
+        },
+        {
+          "label": "શાસન",
+          "href": "/governance/"
+        },
+        {
+          "label": "જોડાઓ",
+          "href": "/join/"
+        },
+        {
+          "label": "સુલભતા",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "પારદર્શિતા",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "પ્રોજેક્ટ્સ",
+  "projectsEmpty": "હજી સુધી કોઈ પ્રોજેક્ટ પ્રકાશિત થયા નથી."
+}
