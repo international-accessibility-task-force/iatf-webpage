@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "जनतेला उपलब्ध करून देणारे प्रकल्प",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "जनतेला उपलब्ध करून देणारे प्रकल्प",
+    "lead": "या रजिस्ट्रीमध्ये आयएटीएफच्या माध्यमातून चालवलेल्या सार्वजनिक प्रकल्पांची यादी आहे. स्वीकृत प्रवेशयोग्यता प्रकल्प, साइट इन्फ्रास्ट्रक्चर आणि संग्रहित नमुने येथे दृश्यमान ठेवले आहेत.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "नोंदणी",
+      "title": "चालू नोंदणी"
+    },
+    "intro": [
+      "मंजूर प्रकल्प प्रकाशित झाल्यानंतर त्यांची यादी येथे दिली आहे."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "एक गरज सादर करा",
+      "title": "एक विशिष्ट प्रवेशयोग्यता गरजा सार्वजनिक प्रकल्पात रुपांतरित करा"
+    },
+    "paragraphs": [
+      "आयएटीएफ उपलब्धतेच्या विशिष्ट गरजांचा आढावा घेते जे उपयुक्त सार्वजनिक मुक्त स्त्रोत कार्यामध्ये रुपांतरित केले जाऊ शकते."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "अद्याप प्रकल्प प्रकाशित झालेले नाहीत",
+    "paragraphs": [
+      "आयएटीएफ आपले पहिले सार्वजनिक प्रकल्प तयार करत आहे.",
+      "आपण अद्याप एक विनंती पाठवू शकता जर आपल्याकडे प्रवेशयोग्यतेची विशिष्ट आवश्यकता असेल."
+    ]
+  }
+}

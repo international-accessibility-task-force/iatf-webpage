@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "साइटमॅप"
+  },
+  "hero": {
+    "eyebrow": "निर्देशांक",
+    "title": "साइटमॅप",
+    "lead": "आय. ए. टी. एफ. सी. सी मधील प्रत्येक सार्वजनिक पान, एकाच ठिकाणी."
+  },
+  "sections": [
+    {
+      "title": "मुख्य पृष्ठे",
+      "items": [
+        {
+          "label": "घर",
+          "href": "/"
+        },
+        {
+          "label": "प्रकल्प",
+          "href": "/projects/"
+        },
+        {
+          "label": "प्रकल्पाची विनंती करा",
+          "href": "/propose/"
+        },
+        {
+          "label": "प्रशासन",
+          "href": "/governance/"
+        },
+        {
+          "label": "सामील व्हा",
+          "href": "/join/"
+        },
+        {
+          "label": "प्रवेशयोग्यता",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "पारदर्शकता",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "प्रकल्प",
+  "projectsEmpty": "अद्याप कोणतेही प्रकल्प प्रकाशित झालेले नाहीत."
+}

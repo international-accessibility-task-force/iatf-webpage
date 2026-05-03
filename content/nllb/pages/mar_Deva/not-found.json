@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "आढळले नाही"
+  },
+  "hero": {
+    "eyebrow": "आढळले नाही",
+    "title": "विनंती केलेली पृष्ठ आढळली नाही",
+    "lead": "सार्वजनिक जागेवर परत जाण्यासाठी खाली दिलेल्या मुख्य मार्गांचा वापर करा.",
+    "support": [],
+    "actions": [
+      {
+        "label": "घर",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "तुम्ही मागितलेला मार्ग अस्तित्वात नाही."
+    ],
+    "items": [
+      {
+        "label": "घर",
+        "href": "/"
+      },
+      {
+        "label": "प्रकल्प",
+        "href": "/projects/"
+      },
+      {
+        "label": "सामील व्हा",
+        "href": "/join/"
+      },
+      {
+        "label": "प्रवेशयोग्यता",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "प्रशासन",
+        "href": "/governance/"
+      },
+      {
+        "label": "पारदर्शकता",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
