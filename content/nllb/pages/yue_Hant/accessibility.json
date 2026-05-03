@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "易用性",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "易用性",
+    "lead": "IATF嘅目標係令呢個網站簡單,易於閱讀,用到鍵盤,兼容輔助科技.",
+    "support": [
+      "對於網頁開放性,IATF使用 [W3C WAI](https://www.w3.org/WAI/) 實際上,輔助科技嘅用戶嘅直接經驗亦都係輔助嘅."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "報告",
+      "title": "報告一個可用性問題"
+    },
+    "paragraphs": [
+      "如果您發現呢個網站有任何障礙,請透過電子郵件通知:",
+      "{{contact.accessibilityEmail}}",
+      "有用嘅報告包括:"
+    ],
+    "items": [
+      "哩個問題發生嘅頁面",
+      "你想做嘅",
+      "你用嘅輔助技術,覽器,或者裝置,如果係相關嘅",
+      "有咩錯誤呢?",
+      "有咩可以幫到佢呢?"
+    ],
+    "footnote": "你唔需要寫正式嘅 bug 報告.一個明確嘅描述就足夠啦."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "處理",
+      "title": "公眾問題處理"
+    },
+    "paragraphs": [
+      "有關可用性問題可以喺相關嘅公共資料庫中總結,以便佢哋可以喺公開情況下解決.個人聯絡資料同埋唔需要嘅私人資料會喺發佈之前被除.",
+      "如果您嘅報告包含私人信息,請在留言中明確指出."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "當前狀態",
+      "title": "已知嘅限制"
+    },
+    "paragraphs": [
+      "哩個網站故意好細,而且大部分都係靜態嘅.有啲語言版本可能唔完整,而翻譯係進行中."
+    ]
+  }
+}

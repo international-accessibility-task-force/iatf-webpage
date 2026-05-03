@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "冇發現"
+  },
+  "hero": {
+    "eyebrow": "冇發現",
+    "title": "查找的页面无法找到",
+    "lead": "用下面嘅主要路線返返去公共空間.",
+    "support": [],
+    "actions": [
+      {
+        "label": "返屋企",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "你要求嘅路線唔存在."
+    ],
+    "items": [
+      {
+        "label": "返屋企",
+        "href": "/"
+      },
+      {
+        "label": "項目",
+        "href": "/projects/"
+      },
+      {
+        "label": "加入",
+        "href": "/join/"
+      },
+      {
+        "label": "易用性",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "治理",
+        "href": "/governance/"
+      },
+      {
+        "label": "透明度",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

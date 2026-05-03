@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF網站",
+    "summary": "哩個系\"國際可用性任務小組\"嘅公共網站.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF 需要一個穩定嘅公共空間 嚟解釋模型,列出計劃,同埋指向參與者 做正確嘅下一步.",
+    "why": "呢個網站係 IATF 公開嘅入口,佢係一個細嘅靜態項目, 所以佢好容易俾人閱讀,翻譯同維護.",
+    "scopeIn": [
+      "解釋 IATF 模型嘅公開登陸頁",
+      "IATF 已被接受,正在運行,並存檔嘅公眾登記簿 包含狀態,維護者,資料庫,以及示範資料",
+      "收到要求嘅頁面同埋表格",
+      "治理同透明度嘅頁面",
+      "英文嘅原始碼,同埋已準備翻譯嘅結構",
+      "喺 Cloudflare 工作者嘅靜態資產上進行靜態部署"
+    ],
+    "scopeOut": [
+      "個人會員區域,帳號,或者登入流程",
+      "專案源代碼嘅托管,每個專案嘅資料庫都有",
+      "可以喺 Discord 實時聊天",
+      "每個專案嘅問題追蹤,喺每個計畫嘅 GitHub 資料庫"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF嘅自拍圖",
+    "summary": "一個早期嘅IATF原型, 喺達到一個自然嘅停止點之後仲存檔.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "喺 IATF 框架下,探索一個以可用性為重點嘅工具.",
+    "why": "資料庫被公佈為工作嘅紀錄, 即使積極嘅開發已經停止.",
+    "scopeIn": [
+      "一個以開放性為重點嘅工具嘅早期原型"
+    ],
+    "scopeOut": [
+      "積極開發或特色工作",
+      "養生承諾",
+      "喺生產過程中應用嘅建議"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF 機器人",
+    "summary": "一個IATF社區嘅機械人, 喺達到一個自然嘅停止點之後存檔.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "喺 IATF 社區頻道嘅自動化",
+    "why": "資料庫被公佈為工作嘅紀錄, 即使積極嘅開發已經停止.",
+    "scopeIn": [
+      "喺 IATF 社區頻道嘅爭執自動化,作為公眾紀錄."
+    ],
+    "scopeOut": [
+      "積極開發或特色工作",
+      "養生承諾",
+      "喺生產過程中應用嘅建議"
+    ]
+  }
+]

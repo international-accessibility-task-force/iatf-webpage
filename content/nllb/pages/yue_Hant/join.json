@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "加入IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "加入IATF",
+    "lead": "加入係開放嘅.有幾種方式可以參加,無論你係依賴輔助科技,開發可用軟件,翻譯,測試,或者維護一個項目.討論同埋決定喺GitHub同埋Discord上公開進行.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "角色",
+      "title": "捐款嘅方式"
+    },
+    "items": [
+      "<strong>要求一個計劃.</strong> 如果你遇到一個開放原始碼軟件可以解決嘅可用性障礙 咁就向申請者傳送哩個問題",
+      "<strong>測試同埋審查.</strong> 用你用嘅輔助科技去試下 IATF 計劃,報告上述嘅有用與冇用嘅嘢,並喺相關資料庫直接存檔問題.",
+      "<strong>翻譯</strong> 文章嘅原始內容會先用普通嘅英文發表, 然後由西班牙文開始,如果有其他譯者可以提供,就會加上翻譯.",
+      "<strong>係可以建構嘅.</strong> 喺任何一個 IATF 資料庫中提取問題, 傳送提取要求, 或者擔任一個項目嘅負責工程師.",
+      "<strong>維持住</strong> 既有嘅項目有時需要一個新嘅維護人員.維護員嘅輪流係模型嘅正常部分,而唔係例外."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "道",
+      "title": "喺公共場所開展 IATF 嘅工作"
+    },
+    "items": [
+      "<strong>喺 GitHub 度.</strong> 查詢問題,提取要求,發佈,同埋計劃紀錄.",
+      "<strong>唔一致.</strong> 實時嘅討論,协调 同埋非正式嘅問答",
+      "<strong>電子郵件</strong> 用途 <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> 如果GitHub或者Discord都冇"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "下一步",
+      "title": "選擇與你想要貢獻相匹配的頻道"
+    },
+    "paragraphs": [
+      "所有道都用同一條公共評估同公共資料庫"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

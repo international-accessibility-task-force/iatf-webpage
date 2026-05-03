@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "網站地圖"
+  },
+  "hero": {
+    "eyebrow": "指數",
+    "title": "網站地圖",
+    "lead": "ITFCC 上嘅每一頁,都喺一個地方."
+  },
+  "sections": [
+    {
+      "title": "主頁",
+      "items": [
+        {
+          "label": "返屋企",
+          "href": "/"
+        },
+        {
+          "label": "項目",
+          "href": "/projects/"
+        },
+        {
+          "label": "要求一個項目",
+          "href": "/propose/"
+        },
+        {
+          "label": "治理",
+          "href": "/governance/"
+        },
+        {
+          "label": "加入",
+          "href": "/join/"
+        },
+        {
+          "label": "易用性",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "透明度",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "項目",
+  "projectsEmpty": "到目前為止仲未公佈任何計劃."
+}

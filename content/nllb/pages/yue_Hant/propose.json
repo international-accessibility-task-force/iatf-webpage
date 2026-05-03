@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "申請可用性專案",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "申請可用性專案",
+    "lead": "IATF 會審查所有從真正需要開始嘅 可用性計畫",
+    "support": [
+      "你唔需要一個完整嘅說明.一個清晰嘅問題,一個明確嘅影響者,"
+    ],
+    "actions": [
+      {
+        "label": "開始請求",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "用Discord代替",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "道",
+      "title": "選擇最簡單嘅路線"
+    },
+    "intro": [
+      "所有嘅線路都係同一條路線."
+    ],
+    "items": [
+      {
+        "label": "網站",
+        "body": "用下面嘅表格提交一個有結構嘅要求."
+      },
+      {
+        "label": "電子郵件",
+        "body": "直接將要求寄到 {{contact.requestsEmail}}電子郵件嘅請求可能係經過審查同編輯之後 變成公開嘅請求紀錄."
+      },
+      {
+        "label": "矛盾",
+        "body": "請由嗰度開始 如果冇問題,請繼續閱讀"
+      }
+    ]
+  },
+  "guidance": {
+    "title": "喺你發出要求之前,",
+    "paragraphs": [
+      "IATF嘅工作係公開嘅.要求可以喺IATF GitHub組織,喺呢個網站,或者兩者都有公開要求記錄咁總結同埋發佈.",
+      "唔要包括私人地址,電話號碼,醫療細節,或者有關輔助科技嘅個人使用者嘅識別信息,除非呢啲信息係必要嘅,而且你唔需要 IATF 審查呢啲信息.",
+      "IATF 會喺發佈要求記錄之前 移除唔必要嘅個人聯絡資料."
+    ]
+  },
+  "review": {
+    "title": "評估預期",
+    "paragraphs": [
+      "提交一個要求並唔會保證會被接受.",
+      "IATF 會審視要求是否符合任務,可行性,有用性,以及作品是否屬於公共資料庫.",
+      "一啲要求可能會被拒絕,推遲,或者在被接受之前重新編輯."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "申請表格",
+      "title": "提交一個要求"
+    },
+    "fields": [
+      {
+        "kind": "輸入",
+        "name": "申請人",
+        "label": "你嘅姓名或者組織",
+        "helper": "邊個提出要求?"
+      },
+      {
+        "kind": "選擇",
+        "name": "聯繫路線",
+        "label": "最好嘅聯繫路線",
+        "helper": "我哋應該點樣繼續跟進呢?",
+        "required": true,
+        "options": [
+          "電子郵件",
+          "矛盾"
+        ]
+      },
+      {
+        "kind": "輸入",
+        "name": "聯絡方式",
+        "label": "聯絡方式",
+        "helper": "電子郵件地址或者Discord 用戶名",
+        "placeholder": "電子郵件地址或 Discord 用戶名",
+        "required": true
+      },
+      {
+        "kind": "輸入",
+        "name": "語言",
+        "label": "語言",
+        "helper": "如果有問題,請選擇你鍾意嘅語言.",
+        "value": "英文"
+      },
+      {
+        "kind": "文字區域",
+        "name": "問題",
+        "label": "你想解決咩問題?",
+        "helper": "用簡單嘅語言描述下個障礙.",
+        "required": true
+      },
+      {
+        "kind": "文字區域",
+        "name": "受影響嘅用戶",
+        "label": "究竟係邊個受影響呢?",
+        "helper": "呢個可以幫到邊個?",
+        "required": true
+      },
+      {
+        "kind": "文字區域",
+        "name": "extraContext",
+        "label": "另外嘅背景",
+        "helper": "分享其他任何有助於解釋需求嘅嘢: 點解佢咁重要,例子,參考資料, 一啲粗略嘅軟件主意,或者時間限制."
+      },
+      {
+        "kind": "選擇",
+        "name": "openSourceConsent",
+        "label": "你對於公開開源嘅開發感到舒服嗎?",
+        "helper": "受理嘅項目係 IATF 嘅公開資料庫",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "係",
+          "唔係",
+          "我仲未確定"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "如果接受",
+      "title": "接受意味著"
+    },
+    "items": [
+      "係IATF GitHub組織嘅公開資料庫",
+      "一個負責工程師同個項目合作",
+      "對於代碼同埋項目資料嘅 copyleft 授權",
+      "資料庫嘅公開開發",
+      "喺 IATF 網站上註冊"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "開始對話",
+      "title": "簡單而明顯嘅要求就足夠"
+    },
+    "paragraphs": [
+      "如果你覺得有實質性嘅可用性需求 而且你覺得應唔應該成為一個公開項目, 請將佢寄俾我哋."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

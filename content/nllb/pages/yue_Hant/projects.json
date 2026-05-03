@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "公共可用性項目",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "公共可用性項目",
+    "lead": "呢份登記簿列出通過IATF維護嘅公共項目.受理嘅可用性項目,網站基礎設施,同埋存檔嘅原型都喺呢度顯示.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "登記簿",
+      "title": "目前嘅登記簿"
+    },
+    "intro": [
+      "通過嘅項目一旦公佈 就會喺呢度列出"
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "提出一個需要",
+      "title": "實際上,要將需要嘅可用性 轉化成一個公共項目"
+    },
+    "paragraphs": [
+      "IATF 會評估可用公共資源開源作品嘅實際可用性需求."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "目前還未公佈任何項目",
+    "paragraphs": [
+      "IATF 正準備發表佢嘅第一份公開項目.",
+      "如果你有實際需要 可以向佢哋提出要求"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "從開放性需求到公眾回收",
+    "lead": "IATF幫助協會,團體,同埋個人 將真正嘅可用性需求 轉化成公開嘅開源項目.",
+    "support": [
+      "接受嘅項目會喺 IATF GitHub 組織裏面喺 copyleft 授權下發佈,同埋由負責嘅工程師公開開發."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "公共營運模式",
+      "title": "對於可用軟體而言,一個簡單的公共路徑"
+    },
+    "paragraphs": [
+      "通過一個表格,任何人都可以向IATF提交一個可用性問題.如果團隊可以承擔,一個公開的GitHub資料庫會為工作開啟.",
+      "每一個受理嘅項目都有明顯嘅公共空間 嚟處理代碼,問題,文件同發行,開發工作由負責嘅工程師喺公開空間裏面進行."
+    ],
+    "specCard": {
+      "title": "公共營運模式",
+      "terms": [
+        {
+          "term": "需要",
+          "definition": "真正嘅可用性問題"
+        },
+        {
+          "term": "審核",
+          "definition": "任務適當性同實際可行性"
+        },
+        {
+          "term": "項目空間",
+          "definition": "公開嘅 GitHub 資料庫"
+        },
+        {
+          "term": "管理",
+          "definition": "IATF 組織所有權"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "流程",
+      "title": "佢係點樣運作嘅呢?",
+      "intro": "模型嘅尺寸係細嘅 咁樣大家都可以好輕鬆咁行過佢"
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "提出一個需要",
+        "paragraphs": [
+          "任何一個組織,團體,或者個人 都可以根據真實需要提出申請",
+          "可以喺網頁,電子郵件, <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>或者係透過 Discord"
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF 會審核",
+        "paragraphs": [
+          "我哋會審視任務嘅適當性, 實際範圍 同埋作品是否屬於公眾開源計劃"
+        ]
+      },
+      {
+        "index": "03",
+        "title": "建立一個公開資料庫",
+        "paragraphs": [
+          "如果一個項目被接受,佢就會喺 IATF GitHub 組織嘅 copyleft 授權下發佈.",
+          "資料庫將會成為代碼,問題,文檔同埋發行嘅公共空間."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "一個負責嘅工程師會負責呢個項目",
+        "paragraphs": [
+          "負責嘅工程師會負責呢個計劃嘅資料庫 而且開發過程喺公開"
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "登記簿",
+      "title": "公共項目注冊表"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "由呢度開始",
+      "title": "查看當前嘅工作或者開展一個特定嘅項目"
+    },
+    "paragraphs": [
+      "使用註冊表去查看已經公開嘅內容,或者如果要解決一個特定嘅可用性問題,"
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
