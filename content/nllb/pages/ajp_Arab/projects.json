@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "مشاريع إمكانية الوصول للجمهور",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "مشاريع إمكانية الوصول للجمهور",
+    "lead": "هاد التسجيل بيحتوي على مشاريع عامة يتم الاحتفاظ بها من خلال IATF. مشاريع الوصول المقبولة، بنية تحتية للموقع، والنموذج الأولي المحفوظ يبقى مرئي هنا.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "السجل",
+      "title": "السجل الحالي"
+    },
+    "intro": [
+      "المشاريع المقبولة موجودة هنا بمجرد نشرها."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ارسل حاجة",
+      "title": "حول حاجة ملموسة في إمكانية الوصول لمشروع عام"
+    },
+    "paragraphs": [
+      "IATF بيعيد النظر في احتياجات الوصول الملموسة التي يمكن تحويلها لعمل مفتوح المصدر العام مفيد."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ما في مشاريع منشورة لسه",
+    "paragraphs": [
+      "IATF بتجهز أول مجموعة مشاريع عامة.",
+      "ما زلت بتقدر ترسل طلب اذا كان عندك حاجة ملموسة لسهولة الوصول."
+    ]
+  }
+}
