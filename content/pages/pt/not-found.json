@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Não foi encontrado"
+  },
+  "hero": {
+    "eyebrow": "Não foi encontrado",
+    "title": "A página solicitada não foi encontrada",
+    "lead": "Use as principais rotas abaixo para voltar ao local público.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Para casa .",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "A rota que pediu não existe."
+    ],
+    "items": [
+      {
+        "label": "Para casa .",
+        "href": "/"
+      },
+      {
+        "label": "Projetos",
+        "href": "/projects/"
+      },
+      {
+        "label": "Junte-se",
+        "href": "/join/"
+      },
+      {
+        "label": "Acessibilidade",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Governança",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparência",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Acessibilidade",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Acessibilidade",
+    "lead": "O objetivo da IATF é manter este site simples, legível, acessível por teclado e compatível com tecnologias de assistência.",
+    "support": [
+      "Para a acessibilidade da Web, a IATF utiliza [W3C WAI](https://www.w3.org/WAI/) A acessibilidade prática é também informada pela experiência directa dos utilizadores de tecnologias de assistência."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Relatórios",
+      "title": "Relatar um problema de acessibilidade"
+    },
+    "paragraphs": [
+      "Se você encontrar uma barreira de acessibilidade neste site, por favor, informe por e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Os relatórios úteis incluem:"
+    ],
+    "items": [
+      "a página onde o problema ocorreu",
+      "O que estavas a tentar fazer .",
+      "qual tecnologia de assistência, navegador ou dispositivo você estava usando, se relevante",
+      "O que correu mal?",
+      "o que teria ajudado"
+    ],
+    "footnote": "Você não precisa escrever um relatório formal de bug. Uma descrição clara é suficiente."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Manipulação",
+      "title": "Gestão de questões públicas"
+    },
+    "paragraphs": [
+      "Os problemas de acessibilidade podem ser resumidos no repositório público relevante para que possam ser corrigidos em aberto.",
+      "Se o seu relatório inclui informações privadas, diga-o claramente na mensagem."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Estado actual",
+      "title": "Limitações conhecidas"
+    },
+    "paragraphs": [
+      "Este site é intencionalmente pequeno e em sua maioria estático. Algumas versões linguísticas podem estar incompletas enquanto as traduções estão sendo preparadas."
+    ]
+  }
+}
