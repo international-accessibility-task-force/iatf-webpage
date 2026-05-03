@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Upatikanaji",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Upatikanaji",
+    "lead": "IATF inakusudia kuweka tovuti hii rahisi, kusoma, keyboard-inapatikana, na sambamba na teknolojia ya kusaidia.",
+    "support": [
+      "Kwa ajili ya upatikanaji wa mtandao, IATF inatumia [W3C WAI](https://www.w3.org/WAI/) Upatikanaji wa vitendo pia hufundishwa na uzoefu wa moja kwa moja wa watumiaji wa teknolojia za usaidizi."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Ripoti",
+      "title": "Ripoti suala la upatikanaji"
+    },
+    "paragraphs": [
+      "Kama wewe kupata kizuizi upatikanaji kwenye tovuti hii, tafadhali ripoti kwa barua pepe:",
+      "{{contact.accessibilityEmail}}",
+      "Ripoti zifuatazo ni muhimu:"
+    ],
+    "items": [
+      "ukurasa ambapo suala lilitokea",
+      "kile ulichokuwa unajaribu kufanya",
+      "ni teknolojia gani ya kusaidia, kivinjari, au kifaa gani ulichokuwa ukitumia, ikiwa ni muhimu",
+      "ni nini kilichokosa",
+      "ni nini kingesaidia"
+    ],
+    "footnote": "Huna haja ya kuandika ripoti rasmi mdudu. Maelezo ya wazi ni ya kutosha."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kushughulikia",
+      "title": "Kushughulikia masuala ya umma"
+    },
+    "paragraphs": [
+      "Masuala ya upatikanaji inaweza kuwa muhtasari katika hifadhidata husika ya umma ili waweze kurekebishwa wazi. Maelezo ya kibinafsi ya mawasiliano na habari za kibinafsi zisizohitajika zinaondolewa kabla ya kuchapishwa.",
+      "Ikiwa ripoti yako inatia ndani habari za kibinafsi, sema hivyo waziwazi katika ujumbe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Hali ya sasa",
+      "title": "Mipaka inayojulikana"
+    },
+    "paragraphs": [
+      "Tovuti hii ni makusudi ndogo na zaidi static. Baadhi ya matoleo ya lugha inaweza kuwa haijakamilika wakati tafsiri ni kuwa tayari."
+    ]
+  }
+}

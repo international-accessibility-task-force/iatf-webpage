@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Utawala na kumbukumbu mfano",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Utawala na kumbukumbu mfano",
+    "lead": "IATF inaweka miradi ya upatikanaji wa umma, inayoweza kusomwa, na inayoweza kudumishwa.",
+    "support": [
+      "Ukurasa huu unaelezea kile kinachostahiki, jinsi hazina zinahifadhiwa, na ni jukumu gani la kiwango cha hazina linatumika baada ya kukubalika."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Kanuni",
+      "title": "Mission fit, umiliki, leseni"
+    },
+    "cards": [
+      {
+        "title": "Ujumbe fit",
+        "paragraphs": [
+          "IATF inakubali kazi ambayo inashughulikia kizuizi halisi cha upatikanaji na ina thamani wazi ya umma.",
+          "Mradi unapaswa kuwa na manufaa zaidi ya moja binafsi mtiririko wa kazi na workable kama hazina ya umma.",
+          "Kwa ajili ya upatikanaji wa mtandao, IATF inatumia [W3C WAI](https://www.w3.org/WAI/) Uzoefu wa moja kwa moja wa watumiaji wa teknolojia ya kusaidia pia ni ushahidi wa vitendo wa kile kinachofanya kazi katika matumizi halisi."
+        ]
+      },
+      {
+        "title": "Kukubali mradi",
+        "paragraphs": [
+          "Pendekezo linaweza kukubaliwa wakati ukaguzi unaonyesha kuwa:"
+        ],
+        "items": [
+          "inashughulikia mahitaji halisi ya upatikanaji",
+          "tatizo ni wazi kutosha kutathmini",
+          "wigo ni kweli kutosha kwa ajili ya uzinduzi",
+          "kazi inalingana na ujumbe wa IATF",
+          "kuna njia ya kuaminika ya matengenezo au kukamilisha"
+        ]
+      },
+      {
+        "title": "Repository umiliki",
+        "paragraphs": [
+          "Miradi iliyokubaliwa imeundwa chini ya shirika la IATF GitHub.",
+          "Repositories kukaa huko hivyo kila mradi anaendelea imara nyumba ya umma, hata kama maintainers baadaye mabadiliko."
+        ]
+      },
+      {
+        "title": "Utoaji leseni",
+        "paragraphs": [
+          "Miradi IATF kutumia copyleft leseni isipokuwa mradi inasema vinginevyo:"
+        ],
+        "items": [
+          "<strong>Nambari:</strong> AGPL-3.0",
+          "<strong>Nyaraka:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Mhandisi wajibu au mtendaji wa matengenezo",
+      "paragraphs": [
+        "Kila mradi kukubalika lazima jina la mhandisi wajibu au maintainer. mtu huyo anaweza kupokea admin upatikanaji wa kumbukumbu na ni inatarajiwa:"
+      ],
+      "items": [
+        "maendeleo ya mwongozo katika umma",
+        "kudumisha muundo wa kumbukumbu",
+        "kupitia au kusimamia masuala na kuvuta maombi",
+        "hati muhimu maamuzi ya kiufundi",
+        "fanya mradi huo ueleweke kwa wengine"
+      ],
+      "footnote": "Hii ni repository ngazi ya wajibu. umiliki wa shirika anakaa na IATF. wajibu hapa ni hazina usimamizi, mwelekeo wa kiufundi, na uratibu umma  si unlimited utoaji binafsi, ushirikiano desturi, au huduma ya kiwango cha ahadi nje ya ramani ya barabara ya umma."
+    },
+    "publicDevelopment": {
+      "title": "Maendeleo ya umma",
+      "paragraphs": [
+        "Miradi ilizinduliwa kupitia IATF ni maendeleo katika umma kwa default. hazina ni chanzo cha umma cha ukweli kwa ajili ya:"
+      ],
+      "items": [
+        "chanzo code",
+        "masuala",
+        "nyaraka",
+        "maelezo ya ramani ya barabara",
+        "historia ya kutolewa"
+      ],
+      "footnote": "Maarifa muhimu ya mradi haipaswi kuishi tu katika mazungumzo ya kibinafsi au masanduku ya barua."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Rekodi za umma",
+      "title": "Rekodi za ombi la umma"
+    },
+    "paragraphs": [
+      "IATF kazi katika umma kwa chaguo-msingi. Maombi ambayo kuingia IAT F kupitia tovuti, barua pepe, Discord, GitHub, au njia nyingine IAT f inaweza kuwa rekodi ombi umma.",
+      "Rekodi ya ombi la umma sio lazima ujumbe wa asili. IATF inaweza kujumlisha, kuhariri, au kurekebisha ombi kabla ya kuchapishwa ili hitaji la upatikanaji liweze kukaguliwa bila kufichua habari za kibinafsi zisizohitajika.",
+      "Rekodi za ombi za umma zinaweza kuhifadhiwa katika shirika la IATF GitHub, kwenye wavuti hii, au zote mbili.",
+      "Kabla ya kuchapishwa, IATF huondoa maelezo ya mawasiliano ya kibinafsi yasiyo ya lazima, anwani za kibinafsi, na maelezo ya kitambulisho juu ya watumiaji wa kibinafsi wa teknolojia za usaidizi isipokuwa uchapishaji unakusudiwa wazi na inafaa.",
+      "Discord hutumiwa kwa uratibu rasmi. IATF haina tofauti archive Discord mazungumzo kwa default, na ujumbe retention ni kudhibitiwa na Discord. Maamuzi yaliyotolewa katika Discord lazima muhtasari katika rekodi ya umma juu ya GitHub au juu ya ukurasa husika mradi.",
+      "Maombi ya kumbukumbu ni nje ya injini ya utafutaji indexing ambapo kitaalam vitendo. umma ina maana reviewable na kuwajibika. Haina maana optimized kwa ajili ya ugunduzi kwa njia ya jina search.",
+      "IATF inaweza kusasisha au kuondoa rekodi kutoka kwa nyuso za umma zinazodhibitiwa na iATF, lakini haiwezi kuhakikisha kuondolewa kutoka kwa kumbukumbu za mtu wa tatu, arifa, uma, picha za skrini, injini za utaftaji, Machafuko, au mifumo mingine ya nje.",
+      "Kama ujumbe inahitaji kubaki binafsi, si kutuma kwa njia ya IATF umma njia."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Jukumu la shirika",
+      "title": "Mwenyekiti"
+    },
+    "lead": "Mwenyekiti ana usimamizi wa kiwango cha shirika la IATF. Hii ni tofauti na jukumu la mhandisi anayehusika na mradi: mwenyekiti anawajibika kwa shirika kwa ujumla, sio kwa uongozi wa kila siku wa hazina yoyote.",
+    "duties": {
+      "title": "Kazi ya kiti hicho",
+      "items": [
+        "Inashikilia ruhusa ya mmiliki kwenye shirika la IATF GitHub",
+        "Saini juu ya kukubalika kwa mradi na maamuzi ya kumbukumbu",
+        "Hufanya kazi kama hatua ya umma ya kuwasiliana kwa ajili ya IATF",
+        "Kuratibu uchaguzi wa kila mwaka"
+      ],
+      "footnote": "Mwenyekiti haitoi IATF kwa utoaji wa kibinafsi, kazi ya kulipwa, au makubaliano ya kiwango cha huduma, na haibadilishi maamuzi ya kila mtunza kumbukumbu juu ya mwelekeo wa kiufundi."
+    },
+    "election": {
+      "title": "Uchaguzi wa kila mwaka",
+      "paragraphs": [
+        "Mwenyekiti huchaguliwa mara moja kwa mwaka. Uchaguzi unaendelea katika wiki mbili za kwanza za Desemba, matokeo yanatangazwa kufikia Desemba 15, na muhula mpya huanza Januari 1.",
+        "Wagombea wanaostahiki ni watu ambao walikuwa na jukumu la kudumisha kwenye hazina yoyote ya IATF wakati wa mwaka na walifanya angalau mchango mmoja wa kuunganishwa kwa hazina ya IATAF katika mwaka huo. Kila mgombea anayestahili ana kura moja. Mgombea aliye na kura nyingi anashinda; ikiwa kuna sare, raundi ya pili hufanyika katika wiki ya tatu ya Desemba.",
+        "Uchaguzi unaendeshwa kama Majadiliano ya GitHub ya umma katika hazina ya utawala wa IATF iliyochaguliwa, kwa hivyo wagombea, kura, na matokeo yote ni sehemu ya rekodi ya umma."
+      ]
+    },
+    "continuity": {
+      "title": "Kuendelea",
+      "paragraphs": [
+        "Kama hakuna uchaguzi uliofanyika katika mwaka fulani, mwenyekiti wa sasa anaendelea katika jukumu mpaka uchaguzi ujao. Hii ni mwendelezo usio na mwisho, si kipindi cha msamaha  mtindo ni iliyoundwa na kuweka shirika imara wakati shughuli ni ya chini, si kwa kulazimisha mpito kwamba hakuna mtu ni tayari kwa.",
+        "Mwenyekiti anaweza kujiuzulu wakati wowote. Watunzaji wa kazi wanaweza pia kutangaza uchaguzi wa ziada na sababu iliyoelezwa, inayoendeshwa chini ya sheria sawa na uchaguzi wa kila mwaka."
+      ]
+    },
+    "current": {
+      "title": "Mwenyekiti wa sasa",
+      "fields": [
+        {
+          "label": "Mwenyekiti",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Muda",
+          "value": "Hadi uchaguzi wa Desemba 2026"
+        },
+        {
+          "label": "Jukumu rasmi",
+          "value": "2026"
+        },
+        {
+          "label": "Uchaguzi wa kwanza uliopangwa",
+          "value": "Desemba 2026"
+        }
+      ]
+    },
+    "footnote": "Jukumu la mwenyekiti lilifanywa rasmi mnamo 2026 ili kufanya usimamizi wa kiwango cha shirika kuwa wazi. Hadi wakati huo, uwajibikaji wa shirika ulifanyika kwa njia isiyo rasmi na mwanzilishi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Masharti ya mradi",
+      "paragraphs": [
+        "Miradi kutumia seti ndogo ya mataifa ya umma:"
+      ],
+      "items": [
+        "Pendekezo",
+        "Imekubaliwa",
+        "Inayofanya kazi",
+        "Imara",
+        "Kutafuta mtunzaji",
+        "Imehifadhiwa"
+      ],
+      "footnote": "Majimbo haya hufanya usajili uwe rahisi kuchanganua."
+    },
+    "reassignment": {
+      "title": "Reassignment na uhifadhi wa kumbukumbu",
+      "paragraphs": [
+        "Kama mtunza hatua mbali au inakuwa hai, IATF inaweza kugawa upya wajibu, kusimamisha maendeleo, au archive mradi.",
+        "Mradi unaweza pia kuhifadhiwa wakati mahitaji ya awali yametimizwa, matengenezo yameacha, au kazi inayoendelea haiwezekani tena."
+      ],
+      "footnote": "Miradi iliyohifadhiwa hubaki kuonekana kwa umma isipokuwa kuna sababu ya kulazimisha kufanya vinginevyo."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Maelezo ya mpaka",
+      "title": "Nini IATF haina dhamana"
+    },
+    "items": [
+      "utoaji wa mteja binafsi",
+      "mikataba ya kiwango cha huduma",
+      "kukubali kila pendekezo",
+      "matengenezo ya muda mrefu kwa kila mradi"
+    ],
+    "footnote": "IATF ni repository umma mfano, si huduma ya utoaji binafsi."
+  }
+}

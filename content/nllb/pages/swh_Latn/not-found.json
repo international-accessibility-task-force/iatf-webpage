@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Haijapatikana"
+  },
+  "hero": {
+    "eyebrow": "Haijapatikana",
+    "title": "Ukurasa uliotakiwa haukupatikana",
+    "lead": "Tumia njia kuu zilizo chini ili kurudi kwenye eneo la umma.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Nyumbani",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Njia uliyoomba haipo."
+    ],
+    "items": [
+      {
+        "label": "Nyumbani",
+        "href": "/"
+      },
+      {
+        "label": "Miradi",
+        "href": "/projects/"
+      },
+      {
+        "label": "Jiunge",
+        "href": "/join/"
+      },
+      {
+        "label": "Upatikanaji",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Utawala",
+        "href": "/governance/"
+      },
+      {
+        "label": "Uwazi",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

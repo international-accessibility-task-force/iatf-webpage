@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Tovuti ya IATF",
+    "summary": "Tovuti ya umma ya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ilihitaji nyumba ya umma imara ambayo inaelezea mfano, orodha ya miradi, na inaelekeza wachangiaji kwa hatua inayofuata sahihi.",
+    "why": "Tovuti ni mlango wa mbele wa umma wa IATF. Imejengwa kama mradi mdogo wa tuli ili iwe rahisi kusoma, kutafsiri, na kudumisha wazi.",
+    "scopeIn": [
+      "Kurasa za kutua za umma zinazoelezea mtindo wa IATF",
+      "Usajili wa umma wa miradi ya IATF iliyokubaliwa, inayofanya kazi, na iliyohifadhiwa na hali, mtunzaji, hazina, na onyesho",
+      "Ukurasa wa mapokezi ya ombi na fomu",
+      "Utawala na uwazi kurasa",
+      "Kiingereza chanzo na muundo tayari kwa ajili ya tafsiri",
+      "Static kupelekwa kwenye Cloudflare Wafanyakazi Static Mali"
+    ],
+    "scopeOut": [
+      "maeneo ya mwanachama binafsi, akaunti, au mtiririko wa kuingia",
+      "Hosting ya mradi chanzo code, ambayo anaishi katika kila mradi wa hazina yake mwenyewe",
+      "Real-time chat, ambayo anaishi katika Discord",
+      "Tatizo kufuatilia kwa ajili ya miradi ya mtu binafsi, ambayo anaishi katika kila mradi GitHub hazina"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "A mapema IATF prototype, kumbukumbu baada ya kufikia hatua ya asili ya kuacha.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Utafiti wa mapema wa zana inayoelekezwa kwa upatikanaji chini ya mwavuli wa IATF.",
+    "why": "Hifadhi huhifadhiwa kwa umma kama rekodi ya kazi, hata ingawa maendeleo ya kazi yamesimama.",
+    "scopeIn": [
+      "Kiolezo cha awali cha chombo cha upatikanaji-umezingatia uliohifadhiwa kama rekodi ya umma"
+    ],
+    "scopeOut": [
+      "Active maendeleo au kipengele kazi",
+      "Majukumu ya matengenezo",
+      "Matumizi yaliyopendekezwa katika uzalishaji"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Bot ya jamii ya IATF, iliyohifadhiwa baada ya kufikia hatua ya kuacha asili.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation kuzunguka IATF jamii njia.",
+    "why": "Hifadhi huhifadhiwa kwa umma kama rekodi ya kazi, hata ingawa maendeleo ya kazi yamesimama.",
+    "scopeIn": [
+      "Utata automatisering karibu IATF jamii njia, uliofanyika kama rekodi ya umma"
+    ],
+    "scopeOut": [
+      "Active maendeleo au kipengele kazi",
+      "Majukumu ya matengenezo",
+      "Matumizi yaliyopendekezwa katika uzalishaji"
+    ]
+  }
+]

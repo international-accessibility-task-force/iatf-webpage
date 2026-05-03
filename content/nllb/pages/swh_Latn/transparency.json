@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Uwazi",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Uwazi",
+    "lead": "IATF kazi katika umma kwa default. maamuzi ya mradi, mabadiliko code, mabadiliko ya utawala, na gharama za uendeshaji ni kumbukumbu katika maeneo ya umma. ukurasa huu orodha ambapo kila aina ya rekodi anaishi na jinsi ya kusoma.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Rekodi",
+      "title": "Mahali ambapo rekodi zinahifadhiwa"
+    },
+    "items": [
+      "<strong>Maamuzi ya mradi.</strong> Kupokea, archive, na ugawaji upya maamuzi ni kumbukumbu kama masuala au releases katika hazina husika, na muhtasari katika usajili wa umma. View umma <a href=\"/projects/\">orodha</a>Je , ni kweli ?",
+      "<strong>Omba rekodi.</strong> Rekodi za ombi za umma zimehifadhiwa katika shirika la IATF GitHub, kwenye wavuti hii, au zote mbili. Rekodi zinaweza kujumlisha, kuhariri, au kurekebisha ombi la asili ili hitaji la upatikanaji liweze kukaguliwa bila kufichua habari za kibinafsi zisizohitajika. Maamuzi ya kutokubaliana yanajumlishwa katika rekodi ya umma wakati yanaathiri mradi au uamuzi wa utawala. Kumbukumbu za maombi hazijatengwa kutoka kwa faharisi ya injini ya utaftaji ambapo ni vitendo kiufundi. Tazama rekodi: ombi kwanza la kuchapishwa linasubiri.",
+      "<strong>Nambari hubadilika.</strong> Kila mabadiliko ya kificho ni kujitolea umma juu ya hazina husika. View IATF <a href=\"{{contact.githubOrgUrl}}\">Shirika la GitHub</a>Je , ni kweli ?",
+      "<strong>Mabadiliko ya utawala.</strong> Updates kwa utawala ukurasa ni kufuatiliwa kama ahadi kwa <code>Tovuti ya IATF</code> Repository. Tazama <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">kufanya historia</a> kwenye GitHub.",
+      "<strong>Gharama za uendeshaji.</strong> IATF huweka gharama za uendeshaji chini na rekodi za gharama za miundombinu ya umma inayorudiwa. Tangu 2022, gharama kuu za mara kwa mara zimekuwa majina ya kikoa. Kukaribisha kumetumia miundobinu ya kiwango cha bure au cha gharama nafuu inapowezekana. Tazama rekodi ya gharama za utendaji hapa chini.",
+      "<strong>Maelezo ya uratibu.</strong> Vidokezo kutoka kwa mapitio yoyote au uamuzi ulioratibiwa kuishi katika GitHub Majadiliano juu ya hazina husika  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Mazungumzo</a> juu ya <code>Tovuti ya IATF</code> kumbukumbu."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Gharama",
+      "title": "Rekodi ya gharama za uendeshaji"
+    },
+    "paragraphs": [
+      "IATF huweka miundombinu yake ya umma kwa makusudi madogo. Tangu 2022, gharama kuu za kawaida za uendeshaji zimekuwa majina ya kikoa. Kukaribisha kumetumia miundobinu ya kiwango cha bure au gharama ya chini inapowezekana.",
+      "Rekodi hii sio taarifa ya kifedha iliyochunguzwa. Ni rekodi ya gharama ya uendeshaji ya umma kwa miundombinu inayotumiwa kuweka IATF mkondoni."
+    ],
+    "footnote": "risiti inaweza kutajwa au kuchapishwa baada ya redaction. anwani binafsi, maelezo ya bili, na taarifa ya akaunti ya lazima si sehemu ya rekodi ya umma.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Eneo",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Gharama",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Maelezo",
+            "value": "Gharama ya uwanja unaofadhiliwa na mugiwarafx. Hosting kutumika bure-tier au gharama nafuu miundombinu kupitia Cloudflare. Mradi wakiongozwa kutoka Vercel kwa CloudFlare na kuanza kutumia mfupi <code>iatf.cc</code> uwanja."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Eneo",
+            "value": "<code>kimataifa ya upatikanaji taskforce.com</code>"
+          },
+          {
+            "label": "Gharama",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Maelezo",
+            "value": "Domain gharama unaofadhiliwa na mugiwarafx. Hosting kutumika bure-tier au gharama nafuu miundombinu."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Eneo",
+            "value": "<code>kimataifa ya upatikanaji taskforce.com</code>"
+          },
+          {
+            "label": "Gharama",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Maelezo",
+            "value": "Domain gharama unafadhiliwa na mugiwarafx. Hosting kutumika bure-tier au gharama nafuu miundombinu kupitia Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Eneo",
+            "value": "<code>kimataifa ya upatikanaji taskforce.com</code>"
+          },
+          {
+            "label": "Gharama",
+            "value": "USD 14.76"
+          },
+          {
+            "label": "Maelezo",
+            "value": "Domain gharama unaofadhiliwa na mugiwarafx. Hosting kutumika bure-tier au gharama nafuu miundombinu."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Eneo",
+            "value": "<code>kimataifa ya upatikanaji taskforce.com</code>"
+          },
+          {
+            "label": "Gharama",
+            "value": "USD 7.76"
+          },
+          {
+            "label": "Maelezo",
+            "value": "Domain gharama unaofadhiliwa na mugiwarafx. Hosting kutumika bure-tier au gharama nafuu miundombinu kupitia GitHub Kurasa."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Maelezo ya mpaka",
+      "title": "Nini si ya umma"
+    },
+    "paragraphs": [
+      "Baadhi ya habari huhifadhiwa nje ya rekodi za umma kwa makusudi:"
+    ],
+    "items": [
+      "Maelezo ya kibinafsi ya mawasiliano ya waombaji.",
+      "Barua-pepe ya kibinafsi inayotumiwa tu kufafanua ombi kabla ya kukubaliwa, kukataliwa, au kufupishwa.",
+      "Anwani za kibinafsi, namba za simu, na habari za kibinafsi zisizo za lazima.",
+      "Kitu chochote ambacho kitatambua mtumiaji binafsi wa teknolojia ya kusaidia bila idhini.",
+      "Mazungumzo ya Raw Discord, isipokuwa ujumbe maalum umehamishwa kwa makusudi kwenye rekodi ya mradi wa umma."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Soma zaidi",
+      "title": "Utawala ni kitabu cha sheria nyuma ya rekodi hizi"
+    },
+    "paragraphs": [
+      "Ikiwa unataka kuelewa jinsi miradi inakubaliwa, kuhifadhiwa, au kupewa tena, soma ukurasa wa utawala."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kujiunga IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kujiunga IATF",
+    "lead": "Uanachama ni wazi. Kuna njia kadhaa za kushiriki, ikiwa unategemea teknolojia ya kusaidia, kujenga programu inayopatikana, kutafsiri, kujaribu, au kudumisha mradi. Majadiliano na maamuzi hufanyika kwa umma kwenye GitHub na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Majukumu",
+      "title": "Njia za kuchangia"
+    },
+    "items": [
+      "<strong>Omba mradi.</strong> Kama wewe kukutana na kizuizi upatikanaji ambayo inaweza kushughulikiwa na umma wazi chanzo programu, kutuma kwa njia ya maombi mapokezi.",
+      "<strong>Jaribu na uhakiki.</strong> Jaribu IATF miradi na teknolojia ya misaada ya kutumia, ripoti nini kazi na nini haina, na faili masuala moja kwa moja kwenye hazina husika.",
+      "<strong>Tafsiri.</strong> Maudhui ya chanzo huchapishwa kwa Kiingereza cha kawaida kwanza. Tafsiri zinaongezwa kama wachangiaji wanapatikana, kuanzia na Kihispania.",
+      "<strong>Kujenga.</strong> Pick up masuala katika yoyote IATF hazina, kutuma kuvuta maombi, au kuchukua juu ya mradi kama mhandisi wake wajibu.",
+      "<strong>Kudumisha.</strong> Miradi iliyopo wakati mwingine inahitaji mtendaji mpya wa matengenezo. mzunguko wa mtunzaji ni sehemu ya kawaida ya mfano, sio ubaguzi."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Vituo",
+      "title": "Ambapo IATF kazi katika umma"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Masuala, kuvuta maombi, releases, na rekodi ya mradi.",
+      "<strong>Kutoelewana.</strong> Mazungumzo ya moja kwa moja, uratibu, na maswali yasiyo rasmi.",
+      "<strong>Barua pepe.</strong> Matumizi <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> kama wala GitHub wala Discord inafaa."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hatua inayofuata",
+      "title": "Kuchagua channel kwamba mechi jinsi unataka kuchangia"
+    },
+    "paragraphs": [
+      "Njia zote kulisha katika mapitio sawa ya umma na hifadhidata sawa za umma."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

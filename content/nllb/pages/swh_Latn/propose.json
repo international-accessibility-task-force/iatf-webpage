@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Omba mradi wa upatikanaji",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Omba mradi wa upatikanaji",
+    "lead": "IATF inachunguza maombi ya miradi ya upatikanaji ambayo huanza kutoka kwa hitaji halisi.",
+    "support": [
+      "Huna haja ya maelezo kamili. tatizo wazi, ambaye huathiri, na kwa nini ni muhimu ni ya kutosha kuanza."
+    ],
+    "actions": [
+      {
+        "label": "Anza ombi",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Tumia Discord badala yake",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Vituo",
+      "title": "Chagua njia rahisi zaidi"
+    },
+    "intro": [
+      "Njia zote kuingia katika ukaguzi huo."
+    ],
+    "items": [
+      {
+        "label": "Tovuti",
+        "body": "Tumia fomu hapa chini kuwasilisha ombi iliyopangwa."
+      },
+      {
+        "label": "Barua pepe",
+        "body": "Tuma ombi moja kwa moja kwa {{contact.requestsEmail}}Maombi ya barua pepe yanaweza kuwa rekodi za ombi la umma baada ya ukaguzi na uhariri."
+      },
+      {
+        "label": "Kutoelewana",
+        "body": "Kuanza huko kama kwamba ni rahisi. ombi bado huenda katika ukaguzi huo."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Kabla ya kutuma ombi",
+    "paragraphs": [
+      "IATF inafanya kazi kwa umma. Maombi yanaweza kufupishwa na kuchapishwa kama rekodi za ombi la umma katika shirika la GitHub la IATAF, kwenye wavuti hii, au zote mbili.",
+      "Usishirikishe anwani za kibinafsi, nambari za simu, maelezo ya matibabu, au utambulisho wa habari kuhusu watumiaji binafsi wa teknolojia za kusaidia isipokuwa ni muhimu na unajisikia vizuri na IATF kuichunguza.",
+      "IATF huondoa maelezo ya mawasiliano ya kibinafsi yasiyo ya lazima kabla ya kuchapisha rekodi za ombi."
+    ]
+  },
+  "review": {
+    "title": "Mapitio ya matarajio",
+    "paragraphs": [
+      "Kuwasilisha ombi hakuhakikishi kukubaliwa.",
+      "IATF inachunguza maombi ya kufaa kwa utume, uwezekano, umuhimu, na ikiwa kazi hiyo inajumuishwa katika hazina ya umma.",
+      "Maombi mengine yanaweza kukataliwa, kuahirishwa, au kubadilishwa kabla ya kukubaliwa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomu ya ombi",
+      "title": "Kuwasilisha ombi"
+    },
+    "fields": [
+      {
+        "kind": "kiingilio",
+        "name": "mwombaji",
+        "label": "Jina lako au shirika",
+        "helper": "Ni nani anayetoa ombi hilo?"
+      },
+      {
+        "kind": "chagua",
+        "name": "njia ya mawasiliano",
+        "label": "Njia ya mawasiliano inayopendekezwa",
+        "helper": "Ufuatiliaji unapaswa kufanywaje?",
+        "required": true,
+        "options": [
+          "Barua pepe",
+          "Kutoelewana"
+        ]
+      },
+      {
+        "kind": "kiingilio",
+        "name": "MawasilianoMaelezo",
+        "label": "Maelezo ya mawasiliano",
+        "helper": "Anwani ya barua pepe au Discord handle kwa ufuatiliaji.",
+        "placeholder": "Anwani ya barua pepe au anwani ya Discord",
+        "required": true
+      },
+      {
+        "kind": "kiingilio",
+        "name": "lugha",
+        "label": "Lugha",
+        "helper": "Lugha unayopendelea, ikiwa ni muhimu.",
+        "value": "Kiingereza"
+      },
+      {
+        "kind": "eneo la maandishi",
+        "name": "tatizo",
+        "label": "Unajaribu kutatua tatizo gani?",
+        "helper": "Eleza kizuizi hicho kwa maneno sahili.",
+        "required": true
+      },
+      {
+        "kind": "eneo la maandishi",
+        "name": "walioathirikaWatumiaji",
+        "label": "Ni nani wanaoathiriwa?",
+        "helper": "Hilo lingemsaidia nani?",
+        "required": true
+      },
+      {
+        "kind": "eneo la maandishi",
+        "name": "extra Muktadha",
+        "label": "Muktadha wa ziada",
+        "helper": "Shiriki kitu kingine chochote kinachosaidia kuelezea hitaji: kwa nini ni muhimu, mifano, marejeleo, wazo mbaya la programu, au vikwazo vya wakati."
+      },
+      {
+        "kind": "chagua",
+        "name": "openSourceConsent",
+        "label": "Urahisi na maendeleo ya chanzo wazi ya umma?",
+        "helper": "Miradi iliyokubaliwa ni kumbukumbu za umma chini ya IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ndiyo",
+          "Hapana",
+          "Sijui bado"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ikiwa inakubaliwa",
+      "title": "Kile kinachomaanishwa na kukubaliwa"
+    },
+    "items": [
+      "hazina ya umma katika shirika la IATF GitHub",
+      "mhandisi wajibu kwa ajili ya mradi",
+      "leseni ya copyleft kwa ajili ya kanuni na vifaa mradi",
+      "maendeleo ya umma katika kumbukumbu",
+      "Kuingia kwa rejista kwenye tovuti ya IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Anza mazungumzo",
+      "title": "Ombi fupi, la wazi linatosha kuanza"
+    },
+    "paragraphs": [
+      "Kama una mahitaji halisi ya upatikanaji na kufikiri inapaswa kuwa mradi wa umma, kutuma kwetu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

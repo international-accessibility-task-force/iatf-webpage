@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Ramani ya Tovuti"
+  },
+  "hero": {
+    "eyebrow": "Faharisi",
+    "title": "Ramani ya Tovuti",
+    "lead": "Kila ukurasa wa umma kwenye iatf.cc, katika sehemu moja."
+  },
+  "sections": [
+    {
+      "title": "Kurasa kuu",
+      "items": [
+        {
+          "label": "Nyumbani",
+          "href": "/"
+        },
+        {
+          "label": "Miradi",
+          "href": "/projects/"
+        },
+        {
+          "label": "Omba mradi",
+          "href": "/propose/"
+        },
+        {
+          "label": "Utawala",
+          "href": "/governance/"
+        },
+        {
+          "label": "Jiunge",
+          "href": "/join/"
+        },
+        {
+          "label": "Upatikanaji",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Uwazi",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Miradi",
+  "projectsEmpty": "Hakuna miradi iliyochapishwa bado."
+}

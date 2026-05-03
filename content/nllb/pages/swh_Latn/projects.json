@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Miradi ya upatikanaji wa umma",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Miradi ya upatikanaji wa umma",
+    "lead": "Usajili huu orodha miradi ya umma kudumishwa kupitia IATF. kukubalika miradi upatikanaji, tovuti ya miundombinu, na prototypes zilizohifadhiwa huwekwa kuonekana hapa.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Usajili",
+      "title": "Usajili wa sasa"
+    },
+    "intro": [
+      "Miradi iliyokubaliwa imeorodheshwa hapa baada ya kuchapishwa."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Kuwasilisha mahitaji",
+      "title": "Kubadilisha mahitaji halisi ya upatikanaji katika mradi wa umma"
+    },
+    "paragraphs": [
+      "IATF inachunguza mahitaji halisi ya upatikanaji ambayo yanaweza kubadilishwa kuwa kazi muhimu ya chanzo wazi cha umma."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Hakuna miradi iliyochapishwa bado",
+    "paragraphs": [
+      "IATF ni kuandaa seti yake ya kwanza ya umma mradi.",
+      "Bado unaweza kutuma ombi kama una mahitaji maalum ya upatikanaji."
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kutoka haja upatikanaji wa umma repo",
+    "lead": "IATF husaidia vyama, makundi, na watu binafsi kugeuza mahitaji halisi ya upatikanaji katika miradi ya chanzo wazi ya umma.",
+    "support": [
+      "Miradi iliyokubaliwa inachapishwa katika shirika la IATF GitHub chini ya leseni ya copyleft na kutengenezwa hadharani na mhandisi anayewajibika."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Mtindo wa uendeshaji wa umma",
+      "title": "Njia rahisi ya umma kwa ajili ya programu kupatikana"
+    },
+    "paragraphs": [
+      "Kupitia fomu, mtu yeyote anaweza kuwasilisha tatizo upatikanaji wa IATF. Kama timu inaweza kuchukua juu yake, umma GitHub hazina ni kufunguliwa kwa ajili ya kazi.",
+      "Kila mradi kukubalika ina wazi nyumba ya umma kwa ajili ya kanuni, masuala, nyaraka, na releases, na maendeleo wakiongozwa katika wazi na mhandisi wajibu."
+    ],
+    "specCard": {
+      "title": "Mtindo wa uendeshaji wa umma",
+      "terms": [
+        {
+          "term": "Uhitaji",
+          "definition": "Tatizo halisi upatikanaji"
+        },
+        {
+          "term": "Mapitio",
+          "definition": "Mission fit na uwezekano wa vitendo"
+        },
+        {
+          "term": "Nafasi ya mradi",
+          "definition": "Hifadhi ya GitHub ya umma"
+        },
+        {
+          "term": "Usimamizi",
+          "definition": "IATF umiliki wa shirika"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Mchakato",
+      "title": "Jinsi inavyofanya kazi",
+      "intro": "Mfano anakaa makusudi ndogo hivyo njia ya umma ni rahisi kufuata."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Uhitaji umewasilishwa",
+        "paragraphs": [
+          "Shirika, kikundi, au mtu binafsi anaweza kuwasilisha ombi kulingana na mahitaji halisi ya upatikanaji.",
+          "Maombi inaweza kuanza kwa njia ya tovuti, kwa barua pepe kwa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, au kupitia Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF inachunguza",
+        "paragraphs": [
+          "Sisi kupitia fit ujumbe, wigo wa vitendo, na kama kazi ni mali katika umma wazi chanzo mradi."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Hifadhi ya umma imeundwa",
+        "paragraphs": [
+          "Kama mradi ni kukubalika, ni kuchapishwa katika IATF GitHub shirika chini ya leseni ya copyleft.",
+          "Hifadhi inakuwa nyumba ya umma ya kanuni, masuala, nyaraka, na releases."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Mhandisi mwenye madaraka anaongoza mradi huo",
+        "paragraphs": [
+          "Mhandisi anayewajibika amepewa hazina ya mradi na maendeleo hufanyika hadharani."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Usajili",
+      "title": "Usajili wa miradi ya umma"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Anza hapa",
+      "title": "Browse kazi ya sasa au kuanza mradi halisi"
+    },
+    "paragraphs": [
+      "Tumia usajili kuona nini ni umma tayari, au kuanza ulaji kama tatizo halisi upatikanaji lazima kuwa mradi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
