@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ما لاقيتوش"
+  },
+  "hero": {
+    "eyebrow": "ما لاقيتوش",
+    "title": "الصفحة المطلوبة ما تلقاتش",
+    "lead": "استعملوا الطرقات الرئيسية لخلف باش ترجعوا للموقع العام.",
+    "support": [],
+    "actions": [
+      {
+        "label": "ل دارك",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "الطريق إلي طلبته ما فماش."
+    ],
+    "items": [
+      {
+        "label": "ل دارك",
+        "href": "/"
+      },
+      {
+        "label": "المشاريع",
+        "href": "/projects/"
+      },
+      {
+        "label": "انضم",
+        "href": "/join/"
+      },
+      {
+        "label": "إمكانية الوصول",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حوكمة",
+        "href": "/governance/"
+      },
+      {
+        "label": "الشفافية",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

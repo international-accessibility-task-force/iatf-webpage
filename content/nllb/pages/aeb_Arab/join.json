@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "انضم ل IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "انضم ل IATF",
+    "lead": "العضوية مفتوحة. ثمة بَرْشَة طُرُق تْخَلِّيك تِتْلْحَق فيه، إما انْتِ تَعْمِلْ فِي التكنولوجيا المُسَاعِدَة، تِبْنِي برامج، تْترجِمْ، تُجَرِّبْ، وِلاَّ تْحافِظْ عْلَى مشروع. المناقشات و القرارات تْكُونْ عَامْة في غيت هوب و ديسكورد.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "الدورات",
+      "title": "طرقات المساهمة"
+    },
+    "items": [
+      "<strong>نطلب مشروع.</strong> إِذَا تْلَقِّيتْ حَاجَة تْحَرِّكْ الْإِنْتِجَاعْ وِتْنَجِّمْ تْكَمِّلْهَا بِبْلاَصَة حُرَّة، أَبْعْثُوهَا لِكُلْ وَاحِدْ.",
+      "<strong>إختبار وإستعراض.</strong> جرب مشاريع IATF مع التكنولوجيا المساعدة الي تستخدمها، وأبلغ عن الشي الي ينجم واللي ما ينجمش، ورفع القضايا مباشرة في المستودع المعني.",
+      "<strong>ترجمو.</strong> المحتوى الاصلي يطلع باللغة الانجليزية الاولى. الترجمات تتم إضافتها كلما يتوفروا المساهمين، ابتداء من الاسبانية.",
+      "<strong>نبني.</strong> نلقى مشاكل في أي مخزن IATF، نبعث طلبات سحب، أو نتولى مشروع كمهندس مسؤول عنه.",
+      "<strong>حافظو.</strong> المشاريع الموجودة في بعض الأحيان تحتاج لمصمم جديد. تناوب المصمم هو جزء طبيعي من النموذج، مش استثناء."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "القنوات",
+      "title": "وين يعمل IATF في الأماكن العامة"
+    },
+    "items": [
+      "<strong>جيت هاب.</strong> قضايا، طلبات سحب، إصدارات، وسجلات مشروع.",
+      "<strong>مَا نِتْفَاهِمْشْ.</strong> مناقشة حية، تنسيق، وأسئلة غير رسمية.",
+      "<strong>بريد إلكتروني.</strong> إستعمال <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> إذا ما جاتش غيت هوب ولا ديسكورد."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "الخطوة الجاية",
+      "title": "اختر القناة اللي تتطابق مع كيفاش تحب تساهم"
+    },
+    "paragraphs": [
+      "القنوات الكل في نفس المراجعة العامة و نفس المحفوظات العامة."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

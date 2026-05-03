@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "خريطة الموقع"
+  },
+  "hero": {
+    "eyebrow": "مؤشر",
+    "title": "خريطة الموقع",
+    "lead": "الصفحات الكل في الموقع، في بلاصة واحدة."
+  },
+  "sections": [
+    {
+      "title": "الصفحات الرئيسية",
+      "items": [
+        {
+          "label": "ل دارك",
+          "href": "/"
+        },
+        {
+          "label": "المشاريع",
+          "href": "/projects/"
+        },
+        {
+          "label": "طلب مشروع",
+          "href": "/propose/"
+        },
+        {
+          "label": "حوكمة",
+          "href": "/governance/"
+        },
+        {
+          "label": "انضم",
+          "href": "/join/"
+        },
+        {
+          "label": "إمكانية الوصول",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "الشفافية",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "المشاريع",
+  "projectsEmpty": "مَازَالْ مَا تِنْشَرْشْ."
+}
