@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ساحه خریطه سی"
+  },
+  "hero": {
+    "eyebrow": "ایندکس",
+    "title": "ساحه خریطه سی",
+    "lead": "آی تی اف سی سی-نین بوتون آچیق صفحه لری، بیر یئرده."
+  },
+  "sections": [
+    {
+      "title": "باش صفحه لر",
+      "items": [
+        {
+          "label": "ائو",
+          "href": "/"
+        },
+        {
+          "label": "پروژه لر",
+          "href": "/projects/"
+        },
+        {
+          "label": "بیر پروژه طلب ائدیرم",
+          "href": "/propose/"
+        },
+        {
+          "label": "حاکمیت",
+          "href": "/governance/"
+        },
+        {
+          "label": "قوشول",
+          "href": "/join/"
+        },
+        {
+          "label": "دسترسي",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "آچیقلیق",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "پروژه لر",
+  "projectsEmpty": "هله لیک نشر اولونموش پروژه یوخدور."
+}

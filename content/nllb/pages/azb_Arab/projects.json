@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "عومومیته یئترلی لیک پروژه لری",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "عومومیته یئترلی لیک پروژه لری",
+    "lead": "بو رجیسترده IATF واسطه سیله برقرار ائدیلن عمومی پروژه لر یازیلیر. قبول اولونموش دسترسی پروژه لری، سایت اینفراستروکتورو و آرشیو اولونموش پروتوتیپلر بورادا گؤزه ل ساخلانیر.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "رجیستری",
+      "title": "ایندیکی رجیستری"
+    },
+    "intro": [
+      "قبول اولونان پروژه لر یاییملاناندان سونرا بوردا یازیلیر."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "بیر احتیاجی تقدیم ائدین",
+      "title": "عومومي بير پروژئيه داخيل اولماق ايستکلريني چئويرمک"
+    },
+    "paragraphs": [
+      "IATF، آچيق قایناق لی ایشلره چئوریله بیله جک گئرچک الده لیک احتیاجلارینی نظردن کئچیرر."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "هله لیک پروژه نشر اولمامیشدیر",
+    "paragraphs": [
+      "IATF ایلک آچیق پروژک مجموعه سینی حاضیرلاییر.",
+      "هله لیک ایستیفاده ائده بیلرسینیز اگر سیزده بیر خاص دسترسی احتیاجی وارسا."
+    ]
+  }
+}

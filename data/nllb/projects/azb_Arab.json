@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "آی ای تی اف وب سایتی",
+    "summary": "International Accessibility Task Force's عمومی سایت.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF-ه مودئلینی آنلاتان، پروژه لری لیست ائدن، و یاردیمچی لری دوزگون صاباحی مرحله یه یؤنلتن ثابیت بیر عمومی ائو لازیم ایدی.",
+    "why": "بو یئر IATF-نین عمومی قاپیسی دیر. او، بیر کیچیک ایستاتیک پروژه کیمی قورولموشدور، بونا گؤره ده اوخوماق، ترجومه ائتمک و آچیق یئرده ساخلاماق آسان قالیر.",
+    "scopeIn": [
+      "IATF مودئلینی آچان آچیقلاما صفحه لری",
+      "قبول اولونموش، فعال و آرشیو اولونموش IATF پروژه لری نین عمومی رجیستری وضعیت، ساخلاماچی، مخزن و دمو ایله",
+      "بير طلب قبول صفحه سي و فورما",
+      "حاکمیت و آچیقلیق صفحه لری",
+      "اینگیلیسجه ویکی پدیاسی نین ایشلدنلری طرفیندن یارانمیش\"Structure ready for translation\"، مقاله سیندن گؤتورولوبدور.",
+      "Cloudflare Workers Static Assets-ده ایستاتیک یئرلشدیریلمه"
+    ],
+    "scopeOut": [
+      "خصوصی عضوو ساحه لری، حساب لاری، و یا یارانما جریان لاری",
+      "هر پروژه نین اؤز مخزنین ده یاشایان پروژه نین منبع کودونو میزبانی ائدیر",
+      "رئال-تایم چت، که در Discord زندگی می کند",
+      "هر پروژه نین گیت هاب مخزنین ده یاشایان تک پروژه لرین مسله ردیابی"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF سلفی",
+    "summary": "بیر اوّل IATF پروتوتیپی، بیر طبیعی دایانیش نقطه سینه چاتاندان سونرا آرشیو ائدیلمیشدیر.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF چترینین آلتیندا یئرلشدیریلمه یه چئوریلن بیر آلتین ایلک آراشدیریلماسی.",
+    "why": "مخزن عمومی اولاراق ایشلرین سونوجو کیمی ساخلانیلیر، حتی فعال چالیشمالارین دایاندیریلماسینا باخمایاراق.",
+    "scopeIn": [
+      "عومومیتلی بیر رئکورد کیمی ساخلانان دسترسی اوزرینده چالیشان بیر قورالین ایلک پروتوتیپی"
+    ],
+    "scopeOut": [
+      "فعال اینکیشاف و یا خصوصیت ایشلری",
+      "ساخلاماق تعهد لری",
+      "محصولدا توصیه اولونان ایستیفاده"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF بوت",
+    "summary": "بیر IATF توپلوم بوتی، بیر طبیعی دایانیش نقطه سینه چاتاندان سونرا آرشیو ائدیلمیشدیر.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "اتوماتيك كننده کانال هاي اجتماعي IATF",
+    "why": "مخزن عمومی اولاراق ایشلرین سونوجو کیمی ساخلانیلیر، حتی فعال چالیشمالارین دایاندیریلماسینا باخمایاراق.",
+    "scopeIn": [
+      "IATF توپلوم کاناللاری اطرافیندا موختلیف آوتوماتلاشما، عومومی بیر سونوج کیمی ساخلانیلیر."
+    ],
+    "scopeOut": [
+      "فعال اینکیشاف و یا خصوصیت ایشلری",
+      "ساخلاماق تعهد لری",
+      "محصولدا توصیه اولونان ایستیفاده"
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "تاپيلمادي"
+  },
+  "hero": {
+    "eyebrow": "تاپيلمادي",
+    "title": "ایسته دییی صحیفه تاپیلمادی",
+    "lead": "آشاغیداکی اساس یوللاردان ایستیفاده ائده رک عمومی ساحه یه قاییت.",
+    "support": [],
+    "actions": [
+      {
+        "label": "ائو",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "طلب ائتدیگینیز یول مؤوجود دئییل."
+    ],
+    "items": [
+      {
+        "label": "ائو",
+        "href": "/"
+      },
+      {
+        "label": "پروژه لر",
+        "href": "/projects/"
+      },
+      {
+        "label": "قوشول",
+        "href": "/join/"
+      },
+      {
+        "label": "دسترسي",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حاکمیت",
+        "href": "/governance/"
+      },
+      {
+        "label": "آچیقلیق",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
