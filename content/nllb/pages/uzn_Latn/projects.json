@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Omma uchun ochiqlik loyihalari",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Omma uchun ochiqlik loyihalari",
+    "lead": "Ushbu ro'yxat IATF orqali saqlanadigan jamoat loyihalarini ro'yxatiga oladi. Qabul qilingan qulaylik loyihalari, sayt infratuzilmasi va arxivlangan prototiplar bu erda ko'rinadi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Roʻyxatdan oʻtish",
+      "title": "Joriy roʻyxat"
+    },
+    "intro": [
+      "Qabul qilingan loyihalar e'lon qilinganidan so'ng bu yerda ko'rsatilgan."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Talabni taqdim eting",
+      "title": "Aniq bir qulaylik ehtiyojini jamoat loyihasiga aylantiring"
+    },
+    "paragraphs": [
+      "IATF ochiq manbali foydali ishlarga aylantirilishi mumkin bo'lgan aniq qulaylik ehtiyojlarini ko'rib chiqadi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Loyihalar hali e'lon qilinmagan",
+    "paragraphs": [
+      "IATF o'zining birinchi ommaviy loyihalar to'plamini tayyorlamoqda.",
+      "Agar sizda aniq qulaylik ehtiyojlari bo'lsa, siz hali ham so'rovnoma yuborishingiz mumkin."
+    ]
+  }
+}

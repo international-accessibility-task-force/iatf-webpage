@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF veb-sayti",
+    "summary": "Xalqaro qulaylik bo'yicha maxsus guruhning ommaviy sayti.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATFga modelni tushuntiradigan, loyihalarni ro'yxatlaydigan va yordamchilarni to'g'ri keyingi qadamga yo'naltiradigan barqaror jamoat uyi kerak edi.",
+    "why": "Sayt IATF-ning ommaviy eshigidir. U kichik statik loyiha sifatida qurilgan, shuning uchun uni o'qish, tarjima qilish va ochiq joyda saqlash oson.",
+    "scopeIn": [
+      "IATF modelini tushuntiruvchi ommaviy manzil sahifalari",
+      "Qabul qilingan, faol va arxivlashtirilgan IATF loyihalari to'g'risidagi davlat reyestri",
+      "So ' rovni qabul qilish sahifasi va shakli",
+      "Boshqaruv va shaffoflik sahifalari",
+      "Inglizcha manba tarjimaga tayyor tuzilishi bilan",
+      "Cloudflare ishchilarining statik aktivlariga statik joylashtirish"
+    ],
+    "scopeOut": [
+      "Xususiy a'zo maydonlari, hisoblar yoki kirish oqimlari",
+      "Har bir loyihaning o'z omborida yashaydigan loyiha manba kodini joylashtirish",
+      "Diskordda yashaydigan real vaqtda suhbatlashing",
+      "Har bir loyihaning GitHub ma'ruzasida mavjud bo'lgan alohida loyihalar uchun muammolarni kuzatib borish"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF oʻz-oʻzini suratga olish",
+    "summary": "IATFning dastlabki prototipi, tabiiy to'xtash nuqtasiga yetgandan so'ng arxivlashtirilgan.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ko'magida qulaylikka yo'naltirilgan vositaning dastlabki tadqiqotlari.",
+    "why": "Ma'lumotlar bazasi, faol rivojlanish to'xtatilgan bo'lsa-da, ishning ma'lumoti sifatida ochiq saqlanadi.",
+    "scopeIn": [
+      "Ommaviy yozuv sifatida saqlanadigan qulaylikka yo'naltirilgan vositaning dastlabki prototipi"
+    ],
+    "scopeOut": [
+      "Faol rivojlanish yoki xususiyat ishlari",
+      "Ta'minot majburiyatlari",
+      "Ishlab chiqarishda tavsiya etilgan foydalanish"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF botlari",
+    "summary": "IATF jamoaviy bot, tabiiy to'xtash nuqtasiga yetgandan so'ng arxivlangan.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF jamoa kanallari atrofida avtomatlashtirish.",
+    "why": "Ma'lumotlar bazasi, faol rivojlanish to'xtatilgan bo'lsa-da, ishning ma'lumoti sifatida ochiq saqlanadi.",
+    "scopeIn": [
+      "IATF jamoa kanallari atrofidagi kelishmovchiliklarni avtomatlashtirish, ommaviy yozuv sifatida saqlanadi"
+    ],
+    "scopeOut": [
+      "Faol rivojlanish yoki xususiyat ishlari",
+      "Ta'minot majburiyatlari",
+      "Ishlab chiqarishda tavsiya etilgan foydalanish"
+    ]
+  }
+]

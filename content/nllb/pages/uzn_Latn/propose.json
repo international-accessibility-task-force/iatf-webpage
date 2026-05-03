@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Ruxsat olish loyihasini soʻrash",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Ruxsat olish loyihasini soʻrash",
+    "lead": "IATF haqiqiy ehtiyojdan kelib chiqqan ochiqlik loyihalari uchun so'rovlarni ko'rib chiqadi.",
+    "support": [
+      "Sizga to'liq ma'lumotlar kerak emas.Aynicha, kimga ta'sir ko'rsatishi va nima uchun bu muhimligi to'g'risida aniq ma'lumot yetarli."
+    ],
+    "actions": [
+      {
+        "label": "Talabni boshlash",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Buning oʻrniga Discord &amp; apos; dan foydalanish",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanallar",
+      "title": "Eng oson yoʻlni tanlang"
+    },
+    "intro": [
+      "Barcha yo'nalishlar bir xil ko'rib chiqishga kiritiladi."
+    ],
+    "items": [
+      {
+        "label": "Veb-sayt",
+        "body": "Tuzilgan so'rovni to'ldirish uchun quyidagi shakldan foydalaning."
+      },
+      {
+        "label": "Elektron pochta manzili",
+        "body": "So ' rovni bevosita {{contact.requestsEmail}}. Elektron pochta so'rovlari ko'rib chiqish va tahrirlashdan so'ng jamoat so'rovi yozuvlariga aylanishi mumkin."
+      },
+      {
+        "label": "Notoʻgʻri fikrlar",
+        "body": "Agar bu eng oson bo'lsa, u yerdan boshlang. So'rov hali ham bir xil ko'rib chiqishga o'tadi."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Talabnoma yuborishdan oldin",
+    "paragraphs": [
+      "IATF ommaviy tarzda ishlaydi. So'rovlar umumlashtirilgan bo'lib, IATf GitHub tashkilotida, ushbu veb-saytda yoki ikkovida ham ommaviy so'rov yozuvlari sifatida nashr etilishi mumkin.",
+      "Xususiy manzillar, telefon raqamlari, tibbiy ma'lumotlar yoki yordamchi texnologiyalarning individual foydalanuvchilari to'g'risidagi ma'lumotlarni kiritmang, agar bu zarur bo'lmasa va siz IATF tomonidan ko'rib chiqilishiga rozi bo'lmasangiz.",
+      "IATF talabnoma yozuvlarini e'lon qilishdan oldin keraksiz shaxsiy aloqa ma'lumotlarini olib tashlaydi."
+    ]
+  },
+  "review": {
+    "title": "Kuzatuvlarni koʻrib chiqish",
+    "paragraphs": [
+      "So'rovni topshirish qabul qilinishini kafolatlamaydi.",
+      "IATF topshiriqqa mos kelishi, amalga oshirilishi, foydaliligi va ishning jamoat omboriga tegishliligi to'g'risidagi so'rovlarni ko'rib chiqadi.",
+      "Ba'zi so'rovlar qabul qilinishidan oldin rad etilishi, keyinga qoldirilishi yoki o'zgartirilishi mumkin."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Talabnoma shakli",
+      "title": "Talabnoma taqdim etish"
+    },
+    "fields": [
+      {
+        "kind": "kiritilgan maʼlumot",
+        "name": "talabnoma beruvchi",
+        "label": "Sizning nomingiz yoki tashkilotingiz",
+        "helper": "Talabni kim taqdim etmoqda?"
+      },
+      {
+        "kind": "tanlash",
+        "name": "aloqa yoʻnalishi",
+        "label": "Tanlangan aloqa yoʻli",
+        "helper": "Qanday qilib kuzatuv o'tkazilishi kerak?",
+        "required": true,
+        "options": [
+          "Elektron pochta manzili",
+          "Notoʻgʻri fikrlar"
+        ]
+      },
+      {
+        "kind": "kiritilgan maʼlumot",
+        "name": "Aloqa tafsilotlari",
+        "label": "Aloqa maʼlumotlari",
+        "helper": "Qo'shimcha ma'lumot olish uchun elektron pochta manzili yoki Discord manzili.",
+        "placeholder": "Elektron pochta manzili yoki Discord manzili",
+        "required": true
+      },
+      {
+        "kind": "kiritilgan maʼlumot",
+        "name": "til",
+        "label": "Tillar",
+        "helper": "Agar kerak bo'lsa, afzal ko'rgan tilingiz.",
+        "value": "Ingliz tili"
+      },
+      {
+        "kind": "matn maydoni",
+        "name": "muammo",
+        "label": "Siz qanday muammoni hal qilishga harakat qilyapsiz?",
+        "helper": "To'siqni oddiy so'zlar bilan tasvirlab bering.",
+        "required": true
+      },
+      {
+        "kind": "matn maydoni",
+        "name": "taʼsirlangan foydalanuvchilar",
+        "label": "Bu kimga taʼsir qiladi?",
+        "helper": "Bu kimga yordam beradi?",
+        "required": true
+      },
+      {
+        "kind": "matn maydoni",
+        "name": "qoʻshimcha matn tarkibi",
+        "label": "Qoʻshimcha kontekst",
+        "helper": "Ehtiyojni tushuntirishga yordam beradigan har qanday narsa bilan o'rtoqlashing: nima uchun bu muhim, misollar, ma'lumotnomalar, dasturiy ta'minotning qo'pol g'oyasi yoki vaqt cheklovlari."
+      },
+      {
+        "kind": "tanlash",
+        "name": "openSourceConsent (mavzuga rozilik)",
+        "label": "Ommaviy ochiq kodli dastur bilan shug'ullanasizmi?",
+        "helper": "Qabul qilingan loyihalar IATF bo'yicha ommaviy ma'lumotlar omborlari hisoblanadi.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Toʻgʻri",
+          "Yoʻq",
+          "Hali aniq emas"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Agar qabul qilinsa",
+      "title": "Qabul qilish nimani anglatadi"
+    },
+    "items": [
+      "IATF GitHub tashkilotidagi ommaviy ma'lumotlar bazasi",
+      "loyihaga tayinlangan mas'ul muhandis",
+      "kod va loyiha materiallari uchun copyleft litsenziyasi",
+      "ma'lumotlar omboridagi ommaviy rivojlanish",
+      "IATF saytida ro'yxatga olish yozuvi"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Suhbatni boshlash",
+      "title": "Boshlash uchun qisqa, aniq so'rov kifoya qiladi"
+    },
+    "paragraphs": [
+      "Agar sizda haqiqiy qulaylik ehtiyojlari bo'lsa va buni jamoat loyihasiga aylantirish kerak deb o'ylasangiz, bizga yuboring."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

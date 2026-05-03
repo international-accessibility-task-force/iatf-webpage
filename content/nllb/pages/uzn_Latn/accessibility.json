@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Foydalanish imkoniyati",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Foydalanish imkoniyati",
+    "lead": "IATF ushbu veb-saytni sodda, o'qiladigan, klaviatura yordamida foydalanish mumkin bo'lgan va yordamchi texnologiyalar bilan mos keladigan qilib qo'yishni maqsad qilgan.",
+    "support": [
+      "Internetga kirish imkoniyati uchun IATF [W3C WAI](https://www.w3.org/WAI/) Qo'llab-quvvatlovchi texnologiyalar foydalanuvchilarining bevosita tajribasi ham amaliy qulaylikni ta'minlaydi."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Hisobot berish",
+      "title": "Qulaylik muammosi toʻgʻrisida xabar berish"
+    },
+    "paragraphs": [
+      "Agar siz ushbu veb-saytda qulaylik to'siqlarini topgan bo'lsangiz, iltimos, elektron pochta orqali xabar bering:",
+      "{{contact.accessibilityEmail}}",
+      "Foydali hisobotlarga quyidagilar kiradi:"
+    ],
+    "items": [
+      "muammoning sodir boʻlgan sahifasi",
+      "nima qilishga urinayotganingizni",
+      "agar kerak bo'lsa, qanday yordamchi texnologiya, brauzer yoki qurilmadan foydalangan bo'lsangiz",
+      "nima notoʻgʻri boʻldi ?",
+      "nima yordam bergan boʻlardi"
+    ],
+    "footnote": "Rasmiy xatolik to'g'risida hisobot yozishingiz shart emas. Aniq tavsif etishi kifoya."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Qo'llash",
+      "title": "Jamoatchilik bilan bogʻliq masalalarni hal etish"
+    },
+    "paragraphs": [
+      "Kirish mumkin bo'lgan muammolar tegishli ommaviy ma'lumotlar omborida qisqacha ko'rib chiqilishi mumkin, shunda ular ochiqchasiga tuzatilishi mumkin. Shaxsiy aloqa ma'lumotlari va keraksiz shaxsiy axborot e'lon qilinishidan oldin olib tashlanadi.",
+      "Agar sizning hisobotingizda shaxsiy ma'lumotlar bo'lsa, xabarda buni aniq ko'rsating."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Joriy holat",
+      "title": "Maʼlum cheklovlar"
+    },
+    "paragraphs": [
+      "Ushbu sayt maqsadli ravishda kichik va asosan statik. Tarjimalar tayyorlanayotganda ba'zi tillardagi versiyalar to'liq bo'lmasligi mumkin."
+    ]
+  }
+}

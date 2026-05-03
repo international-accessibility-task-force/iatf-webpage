@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sayt xaritasi"
+  },
+  "hero": {
+    "eyebrow": "Indeks",
+    "title": "Sayt xaritasi",
+    "lead": "IATF.CC saytidagi barcha ochiq sahifalar bir joyda."
+  },
+  "sections": [
+    {
+      "title": "Asosiy sahifalar",
+      "items": [
+        {
+          "label": "Uyga qaytish",
+          "href": "/"
+        },
+        {
+          "label": "Loyihalar",
+          "href": "/projects/"
+        },
+        {
+          "label": "Loyihani soʻrash",
+          "href": "/propose/"
+        },
+        {
+          "label": "Boshqaruv",
+          "href": "/governance/"
+        },
+        {
+          "label": "Qoʻshiling",
+          "href": "/join/"
+        },
+        {
+          "label": "Foydalanish imkoniyati",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Shaffoflik",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Loyihalar",
+  "projectsEmpty": "Hali nashr etilgan loyihalar yo'q."
+}

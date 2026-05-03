@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Boshqaruv va ma'lumotlar bazasi modeli",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Boshqaruv va ma'lumotlar bazasi modeli",
+    "lead": "IATF ochiqlik loyihalarini ochiq, o'qiladigan va saqlanishi mumkinligini ta'minlaydi.",
+    "support": [
+      "Ushbu sahifada nima mos kelishi, omborlar qanday saqlanishi va qabul qilinganidan keyin ombor darajasidagi javobgarlik qanday amalga oshirilishi tushuntiriladi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Qoidalar",
+      "title": "Vazifani bajarish, mulkdorlik, litsenziyalash"
+    },
+    "cards": [
+      {
+        "title": "Missiyaga mos kelishi",
+        "paragraphs": [
+          "IATF haqiqiy kirish to'siqlarini bartaraf etadigan va aniq jamoatchilik ahamiyatiga ega bo'lgan ishlarni qabul qiladi.",
+          "Loyiha bitta xususiy ish oqimidan tashqarida foydali bo'lishi va jamoat ombori sifatida ishlay olishi kerak.",
+          "Internetga kirish imkoniyati uchun IATF [W3C WAI](https://www.w3.org/WAI/) yordamchi texnologiyalardan foydalanuvchilarning bevosita tajribasi ham aslida nima ishlayotganining amaliy dalilidir."
+        ]
+      },
+      {
+        "title": "Loyihani qabul qilish",
+        "paragraphs": [
+          "Taklifni ko ' rib chiqish quyidagilarni ko ' rsatgan taqdirda qabul qilinishi mumkin:"
+        ],
+        "items": [
+          "u haqiqiy qulaylik ehtiyojlariga javob beradi",
+          "muammoni baholash uchun yetarlicha aniq",
+          "qamrov ishga tushirish uchun yetarlicha real",
+          "ish IATF missiyasiga mos keladi",
+          "texnik xizmat ko ' rsatish yoki uni to ' ldirish uchun aniq yo ' l mavjud"
+        ]
+      },
+      {
+        "title": "Omborxonaga egalik qilish",
+        "paragraphs": [
+          "Qabul qilingan loyihalar IATF GitHub tashkiloti ostida yaratilgan.",
+          "Repozitoriyalar u erda qoladi, shuning uchun har bir loyiha barqaror jamoat uyini saqlaydi, hatto keyinchalik parvarishlovchilar o'zgarsa ham."
+        ]
+      },
+      {
+        "title": "Litsenziyalar berish",
+        "paragraphs": [
+          "IATF loyihalari, agar loyihada boshqacha koʻrsatilmagan boʻlsa, copyleft litsenziyalashdan foydalanadi:"
+        ],
+        "items": [
+          "<strong>Kod:</strong> AGPL-3.0",
+          "<strong>Hujjatlar:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Mas'ul muhandis yoki texnik xizmat ko'rsatuvchi",
+      "paragraphs": [
+        "Har bir qabul qilingan loyihada mas'ul muhandis yoki texnik xizmat ko'rsatuvchi bo'lishi kerak. Ushbu shaxs omborga ma'muriy kirish huquqini olishi mumkin va u quyidagilarni bajarishi kutiladi:"
+      ],
+      "items": [
+        "yoʻl-yoʻriqlarni ishlab chiqish",
+        "ma'lumotlar bazasi tuzilmasini saqlab turish",
+        "masalalarni ko ' rib chiqish yoki boshqarish va so ' rovlarni olish",
+        "muhim texnik qarorlarni hujjatlashtirish",
+        "loyihani boshqalarga tushunarli qilib tushuntiring"
+      ],
+      "footnote": "Bu ma'lumotlar bazasi darajasidagi mas'uliyatdir. Tashkilotga egalik qilish IATFda qoladi. Bu yerda ma'lumot bazasini boshqarish, texnik yo'naltirish va jamoatchilikni muvofiqlashtirish mas'uldir  cheksiz xususiy etkazib berish, maxsus integratsiyalar yoki jamoatchilik yo'l xaritasi tashqarisida xizmat darajasida majburiyatlar emas."
+    },
+    "publicDevelopment": {
+      "title": "Jamoatchilikni rivojlantirish",
+      "paragraphs": [
+        "IATF orqali ishga tushirilgan loyihalar andoza bo'yicha ommaviy ravishda ishlab chiqiladi. Repozitoriya quyidagilar uchun haqiqatning ommaviy manbai hisoblanadi:"
+      ],
+      "items": [
+        "manba kodi",
+        "masalalar",
+        "hujjatlashtirish",
+        "yoʻl xaritasi",
+        "chiqarilish tarixi"
+      ],
+      "footnote": "Muhim loyiha ma'lumotlari faqat shaxsiy suhbatlarda yoki pochta qutisida bo'lmasligi kerak."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ommaviy yozuvlar",
+      "title": "Jamoat talablari toʻgʻrisidagi maʼlumotlar"
+    },
+    "paragraphs": [
+      "IATF andoza bo'yicha ommaviy tarzda ishlaydi. Veb-sayt, elektron pochta, Discord, GitHub yoki boshqa IAT F kanallari orqali IATfga kiradigan so'rovlar ommaviy talab yozuvlariga aylanishi mumkin.",
+      "Ommaviy so'rov yozuvi asl xabar bo'lishi shart emas. IATF talabni e'lon qilishdan oldin qisqacha bayon qilishi, tahrirlashi yoki qayta tuzishi mumkin, shunda keraksiz shaxsiy ma'lumotlarni oshkor qilmasdan kirish imkoniyatiga ega bo'lish kerakligi ko'rib chiqilishi mumkin.",
+      "Ommaviy so'rov yozuvlari IATF GitHub tashkilotida, ushbu veb-saytda yoki ikkalada ham saqlanishi mumkin.",
+      "Nashrdan oldin IATF keraksiz shaxsiy aloqa ma'lumotlarini, shaxsiy manzillarni va yordamchi texnologiyalarning har bir foydalanuvchisi to'g'risidagi ma'lumotni o'chirib tashlaydi, basharti nashrdan chiqarish aniq maqsadga ega va o'rinli bo'lmasa.",
+      "Diskord norasmiy muvofiqlashtirish uchun ishlatiladi. IATF diskord suhbatlarini alohida arxivlashtirmaydi va xabarlarni saqlab qolish diskord tomonidan boshqariladi. Diskordda qabul qilingan qarorlar GitHubdagi yoki tegishli loyiha sahifasidagi jamoat ro'yxatida qisqacha ko'rsatilishi kerak.",
+      "So'rov yozuvlari texnikaviy jihatdan amaliy bo'lganda qidiruv tizimining indeksatsiyasidan chiqarib tashlanadi. Ommaviy ma'noda ko'rib chiqiladigan va hisobot beriladigan. Bu ism qidiruvlari orqali kashf etish uchun optimallashtirilgan degani emas.",
+      "IATF tomonidan nazorat qilinadigan jamoat joylaridan yozuvlarni yangilash yoki olib tashlash mumkin, ammo uchinchi tomon keshlari, bildirishnomalar, forklar, ekran suratlari, qidiruv tizimlari, Discord yoki boshqa tashqi tizimlardan olib tashlashni kafolatlay olmaydi.",
+      "Agar xabar maxfiy bo'lib qolishi kerak bo'lsa, uni IATF ommaviy kanallari orqali yubormang."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Tashkiliy rol",
+      "title": "Oʻrinbosar"
+    },
+    "lead": "Rais IATFning tashkilot darajasidagi boshqaruvini amalga oshiradi. Bu har bir loyiha uchun mas'ul bo'lgan muhandis rolidan farq qiladi: rais har bir ma'lum ma'lumot bazasining kundalik yo'nalishi uchun emas, balki butun tashkilot uchun javobgardir.",
+    "duties": {
+      "title": "Oʻrinbosar nima qiladi",
+      "items": [
+        "IATF GitHub tashkilotida egasining ruxsatlarini ushlab turadi",
+        "Loyihani qabul qilish va arxivlash to ' g ' risidagi qarorlarni imzolash",
+        "IATF uchun jamoatchilik aloqasi nuqtasi sifatida faoliyat koʻrsatadi",
+        "Yillik saylovni muvofiqlashtiradi"
+      ],
+      "footnote": "Rais IATFni xususiy etkazib berish, pulli ish yoki xizmat darajasidagi shartnomalar bilan bog'lamaydi va texnik yo'l-yo'riq bo'yicha har bir ma'lumotlar bazasini saqlovchining qarorlarini bekor qilmaydi."
+    },
+    "election": {
+      "title": "Yillik saylov",
+      "paragraphs": [
+        "Rais yiliga bir marta saylanadi. Saylov dekabr oyining birinchi ikki haftasida o'tadi, natijalar 15 dekabrga qadar e'lon qilinadi va yangi muddat 1 yanvarda boshlanadi.",
+        "Ovoz berish huquqiga ega bo'lganlar - bu yil davomida har qanday IATF ma'lumotlar bazasida saqlovchi vazifasini bajargan va o'sha yili kamida bitta birlashtirilgan hissa qo'shgan odamlardir. Har bir ovoz beruvchi bir ovozga ega. Eng ko'p ovoz olgan nomzod g'olib bo'ladi; tenglik bo'lsa, dekabr oyining uchinchi haftasida ikkinchi tur o'tkaziladi.",
+        "Saylov IATF boshqaruv omborida ommaviy GitHub muhokamasi sifatida o'tkaziladi, shuning uchun nomzodlar, ovoz berish va natijalarning barchasi jamoat rekordining bir qismidir."
+      ]
+    },
+    "continuity": {
+      "title": "Davomlilik",
+      "paragraphs": [
+        "Agar ma'lum bir yilda saylov o'tkazilmasa, hozirgi rais keyingi saylovga qadar o'z vazifasini davom ettiradi. Bu cheksiz davom etishdir, imtiyozli davr emas  model faoliyat past bo'lganda tashkilotni barqaror saqlash uchun mo'ljallangan, hech kim tayyor bo'lmagan o'tishni majburlash uchun emas.",
+        "Rais istalgan vaqtda iste'foga chiqishi mumkin. Faoliyat ko'rsatuvchilar, shuningdek, har yilgi saylovlar bilan bir xil qoidalar asosida o'tkaziladigan favqulodda saylovni ko'rsatilgan sabab bilan chaqirishlari mumkin."
+      ]
+    },
+    "current": {
+      "title": "Hozirgi raislik",
+      "fields": [
+        {
+          "label": "Oʻrinbosar",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Muddati",
+          "value": "2026 yil dekabrdagi saylovgacha"
+        },
+        {
+          "label": "Roli rasmiylashtirilgan",
+          "value": "2026"
+        },
+        {
+          "label": "Dastlabki rejalashtirilgan saylovlar",
+          "value": "2026 yil dekabr"
+        }
+      ]
+    },
+    "footnote": "Tashkilot darajasidagi boshqaruvni aniqlashtirish uchun raislik roli 2026 yilda rasmiylashtirildi. O'sha paytgacha tashkiliy mas'uliyat asoschi tomonidan norasmiy ravishda amalga oshirilgan."
+  },
+  "continuity": {
+    "states": {
+      "title": "Loyiha holatlari",
+      "paragraphs": [
+        "Loyihalar kichik davlatlar to'plamidan foydalanadi:"
+      ],
+      "items": [
+        "Taklif",
+        "Qabul qilingan",
+        "Faol",
+        "Barqaror",
+        "Ta ' minotchi izlanmoqda",
+        "Arxivlashtirilgan"
+      ],
+      "footnote": "Ushbu shtatlar ro'yxatni skanerlash osonligini ta'minlaydi."
+    },
+    "reassignment": {
+      "title": "Qayta tayinlash va arxivlash",
+      "paragraphs": [
+        "Agar texnik xizmat ko'rsatuvchi ishdan chetlatilsa yoki faoliyatsiz bo'lib qolsa, IATF mas'uliyatni qayta tayinlashi, rivojlanishni to'xtatishi yoki loyihani arxivga kiritishi mumkin.",
+        "Dastlabki ehtiyoj qondirilganda, ta'mirlash to'xtatilganda yoki ishni davom ettirish endi real bo'lmaganda loyiha arxivga olinishi mumkin."
+      ],
+      "footnote": "Arxivlashtirilgan loyihalar, agar boshqacha bo'lish uchun jiddiy sabab bo'lmasa, jamoatchilik uchun ochiq bo'lib qoladi."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Chegara eslatmasi",
+      "title": "IATF kafolatlamaydigan narsalar"
+    },
+    "items": [
+      "xususiy mijozlarga yetkazib berish",
+      "xizmat darajasidagi kelishuvlar",
+      "har bir taklifni qabul qilish",
+      "har bir loyiha uchun uzoq muddatli texnik xizmat ko ' rsatish"
+    ],
+    "footnote": "IATF xususiy etkazib berish xizmati emas, balki ommaviy ma'lumotlar bazasi modelidir."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Topilmadi"
+  },
+  "hero": {
+    "eyebrow": "Topilmadi",
+    "title": "Soʻralgan sahifa topilmadi",
+    "lead": "Ommaviy saytga qaytish uchun quyida keltirilgan asosiy yo'llardan foydalaning.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Uyga qaytish",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Siz so'ragan yo'l mavjud emas."
+    ],
+    "items": [
+      {
+        "label": "Uyga qaytish",
+        "href": "/"
+      },
+      {
+        "label": "Loyihalar",
+        "href": "/projects/"
+      },
+      {
+        "label": "Qoʻshiling",
+        "href": "/join/"
+      },
+      {
+        "label": "Foydalanish imkoniyati",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Boshqaruv",
+        "href": "/governance/"
+      },
+      {
+        "label": "Shaffoflik",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Qulaylik ehtiyojidan davlat repolarigacha",
+    "lead": "IATF assotsiatsiyalar, guruhlar va shaxslarga haqiqiy qulaylik ehtiyojlarini ochiq manbali loyihalarga aylantirishda yordam beradi.",
+    "support": [
+      "Qabul qilingan loyihalar IATF GitHub tashkilotida copyleft litsenziyasi ostida nashr etiladi va mas'ul muhandis tomonidan ommaviy ravishda ishlab chiqiladi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Umumiy operatsion model",
+      "title": "Ruxsat etilgan dasturiy taʼminot uchun oddiy ommaviy yoʻl"
+    },
+    "paragraphs": [
+      "Har bir kishi shakl orqali IATFga kirish imkoniyati muammosini taqdim etishi mumkin. Agar jamoa uni o'z zimmasiga olishi mumkin bo'lsa, ish uchun GitHub-dagi ommaviy ma'lumotlar bazasi ochiladi.",
+      "Har bir qabul qilingan loyiha kod, muammolar, hujjatlar va nashrlar uchun ochiq ommaviy uyga ega bo'lib, rivojlanish mas'ul muhandis tomonidan ochiq olib boriladi."
+    ],
+    "specCard": {
+      "title": "Umumiy operatsion model",
+      "terms": [
+        {
+          "term": "Ehtiyoj",
+          "definition": "Haqiqiy qulaylik muammosi"
+        },
+        {
+          "term": "Qayta koʻrib chiqish",
+          "definition": "Missiyaga moslik va amaliy jihatdan amalga oshirilishi"
+        },
+        {
+          "term": "Loyiha maydoni",
+          "definition": "Ommaviy GitHub repozitoriysi"
+        },
+        {
+          "term": "Boshqaruv",
+          "definition": "IATFning tashkilotga tegishliligi"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Jarayon",
+      "title": "Qanday ishlaydi",
+      "intro": "Model o'z-o'zidan kichik bo'lib qoladi, shuning uchun jamoat yo'liga osonlikcha ergashish mumkin."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Talab taqdim etiladi",
+        "paragraphs": [
+          "Uyushma, guruh yoki shaxs haqiqiy qulaylik ehtiyojlariga asoslangan so'rovni taqdim etishi mumkin.",
+          "So'rovlar veb-sayt orqali, elektron pochta orqali quyidagi manzilga yuborilishi mumkin: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, yoki Discord orqali."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF uni ko ' rib chiqadi",
+        "paragraphs": [
+          "Biz vazifa mosligini, amaliy ko'lamini va ishning ochiq manbali loyihaga tegishliligini ko'rib chiqamiz."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ommaviy maʼlumotlar bazasi yaratildi",
+        "paragraphs": [
+          "Agar loyiha qabul qilinsa, u IATF GitHub tashkilotida copyleft litsenziyasi ostida nashr etiladi.",
+          "Repozitoriya kodning, muammolarning, hujjatlarning va nashrlarning ommaviy manziliga aylanadi."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Loyihani mas'ul muhandis boshqaradi",
+        "paragraphs": [
+          "Loyiha ma'muriyatiga mas'ul muhandis tayinlanadi va rivojlanish ommaviy tarzda amalga oshiriladi."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Roʻyxatdan oʻtish",
+      "title": "Loyihalarning davlat roʻyxati"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Bu yerdan boshlang",
+      "title": "Joriy ishni koʻrib chiqish yoki aniq loyihani boshlash"
+    },
+    "paragraphs": [
+      "Agar ma'lum bir qulaylik muammosi loyihaga aylansa, ro'yxatdan foydalanib, allaqachon ochiq bo'lgan narsalarni ko'ring yoki qabul qilishni boshlang."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

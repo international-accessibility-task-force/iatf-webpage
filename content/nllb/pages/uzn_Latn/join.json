@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATFga qoʻshilish",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATFga qoʻshilish",
+    "lead": "A'zolik ochiq. Qo'llab-quvvatlovchi texnologiyalarga tayanasizmi, qulay dasturiy ta'minot yaratyapsizmi, tarjima qilasizmi, sinovdan o'tkazyapsizmi yoki loyihani saqlaysizmi, ishtirok etishning bir nechta yo'llari mavjud. Muhokamalar va qarorlar GitHub va Discord-da ommaviy ravishda amalga oshiriladi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Vazifalar",
+      "title": "Oʻz hissangizni qoʻshish yoʻllari"
+    },
+    "items": [
+      "<strong>Loyihani so'rang.</strong> Agar siz ochiq manbali dasturiy ta'minot bilan hal qilinishi mumkin bo'lgan kirish to'siqlariga duch kelsangiz, uni so'rov qabul qilish orqali yuboring.",
+      "<strong>Sinov va ko'rib chiqish.</strong> IATF loyihalarini o'zingiz foydalanadigan yordamchi texnologiyalar bilan sinab ko'ring, nima ishlaydi va nima ishlamaydi, deb xabar bering va muammolarni to'g'ridan-to'gʻri tegishli ma'lumotlar bazasiga yozing.",
+      "<strong>Tarjima qiling.</strong> Asl tarkib avval oddiy ingliz tilida nashr etiladi. Tarjimalar ispan tilidan boshlab, ishtirokchilar mavjud bo'lganda qo'shiladi.",
+      "<strong>Qurish.</strong> IATF ma'lumotlar bazasidagi muammolarni toping, pullash so'rovlarini yuboring yoki loyihani uning mas'ul muhandisi sifatida qabul qiling.",
+      "<strong>Ushlab turing.</strong> Mavjud loyihalar ba'zan yangi texnik xodimga muhtoj bo'ladi. texnik xodimning aylanishi modelning odatiy qismidir, istisno emas."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanallar",
+      "title": "IATF jamoat joylarida ishlaydigan joylar"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Mavzular, so'rovlar, nashrlar va loyiha yozuvlari.",
+      "<strong>Noto'g'ri fikrlar.</strong> Jonli munozara, muvofiqlashtirish va norasmiy savollar.",
+      "<strong>Elektron pochta.</strong> Foydalanish <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> agar GitHub ham, Discord ham mos kelmasa."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Keyingi qadam",
+      "title": "Qanday hissa qoʻshishni xohlayotganingizga mos keladigan kanalni tanlang"
+    },
+    "paragraphs": [
+      "Barcha kanallar bir xil ko'rib chiqish va bir xil ma'lumotlar omborlariga kiradi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
