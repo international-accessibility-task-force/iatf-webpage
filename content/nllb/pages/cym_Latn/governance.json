@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Llywodraethu a'r model cronfa ddata",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Llywodraethu a'r model cronfa ddata",
+    "lead": "Mae'r IATF yn cadw prosiectau hygyrchedd yn gyhoeddus, yn ddarllenadwy, ac yn ddiogelu.",
+    "support": [
+      "Mae'r dudalen hon yn esbonio'r hyn sy'n gymwys, sut mae cronfeydd yn cael eu cynnal, a pha gyfrifoldeb ar lefel y cronfa sydd yn berthnasol ar ôl derbyn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Rheolau",
+      "title": "Cyd-drefnu cenhadaeth, perchnogaeth, trwyddedu"
+    },
+    "cards": [
+      {
+        "title": "Mae'n addas ar gyfer y cenhadaeth",
+        "paragraphs": [
+          "Mae'r IATF yn derbyn gwaith sy'n mynd i'r afael â rhwystr gwirioneddol i hygyrchedd ac sydd â gwerth cyhoeddus amlwg.",
+          "Dylai prosiect fod yn ddefnyddiol y tu hwnt i un llif gwaith preifat ac yn weithredol fel cronfa gyhoeddus.",
+          "Ar gyfer hygyrchedd ar y we, mae'r IATF yn defnyddio [W3C WAI](https://www.w3.org/WAI/) Mae profiad uniongyrchol defnyddwyr technolegau cynorthwyol hefyd yn dystiolaeth ymarferol o'r hyn sy'n gweithio mewn defnydd go iawn."
+        ]
+      },
+      {
+        "title": "Derbyn prosiect",
+        "paragraphs": [
+          "Gall cynnig gael ei dderbyn pan fydd adolygiad yn dangos bod:"
+        ],
+        "items": [
+          "mae'n mynd i'r afael ag angen hygyrchedd go iawn",
+          "mae'r broblem yn ddigon clir i'w werthuso",
+          "mae'r cwmpas yn ddigon realistig i lansio",
+          "mae'r gwaith yn cyd-fynd â'r genhadaeth IATF",
+          "mae llwybr rhesymol i gynnal neu gwblhau"
+        ]
+      },
+      {
+        "title": "Perchnogaeth y cronfa ddata",
+        "paragraphs": [
+          "Mae prosiectau a dderbyniwyd yn cael eu creu o dan sefydliad GitHub IATF.",
+          "Mae storfeydd yn aros yno fel bod pob prosiect yn cadw cartref cyhoeddus sefydlog, hyd yn oed os yw'r rheolwyr yn newid yn ddiweddarach."
+        ]
+      },
+      {
+        "title": "Trwyddedu",
+        "paragraphs": [
+          "Mae prosiectau'r IATF yn defnyddio trwyddedu copyleft oni bai bod prosiect yn nodi fel arall:"
+        ],
+        "items": [
+          "<strong>Cod:</strong> AGPL-3.0",
+          "<strong>Dogfennau:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Peirianneg neu weinyddwr cyfrifol",
+      "paragraphs": [
+        "Dylai pob prosiect a dderbyniwyd gael peirianneg neu gynnalydd cyfrifol enwiedig. Gall y person hwnnw gael mynediad gweinyddol i'r cronfa ac mae disgwyl iddo:"
+      ],
+      "items": [
+        "datblygu canllawiau yn y cyhoedd",
+        "cynnal strwythur y storfa",
+        "adolygu neu reoli materion a thynnu ceisiadau",
+        "dogfennu penderfyniadau technegol pwysig",
+        "cadw'r prosiect yn ddealladwy i eraill"
+      ],
+      "footnote": "Mae hyn yn gyfrifoldeb ar lefel y cronfa. Mae perchnogaeth y sefydliad yn aros gyda'r IATF. Y cyfrifoldeb yma yw rheolwrfa'r cronfa, cyfarwyddyd technegol, a chydlynu cyhoeddus  nid cyflenwi preifat diderfyn, integreiddio arferol, neu ymrwymiadau lefel gwasanaeth y tu allan i'r cynllun cyhoeddus."
+    },
+    "publicDevelopment": {
+      "title": "Datblygiad cyhoeddus",
+      "paragraphs": [
+        "Mae prosiectau a lansiwyd trwy'r IATF yn cael eu datblygu yn gyhoeddus yn ddiofyn."
+      ],
+      "items": [
+        "cod ffynhonnell",
+        "materion",
+        "dogfennau",
+        "nodiadau ar y map llwybr",
+        "hanes rhyddhau"
+      ],
+      "footnote": "Ni ddylai gwybodaeth bwysig am brosiect fyw yn unig mewn sgyrsiau preifat neu mewnbonsi."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Cofnodion cyhoeddus",
+      "title": "Cofnodion cais cyhoeddus"
+    },
+    "paragraphs": [
+      "Mae IATF yn gweithio yn gyhoeddus yn ddiofyn. Gall ceisiadau sy'n mynd i mewn i'r sefydliad drwy'r wefan, e-bost, Discord, GitHub, neu sianeli eraill y sefydliad ddod yn gofnodion ceisiadau cyhoeddus.",
+      "Nid yw cofnod cais cyhoeddus o reidrwydd y neges wreiddiol. Gall IATF grynhoi, olygu, neu ailstrwythuro cais cyn ei gyhoeddi fel y gellir adolygu'r angen hygyrchedd heb ddatgelu gwybodaeth bersonol diangen.",
+      "Gall cofnodion cais cyhoeddus gael eu storio yn sefydliad GitHub IATF, ar y wefan hon, neu'r ddau.",
+      "Cyn ei chyhoeddi, mae'r IATF yn dileu manylion cyswllt personol diangen, cyfeiriadau preifat, a manylion adnabod am ddefnyddwyr unigol technolegau cynorthwyol oni bai bod cyhoeddi'n amlwg yn fwriadol ac yn briodol.",
+      "Defnyddir Discord ar gyfer cydgysylltu anffurfiol. Nid yw IATF yn archifio sgyrsiau Discord yn ar wahân yn ddiofyn, ac mae cadw negeseuon yn cael ei reoli gan Discord. Dylid crynhoi penderfyniadau a wnaed yn Discord i'r cofnod cyhoeddus ar GitHub neu ar dudalen y prosiect perthnasol.",
+      "Mae cofnodion ceisiadau yn cael eu gwahardd o indecio peiriannau chwilio lle mae'n dechnegol ymarferol. Mae cyhoeddus yn golygu y gellir eu hadolygu a'u bod yn atebol. Nid yw'n golygu eu bod wedi'u optimeiddio i'w darganfod trwy chwiliadau enw.",
+      "Gall yr IATF ddiweddaru neu gael gwared ar gofnodion o arwynebau cyhoeddus sy'n cael eu rheoli gan y Grŵp, ond ni all warantu cael gwared o geisiadau trydydd parti, hysbysiadau, forciau, lluniau sgrin, peiriannau chwilio, Discord, neu systemau allanol eraill.",
+      "Os oes angen i neges aros yn breifat, peidiwch â'i hanfon trwy sianeli cyhoeddus IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rôl sefydliadol",
+      "title": "Cadeirydd"
+    },
+    "lead": "Mae'r Cadeirydd yn gyfrifol am reoli IATF ar lefel sefydliad. Mae hyn yn wahanol i'r rôl peirianneg sy'n gyfrifol am bob prosiect: mae'r cadeirydd wedi'i gyfrifol am y sefydliad yn ei gyfanrwydd, nid am gyfarwyddyd o ddydd i ddydd unrhyw gofrestrfa sengl.",
+    "duties": {
+      "title": "Beth mae'r cadeiryn yn ei wneud",
+      "items": [
+        "Mae'n dal caniatâd perchennog ar sefydliad GitHub IATF",
+        "Arwyddo ar derbyniad prosiectau a phenderfyniadau archifio",
+        "Mae'n gweithredu fel y pwynt cyswllt cyhoeddus ar gyfer yr IATF",
+        "Cydlynu'r etholiad blynyddol"
+      ],
+      "footnote": "Nid yw'r Cadeirydd yn ymrwymo'r IATF i gyflenwi preifat, gwaith â thâl, neu gytundebau lefel gwasanaeth, ac nid yw'n gwrthsefyll penderfyniadau per-gofalwr cofrestrfa ar gyfarwyddyd technegol."
+    },
+    "election": {
+      "title": "Etholiad blynyddol",
+      "paragraphs": [
+        "Mae'r cadeirydd yn cael ei ethol unwaith y flwyddyn.",
+        "Mae pleidleiswyr cymwys yn bobl a oedd yn dal rôl cynnal ar unrhyw gofrestrfa IATF yn ystod y flwyddyn ac a wnaeth o leiaf un cyfraniad cyfun i gofrestriad IATA yn y flwyddyn honno. Mae gan bob pleidlais gymwys un bleidlais. Mae'r ymgeisydd sydd â'r mwyaf o bleidleisiau yn ennill; mewn achos o gytundeb, cynhelir rownd ail yn y trydydd wythnos o fis Rhagfyr.",
+        "Mae'r etholiad yn cael ei gynnal fel Trafodaeth GitHub cyhoeddus yn y cronfa llywodraethu IATF dynodedig, felly mae'r ymgeiswyr, y bleidlais, a'r canlyniad i gyd yn rhan o'r cofnod cyhoeddus."
+      ]
+    },
+    "continuity": {
+      "title": "Parhad",
+      "paragraphs": [
+        "Os na fydd unrhyw etholiad yn cael ei gynnal mewn blwyddyn benodol, mae'r cadeirydd presennol yn parhau yn y rôl tan yr etholiadau nesaf.",
+        "Gall y Cadeirydd ymddeol ar unrhyw adeg. Gall cynnalwyr gweithredol hefyd alw etholiad eithriadol gyda rheswm a nodwyd, yn cael ei gynnal o dan yr un rheolau â'r etholiadau blynyddol."
+      ]
+    },
+    "current": {
+      "title": "Cadeirydd presennol",
+      "fields": [
+        {
+          "label": "Cadeirydd",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Terfyn",
+          "value": "Hyd at etholiad Rhagfyr 2026"
+        },
+        {
+          "label": "Rôl wedi'i ffurfio",
+          "value": "2026"
+        },
+        {
+          "label": "Etholiad cynllunio cyntaf",
+          "value": "Rhagfyr 2026"
+        }
+      ]
+    },
+    "footnote": "Cafodd rôl y cadeirydd ei ffurfio yn 2026 i wneud rheolaeth ar lefel y sefydliad yn eglur."
+  },
+  "continuity": {
+    "states": {
+      "title": "Cyflwr y prosiect",
+      "paragraphs": [
+        "Mae prosiectau'n defnyddio set fach o gyflwr cyhoeddus:"
+      ],
+      "items": [
+        "Cynigion",
+        "Gwrthodwyd",
+        "Gweithredol",
+        "Sefydlog",
+        "Ceisiwch gynnalwr",
+        "Archifwyd"
+      ],
+      "footnote": "Mae'r taleithiau hyn yn cadw'r gofrestr yn hawdd i'w sganio."
+    },
+    "reassignment": {
+      "title": "Adnewyddu ac archifio",
+      "paragraphs": [
+        "Os yw'r person sy'n cynnal a chadw i ffwrdd neu'n dod yn ddiweithredol, gall yr IATF ail-drefnu cyfrifoldeb, atal datblygiad, neu archifio'r prosiect.",
+        "Gellir archifio prosiect hefyd pan fo'r angen wreiddiol wedi'i ddiwallu, wedi stopio cynnal a chadw, neu pan nad yw'r gwaith parhaus yn realistig mwyach."
+      ],
+      "footnote": "Mae prosiectau archifedig yn parhau i fod yn weladwy i'r cyhoedd oni bai bod rheswm pwerus i wneud yn wahanol."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nodyn ffin",
+      "title": "Yr hyn nad yw'r IATF yn ei warantu"
+    },
+    "items": [
+      "cyflenwad cleient preifat",
+      "cytundebau lefel gwasanaeth",
+      "derbyn pob cynnig",
+      "cynnal a chadw tymor hir ar gyfer pob prosiect"
+    ],
+    "footnote": "Mae'r IATF yn fodel cofrestrfa gyhoeddus, nid gwasanaeth dosbarthu preifat."
+  }
+}

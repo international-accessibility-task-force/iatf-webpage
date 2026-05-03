@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Map y safle"
+  },
+  "hero": {
+    "eyebrow": "Cyfrol",
+    "title": "Map y safle",
+    "lead": "Pob tudalen gyhoeddus ar iatf.cc, mewn un lle."
+  },
+  "sections": [
+    {
+      "title": "Prif tudalennau",
+      "items": [
+        {
+          "label": "Cartref",
+          "href": "/"
+        },
+        {
+          "label": "Prosiectau",
+          "href": "/projects/"
+        },
+        {
+          "label": "Gofynnwch am brosiect",
+          "href": "/propose/"
+        },
+        {
+          "label": "Llywodraethu",
+          "href": "/governance/"
+        },
+        {
+          "label": "Ymunwch",
+          "href": "/join/"
+        },
+        {
+          "label": "Hygyrchedd",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Dilyniant",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Prosiectau",
+  "projectsEmpty": "Nid oes unrhyw brosiectau wedi'u cyhoeddi eto."
+}

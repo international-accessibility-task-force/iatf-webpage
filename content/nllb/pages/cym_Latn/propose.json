@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Gofynnwch am brosiect hygyrchedd",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Gofynnwch am brosiect hygyrchedd",
+    "lead": "Mae'r IATF yn adolygu ceisiadau am brosiectau hygyrchedd sy'n dechrau o angen go iawn.",
+    "support": [
+      "Nid oes angen manylebau llawn arnoch. Mae problem clir, pwy mae'n effeithio arno, a pham ei bod yn bwysig yn ddigon i ddechrau."
+    ],
+    "actions": [
+      {
+        "label": "Dechrau cais",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Defnyddiwch Discord yn lle hynny",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Sianellau",
+      "title": "Dewiswch y llwybr hawsaf"
+    },
+    "intro": [
+      "Mae'r holl lwybrau'n mynd i mewn i'r un adolygiad."
+    ],
+    "items": [
+      {
+        "label": "Gwefan",
+        "body": "Defnyddiwch y ffurflen isod i gyflwyno cais strwythuredig."
+      },
+      {
+        "label": "E-bost",
+        "body": "Anfonwch y cais yn uniongyrchol at {{contact.requestsEmail}}Gall ceisiadau e-bost ddod yn gofnodion cais cyhoeddus ar ôl eu hadolygu a'u dileu."
+      },
+      {
+        "label": "Anghydfod",
+        "body": "Dechreuwch yno os yw hynny'n haws. Mae'r cais yn parhau i symud i'r un adolygiad."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Cyn i chi anfon cais",
+    "paragraphs": [
+      "Gall ceisiadau gael eu crynhoi a'u cyhoeddi fel cofnodion ceisiadau cyhoeddus yn y sefydliad GitHub IATF, ar y wefan hon, neu'r ddau.",
+      "Peidiwch â chynnwys cyfeiriadau preifat, rhifau ffôn, manylion meddygol, neu wybodaeth adnabod am ddefnyddwyr unigol technolegau cynorthwyol oni bai ei fod yn angenrheidiol ac rydych chi'n gyfforddus â'r IATF yn ei adolygu.",
+      "Mae'r IATF yn dileu manylion cyswllt personol diangen cyn cyhoeddi cofnodion ceisiadau."
+    ]
+  },
+  "review": {
+    "title": "Disgwyliadau adolygu",
+    "paragraphs": [
+      "Nid yw cyflwyno cais yn gwarantu derbyn.",
+      "Mae'r IATF yn adolygu ceisiadau am gymhwyster i'r genhadaeth, ymarferoldeb, defnyddioldeb a pha un yw'r gwaith yn perthyn i gronfa gyhoeddus.",
+      "Efallai y caiff rhai ceisiadau eu gwrthod, eu gohirio, neu eu haddasu cyn eu derbyn."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Ffurflen gais",
+      "title": "Cyflwyno cais"
+    },
+    "fields": [
+      {
+        "kind": "mewnbwn",
+        "name": "ymgeisydd",
+        "label": "Eich enw neu'ch sefydliad",
+        "helper": "Pwy sy'n gwneud y cais?"
+      },
+      {
+        "kind": "dewis",
+        "name": "CysylltwchRoute",
+        "label": "Llwybr cyswllt dewisol",
+        "helper": "Sut y dylai dilynol ddigwydd?",
+        "required": true,
+        "options": [
+          "E-bost",
+          "Anghydfod"
+        ]
+      },
+      {
+        "kind": "mewnbwn",
+        "name": "Cysylltwch",
+        "label": "Manylion cyswllt",
+        "helper": "Cyfeiriad e-bost neu ddolen Discord ar gyfer dilynol.",
+        "placeholder": "Cyfeiriad e-bost neu ddolen Discord",
+        "required": true
+      },
+      {
+        "kind": "mewnbwn",
+        "name": "iaith",
+        "label": "Iaith",
+        "helper": "Eich hoff iaith, os yw'n berthnasol.",
+        "value": "Saesneg"
+      },
+      {
+        "kind": "ardal testun",
+        "name": "broblem",
+        "label": "Pa broblem ydych chi'n ceisio ei ddatrys?",
+        "helper": "Disgrifiwch y rhwystr mewn iaith syml.",
+        "required": true
+      },
+      {
+        "kind": "ardal testun",
+        "name": "defnyddwyr a effeithiwyd",
+        "label": "Pwy sy'n cael eu heffeithio?",
+        "helper": "Pwy fyddai hyn yn helpu?",
+        "required": true
+      },
+      {
+        "kind": "ardal testun",
+        "name": "extraContext",
+        "label": "Cyd-destun ychwanegol",
+        "helper": "Rhannwch unrhyw beth arall sy'n helpu i esbonio'r angen: pam ei fod yn bwysig, enghreifftiau, cyfeiriadau, syniad am raglen feddalwedd, neu gyfyngiadau amserol."
+      },
+      {
+        "kind": "dewis",
+        "name": "openSourceConsent",
+        "label": "Yn gyfforddus gyda datblygiad ffynhonnell agored cyhoeddus?",
+        "helper": "Mae prosiectau a dderbyniwyd yn gofrestrfeydd cyhoeddus o dan IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Ydw",
+          "Dim",
+          "Nid wyf yn siŵr eto"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Os caiff ei dderbyn",
+      "title": "Beth mae derbyn yn ei olygu"
+    },
+    "items": [
+      "cofrestrfa gyhoeddus yn y sefydliad GitHub IATF",
+      "peiriannydd cyfrifol sy'n cael ei neilltuo i'r prosiect",
+      "drwydded copyleft ar gyfer y cod a deunyddiau prosiect",
+      "datblygiad cyhoeddus yn y storfa",
+      "cofnod cofrestr ar safle'r IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Dechreuwch y sgwrs",
+      "title": "Mae cais byr, clir yn ddigon i ddechrau"
+    },
+    "paragraphs": [
+      "Os oes gennych angen hygyrchedd go iawn ac os ydych yn meddwl y dylai fod yn brosiect cyhoeddus, anfonwch ef atom."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

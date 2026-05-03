@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "O angen hygyrchedd i repo cyhoeddus",
+    "lead": "Mae IATF yn helpu cymdeithasau, grwpiau ac unigolion i droi anghenion hygyrchedd go iawn yn brosiectau ffynhonnell agored cyhoeddus.",
+    "support": [
+      "Mae prosiectau a dderbyniwyd yn cael eu cyhoeddi yn y sefydliad GitHub IATF o dan drwydded copyleft ac yn cael ei ddatblygu yn gyhoeddus gan beiriannydd cyfrifol."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Model gweithredu cyhoeddus",
+      "title": "Llwybr cyhoeddus syml ar gyfer meddalwedd hygyrch"
+    },
+    "paragraphs": [
+      "Drwy ffurflen, gall unrhyw un gyflwyno problem hygyrchedd i'r IATF. Os gall y tîm ei gymryd, mae cronfa gyhoeddus GitHub yn cael ei agor ar gyfer y gwaith.",
+      "Mae gan bob prosiect a dderbyniwyd gartref cyhoeddus clir ar gyfer cod, materion, dogfennau a rhyddhau, gyda datblygiad yn cael ei arwain yn agored gan beiriannydd cyfrifol."
+    ],
+    "specCard": {
+      "title": "Model gweithredu cyhoeddus",
+      "terms": [
+        {
+          "term": "Angen",
+          "definition": "Problem hygyrchedd go iawn"
+        },
+        {
+          "term": "Adolygiad",
+          "definition": "Addasedd i'r genhadaeth a'i hyfywder ymarferol"
+        },
+        {
+          "term": "Gofod y prosiect",
+          "definition": "Cofrestrfa gyhoeddus GitHub"
+        },
+        {
+          "term": "Stewardship",
+          "definition": "perchnogaeth sefydliadol IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Gweithdrefn",
+      "title": "Sut mae'n gweithio",
+      "intro": "Mae'r model yn aros yn fwriadol yn fach fel bod y llwybr cyhoeddus yn hawdd ei ddilyn."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Mae angen yn cael ei gyflwyno",
+        "paragraphs": [
+          "Gall cymdeithas, grŵp neu unigolyn gyflwyno cais sy'n seiliedig ar angen hygyrchedd go iawn.",
+          "Gall ceisiadau ddechrau drwy'r wefan, drwy e-bost at <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, neu drwy anghytuno."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Mae'r IATF yn ei adolygu",
+        "paragraphs": [
+          "Rydym yn adolygu cymhwysedd cenhadaeth, cwmpas ymarferol, ac a yw'r gwaith yn perthyn i brosiect ffynhonnell agored cyhoeddus."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Mae cronfa gyhoeddus yn cael ei greu",
+        "paragraphs": [
+          "Os caiff prosiect ei dderbyn, caiff ei gyhoeddi yn y sefydliad GitHub IATF o dan drwydded copyleft.",
+          "Mae'r storfa'n dod yn gartref cyhoeddus i'r cod, materion, dogfennau a rhyddhau."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Mae peiriannydd cyfrifol yn arwain y prosiect",
+        "paragraphs": [
+          "Mae peiriannydd cyfrifol yn cael ei neilltuo i gronfa'r prosiect ac mae'r datblygiad yn digwydd yn gyhoeddus."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Cofrestr",
+      "title": "Gofrestr Prosiect Cyhoeddus"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Dechreuwch yma",
+      "title": "Dewch o hyd i waith cyfredol neu ddechrau prosiect penodol"
+    },
+    "paragraphs": [
+      "Defnyddiwch y gofrestr i weld yr hyn sydd eisoes yn gyhoeddus, neu dechreuwch yr ymgorfforiad os dylai problem hygyrchedd penodol ddod yn brosiect."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

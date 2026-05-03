@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Ymunwch â'r IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Ymunwch â'r IATF",
+    "lead": "Mae aelodaeth ar agor. Mae sawl ffordd i gymryd rhan, p'un a ydych yn dibynnu ar dechnoleg gynorthwyol, yn adeiladu meddalwedd hygyrch, yn cyfieithu, yn profi neu'n cynnal prosiect. Mae trafodaethau a phenderfyniadau'n digwydd yn gyhoeddus ar GitHub a Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rôl",
+      "title": "Ffyrdd i gyfrannu"
+    },
+    "items": [
+      "<strong>Gofynnwch am brosiect.</strong> Os ydych chi'n dod ar draws rhwystr hygyrchedd y gellid mynd i'r afael ag ef gan feddalwedd ffynhonnell agored cyhoeddus, anfonwch ef trwy'r ymholiad cais.",
+      "<strong>Profi a adolygu.</strong> Rhowch gynnig ar brosiectau IATF gyda'r dechnoleg gynorthwyol rydych chi'n ei ddefnyddio, adroddwch beth sy'n gweithio a beth nad yw, a ffeilwch faterion yn uniongyrchol ar y cronfa berthnasol.",
+      "<strong>Cyfieithu.</strong> Mae cynnwys y ffynhonnell yn cael ei gyhoeddi yn Saesneg syml yn gyntaf. Mae cyfieithiadau'n cael eu hychwanegu wrth i gyfrannwyr fod ar gael, gan ddechrau gyda Sbaeneg.",
+      "<strong>Adeiladu.</strong> Dewiswch faterion mewn unrhyw gronfa IATF, anfonwch geisiadau tynnu, neu gymerwch brosiect fel ei beiriannydd cyfrifol.",
+      "<strong>Cadwch.</strong> Weithiau mae angen cynnalwr newydd ar brosiectau sy'n bodoli. Mae cylchdro'r cynnalwr yn rhan arferol o'r model, nid eithriad."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Sianellau",
+      "title": "Lle mae'r IATF yn gweithio yn gyhoeddus"
+    },
+    "items": [
+      "<strong>GitHub.</strong> materion, gofynion tynnu, rhyddhau, a chofnodion prosiect.",
+      "<strong>Anghytuno.</strong> Trafodaeth fyw, cydlynu, a chwestiynau anffurfiol.",
+      "<strong>E-bost.</strong> Defnyddio <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> os nad yw GitHub na Discord yn ffitio."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Y cam nesaf",
+      "title": "Dewiswch y sianel sy'n cyd-fynd â sut rydych am gyfrannu"
+    },
+    "paragraphs": [
+      "Mae'r holl sianeli'n bwydo i mewn i'r un adolygiad cyhoeddus ac at yr un cronfeydd cyhoeddus."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

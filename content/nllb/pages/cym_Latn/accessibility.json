@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Hygyrchedd",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Hygyrchedd",
+    "lead": "Nod IATF yw cadw'r wefan hon yn syml, yn ddarllenadwy, yn hygyrch ar y bysellfwrdd, ac yn gydnaws â thechnolegau cynorthwyol.",
+    "support": [
+      "Ar gyfer hygyrchedd ar y we, mae'r IATF yn defnyddio [W3C WAI](https://www.w3.org/WAI/) Mae mynediad ymarferol hefyd yn cael ei hysbysu gan brofiad uniongyrchol defnyddwyr technolegau cynorthwyol."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Adroddiad",
+      "title": "Adroddwch fater hygyrchedd"
+    },
+    "paragraphs": [
+      "Os ydych chi'n dod o hyd i rwystr hygyrchedd ar y wefan hon, rhowch wybod drwy e-bost:",
+      "{{contact.accessibilityEmail}}",
+      "Mae adroddiadau defnyddiol yn cynnwys:"
+    ],
+    "items": [
+      "y dudalen lle digwyddodd y mater",
+      "yr hyn yr oeddech chi'n ceisio ei wneud",
+      "pa dechnoleg gynorthwyol, porwr neu ddyfais yr oeddech chi'n ei ddefnyddio, os yw'n berthnasol",
+      "beth aeth o'i le",
+      "beth fyddai wedi helpu"
+    ],
+    "footnote": "Nid oes angen i chi ysgrifennu adroddiad gwall ffurfiol. Mae disgrifiad clir yn ddigon."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Gweithredu",
+      "title": "Delio â materion cyhoeddus"
+    },
+    "paragraphs": [
+      "Gellir crynhoi materion hygyrchedd yn y cronfa gyhoeddus perthnasol fel y gellir eu trwsio yn agored.",
+      "Os yw'ch adroddiad yn cynnwys gwybodaeth breifat, dywedwch hynny'n glir yn y neges."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Cyflwr presennol",
+      "title": "Cyfyngiadau adnabyddus"
+    },
+    "paragraphs": [
+      "Mae'r wefan hon yn fwriadol yn fach ac yn statig yn bennaf. Efallai y bydd rhai fersiynau iaith yn anghyflawn tra bod cyfieithiadau'n cael eu paratoi."
+    ]
+  }
+}

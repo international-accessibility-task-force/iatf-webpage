@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Nid yw'n cael ei ganfod"
+  },
+  "hero": {
+    "eyebrow": "Nid yw'n cael ei ganfod",
+    "title": "Ni ellir dod o hyd i'r dudalen a ofynnwyd",
+    "lead": "Defnyddiwch y prif lwybrau isod i ddychwelyd i'r safle cyhoeddus.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Cartref",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Nid yw'r llwybr rydych chi wedi'i ofyn yn bodoli."
+    ],
+    "items": [
+      {
+        "label": "Cartref",
+        "href": "/"
+      },
+      {
+        "label": "Prosiectau",
+        "href": "/projects/"
+      },
+      {
+        "label": "Ymunwch",
+        "href": "/join/"
+      },
+      {
+        "label": "Hygyrchedd",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Llywodraethu",
+        "href": "/governance/"
+      },
+      {
+        "label": "Dilyniant",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

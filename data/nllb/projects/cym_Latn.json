@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Gwefan IATF",
+    "summary": "Safle cyhoeddus y Grŵp Tasg Drosglwyddadwyedd Rhyngwladol.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Roedd IATF angen cartref cyhoeddus sefydlog sy'n esbonio'r model, yn rhestru prosiectau, ac yn nodi cyfrannwyr i'r cam nesaf cywir.",
+    "why": "Mae'r safle yn drws blaen cyhoeddus IATF. Mae wedi'i adeiladu fel prosiect statig bach felly mae'n hawdd ei ddarllen, ei gyfieithu a'i gynnal yn agored.",
+    "scopeIn": [
+      "Tudalennau cyrchfan cyhoeddus sy'n esbonio'r model IATF",
+      "Cofrestr gyhoeddus o brosiectau IATF a dderbyniwyd, sy'n weithredol ac wedi'u hagor gyda statws, rheolwr, cronfa, a demo",
+      "Tudalen a ffurflen derbyn cais",
+      "Tudalennau llywodraethu a thryloywder",
+      "ffynhonnell Saesneg gyda strwythur yn barod ar gyfer cyfieithu",
+      "Datblygiad statig ar Asedau Static Gweithwyr Cloudflare"
+    ],
+    "scopeOut": [
+      "Ardal aelodau preifat, cyfrifon, neu llifiau mewngofnodi",
+      "cynnal cod ffynhonnell y prosiect, sy'n byw mewn cronfa bob prosiect ei hun",
+      "Sgwrs amser real, sy'n byw yn Discord",
+      "Olrhain materion ar gyfer prosiectau unigol, sy'n byw mewn cronfa GitHub pob prosiect"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Prototeip IATF cynnar, a archifiwyd ar ôl cyrraedd pwynt stopio naturiol.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Archwilio cynnar ar offeryn sy'n canolbwyntio ar hygyrchedd o dan raglen yr IATF.",
+    "why": "Caiff y storfa ei chadw'n gyhoeddus fel cofnod o'r gwaith, hyd yn oed os yw'r datblygiad gweithredol wedi dod i ben.",
+    "scopeIn": [
+      "Prototeip cynnar o offeryn sy'n canolbwyntio ar hygyrchedd a geir fel cofnod cyhoeddus"
+    ],
+    "scopeOut": [
+      "Datblygiad gweithredol neu waith nodwedd",
+      "Cyfrifoldebau cynnal a chadw",
+      "Defnydd a argymhellir mewn cynhyrchu"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Bot IATF",
+    "summary": "Bot cymunedol IATF, a archifiwyd ar ôl cyrraedd pwynt stopio naturiol.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Awtomaeth o amgylch sianeli cymunedol IATF.",
+    "why": "Caiff y storfa ei chadw'n gyhoeddus fel cofnod o'r gwaith, hyd yn oed os yw'r datblygiad gweithredol wedi dod i ben.",
+    "scopeIn": [
+      "Awtomatiaeth anghytuno o amgylch sianeli cymunedol IATF, wedi'i chadw fel cofnod cyhoeddus"
+    ],
+    "scopeOut": [
+      "Datblygiad gweithredol neu waith nodwedd",
+      "Cyfrifoldebau cynnal a chadw",
+      "Defnydd a argymhellir mewn cynhyrchu"
+    ]
+  }
+]

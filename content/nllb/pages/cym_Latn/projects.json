@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Prosiectau hygyrchedd cyhoeddus",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Prosiectau hygyrchedd cyhoeddus",
+    "lead": "Mae'r gofrestr hwn yn rhestru prosiectau cyhoeddus sy'n cael eu cynnal trwy'r IATF. Mae prosiectau hygyrchedd a dderbyniwyd, seilwaith safle, a prototeipiau archifedig yn cael eu cadw'n weladwy yma.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Cofrestr",
+      "title": "Cofrestr gyfredol"
+    },
+    "intro": [
+      "Mae'r prosiectau a dderbyniwyd yn cael eu rhestru yma ar ôl eu cyhoeddi."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Cyflwynwch angen",
+      "title": "Troi angen hygyrchedd penodol yn brosiect cyhoeddus"
+    },
+    "paragraphs": [
+      "Mae'r IATF yn adolygu anghenion hygyrchedd penodol y gellir eu troi'n waith ffynhonnell agored cyhoeddus defnyddiol."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nid oes unrhyw brosiectau wedi'u cyhoeddi eto",
+    "paragraphs": [
+      "Mae'r IATF yn paratoi ei set prosiect cyhoeddus cyntaf.",
+      "Gallwch barhau i anfon cais os oes gennych angen hygyrchedd penodol."
+    ]
+  }
+}
