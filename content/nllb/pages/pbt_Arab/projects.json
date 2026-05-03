@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "د عامه لاسرسي پروژې",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "د عامه لاسرسي پروژې",
+    "lead": "دا راجستر د عامه پروژو لیست کوي چې د IATF له لارې ساتل کیږي. منل شوي د لاسرسي پروژې ، د سایټ زیربنا ، او آرشیف شوي پروټوټایپونه دلته ښکاره ساتل شوي.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "د نوم لیکنې دفتر",
+      "title": "اوسنی راجستر"
+    },
+    "intro": [
+      "منل شوي پروژې دلته لیست شوي یوځل چې دوی خپاره شي."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "یوه اړتیا وړاندې کړئ",
+      "title": "د لاسرسي یو مشخص اړتیا په عامه پروژه بدله کړئ"
+    },
+    "paragraphs": [
+      "IATF د لاسرسي مشخص اړتیاوې بیاکتنه کوي چې کولی شي ګټور عامه خلاص سرچینې کار ته واړول شي."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "لا تر اوسه کومې پروژې نه دي خپرې شوې",
+    "paragraphs": [
+      "IATF د خپل لومړي عامه پروژې سیټ چمتو کوي.",
+      "که تاسو د لاسرسي لپاره ځانګړې اړتیا لرئ نو بیا هم تاسو کولی شئ غوښتنه واستوئ."
+    ]
+  }
+}

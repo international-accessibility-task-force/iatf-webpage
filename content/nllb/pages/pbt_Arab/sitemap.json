@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "د سایټ نقشه"
+  },
+  "hero": {
+    "eyebrow": "شاخصونه",
+    "title": "د سایټ نقشه",
+    "lead": "په IATF.CC کې هره عامه پاڼه، په یو ځای کې."
+  },
+  "sections": [
+    {
+      "title": "اصلي پاڼې",
+      "items": [
+        {
+          "label": "کور ته",
+          "href": "/"
+        },
+        {
+          "label": "پروژې",
+          "href": "/projects/"
+        },
+        {
+          "label": "د پروژې غوښتنه وکړئ",
+          "href": "/propose/"
+        },
+        {
+          "label": "حکومتولۍ",
+          "href": "/governance/"
+        },
+        {
+          "label": "سره یوځای شئ",
+          "href": "/join/"
+        },
+        {
+          "label": "د لاسرسي وړتیا",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "روڼتیا",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "پروژې",
+  "projectsEmpty": "تر اوسه پورې کومې پروژې نه دي خپرې شوي."
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "نه موندل شوی"
+  },
+  "hero": {
+    "eyebrow": "نه موندل شوی",
+    "title": "غوښتل شوې پاڼه نه ده موندل شوې",
+    "lead": "د عامه ساحې ته د بیرته راستنیدو لپاره لاندې اصلي لارو څخه کار واخلئ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "کور ته",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "هغه لار چې تاسو یې غوښتنه کړې شتون نلري."
+    ],
+    "items": [
+      {
+        "label": "کور ته",
+        "href": "/"
+      },
+      {
+        "label": "پروژې",
+        "href": "/projects/"
+      },
+      {
+        "label": "سره یوځای شئ",
+        "href": "/join/"
+      },
+      {
+        "label": "د لاسرسي وړتیا",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حکومتولۍ",
+        "href": "/governance/"
+      },
+      {
+        "label": "روڼتیا",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

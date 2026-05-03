@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "د IATF ویب پاڼه",
+    "summary": "د نړیوال لاسرسي کاري ځواک لپاره عامه سایټ.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF یو باثباته عامه کور ته اړتیا درلوده چې ماډل تشریح کړي، پروژې لیست کړي، او مرسته کونکو ته په سم راتلونکي ګام کې اشاره وکړي.",
+    "why": "دا سایټ د IATF عامه دروازه ده. دا د یوې کوچنۍ جامد پروژې په توګه رامینځته شوی نو دا په خلاص ځای کې د لوستلو ، ژباړلو او ساتلو لپاره اسانه پاتې کیږي.",
+    "scopeIn": [
+      "عامه ځمکنۍ پا pagesې چې د IATF ماډل تشریح کوي",
+      "د منل شوي ، فعال ، او آرشیف شوي IATF پروژو عامه راجستر د وضعیت ، ساتونکي ، ذخیره کونکي ، او ډیمو سره",
+      "د غوښتنې د ترلاسه کولو پاڼه او فورمه",
+      "د حکومتدارۍ او روڼتیا پاڼې",
+      "انګلیسي سرچینه د ژباړې لپاره چمتو جوړښت سره",
+      "په کلاوډ فلایر کارګرانو کې جامد ځای پرځای کول جامد شتمنۍ"
+    ],
+    "scopeOut": [
+      "د خصوصي غړو ساحې ، حسابونه ، یا د ننوتلو جریانونه",
+      "د پروژې سرچینې کوډ کوربه کول ، کوم چې د هرې پروسې په خپل ذخیره کې ژوند کوي",
+      "د ریښتیني وخت چیټ ، کوم چې په اختلاف کې ژوند کوي",
+      "د انفرادي پروژو لپاره د مسلو تعقیب ، کوم چې د هرې پروژې په ګیت هب ذخیره کې ژوند کوي"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "د IATF سلفي",
+    "summary": "د IATF لومړنی پروټوټایپ ، د طبیعي تمځای ته رسیدو وروسته آرشیف شوی.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "د IATF تر چتر لاندې د لاسرسي تمرکز شوي وسیلې لومړنۍ پلټنه.",
+    "why": "ذخیره د کار د ریکارډ په توګه عامه ساتل کیږي ، که څه هم فعاله پراختیا بنده شوې.",
+    "scopeIn": [
+      "د عامه ریکارډ په توګه ساتل شوي د لاسرسي تمرکز شوي وسیلې لومړنی پروټوټایپ"
+    ],
+    "scopeOut": [
+      "فعاله پراختیا یا د ځانګړتیاو کار",
+      "د ساتنې ژمنې",
+      "په تولید کې د کارولو سپارښتنه"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "د IATF بوټ",
+    "summary": "د IATF ټولنې بوټ ، د طبیعي تمځای ته د رسیدو وروسته آرشیف شوی.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "د IATF ټولنې چینلونو شاوخوا اتومات کول.",
+    "why": "ذخیره د کار د ریکارډ په توګه عامه ساتل کیږي ، که څه هم فعاله پراختیا بنده شوې.",
+    "scopeIn": [
+      "د IATF ټولنې چینلونو په شاوخوا کې د شخړې اتومات کول ، د عامه ریکارډ په توګه ساتل شوي"
+    ],
+    "scopeOut": [
+      "فعاله پراختیا یا د ځانګړتیاو کار",
+      "د ساتنې ژمنې",
+      "په تولید کې د کارولو سپارښتنه"
+    ]
+  }
+]
