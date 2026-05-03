@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "ಸಾರ್ವಜನಿಕ ಪ್ರವೇಶ ಯೋಜನೆಗಳು",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "ಸಾರ್ವಜನಿಕ ಪ್ರವೇಶ ಯೋಜನೆಗಳು",
+    "lead": "ಈ ದಾಖಲೆಯು ಐಎಟಿಎಫ್ ಮೂಲಕ ನಿರ್ವಹಿಸಲ್ಪಡುವ ಸಾರ್ವಜನಿಕ ಯೋಜನೆಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ. ಸ್ವೀಕೃತ ಪ್ರವೇಶಿಸುವಿಕೆ ಯೋಜನೆಗಳು, ಸೈಟ್ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಆರ್ಕೈವ್ ಮಾಡಲಾದ ಮೂಲಮಾದರಿಗಳನ್ನು ಇಲ್ಲಿ ಗೋಚರಿಸಲಾಗುತ್ತದೆ.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "ನೋಂದಾವಣೆ",
+      "title": "ಪ್ರಸ್ತುತ ನೋಂದಣಿ"
+    },
+    "intro": [
+      "ಸ್ವೀಕರಿಸಿದ ಯೋಜನೆಗಳನ್ನು ಪ್ರಕಟಿಸಿದ ನಂತರ ಇಲ್ಲಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "ಒಂದು ಅಗತ್ಯವನ್ನು ಸಲ್ಲಿಸಿ",
+      "title": "ಕಾಂಕ್ರೀಟ್ ಪ್ರವೇಶ ಅಗತ್ಯವನ್ನು ಸಾರ್ವಜನಿಕ ಯೋಜನೆಯಾಗಿ ಪರಿವರ್ತಿಸಿ"
+    },
+    "paragraphs": [
+      "ಐಎಟಿಎಫ್ ಉಪಯುಕ್ತ ಸಾರ್ವಜನಿಕ ಮುಕ್ತ ಮೂಲ ಕೃತಿಗಳಾಗಿ ಪರಿವರ್ತಿಸಬಹುದಾದ ಕಾಂಕ್ರೀಟ್ ಪ್ರವೇಶ ಅಗತ್ಯಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "ಇನ್ನೂ ಪ್ರಕಟಿತ ಯೋಜನೆಗಳಿಲ್ಲ",
+    "paragraphs": [
+      "ಐಎಟಿಎಫ್ ತನ್ನ ಮೊದಲ ಸಾರ್ವಜನಿಕ ಪ್ರಾಜೆಕ್ಟ್ ಸೆಟ್ ಅನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತಿದೆ.",
+      "ನೀವು ಒಂದು ನಿರ್ದಿಷ್ಟ ಪ್ರವೇಶ ಅಗತ್ಯವನ್ನು ಹೊಂದಿದ್ದರೆ ನೀವು ಇನ್ನೂ ವಿನಂತಿಯನ್ನು ಕಳುಹಿಸಬಹುದು."
+    ]
+  }
+}

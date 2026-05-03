@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "ಸೈಟ್ ನಕ್ಷೆ"
+  },
+  "hero": {
+    "eyebrow": "ಸೂಚ್ಯಂಕ",
+    "title": "ಸೈಟ್ ನಕ್ಷೆ",
+    "lead": "ಐ. ಎ. ಟಿ. ಎಫ್. ಸಿ. ಸಿ ಯ ಎಲ್ಲ ಸಾರ್ವಜನಿಕ ಪುಟಗಳು, ಒಂದೇ ಸ್ಥಳದಲ್ಲಿ."
+  },
+  "sections": [
+    {
+      "title": "ಮುಖ್ಯ ಪುಟಗಳು",
+      "items": [
+        {
+          "label": "ಮನೆ",
+          "href": "/"
+        },
+        {
+          "label": "ಯೋಜನೆಗಳು",
+          "href": "/projects/"
+        },
+        {
+          "label": "ಯೋಜನೆಯನ್ನು ವಿನಂತಿಸಿ",
+          "href": "/propose/"
+        },
+        {
+          "label": "ಆಡಳಿತ",
+          "href": "/governance/"
+        },
+        {
+          "label": "ಸೇರ್ಪಡೆ",
+          "href": "/join/"
+        },
+        {
+          "label": "ಲಭ್ಯತೆ",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "ಪಾರದರ್ಶಕತೆ",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "ಯೋಜನೆಗಳು",
+  "projectsEmpty": "ಇನ್ನೂ ಯಾವುದೇ ಯೋಜನೆಗಳನ್ನು ಪ್ರಕಟಿಸಲಾಗಿಲ್ಲ."
+}

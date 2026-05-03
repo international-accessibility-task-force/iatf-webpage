@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ಕಂಡುಬಂದಿಲ್ಲ"
+  },
+  "hero": {
+    "eyebrow": "ಕಂಡುಬಂದಿಲ್ಲ",
+    "title": "ಅಪೇಕ್ಷಿತ ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ",
+    "lead": "ಸಾರ್ವಜನಿಕ ಸ್ಥಳಕ್ಕೆ ಮರಳಲು ಕೆಳಗಿನ ಮುಖ್ಯ ಮಾರ್ಗಗಳನ್ನು ಬಳಸಿ.",
+    "support": [],
+    "actions": [
+      {
+        "label": "ಮನೆ",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ನೀವು ಕೋರಿರುವ ಮಾರ್ಗವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ."
+    ],
+    "items": [
+      {
+        "label": "ಮನೆ",
+        "href": "/"
+      },
+      {
+        "label": "ಯೋಜನೆಗಳು",
+        "href": "/projects/"
+      },
+      {
+        "label": "ಸೇರ್ಪಡೆ",
+        "href": "/join/"
+      },
+      {
+        "label": "ಲಭ್ಯತೆ",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ಆಡಳಿತ",
+        "href": "/governance/"
+      },
+      {
+        "label": "ಪಾರದರ್ಶಕತೆ",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
