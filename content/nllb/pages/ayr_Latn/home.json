@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Repos públicos ukanakar mantañapax wakisiwa",
+    "lead": "IATF ukax asociaciones, grupos, ukatx particulares ukanakaruw yanapt'i, chiqpach accesiblidad wakisitanakaruw proyectos públicos de código abierto ukar tukuyañataki.",
+    "support": [
+      "Proyectos aceptados ukanakax organizacion IATF GitHub ukan copyleft licencia ukamp uñt'ayatawa, ukatx mä ingeniero responsable ukax taqiniruw uñt'ayi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Modelo de funcionamiento público",
+      "title": "Software accesible ukatakix mä thakhiw utji"
+    },
+    "paragraphs": [
+      "Maynitix mä formulario tuqi IATF ukar mä problema de accesibilidad luqt'aspa, ukatx uka equipox yanapt'aspa ukhax mä repositorio público de GitHub ukaw jist'arata.",
+      "Sapa amtat proyectox mä suma uñt'at utaw utji código, cuestiones, documentación, ukatx lanzamientos ukanakataki, desarrollo ukax mä ingeniero responsable ukan irpatawa."
+    ],
+    "specCard": {
+      "title": "Modelo de funcionamiento público",
+      "terms": [
+        {
+          "term": "Wakisiri",
+          "definition": "Chiqpach jan walt'äwi"
+        },
+        {
+          "term": "Uñakipawi",
+          "definition": "Misión ukarjam sarnaqaña ukatx askinjam sarnaqayasiña"
+        },
+        {
+          "term": "Proyecto wakichaña",
+          "definition": "Repositorio público GitHub"
+        },
+        {
+          "term": "Tantachäwi",
+          "definition": "IATF organizacionan apnaqatapa"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Amtawinaka",
+      "title": "Kunjamsa lurasi",
+      "intro": "Uka modelox wali jisk'akiwa, ukatx thakhix jasak sarnaqañatakiwa."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Mä mayiwix uñstawayiwa",
+        "paragraphs": [
+          "Mä asociación, mä tama, jan ukax mä sapa jaqiw chiqpach accesiblidad ukxat mayt'asispa.",
+          "Mayt'äwinakax sitio web uksan qalltasispawa, correo electrónico uksana: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>jan ukax Ch'axwañ tuqi."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ukax uñakipt'iwa",
+        "paragraphs": [
+          "Irnaqäwipatx uñakipt'apxtanwa, kunjams apnaqasna, ukatx irnaqawix mä proyecto público de código abierto ukamp chikt'atati janicha."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Mä imañ utaw utjayasiwayi",
+        "paragraphs": [
+          "Mä proyectox katuqatächixa, IATF GitHub ukan mä licencia copyleft ukamp uñt'ayatawa.",
+          "Uka imañ utax código, cuestiones, documentación ukatx lanzamientos ukanakan utapawa."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Mä ingenierow uka proyecto sarayani",
+        "paragraphs": [
+          "Mä ingeniero responsable ukax aka archiviación del proyecto ukaruw utt'ayata, ukatx desarrollo ukax taqinin uñjkañaw lurasi."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Qillqaña",
+      "title": "Registro Público de Proyectos"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Aka chiqat qalltañäni.",
+      "title": "Jichha irnaqäwinaka uñakipañataki, jan ukax mä wakichäwi qalltañataki"
+    },
+    "paragraphs": [
+      "Registro apnaqäwimpix kunanakas uñt'ayasiwayki ukanak uñakipañataki, jan ukax mä problema concreta de accesibilidad ukax mä proyecto ukjamar tukxaspa ukhax mantañ qalltañamawa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

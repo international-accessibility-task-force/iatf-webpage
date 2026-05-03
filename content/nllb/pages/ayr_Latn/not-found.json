@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Janiwa jikxatata"
+  },
+  "hero": {
+    "eyebrow": "Janiwa jikxatata",
+    "title": "Mayt'at pajinx janiw jikxatatäkiti",
+    "lead": "Ukar kuttʼañatakejja, aka aynachankir jachʼa thakinakaruw sarañama.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Utar saraña",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Uka thakhix janiw utjkiti."
+    ],
+    "items": [
+      {
+        "label": "Utar saraña",
+        "href": "/"
+      },
+      {
+        "label": "Proyectos",
+        "href": "/projects/"
+      },
+      {
+        "label": "Chikancht'asiña",
+        "href": "/join/"
+      },
+      {
+        "label": "Sarnaqawinaka",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Marka apnaqaña",
+        "href": "/governance/"
+      },
+      {
+        "label": "Qhananchaña",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Qhananchaña",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Qhananchaña",
+    "lead": "IATF ukax taqinir uñt'atawa. Proyecto amtanaka, código mayjt'awinaka, gobernanza mayjt'äwinaka, ukatx costos operativos ukanakax taqin uñt'at chiqanakanw qillqantata. Aka pajinx kawkhantï sapa kasta qillqatanakax jakaski ukatx kunjams ullart'ataski ukwa uñt'ayi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Qillqatanaka",
+      "title": "Qellqatanakajj kawkinkkisa"
+    },
+    "items": [
+      "<strong>Proyecto amtanaka.</strong> Qullqi katuqaña, archivarayaña, ukatx mayamp jaysaña amtanakax qillqantatawa kunjamakitix jan ukax jaysuwinaka ukjamarakiwa, ukjamarak qillqatanakarjam qillqt'atarakiwa. <a href=\"/projects/\">qillqaña</a>¿ Kunatsa ukham sistanxa ?",
+      "<strong>Qellqatanak maytʼañäni.</strong> Public request records ukax IATF GitHub organizacionan, aka sitio web uksan, jan ukax paypachan ukankaskarakiwa. Records ukax sum amuyt'ayaspawa, redactaspawa jan ukax nayrïr mayt'äwix mayjt'ayarakispawa, ukhamat jan wakisiri k'ari yatiyäwinak uñakipañapataki. Discord decisions ukax mä proyecto jan ukax mä gobierno amta ukar jan walt'aykchi ukhax public record ukaruw sumpach uñt'ayataraki. Request records ukax janiw motor de búsqueda ukan indexados ukatak askikiti. View records: first publication request pending.",
+      "<strong>Códigox mayjt'ayatawa.</strong> Sapa código mayjt'äwix mä compromiso público ukjamarakiwa archivo uksanxa. <a href=\"{{contact.githubOrgUrl}}\">Organización GitHub</a>¿ Kunatsa ukham sistanxa ?",
+      "<strong>Marka apnaqäw mayjt'ayaña.</strong> Apnaqäwipa uñt'ayäwipaxa uñakipatarakiwa, kunjamati marka irpirinakax amtawinakaparu phuqhapki ukjamarjama. <code>IATF-an sitio web-aparu</code> Repositorio. Uñt'aña <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">qillqaña qillqata</a> aka GitHub ukankiwa.",
+      "<strong>Qullqi apnaqaña.</strong> IATF ukax juk'a qullqichäwimpiw apnaqi, ukatx sapa kutiw infraestructura pública uksan qullqichäwipax uñt'ayasi.",
+      "<strong>Yatiyawinaka.</strong> Aruskipt'at uñakipäwinakata jan ukax amtanakat qillqatanaka, GitHub ukan jakaskiwa. <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Aruskipäwinaka</a> uka tuqita <code>IATF-an sitio web-aparu</code> imañ uta."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Qullqi",
+      "title": "Qullqi apnaqañ qillqata"
+    },
+    "paragraphs": [
+      "IATF ukanx infraestructura pública ukax wali jisk'akiwa.",
+      "Aka qillqatax janiw mä cuenta financierjam uñakipatäkiti, jan ukasti mä registro público de costos de operación de la infraestructura IATF ukax línea ukankañapataki."
+    ],
+    "footnote": "Qullqi katuqawinakax uñicht'ayatarakispawa jan ukax uñt'ayatarakiwa.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Uraqita",
+            "value": "<code>IATF.CC</code>"
+          },
+          {
+            "label": "Qullqi",
+            "value": "USD 3.40"
+          },
+          {
+            "label": "Qillqatanaka",
+            "value": "Uka wakichäwix Vercel uksat Cloudflare ukaruw sarxäna ukatx juk'amp jisk'a wakichäw apnaqañ qalltäna. <code>IATF.CC</code> apnaqäwipa."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Uraqita",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Qullqi",
+            "value": "USD 18.68"
+          },
+          {
+            "label": "Qillqatanaka",
+            "value": "Tantachasiñ utax inak apnaqata jan ukax juk'a qullqimpiw apnaqata."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Uraqita",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Qullqi",
+            "value": "USD 17.06"
+          },
+          {
+            "label": "Qillqatanaka",
+            "value": "Dominio ukan qullqipax mugiwarafx ukan yanapt'atawa."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Uraqita",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Qullqi",
+            "value": "USD 14,76"
+          },
+          {
+            "label": "Qillqatanaka",
+            "value": "Tantachasiñ utax inak apnaqata jan ukax juk'a qullqimpiw apnaqata."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Uraqita",
+            "value": "<code>internacionalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Qullqi",
+            "value": "USD 7,76"
+          },
+          {
+            "label": "Qillqatanaka",
+            "value": "T'aqax mugiwarafx ukan qullqichatawa. Hosting ukax infraestructura de nivel libre jan ukax de bajo costo ukampiw apnaqata, GitHub Pages ukanw apnaqata."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Jisk'a qillqaña",
+      "title": "Kunas janiw markachirinakatakix askikiti"
+    },
+    "paragraphs": [
+      "Yaqhip yatiyawinakax janiw markachirinakan qillqatanakapankiti:"
+    ],
+    "items": [
+      "Mayt'asirinakamp jikthapt'asiñatak datos personales ukanaka.",
+      "Correspondencia privada ukax mä mayiwi qhanstayañatakiw apnaqata, janïr katuqatäkipana, jan katuqatäkasa, jan ukax sumpach qillqt'atäkipana.",
+      "Bibliat apstʼat qellqatanaka:",
+      "Kunatix mä sapa jaqiru yanapt'ir tecnología apnaqirir uñt'ayaspa jan munatapata.",
+      "Raw Discord aruskipawinaka, janitix mä yatiyäwix amtañamp mä jach'a wakichäw qillqatar aptatakchi ukaxa."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Juk'amp ullart'añataki",
+      "title": "Marka apnaqawixa aka qillqatanaka qhipäxanxa kamachi qillqatawa."
+    },
+    "paragraphs": [
+      "Kunjams proyectos ukanakax katuqata, archivado, jan ukax reasignado ukx amuyt'añ munstaxa, gobernanza uka qilqat ullart'am."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

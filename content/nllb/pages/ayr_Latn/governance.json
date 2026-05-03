@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Marka apnaqaña ukatxa imañ yänaka imaña",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Marka apnaqaña ukatxa imañ yänaka imaña",
+    "lead": "IATF ukax proyectos de accesibilidad públicos, legibles, ukat mantenibles ukanak utjayi.",
+    "support": [
+      "Aka pajinax kunanakas wakt'ayata, kunjams imañ utanakax apnaqata, ukat kuna lurawinakas imañ utanakana jaysatatx apnaqasiraki ukxatw qhanañchi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Kamachinaka",
+      "title": "Misión wakt'ayata, propiedad, licenciamiento"
+    },
+    "cards": [
+      {
+        "title": "Misión wakichata",
+        "paragraphs": [
+          "IATF ukax mä chiqpach barrera de accesibilidad ukamp jan walt'ayir irnaqawimpiw uñt'ayasi, ukatx wali askiw markachirinakar yanapt'añatakixa.",
+          "Mä proyectox mä sapa flujo de trabajo privado ukjamarak mä repositorio público ukjam irnaqañatakis askïñapawa.",
+          "Web ukar mantañatakix, IATF ukax [W3C WAI](https://www.w3.org/WAI/) Tecnologías de Asistencia uka apnaqirinakaxa, kunanakatixa chiqpachapuni apnaqapki ukanakaxa, uka pachparakiwa uñacht'ayapxi."
+        ]
+      },
+      {
+        "title": "Proyecto katuqaña",
+        "paragraphs": [
+          "Mä amtaw katuqasispa kunapachati uñakipäwix uñacht'ayaspa:"
+        ],
+        "items": [
+          "ukax chiqpach accesiblidad ukaruw yanapt'i.",
+          "Aka jan walt'äwix askiw amuyt'añataki.",
+          "kunaymana lurawinaka luraña.",
+          "Aka irnaqawix IATF uka wakichäwimpiw chikañchasi.",
+          "ukax mä aski thakhiw mantenimiento jan ukax tukt'ayañatak utji."
+        ]
+      },
+      {
+        "title": "Repositorio ukankaña",
+        "paragraphs": [
+          "Proyectos aceptados ukanakax IATF GitHub organización uksan luratawa.",
+          "Repositorios ukankapxi ukhamat sapa proyectox mä aski markachirinakan utanakapankañapataki, juk'amp qhipatx apnaqirinakax mayjt'ayasipkchi ukasa."
+        ]
+      },
+      {
+        "title": "Irnaqañ jaytasiña",
+        "paragraphs": [
+          "IATF proyectos ukanx licencias de copyleft ukanakaw apnaqata, janit mä proyectox yaqhax utjkan ukjaxa:"
+        ],
+        "items": [
+          "<strong>Qillqaña:</strong> AGPL-3.0",
+          "<strong>Qellqatanaka:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Ingeniero responsable jan ukax mantenimiento uk luriri",
+      "paragraphs": [
+        "Sapa amtat proyectox mä ingeniero responsable jan ukax mä mantenedor sutinchatañapawa. Uka jaqix administrador ukjamarak almacén ukar mantarakispawa, ukatx aka lurawinakaw wakisispa:"
+      ],
+      "items": [
+        "nayraru sartayaña.",
+        "imañ uta luraña",
+        "uñakipañani jan ukax apnaqañani ukat mayitanak apsuñani",
+        "wakiskir amtanak qillqaña.",
+        "kunjamtï yaqhanakax amuytʼañ munapki ukhamarjam luraña"
+      ],
+      "footnote": "Akax imañ utanakan irnaqatapawa. Organizaciónx IATF ukamp chikt'atawa. Aka lurawix imañ utanak apnaqañawa, directora técnica, ukat coordinación pública  janiw jan jark'ata entrega privada, integraciones personalizadas, jan ukax compromisos de nivel de servicio anqaxa mapa de ruta pública."
+    },
+    "publicDevelopment": {
+      "title": "Desarrollo público",
+      "paragraphs": [
+        "Proyectos lanzados a través de IATF se desarrollan en público por defecto. Uka imaña utaxa chiqa kankañankiwa:"
+      ],
+      "items": [
+        "código fuente",
+        "jan walt'äwinaka",
+        "qillqatanaka",
+        "mapa de ruta ukan qillqatanaka",
+        "Isturyanaka Aka tuqita Europa"
+      ],
+      "footnote": "Wali wakiskir yatiyawinakax janiw ch'axwäwinakan jan ukax inbox ukanakanik utjañapäkiti."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Publico qillqatanaka",
+      "title": "Pública mayt'äwi qillqatanaka"
+    },
+    "paragraphs": [
+      "IATF ukax markachirinakamp chikt'ataw irnaqi, ukatx web, correo electrónico, Discord, GitHub, jan ukax yaqha canales de la organización ukanakanw mayt'äwinakax uñt'ayataspa.",
+      "Mayt'äwix janiw chiqpach yatiyäwïkiti. IATF ukax mä mayt'äwiruw sumpach qillqt'aspa, jan ukax mayjt'ayarakispa, ukhamat jan wakisiri k'ari yatiyäwinak uñakipañataki.",
+      "Mayt'asiwinakax IATF GitHub organizacionan, aka sitio web uksan, jan ukax paypach tuqinw imantatäspa.",
+      "Janïr uñt'aykasaxa, IATF ukax jan wakisiri jikxatañ datos personales, dirección privada, ukatx tecnología de asistencia uka apnaqirinakaruw uñt'ayi, janitix qhanpach uñt'ayañax wakiskchi ukjaxa.",
+      "Discord ukax coordinación informal ukatakiw apnaqata. IATF ukax janiw discord aruskipawinakapx archiviaxiti, ukatx discord ukanw yatiyäwinakax imasi.",
+      "Mayt'äwi qillqatanakax janiw motor de búsqueda ukan indexados ukanakanx utjkaspati, kawkiritix técnicamente práctico ukjama.",
+      "IATF ukax askicht'aspawa jan ukax chhaqt'ayarakispawa, jan ukasti janiw kimsïr jaqina imatanakapa, yatiyawinaka, forks, screenshots, motoras de búsqueda, Discord, jan ukax yaqha sistemas externos ukanakata chhaqtayañaps arskiti.",
+      "Mä yatiyawix jan khitirus uñt'ayatakïchi ukaxa, janiw IATF ukan canal público ukanak tuqi apayasïtati."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Rollo organizacional",
+      "title": "Jïlir irpiri"
+    },
+    "lead": "Aka p'iqinchirix IATF uksanx mä organización uksan irpxarutapxiwa. Akax mä proyecto uksat mä ingeniero uksat yaqhachiwa: P'iqiñchirix organización uksatx taqiniruw irpxaruyi, janiw mä sapa almacén ukan sapür apnaqañapatakikiti.",
+    "duties": {
+      "title": "Kunanaktï uka sillajj lurki",
+      "items": [
+        "IATF GitHub wakichäwinx apnaqirin iyawsawinakap katxäsiña",
+        "Proyecto katuqaña ukat archivar amtanak phuqhaña",
+        "IATF uksan markachirinakamp aruskipt'ir p'iqt'irjam irnaqi",
+        "Sapa mara chhijllawimpiw chikañchasi."
+      ],
+      "footnote": "IATF ukan p'iqichiripax janiw khiti khiti irnaqañs ch'amancht'kiti, janiw payllat irnaqañsa, jan ukax irnaqañ amtanaksa phuqkiti, janirakiw kuna amtanakatix imañ utanakan uñjirinakapax amtanakaparu phuqhapki ukanakarux yäqkiti."
+    },
+    "election": {
+      "title": "Sapa mara chhijllawina",
+      "paragraphs": [
+        "Jilïr irpirirux maran mä kutiw chhijllapxi, chhijlläwix nayrïr pä simanaw jallu qallta phaxsin apasi, 15 uru saraqkipan saraqkipan phaxsinw uñstawinakax uñt'ayasi, ukatx machaq mandatox 1 uru chinuqa phaxsitw qalltani.",
+        "Mayni chhijllayasirix mä chhijllawi katuqi, maynitix mä marax mä IATF imañ utan mä p'iqinchirjam irnaqatayna ukhax mä kutiw uka marax mayacht'at yanapt'äwi katuqi.",
+        "Chhijlläwix mä GitHub Aruskipäwjamawa IATF apnaqañ imañ utanxa, ukjamat candidatos, voto, ukatx resultado ukanakax registro público uksankiwa."
+      ]
+    },
+    "continuity": {
+      "title": "Aruskipäwi",
+      "paragraphs": [
+        "Jan chhijlläwix mä maran utjkan ukaxa, jichha p'iqinchirix jutir chhijllawkamaw irnaqt'askakini. Akax mä suyt'äwiwa, janiw mä pachanïkiti  aka modelox organizacionarux jan walt'awinak utjkipanx ch'amanchañatakiw lurasi, janiw khiti jaqis wakicht'atäki uka turkakipañatakiti.",
+        "Sullka irpirix kuna pachas jaytjasispawa. Ch'amanchirinakax chhijllawinakar jawillt'apxarakispawa, kunalaykutix uka chhijlläwinakax sapa mara chhijllawinakarjamaw apasi."
+      ]
+    },
+    "current": {
+      "title": "Jichha irpiri",
+      "fields": [
+        {
+          "label": "Jïlir irpiri",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Aruskipäwi",
+          "value": "2026 jallu qallta phaxsin chhijlläwipkama"
+        },
+        {
+          "label": "Lurawinaka utt'ayaña",
+          "value": "2026"
+        },
+        {
+          "label": "Nayrïr chhijllaw wakichata",
+          "value": "2026 jallu qallta phaxsi"
+        }
+      ]
+    },
+    "footnote": "2026 maranw jilïr irpirjam utt'ayasiwayi, ukjamat organizacionan apnaqawipax juk'amp qhanstañapataki."
+  },
+  "continuity": {
+    "states": {
+      "title": "Proyecto ukan sarnaqäwipa",
+      "paragraphs": [
+        "Proyectos ukanakax mä jisk'a tama estado público apnaqapxi:"
+      ],
+      "items": [
+        "Propuesta",
+        "Katuqatäña",
+        "Ch'amanchata",
+        "Ch'amanchata",
+        "Yanapt'iri thaqhiri",
+        "Qhipa qillqatanaka"
+      ],
+      "footnote": "Aka estado ukanakanx registro ukax jasakiw uñakipañatakixa."
+    },
+    "reassignment": {
+      "title": "Machaq uñstayaña, archivarayaña",
+      "paragraphs": [
+        "Kunapachatï mä mantenedor ukax jaytjawayaspa jan ukax jan irnaqañ munkaspa, IATF ukax mayamp luraw churaspa, suyt'ayaspa, jan ukax archivararakispawa.",
+        "Mä wakichäwix archivataxaspawa kunapachati nayrïr mayiwix phuqhasiwayki, mantenimiento ukax sayt'awayi, jan ukax irnaqawinakax jan juk'amp sarantayatakiti."
+      ],
+      "footnote": "Proyectos archivados ukanakax taqin uñjkayakïskiwa, kunalaykutix jan wali amtax utjkan ukjaxa."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Jisk'a qillqaña",
+      "title": "Kuntix IATF ukax janiw arskiti"
+    },
+    "items": [
+      "markachirinakaru luqt'aña",
+      "Aruskipawinaka",
+      "taqi mayt'äwinakax katuqatäñapataki.",
+      "kunaymana wakichäwinaka jaya pacha uñjaña"
+    ],
+    "footnote": "IATF ukax mä modelo de repositorio público ukhamawa, janiw mä servicio privado ukhamakiti."
+  }
+}

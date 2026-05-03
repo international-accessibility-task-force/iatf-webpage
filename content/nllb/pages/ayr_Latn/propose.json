@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Mä proyecto de accesibilidad uk mayiña",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Mä proyecto de accesibilidad uk mayiña",
+    "lead": "IATF ukax proyectos de accesibilidad uka mayiwinakarux uñakiparakiwa, ukax chiqpach munasiwimpiw qallti.",
+    "support": [
+      "Janiw taqpach amuyunakar puriñax wakiskiti, jan ukasti, khitirus jan walt'ayki, kunatsa uk yatiñax wali wakiskirïki uka amuyumpiw qalltañama."
+    ],
+    "actions": [
+      {
+        "label": "Mayt'äwi qalltaña",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Jan ukasti Discord ukampi",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalanaka",
+      "title": "Jan chʼamäktan uka thakhi thaqhapjjañäni."
+    },
+    "intro": [
+      "Taqpach thakhix uka kipkarakiw uñakipatäni."
+    ],
+    "items": [
+      {
+        "label": "Sitio web",
+        "body": "Aka formularioruw mayt'añatak qillqt'añama."
+      },
+      {
+        "label": "Email tuqi",
+        "body": "Mayt'äwix akaruw apayañama: {{contact.requestsEmail}}Mayt'äwinakax correo electrónico tuqix mayt'äwix registro público ukaruw tukxaspa uñakipt'asa ukat qilqt'asa."
+      },
+      {
+        "label": "Ch'axwaña",
+        "body": "Ukawjaruw qalltañama, ukax juk'amp askiwa. Mayt'äwix pachp uñakipañaruw sarantaski."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Janïr mä solicitud apaykasaxa",
+    "paragraphs": [
+      "IATF ukax markachirinakaruw yanapt'i. Mayt'äwinakax sumpach qillqt'ata, ukatx markachirinakan mayt'äwipanw uñt'ayata, aka GitHub, aka sitio web, jan ukax paypach tuqinakansa.",
+      "Janirakiwa khitinakatixa yanapt'añataki tecnología apnaqapki ukanakaruxa jawst'apxamti, jan ukasti IATF ukana uñakipañapaxa wakisiwa.",
+      "IATF ukax jan wakiski uka jak'at uñt'añatak datos de contacto personales ukanak chhaqtayi, mayt'aw qillqatanak uñt'ayaña janïr qalltkasa."
+    ]
+  },
+  "review": {
+    "title": "Uñakipt'aw suyt'awinaka",
+    "paragraphs": [
+      "Mayt'äwix janiw katuqatäkaniti.",
+      "IATF ukax mayitanak uñakipawiyi kunjamti uka lurawix aski, wakisiri, askïki, ukatx mä archivor público ukankañapaki.",
+      "Yaqhip mayiwinakax jisk'achatäspawa, jaytjataspawa, jan ukax mayjt'ayatäspawa."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Wakichäwi mayt'äwi",
+      "title": "Mayt'äwi jaysaña"
+    },
+    "fields": [
+      {
+        "kind": "mantaña",
+        "name": "mayt'iri",
+        "label": "Sutipa, jan ukax tamachawipa",
+        "helper": "¿Khitis uka mayiwixa?"
+      },
+      {
+        "kind": "ajlliña",
+        "name": "ContactRoute (Jach'a thakhi)",
+        "label": "Nayraqat jak'achasiñ thakhi",
+        "helper": "¿Kunjämat uñakipañasa?",
+        "required": true,
+        "options": [
+          "Email tuqi",
+          "Ch'axwaña"
+        ]
+      },
+      {
+        "kind": "mantaña",
+        "name": "Tantachäwinaka",
+        "label": "Tantachäwinaka",
+        "helper": "Email jan ukax Discord uksan jak'achasiñataki.",
+        "placeholder": "Email jan ukax Discord sutinchata",
+        "required": true
+      },
+      {
+        "kind": "mantaña",
+        "name": "arusiña",
+        "label": "Arunaka",
+        "helper": "Munat arunakama, wakischi ukaxa.",
+        "value": "Aymar aru"
+      },
+      {
+        "kind": "qillqaña",
+        "name": "jan walt'awi",
+        "label": "¿Kuna jan waltʼäwis utjpacha?",
+        "helper": "¿Kuna jan waltʼäwinakas utji?",
+        "required": true
+      },
+      {
+        "kind": "qillqaña",
+        "name": "Usuarios afectados[trukaña _ chimp askichaña]",
+        "label": "¿Khitinakas uk istʼapjje?",
+        "helper": "¿Khitirus akax yanapt'aspa?",
+        "required": true
+      },
+      {
+        "kind": "qillqaña",
+        "name": "extraContext",
+        "label": "Juk'amp yatxatawinaka",
+        "helper": "Kunatix wakiski uk qhanañcht'añatak yanapt'i: kunats wakiski, uñacht'äwinaka, referencias, mä idea de software, jan ukax restricciones de tiempo."
+      },
+      {
+        "kind": "ajlliña",
+        "name": "OpenSourceConsent[trukaña _ chimp askichaña]",
+        "label": "¿Juk'a wakichäwimpix kusisitati?",
+        "helper": "Proyectos aceptados ukanakaxa repositorios públicos IATF ukankiwa.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Jïsa",
+          "Janiwa",
+          "Janiw yatiskti."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "katuqatächi ukjaxa.",
+      "title": "¿Kun sañs munpacha 'chʼamañchtʼatäña' sasajja?"
+    },
+    "items": [
+      "IATF GitHub ukan mä imañ uta.",
+      "mä ingeniero responsable wakichata proyecto ukaru",
+      "mä licencia copyleft para el código y materiales del proyecto",
+      "desarrollo público uka imañ utanxa",
+      "IATF ukan qillqata"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Aruskiptʼañ qalltaña",
+      "title": "Mä jisk'a mayiwix qalltañatakix askiwa."
+    },
+    "paragraphs": [
+      "Jumanakatix chiqpach accesiblidad munapstaxa, ukat amuyapxta ukax mä proyecto público ukjamäñapa, nanakar apayanipxita."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

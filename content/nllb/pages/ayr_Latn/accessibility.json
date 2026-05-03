@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Sarnaqawinaka",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Sarnaqawinaka",
+    "lead": "IATF ukan amtapax aka sitio web ukax jasaki, ullañjamaki, teclado ukamp jikxatañataki, ukat tecnología de asistencia ukamp chikañchaskañatakiwa.",
+    "support": [
+      "Web ukar mantañatakix, IATF ukax [W3C WAI](https://www.w3.org/WAI/) Ukax yanapt'ir tecnología apnaqirinakan direct experienciapamp yatiyatarakiwa."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Yatiyaña",
+      "title": "Mä jan walt ' aw utjatapat yatiyaña"
+    },
+    "paragraphs": [
+      "Aka sitio web ukanx kuna jan walt'awis utjchi ukhax yatiyanipxam aka email tuqi:",
+      "{{contact.accessibilityEmail}}",
+      "Aka yatiyäwinakaw yanaptʼistaspa:"
+    ],
+    "items": [
+      "kawkhantï jan walt'äwix utjkan uka pajinata",
+      "kun lurañatakis ch'amachasiskta,",
+      "kuna yanapt'ir tecnología, navegador, jan ukax aparato apnaqataxa, wakischi ukaxa",
+      "¿Kuna jan walinakas pasäna?",
+      "¿kunas yanaptʼistaspäna?"
+    ],
+    "footnote": "Janiw wakiskaspati mä informe oficial de errores qillqañaxa. Mä descripción clara ukax askipuniwa."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Apnaqaña",
+      "title": "Markachirinakan jan walt'awinakapa"
+    },
+    "paragraphs": [
+      "Jan walt'awinakax archivo público uksan sumpach uñakipatarakispawa, ukhamat jan walt'äwinakax qhanpach askichatañapataki.",
+      "Yatiyäwinakamatix jan khitirus uñt'añjamakchi ukaxa, yatiyäwinakamamp qhanañchapxam."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Jichha pacha",
+      "title": "Uñt'at jark'aqäwinaka"
+    },
+    "paragraphs": [
+      "Aka sitiox wali jisk'akiwa ukatx jilpachapinix janiw sayt'kiti. Yaqhip arunakanx jaqukipäwinakax janiw phuqhatakaspati."
+    ]
+  }
+}

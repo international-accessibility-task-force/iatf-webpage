@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Índice",
+    "title": "Sitemap",
+    "lead": "IATF.CC ukanx taqinir uñt'at qilqt'awinakaw mä chiqan utji."
+  },
+  "sections": [
+    {
+      "title": "Nayriri qillqatanaka",
+      "items": [
+        {
+          "label": "Utar saraña",
+          "href": "/"
+        },
+        {
+          "label": "Proyectos",
+          "href": "/projects/"
+        },
+        {
+          "label": "Mä proyecto mayiña",
+          "href": "/propose/"
+        },
+        {
+          "label": "Marka apnaqaña",
+          "href": "/governance/"
+        },
+        {
+          "label": "Chikancht'asiña",
+          "href": "/join/"
+        },
+        {
+          "label": "Sarnaqawinaka",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Qhananchaña",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Proyectos",
+  "projectsEmpty": "Janiw jichhakamax proyectox uñt'ayatakiti."
+}

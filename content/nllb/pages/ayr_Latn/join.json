@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "IATF ukan chikancht'asiña",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "IATF ukan chikancht'asiña",
+    "lead": "Chikancht ' asiñax jist ' arakiwa. Walja thakhinakaw chikanchasiñatak utji, tecnología de asistencia, software accesible lurasa, jaqukipasa, yant ' asa, jan ukax mä proyecto uñakipasa. Aruskipäwinakax ukat amtanakax GitHub ukat Discord ukanakanw qhanpach lurasi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Lurawinaka",
+      "title": "Kunjamsa yanaptʼsna"
+    },
+    "items": [
+      "<strong>Mä proyecto mayt'añäni.</strong> Jumatix mä barrera de accesibilidad jikxatasma ukax software público de código abierto ukamp askichataspawa, mayt'äwi katuqañ tuqiw apayama.",
+      "<strong>yant'asa uñakipasa.</strong> IATF proyectos ukamp yanapt'ir tecnología apnaqäwimp yant'ama, kunanakas irnaqki ukatx kunas jan irnaqki ukanak yatiyaña, ukat jan walt'äwinakax directos uksanak archivar apkataña.",
+      "<strong>Aymar aru jaqukipiri.</strong> Qhipïr qillqawinakax inglés arurakiw nayraqatax uñt'ayasi. jaqukipäwinakax juk'ampiw yapxatasi, kunjamakitix yanapt'asirinakaxa, español arut qalltasina.",
+      "<strong>Luraña.</strong> Mayni IATF imañ utanakan jan walt'awinak jikxataña, apsuñ mayiwinak apayaña, jan ukax mä wakichäw irpt'ir ingenierjam irptaña.",
+      "<strong>Arxatasiña.</strong> Yaqhip pachax mä machaq irnaqiriw utjañapa, kunalaykutix irnaqirinakan turkakipäwipax mä aski wakichäwiwa, janiw mä jan walt'awikiti."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanalanaka",
+      "title": "Kawkhantix IATF ukax markachirinakamp irnaqki"
+    },
+    "items": [
+      "<strong>GitHub ukankiwa.</strong> Issues, pull requests, releases, and project records. Qillqawinaka, wakichäwinaka.",
+      "<strong>Ch'axwañanaka.</strong> Aruskipäwinaka, aruskipañanaka, ukhamarak jiskt'awinaka.",
+      "<strong>Mä correo electrónico.</strong> Apnaqaña <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> GitHub jan ukax Discord ukax janiw askikiti."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Jutïr tʼaqa",
+      "title": "Kunjamti yanapt'añ munki ukjam chanel chhijllaña"
+    },
+    "paragraphs": [
+      "Taqpach canales ukanakax mayak uñakipata ukhamarak mayak archivos públicos uksanakankiwa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

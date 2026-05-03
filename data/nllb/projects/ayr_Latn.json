@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF ukan sitio web-pa",
+    "summary": "International Accessibility Task Force ukan uñt'ayäwipa.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ukax mä aski markachirinakan utapaw munasi, uka utax amuyt'ayaspawa, amtanak uñachayaspa, ukatx yanapt'asirinakaruw amuyt'ayaspa kunjams nayrar sartapxañapa.",
+    "why": "Aka sitio ukax IATF ukan punkupawa. Aka sitiox mä jisk'a proyecto estático ukjam lurt'atawa, ukatx jasak liyt'añataki, jaqukipañataki, ukhamarak uñjañataki.",
+    "scopeIn": [
+      "Páginas de aterrizaje públicas ukanakaxa IATF model ukwa qhanañchi",
+      "Registro público de proyectos de la IATF aceptados, activos y archivados, estado, mantenimiento, repositorio, y demostración ukanakampi",
+      "Mayt'äwi katuqaña página ukat formulario",
+      "Marka apnaqaña, qhana kankaña",
+      "Inglés arur jaqukipañatak wakichata",
+      "Cloudflare Workers Static Assets ukan wakichata wakichäwinaka"
+    ],
+    "scopeOut": [
+      "Áreas privadas de miembros, cuentas, o flujos de inicio de sesión ukanaka",
+      "Proyecto código fuente ukan utjäwipa, kunatixa sapa proyecto ukan imañ utanakapankiwa",
+      "Chiqpach pacha aruskipäwi, Discord uksan jakasiri",
+      "Proyectos individuales ukanakan jan walt'awinak uñch'ukiña, sapa proyecto ukan GitHub ukan imatanakapana"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Nayrïr IATF prototipo, archivado mä punto de parada natural ukar puritapatxa.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "IATF uksanx mä herramienta de accesibilidad ukamp nayratpach yatxatañ amtapxi.",
+    "why": "Repositorio ukax mä registro público ukjamapuniwa, kunawsatix desarrollo activo ukax suyt'awayk ukjaxa.",
+    "scopeIn": [
+      "Nayrïr prototipo de una herramienta enfocada en la accesibilidad, registrada como registro público"
+    ],
+    "scopeOut": [
+      "Wakichaña jani ukaxa luraña",
+      "Manq'añanak mayt'asïwi",
+      "Apnaqäwimp apnaqäwimp yanapt ' asiña"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF ukax",
+    "summary": "Mä IATF comunidad bot, archivado mä punto de parada natural ukar puritapatxa.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatización de los canales comunitarios IATF uksanakanxa.",
+    "why": "Repositorio ukax mä registro público ukjamapuniwa, kunawsatix desarrollo activo ukax suyt'awayk ukjaxa.",
+    "scopeIn": [
+      "Discord automation around IATF community channels, kept as a public record [Diversidad automática de discordías en torno a los canales de la comunidad de la IAATF, archivados públicamente]"
+    ],
+    "scopeOut": [
+      "Wakichaña jani ukaxa luraña",
+      "Manq'añanak mayt'asïwi",
+      "Apnaqäwimp apnaqäwimp yanapt ' asiña"
+    ]
+  }
+]

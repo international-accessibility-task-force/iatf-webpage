@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyectos de accesibilidad pública",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyectos de accesibilidad pública",
+    "lead": "Aka qillqataxa IATF taypi sarantayata proyectos públicos ukanaka uñicht'ayi. Aka qillqatanxa proyectos de accesibilidad aceptados, infraestructura del sitio, archivados prototipos ukanakaw uñjasi.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Qillqaña",
+      "title": "Jichha qillqatanaka"
+    },
+    "intro": [
+      "Aka wakichäwinakax mäkiw uñt'ayasiwayxi."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Mayt'asiña",
+      "title": "Mä proyecto público ukaruw mä necesidad concreta de accesibilidad ukar tukuyaña"
+    },
+    "paragraphs": [
+      "IATF ukax uñakipt'iwa kunaymana wakisiri accesiblidad ukanaka ukhamata yanapt'añataki."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Janiwa jichhakamax proyectos ukanakaxa uñt'ayatakiti",
+    "paragraphs": [
+      "IATF ukax nayrïr proyecto público wakicht'aski.",
+      "Juk'ampis mä mayt'äwi apayaskakismawa, kunalaykutix chiqpach jan walt'awinakas utjchi ukjaxa."
+    ]
+  }
+}
