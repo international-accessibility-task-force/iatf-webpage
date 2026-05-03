@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "കണ്ടെത്തിയില്ല"
+  },
+  "hero": {
+    "eyebrow": "കണ്ടെത്തിയില്ല",
+    "title": "അഭ്യർത്ഥിച്ച പേജ് കണ്ടെത്തിയില്ല",
+    "lead": "പൊതു സൈറ്റിലേക്ക് മടങ്ങുന്നതിന് താഴെ പറയുന്ന പ്രധാന റൂട്ടുകൾ ഉപയോഗിക്കുക.",
+    "support": [],
+    "actions": [
+      {
+        "label": "വീട്",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "നിങ്ങള് ചോദിച്ച റൂട്ട് നിലവിലില്ല."
+    ],
+    "items": [
+      {
+        "label": "വീട്",
+        "href": "/"
+      },
+      {
+        "label": "പദ്ധതികൾ",
+        "href": "/projects/"
+      },
+      {
+        "label": "ചേരുക",
+        "href": "/join/"
+      },
+      {
+        "label": "പ്രവേശനക്ഷമത",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "ഭരണസംവിധാനം",
+        "href": "/governance/"
+      },
+      {
+        "label": "സുതാര്യത",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

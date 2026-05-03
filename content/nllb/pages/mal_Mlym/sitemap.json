@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "സൈറ്റ് മാപ്പ്"
+  },
+  "hero": {
+    "eyebrow": "സൂചിക",
+    "title": "സൈറ്റ് മാപ്പ്",
+    "lead": "ഐ. എ. ടി. എഫ്. സി. സി യിലെ എല്ലാ പേജുകളും ഒരിടത്ത്."
+  },
+  "sections": [
+    {
+      "title": "പ്രധാന താളുകൾ",
+      "items": [
+        {
+          "label": "വീട്",
+          "href": "/"
+        },
+        {
+          "label": "പദ്ധതികൾ",
+          "href": "/projects/"
+        },
+        {
+          "label": "ഒരു പദ്ധതി ആവശ്യപ്പെടുക",
+          "href": "/propose/"
+        },
+        {
+          "label": "ഭരണസംവിധാനം",
+          "href": "/governance/"
+        },
+        {
+          "label": "ചേരുക",
+          "href": "/join/"
+        },
+        {
+          "label": "പ്രവേശനക്ഷമത",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "സുതാര്യത",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "പദ്ധതികൾ",
+  "projectsEmpty": "ഇതുവരെ പദ്ധതികളൊന്നും പ്രസിദ്ധീകരിച്ചിട്ടില്ല."
+}
