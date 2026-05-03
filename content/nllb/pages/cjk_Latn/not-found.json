@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Kakwapwile"
+  },
+  "hero": {
+    "eyebrow": "Kakwapwile",
+    "title": "Chihanda chize walizanga hiwachiwana",
+    "lead": "Kuzachisa jila yayinene yize yili mwishi hanga muhete ku chihela cha mbunga.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Kuzuvo",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Jila yize unazange kuyula kuyishiho."
+    ],
+    "items": [
+      {
+        "label": "Kuzuvo",
+        "href": "/"
+      },
+      {
+        "label": "Yikungululo",
+        "href": "/projects/"
+      },
+      {
+        "label": "Kulikata",
+        "href": "/join/"
+      },
+      {
+        "label": "Kutachikiza",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Usongwelo",
+        "href": "/governance/"
+      },
+      {
+        "label": "Kutachikiza",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

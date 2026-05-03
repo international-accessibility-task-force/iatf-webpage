@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Kulembelela umwe mulimo wa kukundama ku yikungululo",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Kulembelela umwe mulimo wa kukundama ku yikungululo",
+    "lead": "IATF kakuhehwojola yipikalo ya milimo ya kukundama yize yafuma ha usona wa umwenemwene.",
+    "support": [
+      "Kutachikiza kanawa ukalu wacho, ni yoze unakapinjisa, ni mumu liaka chili chilemu, chili wika chitangu."
+    ],
+    "actions": [
+      {
+        "label": "Putuka ni kuhula",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Kuzachisa Discord ha chihela chacho",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Yikungululo",
+      "title": "Sakula jila yipema"
+    },
+    "intro": [
+      "Jijila josena jeji kupwanga mu mukanda umuwika."
+    ],
+    "items": [
+      {
+        "label": "Site web",
+        "body": "Kuzachisa fomu yize yili ha kusula hanga uhanjike mukanda."
+      },
+      {
+        "label": "E-mail",
+        "body": "Tumina yihula yacho kuli: {{contact.requestsEmail}}Yihula ya ku email muyihasa kupwa yisoneko ya kuyula ya mbunga ha kupwa kuyinyonga ni kuyisoneka."
+      },
+      {
+        "label": "Kulipika",
+        "body": "Ha kuputuka kuli iye, nyi chino chili chashi."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Shimbu kanda utuma mukanda",
+    "paragraphs": [
+      "IATF yakulingila ku mbunga ya atu eswe.",
+      "Kanda kuhanjikanga ma adresi, ni nambala ja telefone, ni sango ja yikola, hanji sango jize jakukwasa kunyingika mutu yoze wakuzachisa makina ja kukwasa, ndo muze muchikukwasa, nawa nyi mutachikijila ngwo IATF muyikuhengwola.",
+      "IATF kakuchiza yinyingi ya usongwelo wa atu yize kuyishi ni ulemu shimbu kanda asonekene mikanda ya yiyulo."
+    ]
+  },
+  "review": {
+    "title": "Kuhehwojola yize atu anashimbwila",
+    "paragraphs": [
+      "Kuheta chihula kuchikiko kuchineha chiyulo.",
+      "IATF kakuhehwojola yipikalo ya mulimo wacho, ni kunyingika nyi mulimo wacho uli ni ulemu, ni nyi muulo wa milimo yacho uli ha chihela cha atu.",
+      "Yihula yimwe muyihasa kuyakana, kuyinunga hanji kuyilumuna shimbu kanda ayifwe."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Fomu ya kulilomba",
+      "title": "Kuheta chihula"
+    },
+    "fields": [
+      {
+        "kind": "Kufwika",
+        "name": "mukwa-kulemba",
+        "label": "Jina lie hanji ululikiso we",
+        "helper": "Iya analinga chihula chacho?"
+      },
+      {
+        "kind": "kusakula",
+        "name": "Linjila lia kukundama",
+        "label": "Jila ya kukundama yize anazange",
+        "helper": "Kuchi muwatamba kulilongesa?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Kulipika"
+        ]
+      },
+      {
+        "kind": "Kufwika",
+        "name": "Yuma ya kulita ni atu",
+        "label": "Yuma ya kulita ni atu",
+        "helper": "Adresi ya e-mail hanji jina lia Discord hanga ulondeze.",
+        "placeholder": "Adresi ya E-mail hanji jina lia Discord",
+        "required": true
+      },
+      {
+        "kind": "Kufwika",
+        "name": "malimi",
+        "label": "Kuhanjika lilimi",
+        "helper": "Lilimi lize unazange, nyi chili ni ulemu.",
+        "value": "Chingelezi"
+      },
+      {
+        "kind": "Chihela cha maliji",
+        "name": "yipikalu",
+        "label": "Yipikalo yika yena unazange kukumbulula?",
+        "helper": "Lumbununenu chinjikizo chacho mu malimi apema.",
+        "required": true
+      },
+      {
+        "kind": "Chihela cha maliji",
+        "name": "Akwa-kuzachisa waze akupiha",
+        "label": "Iya ayo akupihisa?",
+        "helper": "Iya chino muchikukwasa?",
+        "required": true
+      },
+      {
+        "kind": "Chihela cha maliji",
+        "name": "extraContext",
+        "label": "Yuma Yikwo",
+        "helper": "Hanjikenu yuma yikwo yize muyihasa kulumbunuka usolo wacho: mumu liaka chili chilemu, yilweza, yikuma yize muyisolola, manyonga apema a software, hanji ha mashimbu akusa."
+      },
+      {
+        "kind": "kusakula",
+        "name": "openSourceConsent",
+        "label": "Kutala unanyingika kanawa mulimo wakulongesa Mbimbiliya?",
+        "helper": "Yikungulwila yize akutayiza yinapu yikungulwila ya mbunga ya IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Chochene",
+          "Ka",
+          "Kangwapwile ni shindakenyo."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Nyi mamutambula",
+      "title": "Yika kutayiza chinalumbunuka"
+    },
+    "items": [
+      "Chizuvo cha atu eswe mu ululikiso wa IATF GitHub",
+      "mukwa-kusongwela yoze wakwata mulimo wa mulimo wacho",
+      "License ya copyleft ya code ni yikuma ya mulimo",
+      "Yikungululo ya usongwelo wa atu ha chijimbikilo",
+      "chijimbikilo mu site ya IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Putuka ni kuhanjika",
+      "title": "Chihula chichindende chize chinasoloka chinapema hanga uputuke"
+    },
+    "paragraphs": [
+      "Nyi uli ni ushindakenyo wamwenemwene ha uputukilo ni kunyonga ngwo muwatamba kupwa mulimo wa mbunga, tutumikine sango liacho."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

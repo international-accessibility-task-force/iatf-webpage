@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Yikungulwila ya kuyikwasa kuli atu eswe",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Yikungulwila ya kuyikwasa kuli atu eswe",
+    "lead": "Chisoneka chino chinasolola milimo ya mbunga yize akufunga ha mukunda wa IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kulemba",
+      "title": "Kulemba cha musono"
+    },
+    "intro": [
+      "Yikungulwila yize te akutayiza yinasoneka hano muze te akuyisolola."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Kuhanjika yize unazange",
+      "title": "Kuhinjika ushindakenyo wamwenemwene wa kukundama kupwa mulimo wa mbunga"
+    },
+    "paragraphs": [
+      "IATF kakuhehwojola yuma yipema yize muyihasa kwalumuka hanga yipwe mulimo upema wa atu eswe."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Kukushi hanji mikanda yize anafupulula",
+    "paragraphs": [
+      "IATF yinalongesa sango liacho lia uputukilo.",
+      "Unahase nawa kutuma mukanda nge uli navyuma vyakulisezaseza."
+    ]
+  }
+}

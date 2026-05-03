@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Kutachikiza",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Kutachikiza",
+    "lead": "IATF yinazange hanga site yino yipwe yipema, ni kutanga kanawa, ni kuyitanga ni makina a kusoneka mikanda, ni kuyihasa kuli akwo waze akwasa.",
+    "support": [
+      "IATF kakuzachisa Internet hanga atu ahase kuliwana. [W3C WAI](https://www.w3.org/WAI/) Kutachikiza kanawa vyuma kana cheji kufumanga muvyuma veji kumonanga vatu vaze veji kuzachisanga vyuma kana."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Kuhanjika",
+      "title": "Kuhanjikanga ha mulonga wa kutwama mu chihela chacho"
+    },
+    "paragraphs": [
+      "Nyi muwanyine chimwe chuma chize chinalumbunuka site yino, yinyingikenu ha email:",
+      "{{contact.accessibilityEmail}}",
+      "Yikuma yipema yize muyihasa kulilongesa yili:"
+    ],
+    "items": [
+      "Chihanda haze te mulonga unalingiwa",
+      "Yuma yize wapwile ni kulinga",
+      "Yuma yize wakukwasa, browser, hanji makina yize wakukalakala nayo, nyi chili ni ulemu",
+      "Yika yalingiwile?",
+      "Yika te muyikukwasa?"
+    ],
+    "footnote": "Kukushi ni usona wa kusoneka sango lia uhenge."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Kulamika",
+      "title": "Kulamwina yuma ya mbunga"
+    },
+    "paragraphs": [
+      "Yuma ya kusonekena yinahase kukundwizwa mu repository ya mbunga hanga ayo ahase kuyilungisa ha ufwatulo.Yuma ya usonekeno wa mutu ni sango ja usoko jize kuushi ni usona jize anafwisa shimbu kanda asonekene.",
+      "Nyi ha sango je muli ni sango ja usoko, hanjika kanawa mu sango liacho."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Chize chiliho haliapwila",
+      "title": "Yikuma yize kuyishiwako"
+    },
+    "paragraphs": [
+      "Sete yino yinashimbwila hanga yipwe yihehe nawa ku yikuma yinji, alioze yikuma yacho mu malimi amwe muyihasa kupwa hi yakumanunuka ha mashimbu waze akuyifupulula."
+    ]
+  }
+}

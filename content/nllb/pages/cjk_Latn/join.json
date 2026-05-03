@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Kulikata ni IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Kulikata ni IATF",
+    "lead": "Kulikata chili cha patoka. Kuli jila jinji jize muhasa kukundama, chipwe unashimbwila ha makina akuzachisa, ni kutunga software, ni kwalumuna, ni kupima, hanji kukalakala ni chimwe mulimo. Kuhanjika ni yiyulo yinalingiwa mu mbunga ha GitHub ni Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Milimo",
+      "title": "Jijila jakuhanyinamo"
+    },
+    "items": [
+      "<strong>Lomba umwe mulimo.</strong> Nyi muwanyine yimwe milonga yize muyihasa kuyikwasa ku yikungulwila ya software ya mbunga, yinyingikenu mu mukanda.",
+      "<strong>Kuhehwojola ni kuhitulula.</strong> Nyingikenu milimo ya IATF yize muli nakuzachisa, ni kulweza yize yinakalakala ni yize kuyishi, ni kusoneka yipikalo ha chihela chilemu.",
+      "<strong>Kuhalumuna.</strong> Chisoneko cha maliji akuputuka chinasoloka ha lilimi lia Kingeleshi, ni kulumbununa maliji ha mashimbu waze akwa-kuzachisa maliji akulingiwa, kuputuka ni maliji a mu Espanyole.",
+      "<strong>Kutunga.</strong> Kuheta milonga mu chihela cheswe cha IATF, kutuma yipikalo ya kuheta, hanji kuheta mulimo ngwe mukwa-kunyonga.",
+      "<strong>Shimbulululenu.</strong> Milimo yize yiliho ha mashimbu akwo yinafupiwa mukwa-kuwahisa mukwo."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Yikungululo",
+      "title": "Haze IATF yakulingi milimo mu mbunga"
+    },
+    "items": [
+      "<strong>Ku GitHub.</strong> Yipikalo, yipikalo ya kulita, ni yisoneko ya mulimo.",
+      "<strong>Yipikalo.</strong> Hakushimutwila, ni kulilongesa, ni kuhula chipi ni chipema.",
+      "<strong>Kutuma email.</strong> Kuzachisa <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> Nyi GitHub hanji Discord kuyikwama."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Chihanda Chakulutwe",
+      "title": "Sakula jila yize muyilita ni chize unazange kuhana"
+    },
+    "paragraphs": [
+      "Jijila josena jakuhanyinamo sango jize akuzachisa jili mu site yimwe yize akuzachisa."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

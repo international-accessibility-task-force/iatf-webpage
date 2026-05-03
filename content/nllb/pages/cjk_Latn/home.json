@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Kukatuka ku usongwelo wa kutwama ku mikanda ya kuyula ya mbunga",
+    "lead": "IATF yakukwasa yikungululo, ni atu eswe hanga apwe ni yipikalo yipema ya kuwana mikanda.",
+    "support": [
+      "Milimo yize akutayiza yinasoloka mu chizavu cha GitHub cha IATF ku mukunda wa chilolezo cha copyleft, nawa yinasolola ku mbunga kuli injinia yoze wakutayiza."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Chilongesa cha kuyula cha wanangana",
+      "title": "Jila yipema ya software yize atu mahasa kutambula"
+    },
+    "paragraphs": [
+      "Mutu mweswe mahasa kuhana mulonga ku IATF ku mukunda wa formulaire.",
+      "Chishina cheswe chize akutayiza chakupwa ni chihela cha atu eswe chize chakwata ha code, yuma, mikanda, ni yikuma yize akulita, ni chitukuko chize chakusongwela kuli injinia yoze wakwata mulimo wacho."
+    ],
+    "specCard": {
+      "title": "Chilongesa cha kuyula cha wanangana",
+      "terms": [
+        {
+          "term": "Kufupiwa",
+          "definition": "Ukalu wamwenemwene wa kuheta"
+        },
+        {
+          "term": "Kuhengwola",
+          "definition": "Kulita ni mulimo wa mulimo wacho ni kupwa cha mulimo wacho"
+        },
+        {
+          "term": "Chihela cha mulimo",
+          "definition": "Chitanda cha GitHub cha atu eswe"
+        },
+        {
+          "term": "Kufunga",
+          "definition": "Ulemu wa ululikiso wa IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Kulinga",
+      "title": "Kuchi yakulingiwa",
+      "intro": "Muvwimbimbi kana wapwa wamundende chikuma, ngocho kachapwa chachikalu kulondezeza jila yize vatu veji kuzachisanga."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Yuma yize anafupila",
+        "paragraphs": [
+          "Chizavu, chizavu cha atu, hanji mutu ni mutu mahasa kuhana chihula chize chili ni ushindakenyo umuwika.",
+          "Yipikalo muyihasa kuputuka ha site, ha email kuli: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, hanji ku yitanga ya Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF yakutuhengwola",
+        "paragraphs": [
+          "Twakutayiza mulimo wacho, ni yize muuhasa kulinga, ni kunyingika nyi mulimo wacho uli mu mulimo wa atu eswe."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Kutachika chijimbikilo cha atu eswe",
+        "paragraphs": [
+          "Nyi umwe mulimo muwatambula, muwasoneka mu ululikiso wa GitHub wa IATF ku mukunda wa chilolezo cha copyleft.",
+          "Chizuvo chacho chinapu chizuvo cha mbunga, yikuma, ni mikanda."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Injinia yoze watwama ni usongwelo kakusongwela mulimo wacho",
+        "paragraphs": [
+          "Mutu yoze wakulipika ni mulimo wacho kakuwahisa ha chihela cha mulimo wacho, nawa mulimo wacho wakuwahisa unalingiwa ha mbunga ya atu."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Kulemba",
+      "title": "Kulemba cha milimo ya mbunga"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Putuka hano",
+      "title": "Kuhehwojola milimo yize uli nayo hanji kuputuka mulimo umuwika"
+    },
+    "paragraphs": [
+      "Zachisa lijililo hanga unyingike yuma yize yili ya mbunga, hanji uputuke ni kuhengwojola nyi upikalo umuwika unateli kupwa mulimo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

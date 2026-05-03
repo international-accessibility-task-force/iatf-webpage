@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Sango lia IATF",
+    "summary": "Site ya atu eswe ya International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF yapwile ni usongwelo upema wa atu waze te akulumbunwina yitanga yacho, ni kulumbununa yipwo, ni kusolola waze akwasa hanga alinge yuma yipema.",
+    "why": "Chihela chacho chili chihela cha IATF chize chakutwama ha chikungulwila cha atu.",
+    "scopeIn": [
+      "Mapaji akutayiza atu waze akulumbununa chizavu cha IATF",
+      "Chisoneko cha atu waze akutayiza mulimo wa IATF, ni waze akuwahisa, ni yuma yize ali nayo, ni yoze wakuwahisa mulimo wacho, ni chuma chize akuyisongwela, ni yize akuyisolola",
+      "Peji ni fomu ya kukumba ha kukumba",
+      "Yikuma ya kuyula ni yinyingi",
+      "Chisoneko cha mu Chingelezi chili ni usongwelo uze unashimbwila ha kulumbunuka",
+      "Kuhinjika ha Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Yikungululo ya waze akulianga, yikungululo, hanji yitanga ya kuyiluka",
+      "Kuwahisa code ya project, yize yatwama mu repository ya project yeswe",
+      "Kuhanjikanga ha mashimbu amwenemwene, chize chinatwama mu Discord",
+      "Kutachikiza milonga ya mutu ni mutu, yize yatwama mu chitanda cha milimo yeswe ha GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "Chisoneko cha IATF cha shimbu lieswe, chize chafwika muze chahete ha chihela chize te akuhwima.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Kuhehwojola chakulivanga cha chishina chakuzachisa chize nachisolola kanawa kulema chakutambukila mu chihela cha IATF.",
+    "why": "Chijimbikilo chacho chakupwa cha atu eswe, chipwe ngwe mulimo wakulongesa te unakatuka.",
+    "scopeIn": [
+      "Muvwimbimbi wakulivanga wachinoma chakuzachisa hakutohwesa mikanda"
+    ],
+    "scopeOut": [
+      "Kuzachisa kanawa mikanda",
+      "Yikungululo",
+      "Kuzachisa chize anafunge hanga atunge"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Chizavu cha IATF",
+    "summary": "Bot ya chikungulwila cha IATF, yakufwika muze yahetele ha chihela chize te akuhwima.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kutachikiza kanawa milimo ya IATF.",
+    "why": "Chijimbikilo chacho chakupwa cha atu eswe, chipwe ngwe mulimo wakulongesa te unakatuka.",
+    "scopeIn": [
+      "Kuhona kulizanga ha mitango ya IATF, ni kuyitunga ngwe mikanda ya mbunga"
+    ],
+    "scopeOut": [
+      "Kuzachisa kanawa mikanda",
+      "Yikungululo",
+      "Kuzachisa chize anafunge hanga atunge"
+    ]
+  }
+]

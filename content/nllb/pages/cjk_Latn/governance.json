@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Kuyula ni kusoneka sango jipema",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Kuyula ni kusoneka sango jipema",
+    "lead": "IATF yakutwama ni mulimo wakulongesa atu yize muyihasa kuputuka kuyitanga, kuyitanga kanawa, ni kuyilongesa kanawa.",
+    "support": [
+      "Chihanda chino chinalumbununa yuma yize yakupinjisa, chize yikungululo ya mikanda yakupwa, ni ulite uze wakupwa ha chihanda cha mikanda yakutambula ha kupwa kwa kuyitayiza."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Shimbi",
+      "title": "Kulita ni mulimo, ulite, kuhana ma lisenzi"
+    },
+    "cards": [
+      {
+        "title": "Kulita ni mulimo wacho",
+        "paragraphs": [
+          "IATF yakutambula milimo yize yakukwasa kukwasa akwa-kuzachisa mikanda, nawa yize yili ni ulemu unji kuli atu.",
+          "Chilongesa chacho chatamba kupwa ni ulemu unji, hi kulifwika wika ha mulimo wa mutu umuwika ko, alioze chatamba nawa kupwa ni uhashi wa kukalakala ngwe chijimbikilo cha sango jipema.",
+          "IATF kakuzachisa Internet hanga atu ahase kuliwana. [W3C WAI](https://www.w3.org/WAI/) Yuma yize akuzachisa yitekinoloji ya kukwasa nayo yinasolola yuma yize yakupwa ni yiwape ku mwono wa atu."
+        ]
+      },
+      {
+        "title": "Kutayiza mulimo",
+        "paragraphs": [
+          "Kuhehwojola chinahase kutesamo mukanda nyi kulilongesa linasolola ngwo:"
+        ],
+        "items": [
+          "chinasolola usona wamwenemwene wa kukundama ku yikungululo",
+          "Chuma chacho chinasoloka kanawa hanga unalumbunune",
+          "Shimbi yacho yili ya umwenemwene hanga yitangule",
+          "mulimo wacho unalinunga ni mulimo wa IATF",
+          "kuli jila yipema yakulamwina hanji kukumanununa"
+        ]
+      },
+      {
+        "title": "Wanangana wa repository",
+        "paragraphs": [
+          "Milimo yize akutayiza yakutunga ha chizavu cha GitHub cha IATF.",
+          "Akwa-kusoneka mikanda kakutwama ha chihela chacho, mba mulimo weswe unashimbwila chihela cha mbunga, chipwe ngwe mukwa-kuyisongwela mahasa kwalumuka kulutwe lia matangwa."
+        ]
+      },
+      {
+        "title": "Kuhana License",
+        "paragraphs": [
+          "Yikungululo ya IATF kakuzachisa mikanda ya copyleft, ndo muze yikungululo yinasolola yuma yikwo:"
+        ],
+        "items": [
+          "<strong>Chisoneko:</strong> AGPL-3.0",
+          "<strong>Chisoneko:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Mwinjinia hanji mukwa-kufunga yoze watwama ni mulimo wacho",
+      "paragraphs": [
+        "Sango lieswe waze akutayiza katamba kupwa ni mukwa-kusongwela hanji mukwa kukwasa. Mutu wacho mahasa kutambula usongwelo wa kuyula chijimbikilo chacho nawa atamba:"
+      ],
+      "items": [
+        "kutungulula mikanda mu mbunga",
+        "kutwama ni usongwelo wa yikungululo ya mikanda",
+        "Kuhehwojola hanji kuyula yipikalo ni kukoka yiyulo",
+        "kusoneka yiyulo yilemu ya ku shikola",
+        "hanga akwetu anyingike kanawa mulimo wacho"
+      ],
+      "footnote": "Chuma chino chili ha chihanda cha repository. Chihanda cha ululikiso chinatwama kuli IATF."
+    },
+    "publicDevelopment": {
+      "title": "Kuhema cha mbunga",
+      "paragraphs": [
+        "Milimo yize akuputula ku IATF yakulingiwa mu mbunga ya atu eswe."
+      ],
+      "items": [
+        "Muvwimbimbi wamulikulukaji",
+        "Yipikalo",
+        "mikanda",
+        "Kutachikiza cha mapa ya njila",
+        "Kulovoka cha shimbu lieswe"
+      ],
+      "footnote": "Chinyingi chilemu cha mulimo wacho kuchatamba kupwa wika mu mashimbu a kwambujola hanji mu inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Mikanda ya mbunga",
+      "title": "Yisoneko ya yihula ya mbunga"
+    },
+    "paragraphs": [
+      "IATF yinakalakala mu chihela cha atu eswe. Kulemba chize chinayiza mu chihanda chacho ha site, ha email, ha Discord, ha GitHub, hanji ha yikungululo yikwo ya chihela chacho muyihasa kupwa yisoneko ya mutu eswe.",
+      "IATF yinahase kuhwisa, hanji kuhwisa mukanda shimbu kanda asonekene, hanga asolole hanji ahone kuhwisa sango jize anazange hanga atu anyingike.",
+      "Yisoneko ya yipikalo ya mbunga muyihasa kupandama mu ululikiso wa IATF GitHub, ha site yino, hanji ha yiteli yino yisatu.",
+      "Shimbu kanda asonekene mikanda yacho, IATF yakusa mikanda yize kuyishi ni ulemu, ni address ja mutu, ni mikanda yize yakulumbunuka atu waze akuzachisa makina a kukwasa, ndo muze kuyisonekena kuyishi kanawa ni ulemu.",
+      "IATF kayeshi kusoneka kanawa sango ja Discord, alioze Discord kayeshi kukwata sango jize anahanjikanga.",
+      "Kuzachisa jina lia umwe mutu mu makina ya kuhengwola kachapwa ni ulemu kuli akwa-kufupila.",
+      "IATF muyihasa kuhwisa hanji kuchiza yikuma ku yikuma ya mbunga yize iye akuyula, alioze kuyishi kuhasa kuhwisa yikuma yacho ku yikwama ya atu a mu chikungulwila, ku notices, ku forks, ku screenshots, ku search engines, ku Discord, hanji ku yikungulwila yikwo.",
+      "Nyi sango yinatela kupwa ya usoko, kanda uyitumisa ku maswalale a mbunga ya IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Mulimo wa ululikiso",
+      "title": "Chilongesa"
+    },
+    "lead": "Mutu yoze watwama ku chihela chacho, kali ni uhashi wa kuyula IATF ha chihela cheswe, alioze kali ni mulimo wa kulilongesa ha mulimo weswe: mutu wacho kakulipika ni ululikiso weswe, hi kuyula ha tangwa ni tangwa lia mikanda ko.",
+    "duties": {
+      "title": "Yika chiteli chakulinga",
+      "items": [
+        "Yikwete yiyulo ya mwenyi mu ululikiso wa IATF GitHub",
+        "Kutachika ha yiyulo ya kutayiza mulimo ni kusoneka mikanda",
+        "Yikweta mulimo wa kupwa mutu yoze akulita ni atu a IATF",
+        "Kakusongwela kusakula cha ha mwaka ha mwaka"
+      ],
+      "footnote": "Mutu yoze watwama ku chihela chacho keshi kuhana shimbi kuli IATF hanga ahane mikanda kuli atu, ni kulifweta milimo, hanji kukwata tumikanda twa mulimo, nawa keshi kuyula yiyulo ya mutu yoze wakwata ha chihela cheswacho hakutwala ku usongwelo wa tekinolojia."
+    },
+    "election": {
+      "title": "Kusakula cha ha mwaka ha mwaka",
+      "paragraphs": [
+        "Chizavu chacho chakusakula ha mwaka umuwika, ha mashimbu a tukweji aali atangu a kakweji wa Dezembro, ni kumeneka cha yitanga yacho ha tangwa lia 15 ya Dezembro, ha kuputuka cha mulimo wacho ha 1 ya Jeneiro.",
+        "Akwa-kuvota waze atamba kuvota, kali waze akwete mulimo wa kutwama ha chizuwo cheswe cha IATF ha mwaka uze, nawa hanenge umwe mu mwaka uze. Mutu mweswe yoze atamba kufupa, kali ni liji limwe.",
+        "Kusakula chacho chinalingiwa ngwe chiwanyino cha mbunga ya GitHub ha chiwanyiso cha usongwelo wa IATF, kashika akwa-kusakula, ni kuvota, ni yitangiwa yeswe yili mu mikanda ya mbunga."
+      ]
+    },
+    "continuity": {
+      "title": "Kulitwamina",
+      "paragraphs": [
+        "Nyi kukushi kusakula umwe mwaka, mukwa-kuyula yoze uliho ha shimbu liacho kakutwama ha mulimo wacho ndo ha kusakula cha mwaka uze uliho.",
+        "Mutu yoze watwama mu chihela chacho mahasa kuhiluka ha shimbu lieswe."
+      ]
+    },
+    "current": {
+      "title": "Chizavu cha atu ha mashimbu wano",
+      "fields": [
+        {
+          "label": "Chilongesa",
+          "value": "mukuwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Shimbu",
+          "value": "Hanga ha kusakula cha Desemba 2026"
+        },
+        {
+          "label": "Mulimo wakulinga",
+          "value": "2026"
+        },
+        {
+          "label": "Chalumingo chitangu cha kusakula",
+          "value": "Kakweji wa Dezembro 2026"
+        }
+      ]
+    },
+    "footnote": "Kuheta mu mwaka wa 2026, mulimo wa kupwa mukulwane wa chikungulwila waputukile, mba usongwelo wa yikungulwila unyingike kanawa."
+  },
+  "continuity": {
+    "states": {
+      "title": "Yikuma ya mulimo",
+      "paragraphs": [
+        "Akwa-kuzomboka kakusa tachi jinji ja akwa-kulizanga:"
+      ],
+      "items": [
+        "Yikungululo",
+        "Kutachikiza",
+        "Chilinga",
+        "Yipema",
+        "Kusaka mutu wakulongesa",
+        "Ku yifwatulo"
+      ],
+      "footnote": "Sango jacho jize jize jinasolola upeme wa mikanda."
+    },
+    "reassignment": {
+      "title": "Kuwahisa mikanda ni kuyifwika",
+      "paragraphs": [
+        "Nyi mukwa-kusongwela yafuma hanji kuhona kukalakala, IATF muyihasa kuhana milimo yikwo, kuhichika mulimo, hanji kusula mulimo wacho.",
+        "Mulimo wacho mahasa kuuhunga nawa muze muukalu wa uputukilo unakumanunuka, hanji muze ulongeso unakatoka, chipwe muze mulimo wacho unakapwa wa uhashi."
+      ],
+      "footnote": "Yikungulwila ya mikanda yinasoloka kuli atu eswe, te hi ni yitela yikwo ya ulemu."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Kutachikiza chijimbikilo",
+      "title": "Yuma yize IATF kuyishi kutayiza"
+    },
+    "items": [
+      "Kuhanjisa mikanda kuli mutu wa mu chikungulwila",
+      "Yikungululo ya mulimo",
+      "Kutayiza ha yiyulo yeswe",
+      "kuchiza cha mashimbu anji ha mulimo weswe"
+    ],
+    "footnote": "IATF yili chihanda cha mikanda yize akufweta, hi chihanda chakufweta mikanda cha atu ko."
+  }
+}

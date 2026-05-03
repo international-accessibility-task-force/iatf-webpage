@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Chilongesa",
+    "title": "Sitemap",
+    "lead": "Chihanda cheswe chize chili ha iatf.cc, ha chihela chimwe."
+  },
+  "sections": [
+    {
+      "title": "Yikuma yilemu",
+      "items": [
+        {
+          "label": "Kuzuvo",
+          "href": "/"
+        },
+        {
+          "label": "Yikungululo",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kulembelela umwe mulimo",
+          "href": "/propose/"
+        },
+        {
+          "label": "Usongwelo",
+          "href": "/governance/"
+        },
+        {
+          "label": "Kulikata",
+          "href": "/join/"
+        },
+        {
+          "label": "Kutachikiza",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Kutachikiza",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Yikungululo",
+  "projectsEmpty": "Kukushi hanji mikanda yize anafupulula."
+}
