@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Inkadinkado",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Inkadinkado",
+    "lead": "Say IATF et mankikimey ed publiko bilang default. Saray desisyon na proyekto, saray pananguman ed kodigo, saray panguman ed gobierno, tan saray gastos ed panag-operate et nirekord ed saray publikon pasen.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Saray rekord",
+      "title": "No iner so panaayaman na saray rekord"
+    },
+    "items": [
+      "<strong>Saray desisyon ed proyekto.</strong> Saray desisyon nipaakar ed pangawat, pangi-archive, tan pangipawil et irerekord bilang isyu odino pangi-release ed matukoy a repository, tan summarized ed publikon rehistro. <a href=\"/projects/\">rehistro</a>Say Dios .",
+      "<strong>Kerew na rekord.</strong> Saray rekord na publikon kerew et aka-store ed IATF GitHub organization, ed sayan website, odino pareho. Saray rekord et nayarin man-summarize, man-edit, odino man-restructure ed orihinal ya kerew pian na-review so access ya kaukolan ya agmangipaparungtal na agnepeg ya personal ya impormasyon. Saray desisyon na agpantatalosan et summarized ed publikon rekord no apektaen da so sakey a proyekto odino desisyon na gobierno. Saray record na kerew so naekal ed indexing na search engine no praktikal ed teknikal. View records: first publication request pending.",
+      "<strong>Nauman so code.</strong> Kada pananguman ed code et sakey ya public commit ed matukoy ya repository. Nengnengen so IATF <a href=\"{{contact.githubOrgUrl}}\">GitHub ya organisasyon</a>Say Dios .",
+      "<strong>Saray pananguman ed gobierno.</strong> Saray update ed governance page et na-track bilang commits to the <code>iatf-website</code> Nengnengen so <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">say history na commit</a> diad GitHub.",
+      "<strong>Saray gastos ed panag-operate.</strong> IATF pansiansiaen ya abeba so operating costs tan rekorden so recurring public infrastructure expenses. Manlapu la'd 2022, say manunan recurring costs et saray domain name. Say hosting et manguusar na free-tier odino low-cost infrastructure no posible. Nengnengen so operating cost record ed leksab.",
+      "<strong>Saray nota nipaakar ed koordinasyon.</strong> Saray nota ed antokaman ya coordinated review o desisyon so mabilay ed GitHub Diskusyon ed relevant repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Pantotongtongan</a> ed <code>iatf-website</code> repository."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Saray Gastos",
+      "title": "Panrehistro na gastos ed panag-operate"
+    },
+    "paragraphs": [
+      "Say IATF so mantitilak na saray publikon imprastraktura to ed intension ya melag. Manlapu nen 2022, say manunan recurring operating costs et saray ngaran na domain. Say panag-host et angusar na free-tier odino low-cost ya imprastruktura no posible.",
+      "Sayan rekord et aliwan audited a financial statement, noagta publikon rekord na gastos ed panag-operate na imprastruktura ya uusaren pian mansiansian online so IATF."
+    ],
+    "footnote": "Saray resibo et nayarin irereferensian odino ipalapag kayarin na-redact. Saray personal ya adres, detalye ed pambayar, tan agnakaukolan ya impormasyon ed account et agkabiangan na publikon rekord.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Say Domain",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Kuarta na Pangasinan",
+            "value": "3.40 na dolyar na Amerika"
+          },
+          {
+            "label": "Saray paimanod leksab",
+            "value": "Angusar na free-tier odino low-cost ya imprastruktura diad panamegley na Cloudflare. <code>iatf.cc</code> dominyo."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Say Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kuarta na Pangasinan",
+            "value": "18.68 a dolyar na Amerika"
+          },
+          {
+            "label": "Saray paimanod leksab",
+            "value": "Gastos na domain pinansyal na mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Say Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kuarta na Pangasinan",
+            "value": "17.06 na dolyar na Amerika"
+          },
+          {
+            "label": "Saray paimanod leksab",
+            "value": "Gastos na domain pinansyal na mugiwarafx. Inusar so free-tier odino low-cost ya imprastraktura diad panamegley na Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Say Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kuarta na Pangasinan",
+            "value": "14.76 a dolyar na Amerika"
+          },
+          {
+            "label": "Saray paimanod leksab",
+            "value": "Gastos na domain pinansyal na mugiwarafx."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Say Domain",
+            "value": "<code>internationalaccessibilitytaskforce.com</code>"
+          },
+          {
+            "label": "Kuarta na Pangasinan",
+            "value": "7.76 na dolyar na Amerika"
+          },
+          {
+            "label": "Saray paimanod leksab",
+            "value": "Gastos na domain pinansyal na mugiwarafx. Inusar so free-tier odino low-cost ya imprastruktura diad panamegley na GitHub Pages."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Kaban na ketegan",
+      "title": "No antoy aliwan publikon impormasyon"
+    },
+    "paragraphs": [
+      "Arum a materyal so ag-ibabalita ed saray publikon rekord lapud gagala:"
+    ],
+    "items": [
+      "Saray personal a detalye na contact na saray proponent.",
+      "Say pribadon sulat so uusaren lambengat pian ipaliwawa so kerew antis ya awaten, ipulisay, odino sumaryoen itan.",
+      "Saray pribadon address, numero na telepono, tan agnakaukolan iran personal a detalye.",
+      "Antokaman ya pakabidbiran ed sakey ya indibidual a manguusar na ontulong a teknolohiya ya anggapo so kanepegan to.",
+      "Saray tongtongan ed Raw Discord, likud no walay espisipikon mensahe ya ginagala ya inyalis ed publikon rekord na proyekto."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Basaen so kaaruman",
+      "title": "Say panag-uley so manunan totontonen ed sarayan rekord"
+    },
+    "paragraphs": [
+      "No labay mon natalosan no panon ya aawaten, na-archive, odino niasain lamet iray proyekto, basaen so pahina nipaakar ed gobierno."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

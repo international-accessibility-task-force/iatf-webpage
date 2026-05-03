@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Akseptabilidad",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Akseptabilidad",
+    "lead": "Labay na IATF ya simpli, mainomay ya basaen, na-access panamegley na keyboard, tan na-compatible ed saray ontulong a teknolohiya so sayan website.",
+    "support": [
+      "Parad Web accessibility, uusaren na IATF [W3C WAI](https://www.w3.org/WAI/) Say praktikal ya iyaplika et base met ed direktan eksperiensya na saray manguusar na ontulong iran teknolohiya."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Panag-report",
+      "title": "I-report so problema ed access"
+    },
+    "paragraphs": [
+      "No walay naromog mon problema ed sayan website, ipangasin ireport itan panamegley na e-mail:",
+      "{{contact.accessibilityEmail}}",
+      "Kaibad saray makatulong a report so:"
+    ],
+    "items": [
+      "say pahina no iner agawa so isyu",
+      "no antoy sasalien mon gawaen",
+      "no anton tulong a teknolohiya, browser, odino gadyet so inusar mo, no wala",
+      "Antoy aliwliwan agawa?",
+      "no antoy akatulong"
+    ],
+    "footnote": "Agmo la kaukolan ya isulat so pormal ya report ed bug. Magenap labat so malinew ya deskripsion."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Panangasikaso",
+      "title": "Pangasikaso ed saray publikon isyu"
+    },
+    "paragraphs": [
+      "Saray isyu ed inkapangasabi so nayarin sumaryoen ed matukoy a publikon reperytoryo ta pian naayos iratan ed lukas.",
+      "No say report mo et mangilaktip na pribadon impormasyon, malinew mon ibaga itan ed mensahe."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Natan a kipapasen",
+      "title": "Kabkabat iran limitasyon"
+    },
+    "paragraphs": [
+      "Sayan site et intensionan melag tan maslak et static. Arum a bersion na lenguahe so nayarin agkompleto legan ya ipaparaan iray patalos."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Proyekto parad iyaabuloy na publiko",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Proyekto parad iyaabuloy na publiko",
+    "lead": "Iilista na sayan rehistro iray publikon proyekto ya inasikaso na IATF. Saray naaprobaan ya access project, site infrastructure, tan archived prototypes et nanengneng dia.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Aktual ya rehistro"
+    },
+    "intro": [
+      "Saray naaprobaan a proyekto so akarehistro dia sano nipalapag la iratan."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Ipakabat so pankaukolan",
+      "title": "Pagmaliwen a sakey a publikon proyekto so konkreton pankaukolan ed inkapanginawaan"
+    },
+    "paragraphs": [
+      "Usisaen na IATF iray konkreton pankaukolan ed inkapanginawaan ya nayarin magmaliw a mausar a publikon kimey ya open source."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Anggapo ni ray ni-publish a proyekto",
+    "paragraphs": [
+      "Ipaparaan na IATF so unonan publikon proyekto to.",
+      "Sarag mo nin siansia ya ipawit so kerew mo no walay espisipikon pankaukolan mo ed iyaplika."
+    ]
+  }
+}

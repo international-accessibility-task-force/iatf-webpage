@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Anggapoy naromog"
+  },
+  "hero": {
+    "eyebrow": "Anggapoy naromog",
+    "title": "Agnaromog so kinerew a pahina",
+    "lead": "Usaren iray manunan dalan diad leksab pian ompawil ed publiko a pasen.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Panayaman",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Agniwala so rota ya kinerew mo."
+    ],
+    "items": [
+      {
+        "label": "Panayaman",
+        "href": "/"
+      },
+      {
+        "label": "Saray Proyekto",
+        "href": "/projects/"
+      },
+      {
+        "label": "Mankakasakey",
+        "href": "/join/"
+      },
+      {
+        "label": "Akseptabilidad",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Pananguley",
+        "href": "/governance/"
+      },
+      {
+        "label": "Inkadinkado",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Governance tan repository ya modelo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Governance tan repository ya modelo",
+    "lead": "Pansiansiaen na IATF ya publiko, nabasa, tan mainomay ya pansiansiaen iray proyekto nipaakar ed aksesibilidad.",
+    "support": [
+      "Ipaliwawa na sayan pahina no anto ray kualipikado, no panon ya aasikasoen iray repository, tan no anton responsabilidad so onaplika ed level na repositories kayari na pangawat."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Saray Totontonen",
+      "title": "Mision Fit, Ownership, Licensing"
+    },
+    "cards": [
+      {
+        "title": "Matukoy ed Misyon",
+        "paragraphs": [
+          "Awaten na IATF so kimey ya ontutukoy ed peteg ya babeng ed iyaplika tan walaan na malinew a balor ed publiko.",
+          "Say sakey a proyekto et nepeg ya aliwan sakey labat a personal ya workflow tan nayarin usaren bilang public repository.",
+          "Parad Web accessibility, uusaren na IATF [W3C WAI](https://www.w3.org/WAI/) Say direktan eksperiensya na saray manguusar na ontulong iran teknolohiya so praktikal met ya ebidensya no anto so epektibo ed peteg ya panguusar."
+        ]
+      },
+      {
+        "title": "Pangipaakseb ed proyekto",
+        "paragraphs": [
+          "Nayari ya awaten so sakey a proposal sano nanengneng ed impan-review ya:"
+        ],
+        "items": [
+          "ontutukoy itan ed peteg a pankaukolan ed inkapanginawaan",
+          "Malinew so problema pian nausisa",
+          "realistikon maong so scope pian ni-launch",
+          "say kimey et mitunosan ed misyon na IATF",
+          "walay posiblin dalan parad maintenance odino completion"
+        ]
+      },
+      {
+        "title": "Say pakauley ed repository",
+        "paragraphs": [
+          "Saray naaprobaan a proyekto et ginawa ed silong na IATF GitHub organization.",
+          "Saray repository so mansiansia diman pian napansiansia na kada proyekto so malet a pampublikon ayaman, anggano say manag-asikaso so manguman ed saginonor."
+        ]
+      },
+      {
+        "title": "Panangiter na Lisensia",
+        "paragraphs": [
+          "Uusaren na saray proyekto na IATF so copyleft a lisensia likud no arum so imbaga na sakey a proyekto:"
+        ],
+        "items": [
+          "<strong>Kode:</strong> AGPL-3.0",
+          "<strong>Dokumentasyon:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Responsable ya inhenyero odino managmintina",
+      "paragraphs": [
+        "Kada naaprobaan a proyekto et nepeg a walay ngaran na responsablin inhenyero odino managmintina. Nayarin naawat na satan a too so access na admin ed repository tan iilaloan ton:"
+      ],
+      "items": [
+        "panangipalapag na giya ed publiko",
+        "pansiansiaen so repository structure",
+        "re-review or manage issues and pull requests (repaso o pangasikaso ed saray isyu tan pull request)",
+        "idokumento iray importantin desisyon ed teknikal",
+        "pian natalosan na arum so proyekto"
+      ],
+      "footnote": "Saya so responsibilidad na repository-level. Say organizational ownership so mansiansia ed IATF. Say responsibilidad dia et say panag-asikaso na repositories, teknikal ya direksion, tan pampublikon koordinasyon  aliwan say anggapoy limitasyon ya private delivery, custom integrations, odino service-level commitments ya walad paway na public roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Panagpaaligwas ed Publiko",
+      "paragraphs": [
+        "Saray proyekto ya inlunsad panamegley na IATF et i-develop ed publiko bilang default. Say repository so publikon lapuan na katuaan parad:"
+      ],
+      "items": [
+        "source code na artikulo",
+        "saray isyu",
+        "dokumentasyon",
+        "Impormasyon ed roadmap",
+        "history na pangibulos"
+      ],
+      "footnote": "Say importantin pikakabat ed proyekto so agnepeg a manayam labat ed saray pribadon chat odino inbox."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Saray publikon rekord",
+      "title": "Saray rekord na publikon kerew"
+    },
+    "paragraphs": [
+      "Saray kerew ya onloob ed IATF panamegley na website, e-mail, Discord, GitHub, odino arum ni ran channel et nayarin magmaliw ya publikon rekord na kerew.",
+      "Say publikon rekord na kerew et aliwan say orihinal ya mensahe. Nayarin sumaryoen, i-edit, odino i-restructure na IATF so kerew antis ya i-publish pian na-review so access ya kaukolan ya ag-ipaparungtal so agnakaukolan ya personal ya impormasyon.",
+      "Saray publikon rekord na kerew et nayarin na-store ed IATF GitHub organization, diad sayan website, odino ed parehon lugar.",
+      "Antis na pangipalapag, ekalen na IATF iray agnakaukolan a personal a detalye na kontak, pribadon adres, tan saray detalyadon pakabidbiran ed saray indibidual a manguusar na ontulong iran teknolohiya likud no malinew tan matukoy so gagala na pangipapalapag.",
+      "Say Discord et uusaren parad aliwan pormal ya koordinasyon. Say IATF et agman-archive na saray pantotongtongan na Discord diad default, tan say panag-ipreserba na mensahe et kokontrolen na Diskord. Saray desisyon ya ginawa ed Discord so nepeg ya isumaryo ed publikon rekord diad GitHub odino diad mismon pahina na proyekto.",
+      "Saray rekord na kerew so naekal ed indexing na search engine no praktikal ed teknikal. Public so mankabaliksan na reviewable tan accountable. Agto labay ya ibaga ya na-optimize pian naromog panamegley na panaanap na ngaran.",
+      "Sarag na IATF ya i-update odino ekalen iray rekord ed saray publikon lugar ya kokontrolen na satan, balet agto garantiyaen ya ekalen iratan ed third-party caches, notifications, forks, screenshots, search engines, Discord, odino arum nin system.",
+      "No kaukolan ya mansiansian pribado so mensahe, agmo itan ipapawit panamegley na saray publikon channel na IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisasyon a betang",
+      "title": "Korte"
+    },
+    "lead": "Say chair so walaan na organisasyon-level stewardship na IATF. Duma iya ed say per-project responsible engineer role: say chair so responsabli ed organisasyon bilang interon, aliwan ed inagew-agew ya direksion na anggan anton repository.",
+    "duties": {
+      "title": "No antoy gagawaen na yurongan",
+      "items": [
+        "Mangiyagel ed saray permiso na akankayarian ed IATF GitHub ya organisasyon",
+        "Pangipaakseb ed saray desisyon nipaakar ed pangawat na proyekto tan pangarchive",
+        "Aktibo bilang public contact point parad IATF",
+        "I-coordinate so tinaon ya eleksion"
+      ],
+      "footnote": "Say chairman et agmangikokonekta ed IATF ed saray pribadon pangitarya, babayaran a kimey, odino saray paknaan ed service-level, tan agmanguuman ed kada desisyon na maintainer na repository nipaakar ed teknikal a direksion."
+    },
+    "election": {
+      "title": "Tinaon ya eleksion",
+      "paragraphs": [
+        "Say tsirman so pipilien a maminsan ed sakey taon. Say eleksion so nagawa ed unonan duaran simba na Disyembre, saray resulta so ipaamta ed Disyembre 15, tan say balon termino so onggapo ed Enero 1.",
+        "Saray makanepegan ya botante et saray totoo ya walay betang dan maintainer ed anggan dinan ya IATF repository ed loob na sakey taon tan nanggawa na ag-onkulang ed sakey ya inmerged ya kontribusyon ed sakey a repositoryo na Iatf ed satan ya taon. Kada sakey ya makanepekan ya voter et walay sakey ya boto. Say kandidato ya walaan na mas dakel ya boto so manalo; no walay parepareho, walay round-off ya nagawa ed komatlon simba na Disyembre.",
+        "Say eleksion et gagawaen bilang publikon Diskusyon ed GitHub diad tinuro ya IATF governance repository, kanian saray kandidato, say boto, tan say resulta et kabiangan na publikon rekord."
+      ]
+    },
+    "continuity": {
+      "title": "Kankontinuidad",
+      "paragraphs": [
+        "No anggapo so eleksion ed sakey a taon, say manunan pangulo so mantultuloy ed betang to ya anggad onsublay ya eleksion. Saya so andi-anggaan ya intuloy, aliwan panaon na gracia  say modelo so denesinyo pian pansiansiaen so organisasyon a maligen sano abebbeba so aktibidad, aliwan pian piliten so sakey a transisyon ya anggapo so akaparaan.",
+        "Nayarin onekal so tsirman ed anggan anton panaon.Saray aktibon mantentor so nayarin mangimbita met na ekstraordinaryo iran eleksion tekep na indatak a rason, a nagawa unong ed parehon totontonen a singa say tinaon ya eleksion."
+      ]
+    },
+    "current": {
+      "title": "Natan ya chairman",
+      "fields": [
+        {
+          "label": "Korte",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Panaon",
+          "value": "Anggad say Desyembre 2026 ya eleksion"
+        },
+        {
+          "label": "Na-formalize so betang to",
+          "value": "2026"
+        },
+        {
+          "label": "Unonan aka-iskedyul ya eleksion",
+          "value": "Disyembre 2026"
+        }
+      ]
+    },
+    "footnote": "Say betang na chairman so inpormal nen 2026 pian ipaliwawa so panangasikaso ed organisasyon. Anggad saman, say responsibilidad ed organisasyon so aliwan pormal a susuportaan na manangipalapag."
+  },
+  "continuity": {
+    "states": {
+      "title": "Saray kipapasen na proyekto",
+      "paragraphs": [
+        "Saray proyekto so manguusar na melag a grupo na saray publikon estado:"
+      ],
+      "items": [
+        "Say Proposal",
+        "Inawat",
+        "Aktibo",
+        "Magmaliw a maligen",
+        "Mananap na manag-asikaso",
+        "Akasulat ed Arkibo"
+      ],
+      "footnote": "Sarayan estado so mamainomay ed pan-scan ed rehistro."
+    },
+    "reassignment": {
+      "title": "Pangipawil tan pangi-archive",
+      "paragraphs": [
+        "No onarawi so sakey a manag-mintina odino agla aktibo, say IATF so nayarin mangiter na responsabilidad, manpa-pause ed panag-develop, odino man-archive ed proyekto.",
+        "Nayari met ya i-archive so sakey a proyekto sano asumpal la so orihinal a pankaukolan, tinmunda lay panagmintina, odino agla realistikon ituloy so kimey."
+      ],
+      "footnote": "Saray aka-archive a proyekto so mansiansian nanengneng na publiko likud no wala so makanepegan a rason pian ag-itan nagawaan."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Kaban na ketegan",
+      "title": "No antoy aggarantiya na IATF"
+    },
+    "items": [
+      "pangipawit ed pribadon kustomer",
+      "saray paknaan ed service-level",
+      "pangawat ed kada suhestion",
+      "pangasikasod mabayag a panaon parad kada proyekto"
+    ],
+    "footnote": "Say IATF et public repository model, aliwan private delivery service."
+  }
+}

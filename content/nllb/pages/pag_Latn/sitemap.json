@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indese",
+    "title": "Sitemap",
+    "lead": "Amin ya publikon pahina ed iatf.cc, diad saksakey a pasen."
+  },
+  "sections": [
+    {
+      "title": "Manunan pahina",
+      "items": [
+        {
+          "label": "Panayaman",
+          "href": "/"
+        },
+        {
+          "label": "Saray Proyekto",
+          "href": "/projects/"
+        },
+        {
+          "label": "Kerew na proyekto",
+          "href": "/propose/"
+        },
+        {
+          "label": "Pananguley",
+          "href": "/governance/"
+        },
+        {
+          "label": "Mankakasakey",
+          "href": "/join/"
+        },
+        {
+          "label": "Akseptabilidad",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Inkadinkado",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Saray Proyekto",
+  "projectsEmpty": "Anggapo ni so nipalapag a proyekto."
+}

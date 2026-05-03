@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "I-request so sakey a proyekto ed inkapanginawaan",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "I-request so sakey a proyekto ed inkapanginawaan",
+    "lead": "Usisaen na IATF iray kerew parad saray proyekto ed inkapanginawaan ya manlalapud peteg a pankaukolan.",
+    "support": [
+      "Agmo la kaukolan so detalyadon detalye, basta malinew labat so problema, no siopa so naapektoan, tan no akin ya importante itan."
+    ],
+    "actions": [
+      {
+        "label": "Igapo so kerew",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Usaren so Discord imbes na satan",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saray kanal",
+      "title": "Pilien so sankaabigan a rota"
+    },
+    "intro": [
+      "Amin a rota so onloob ed parehon panagrepaso."
+    ],
+    "items": [
+      {
+        "label": "Websayt",
+        "body": "Usaren so form ed leksab pian mangiter na structured a kerew."
+      },
+      {
+        "label": "E-mail",
+        "body": "I-send so kerew ya direktan onlad: {{contact.requestsEmail}}Saray kerew ed e-mail et nayarin magmaliw ya publikon rekord na kerew kayari na pan-review tan edisyon."
+      },
+      {
+        "label": "Agpantatalosan",
+        "body": "Gapoan ditan no satan so sankaabigan. Say kerew so onalis ni ed parehon panagrepaso."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Antis mon ipawit so kerew mo",
+    "paragraphs": [
+      "Say IATF et mankikimey ed publiko. Saray kerew et nayarin sumaryoen tan i-publish bilang publikon rekord na kerew diad IATAF GitHub organization, diad sayan website, odino ed parehon lugar.",
+      "Agyo ipipila iray personal ya address, numero na telepono, medical details, odino identifying information nipaakar ed saray indibidual ya manguusar na ontulong iran teknolohiya, likud labat no kaukolan itan tan labay yon na-review itan na IATF.",
+      "Ekalen na IATF iray agnakaukolan a personal a detalye na kontak antis ya ipalapag iray rekord na kerew."
+    ]
+  },
+  "review": {
+    "title": "Saray Iilaloan ed Panrepaso",
+    "paragraphs": [
+      "Say pangiter na kerew et agmankabaliksan ya awaten la itan.",
+      "Uusisaen na IATF iray kerew parad mission fit, feasibility, usefulness, tan no kasin say kimey et walad public repository.",
+      "Arum a kerew so nayarin ag-awaten, ni-defer, odino nauman ni antis ya awaten."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formular na kerew",
+      "title": "Mangiter na kerew"
+    },
+    "fields": [
+      {
+        "kind": "inlet",
+        "name": "manaanap",
+        "label": "Say ngaran odino organisasyon yo",
+        "helper": "Siopa so onkekerew?"
+      },
+      {
+        "kind": "pilien",
+        "name": "contactRoute[dumaen so pinanlapuan]",
+        "label": "Preferred contact route [Pinabangan ya rota na kontak]",
+        "helper": "Panon so nepeg ya ituloy a pan-follow-up?",
+        "required": true,
+        "options": [
+          "E-mail",
+          "Agpantatalosan"
+        ]
+      },
+      {
+        "kind": "inlet",
+        "name": "Kontak Saray Detalye",
+        "label": "Detalye ed pitotongtong",
+        "helper": "Email address odino Discord handle parad follow-up.",
+        "placeholder": "E-mail address odino Discord handle",
+        "required": true
+      },
+      {
+        "kind": "inlet",
+        "name": "lenguahe",
+        "label": "Lenguahe",
+        "helper": "Say labay mon lenguahe, no kaukolan.",
+        "value": "Pangasinan"
+      },
+      {
+        "kind": "textarea",
+        "name": "problema",
+        "label": "Anton problema so sasalien mon solusyonan?",
+        "helper": "Deskribien so babeng diad malinew iran salita.",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "apektadonUser",
+        "label": "Siopa so naapektoan?",
+        "helper": "Siopa so natulongan na saya?",
+        "required": true
+      },
+      {
+        "kind": "textarea",
+        "name": "extraKonteksto",
+        "label": "Kaaruman ya konteksto",
+        "helper": "Manginabang na antokaman nin makatulong ed pangipaliwawa ed pankaukolan: no akin ya importante itan, saray alimbawa, reperensya, ideya ed software, odino limitasyon ed panaon."
+      },
+      {
+        "kind": "pilien",
+        "name": "openSourceConsent[dumaen _ dumaen so pinanlapuan]",
+        "label": "Kasin komportable ka ed open-source ya panag-develop?",
+        "helper": "Saray naaprobaan a proyekto et publikon repository ed IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "On",
+          "Andi",
+          "Agni ak segurado"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "No awaten",
+      "title": "No antoy labay ya ibaga na pangawat"
+    },
+    "items": [
+      "sakey ya public repository ed IATF GitHub organization",
+      "sakey a responsablin inhenyero ya akaasain ed proyekto",
+      "copyleft a lisensia parad code tan project materials",
+      "public development ed repository",
+      "sakey ya entry ed rehistro diad IATF site"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Igapo so tongtongan",
+      "title": "Say antikey tan malinew a kerew so magenap pian onggapo"
+    },
+    "paragraphs": [
+      "No talagan kaukolan moy access tan iisipen mon nepeg a magmaliw itan a publikon proyekto, ipawit mo itan ed sikami."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

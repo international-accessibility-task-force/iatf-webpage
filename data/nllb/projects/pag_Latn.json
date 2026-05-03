@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Web site na IATF",
+    "summary": "Say publikon website na International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kaukolan na IATF so napanmatalkan a publikon abung a mangipaliwawa ed modelo, mangilista na saray proyekto, tan mangipanengneng ed saray ontulong ed dugan onsublay a kundang.",
+    "why": "Say site na IATF et ginawa bilang melag ya static project pian mainomay ya basaen, ipatalos, tan pansiansiaen ya aka-open.",
+    "scopeIn": [
+      "Public landing pages ya mangipaliwawa ed IATF model",
+      "Public registry of accepted, active, and archived IATF projects with status, maintainer, repository, and demo (Pampublikon rehistro na saray naaprobaan, aktibo, tan aka-archive ya proyekto na Iatf ya walay status, manag-asikaso, reperensya, tan demo)",
+      "Say request intake page tan form",
+      "Saray pahina nipaakar ed gobierno tan transparency",
+      "Ingglis a pinagkalap ya akaparaan lan ipatalos so estruktura na satan",
+      "Static deployment diad Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Saray pribadon lugar na membro, akawnt, odino say pan-log-in",
+      "I-host so source code na proyekto, ya walad mismon repository na kada proyekto",
+      "Real-time chat, a manbibilay ed Discord",
+      "Issue tracking parad saray indibidual a proyekto, a manaayam ed GitHub repository na kada proyekto"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Selfie na IATF",
+    "summary": "Sakey a primeron prototipo na IATF, ya aka-archive kayarin asabi so natural a punto na itunda.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Unonan eksplorasyon na sakey ya in-focused-accessibility tool diad silong na IATF umbrella.",
+    "why": "Say repository et itatarya ed publiko bilang rekord na kimey, anggano tinmunda lay aktibon panag-develop.",
+    "scopeIn": [
+      "Unonan prototipo na sakey ya in-focused-access tool ya itatarya bilang publikon rekord"
+    ],
+    "scopeOut": [
+      "Aktibon panag-develop odino kimey ed feature",
+      "Saray obligasyon ed panmintina",
+      "Irerekomenda ya usaren ed panag-gawa"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Sakey ya IATF community bot, aka-archive kayarin aka-stop.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation ed saray IATF community channel.",
+    "why": "Say repository et itatarya ed publiko bilang rekord na kimey, anggano tinmunda lay aktibon panag-develop.",
+    "scopeIn": [
+      "IATF community channels, ya itatarya bilang publikon rekord"
+    ],
+    "scopeOut": [
+      "Aktibon panag-develop odino kimey ed feature",
+      "Saray obligasyon ed panmintina",
+      "Irerekomenda ya usaren ed panag-gawa"
+    ]
+  }
+]

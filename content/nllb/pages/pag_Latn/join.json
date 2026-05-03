@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Mibiang ed IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Mibiang ed IATF",
+    "lead": "Wala ray pigaran paraan pian makapibiang, no manmatalek ka ed ontulong a teknolohiya, manpaalagey na mainomay ya nausar a software, manpatalos, man-test, odino manmantini ed sakey a proyekto. Saray diskusyon tan desisyon so nagawa ed publiko diad GitHub tan Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Saray betang",
+      "title": "Saray paraan na pandonasyon"
+    },
+    "items": [
+      "<strong>Kerew na proyekto.</strong> No walay problemam ed access ya sarag mon solusyonan panamegley na open source software, ipasa itan diad request intake.",
+      "<strong>Subok tan repaso.</strong> Salien iray proyekto na IATF ya usaren so uusaren mon tulong na teknolohiya, ireport no antoy epektibo tan no antoy ag-onkualipika, tan direktan i-file iray problema ed matukoy ya repository.",
+      "<strong>Ipatalos.</strong> Say orihinal ya artikulo et ni-publish ed simplin salitan Ingles, tan saray patalos et niarum no wala la ray manangipalapag, ya onggapo ed salitan Español.",
+      "<strong>Manpaalagey.</strong> Manpili na saray problema ed antokaman ya IATF repository, mangibaki na saray pull request, odino mangala na proyekto bilang responsablin inhenyero na satan.",
+      "<strong>Pansiansiaen itan.</strong> No maminsan et kaukolan na saray proyekton wala la so balon managmintina, tan say rotasyon na managmantina et normal ya kabiangan na modelon uusaren, aliwan eksepsyon."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Saray kanal",
+      "title": "No say IATF et mankikimey ed publiko"
+    },
+    "items": [
+      "<strong>Say GitHub.</strong> Saray isyu, pull request, publikasyon, tan rekord na proyekto.",
+      "<strong>Agpankakasakey.</strong> Walay direktan pantotongtong, koordinasyon, tan aliwan pormal iran tepet.",
+      "<strong>Say e-mail.</strong> Pangusar <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> no say GitHub tan say Discord et ag-ontutukoy."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Ontumbok ya kundang",
+      "title": "Pilien so channel ya mitunosan ed labay mon kontribusyon"
+    },
+    "paragraphs": [
+      "Amin ya channel et walad saksakey ya publikon rebisyon tan saksakey a publikon repertuaryo."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

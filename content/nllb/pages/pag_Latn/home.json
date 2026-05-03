@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Manlapud pankaukolan parad iyaplika ed saray publikon repo",
+    "lead": "Tutulongan na IATF iray asosasyon, grupo, tan indibidual ya pagmaliwen ya open source iray publikon proyekto.",
+    "support": [
+      "Saray naaprobaan a proyekto so ni-publish ed IATF GitHub ya organisasyon diad silong na copyleft a lisensia tan inmaligwas ed publiko na responsablin inhenyero."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Public Operating Model (Modey na Panag-andar na Publiko)",
+      "title": "Simplin publikon dalan parad mainomay ya nausar a software"
+    },
+    "paragraphs": [
+      "Diad panamegley na sakey a form, siopaman so makapangipawit na problema ed IATF. No nagawaan itan na grupo, lukasan so public GitHub repository parad satan a kimey.",
+      "Kada naaprobaan a proyekto et walaan na malinew a publikon ayaman parad code, isyu, dokumentasyon, tan saray publikasyon, a say panggawa na saratan et idadaulo na responsablin inhenyero."
+    ],
+    "specCard": {
+      "title": "Public Operating Model (Modey na Panag-andar na Publiko)",
+      "terms": [
+        {
+          "term": "Kaukolan",
+          "definition": "Say Peteg a Problema ed Inkakasabi"
+        },
+        {
+          "term": "Panrepaso",
+          "definition": "Say Inkahustisya ed Misyon tan say Praktikal ya Iyaplika"
+        },
+        {
+          "term": "Lugar na Proyekto",
+          "definition": "Public GitHub repository[dumaen so pinanlapuan]"
+        },
+        {
+          "term": "Panangasikaso",
+          "definition": "IATF Organisational Ownership"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Proseso",
+      "title": "No panon itan ya onaplika",
+      "intro": "Makatunongan ya melag so modelo pian mainomay ya tumboken so dalan ya uusaren na totoo."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Niiter so pankaukolan",
+        "paragraphs": [
+          "Say sakey ya asosasyon, grupo, odino indibidual so nayarin mangiter na kerew base ed peteg a pankaukolan ed inkapanginawaan.",
+          "Saray kerew so nayarin igapo panamegley na website, panamegley na e-mail ed <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, odino diad panamegley na Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Usisaen itan na IATF",
+        "paragraphs": [
+          "Usisaen tayo no kasin say kimey et ontukoy ed misyon, praktikal, tan no kasin kabiangan itan na publikon proyekto ya open source."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Nagawa so public repository",
+        "paragraphs": [
+          "No naawat so sakey a proyekto, satan so ni-publish ed IATF GitHub organization diad silong na copyleft a lisensia.",
+          "Say repository so magmaliw a publikon ayaman na code, isyu, dokumentasyon, tan saray publikasyon."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Say responsablin inhenyero so mangidadaulo ed proyekto",
+        "paragraphs": [
+          "Sakey a responsablin inhenyero so niasain ed project repository tan nagagawa so panagdesinyo ed publiko."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehistro",
+      "title": "Publikon rehistro na saray proyekto"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Onggapo dia",
+      "title": "Man-browse ed peles a kimey odino gapoan so konkreton proyekto"
+    },
+    "paragraphs": [
+      "Usaren so rehistro pian nengnengen no anto la ray publikon publikasyon, odino gapoan so pangala no say sakey a konkreton problema ed aksesibilidad et magmaliw a proyekto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
