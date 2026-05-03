@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "نەخشەی ماڵپەڕ"
+  },
+  "hero": {
+    "eyebrow": "ڕیزبەندی",
+    "title": "نەخشەی ماڵپەڕ",
+    "lead": "هەموو لاپەڕە گشتییەکانی IATF.CC، لە یەک شوێن."
+  },
+  "sections": [
+    {
+      "title": "لاپەڕە سەرەکییەکان",
+      "items": [
+        {
+          "label": "ماڵەوە",
+          "href": "/"
+        },
+        {
+          "label": "پڕۆژەکان",
+          "href": "/projects/"
+        },
+        {
+          "label": "داواکردنی پرۆژە",
+          "href": "/propose/"
+        },
+        {
+          "label": "حوکمڕانی",
+          "href": "/governance/"
+        },
+        {
+          "label": "بەشداری بکە",
+          "href": "/join/"
+        },
+        {
+          "label": "بەردەستبوون",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "شەفافیەت",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "پڕۆژەکان",
+  "projectsEmpty": "هێشتا هیچ پرۆژەیەک بڵاو نەکراوەتەوە."
+}

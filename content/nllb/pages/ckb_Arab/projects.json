@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "پڕۆژەکانی بەردەستبوونی گشتی",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "پڕۆژەکانی بەردەستبوونی گشتی",
+    "lead": "ئەم تۆمارە لیستی پڕۆژە گشتییەکانە کە لەڕێگەی IATFـەوە ڕاگیراون. پڕۆژە پەسەندکراوەکانی بەردەستبوون، ژێرخانی سایت، و نموونەکانی ئەرشیفکراو لێرە بەرچاو دەخرێن.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "تۆمارکردن",
+      "title": "تۆماری ئێستا"
+    },
+    "intro": [
+      "پڕۆژە پەسەندکراوەکان لێرە لیست دەکرێن کاتێک بڵاو دەکرێنەوە."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "داوایەک پێشکەش بکە",
+      "title": "گۆڕینی پێویستییەکی بەرجەستەی بەردەستبوون بۆ پرۆژەیەکی گشتی"
+    },
+    "paragraphs": [
+      "IATF پێداچوونەوە بە پێداویستییەکانی بەردەستبوون دەکات کە دەکرێت بکرێن بە کاری سەرچاوەی کراوەی گشتی بەسوود."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "هێشتا هیچ پرۆژەیەک بڵاونەکراوەتەوە",
+    "paragraphs": [
+      "IATF یەکەم کۆمەڵە پرۆژەی گشتی ئامادە دەکات.",
+      "هێشتا دەتوانیت داواکارییەک بنێریت ئەگەر پێویستیت بە بەردەستبوونێکی دیاریکراو هەبێت."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "نەدۆزرایەوە"
+  },
+  "hero": {
+    "eyebrow": "نەدۆزرایەوە",
+    "title": "پەڕەی داواکراو نەدۆزرایەوە",
+    "lead": "بۆ گەڕانەوە بۆ شوێنی گشتی ڕێگا سەرەکییەکانی خوارەوە بەکاربهێنە.",
+    "support": [],
+    "actions": [
+      {
+        "label": "ماڵەوە",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "ئەو ڕێڕەوەی داوات کردووە بوونی نییە."
+    ],
+    "items": [
+      {
+        "label": "ماڵەوە",
+        "href": "/"
+      },
+      {
+        "label": "پڕۆژەکان",
+        "href": "/projects/"
+      },
+      {
+        "label": "بەشداری بکە",
+        "href": "/join/"
+      },
+      {
+        "label": "بەردەستبوون",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حوکمڕانی",
+        "href": "/governance/"
+      },
+      {
+        "label": "شەفافیەت",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
