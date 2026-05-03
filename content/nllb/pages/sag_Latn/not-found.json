@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "A wara ni pëpe"
+  },
+  "hero": {
+    "eyebrow": "A wara ni pëpe",
+    "title": "A wara lembeti so mo hunda ni so ape",
+    "lead": "Sala kusala na akota lege so ayeke na gbe ni ge ti kiri na ndo so azo kue ayeke dä.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Da ti mo",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Lege so mo hunda ayeke dä pëpe."
+    ],
+    "items": [
+      {
+        "label": "Da ti mo",
+        "href": "/"
+      },
+      {
+        "label": "Akua so a leke ni",
+        "href": "/projects/"
+      },
+      {
+        "label": "Mû mbage ti ala",
+        "href": "/join/"
+      },
+      {
+        "label": "Lege ti wara ni",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Fango lege",
+        "href": "/governance/"
+      },
+      {
+        "label": "Fango nda ti ye",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

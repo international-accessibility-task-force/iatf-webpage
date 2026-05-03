@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mapa ti ndo ni"
+  },
+  "hero": {
+    "eyebrow": "Index ti aye",
+    "title": "Mapa ti ndo ni",
+    "lead": "Atënë kue so ayeke na ndo ti iatf.cc, na ndo oko."
+  },
+  "sections": [
+    {
+      "title": "Akete lembeti",
+      "items": [
+        {
+          "label": "Da ti mo",
+          "href": "/"
+        },
+        {
+          "label": "Akua so a leke ni",
+          "href": "/projects/"
+        },
+        {
+          "label": "Ti hunda ti sara mbeni kua",
+          "href": "/propose/"
+        },
+        {
+          "label": "Fango lege",
+          "href": "/governance/"
+        },
+        {
+          "label": "Mû mbage ti ala",
+          "href": "/join/"
+        },
+        {
+          "label": "Lege ti wara ni",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Fango nda ti ye",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Akua so a leke ni",
+  "projectsEmpty": "Ade a sigigi na ambeni ye na ndo ni pëpe."
+}

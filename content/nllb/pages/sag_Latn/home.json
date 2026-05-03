@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "A hunda ti tene azo kue awara lege ti wara aye so ala yeke na bezoin ni",
+    "lead": "Bungbi ti IATF ayeke mû maboko na abungbi, abungbi nga na azo oko oko ti gbian atâ ye so a hunda ti sara ti tene azo kue awara lege ti gue dä.",
+    "support": [
+      "A yeke sigigi na a-projet so a yeda na ni na yâ bungbi ti IATF GitHub na gbe ti mbeni mbeti ti tisango zo na lege ti copyleft, na mbeni ingénieur so ayeke bâ ndo na ndo ni ayeke leke ni na lê ti azo kue."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Kode ti salango kusala ti azo kue",
+      "title": "Mbeni senge lege so azo kue alingbi ti mû ti wara na ambeti ti ordinateur so azo alingbi ti diko ni"
+    },
+    "paragraphs": [
+      "Na lege ti mbeni formulaire, zo kue alingbi ti tokua na IATF mbeni kpale so andu lege so azo alingbi ti si dä. Tongana bungbi ni alingbi ti sala ni, a yeke zi mbeni ndo ti batango aye ti azo kue na ndo ti GitHub teti kusala ni.",
+      "A-projet oko oko kue so a yeda na ni ayeke na mbeni ndo so azo kue alingbi ti wara kode ni, atënë ti yâ ni, ambeti ni nga na ambeti so a sigigi na ni, na mbeni ingénieur so ayeke bâ ndo na ndo ni ayeke mû li ni na ndo ti kua ni."
+    ],
+    "specCard": {
+      "title": "Kode ti salango kusala ti azo kue",
+      "terms": [
+        {
+          "term": "A hunda ti wara ni",
+          "definition": "Tâ kpale ti gango ndulu"
+        },
+        {
+          "term": "Fango nda ti ye",
+          "definition": "A lingbi na kua ni nga a lingbi ti sara ni na yâ ti fini ti zo"
+        },
+        {
+          "term": "Ndo ti kua ni",
+          "definition": "Azo kue alingbi ti wara ni na ndo ti GitHub"
+        },
+        {
+          "term": "Kua ti batango ye",
+          "definition": "Bungbi ti IATF ayeke ti lo zo so ayeke bâ lege ti aye"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Kpengba-ndia ni",
+      "title": "A yeke sara kua tongana nyen?",
+      "intro": "A leke kode ni ti ngbâ kete tongaso si a yeke ngangu pëpe ti mû lege so azo kue ayeke mû."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "A hunda ti wara mbeni ye",
+        "paragraphs": [
+          "Mbeni bungbi, mbeni bungbi, wala mbeni zo oko oko alingbi ti hunda ni ndali ti mbeni tâ ye so lo yeke na bezoin ni.",
+          "A lingbi ti to nda ti hunda ni na lege ti site ti Internet, na tïtî e-mail na adresse so: <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, wala na lege ti Rébellion."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF ayeke kiri ti bâ ni",
+        "paragraphs": [
+          "E yeke bâ wala kua ni alingbi na ye so a hunda na e ti sara, wala a yeke na lege ni ti sara ni, nga wala a lingbi a zia ni na yâ ti mbeni kota kapa so azo kue alingbi ti sara kua na ni."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "A leke mbeni ndo ti batango ambeti so azo kue alingbi ti wara ni",
+        "paragraphs": [
+          "Tongana a yeda na mbeni kusala, a yeke sigigi na ni na yâ bungbi ti IATF GitHub na gbe ti mbeni mbeti ti mandango mbeti na lege ti copyleft.",
+          "Da ti batango aye ni aga ndo so azo kue ayeke wara kode ni, atënë ni, ambeti ni nga na ambeti so a sigigi na ni."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "Mbeni ingénieur so ayeke bâ ndo na ndo ti kua ni ayeke fa lege na kua ni",
+        "paragraphs": [
+          "A zia mbeni ingénieur so ayeke bâ ndo na ndo ti kua ni, na a yeke sara kua ni na lê ti azo kue."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Da ti batango mbeti",
+      "title": "Registre ti a-projet ti azo kue"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "To nda ni ge",
+      "title": "Gbu li na ndo ti kua so mo yeke sara fadeso wala to nda ti mbeni kua"
+    },
+    "paragraphs": [
+      "Sara kua na mbeti so ti bâ aye so azo kue ahinga ni awe, wala to nda ti wara ni tongana mbeni kpale so andu lege so zo alingbi ti si dä aga mbeni kua."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

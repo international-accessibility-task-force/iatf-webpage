@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Site ti IATF",
+    "summary": "A yeke site so azo kue ayeke wara ni ndali ti International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF ayeke lani na bezoin ti mbeni ndo so azo kue alingbi ti duti dä so ayeke fa nda ti kode ni, ayeke fa molongo ti akua ni nga ayeke fa na azo so amû mbage ti ala na yâ ti kua ni ye so ala lingbi ti sara na pekoni.",
+    "why": "A leke ni tongana mbeni kete kapa ti tene a duti ngangu pëpe ti diko ni, ti kiri pekoni nga ti bata ni na lê ti azo.",
+    "scopeIn": [
+      "A-page so azo kue alingbi ti gue dä so afa nda ti kode ti sarango kua ti IATF",
+      "Registre ti azo kue ti a-projet ti IATF so a yeda na ni, so ayeke na kua nga so a bata ni na yâ ti archive, so a fa dutingo ti ala, azo so ayeke bâ lege ni, ando ti batango ni nga na aye so a yeke fa ni",
+      "Mbage so a hunda na zo ti ga na ni nga na mbeti ti tisango ndo",
+      "Akete lembeti na ndo ti lege ti komande nga na fango nda ti ye",
+      "Li ti tënë ti yanga ti Anglais so a leke ni awe ti kiri na pekoni",
+      "Fango ni na ndo Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Akete ndo ti amembre, a-account, wala aye so ayeke gue na zo ti lï na yâ ni",
+      "Na ndo so a yeke wara kode ti tongo nda ti kua ni, so ayeke na yâ ti da ti batango ye ti projet oko oko",
+      "Fango tënë na ngoi-ti-tënë, so ayeke na yâ ti Discord",
+      "Gingo nda ti tënë ti a-projet oko oko, so ayeke na yâ da ti batango ye ti projet oko oko na ndo ti GitHub"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF selfie",
+    "summary": "A yeke mbeni kozo ye so a leke ni, so a bata ni na peko ti so a si na mbeni ndo so zo alingbi ti luti dä.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Gingo nda ti ye hio na ndo ti mbeni gbakuru so a zia li ti lo gi na ndo lege ti wara akode na gbe ti kungba ti IATF.",
+    "why": "A yeke bata ni ndali ti azo kue, atâa so kua ti lekengo ni ahunzi awe.",
+    "scopeIn": [
+      "Kozo tapande ti mbeni ye ti kua so a zia li ti lo na ndo ti lege so azo alingbi ti wara ye dä, so a yeke bata ni tongana mbeni mbeti so azo kue alingbi ti hinga ni"
+    ],
+    "scopeOut": [
+      "Kusala ti maïngo ni wala ti lekengo ambeni ye",
+      "Akungba ti mungo maboko na sewa",
+      "A hunda ti sara kua na ni na yâ ti kua ti lekengo aye"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF bot",
+    "summary": "Mbeni bot ti bungbi ti IATF, so a bata ni na peko ti so lo si na mbeni ndo so lo lingbi ti luti dä.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Kode ti sarango kua na masini na ndo ti aye so a yeke sara na yâ ti bungbi ti IATF.",
+    "why": "A yeke bata ni ndali ti azo kue, atâa so kua ti lekengo ni ahunzi awe.",
+    "scopeIn": [
+      "A yeke bata ni tongana mbeni mbeti so azo kue alingbi ti hinga ni"
+    ],
+    "scopeOut": [
+      "Kusala ti maïngo ni wala ti lekengo ambeni ye",
+      "Akungba ti mungo maboko na sewa",
+      "A hunda ti sara kua na ni na yâ ti kua ti lekengo aye"
+    ]
+  }
+]

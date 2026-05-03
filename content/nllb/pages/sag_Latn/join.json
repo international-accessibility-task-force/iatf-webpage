@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Lï na yâ IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Lï na yâ IATF",
+    "lead": "A yeke na lege ni ti ga membre. Akode mingi ayeke dä ti yôro tere ti mo dä, atâa mo zia bê ti mo na ndo akode ti mungo maboko, ti leke ambeni programme so azo alingbi ti wara ni, ti kiri peko ti ambeti, ti tara ni wala ti bata mbeni kapa. Atënë nga na adesizion ayeke ga na lê ti azo kue na ndo ti GitHub nga na Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Akusala ti lo",
+      "title": "Akode ti mungo maboko"
+    },
+    "items": [
+      "<strong>Hunda mbeni kua.</strong> Tongana mo tingbi na mbeni ye so alingbi ti kanga lege na mo ti wara ni, na so a lingbi ti leke ni na lege ti mbeni kode ti ordinateur so azo kue alingbi ti sara kua na ni, tokua ni na ndo so a yeke wara atënë ni dä.",
+      "<strong>Tara ni na kiri mo bâ ni.</strong> Tara akusala ti IATF na lege ti akode ti mungo maboko so mo yeke sara kua na ni, fa ye so ayeke sara kua nzoni nga na ye so asara kua nzoni pëpe, na zia atënë ni na yâ ti mbeti ti batango ye so andu tënë ni.",
+      "<strong>Fa peko ti tënë ni.</strong> A yeke sigigi kozoni na yanga ti Anglais, na pekoni a yeke kiri na peko ti atënë ni tongana azo so amû maboko na ni ayeke dä, ti to nda ni na Espagnol.",
+      "<strong>Ngbâ ti leke ni.</strong> Mo lingbi ti wara ambeni tënë na yâ ti adocument ti IATF, ti tokua ni wala ti sara kua na mbeni kua tongana mbeni zo so ayeke bâ ndo na ndo ni.",
+      "<strong>Sara ye alingbi na ni.</strong> Ngoi na ngoi, a hunda ti tene mbeni zo nde la ayeke bâ lege ti aye so a leke awe."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Apendere lege ti fango tënë",
+      "title": "Na ndo so IATF ayeke sara kua dä na lê ti azo kue"
+    },
+    "items": [
+      "<strong>A yeke na ndo ti GitHub.</strong> Akiringo tënë, ahunda ti gbotongo ni, ambeti so a sigigi na ni, nga na ambeti ti kua ni.",
+      "<strong>Kpale ayeke na popo ti ala.</strong> Ala yeke sara lisoro na ndo ti aye ni, ala yeke mä tere nga ala yeke hunda atënë na ndo ni.",
+      "<strong>E-mail ti mo.</strong> Sara kua na ni <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> tongana GitHub wala Discord alingbi na ni pëpe."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Mbage ti peko",
+      "title": "Soro lege so ague oko na lege so mo ye ti mu maboko"
+    },
+    "paragraphs": [
+      "A-canal ni kue ayeke na yâ ti oko ndo so azo kue ayeke bâ ye na ndo ni nga na oko ndo ti batango aye ti azo kue."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

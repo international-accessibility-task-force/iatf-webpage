@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Fango lege nga na kode ti batango ambeti",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Fango lege nga na kode ti batango ambeti",
+    "lead": "Bungbi ti IATF ayeke sara si aye so a leke ti sara ti tene azo kue awara lege ti gue dä aduti polele, zo alingbi ti diko ni nga a lingbi ti bata ni nzoni.",
+    "support": [
+      "Na lembeti so, a fa aye so alingbi na ni, tongana nyen la a yeke bata ando ti batango ambeti ni, nga kungba wa a yeke mû na azo so ayeke bata ambeti ni na peko ti so a yeda na ala."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Akpengba-ndia",
+      "title": "A lingbi na kusala so a mû na e, dutingo ti zo ni, warango mbeti ti kua"
+    },
+    "cards": [
+      {
+        "title": "A lingbi na kua so a mû na lo",
+        "paragraphs": [
+          "Bungbi ti IATF ayeke yeda na kua so ayeke gi ti zi ambeni ye so ayeke kanga lege na zo ti wara ni nga so ayeke sara nzoni na lê ti azo.",
+          "A lingbi mbeni kapa ni aga na aye ti nzoni mingi ahon gi ti sara kua ndali ti lo wani nga a lingbi a sara kua na ni tongana mbeni ndo ti batango aye ndali ti azo kue.",
+          "Ti wara lege ti lï na ndo ti Internet, IATF ayeke sara kua na agbakuru so: [W3C WAI](https://www.w3.org/WAI/) Aye so azo so ayeke sara kua na agbakuru so ayeke mû maboko na zo ayeke bâ na yâ ti aye so ala yeke sara ti fa na azo aye so ayeke tâ na lege ni."
+        ]
+      },
+      {
+        "title": "A yeda na kua ni",
+        "paragraphs": [
+          "A lingbi ti yeda na mbeni tënë tongana gingo nda ni afa so:"
+        ],
+        "items": [
+          "a yeke sara tënë na ndo ti tâ ye so a hunda ti sara ti tene azo awara lege ti gue dä",
+          "Kpale ni ayeke polele si a lingbi ti bâ ni",
+          "nda ti ye ni ayeke tâ na lege ni ti tene a zi ni na lê ti nduzu",
+          "kua ni ague oko na kua ti IATF",
+          "a yeke wara mbeni lege so alingbi ti mû lege na zo ti bata ni wala ti hunzi ni"
+        ]
+      },
+      {
+        "title": "Dutingo ti zo ti batango ambeti",
+        "paragraphs": [
+          "A-projet so a yeda na ni a leke ni na gbe ti ndokua ti IATF GitHub.",
+          "Na ndo so, a yeke bata aye so a zia na yâ ni, tongaso si kua ti lekengo ada ni oko oko angbâ lakue na ndo ni, même tongana azo so ayeke bâ lege ni achangé na pekoni."
+        ]
+      },
+      {
+        "title": "Fango lege na zo ti sara kua",
+        "paragraphs": [
+          "A-projet ti IATF ayeke sara kua na copyleft, gi tongana a fa mbeni ye nde na yâ ti projet ni:"
+        ],
+        "items": [
+          "<strong>Kode ni ayeke so wa?</strong> AGPL-3.0",
+          "<strong>Akiringo tënë ni:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Wafango kua ti lekengo aye wala zo so ayeke bâ lege ni",
+      "paragraphs": [
+        "A lingbi a zia iri ti mbeni ingénieur wala zo so ayeke bâ lege ti kua ni na ndo ti projet oko oko kue so a yeda na ni."
+      ],
+      "items": [
+        "fango lege na azo kue",
+        "bata aye so a zia na yâ ti da ti batango aye",
+        "ti kiri ti bâ wala ti bâ lege ti atënë ni nga ti hunda ti tene a kiri na ni na mo",
+        "ti sû na mbeti akota desizion so a mû na lege ti kode",
+        "sara si azo amä yâ ti kua ni"
+      ],
+      "footnote": "So ayeke kungba ti ndokua ti batango ye. Bungbi so ayeke na li ti ye ni ayeke ngbâ na maboko ti IATF. Kungba ti ndo so ayeke batango ndo, fango lege na lege ti akode, nga na lekengo ye na popo ti azo kue  me a yeke pëpe kungba so a zia na ndo ti zo oko oko kue, bungbingo ye so a leke na kode ti lo, wala akungba ti mungo maboko na ndo ni na gigi ti carte ti lege so azo kue ayeke mû."
+    },
+    "publicDevelopment": {
+      "title": "Bungbi ti azo kue",
+      "paragraphs": [
+        "Akua so a zia na sese na lege ti IATF ayeke sigigi na ni na lê ti azo kue."
+      ],
+      "items": [
+        "Kozo kode ni",
+        "atënë ti yâ ni",
+        "mbeti ni",
+        "Atënë so ayeke na yâ ti carte ti lege",
+        "mbaï ti ziango ni"
+      ],
+      "footnote": "A lingbi kota hingango ye na ndo ti mbeni kapa aduti gi pëpe na yâ ti asango so azo ayeke fa wala na yâ a-inbox ti ala."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Akiringo tënë ti azo kue",
+      "title": "Akiringo tënë na ahunda ti azo"
+    },
+    "paragraphs": [
+      "IATF ayeke sara kua na ndo ti azo kue.",
+      "Mbeni mbeti so a zia ni na gbele azo kue ayeke pëpe gi kozo tokua ni. IATF alingbi ti fa na nduru tënë, ti kiri na peko ti atënë ni wala ti kiri ti leke yâ ti mbeni mbeti ni kozo ti tene a sigigi na ni, tongaso si a lingbi ti bâ aye so a hunda ti sara ti wara ni sân ti fa asango so ayeke ti zo ni.",
+      "A lingbi ti bata ambeti ti azo kue na yâ bungbi ti IATF GitHub, na ndo ti site so, wala na ndo ni use kue.",
+      "Kozo ti tene a sigigi na mbeti ni, IATF ayeke zi anzene nzene tënë na ndo ti azo so a lingbi ala sara lisoro na ala, a-adresse ti ala nga na anzene tënë so alingbi ti mû lege ti hinga zo so ayeke sara kua na akode so amû maboko na zo, gi tongana a yeke polele so a ye ti sigigi na ni nga a yeke na lege ni ti sara ni.",
+      "A yeke sala kusala na Discord ndali ti mango tere na lege ni pepe. IATF ayeke bata pepe asango ti Discord nde, na a yeke Discord si ayeke bata asango ni. A lingbi a fa nda ti adesizion so a mu na yâ Discord na yâ mbeti ti azo kue na ndo GitHub wala na ndo lembeti ti projet ni.",
+      "A yeke kanga lege na a-enregistrement so a hunda ti wara ni na lege ti masini ti gingo nda ti ye tongana lege ayeke dä ti sara ni.",
+      "IATF alingbi ti kiri na peko ti aye wala ti zi ni na ndo ti Internet, me lo lingbi pëpe ti tene so a yeke zi ni ande na yâ ti a-cache ti amba ti lo, a-notification ti ala, na a-fork ti ala nga na afoto ti ala.",
+      "Tongana a hunda ti tene mbeni tokua angbâ gi ndali ti lo wani, a lingbi mo tokua ni pëpe na lege ti alege ti IATF so azo kue ahinga ni."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Kusala ti bungbi ni",
+      "title": "Kapa ti fango tënë"
+    },
+    "lead": "A yeke nde na kua ti ingénieur so ayeke bâ ndo na ndo ti kua ni: a yeke kungba ti lo ti bâ lege ti bungbi ni kue, me ti fa lege lâ na lâ pëpe na mbeni ndo ti batango ye oko.",
+    "duties": {
+      "title": "Ye so ngende ni ayeke sara",
+      "items": [
+        "Ayeke na andia ti wa ni na ndo ti ndokua ti IATF GitHub",
+        "Lo sû maboko na gbe ti adesizion so a mû ti yeda na mbeni kua nga ti bata ni na yâ ti archivage",
+        "Lo yeke sara kua tongana zo so azo kue alingbi ti tingbi na lo ndali ti IATF",
+        "Lo yeke leke aye so a yeke soro ngu oko oko"
+      ],
+      "footnote": "Kozo zo so ayeke bâ ndo na ndo ti aye so ayeke na yâ ti adocument ni ayeke zo so a zia iri ti lo na ndo ni."
+    },
+    "election": {
+      "title": "A yeke soro ala ngu oko oko",
+      "paragraphs": [
+        "A yeke soro président ni fani oko na yâ ngu oko; a yeke soro lo na yâ ti akozo yenga use ti nze ti décembre, na a yeke fa peko ti tënë ni na lango 15 ti décembre.",
+        "Azo so alingbi ti sala vote ayeke azo so asala kusala tongana zo ti batango ye na ndo ti mbeni ndo ti batengo ye ti IATF na yâ ti ngu ni nga so asala na ngu ni so kamême mbeni mungo maboko so a bungbi ni oko na mbeni ndo so a bata ye ti batengba ti l'IATF. Zo oko oko so alingbi na voter ayeke na go oko.",
+        "A yeke sara vote ni na lege ti mbeni lisoro na ndo ti GitHub so azo kue ayeke wara ni na yâ ti ndo ti batango ye ti IATF. Tongaso, azo so aga na peko ti ala, vote ni nga na ye so asi na pekoni ayeke aye so azo ahinga ni kue."
+      ]
+    },
+    "continuity": {
+      "title": "Ngbâ ti gue na li ni",
+      "paragraphs": [
+        "Tongana a soro mbeni zo pëpe na yâ ti mbeni ngu, zo so ayeke na li ni laso ayeke ngbâ na kua ni juska na peko ti so a soro lo.",
+        "Wafango tënë ni alingbi ti zia kua ti lo na ngoi kue."
+      ]
+    },
+    "current": {
+      "title": "Fadeso lo yeke président ni",
+      "fields": [
+        {
+          "label": "Kapa ti fango tënë",
+          "value": "Mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Nda ti tënë ni",
+          "value": "Ti si na a-élection ti décembre 2026"
+        },
+        {
+          "label": "Kua ti lo aga na lege ni",
+          "value": "2026"
+        },
+        {
+          "label": "Kozo élection so a leke ni",
+          "value": "Décembre ti ngu 2026"
+        }
+      ]
+    },
+    "footnote": "Na ngu 2026, a zia na sese kua ti président ti mû lege na azo ti bâ lege ti aye na yâ ti mbeni bungbi."
+  },
+  "continuity": {
+    "states": {
+      "title": "Aye so ayeke si na yâ ti kua ni",
+      "paragraphs": [
+        "Akua ni ayeke sara kua na ambeni kete kode ti fango tënë so azo ayeke na bezoin ni:"
+      ],
+      "items": [
+        "Tënë so a hunda",
+        "A yeda na ni",
+        "Akusala so a yeke sara",
+        "Ngbâ ti duti nzoni",
+        "Lo yeke gi mbeni zo so ayeke bâ lege ti kua ni",
+        "A zia ni na yâ ti a-archive"
+      ],
+      "footnote": "Atënë so ayeke sara si a yeke ngangu pëpe ti diko mbeti ni."
+    },
+    "reassignment": {
+      "title": "Ti kiri ti zia ni na mbeni ndo nde nga ti bata ni na yâ ti archivage",
+      "paragraphs": [
+        "Tongana mbeni zo so ayeke bâ lege ti kua ni azia kua ni wala lo sara kua ni encore ape, IATF alingbi ti kiri ti mû kua ni na mbeni zo nde, ti kanga lege na kua ni ti gue na li ni wala ti zi kua ni.",
+        "A lingbi nga ti zia mbeni kua na yâ ti archivage tongana a hunzi kozo kua ni awe, a zia lege ti lekengo ni awe wala a lingbi pëpe ti ngbâ ti sara ni."
+      ],
+      "footnote": "Aye so a bata ni na yâ ti a-archive ayeke ngbâ lakue na lê ti azo kue, gi tongana mbeni kpengba nda ti tënë ayeke dä ti kanga lege na ni."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Nduru tënë ni",
+      "title": "Ye so IATF afa pëpe"
+    },
+    "items": [
+      "a-offrande so a mû na mbeni zo so ayeke zo ti kua",
+      "a-accord na ndo ti akode ti fango tënë",
+      "ti yeda na aye kue so a hunda ti sara",
+      "kua ti batango aye na yâ ti angoi so aninga ndali ti projet oko oko kue"
+    ],
+    "footnote": "IATF ayeke mbeni kode ti batango ambeti so azo kue ayeke na ni, me a yeke pëpe mbeni kode so azo la ayeke mû ni."
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Ti hunda ti tene a mû na mo mbeni mbeti so afa tongana nyen mo lingbi ti sara kua na ni",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Ti hunda ti tene a mû na mo mbeni mbeti so afa tongana nyen mo lingbi ti sara kua na ni",
+    "lead": "Bungbi ti IATF ayeke kiri ti bâ atënë so azo ahunda ti tene a mû maboko na ala na yâ ti kua ti lekengo lege ti guengo na abungbi.",
+    "support": [
+      "Mo yeke na bezoin pëpe ti hinga anzene nzene ye kue na ndo ni, me ti hinga mbilimbili kpale ni, azo so kpale ni andu ala nga ngbanga ti nyen a yeke kota ye ti hinga ni, alingbi awe ti mû maboko na mo ti to nda ni."
+    ],
+    "actions": [
+      {
+        "label": "Ti to nda ti mbeni hunda",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Sara kua na Discord na place ni",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Apendere lege ti fango tënë",
+      "title": "Soro lege so ayeke ngangu pëpe"
+    },
+    "intro": [
+      "A yeke bâ lege ni kue legeoko."
+    ],
+    "items": [
+      {
+        "label": "Na ndo ti Internet",
+        "body": "Sara kua na formulaire so ayeke na gbe ni ge ti tokua mbeni demande so a leke yâ ni nzoni."
+      },
+      {
+        "label": "E-mail ti mo",
+        "body": "Tisa hundango tënë ni mbilimbili na: {{contact.requestsEmail}}Atënë so a hunda na lege ti atokua ti e-mail alingbi ti ga ambeti so azo kue alingbi ti mä ni na peko ti so a kiri a bâ ni na a zi yâ ni."
+      },
+      {
+        "label": "Kengo tere na popo ti ala",
+        "body": "To nda ni na ndo so, tongana a yeke ngangu pëpe."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Kozo ti tene mo tokua mbeni demande",
+    "paragraphs": [
+      "IATF ayeke sala kua na lê ti azo kue. A lingbi ti fa na nduru tënë atënë so a hunda nga a lingbi ti sigigi na ni tongana ambeti so azo kue alingbi ti hunda ni na yâ ti bungbi ti GitHub, na ndo ti site ti Internet so, wala na ndo ni use kue.",
+      "Zia pëpe na yâ ni adrɛse ti azo, numero ti téléphone ti ala, anzene nzene tënë na ndo ti kobela ti ala wala aye so alingbi ti mû lege ti hinga zo so ayeke sara kua na akode so, gi tongana a yeke kota ye na mo yeda ti tene IATF abâ ni.",
+      "IATF ayeke zi anzene nzene tënë na ndo ti azo so ayeke na bezoin ni pëpe kozo ti tene a sigigi na ambeti so a hunda na ala ti sara kua na ni."
+    ]
+  },
+  "review": {
+    "title": "Ti kiri ti bâ aye so e ku ti wara",
+    "paragraphs": [
+      "Tongana mo hunda mbeni ye, a fa pëpe so a yeke yeda na ni.",
+      "IATF ayeke bâ atënë so a hunda ti bâ wala a lingbi na kua ni, wala a yeke nzoni ti sara ni wala pëpe, nga a yeke bâ wala kua ni alingbi ti duti na yâ ti mbeni ndo ti batango ambeti ti azo kue.",
+      "A lingbi ti ke ti yeda na ambeni ye so a hunda, ti zia ni na mbeni ngoi nde, wala ti gbian yâ ni kozoni si a yeda na ni."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Mbeti ti hundango tënë ni",
+      "title": "Mû mbeni demande"
+    },
+    "fields": [
+      {
+        "kind": "ye so a yôro na yâ ni",
+        "name": "zo so ahunda ni",
+        "label": "Iri ti mo wala ti bungbi ti mo",
+        "helper": "Zo wa ayeke hunda ni?"
+      },
+      {
+        "kind": "soro ni",
+        "name": "Lege ti guengo na ndo ni",
+        "label": "Lege so a ye ti tene ala tingbi na zo dä",
+        "helper": "Tongana nyen a lingbi ti sala kusala na ni?",
+        "required": true,
+        "options": [
+          "E-mail ti mo",
+          "Kengo tere na popo ti ala"
+        ]
+      },
+      {
+        "kind": "ye so a yôro na yâ ni",
+        "name": "Nduru tënë ni",
+        "label": "Akiringo tënë ni",
+        "helper": "Adresse ti e-mail wala adresse ti Discord ti mû maboko na mo.",
+        "placeholder": "Adresse ti e-mail wala adresse ti Discord",
+        "required": true
+      },
+      {
+        "kind": "ye so a yôro na yâ ni",
+        "name": "yanga ti kodoro",
+        "label": "Yanga ti kodoro",
+        "helper": "Yanga so mo ye ti tene ni, tongana a yeke kota ye.",
+        "value": "Anglais"
+      },
+      {
+        "kind": "ndo ti dikongo mbeti",
+        "name": "kpale",
+        "label": "Kpale wa mo yeke gi ti leke ni?",
+        "helper": "Fa kpale ni na mbeni lege so ayeke polele.",
+        "required": true
+      },
+      {
+        "kind": "ndo ti dikongo mbeti",
+        "name": "Azo so tënë ni andu ala",
+        "label": "A ndu azo wa?",
+        "helper": "Ye so ayeke mû maboko na zo wa?",
+        "required": true
+      },
+      {
+        "kind": "ndo ti dikongo mbeti",
+        "name": "extraTënë so angoro ni",
+        "label": "Ambeni tënë na ndo ni",
+        "helper": "Fa na lo ambeni ye so alingbi ti mû maboko na lo ti fa nda ti ye ni: ngbanga ti nyen a yeke kota ye, atapande, aye so a sara tënë na ndo ni, mbeni kete kode ti sarango kua na ordinateur, wala ngoi so a hunda ti sara ni."
+      },
+      {
+        "kind": "soro ni",
+        "name": "openSourceConsent",
+        "label": "A nzere na mo ti sara kua na kode so azo kue ayeke wara ni?",
+        "helper": "A-projet so a yeda na ni ayeke ambeti so azo kue ayeke wara ni na gbe ti IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "A yeke tongaso.",
+          "Ên-ën",
+          "Mbi hinga pëpe"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Tongana a yeda na ni",
+      "title": "Ti yeda na mbeni zo aye ti tene nyen?"
+    },
+    "items": [
+      "a yeke mbeni ndo ti batango ambeti so azo kue alingbi ti wara ni na yâ ti bungbi ti IATF GitHub",
+      "mbeni ingénieur so ayeke bâ ndo na ndo ti kua ni",
+      "a zia lege na mo ti sara kua na kode ni nga na aye ti yâ ti projet ni na lege ti copyleft",
+      "Gingo nda ti ye na ndo ti azo na yâ ti da ti batango aye",
+      "a zia ni na ndo ti site ti IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "To nda ti lisoro ni",
+      "title": "Ti to nda ni, a lingbi mo hunda na lo mbeni tënë so ayeke nduru na so ayeke polele"
+    },
+    "paragraphs": [
+      "Tongana mo yeke biani na bezoin ti tene azo kue awara lege ti gue dä, na mo pensé so a yeke nzoni a ga mbeni kua so azo kue ayeke na bezoin ni, tokua ni na e."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

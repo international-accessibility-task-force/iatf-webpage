@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Lege ti wara ni",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Lege ti wara ni",
+    "lead": "Bungbi ti IATF aye ti tene site ti Internet so akpengba pëpe, a yeke ngangu ti diko ni, zo alingbi ti wara ni na lege ti masini nga a lingbi ti sara kua na agbakuru so ayeke mû maboko na zo.",
+    "support": [
+      "Ti wara lege ti lï na ndo ti Internet, IATF ayeke sara kua na agbakuru so: [W3C WAI](https://www.w3.org/WAI/) A yeke wara nga fango ye na lege ti aye so azo so ayeke sara kua na agbakuru so amû maboko na zo awara."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Fango tënë",
+      "title": "Fa tënë ti mbeni kpale so andu lege so zo alingbi ti si dä"
+    },
+    "paragraphs": [
+      "Tongana mo wara mbeni ye so akanga lege na mo ti gue na ndo ti site so, e wa mo ti tokua ni na e-mail na:",
+      "{{contact.accessibilityEmail}}",
+      "Akiringo tënë so alingbi ti mû maboko na e ayeke:"
+    ],
+    "items": [
+      "lembeti so tënë ni asi dä",
+      "ye so mo ye ti sara",
+      "aye so mo yeke sara kua na ni ti mû maboko na mo ti hinga ye na ndo ti Internet, wala aye so ayeke na yâ ti ordinateur ti mo, tongana a yeke na lege ni",
+      "Nyen la ague na li ni ape?",
+      "ye so alingbi fade ti mû maboko na mo"
+    ],
+    "footnote": "Mo yeke na bezoin pëpe ti sû mbeni mbeti na ndo ti kpale ni."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Fango ye na ndo ni",
+      "title": "Fango tënë na gbele azo kue"
+    },
+    "paragraphs": [
+      "A lingbi ti kiri na peko ti atënë so andu lege ti wara ambeti na ndo ti Internet na yâ ti kota da ti batango ambeti, tongaso si a lingbi ti leke ni na lê ti azo kue.",
+      "Tongana na yâ tondo ti mo mo wara asango ti mo mveni, fa ni polele na yâ tokua ni."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Ye so ayeke si laso",
+      "title": "Akatikati so a hinga ni"
+    },
+    "paragraphs": [
+      "A leke site so na bê ti lo mveni ti duti kete nga mingi ni ti duti gi tongaso. Na ngoi so a yeke leke ti kiri na peko ti ambeti na ambeni yanga nde, a lingbi ti si so a hunzi pëpe."
+    ]
+  }
+}

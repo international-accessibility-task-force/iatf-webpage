@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Akua so azo kue alingbi ti wara ni",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Akua so azo kue alingbi ti wara ni",
+    "lead": "Na yâ ti mbeti so, a fa iri ti a-projet so a mû na azo ti sara kua na ni na lege ti ndokua ti IATF.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Da ti batango mbeti",
+      "title": "Registre ti laso"
+    },
+    "intro": [
+      "A-projet so a yeda na ni a fa ni ge na peko ti so a sigigi na ni awe."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Fa mbeni ye so mo yeke na bezoin ni",
+      "title": "Gbu li na ndo ti aye so a hunda ti sara ti sara si azo awara lege ti gue na abungbi"
+    },
+    "paragraphs": [
+      "Bungbi ti IATF ayeke bâ aye so a hunda ti sara ti tene azo kue awara lege ti sara kua na ni, na aye so alingbi ti ga nzoni kua ndali ti azo kue."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ade a sigigi na ambeni ye na ndo ni pëpe",
+    "paragraphs": [
+      "Bungbi ti IATF ayeke leke akozo kapa ti lo ti fango tënë na azo kue.",
+      "Mo lingbi lakue ti tokua mbeni hundango tënë tongana mo yeke tâ na bezoin ti tene a mû maboko na mo."
+    ]
+  }
+}
