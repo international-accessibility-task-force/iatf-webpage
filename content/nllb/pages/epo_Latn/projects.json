@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Publikaj alireblaj projektoj",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Publikaj alireblaj projektoj",
+    "lead": "Ĉi tiu registro listigas publikajn projektojn konservitajn tra IATF. Akceptitaj alireblaj projektoj, reteja infrastrukturo kaj arkivitaj prototipoj estas videblaj ĉi tie.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Aktuala registro"
+    },
+    "intro": [
+      "Akceptitaj projektoj estas listigitaj ĉi tie post kiam ili estas publikigitaj."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Submetu bezonon",
+      "title": "Transformi konkretan bezonon de alirebleco en publikan projekton"
+    },
+    "paragraphs": [
+      "IATF revizias konkretajn alireblajn bezonojn, kiuj povas esti transformitaj en utilajn publikajn malfermfontajn verkojn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Ankoraŭ ne publikigitaj projektoj",
+    "paragraphs": [
+      "IATF preparas sian unuan publikan projekton.",
+      "Vi ankoraŭ povas sendi peton se vi havas konkretan bezonon de alirebleco."
+    ]
+  }
+}

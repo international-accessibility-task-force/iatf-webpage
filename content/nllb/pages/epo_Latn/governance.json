@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Regado kaj deponeja modelo",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Regado kaj deponeja modelo",
+    "lead": "IATF konservas alireblajn projektojn publikaj, legeblaj, kaj subteneblaj.",
+    "support": [
+      "Ĉi tiu paĝo klarigas kio kvalifikiĝas, kiel deponejoj estas tenitaj, kaj kiu deponejo-nivela respondeco validas post akcepto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Reguloj",
+      "title": "Misio taŭga, proprieto, licencado"
+    },
+    "cards": [
+      {
+        "title": "Misio taŭga",
+        "paragraphs": [
+          "IATF akceptas laboron, kiu traktas realan alireblan barilon kaj havas klaran publikan valoron.",
+          "Projekto devus esti utila preter ununura privata laborfluo kaj funkciebla kiel publika deponejo.",
+          "Por interreta alirebleco, IATF uzas [W3C WAI](https://www.w3.org/WAI/) La rekta sperto de uzantoj de helpaj teknologioj ankaŭ estas praktika pruvo de tio, kio funkcias en reala uzo."
+        ]
+      },
+      {
+        "title": "Akcepto de projekto",
+        "paragraphs": [
+          "Propono povas esti akceptita kiam revizio montras ke:"
+        ],
+        "items": [
+          "Ĝi respondas al reala bezono de alirebleco.",
+          "la problemo estas sufiĉe klara por taksi",
+          "la amplekso estas sufiĉe reala por lanĉi",
+          "la laboro kongruas kun la misio de IATF",
+          "estas kredinda vojo al prizorgado aŭ kompletigo"
+        ]
+      },
+      {
+        "title": "Posedaĵo de deponejo",
+        "paragraphs": [
+          "Akceptitaj projektoj estas kreitaj sub la IATF GitHub organizo.",
+          "Repozicioj restas tie tiel ĉiu projekto konservas stabilan publikan hejmon, eĉ se prizorgantoj poste ŝanĝiĝas."
+        ]
+      },
+      {
+        "title": "Licencado",
+        "paragraphs": [
+          "IATF-projektoj uzas copyleft-licencadon krom se projekto deklaras alie:"
+        ],
+        "items": [
+          "<strong>Kodo:</strong> AGPL-3.0",
+          "<strong>Dokumentoj:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Respondeca inĝeniero aŭ prizorganto",
+      "paragraphs": [
+        "Ĉiu akceptita projekto devus havi nomitan respondecan inĝenieron aŭ prizorganto. Tiu persono povas ricevi administran aliron al la deponejo kaj estas atendita:"
+      ],
+      "items": [
+        "gvidilo evoluo en publika",
+        "subteni la strukturon de la deponejo",
+        "revizii aŭ administri temojn kaj tiri petojn",
+        "dokumentigi gravajn teknikajn decidojn",
+        "fari la projekton komprenebla por aliaj"
+      ],
+      "footnote": "Ĉi tio estas respondeco je deponejo-nivelo. Organiza proprieto restas ĉe IATF. Respondeco ĉi tie estas deponeja administrado, teknika direkto, kaj publika kunordigo  ne senlima privata liverado, kutimaj integriĝoj, aŭ servo-nivelaj engaĝiĝoj ekster la publika vojmapo."
+    },
+    "publicDevelopment": {
+      "title": "Publika evoluo",
+      "paragraphs": [
+        "Projektoj lanĉitaj tra IATF estas evoluigitaj publike defaŭlte. La deponejo estas la publika fonto de vero por:"
+      ],
+      "items": [
+        "fontkodo",
+        "temoj",
+        "dokumentado",
+        "vojmapo-notoj",
+        "liberighistorio"
+      ],
+      "footnote": "Gravaj projektaj scioj ne devas vivi nur en privataj babilejoj aŭ enirkestoj."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Publikaj arkivoj",
+      "title": "Publikaj peto-arkivoj"
+    },
+    "paragraphs": [
+      "Petoj kiuj eniras IATF tra la retejo, retpoŝto, malkonsento, GitHub, aŭ aliaj kanaloj de IAT F povas fariĝi publikaj petoj.",
+      "Publika peto rekordo ne estas nepre la originala mesaĝo. IATF povas resumi, redakti, aŭ restrukturi peto antaŭ publikigo tiel la alirebleco bezono povas esti reviziita sen eksponado de nenecesa persona informo.",
+      "Publikaj peto-arkivoj povas esti stokitaj en la IATF GitHub-organizo, en ĉi tiu retejo, aŭ ambaŭ.",
+      "Antaŭ publikigo, IATF forigas nenecesajn personajn kontaktajn datumojn, privatajn adresojn, kaj identigajn detalojn pri individuaj uzantoj de helpaj teknologioj krom se publikigo estas klare intencita kaj taŭga.",
+      "Malkonsento estas uzata por neformala kunordigo. IATF ne aparte arkivas malkonsento konversaciojn defaŭlte, kaj mesaĝo reteno estas kontrolita de malkonsentemo. Decidoj faritaj en malkonkordo devus esti resumitaj en la publika disko sur GitHub aŭ sur la koncerna projekto paĝo.",
+      "Peto registroj estas ekskluditaj de serĉilo indekso kie teknike praktika. Publika signifas reviziebla kaj respondeca. Ĝi ne signifas optimumigita por eltrovaĵo tra nomo serĉoj.",
+      "IATF povas ĝisdatigi aŭ forigi rekordojn de IAT F-kontrolitaj publikaj surfacoj, sed ne povas garantii forigon de triapartaj kaŝmemoroj, sciigoj, forkoj, ekrankopioj, serĉiloj, malkonsento, aŭ aliaj eksteraj sistemoj.",
+      "Se mesaĝo devas resti privata, ne sendu ĝin tra publikaj kanaloj de IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organiza rolo",
+      "title": "Prezidanto"
+    },
+    "lead": "La prezidanto tenas organiz-nivelan administradon de IATF. Tio estas aparta de la per-projekto respondeca inĝeniero rolo: la prezidanto respondecas pri la organizo kiel tutaĵo, ne por la daŭra direkto de iu ununura deponejo.",
+    "duties": {
+      "title": "Kion faras la seĝo",
+      "items": [
+        "Enhavas posedanto permesoj sur la IATF GitHub organizo",
+        "Subskribas akceptajn projektojn kaj arkivajn decidojn",
+        "Funkcias kiel la publika kontaktpunkto por IATF",
+        "Li kunordigas la ĉiujaran elekton."
+      ],
+      "footnote": "La prezidanto ne devigas IATF al privata livero, pagita laboro, aŭ servo-nivelaj interkonsentoj, kaj ne superregas per-repoziciajn prizorgantajn decidojn pri teknika direkto."
+    },
+    "election": {
+      "title": "Ĉiujara elekto",
+      "paragraphs": [
+        "La prezidanto estas elektita unufoje jare. La elekto okazas dum la unuaj du semajnoj de decembro, la rezultoj estas anoncitaj antaŭ la 15-a de decembro kaj la nova oficperiodo komenciĝas la 1-an de januaro.",
+        "Elekteblaj voĉdonantoj estas homoj, kiuj tenis prizorgan rolon en iu ajn IATF-rezervejo dum la jaro kaj faris almenaŭ unu kunfanditan kontribuon al IAT F en tiu jaro. Ĉiu elektebla voĉdonanto havas unu voĉon. La kandidato kun la plej multaj voĉoj gajnas; en kazo de egaleco, dua raŭndo okazas en la tria semajno de decembro.",
+        "La elekto funkcias kiel publika GitHub-diskuto en la elektita IATF-registaro, do la kandidatoj, la voĉdono kaj la rezulto estas ĉiuj parto de la publika disko."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinueco",
+      "paragraphs": [
+        "Se neniu elekto estas okazigita en antaŭfiksita jaro, la nuna prezidanto daŭras en la rolo ĝis la venonta elekto. Tio estas senfina daŭrigo, ne gracia periodo  la modelo estas desegnita por konservi la organizon stabila kiam aktiveco estas malalta, ne por devigi transiron kiun neniu estas preta por.",
+        "La prezidanto povas eksiĝi en ajna tempo. Aktivaj administrantoj ankaŭ povas anonci eksterordinaran elekton kun deklarita kialo, prizorgita sub la samaj reguloj kiel la ĉiujara elekto."
+      ]
+    },
+    "current": {
+      "title": "Aktuala prezidanto",
+      "fields": [
+        {
+          "label": "Prezidanto",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Tempodaŭro",
+          "value": "Ĝis la elekto de decembro 2026"
+        },
+        {
+          "label": "Rolo formaligita",
+          "value": "2026"
+        },
+        {
+          "label": "Unua planita elekto",
+          "value": "Decembro 2026"
+        }
+      ]
+    },
+    "footnote": "La rolo de prezidanto estis formaligita en 2026 por fari eksplicitan administradon sur organiza nivelo. Ĝis tiam, organiza respondeco estis tenita neformale fare de la fondinto."
+  },
+  "continuity": {
+    "states": {
+      "title": "Projektaj statoj",
+      "paragraphs": [
+        "Projektoj uzas malgrandan aron de publikaj ŝtatoj:"
+      ],
+      "items": [
+        "Propono",
+        "Akceptita",
+        "Aktiva",
+        "Stabila",
+        "Serĉante prizorganto",
+        "Arkivita"
+      ],
+      "footnote": "Tiuj ŝtatoj faciligas la skanadon de la registro."
+    },
+    "reassignment": {
+      "title": "Realigo kaj arkivado",
+      "paragraphs": [
+        "Se konservanto paŝas for aŭ iĝas neaktiva, IATF povas reasigni respondecon, halti evoluon, aŭ arkivi la projekton.",
+        "Projekto ankaŭ povas esti arkivita kiam la origina bezono estis renkontita, prizorgado ĉesis, aŭ daŭra laboro jam ne estas realisma."
+      ],
+      "footnote": "Arkivitaj projektoj restas publike videblaj krom se ekzistas konvinka kialo por fari alie."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Limnoto",
+      "title": "Kion IATF ne garantias"
+    },
+    "items": [
+      "liveraĵo de privata kliento",
+      "interkonsentoj pri nivelo de servo",
+      "akcepto de ĉiu propono",
+      "longtempa prizorgado por ĉiu projekto"
+    ],
+    "footnote": "IATF estas publika repositoriomodelo, ne privata liverservo."
+  }
+}

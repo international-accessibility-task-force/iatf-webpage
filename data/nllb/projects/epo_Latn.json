@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "Retejo de IATF",
+    "summary": "La publika retejo de la Internacia Agentejo pri Alirebleco.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "IATF bezonis stabilan komunan bazon kiu klarigas la modelon, listigas la projektojn, kaj montras al kontribuantoj la ĝustan vojon por atingi la celon.",
+    "why": "La retejo estas la publika enirejo de IATF. Ĝi estas konstruita kiel malgranda statika projekto tiel ke ĝi restas facila por legi, traduki, kaj konservi en la malferma.",
+    "scopeIn": [
+      "Publikaj alteriĝaj paĝoj kiuj klarigas la IATF-modelon",
+      "Publika registro de akceptitaj, aktivaj, kaj arkivitaj IATF-projektoj kun statuso, prizorganto, deponejo, kaj demonstraĵo",
+      "Paĝo kaj formularo por ricevo de petoj",
+      "Regado kaj travideblaj paĝoj",
+      "Angla fonto kun strukturo preta por traduko",
+      "Statika deplojo sur Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Privataj membrareoj, kontoj, aŭ ensalutfluoj",
+      "Gastigado de la fontkodo de la projekto, kiu vivas en la propra deponejo de ĉiu projekto",
+      "Realtempa babilejo, kiu vivas en Discord",
+      "Sekvado de problemoj por individuaj projektoj, kiu vivas en la GitHub-deponejo de ĉiu projekto"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF memfoto",
+    "summary": "Frua IATF-prototipo, arkivita post atingado de natura haltpunkto.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Frua esplorado de alirebleco-fokusita ilo sub la IATF-ombrelo.",
+    "why": "La deponejo estas konservita publika kiel rekordo de la laboro, eĉ se aktiva evoluo ĉesis.",
+    "scopeIn": [
+      "Frua prototipo de alireblec-fokusita ilo konservita kiel publika disko"
+    ],
+    "scopeOut": [
+      "Aktiva evoluo aŭ trajto laboras",
+      "Konservaj devontigoj",
+      "Rekomendita uzo en produktado"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF-boto",
+    "summary": "IATF komunuma roboto, arkivita post atingado de natura haltpunkto.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Aŭtomatigo ĉirkaŭ IATF-komunumaj kanaloj.",
+    "why": "La deponejo estas konservita publika kiel rekordo de la laboro, eĉ se aktiva evoluo ĉesis.",
+    "scopeIn": [
+      "Malkonsento aŭtomatigo ĉirkaŭ IATF komunumo kanaloj, konservita kiel publika disko"
+    ],
+    "scopeOut": [
+      "Aktiva evoluo aŭ trajto laboras",
+      "Konservaj devontigoj",
+      "Rekomendita uzo en produktado"
+    ]
+  }
+]

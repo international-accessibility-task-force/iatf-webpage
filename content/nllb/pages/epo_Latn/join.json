@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Aliĝu al IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Aliĝu al IATF",
+    "lead": "Membreco estas malferma. Estas pluraj manieroj partopreni, ĉu vi fidas je helpa teknologio, konstruas alireblan programaron, tradukas, testas aŭ konservas projekton. Diskutoj kaj decidoj okazas publike en GitHub kaj Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Roloj",
+      "title": "Manieroj kontribui"
+    },
+    "items": [
+      "<strong>Petu projekton.</strong> Se vi renkontas alireblan barilon, kiu povus esti traktita per publika malfermfonteca programaro, sendu ĝin per la peto.",
+      "<strong>Testo kaj revizio.</strong> Provu IATF-projektojn kun la helpa teknologio, kiun vi uzas, raportu, kio funkcias kaj kio ne, kaj arkivu problemojn rekte en la koncerna deponejo.",
+      "<strong>Traduku.</strong> Fonta enhavo estas publikigita unue en simpla angla. Tradukoj estas aldonitaj kiel kontribuantoj estas haveblaj, komencante kun la hispana.",
+      "<strong>Konstruu.</strong> Elektu problemojn en iu ajn IATF-deponejo, sendu eltirajn petojn, aŭ transprenu projekton kiel ĝia respondeca inĝeniero.",
+      "<strong>Konservu.</strong> Ekzistantaj projektoj foje bezonas novan prizorganto. Prizorganto rotacio estas normala parto de la modelo, ne escepto."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanaloj",
+      "title": "Kie IATF laboras publike"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problemoj, eltiras petojn, liberigas, kaj projektas rekordojn.",
+      "<strong>Malkonsento.</strong> Viva diskuto, kunordigo, kaj neformalaj demandoj.",
+      "<strong>Retpoŝto.</strong> Uzo <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> se nek GitHub nek Discord taŭgas."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Sekva paŝo",
+      "title": "Elektu la kanalon kiu kongruas kiel vi volas kontribui"
+    },
+    "paragraphs": [
+      "Ĉiuj kanaloj nutras en la sama publika revizio kaj la samaj publikaj deponejoj."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

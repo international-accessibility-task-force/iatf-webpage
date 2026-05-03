@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Ne trovita"
+  },
+  "hero": {
+    "eyebrow": "Ne trovita",
+    "title": "La serĉita paĝo ne estis trovita",
+    "lead": "Uzu la ĉefajn vojojn sube por reveni al la publika ejo.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Hejme",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "La itinero, kiun vi petis, ne ekzistas."
+    ],
+    "items": [
+      {
+        "label": "Hejme",
+        "href": "/"
+      },
+      {
+        "label": "Projektoj",
+        "href": "/projects/"
+      },
+      {
+        "label": "Aliĝu.",
+        "href": "/join/"
+      },
+      {
+        "label": "Alirebleco",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Regado",
+        "href": "/governance/"
+      },
+      {
+        "label": "Travidebleco",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

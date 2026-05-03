@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "De la bezono de alirebleco al publika repo",
+    "lead": "IATF helpas asociojn, grupojn kaj individuojn transformi realajn alireblajn bezonojn en publikajn malfermfontajn projektojn.",
+    "support": [
+      "Akceptitaj projektoj estas publikigitaj en la IATF GitHub-organizo sub kopirajta licenco kaj disvolvitaj publike de respondeca inĝeniero."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Publika funkciiga modelo",
+      "title": "Simpla publika vojo por alirebla programaro"
+    },
+    "paragraphs": [
+      "Per formularo, iu ajn povas sendi alireblan problemon al IATF. Se la teamo povas transpreni ĝin, publika GitHub-deponejo estas malfermita por la laboro.",
+      "Ĉiu akceptita projekto havas klaran publikan hejmon por kodo, temoj, dokumentado kaj eldonoj, kun disvolviĝo gvidata malkaŝe de respondeca inĝeniero."
+    ],
+    "specCard": {
+      "title": "Publika funkciiga modelo",
+      "terms": [
+        {
+          "term": "Bezono",
+          "definition": "Reala alirebla problemo"
+        },
+        {
+          "term": "Revizio",
+          "definition": "Taŭgeco de la misio kaj praktika farebleco"
+        },
+        {
+          "term": "Projekta spaco",
+          "definition": "Publika GitHub-deponejo"
+        },
+        {
+          "term": "Administrado",
+          "definition": "IATF organiza proprieto"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Procezo",
+      "title": "Kiel ĝi funkcias",
+      "intro": "La modelo intence restas malgranda tiel ke la publika vojo estas facile sekvebla."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Neceso estas prezentita",
+        "paragraphs": [
+          "Asocio, grupo aŭ individuo povas sendi peton bazitan sur reala bezono de alirebleco.",
+          "Petoj povas komenci per la retejo, per retpoŝto al <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, aŭ tra Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF kontrolas ĝin.",
+        "paragraphs": [
+          "Ni revizias taŭgecon de la misio, praktikan amplekson, kaj ĉu la laboro apartenas al publika malfermfonteca projekto."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Publika deponejo estas kreita",
+        "paragraphs": [
+          "Se projekto estas akceptita, ĝi estas publikigita en la IATF GitHub-organizo sub copyleft-licenco.",
+          "La deponejo iĝas la publika hejmo de la kodo, temoj, dokumentado, kaj eldonoj."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "La respondeca inĝeniero gvidas la projekton.",
+        "paragraphs": [
+          "Respondeca inĝeniero estas asignita al la projektodeponejo kaj disvolviĝo okazas publike."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registro",
+      "title": "Publika projekto-registro"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Komencu ĉi tie.",
+      "title": "Rigardu aktualan laboron aŭ komencu konkretan projekton"
+    },
+    "paragraphs": [
+      "Uzu la registron por vidi, kio jam estas publika, aŭ komencu la konsumon, se konkreta alirebla problemo iĝos projekto."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Peti projekton pri alirebleco",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Peti projekton pri alirebleco",
+    "lead": "IATF revizias petojn por alireblaj projektoj, kiuj komenciĝas de reala bezono.",
+    "support": [
+      "Vi ne bezonas plenan specifon. Klara problemo, kiu ĝi influas, kaj kial ĝi gravas estas sufiĉe por komenci."
+    ],
+    "actions": [
+      {
+        "label": "Komencu peton",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Uzu anstataŭe Discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanaloj",
+      "title": "Elektu la plej facilan vojon."
+    },
+    "intro": [
+      "Ĉiuj itineroj eniras la saman revizion."
+    ],
+    "items": [
+      {
+        "label": "Retejo",
+        "body": "Uzu la malsupran formularon por sendi strukturitan peton."
+      },
+      {
+        "label": "Retpoŝto",
+        "body": "Sendu la peton rekte al {{contact.requestsEmail}}Retpoŝtaj petoj povas fariĝi publikaj petoj post revizio kaj redaktado."
+      },
+      {
+        "label": "Malkonsento",
+        "body": "Komencu tie se tio estas plej facila. La peto daŭre moviĝas en la saman revizion."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Antaŭ ol sendi peton",
+    "paragraphs": [
+      "IATF laboras publike. Petoj povas esti resumitaj kaj publikigitaj kiel publikaj peto-arkivoj en la organizaĵo GitHub, en ĉi tiu retejo, aŭ ambaŭ.",
+      "Ne inkluzivu privatajn adresojn, telefonnumerojn, medicinajn detalojn aŭ identigajn informojn pri individuaj uzantoj de helpaj teknologioj krom se tio estas necesa kaj vi sentas vin komforta kun la revizio de IATF.",
+      "IATF forigas nenecesajn personajn kontaktajn detalojn antaŭ ol publikigi petojn."
+    ]
+  },
+  "review": {
+    "title": "Revizii atendojn",
+    "paragraphs": [
+      "Submetado de peto ne garantias akcepton.",
+      "IATF revizias petojn por misio taŭgeco, farebleco, utileco, kaj ĉu la laboro apartenas en publika deponejo.",
+      "Iuj petoj povas esti rifuzitaj, prokrastitaj, aŭ ŝanĝitaj antaŭ akcepto."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formo de peto",
+      "title": "Submeti peton"
+    },
+    "fields": [
+      {
+        "kind": "enigaĵo",
+        "name": "petanto",
+        "label": "Via nomo aŭ organizo",
+        "helper": "Kiu faras la peton?"
+      },
+      {
+        "kind": "elektu",
+        "name": "kontakto-itinero",
+        "label": "Preferata kontakto itinero",
+        "helper": "Kiel tio funkcios?",
+        "required": true,
+        "options": [
+          "Retpoŝto",
+          "Malkonsento"
+        ]
+      },
+      {
+        "kind": "enigaĵo",
+        "name": "kontaktoDetaloj",
+        "label": "Kontakto detaloj",
+        "helper": "Retpoŝta adreso aŭ Discord adreso por sekvado.",
+        "placeholder": "Retpoŝta adreso aŭ adreso de Discord",
+        "required": true
+      },
+      {
+        "kind": "enigaĵo",
+        "name": "lingvo",
+        "label": "Lingvo",
+        "helper": "Via preferata lingvo, se grava.",
+        "value": "Esperanto"
+      },
+      {
+        "kind": "tekstareo",
+        "name": "problemo",
+        "label": "Kiun problemon vi provas solvi?",
+        "helper": "Priskribu la barilon per simplaj vortoj.",
+        "required": true
+      },
+      {
+        "kind": "tekstareo",
+        "name": "tuŝataj uzantoj",
+        "label": "Kiu estas trafita?",
+        "helper": "Al kiu tio helpus?",
+        "required": true
+      },
+      {
+        "kind": "tekstareo",
+        "name": "extraContext (ekstra kunteksto)",
+        "label": "Ekstra kunteksto",
+        "helper": "Dividu ion ajn alian, kiu helpas klarigi la bezonon: kial ĝi gravas, ekzemploj, referencoj, malglata programideo aŭ templimigoj."
+      },
+      {
+        "kind": "elektu",
+        "name": "openSourceConsent",
+        "label": "Ĉu komforta kun publika malfermfonteca evoluo?",
+        "helper": "Akceptitaj projektoj estas publikaj deponejoj sub IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Jes",
+          "Ne",
+          "Mi ankoraŭ ne certas."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Se akceptita",
+      "title": "Kion signifas akcepto"
+    },
+    "items": [
+      "publika deponejo en la IATF GitHub organizo",
+      "respondeca inĝeniero asignita al la projekto",
+      "kopirajta permesilo por la kodo kaj projektaj materialoj",
+      "publika evoluo en la deponejo",
+      "enskribo en la retejo de IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Komencu la konversacion",
+      "title": "Mallonga, klara peto sufiĉas por komenci"
+    },
+    "paragraphs": [
+      "Se vi vere bezonas alireblecon kaj pensas, ke ĝi devas iĝi publika projekto, sendu ĝin al ni."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

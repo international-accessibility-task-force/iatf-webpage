@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Alirebleco",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Alirebleco",
+    "lead": "IATF celas teni ĉi tiun retejon simpla, legebla, klavar-alirebla, kaj kongrua kun helpaj teknologioj.",
+    "support": [
+      "Por interreta alirebleco, IATF uzas [W3C WAI](https://www.w3.org/WAI/) La praktika alirebleco ankaŭ estas informita per la rekta sperto de uzantoj de helpaj teknologioj."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Raportado",
+      "title": "Raportu pri alirebla problemo"
+    },
+    "paragraphs": [
+      "Se vi trovas alireblan barilon en ĉi tiu retejo, bonvolu raporti ĝin per retpoŝto:",
+      "{{contact.accessibilityEmail}}",
+      "Utilaj raportoj inkluzivas:"
+    ],
+    "items": [
+      "la paĝo kie la problemo okazis",
+      "kion vi provis fari",
+      "kiun helpan teknologion, retumilon aŭ aparaton vi uzis, se tio estas grava",
+      "kio misfunkciis",
+      "kio helpis?"
+    ],
+    "footnote": "Vi ne bezonas skribi formalan raporton pri eraro. Klara priskribo sufiĉas."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Pritraktado",
+      "title": "Pritraktado de publikaj temoj"
+    },
+    "paragraphs": [
+      "Alireblaj problemoj povas esti resumitaj en la koncerna publika deponejo tiel ke ili povas esti fiksitaj en malferma. Personaj kontaktaj detaloj kaj nenecesaj privataj informoj estas forigitaj antaŭ publikigo.",
+      "Se via raporto inkluzivas privatan informon, diru tion klare en la mesaĝo."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Aktuala stato",
+      "title": "Konataj limigoj"
+    },
+    "paragraphs": [
+      "Ĉi tiu retejo estas intence malgranda kaj plejparte statika. Kelkaj lingvaj versioj povas esti nekompletaj dum tradukoj estas preparataj."
+    ]
+  }
+}

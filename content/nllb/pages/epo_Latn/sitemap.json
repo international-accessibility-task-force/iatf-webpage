@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Indekso",
+    "title": "Sitemap",
+    "lead": "Ĉiuj publikaj paĝoj de IATF.CC, en unu loko."
+  },
+  "sections": [
+    {
+      "title": "Ĉefaj paĝoj",
+      "items": [
+        {
+          "label": "Hejme",
+          "href": "/"
+        },
+        {
+          "label": "Projektoj",
+          "href": "/projects/"
+        },
+        {
+          "label": "Peti projekton",
+          "href": "/propose/"
+        },
+        {
+          "label": "Regado",
+          "href": "/governance/"
+        },
+        {
+          "label": "Aliĝu.",
+          "href": "/join/"
+        },
+        {
+          "label": "Alirebleco",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Travidebleco",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projektoj",
+  "projectsEmpty": "Ankoraŭ ne estas publikigitaj projektoj."
+}
