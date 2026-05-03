@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Не знойдзена"
+  },
+  "hero": {
+    "eyebrow": "Не знойдзена",
+    "title": "Запытаная старонка не знойдзена",
+    "lead": "Выкарыстоўвайце асноўныя маршруты ніжэй, каб вярнуцца на грамадскі сайт.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Дом",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Маршрут, які вы запыталі, не існуе."
+    ],
+    "items": [
+      {
+        "label": "Дом",
+        "href": "/"
+      },
+      {
+        "label": "Праекты",
+        "href": "/projects/"
+      },
+      {
+        "label": "Далучайцеся",
+        "href": "/join/"
+      },
+      {
+        "label": "Даступнасць",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Кіраванне",
+        "href": "/governance/"
+      },
+      {
+        "label": "Празрыстасць",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

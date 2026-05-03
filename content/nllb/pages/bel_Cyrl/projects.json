@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Праекты грамадскай даступнасці",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Праекты грамадскай даступнасці",
+    "lead": "Прынятыя праекты даступнасці, інфраструктура сайта і архіваваныя прататыпы захоўваюцца тут.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Рэгістр",
+      "title": "Цяперашні рэестр"
+    },
+    "intro": [
+      "Прынятыя праекты пералічаныя тут, як толькі яны апублікаваныя."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Падавайце патрэбу",
+      "title": "Пераўтварыце канкрэтную патрэбу ў даступнасці ў грамадскі праект"
+    },
+    "paragraphs": [
+      "IATF разглядае канкрэтныя патрэбы ў даступнасці, якія могуць быць ператвораны ў карысную працу з адкрытым зыходным кодам."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Пакуль няма апублікаваных праектаў",
+    "paragraphs": [
+      "IATF рыхтуе свой першы публічны набор праектаў.",
+      "Вы ўсё роўна можаце даслаць запыт, калі ў вас ёсць канкрэтная патрэба ў даступнасці."
+    ]
+  }
+}

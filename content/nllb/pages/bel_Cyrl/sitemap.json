@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Карта сайта"
+  },
+  "hero": {
+    "eyebrow": "Індэкс",
+    "title": "Карта сайта",
+    "lead": "Кожная публічная старонка на iatf.cc, у адным месцы."
+  },
+  "sections": [
+    {
+      "title": "Асноўныя старонкі",
+      "items": [
+        {
+          "label": "Дом",
+          "href": "/"
+        },
+        {
+          "label": "Праекты",
+          "href": "/projects/"
+        },
+        {
+          "label": "Патрабаваць праект",
+          "href": "/propose/"
+        },
+        {
+          "label": "Кіраванне",
+          "href": "/governance/"
+        },
+        {
+          "label": "Далучайцеся",
+          "href": "/join/"
+        },
+        {
+          "label": "Даступнасць",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Празрыстасць",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Праекты",
+  "projectsEmpty": "Апублікаваных праектаў пакуль няма."
+}
