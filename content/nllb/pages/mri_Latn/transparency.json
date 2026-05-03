@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "slug": "transparency",
+    "currentPath": "/transparency/",
+    "title": "Te mārama",
+    "descriptionKey": "meta.transparency.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.transparency.eyebrow",
+    "title": "Te mārama",
+    "lead": "IATF mahi i roto i te tūmatanui i te taunoa. whakatau kaupapa, huringa waehere, whakarerekētanga whakahaere, me ngā utu whakahaere e tuhituhia ana i ngā wāhi tūmataiti. rārangi tēnei whārangi te wahi ia momo o te pūkete ora, me te pehea, ki te pānui i te reira.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "records": {
+    "header": {
+      "kicker": "Ngā pūkete",
+      "title": "Te wāhi e noho ai ngā pūkete"
+    },
+    "items": [
+      "<strong>Ngā whakataunga kaupapa.</strong> Ka tuhia ngā whakataunga whakaaetanga, pūranga, me te whakarerekētanga hei take, hei tuku rānei i roto i te whare putunga e hāngai ana, ā, ka whakarāpopototia ki te rēhita tūmatanui. <a href=\"/projects/\">rēhita</a>He aha te take?",
+      "<strong>Tonoa ngā pūkete.</strong> Kei te penapenahia nga rekoata tono a te iwi i roto i te whakahaere IATF GitHub, i runga i tenei paetukutuku, i nga mea e rua ranei. Ka taea te whakarapopototanga, te whakatika, te whakariterite ranei i te tono taketake kia taea ai te arotake i te hiahia uru atu me te kore e whakaatu i nga korero whaiaro kore. Ka whakarapopototia nga whakataunga koretake ki te rekoata a-iwi ka pa ana ki te kaupapa, ki te whakatau whakahaere ranei. Kei te whakakorea nga tuhinga tono mai i te raarangi miihini rapu i te wa e tika ana. Tirohia nga tuhinga: e tatari ana te tono whakaputa tuatahi.",
+      "<strong>Ka huri te waehere.</strong> Ko ia huringa waehere he whakaaetanga tūmatanui i runga i te whare putunga e hāngai ana. Tirohia te IATF <a href=\"{{contact.githubOrgUrl}}\">Ko te whakahaere GitHub</a>He aha te take?",
+      "<strong>He huringa whakahaere.</strong> Ka aroturukihia ngā whakahoutanga ki te whārangi whakahaere i te wā e whakaū ana ki te <code>paetukutuku iatf</code> Tirohia te pūranga. <a href=\"{{contact.githubOrgUrl}}/iatf-website/commits\">whakairi hītori</a> i runga i GitHub.",
+      "<strong>Ngā utu whakahaere.</strong> Ko te IATF e pupuri ana i nga utu whakahaere iti, me te tuhi i nga whakapaunga o te hanganga tūmatanui. Mai i te tau 2022, ko nga utu nui e pa ana ki nga ingoa rohe. Kua whakamahia e te manaaki nga hanganga koreutu-koreutu, iti-utu ranei i te wa e taea ana. Tirohia te rekoata utu whakahaere i raro nei.",
+      "<strong>Tuhipoka whakakotahitanga.</strong> Ko ngā tuhipānui mai i tētahi arotake, whakatau rānei kua whakaritea, e noho ora ana i roto i te GitHub Discussions on the relevant repository  view <a href=\"{{contact.githubOrgUrl}}/iatf-website/discussions\">Ngā matapaki</a> i runga i te <code>paetukutuku iatf</code> whare putunga."
+    ]
+  },
+  "operatingCosts": {
+    "header": {
+      "kicker": "Ngā utu",
+      "title": "Tuhinga o te utu whakahaere"
+    },
+    "paragraphs": [
+      "Ko te IATF e pupuri ana i ona hanganga tūmatanui i te iti noa iho. Mai i te tau 2022, ko nga utu whakahaere auau nui ko nga ingoa rohe. Kua whakamahia e te manaaki nga hanganga koreutu, iti-utu ranei i te wa e taea ana.",
+      "Ehara tēnei pūkete i te pūkete pūtea kua arotakehia. He rārangi pūkete utu whakahaere tūmatanui mō te hanganga e whakamahia ana hei pupuri i te IATF ki te ipurangi."
+    ],
+    "footnote": "Ka taea te tohutoro, te whakaputa ranei i nga whiwhinga i muri i te whakakorenga. Ko nga wahitau whaiaro, nga taipitopito nama, me nga korero kaute kore e hiahiatia ana ehara i te waahanga o te rekoata a te iwi.",
+    "entries": [
+      {
+        "year": "2026",
+        "items": [
+          {
+            "label": "Ko te rohe",
+            "value": "<code>iatf.cc</code>"
+          },
+          {
+            "label": "Te utu",
+            "value": "Ko te USD 3.40"
+          },
+          {
+            "label": "Tuhipoka",
+            "value": "Ko te utu rohe i utua e mugiwarafx. I whakamahia e te manaaki nga hanganga koreutu, iti-utu ranei na roto i te Cloudflare. I neke te kaupapa mai i Vercel ki te CloudFlare ka tiimata te whakamahi i te poto <code>iatf.cc</code> rohe."
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "items": [
+          {
+            "label": "Ko te rohe",
+            "value": "<code>internationalaccessibilitytaskforce.com Te āheitanga o te ao</code>"
+          },
+          {
+            "label": "Te utu",
+            "value": "USD 18.68 Kotahi tekau mā waru tekau mā ono"
+          },
+          {
+            "label": "Tuhipoka",
+            "value": "Ko te utu rohe i utua e mugiwarafx. I whakamahia te manaaki i te hanganga koreutu-koreutu, iti-utu ranei."
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "items": [
+          {
+            "label": "Ko te rohe",
+            "value": "<code>internationalaccessibilitytaskforce.com Te āheitanga o te ao</code>"
+          },
+          {
+            "label": "Te utu",
+            "value": "Ko te USD 17.06"
+          },
+          {
+            "label": "Tuhipoka",
+            "value": "Ko te utu rohe i utua e mugiwarafx. I whakamahia te manaaki i te hanganga koreutu-koreutu, iti-utu ranei na roto i te Vercel."
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "items": [
+          {
+            "label": "Ko te rohe",
+            "value": "<code>internationalaccessibilitytaskforce.com Te āheitanga o te ao</code>"
+          },
+          {
+            "label": "Te utu",
+            "value": "USD 14.76 Kotahi tekau mā whitu"
+          },
+          {
+            "label": "Tuhipoka",
+            "value": "Ko te utu rohe i utua e mugiwarafx. I whakamahia te manaaki i te hanganga koreutu-koreutu, iti-utu ranei."
+          }
+        ]
+      },
+      {
+        "year": "2022",
+        "items": [
+          {
+            "label": "Ko te rohe",
+            "value": "<code>internationalaccessibilitytaskforce.com Te āheitanga o te ao</code>"
+          },
+          {
+            "label": "Te utu",
+            "value": "Ko te USD 7.76"
+          },
+          {
+            "label": "Tuhipoka",
+            "value": "Ko te utu rohe i utua e mugiwarafx. I whakamahia te manaaki i te hanganga koreutu-koreutu, iti-utu ranei na roto i nga Wharangi GitHub."
+          }
+        ]
+      }
+    ]
+  },
+  "notPublic": {
+    "header": {
+      "kicker": "Tuhipoka rohe",
+      "title": "He aha te mea kāore i te tūmatanui"
+    },
+    "paragraphs": [
+      "Ko ētahi rauemi e pupuri ana i waho o ngā pūkete tūmatanui i runga i te whāinga:"
+    ],
+    "items": [
+      "Ngā taipitopito whakapā whaiaro o ngā kaitono.",
+      "Ko ngā reta tūmataiti e whakamahia ana hei whakamārama i tētahi tono i mua i te whakaaetanga, i te whakakahoretanga, ki te whakarāpopoto rānei.",
+      "Ngā wāhitau tūmataiti, ngā tau waea, me ngā taipitopito whaiaro kāore e tika ana.",
+      "Ko nga mea katoa e tohu ana i te kaiwhakamahi takitahi o te hangarau awhina me te kore whakaaetanga.",
+      "Nga korerorero Raw Discord, ki te kore he korero motuhake e nekehia ana ki roto i te rekoata kaupapa a te iwi."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Pānuitia atu",
+      "title": "Ko te whakahaere te pukapuka ture kei muri i ēnei pūkete"
+    },
+    "paragraphs": [
+      "Mēnā e hiahia ana koe ki te mārama me pēhea te whakaaetanga o ngā kaupapa, te rokiroki, te whakawhiti rānei, pānuihia te whārangi whakahaere."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.readGovernance",
+        "href": "/governance/",
+        "variant": "primary"
+      }
+    ]
+  }
+}

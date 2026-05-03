@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Mai i te hiahia uru ki te repo tūmatanui",
+    "lead": "Ka awhina te IATF i nga hononga, nga roopu, me nga takitahi ki te huri i nga hiahia urunga pono ki nga kaupapa puna tuwhera a te iwi.",
+    "support": [
+      "Ka whakaputahia nga kaupapa i whakaaetia i roto i te whakahaere IATF GitHub i raro i te raihana copyleft ka whakawhanakehia i te iwi whanui e tetahi kaiwhakangungu kawenga."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Tauira whakahaere tūmatanui",
+      "title": "He ara tūmatanui māmā mō te pūmanawa māmā"
+    },
+    "paragraphs": [
+      "Ma te puka, ka taea e tetahi te tuku i tetahi raru uru ki te IATF. Ki te taea e te roopu te tango, ka whakatuwherahia he putunga GitHub a te iwi mo te mahi.",
+      "Kei ia kaupapa whakaaetia he kāinga tūmatanui mārama mō te waehere, take, tuhinga, me te tuku, ki te whanaketanga arahina i roto i te tuwhera e te kaipūkaha kawenga."
+    ],
+    "specCard": {
+      "title": "Tauira whakahaere tūmatanui",
+      "terms": [
+        {
+          "term": "Te hiahia",
+          "definition": "Te raruraru pono o te uru atu"
+        },
+        {
+          "term": "Arotake",
+          "definition": "Te tika o te misioni me te whaihua o te mahi"
+        },
+        {
+          "term": "Te wāhi o te kaupapa",
+          "definition": "Ko te putunga GitHub tūmatanui"
+        },
+        {
+          "term": "Te whakahaeretanga",
+          "definition": "Te mana whakahaere o te IATF"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Te tukanga",
+      "title": "Me pēhea te mahi",
+      "intro": "Ka noho te tauira ki te iti kia ngāwari ai te whai i te ara tūmatanui."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "Ka tukuna he hiahia",
+        "paragraphs": [
+          "Ka taea e tētahi rōpū, rōpū, takitahi rānei te tuku tono e hāngai ana ki tētahi hiahia wātea tūturu.",
+          "Ka taea e ngā tono te tīmata mā te paetukutuku, mā te īmēra ki <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, mā Discord rānei."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "Ka arotakehia e te IATF",
+        "paragraphs": [
+          "Ka arotakehia e mātou te tika o te misioni, te whānuitanga o te mahi, ā, mēnā kei roto te mahi i tētahi kaupapa puna tuwhera tūmatanui."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Ka waihangahia he whare putunga tūmatanui",
+        "paragraphs": [
+          "Mena ka whakaaetia he kaupapa, ka whakaputaina i roto i te whakahaere IATF GitHub i raro i te raihana copyleft.",
+          "Ko te whare putunga ka noho hei whare whanui mo te waehere, nga take, nga tuhinga, me nga tuku."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "He kaipūkaha whai kawenga e ārahi ana i te kaupapa",
+        "paragraphs": [
+          "Ka whakawhiwhia he kaipūkaha kawenga ki te putunga kaupapa me te whanaketanga ka tupu i te aroaro o te iwi."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehita",
+      "title": "Rehita kaupapa tūmatanui"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tīmata mai i konei",
+      "title": "Te tirotiro i ngā mahi o nāianei, te tīmata rānei i tētahi kaupapa tūturu"
+    },
+    "paragraphs": [
+      "Whakamahia te rēhita ki te kite he aha te mea e tūmatanui ana, ka tīmata rānei i te kai mēnā ka riro he kaupapa i tētahi raruraru urutaunga tūturu."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

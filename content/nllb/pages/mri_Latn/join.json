@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Hono atu ki te IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Hono atu ki te IATF",
+    "lead": "Kei te tuwhera te mema. He maha nga huarahi hei whakauru atu, ahakoa ka whakawhirinaki koe ki te hangarau awhina, te hanga raupaparorohiko e waatea ana, te whakamaori, te whakamatautau, te pupuri ranei i tetahi kaupapa. Ko nga korerorero me nga whakatau ka puta i te iwi whanui i runga i te GitHub me Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Ngā tūranga",
+      "title": "Ngā huarahi ki te āwhina"
+    },
+    "items": [
+      "<strong>Tonoa tētahi kaupapa.</strong> Mēnā ka tūtaki koe i tētahi ārai urutaunga e taea ana te whakatika mā te pūmanawa puna tuwhera tūmatanui, tukuna atu mā te tono whakauru.",
+      "<strong>Te whakamātautau me te arotake.</strong> Whakamātauria ngā kaupapa IATF me te hangarau āwhina e whakamahia ana e koe, pūrongo he aha te mahi me te aha e kore, me te kōnae take tika i runga i te rokiroki e hāngai ana.",
+      "<strong>Whakamāoritia.</strong> Ko te ihirangi pūtake ka whakaputaina i te reo Ingarihi noa i te tuatahi. Ka taapirihia nga whakamaoritanga i te wa e waatea ana nga kaitoha, ka tiimata me te Paniora.",
+      "<strong>Ka hanga.</strong> Tangohia nga take i roto i tetahi whare putunga IATF, tukuna nga tono tango, ka tango ranei i tetahi kaupapa hei kaiwhakangungu kawenga.",
+      "<strong>Kia mau tonu.</strong> I ētahi wā e hiahia ana ngā kaupapa o nāianei ki tētahi kaiwhakarato hou. Ko te hurihanga o te kaiwhakahaere he wāhanga noa o te tauira, ehara i te mea motuhake."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Ngā awa",
+      "title": "Kei hea te IATF e mahi ana i te tūmatanui"
+    },
+    "items": [
+      "<strong>Ko GitHub.</strong> Ngā take, ngā tono tiki, ngā whakaputanga, me ngā pūkete kaupapa.",
+      "<strong>He tautohetohe.</strong> He korerorero ora, he whakakotahitanga, me ngā pātai tūmataiti.",
+      "<strong>He īmēra.</strong> Whakamahia <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> ki te kore e rite te GitHub me te Discord."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Hipanga e whai ake nei",
+      "title": "Whiriwhiria te hongere e ōrite ana ki te āhua e hiahia ana koe ki te āwhina"
+    },
+    "paragraphs": [
+      "Ka whakawhiwhia ngā hongere katoa ki te arotake tūmatanui kotahi, ki ngā rokiroki tūmataiti kotahi."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

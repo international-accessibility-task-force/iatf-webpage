@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Te āhei ki te uru atu",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Te āhei ki te uru atu",
+    "lead": "Ko te IATF e whai ana ki te pupuri i tenei paetukutuku kia ngawari, kia panui, kia uru ki te papapātuhi, kia hototahi ki nga hangarau awhina.",
+    "support": [
+      "Mo te uru atu ki te paetukutuku, ka whakamahia e te IATF [W3C WAI](https://www.w3.org/WAI/) Kei te mōhio hoki te wātea mahi i te wheako tika o ngā kaiwhakamahi o ngā hangarau āwhina."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Te pūrongo",
+      "title": "Te pūrongo i tētahi take e pā ana ki te āhei ki te uru atu"
+    },
+    "paragraphs": [
+      "Mēnā ka kitea e koe tētahi ārai uru ki tēnei paetukutuku, tēnā pūrongo mai mā te īmēra:",
+      "{{contact.accessibilityEmail}}",
+      "Ko ngā pūrongo whai hua ko:"
+    ],
+    "items": [
+      "te whārangi i puta ai te take",
+      "te mea i ngana koe ki te mahi",
+      "he aha te hangarau āwhina, te pūtirotiro, te pūrere rānei i whakamahia e koe, mēnā e tika ana",
+      "he aha te mea i hē",
+      "he aha te āwhina"
+    ],
+    "footnote": "Kaore koe e hiahia ki te tuhi i tētahi pūrongo hapa ā-ture."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Te whakahaere",
+      "title": "Te whakahaere i ngā take tūmatanui"
+    },
+    "paragraphs": [
+      "Ka taea te whakarāpopoto i ngā take e pā ana ki te wātea i roto i te rokiroki tūmatanui e hāngai ana kia taea ai te whakatika i a rātou i te tuwhera. Ka tangohia ngā taipitopito whakapā whaiaro me ngā mōhiohio tūmataiti e kore e hiahiatia i mua i te whakaputanga.",
+      "Mēnā kei roto i tō pūrongo he mōhiohio tūmataiti, me kī mārama i roto i te karere."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Te āhua o nāianei",
+      "title": "Ngā herenga e mōhiotia ana"
+    },
+    "paragraphs": [
+      "He iti noa iho te rahi o tēnei pae, ā, ko te nuinga o te wā he pūmau."
+    ]
+  }
+}

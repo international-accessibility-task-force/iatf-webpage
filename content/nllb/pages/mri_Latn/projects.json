@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Ngā kaupapa āheinga tūmatanui",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Ngā kaupapa āheinga tūmatanui",
+    "lead": "E whakarārangitia ana e tēnei rēhita ngā kaupapa tūmatanui e whakahaerehia ana mā te IATF. E kitea ana ngā kaupapa urutaunga kua whakaaetia, ngā hanganga pae, me ngā tauira pūranga i konei.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Rehita",
+      "title": "Rehita o nāianei"
+    },
+    "intro": [
+      "Ka whakarārangitia ngā kaupapa kua whakaaetia ki konei ina whakaputaina."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "Tukuna he hiahia",
+      "title": "Hurihia he hiahia āta wātea ki roto i tētahi kaupapa tūmatanui"
+    },
+    "paragraphs": [
+      "Ka arotakehia e te IATF nga hiahia whaihua mo te uru atu ka taea te huri hei mahi puna tuwhera a te iwi whanui."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Kāore he kaupapa i whakaputaina i tēnei wā",
+    "paragraphs": [
+      "Kei te whakarite a IATF i tana huinga kaupapa tūmatanui tuatahi.",
+      "Ka taea tonu e koe te tuku tono mēnā he hiahia tūturu tōu mō te wātea."
+    ]
+  }
+}

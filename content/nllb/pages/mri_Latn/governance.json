@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Te whakahaere me te tauira rokiroki",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Te whakahaere me te tauira rokiroki",
+    "lead": "Ko te IATF e pupuri ana i nga kaupapa uru ki te iwi whanui, ka taea te panui, me te pupuri.",
+    "support": [
+      "E whakamārama ana tēnei whārangi he aha te mea e āhei ana, me pēhea te pupuri i ngā rokiroki, ā, he aha ngā kawenga i te taumata rokira e pā ana i muri i te whakaaetanga."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Ngā ture",
+      "title": "Te tika o te misioni, te mana, te raihana"
+    },
+    "cards": [
+      {
+        "title": "He rite ki te misioni",
+        "paragraphs": [
+          "Ka whakaae a IATF ki nga mahi e aro ana ki te aukati pono o te uru atu me te uara a te iwi whanui.",
+          "Me whai hua te kaupapa i tua atu i te rerenga mahi tūmataiti kotahi, me te mahi hei whare putunga tūmatanui.",
+          "Mo te uru atu ki te paetukutuku, ka whakamahia e te IATF [W3C WAI](https://www.w3.org/WAI/) Ko te wheako tika o nga kaiwhakamahi o nga hangarau awhina he tohu mahi ano hoki mo nga mea e mahi ana i roto i te whakamahinga pono."
+        ]
+      },
+      {
+        "title": "Te whakaaetanga o te kaupapa",
+        "paragraphs": [
+          "Ka whakaaetia tētahi tono mēnā ka whakaaturia mai i te arotake:"
+        ],
+        "items": [
+          "e whakatutuki ana i tētahi hiahia wātea tūturu",
+          "he mārama te raruraru kia taea ai te aromatawai",
+          "he tino tūturu te whānuitanga ki te whakarewa",
+          "e ōrite ana te mahi ki te misioni IATF",
+          "he huarahi whaitake ki te tiaki, ki te whakaoti rānei"
+        ]
+      },
+      {
+        "title": "Te mana o te whare putunga",
+        "paragraphs": [
+          "Ko nga kaupapa kua whakaaetia ka hangaia i raro i te whakahaere IATF GitHub.",
+          "Ka noho tonu ngā whare rokiroki ki reira kia mau tonu ai ia kaupapa ki tētahi whare tūmatanui pūmau, ahakoa ka huri ngā kaitiaki i muri mai."
+        ]
+      },
+      {
+        "title": "Whakaaetanga raihana",
+        "paragraphs": [
+          "Ka whakamahia e nga kaupapa IATF te raihana copyleft ki te kore e kii ke te kaupapa:"
+        ],
+        "items": [
+          "<strong>Waehere:</strong> Ko te AGPL-3.0",
+          "<strong>Tuhinga:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Kaiwhakahaere pūkaha, kaiwhakarato rānei",
+      "paragraphs": [
+        "Ko ia kaupapa e whakaaetia ana me whai ingoa he kaipūkaha kawenga, he kaitiaki ranei. Ka taea e taua tangata te uru atu ki te whare putunga me te tumanako kia:"
+      ],
+      "items": [
+        "aratohu whanaketanga i roto i te tūmatanui",
+        "te pupuri i te hanganga rokiroki",
+        "arotake whakahaere take, me te tiki tono",
+        "tuhi i ngā whakataunga hangarau nui",
+        "kia mārama te kaupapa ki ētahi atu"
+      ],
+      "footnote": "He kawenga tenei mo te taumata putunga. Kei te noho tonu te mana whakahaere ki te IATF. Ko te kawenga i konei ko te tiaki putunga, te aratohu hangarau, me te whakakotahitanga o te iwi  ehara i te tuku tūmataiti mutunga kore, whakauru ritenga, me nga whakataunga taumata ratonga i waho o te mahere huarahi a te iwi."
+    },
+    "publicDevelopment": {
+      "title": "Te whanaketanga tūmatanui",
+      "paragraphs": [
+        "Ko nga kaupapa i whakarewahia i roto i te IATF ka whakawhanakehia i te iwi whanui ma te taunoa. Ko te putunga te puna pono mo:"
+      ],
+      "items": [
+        "waehere pūtake",
+        "ngā take",
+        "tuhinga",
+        "tuhipoka mahere ara",
+        "hītori tuku"
+      ],
+      "footnote": "Ko te mātauranga kaupapa nui kaua e noho anake i roto i ngā kōrerorero tūmataiti, i ngā pouaka īmēra rānei."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ngā pūkete tūmatanui",
+      "title": "Ngā pūkete tono tūmatanui"
+    },
+    "paragraphs": [
+      "IATF mahi i roto i te tūmatanui i te taunoa. tono e tomo IAT F i te paetukutuku, īmēra, Discord, GitHub, ranei i ētahi atu ara IATf kia riro i ngā pūkete tono tūmataiti.",
+      "Ko te rekoata tono tūmatanui ehara ko te karere taketake. Ka taea e te IATF te whakarāpopoto, te whakatika, te whakariterite ranei i tetahi tono i mua i te whakaputanga kia taea ai te arotake i te hiahia uru atu me te kore e whakaatu i nga korero whaiaro kore.",
+      "Ka taea te penapena i nga rekoata tono a te iwi i roto i te whakahaere IATF GitHub, i runga i tenei paetukutuku, i nga mea e rua ranei.",
+      "I mua i te whakaputanga, ka tangohia e te IATF nga korero whakapiri whaiaro kore, nga wahitau whaiaro, me nga taipitopito tautuhi mo nga kaiwhakamahi takitahi o nga hangarau awhina, ki te kore e marama te whakaaro me te tika.",
+      "Kei te whakamahia Discord mō te tautohe mōhiohio. e kore IATF wehe pūranga kōrerorero Discord i te taunoa, me te pupuri karere e whakahaeretia e Discord. kia whakarāpopoto whakatau i hanga i roto i Discord ki te pūkete tūmatanui i runga i GitHub ranei i te whārangi kaupapa e hāngai ana.",
+      "Ko nga rekoata tono kaore i te whakariterite i te miihini rapu i te mea e tika ana. Ko te tikanga a te iwi whanui ka taea te arotake me te kaute. Kaore i te tikanga kua pai ake mo te kitenga ma te rapu ingoa.",
+      "Ka taea e te IATF te whakahou, te tango ranei i nga rekoata mai i nga papa whanui e whakahaerehia ana e ia, engari kaore e taea te whakamana i te tangohanga mai i te hunga tuatoru, nga whakamohiotanga, nga forks, nga screenshots, nga miihini rapu, Discord, me etahi atu punaha o waho.",
+      "Ki te hiahia te karere ki te noho tūmataiti, kaua e tuku i te reira i roto i ara tūmatanui IATF."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Te tūranga whakahaere",
+      "title": "He nohoanga"
+    },
+    "lead": "Ko te tumuaki kei te whakahaere i te taumata whakahaere o te IATF. He rereke tenei mai i te mahi a te kaipūkaha e whakahaere ana i ia kaupapa: ko te tiamana te kawenga mo te whakahaere katoa, kaua mo te aratohu o ia ra ki ia ra.",
+    "duties": {
+      "title": "He aha te mahi a te tūru",
+      "items": [
+        "E pupuri ana i ngā whakaaetanga rangatira i runga i te whakahaere IATF GitHub",
+        "Te waitohu i runga i te whakaaetanga kaupapa me ngā whakataunga rokiroki",
+        "Ka mahi hei wāhi whakapā tūmatanui mō te IATF",
+        "Ka whakarite i te pōtitanga ā-tau"
+      ],
+      "footnote": "Kāore te tumuaki i te herea i te IATF ki te tuku tūmataiti, te mahi utu, te kirimana taumata ratonga rānei, ā, kāhore hoki e takahi i ngā whakataunga a te kaitiaki o ia rokiroki e pā ana ki te aronga hangarau."
+    },
+    "election": {
+      "title": "Te pōtitanga ā-tau",
+      "paragraphs": [
+        "Ka pootihia te tumuaki kotahi i te tau. Ka rere te pooti i nga wiki tuatahi e rua o Tihema, ka panuitia nga hua i te Tihema 15, ka tiimata te waa hou i te Hanuere 1.",
+        "Ko ngā kaitono e āhei ana ki te pōti ko ngā tāngata i mau i tētahi tūranga kaitiaki i runga i tētahi pūranga IATF i roto i te tau, ā, i hanga i te iti rawa i tētahi takoha whakakotahi ki te pūranga o te IAT F i taua tau. He pōti kotahi mā ia kaitono āhei. Ka wikitōria te kaitono whai i te nuinga o ngā pōti; i te wā e ōrite ana, ka tū tētahi rōnaki tuarua i te wiki tuatoru o Hakihea.",
+        "Ka whakahaerehia te pōtitanga hei Kōrerorero GitHub tūmatanui i roto i te whare putunga whakahaere IATF kua tohua, na reira ko nga kaitono, te pooti, me te hua he waahanga katoa o te rekoata a te iwi."
+      ]
+    },
+    "continuity": {
+      "title": "Te haere tonu",
+      "paragraphs": [
+        "Mena kaore he pooti i whakahaerehia i roto i tetahi tau, ka haere tonu te tuuru o naianei ki te mahi tae noa ki te pooti e whai ake nei. He haere tonu tenei, ehara i te waa whakamana  ko te tauira kua hoahoahia kia mau tonu te whakahaere i te wa e iti ana te mahi, kaua ki te akiaki i te whakawhitinga kaore he tangata e rite ana.",
+        "Ka taea e te tumuaki te haere atu i tetahi wa. Ka taea hoki e nga kaitiaki kaha te karanga i tetahi pooti ohorere me te take i whakahuatia, i raro i nga ture rite ki te pooti a-tau."
+      ]
+    },
+    "current": {
+      "title": "Tumuaki o nāianei",
+      "fields": [
+        {
+          "label": "He nohoanga",
+          "value": "whakangahau",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Te wā",
+          "value": "Tae noa ki te pōtitanga o Hakihea 2026"
+        },
+        {
+          "label": "Kua whakatakotoria te tūranga",
+          "value": "2026"
+        },
+        {
+          "label": "Ko te pōtitanga tuatahi kua whakaritea",
+          "value": "Hakihea 2026"
+        }
+      ]
+    },
+    "footnote": "I whakatūria te tūranga tumuaki i te tau 2026 kia mārama ai te whakahaere i te taumata whakahaere."
+  },
+  "continuity": {
+    "states": {
+      "title": "Ngā āhuatanga o te kaupapa",
+      "paragraphs": [
+        "Ka whakamahia e ngā kaupapa tētahi huinga iti o ngā kāwanatanga tūmatanui:"
+      ],
+      "items": [
+        "Whakataunga",
+        "Ka whakaaetia",
+        "Ka whai pānga",
+        "He pūmau",
+        "E rapu ana i te kaitiaki",
+        "Ngā pūranga"
+      ],
+      "footnote": "Mā ēnei kāwanatanga e ngāwari ai te tirotiro i te rēhita."
+    },
+    "reassignment": {
+      "title": "Reassignment me te rokiroki",
+      "paragraphs": [
+        "Mena ka wehe atu tetahi kaitautoko, ka kore ranei e mahi, ka taea e te IATF te whakawhiwhi i te kawenga, te whakamutu i te whanaketanga, te tuhi ranei i te kaupapa.",
+        "Ka taea hoki te rokiroki i tētahi kaupapa mēnā kua tutuki te hiahia taketake, kua mutu te tiaki, kāore rānei e taea te mahi tonu."
+      ],
+      "footnote": "Ka noho tūmatanui tonu ngā kaupapa pūranga ki te kore he take nui hei mahi kē atu."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Tuhipoka rohe",
+      "title": "He aha te IATF e kore e taurangi"
+    },
+    "items": [
+      "te tuku kiritaki tūmataiti",
+      "whakaaetanga taumata ratonga",
+      "whakaaetanga o ia tono",
+      "te tiaki wā roa mō ia kaupapa"
+    ],
+    "footnote": "He tauira rokiroki tūmatanui a IATF, ehara i te ratonga tuku tūmataiti."
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "paetukutuku IATF",
+    "summary": "Ko te pae tūmatanui mō te International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "I hiahiatia e te IATF tētahi whare tūmatanui pūmau e whakamārama ana i te tauira, e whakarārangitia ana ngā kaupapa, e tohu ana hoki i ngā kaitohutohu ki te taahiraa e whai ake nei.",
+    "why": "Ko te pae ko te tatau o mua tūmatanui o IATF. Kei te hanga te reira rite te kaupapa pūmau iti kia noho reira ngāwari ki te pānui i, te whakamaori, me te mau tonu i roto i te tuwhera.",
+    "scopeIn": [
+      "Ngā whārangi taunga tūmatanui e whakamārama ana i te tauira IATF",
+      "Te rēhita tūmatanui o ngā kaupapa IATF kua whakaaetia, kei te whakahaerehia, kua pūrangahia hoki me te tūnga, te kaitiaki, te rokiroki, me te whakaaturanga",
+      "He whārangi tono whakauru me te puka",
+      "Ngā whārangi whakahaere me te mārama",
+      "Pūtake Ingarihi me te hanganga kua rite mo te whakamaoritanga",
+      "Te whakatinanatanga tūmau i runga i Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Ngā wāhi mema tūmataiti, pūkete, rerenga takiuru rānei",
+      "Te manaaki i te waehere pūtake kaupapa, e noho ana i roto i te whare putunga o ia kaupapa",
+      "Kōrerorero wā-tūturu, e ora ana i roto i Discord",
+      "Te aroturuki take mo nga kaupapa takitahi, e noho ana i roto i te whare putunga GitHub o ia kaupapa"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "Ko te IATF selfie",
+    "summary": "He tauira IATF wawe, kua tiakina i muri i te taenga atu ki te waahi tuuturu.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Te tūhura wawe o tētahi taputapu e arotahi ana ki te āheitanga i raro i te kopare IATF.",
+    "why": "Kei te puritia te repository tūmatanui rite te pūkete o te mahi, ahakoa kua mutu te whanaketanga hohe.",
+    "scopeIn": [
+      "He tauira tōmua o tētahi taputapu e arotahi ana ki te uru atu, e puritia ana hei pūkete tūmatanui"
+    ],
+    "scopeOut": [
+      "Te whanaketanga kaha, te mahi āhuatanga rānei",
+      "Ko ngā here tiaki",
+      "Te whakamahinga tūtohutia i roto i te hanga"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "Ko te IATF bot",
+    "summary": "He bot hapori IATF, kua tiakina i muri i te taenga atu ki te waahi tuuturu.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automation huri noa i ngā hongere hapori IATF.",
+    "why": "Kei te puritia te repository tūmatanui rite te pūkete o te mahi, ahakoa kua mutu te whanaketanga hohe.",
+    "scopeIn": [
+      "Ko te mahi aunoa o te tautohetohe huri noa i nga hongere hapori IATF, i puritia hei rekoata a te iwi"
+    ],
+    "scopeOut": [
+      "Te whanaketanga kaha, te mahi āhuatanga rānei",
+      "Ko ngā here tiaki",
+      "Te whakamahinga tūtohutia i roto i te hanga"
+    ]
+  }
+]

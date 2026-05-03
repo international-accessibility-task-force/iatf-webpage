@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Kāore i kitea"
+  },
+  "hero": {
+    "eyebrow": "Kāore i kitea",
+    "title": "Kāore i kitea te whārangi i tonoa",
+    "lead": "Whakamahia ngā ara matua i raro nei ki te hoki ki te wāhi tūmatanui.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Te kāinga",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "Kāore te huarahi i tonoa e koe i te tīariari."
+    ],
+    "items": [
+      {
+        "label": "Te kāinga",
+        "href": "/"
+      },
+      {
+        "label": "Ngā kaupapa",
+        "href": "/projects/"
+      },
+      {
+        "label": "Whakauru mai",
+        "href": "/join/"
+      },
+      {
+        "label": "Te āhei ki te uru atu",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Te whakahaere",
+        "href": "/governance/"
+      },
+      {
+        "label": "Te mārama",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "Tonoa tētahi kaupapa wātea",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "Tonoa tētahi kaupapa wātea",
+    "lead": "Ka arotakehia e te IATF nga tono mo nga kaupapa urunga e ahu mai ana i te hiahia pono.",
+    "support": [
+      "Kāore koe e hiahia ana ki ngā whakaritenga katoa. He raruraru mārama, ko wai e pā ana, me te aha e mea nui ai hei tīmatanga."
+    ],
+    "actions": [
+      {
+        "label": "Tīmata i tētahi tono",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Whakamahia te Discord hei utu",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Ngā awa",
+      "title": "Kōwhiria te huarahi māmā rawa"
+    },
+    "intro": [
+      "Ka uru ngā ara katoa ki te arotake kotahi."
+    ],
+    "items": [
+      {
+        "label": "Paetukutuku",
+        "body": "Whakamahia te puka i raro nei hei tuku i tētahi tono kua whakaritea."
+      },
+      {
+        "label": "Īmēra",
+        "body": "Tukuna te tono ki {{contact.requestsEmail}}Ka taea e ngā tono īmēra te noho hei pūkete tono tūmatanui i muri i te arotake me te whakawātea."
+      },
+      {
+        "label": "Te whakahē",
+        "body": "Tīmata ki reira mēnā he māmā ake. Ka neke tonu te tono ki te arotake kotahi."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "I mua i te tuku tono",
+    "paragraphs": [
+      "IATF mahi i roto i te tūmatanui. Ka taea te whakarāpopoto tono, ka whakaputaina rite pūkete tono tūmataiti i te whakahaere GitHub IAT F, i runga i tenei paetukutuku, ranei e rua.",
+      "Kaua e whakaurua ngā wāhitau tūmataiti, ngā tau waea, ngā taipitopito hauora, ngā mōhiohio tautuhi rānei mō ngā kaiwhakamahi takitahi o ngā hangarau āwhina ki te kore e tika, ā, e pai ana koe ki te arotake a te IATF.",
+      "Ka tangohia e te IATF nga taipitopito whakapā whaiaro e kore e hiahiatia i mua i te whakaputa i nga rekoata tono."
+    ]
+  },
+  "review": {
+    "title": "Ngā tūmanako arotake",
+    "paragraphs": [
+      "Ko te tuku tono ehara i te mea ka whakaaetia.",
+      "Ka arotakehia e te IATF nga tono mo te tika o te misioni, te whaihua, te whai hua, me te mea kei roto te mahi i roto i te whare putunga a te iwi.",
+      "Ko etahi tono ka whakakahoretia, ka whakaroa, ka whakarerekehia ranei i mua i te whakaaetanga."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Puka tono",
+      "title": "Tukuna he tono"
+    },
+    "fields": [
+      {
+        "kind": "tāuru",
+        "name": "kaitono",
+        "label": "Ko tō ingoa, he whakahaere rānei",
+        "helper": "Ko wai e tono ana?"
+      },
+      {
+        "kind": "tīpakohia",
+        "name": "whakapāRoute",
+        "label": "Te ara whakapā e manakohia ana",
+        "helper": "Me pēhea te whai ake?",
+        "required": true,
+        "options": [
+          "Īmēra",
+          "Te whakahē"
+        ]
+      },
+      {
+        "kind": "tāuru",
+        "name": "Ngā taipitopito whakapā",
+        "label": "Ngā taipitopito whakapā",
+        "helper": "Wāhitau īmēra, Discord rānei mō te aroturuki.",
+        "placeholder": "Wāhitau īmēra, wāhitau Discord rānei",
+        "required": true
+      },
+      {
+        "kind": "tāuru",
+        "name": "te reo",
+        "label": "Ko te reo",
+        "helper": "Ko tō reo e manakohia ana, mēnā e tika ana.",
+        "value": "Ingarihi"
+      },
+      {
+        "kind": "wāhi kuputuhi",
+        "name": "raruraru",
+        "label": "He aha te raruraru e ngana ana koe ki te whakaoti?",
+        "helper": "Whakamāramatia te arai i roto i te reo mārama.",
+        "required": true
+      },
+      {
+        "kind": "wāhi kuputuhi",
+        "name": "Kaiwhakamahi pāngia",
+        "label": "Ko wai e pāngia ana?",
+        "helper": "Mā wai tēnei e āwhina?",
+        "required": true
+      },
+      {
+        "kind": "wāhi kuputuhi",
+        "name": "extraTuhinga o mua",
+        "label": "He horopaki anō",
+        "helper": "Tukuna atu ētahi atu mea e āwhina ana ki te whakamārama i te hiahia: he aha te take, ngā tauira, ngā tohutoro, tētahi whakaaro pūmanawa pakeke, ngā herenga wā rānei."
+      },
+      {
+        "kind": "tīpakohia",
+        "name": "openSourceWhakaaetanga",
+        "label": "He pai ki a koe te whanaketanga puna tuwhera tūmatanui?",
+        "helper": "Ko nga kaupapa i whakaaetia he putunga tūmatanui i raro i te IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Āe",
+          "Kāore",
+          "Kāore au i te tino mōhio"
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Ki te whakaaetia",
+      "title": "He aha te tikanga o te whakaaetanga"
+    },
+    "items": [
+      "he whare putunga tūmatanui i roto i te whakahaere IATF GitHub",
+      "he kaipūkaha kawenga i whakaritea ki te kaupapa",
+      "he raihana copyleft mō te waehere me ngā rauemi kaupapa",
+      "whanaketanga tūmatanui i roto i te putunga",
+      "he rārangi rēhita i runga i te pae IATF"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Tīmata i te kōrerorero",
+      "title": "He tono poto, mārama hoki hei tīmatanga"
+    },
+    "paragraphs": [
+      "Mēnā he hiahia tūturu tōu mō te āheitanga, ā, e whakaaro ana koe me noho hei kaupapa tūmatanui, tukuna mai ki a mātou."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

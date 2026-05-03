@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Mahere o te pae"
+  },
+  "hero": {
+    "eyebrow": "Ko te taupū",
+    "title": "Mahere o te pae",
+    "lead": "Ko ngā whārangi tūmatanui katoa i runga i te iatf.cc, i te wāhi kotahi."
+  },
+  "sections": [
+    {
+      "title": "Ngā whārangi matua",
+      "items": [
+        {
+          "label": "Te kāinga",
+          "href": "/"
+        },
+        {
+          "label": "Ngā kaupapa",
+          "href": "/projects/"
+        },
+        {
+          "label": "Tonoa tētahi kaupapa",
+          "href": "/propose/"
+        },
+        {
+          "label": "Te whakahaere",
+          "href": "/governance/"
+        },
+        {
+          "label": "Whakauru mai",
+          "href": "/join/"
+        },
+        {
+          "label": "Te āhei ki te uru atu",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Te mārama",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Ngā kaupapa",
+  "projectsEmpty": "Kāore he kaupapa i whakaputaina i tēnei wā."
+}
