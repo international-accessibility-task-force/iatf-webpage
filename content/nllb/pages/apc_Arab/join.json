@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "انضم لـ IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "انضم لـ IATF",
+    "lead": "العضوية مفتوحة. في كتير طرق للمشاركة، سواء كنت تعتمد على التكنولوجيا المساعدة، تبني برمجيات سهلة الوصول، بترجمة، تختبر، أو تحافظ على مشروع. المناقشات والقرارات بتتخذ علناً على جيت هوب وديسكورد.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "أدوار",
+      "title": "طرق للمساهمة"
+    },
+    "items": [
+      "<strong>طلب مشروع.</strong> إزا بتلاقي حاجز إمكانية الوصول اللي ممكن يتعالج بواسطة برمجيات مفتوحة المصدر العام، بعثها عن طريق استلام الطلبات.",
+      "<strong>اختبار ومراجعة.</strong> جرب مشاريع IATF مع التكنولوجيا المساعدة اللي بتستعمل، وأبلغ عن اللي بيشتغل و اللي مش، وإيداع المشكلات مباشرة على المستودع المعني.",
+      "<strong>ترجمي.</strong> المحتوى المصدر بيتنشر باللغة الإنجليزية البسيطة أولًا. بتتضاف الترجمات بعد ما يتوفروا المساهمين، بداية من الإسبانية.",
+      "<strong>بنوا.</strong> اخد مشاكل في أي مخزن IATF، ابعث طلبات سحب، أو خذ مشروع كمهندس مسؤول عنه.",
+      "<strong>حافظو.</strong> المشاريع الموجودة في بعض الأحيان بتحتاج عامل صيانة جديد. دورة عامل الصيانة هي جزء عادي من النموذج، مش استثناء."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "قنوات",
+      "title": "وين بيشتغل الـIATF علناً"
+    },
+    "items": [
+      "<strong>جيت هاب.</strong> قضايا، طلبات سحب، إصدارات، وسجلات المشروع.",
+      "<strong>اختلاف.</strong> مناقشة حية، تنسيق، وأسئلة غير رسمية.",
+      "<strong>بريد إلكتروني.</strong> إستعمال <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> إذا ما جات هوب ولا ديسكورد تناسب."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "الخطوة الجاية",
+      "title": "اختر القناة اللي بتطابق كيف بدك تساهم"
+    },
+    "paragraphs": [
+      "كل القنوات بتتغذى على نفس المراجعة العامة وعلى نفس المستودعات العامة."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

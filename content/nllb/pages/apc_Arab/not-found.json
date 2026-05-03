@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ما لاقيت"
+  },
+  "hero": {
+    "eyebrow": "ما لاقيت",
+    "title": "ما لقيت الصفحة المطلوبة",
+    "lead": "استعمل الطرق الأساسية تحت عشان ترجع للموقع العام.",
+    "support": [],
+    "actions": [
+      {
+        "label": "البيت",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "الطريق اللي طلبتو مش موجود."
+    ],
+    "items": [
+      {
+        "label": "البيت",
+        "href": "/"
+      },
+      {
+        "label": "مشاريع",
+        "href": "/projects/"
+      },
+      {
+        "label": "انضم",
+        "href": "/join/"
+      },
+      {
+        "label": "إمكانية الوصول",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حوكمة",
+        "href": "/governance/"
+      },
+      {
+        "label": "الشفافية",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

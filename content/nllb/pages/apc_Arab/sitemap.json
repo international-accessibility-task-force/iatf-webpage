@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "خريطة الموقع"
+  },
+  "hero": {
+    "eyebrow": "مؤشر",
+    "title": "خريطة الموقع",
+    "lead": "كل الصفحات العامة على آي إيه تي إف سي سي، بمكان واحد."
+  },
+  "sections": [
+    {
+      "title": "الصفحات الأساسية",
+      "items": [
+        {
+          "label": "البيت",
+          "href": "/"
+        },
+        {
+          "label": "مشاريع",
+          "href": "/projects/"
+        },
+        {
+          "label": "طلب مشروع",
+          "href": "/propose/"
+        },
+        {
+          "label": "حوكمة",
+          "href": "/governance/"
+        },
+        {
+          "label": "انضم",
+          "href": "/join/"
+        },
+        {
+          "label": "إمكانية الوصول",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "الشفافية",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "مشاريع",
+  "projectsEmpty": "بعد ما نشروا أي مشاريع."
+}
