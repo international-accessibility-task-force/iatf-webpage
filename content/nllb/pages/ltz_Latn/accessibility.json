@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "slug": "accessibility",
+    "currentPath": "/accessibility/",
+    "title": "Accessibilitéit",
+    "descriptionKey": "meta.accessibility.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.accessibility.eyebrow",
+    "title": "Accessibilitéit",
+    "lead": "D'IATF zielt dozou, datt dës Websäit einfach, liesbar, klavierbereet accessibel a kompatibel mat Hëllefstechnologien ass.",
+    "support": [
+      "Fir Web Accessibilitéit benotzt d'IATF [W3C WAI](https://www.w3.org/WAI/) D'praktesch Accessibilitéit gëtt och vun der direkter Erfahrung vun de Benotzer vun Hëllefstechnologien informéiert."
+    ],
+    "actions": []
+  },
+  "report": {
+    "header": {
+      "kicker": "Berichterstattung",
+      "title": "Rapportéiert e Problem mat der Accessibilitéit"
+    },
+    "paragraphs": [
+      "Wann Dir eng Accessibilitéitsbarrière op dëser Websäit fannt, mellt et w.e.g. per E-Mail un:",
+      "{{contact.accessibilityEmail}}",
+      "Nëtzlech Berichter enthalen:"
+    ],
+    "items": [
+      "d'Säit wou de Problem geschitt ass",
+      "wat Dir probéiert hutt ze maachen",
+      "wat fir eng Hëllefstechnologie, Browser oder Apparat Dir benotzt hutt, wann relevant",
+      "wat ass falsch gaangen",
+      "wat hätt gehollef"
+    ],
+    "footnote": "Dir braucht kee formelle Fehlerbericht ze schreiwen. Eng kloer Beschreiwung ass genuch."
+  },
+  "publicIssueHandling": {
+    "header": {
+      "kicker": "Handhabung",
+      "title": "Ëmgang mat ëffentlechen Themen"
+    },
+    "paragraphs": [
+      "Problemer mat der Accessibilitéit kënnen an der zoustänneger ëffentlecher Datebank zesummegefaasst ginn, sou datt se an der Ëffentlechkeet fixéiert kënne ginn.Perséinlech Kontaktdetailer an onnéideg privat Informatioun ginn virun der Verëffentlechung ewechgeholl.",
+      "Wann Äre Rapport perséinlech Informatioune enthält, da seet et kloer an der Noriicht."
+    ]
+  },
+  "knownLimitations": {
+    "header": {
+      "kicker": "Aktuell Zoustand",
+      "title": "Bekannte Begrenzungen"
+    },
+    "paragraphs": [
+      "Dëse Site ass bewosst kleng a meeschtens statesch. E puer Sproochversiounen kënnen onvollstänneg sinn wärend d'Iwwersetzungen virbereet ginn."
+    ]
+  }
+}

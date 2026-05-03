@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "slug": "governance",
+    "currentPath": "/governance/",
+    "title": "Gouvernance an Archivmodell",
+    "descriptionKey": "meta.governance.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.governance.eyebrow",
+    "title": "Gouvernance an Archivmodell",
+    "lead": "D'IATF hält Accessibilitéitsprojeten ëffentlech, liesbar an erhalbar.",
+    "support": [
+      "Dës Säit erkläert wat qualifizéiert, wéi Repositories gehale ginn, a wéi eng Verantwortung op Repository-Niveau gëllt no der Akzeptanz."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "baseline": {
+    "header": {
+      "kicker": "Regele",
+      "title": "Missioun Fit, Besëtz, Lizenzéierung"
+    },
+    "cards": [
+      {
+        "title": "Missioun passend",
+        "paragraphs": [
+          "D'IATF akzeptéiert d'Aarbecht, déi eng wierklech Barrière vun der Accessibilitéit adresséiert an e kloeren ëffentleche Wäert huet.",
+          "E Projet soll nëtzlech sinn ausser engem eenzege privaten Workflow an als ëffentleche Repository funktionnéiere kënnen.",
+          "Fir Web Accessibilitéit benotzt d'IATF [W3C WAI](https://www.w3.org/WAI/) D'direkte Erfahrung vun de Benotzer vun assistive Technologien ass och e praktesche Beweis fir wat am richtege Gebrauch funktionnéiert."
+        ]
+      },
+      {
+        "title": "Akzeptanz vum Projet",
+        "paragraphs": [
+          "Eng Propose kann akzeptéiert ginn, wann d'Iwwerpréiwung weist, datt:"
+        ],
+        "items": [
+          "et adresséiert e richtege Besoin un Accessibilitéit",
+          "d'Problem ass kloer genuch fir ze evaluéieren",
+          "den Ëmfang ass realistesch genuch fir ze starten",
+          "d'Aarbecht ass am Aklang mat der IATF-Missioun",
+          "et gëtt e plausiblen Wee fir Ënnerhalt oder Ofschloss"
+        ]
+      },
+      {
+        "title": "Eigentum vum Repositorium",
+        "paragraphs": [
+          "Akzeptéiert Projeten ginn ënnert der IATF GitHub Organisatioun erstallt.",
+          "D'Repositories bleiwen do, sou datt all Projet e stabilt ëffentlecht Doheem behält, och wann d'Betreiber spéider änneren."
+        ]
+      },
+      {
+        "title": "Lizenzéierung",
+        "paragraphs": [
+          "IATF Projeten benotzen Copyleft Lizenzéierung ausser e Projet seet anescht:"
+        ],
+        "items": [
+          "<strong>Code:</strong> AGPL-3.0",
+          "<strong>Dokumentatioun:</strong> CC BY-SA 4.0"
+        ]
+      }
+    ]
+  },
+  "operations": {
+    "maintainer": {
+      "title": "Responsabel Ingenieur oder Ënnerhalter",
+      "paragraphs": [
+        "All akzeptéiert Projet soll e verantwortlechen Ingenieur oder Ënnerhalter hunn. Dës Persoun kann Admin Zougang zum Repository kréien an et gëtt erwaart:"
+      ],
+      "items": [
+        "Guide Entwécklung an der ëffentlecher",
+        "d'Repository-Struktur z'erhalen",
+        "iwwerpréiwen oder verwalten Themen an Zuch Ufroen",
+        "Dokumentéiert wichteg technesch Entscheedungen",
+        "d'Projekt fir anerer verständlech ze halen"
+      ],
+      "footnote": "Dëst ass d'Verantwortung op Repository-Niveau. Organisatoresch Propriétéit bleift bei der IATF. Verantwortung hei ass Repositories Stewardship, technesch Richtung, an ëffentlech Koordinatioun  net onlimitéiert privat Liwwerung, personaliséiert Integratiounen, oder Service-Level Engagementer ausserhalb vun der ëffentlecher Roadmap."
+    },
+    "publicDevelopment": {
+      "title": "Ëffentlech Entwécklung",
+      "paragraphs": [
+        "De Repository ass déi ëffentlech Quell vun der Wourecht fir:"
+      ],
+      "items": [
+        "Quellcode",
+        "Themen",
+        "Dokumentatioun",
+        "Roadmap Notizen",
+        "Verëffentlechungsgeschicht"
+      ],
+      "footnote": "Wichteg Projektkenntnisser sollten net nëmmen a privaten Chats oder Inboxen liewen."
+    }
+  },
+  "requestRecords": {
+    "header": {
+      "kicker": "Ëffentlech Dossieren",
+      "title": "Ëffentlech Demande Rekorder"
+    },
+    "paragraphs": [
+      "D'IATF funktionnéiert am ëffentlechen Ëmfeld als Standard. Ufroen, déi duerch d'Websäit, d'E-Mail, Discord, GitHub oder aner IATF Kanäl an d'IATF erakommen, kënnen ëffentlech Ufuerderunge ginn.",
+      "IATF kann eng Demande virun der Verëffentlechung resuméieren, redigéieren oder restrukturéieren, sou datt d'Accessibilitéitsbedierfnesser iwwerschafft kënne ginn ouni onnéideg perséinlech Informatioun auszesetzen.",
+      "Ëffentlech Ufro Rekorder kënnen an der IATF GitHub Organisatioun gespäichert ginn, op dëser Websäit, oder béid.",
+      "Virun der Verëffentlechung läscht d'IATF onnéideg perséinlech Kontaktdetailer, privat Adressen an identifizéierend Detailer iwwer individuell Benotzer vun Hëllefstechnologien ewech, ausser d'Verëffentlechtung ass kloer beabsichtigt an entspriechend.",
+      "Discord gëtt fir informell Koordinatioun benotzt. IATF archivéiert net separat Discord Gespréicher als Standard, an d'Message Retention gëtt vum Discord kontrolléiert. Entscheedungen, déi am Discord gemaach ginn, sollten an de ëffentleche Rekord op GitHub oder op der relevanter Projet Säit zesummegefaasst ginn.",
+      "Ëffentlech heescht iwwerpréifbar a verantwortlech. Et heescht net optimiséiert fir Entdeckung duerch Numm Sich.",
+      "D'IATF kann Rekorder aus IATF-kontrollierten ëffentlechen Uewerflächen aktualiséieren oder ewechhuelen, awer kann net garantéieren datt se aus Caches vun Drëttparteien, Notifikatiounen, Forks, Screenshots, Sichmotoren, Discord oder aner extern Systemer ewechgeholl ginn.",
+      "Wann eng Noriicht privat muss bleiwen, schéckt se net duerch IATF ëffentlech Kanäl."
+    ]
+  },
+  "chair": {
+    "header": {
+      "kicker": "Organisatoresch Roll",
+      "title": "Sëtz"
+    },
+    "lead": "De President huet d'Verwaltung vun der IATF op Organisatiounsniveau. Dëst ass ënnerschiddlech vun der Roll vum pro Projet verantwortleche Ingenieur: de President ass verantwortlech fir d'Organisatioun als Ganzt, net fir déi alldeeglech Leedung vun engem eenzege Repository.",
+    "duties": {
+      "title": "Wat de Stull mécht",
+      "items": [
+        "Hält Besëtzer Permissiounen op der IATF GitHub Organisatioun",
+        "Ënnerschreiwe fir d'Akzeptanz vum Projet an d'Archivéierungsentscheedungen",
+        "Wierkt als ëffentlech Kontaktpunkt fir den IATF",
+        "Koordinéiert déi alljährlech Wahl"
+      ],
+      "footnote": "De President verflicht d'IATF net zu privater Liwwerung, bezuelte Aarbecht oder Service-Level-Ofkommes, an iwwerhëlt net d'Decisiounen pro Repository-Maintenant iwwer technesch Leedung."
+    },
+    "election": {
+      "title": "Alljährlech Wahlen",
+      "paragraphs": [
+        "De President gëtt eemol d'Joer gewielt. D'Wahle ginn an den éischten zwou Wochen vum Dezember ofgehalen, d'Resultater ginn bis den 15.Dezember ugekënnegt, an déi nei Amtszäit fänkt den 1.Januar un.",
+        "De Kandidat mat de meeschte Stëmmen gewënnt; am Fall vun engem Tie gëtt e Runoff an der drëtter Woch vum Dezember ofgehalen.",
+        "D'Wahlen ginn als ëffentlech GitHub Diskussioun am designéierte IATF Governance Repository ausgefouert, sou datt d'Kandidaten, de Vote an d'Resultat all Deel vum ëffentleche Rekord sinn."
+      ]
+    },
+    "continuity": {
+      "title": "Kontinuitéit",
+      "paragraphs": [
+        "Wann an engem bestëmmte Joer keng Wahlen stattfannen, bleift den aktuelle President bis zu den nächste Wahlen an der Roll. Dëst ass eng onbestëmmte Fortsetzung, net eng Grace Period  de Modell ass entwéckelt fir d'Organisatioun stabil ze halen wann d'Aktivitéit niddereg ass, net fir en Iwwergang ze forcéieren fir deen keen prett ass.",
+        "De President kann zu all Moment demissionéieren.Active Maintainer kënnen och eng ausseruerdentlech Wahl mat engem uginnene Grond ausrufen, déi ënnert de selwechte Regele wéi déi alljährlech Wahlen ofgehale gëtt."
+      ]
+    },
+    "current": {
+      "title": "Aktuell President",
+      "fields": [
+        {
+          "label": "Sëtz",
+          "value": "mugiwarafx",
+          "href": "https://github.com/mugiwarafx"
+        },
+        {
+          "label": "Begrëff",
+          "value": "Bis zu de Wahlen am Dezember 2026"
+        },
+        {
+          "label": "Roll formaliséiert",
+          "value": "2026"
+        },
+        {
+          "label": "Éischt geplangte Wahlen",
+          "value": "Dezember 2026"
+        }
+      ]
+    },
+    "footnote": "D'Roll vum President gouf am Joer 2026 formaliséiert fir d'Verwaltung op Organisatiounsniveau explizit ze maachen."
+  },
+  "continuity": {
+    "states": {
+      "title": "Status vum Projet",
+      "paragraphs": [
+        "D'Projeten benotzen eng kleng Rei vun ëffentlechen Zoustänn:"
+      ],
+      "items": [
+        "Virschlag",
+        "Akzeptéiert",
+        "Aktiv",
+        "Stabil",
+        "No Ënnerhalter sichen",
+        "Archivéiert"
+      ],
+      "footnote": "Dës Staaten halen d'Register einfach ze scannen."
+    },
+    "reassignment": {
+      "title": "Reassignatioun an Archivéierung",
+      "paragraphs": [
+        "Wann en Ënnerhalter fortgeet oder inaktiv gëtt, kann d'IATF d'Verantwortung nei zouweisen, d'Entwécklung pauséieren oder de Projet archivéieren.",
+        "E Projet kann och archivéiert ginn, wann den urspréngleche Besoin erfëllt gouf, d'Ënnerhalt gestoppt ass oder d'Fortsetzung vun der Aarbecht net méi realistesch ass."
+      ],
+      "footnote": "Archivéiert Projeten bleiwen ëffentlech sichtbar, ausser et gëtt e zwéngende Grond fir anescht ze maachen."
+    }
+  },
+  "boundaries": {
+    "header": {
+      "kicker": "Grenznot",
+      "title": "Wat d'IATF net garantéiert"
+    },
+    "items": [
+      "Privat Client Liwwerung",
+      "Service Niveau Ofkommes",
+      "Akzeptanz vun all Virschlag",
+      "laangfristeg Ënnerhalt fir all Projet"
+    ],
+    "footnote": "IATF ass en ëffentleche Repository Modell, net e private Liwwerungsservice."
+  }
+}

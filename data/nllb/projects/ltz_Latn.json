@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "iatf-website",
+    "title": "IATF Websäit",
+    "summary": "Déi ëffentlech Websäit vun der International Accessibility Task Force.",
+    "status": "active",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/iatf-website",
+    "demo": "https://iatf.cc",
+    "license": "AGPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "D'IATF huet e stabilt ëffentlecht Doheem gebraucht, dat de Modell erkläert, d'Projeten oplist an d'Bedeeleger op de richtege nächste Schrëtt weist.",
+    "why": "De Site ass déi ëffentlech Haapttür vum IATF. Et ass als e klengt statescht Projet gebaut, sou datt et einfach ass ze liesen, ze iwwersetzen an an der Ëffentlechkeet z'erhalen.",
+    "scopeIn": [
+      "Ëffentlech Landungssäiten déi den IATF Modell erklären",
+      "Ëffentlech Register vun akzeptéierte, aktive an archivéierte IATF-Projeten mat Status, Ënnerhalter, Repository an Demo",
+      "Eng Demande Entrée Säit an e Formulaire",
+      "Gouvernance an Transparenz Säiten",
+      "Englesch Quell mat Struktur prett fir d'Iwwersetzung",
+      "Static Deployment op Cloudflare Workers Static Assets"
+    ],
+    "scopeOut": [
+      "Privat Membereberäicher, Konten oder Login-Flows",
+      "Hosting vum Projet Quellcode, deen am eegene Repository vun all Projet lieft",
+      "Echtzäit Chat, deen am Discord lieft",
+      "Issue Tracking fir eenzel Projeten, déi am GitHub Repository vun all Projet liewen"
+    ]
+  },
+  {
+    "slug": "archived-iatf-selfie",
+    "title": "IATF Selfie",
+    "summary": "E fréien IATF Prototyp, archivéiert nodeems en en natierleche Stopppunkt erreecht huet.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-selfie",
+    "license": "Apache-2.0",
+    "primaryLanguage": "English",
+    "problem": "Fréi Exploratioun vun engem Zougänglechkeetsfokuséierte Tool ënner dem IATF Regenschirm.",
+    "why": "D'Repository gëtt als Rekord vun der Aarbecht ëffentlech gehalen, och wann déi aktiv Entwécklung gestoppt ass.",
+    "scopeIn": [
+      "Fréi Prototyp vun engem Zougänglechkeetsorientéierte Tool, dat als ëffentleche Rekord gehale gëtt"
+    ],
+    "scopeOut": [
+      "Aktiv Entwécklungs- oder Feature-Aarbecht",
+      "Ënnerhaltverpflichtungen",
+      "Recommandéiert Gebrauch an der Produktioun"
+    ]
+  },
+  {
+    "slug": "archived-iatf-bot",
+    "title": "IATF Bot",
+    "summary": "En IATF-Community-Bot, archivéiert nodeems en en natierleche Stopppunkt erreecht huet.",
+    "status": "archived",
+    "maintainer": "mugiwarafx",
+    "maintainerUrl": "https://github.com/mugiwarafx",
+    "repository": "https://github.com/international-accessibility-task-force/archived-iatf-bot",
+    "license": "GPL-3.0",
+    "primaryLanguage": "English",
+    "problem": "Automatiséierung ronderëm IATF Gemeinschaftskanäl.",
+    "why": "D'Repository gëtt als Rekord vun der Aarbecht ëffentlech gehalen, och wann déi aktiv Entwécklung gestoppt ass.",
+    "scopeIn": [
+      "Discord Automatiséierung ronderëm IATF Gemeinschaftskanäl, als ëffentleche Rekord gehal"
+    ],
+    "scopeOut": [
+      "Aktiv Entwécklungs- oder Feature-Aarbecht",
+      "Ënnerhaltverpflichtungen",
+      "Recommandéiert Gebrauch an der Produktioun"
+    ]
+  }
+]

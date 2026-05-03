@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "currentPath": "/sitemap/",
+    "title": "Sitemap"
+  },
+  "hero": {
+    "eyebrow": "Index",
+    "title": "Sitemap",
+    "lead": "All ëffentlech Säit op iatf.cc, op enger Plaz."
+  },
+  "sections": [
+    {
+      "title": "Haaptsäiten",
+      "items": [
+        {
+          "label": "Heem",
+          "href": "/"
+        },
+        {
+          "label": "Projeten",
+          "href": "/projects/"
+        },
+        {
+          "label": "E Projet ufroen",
+          "href": "/propose/"
+        },
+        {
+          "label": "Gouvernance",
+          "href": "/governance/"
+        },
+        {
+          "label": "Matmaachen",
+          "href": "/join/"
+        },
+        {
+          "label": "Accessibilitéit",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Transparenz",
+          "href": "/transparency/"
+        }
+      ]
+    }
+  ],
+  "projectsTitle": "Projeten",
+  "projectsEmpty": "Nach keng Projeten publizéiert."
+}

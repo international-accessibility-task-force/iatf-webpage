@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "slug": "propose",
+    "currentPath": "/propose/",
+    "title": "En Accessibilitéitsprojet ufroen",
+    "descriptionKey": "meta.propose.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.propose.eyebrow",
+    "title": "En Accessibilitéitsprojet ufroen",
+    "lead": "D'IATF iwwerpréift Ufroen fir Accessibilitéitsprojete, déi aus engem richtege Besoin ausgoen.",
+    "support": [
+      "Dir braucht keng vollstänneg Spezifikatioun. E klore Problem, wien et beaflosst, a firwat et wichteg ass, ass genuch fir unzefänken."
+    ],
+    "actions": [
+      {
+        "label": "Eng Demande starten",
+        "href": "#request-form",
+        "variant": "primary"
+      },
+      {
+        "label": "Benotzt Discord amplaz",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanäl",
+      "title": "Wielt déi einfachst Route"
+    },
+    "intro": [
+      "All Routen ginn an déi selwecht Iwwerpréiwung agefouert."
+    ],
+    "items": [
+      {
+        "label": "Websäit",
+        "body": "Benotzt de Formular hei ënnendrënner fir eng strukturéiert Demande ofzeginn."
+      },
+      {
+        "label": "E-Mail",
+        "body": "Schéckt d'Demande direkt un: {{contact.requestsEmail}}E-Mail Ufroen kënnen ëffentlech Ufro records ginn no Iwwerpréiwung an Redaktioun."
+      },
+      {
+        "label": "Ënnerscheed",
+        "body": "Fänkt do un, wann dat am einfachsten ass. D'Ufro geet nach ëmmer an déi selwecht Iwwerpréiwung."
+      }
+    ]
+  },
+  "guidance": {
+    "title": "Ier Dir eng Demande schéckt",
+    "paragraphs": [
+      "IATF schafft an der ëffentlecher Ëffentlechkeet.",
+      "Gitt net privat Adressen, Telefonsnummeren, medizinesch Detailer oder identifizéierend Informatioun iwwer individuell Benotzer vun Hëllefstechnologien, ausser et ass noutwendeg an Dir sidd bequem mat der IATF fir se z'iwwerpréiwen.",
+      "D'IATF läscht onnéideg perséinlech Kontaktdetailer virum Verëffentlechen vun Ufroen."
+    ]
+  },
+  "review": {
+    "title": "Iwwerpréiwen Erwaardungen",
+    "paragraphs": [
+      "D'Aféierung vun enger Demande garantéiert net d'Akzeptanz.",
+      "IATF iwwerpréift Ufroen fir Missioun Fit, Machbarkeet, Nëtzlechkeet, an ob d'Aarbecht an engem ëffentleche Repository gehéiert.",
+      "E puer Ufroen kënne refuséiert, ofgesat oder nei forméiert ginn ier se akzeptéiert ginn."
+    ]
+  },
+  "form": {
+    "header": {
+      "kicker": "Formular vun der Demande",
+      "title": "Eng Demande maachen"
+    },
+    "fields": [
+      {
+        "kind": "Input",
+        "name": "Demandeur",
+        "label": "Äre Numm oder Är Organisatioun",
+        "helper": "Wien mécht d'Demande?"
+      },
+      {
+        "kind": "wielt",
+        "name": "KontaktRoute",
+        "label": "Preferéiert Kontaktroute",
+        "helper": "Wéi soll d'Follow-up stattfannen?",
+        "required": true,
+        "options": [
+          "E-Mail",
+          "Ënnerscheed"
+        ]
+      },
+      {
+        "kind": "Input",
+        "name": "Kontaktdetailer",
+        "label": "Kontaktdetailer",
+        "helper": "E-Mail Adress oder Discord Adress fir Follow-up.",
+        "placeholder": "E-Mail Adress oder Discord Adress",
+        "required": true
+      },
+      {
+        "kind": "Input",
+        "name": "Sprooch",
+        "label": "Sprooch",
+        "helper": "Är bevorzugte Sprooch, wann relevant.",
+        "value": "Englesch"
+      },
+      {
+        "kind": "Textberäich",
+        "name": "Problem",
+        "label": "Wat fir e Problem probéiert Dir ze léisen?",
+        "helper": "Beschreift d'Barrière an enger einfacher Sprooch.",
+        "required": true
+      },
+      {
+        "kind": "Textberäich",
+        "name": "betraffe Benotzer",
+        "label": "Wien ass betraff?",
+        "helper": "Wien hätt dat gehollef?",
+        "required": true
+      },
+      {
+        "kind": "Textberäich",
+        "name": "extraKontext",
+        "label": "Extra Kontext",
+        "helper": "Deelt alles wat hëlleft de Besoin z'erklären: firwat et wichteg ass, Beispiller, Referenzen, eng grousst Software Iddi, oder Zäitbeschränkungen."
+      },
+      {
+        "kind": "wielt",
+        "name": "openSourceConsent",
+        "label": "Komfortabel mat der ëffentlecher Open Source Entwécklung?",
+        "helper": "Akzeptéiert Projeten sinn ëffentlech Repositories ënner IATF.",
+        "fullWidth": true,
+        "required": true,
+        "options": [
+          "Jo, sou ass et.",
+          "Nee",
+          "Ech weess et nach net."
+        ]
+      }
+    ]
+  },
+  "accepted": {
+    "header": {
+      "kicker": "Wann akzeptéiert",
+      "title": "Wat Akzeptanz bedeit"
+    },
+    "items": [
+      "en ëffentleche Repository an der IATF GitHub Organisatioun",
+      "e verantwortleche Ingenieur, deen dem Projet zougewisen ass",
+      "eng copyleft Lizenz fir de Code an d'Projetmaterial",
+      "ëffentlech Entwécklung am Repository",
+      "eng Registrierung op der IATF-Websäit"
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fänkt d'Gespréich un",
+      "title": "Eng kuerz, kloer Demande ass genuch fir unzefänken"
+    },
+    "paragraphs": [
+      "Wann Dir e richtege Besoin un Accessibilitéit hutt an denkt datt et e ëffentleche Projet soll ginn, schéckt eis et."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

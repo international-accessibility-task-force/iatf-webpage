@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "Net fonnt"
+  },
+  "hero": {
+    "eyebrow": "Net fonnt",
+    "title": "Déi gefrot Säit gouf net fonnt",
+    "lead": "Benotzt d'Haaptstroossen ënnendrënner fir op de ëffentleche Site zréckzekommen.",
+    "support": [],
+    "actions": [
+      {
+        "label": "Heem",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "D'Route, déi Dir gefrot hutt, existéiert net."
+    ],
+    "items": [
+      {
+        "label": "Heem",
+        "href": "/"
+      },
+      {
+        "label": "Projeten",
+        "href": "/projects/"
+      },
+      {
+        "label": "Matmaachen",
+        "href": "/join/"
+      },
+      {
+        "label": "Accessibilitéit",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "Gouvernance",
+        "href": "/governance/"
+      },
+      {
+        "label": "Transparenz",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}

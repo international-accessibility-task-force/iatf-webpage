@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "slug": "projects",
+    "currentPath": "/projects/",
+    "title": "Ëffentlech Accessibilitéitsprojeten",
+    "descriptionKey": "meta.projects.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.projects.eyebrow",
+    "title": "Ëffentlech Accessibilitéitsprojeten",
+    "lead": "Dëst Register listéiert ëffentlech Projeten, déi duerch d'IATF gepflegt ginn. Akzeptéiert Accessibilitéitsprojeten, Infrastruktur vum Site, an archivéiert Prototypen ginn hei sichtbar gehal.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrierung",
+      "title": "Aktuell Register"
+    },
+    "intro": [
+      "Déi ugeholl Projeten ginn hei opgelëscht, wann se publizéiert ginn."
+    ]
+  },
+  "cta": {
+    "header": {
+      "kicker": "E Besoin virleeën",
+      "title": "Konkret Accessibilitéitsbedierfnesser an en ëffentlecht Projet ëmzewandelen"
+    },
+    "paragraphs": [
+      "IATF iwwerpréift konkret Accessibilitéitsbedierfnesser, déi an nëtzlech ëffentlech Open Source Wierker ëmgewandelt kënne ginn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "emptyState": {
+    "title": "Nach keng Projeten publizéiert",
+    "paragraphs": [
+      "D'IATF bereet säin éischte ëffentleche Projet vir.",
+      "Dir kënnt nach ëmmer eng Demande schécken, wann Dir e konkrete Besoin un Accessibilitéit hutt."
+    ]
+  }
+}

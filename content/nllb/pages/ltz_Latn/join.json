@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "slug": "join",
+    "currentPath": "/join/",
+    "title": "Member vun der IATF",
+    "descriptionKey": "meta.join.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.join.eyebrow",
+    "title": "Member vun der IATF",
+    "lead": "D'Memberschaft ass oppen. Et gi verschidde Weeër fir matzemaachen, egal ob Dir op Assistenztechnologie vertraut, zougänglech Software baut, iwwersat, testen oder e Projet erhalen. Diskussiounen a Entscheedungen geschéien ëffentlech op GitHub an Discord.",
+    "support": [],
+    "actions": [
+      {
+        "labelKey": "contact.github",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "contact.discord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "ways": {
+    "header": {
+      "kicker": "Rollen",
+      "title": "Weeër fir ze bäidroen"
+    },
+    "items": [
+      "<strong>Eng Demande fir e Projet.</strong> Wann Dir eng Accessibilitéitsbarrière entdeckt, déi vun der ëffentlecher Open Source Software adresséiert ka ginn, schéckt se duerch den Ufro-Intake.",
+      "<strong>Test an Iwwerpréiwung.</strong> Probéiert IATF Projeten mat der Hëllefstechnologie déi Dir benotzt, bericht wat funktionnéiert a wat net, a Fichier Probleemer direkt op de relevante Repository.",
+      "<strong>Iwwersetzen.</strong> D'Quelltext gëtt fir d'éischt op Englesch publizéiert.",
+      "<strong>Bauen.</strong> Huelt Probleemer an all IATF Repository, schéckt Pull-Ufroen, oder hëlt e Projet als säin verantwortleche Ingenieur un.",
+      "<strong>Ënnerstëtzt.</strong> Existéierend Projeten brauchen heiansdo en neien Ënnerhalter. Ënnerhaltrotatioun ass en normale Bestanddeel vum Modell, net eng Ausnahm."
+    ]
+  },
+  "channels": {
+    "header": {
+      "kicker": "Kanäl",
+      "title": "Wou den IATF an der Ëffentlechkeet schafft"
+    },
+    "items": [
+      "<strong>GitHub.</strong> Problemer, Pull-Ufroen, Verëffentlechungen, a Projet records.",
+      "<strong>Ënnerscheed.</strong> Live Diskussioun, Koordinatioun, an informell Froen.",
+      "<strong>E-Mail.</strong> Gebrauch <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a> wann weder GitHub nach Discord passt."
+    ]
+  },
+  "closing": {
+    "header": {
+      "kicker": "Nächst Schrëtt",
+      "title": "Wielt de Kanal dee passt wéi Dir wëllt bäidroen"
+    },
+    "paragraphs": [
+      "All Kanäl gi vun der selwechter ëffentlecher Iwwerpréiwung an de selwechte ëffentleche Repositories gefiddert."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.visitGithub",
+        "href": "{{contact.githubOrgUrl}}",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.joinDiscord",
+        "href": "{{contact.discordUrl}}",
+        "variant": "secondary"
+      }
+    ]
+  }
+}

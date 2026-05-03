@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "slug": "",
+    "currentPath": "/",
+    "titleKey": "site.title",
+    "descriptionKey": "meta.home.description"
+  },
+  "hero": {
+    "eyebrowKey": "hero.home.eyebrow",
+    "title": "Vun der Bedierfness vun der Accessibilitéit bis zu ëffentleche Repos",
+    "lead": "D'IATF hëlleft Associatiounen, Gruppen an Eenzelpersounen, déi wierklech Zougänglechkeetsbedierfnesser an ëffentlech Open Source Projeten ëmzesetzen.",
+    "support": [
+      "Akzeptéiert Projeten ginn an der IATF GitHub Organisatioun ënner enger Copyleft Lizenz publizéiert an ëffentlech vun engem verantwortleche Ingenieur entwéckelt."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "model": {
+    "header": {
+      "kicker": "Ëffentlech Operatiounsmodell",
+      "title": "En einfachen ëffentleche Wee fir zougänglech Software"
+    },
+    "paragraphs": [
+      "Duerch e Formulaire kann jiddereen en Zougänglechkeetsproblem un d'IATF ofginn. Wann d'Team et kann ophuelen, gëtt e ëffentleche GitHub Repository fir d'Aarbecht opgemaach.",
+      "All akzeptéiert Projet huet eng kloer ëffentlech Heem fir Code, Themen, Dokumentatioun a Verëffentlechungen, mat Entwécklung déi an der Ëffentlechkeet vun engem verantwortleche Ingenieur gefouert gëtt."
+    ],
+    "specCard": {
+      "title": "Ëffentlech Operatiounsmodell",
+      "terms": [
+        {
+          "term": "Bedierfnes",
+          "definition": "Real Problem vun der Accessibilitéit"
+        },
+        {
+          "term": "Iwwerpréiwung",
+          "definition": "Missiounsfäegkeet a praktesch Machbarkeet"
+        },
+        {
+          "term": "Projetraum",
+          "definition": "Ëffentlech GitHub Repository"
+        },
+        {
+          "term": "Stewardship",
+          "definition": "IATF organisatoresch Propriétéit"
+        }
+      ]
+    }
+  },
+  "process": {
+    "header": {
+      "kicker": "Prozess",
+      "title": "Wéi et funktionnéiert",
+      "intro": "D'Modell bleift bewosst kleng sou datt de ëffentleche Wee einfach ass ze verfollegen."
+    },
+    "steps": [
+      {
+        "index": "01",
+        "title": "E Besoin gëtt virgestallt",
+        "paragraphs": [
+          "Eng Associatioun, eng Grupp oder eng Persoun kann eng Demande maachen, déi op engem richtege Besoin un Accessibilitéit baséiert.",
+          "D'Demande kann iwwer d'Websäit oder per E-Mail op <a href=\"mailto:contact@iatf.cc\">contact@iatf.cc</a>, oder duerch Discord."
+        ]
+      },
+      {
+        "index": "02",
+        "title": "IATF iwwerpréift et",
+        "paragraphs": [
+          "Mir iwwerpréiwen d'Missioun, de prakteschen Ëmfang, an ob d'Aarbecht zu engem ëffentlechen Open Source Projet gehéiert."
+        ]
+      },
+      {
+        "index": "03",
+        "title": "Eng ëffentlech Datebank gëtt erstallt",
+        "paragraphs": [
+          "Wann e Projet ugeholl gëtt, gëtt et an der IATF GitHub Organisatioun ënner enger Copyleft Lizenz publizéiert.",
+          "D'Repository gëtt den ëffentlechen Heem vum Code, Themen, Dokumentatioun a Verëffentlechungen."
+        ]
+      },
+      {
+        "index": "04",
+        "title": "E verantwortleche Ingenieur féiert de Projet",
+        "paragraphs": [
+          "E verantwortleche Ingenieur gëtt dem Projet Repository zougewisen an d'Entwécklung geschitt an der Ëffentlechkeet."
+        ]
+      }
+    ]
+  },
+  "registry": {
+    "header": {
+      "kicker": "Registrierung",
+      "title": "Ëffentlech Projetregister"
+    }
+  },
+  "closing": {
+    "header": {
+      "kicker": "Fänkt hei un",
+      "title": "Iwwerpréift aktuell Aarbecht oder fänkt e konkreten Projet un"
+    },
+    "paragraphs": [
+      "Benotzt d'Register fir ze kucken, wat schonn ëffentlech ass, oder fänkt d'Intake un, wann e konkreten Accessibilitéitsproblem zu engem Projet soll ginn."
+    ],
+    "actions": [
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.proposeProject",
+        "href": "/propose/",
+        "variant": "secondary"
+      }
+    ]
+  }
+}
