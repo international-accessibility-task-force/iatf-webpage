@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "currentPath": "/404.html",
+    "title": "ما عُثر عليه"
+  },
+  "hero": {
+    "eyebrow": "ما عُثر عليه",
+    "title": "الصفحة المطلوبة ما عُثر عليها",
+    "lead": "استخدموا الطرق الرئيسية بالاسفل عشان ترجعوا للموقع العام.",
+    "support": [],
+    "actions": [
+      {
+        "label": "بمنزلي",
+        "href": "/",
+        "variant": "primary"
+      },
+      {
+        "labelKey": "actions.viewProjects",
+        "href": "/projects/",
+        "variant": "secondary"
+      }
+    ]
+  },
+  "body": {
+    "paragraphs": [
+      "الطريق اللي طلبتيه ماوجودش."
+    ],
+    "items": [
+      {
+        "label": "بمنزلي",
+        "href": "/"
+      },
+      {
+        "label": "المشاريع",
+        "href": "/projects/"
+      },
+      {
+        "label": "انضم",
+        "href": "/join/"
+      },
+      {
+        "label": "إمكانية الوصول",
+        "href": "/accessibility/"
+      },
+      {
+        "label": "حوكمة",
+        "href": "/governance/"
+      },
+      {
+        "label": "الشفافية",
+        "href": "/transparency/"
+      }
+    ]
+  }
+}
